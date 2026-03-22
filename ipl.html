@@ -764,15 +764,32 @@ document.addEventListener('DOMContentLoaded', () => {
         };
     });
 
-    // Side Menu
-    const sideMenu = document.getElementById('sideMenu');
-    document.getElementById('menuToggle').onclick = () => sideMenu.classList.add('active');
-    document.getElementById('closeMenu').onclick = () => sideMenu.classList.remove('active');
-    document.addEventListener('click', (e) => {
-        if (sideMenu.classList.contains('active') && !sideMenu.contains(e.target) && e.target.id !== 'menuToggle') {
-            sideMenu.classList.remove('active');
-        }
-    });
+    // SIDE MENU - FIXED
+const menuToggle = document.getElementById('menuToggle');
+const sideMenu = document.getElementById('sideMenu');
+const closeMenuBtn = document.getElementById('closeMenu');
+
+// Open menu
+menuToggle.onclick = function(e) {
+    e.stopPropagation();
+    sideMenu.classList.add('active');
+};
+
+// Close menu
+closeMenuBtn.onclick = function(e) {
+    e.stopPropagation();
+    sideMenu.classList.remove('active');
+};
+
+// Close menu when clicking outside
+document.addEventListener('click', function(e) {
+    if (sideMenu.classList.contains('active') && 
+        !sideMenu.contains(e.target) && 
+        e.target !== menuToggle && 
+        !menuToggle.contains(e.target)) {
+        sideMenu.classList.remove('active');
+    }
+});
 
     // FAQ Accordion
     document.querySelectorAll('.faq-question').forEach(btn => {
