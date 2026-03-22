@@ -1882,16 +1882,43 @@
                 }
             };
 
-            // SIDE MENU
-            const sideMenu = document.getElementById('sideMenu');
-            document.getElementById('menuToggle').onclick = () => sideMenu.classList.add('active');
-            document.getElementById('closeMenu').onclick = () => sideMenu.classList.remove('active');
-            document.addEventListener('click', e => {
-                if (sideMenu.classList.contains('active') && !sideMenu.contains(e.target) && e.target.id !== 'menuToggle') {
-                    sideMenu.classList.remove('active');
-                }
-            });
+// SIDE MENU - FIXED
+const sideMenu = document.getElementById('sideMenu');
+const menuToggle = document.getElementById('menuToggle');
+const closeMenuBtn = document.getElementById('closeMenu');
 
+// Open menu
+if (menuToggle) {
+    menuToggle.onclick = function(e) {
+        e.stopPropagation();
+        sideMenu.classList.add('active');
+    };
+}
+
+// Close menu with close button
+if (closeMenuBtn) {
+    closeMenuBtn.onclick = function(e) {
+        e.stopPropagation();
+        sideMenu.classList.remove('active');
+    };
+}
+
+// Close menu when clicking outside
+document.addEventListener('click', function(e) {
+    if (sideMenu && sideMenu.classList.contains('active')) {
+        // Check if click is outside the menu and not on the menu toggle button
+        if (!sideMenu.contains(e.target) && e.target !== menuToggle && !menuToggle.contains(e.target)) {
+            sideMenu.classList.remove('active');
+        }
+    }
+});
+
+// Prevent menu from closing when clicking inside the menu
+if (sideMenu) {
+    sideMenu.addEventListener('click', function(e) {
+        e.stopPropagation();
+    });
+        }
             // NOTIFICATION PANEL
             const notifPanel = document.getElementById('notificationPanel');
             document.getElementById('notificationBtn').onclick = () => notifPanel.classList.add('active');
