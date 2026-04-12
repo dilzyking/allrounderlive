@@ -857,23 +857,7 @@
     </div>
   </div>
 
-  <!-- EMBED CARD -->
-  <div class="card">
-    <div class="card-title">Embed on Your Site</div>
-    <div class="embed-code-box">
-      <code id="embedCode" class="embed-code">&lt;iframe src="[loading]" width="100%" height="600" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</code>
-      <button class="embed-copy-btn" id="embedCopyBtn" title="Copy embed code">
-        <svg viewBox="0 0 24 24"><path d="M16 4h2a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2M9 9h6M9 13h6M9 17h3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
-      </button>
-    </div>
-    <div class="share-note">
-      <svg viewBox="0 0 24 24"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zM12 8v4M12 16h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
-      Copy and paste this code into your website HTML
-    </div>
-  </div>
-
-</div>
-
+  
 <div class="footer">© 2025 DILLZY · Live Entertainment Platform</div>
 
 <script>
@@ -926,31 +910,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   };
 
-  // ─── EMBED CODE ───
-  const embedCodeElement = document.getElementById("embedCode");
-  const embedCopyBtn = document.getElementById("embedCopyBtn");
   
-  // Generate embed code with current URL
-  const currentUrl = window.location.href;
-  const embedCode = `<iframe src="${currentUrl}" width="100%" height="600" frameborder="0" allowfullscreen></iframe>`;
-  embedCodeElement.textContent = embedCode;
-
-  // Copy embed code
-  embedCopyBtn.onclick = function () {
-    navigator.clipboard.writeText(embedCode).then(() => {
-      const originalText = toast.textContent;
-      toast.textContent = "✓ Embed code copied";
-      toast.classList.add("show");
-      setTimeout(() => {
-        toast.classList.remove("show");
-        setTimeout(() => {
-          toast.textContent = originalText;
-        }, 300);
-      }, 3000);
-    });
-  };
-
-});
 </script>
 
 </body>
