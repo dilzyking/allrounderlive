@@ -781,17 +781,13 @@
 document.addEventListener("DOMContentLoaded", function () {
 
   // ─── MODAL ───
-  const modal = document.getElementById("joinModal");
   document.getElementById("modalJoin").onclick = function () {
-    window.open("https://t.me/+3oHQdBPpK3plZTg1", "_blank");
-    modal.style.animation = "fadeOut 0.3s ease forwards";
-    setTimeout(() => modal.remove(), 300);
-  };
-  document.getElementById("modalSkip").onclick = function () {
-    modal.style.animation = "fadeOut 0.3s ease forwards";
-    setTimeout(() => modal.remove(), 300);
-  };
+  window.location.href = "https://t.me/+3oHQdBPpK3plZTg1";
+};
 
+document.getElementById("modalSkip").onclick = function () {
+  modal.remove(); // instant clean remove
+};
   // ─── PLAYER ───
   const params = new URLSearchParams(window.location.search);
   const id = params.get("id");
