@@ -129,6 +129,29 @@
             background: #12172e;
             min-height: 52px;
         }
+        .odds-scroll {
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+}
+
+.odds-table {
+    min-width: 650px; /* force horizontal scroll */
+}
+        .runner-row,
+.odds-table-header {
+    min-width: 650px;
+}
+        .odds-scroll {
+    display: block;
+        }
+        .runner-name-col {
+    position: sticky;
+    left: 0;
+    background: #12172e;
+    z-index: 2;
+        }
         .runner-row:hover { background: #1a2040; }
 
         .runner-name-col { padding: 8px 0; }
@@ -744,22 +767,23 @@ function renderMatchOdds() {
         });
 
         div.innerHTML = `
-            <div class="section-header">
-                <span>${escHtml(market.marketName)}</span>
-                <span style="font-size:10px;color:rgba(255,255,255,0.7);">Min: ₹${market.min_stake_limit} | Max: ₹${market.inplay_stake_limit?.toLocaleString()}</span>
-            </div>
-            <div class="odds-table">
-                <div class="odds-table-header">
-                    <span></span>
-                    <span class="back-lbl">← BACK</span>
-                    <span class="lay-lbl">LAY →</span>
-                </div>
-                ${runnersHTML}
-            </div>`;
-        container.appendChild(div);
-    });
-}
+    <div class="section-header">
+        <span>${escHtml(market.marketName)}</span>
+        <span style="font-size:10px;color:rgba(255,255,255,0.7);">
+            Min: ₹${market.min_stake_limit} | Max: ₹${market.inplay_stake_limit?.toLocaleString()}
+        </span>
+    </div>
 
+    <div class="odds-scroll">  <!-- ✅ ADD THIS -->
+        <div class="odds-table">
+            <div class="odds-table-header">
+                <span></span>
+                <span class="back-lbl">← BACK</span>
+                <span class="lay-lbl">LAY →</span>
+            </div>
+            ${runnersHTML}
+        </div>
+    </div>`;
 // ============ BOOKMAKERS ============
 function renderBookmakers() {
     const container = document.getElementById("bookmakersContainer");
