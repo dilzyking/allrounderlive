@@ -845,17 +845,19 @@
                     `;
 
                     // ADD CLICK HANDLER - REQUIRE LOGIN
-                    div.addEventListener("click", function() {
-                        const userId = localStorage.getItem("userId");
-                        if (!userId) {
-                            showMessage("Please login to place bets", true);
-                            openModal("loginModal");
-                        } else {
-                            showMessage("Match details: " + match.event_name);
-                            // You can navigate to match details page here
-                        }
-                    });
+                    
+                     div.addEventListener("click", function() {
+    const userId = localStorage.getItem("userId");
 
+    if (!userId) {
+        showMessage("Please login to place bets", true);
+        openModal("loginModal");
+        return;
+    }
+
+    // ✅ REDIRECT TO MATCH PAGE
+    window.location.href = "match.html?eventId=" + match.event_id;
+});
                     container.appendChild(div);
                 });
 
