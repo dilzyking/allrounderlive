@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allrounder Live - Sports Betting</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: #0a0e27;
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        /* HEADER */
+        .header {
+            background: linear-gradient(135deg, #1a1f3a 0%, #0f1229 100%);
+            padding: 12px 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #d4a574;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #d4a574;
+            letter-spacing: 2px;
+        }
+
+        .logo-small {
+            font-size: 10px;
+            display: block;
+            color: #d4a574;
+        }
+
+        .auth-buttons {
+            display: flex;
+            gap: 12px;
+        }
+
+        .btn-auth {
+            padding: 8px 20px;
+            border: 2px solid #d4a574;
+            background: transparent;
+            color: #d4a574;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .btn-auth:hover {
+            background: #d4a574;
+            color: #0a0e27;
+        }
+
+        .btn-auth.login {
+            background: #d4a574;
+            color: #0a0e27;
+        }
+
+        /* MODAL */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 200;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        .modal-content {
+            background: #1a1f3a;
+            padding: 30px;
+            border-radius: 12px;
+            width: 90%;
+            max-width: 400px;
+            border: 2px solid #d4a574;
+        }
+
+        .modal-content h2 {
+            color: #d4a574;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 14px;
+            color: #b0b8d4;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            background: #0f1229;
+            border: 1px solid #d4a574;
+            border-radius: 6px;
+            color: #fff;
+            font-size: 14px;
+        }
+
+        .form-group input::placeholder {
+            color: #666;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: #f0ad4e;
+            box-shadow: 0 0 8px rgba(212, 165, 116, 0.3);
+        }
+
+        .btn-submit {
+            width: 100%;
+            padding: 12px;
+            background: #d4a574;
+            color: #0a0e27;
+            border: none;
+            border-radius: 6px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin-top: 10px;
+        }
+
+        .btn-submit:hover {
+            background: #f0ad4e;
+            transform: translateY(-2px);
+        }
+
+        .toggle-form {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 13px;
+            color: #b0b8d4;
+        }
+
+        .toggle-form button {
+            background: none;
+            border: none;
+            color: #d4a574;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+        .close-modal {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            background: none;
+            border: none;
+            color: #d4a574;
+            font-size: 28px;
+            cursor: pointer;
+        }
+
+        .modal-content {
+            position: relative;
+        }
+
+        /* MAIN CONTENT */
+        .main-content {
+            display: none;
+        }
+
+        .main-content.visible {
+            display: block;
+        }
+
+        /* BANNER */
+        .banner {
+            background: linear-gradient(135deg, #c41e3a 0%, #8b0000 100%);
+            padding: 16px;
+            margin: 16px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            color: #fff;
+        }
+
+        .banner-icon {
+            font-size: 32px;
+        }
+
+        .banner-text {
+            flex: 1;
+        }
+
+        .banner-text h3 {
+            font-size: 14px;
+            font-weight: 700;
+        }
+
+        /* SEARCH */
+        .search-bar {
+            margin: 16px;
+            position: relative;
+        }
+
+        .search-bar input {
+            width: 100%;
+            padding: 12px 16px;
+            background: #1a1f3a;
+            border: 1px solid #d4a574;
+            border-radius: 8px;
+            color: #fff;
+            font-size: 14px;
+        }
+
+        .search-bar input::placeholder {
+            color: #666;
+        }
+
+        /* NAVIGATION */
+        .nav-tabs {
+            display: flex;
+            gap: 8px;
+            margin: 0 16px 16px;
+            overflow-x: auto;
+            padding-bottom: 8px;
+        }
+
+        .nav-tabs::-webkit-scrollbar {
+            height: 4px;
+        }
+
+        .nav-tabs::-webkit-scrollbar-track {
+            background: #1a1f3a;
+        }
+
+        .nav-tabs::-webkit-scrollbar-thumb {
+            background: #d4a574;
+            border-radius: 4px;
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+            padding: 12px 16px;
+            background: #1a1f3a;
+            border: 2px solid transparent;
+            border-radius: 8px;
+            color: #b0b8d4;
+            cursor: pointer;
+            transition: all 0.3s;
+            white-space: nowrap;
+            font-size: 12px;
+        }
+
+        .nav-item:hover {
+            border-color: #d4a574;
+        }
+
+        .nav-item.active {
+            background: #d4a574;
+            color: #0a0e27;
+            border-color: #d4a574;
+        }
+
+        /* BALANCE */
+        .balance-section {
+            text-align: center;
+            padding: 16px;
+            background: #1a1f3a;
+            margin: 0 16px 16px;
+            border-radius: 8px;
+            border: 2px solid #d4a574;
+        }
+
+        .balance-section h3 {
+            font-size: 12px;
+            color: #b0b8d4;
+            margin-bottom: 8px;
+        }
+
+        .balance-amount {
+            font-size: 28px;
+            color: #d4a574;
+            font-weight: 700;
+        }
+
+        /* MATCHES LIST */
+        .matches-container {
+            padding: 16px;
+        }
+
+        .section-title {
+            color: #d4a574;
+            font-size: 14px;
+            font-weight: 700;
+            padding: 12px 0;
+            border-bottom: 2px solid #d4a574;
+            margin-bottom: 12px;
+        }
+
+        .match-row {
+            background: #1a1f3a;
+            border: 1px solid #2a3055;
+            border-radius: 8px;
+            margin-bottom: 12px;
+            overflow: hidden;
+        }
+
+        .match-header {
+            padding: 12px;
+            border-bottom: 1px solid #2a3055;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .match-name {
+            font-size: 14px;
+            font-weight: 700;
+            color: #fff;
+        }
+
+        .match-meta {
+            font-size: 11px;
+            color: #b0b8d4;
+            margin-top: 4px;
+        }
+
+        .match-status {
+            background: #28a745;
+            color: #fff;
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 700;
+        }
+
+        .match-odds {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 0;
+        }
+
+        .odd-item {
+            padding: 12px 8px;
+            text-align: center;
+            border-right: 1px solid #2a3055;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .odd-item:last-child {
+            border-right: none;
+        }
+
+        .odd-item:nth-child(odd) {
+            background: #0d7fbf;
+        }
+
+        .odd-item:nth-child(even) {
+            background: #c71e5a;
+        }
+
+        .odd-value {
+            font-size: 14px;
+            font-weight: 700;
+            color: #fff;
+        }
+
+        .odd-label {
+            font-size: 10px;
+            color: rgba(255, 255, 255, 0.7);
+            margin-top: 4px;
+        }
+
+        .odd-item:hover {
+            opacity: 0.85;
+        }
+
+        /* USER MENU */
+        .user-menu {
+            display: none;
+        }
+
+        .user-menu.visible {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .balance-display {
+            font-size: 14px;
+            color: #d4a574;
+            font-weight: 700;
+        }
+
+        .logout-btn {
+            padding: 8px 16px;
+            background: #c41e3a;
+            border: none;
+            color: #fff;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .logout-btn:hover {
+            background: #8b0000;
+        }
+
+        /* LOADER */
+        .loader {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 150;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .loader.active {
+            display: flex;
+        }
+
+        .spinner {
+            border: 4px solid #1a1f3a;
+            border-top: 4px solid #d4a574;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .message {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 16px 20px;
+            background: #28a745;
+            color: #fff;
+            border-radius: 6px;
+            z-index: 300;
+            animation: slideIn 0.3s ease;
+        }
+
+        .message.error {
+            background: #c41e3a;
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(400px);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .modal-content {
+                max-width: 95%;
+            }
+
+            .nav-item {
+                padding: 10px 12px;
+                font-size: 11px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- LOADER -->
+    <div class="loader" id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- AUTH MODALS -->
+    <div class="modal" id="signupModal">
+        <div class="modal-content">
+            <button class="close-modal" onclick="closeModal('signupModal')">&times;</button>
+            <h2>Create Account</h2>
+            <div class="form-group">
+                <label>Username</label>
+                <input type="text" id="signupUsername" placeholder="Enter username">
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" id="signupPassword" placeholder="Enter password">
+            </div>
+            <div class="form-group">
+                <label>Confirm Password</label>
+                <input type="password" id="signupConfirm" placeholder="Confirm password">
+            </div>
+            <button class="btn-submit" onclick="signup()">Create Account</button>
+            <div class="toggle-form">
+                Already have an account? <button onclick="switchModal('signupModal', 'loginModal')">Login</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <button class="close-modal" onclick="closeModal('loginModal')">&times;</button>
+            <h2>Login</h2>
+            <div class="form-group">
+                <label>Username</label>
+                <input type="text" id="loginUsername" placeholder="Enter username">
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" id="loginPassword" placeholder="Enter password">
+            </div>
+            <button class="btn-submit" onclick="login()">Login</button>
+            <div class="toggle-form">
+                Don't have an account? <button onclick="switchModal('loginModal', 'signupModal')">Sign Up</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <div class="header">
+        <div>
+            <div class="logo">
+                ALLROUNDER
+                <span class="logo-small">LIVE</span>
+            </div>
+        </div>
+        <div class="auth-buttons" id="authButtons">
+            <button class="btn-auth" onclick="openModal('signupModal')">Sign Up</button>
+            <button class="btn-auth login" onclick="openModal('loginModal')">Login</button>
+        </div>
+        <div class="user-menu" id="userMenu">
+            <div class="balance-display">₹<span id="headerBalance">0</span></div>
+            <button class="logout-btn" onclick="logout()">Logout</button>
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="main-content" id="mainContent">
+        <!-- BANNER -->
+        <div class="banner">
+            <div class="banner-icon">▶️</div>
+            <div class="banner-text">
+                <h3>Live Cricket Betting</h3>
+                <p>Best odds on all matches</p>
+            </div>
+        </div>
+
+        <!-- SEARCH -->
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search Events...">
+        </div>
+
+        <!-- NAV TABS -->
+        <div class="nav-tabs" id="navTabs">
+            <div class="nav-item active" data-category="all" onclick="filterCategory(this)">
+                🏠 Home
+            </div>
+            <div class="nav-item" data-category="cricket" onclick="filterCategory(this)">
+                🏏 Cricket
+            </div>
+            <div class="nav-item" data-category="football" onclick="filterCategory(this)">
+                ⚽ Football
+            </div>
+            <div class="nav-item" data-category="tennis" onclick="filterCategory(this)">
+                🎾 Tennis
+            </div>
+            <div class="nav-item" data-category="basketball" onclick="filterCategory(this)">
+                🏀 Basketball
+            </div>
+        </div>
+
+        <!-- BALANCE (only visible when logged in) -->
+        <div class="balance-section" id="balanceSection" style="display: none;">
+            <h3>Your Balance</h3>
+            <div class="balance-amount">₹<span id="balance">0</span></div>
+        </div>
+
+        <!-- MATCHES -->
+        <div class="matches-container">
+            <div class="section-title">LIVE MATCHES</div>
+            <div id="matchesList"></div>
+        </div>
+    </div>
+
+    <!-- FIREBASE -->
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+        import { getDatabase, ref, get, set, update } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js";
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyBEITIEDtG_Yq2iBlb7sjJWnnFIzE5C8r8",
+            authDomain: "fun-play-33764.firebaseapp.com",
+            databaseURL: "https://fun-play-33764-default-rtdb.asia-southeast1.firebasedatabase.app",
+            projectId: "fun-play-33764"
+        };
+
+        const app = initializeApp(firebaseConfig);
+        const db = getDatabase(app);
+
+        // CHECK IF USER IS ALREADY LOGGED IN
+        window.checkLogin = async function() {
+            const userId = localStorage.getItem("userId");
+            if (userId) {
+                try {
+                    const snap = await get(ref(db, "users/" + userId));
+                    if (snap.exists()) {
+                        document.getElementById("authButtons").style.display = "none";
+                        document.getElementById("userMenu").classList.add("visible");
+                        document.getElementById("balanceSection").style.display = "block";
+                        loadBalance();
+                        return true;
+                    }
+                } catch (e) {
+                    console.log("Login check failed:", e);
+                }
+            }
+            // NOT LOGGED IN - SHOW AUTH BUTTONS
+            document.getElementById("userMenu").classList.remove("visible");
+            document.getElementById("authButtons").style.display = "flex";
+            document.getElementById("balanceSection").style.display = "none";
+            return false;
+        };
+
+        // SIGNUP - AUTO LOGIN AFTER SIGNUP
+        window.signup = async function() {
+            const username = document.getElementById("signupUsername").value.trim();
+            const password = document.getElementById("signupPassword").value;
+            const confirm = document.getElementById("signupConfirm").value;
+
+            if (!username || !password || !confirm) {
+                showMessage("Please fill all fields", true);
+                return;
+            }
+
+            if (password !== confirm) {
+                showMessage("Passwords do not match", true);
+                return;
+            }
+
+            if (password.length < 6) {
+                showMessage("Password must be at least 6 characters", true);
+                return;
+            }
+
+            showLoader(true);
+
+            try {
+                const snap = await get(ref(db, "users/" + username));
+                if (snap.exists()) {
+                    showMessage("Username already exists", true);
+                    showLoader(false);
+                    return;
+                }
+
+                // CREATE NEW USER
+                await set(ref(db, "users/" + username), {
+                    password: password,
+                    balance: 1000,
+                    createdAt: new Date().toISOString()
+                });
+
+                // AUTO LOGIN - SAVE TO LOCALSTORAGE
+                localStorage.setItem("userId", username);
+                showMessage("Account created successfully! Logging in...");
+                
+                // CLOSE MODAL AND UPDATE UI
+                closeModal("signupModal");
+                checkLogin();
+
+            } catch (error) {
+                showMessage("Signup failed: " + error.message, true);
+            }
+
+            showLoader(false);
+        };
+
+        // LOGIN
+        window.login = async function() {
+            const username = document.getElementById("loginUsername").value.trim();
+            const password = document.getElementById("loginPassword").value;
+
+            if (!username || !password) {
+                showMessage("Please fill all fields", true);
+                return;
+            }
+
+            showLoader(true);
+
+            try {
+                const snap = await get(ref(db, "users/" + username));
+                
+                if (!snap.exists()) {
+                    showMessage("Username not found", true);
+                    showLoader(false);
+                    return;
+                }
+
+                if (snap.val().password === password) {
+                    // SAVE TO LOCALSTORAGE FOR AUTO LOGIN
+                    localStorage.setItem("userId", username);
+                    showMessage("Login successful!");
+                    closeModal("loginModal");
+                    checkLogin();
+                } else {
+                    showMessage("Incorrect password", true);
+                }
+            } catch (error) {
+                showMessage("Login failed: " + error.message, true);
+            }
+
+            showLoader(false);
+        };
+
+        // LOGOUT
+        window.logout = function() {
+            localStorage.removeItem("userId");
+            document.getElementById("authButtons").style.display = "flex";
+            document.getElementById("userMenu").classList.remove("visible");
+            document.getElementById("mainContent").classList.remove("visible");
+            document.getElementById("loginUsername").value = "";
+            document.getElementById("loginPassword").value = "";
+            showMessage("Logged out successfully");
+        };
+
+        // LOAD BALANCE
+        async function loadBalance() {
+            const userId = localStorage.getItem("userId");
+            try {
+                const snap = await get(ref(db, "users/" + userId));
+                const balance = snap.val().balance;
+                document.getElementById("balance").innerText = balance;
+                document.getElementById("headerBalance").innerText = balance;
+            } catch (e) {
+                console.log("Balance load failed:", e);
+            }
+        }
+
+        // LOAD MATCHES FROM REAL API
+        async function loadMatches() {
+            try {
+                const res = await fetch("https://central.zplay1.in/pb/api/v1/events/matches/4");
+                const json = await res.json();
+
+                const container = document.getElementById("matchesList");
+                container.innerHTML = "";
+
+                if (!json.success || !json.data) {
+                    container.innerHTML = "<p style='text-align: center; color: #b0b8d4; padding: 20px;'>No matches available</p>";
+                    return;
+                }
+
+                json.data.forEach((match, idx) => {
+                    const div = document.createElement("div");
+                    div.className = "match-row";
+                    div.style.cursor = "pointer";
+                    
+                    // Get match time
+                    const matchDate = new Date(match.event_date);
+                    const timeStr = matchDate.toLocaleDateString() + " • " + matchDate.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+                    
+                    // Get status
+                    const isLive = match.inplay || match.isMatchLive;
+                    const status = isLive ? "LIVE" : "UPCOMING";
+                    const statusColor = isLive ? "#28a745" : "#666";
+                    
+                    // Extract odds from runners
+                    let oddsHTML = "";
+                    if (match.runners && match.runners.length > 0) {
+                        // Show odds for each runner
+                        match.runners.forEach((runner, i) => {
+                            let oddValue = "-";
+                            if (runner.ex && runner.ex.b && runner.ex.b.length > 0) {
+                                oddValue = runner.ex.b[0].p.toFixed(2);
+                            }
+                            const bgColor = i % 2 === 0 ? "#0d7fbf" : "#c71e5a";
+                            const runnerName = match.runnerNames && match.runnerNames[i] ? match.runnerNames[i].RN.split(' ')[0] : "Option " + (i + 1);
+                            oddsHTML += `
+                                <div class="odd-item" style="background: ${bgColor};">
+                                    <div class="odd-value">${oddValue}</div>
+                                    <div class="odd-label">${runnerName}</div>
+                                </div>
+                            `;
+                        });
+                    } else {
+                        // Default 6 columns if no runners
+                        for (let i = 0; i < 6; i++) {
+                            const bgColor = i % 2 === 0 ? "#0d7fbf" : "#c71e5a";
+                            oddsHTML += `
+                                <div class="odd-item" style="background: ${bgColor};">
+                                    <div class="odd-value">-</div>
+                                    <div class="odd-label">Option ${i + 1}</div>
+                                </div>
+                            `;
+                        }
+                    }
+
+                    div.innerHTML = `
+                        <div class="match-header">
+                            <div>
+                                <div class="match-name">${match.event_name}</div>
+                                <div class="match-meta">${timeStr}</div>
+                            </div>
+                            <div class="match-status" style="background: ${statusColor};">${status}</div>
+                        </div>
+                        <div class="match-odds">
+                            ${oddsHTML}
+                        </div>
+                    `;
+
+                    // ADD CLICK HANDLER - REQUIRE LOGIN
+                    div.addEventListener("click", function() {
+                        const userId = localStorage.getItem("userId");
+                        if (!userId) {
+                            showMessage("Please login to place bets", true);
+                            openModal("loginModal");
+                        } else {
+                            showMessage("Match details: " + match.event_name);
+                            // You can navigate to match details page here
+                        }
+                    });
+
+                    container.appendChild(div);
+                });
+
+            } catch (error) {
+                console.log("Matches load failed:", error);
+                document.getElementById("matchesList").innerHTML = "<p style='text-align: center; color: #b0b8d4; padding: 20px;'>Error loading matches. Please try again.</p>";
+            }
+        }
+
+        // HELPER FUNCTIONS
+        window.openModal = function(modalId) {
+            document.getElementById(modalId).classList.add("active");
+        };
+
+        window.closeModal = function(modalId) {
+            document.getElementById(modalId).classList.remove("active");
+            // CLEAR FORM
+            if (modalId === "signupModal") {
+                document.getElementById("signupUsername").value = "";
+                document.getElementById("signupPassword").value = "";
+                document.getElementById("signupConfirm").value = "";
+            } else {
+                document.getElementById("loginUsername").value = "";
+                document.getElementById("loginPassword").value = "";
+            }
+        };
+
+        window.switchModal = function(from, to) {
+            closeModal(from);
+            openModal(to);
+        };
+
+        window.filterCategory = function(element) {
+            document.querySelectorAll(".nav-item").forEach(item => item.classList.remove("active"));
+            element.classList.add("active");
+        };
+
+        function showMessage(text, isError = false) {
+            const msg = document.createElement("div");
+            msg.className = "message" + (isError ? " error" : "");
+            msg.innerText = text;
+            document.body.appendChild(msg);
+            setTimeout(() => msg.remove(), 3000);
+        }
+
+        function showLoader(show) {
+            document.getElementById("loader").classList.toggle("active", show);
+        }
+
+        // AUTO LOAD BALANCE EVERY 5 SECONDS
+        setInterval(() => {
+            const userId = localStorage.getItem("userId");
+            if (userId) {
+                loadBalance();
+            }
+        }, 5000);
+
+        // CLOSE MODALS ON BACKGROUND CLICK
+        document.getElementById("signupModal").addEventListener("click", function(e) {
+            if (e.target === this) closeModal("signupModal");
+        });
+        document.getElementById("loginModal").addEventListener("click", function(e) {
+            if (e.target === this) closeModal("loginModal");
+        });
+
+        // INITIALIZE PAGE - LOAD MATCHES AND CHECK LOGIN
+        window.addEventListener("load", function() {
+            // Always show main content and load matches
+            document.getElementById("mainContent").classList.add("visible");
+            loadMatches();
+            
+            // Check login status silently (no popup)
+            checkLogin();
+        });
+
+        // EXPOSE FUNCTIONS
+        window.loadBalance = loadBalance;
+        window.loadMatches = loadMatches;
+    </script>
+
+</body>
+</html>
