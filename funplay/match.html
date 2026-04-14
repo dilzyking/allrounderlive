@@ -76,6 +76,17 @@
             border-bottom: 2px solid transparent;
             transition: all 0.2s;
         }
+        .odds-scroll::-webkit-scrollbar {
+    display: none;
+        }
+        .odds-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.odds-table {
+    min-width: 600px; /* important */
+}
         .tab-btn.active { color: #d4a574; border-bottom-color: #d4a574; }
 
         /* SECTIONS */
