@@ -657,7 +657,7 @@ async function loadMatch(silent = false) {
         matchData = json.data.match;
 
         if (!silent) renderMatchInfo();
-        renderMatchOdds();
+        
         renderBookmakers();
         renderFancy();
     } catch (e) { console.log("Match load error", e); }
