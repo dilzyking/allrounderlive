@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allrounder Live - Sports Betting</title>
+    <style>
+        /* THEME VARIABLES */
+        :root {
+            /* Dark Theme Colors */
+            --primary-dark: #0a0e27;
+            --secondary-dark: #1a1f3a;
+            --tertiary-dark: #0f1229;
+            --accent-gold: #d4a574;
+            --accent-gold-light: #f0ad4e;
+            --danger-red: #c41e3a;
+            --danger-dark: #8b0000;
+            --success: #28a745;
+            --blue-bet: #0d7fbf;
+            --pink-bet: #c71e5a;
+            --text-primary: #fff;
+            --text-secondary: #b0b8d4;
+            --border-light: #2a3055;
+            --border-color: 2px solid var(--accent-gold);
+        }
+
+        body.light-theme {
+            --primary-dark: #f5f5f5;
+            --secondary-dark: #ffffff;
+            --tertiary-dark: #f9f9f9;
+            --accent-gold: #c9a961;
+            --accent-gold-light: #d9b971;
+            --text-primary: #1a1a1a;
+            --text-secondary: #666666;
+            --border-light: #e0e0e0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: var(--primary-dark);
+            color: var(--text-primary);
+            overflow-x: hidden;
+            transition: background 0.3s ease, color 0.3s ease;
+        }
+
+        /* HEADER */
+        .header {
+            background: linear-gradient(135deg, var(--secondary-dark) 0%, var(--tertiary-dark) 100%);
+            padding: clamp(10px, 3vw, 16px);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 3px solid var(--accent-gold);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+        }
+
+        .logo {
+            font-size: clamp(18px, 5vw, 28px);
+            font-weight: 800;
+            color: var(--accent-gold);
+            letter-spacing: clamp(1px, 0.5vw, 3px);
+            text-transform: uppercase;
+        }
+
+        .logo-small {
+            font-size: clamp(8px, 2vw, 11px);
+            display: block;
+            color: var(--accent-gold);
+            letter-spacing: 1px;
+        }
+
+        .header-controls {
+            display: flex;
+            align-items: center;
+            gap: clamp(8px, 2vw, 16px);
+        }
+
+        .theme-toggle {
+            background: none;
+            border: 2px solid var(--accent-gold);
+            color: var(--accent-gold);
+            width: clamp(38px, 8vw, 48px);
+            height: clamp(38px, 8vw, 48px);
+            border-radius: clamp(6px, 1vw, 10px);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: clamp(18px, 4vw, 24px);
+            transition: all 0.3s ease;
+        }
+
+        .theme-toggle:hover {
+            background: var(--accent-gold);
+            color: var(--primary-dark);
+            transform: scale(1.1);
+        }
+
+        .auth-buttons {
+            display: flex;
+            gap: clamp(8px, 2vw, 16px);
+        }
+
+        .btn-auth {
+            padding: clamp(6px, 1.5vw, 10px) clamp(12px, 3vw, 24px);
+            border: 2px solid var(--accent-gold);
+            background: transparent;
+            color: var(--accent-gold);
+            border-radius: clamp(4px, 1vw, 8px);
+            cursor: pointer;
+            font-weight: 700;
+            font-size: clamp(11px, 2vw, 14px);
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .btn-auth:hover {
+            background: var(--accent-gold);
+            color: var(--primary-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(212, 165, 116, 0.3);
+        }
+
+        .btn-auth.login {
+            background: var(--accent-gold);
+            color: var(--primary-dark);
+        }
+
+        /* MODAL */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.85);
+            z-index: 200;
+            justify-content: center;
+            align-items: center;
+            backdrop-filter: blur(4px);
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        .modal-content {
+            background: linear-gradient(135deg, var(--secondary-dark) 0%, var(--tertiary-dark) 100%);
+            padding: clamp(20px, 5vw, 35px);
+            border-radius: clamp(8px, 2vw, 16px);
+            width: 90%;
+            max-width: 420px;
+            border: 2px solid var(--accent-gold);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+            position: relative;
+        }
+
+        .modal-content h2 {
+            color: var(--accent-gold);
+            margin-bottom: clamp(15px, 3vw, 25px);
+            text-align: center;
+            font-size: clamp(20px, 4vw, 28px);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .form-group {
+            margin-bottom: clamp(12px, 2vw, 18px);
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: clamp(4px, 1vw, 8px);
+            font-size: clamp(12px, 2vw, 14px);
+            color: var(--text-secondary);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: clamp(10px, 2vw, 14px);
+            background: var(--tertiary-dark);
+            border: 2px solid var(--border-light);
+            border-radius: clamp(6px, 1vw, 10px);
+            color: var(--text-primary);
+            font-size: clamp(13px, 2vw, 15px);
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        .form-group input::placeholder {
+            color: #555;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: var(--accent-gold);
+            box-shadow: 0 0 12px rgba(212, 165, 116, 0.4);
+            background: rgba(15, 18, 41, 0.8);
+        }
+
+        .btn-submit {
+            width: 100%;
+            padding: clamp(11px, 2vw, 15px);
+            background: linear-gradient(135deg, var(--accent-gold) 0%, var(--accent-gold-light) 100%);
+            color: var(--primary-dark);
+            border: none;
+            border-radius: clamp(6px, 1vw, 10px);
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: clamp(8px, 2vw, 15px);
+            font-size: clamp(13px, 2vw, 15px);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: 0 4px 12px rgba(212, 165, 116, 0.2);
+        }
+
+        .btn-submit:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 16px rgba(212, 165, 116, 0.4);
+        }
+
+        .toggle-form {
+            text-align: center;
+            margin-top: clamp(12px, 2vw, 18px);
+            font-size: clamp(12px, 2vw, 14px);
+            color: var(--text-secondary);
+        }
+
+        .toggle-form button {
+            background: none;
+            border: none;
+            color: var(--accent-gold);
+            cursor: pointer;
+            text-decoration: underline;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        .toggle-form button:hover {
+            color: var(--accent-gold-light);
+        }
+
+        .close-modal {
+            position: absolute;
+            top: clamp(8px, 2vw, 15px);
+            right: clamp(10px, 2vw, 18px);
+            background: none;
+            border: none;
+            color: var(--accent-gold);
+            font-size: clamp(24px, 5vw, 32px);
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .close-modal:hover {
+            transform: scale(1.2);
+        }
+
+        /* MAIN CONTENT */
+        .main-content {
+            display: none;
+        }
+
+        .main-content.visible {
+            display: block;
+        }
+
+        /* BANNER */
+        .banner {
+            background: linear-gradient(135deg, var(--danger-red) 0%, var(--danger-dark) 100%);
+            padding: clamp(14px, 3vw, 22px);
+            margin: clamp(12px, 3vw, 20px);
+            border-radius: clamp(8px, 2vw, 14px);
+            display: flex;
+            align-items: center;
+            gap: clamp(10px, 2vw, 16px);
+            color: var(--text-primary);
+            border: 2px solid #ff4444;
+            box-shadow: 0 4px 16px rgba(196, 30, 58, 0.3);
+        }
+
+        .banner-icon {
+            font-size: clamp(28px, 6vw, 42px);
+            flex-shrink: 0;
+        }
+
+        .banner-text {
+            flex: 1;
+        }
+
+        .banner-text h3 {
+            font-size: clamp(14px, 3vw, 18px);
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+        }
+
+        .banner-text p {
+            font-size: clamp(12px, 2vw, 14px);
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        /* SEARCH */
+        .search-bar {
+            margin: clamp(12px, 3vw, 20px);
+            position: relative;
+        }
+
+        .search-bar input {
+            width: 100%;
+            padding: clamp(10px, 2vw, 14px) clamp(14px, 3vw, 18px);
+            background: var(--secondary-dark);
+            border: 2px solid var(--accent-gold);
+            border-radius: clamp(8px, 2vw, 12px);
+            color: var(--text-primary);
+            font-size: clamp(13px, 2vw, 15px);
+            transition: all 0.3s ease;
+        }
+
+        .search-bar input::placeholder {
+            color: #555;
+        }
+
+        .search-bar input:focus {
+            outline: none;
+            background: var(--tertiary-dark);
+            box-shadow: 0 0 12px rgba(212, 165, 116, 0.3);
+        }
+
+        /* NAVIGATION */
+        .nav-tabs {
+            display: flex;
+            gap: clamp(6px, 1.5vw, 12px);
+            margin: clamp(12px, 3vw, 18px) clamp(12px, 3vw, 20px) clamp(12px, 3vw, 18px);
+            overflow-x: auto;
+            padding-bottom: clamp(6px, 1vw, 10px);
+        }
+
+        .nav-tabs::-webkit-scrollbar {
+            height: 4px;
+        }
+
+        .nav-tabs::-webkit-scrollbar-track {
+            background: var(--secondary-dark);
+        }
+
+        .nav-tabs::-webkit-scrollbar-thumb {
+            background: var(--accent-gold);
+            border-radius: 4px;
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: clamp(4px, 1vw, 8px);
+            padding: clamp(10px, 2vw, 14px) clamp(12px, 2.5vw, 18px);
+            background: var(--secondary-dark);
+            border: 2px solid transparent;
+            border-radius: clamp(8px, 2vw, 12px);
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            white-space: nowrap;
+            font-size: clamp(11px, 1.8vw, 13px);
+            font-weight: 600;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .nav-item:hover {
+            border-color: var(--accent-gold);
+            transform: translateY(-2px);
+        }
+
+        .nav-item.active {
+            background: linear-gradient(135deg, var(--accent-gold) 0%, var(--accent-gold-light) 100%);
+            color: var(--primary-dark);
+            border-color: var(--accent-gold);
+            box-shadow: 0 4px 12px rgba(212, 165, 116, 0.3);
+            font-weight: 700;
+        }
+
+        /* BALANCE */
+        .balance-section {
+            text-align: center;
+            padding: clamp(16px, 3vw, 24px);
+            background: linear-gradient(135deg, var(--secondary-dark) 0%, var(--tertiary-dark) 100%);
+            margin: clamp(12px, 3vw, 18px) clamp(12px, 3vw, 20px);
+            border-radius: clamp(10px, 2vw, 16px);
+            border: 2px solid var(--accent-gold);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+        }
+
+        .balance-section h3 {
+            font-size: clamp(11px, 2vw, 13px);
+            color: var(--text-secondary);
+            margin-bottom: clamp(6px, 1.5vw, 10px);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-weight: 600;
+        }
+
+        .balance-amount {
+            font-size: clamp(24px, 6vw, 36px);
+            color: var(--accent-gold);
+            font-weight: 800;
+            letter-spacing: 1px;
+        }
+
+        /* MATCHES LIST */
+        .matches-container {
+            padding: clamp(12px, 3vw, 20px);
+        }
+
+        .section-title {
+            color: var(--accent-gold);
+            font-size: clamp(13px, 2.5vw, 16px);
+            font-weight: 800;
+            padding: clamp(10px, 2vw, 14px) 0;
+            border-bottom: 3px solid var(--accent-gold);
+            margin-bottom: clamp(12px, 2vw, 18px);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .match-row {
+            background: linear-gradient(135deg, var(--secondary-dark) 0%, var(--tertiary-dark) 100%);
+            border: 2px solid var(--border-light);
+            border-radius: clamp(8px, 2vw, 14px);
+            margin-bottom: clamp(12px, 2vw, 16px);
+            overflow: hidden;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .match-row:hover {
+            border-color: var(--accent-gold);
+            box-shadow: 0 4px 16px rgba(212, 165, 116, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .match-header {
+            padding: clamp(12px, 2.5vw, 16px);
+            border-bottom: 1px solid var(--border-light);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: clamp(8px, 2vw, 14px);
+        }
+
+        .match-name {
+            font-size: clamp(13px, 2.5vw, 16px);
+            font-weight: 800;
+            color: var(--text-primary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .match-meta {
+            font-size: clamp(10px, 1.8vw, 12px);
+            color: var(--accent-gold);
+            margin-top: clamp(3px, 1vw, 6px);
+            font-weight: 600;
+        }
+
+        .match-status {
+            background: linear-gradient(135deg, var(--success) 0%, #1a6b2f 100%);
+            color: #fff;
+            padding: clamp(4px, 1vw, 7px) clamp(10px, 2vw, 14px);
+            border-radius: clamp(4px, 1vw, 6px);
+            font-size: clamp(10px, 1.8vw, 12px);
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            box-shadow: 0 2px 6px rgba(40, 167, 69, 0.3);
+        }
+
+        .match-odds {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(clamp(50px, 12vw, 80px), 1fr));
+            gap: 0;
+        }
+
+        .odd-item {
+            padding: clamp(10px, 2vw, 14px) clamp(6px, 1.5vw, 10px);
+            text-align: center;
+            border-right: 1px solid rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            transition: all 0.2s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .odd-item::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(255, 255, 255, 0.05);
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .odd-item:last-child {
+            border-right: none;
+        }
+
+        .odd-item:nth-child(odd) {
+            background: linear-gradient(135deg, var(--blue-bet) 0%, #0a5a8f 100%);
+        }
+
+        .odd-item:nth-child(even) {
+            background: linear-gradient(135deg, var(--pink-bet) 0%, #8b143a 100%);
+        }
+
+        .odd-item:hover::before {
+            opacity: 1;
+        }
+
+        .odd-item:hover {
+            filter: brightness(1.1);
+        }
+
+        .odd-value {
+            font-size: clamp(13px, 3vw, 17px);
+            font-weight: 800;
+            color: #fff;
+            position: relative;
+            z-index: 1;
+            letter-spacing: 0.5px;
+        }
+
+        .odd-label {
+            font-size: clamp(9px, 1.5vw, 11px);
+            color: rgba(255, 255, 255, 0.85);
+            margin-top: clamp(3px, 0.8vw, 5px);
+            font-weight: 600;
+            position: relative;
+            z-index: 1;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+
+        /* USER MENU */
+        .user-menu {
+            display: none;
+        }
+
+        .user-menu.visible {
+            display: flex;
+            align-items: center;
+            gap: clamp(10px, 2vw, 18px);
+        }
+
+        .balance-display {
+            font-size: clamp(13px, 2.5vw, 16px);
+            color: var(--accent-gold);
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .logout-btn {
+            padding: clamp(7px, 1.5vw, 10px) clamp(12px, 2.5vw, 18px);
+            background: linear-gradient(135deg, var(--danger-red) 0%, var(--danger-dark) 100%);
+            border: 2px solid var(--danger-red);
+            color: #fff;
+            border-radius: clamp(6px, 1vw, 10px);
+            cursor: pointer;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            font-size: clamp(12px, 2vw, 14px);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .logout-btn:hover {
+            background: var(--danger-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(196, 30, 58, 0.3);
+        }
+
+        /* LOADER */
+        .loader {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 150;
+            justify-content: center;
+            align-items: center;
+            backdrop-filter: blur(3px);
+        }
+
+        .loader.active {
+            display: flex;
+        }
+
+        .spinner {
+            border: 4px solid rgba(212, 165, 116, 0.2);
+            border-top: 4px solid var(--accent-gold);
+            border-radius: 50%;
+            width: clamp(35px, 8vw, 50px);
+            height: clamp(35px, 8vw, 50px);
+            animation: spin 1s linear infinite;
+            box-shadow: 0 0 16px rgba(212, 165, 116, 0.3);
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .message {
+            position: fixed;
+            top: clamp(12px, 3vw, 24px);
+            right: clamp(12px, 3vw, 24px);
+            padding: clamp(12px, 2vw, 18px) clamp(16px, 3vw, 24px);
+            background: linear-gradient(135deg, var(--success) 0%, #1a6b2f 100%);
+            color: #fff;
+            border-radius: clamp(6px, 1vw, 10px);
+            z-index: 300;
+            animation: slideIn 0.4s ease;
+            font-size: clamp(12px, 2vw, 14px);
+            font-weight: 600;
+            box-shadow: 0 4px 12px rgba(40, 167, 69, 0.3);
+            border-left: 4px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .message.error {
+            background: linear-gradient(135deg, var(--danger-red) 0%, var(--danger-dark) 100%);
+            box-shadow: 0 4px 12px rgba(196, 30, 58, 0.3);
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(calc(100% + 20px));
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- LOADER -->
+    <div class="loader" id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- AUTH MODALS -->
+    <div class="modal" id="signupModal">
+        <div class="modal-content">
+            <button class="close-modal" onclick="closeModal('signupModal')">&times;</button>
+            <h2>Create Account</h2>
+            <div class="form-group">
+                <label>Username</label>
+                <input type="text" id="signupUsername" placeholder="Enter username">
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" id="signupPassword" placeholder="Enter password">
+            </div>
+            <div class="form-group">
+                <label>Confirm Password</label>
+                <input type="password" id="signupConfirm" placeholder="Confirm password">
+            </div>
+            <button class="btn-submit" onclick="signup()">Create Account</button>
+            <div class="toggle-form">
+                Already have an account? <button onclick="switchModal('signupModal', 'loginModal')">Login</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <button class="close-modal" onclick="closeModal('loginModal')">&times;</button>
+            <h2>Login</h2>
+            <div class="form-group">
+                <label>Username</label>
+                <input type="text" id="loginUsername" placeholder="Enter username">
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" id="loginPassword" placeholder="Enter password">
+            </div>
+            <button class="btn-submit" onclick="login()">Login</button>
+            <div class="toggle-form">
+                Don't have an account? <button onclick="switchModal('loginModal', 'signupModal')">Sign Up</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <div class="header">
+        <div>
+            <div class="logo">
+                REDDY
+                <span class="logo-small">BOOK</span>
+            </div>
+        </div>
+        <div class="header-controls">
+            <button class="theme-toggle" id="themeToggle" title="Toggle Theme">🌙</button>
+            <div class="auth-buttons" id="authButtons">
+                <button class="btn-auth" onclick="openModal('signupModal')">Sign Up</button>
+                <button class="btn-auth login" onclick="openModal('loginModal')">Login</button>
+            </div>
+            <div class="user-menu" id="userMenu">
+                <div class="balance-display">₹<span id="headerBalance">0</span></div>
+                <button class="logout-btn" onclick="logout()">Logout</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="main-content" id="mainContent">
+        <!-- BANNER -->
+        <div class="banner">
+            <div class="banner-icon">▶️</div>
+            <div class="banner-text">
+                <h3>Live Cricket Betting</h3>
+                <p>Best odds on all matches</p>
+            </div>
+        </div>
+
+        <!-- SEARCH -->
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search Events...">
+        </div>
+
+        <!-- NAV TABS -->
+        <div class="nav-tabs" id="navTabs">
+            <div class="nav-item active" data-category="all" onclick="filterCategory(this)">
+                🏠 Home
+            </div>
+            <div class="nav-item" data-category="cricket" onclick="filterCategory(this)">
+                🏏 Cricket
+            </div>
+            <div class="nav-item" data-category="football" onclick="filterCategory(this)">
+                ⚽ Football
+            </div>
+            <div class="nav-item" data-category="tennis" onclick="filterCategory(this)">
+                🎾 Tennis
+            </div>
+            <div class="nav-item" data-category="basketball" onclick="filterCategory(this)">
+                🏀 Basketball
+            </div>
+        </div>
+
+        <!-- BALANCE (only visible when logged in) -->
+        <div class="balance-section" id="balanceSection" style="display: none;">
+            <h3>Your Balance</h3>
+            <div class="balance-amount">₹<span id="balance">0</span></div>
+        </div>
+
+        <!-- MATCHES -->
+        <div class="matches-container">
+            <div class="section-title">LIVE MATCHES</div>
+            <div id="matchesList"></div>
+        </div>
+    </div>
+
+    <!-- FIREBASE -->
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+        import { getDatabase, ref, get, set, update } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js";
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyBEITIEDtG_Yq2iBlb7sjJWnnFIzE5C8r8",
+            authDomain: "fun-play-33764.firebaseapp.com",
+            databaseURL: "https://fun-play-33764-default-rtdb.asia-southeast1.firebasedatabase.app",
+            projectId: "fun-play-33764"
+        };
+
+        const app = initializeApp(firebaseConfig);
+        const db = getDatabase(app);
+
+        // ===== THEME TOGGLE FUNCTIONALITY =====
+        window.initTheme = function() {
+            const themeToggle = document.getElementById("themeToggle");
+            const savedTheme = localStorage.getItem("theme") || "dark";
+            
+            // Apply saved theme
+            if (savedTheme === "light") {
+                document.body.classList.add("light-theme");
+                themeToggle.textContent = "☀️";
+            } else {
+                document.body.classList.remove("light-theme");
+                themeToggle.textContent = "🌙";
+            }
+            
+            // Theme toggle handler
+            themeToggle.addEventListener("click", function() {
+                const isLight = document.body.classList.toggle("light-theme");
+                const newTheme = isLight ? "light" : "dark";
+                localStorage.setItem("theme", newTheme);
+                themeToggle.textContent = isLight ? "☀️" : "🌙";
+            });
+        };
+
+        // CHECK IF USER IS ALREADY LOGGED IN
+        window.checkLogin = async function() {
+            const userId = localStorage.getItem("userId");
+            if (userId) {
+                try {
+                    const snap = await get(ref(db, "users/" + userId));
+                    if (snap.exists()) {
+                        document.getElementById("authButtons").style.display = "none";
+                        document.getElementById("userMenu").classList.add("visible");
+                        document.getElementById("balanceSection").style.display = "block";
+                        loadBalance();
+                        return true;
+                    }
+                } catch (e) {
+                    console.log("Login check failed:", e);
+                }
+            }
+            // NOT LOGGED IN - SHOW AUTH BUTTONS
+            document.getElementById("userMenu").classList.remove("visible");
+            document.getElementById("authButtons").style.display = "flex";
+            document.getElementById("balanceSection").style.display = "none";
+            return false;
+        };
+
+        // SIGNUP - AUTO LOGIN AFTER SIGNUP
+        window.signup = async function() {
+            const username = document.getElementById("signupUsername").value.trim();
+            const password = document.getElementById("signupPassword").value;
+            const confirm = document.getElementById("signupConfirm").value;
+
+            if (!username || !password || !confirm) {
+                showMessage("Please fill all fields", true);
+                return;
+            }
+
+            if (password !== confirm) {
+                showMessage("Passwords do not match", true);
+                return;
+            }
+
+            if (password.length < 6) {
+                showMessage("Password must be at least 6 characters", true);
+                return;
+            }
+
+            showLoader(true);
+
+            try {
+                const snap = await get(ref(db, "users/" + username));
+                if (snap.exists()) {
+                    showMessage("Username already exists", true);
+                    showLoader(false);
+                    return;
+                }
+
+                // CREATE NEW USER
+                await set(ref(db, "users/" + username), {
+                    password: password,
+                    balance: 1000,
+                    createdAt: new Date().toISOString()
+                });
+
+                // AUTO LOGIN - SAVE TO LOCALSTORAGE
+                localStorage.setItem("userId", username);
+                showMessage("Account created successfully! Logging in...");
+                
+                // CLOSE MODAL AND UPDATE UI
+                closeModal("signupModal");
+                checkLogin();
+
+            } catch (error) {
+                showMessage("Signup failed: " + error.message, true);
+            }
+
+            showLoader(false);
+        };
+
+        // LOGIN
+        window.login = async function() {
+            const username = document.getElementById("loginUsername").value.trim();
+            const password = document.getElementById("loginPassword").value;
+
+            if (!username || !password) {
+                showMessage("Please fill all fields", true);
+                return;
+            }
+
+            showLoader(true);
+
+            try {
+                const snap = await get(ref(db, "users/" + username));
+                
+                if (!snap.exists()) {
+                    showMessage("Username not found", true);
+                    showLoader(false);
+                    return;
+                }
+
+                if (snap.val().password === password) {
+                    // SAVE TO LOCALSTORAGE FOR AUTO LOGIN
+                    localStorage.setItem("userId", username);
+                    showMessage("Login successful!");
+                    closeModal("loginModal");
+                    checkLogin();
+                } else {
+                    showMessage("Incorrect password", true);
+                }
+            } catch (error) {
+                showMessage("Login failed: " + error.message, true);
+            }
+
+            showLoader(false);
+        };
+
+        // LOGOUT
+        window.logout = function() {
+            localStorage.removeItem("userId");
+            document.getElementById("authButtons").style.display = "flex";
+            document.getElementById("userMenu").classList.remove("visible");
+            document.getElementById("mainContent").classList.remove("visible");
+            document.getElementById("loginUsername").value = "";
+            document.getElementById("loginPassword").value = "";
+            showMessage("Logged out successfully");
+        };
+
+        // LOAD BALANCE
+        async function loadBalance() {
+            const userId = localStorage.getItem("userId");
+            try {
+                const snap = await get(ref(db, "users/" + userId));
+                const balance = snap.val().balance;
+                document.getElementById("balance").innerText = balance;
+                document.getElementById("headerBalance").innerText = balance;
+            } catch (e) {
+                console.log("Balance load failed:", e);
+            }
+        }
+
+        // LOAD MATCHES FROM REAL API
+        async function loadMatches() {
+            try {
+                const res = await fetch("https://central.zplay1.in/pb/api/v1/events/matches/4");
+                const json = await res.json();
+
+                const container = document.getElementById("matchesList");
+                container.innerHTML = "";
+
+                if (!json.success || !json.data) {
+                    container.innerHTML = "<p style='text-align: center; color: #b0b8d4; padding: 20px;'>No matches available</p>";
+                    return;
+                }
+
+                json.data.forEach((match, idx) => {
+                    const div = document.createElement("div");
+                    div.className = "match-row";
+                    div.style.cursor = "pointer";
+                    
+                    // Get match time
+                    const matchDate = new Date(match.event_date);
+                    const timeStr = matchDate.toLocaleDateString() + " • " + matchDate.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+                    
+                    // Get status
+                    const isLive = match.inplay || match.isMatchLive;
+                    const status = isLive ? "LIVE" : "UPCOMING";
+                    const statusColor = isLive ? "#28a745" : "#666";
+                    
+                    // Extract odds from runners
+                    let oddsHTML = "";
+                    if (match.runners && match.runners.length > 0) {
+                        // Show odds for each runner
+                        match.runners.forEach((runner, i) => {
+                            let oddValue = "-";
+                            if (runner.ex && runner.ex.b && runner.ex.b.length > 0) {
+                                oddValue = runner.ex.b[0].p.toFixed(2);
+                            }
+                            const bgColor = i % 2 === 0 ? "#0d7fbf" : "#c71e5a";
+                            const runnerName = match.runnerNames && match.runnerNames[i] ? match.runnerNames[i].RN.split(' ')[0] : "Option " + (i + 1);
+                            oddsHTML += `
+                                <div class="odd-item" style="background: ${bgColor};">
+                                    <div class="odd-value">${oddValue}</div>
+                                    <div class="odd-label">${runnerName}</div>
+                                </div>
+                            `;
+                        });
+                    } else {
+                        // Default 6 columns if no runners
+                        for (let i = 0; i < 6; i++) {
+                            const bgColor = i % 2 === 0 ? "#0d7fbf" : "#c71e5a";
+                            oddsHTML += `
+                                <div class="odd-item" style="background: ${bgColor};">
+                                    <div class="odd-value">-</div>
+                                    <div class="odd-label">Option ${i + 1}</div>
+                                </div>
+                            `;
+                        }
+                    }
+
+                    div.innerHTML = `
+                        <div class="match-header">
+                            <div>
+                                <div class="match-name">${match.event_name}</div>
+                                <div class="match-meta">${timeStr}</div>
+                            </div>
+                            <div class="match-status" style="background: ${statusColor};">${status}</div>
+                        </div>
+                        <div class="match-odds">
+                            ${oddsHTML}
+                        </div>
+                    `;
+
+                    // ADD CLICK HANDLER - REQUIRE LOGIN
+                    
+                     div.addEventListener("click", function() {
+    const userId = localStorage.getItem("userId");
+
+    if (!userId) {
+        showMessage("Please login to place bets", true);
+        openModal("loginModal");
+        return;
+    }
+
+    // ✅ REDIRECT TO MATCH PAGE
+    window.location.href = "match.html?eventId=" + match.event_id;
+});
+                    container.appendChild(div);
+                });
+
+            } catch (error) {
+                console.log("Matches load failed:", error);
+                document.getElementById("matchesList").innerHTML = "<p style='text-align: center; color: #b0b8d4; padding: 20px;'>Error loading matches. Please try again.</p>";
+            }
+        }
+
+        // HELPER FUNCTIONS
+        window.openModal = function(modalId) {
+            document.getElementById(modalId).classList.add("active");
+        };
+
+        window.closeModal = function(modalId) {
+            document.getElementById(modalId).classList.remove("active");
+            // CLEAR FORM
+            if (modalId === "signupModal") {
+                document.getElementById("signupUsername").value = "";
+                document.getElementById("signupPassword").value = "";
+                document.getElementById("signupConfirm").value = "";
+            } else {
+                document.getElementById("loginUsername").value = "";
+                document.getElementById("loginPassword").value = "";
+            }
+        };
+
+        window.switchModal = function(from, to) {
+            closeModal(from);
+            openModal(to);
+        };
+
+        window.filterCategory = function(element) {
+            document.querySelectorAll(".nav-item").forEach(item => item.classList.remove("active"));
+            element.classList.add("active");
+        };
+
+        function showMessage(text, isError = false) {
+            const msg = document.createElement("div");
+            msg.className = "message" + (isError ? " error" : "");
+            msg.innerText = text;
+            document.body.appendChild(msg);
+            setTimeout(() => msg.remove(), 3000);
+        }
+
+        function showLoader(show) {
+            document.getElementById("loader").classList.toggle("active", show);
+        }
+
+        // AUTO LOAD BALANCE EVERY 5 SECONDS
+        setInterval(() => {
+            const userId = localStorage.getItem("userId");
+            if (userId) {
+                loadBalance();
+            }
+        }, 5000);
+
+        // CLOSE MODALS ON BACKGROUND CLICK
+        document.getElementById("signupModal").addEventListener("click", function(e) {
+            if (e.target === this) closeModal("signupModal");
+        });
+        document.getElementById("loginModal").addEventListener("click", function(e) {
+            if (e.target === this) closeModal("loginModal");
+        });
+
+        // INITIALIZE PAGE - LOAD MATCHES AND CHECK LOGIN
+        window.addEventListener("load", function() {
+            // Initialize theme
+            initTheme();
+            
+            // Always show main content and load matches
+            document.getElementById("mainContent").classList.add("visible");
+            loadMatches();
+            
+            // Check login status silently (no popup)
+            checkLogin();
+        });
+
+        // EXPOSE FUNCTIONS
+        window.loadBalance = loadBalance;
+        window.loadMatches = loadMatches;
+    </script>
+
+</body>
+</html>
