@@ -17,6 +17,12 @@
       "mpd": "https://live-pv-ta.amazon.fastly-edge.com/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
       "keyId": "0b42be2664d7e811d04f3e504e0924c5",
       "key": "ae24090123b8c72ac5404dc152847cb8"
+    },
+    {
+      "id": "pm1",
+      "mpd": "https://live-pv-ta.amazon.fastly-edge.com/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
+      "keyId": "0b42be2664d7e811d04f3e504e0924c5",
+      "key": "ae24090123b8c72ac5404dc152847cb8"
     }
   ]
 }
