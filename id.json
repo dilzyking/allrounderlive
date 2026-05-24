@@ -77,6 +77,12 @@
       "mpd": "https://adjara-live-eu.akamaized.net/hdntl=exp=1779716808~acl=/*~id=36fb73d5-8fd7-4442-a1a4-29edfb8ca880~data=hdntl,aXA9MjAuOTcuMTk4LjI0MCZleHA9MTc3OTYzMDQzOCZlaWQ9ODgwNTM2Jm9pZD0xMDgmdHlwZT1WT0QmdWlkPXNleWRIdHwzM2RmMTQ4NS1jZmNlLTRlZGUtODA0Ny0zMjExOGNjYjhkNjgmY2lkPWRjZS5zcHVycyZwdD1udWxs~hmac=345a6aa8c997488374bf009dd7dc7a719f2feb4601bd6fe1f77a99c8d3b95ca3/dash/live/2001544/303260-321984/manifest-d.mpd",
       "keyId": "038315781334424da7cdb6e44f2151a6",
       "key": "43d84dc66e594011991420252dee8d77"
+    },
+    {
+      "id": "livrpol",
+      "mpd": "https://adjara-live-eu.akamaized.net/hdntl=exp=1779716812~acl=/*~id=1af07701-4aaa-44d6-be80-76218d10a621~data=hdntl,aXA9MjAuOTcuMTk4LjI0MCZleHA9MTc3OTYzMDQ0MiZlaWQ9OTYxNTM5Jm9pZD0xMDgmdHlwZT1WT0QmdWlkPXNleWRIdHwzM2RmMTQ4NS1jZmNlLTRlZGUtODA0Ny0zMjExOGNjYjhkNjgmY2lkPWRjZS5zcHVycyZwdD1udWxs~hmac=7f92add6cb087854a198ed812dc9c1338a43225a61fb81d5d81ebc22ab70c737/dash/live/2001579/303249-321978/manifest-d.mpd",
+      "keyId": "d31c5d1b8256432591f6de6e9c714821",
+      "key": "b7f96c47f4564039a49394f518d9d3d0"
     }
   ]
 }
