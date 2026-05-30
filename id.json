@@ -1,12 +1,6 @@
 {
   "streams": [
     {
-      "id": "sky4k",
-      "mpd": "https://dice-live-oc.akamaized.net/hdntl=exp=1779271497~acl=/*~id=b8790135-d763-4c78-8f1d-4c332b17589e~data=hdntl,aXA9MTIzLjI1My40OS44NiZleHA9MTc3OTE4NTEyNSZlaWQ9OTM2MDY5Jm9pZD0xNTQmdHlwZT1WT0QmdWlkPUhuRDROTnw5MDJlMTQ1Ny1mZGQ1LTQyMjQtYmRlYi0zNTM5MGY5YWRkNTkmY2lkPWRjZS5maXNmZWQmcHQ9bnVsbA~hmac=b2a7349feef05686a26f3e2935bfe42505558bf5a273d3487d5c29e7ba4fe5c5/dash/live/2093666/294921-318514/manifest-d.mpd",
-      "keyId": "4d346b1d1ae64d4a800409cffa14983e",
-      "key": "208c972bd2da4359ac94e6944fe378b6"
-    },
-    {
       "id": "selenta",
       "mpd": "https://adjara-live-eu.akamaized.net/hdntl=exp=1779630446~acl=%2F*~id=73cc8a93-53b9-4ff8-bb93-fc324174ae24~data=hdntl,aXA9MjAuMjMxLjEwMS4zNiZleHA9MTc3OTU0NDA3NiZlaWQ9ODgwNTM2Jm9pZD0xMDgmdHlwZT1WT0QmdWlkPTNZTlVqeHw4NmE4YTYxYi04YTkxLTRhMDAtOGQ0OS04MmFlNWM2YWVmYmUmY2lkPWRjZS5zcHVycyZwdD1udWxs~hmac=dba06fc59dc4d49ed1b51697907e2aaf21028e69d12b920e9789d798df8c6c58/dash/live/2001538/303252-321938/manifest-d.mpd",
       "keyId": "3d2fb6f07dfa41a5831dd6dd15007b5e",
