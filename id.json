@@ -5,6 +5,12 @@
       "mpd": "https://otte.cache.aiv-cdn.net/iad-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/8rbm0uwsbr/out/v1/86d7169ffdff4df6b28dfdb4b49bcfb3/106ca8fc-7790-47e2-b541-1aeccc80282d-cenc.mpd",
       "keyId": "6a71d7af70eaeb1b018ded7640a26562",
       "key": "5d7f73b42c19d3bb68c55d6ee2676b7d"
+    },
+    {
+      "id": "tnt-1",
+      "mpd": "https://otte.cache.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/cllekigzzn/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
+      "keyId": "294b5761cefc22d0c6312939e13d8278",
+      "key": "52148f1042d238849f0a7813f1da8a7b"
     }
   ]
 }
