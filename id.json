@@ -11,6 +11,12 @@
       "mpd": "https://otte.cache.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/cllekigzzn/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
       "keyId": "294b5761cefc22d0c6312939e13d8278",
       "key": "52148f1042d238849f0a7813f1da8a7b"
+    },
+    {
+      "id": "spanish-sport",
+      "mpd": "https://live-pv-ta.amazon.fastly-edge.com/lhr-nitro/live/clients/dash/enc/62qdkefv9f/out/v1/f7d5b356e048494a8325563e8916d50b/cenc.mpd",
+      "keyId": "fd86dde0ae3e14ff51c8fc8f248a50db",
+      "key": "d106ae78b0893da2e4393ece99420baa"
     }
   ]
 }
