@@ -1,3 +1,10 @@
 {
-  "streams": []
+  "streams": [
+    {
+      "id": "paramountt",
+      "mpd": "https://otte.cache.aiv-cdn.net/iad-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/8rbm0uwsbr/out/v1/86d7169ffdff4df6b28dfdb4b49bcfb3/106ca8fc-7790-47e2-b541-1aeccc80282d-cenc.mpd",
+      "keyId": "6a71d7af70eaeb1b018ded7640a26562",
+      "key": "5d7f73b42c19d3bb68c55d6ee2676b7d"
+    }
+  ]
 }
