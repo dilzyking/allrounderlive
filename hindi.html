@@ -166,10 +166,10 @@ line-height:1.6;
     return;
   }
   const CONFIG={
-    streamUrl:"https://jiotvmblive.cdn.jio.com/bpk-tv/Ten3_HD_MOB/WDVLive/index.mpd?__hdnea__=st=1780416041~exp=1780437641~acl=/*~hmac=6a3585f75470ccc17b234f4cd7be0533cc677d5bc2852bee08556384ddb6e6f6",
-    keyId:"111e6908b965566e97139efddf7ef459",
-    key:"c87903abbc052e1f21e51ebd928d9cb1",
-    cookieUrl:""
+    streamUrl:"https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD1_Hindi_BTS/WDVLive/index.mpd",
+    keyId:"400131994b445d8c8817202248760fda",
+    key:"2d56cb6f07a75b9aff165d534ae2bfc4",
+    cookieUrl:"https://allrounderid2.pages.dev/api/star-1-hindi.json"
   };
 
   document.addEventListener("DOMContentLoaded",async()=>{
@@ -216,7 +216,7 @@ line-height:1.6;
       }
     });
 
-    let cookieUrl:null
+    let cookieValue="";
 
     try{
       const response=await fetch(CONFIG.cookieUrl,{cache:"no-store"});
