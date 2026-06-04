@@ -29,6 +29,12 @@
       "mpd": "https://fl-003.live.p7s1video.net/45371d5a/t_009/zdf-de-hd/cenc-default.mpd",
       "keyId": "7fc352fa54683accf20b12f679027661",
       "key": "993400c4b5ad851c8d6368417d6a3b4c"
+    },
+    {
+      "id": "engvnz",
+      "mpd": "https://live-pv-ta.amazon.fastly-edge.com/sin-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+      "keyId": "290e09c837da78d5cd961978d390515c",
+      "key": "b748836c71e6a4ca68ef5b5652db6247"
     }
   ]
 }
