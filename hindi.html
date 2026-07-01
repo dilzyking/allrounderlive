@@ -1,139 +1,139 @@
-<!DOCTYPE html>  
-<html>  
-<head>  
-  <meta charset="UTF-8">  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-  <title>Willow</title>     
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.11/shaka-player.ui.min.js" crossorigin="anonymous"></script>  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.11/controls.min.css" crossorigin="anonymous">  
-      
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-JLW4772MFJ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-JLW4772MFJ');
-</script>
-  <style>  
-   * { margin: 0; padding: 0; box-sizing: border-box; }  
-    html, body {  
-      background: #000;  
-      height: 100vh;  
-      width: 100vw;  
-      overflow: hidden;  
-      font-family: system-ui, -apple-system, sans-serif;  
-    }  
-    .shaka-video-container {  
-      position: absolute;  
-      inset: 0;  
-      width: 100%;  
-      height: 100%;  
-    }  
-    video {  
-      width: 100%;  
-      height: 100%;  
-      background: #000;  
-      object-fit: contain;  
-    }  
-    .shaka-spinner-container,  
-    .shaka-spinner,  
-    .shaka-spinner-svg {  
-      display: none !important;  
-      visibility: hidden !important;  
-      opacity: 0 !important;  
-    }  
-  </style>  
-</head>  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Fox Cricket</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+  <meta name="referrer" content="no-referrer"/>
+  
+  <!-- Plyr CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/plyr@3.7.8/dist/plyr.css"/>
 
- 
-  
-  <body>  
-  <div class="shaka-video-container" data-shaka-player>  
-    <video autoplay playsinline preload="metadata" poster="https://elamplificador.com/wp-content/uploads/2023/08/trucos-amazon-primevideo-ksrD-620x349@abc.png"></video>  
-  </div>  
-  
-  <script>  
-    document.addEventListener('DOMContentLoaded', async () => {  
-      shaka.polyfill.installAll();  
-  
-      if (!shaka.Player.isBrowserSupported()) {  
-        console.error('Browser not supported');  
-        return;  
-      }  
-  
-      const video = document.querySelector('video');  
-      const player = new shaka.Player();  
-      await player.attach(video);  
-  
-      const container = document.querySelector('.shaka-video-container');  
-      const ui = new shaka.ui.Overlay(player, container, video);  
-  
-      ui.configure({  
-        controlPanelElements: [  
-          'play_pause', 'time_and_duration', 'mute', 'volume',  
-          'spacer', 'language', 'captions', 'picture_in_picture',  
-          'quality', 'fullscreen'  
-        ],  
-        volumeBarColors: {  
-  base: 'rgba(0, 136, 255, 0.3)',  
-  level: 'rgb(0, 136, 255)'  
-},  
-seekBarColors: {  
-  base: 'rgba(0, 136, 255, 0.3)',  
-  buffered: 'rgba(0, 136, 255, 0.6)',  
-  played: 'rgb(0, 136, 255)'  
-}
-      });  
-  
-      // ✅ Your DRM Key + MPD URL  
-      let drmConfig = {  
-        clearKeys: {  
-          "2c60f5b5e6e8ad2d163532250859723b":
- "cb11a5f25b5baded086a2e7a046b9b02"  
-        }  
-      };  
-  
-      let streamUrl = "https://otte.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/rk7p7dafl0/out/v1/ffc1c57edf814108953aa0992b3145ff/cenc.mpd";  
-  
-      player.configure({  
-        drm: drmConfig,  
-        streaming: {  
-          lowLatencyMode: true,  
-          bufferingGoal: 15,  
-          rebufferingGoal: 2,  
-          bufferBehind: 15,  
-          retryParameters: {  
-            timeout: 10000,  
-            maxAttempts: 5,  
-            baseDelay: 300,  
-            backoffFactor: 1.2  
-          },  
-          segmentRequestTimeout: 8000,  
-          segmentPrefetchLimit: 2,  
-          useNativeHlsOnSafari: true  
-        },  
-        manifest: {  
-          retryParameters: {  
-            timeout: 8000,  
-            maxAttempts: 3  
-          }  
-        }  
-      });  
-  
-      player.addEventListener('error', (event) => {  
-        console.error('Shaka Player Error:', event.detail);  
-      });  
-  
-      try {  
-        await player.load(streamUrl);  
-        console.log("Stream loaded successfully");  
-      } catch (error) {  
-        console.error('Load error:', error);  
-      }  
-    });  
-  </script>  
+  <!-- HLS.js -->
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+
+  <!-- Plyr JS -->
+  <script src="https://cdn.jsdelivr.net/npm/plyr@3.7.8/dist/plyr.polyfilled.js"></script>
+
+  <style>
+    body {
+      background-color: #000;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    html, body {
+      height: 100%;
+      width: 100%;
+    }
+    .video-container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      background: #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      background: #000;
+    }
+    .plyr {
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="video-container">
+    <video autoplay playsinline muted id="player" controls preload="metadata"></video>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const video = document.getElementById("player");
+      const source = "https://amg01269-amg01269c1-sportstribal-emea-5204.playouts.now.amagi.tv/playlist/amg01269-willowtvfast-willowplus-sportstribalemea/playlist.m3u8";
+
+      const defaultOptions = {
+        autoplay: true,
+        controls: [
+          'play', 'rewind', 'fast-forward', 'progress', 'current-time',
+          'mute', 'volume', 'settings', 'fullscreen'
+        ],
+        settings: ['quality']
+      };
+
+      let player;
+
+      function setupPlayer(hls, qualities = []) {
+        player = new Plyr(video, {
+          ...defaultOptions,
+          quality: qualities.length ? {
+            default: qualities[0],
+            options: qualities,
+            forced: true,
+            onChange: q => {
+              hls.levels.forEach((level, index) => {
+                if (level.height === q) {
+                  hls.currentLevel = index;
+                }
+              });
+            }
+          } : {}
+        });
+
+        // 🔁 AUTO RESUME
+        setInterval(() => {
+          if (video.paused && video.readyState > 2) {
+            video.play().catch(()=>{});
+          }
+        }, 3000);
+
+        // 🔊 AUTO UNMUTE (on first interaction)
+        const unmute = () => {
+          video.muted = false;
+          video.volume = 1;
+          document.removeEventListener("click", unmute);
+          document.removeEventListener("touchstart", unmute);
+        };
+
+        document.addEventListener("click", unmute);
+        document.addEventListener("touchstart", unmute);
+      }
+
+      if (Hls.isSupported()) {
+        const hls = new Hls({
+          autoStartLoad: true
+        });
+
+        hls.loadSource(source);
+        hls.attachMedia(video);
+
+        hls.on(Hls.Events.MANIFEST_PARSED, (_, data) => {
+          const availableQualities = data.levels.map(l => l.height).sort((a,b) => b - a);
+          video.play().catch(()=>{});
+          setupPlayer(hls, availableQualities);
+        });
+
+        // 🔥 AUTO RECOVER ON ERROR
+        hls.on(Hls.Events.ERROR, function (_, data) {
+          if (data.fatal) {
+            hls.startLoad();
+          }
+        });
+
+      } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
+        video.src = source;
+        video.addEventListener("loadedmetadata", () => {
+          video.play().catch(()=>{});
+          setupPlayer(null);
+        });
+      }
+    });
+  </script>
   <script>(function(s){s.dataset.zone='10975013',s.src='https://llvpn.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
   </body>  
 </html>
