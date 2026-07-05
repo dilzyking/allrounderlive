@@ -697,6 +697,126 @@
     }
   }, 20000);
 </script>
+<!-- WhatsApp Join Popup -->
+<style>
+#waOverlay{
+position:fixed;
+inset:0;
+background:rgba(0,0,0,.55);
+backdrop-filter:blur(8px);
+display:none;
+align-items:center;
+justify-content:center;
+z-index:999999;
+animation:fadeIn .3s ease;
+}
+#waCard{
+width:min(92%,380px);
+background:linear-gradient(180deg,#141d26,#0d131b);
+border:1px solid rgba(31,224,138,.25);
+border-radius:22px;
+padding:24px;
+box-shadow:0 20px 60px rgba(0,0,0,.6),0 0 30px rgba(31,224,138,.15);
+text-align:center;
+}
+#waIcon{
+width:72px;
+height:72px;
+margin:auto auto 18px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+background:linear-gradient(135deg,#25D366,#128C7E);
+box-shadow:0 0 30px rgba(37,211,102,.35);
+}
+#waCard h2{
+margin:0;
+font-size:24px;
+color:#fff;
+}
+#waCard p{
+margin:12px 0 22px;
+color:#9fb0be;
+font-size:14px;
+line-height:1.6;
+}
+.waBtns{
+display:flex;
+gap:12px;
+}
+.waBtn{
+flex:1;
+height:48px;
+border-radius:999px;
+font-weight:700;
+font-size:15px;
+cursor:pointer;
+transition:.25s;
+border:none;
+}
+#joinNow{
+background:linear-gradient(135deg,#1fe08a,#6bffc4);
+color:#08110c;
+}
+#joinNow:hover{
+transform:translateY(-2px);
+}
+#joinedBtn{
+background:#1b2430;
+color:#1fe08a;
+border:1px solid rgba(31,224,138,.35);
+}
+#joinedBtn:hover{
+background:#232f3e;
+}
+@keyframes fadeIn{
+from{opacity:0;transform:scale(.96);}
+to{opacity:1;transform:scale(1);}
+}
+</style>
 
+<div id="waOverlay">
+<div id="waCard">
+
+<div id="waIcon">
+<svg width="38" height="38" viewBox="0 0 24 24" fill="white">
+<path d="M20.52 3.48A11.82 11.82 0 0 0 12.04 0C5.45 0 .08 5.37.08 11.96c0 2.11.55 4.17 1.59 5.99L0 24l6.24-1.63a11.9 11.9 0 0 0 5.8 1.48h.01c6.59 0 11.96-5.37 11.96-11.96 0-3.19-1.24-6.19-3.49-8.41zM12.05 21.8a9.8 9.8 0 0 1-5-1.37l-.36-.21-3.7.97.99-3.61-.24-.37a9.77 9.77 0 1 1 8.31 4.59zm5.38-7.34c-.29-.14-1.72-.85-1.98-.95-.27-.1-.46-.14-.66.14-.19.29-.76.95-.93 1.14-.17.19-.34.22-.63.08-.29-.14-1.21-.45-2.31-1.45-.85-.75-1.43-1.68-1.6-1.96-.17-.29-.02-.44.12-.58.13-.13.29-.34.43-.51.14-.17.19-.29.29-.48.1-.19.05-.36-.02-.51-.07-.14-.66-1.59-.91-2.17-.24-.57-.49-.49-.66-.5h-.56c-.19 0-.49.07-.75.36s-.98.96-.98 2.34.99 2.71 1.13 2.9c.14.19 1.95 2.98 4.72 4.18.66.29 1.18.46 1.58.59.66.21 1.26.18 1.74.11.53-.08 1.72-.7 1.96-1.37.24-.67.24-1.24.17-1.37-.07-.13-.27-.21-.56-.35z"/>
+</svg>
+</div>
+
+<h2>Join Our WhatsApp Channel</h2>
+
+<p>Get instant match links, live updates and exclusive sports news before everyone else.</p>
+
+<div class="waBtns">
+<button class="waBtn" id="joinedBtn">Already Joined</button>
+
+<button class="waBtn" id="joinNow">Join Channel</button>
+</div>
+
+</div>
+</div>
+
+<script>
+setTimeout(()=>{
+document.getElementById("waOverlay").style.display="flex";
+},2000);
+
+document.getElementById("joinNow").onclick=()=>{
+window.open("https://whatsapp.com/channel/0029Vb8e024GJP8MB9T1vY2L","_blank");
+document.getElementById("waOverlay").style.display="none";
+};
+
+document.getElementById("joinedBtn").onclick=()=>{
+document.getElementById("waOverlay").style.display="none";
+};
+
+document.getElementById("waOverlay").addEventListener("click",e=>{
+if(e.target.id==="waOverlay"){
+document.getElementById("waOverlay").style.display="none";
+}
+});
+</script>
 </body>
 </html>
