@@ -612,13 +612,7 @@
   const B = code => `https://apiv3.apifootball.com/badges/${code}.jpg`;
   const fixtures = {
     yesterday: [
-      { home:'England', homeB:B('21_england'), away:'Senegal', awayB:B('728_senegal'), score:[2,1], time:'11:30 PM', status:'finished', comp:'Round of 16' },
-      { home:'Germany', homeB:B('20_germany'), away:'Japan', awayB:B('995_japan'), score:[1,1], score_note:'(4-3 pens)', time:'08:00 PM', status:'finished', comp:'Round of 16' },
-      { home:'Uruguay', homeB:B('534_uruguay'), away:'Iran', awayB:B('974_iran'), score:[3,0], time:'04:00 PM', status:'finished', comp:'Round of 16' },
-      { home:'Belgium', homeB:B('1_belgium'), away:'South Korea', awayB:B('994_south-korea'), score:[2,2], score_note:'(5-4 pens)', time:'12:30 AM', status:'finished', comp:'Round of 16' },
-    ],
-    today: [
-      { home:'Spain', homeB:B('19_spain'), away:'Austria', awayB:B('9_austria'), score:[3,0], time:'12:00 AM', status:'finished', comp:'World Cup — 1/16 finals' },
+       { home:'Spain', homeB:B('19_spain'), away:'Austria', awayB:B('9_austria'), score:[3,0], time:'12:00 AM', status:'finished', comp:'World Cup — 1/16 finals' },
       { home:'Portugal', homeB:B('23_portugal'), away:'Croatia', awayB:B('14_croatia'), score:[2,1], time:'04:00 AM', status:'finished', comp:'World Cup — 1/16 finals' },
       { home:'Switzerland', homeB:B('2_switzerland'), away:'Algeria', awayB:B('734_algeria'), score:[2,0], time:'08:00 AM', status:'finished', comp:'World Cup — 1/16 finals' },
       { home:'Brazil', homeB:B('26_brazil'), away:'Netherlands', awayB:B('17_netherlands'), score:[2,1], time:'06:00 PM', status:'live', minute:"63'", comp:'World Cup — Quarter-final' },
@@ -627,6 +621,12 @@
       { home:'Colombia', homeB:B('535_colombia'), away:'Ghana', awayB:B('725_ghana'), score:[1,0], time:'06:30 AM', status:'finished', comp:'World Cup — 1/16 finals' },
       { home:'Canada', homeB:B('512_canada'), away:'Morocco', awayB:B('717_morocco'), score:[0,2], time:'10:00 PM', status:'finished', comp:'World Cup — 1/8 finals' },
       { home:'Paraguay', homeB:B('537_paraguay'), away:'France', awayB:B('22_france'), score:[0,1], time:'02:00 AM', status:'finished', comp:'World Cup — 1/8 finals' },
+    ],
+    today: [
+      { home:'Brazil', homeB:B('19_spain'), away:'Norway', awayB:B('9_austria'), score:[0,0], time:'01:30 AM', status:'live', comp:'World Cup — 1/16 finals' },
+      { home:'Portugal', homeB:B('23_portugal'), away:'Croatia', awayB:B('14_croatia'), score:[2,1], time:'04:00 AM', status:'finished', comp:'World Cup — 1/16 finals' },
+      { home:'Switzerland', homeB:B('2_switzerland'), away:'Algeria', awayB:B('734_algeria'), score:[2,0], time:'08:00 AM', status:'finished', comp:'World Cup — 1/16 finals' },
+     
     ],
     tomorrow: [
       { home:'Italy', homeB:B('768_italy'), away:'USA', awayB:B('772_usa'), time:'07:30 PM', status:'upcoming', comp:'World Cup — Quarter-final' },
