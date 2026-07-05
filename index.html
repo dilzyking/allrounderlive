@@ -610,7 +610,7 @@
 <script>
   // ---------- Fixture data ----------
   // ---------- Fixture data ----------
-  const B = code => `https://apiv3.apifootball.com/badges/${code}.jpg`;
+  const B = code => `https://flagcdn.com/w160/${code}.png`;
   const fixtures = {
     yesterday: [
        { home:'Spain', homeB:B('19_spain'), away:'Austria', awayB:B('9_austria'), score:[3,0], time:'12:00 AM', status:'finished', comp:'World Cup — 1/16 finals' },
@@ -624,8 +624,8 @@
       { home:'Paraguay', homeB:B('537_paraguay'), away:'France', awayB:B('22_france'), score:[0,1], time:'02:00 AM', status:'finished', comp:'World Cup — 1/8 finals' },
     ],
     today: [
-      { home:'Brazil', homeB:B('https://flagcdn.com/w160/br.png'), away:'Norway', awayB:B('https://flagcdn.com/w160/no.png'), score:[0,0], time:'01:30 AM', status:'live', comp:'World Cup — 1/16 finals',link:'https://domain.com' },
-      { home:'Mexico', homeB:B('https://flagcdn.com/w160/mx.png'), away:'England', awayB:B('https://flagcdn.com/w160/gb-eng.png'), score:[0,0], time:'05:30 AM', status:'finished', comp:'World Cup — 1/16 finals' ,link:'https://domain.com'},
+      { home:'Brazil', homeB:B('br'), away:'Norway', awayB:B('no'), score:[0,0], time:'01:30 AM', status:'live', comp:'World Cup — 1/16 finals',link:'https://domain.com' },
+      { home:'Mexico', homeB:B('mx'), away:'England', awayB:B('gb-eng'), score:[0,0], time:'05:30 AM', status:'finished', comp:'World Cup — 1/16 finals' ,link:'https://domain.com'},
      
     ],
     tomorrow: [
