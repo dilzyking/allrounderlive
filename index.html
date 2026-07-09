@@ -615,24 +615,24 @@
           <div class="spotlight" id="live">
             <div class="spotlight-head">
               <span class="live-pill"><span class="blip"></span>LIVE NOW</span>
-              <span class="spotlight-comp">WORLD CUP · ROUND 16</span>
+              <span class="spotlight-comp">WORLD CUP · ROUND 8</span>
             </div>
             <div class="spotlight-match">
               <div class="spot-team">
-                <div class="crest"><img src="https://flagpedia.net/data/flags/w1160/ar.webp" alt="argentina" /></div>
-                <small>Argentina</small>
+                <div class="crest"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/3840px-Flag_of_France.svg.png" alt="france" /></div>
+                <small>FRANCE</small>
               </div>
               <div style="text-align:center;">
-                <div class="spot-score" id="liveScore">3 – 2</div>
+                <div class="spot-score" id="liveScore">0 – 0</div>
                 <div class="spot-minute" id="liveMinute">0'</div>
               </div>
               <div class="spot-team">
-                <div class="crest"><img src="https://flagpedia.net/data/flags/w1160/eg.webp" alt="egypt" /></div>
-                <small>Egypt</small>
+                <div class="crest"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/1920px-Flag_of_Morocco.svg.png" alt="morroco" /></div>
+                <small>MORROCO</small></small>
               </div>
             </div>
             <div class="spot-bar"><i id="liveBar" style="width:70%"></i></div>
-            <a href="/fifa/argentina-vs-egypt" class="btn btn-gold" style="width:100%; justify-content:center;">Watch ARGENTINA vs EGYPT</a>
+            <a href="/fifa/france-vs-morroco" class="btn btn-gold" style="width:100%; justify-content:center;">Watch France vs Morroco</a>
           </div>
         </section>
       </div>
@@ -779,6 +779,7 @@
       const B = code => `https://flagcdn.com/w160/${code}.png`;
       const fixtures = {
         yesterday: [
+          { home:'Argentina', homeB:B('ar'), away:'Egypt', awayB:B('eg'), score:[3,2], time:'09:30 AM', status:'finished', comp:'World Cup — 1/16 finals', link:'/fifa/argentina-vs-egypt' },
           { home:'Brazil', homeB:B('br'), away:'Norway', awayB:B('no'), score:[1,2], time:'01:30 AM', status:'finished', comp:'World Cup — 1/16 finals', link:'/fifa/brazil-vs-norway' },
           { home:'Mexico', homeB:B('mx'), away:'England', awayB:B('gb-eng'), score:[2,3], time:'05:30 AM', status:'finished', comp:'World Cup — 1/16 finals', link:'/fifa/mexico-vs-england' },
           { home:'Portugal', homeB:B('pt'), away:'Spain', awayB:B('es'), score:[0,1], time:'12:30 AM', status:'finished', comp:'World Cup — 1/16 finals', link:'/fifa/portugal-vs-spain' },
@@ -786,7 +787,7 @@
         
         ],
         today: [
-          { home:'Argentina', homeB:B('ar'), away:'Egypt', awayB:B('eg'), score:[3,2], time:'09:30 AM', status:'finished', comp:'World Cup — 1/16 finals', link:'/fifa/argentina-vs-egypt' },
+          { home:'France', homeB:B('fr'), away:'Morroco', awayB:B('ma'), score:[0,0], time:'01:30 AM', status:'live', comp:'World Cup — 1/8 finals', link:'/fifa/france-vs-morroco' },
           
         ],
         tomorrow: [
