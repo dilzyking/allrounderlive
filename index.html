@@ -619,16 +619,16 @@
             </div>
             <div class="spotlight-match">
               <div class="spot-team">
-                <div class="crest"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/1920px-Flag_of_Spain.svg.png?_=20240115205409" alt="france" /></div>
-                <small>SPAIN</small>
+                <div class="crest"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/500px-Flag_of_Norway.svg.png" alt="france" /></div>
+                <small>NORWAY</small>
               </div>
               <div style="text-align:center;">
                 <div class="spot-score" id="liveScore">0 – 0</div>
                 <div class="spot-minute" id="liveMinute">0'</div>
               </div>
               <div class="spot-team">
-                <div class="crest"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Belgium_%28civil%29.svg/960px-Flag_of_Belgium_%28civil%29.svg.png" alt="morroco" /></div>
-                <small>BELGIUM</small></small>
+                <div class="crest"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/960px-Flag_of_England.svg.png" alt="morroco" /></div>
+                <small>ENGLAND</small></small>
               </div>
             </div>
             <div class="spot-bar"><i id="liveBar" style="width:70%"></i></div>
@@ -779,7 +779,9 @@
       const B = code => `https://flagcdn.com/w160/${code}.png`;
       const fixtures = {
         yesterday: [
-          { home:'France', homeB:B('fr'), away:'Morroco', awayB:B('ma'), score:[0,0], time:'01:30 AM', status:'live', comp:'World Cup — 1/8 finals', link:'/fifa/france-vs-morroco' },
+           { home:'Spain', homeB:B('es'), away:'Belgium', awayB:B('be'), score:[2,1], time:'01:30 AM', status:'finished', comp:'World Cup — 1/8 finals', link:'/fifa/spain-vs-belgium' },
+          
+          { home:'France', homeB:B('fr'), away:'Morroco', awayB:B('ma'), score:[0,0], time:'01:30 AM', status:'finished', comp:'World Cup — 1/8 finals', link:'/fifa/france-vs-morroco' },
           { home:'Argentina', homeB:B('ar'), away:'Egypt', awayB:B('eg'), score:[3,2], time:'09:30 AM', status:'finished', comp:'World Cup — 1/16 finals', link:'/fifa/argentina-vs-egypt' },
           { home:'Brazil', homeB:B('br'), away:'Norway', awayB:B('no'), score:[1,2], time:'01:30 AM', status:'finished', comp:'World Cup — 1/16 finals', link:'/fifa/brazil-vs-norway' },
           { home:'Mexico', homeB:B('mx'), away:'England', awayB:B('gb-eng'), score:[2,3], time:'05:30 AM', status:'finished', comp:'World Cup — 1/16 finals', link:'/fifa/mexico-vs-england' },
@@ -788,7 +790,8 @@
         
         ],
         today: [
-          { home:'Spain', homeB:B('es'), away:'Belgium', awayB:B('be'), score:[0,0], time:'01:30 AM', status:'live', comp:'World Cup — 1/8 finals', link:'/fifa/spain-vs-belgium' },
+          { home:'Norway', homeB:B('no'), away:'England', awayB:B('gb-eng'), score:[0,0], time:'02:30 AM', status:'live', comp:'World Cup — 1/8 finals', link:'/fifa/spain-vs-belgium' },
+          { home:'Argentina', homeB:B('ar'), away:'Switzerland', awayB:B('ch'), score:[0,0], time:'06:30 AM', status:'upcoming', comp:'World Cup — 1/8 finals', link:'/fifa/spain-vs-belgium' },
           
         ],
         tomorrow: [
