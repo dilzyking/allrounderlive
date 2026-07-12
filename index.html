@@ -2050,21 +2050,28 @@
       }
     });
 
-    // ====== POSTER CLICK - OPEN SAME PAGE ======
-    const posterWrapper = document.getElementById('posterWrapper');
-    posterWrapper.addEventListener('click', function(e) {
-      // Don't trigger if clicking on watch button, mytod button, or slider controls
-      if (
-        e.target.closest('.watch-btn') ||
-        e.target.closest('.btn-mytod') ||
-        e.target.closest('.slider-arrow') ||
-        e.target.closest('.slider-progress')
-      ) {
-        return;
-      }
-      // Open the same page (refresh or navigate)
-      window.location.href = window.location.href;
-    });
+   // ====== POSTER CLICK - NAVIGATE TO WATCH PAGE ======
+const posterWrapper = document.getElementById('posterWrapper');
+posterWrapper.addEventListener('click', function(e) {
+  // Don't trigger if clicking on watch button, mytod button, or slider controls
+  if (
+    e.target.closest('.watch-btn') ||
+    e.target.closest('.btn-mytod') ||
+    e.target.closest('.slider-arrow') ||
+    e.target.closest('.slider-progress')
+  ) {
+    return;
+  }
+  // Get the watch button from the active slide and navigate to its href
+  const activeSlide = document.querySelector('.poster-section.active');
+  const watchBtn = activeSlide ? activeSlide.querySelector('.watch-btn') : null;
+  if (watchBtn) {
+    const href = watchBtn.getAttribute('href');
+    if (href) {
+      window.location.href = href;
+    }
+  }
+});
 
     // ====== WATCH BUTTON CLICK - NAVIGATE TO LINK ======
 document.querySelectorAll('.watch-btn').forEach(function (btn) {
