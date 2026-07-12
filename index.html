@@ -2202,16 +2202,18 @@ document.querySelectorAll('.watch-btn').forEach(function (btn) {
       });
     })();
 
-    // ====== HIGHLIGHT CARD CLICK - OPEN HIGHLIGHTS PAGE ======
-    document.querySelectorAll('.highlight-card').forEach(function (card) {
-      card.addEventListener('click', function (e) {
-        e.preventDefault();
-        e.stopPropagation();
-        // Route to the highlights page for this match
-        // (currently opens the same page as a placeholder — swap in a real URL/route when ready)
-        window.location.href = window.location.href;
-      });
-    });
+  // ====== HIGHLIGHT CARD CLICK - NAVIGATE TO HIGHLIGHTS PAGE ======
+document.querySelectorAll('.highlight-card').forEach(function (card) {
+  card.addEventListener('click', function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+    // Navigate to the href of the link
+    const href = this.getAttribute('href');
+    if (href) {
+      window.location.href = href;
+    }
+  });
+});
   </script>
 
 </body>
