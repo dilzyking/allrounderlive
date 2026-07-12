@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NBCU Local Live Player</title>
+
+<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css"/>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-L7VPXZYQPN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-L7VPXZYQPN');
+</script>
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#000;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    font-family:Arial,sans-serif;
+}
+
+.player-container{
+    width:100%;
+    max-width:1400px;
+}
+
+video{
+    width:100%;
+    height:auto;
+}
+</style>
+</head>
+<body>
+
+<div class="player-container">
+    <video
+        id="player"
+        controls
+        playsinline
+        crossorigin
+    ></video>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+<script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
+
+<script>
+const video = document.getElementById('player');
+
+const streamUrl =
+'https://content-aaps1.uplynk.com/preplay2/a47d58ce554a48f4a605620b41a11ab7/29b1e7efc45aff33f4a2b4881c452d32/6QDuOTwDmfXRXwA6pRJSHV6cEdSXeNvtIWx8p6CpoaDY.m3u8?pbs=66ead37384ca476fa3f7feed47591e53';
+
+const player = new Plyr(video, {
+    controls: [
+        'play-large',
+        'play',
+        'progress',
+        'current-time',
+        'mute',
+        'volume',
+        'settings',
+        'pip',
+        'airplay',
+        'fullscreen'
+    ],
+    settings: ['speed'],
+    speed: {
+        selected: 1,
+        options: [0.5, 0.75, 1, 1.25, 1.5, 2]
+    }
+});
+
+if (Hls.isSupported()) {
+    const hls = new Hls({
+        enableWorker: true,
+        lowLatencyMode: true
+    });
+
+    hls.loadSource(streamUrl);
+    hls.attachMedia(video);
+
+    hls.on(Hls.Events.MANIFEST_PARSED, function () {
+        video.play().catch(() => {});
+    });
+
+} else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+    video.src = streamUrl;
+    video.addEventListener('loadedmetadata', function () {
+        video.play().catch(() => {});
+    });
+}
+</script>
+<script>(function(s){s.dataset.zone='10603308',s.src='https://llvpn.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
+  
+</body>
+</html>
