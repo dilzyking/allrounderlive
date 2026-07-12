@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
+  <title>matchdekho</title>
+  <style>
+    /* ---------- RESET & BASE ---------- */
+    *,
+    *::before,
+    *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --bg-primary: #0b0d0f;
+      --green: #7dffb3;
+      --white: #ffffff;
+      --border-subtle: rgba(255, 255, 255, 0.06);
+    }
+
+    html {
+      font-size: 16px;
+      scroll-behavior: smooth;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      width: 100%;
+      min-height: 100vh;
+      min-height: 100dvh; /* Dynamic viewport height for mobile */
+      background: var(--bg-primary);
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    /* ---------- HEADER (FULLY FLEXIBLE) ---------- */
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      padding: clamp(0.6rem, 2.5vw, 1.5rem) clamp(0.8rem, 4vw, 3rem);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: transparent;
+      z-index: 1000;
+      border-bottom: 1px solid var(--border-subtle);
+      backdrop-filter: blur(0px);
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    /* ---------- LOGO (FLUID TYPOGRAPHY) ---------- */
+    .logo {
+      text-decoration: none;
+      font-size: clamp(1.2rem, 4.5vw, 2.8rem);
+      font-weight: 700;
+      letter-spacing: clamp(-0.01em, -0.03em, -0.05em);
+      display: inline-flex;
+      align-items: center;
+      white-space: nowrap;
+      transition: transform 0.2s ease;
+    }
+
+    .logo:hover {
+      transform: scale(1.02);
+    }
+
+    .logo .match {
+      color: var(--green);
+      text-shadow: 
+        0 0 clamp(20px, 4vw, 60px) rgba(125, 255, 179, 0.15),
+        0 0 clamp(40px, 8vw, 120px) rgba(125, 255, 179, 0.05);
+    }
+
+    .logo .dekho {
+      color: var(--white);
+      text-shadow: 
+        0 0 clamp(10px, 2vw, 40px) rgba(255, 255, 255, 0.05);
+    }
+
+    /* ---------- GLASS CLOUDS (RESPONSIVE POSITIONING) ---------- */
+    .glass-cloud {
+      position: fixed;
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 0;
+      filter: blur(clamp(30px, 6vw, 60px));
+      will-change: transform, opacity;
+    }
+
+    /* Cloud 1 - Center */
+    .cloud-1 {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: min(80vw, 700px);
+      height: min(50vh, 400px);
+      background: radial-gradient(
+        ellipse at center,
+        rgba(125, 255, 179, 0.05) 0%,
+        rgba(255, 255, 255, 0.025) 40%,
+        transparent 70%
+      );
+      animation: pulse 4s ease-in-out infinite;
+    }
+
+    /* Cloud 2 - Top Left */
+    .cloud-2 {
+      top: clamp(10%, 15vh, 25%);
+      left: clamp(5%, 8vw, 15%);
+      width: clamp(150px, 25vw, 350px);
+      height: clamp(100px, 18vh, 250px);
+      background: radial-gradient(
+        ellipse at center,
+        rgba(125, 255, 179, 0.035) 0%,
+        rgba(255, 255, 255, 0.02) 30%,
+        transparent 70%
+      );
+      animation: float1 8s ease-in-out infinite;
+    }
+
+    /* Cloud 3 - Bottom Right */
+    .cloud-3 {
+      bottom: clamp(10%, 12vh, 20%);
+      right: clamp(3%, 5vw, 12%);
+      width: clamp(180px, 28vw, 400px);
+      height: clamp(120px, 20vh, 280px);
+      background: radial-gradient(
+        ellipse at center,
+        rgba(125, 255, 179, 0.03) 0%,
+        rgba(255, 255, 255, 0.015) 30%,
+        transparent 70%
+      );
+      animation: float2 10s ease-in-out infinite reverse;
+    }
+
+    /* Cloud 4 - Extra small decorative (optional) */
+    .cloud-4 {
+      top: clamp(60%, 65vh, 75%);
+      left: clamp(2%, 3vw, 8%);
+      width: clamp(100px, 15vw, 200px);
+      height: clamp(70px, 10vh, 150px);
+      background: radial-gradient(
+        ellipse at center,
+        rgba(125, 255, 179, 0.02) 0%,
+        rgba(255, 255, 255, 0.01) 30%,
+        transparent 70%
+      );
+      animation: float3 12s ease-in-out infinite 2s;
+      filter: blur(clamp(40px, 5vw, 70px));
+    }
+
+    /* ---------- ANIMATIONS ---------- */
+    @keyframes pulse {
+      0%, 100% {
+        opacity: 0.5;
+        transform: translate(-50%, -50%) scale(1);
+      }
+      50% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.08);
+      }
+    }
+
+    @keyframes float1 {
+      0%, 100% {
+        transform: translate(0, 0) scale(1);
+      }
+      33% {
+        transform: translate(clamp(10px, 2vw, 30px), clamp(-10px, -2vh, -25px)) scale(1.02);
+      }
+      66% {
+        transform: translate(clamp(-5px, -1vw, -15px), clamp(5px, 1vh, 15px)) scale(0.98);
+      }
+    }
+
+    @keyframes float2 {
+      0%, 100% {
+        transform: translate(0, 0) scale(1);
+      }
+      50% {
+        transform: translate(clamp(-15px, -3vw, -40px), clamp(-12px, -2.5vh, -30px)) scale(1.05);
+      }
+    }
+
+    @keyframes float3 {
+      0%, 100% {
+        transform: translate(0, 0) rotate(0deg);
+      }
+      50% {
+        transform: translate(clamp(20px, 4vw, 50px), clamp(8px, 1.5vh, 20px)) rotate(5deg);
+      }
+    }
+
+    /* ---------- EMPTY BODY (FILLS SPACE) ---------- */
+    main {
+      flex: 1;
+      min-height: 100vh;
+      min-height: 100dvh;
+      width: 100%;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* ---------- RESPONSIVE FINE-TUNING ---------- */
+    /* Tablets and smaller laptops */
+    @media (max-width: 1024px) {
+      .cloud-1 {
+        width: min(85vw, 600px);
+        height: min(45vh, 350px);
+      }
+    }
+
+    /* Mobile phones */
+    @media (max-width: 768px) {
+      header {
+        padding: clamp(0.5rem, 1.8vw, 0.8rem) clamp(0.6rem, 3vw, 1.2rem);
+      }
+
+      .logo {
+        font-size: clamp(1.1rem, 5vw, 1.8rem);
+      }
+
+      .cloud-1 {
+        width: 85vw;
+        height: 35vh;
+        filter: blur(clamp(25px, 5vw, 40px));
+      }
+
+      .cloud-2 {
+        width: clamp(120px, 30vw, 180px);
+        height: clamp(80px, 20vh, 120px);
+        top: clamp(8%, 10vh, 15%);
+        left: clamp(3%, 5vw, 8%);
+      }
+
+      .cloud-3 {
+        width: clamp(140px, 32vw, 200px);
+        height: clamp(90px, 22vh, 140px);
+        bottom: clamp(8%, 10vh, 15%);
+        right: clamp(2%, 4vw, 6%);
+      }
+
+      .cloud-4 {
+        width: clamp(80px, 18vw, 120px);
+        height: clamp(60px, 12vh, 90px);
+      }
+    }
+
+    /* Small phones */
+    @media (max-width: 480px) {
+      header {
+        padding: 0.5rem 0.8rem;
+      }
+
+      .logo {
+        font-size: clamp(0.9rem, 4.5vw, 1.3rem);
+      }
+
+      .cloud-1 {
+        width: 90vw;
+        height: 30vh;
+        filter: blur(20px);
+      }
+
+      .cloud-2 {
+        width: 100px;
+        height: 70px;
+        top: 12%;
+        left: 5%;
+      }
+
+      .cloud-3 {
+        width: 120px;
+        height: 80px;
+        bottom: 12%;
+        right: 3%;
+      }
+
+      .cloud-4 {
+        display: none; /* Hide extra cloud on very small screens */
+      }
+    }
+
+    /* Tall screens (like foldables, vertical monitors) */
+    @media (min-aspect-ratio: 1/1) and (max-height: 800px) {
+      .cloud-1 {
+        height: 40vh;
+        width: 70vw;
+      }
+    }
+
+    /* Ultra-wide screens */
+    @media (min-width: 1920px) {
+      .cloud-1 {
+        width: 700px;
+        height: 450px;
+      }
+      
+      .cloud-2 {
+        width: 400px;
+        height: 280px;
+      }
+      
+      .cloud-3 {
+        width: 450px;
+        height: 300px;
+      }
+    }
+
+    /* ---------- REDUCED MOTION PREFERENCE ---------- */
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+
+    /* ---------- DARK MODE SUPPORT (already dark) ---------- */
+    /* Light mode fallback (optional, but we keep dark) */
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg-primary: #0b0d0f; /* Keep dark regardless */
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ====== HEADER ====== -->
+  <header>
+    <a href="#" class="logo" aria-label="matchdekho home">
+      <span class="match">match</span><span class="dekho">dekho</span>
+    </a>
+  </header>
+
+  <!-- ====== GLASS CLOUDS ====== -->
+  <div class="glass-cloud cloud-1" aria-hidden="true"></div>
+  <div class="glass-cloud cloud-2" aria-hidden="true"></div>
+  <div class="glass-cloud cloud-3" aria-hidden="true"></div>
+  <div class="glass-cloud cloud-4" aria-hidden="true"></div>
+
+  <!-- ====== EMPTY MAIN CONTENT ====== -->
+  <main role="main">
+    <!-- Completely empty - ready for your content -->
+  </main>
+
+</body>
+</html>
