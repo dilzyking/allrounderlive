@@ -18,7 +18,11 @@
       --bg-primary: #0b0d0f;
       --green: #7dffb3;
       --white: #ffffff;
-      --border-subtle: rgba(255, 255, 255, 0.06);
+      --golden: #f5c518;
+      --golden-dark: #d4a800;
+      --golden-glow: rgba(245, 197, 24, 0.3);
+      --card-bg: rgba(11, 13, 15, 0.6);
+      --border-light: rgba(255, 255, 255, 0.08);
     }
 
     html {
@@ -39,27 +43,27 @@
       position: relative;
     }
 
-    /* ---------- HEADER - FULLY TRANSPARENT ---------- */
+    /* ---------- HEADER ---------- */
     header {
       position: fixed;
       top: 0;
       left: 0;
       right: 0;
       width: 100%;
-      padding: clamp(0.4rem, 1.5vw, 0.8rem) clamp(0.8rem, 4vw, 3rem);
+      padding: clamp(0.3rem, 1.2vw, 0.7rem) clamp(0.8rem, 4vw, 3rem);
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: space-between;
       background: transparent;
       z-index: 1000;
       border-bottom: none;
       transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    /* ---------- LOGO (SMALLER) ---------- */
+    /* ---------- LOGO - CENTERED ON MOBILE ---------- */
     .logo {
       text-decoration: none;
-      font-size: clamp(0.9rem, 2.8vw, 1.6rem);
+      font-size: clamp(0.85rem, 2.5vw, 1.5rem);
       font-weight: 700;
       letter-spacing: clamp(-0.01em, -0.03em, -0.05em);
       display: inline-flex;
@@ -84,7 +88,135 @@
       text-shadow: 0 0 clamp(8px, 1.5vw, 25px) rgba(255, 255, 255, 0.05);
     }
 
-    /* ---------- POSTER SECTION - TOUCHES TOP ---------- */
+    /* ---------- HEADER NAV - DESKTOP ---------- */
+    .header-nav {
+      display: flex;
+      align-items: center;
+      gap: clamp(0.5rem, 1.5vw, 1.5rem);
+    }
+
+    .header-nav a {
+      color: rgba(255, 255, 255, 0.7);
+      text-decoration: none;
+      font-size: clamp(0.6rem, 1.2vw, 0.9rem);
+      font-weight: 500;
+      transition: color 0.3s ease;
+      letter-spacing: 0.02em;
+    }
+
+    .header-nav a:hover {
+      color: #ffffff;
+    }
+
+    .header-nav .sign-in {
+      color: #ffffff;
+      font-weight: 600;
+    }
+
+    .header-nav .subscribe {
+      background: var(--golden);
+      color: #0b0d0f;
+      padding: clamp(0.2rem, 0.5vw, 0.5rem) clamp(0.6rem, 1.5vw, 1.2rem);
+      border-radius: clamp(20px, 3vw, 40px);
+      font-weight: 700;
+      font-size: clamp(0.55rem, 1vw, 0.8rem);
+      transition: all 0.3s ease;
+    }
+
+    .header-nav .subscribe:hover {
+      transform: scale(1.05);
+      background: #e6b800;
+    }
+
+    /* ---------- HAMBURGER MENU (MOBILE ONLY) ---------- */
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: clamp(3px, 0.4vw, 5px);
+      cursor: pointer;
+      padding: clamp(0.2rem, 0.5vw, 0.4rem);
+      z-index: 1001;
+      background: transparent;
+      border: none;
+    }
+
+    .hamburger span {
+      display: block;
+      width: clamp(22px, 3vw, 30px);
+      height: clamp(2px, 0.25vw, 3px);
+      background: #ffffff;
+      border-radius: 2px;
+      transition: all 0.3s ease;
+    }
+
+    .hamburger.active span:nth-child(1) {
+      transform: rotate(45deg) translate(clamp(4px, 0.5vw, 6px), clamp(4px, 0.5vw, 6px));
+    }
+
+    .hamburger.active span:nth-child(2) {
+      opacity: 0;
+    }
+
+    .hamburger.active span:nth-child(3) {
+      transform: rotate(-45deg) translate(clamp(4px, 0.5vw, 6px), clamp(-4px, -0.5vw, -6px));
+    }
+
+    /* ---------- MOBILE MENU OVERLAY ---------- */
+    .mobile-menu {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(11, 13, 15, 0.98);
+      z-index: 999;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: clamp(1rem, 3vh, 2rem);
+      padding: 2rem;
+      animation: fadeIn 0.3s ease;
+    }
+
+    .mobile-menu.active {
+      display: flex;
+    }
+
+    .mobile-menu a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: clamp(1.2rem, 4vw, 1.8rem);
+      font-weight: 500;
+      transition: color 0.3s ease;
+      letter-spacing: 0.05em;
+    }
+
+    .mobile-menu a:hover {
+      color: var(--golden);
+    }
+
+    .mobile-menu .subscribe-mobile {
+      background: var(--golden);
+      color: #0b0d0f;
+      padding: clamp(0.6rem, 1.5vw, 1rem) clamp(1.5rem, 4vw, 2.5rem);
+      border-radius: clamp(30px, 4vw, 50px);
+      font-weight: 700;
+      font-size: clamp(1rem, 3vw, 1.4rem);
+      margin-top: clamp(0.5rem, 1vh, 1rem);
+    }
+
+    .mobile-menu .subscribe-mobile:hover {
+      background: #e6b800;
+      transform: scale(1.05);
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    /* ---------- POSTER SECTION ---------- */
     .poster-wrapper {
       position: relative;
       width: 100%;
@@ -116,14 +248,33 @@
       transition: all 0.3s ease;
     }
 
-    /* ---------- BLACK GRADIENT OVERLAY (OTT STYLE) ---------- */
+    /* ---------- GRADIENTS ---------- */
+    .gradient-left {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      width: clamp(35%, 50%, 65%);
+      background: linear-gradient(
+        to right,
+        #0b0d0f 0%,
+        #0b0d0f 10%,
+        rgba(11, 13, 15, 0.85) 25%,
+        rgba(11, 13, 15, 0.5) 50%,
+        rgba(11, 13, 15, 0.15) 75%,
+        transparent 100%
+      );
+      pointer-events: none;
+      z-index: 2;
+    }
+
     .gradient-overlay {
       position: absolute;
       bottom: 0;
       left: 0;
       right: 0;
       width: 100%;
-      height: clamp(40%, 55%, 70%);
+      height: clamp(35%, 50%, 65%);
       background: linear-gradient(
         to top,
         #0b0d0f 0%,
@@ -135,6 +286,243 @@
       );
       pointer-events: none;
       z-index: 2;
+    }
+
+    /* ---------- MATCH DETAILS OVERLAY ---------- */
+    .match-details {
+      position: absolute;
+      bottom: clamp(8%, 12vh, 18%);
+      left: clamp(3%, 5vw, 8%);
+      z-index: 10;
+      max-width: clamp(280px, 50vw, 600px);
+      animation: fadeInUp 0.8s ease-out;
+    }
+
+    /* Match Title */
+    .match-title {
+      font-size: clamp(0.6rem, 1vw, 0.8rem);
+      color: rgba(255, 255, 255, 0.5);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: clamp(0.2rem, 0.4vw, 0.5rem);
+      font-weight: 600;
+    }
+
+    /* Teams Row */
+    .teams-row {
+      display: flex;
+      align-items: center;
+      gap: clamp(0.5rem, 1.5vw, 1.5rem);
+      margin-bottom: clamp(0.3rem, 0.6vw, 0.8rem);
+    }
+
+    .team {
+      display: flex;
+      align-items: center;
+      gap: clamp(0.3rem, 0.8vw, 0.8rem);
+    }
+
+    .team-flag {
+      width: clamp(24px, 3vw, 45px);
+      height: clamp(16px, 2vw, 30px);
+      object-fit: cover;
+      border-radius: 2px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .team-name {
+      font-size: clamp(0.8rem, 1.8vw, 1.6rem);
+      font-weight: 700;
+      color: #ffffff;
+      letter-spacing: 0.02em;
+    }
+
+    /* Score in WHITE */
+    .vs-score {
+      font-size: clamp(1rem, 2.5vw, 2.2rem);
+      font-weight: 800;
+      color: #ffffff;
+      letter-spacing: 0.05em;
+    }
+
+    /* Match Info */
+    .match-info {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: clamp(0.3rem, 0.8vw, 1rem);
+      margin-bottom: clamp(0.3rem, 0.6vw, 0.8rem);
+    }
+
+    .match-info .tag {
+      font-size: clamp(0.5rem, 0.8vw, 0.7rem);
+      color: rgba(255, 255, 255, 0.5);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 500;
+    }
+
+    .match-info .date,
+    .match-info .time,
+    .match-info .venue {
+      font-size: clamp(0.55rem, 0.9vw, 0.8rem);
+      color: rgba(255, 255, 255, 0.7);
+      font-weight: 400;
+    }
+
+    .match-info .separator {
+      color: rgba(255, 255, 255, 0.2);
+    }
+
+    /* Badges */
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: clamp(0.3rem, 0.6vw, 0.8rem);
+      margin-bottom: clamp(0.4rem, 0.8vw, 1rem);
+    }
+
+    .badge {
+      padding: clamp(0.15rem, 0.3vw, 0.4rem) clamp(0.4rem, 0.8vw, 1rem);
+      border-radius: clamp(12px, 2vw, 20px);
+      font-size: clamp(0.45rem, 0.7vw, 0.65rem);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .badge-fulltime {
+      background: rgba(245, 197, 24, 0.2);
+      color: var(--golden);
+      border-color: rgba(245, 197, 24, 0.3);
+    }
+
+    .badge-4k {
+      background: rgba(255, 255, 255, 0.05);
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    .badge-hdr {
+      background: rgba(255, 255, 255, 0.05);
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    .badge-fanzone {
+      background: rgba(125, 255, 179, 0.1);
+      color: var(--green);
+      border-color: rgba(125, 255, 179, 0.2);
+    }
+
+    /* ---------- ACTION BUTTONS ---------- */
+    .action-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: clamp(0.5rem, 1vw, 1.2rem);
+      margin-top: clamp(0.3rem, 0.6vw, 0.8rem);
+    }
+
+    /* WATCH BUTTON - ROUND LEFT, STRAIGHT RIGHT */
+    .watch-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: clamp(0.3rem, 0.8vw, 0.6rem);
+      padding: clamp(0.4rem, 0.8vw, 0.8rem) clamp(0.8rem, 2vw, 2rem);
+      background: linear-gradient(135deg, #f5c518 0%, #e6b800 50%, #d4a800 100%);
+      color: #0b0d0f;
+      font-size: clamp(0.65rem, 1.2vw, 1rem);
+      font-weight: 700;
+      font-family: inherit;
+      border: clamp(1.5px, 0.2vw, 3px) solid #0b0d0f;
+      border-radius: 0 clamp(30px, 4vw, 50px) clamp(30px, 4vw, 50px) 0;
+      cursor: pointer;
+      text-decoration: none;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      box-shadow: 
+        0 clamp(3px, 0.8vw, 10px) clamp(15px, 2.5vw, 30px) rgba(245, 197, 24, 0.25),
+        0 clamp(2px, 0.4vw, 5px) clamp(8px, 1.5vw, 20px) rgba(0, 0, 0, 0.3),
+        inset 0 clamp(1px, 0.2vw, 2px) clamp(2px, 0.4vw, 5px) rgba(255, 255, 255, 0.3);
+      position: relative;
+      overflow: hidden;
+      border-left: clamp(1.5px, 0.2vw, 3px) solid #0b0d0f;
+    }
+
+    .watch-btn::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(
+        circle at center,
+        rgba(255, 255, 255, 0.15) 0%,
+        transparent 60%
+      );
+      opacity: 0;
+      transition: opacity 0.4s ease;
+      pointer-events: none;
+    }
+
+    .watch-btn:hover {
+      transform: scale(1.05) translateY(clamp(-2px, -0.3vh, -4px));
+      box-shadow: 
+        0 clamp(6px, 1.2vw, 16px) clamp(25px, 4vw, 50px) rgba(245, 197, 24, 0.35),
+        0 clamp(3px, 0.6vw, 8px) clamp(12px, 2.5vw, 30px) rgba(0, 0, 0, 0.4),
+        inset 0 clamp(1px, 0.2vw, 2px) clamp(2px, 0.4vw, 5px) rgba(255, 255, 255, 0.4);
+    }
+
+    .watch-btn:hover::before {
+      opacity: 1;
+    }
+
+    .watch-btn:active {
+      transform: scale(0.95);
+    }
+
+    .watch-btn .icon {
+      font-size: clamp(0.7rem, 1.2vw, 1.2rem);
+      line-height: 1;
+    }
+
+    /* + My TOD Button */
+    .btn-mytod {
+      display: inline-flex;
+      align-items: center;
+      gap: clamp(0.2rem, 0.5vw, 0.4rem);
+      padding: clamp(0.3rem, 0.6vw, 0.6rem) clamp(0.6rem, 1.2vw, 1.5rem);
+      background: transparent;
+      color: #ffffff;
+      font-size: clamp(0.55rem, 1vw, 0.8rem);
+      font-weight: 600;
+      font-family: inherit;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: clamp(16px, 2vw, 30px);
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+
+    .btn-mytod:hover {
+      background: rgba(255, 255, 255, 0.05);
+      border-color: rgba(255, 255, 255, 0.4);
+    }
+
+    /* ---------- ANIMATIONS ---------- */
+    @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        transform: translateY(clamp(20px, 3vh, 40px));
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
 
     /* ---------- GLASS CLOUDS ---------- */
@@ -259,17 +647,40 @@
     }
 
     /* ============================================================ */
-    /* ========== RESPONSIVE POSTER - TOUCHES TOP ========== */
+    /* ========== RESPONSIVE ========== */
     /* ============================================================ */
 
-    /* ----- MOBILE: PORTRAIT ----- */
+    /* ----- MOBILE: PORTRAIT (HAMBURGER + CENTER LOGO) ----- */
     @media (orientation: portrait) and (max-width: 768px) {
       header {
-        padding: clamp(0.3rem, 1.2vw, 0.5rem) clamp(0.6rem, 3vw, 1.2rem);
+        padding: clamp(0.2rem, 1vw, 0.4rem) clamp(0.6rem, 3vw, 1.2rem);
+        justify-content: center;
+        position: relative;
       }
 
       .logo {
-        font-size: clamp(0.8rem, 3.5vw, 1.2rem);
+        font-size: clamp(1rem, 4vw, 1.4rem);
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .logo:hover {
+        transform: translateX(-50%) scale(1.02);
+      }
+
+      /* Hide desktop nav */
+      .header-nav {
+        display: none;
+      }
+
+      /* Show hamburger */
+      .hamburger {
+        display: flex;
+        position: absolute;
+        right: clamp(0.6rem, 3vw, 1.2rem);
+        top: 50%;
+        transform: translateY(-50%);
       }
 
       .poster-section {
@@ -282,28 +693,93 @@
         width: 100%;
       }
 
-      .gradient-overlay {
-        height: clamp(45%, 60%, 75%);
+      .gradient-left {
+        width: clamp(45%, 60%, 75%);
         background: linear-gradient(
-          to top,
+          to right,
           #0b0d0f 0%,
-          #0b0d0f 12%,
-          rgba(11, 13, 15, 0.85) 25%,
-          rgba(11, 13, 15, 0.5) 45%,
-          rgba(11, 13, 15, 0.2) 65%,
+          #0b0d0f 15%,
+          rgba(11, 13, 15, 0.85) 35%,
+          rgba(11, 13, 15, 0.5) 60%,
+          rgba(11, 13, 15, 0.2) 80%,
           transparent 100%
         );
+      }
+
+      .gradient-overlay {
+        height: clamp(45%, 60%, 75%);
+      }
+
+      .match-details {
+        bottom: clamp(8%, 12vh, 16%);
+        left: clamp(4%, 6vw, 8%);
+        max-width: clamp(240px, 65vw, 400px);
+      }
+
+      .match-title {
+        font-size: clamp(0.55rem, 1vw, 0.7rem);
+      }
+
+      .team-flag {
+        width: clamp(22px, 3vw, 32px);
+        height: clamp(15px, 2vw, 22px);
+      }
+
+      .team-name {
+        font-size: clamp(0.9rem, 2.5vw, 1.3rem);
+      }
+
+      .vs-score {
+        font-size: clamp(1.2rem, 3vw, 1.8rem);
+      }
+
+      .match-info .tag {
+        font-size: clamp(0.5rem, 0.8vw, 0.65rem);
+      }
+
+      .match-info .date,
+      .match-info .time,
+      .match-info .venue {
+        font-size: clamp(0.5rem, 0.8vw, 0.65rem);
+      }
+
+      .badge {
+        font-size: clamp(0.45rem, 0.7vw, 0.6rem);
+        padding: clamp(0.15rem, 0.3vw, 0.3rem) clamp(0.4rem, 0.7vw, 0.8rem);
+      }
+
+      /* BIGGER WATCH BUTTON ON MOBILE */
+      .watch-btn {
+        padding: clamp(0.6rem, 1.5vw, 0.9rem) clamp(1.2rem, 3vw, 2rem);
+        font-size: clamp(0.85rem, 2vw, 1.2rem);
+        border-width: clamp(2px, 0.3vw, 3px);
+        gap: clamp(0.4rem, 0.8vw, 0.6rem);
+        border-radius: 0 clamp(35px, 5vw, 55px) clamp(35px, 5vw, 55px) 0;
+      }
+
+      .watch-btn .icon {
+        font-size: clamp(0.9rem, 1.8vw, 1.3rem);
+      }
+
+      .btn-mytod {
+        padding: clamp(0.4rem, 0.8vw, 0.6rem) clamp(0.8rem, 1.5vw, 1.2rem);
+        font-size: clamp(0.7rem, 1.2vw, 0.9rem);
       }
     }
 
     /* ----- MOBILE: PORTRAIT (small phones) ----- */
     @media (orientation: portrait) and (max-width: 480px) {
       header {
-        padding: 0.25rem 0.6rem;
+        padding: 0.15rem 0.5rem;
       }
 
       .logo {
-        font-size: clamp(0.7rem, 3vw, 1rem);
+        font-size: clamp(0.85rem, 3.5vw, 1.1rem);
+      }
+
+      .hamburger span {
+        width: clamp(18px, 2.5vw, 22px);
+        height: clamp(1.5px, 0.2vw, 2px);
       }
 
       .poster-section {
@@ -314,22 +790,115 @@
         min-height: clamp(58vh, 72vh, 88vh);
       }
 
-      .gradient-overlay {
-        height: clamp(50%, 65%, 80%);
+      .gradient-left {
+        width: clamp(55%, 70%, 85%);
         background: linear-gradient(
-          to top,
+          to right,
           #0b0d0f 0%,
-          #0b0d0f 15%,
-          rgba(11, 13, 15, 0.9) 30%,
-          rgba(11, 13, 15, 0.6) 50%,
-          rgba(11, 13, 15, 0.3) 70%,
+          #0b0d0f 20%,
+          rgba(11, 13, 15, 0.9) 40%,
+          rgba(11, 13, 15, 0.6) 60%,
+          rgba(11, 13, 15, 0.3) 80%,
           transparent 100%
         );
       }
+
+      .gradient-overlay {
+        height: clamp(50%, 65%, 80%);
+      }
+
+      .match-details {
+        bottom: clamp(10%, 14vh, 20%);
+        left: clamp(5%, 7vw, 10%);
+        max-width: clamp(180px, 75vw, 280px);
+      }
+
+      .match-title {
+        font-size: clamp(0.45rem, 0.8vw, 0.55rem);
+      }
+
+      .team-flag {
+        width: clamp(18px, 2.5vw, 24px);
+        height: clamp(12px, 1.8vw, 16px);
+      }
+
+      .team-name {
+        font-size: clamp(0.7rem, 2vw, 1rem);
+      }
+
+      .vs-score {
+        font-size: clamp(1rem, 2.5vw, 1.4rem);
+      }
+
+      .match-info .tag {
+        font-size: clamp(0.4rem, 0.7vw, 0.5rem);
+      }
+
+      .match-info .date,
+      .match-info .time,
+      .match-info .venue {
+        font-size: clamp(0.4rem, 0.7vw, 0.5rem);
+      }
+
+      .badge {
+        font-size: clamp(0.35rem, 0.6vw, 0.45rem);
+        padding: clamp(0.1rem, 0.2vw, 0.2rem) clamp(0.3rem, 0.5vw, 0.5rem);
+      }
+
+      /* EVEN BIGGER WATCH BUTTON ON SMALL PHONES */
+      .watch-btn {
+        padding: clamp(0.5rem, 1.2vw, 0.7rem) clamp(0.9rem, 2.5vw, 1.4rem);
+        font-size: clamp(0.75rem, 1.8vw, 1rem);
+        border-width: clamp(1.5px, 0.2vw, 2px);
+        gap: clamp(0.3rem, 0.6vw, 0.4rem);
+        border-radius: 0 clamp(25px, 4vw, 35px) clamp(25px, 4vw, 35px) 0;
+      }
+
+      .watch-btn .icon {
+        font-size: clamp(0.8rem, 1.5vw, 1.1rem);
+      }
+
+      .btn-mytod {
+        padding: clamp(0.3rem, 0.6vw, 0.4rem) clamp(0.6rem, 1vw, 0.9rem);
+        font-size: clamp(0.6rem, 1vw, 0.75rem);
+      }
     }
 
-    /* ----- TABLET: PORTRAIT ----- */
+    /* ----- TABLET: PORTRAIT (HAMBURGER + CENTER LOGO) ----- */
     @media (orientation: portrait) and (min-width: 769px) and (max-width: 1024px) {
+      header {
+        justify-content: center;
+        position: relative;
+      }
+
+      .logo {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: clamp(1.2rem, 3vw, 1.6rem);
+      }
+
+      .logo:hover {
+        transform: translateX(-50%) scale(1.02);
+      }
+
+      .header-nav {
+        display: none;
+      }
+
+      .hamburger {
+        display: flex;
+        position: absolute;
+        right: clamp(0.8rem, 3vw, 1.5rem);
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      .hamburger span {
+        width: clamp(26px, 3vw, 32px);
+        height: clamp(2.5px, 0.25vw, 3px);
+      }
+
       .poster-section {
         min-height: clamp(48vh, 58vh, 68vh);
       }
@@ -337,15 +906,60 @@
       .poster-image {
         min-height: clamp(48vh, 58vh, 68vh);
         object-fit: cover;
+      }
+
+      .gradient-left {
+        width: clamp(40%, 55%, 65%);
       }
 
       .gradient-overlay {
         height: clamp(35%, 50%, 65%);
       }
+
+      .match-details {
+        max-width: clamp(320px, 50vw, 480px);
+      }
+
+      .team-flag {
+        width: clamp(28px, 3vw, 38px);
+        height: clamp(18px, 2vw, 25px);
+      }
+
+      .team-name {
+        font-size: clamp(1rem, 2.2vw, 1.5rem);
+      }
+
+      .vs-score {
+        font-size: clamp(1.3rem, 2.8vw, 2rem);
+      }
+
+      .watch-btn {
+        padding: clamp(0.6rem, 1.2vw, 0.9rem) clamp(1.2rem, 2.5vw, 2rem);
+        font-size: clamp(0.85rem, 1.6vw, 1.2rem);
+        border-radius: 0 clamp(35px, 4vw, 50px) clamp(35px, 4vw, 50px) 0;
+      }
     }
 
-    /* ----- LANDSCAPE: Tablets & Desktops ----- */
+    /* ----- LANDSCAPE: Tablets & Desktops (FULL MENU) ----- */
     @media (orientation: landscape) and (min-width: 769px) {
+      .hamburger {
+        display: none;
+      }
+
+      .header-nav {
+        display: flex;
+      }
+
+      .logo {
+        position: static;
+        transform: none;
+        font-size: clamp(0.85rem, 2.5vw, 1.5rem);
+      }
+
+      .logo:hover {
+        transform: scale(1.02);
+      }
+
       .poster-section {
         min-height: clamp(42vh, 55vh, 68vh);
       }
@@ -356,22 +970,49 @@
         width: 100%;
       }
 
-      .gradient-overlay {
-        height: clamp(30%, 45%, 60%);
+      .gradient-left {
+        width: clamp(28%, 40%, 52%);
         background: linear-gradient(
-          to top,
+          to right,
           #0b0d0f 0%,
-          #0b0d0f 10%,
-          rgba(11, 13, 15, 0.8) 25%,
+          #0b0d0f 8%,
+          rgba(11, 13, 15, 0.8) 22%,
           rgba(11, 13, 15, 0.4) 45%,
-          rgba(11, 13, 15, 0.15) 65%,
+          rgba(11, 13, 15, 0.1) 70%,
           transparent 100%
         );
       }
+
+      .gradient-overlay {
+        height: clamp(30%, 45%, 60%);
+      }
+
+      .match-details {
+        bottom: clamp(10%, 14vh, 18%);
+        left: clamp(3%, 5vw, 7%);
+        max-width: clamp(350px, 45vw, 550px);
+      }
     }
 
-    /* ----- DESKTOP: Standard ----- */
+    /* ----- DESKTOP: Standard (FULL MENU) ----- */
     @media (min-width: 1025px) {
+      .hamburger {
+        display: none;
+      }
+
+      .header-nav {
+        display: flex;
+      }
+
+      .logo {
+        position: static;
+        transform: none;
+      }
+
+      .logo:hover {
+        transform: scale(1.02);
+      }
+
       .poster-section {
         min-height: clamp(45vh, 58vh, 72vh);
       }
@@ -382,10 +1023,10 @@
         width: 100%;
       }
 
-      .gradient-overlay {
-        height: clamp(30%, 45%, 60%);
+      .gradient-left {
+        width: clamp(25%, 38%, 48%);
         background: linear-gradient(
-          to top,
+          to right,
           #0b0d0f 0%,
           #0b0d0f 8%,
           rgba(11, 13, 15, 0.75) 22%,
@@ -393,6 +1034,20 @@
           rgba(11, 13, 15, 0.1) 70%,
           transparent 100%
         );
+      }
+
+      .gradient-overlay {
+        height: clamp(30%, 45%, 60%);
+      }
+
+      .match-details {
+        bottom: clamp(12%, 16vh, 22%);
+        left: clamp(4%, 6vw, 8%);
+        max-width: clamp(400px, 45vw, 600px);
+      }
+
+      .watch-btn {
+        border-radius: 0 clamp(35px, 4vw, 55px) clamp(35px, 4vw, 55px) 0;
       }
     }
 
@@ -406,8 +1061,23 @@
         min-height: clamp(48vh, 60vh, 75vh);
       }
 
+      .gradient-left {
+        width: clamp(22%, 35%, 42%);
+      }
+
       .gradient-overlay {
         height: clamp(28%, 42%, 55%);
+      }
+
+      .match-details {
+        max-width: clamp(500px, 40vw, 700px);
+      }
+
+      .watch-btn {
+        padding: clamp(0.8rem, 1.5vw, 1.2rem) clamp(1.8rem, 3vw, 3rem);
+        font-size: clamp(1rem, 1.8vw, 1.4rem);
+        border-width: clamp(2.5px, 0.3vw, 4px);
+        border-radius: 0 clamp(40px, 5vw, 60px) clamp(40px, 5vw, 60px) 0;
       }
     }
 
@@ -422,21 +1092,59 @@
         object-fit: cover;
       }
 
-      .gradient-overlay {
-        height: clamp(25%, 40%, 50%);
+      .gradient-left {
+        width: clamp(20%, 32%, 42%);
         background: linear-gradient(
-          to top,
+          to right,
           #0b0d0f 0%,
-          #0b0d0f 10%,
-          rgba(11, 13, 15, 0.7) 25%,
-          rgba(11, 13, 15, 0.3) 50%,
+          #0b0d0f 8%,
+          rgba(11, 13, 15, 0.7) 20%,
+          rgba(11, 13, 15, 0.3) 45%,
           transparent 100%
         );
+      }
+
+      .gradient-overlay {
+        height: clamp(25%, 40%, 50%);
+      }
+
+      .match-details {
+        bottom: clamp(10%, 14vh, 18%);
+        left: clamp(3%, 5vw, 7%);
+        max-width: clamp(400px, 40vw, 600px);
       }
     }
 
     /* ----- TALL SCREENS (foldables) ----- */
     @media (max-aspect-ratio: 9/16) {
+      header {
+        justify-content: center;
+        position: relative;
+      }
+
+      .logo {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: clamp(0.9rem, 3vw, 1.2rem);
+      }
+
+      .logo:hover {
+        transform: translateX(-50%) scale(1.02);
+      }
+
+      .header-nav {
+        display: none;
+      }
+
+      .hamburger {
+        display: flex;
+        position: absolute;
+        right: clamp(0.5rem, 2vw, 1rem);
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
       .poster-section {
         min-height: clamp(60vh, 75vh, 90vh);
       }
@@ -446,17 +1154,46 @@
         object-fit: cover;
       }
 
-      .gradient-overlay {
-        height: clamp(50%, 65%, 80%);
+      .gradient-left {
+        width: clamp(55%, 70%, 85%);
         background: linear-gradient(
-          to top,
+          to right,
           #0b0d0f 0%,
-          #0b0d0f 18%,
-          rgba(11, 13, 15, 0.9) 35%,
-          rgba(11, 13, 15, 0.6) 55%,
-          rgba(11, 13, 15, 0.3) 75%,
+          #0b0d0f 20%,
+          rgba(11, 13, 15, 0.9) 40%,
+          rgba(11, 13, 15, 0.6) 60%,
+          rgba(11, 13, 15, 0.3) 80%,
           transparent 100%
         );
+      }
+
+      .gradient-overlay {
+        height: clamp(50%, 65%, 80%);
+      }
+
+      .match-details {
+        bottom: clamp(15%, 20vh, 28%);
+        left: clamp(5%, 8vw, 12%);
+        max-width: clamp(200px, 55vw, 320px);
+      }
+
+      .team-flag {
+        width: clamp(20px, 2.5vw, 28px);
+        height: clamp(14px, 1.8vw, 18px);
+      }
+
+      .team-name {
+        font-size: clamp(0.8rem, 2vw, 1.2rem);
+      }
+
+      .vs-score {
+        font-size: clamp(1.1rem, 2.5vw, 1.6rem);
+      }
+
+      .watch-btn {
+        padding: clamp(0.5rem, 1.2vw, 0.8rem) clamp(1rem, 2.5vw, 1.6rem);
+        font-size: clamp(0.8rem, 1.6vw, 1.1rem);
+        border-radius: 0 clamp(30px, 4vw, 45px) clamp(30px, 4vw, 45px) 0;
       }
     }
 
@@ -565,38 +1302,56 @@
 </head>
 <body>
 
-  <!-- ====== HEADER - FULLY TRANSPARENT ====== -->
+  <!-- ====== HEADER ====== -->
   <header>
+    <!-- Hamburger (Mobile/Vertical only) -->
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <!-- Logo - Centered on Mobile/Vertical -->
     <a href="#" class="logo" aria-label="matchdekho home">
       <span class="match">match</span><span class="dekho">dekho</span>
     </a>
+
+    <!-- Desktop Navigation -->
+    <nav class="header-nav">
+      <a href="#">Home</a>
+      <a href="#">Sports</a>
+      <a href="#">Movies</a>
+      <a href="#">Shows</a>
+      <a href="#">Kids</a>
+      <a href="#" class="sign-in">Sign In</a>
+      <a href="#" class="subscribe">Subscribe</a>
+    </nav>
   </header>
 
-  <!-- ====== POSTER SECTION - TOUCHES TOP ====== -->
+  <!-- ====== MOBILE MENU OVERLAY ====== -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#">Home</a>
+    <a href="#">Sports</a>
+    <a href="#">Movies</a>
+    <a href="#">Shows</a>
+    <a href="#">Kids</a>
+    <a href="#">Sign In</a>
+    <a href="#" class="subscribe-mobile">Subscribe</a>
+  </div>
+
+  <!-- ====== POSTER SECTION ====== -->
   <div class="poster-wrapper">
     <section class="poster-section">
+      <!-- Poster Image -->
       <picture>
-        <!-- Mobile/Portrait Poster -->
         <source 
           media="(orientation: portrait) and (max-width: 768px)" 
           srcset="https://img.tod.tv/resources/images/link/da4d217b-ebff-3a16-b471-d8287b9c11e2/8c0c7840-d932-5be7-abf7-2d7d3b1fb6b9/639191042450000000/0:20:720:960/1125x1500/f2b58287-d82d-4afd-a975-eecaeb0b4dea_hero-block-34-en.webp"
         />
-        <!-- Tablet/Portrait Poster -->
         <source 
-          media="(orientation: portrait) and (max-width: 1024px)" 
-          srcset="https://img.tod.tv/resources/images/link/da4d217b-ebff-3a16-b471-d8287b9c11e2/8c0c7840-d932-5be7-abf7-2d7d3b1fb6b9/639191042450000000/0:20:720:960/1125x1500/f2b58287-d82d-4afd-a975-eecaeb0b4dea_hero-block-34-en.webp"
-        />
-        <!-- Desktop/Landscape Poster -->
-        <source 
-          media="(orientation: landscape) and (min-width: 769px)" 
+          media="(min-width: 769px)" 
           srcset="https://img.tod.tv/resources/images/link/92b34ae9-13ba-3791-807f-d2b034bdfac9/6060b852-c1ae-5aac-985e-64478041ec5e/639191043340000000/0:0:1912:1080/1600x900/4d8deba7-d76e-4880-8cd8-a8ede006ea47_wallpaper-169-en.webp"
         />
-        <!-- Large Desktop Poster -->
-        <source 
-          media="(min-width: 1025px)" 
-          srcset="https://img.tod.tv/resources/images/link/92b34ae9-13ba-3791-807f-d2b034bdfac9/6060b852-c1ae-5aac-985e-64478041ec5e/639191043340000000/0:0:1912:1080/1600x900/4d8deba7-d76e-4880-8cd8-a8ede006ea47_wallpaper-169-en.webp"
-        />
-        <!-- Fallback -->
         <img 
           src="https://img.tod.tv/resources/images/link/92b34ae9-13ba-3791-807f-d2b034bdfac9/6060b852-c1ae-5aac-985e-64478041ec5e/639191043340000000/0:0:1912:1080/1600x900/4d8deba7-d76e-4880-8cd8-a8ede006ea47_wallpaper-169-en.webp" 
           alt="matchdekho poster"
@@ -605,8 +1360,66 @@
         />
       </picture>
       
-      <!-- ====== BLACK GRADIENT OVERLAY (OTT STYLE) ====== -->
+      <!-- Gradients -->
+      <div class="gradient-left"></div>
       <div class="gradient-overlay"></div>
+
+      <!-- ====== MATCH DETAILS ====== -->
+      <div class="match-details">
+        <!-- Tournament Title -->
+        <div class="match-title">FIFA World Cup 2026™</div>
+
+        <!-- Teams -->
+        <div class="teams-row">
+          <div class="team">
+            <img 
+              src="https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/640px-Flag_of_England.svg.png" 
+              alt="Norway" 
+              class="team-flag"
+              loading="lazy"
+            />
+            <span class="team-name">Norway</span>
+          </div>
+          <span class="vs-score">2 - 1</span>
+          <div class="team">
+            <img 
+              src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/640px-Flag_of_the_United_Kingdom.svg.png" 
+              alt="England" 
+              class="team-flag"
+              loading="lazy"
+            />
+            <span class="team-name">England</span>
+          </div>
+        </div>
+
+        <!-- Match Info -->
+        <div class="match-info">
+          <span class="tag">FULL TIME</span>
+          <span class="separator">•</span>
+          <span class="date">July 12th</span>
+          <span class="separator">•</span>
+          <span class="time">02:30</span>
+          <span class="separator">•</span>
+          <span class="venue">Miami Stadium</span>
+        </div>
+
+        <!-- Badges -->
+        <div class="badges">
+          <span class="badge badge-fulltime">FULL TIME</span>
+          <span class="badge badge-4k">4K</span>
+          <span class="badge badge-hdr">HDR</span>
+          <span class="badge badge-fanzone">FanZone</span>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="action-buttons">
+          <a href="#" class="watch-btn" onclick="window.open('https://example.com/watch', '_blank'); return false;">
+            <span class="icon">▶</span>
+            <span>Watch Now</span>
+          </a>
+          <a href="#" class="btn-mytod">+ My TOD</a>
+        </div>
+      </div>
     </section>
   </div>
 
@@ -620,6 +1433,36 @@
   <main role="main">
     <!-- Your content goes here -->
   </main>
+
+  <script>
+    // ====== HAMBURGER MENU TOGGLE ======
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobileMenu');
+
+    hamburger.addEventListener('click', function() {
+      this.classList.toggle('active');
+      mobileMenu.classList.toggle('active');
+      document.body.style.overflow = mobileMenu.classList.contains('active') ? 'hidden' : '';
+    });
+
+    // Close menu when clicking a link
+    document.querySelectorAll('.mobile-menu a').forEach(link => {
+      link.addEventListener('click', function() {
+        hamburger.classList.remove('active');
+        mobileMenu.classList.remove('active');
+        document.body.style.overflow = '';
+      });
+    });
+
+    // Close menu on escape key
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && mobileMenu.classList.contains('active')) {
+        hamburger.classList.remove('active');
+        mobileMenu.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+    });
+  </script>
 
 </body>
 </html>
