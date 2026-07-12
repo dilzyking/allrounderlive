@@ -3,7 +3,231 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
-  <title>matchdekho</title>
+  <!-- ====== DYNAMIC SEO META TAGS ====== -->
+<!-- This script detects which domain is being used and sets appropriate meta tags -->
+<script>
+  // Detect current domain
+  const currentDomain = window.location.hostname;
+  const isMatchDekho = currentDomain.includes('matchdekho');
+  const isAllrounderLive = currentDomain.includes('allrounderlive');
+  
+  // Set site-specific variables
+  const siteName = isMatchDekho ? 'matchdekho' : 'AllrounderLive';
+  const siteTitle = isMatchDekho ? 'matchdekho' : 'AllrounderLive';
+  const siteDescription = isMatchDekho 
+    ? 'Watch live sports streaming, match highlights, and real-time scores on matchdekho. Free access to football, cricket, and all major sports events.'
+    : 'Watch live sports streaming, match highlights, and real-time scores on AllrounderLive. Free access to football, cricket, and all major sports events.';
+  const siteUrl = isMatchDekho ? 'https://matchdekho.in/' : 'https://allrounderlive.in/';
+  const twitterHandle = isMatchDekho ? '@matchdekho' : '@allrounderlive';
+  const siteKeywords = isMatchDekho 
+    ? 'live sports, match streaming, football highlights, cricket live, sports scores, matchdekho, live match, sports streaming'
+    : 'live sports, match streaming, football highlights, cricket live, sports scores, allrounderlive, live match, sports streaming';
+  
+  // Update meta tags dynamically
+  document.addEventListener('DOMContentLoaded', function() {
+    // Title
+    document.title = `${siteTitle} - Live Sports Streaming, Match Highlights & Scores`;
+    
+    // Meta description
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) metaDesc.content = siteDescription;
+    
+    // Meta keywords
+    const metaKeywords = document.querySelector('meta[name="keywords"]');
+    if (metaKeywords) metaKeywords.content = siteKeywords;
+    
+    // Canonical URL
+    const canonical = document.querySelector('link[rel="canonical"]');
+    if (canonical) canonical.href = siteUrl;
+    
+    // OG Title
+    const ogTitle = document.querySelector('meta[property="og:title"]');
+    if (ogTitle) ogTitle.content = `${siteTitle} - Live Sports Streaming & Match Highlights`;
+    
+    // OG Description
+    const ogDesc = document.querySelector('meta[property="og:description"]');
+    if (ogDesc) ogDesc.content = siteDescription;
+    
+    // OG URL
+    const ogUrl = document.querySelector('meta[property="og:url"]');
+    if (ogUrl) ogUrl.content = siteUrl;
+    
+    // OG Site Name
+    const ogSiteName = document.querySelector('meta[property="og:site_name"]');
+    if (ogSiteName) ogSiteName.content = siteTitle;
+    
+    // Twitter Title
+    const twitterTitle = document.querySelector('meta[name="twitter:title"]');
+    if (twitterTitle) twitterTitle.content = `${siteTitle} - Live Sports Streaming & Match Highlights`;
+    
+    // Twitter Description
+    const twitterDesc = document.querySelector('meta[name="twitter:description"]');
+    if (twitterDesc) twitterDesc.content = siteDescription;
+    
+    // Twitter Site
+    const twitterSite = document.querySelector('meta[name="twitter:site"]');
+    if (twitterSite) twitterSite.content = twitterHandle;
+    
+    // Twitter Creator
+    const twitterCreator = document.querySelector('meta[name="twitter:creator"]');
+    if (twitterCreator) twitterCreator.content = twitterHandle;
+    
+    // Update JSON-LD schemas
+    updateSchemas(siteName, siteUrl, siteDescription);
+  });
+  
+  function updateSchemas(name, url, description) {
+    // Update WebSite schema
+    const websiteSchema = {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": name,
+      "url": url,
+      "description": description,
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": url + "search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    };
+    
+    // Update Organization schema
+    const orgSchema = {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": name,
+      "url": url,
+      "logo": url + "images/logo.png",
+      "description": description,
+      "sameAs": [
+        "https://twitter.com/" + (name === 'matchdekho' ? 'matchdekho' : 'allrounderlive'),
+        "https://facebook.com/" + (name === 'matchdekho' ? 'matchdekho' : 'allrounderlive'),
+        "https://instagram.com/" + (name === 'matchdekho' ? 'matchdekho' : 'allrounderlive'),
+        "https://youtube.com/" + (name === 'matchdekho' ? 'matchdekho' : 'allrounderlive')
+      ]
+    };
+    
+    // Update BroadcastChannel schema
+    const channelSchema = {
+      "@context": "https://schema.org",
+      "@type": "BroadcastChannel",
+      "name": name + " Sports Channel",
+      "description": "Live sports streaming channel for football, cricket, and major tournaments.",
+      "broadcastDisplayName": name,
+      "genre": "Sports",
+      "inLanguage": "en"
+    };
+    
+    // Find and update existing schemas or add new ones
+    const existingScripts = document.querySelectorAll('script[type="application/ld+json"]');
+    if (existingScripts.length >= 3) {
+      existingScripts[0].textContent = JSON.stringify(websiteSchema);
+      existingScripts[1].textContent = JSON.stringify(orgSchema);
+      existingScripts[2].textContent = JSON.stringify(channelSchema);
+    }
+  }
+</script>
+
+<!-- ====== STATIC META TAGS (will be updated by JavaScript) ====== -->
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<!-- Primary Meta Tags -->
+<title>matchdekho - Live Sports Streaming, Match Highlights & Scores</title>
+<meta name="description" content="Watch live sports streaming, match highlights, and real-time scores on matchdekho. Free access to football, cricket, and all major sports events." />
+<meta name="keywords" content="live sports, match streaming, football highlights, cricket live, sports scores, matchdekho, live match, sports streaming" />
+<link rel="canonical" href="https://matchdekho.in/" />
+
+<!-- Open Graph (OG) Tags -->
+<meta property="og:title" content="matchdekho - Live Sports Streaming & Match Highlights" />
+<meta property="og:description" content="Watch live sports, match highlights, and real-time scores. Free streaming for football, cricket, and all major tournaments." />
+<meta property="og:url" content="https://matchdekho.in/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="matchdekho" />
+<meta property="og:image" content="https://matchdekho.in/images/og-image.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:locale" content="en_IN" />
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="matchdekho - Live Sports Streaming & Match Highlights" />
+<meta name="twitter:description" content="Watch live sports, match highlights, and real-time scores. Free streaming for football, cricket, and all major tournaments." />
+<meta name="twitter:image" content="https://matchdekho.in/images/og-image.jpg" />
+<meta name="twitter:site" content="@matchdekho" />
+<meta name="twitter:creator" content="@matchdekho" />
+
+<!-- Additional SEO Tags -->
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
+<meta name="googlebot" content="index, follow" />
+<meta name="bingbot" content="index, follow" />
+<link rel="alternate" hreflang="en" href="https://matchdekho.in/" />
+<link rel="alternate" hreflang="en-IN" href="https://matchdekho.in/" />
+
+<!-- ====== SCHEMA MARKUP (JSON-LD) - Will be updated by JavaScript ====== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "matchdekho",
+  "url": "https://matchdekho.in/",
+  "description": "Live sports streaming, match highlights, and real-time scores for football, cricket, and all major sports events.",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://matchdekho.in/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "matchdekho",
+  "url": "https://matchdekho.in/",
+  "logo": "https://matchdekho.in/images/logo.png",
+  "description": "Live sports streaming platform offering match highlights and real-time scores.",
+  "sameAs": [
+    "https://twitter.com/matchdekho",
+    "https://facebook.com/matchdekho",
+    "https://instagram.com/matchdekho",
+    "https://youtube.com/matchdekho"
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BroadcastChannel",
+  "name": "matchdekho Sports Channel",
+  "description": "Live sports streaming channel for football, cricket, and major tournaments.",
+  "broadcastDisplayName": "matchdekho",
+  "genre": "Sports",
+  "inLanguage": "en"
+}
+</script>
+
+<!-- ====== VERIFICATION META TAGS ====== -->
+<meta name="google-site-verification" content="YOUR_GOOGLE_VERIFICATION_CODE" />
+<meta name="msvalidate.01" content="YOUR_BING_VERIFICATION_CODE" />
+<meta name="yandex-verification" content="YOUR_YANDEX_VERIFICATION_CODE" />
+
+<!-- ====== PERFORMANCE & SECURITY ====== -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="dns-prefetch" href="https://img.tod.tv" />
+<link rel="dns-prefetch" href="https://flagpedia.net" />
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+
+<!-- ====== FAVICON & APPLE TOUCH ICON ====== -->
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
+<meta name="theme-color" content="#0b0d0f" />
   <style>
     /* ---------- RESET & BASE ---------- */
     *,
