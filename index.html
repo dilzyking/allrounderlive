@@ -2066,15 +2066,18 @@
       window.location.href = window.location.href;
     });
 
-    // ====== WATCH BUTTON CLICK - OPEN SAME PAGE (ALL SLIDES) ======
-    document.querySelectorAll('.watch-btn').forEach(function (btn) {
-      btn.addEventListener('click', function (e) {
-        e.preventDefault();
-        e.stopPropagation();
-        // Open the same page
-        window.location.href = window.location.href;
-      });
-    });
+    // ====== WATCH BUTTON CLICK - NAVIGATE TO LINK ======
+document.querySelectorAll('.watch-btn').forEach(function (btn) {
+  btn.addEventListener('click', function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+    // Navigate to the href of the link
+    const href = this.getAttribute('href');
+    if (href) {
+      window.location.href = href;
+    }
+  });
+});
 
     // ====== MY TOD BUTTON (ALL SLIDES) ======
     document.querySelectorAll('.btn-mytod').forEach(function (btn) {
