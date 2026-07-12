@@ -60,7 +60,7 @@
       transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    /* ---------- LOGO - CENTERED ON MOBILE ---------- */
+    /* ---------- LOGO ---------- */
     .logo {
       text-decoration: none;
       font-size: clamp(0.85rem, 2.5vw, 1.5rem);
@@ -70,6 +70,7 @@
       align-items: center;
       white-space: nowrap;
       transition: transform 0.2s ease;
+      z-index: 1001;
     }
 
     .logo:hover {
@@ -132,25 +133,26 @@
     .hamburger {
       display: none;
       flex-direction: column;
-      gap: clamp(3px, 0.4vw, 5px);
+      gap: clamp(4px, 0.5vw, 6px);
       cursor: pointer;
-      padding: clamp(0.2rem, 0.5vw, 0.4rem);
+      padding: clamp(4px, 0.5vw, 8px);
       z-index: 1001;
       background: transparent;
       border: none;
+      position: relative;
     }
 
     .hamburger span {
       display: block;
-      width: clamp(22px, 3vw, 30px);
-      height: clamp(2px, 0.25vw, 3px);
+      width: clamp(24px, 3vw, 30px);
+      height: clamp(2.5px, 0.3vw, 3.5px);
       background: #ffffff;
       border-radius: 2px;
       transition: all 0.3s ease;
     }
 
     .hamburger.active span:nth-child(1) {
-      transform: rotate(45deg) translate(clamp(4px, 0.5vw, 6px), clamp(4px, 0.5vw, 6px));
+      transform: rotate(45deg) translate(clamp(5px, 0.6vw, 7px), clamp(5px, 0.6vw, 7px));
     }
 
     .hamburger.active span:nth-child(2) {
@@ -158,7 +160,7 @@
     }
 
     .hamburger.active span:nth-child(3) {
-      transform: rotate(-45deg) translate(clamp(4px, 0.5vw, 6px), clamp(-4px, -0.5vw, -6px));
+      transform: rotate(-45deg) translate(clamp(5px, 0.6vw, 7px), clamp(-5px, -0.6vw, -7px));
     }
 
     /* ---------- MOBILE MENU OVERLAY ---------- */
@@ -174,7 +176,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      gap: clamp(1rem, 3vh, 2rem);
+      gap: clamp(1.2rem, 3vh, 2.5rem);
       padding: 2rem;
       animation: fadeIn 0.3s ease;
     }
@@ -216,7 +218,7 @@
       100% { opacity: 1; }
     }
 
-    /* ---------- POSTER SECTION ---------- */
+    /* ---------- POSTER SECTION - TOUCHES TOP ---------- */
     .poster-wrapper {
       position: relative;
       width: 100%;
@@ -233,14 +235,16 @@
       position: relative;
       padding: 0;
       margin: 0;
-      min-height: clamp(50vh, 65vh, 80vh);
+      min-height: 100vh;
+      min-height: 100dvh;
       background: var(--bg-primary);
     }
 
     .poster-image {
       width: 100%;
-      height: auto;
-      min-height: clamp(50vh, 65vh, 80vh);
+      height: 100%;
+      min-height: 100vh;
+      min-height: 100dvh;
       object-fit: cover;
       display: block;
       margin: 0;
@@ -319,19 +323,21 @@
     .team {
       display: flex;
       align-items: center;
-      gap: clamp(0.3rem, 0.8vw, 0.8rem);
+      gap: clamp(0.4rem, 1vw, 1rem);
     }
 
+    /* BIGGER FLAGS */
     .team-flag {
-      width: clamp(24px, 3vw, 45px);
-      height: clamp(16px, 2vw, 30px);
+      width: clamp(32px, 4vw, 55px);
+      height: clamp(22px, 2.8vw, 38px);
       object-fit: cover;
-      border-radius: 2px;
-      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 3px;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      flex-shrink: 0;
     }
 
     .team-name {
-      font-size: clamp(0.8rem, 1.8vw, 1.6rem);
+      font-size: clamp(0.9rem, 2vw, 1.8rem);
       font-weight: 700;
       color: #ffffff;
       letter-spacing: 0.02em;
@@ -339,7 +345,7 @@
 
     /* Score in WHITE */
     .vs-score {
-      font-size: clamp(1rem, 2.5vw, 2.2rem);
+      font-size: clamp(1.2rem, 2.8vw, 2.4rem);
       font-weight: 800;
       color: #ffffff;
       letter-spacing: 0.05em;
@@ -428,13 +434,13 @@
       display: inline-flex;
       align-items: center;
       gap: clamp(0.3rem, 0.8vw, 0.6rem);
-      padding: clamp(0.4rem, 0.8vw, 0.8rem) clamp(0.8rem, 2vw, 2rem);
+      padding: clamp(0.5rem, 1vw, 1rem) clamp(1rem, 2.5vw, 2.5rem);
       background: linear-gradient(135deg, #f5c518 0%, #e6b800 50%, #d4a800 100%);
       color: #0b0d0f;
-      font-size: clamp(0.65rem, 1.2vw, 1rem);
+      font-size: clamp(0.7rem, 1.4vw, 1.1rem);
       font-weight: 700;
       font-family: inherit;
-      border: clamp(1.5px, 0.2vw, 3px) solid #0b0d0f;
+      border: clamp(2px, 0.25vw, 4px) solid #0b0d0f;
       border-radius: 0 clamp(30px, 4vw, 50px) clamp(30px, 4vw, 50px) 0;
       cursor: pointer;
       text-decoration: none;
@@ -447,7 +453,7 @@
         inset 0 clamp(1px, 0.2vw, 2px) clamp(2px, 0.4vw, 5px) rgba(255, 255, 255, 0.3);
       position: relative;
       overflow: hidden;
-      border-left: clamp(1.5px, 0.2vw, 3px) solid #0b0d0f;
+      border-left: clamp(2px, 0.25vw, 4px) solid #0b0d0f;
     }
 
     .watch-btn::before {
@@ -484,7 +490,7 @@
     }
 
     .watch-btn .icon {
-      font-size: clamp(0.7rem, 1.2vw, 1.2rem);
+      font-size: clamp(0.8rem, 1.4vw, 1.3rem);
       line-height: 1;
     }
 
@@ -653,13 +659,13 @@
     /* ----- MOBILE: PORTRAIT (HAMBURGER + CENTER LOGO) ----- */
     @media (orientation: portrait) and (max-width: 768px) {
       header {
-        padding: clamp(0.2rem, 1vw, 0.4rem) clamp(0.6rem, 3vw, 1.2rem);
-        justify-content: center;
-        position: relative;
+        padding: clamp(0.3rem, 1.2vw, 0.5rem) clamp(0.8rem, 3vw, 1.2rem);
+        justify-content: space-between;
+        position: fixed;
       }
 
       .logo {
-        font-size: clamp(1rem, 4vw, 1.4rem);
+        font-size: clamp(0.9rem, 3.5vw, 1.3rem);
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
@@ -674,21 +680,28 @@
         display: none;
       }
 
-      /* Show hamburger */
+      /* Show hamburger - properly positioned */
       .hamburger {
         display: flex;
-        position: absolute;
-        right: clamp(0.6rem, 3vw, 1.2rem);
-        top: 50%;
-        transform: translateY(-50%);
+        position: relative;
+        margin-left: 0;
+        padding: clamp(4px, 0.6vw, 8px);
+        gap: clamp(4px, 0.5vw, 6px);
+      }
+
+      .hamburger span {
+        width: clamp(22px, 3vw, 28px);
+        height: clamp(2.5px, 0.3vw, 3px);
       }
 
       .poster-section {
-        min-height: clamp(55vh, 68vh, 82vh);
+        min-height: 100vh;
+        min-height: 100dvh;
       }
 
       .poster-image {
-        min-height: clamp(55vh, 68vh, 82vh);
+        min-height: 100vh;
+        min-height: 100dvh;
         object-fit: cover;
         width: 100%;
       }
@@ -711,83 +724,91 @@
       }
 
       .match-details {
-        bottom: clamp(8%, 12vh, 16%);
+        bottom: clamp(10%, 14vh, 20%);
         left: clamp(4%, 6vw, 8%);
-        max-width: clamp(240px, 65vw, 400px);
+        max-width: clamp(260px, 70vw, 400px);
       }
 
       .match-title {
-        font-size: clamp(0.55rem, 1vw, 0.7rem);
+        font-size: clamp(0.5rem, 0.9vw, 0.65rem);
       }
 
+      /* BIGGER FLAGS ON MOBILE */
       .team-flag {
-        width: clamp(22px, 3vw, 32px);
-        height: clamp(15px, 2vw, 22px);
+        width: clamp(30px, 4.5vw, 42px);
+        height: clamp(20px, 3vw, 28px);
       }
 
       .team-name {
-        font-size: clamp(0.9rem, 2.5vw, 1.3rem);
+        font-size: clamp(0.9rem, 2.8vw, 1.4rem);
       }
 
       .vs-score {
-        font-size: clamp(1.2rem, 3vw, 1.8rem);
+        font-size: clamp(1.2rem, 3.2vw, 1.8rem);
       }
 
       .match-info .tag {
-        font-size: clamp(0.5rem, 0.8vw, 0.65rem);
+        font-size: clamp(0.45rem, 0.8vw, 0.6rem);
       }
 
       .match-info .date,
       .match-info .time,
       .match-info .venue {
-        font-size: clamp(0.5rem, 0.8vw, 0.65rem);
+        font-size: clamp(0.45rem, 0.8vw, 0.6rem);
       }
 
       .badge {
-        font-size: clamp(0.45rem, 0.7vw, 0.6rem);
-        padding: clamp(0.15rem, 0.3vw, 0.3rem) clamp(0.4rem, 0.7vw, 0.8rem);
+        font-size: clamp(0.4rem, 0.7vw, 0.55rem);
+        padding: clamp(0.12rem, 0.3vw, 0.25rem) clamp(0.3rem, 0.7vw, 0.7rem);
       }
 
       /* BIGGER WATCH BUTTON ON MOBILE */
       .watch-btn {
-        padding: clamp(0.6rem, 1.5vw, 0.9rem) clamp(1.2rem, 3vw, 2rem);
-        font-size: clamp(0.85rem, 2vw, 1.2rem);
+        padding: clamp(0.6rem, 1.8vw, 0.9rem) clamp(1.2rem, 3.5vw, 2rem);
+        font-size: clamp(0.8rem, 2.2vw, 1.2rem);
         border-width: clamp(2px, 0.3vw, 3px);
         gap: clamp(0.4rem, 0.8vw, 0.6rem);
-        border-radius: 0 clamp(35px, 5vw, 55px) clamp(35px, 5vw, 55px) 0;
+        border-radius: 0 clamp(30px, 5vw, 50px) clamp(30px, 5vw, 50px) 0;
       }
 
       .watch-btn .icon {
-        font-size: clamp(0.9rem, 1.8vw, 1.3rem);
+        font-size: clamp(0.8rem, 1.8vw, 1.2rem);
       }
 
       .btn-mytod {
         padding: clamp(0.4rem, 0.8vw, 0.6rem) clamp(0.8rem, 1.5vw, 1.2rem);
-        font-size: clamp(0.7rem, 1.2vw, 0.9rem);
+        font-size: clamp(0.6rem, 1.2vw, 0.85rem);
       }
     }
 
     /* ----- MOBILE: PORTRAIT (small phones) ----- */
     @media (orientation: portrait) and (max-width: 480px) {
       header {
-        padding: 0.15rem 0.5rem;
+        padding: 0.2rem 0.6rem;
       }
 
       .logo {
-        font-size: clamp(0.85rem, 3.5vw, 1.1rem);
+        font-size: clamp(0.75rem, 3vw, 1rem);
+      }
+
+      .hamburger {
+        padding: clamp(3px, 0.4vw, 5px);
+        gap: clamp(3px, 0.4vw, 4px);
       }
 
       .hamburger span {
         width: clamp(18px, 2.5vw, 22px);
-        height: clamp(1.5px, 0.2vw, 2px);
+        height: clamp(2px, 0.25vw, 2.5px);
       }
 
       .poster-section {
-        min-height: clamp(58vh, 72vh, 88vh);
+        min-height: 100vh;
+        min-height: 100dvh;
       }
 
       .poster-image {
-        min-height: clamp(58vh, 72vh, 88vh);
+        min-height: 100vh;
+        min-height: 100dvh;
       }
 
       .gradient-left {
@@ -808,67 +829,68 @@
       }
 
       .match-details {
-        bottom: clamp(10%, 14vh, 20%);
+        bottom: clamp(12%, 16vh, 24%);
         left: clamp(5%, 7vw, 10%);
-        max-width: clamp(180px, 75vw, 280px);
+        max-width: clamp(200px, 80vw, 300px);
       }
 
       .match-title {
-        font-size: clamp(0.45rem, 0.8vw, 0.55rem);
+        font-size: clamp(0.4rem, 0.7vw, 0.5rem);
       }
 
+      /* BIGGER FLAGS ON SMALL PHONES */
       .team-flag {
-        width: clamp(18px, 2.5vw, 24px);
-        height: clamp(12px, 1.8vw, 16px);
+        width: clamp(24px, 4vw, 32px);
+        height: clamp(16px, 2.8vw, 22px);
       }
 
       .team-name {
-        font-size: clamp(0.7rem, 2vw, 1rem);
+        font-size: clamp(0.7rem, 2.5vw, 1rem);
       }
 
       .vs-score {
-        font-size: clamp(1rem, 2.5vw, 1.4rem);
+        font-size: clamp(0.9rem, 2.8vw, 1.3rem);
       }
 
       .match-info .tag {
-        font-size: clamp(0.4rem, 0.7vw, 0.5rem);
+        font-size: clamp(0.35rem, 0.6vw, 0.45rem);
       }
 
       .match-info .date,
       .match-info .time,
       .match-info .venue {
-        font-size: clamp(0.4rem, 0.7vw, 0.5rem);
+        font-size: clamp(0.35rem, 0.6vw, 0.45rem);
       }
 
       .badge {
-        font-size: clamp(0.35rem, 0.6vw, 0.45rem);
-        padding: clamp(0.1rem, 0.2vw, 0.2rem) clamp(0.3rem, 0.5vw, 0.5rem);
+        font-size: clamp(0.3rem, 0.5vw, 0.4rem);
+        padding: clamp(0.08rem, 0.2vw, 0.15rem) clamp(0.25rem, 0.5vw, 0.4rem);
+        border-radius: clamp(8px, 1.5vw, 12px);
       }
 
-      /* EVEN BIGGER WATCH BUTTON ON SMALL PHONES */
       .watch-btn {
-        padding: clamp(0.5rem, 1.2vw, 0.7rem) clamp(0.9rem, 2.5vw, 1.4rem);
-        font-size: clamp(0.75rem, 1.8vw, 1rem);
+        padding: clamp(0.4rem, 1.2vw, 0.6rem) clamp(0.8rem, 2.5vw, 1.2rem);
+        font-size: clamp(0.65rem, 1.8vw, 0.9rem);
         border-width: clamp(1.5px, 0.2vw, 2px);
-        gap: clamp(0.3rem, 0.6vw, 0.4rem);
-        border-radius: 0 clamp(25px, 4vw, 35px) clamp(25px, 4vw, 35px) 0;
+        gap: clamp(0.25rem, 0.5vw, 0.4rem);
+        border-radius: 0 clamp(20px, 4vw, 30px) clamp(20px, 4vw, 30px) 0;
       }
 
       .watch-btn .icon {
-        font-size: clamp(0.8rem, 1.5vw, 1.1rem);
+        font-size: clamp(0.65rem, 1.5vw, 0.9rem);
       }
 
       .btn-mytod {
-        padding: clamp(0.3rem, 0.6vw, 0.4rem) clamp(0.6rem, 1vw, 0.9rem);
-        font-size: clamp(0.6rem, 1vw, 0.75rem);
+        padding: clamp(0.25rem, 0.6vw, 0.35rem) clamp(0.5rem, 1vw, 0.8rem);
+        font-size: clamp(0.5rem, 1vw, 0.65rem);
       }
     }
 
     /* ----- TABLET: PORTRAIT (HAMBURGER + CENTER LOGO) ----- */
     @media (orientation: portrait) and (min-width: 769px) and (max-width: 1024px) {
       header {
-        justify-content: center;
-        position: relative;
+        justify-content: space-between;
+        position: fixed;
       }
 
       .logo {
@@ -888,23 +910,24 @@
 
       .hamburger {
         display: flex;
-        position: absolute;
-        right: clamp(0.8rem, 3vw, 1.5rem);
-        top: 50%;
-        transform: translateY(-50%);
+        position: relative;
+        padding: clamp(4px, 0.6vw, 8px);
+        gap: clamp(4px, 0.5vw, 6px);
       }
 
       .hamburger span {
         width: clamp(26px, 3vw, 32px);
-        height: clamp(2.5px, 0.25vw, 3px);
+        height: clamp(2.5px, 0.3vw, 3px);
       }
 
       .poster-section {
-        min-height: clamp(48vh, 58vh, 68vh);
+        min-height: 100vh;
+        min-height: 100dvh;
       }
 
       .poster-image {
-        min-height: clamp(48vh, 58vh, 68vh);
+        min-height: 100vh;
+        min-height: 100dvh;
         object-fit: cover;
       }
 
@@ -921,21 +944,21 @@
       }
 
       .team-flag {
-        width: clamp(28px, 3vw, 38px);
-        height: clamp(18px, 2vw, 25px);
+        width: clamp(38px, 4vw, 48px);
+        height: clamp(25px, 2.8vw, 32px);
       }
 
       .team-name {
-        font-size: clamp(1rem, 2.2vw, 1.5rem);
+        font-size: clamp(1.2rem, 2.5vw, 1.6rem);
       }
 
       .vs-score {
-        font-size: clamp(1.3rem, 2.8vw, 2rem);
+        font-size: clamp(1.4rem, 3vw, 2rem);
       }
 
       .watch-btn {
-        padding: clamp(0.6rem, 1.2vw, 0.9rem) clamp(1.2rem, 2.5vw, 2rem);
-        font-size: clamp(0.85rem, 1.6vw, 1.2rem);
+        padding: clamp(0.7rem, 1.5vw, 1rem) clamp(1.5rem, 3vw, 2.5rem);
+        font-size: clamp(0.9rem, 1.8vw, 1.3rem);
         border-radius: 0 clamp(35px, 4vw, 50px) clamp(35px, 4vw, 50px) 0;
       }
     }
@@ -961,11 +984,13 @@
       }
 
       .poster-section {
-        min-height: clamp(42vh, 55vh, 68vh);
+        min-height: 100vh;
+        min-height: 100dvh;
       }
 
       .poster-image {
-        min-height: clamp(42vh, 55vh, 68vh);
+        min-height: 100vh;
+        min-height: 100dvh;
         object-fit: cover;
         width: 100%;
       }
@@ -992,6 +1017,11 @@
         left: clamp(3%, 5vw, 7%);
         max-width: clamp(350px, 45vw, 550px);
       }
+
+      .team-flag {
+        width: clamp(35px, 4vw, 50px);
+        height: clamp(24px, 2.8vw, 35px);
+      }
     }
 
     /* ----- DESKTOP: Standard (FULL MENU) ----- */
@@ -1014,11 +1044,13 @@
       }
 
       .poster-section {
-        min-height: clamp(45vh, 58vh, 72vh);
+        min-height: 100vh;
+        min-height: 100dvh;
       }
 
       .poster-image {
-        min-height: clamp(45vh, 58vh, 72vh);
+        min-height: 100vh;
+        min-height: 100dvh;
         object-fit: cover;
         width: 100%;
       }
@@ -1046,6 +1078,11 @@
         max-width: clamp(400px, 45vw, 600px);
       }
 
+      .team-flag {
+        width: clamp(40px, 4vw, 55px);
+        height: clamp(28px, 2.8vw, 38px);
+      }
+
       .watch-btn {
         border-radius: 0 clamp(35px, 4vw, 55px) clamp(35px, 4vw, 55px) 0;
       }
@@ -1054,11 +1091,13 @@
     /* ----- LARGE DESKTOP: 1920px+ ----- */
     @media (min-width: 1920px) {
       .poster-section {
-        min-height: clamp(48vh, 60vh, 75vh);
+        min-height: 100vh;
+        min-height: 100dvh;
       }
 
       .poster-image {
-        min-height: clamp(48vh, 60vh, 75vh);
+        min-height: 100vh;
+        min-height: 100dvh;
       }
 
       .gradient-left {
@@ -1073,6 +1112,11 @@
         max-width: clamp(500px, 40vw, 700px);
       }
 
+      .team-flag {
+        width: clamp(50px, 4vw, 65px);
+        height: clamp(35px, 2.8vw, 45px);
+      }
+
       .watch-btn {
         padding: clamp(0.8rem, 1.5vw, 1.2rem) clamp(1.8rem, 3vw, 3rem);
         font-size: clamp(1rem, 1.8vw, 1.4rem);
@@ -1084,11 +1128,13 @@
     /* ----- ULTRA-WIDE (21:9) ----- */
     @media (min-aspect-ratio: 21/9) {
       .poster-section {
-        min-height: clamp(38vh, 48vh, 58vh);
+        min-height: 100vh;
+        min-height: 100dvh;
       }
 
       .poster-image {
-        min-height: clamp(38vh, 48vh, 58vh);
+        min-height: 100vh;
+        min-height: 100dvh;
         object-fit: cover;
       }
 
@@ -1118,15 +1164,15 @@
     /* ----- TALL SCREENS (foldables) ----- */
     @media (max-aspect-ratio: 9/16) {
       header {
-        justify-content: center;
-        position: relative;
+        justify-content: space-between;
+        position: fixed;
       }
 
       .logo {
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        font-size: clamp(0.9rem, 3vw, 1.2rem);
+        font-size: clamp(0.8rem, 2.8vw, 1.1rem);
       }
 
       .logo:hover {
@@ -1139,18 +1185,24 @@
 
       .hamburger {
         display: flex;
-        position: absolute;
-        right: clamp(0.5rem, 2vw, 1rem);
-        top: 50%;
-        transform: translateY(-50%);
+        position: relative;
+        padding: clamp(4px, 0.5vw, 6px);
+        gap: clamp(3px, 0.4vw, 5px);
+      }
+
+      .hamburger span {
+        width: clamp(20px, 2.5vw, 26px);
+        height: clamp(2px, 0.25vw, 2.5px);
       }
 
       .poster-section {
-        min-height: clamp(60vh, 75vh, 90vh);
+        min-height: 100vh;
+        min-height: 100dvh;
       }
 
       .poster-image {
-        min-height: clamp(60vh, 75vh, 90vh);
+        min-height: 100vh;
+        min-height: 100dvh;
         object-fit: cover;
       }
 
@@ -1174,26 +1226,26 @@
       .match-details {
         bottom: clamp(15%, 20vh, 28%);
         left: clamp(5%, 8vw, 12%);
-        max-width: clamp(200px, 55vw, 320px);
+        max-width: clamp(220px, 60vw, 340px);
       }
 
       .team-flag {
-        width: clamp(20px, 2.5vw, 28px);
-        height: clamp(14px, 1.8vw, 18px);
+        width: clamp(28px, 4vw, 36px);
+        height: clamp(18px, 2.8vw, 24px);
       }
 
       .team-name {
-        font-size: clamp(0.8rem, 2vw, 1.2rem);
+        font-size: clamp(0.8rem, 2.5vw, 1.2rem);
       }
 
       .vs-score {
-        font-size: clamp(1.1rem, 2.5vw, 1.6rem);
+        font-size: clamp(1rem, 2.8vw, 1.6rem);
       }
 
       .watch-btn {
-        padding: clamp(0.5rem, 1.2vw, 0.8rem) clamp(1rem, 2.5vw, 1.6rem);
-        font-size: clamp(0.8rem, 1.6vw, 1.1rem);
-        border-radius: 0 clamp(30px, 4vw, 45px) clamp(30px, 4vw, 45px) 0;
+        padding: clamp(0.5rem, 1.5vw, 0.8rem) clamp(1rem, 3vw, 1.6rem);
+        font-size: clamp(0.7rem, 1.8vw, 1rem);
+        border-radius: 0 clamp(25px, 4vw, 40px) clamp(25px, 4vw, 40px) 0;
       }
     }
 
@@ -1439,7 +1491,8 @@
     const hamburger = document.getElementById('hamburger');
     const mobileMenu = document.getElementById('mobileMenu');
 
-    hamburger.addEventListener('click', function() {
+    hamburger.addEventListener('click', function(e) {
+      e.stopPropagation();
       this.classList.toggle('active');
       mobileMenu.classList.toggle('active');
       document.body.style.overflow = mobileMenu.classList.contains('active') ? 'hidden' : '';
@@ -1457,6 +1510,17 @@
     // Close menu on escape key
     document.addEventListener('keydown', function(e) {
       if (e.key === 'Escape' && mobileMenu.classList.contains('active')) {
+        hamburger.classList.remove('active');
+        mobileMenu.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener('click', function(e) {
+      if (mobileMenu.classList.contains('active') && 
+          !mobileMenu.contains(e.target) && 
+          !hamburger.contains(e.target)) {
         hamburger.classList.remove('active');
         mobileMenu.classList.remove('active');
         document.body.style.overflow = '';
