@@ -2,103 +2,62 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
 <title>France vs Spain Highlights</title>
+
+<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css">
 
 <style>
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial,Helvetica,sans-serif;
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
 body{
-    background:#050505;
-    color:#fff;
+background:#000;
+font-family:Arial,sans-serif;
+color:#fff;
 }
 
 header{
-    background:linear-gradient(90deg,#0033a0,#000,#aa151b);
-    padding:18px;
-    text-align:center;
-    font-size:26px;
-    font-weight:bold;
-    letter-spacing:1px;
+background:linear-gradient(90deg,#0047ab,#111,#c60b1e);
+padding:18px;
+text-align:center;
+font-size:28px;
+font-weight:bold;
 }
 
-.player{
-    width:100%;
-    max-width:1400px;
-    margin:20px auto;
-    aspect-ratio:16/9;
-    border-radius:15px;
-    overflow:hidden;
-    box-shadow:0 0 30px rgba(255,255,255,.15);
+.container{
+max-width:1400px;
+margin:20px auto;
+padding:15px;
 }
 
-.player iframe{
-    width:100%;
-    height:100%;
-    border:0;
+.video-wrap{
+aspect-ratio:16/9;
+background:#111;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 0 25px rgba(255,255,255,.15);
+}
+
+video{
+width:100%;
+height:100%;
 }
 
 .info{
-    max-width:1100px;
-    margin:auto;
-    padding:20px;
+margin-top:25px;
+background:#111;
+padding:20px;
+border-radius:12px;
+line-height:1.7;
 }
 
-.match{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    gap:30px;
-    flex-wrap:wrap;
-    margin-bottom:20px;
-}
-
-.team{
-    text-align:center;
-}
-
-.flag{
-    font-size:70px;
-}
-
-.team h2{
-    margin-top:10px;
-    font-size:28px;
-}
-
-.vs{
-    font-size:40px;
-    font-weight:bold;
-    color:#ffcc00;
-}
-
-.desc{
-    background:#111;
-    border-radius:12px;
-    padding:20px;
-    line-height:1.8;
-    color:#ddd;
-}
-
-button{
-    display:block;
-    margin:30px auto;
-    background:#ff0000;
-    color:#fff;
-    border:none;
-    padding:15px 35px;
-    font-size:18px;
-    border-radius:50px;
-    cursor:pointer;
-}
-
-button:hover{
-    background:#d40000;
+h2{
+margin-bottom:10px;
 }
 </style>
 </head>
@@ -106,54 +65,68 @@ button:hover{
 <body>
 
 <header>
-🇫🇷 France vs Spain 🇪🇸 Highlights
+🇫🇷 France vs Spain Highlights 🇪🇸
 </header>
 
-<div class="player">
-    <!-- Replace VIDEO_ID with your YouTube video ID -->
-    <iframe
-  width="100%"
-  height="100%"
-  src="https://www.youtube.com/embed/_cV8QcKp3GU"
-  title="France vs Spain Highlights"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowfullscreen>
-    </iframe>
+<div class="container">
+
+<div class="video-wrap">
+<video id="player" playsinline controls></video>
 </div>
 
 <div class="info">
-
-<div class="match">
-
-<div class="team">
-<div class="flag">🇫🇷</div>
-<h2>France</h2>
-</div>
-
-<div class="vs">VS</div>
-
-<div class="team">
-<div class="flag">🇪🇸</div>
-<h2>Spain</h2>
-</div>
-
-</div>
-
-<div class="desc">
-<h2>Match Highlights</h2>
-<br>
+<h2>Highlights</h2>
 <p>
-Watch the complete highlights of the exciting France vs Spain football match.
-Relive every goal, assist, tackle, save and the best moments from this thrilling encounter in HD quality.
+Watch the complete France vs Spain FIFA World Cup highlights in HD.
 </p>
 </div>
 
-<button onclick="location.reload()">
-▶ Watch Again
-</button>
-
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+<script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+
+<script>
+const source =
+"https://iris-vod.zee5.com/in-house/highlights/hls/inhousetranscoder/SPORTS_VOD/FIFA_2026/TOCH/long_clips/15072026/en/FRA_Vs_ESP_Highlights_FIFA_World_Cup_2026/FRA_Vs_ESP_Highlights_FIFA_World_Cup_2026_en_5659d083db914281f4dc03414b194517/index-mid.m3u8";
+
+const video = document.getElementById("player");
+
+if(Hls.isSupported()){
+
+const hls = new Hls();
+
+hls.loadSource(source);
+hls.attachMedia(video);
+
+hls.on(Hls.Events.MANIFEST_PARSED,function(){
+
+const qualities = hls.levels.map(level=>level.height);
+
+new Plyr(video,{
+quality:{
+default:qualities[0],
+options:qualities,
+forced:true,
+onChange:(quality)=>{
+hls.levels.forEach((level,index)=>{
+if(level.height===quality){
+hls.currentLevel=index;
+}
+});
+}
+}
+});
+
+});
+
+}else if(video.canPlayType('application/vnd.apple.mpegurl')){
+
+video.src=source;
+new Plyr(video);
+
+}
+</script>
 
 </body>
 </html>
