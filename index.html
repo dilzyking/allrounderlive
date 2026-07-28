@@ -2329,8 +2329,10 @@
         <button class="carousel-arrow arrow-right" id="highlightsArrowRight" aria-label="Scroll highlights right">&#10095;</button>
       </div>
     </section>
-    <div id="videos-placeholder"></div>
-<script src="/js/lazy-loader.js"></script>
+    <!-- Latest Videos -->
+<div id="videoSectionContainer" style="min-height: 200px;">
+  <!-- Video section will be loaded here -->
+</div>
   </main>
 
   <script>
@@ -2532,6 +2534,75 @@ document.querySelectorAll('.highlight-card').forEach(function (card) {
       window.location.href = href;
     }
   });
+});
+    // Videos 
+document.addEventListener('DOMContentLoaded', function() {
+  const container = document.getElementById('videoSectionContainer');
+  
+  // Create a loading indicator
+  container.innerHTML = `
+    <div style="color: rgba(255,255,255,0.3); text-align: center; padding: 2rem;">
+      <div style="display: inline-block; width: 30px; height: 30px; border: 3px solid rgba(255,255,255,0.1); border-radius: 50%; border-top-color: var(--golden); animation: spin 1s ease-in-out infinite;"></div>
+    </div>
+  `;
+
+  // Load with Intersection Observer
+  if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          loadVideoContent();
+          observer.disconnect();
+        }
+      });
+    }, { rootMargin: '200px' });
+    
+    observer.observe(container);
+  } else {
+    // Fallback: load after a delay
+    setTimeout(loadVideoContent, 1000);
+  }
+
+  function loadVideoContent() {
+    // You can either fetch from external file or include inline
+    // Option 1: Fetch from external file
+    fetch('/video-section.html')
+      .then(response => response.text())
+      .then(html => {
+        container.innerHTML = html;
+        // Execute scripts in the loaded content
+        const scripts = container.querySelectorAll('script');
+        scripts.forEach(function(script) {
+          const newScript = document.createElement('script');
+          newScript.textContent = script.textContent;
+          document.body.appendChild(newScript);
+        });
+      })
+      .catch(() => {
+        // Option 2: Fallback to inline content
+        container.innerHTML = getVideoSectionHTML();
+        // Re-run carousel initialization if needed
+      });
+  }
+  
+  function getVideoSectionHTML() {
+    // Return your video section HTML here as a string
+    // This is useful if you want to avoid a separate fetch
+    return `
+      <div class="videos-section visible">
+        <div class="videos-header">
+          <h2 class="videos-title">🎬 Latest Videos</h2>
+        </div>
+        <div class="videos-carousel-wrapper">
+          <button class="carousel-arrow arrow-left" id="videosArrowLeft">❮</button>
+          <div class="videos-track" id="videosTrack">
+            <!-- Your video cards here -->
+          </div>
+          <button class="carousel-arrow arrow-right" id="videosArrowRight">❯</button>
+        </div>
+      </div>
+    `;
+  }
 });
   </script>
 
