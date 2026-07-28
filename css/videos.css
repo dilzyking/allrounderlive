@@ -1,0 +1,66 @@
+.videos-section{
+    padding:20px 0;
+    background:#0b0d0f;
+}
+
+.videos-header{
+    padding:0 20px 15px;
+}
+
+.videos-header h2{
+    color:#fff;
+    font-size:24px;
+}
+
+.videos-wrapper{
+    position:relative;
+}
+
+.videos-track{
+    display:flex;
+    overflow-x:auto;
+    gap:16px;
+    padding:0 20px;
+    scrollbar-width:none;
+}
+
+.videos-track::-webkit-scrollbar{
+    display:none;
+}
+
+.video-card{
+    width:300px;
+    flex:none;
+    text-decoration:none;
+    color:#fff;
+}
+
+.video-card img{
+    width:100%;
+    aspect-ratio:16/9;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.video-title{
+    margin-top:8px;
+    font-size:15px;
+}
+
+.video-arrow{
+    position:absolute;
+    top:40%;
+    width:40px;
+    height:40px;
+    border:none;
+    border-radius:50%;
+    cursor:pointer;
+}
+
+.left{
+    left:5px;
+}
+
+.right{
+    right:5px;
+}
