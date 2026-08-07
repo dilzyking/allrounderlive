@@ -78,21 +78,10 @@ function renderWillowMatches(streams) {
   willowTrack.innerHTML = '';
 
   streams.forEach((stream) => {
-    // Extract team names from title
     const teams = extractTeams(stream.title || stream.tvgName || 'Unknown Match');
-    const tournament = extractTournament(stream.title || stream.tvgName || '');
-
-    // Use tvgLogo or fallback
     const logo = stream.tvgLogo || 'https://via.placeholder.com/480x270/14181f/ffffff?text=Willow+Cricket';
-
-    // FIX: use a safe id that always has a value, so the query string
-    // is never "?id=undefined" and the player page can always find a match
     const safeId = getSafeStreamId(stream);
-
-    if (!safeId) {
-      console.warn('Skipping stream with no usable id/title:', stream);
-      return; // skip cards we truly can't link anywhere
-    }
+    if (!safeId) return;
 
     const card = document.createElement('a');
     card.className = 'willow-live-card';
@@ -103,7 +92,7 @@ function renderWillowMatches(streams) {
       <div class="willow-live-thumb">
         <img 
           src="${logo}" 
-          alt="${stream.title || stream.tvgName || 'Willow Live'}"
+          alt="${teams}"
           loading="lazy"
           onerror="this.src='https://via.placeholder.com/480x270/14181f/ffffff?text=Willow+Cricket'"
         />
@@ -119,17 +108,16 @@ function renderWillowMatches(streams) {
       </div>
       <div class="willow-live-info">
         <div class="willow-live-teams">${teams}</div>
-        ${tournament ? `<div class="willow-live-tournament">${tournament}</div>` : ''}
       </div>
     `;
 
     willowTrack.appendChild(card);
   });
 
-  // Reset scroll position
   willowTrack.scrollLeft = 0;
 }
 
+  
 // ====== EXTRACT TEAMS FROM TITLE ======
 function extractTeams(title) {
   // Try to extract from format "Tournament - Team1 vs Team2"
