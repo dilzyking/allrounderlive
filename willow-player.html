@@ -13,24 +13,18 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.11/controls.min.css" crossorigin="anonymous">
   
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
+    * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
       background: #000;
-      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      font-family: 'Inter', system-ui, sans-serif;
       height: 100vh;
       width: 100vw;
       overflow: hidden;
       display: flex;
       flex-direction: column;
     }
-
     .player-header {
-      background: rgba(11, 13, 15, 0.95);
+      background: rgba(11,13,15,0.95);
       backdrop-filter: blur(10px);
       padding: 12px 16px;
       display: flex;
@@ -41,7 +35,6 @@
       z-index: 10;
       min-height: 60px;
     }
-
     .back-btn {
       background: none;
       border: none;
@@ -53,24 +46,11 @@
       gap: 6px;
       font-weight: 600;
       font-family: 'Inter', system-ui, sans-serif;
-      transition: color 0.3s ease;
-      white-space: nowrap;
       text-decoration: none;
     }
-
-    .back-btn:hover {
-      color: #ffc44d;
-    }
-
-    .back-btn .material-icons {
-      font-size: 1.5rem;
-    }
-
-    .player-match-info {
-      flex: 1;
-      min-width: 0;
-    }
-
+    .back-btn:hover { color: #ffc44d; }
+    .back-btn .material-icons { font-size: 1.5rem; }
+    .player-match-info { flex: 1; min-width: 0; }
     .player-match-title {
       font-size: clamp(0.8rem, 1.2vw, 1.1rem);
       font-weight: 600;
@@ -78,22 +58,17 @@
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
-      font-family: 'Inter', system-ui, sans-serif;
     }
-
     .player-match-subtitle {
       font-size: clamp(0.6rem, 0.9vw, 0.8rem);
       color: #8892a0;
-      font-family: 'Inter', system-ui, sans-serif;
     }
-
     .player-status {
       display: flex;
       align-items: center;
       gap: 6px;
       flex-shrink: 0;
     }
-
     .live-dot {
       width: 10px;
       height: 10px;
@@ -101,21 +76,17 @@
       border-radius: 50%;
       animation: pulse 1.5s infinite;
     }
-
     .live-text {
       color: #e74c3c;
       font-size: clamp(0.6rem, 0.9vw, 0.8rem);
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 0.05em;
-      font-family: 'Inter', system-ui, sans-serif;
     }
-
     @keyframes pulse {
-      0%, 100% { opacity: 1; transform: scale(1); }
+      0%,100% { opacity: 1; transform: scale(1); }
       50% { opacity: 0.4; transform: scale(0.8); }
     }
-
     .video-container {
       flex: 1;
       position: relative;
@@ -123,14 +94,12 @@
       width: 100%;
       min-height: 0;
     }
-
     .video-container video {
       width: 100%;
       height: 100%;
       object-fit: contain;
       background: #000;
     }
-
     .shaka-spinner-container,
     .shaka-spinner,
     .shaka-spinner-svg {
@@ -138,9 +107,8 @@
       visibility: hidden !important;
       opacity: 0 !important;
     }
-
     .player-footer {
-      background: rgba(11, 13, 15, 0.95);
+      background: rgba(11,13,15,0.95);
       backdrop-filter: blur(10px);
       padding: 8px 16px;
       display: flex;
@@ -149,29 +117,20 @@
       border-top: 1px solid #2a2f3a;
       flex-shrink: 0;
     }
-
     .player-footer .info {
       font-size: 0.65rem;
       color: #4a5362;
-      font-family: 'Inter', system-ui, sans-serif;
       display: flex;
       align-items: center;
       gap: 6px;
     }
-
-    .player-footer .info .material-icons {
-      font-size: 0.9rem;
-    }
-
     .player-footer .drm-badge {
       font-size: 0.6rem;
       color: #5f6b7e;
       padding: 4px 12px;
       background: #1a1f26;
       border-radius: 12px;
-      font-family: 'Inter', system-ui, sans-serif;
     }
-
     .player-loading {
       position: absolute;
       inset: 0;
@@ -182,23 +141,17 @@
       color: #8892a0;
       background: #000;
       z-index: 5;
-      font-family: 'Inter', system-ui, sans-serif;
     }
-
     .player-loading .spinner {
       width: 40px;
       height: 40px;
-      border: 3px solid rgba(255, 255, 255, 0.1);
+      border: 3px solid rgba(255,255,255,0.1);
       border-top-color: #f5af19;
       border-radius: 50%;
       animation: spin 1s linear infinite;
       margin-bottom: 16px;
     }
-
-    @keyframes spin {
-      to { transform: rotate(360deg); }
-    }
-
+    @keyframes spin { to { transform: rotate(360deg); } }
     .player-error {
       position: absolute;
       inset: 0;
@@ -210,27 +163,10 @@
       background: #000;
       z-index: 5;
       padding: 20px;
-      font-family: 'Inter', system-ui, sans-serif;
     }
-
-    .player-error .error-icon {
-      font-size: 3rem;
-      margin-bottom: 16px;
-    }
-
-    .player-error .error-message {
-      font-size: 1rem;
-      margin-bottom: 8px;
-      text-align: center;
-    }
-
-    .player-error .error-details {
-      font-size: 0.8rem;
-      color: #5f6b7e;
-      text-align: center;
-      max-width: 400px;
-    }
-
+    .player-error .error-icon { font-size: 3rem; margin-bottom: 16px; }
+    .player-error .error-message { font-size: 1rem; margin-bottom: 8px; text-align: center; }
+    .player-error .error-details { font-size: 0.8rem; color: #5f6b7e; text-align: center; max-width: 400px; }
     .player-error .retry-btn {
       margin-top: 20px;
       padding: 10px 30px;
@@ -241,38 +177,15 @@
       font-weight: 700;
       font-size: 0.9rem;
       cursor: pointer;
-      font-family: 'Inter', system-ui, sans-serif;
-      transition: background 0.3s ease;
     }
-
-    .player-error .retry-btn:hover {
-      background: #ffc44d;
-    }
-
+    .player-error .retry-btn:hover { background: #ffc44d; }
     @media (max-width: 768px) {
-      .player-header {
-        padding: 8px 12px;
-        min-height: 50px;
-        gap: 8px;
-      }
-      .back-btn {
-        padding: 4px 8px;
-      }
-      .back-btn .back-text {
-        display: none;
-      }
-      .player-match-title {
-        font-size: 0.75rem;
-      }
-      .player-match-subtitle {
-        font-size: 0.55rem;
-      }
-      .player-footer {
-        padding: 6px 12px;
-        flex-direction: column;
-        gap: 4px;
-        text-align: center;
-      }
+      .player-header { padding: 8px 12px; min-height: 50px; gap: 8px; }
+      .back-btn { padding: 4px 8px; }
+      .back-btn .back-text { display: none; }
+      .player-match-title { font-size: 0.75rem; }
+      .player-match-subtitle { font-size: 0.55rem; }
+      .player-footer { padding: 6px 12px; flex-direction: column; gap: 4px; text-align: center; }
     }
   </style>
 </head>
@@ -283,12 +196,10 @@
       <span class="material-icons">arrow_back</span>
       <span class="back-text">Back</span>
     </a>
-    
     <div class="player-match-info">
       <div class="player-match-title" id="playerTitle">Loading...</div>
       <div class="player-match-subtitle" id="playerSubtitle">Willow Cricket</div>
     </div>
-
     <div class="player-status">
       <span class="live-dot"></span>
       <span class="live-text">LIVE</span>
@@ -297,12 +208,10 @@
 
   <div class="video-container" id="videoContainer">
     <video id="videoElement" autoplay playsinline preload="metadata"></video>
-    
     <div class="player-loading" id="loadingState">
       <div class="spinner"></div>
       <span>Loading stream...</span>
     </div>
-
     <div class="player-error" id="errorState">
       <div class="error-icon">⚠️</div>
       <div class="error-message" id="errorMessage">Failed to load stream</div>
@@ -329,13 +238,12 @@
     // ====== GET TVG ID FROM URL ======
     function getTvgIdFromUrl() {
       const params = new URLSearchParams(window.location.search);
-      return params.get('id'); // Returns e.g., "B0HCL9R674"
+      return params.get('id');
     }
 
     // ====== FETCH MATCH DATA ======
     async function fetchMatchData() {
       const tvgId = getTvgIdFromUrl();
-      
       if (!tvgId) {
         showError('Invalid match ID', 'Please go back and select a valid match');
         return;
@@ -343,33 +251,23 @@
 
       try {
         const response = await fetch(API_URL);
-        
-        if (!response.ok) {
-          throw new Error(`HTTP ${response.status}`);
-        }
-        
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const data = await response.json();
-        
-        if (data.error) {
-          throw new Error(data.message || 'Unknown error');
-        }
+        if (data.error) throw new Error(data.message || 'Unknown error');
         
         allMatches = data.streams || [];
-        
-        // ====== FIND MATCH BY TVG ID ======
         const stream = allMatches.find(match => match.tvgId === tvgId);
         
         if (!stream) {
           showError('Match not found', `No match found with ID: ${tvgId}`);
           return;
         }
-        
         if (!stream.streamUrl) {
           showError('Stream not available', 'This match does not have a valid stream URL');
           return;
         }
         
-        // Update UI with match info
+        // Update UI
         document.getElementById('playerTitle').textContent = stream.title || stream.tvgName || 'Willow Live';
         document.getElementById('playerSubtitle').textContent = stream.groupTitle || 'Cricket';
         
@@ -382,15 +280,13 @@
       }
     }
 
-    // ====== SHOW ERROR ======
     function showError(message, details) {
       document.getElementById('loadingState').style.display = 'none';
       document.getElementById('errorState').style.display = 'flex';
-      document.getElementById('errorMessage').textContent = message || 'Failed to load stream';
+      document.getElementById('errorMessage').textContent = message;
       document.getElementById('errorDetails').textContent = details || 'Please try again or check your connection';
     }
 
-    // ====== HIDE ERROR ======
     function hideError() {
       document.getElementById('errorState').style.display = 'none';
     }
@@ -414,7 +310,6 @@
 
         // Install polyfills
         shaka.polyfill.installAll();
-
         if (!shaka.Player.isBrowserSupported()) {
           showError('Browser not supported', 'Please use a modern browser');
           return;
@@ -443,18 +338,20 @@
           }
         });
 
-        // ====== DRM CONFIG FROM STREAM PROPERTIES ======
+        // ====== DRM CONFIG ======
         const licenseKey = stream.properties?.['inputstream.adaptive.license_key'] || '';
+        console.log('License key from stream:', licenseKey); // Debug log
+        
         let drmConfig = {};
-
         if (licenseKey) {
           const [keyId, key] = licenseKey.split(':');
           if (keyId && key) {
             drmConfig = { clearKeys: { [keyId]: key } };
           }
         }
+        console.log('DRM Config:', drmConfig); // Debug log
 
-        // Configure player
+        // ====== PLAYER CONFIGURATION (identical to working example) ======
         playerInstance.configure({
           drm: drmConfig,
           streaming: {
@@ -480,51 +377,39 @@
           }
         });
 
-        // Error handler
-        playerInstance.addEventListener('error', function(e) {
-          console.warn('Shaka error:', e.detail);
-          const error = e.detail;
+        // ====== ERROR HANDLER ======
+        playerInstance.addEventListener('error', (event) => {
+          console.error('Shaka Player Error:', event.detail);
+          const error = event.detail;
           let msg = 'Stream error';
-          if (error.code === 6012) {
-            msg = 'DRM license error - This stream requires DRM protection';
-          } else if (error.code === 1002) {
-            msg = 'Network error - Please check your internet connection';
-          } else if (error.code === 7000) {
-            msg = 'Manifest error - The stream URL may be invalid';
-          }
-          showError(msg, `Error code: ${error.code}`);
+          if (error.code === 6012) msg = 'DRM license error - Check your key';
+          else if (error.code === 1002) msg = 'Network error - Check your connection';
+          else if (error.code === 7000) msg = 'Manifest error - Invalid stream URL';
+          showError(msg, `Error code: ${error.code} - ${error.message || ''}`);
           loadingState.style.display = 'none';
         });
 
         // ====== LOAD THE STREAM ======
-        console.log('Loading stream:', stream.streamUrl);
+        console.log('Loading stream URL:', stream.streamUrl);
         await playerInstance.load(stream.streamUrl);
         console.log('✅ Stream loaded successfully');
         loadingState.style.display = 'none';
 
       } catch (err) {
-        console.error('❌ Player error:', err);
+        console.error('❌ Player load error:', err);
         showError('Failed to load stream', err.message || 'Unknown error');
         loadingState.style.display = 'none';
       }
     }
 
-    // ====== RETRY FUNCTION ======
-    document.getElementById('retryBtn').addEventListener('click', function() {
-      fetchMatchData();
-    });
-
-    // ====== BACK BUTTON ======
+    // ====== RETRY & BACK ======
+    document.getElementById('retryBtn').addEventListener('click', fetchMatchData);
     document.getElementById('backToHome').addEventListener('click', function(e) {
       e.preventDefault();
       window.location.href = 'index.html';
     });
-
-    // ====== ESCAPE KEY ======
     document.addEventListener('keydown', function(e) {
-      if (e.key === 'Escape') {
-        window.location.href = 'index.html';
-      }
+      if (e.key === 'Escape') window.location.href = 'index.html';
     });
 
     // ====== INIT ======
