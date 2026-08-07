@@ -43,6 +43,9 @@
   animation: pulse 1.8s infinite;
   font-family: 'Inter', system-ui, sans-serif;
   letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
 }
 
 .willow-live-carousel-wrapper {
@@ -126,6 +129,9 @@
   letter-spacing: 0.05em;
   animation: pulse 1.8s infinite;
   z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
 }
 
 /* ====== PLAY OVERLAY ====== */
@@ -165,69 +171,46 @@
   gap: clamp(2px, 0.3vw, 4px);
 }
 
-/* ====== MATCH TITLE - FIXED TO MATCH HIGHLIGHTS STYLE ====== */
+/* ====== WILLOW LIVE MATCH TITLE - TEAMS DISPLAY ====== */
 .willow-live-match-title {
-  font-size: clamp(0.85rem, 1.5vw, 1.15rem);
-  color: #ffffff;
-  font-weight: 600;
-  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
-  letter-spacing: 0.01em;
-  line-height: 1.3;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
-/* ====== TEAM NAMES INSIDE MATCH TITLE - MATCH HIGHLIGHTS STYLE ====== */
-.willow-live-match-title .team-name {
-  font-size: clamp(0.85rem, 1.5vw, 1.15rem);
-  color: #ffffff;
-  font-weight: 600;
-  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
-  letter-spacing: 0.01em;
-}
-
-/* ====== VS SEPARATOR INSIDE MATCH TITLE ====== */
-.willow-live-match-title .team-vs {
-  font-size: clamp(0.7rem, 1vw, 0.9rem);
-  color: rgba(255, 255, 255, 0.3);
-  font-weight: 400;
-  padding: 0 0.3rem;
-  font-family: 'Inter', system-ui, sans-serif;
-}
-
-/* ====== META INFO ====== */
-.willow-live-meta {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: clamp(0.2rem, 0.5vw, 0.6rem);
   flex-wrap: wrap;
+  font-size: clamp(0.85rem, 1.5vw, 1.15rem);
+  font-weight: 600;
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  letter-spacing: 0.01em;
+  line-height: 1.4;
 }
 
-/* ====== GROUP/TAG - MATCH HIGHLIGHTS STYLE ====== */
+/* ====== TEAM NAME - WHITE FONT MATCHING HIGHLIGHTS ====== */
+.willow-live-team {
+  color: #ffffff;
+  font-weight: 600;
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  font-size: clamp(0.85rem, 1.5vw, 1.15rem);
+  letter-spacing: 0.01em;
+}
+
+/* ====== VS SEPARATOR - SUBTLE ====== */
+.willow-live-vs {
+  color: rgba(255, 255, 255, 0.35);
+  font-weight: 400;
+  font-size: clamp(0.7rem, 1vw, 0.9rem);
+  font-family: 'Inter', system-ui, sans-serif;
+  padding: 0 0.1rem;
+}
+
+/* ====== TOURNAMENT/GROUP TAG ====== */
 .willow-live-group {
-  font-size: clamp(0.6rem, 1vw, 0.78rem);
+  font-size: clamp(0.55rem, 0.9vw, 0.7rem);
   color: #f5c518;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   font-weight: 700;
   font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
-}
-
-/* ====== TEAMS LIST (for multi-line display) ====== */
-.willow-live-teams {
-  font-size: clamp(0.5rem, 0.7vw, 0.65rem);
-  color: rgba(255, 255, 255, 0.5);
-  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
-}
-
-/* ====== LIVE STATUS ====== */
-.willow-live-status {
-  font-size: clamp(0.5rem, 0.7vw, 0.65rem);
-  color: #7dffb3;
-  font-weight: 600;
-  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  margin-top: 2px;
 }
 
 /* ====== LOADING STATE ====== */
