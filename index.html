@@ -9,6 +9,7 @@
   <!-- ====== FONTS ====== -->
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 <!-- Willow Live Styles -->
 <link rel="stylesheet" href="willow-live.css">
@@ -2202,25 +2203,30 @@
 
   <!-- ====== MAIN CONTENT ====== -->
   <main role="main">
-    <!-- ====== WILLOW LIVE SECTION - Place above Highlights ====== -->
+    <!-- ====== WILLOW LIVE SECTION ====== -->
 <section class="willow-live-section">
   <div class="willow-live-header">
     <h2 class="willow-live-title">
-      <span class="cricket-icon"></span> Willow Live
+      Willow Live
+      <span class="live-count-badge" id="liveCountBadge">
+        <span class="material-icons">fiber_manual_record</span>
+        0 LIVE
+      </span>
     </h2>
-    <span class="live-count-badge" id="liveCountBadge">Loading...</span>
   </div>
 
   <div class="willow-live-carousel-wrapper">
     <button class="carousel-arrow arrow-left" id="willowLiveArrowLeft" aria-label="Scroll left">&#10094;</button>
 
     <div class="willow-live-track" id="willowLiveTrack">
-      <!-- Matches injected by JavaScript -->
+      <div class="willow-loading">⏳ Loading live matches...</div>
     </div>
 
     <button class="carousel-arrow arrow-right" id="willowLiveArrowRight" aria-label="Scroll right">&#10095;</button>
   </div>
 </section>
+
+
 
 <!-- Include CSS and JS -->
 <link rel="stylesheet" href="willow-live.css">
