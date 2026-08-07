@@ -67,6 +67,7 @@
   display: none;
 }
 
+/* ====== WILLOW LIVE CARD ====== */
 .willow-live-card {
   flex: 0 0 auto;
   width: clamp(260px, 34vw, 480px);
@@ -88,6 +89,7 @@
   box-shadow: 0 8px 30px rgba(245, 175, 25, 0.15);
 }
 
+/* ====== THUMBNAIL ====== */
 .willow-live-thumb {
   position: relative;
   width: 100%;
@@ -109,6 +111,7 @@
   transform: scale(1.08);
 }
 
+/* ====== LIVE BADGE ====== */
 .willow-live-badge-live {
   position: absolute;
   top: 10px;
@@ -125,6 +128,7 @@
   z-index: 2;
 }
 
+/* ====== PLAY OVERLAY ====== */
 .willow-live-overlay {
   position: absolute;
   inset: 0;
@@ -153,6 +157,7 @@
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.35);
 }
 
+/* ====== CARD INFO ====== */
 .willow-live-info {
   padding: clamp(0.5rem, 1.1vw, 0.8rem) clamp(0.5rem, 1vw, 0.8rem);
   display: flex;
@@ -160,11 +165,12 @@
   gap: clamp(2px, 0.3vw, 4px);
 }
 
+/* ====== MATCH TITLE - FIXED TO MATCH HIGHLIGHTS STYLE ====== */
 .willow-live-match-title {
-  font-size: clamp(0.75rem, 1.2vw, 1rem);
+  font-size: clamp(0.85rem, 1.5vw, 1.15rem);
   color: #ffffff;
   font-weight: 600;
-  font-family: 'Inter', system-ui, sans-serif;
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
   letter-spacing: 0.01em;
   line-height: 1.3;
   display: -webkit-box;
@@ -173,6 +179,25 @@
   overflow: hidden;
 }
 
+/* ====== TEAM NAMES INSIDE MATCH TITLE - MATCH HIGHLIGHTS STYLE ====== */
+.willow-live-match-title .team-name {
+  font-size: clamp(0.85rem, 1.5vw, 1.15rem);
+  color: #ffffff;
+  font-weight: 600;
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  letter-spacing: 0.01em;
+}
+
+/* ====== VS SEPARATOR INSIDE MATCH TITLE ====== */
+.willow-live-match-title .team-vs {
+  font-size: clamp(0.7rem, 1vw, 0.9rem);
+  color: rgba(255, 255, 255, 0.3);
+  font-weight: 400;
+  padding: 0 0.3rem;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* ====== META INFO ====== */
 .willow-live-meta {
   display: flex;
   align-items: center;
@@ -180,43 +205,47 @@
   flex-wrap: wrap;
 }
 
+/* ====== GROUP/TAG - MATCH HIGHLIGHTS STYLE ====== */
 .willow-live-group {
-  font-size: clamp(0.55rem, 0.8vw, 0.7rem);
-  color: #f5af19;
+  font-size: clamp(0.6rem, 1vw, 0.78rem);
+  color: #f5c518;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
-  font-weight: 600;
-  font-family: 'Inter', system-ui, sans-serif;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
 }
 
+/* ====== TEAMS LIST (for multi-line display) ====== */
 .willow-live-teams {
   font-size: clamp(0.5rem, 0.7vw, 0.65rem);
   color: rgba(255, 255, 255, 0.5);
-  font-family: 'Inter', system-ui, sans-serif;
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
 }
 
+/* ====== LIVE STATUS ====== */
 .willow-live-status {
   font-size: clamp(0.5rem, 0.7vw, 0.65rem);
   color: #7dffb3;
   font-weight: 600;
-  font-family: 'Inter', system-ui, sans-serif;
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
 }
 
-/* Loading State */
+/* ====== LOADING STATE ====== */
 .willow-loading {
   text-align: center;
   padding: 40px;
   color: #8892a0;
   width: 100%;
-  font-family: 'Inter', system-ui, sans-serif;
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
 }
 
+/* ====== ERROR STATE ====== */
 .willow-error {
   text-align: center;
   padding: 40px;
   color: #e74c3c;
   width: 100%;
-  font-family: 'Inter', system-ui, sans-serif;
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
 }
 
 .willow-error button {
@@ -227,10 +256,10 @@
   border-radius: 8px;
   font-weight: 600;
   cursor: pointer;
-  font-family: 'Inter', system-ui, sans-serif;
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
 }
 
-/* Carousel Arrows */
+/* ====== CAROUSEL ARROWS ====== */
 .carousel-arrow {
   position: absolute;
   top: 40%;
@@ -272,13 +301,13 @@
   right: clamp(0.2rem, 1.2vw, 0.8rem);
 }
 
-/* Animations */
+/* ====== ANIMATIONS ====== */
 @keyframes pulse {
   0%, 100% { opacity: 0.7; }
   50% { opacity: 1; }
 }
 
-/* Responsive */
+/* ====== RESPONSIVE ====== */
 @media (max-width: 640px) {
   .carousel-arrow {
     width: clamp(26px, 8vw, 34px);
@@ -289,4 +318,4 @@
   .willow-live-title {
     font-size: clamp(0.95rem, 4vw, 1.2rem);
   }
-  }
+}
