@@ -44,7 +44,7 @@ async function fetchWillowMatches() {
     willowMatches = data.streams || [];
     
     renderWillowMatches(willowMatches);
-    
+
   } catch (error) {
     console.error('Willow fetch error:', error);
     if (willowTrack) {
@@ -62,26 +62,26 @@ async function fetchWillowMatches() {
 // ====== RENDER MATCHES ======
 function renderWillowMatches(streams) {
   if (!willowTrack) return;
-  
+
   if (!streams || streams.length === 0) {
     willowTrack.innerHTML = '<div class="willow-loading">No live matches available</div>';
     return;
   }
 
   willowTrack.innerHTML = '';
-  
+
   streams.forEach((stream) => {
     // Extract team names from title
     const teams = extractTeams(stream.title || stream.tvgName || 'Unknown Match');
     const tournament = extractTournament(stream.title || stream.tvgName || '');
-    
+
     // Use tvgLogo or fallback
     const logo = stream.tvgLogo || 'https://via.placeholder.com/480x270/14181f/ffffff?text=Willow+Cricket';
     
     const card = document.createElement('a');
     card.className = 'willow-live-card';
-    // Use tvgId instead of index
-    card.href = `willow-player.html?id=${stream.tvgId}`;
+    // FIX: Use tvgId and URL encode it
+    card.href = `willow-player.html?id=${encodeURIComponent(stream.tvgId)}`;
     card.dataset.tvgId = stream.tvgId;
     
     card.innerHTML = `
@@ -118,24 +118,24 @@ function renderWillowMatches(streams) {
 // ====== EXTRACT TEAMS FROM TITLE ======
 function extractTeams(title) {
   // Try to extract from format "Tournament - Team1 vs Team2"
-  const vsMatch = title.match(/(.+?)\s*(?:vs|Vs|VS|v\.?)\s*(.+?)(?:\s*[-–]|$)/i);
+  const vsMatch = title.match(/(.+?)\s*(?:vs|Vs|VS|v.?)\s*(.+?)(?:\s*[-–]|$)/i);
   if (vsMatch) {
     let team1 = vsMatch[1].trim();
     let team2 = vsMatch[2].trim();
-    
+
     // Clean up team names (remove tournament prefix)
     team1 = team1.split(' - ').pop() || team1;
     team2 = team2.split(' - ')[0] || team2;
     
     return `${team1} vs ${team2}`;
   }
-  
+
   // Try to extract from format "Team1 vs Team2 - Tournament"
   const vsMatch2 = title.match(/(.+?)\s+vs\s+(.+?)(?:\s+[–-]|\s*$)/i);
   if (vsMatch2) {
     return `${vsMatch2[1].trim()} vs ${vsMatch2[2].trim()}`;
   }
-  
+
   return title;
 }
 
@@ -145,8 +145,8 @@ function extractTournament(title) {
   if (tournamentMatch) {
     return tournamentMatch[1].trim();
   }
-  
-  const vsMatch = title.match(/^(.+?)\s*(?:vs|Vs|VS|v\.?)/i);
+
+  const vsMatch = title.match(/^(.+?)\s*(?:vs|Vs|VS|v.?)/i);
   if (vsMatch) {
     const part = vsMatch[1].trim();
     const tournMatch = part.match(/(.+?)(?:\s*[-–]\s*)/);
@@ -154,7 +154,7 @@ function extractTournament(title) {
       return tournMatch[1].trim();
     }
   }
-  
+
   return null;
 }
 
