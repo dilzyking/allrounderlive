@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Willow Live Player</title>
   
+  <!-- Google Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
   <!-- Shaka Player -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.11/shaka-player.ui.min.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.11/controls.min.css" crossorigin="anonymous">
@@ -55,7 +58,6 @@
       background: none;
       border: none;
       color: #f5af19;
-      font-size: 1.2rem;
       cursor: pointer;
       padding: 8px 12px;
       display: flex;
@@ -65,15 +67,15 @@
       font-family: 'Inter', system-ui, sans-serif;
       transition: color 0.3s ease;
       white-space: nowrap;
+      text-decoration: none;
     }
 
     .back-btn:hover {
       color: #ffc44d;
     }
 
-    .back-btn .arrow {
+    .back-btn .material-icons {
       font-size: 1.5rem;
-      line-height: 1;
     }
 
     .player-match-info {
@@ -168,6 +170,13 @@
       font-size: 0.65rem;
       color: #4a5362;
       font-family: 'Inter', system-ui, sans-serif;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .player-footer .info .material-icons {
+      font-size: 0.9rem;
     }
 
     .player-footer .drm-badge {
@@ -210,7 +219,7 @@
     .player-error {
       position: absolute;
       inset: 0;
-      display: flex;
+      display: none;
       flex-direction: column;
       align-items: center;
       justify-content: center;
@@ -267,7 +276,6 @@
 
       .back-btn {
         padding: 4px 8px;
-        font-size: 1rem;
       }
 
       .back-btn .back-text {
@@ -320,7 +328,6 @@
 
       .back-btn {
         padding: 2px 6px;
-        font-size: 0.8rem;
       }
 
       .player-match-title {
@@ -348,10 +355,10 @@
 
   <!-- ====== PLAYER HEADER ====== -->
   <header class="player-header">
-    <button class="back-btn" id="backToHome" aria-label="Go back">
-      <span class="arrow">←</span>
+    <a href="index.html" class="back-btn" id="backToHome">
+      <span class="material-icons">arrow_back</span>
       <span class="back-text">Back</span>
-    </button>
+    </a>
     
     <div class="player-match-info">
       <div class="player-match-title" id="playerTitle">Loading...</div>
@@ -375,7 +382,7 @@
     </div>
 
     <!-- Error State -->
-    <div class="player-error" id="errorState" style="display:none;">
+    <div class="player-error" id="errorState">
       <div class="error-icon">⚠️</div>
       <div class="error-message" id="errorMessage">Failed to load stream</div>
       <div class="error-details" id="errorDetails">Please try again or check your connection</div>
@@ -385,78 +392,94 @@
 
   <!-- ====== PLAYER FOOTER ====== -->
   <footer class="player-footer">
-    <span class="info">🏏 Willow Live · Powered by Shaka Player</span>
+    <span class="info">
+      <span class="material-icons">sports_cricket</span>
+      Willow Live · Powered by Shaka Player
+    </span>
     <span class="drm-badge">🔒 DRM · Clearkey</span>
   </footer>
 
   <!-- ====== PLAYER SCRIPT ====== -->
   <script>
-    // ====== GET STREAM DATA FROM LOCALSTORAGE ======
-    let streamData = null;
+    // ====== API URL ======
+    const API_URL = 'https://willow-api.sayanwork-studioo.workers.dev/';
+    let allMatches = [];
     let playerInstance = null;
     let uiInstance = null;
 
-    try {
-      const stored = localStorage.getItem('willowStreamData');
-      if (stored) {
-        streamData = JSON.parse(stored);
+    // ====== GET MATCH ID FROM URL ======
+    function getMatchIdFromUrl() {
+      const params = new URLSearchParams(window.location.search);
+      return parseInt(params.get('id'));
+    }
+
+    // ====== FETCH MATCH DATA ======
+    async function fetchMatchData() {
+      const matchId = getMatchIdFromUrl();
+      
+      if (isNaN(matchId) || matchId < 0) {
+        showError('Invalid match ID', 'Please go back and select a valid match');
+        return;
       }
-    } catch (e) {
-      console.warn('Failed to parse stream data:', e);
-    }
 
-    // If no data, redirect back
-    if (!streamData || !streamData.streamUrl) {
-      window.location.href = 'index.html';
-    }
-
-    // ====== DOM REFS ======
-    const videoEl = document.getElementById('videoElement');
-    const videoContainer = document.getElementById('videoContainer');
-    const playerTitle = document.getElementById('playerTitle');
-    const playerSubtitle = document.getElementById('playerSubtitle');
-    const loadingState = document.getElementById('loadingState');
-    const errorState = document.getElementById('errorState');
-    const errorMessage = document.getElementById('errorMessage');
-    const errorDetails = document.getElementById('errorDetails');
-    const retryBtn = document.getElementById('retryBtn');
-    const backBtn = document.getElementById('backToHome');
-
-    // ====== SET TITLE ======
-    if (playerTitle) {
-      playerTitle.textContent = streamData.title || 'Willow Live';
-    }
-    if (playerSubtitle) {
-      playerSubtitle.textContent = streamData.groupTitle || 'Cricket';
-    }
-
-    // ====== BACK BUTTON ======
-    backBtn.addEventListener('click', function() {
-      window.location.href = 'index.html';
-    });
-
-    // Also handle escape key
-    document.addEventListener('keydown', function(e) {
-      if (e.key === 'Escape') {
-        window.location.href = 'index.html';
+      try {
+        const response = await fetch(API_URL);
+        
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}`);
+        }
+        
+        const data = await response.json();
+        
+        if (data.error) {
+          throw new Error(data.message || 'Unknown error');
+        }
+        
+        allMatches = data.streams || [];
+        
+        if (matchId >= allMatches.length) {
+          showError('Match not found', 'The requested match does not exist');
+          return;
+        }
+        
+        const stream = allMatches[matchId];
+        if (!stream || !stream.streamUrl) {
+          showError('Stream not available', 'This match does not have a valid stream URL');
+          return;
+        }
+        
+        // Update UI with match info
+        document.getElementById('playerTitle').textContent = stream.title || 'Willow Live';
+        document.getElementById('playerSubtitle').textContent = stream.groupTitle || 'Cricket';
+        
+        // Load the stream
+        await loadStream(stream);
+        
+      } catch (error) {
+        console.error('Fetch error:', error);
+        showError('Failed to load match data', error.message);
       }
-    });
+    }
 
     // ====== SHOW ERROR ======
     function showError(message, details) {
-      loadingState.style.display = 'none';
-      errorState.style.display = 'flex';
-      errorMessage.textContent = message || 'Failed to load stream';
-      errorDetails.textContent = details || 'Please try again or check your connection';
+      document.getElementById('loadingState').style.display = 'none';
+      document.getElementById('errorState').style.display = 'flex';
+      document.getElementById('errorMessage').textContent = message || 'Failed to load stream';
+      document.getElementById('errorDetails').textContent = details || 'Please try again or check your connection';
     }
 
     // ====== HIDE ERROR ======
     function hideError() {
-      errorState.style.display = 'none';
+      document.getElementById('errorState').style.display = 'none';
     }
 
     // ====== LOAD STREAM ======
-    async function loadStream() {
+    async function loadStream(stream) {
+      const videoEl = document.getElementById('videoElement');
+      const videoContainer = document.getElementById('videoContainer');
+      const loadingState = document.getElementById('loadingState');
+      
       try {
         hideError();
         loadingState.style.display = 'flex';
@@ -500,7 +523,7 @@
         });
 
         // DRM Config
-        const licenseKey = streamData.licenseKey || streamData.properties?.license_key || '';
+        const licenseKey = stream.properties?.license_key || '';
         let drmConfig = {};
 
         if (licenseKey) {
@@ -541,4 +564,48 @@
           console.warn('Shaka error:', e.detail);
           const error = e.detail;
           let msg = 'Stream error';
-          if (error.code === 601
+          if (error.code === 6012) {
+            msg = 'DRM license error';
+          } else if (error.code === 1002) {
+            msg = 'Network error - check your connection';
+          }
+          showError(msg, `Error code: ${error.code}`);
+          loadingState.style.display = 'none';
+        });
+
+        // Load the stream
+        loadingState.style.display = 'flex';
+        await playerInstance.load(stream.streamUrl);
+        console.log('✅ Stream loaded:', stream.title);
+        loadingState.style.display = 'none';
+
+      } catch (err) {
+        console.error('❌ Player error:', err);
+        showError('Failed to load stream', err.message || 'Unknown error');
+        loadingState.style.display = 'none';
+      }
+    }
+
+    // ====== RETRY FUNCTION ======
+    document.getElementById('retryBtn').addEventListener('click', function() {
+      fetchMatchData();
+    });
+
+    // ====== BACK BUTTON ======
+    document.getElementById('backToHome').addEventListener('click', function(e) {
+      e.preventDefault();
+      window.location.href = 'index.html';
+    });
+
+    // ====== ESCAPE KEY ======
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        window.location.href = 'index.html';
+      }
+    });
+
+    // ====== INIT ======
+    fetchMatchData();
+  </script>
+</body>
+</html>
