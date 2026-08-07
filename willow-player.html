@@ -12,17 +12,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.11/shaka-player.ui.min.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.11/controls.min.css" crossorigin="anonymous">
   
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CQXW3DBDQL"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-CQXW3DBDQL');
-  </script>
-
   <style>
-    /* ====== PLAYER PAGE STYLES ====== */
     * {
       margin: 0;
       padding: 0;
@@ -39,11 +29,9 @@
       flex-direction: column;
     }
 
-    /* ====== PLAYER HEADER ====== */
     .player-header {
       background: rgba(11, 13, 15, 0.95);
       backdrop-filter: blur(10px);
-      -webkit-backdrop-filter: blur(10px);
       padding: 12px 16px;
       display: flex;
       align-items: center;
@@ -128,7 +116,6 @@
       50% { opacity: 0.4; transform: scale(0.8); }
     }
 
-    /* ====== VIDEO CONTAINER ====== */
     .video-container {
       flex: 1;
       position: relative;
@@ -144,7 +131,6 @@
       background: #000;
     }
 
-    /* Hide Shaka spinner */
     .shaka-spinner-container,
     .shaka-spinner,
     .shaka-spinner-svg {
@@ -153,11 +139,9 @@
       opacity: 0 !important;
     }
 
-    /* ====== PLAYER FOOTER ====== */
     .player-footer {
       background: rgba(11, 13, 15, 0.95);
       backdrop-filter: blur(10px);
-      -webkit-backdrop-filter: blur(10px);
       padding: 8px 16px;
       display: flex;
       justify-content: space-between;
@@ -188,7 +172,6 @@
       font-family: 'Inter', system-ui, sans-serif;
     }
 
-    /* ====== LOADING / ERROR STATES ====== */
     .player-loading {
       position: absolute;
       inset: 0;
@@ -266,94 +249,35 @@
       background: #ffc44d;
     }
 
-    /* ====== RESPONSIVE ====== */
     @media (max-width: 768px) {
       .player-header {
         padding: 8px 12px;
         min-height: 50px;
         gap: 8px;
       }
-
       .back-btn {
         padding: 4px 8px;
       }
-
       .back-btn .back-text {
         display: none;
       }
-
       .player-match-title {
         font-size: 0.75rem;
       }
-
       .player-match-subtitle {
         font-size: 0.55rem;
       }
-
-      .live-dot {
-        width: 8px;
-        height: 8px;
-      }
-
-      .live-text {
-        font-size: 0.55rem;
-      }
-
       .player-footer {
         padding: 6px 12px;
         flex-direction: column;
         gap: 4px;
         text-align: center;
       }
-
-      .player-footer .info {
-        font-size: 0.55rem;
-      }
-
-      .player-footer .drm-badge {
-        font-size: 0.5rem;
-        padding: 2px 10px;
-      }
-    }
-
-    @media (orientation: landscape) and (max-height: 500px) {
-      .player-header {
-        min-height: 40px;
-        padding: 4px 12px;
-      }
-
-      .player-footer {
-        padding: 4px 12px;
-      }
-
-      .back-btn {
-        padding: 2px 6px;
-      }
-
-      .player-match-title {
-        font-size: 0.65rem;
-      }
-
-      .player-match-subtitle {
-        font-size: 0.5rem;
-      }
-    }
-
-    /* Reduced motion */
-    @media (prefers-reduced-motion: reduce) {
-      *,
-      *::before,
-      *::after {
-        animation-duration: 0.01ms !important;
-        animation-iteration-count: 1 !important;
-        transition-duration: 0.01ms !important;
-      }
     }
   </style>
 </head>
 <body>
 
-  <!-- ====== PLAYER HEADER ====== -->
   <header class="player-header">
     <a href="index.html" class="back-btn" id="backToHome">
       <span class="material-icons">arrow_back</span>
@@ -371,17 +295,14 @@
     </div>
   </header>
 
-  <!-- ====== VIDEO CONTAINER ====== -->
   <div class="video-container" id="videoContainer">
     <video id="videoElement" autoplay playsinline preload="metadata"></video>
     
-    <!-- Loading State -->
     <div class="player-loading" id="loadingState">
       <div class="spinner"></div>
       <span>Loading stream...</span>
     </div>
 
-    <!-- Error State -->
     <div class="player-error" id="errorState">
       <div class="error-icon">⚠️</div>
       <div class="error-message" id="errorMessage">Failed to load stream</div>
@@ -390,7 +311,6 @@
     </div>
   </div>
 
-  <!-- ====== PLAYER FOOTER ====== -->
   <footer class="player-footer">
     <span class="info">
       <span class="material-icons">sports_cricket</span>
@@ -399,7 +319,6 @@
     <span class="drm-badge">🔒 DRM · Clearkey</span>
   </footer>
 
-  <!-- ====== PLAYER SCRIPT ====== -->
   <script>
     // ====== API URL ======
     const API_URL = 'https://willow-api.sayanwork-studioo.workers.dev/';
@@ -407,17 +326,17 @@
     let playerInstance = null;
     let uiInstance = null;
 
-    // ====== GET MATCH ID FROM URL ======
-    function getMatchIdFromUrl() {
+    // ====== GET TVG ID FROM URL ======
+    function getTvgIdFromUrl() {
       const params = new URLSearchParams(window.location.search);
-      return parseInt(params.get('id'));
+      return params.get('id'); // Returns e.g., "B0HCL9R674"
     }
 
     // ====== FETCH MATCH DATA ======
     async function fetchMatchData() {
-      const matchId = getMatchIdFromUrl();
+      const tvgId = getTvgIdFromUrl();
       
-      if (isNaN(matchId) || matchId < 0) {
+      if (!tvgId) {
         showError('Invalid match ID', 'Please go back and select a valid match');
         return;
       }
@@ -437,19 +356,21 @@
         
         allMatches = data.streams || [];
         
-        if (matchId >= allMatches.length) {
-          showError('Match not found', 'The requested match does not exist');
+        // ====== FIND MATCH BY TVG ID ======
+        const stream = allMatches.find(match => match.tvgId === tvgId);
+        
+        if (!stream) {
+          showError('Match not found', `No match found with ID: ${tvgId}`);
           return;
         }
         
-        const stream = allMatches[matchId];
-        if (!stream || !stream.streamUrl) {
+        if (!stream.streamUrl) {
           showError('Stream not available', 'This match does not have a valid stream URL');
           return;
         }
         
         // Update UI with match info
-        document.getElementById('playerTitle').textContent = stream.title || 'Willow Live';
+        document.getElementById('playerTitle').textContent = stream.title || stream.tvgName || 'Willow Live';
         document.getElementById('playerSubtitle').textContent = stream.groupTitle || 'Cricket';
         
         // Load the stream
@@ -522,8 +443,8 @@
           }
         });
 
-        // DRM Config
-        const licenseKey = stream.properties?.license_key || '';
+        // ====== DRM CONFIG FROM STREAM PROPERTIES ======
+        const licenseKey = stream.properties?.['inputstream.adaptive.license_key'] || '';
         let drmConfig = {};
 
         if (licenseKey) {
@@ -565,18 +486,20 @@
           const error = e.detail;
           let msg = 'Stream error';
           if (error.code === 6012) {
-            msg = 'DRM license error';
+            msg = 'DRM license error - This stream requires DRM protection';
           } else if (error.code === 1002) {
-            msg = 'Network error - check your connection';
+            msg = 'Network error - Please check your internet connection';
+          } else if (error.code === 7000) {
+            msg = 'Manifest error - The stream URL may be invalid';
           }
           showError(msg, `Error code: ${error.code}`);
           loadingState.style.display = 'none';
         });
 
-        // Load the stream
-        loadingState.style.display = 'flex';
+        // ====== LOAD THE STREAM ======
+        console.log('Loading stream:', stream.streamUrl);
         await playerInstance.load(stream.streamUrl);
-        console.log('✅ Stream loaded:', stream.title);
+        console.log('✅ Stream loaded successfully');
         loadingState.style.display = 'none';
 
       } catch (err) {
