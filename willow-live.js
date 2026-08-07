@@ -1,6 +1,6 @@
 // ====== WILLOW LIVE MATCHES SCRIPT ======
 
-// API URL - Replace with your worker URL
+// API URL
 const WILLOW_API_URL = 'https://willow-api.sayanwork-studioo.workers.dev/';
 
 // DOM Elements
@@ -16,7 +16,7 @@ let willowMatches = [];
 async function fetchWillowMatches() {
   try {
     if (willowTrack) {
-      willowTrack.innerHTML = '<div class="willow-loading">⏳ Loading Willow Live matches...</div>';
+      willowTrack.innerHTML = '<div class="willow-loading">⏳ Loading live matches...</div>';
     }
 
     const response = await fetch(WILLOW_API_URL);
@@ -34,7 +34,10 @@ async function fetchWillowMatches() {
     // Update live count badge
     if (liveCountBadge) {
       const liveCount = data.liveCount || data.streams?.length || 0;
-      liveCountBadge.textContent = `🔴 ${liveCount} Live`;
+      liveCountBadge.innerHTML = `
+        <span class="material-icons">fiber_manual_record</span>
+        ${liveCount} LIVE
+      `;
     }
     
     // Store matches
@@ -47,7 +50,7 @@ async function fetchWillowMatches() {
     if (willowTrack) {
       willowTrack.innerHTML = `
         <div class="willow-error">
-          ❌ Failed to load Willow matches<br>
+          ❌ Failed to load matches<br>
           <small>${error.message}</small><br>
           <button onclick="fetchWillowMatches()">Retry</button>
         </div>
@@ -69,12 +72,12 @@ function renderWillowMatches(streams) {
   
   streams.forEach((stream, index) => {
     // Extract team names from title
-    const titleParts = stream.title || 'Unknown Match';
-    const teams = extractTeams(titleParts);
+    const teams = extractTeams(stream.title || 'Unknown Match');
+    const tournament = extractTournament(stream.title || '');
     
     const card = document.createElement('a');
     card.className = 'willow-live-card';
-    card.href = `#`;
+    card.href = `willow-player.html?id=${index}`; // Use URL parameter
     card.dataset.index = index;
     
     card.innerHTML = `
@@ -85,28 +88,23 @@ function renderWillowMatches(streams) {
           loading="lazy"
           onerror="this.src='https://via.placeholder.com/480x270/14181f/ffffff?text=Willow+Cricket'"
         />
-        <span class="willow-live-badge-live">● LIVE</span>
+        <div class="willow-live-badge">
+          <span class="material-icons">fiber_manual_record</span>
+          LIVE
+        </div>
         <div class="willow-live-overlay">
-          <span class="willow-live-play-icon">▶</span>
+          <span class="willow-live-play-icon">
+            <span class="material-icons">play_arrow</span>
+          </span>
         </div>
       </div>
       <div class="willow-live-info">
-        <div class="willow-live-match-title">${stream.title || 'Unknown Match'}</div>
-        <div class="willow-live-meta">
-          <span class="willow-live-group">🏏 ${stream.groupTitle || 'Cricket'}</span>
-          ${teams ? `<span class="willow-live-teams">• ${teams}</span>` : ''}
-          <span class="willow-live-status">• LIVE</span>
-        </div>
+        <div class="willow-live-teams">${teams}</div>
+        ${tournament ? `<div class="willow-live-tournament">${tournament}</div>` : ''}
       </div>
     `;
     
-    // Click handler to open player
-    card.addEventListener('click', function(e) {
-      e.preventDefault();
-      e.stopPropagation();
-      openWillowPlayer(index);
-    });
-    
+    // Click handler removed - using href instead
     willowTrack.appendChild(card);
   });
 
@@ -117,7 +115,6 @@ function renderWillowMatches(streams) {
 // ====== EXTRACT TEAMS FROM TITLE ======
 function extractTeams(title) {
   // Try to extract team names from various formats
-  // Examples: "India vs Australia", "Chennai Falcons vs Bengaluru Badgers"
   const vsMatch = title.match(/(.+?)\s*(?:vs|Vs|VS|v\.?|–|-)\s*(.+?)(?:\s*[-–]|$)/);
   if (vsMatch) {
     const team1 = vsMatch[1].trim().split(' - ').pop() || vsMatch[1].trim();
@@ -131,29 +128,26 @@ function extractTeams(title) {
     return `${vsMatch2[1].trim()} vs ${vsMatch2[2].trim()}`;
   }
   
-  return null;
+  return title;
 }
 
-// ====== OPEN WILLOW PLAYER ======
-function openWillowPlayer(index) {
-  const stream = willowMatches[index];
-  if (!stream) {
-    alert('Stream not found');
-    return;
+// ====== EXTRACT TOURNAMENT FROM TITLE ======
+function extractTournament(title) {
+  const tournamentMatch = title.match(/^([^,–-]+?(?:League|Series|Tournament|Cup|Tour|Championship|Trophy|Premier League|World Cup|Hundred))/i);
+  if (tournamentMatch) {
+    return tournamentMatch[1].trim();
   }
-
-  // Store stream data in localStorage to pass to player page
-  localStorage.setItem('willowStreamData', JSON.stringify({
-    title: stream.title || 'Willow Live',
-    tvgLogo: stream.tvgLogo || '',
-    groupTitle: stream.groupTitle || 'Cricket',
-    streamUrl: stream.streamUrl || '',
-    licenseKey: stream.properties?.license_key || '',
-    properties: stream.properties || {}
-  }));
-
-  // Redirect to player page
-  window.location.href = 'willow-player.html';
+  
+  const vsMatch = title.match(/^(.+?)\s*(?:vs|Vs|VS|v\.?)/i);
+  if (vsMatch) {
+    const part = vsMatch[1].trim();
+    const tournMatch = part.match(/(.+?)(?:\s*[-–]\s*)/);
+    if (tournMatch) {
+      return tournMatch[1].trim();
+    }
+  }
+  
+  return null;
 }
 
 // ====== CAROUSEL SCROLL CONTROLS ======
@@ -185,6 +179,5 @@ if (willowArrowLeft) {
 }
 
 // ====== INIT ======
-// Auto-refresh every 5 minutes
 fetchWillowMatches();
 setInterval(fetchWillowMatches, 300000);
