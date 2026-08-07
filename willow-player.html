@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Willow Live Player</title>
+  
+  <!-- Shaka Player -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.11/shaka-player.ui.min.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.11/controls.min.css" crossorigin="anonymous">
+  
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CQXW3DBDQL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-CQXW3DBDQL');
+  </script>
+
+  <style>
+    /* ====== PLAYER PAGE STYLES ====== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #000;
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      height: 100vh;
+      width: 100vw;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ====== PLAYER HEADER ====== */
+    .player-header {
+      background: rgba(11, 13, 15, 0.95);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      padding: 12px 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      border-bottom: 1px solid #2a2f3a;
+      flex-shrink: 0;
+      z-index: 10;
+      min-height: 60px;
+    }
+
+    .back-btn {
+      background: none;
+      border: none;
+      color: #f5af19;
+      font-size: 1.2rem;
+      cursor: pointer;
+      padding: 8px 12px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-weight: 600;
+      font-family: 'Inter', system-ui, sans-serif;
+      transition: color 0.3s ease;
+      white-space: nowrap;
+    }
+
+    .back-btn:hover {
+      color: #ffc44d;
+    }
+
+    .back-btn .arrow {
+      font-size: 1.5rem;
+      line-height: 1;
+    }
+
+    .player-match-info {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .player-match-title {
+      font-size: clamp(0.8rem, 1.2vw, 1.1rem);
+      font-weight: 600;
+      color: #ffffff;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-family: 'Inter', system-ui, sans-serif;
+    }
+
+    .player-match-subtitle {
+      font-size: clamp(0.6rem, 0.9vw, 0.8rem);
+      color: #8892a0;
+      font-family: 'Inter', system-ui, sans-serif;
+    }
+
+    .player-status {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-shrink: 0;
+    }
+
+    .live-dot {
+      width: 10px;
+      height: 10px;
+      background: #e74c3c;
+      border-radius: 50%;
+      animation: pulse 1.5s infinite;
+    }
+
+    .live-text {
+      color: #e74c3c;
+      font-size: clamp(0.6rem, 0.9vw, 0.8rem);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-family: 'Inter', system-ui, sans-serif;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.8); }
+    }
+
+    /* ====== VIDEO CONTAINER ====== */
+    .video-container {
+      flex: 1;
+      position: relative;
+      background: #000;
+      width: 100%;
+      min-height: 0;
+    }
+
+    .video-container video {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      background: #000;
+    }
+
+    /* Hide Shaka spinner */
+    .shaka-spinner-container,
+    .shaka-spinner,
+    .shaka-spinner-svg {
+      display: none !important;
+      visibility: hidden !important;
+      opacity: 0 !important;
+    }
+
+    /* ====== PLAYER FOOTER ====== */
+    .player-footer {
+      background: rgba(11, 13, 15, 0.95);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      padding: 8px 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid #2a2f3a;
+      flex-shrink: 0;
+    }
+
+    .player-footer .info {
+      font-size: 0.65rem;
+      color: #4a5362;
+      font-family: 'Inter', system-ui, sans-serif;
+    }
+
+    .player-footer .drm-badge {
+      font-size: 0.6rem;
+      color: #5f6b7e;
+      padding: 4px 12px;
+      background: #1a1f26;
+      border-radius: 12px;
+      font-family: 'Inter', system-ui, sans-serif;
+    }
+
+    /* ====== LOADING / ERROR STATES ====== */
+    .player-loading {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #8892a0;
+      background: #000;
+      z-index: 5;
+      font-family: 'Inter', system-ui, sans-serif;
+    }
+
+    .player-loading .spinner {
+      width: 40px;
+      height: 40px;
+      border: 3px solid rgba(255, 255, 255, 0.1);
+      border-top-color: #f5af19;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin-bottom: 16px;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .player-error {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #e74c3c;
+      background: #000;
+      z-index: 5;
+      padding: 20px;
+      font-family: 'Inter', system-ui, sans-serif;
+    }
+
+    .player-error .error-icon {
+      font-size: 3rem;
+      margin-bottom: 16px;
+    }
+
+    .player-error .error-message {
+      font-size: 1rem;
+      margin-bottom: 8px;
+      text-align: center;
+    }
+
+    .player-error .error-details {
+      font-size: 0.8rem;
+      color: #5f6b7e;
+      text-align: center;
+      max-width: 400px;
+    }
+
+    .player-error .retry-btn {
+      margin-top: 20px;
+      padding: 10px 30px;
+      background: #f5af19;
+      border: none;
+      border-radius: 8px;
+      color: #0b0d0f;
+      font-weight: 700;
+      font-size: 0.9rem;
+      cursor: pointer;
+      font-family: 'Inter', system-ui, sans-serif;
+      transition: background 0.3s ease;
+    }
+
+    .player-error .retry-btn:hover {
+      background: #ffc44d;
+    }
+
+    /* ====== RESPONSIVE ====== */
+    @media (max-width: 768px) {
+      .player-header {
+        padding: 8px 12px;
+        min-height: 50px;
+        gap: 8px;
+      }
+
+      .back-btn {
+        padding: 4px 8px;
+        font-size: 1rem;
+      }
+
+      .back-btn .back-text {
+        display: none;
+      }
+
+      .player-match-title {
+        font-size: 0.75rem;
+      }
+
+      .player-match-subtitle {
+        font-size: 0.55rem;
+      }
+
+      .live-dot {
+        width: 8px;
+        height: 8px;
+      }
+
+      .live-text {
+        font-size: 0.55rem;
+      }
+
+      .player-footer {
+        padding: 6px 12px;
+        flex-direction: column;
+        gap: 4px;
+        text-align: center;
+      }
+
+      .player-footer .info {
+        font-size: 0.55rem;
+      }
+
+      .player-footer .drm-badge {
+        font-size: 0.5rem;
+        padding: 2px 10px;
+      }
+    }
+
+    @media (orientation: landscape) and (max-height: 500px) {
+      .player-header {
+        min-height: 40px;
+        padding: 4px 12px;
+      }
+
+      .player-footer {
+        padding: 4px 12px;
+      }
+
+      .back-btn {
+        padding: 2px 6px;
+        font-size: 0.8rem;
+      }
+
+      .player-match-title {
+        font-size: 0.65rem;
+      }
+
+      .player-match-subtitle {
+        font-size: 0.5rem;
+      }
+    }
+
+    /* Reduced motion */
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ====== PLAYER HEADER ====== -->
+  <header class="player-header">
+    <button class="back-btn" id="backToHome" aria-label="Go back">
+      <span class="arrow">←</span>
+      <span class="back-text">Back</span>
+    </button>
+    
+    <div class="player-match-info">
+      <div class="player-match-title" id="playerTitle">Loading...</div>
+      <div class="player-match-subtitle" id="playerSubtitle">Willow Cricket</div>
+    </div>
+
+    <div class="player-status">
+      <span class="live-dot"></span>
+      <span class="live-text">LIVE</span>
+    </div>
+  </header>
+
+  <!-- ====== VIDEO CONTAINER ====== -->
+  <div class="video-container" id="videoContainer">
+    <video id="videoElement" autoplay playsinline preload="metadata"></video>
+    
+    <!-- Loading State -->
+    <div class="player-loading" id="loadingState">
+      <div class="spinner"></div>
+      <span>Loading stream...</span>
+    </div>
+
+    <!-- Error State -->
+    <div class="player-error" id="errorState" style="display:none;">
+      <div class="error-icon">⚠️</div>
+      <div class="error-message" id="errorMessage">Failed to load stream</div>
+      <div class="error-details" id="errorDetails">Please try again or check your connection</div>
+      <button class="retry-btn" id="retryBtn">Retry</button>
+    </div>
+  </div>
+
+  <!-- ====== PLAYER FOOTER ====== -->
+  <footer class="player-footer">
+    <span class="info">🏏 Willow Live · Powered by Shaka Player</span>
+    <span class="drm-badge">🔒 DRM · Clearkey</span>
+  </footer>
+
+  <!-- ====== PLAYER SCRIPT ====== -->
+  <script>
+    // ====== GET STREAM DATA FROM LOCALSTORAGE ======
+    let streamData = null;
+    let playerInstance = null;
+    let uiInstance = null;
+
+    try {
+      const stored = localStorage.getItem('willowStreamData');
+      if (stored) {
+        streamData = JSON.parse(stored);
+      }
+    } catch (e) {
+      console.warn('Failed to parse stream data:', e);
+    }
+
+    // If no data, redirect back
+    if (!streamData || !streamData.streamUrl) {
+      window.location.href = 'index.html';
+    }
+
+    // ====== DOM REFS ======
+    const videoEl = document.getElementById('videoElement');
+    const videoContainer = document.getElementById('videoContainer');
+    const playerTitle = document.getElementById('playerTitle');
+    const playerSubtitle = document.getElementById('playerSubtitle');
+    const loadingState = document.getElementById('loadingState');
+    const errorState = document.getElementById('errorState');
+    const errorMessage = document.getElementById('errorMessage');
+    const errorDetails = document.getElementById('errorDetails');
+    const retryBtn = document.getElementById('retryBtn');
+    const backBtn = document.getElementById('backToHome');
+
+    // ====== SET TITLE ======
+    if (playerTitle) {
+      playerTitle.textContent = streamData.title || 'Willow Live';
+    }
+    if (playerSubtitle) {
+      playerSubtitle.textContent = streamData.groupTitle || 'Cricket';
+    }
+
+    // ====== BACK BUTTON ======
+    backBtn.addEventListener('click', function() {
+      window.location.href = 'index.html';
+    });
+
+    // Also handle escape key
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        window.location.href = 'index.html';
+      }
+    });
+
+    // ====== SHOW ERROR ======
+    function showError(message, details) {
+      loadingState.style.display = 'none';
+      errorState.style.display = 'flex';
+      errorMessage.textContent = message || 'Failed to load stream';
+      errorDetails.textContent = details || 'Please try again or check your connection';
+    }
+
+    // ====== HIDE ERROR ======
+    function hideError() {
+      errorState.style.display = 'none';
+    }
+
+    // ====== LOAD STREAM ======
+    async function loadStream() {
+      try {
+        hideError();
+        loadingState.style.display = 'flex';
+
+        // Destroy existing player
+        if (playerInstance) {
+          try { await playerInstance.destroy(); } catch(e) {}
+          playerInstance = null;
+          uiInstance = null;
+        }
+
+        // Install polyfills
+        shaka.polyfill.installAll();
+
+        if (!shaka.Player.isBrowserSupported()) {
+          showError('Browser not supported', 'Please use a modern browser');
+          return;
+        }
+
+        // Create player
+        playerInstance = new shaka.Player(videoEl);
+        await playerInstance.attach(videoEl);
+
+        // Setup UI
+        uiInstance = new shaka.ui.Overlay(playerInstance, videoContainer, videoEl);
+        uiInstance.configure({
+          controlPanelElements: [
+            'play_pause', 'time_and_duration', 'mute', 'volume',
+            'spacer', 'language', 'captions', 'picture_in_picture',
+            'quality', 'fullscreen'
+          ],
+          volumeBarColors: {
+            base: 'rgba(0, 136, 255, 0.3)',
+            level: 'rgb(0, 136, 255)'
+          },
+          seekBarColors: {
+            base: 'rgba(90, 0, 0, 0.3)',
+            buffered: 'rgba(120, 0, 0, 0.6)',
+            played: 'rgb(170, 0, 0)'
+          }
+        });
+
+        // DRM Config
+        const licenseKey = streamData.licenseKey || streamData.properties?.license_key || '';
+        let drmConfig = {};
+
+        if (licenseKey) {
+          const [keyId, key] = licenseKey.split(':');
+          if (keyId && key) {
+            drmConfig = { clearKeys: { [keyId]: key } };
+          }
+        }
+
+        // Configure player
+        playerInstance.configure({
+          drm: drmConfig,
+          streaming: {
+            lowLatencyMode: true,
+            bufferingGoal: 15,
+            rebufferingGoal: 2,
+            bufferBehind: 15,
+            retryParameters: {
+              timeout: 10000,
+              maxAttempts: 5,
+              baseDelay: 300,
+              backoffFactor: 1.2
+            },
+            segmentRequestTimeout: 8000,
+            segmentPrefetchLimit: 2,
+            useNativeHlsOnSafari: true
+          },
+          manifest: {
+            retryParameters: {
+              timeout: 8000,
+              maxAttempts: 3
+            }
+          }
+        });
+
+        // Error handler
+        playerInstance.addEventListener('error', function(e) {
+          console.warn('Shaka error:', e.detail);
+          const error = e.detail;
+          let msg = 'Stream error';
+          if (error.code === 601
