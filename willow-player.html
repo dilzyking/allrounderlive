@@ -244,6 +244,8 @@
     // ====== FETCH MATCH DATA ======
     async function fetchMatchData() {
       const tvgId = getTvgIdFromUrl();
+      console.log('🔍 Looking for match with tvgId:', tvgId);
+      
       if (!tvgId) {
         showError('Invalid match ID', 'Please go back and select a valid match');
         return;
@@ -253,15 +255,26 @@
         const response = await fetch(API_URL);
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const data = await response.json();
+        console.log('📡 API Response received:', data);
+        
         if (data.error) throw new Error(data.message || 'Unknown error');
         
+        // The API response has a 'streams' array
         allMatches = data.streams || [];
+        console.log('📋 Total matches found:', allMatches.length);
+        console.log('🔍 Available tvgIds:', allMatches.map(m => m.tvgId));
+        
+        // Find the match with matching tvgId
         const stream = allMatches.find(match => match.tvgId === tvgId);
         
         if (!stream) {
+          console.error('❌ Match not found. Looking for:', tvgId);
           showError('Match not found', `No match found with ID: ${tvgId}`);
           return;
         }
+        
+        console.log('✅ Match found:', stream.title);
+        
         if (!stream.streamUrl) {
           showError('Stream not available', 'This match does not have a valid stream URL');
           return;
@@ -275,7 +288,7 @@
         await loadStream(stream);
         
       } catch (error) {
-        console.error('Fetch error:', error);
+        console.error('❌ Fetch error:', error);
         showError('Failed to load match data', error.message);
       }
     }
@@ -339,19 +352,32 @@
         });
 
         // ====== DRM CONFIG ======
-        const licenseKey = stream.properties?.['inputstream.adaptive.license_key'] || '';
-        console.log('License key from stream:', licenseKey); // Debug log
+        // Extract license key from properties
+        let licenseKey = '';
+        if (stream.properties) {
+          licenseKey = stream.properties['inputstream.adaptive.license_key'] || '';
+        }
+        
+        console.log('🔑 License key from stream:', licenseKey);
         
         let drmConfig = {};
         if (licenseKey) {
           const [keyId, key] = licenseKey.split(':');
           if (keyId && key) {
-            drmConfig = { clearKeys: { [keyId]: key } };
+            drmConfig = { 
+              clearKeys: { 
+                [keyId.trim()]: key.trim() 
+              } 
+            };
+            console.log('✅ DRM Config set:', drmConfig);
+          } else {
+            console.warn('⚠️ Invalid license key format:', licenseKey);
           }
+        } else {
+          console.warn('⚠️ No license key found in stream properties');
         }
-        console.log('DRM Config:', drmConfig); // Debug log
 
-        // ====== PLAYER CONFIGURATION (identical to working example) ======
+        // ====== PLAYER CONFIGURATION ======
         playerInstance.configure({
           drm: drmConfig,
           streaming: {
@@ -379,21 +405,39 @@
 
         // ====== ERROR HANDLER ======
         playerInstance.addEventListener('error', (event) => {
-          console.error('Shaka Player Error:', event.detail);
+          console.error('❌ Shaka Player Error:', event.detail);
           const error = event.detail;
           let msg = 'Stream error';
-          if (error.code === 6012) msg = 'DRM license error - Check your key';
-          else if (error.code === 1002) msg = 'Network error - Check your connection';
-          else if (error.code === 7000) msg = 'Manifest error - Invalid stream URL';
-          showError(msg, `Error code: ${error.code} - ${error.message || ''}`);
+          let details = `Error code: ${error.code}`;
+          
+          if (error.code === 6012) {
+            msg = 'DRM license error - Check your key';
+            details += ' - The content is encrypted and the license key may be invalid';
+          } else if (error.code === 1002) {
+            msg = 'Network error - Check your connection';
+            details += ' - Unable to reach the stream server';
+          } else if (error.code === 7000) {
+            msg = 'Manifest error - Invalid stream URL';
+            details += ' - The MPD manifest could not be loaded';
+          } else if (error.code === 1003) {
+            msg = 'Network timeout';
+            details += ' - The server is taking too long to respond';
+          }
+          
+          showError(msg, details);
           loadingState.style.display = 'none';
         });
 
         // ====== LOAD THE STREAM ======
-        console.log('Loading stream URL:', stream.streamUrl);
+        console.log('🎯 Loading stream URL:', stream.streamUrl);
+        console.log('📦 Stream properties:', stream.properties);
+        
         await playerInstance.load(stream.streamUrl);
-        console.log('✅ Stream loaded successfully');
+        console.log('✅ Stream loaded successfully!');
         loadingState.style.display = 'none';
+
+        // Wait for video to start playing
+        await videoEl.play();
 
       } catch (err) {
         console.error('❌ Player load error:', err);
@@ -403,16 +447,22 @@
     }
 
     // ====== RETRY & BACK ======
-    document.getElementById('retryBtn').addEventListener('click', fetchMatchData);
+    document.getElementById('retryBtn').addEventListener('click', function() {
+      document.getElementById('errorState').style.display = 'none';
+      fetchMatchData();
+    });
+    
     document.getElementById('backToHome').addEventListener('click', function(e) {
       e.preventDefault();
       window.location.href = 'index.html';
     });
+    
     document.addEventListener('keydown', function(e) {
       if (e.key === 'Escape') window.location.href = 'index.html';
     });
 
     // ====== INIT ======
+    console.log('🚀 Willow Player Starting...');
     fetchMatchData();
   </script>
 </body>
