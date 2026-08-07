@@ -12,6 +12,13 @@ const liveCountBadge = document.getElementById('liveCountBadge');
 // State
 let willowMatches = [];
 
+// ====== SAFE ID HELPER ======
+// Some streams don't have a tvgId, so fall back to tvgName / title.
+// This MUST match the same logic used on willow-player.html.
+function getSafeStreamId(stream) {
+  return stream.tvgId || stream.tvgName || stream.title || '';
+}
+
 // ====== FETCH MATCHES FROM API ======
 async function fetchWillowMatches() {
   try {
@@ -20,17 +27,17 @@ async function fetchWillowMatches() {
     }
 
     const response = await fetch(WILLOW_API_URL);
-    
+
     if (!response.ok) {
       throw new Error(`HTTP ${response.status}`);
     }
-    
+
     const data = await response.json();
-    
+
     if (data.error) {
       throw new Error(data.message || 'Unknown error');
     }
-    
+
     // Update live count badge
     if (liveCountBadge) {
       const liveCount = data.liveCount || data.streams?.length || 0;
@@ -39,10 +46,10 @@ async function fetchWillowMatches() {
         ${liveCount} LIVE
       `;
     }
-    
+
     // Store matches
     willowMatches = data.streams || [];
-    
+
     renderWillowMatches(willowMatches);
 
   } catch (error) {
@@ -77,13 +84,21 @@ function renderWillowMatches(streams) {
 
     // Use tvgLogo or fallback
     const logo = stream.tvgLogo || 'https://via.placeholder.com/480x270/14181f/ffffff?text=Willow+Cricket';
-    
+
+    // FIX: use a safe id that always has a value, so the query string
+    // is never "?id=undefined" and the player page can always find a match
+    const safeId = getSafeStreamId(stream);
+
+    if (!safeId) {
+      console.warn('Skipping stream with no usable id/title:', stream);
+      return; // skip cards we truly can't link anywhere
+    }
+
     const card = document.createElement('a');
     card.className = 'willow-live-card';
-    // FIX: Use tvgId and URL encode it
-    card.href = `willow-player.html?id=${encodeURIComponent(stream.tvgId)}`;
-    card.dataset.tvgId = stream.tvgId;
-    
+    card.href = `willow-player.html?id=${encodeURIComponent(safeId)}`;
+    card.dataset.tvgId = safeId;
+
     card.innerHTML = `
       <div class="willow-live-thumb">
         <img 
@@ -107,7 +122,7 @@ function renderWillowMatches(streams) {
         ${tournament ? `<div class="willow-live-tournament">${tournament}</div>` : ''}
       </div>
     `;
-    
+
     willowTrack.appendChild(card);
   });
 
@@ -126,7 +141,7 @@ function extractTeams(title) {
     // Clean up team names (remove tournament prefix)
     team1 = team1.split(' - ').pop() || team1;
     team2 = team2.split(' - ')[0] || team2;
-    
+
     return `${team1} vs ${team2}`;
   }
 
