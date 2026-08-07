@@ -163,46 +163,58 @@
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.35);
 }
 
-/* ====== CARD INFO ====== */
+/* ====== CARD INFO - FIXED HEIGHT ====== */
 .willow-live-info {
   padding: clamp(0.5rem, 1.1vw, 0.8rem) clamp(0.5rem, 1vw, 0.8rem);
   display: flex;
   flex-direction: column;
   gap: clamp(2px, 0.3vw, 4px);
+  min-height: clamp(50px, 8vh, 80px);
+  justify-content: center;
 }
 
-/* ====== WILLOW LIVE MATCH TITLE - TEAMS DISPLAY ====== */
+/* ====== WILLOW LIVE MATCH TITLE - SINGLE LINE WITH ELLIPSIS ====== */
 .willow-live-match-title {
   display: flex;
   align-items: center;
   gap: clamp(0.2rem, 0.5vw, 0.6rem);
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   font-size: clamp(0.85rem, 1.5vw, 1.15rem);
   font-weight: 600;
   font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
   letter-spacing: 0.01em;
   line-height: 1.4;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
-/* ====== TEAM NAME - WHITE FONT MATCHING HIGHLIGHTS ====== */
+/* ====== TEAM NAME - WHITE FONT WITH ELLIPSIS ====== */
 .willow-live-team {
   color: #ffffff;
   font-weight: 600;
   font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
   font-size: clamp(0.85rem, 1.5vw, 1.15rem);
   letter-spacing: 0.01em;
+  flex-shrink: 0;
+  max-width: 45%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
-/* ====== VS SEPARATOR - SUBTLE ====== */
+/* ====== VS SEPARATOR - ALWAYS VISIBLE ====== */
 .willow-live-vs {
   color: rgba(255, 255, 255, 0.35);
   font-weight: 400;
   font-size: clamp(0.7rem, 1vw, 0.9rem);
   font-family: 'Inter', system-ui, sans-serif;
   padding: 0 0.1rem;
+  flex-shrink: 0;
 }
 
-/* ====== TOURNAMENT/GROUP TAG ====== */
+/* ====== TOURNAMENT/GROUP TAG - SINGLE LINE WITH ELLIPSIS ====== */
 .willow-live-group {
   font-size: clamp(0.55rem, 0.9vw, 0.7rem);
   color: #f5c518;
@@ -211,6 +223,9 @@
   font-weight: 700;
   font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
   margin-top: 2px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 /* ====== LOADING STATE ====== */
@@ -300,5 +315,39 @@
 
   .willow-live-title {
     font-size: clamp(0.95rem, 4vw, 1.2rem);
+  }
+  
+  .willow-live-team {
+    max-width: 40%;
+    font-size: clamp(0.75rem, 2vw, 0.9rem);
+  }
+  
+  .willow-live-vs {
+    font-size: clamp(0.6rem, 1.5vw, 0.75rem);
+  }
+  
+  .willow-live-match-title {
+    font-size: clamp(0.75rem, 2vw, 0.9rem);
+  }
+}
+
+@media (max-width: 480px) {
+  .willow-live-team {
+    max-width: 35%;
+    font-size: clamp(0.65rem, 1.8vw, 0.8rem);
+  }
+  
+  .willow-live-vs {
+    font-size: clamp(0.5rem, 1.2vw, 0.65rem);
+  }
+  
+  .willow-live-match-title {
+    font-size: clamp(0.65rem, 1.8vw, 0.8rem);
+    gap: clamp(0.1rem, 0.3vw, 0.3rem);
+  }
+  
+  .willow-live-info {
+    min-height: clamp(40px, 6vh, 60px);
+    padding: clamp(0.3rem, 0.8vw, 0.5rem) clamp(0.3rem, 0.8vw, 0.5rem);
   }
 }
