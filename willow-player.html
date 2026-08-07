@@ -238,7 +238,9 @@
     // ====== GET TVG ID FROM URL ======
     function getTvgIdFromUrl() {
       const params = new URLSearchParams(window.location.search);
-      return params.get('id');
+      const id = params.get('id');
+      // Decode the URL encoded ID
+      return id ? decodeURIComponent(id) : null;
     }
 
     // ====== FETCH MATCH DATA ======
@@ -255,16 +257,15 @@
         const response = await fetch(API_URL);
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const data = await response.json();
-        console.log('📡 API Response received:', data);
+        console.log('📡 API Response received');
         
         if (data.error) throw new Error(data.message || 'Unknown error');
         
-        // The API response has a 'streams' array
         allMatches = data.streams || [];
         console.log('📋 Total matches found:', allMatches.length);
         console.log('🔍 Available tvgIds:', allMatches.map(m => m.tvgId));
         
-        // Find the match with matching tvgId
+        // Find the match with matching tvgId (exact match)
         const stream = allMatches.find(match => match.tvgId === tvgId);
         
         if (!stream) {
