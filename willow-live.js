@@ -66,6 +66,81 @@ async function fetchWillowMatches() {
   }
 }
 
+// ====== EXTRACT TEAMS FROM TITLE ======
+function extractTeams(title) {
+  if (!title) return 'Live Match';
+  
+  // Clean up title - remove common prefixes
+  let cleaned = title.replace(/^(Live:|LIVE:|HD:|Willow\s*)/i, '').trim();
+  
+  // Try to extract from format "Tournament - Team1 vs Team2"
+  const vsMatch = cleaned.match(/(.+?)\s*(?:vs|Vs|VS|v\.?)\s*(.+?)(?:\s*[-–]|$)/i);
+  if (vsMatch) {
+    let team1 = vsMatch[1].trim();
+    let team2 = vsMatch[2].trim();
+    
+    // Remove tournament prefix from team1 (e.g., "Afghanistan Tour of Australia - Afghanistan" -> "Afghanistan")
+    const tournMatch = team1.match(/(?:Tour|Series|League|Cup|Trophy|Championship|Premier|World)\s+(?:of\s+)?(.+)$/i);
+    if (tournMatch) {
+      team1 = tournMatch[1].trim();
+    }
+    
+    // Clean up team names
+    team1 = team1.split(' - ').pop() || team1;
+    team2 = team2.split(' - ')[0] || team2;
+    
+    // Remove extra words like "vs" from team names
+    team1 = team1.replace(/\s*vs\s*.*$/i, '').trim();
+    team2 = team2.replace(/^\s*vs\s*/, '').trim();
+    
+    return `${team1} vs ${team2}`;
+  }
+  
+  // Try to extract from format "Team1 vs Team2 - Tournament"
+  const vsMatch2 = cleaned.match(/(.+?)\s+vs\s+(.+?)(?:\s+[–-]|\s*$)/i);
+  if (vsMatch2) {
+    let team1 = vsMatch2[1].trim();
+    let team2 = vsMatch2[2].trim();
+    
+    // Remove tournament prefix
+    const tournMatch = team1.match(/(?:Tour|Series|League|Cup|Trophy|Championship|Premier|World)\s+(?:of\s+)?(.+)$/i);
+    if (tournMatch) {
+      team1 = tournMatch[1].trim();
+    }
+    
+    return `${team1} vs ${team2}`;
+  }
+  
+  // If no "vs" pattern found, try to extract team names from "Tournament - Team"
+  const teamMatch = cleaned.match(/^(.+?)\s*[-–]\s*(.+?)$/);
+  if (teamMatch) {
+    return teamMatch[2].trim();
+  }
+  
+  // Fallback: return cleaned title
+  return cleaned;
+}
+
+// ====== EXTRACT TOURNAMENT FROM TITLE ======
+function extractTournament(title) {
+  if (!title) return null;
+  
+  // Look for tournament name
+  const patterns = [
+    /^([^,–-]+?(?:League|Series|Tournament|Cup|Trophy|Championship|Premier League|World Cup|Hundred|Tour))/i,
+    /^([^,–-]+?(?:Tour|Series|League|Cup|Trophy|Championship|Premier|World))\s+(?:of\s+)?/i
+  ];
+  
+  for (const pattern of patterns) {
+    const match = title.match(pattern);
+    if (match) {
+      return match[1].trim();
+    }
+  }
+  
+  return null;
+}
+
 // ====== RENDER MATCHES ======
 function renderWillowMatches(streams) {
   if (!willowTrack) return;
@@ -78,20 +153,22 @@ function renderWillowMatches(streams) {
   willowTrack.innerHTML = '';
 
   streams.forEach((stream) => {
-    // Extract team names from title
-    const teams = extractTeams(stream.title || stream.tvgName || 'Unknown Match');
-    const tournament = extractTournament(stream.title || stream.tvgName || '');
+    const title = stream.title || stream.tvgName || 'Unknown Match';
+    
+    // Extract team names
+    const teamsDisplay = extractTeams(title);
+    
+    // Extract tournament
+    const tournament = extractTournament(title);
 
     // Use tvgLogo or fallback
     const logo = stream.tvgLogo || 'https://via.placeholder.com/480x270/14181f/ffffff?text=Willow+Cricket';
 
-    // FIX: use a safe id that always has a value, so the query string
-    // is never "?id=undefined" and the player page can always find a match
     const safeId = getSafeStreamId(stream);
 
     if (!safeId) {
       console.warn('Skipping stream with no usable id/title:', stream);
-      return; // skip cards we truly can't link anywhere
+      return;
     }
 
     const card = document.createElement('a');
@@ -99,27 +176,42 @@ function renderWillowMatches(streams) {
     card.href = `willow-player.html?id=${encodeURIComponent(safeId)}`;
     card.dataset.tvgId = safeId;
 
+    // Split teams for display with proper styling
+    const teamParts = teamsDisplay.split(' vs ');
+    let teamsHTML = '';
+    if (teamParts.length === 2) {
+      teamsHTML = `
+        <span class="willow-live-team">${teamParts[0].trim()}</span>
+        <span class="willow-live-vs">vs</span>
+        <span class="willow-live-team">${teamParts[1].trim()}</span>
+      `;
+    } else {
+      teamsHTML = `<span class="willow-live-team">${teamsDisplay}</span>`;
+    }
+
     card.innerHTML = `
       <div class="willow-live-thumb">
         <img 
           src="${logo}" 
-          alt="${stream.title || stream.tvgName || 'Willow Live'}"
+          alt="${title}"
           loading="lazy"
           onerror="this.src='https://via.placeholder.com/480x270/14181f/ffffff?text=Willow+Cricket'"
         />
-        <div class="willow-live-badge">
-          <span class="material-icons">fiber_manual_record</span>
+        <div class="willow-live-badge-live">
+          <span class="material-icons" style="font-size: 10px;">fiber_manual_record</span>
           LIVE
         </div>
         <div class="willow-live-overlay">
           <span class="willow-live-play-icon">
-            <span class="material-icons">play_arrow</span>
+            <span class="material-icons" style="font-size: 24px;">play_arrow</span>
           </span>
         </div>
       </div>
       <div class="willow-live-info">
-        <div class="willow-live-teams">${teams}</div>
-        ${tournament ? `<div class="willow-live-tournament">${tournament}</div>` : ''}
+        <div class="willow-live-match-title">
+          ${teamsHTML}
+        </div>
+        ${tournament ? `<div class="willow-live-group">${tournament}</div>` : ''}
       </div>
     `;
 
@@ -128,49 +220,6 @@ function renderWillowMatches(streams) {
 
   // Reset scroll position
   willowTrack.scrollLeft = 0;
-}
-
-// ====== EXTRACT TEAMS FROM TITLE ======
-function extractTeams(title) {
-  // Try to extract from format "Tournament - Team1 vs Team2"
-  const vsMatch = title.match(/(.+?)\s*(?:vs|Vs|VS|v.?)\s*(.+?)(?:\s*[-–]|$)/i);
-  if (vsMatch) {
-    let team1 = vsMatch[1].trim();
-    let team2 = vsMatch[2].trim();
-
-    // Clean up team names (remove tournament prefix)
-    team1 = team1.split(' - ').pop() || team1;
-    team2 = team2.split(' - ')[0] || team2;
-
-    return `${team1} vs ${team2}`;
-  }
-
-  // Try to extract from format "Team1 vs Team2 - Tournament"
-  const vsMatch2 = title.match(/(.+?)\s+vs\s+(.+?)(?:\s+[–-]|\s*$)/i);
-  if (vsMatch2) {
-    return `${vsMatch2[1].trim()} vs ${vsMatch2[2].trim()}`;
-  }
-
-  return title;
-}
-
-// ====== EXTRACT TOURNAMENT FROM TITLE ======
-function extractTournament(title) {
-  const tournamentMatch = title.match(/^([^,–-]+?(?:League|Series|Tournament|Cup|Tour|Championship|Trophy|Premier League|World Cup|Hundred))/i);
-  if (tournamentMatch) {
-    return tournamentMatch[1].trim();
-  }
-
-  const vsMatch = title.match(/^(.+?)\s*(?:vs|Vs|VS|v.?)/i);
-  if (vsMatch) {
-    const part = vsMatch[1].trim();
-    const tournMatch = part.match(/(.+?)(?:\s*[-–]\s*)/);
-    if (tournMatch) {
-      return tournMatch[1].trim();
-    }
-  }
-
-  return null;
 }
 
 // ====== CAROUSEL SCROLL CONTROLS ======
