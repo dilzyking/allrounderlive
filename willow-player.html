@@ -47,6 +47,7 @@
       font-weight: 600;
       font-family: 'Inter', system-ui, sans-serif;
       text-decoration: none;
+      font-size: 0.9rem;
     }
     .back-btn:hover { color: #ffc44d; }
     .back-btn .material-icons { font-size: 1.5rem; }
@@ -151,11 +152,15 @@
       animation: spin 1s linear infinite;
       margin-bottom: 16px;
     }
+    .player-loading .retry-info {
+      font-size: 0.8rem;
+      color: #5f6b7e;
+      margin-top: 4px;
+    }
     @keyframes spin { to { transform: rotate(360deg); } }
-    /* error state removed entirely */
     @media (max-width: 768px) {
       .player-header { padding: 8px 12px; min-height: 50px; gap: 8px; }
-      .back-btn { padding: 4px 8px; }
+      .back-btn { padding: 4px 8px; font-size: 0.8rem; }
       .back-btn .back-text { display: none; }
       .player-match-title { font-size: 0.75rem; }
       .player-match-subtitle { font-size: 0.55rem; }
@@ -185,8 +190,8 @@
     <div class="player-loading" id="loadingState">
       <div class="spinner"></div>
       <span>Loading stream...</span>
+      <div class="retry-info" id="retryInfo"></div>
     </div>
-    <!-- errorState div completely removed -->
   </div>
 
   <footer class="player-footer">
@@ -198,42 +203,117 @@
   </footer>
 
   <script>
-    // ====== API URL ======
+    // ============================================================
+    // ====== WILLOW PLAYER - FULL SELF-CONTAINED ======
+    // ============================================================
+
+    // ====== CONFIGURATION ======
     const API_URL = 'https://willow-api.sayanwork-studioo.workers.dev/';
+    const MAX_RETRIES_PER_STREAM = 2;
+    
+    // ====== STATE ======
     let allMatches = [];
     let playerInstance = null;
     let uiInstance = null;
+    let currentStreamIndex = 0;
+    let availableStreams = [];
+    let streamRetryCount = 0;
+    let currentDrmKey = null;
+    let isLoading = false;
+
+    // ====== DOM ELEMENTS ======
+    const videoEl = document.getElementById('videoElement');
+    const videoContainer = document.getElementById('videoContainer');
+    const loadingState = document.getElementById('loadingState');
+    const retryInfo = document.getElementById('retryInfo');
+    const playerTitle = document.getElementById('playerTitle');
+    const playerSubtitle = document.getElementById('playerSubtitle');
 
     // ====== SAFE ID HELPER ======
-    // MUST match the same fallback logic used when building links on the
-    // listing page (willow-live.js -> getSafeStreamId), otherwise the id
-    // in the URL will never match anything here.
-    function getSafeStreamId(stream) {
-      return stream.tvgId || stream.tvgName || stream.title || '';
+    function getSafeStreamId(match) {
+      return match.tvgId || match.tvgName || match.title || match.match_id || '';
     }
 
-    // ====== GET TVG ID FROM URL ======
-    function getTvgIdFromUrl() {
-      console.log('📍 Full URL:', window.location.href);
+    // ====== GET MATCH ID FROM URL ======
+    function getMatchIdFromUrl() {
       const params = new URLSearchParams(window.location.search);
-      const id = params.get('id');
-      console.log('📍 Raw id param from URL:', id);
-      // id is already decoded by URLSearchParams, no need to decodeURIComponent again
-      return id || null;
+      return params.get('id') || null;
+    }
+
+    // ====== GET ALL STREAM URLS FROM MATCH ======
+    function getAllStreamUrls(match) {
+      const urls = [];
+      
+      // Check stream_url_alpha
+      if (match.stream_url_alpha) {
+        if (typeof match.stream_url_alpha === 'string' && match.stream_url_alpha) {
+          urls.push(match.stream_url_alpha);
+        } else if (typeof match.stream_url_alpha === 'object') {
+          const servers = Object.values(match.stream_url_alpha);
+          for (const url of servers) {
+            if (url && typeof url === 'string' && url.startsWith('http')) {
+              urls.push(url);
+            }
+          }
+        }
+      }
+      
+      // Check stream_url_bravo
+      if (match.stream_url_bravo) {
+        if (typeof match.stream_url_bravo === 'string' && match.stream_url_bravo) {
+          urls.push(match.stream_url_bravo);
+        } else if (typeof match.stream_url_bravo === 'object') {
+          const servers = Object.values(match.stream_url_bravo);
+          for (const url of servers) {
+            if (url && typeof url === 'string' && url.startsWith('http')) {
+              urls.push(url);
+            }
+          }
+        }
+      }
+      
+      return urls;
+    }
+
+    // ====== SHOW ERROR ======
+    function showError(message, showBackButton = true) {
+      loadingState.style.display = 'flex';
+      loadingState.innerHTML = `
+        <div style="color: #e74c3c; text-align: center; padding: 20px; max-width: 400px;">
+          <span class="material-icons" style="font-size: 48px; display: block; margin-bottom: 12px;">error_outline</span>
+          <p style="font-size: 16px; font-weight: 500; color: #ffffff;">${message}</p>
+          ${showBackButton ? `
+            <button onclick="window.location.href='index.html'" style="margin-top: 20px; padding: 12px 32px; background: #f5af19; border: none; border-radius: 8px; font-weight: 700; font-size: 14px; cursor: pointer; font-family: 'Inter', system-ui, sans-serif; color: #0b0d0f;">
+              ← Back to Home
+            </button>
+          ` : ''}
+        </div>
+      `;
+    }
+
+    // ====== SHOW LOADING ======
+    function showLoading(message, retryCount = null) {
+      loadingState.style.display = 'flex';
+      loadingState.innerHTML = `
+        <div class="spinner"></div>
+        <span>${message}</span>
+        ${retryCount !== null ? `<div class="retry-info">Attempt ${retryCount + 1}</div>` : ''}
+      `;
     }
 
     // ====== FETCH MATCH DATA ======
     async function fetchMatchData() {
-      const tvgId = getTvgIdFromUrl();
-      console.log('🔍 Looking for match with id:', tvgId);
+      const matchId = getMatchIdFromUrl();
+      console.log('🔍 Looking for match with id:', matchId);
 
-      if (!tvgId) {
-        // silently fail without error popup: just keep loading spinner
-        console.warn('No match ID provided');
+      if (!matchId) {
+        showError('No match selected');
         return;
       }
 
       try {
+        showLoading('Fetching match data...');
+
         const response = await fetch(API_URL);
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const data = await response.json();
@@ -241,52 +321,81 @@
 
         if (data.error) throw new Error(data.message || 'Unknown error');
 
-        allMatches = data.streams || [];
+        // Get matches from the new JSON structure
+        allMatches = data.Matches || data.streams || [];
         console.log('📋 Total matches found:', allMatches.length);
-        console.log('🔍 Available ids:', allMatches.map(m => getSafeStreamId(m)));
 
-        // Find the match using the same safe-id logic used to build the link
-        const stream = allMatches.find(match => getSafeStreamId(match) === tvgId);
+        // Find the match
+        const match = allMatches.find(m => getSafeStreamId(m) === matchId);
 
-        if (!stream) {
-          console.error('❌ Match not found. Looking for:', tvgId);
-          // silently fail: keep loading spinner
+        if (!match) {
+          console.error('❌ Match not found. Looking for:', matchId);
+          showError('Match not found');
           return;
         }
 
-        console.log('✅ Match found:', stream.title);
+        console.log('✅ Match found:', match.title);
 
-        if (!stream.streamUrl) {
-          console.warn('Stream not available for this match');
+        // Check if match is LIVE
+        if (match.status && match.status.toUpperCase() !== 'LIVE') {
+          showError(`⏰ This match is ${match.status}. Check back when it starts.`);
           return;
         }
 
         // Update UI
-        document.getElementById('playerTitle').textContent = stream.title || stream.tvgName || 'Willow Live';
-        document.getElementById('playerSubtitle').textContent = stream.groupTitle || 'Cricket';
+        playerTitle.textContent = match.title || match.tvgName || 'Willow Live';
+        playerSubtitle.textContent = match.synopsis || match.groupTitle || 'Cricket';
 
-        // Load the stream
-        await loadStream(stream);
+        // Get all available stream URLs
+        availableStreams = getAllStreamUrls(match);
+        
+        if (availableStreams.length === 0) {
+          showError('No streams available for this match');
+          return;
+        }
+
+        console.log('📡 Available streams:', availableStreams.length);
+
+        // Get DRM key
+        currentDrmKey = match.drm_key || null;
+        
+        // Start loading with first stream
+        currentStreamIndex = 0;
+        streamRetryCount = 0;
+        await loadStream();
 
       } catch (error) {
         console.error('❌ Fetch error:', error);
-        // no popup, just log
+        showError('Failed to load match data');
       }
     }
 
     // ====== LOAD STREAM ======
-    async function loadStream(stream) {
-      const videoEl = document.getElementById('videoElement');
-      const videoContainer = document.getElementById('videoContainer');
-      const loadingState = document.getElementById('loadingState');
+    async function loadStream() {
+      if (isLoading) return;
+      isLoading = true;
+
+      const streamUrl = availableStreams[currentStreamIndex];
+      
+      if (!streamUrl) {
+        showError('No valid stream URL available');
+        isLoading = false;
+        return;
+      }
 
       try {
-        // keep loading visible
-        loadingState.style.display = 'flex';
+        showLoading(
+          `Loading stream ${currentStreamIndex + 1}/${availableStreams.length}...`,
+          streamRetryCount
+        );
 
         // Destroy existing player
         if (playerInstance) {
-          try { await playerInstance.destroy(); } catch(e) {}
+          try { 
+            await playerInstance.destroy(); 
+          } catch(e) {
+            console.warn('Destroy error:', e);
+          }
           playerInstance = null;
           uiInstance = null;
         }
@@ -294,7 +403,8 @@
         // Install polyfills
         shaka.polyfill.installAll();
         if (!shaka.Player.isBrowserSupported()) {
-          console.warn('Browser not supported');
+          showError('Browser not supported');
+          isLoading = false;
           return;
         }
 
@@ -322,37 +432,21 @@
         });
 
         // ====== DRM CONFIG ======
-        // Extract license key from properties
-        let licenseKey = '';
-        if (stream.properties) {
-          licenseKey = stream.properties['inputstream.adaptive.license_key'] || '';
-        }
-
-        console.log('🔑 License key from stream:', licenseKey);
-
         let drmConfig = {};
-        if (licenseKey) {
-          // FIX: split only on the FIRST colon, since the base64/hex key
-          // itself can legitimately contain additional colons.
-          const sepIndex = licenseKey.indexOf(':');
+        if (currentDrmKey) {
+          const sepIndex = currentDrmKey.indexOf(':');
           if (sepIndex > -1) {
-            const keyId = licenseKey.slice(0, sepIndex).trim();
-            const key = licenseKey.slice(sepIndex + 1).trim();
+            const keyId = currentDrmKey.slice(0, sepIndex).trim();
+            const key = currentDrmKey.slice(sepIndex + 1).trim();
             if (keyId && key) {
               drmConfig = {
                 clearKeys: {
                   [keyId]: key
                 }
               };
-              console.log('✅ DRM Config set:', drmConfig);
-            } else {
-              console.warn('⚠️ Invalid license key format:', licenseKey);
+              console.log('✅ DRM Config set');
             }
-          } else {
-            console.warn('⚠️ License key missing ":" separator:', licenseKey);
           }
-        } else {
-          console.warn('⚠️ No license key found in stream properties');
         }
 
         // ====== PLAYER CONFIGURATION ======
@@ -365,7 +459,7 @@
             bufferBehind: 15,
             retryParameters: {
               timeout: 10000,
-              maxAttempts: 5,
+              maxAttempts: 3,
               baseDelay: 300,
               backoffFactor: 1.2
             },
@@ -381,50 +475,151 @@
           }
         });
 
-        // ====== ERROR HANDLER (no popup, just log) ======
-        playerInstance.addEventListener('error', (event) => {
-          console.error('❌ Shaka Player Error:', event.detail);
-          // keep loading hidden? actually we hide loading on success only, but we keep it visible on error
-          // we do not show any popup
+        // ====== ERROR HANDLER ======
+        playerInstance.addEventListener('error', async (event) => {
+          const error = event.detail;
+          console.error('❌ Shaka Player Error:', error);
+          
+          // Check if this is a retryable error
+          const isRetryable = error.code === 1002 || // NETWORK
+                              error.code === 1003 || // TIMEOUT
+                              error.code === 1006 || // HTTP_ERROR
+                              error.code === 1007 || // PARSE
+                              error.code === 3001 || // SEGMENT_UNAVAILABLE
+                              error.code === 3002;   // SEGMENT_SKIPPED
+
+          if (isRetryable && streamRetryCount < MAX_RETRIES_PER_STREAM) {
+            streamRetryCount++;
+            console.log(`🔄 Retrying stream ${currentStreamIndex + 1} (${streamRetryCount}/${MAX_RETRIES_PER_STREAM})...`);
+            await loadStream();
+            return;
+          }
+
+          // Try next stream if available
+          if (currentStreamIndex < availableStreams.length - 1) {
+            currentStreamIndex++;
+            streamRetryCount = 0;
+            console.log(`🔄 Switching to stream ${currentStreamIndex + 1}/${availableStreams.length}...`);
+            await loadStream();
+          } else {
+            // All streams failed
+            showError('All streams failed. Please try again later.');
+            isLoading = false;
+          }
         });
 
         // ====== LOAD THE STREAM ======
-        console.log('🎯 Loading stream URL:', stream.streamUrl);
-        console.log('📦 Stream properties:', stream.properties);
-
-        await playerInstance.load(stream.streamUrl);
+        console.log('🎯 Loading stream URL:', streamUrl);
+        await playerInstance.load(streamUrl);
         console.log('✅ Stream loaded successfully!');
+        
+        // Hide loading
         loadingState.style.display = 'none';
+        isLoading = false;
+        streamRetryCount = 0;
 
-        // FIX: play() can throw AbortError if it races with another
-        // pending play/load call (e.g. from the `autoplay` attribute).
-        // The `autoplay` attribute was removed from the <video> tag above,
-        // so this is now the single source of truth for starting playback.
+        // Start playback
         try {
           await videoEl.play();
         } catch (playErr) {
-          console.warn('⚠️ Autoplay blocked or interrupted, user may need to press play:', playErr);
+          console.warn('⚠️ Autoplay blocked:', playErr);
         }
 
       } catch (err) {
         console.error('❌ Player load error:', err);
-        // keep loading spinner visible, no popup
+        
+        // Check if we should retry this stream
+        if (streamRetryCount < MAX_RETRIES_PER_STREAM) {
+          streamRetryCount++;
+          console.log(`🔄 Retrying stream ${currentStreamIndex + 1} (${streamRetryCount}/${MAX_RETRIES_PER_STREAM})...`);
+          isLoading = false;
+          await loadStream();
+          return;
+        }
+
+        // Try next stream if available
+        if (currentStreamIndex < availableStreams.length - 1) {
+          currentStreamIndex++;
+          streamRetryCount = 0;
+          console.log(`🔄 Switching to stream ${currentStreamIndex + 1}/${availableStreams.length}...`);
+          isLoading = false;
+          await loadStream();
+        } else {
+          showError('Failed to load stream. Please try again later.');
+          isLoading = false;
+        }
       }
     }
 
-    // ====== BACK ======
+    // ====== BACK BUTTON ======
     document.getElementById('backToHome').addEventListener('click', function(e) {
       e.preventDefault();
+      if (playerInstance) {
+        try { playerInstance.destroy(); } catch(e) {}
+      }
       window.location.href = 'index.html';
     });
 
+    // ====== KEYBOARD SHORTCUTS ======
     document.addEventListener('keydown', function(e) {
-      if (e.key === 'Escape') window.location.href = 'index.html';
+      if (e.key === 'Escape') {
+        if (playerInstance) {
+          try { playerInstance.destroy(); } catch(e) {}
+        }
+        window.location.href = 'index.html';
+      }
+      if (e.key === 'f' || e.key === 'F') {
+        if (document.fullscreenElement) {
+          document.exitFullscreen();
+        } else {
+          document.body.requestFullscreen();
+        }
+      }
+    });
+
+    // ====== FULLSCREEN BUTTON ======
+    // Add a custom fullscreen button to the UI
+    // Shaka already has fullscreen button, but we'll add keyboard support
+
+    // ====== HANDLE PAGE VISIBILITY ======
+    document.addEventListener('visibilitychange', function() {
+      if (document.hidden && playerInstance) {
+        // Pause when tab is hidden to save bandwidth
+        try { videoEl.pause(); } catch(e) {}
+      }
+    });
+
+    // ====== HANDLE CONNECTION STATUS ======
+    window.addEventListener('online', function() {
+      console.log('🔄 Network reconnected');
+      if (playerInstance) {
+        // Try to reload the stream if it failed due to network
+        // The error handler will handle this
+      }
     });
 
     // ====== INIT ======
     console.log('🚀 Willow Player Starting...');
+    console.log('📋 URL:', window.location.href);
+    console.log('🔑 Match ID:', getMatchIdFromUrl());
+    
+    // Start the player
     fetchMatchData();
+
+    // ====== EXPOSE FUNCTIONS FOR DEBUGGING ======
+    window.__willowPlayer = {
+      reload: fetchMatchData,
+      retryStream: loadStream,
+      getState: () => ({
+        currentStreamIndex,
+        availableStreams,
+        streamRetryCount,
+        isLoading,
+        hasPlayer: !!playerInstance
+      })
+    };
+
+    console.log('💡 Debug: window.__willowPlayer available');
   </script>
 </body>
 </html>
