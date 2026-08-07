@@ -152,33 +152,7 @@
       margin-bottom: 16px;
     }
     @keyframes spin { to { transform: rotate(360deg); } }
-    .player-error {
-      position: absolute;
-      inset: 0;
-      display: none;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      color: #e74c3c;
-      background: #000;
-      z-index: 5;
-      padding: 20px;
-    }
-    .player-error .error-icon { font-size: 3rem; margin-bottom: 16px; }
-    .player-error .error-message { font-size: 1rem; margin-bottom: 8px; text-align: center; }
-    .player-error .error-details { font-size: 0.8rem; color: #5f6b7e; text-align: center; max-width: 400px; }
-    .player-error .retry-btn {
-      margin-top: 20px;
-      padding: 10px 30px;
-      background: #f5af19;
-      border: none;
-      border-radius: 8px;
-      color: #0b0d0f;
-      font-weight: 700;
-      font-size: 0.9rem;
-      cursor: pointer;
-    }
-    .player-error .retry-btn:hover { background: #ffc44d; }
+    /* error state removed entirely */
     @media (max-width: 768px) {
       .player-header { padding: 8px 12px; min-height: 50px; gap: 8px; }
       .back-btn { padding: 4px 8px; }
@@ -212,12 +186,7 @@
       <div class="spinner"></div>
       <span>Loading stream...</span>
     </div>
-    <div class="player-error" id="errorState">
-      <div class="error-icon">⚠️</div>
-      <div class="error-message" id="errorMessage">Failed to load stream</div>
-      <div class="error-details" id="errorDetails">Please try again or check your connection</div>
-      <button class="retry-btn" id="retryBtn">Retry</button>
-    </div>
+    <!-- errorState div completely removed -->
   </div>
 
   <footer class="player-footer">
@@ -259,7 +228,8 @@
       console.log('🔍 Looking for match with id:', tvgId);
 
       if (!tvgId) {
-        showError('Invalid match ID', 'Please go back and select a valid match');
+        // silently fail without error popup: just keep loading spinner
+        console.warn('No match ID provided');
         return;
       }
 
@@ -280,14 +250,14 @@
 
         if (!stream) {
           console.error('❌ Match not found. Looking for:', tvgId);
-          showError('Match not found', `No match found with ID: ${tvgId}`);
+          // silently fail: keep loading spinner
           return;
         }
 
         console.log('✅ Match found:', stream.title);
 
         if (!stream.streamUrl) {
-          showError('Stream not available', 'This match does not have a valid stream URL');
+          console.warn('Stream not available for this match');
           return;
         }
 
@@ -300,19 +270,8 @@
 
       } catch (error) {
         console.error('❌ Fetch error:', error);
-        showError('Failed to load match data', error.message);
+        // no popup, just log
       }
-    }
-
-    function showError(message, details) {
-      document.getElementById('loadingState').style.display = 'none';
-      document.getElementById('errorState').style.display = 'flex';
-      document.getElementById('errorMessage').textContent = message;
-      document.getElementById('errorDetails').textContent = details || 'Please try again or check your connection';
-    }
-
-    function hideError() {
-      document.getElementById('errorState').style.display = 'none';
     }
 
     // ====== LOAD STREAM ======
@@ -322,7 +281,7 @@
       const loadingState = document.getElementById('loadingState');
 
       try {
-        hideError();
+        // keep loading visible
         loadingState.style.display = 'flex';
 
         // Destroy existing player
@@ -335,7 +294,7 @@
         // Install polyfills
         shaka.polyfill.installAll();
         if (!shaka.Player.isBrowserSupported()) {
-          showError('Browser not supported', 'Please use a modern browser');
+          console.warn('Browser not supported');
           return;
         }
 
@@ -422,29 +381,11 @@
           }
         });
 
-        // ====== ERROR HANDLER ======
+        // ====== ERROR HANDLER (no popup, just log) ======
         playerInstance.addEventListener('error', (event) => {
           console.error('❌ Shaka Player Error:', event.detail);
-          const error = event.detail;
-          let msg = 'Stream error';
-          let details = `Error code: ${error.code}`;
-
-          if (error.code === 6012) {
-            msg = 'DRM license error - Check your key';
-            details += ' - The content is encrypted and the license key may be invalid';
-          } else if (error.code === 1002) {
-            msg = 'Network error - Check your connection';
-            details += ' - Unable to reach the stream server';
-          } else if (error.code === 7000) {
-            msg = 'Manifest error - Invalid stream URL';
-            details += ' - The MPD manifest could not be loaded';
-          } else if (error.code === 1003) {
-            msg = 'Network timeout';
-            details += ' - The server is taking too long to respond';
-          }
-
-          showError(msg, details);
-          loadingState.style.display = 'none';
+          // keep loading hidden? actually we hide loading on success only, but we keep it visible on error
+          // we do not show any popup
         });
 
         // ====== LOAD THE STREAM ======
@@ -467,17 +408,11 @@
 
       } catch (err) {
         console.error('❌ Player load error:', err);
-        showError('Failed to load stream', err.message || 'Unknown error');
-        loadingState.style.display = 'none';
+        // keep loading spinner visible, no popup
       }
     }
 
-    // ====== RETRY & BACK ======
-    document.getElementById('retryBtn').addEventListener('click', function() {
-      document.getElementById('errorState').style.display = 'none';
-      fetchMatchData();
-    });
-
+    // ====== BACK ======
     document.getElementById('backToHome').addEventListener('click', function(e) {
       e.preventDefault();
       window.location.href = 'index.html';
