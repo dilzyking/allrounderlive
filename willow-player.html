@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Willow Live Player</title>
-  
+
   <!-- Google Material Icons -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  
+
   <!-- Shaka Player -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.11/shaka-player.ui.min.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.11/controls.min.css" crossorigin="anonymous">
-  
+
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
@@ -207,7 +207,7 @@
   </header>
 
   <div class="video-container" id="videoContainer">
-    <video id="videoElement" autoplay playsinline preload="metadata"></video>
+    <video id="videoElement" playsinline preload="metadata"></video>
     <div class="player-loading" id="loadingState">
       <div class="spinner"></div>
       <span>Loading stream...</span>
@@ -235,19 +235,29 @@
     let playerInstance = null;
     let uiInstance = null;
 
+    // ====== SAFE ID HELPER ======
+    // MUST match the same fallback logic used when building links on the
+    // listing page (willow-live.js -> getSafeStreamId), otherwise the id
+    // in the URL will never match anything here.
+    function getSafeStreamId(stream) {
+      return stream.tvgId || stream.tvgName || stream.title || '';
+    }
+
     // ====== GET TVG ID FROM URL ======
     function getTvgIdFromUrl() {
+      console.log('📍 Full URL:', window.location.href);
       const params = new URLSearchParams(window.location.search);
       const id = params.get('id');
-      // Decode the URL encoded ID
-      return id ? decodeURIComponent(id) : null;
+      console.log('📍 Raw id param from URL:', id);
+      // id is already decoded by URLSearchParams, no need to decodeURIComponent again
+      return id || null;
     }
 
     // ====== FETCH MATCH DATA ======
     async function fetchMatchData() {
       const tvgId = getTvgIdFromUrl();
-      console.log('🔍 Looking for match with tvgId:', tvgId);
-      
+      console.log('🔍 Looking for match with id:', tvgId);
+
       if (!tvgId) {
         showError('Invalid match ID', 'Please go back and select a valid match');
         return;
@@ -258,36 +268,36 @@
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const data = await response.json();
         console.log('📡 API Response received');
-        
+
         if (data.error) throw new Error(data.message || 'Unknown error');
-        
+
         allMatches = data.streams || [];
         console.log('📋 Total matches found:', allMatches.length);
-        console.log('🔍 Available tvgIds:', allMatches.map(m => m.tvgId));
-        
-        // Find the match with matching tvgId (exact match)
-        const stream = allMatches.find(match => match.tvgId === tvgId);
-        
+        console.log('🔍 Available ids:', allMatches.map(m => getSafeStreamId(m)));
+
+        // Find the match using the same safe-id logic used to build the link
+        const stream = allMatches.find(match => getSafeStreamId(match) === tvgId);
+
         if (!stream) {
           console.error('❌ Match not found. Looking for:', tvgId);
           showError('Match not found', `No match found with ID: ${tvgId}`);
           return;
         }
-        
+
         console.log('✅ Match found:', stream.title);
-        
+
         if (!stream.streamUrl) {
           showError('Stream not available', 'This match does not have a valid stream URL');
           return;
         }
-        
+
         // Update UI
         document.getElementById('playerTitle').textContent = stream.title || stream.tvgName || 'Willow Live';
         document.getElementById('playerSubtitle').textContent = stream.groupTitle || 'Cricket';
-        
+
         // Load the stream
         await loadStream(stream);
-        
+
       } catch (error) {
         console.error('❌ Fetch error:', error);
         showError('Failed to load match data', error.message);
@@ -310,7 +320,7 @@
       const videoEl = document.getElementById('videoElement');
       const videoContainer = document.getElementById('videoContainer');
       const loadingState = document.getElementById('loadingState');
-      
+
       try {
         hideError();
         loadingState.style.display = 'flex';
@@ -358,21 +368,29 @@
         if (stream.properties) {
           licenseKey = stream.properties['inputstream.adaptive.license_key'] || '';
         }
-        
+
         console.log('🔑 License key from stream:', licenseKey);
-        
+
         let drmConfig = {};
         if (licenseKey) {
-          const [keyId, key] = licenseKey.split(':');
-          if (keyId && key) {
-            drmConfig = { 
-              clearKeys: { 
-                [keyId.trim()]: key.trim() 
-              } 
-            };
-            console.log('✅ DRM Config set:', drmConfig);
+          // FIX: split only on the FIRST colon, since the base64/hex key
+          // itself can legitimately contain additional colons.
+          const sepIndex = licenseKey.indexOf(':');
+          if (sepIndex > -1) {
+            const keyId = licenseKey.slice(0, sepIndex).trim();
+            const key = licenseKey.slice(sepIndex + 1).trim();
+            if (keyId && key) {
+              drmConfig = {
+                clearKeys: {
+                  [keyId]: key
+                }
+              };
+              console.log('✅ DRM Config set:', drmConfig);
+            } else {
+              console.warn('⚠️ Invalid license key format:', licenseKey);
+            }
           } else {
-            console.warn('⚠️ Invalid license key format:', licenseKey);
+            console.warn('⚠️ License key missing ":" separator:', licenseKey);
           }
         } else {
           console.warn('⚠️ No license key found in stream properties');
@@ -410,7 +428,7 @@
           const error = event.detail;
           let msg = 'Stream error';
           let details = `Error code: ${error.code}`;
-          
+
           if (error.code === 6012) {
             msg = 'DRM license error - Check your key';
             details += ' - The content is encrypted and the license key may be invalid';
@@ -424,7 +442,7 @@
             msg = 'Network timeout';
             details += ' - The server is taking too long to respond';
           }
-          
+
           showError(msg, details);
           loadingState.style.display = 'none';
         });
@@ -432,13 +450,20 @@
         // ====== LOAD THE STREAM ======
         console.log('🎯 Loading stream URL:', stream.streamUrl);
         console.log('📦 Stream properties:', stream.properties);
-        
+
         await playerInstance.load(stream.streamUrl);
         console.log('✅ Stream loaded successfully!');
         loadingState.style.display = 'none';
 
-        // Wait for video to start playing
-        await videoEl.play();
+        // FIX: play() can throw AbortError if it races with another
+        // pending play/load call (e.g. from the `autoplay` attribute).
+        // The `autoplay` attribute was removed from the <video> tag above,
+        // so this is now the single source of truth for starting playback.
+        try {
+          await videoEl.play();
+        } catch (playErr) {
+          console.warn('⚠️ Autoplay blocked or interrupted, user may need to press play:', playErr);
+        }
 
       } catch (err) {
         console.error('❌ Player load error:', err);
@@ -452,12 +477,12 @@
       document.getElementById('errorState').style.display = 'none';
       fetchMatchData();
     });
-    
+
     document.getElementById('backToHome').addEventListener('click', function(e) {
       e.preventDefault();
       window.location.href = 'index.html';
     });
-    
+
     document.addEventListener('keydown', function(e) {
       if (e.key === 'Escape') window.location.href = 'index.html';
     });
