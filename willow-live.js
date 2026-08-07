@@ -11,19 +11,19 @@ const liveCountBadge = document.getElementById('liveCountBadge');
 
 // State
 let willowMatches = [];
+let liveMatches = [];
+let upcomingMatches = [];
 
 // ====== SAFE ID HELPER ======
-// Some streams don't have a tvgId, so fall back to tvgName / title.
-// This MUST match the same logic used on willow-player.html.
 function getSafeStreamId(stream) {
-  return stream.tvgId || stream.tvgName || stream.title || '';
+  return stream.tvgId || stream.tvgName || stream.title || stream.match_id || '';
 }
 
 // ====== FETCH MATCHES FROM API ======
 async function fetchWillowMatches() {
   try {
     if (willowTrack) {
-      willowTrack.innerHTML = '<div class="willow-loading">⏳ Loading live matches...</div>';
+      willowTrack.innerHTML = '<div class="willow-loading">⏳ Loading matches...</div>';
     }
 
     const response = await fetch(WILLOW_API_URL);
@@ -40,17 +40,25 @@ async function fetchWillowMatches() {
 
     // Update live count badge
     if (liveCountBadge) {
-      const liveCount = data.liveCount || data.streams?.length || 0;
+      const liveCount = data.Stats?.LiveCount || data.liveCount || 0;
       liveCountBadge.innerHTML = `
-        <span class="material-icons">fiber_manual_record</span>
+        <span class="material-icons" style="font-size: 14px;">fiber_manual_record</span>
         ${liveCount} LIVE
       `;
     }
 
-    // Store matches
-    willowMatches = data.streams || [];
+    // Store matches from the new JSON structure
+    willowMatches = data.Matches || data.streams || [];
+    
+    // Split into live and upcoming
+    liveMatches = willowMatches.filter(m => 
+      m.status && m.status.toUpperCase() === 'LIVE'
+    );
+    upcomingMatches = willowMatches.filter(m => 
+      m.status && m.status.toUpperCase() === 'UPCOMING'
+    );
 
-    renderWillowMatches(willowMatches);
+    renderWillowMatches();
 
   } catch (error) {
     console.error('Willow fetch error:', error);
@@ -70,7 +78,7 @@ async function fetchWillowMatches() {
 function extractTeams(title) {
   if (!title) return 'Live Match';
   
-  // Clean up title - remove common prefixes
+  // Clean up title
   let cleaned = title.replace(/^(Live:|LIVE:|HD:|Willow\s*)/i, '').trim();
   
   // Try to extract from format "Tournament - Team1 vs Team2"
@@ -79,7 +87,7 @@ function extractTeams(title) {
     let team1 = vsMatch[1].trim();
     let team2 = vsMatch[2].trim();
     
-    // Remove tournament prefix from team1 (e.g., "Afghanistan Tour of Australia - Afghanistan" -> "Afghanistan")
+    // Remove tournament prefix from team1
     const tournMatch = team1.match(/(?:Tour|Series|League|Cup|Trophy|Championship|Premier|World)\s+(?:of\s+)?(.+)$/i);
     if (tournMatch) {
       team1 = tournMatch[1].trim();
@@ -89,11 +97,11 @@ function extractTeams(title) {
     team1 = team1.split(' - ').pop() || team1;
     team2 = team2.split(' - ')[0] || team2;
     
-    // Remove extra words like "vs" from team names
+    // Remove extra words
     team1 = team1.replace(/\s*vs\s*.*$/i, '').trim();
     team2 = team2.replace(/^\s*vs\s*/, '').trim();
     
-    return `${team1} vs ${team2}`;
+    return { team1, team2, display: `${team1} vs ${team2}` };
   }
   
   // Try to extract from format "Team1 vs Team2 - Tournament"
@@ -102,30 +110,22 @@ function extractTeams(title) {
     let team1 = vsMatch2[1].trim();
     let team2 = vsMatch2[2].trim();
     
-    // Remove tournament prefix
     const tournMatch = team1.match(/(?:Tour|Series|League|Cup|Trophy|Championship|Premier|World)\s+(?:of\s+)?(.+)$/i);
     if (tournMatch) {
       team1 = tournMatch[1].trim();
     }
     
-    return `${team1} vs ${team2}`;
+    return { team1, team2, display: `${team1} vs ${team2}` };
   }
   
-  // If no "vs" pattern found, try to extract team names from "Tournament - Team"
-  const teamMatch = cleaned.match(/^(.+?)\s*[-–]\s*(.+?)$/);
-  if (teamMatch) {
-    return teamMatch[2].trim();
-  }
-  
-  // Fallback: return cleaned title
-  return cleaned;
+  // Fallback
+  return { team1: cleaned, team2: '', display: cleaned };
 }
 
 // ====== EXTRACT TOURNAMENT FROM TITLE ======
 function extractTournament(title) {
   if (!title) return null;
   
-  // Look for tournament name
   const patterns = [
     /^([^,–-]+?(?:League|Series|Tournament|Cup|Trophy|Championship|Premier League|World Cup|Hundred|Tour))/i,
     /^([^,–-]+?(?:Tour|Series|League|Cup|Trophy|Championship|Premier|World))\s+(?:of\s+)?/i
@@ -141,79 +141,183 @@ function extractTournament(title) {
   return null;
 }
 
+// ====== GET STREAM URL WITH FALLBACK ======
+function getStreamUrlWithFallback(match) {
+  // Try alpha stream first
+  if (match.stream_url_alpha) {
+    if (typeof match.stream_url_alpha === 'string' && match.stream_url_alpha) {
+      return match.stream_url_alpha;
+    }
+    if (typeof match.stream_url_alpha === 'object') {
+      // Get first available server
+      const servers = Object.values(match.stream_url_alpha);
+      for (const url of servers) {
+        if (url && typeof url === 'string' && url.startsWith('http')) {
+          return url;
+        }
+      }
+    }
+  }
+  
+  // Try bravo stream
+  if (match.stream_url_bravo) {
+    if (typeof match.stream_url_bravo === 'string' && match.stream_url_bravo) {
+      return match.stream_url_bravo;
+    }
+    if (typeof match.stream_url_bravo === 'object') {
+      const servers = Object.values(match.stream_url_bravo);
+      for (const url of servers) {
+        if (url && typeof url === 'string' && url.startsWith('http')) {
+          return url;
+        }
+      }
+    }
+  }
+  
+  return null;
+}
+
+// ====== GET DRM KEY ======
+function getDrmKey(match) {
+  if (match.drm_key) {
+    return match.drm_key;
+  }
+  return null;
+}
+
 // ====== RENDER MATCHES ======
-function renderWillowMatches(streams) {
+function renderWillowMatches() {
   if (!willowTrack) return;
 
-  if (!streams || streams.length === 0) {
-    willowTrack.innerHTML = '<div class="willow-loading">No live matches available</div>';
+  const allMatches = [...liveMatches, ...upcomingMatches];
+
+  if (!allMatches || allMatches.length === 0) {
+    willowTrack.innerHTML = '<div class="willow-loading">No matches available</div>';
     return;
   }
 
   willowTrack.innerHTML = '';
 
-  streams.forEach((stream) => {
-    const title = stream.title || stream.tvgName || 'Unknown Match';
+  allMatches.forEach((match) => {
+    const title = match.title || match.tvgName || 'Unknown Match';
+    const status = match.status || 'UPCOMING';
+    const isLive = status.toUpperCase() === 'LIVE';
     
     // Extract team names
-    const teamsDisplay = extractTeams(title);
-    
-    // Extract tournament
+    const teams = extractTeams(title);
     const tournament = extractTournament(title);
+    
+    // Get cover image
+    let coverImage = match.cover_image || match.tvgLogo || 'https://via.placeholder.com/480x270/14181f/ffffff?text=Willow+Cricket';
+    
+    // Fix for cover_image URLs
+    if (coverImage && coverImage.includes('_UR1920,1080_')) {
+      // This is an Amazon URL that needs proper handling
+      // Keep as is, the image will load
+    }
 
-    // Use tvgLogo or fallback
-    const logo = stream.tvgLogo || 'https://via.placeholder.com/480x270/14181f/ffffff?text=Willow+Cricket';
-
-    const safeId = getSafeStreamId(stream);
+    const safeId = getSafeStreamId(match);
+    
+    // Check if stream is available (only for live matches)
+    const streamUrl = isLive ? getStreamUrlWithFallback(match) : null;
+    const hasStream = isLive && streamUrl;
 
     if (!safeId) {
-      console.warn('Skipping stream with no usable id/title:', stream);
+      console.warn('Skipping match with no usable id:', match);
       return;
     }
 
     const card = document.createElement('a');
-    card.className = 'willow-live-card';
-    card.href = `willow-player.html?id=${encodeURIComponent(safeId)}`;
-    card.dataset.tvgId = safeId;
+    card.className = `willow-live-card ${!isLive ? 'upcoming' : ''}`;
+    
+    // For live matches with stream, go to player
+    if (isLive && hasStream) {
+      card.href = `willow-player.html?id=${encodeURIComponent(safeId)}`;
+    } else {
+      // For upcoming or no stream, just show info
+      card.href = '#';
+      card.style.cursor = 'default';
+    }
+    
+    card.dataset.matchId = safeId;
+    card.dataset.status = status;
 
-    // Split teams for display with proper styling
-    const teamParts = teamsDisplay.split(' vs ');
+    // Build teams HTML
     let teamsHTML = '';
-    if (teamParts.length === 2) {
+    if (teams.team1 && teams.team2) {
       teamsHTML = `
-        <span class="willow-live-team">${teamParts[0].trim()}</span>
+        <span class="willow-live-team">${teams.team1}</span>
         <span class="willow-live-vs">vs</span>
-        <span class="willow-live-team">${teamParts[1].trim()}</span>
+        <span class="willow-live-team">${teams.team2}</span>
       `;
     } else {
-      teamsHTML = `<span class="willow-live-team">${teamsDisplay}</span>`;
+      teamsHTML = `<span class="willow-live-team">${teams.display}</span>`;
     }
 
-    card.innerHTML = `
-      <div class="willow-live-thumb">
-        <img 
-          src="${logo}" 
-          alt="${title}"
-          loading="lazy"
-          onerror="this.src='https://via.placeholder.com/480x270/14181f/ffffff?text=Willow+Cricket'"
-        />
+    // Status badge
+    let statusBadge = '';
+    if (isLive) {
+      statusBadge = `
         <div class="willow-live-badge-live">
           <span class="material-icons" style="font-size: 10px;">fiber_manual_record</span>
           LIVE
         </div>
+      `;
+    } else {
+      // Upcoming match - show time
+      const timeDisplay = match.time || 'Upcoming';
+      statusBadge = `
+        <div class="willow-live-badge-upcoming">
+          <span class="material-icons" style="font-size: 10px;">schedule</span>
+          ${timeDisplay}
+        </div>
+      `;
+    }
+
+    // Play overlay - only for live with stream
+    let playOverlay = '';
+    if (isLive && hasStream) {
+      playOverlay = `
         <div class="willow-live-overlay">
           <span class="willow-live-play-icon">
             <span class="material-icons" style="font-size: 24px;">play_arrow</span>
           </span>
         </div>
+      `;
+    }
+
+    card.innerHTML = `
+      <div class="willow-live-thumb">
+        <img 
+          src="${coverImage}" 
+          alt="${title}"
+          loading="lazy"
+          onerror="this.src='https://via.placeholder.com/480x270/14181f/ffffff?text=Willow+Cricket'"
+        />
+        ${statusBadge}
+        ${playOverlay}
       </div>
       <div class="willow-live-info">
         <div class="willow-live-match-title">
           ${teamsHTML}
         </div>
         ${tournament ? `<div class="willow-live-group">${tournament}</div>` : ''}
+        ${!isLive ? `<div class="willow-live-upcoming-time">${match.time || 'Upcoming'}</div>` : ''}
       </div>
     `;
+
+    // For upcoming matches or no stream, prevent navigation
+    if (!isLive || !hasStream) {
+      card.addEventListener('click', function(e) {
+        e.preventDefault();
+        // Show a message
+        if (!isLive) {
+          alert(`⏰ This match is upcoming: ${match.time || 'Check back later'}`);
+        } else {
+          alert('📡 Stream not yet available for this match');
+        }
+      });
+    }
 
     willowTrack.appendChild(card);
   });
@@ -252,4 +356,5 @@ if (willowArrowLeft) {
 
 // ====== INIT ======
 fetchWillowMatches();
+// Refresh every 5 minutes
 setInterval(fetchWillowMatches, 300000);
