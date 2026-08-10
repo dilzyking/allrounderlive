@@ -19,7 +19,7 @@
       width: 100%;
       background: #000000;
       font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
-      overflow: hidden;
+      overflow: hidden; /* prevent body scroll, main handles scroll */
     }
 
     /* ----- HEADER (logo centered, with white outline) ----- */
@@ -84,6 +84,7 @@
       flex-direction: column;
       background: #000000;
       width: 100%;
+      overflow: hidden; /* main container no scroll, child scrolls */
     }
 
     /* ----- 16:9 PLAYER (full width, just below header) ----- */
@@ -184,12 +185,14 @@
       min-height: 0;
       background: #000000;
       width: 100%;
+      overflow-y: auto;  /* SCROLLING ENABLED for channels tab */
     }
 
     .tab-content.active {
       display: flex;
       flex-direction: column;
       width: 100%;
+      overflow-y: auto;  /* ensures scrolling works on desktop/pc */
     }
 
     /* ----- CHANNELS TAB (2 columns, full width) ----- */
@@ -198,10 +201,11 @@
       grid-template-columns: 1fr 1fr;
       gap: clamp(12px, 2vw, 20px);
       padding: clamp(16px, 2.5vh, 32px) clamp(16px, 3vw, 40px);
-      flex: 1;
+      flex: 1;           /* takes full height of tab-content */
       align-content: start;
       width: 100%;
       max-width: 100%;
+      min-height: min-content; /* allow grid to expand if needed */
     }
 
     .channel-card {
