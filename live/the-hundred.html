@@ -30,6 +30,15 @@
       min-height: 100dvh;
     }
 
+    /* FIX: when Chat tab is active, lock page so chat input is always in view */
+    body.chat-active {
+      overflow: hidden;
+      height: 100vh;
+      height: 100dvh;
+      position: fixed;
+      inset: 0;
+    }
+
     /* ----- HEADER (logo centered, with white outline) ----- */
     .header {
       position: fixed;
@@ -86,7 +95,6 @@
     /* ----- MAIN CONTENT ----- */
     .main {
       margin-top: clamp(60px, 8vh, 80px);
-      /* FIX: use min-height instead of fixed height so content can grow and scroll */
       min-height: calc(100vh - clamp(60px, 8vh, 80px));
       min-height: calc(100dvh - clamp(60px, 8vh, 80px));
       display: flex;
@@ -103,11 +111,9 @@
       position: relative;
       padding-bottom: 56.25%;
       height: 0;
-      /* FIX: cap the player height on desktop so it doesn't consume the whole screen */
       max-height: 70vh;
     }
 
-    /* On wider screens, constrain the player using aspect-ratio + max-height */
     @media (min-width: 900px) {
       .player-wrapper {
         padding-bottom: 0;
@@ -305,7 +311,6 @@
     .chat-container {
       flex: 1;
       width: 100%;
-      /* FIX: give chat a minimum height so it's visible after scrolling */
       min-height: 70vh;
       background: #0f141c;
     }
@@ -316,6 +321,30 @@
       min-height: 70vh;
       border: none;
       display: block;
+    }
+
+    /* FIX: when chat is active, chat-container fills remaining viewport
+       (viewport - header - player - tabs) so input is reachable without scroll */
+    body.chat-active .main {
+      height: 100vh;
+      height: 100dvh;
+      min-height: 0;
+      overflow: hidden;
+    }
+    body.chat-active .chat-container,
+    body.chat-active .chat-container iframe {
+      min-height: 0;
+      height: 100%;
+      flex: 1 1 auto;
+    }
+    body.chat-active #chat.tab-content.active {
+      flex: 1 1 auto;
+      min-height: 0;
+      overflow: hidden;
+    }
+    body.chat-active .tabs {
+      position: relative;
+      top: auto;
     }
 
     /* ====== WHATSAPP POPUP ====== */
@@ -753,6 +782,15 @@
           this.classList.add('active');
           tabContents.forEach(c => c.classList.remove('active'));
           document.getElementById(target).classList.add('active');
+
+          // FIX: lock page when chat is open so user can send message
+          // without scrolling; unlock for channels tab.
+          if (target === 'chat') {
+            document.body.classList.add('chat-active');
+            window.scrollTo(0, 0);
+          } else {
+            document.body.classList.remove('chat-active');
+          }
         });
       });
 
@@ -786,5 +824,3 @@
 
 </body>
 </html>
-
-     
