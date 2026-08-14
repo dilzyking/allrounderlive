@@ -15,11 +15,19 @@
     }
 
     html, body {
-      height: 100%;
       width: 100%;
       background: #000000;
       font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
-      overflow: hidden;
+      /* FIX: allow vertical scrolling on desktop */
+      overflow-x: hidden;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+      min-height: 100%;
+    }
+
+    body {
+      min-height: 100vh;
+      min-height: 100dvh;
     }
 
     /* ----- HEADER (logo centered, with white outline) ----- */
@@ -75,18 +83,19 @@
       opacity: 0.5;
     }
 
-    /* ----- MAIN CONTENT (full height below header) ----- */
+    /* ----- MAIN CONTENT ----- */
     .main {
       margin-top: clamp(60px, 8vh, 80px);
-      height: calc(100vh - clamp(60px, 8vh, 80px));
-      height: calc(100dvh - clamp(60px, 8vh, 80px));
+      /* FIX: use min-height instead of fixed height so content can grow and scroll */
+      min-height: calc(100vh - clamp(60px, 8vh, 80px));
+      min-height: calc(100dvh - clamp(60px, 8vh, 80px));
       display: flex;
       flex-direction: column;
       background: #000000;
       width: 100%;
     }
 
-    /* ----- 16:9 PLAYER (full width, just below header) ----- */
+    /* ----- 16:9 PLAYER ----- */
     .player-wrapper {
       width: 100%;
       background: #000000;
@@ -94,6 +103,17 @@
       position: relative;
       padding-bottom: 56.25%;
       height: 0;
+      /* FIX: cap the player height on desktop so it doesn't consume the whole screen */
+      max-height: 70vh;
+    }
+
+    /* On wider screens, constrain the player using aspect-ratio + max-height */
+    @media (min-width: 900px) {
+      .player-wrapper {
+        padding-bottom: 0;
+        height: min(56.25vw, 70vh);
+        max-height: 70vh;
+      }
     }
 
     .player-wrapper iframe {
@@ -106,7 +126,7 @@
       background: #000000;
     }
 
-    /* ----- TABS (horizontal, larger, OTT style with BIGGER height) ----- */
+    /* ----- TABS ----- */
     .tabs {
       display: flex;
       gap: 0;
@@ -116,6 +136,9 @@
       padding: 0;
       width: 100%;
       min-height: clamp(60px, 8vh, 90px);
+      position: sticky;
+      top: clamp(60px, 8vh, 80px);
+      z-index: 15;
     }
 
     .tab-btn {
@@ -159,7 +182,6 @@
       color: #4fc3f7;
     }
 
-    /* Tab 1 (Channels) - Blue theme */
     .tab-btn[data-tab="channels"].active {
       border-bottom-color: #4fc3f7;
       color: #4fc3f7;
@@ -168,7 +190,6 @@
       color: #4fc3f7;
     }
 
-    /* Tab 2 (Chat) - Purple theme */
     .tab-btn[data-tab="chat"].active {
       border-bottom-color: #ce93d8;
       color: #ce93d8;
@@ -177,7 +198,7 @@
       color: #ce93d8;
     }
 
-    /* ----- TAB CONTENT (remaining height, full width) ----- */
+    /* ----- TAB CONTENT ----- */
     .tab-content {
       display: none;
       flex: 1;
@@ -192,7 +213,7 @@
       width: 100%;
     }
 
-    /* ----- CHANNELS TAB (2 columns, full width) ----- */
+    /* ----- CHANNELS TAB ----- */
     .channels-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -202,6 +223,12 @@
       align-content: start;
       width: 100%;
       max-width: 100%;
+    }
+
+    @media (min-width: 900px) {
+      .channels-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
     }
 
     .channel-card {
@@ -274,22 +301,24 @@
       background: rgba(79, 195, 247, 0.08);
     }
 
-    /* ----- CHAT TAB (full width iframe) ----- */
+    /* ----- CHAT TAB ----- */
     .chat-container {
       flex: 1;
       width: 100%;
-      min-height: 0;
+      /* FIX: give chat a minimum height so it's visible after scrolling */
+      min-height: 70vh;
       background: #0f141c;
     }
 
     .chat-container iframe {
       width: 100%;
       height: 100%;
+      min-height: 70vh;
       border: none;
       display: block;
     }
 
-    /* ====== WHATSAPP POPUP (matching dark OTT UI) ====== */
+    /* ====== WHATSAPP POPUP ====== */
     #waOverlay {
       position: fixed;
       inset: 0;
@@ -466,11 +495,12 @@
       }
       .main {
         margin-top: 48px;
-        height: calc(100vh - 48px);
-        height: calc(100dvh - 48px);
+        min-height: calc(100vh - 48px);
+        min-height: calc(100dvh - 48px);
       }
       .tabs {
         min-height: 50px;
+        top: 48px;
       }
       .tab-btn {
         padding: 10px 12px;
@@ -509,11 +539,12 @@
       }
       .main {
         margin-top: 40px;
-        height: calc(100vh - 40px);
-        height: calc(100dvh - 40px);
+        min-height: calc(100vh - 40px);
+        min-height: calc(100dvh - 40px);
       }
       .tabs {
         min-height: 42px;
+        top: 40px;
       }
       .tab-btn {
         padding: 6px 16px;
@@ -559,11 +590,12 @@
       }
       .main {
         margin-top: 90px;
-        height: calc(100vh - 90px);
-        height: calc(100dvh - 90px);
+        min-height: calc(100vh - 90px);
+        min-height: calc(100dvh - 90px);
       }
       .tabs {
         min-height: 100px;
+        top: 90px;
       }
       .tab-btn {
         padding: 28px 56px;
@@ -617,10 +649,10 @@
 
     <!-- 16:9 PLAYER (full width, just below header) -->
     <div class="player-wrapper">
-      <iframe src="https://allrounder3-0.pages.dev/cricket/sony-3" allowfullscreen loading="lazy" title="Live Match" allow="encrypted-media; fullscreen; autoplay"></iframe>
+      <iframe src="https://allrounder3-0.pages.dev/eng" allowfullscreen loading="lazy" title="Live Match" allow="encrypted-media; fullscreen; autoplay"></iframe>
     </div>
 
-    <!-- TABS with Google Material Icons (BIGGER height) -->
+    <!-- TABS with Google Material Icons -->
     <div class="tabs">
       <button class="tab-btn active" data-tab="channels">
         <span class="material-icons">live_tv</span>
@@ -648,7 +680,7 @@
 
   </div>
 
-  <!-- ====== WHATSAPP POPUP (matching dark OTT UI) ====== -->
+  <!-- ====== WHATSAPP POPUP ====== -->
   <div id="waOverlay">
     <div id="waCard">
       <div id="waIcon">
@@ -669,9 +701,9 @@
     (function() {
       // ----- CHANNELS DATA -----
       const channels = [
-        { name: 'Hindi', url: 'https://allrounder3-0.pages.dev/cricket/sony-3', logo: 'HS' },
-        { name: 'Sony English', url: 'https://allrounder3-0.pages.dev/eng', logo: 'SS' },
-        { name: 'Sony LIV', url: 'https://allrounder-live12.pages.dev/hotstar', logo: 'SL' },
+        { name: 'Hindi', url: 'https://allrounder3-0.pages.dev/cricket/Sony-3', logo: 'HN' },
+        { name: 'English', url: 'https://allrounder3-0.pages.dev/eng', logo: 'WL' },
+        { name: 'All Device', url: 'https://allrounder-live12.pages.dev/hotstar', logo: 'SL' },
         { name: 'Willow TV', url: 'https://allrounder3-0.pages.dev/cricket/willow', logo: 'WT' }
       ];
 
@@ -679,7 +711,7 @@
       const playerIframe = document.querySelector('.player-wrapper iframe');
       let currentIndex = 0;
 
-      // ----- RENDER CHANNELS (2 columns) -----
+      // ----- RENDER CHANNELS -----
       function renderChannels(activeIndex) {
         grid.innerHTML = channels.map((ch, index) => `
           <div class="channel-card ${index === activeIndex ? 'active' : ''}" data-index="${index}">
@@ -697,22 +729,17 @@
         });
       }
 
-      // ----- SWITCH CHANNEL (update iframe) -----
+      // ----- SWITCH CHANNEL -----
       function switchChannel(index) {
         const ch = channels[index];
         if (!ch) return;
         currentIndex = index;
-
-        // Update iframe src
         playerIframe.src = ch.url;
-
-        // Update active state
         grid.querySelectorAll('.channel-card').forEach(c => {
           c.classList.toggle('active', parseInt(c.dataset.index) === index);
         });
       }
 
-      // Init channels
       renderChannels(0);
 
       // ----- TABS -----
@@ -722,10 +749,8 @@
       tabBtns.forEach(btn => {
         btn.addEventListener('click', function() {
           const target = this.dataset.tab;
-
           tabBtns.forEach(b => b.classList.remove('active'));
           this.classList.add('active');
-
           tabContents.forEach(c => c.classList.remove('active'));
           document.getElementById(target).classList.add('active');
         });
@@ -758,6 +783,8 @@
 
   <!-- Ads Script -->
   <script src="https://pl30635578.effectivecpmnetwork.com/fa/39/69/fa3969f9a99b769eddf6af8828044a3f.js"></script>
-  
-  </body>
-  </html>
+
+</body>
+</html>
+
+     
