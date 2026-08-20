@@ -1,4 +1,4 @@
-// fancode.js - FanCode Section with Fresh M3U8 Fetch
+// fancode.js - FanCode Section with Improved M3U8 Extraction
 
 (function() {
   'use strict';
@@ -49,68 +49,136 @@
     return html;
   }
 
-  // ---- EXTRACT M3U8 URL FROM MATCH DATA ----
+  // ---- EXTRACT M3U8 URL FROM MATCH DATA (IMPROVED) ----
   function extractM3U8Url(match) {
-    // Check auto_streams first
+    console.log('Extracting M3U8 for match:', match.title, 'ID:', match.match_id);
+    
+    // METHOD 1: Check auto_streams (MOST RELIABLE)
     if (match.auto_streams && match.auto_streams.length > 0) {
-      const stream = match.auto_streams[0];
-      if (stream && stream.auto) {
-        // Parse the m3u8 playlist to get the highest quality stream
-        const lines = stream.auto.split('\n');
-        let highestQuality = '';
-        let highestBandwidth = 0;
-        
-        for (let i = 0; i < lines.length; i++) {
-          if (lines[i].includes('#EXT-X-STREAM-INF')) {
-            // Extract bandwidth
-            const bandwidthMatch = lines[i].match(/BANDWIDTH=(\d+)/);
-            if (bandwidthMatch) {
-              const bandwidth = parseInt(bandwidthMatch[1]);
-              // Look for 1080p or highest bandwidth
-              if (lines[i].includes('RESOLUTION=1920x1080') || bandwidth > highestBandwidth) {
-                highestBandwidth = bandwidth;
-                // Next line should be the URL
+      console.log('Found auto_streams, count:', match.auto_streams.length);
+      
+      // Try all streams (different languages)
+      for (let streamIndex = 0; streamIndex < match.auto_streams.length; streamIndex++) {
+        const stream = match.auto_streams[streamIndex];
+        if (stream && stream.auto) {
+          console.log(`Processing stream ${streamIndex}, language:`, stream.language || 'unknown');
+          
+          // Parse the m3u8 playlist
+          const lines = stream.auto.split('\n');
+          let highestQuality = '';
+          let highestBandwidth = 0;
+          let allUrls = [];
+          
+          for (let i = 0; i < lines.length; i++) {
+            const line = lines[i];
+            if (line.includes('#EXT-X-STREAM-INF')) {
+              // Extract bandwidth
+              const bandwidthMatch = line.match(/BANDWIDTH=(\d+)/);
+              const resolutionMatch = line.match(/RESOLUTION=(\d+)x(\d+)/);
+              
+              if (bandwidthMatch) {
+                const bandwidth = parseInt(bandwidthMatch[1]);
+                
+                // Check if next line is a URL (not a comment)
                 if (i + 1 < lines.length && !lines[i + 1].startsWith('#')) {
-                  highestQuality = lines[i + 1];
+                  const url = lines[i + 1];
+                  allUrls.push({ bandwidth, resolution: resolutionMatch ? `${resolutionMatch[1]}x${resolutionMatch[2]}` : 'unknown', url });
+                  
+                  // Prefer 1080p or highest bandwidth
+                  if (resolutionMatch && resolutionMatch[1] === '1920') {
+                    highestQuality = url;
+                    highestBandwidth = bandwidth;
+                  } else if (!highestQuality || bandwidth > highestBandwidth) {
+                    highestQuality = url;
+                    highestBandwidth = bandwidth;
+                  }
                 }
               }
             }
           }
-        }
-        
-        // If no 1080p found, use the last URL in the playlist
-        if (!highestQuality) {
-          for (let i = lines.length - 1; i >= 0; i--) {
-            if (lines[i] && !lines[i].startsWith('#') && lines[i].includes('.m3u8')) {
-              highestQuality = lines[i];
-              break;
+          
+          console.log(`Found ${allUrls.length} quality options for stream ${streamIndex}`);
+          console.log('Selected URL:', highestQuality);
+          
+          // If we found a URL, add cookie and return
+          if (highestQuality) {
+            let url = highestQuality;
+            
+            // If URL is relative, construct full URL
+            if (url.startsWith('http')) {
+              // Already full URL
+            } else if (url.startsWith('/')) {
+              // Relative path - use base URL from first line
+              const baseUrl = lines.find(l => l.startsWith('http'));
+              if (baseUrl) {
+                const baseParts = baseUrl.split('/');
+                baseParts.pop(); // Remove the last part (filename)
+                url = baseParts.join('/') + '/' + url;
+              }
+            } else {
+              // Could be relative, try to construct from the master URL
+              // Look for a full URL in the playlist
+              const fullUrl = lines.find(l => l.startsWith('http'));
+              if (fullUrl) {
+                const baseParts = fullUrl.split('/');
+                baseParts.pop(); // Remove the last part
+                url = baseParts.join('/') + '/' + url;
+              }
             }
+            
+            // Add cookie parameters if available
+            if (stream.cookie) {
+              if (url.includes('?')) {
+                url += '&' + stream.cookie;
+              } else {
+                url += '?' + stream.cookie;
+              }
+            }
+            
+            console.log('Final M3U8 URL:', url);
+            return url;
           }
-        }
-        
-        // Add cookies if available
-        if (highestQuality) {
-          let url = highestQuality;
-          // If the URL doesn't have parameters, add the cookie
-          if (!url.includes('?')) {
-            url += '?' + (stream.cookie || '');
-          }
-          return url;
         }
       }
     }
     
-    // Check STREAMING_CDN for Primary_Playback_URL
-    if (match.STREAMING_CDN && match.STREAMING_CDN.Primary_Playback_URL) {
-      return match.STREAMING_CDN.Primary_Playback_URL;
+    // METHOD 2: Check STREAMING_CDN
+    if (match.STREAMING_CDN) {
+      console.log('Checking STREAMING_CDN');
+      
+      // Try Primary_Playback_URL
+      if (match.STREAMING_CDN.Primary_Playback_URL) {
+        console.log('Found Primary_Playback_URL:', match.STREAMING_CDN.Primary_Playback_URL);
+        return match.STREAMING_CDN.Primary_Playback_URL;
+      }
+      
+      // Try fancode_cdn
+      if (match.STREAMING_CDN.fancode_cdn) {
+        console.log('Found fancode_cdn:', match.STREAMING_CDN.fancode_cdn);
+        return match.STREAMING_CDN.fancode_cdn;
+      }
+      
+      // Try backup CDN
+      if (match.STREAMING_CDN.backup) {
+        if (match.STREAMING_CDN.backup.fancode_cdn) {
+          console.log('Found backup fancode_cdn:', match.STREAMING_CDN.backup.fancode_cdn);
+          return match.STREAMING_CDN.backup.fancode_cdn;
+        }
+        if (match.STREAMING_CDN.backup.fancode_cdn_v1) {
+          console.log('Found backup fancode_cdn_v1:', match.STREAMING_CDN.backup.fancode_cdn_v1);
+          return match.STREAMING_CDN.backup.fancode_cdn_v1;
+        }
+      }
     }
     
+    console.log('No M3U8 URL found for match:', match.title);
     return null;
   }
 
   // ---- FETCH FRESH DATA FOR A SPECIFIC MATCH ----
   async function fetchFreshMatchData(matchId) {
     try {
+      console.log('Fetching fresh data for match ID:', matchId);
       const response = await fetch(FANCODE_API_URL);
       if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
       
@@ -119,8 +187,12 @@
       
       // Find the specific match
       const match = allMatches.find(m => m.match_id == matchId);
-      if (!match) return null;
+      if (!match) {
+        console.log('Match not found in fresh data');
+        return null;
+      }
       
+      console.log('Found fresh match data:', match.title);
       return match;
     } catch (error) {
       console.error('Error fetching fresh match data:', error);
@@ -137,12 +209,13 @@
 
     // Show loading indicator on the clicked card
     const card = document.querySelector(`.fancode-card[data-match-id="${matchId}"]`);
+    let originalHTML = '';
     if (card) {
-      const originalText = card.innerHTML;
+      originalHTML = card.innerHTML;
       card.style.opacity = '0.5';
       card.style.pointerEvents = 'none';
       card.innerHTML = `
-        <div style="display:flex;align-items:center;justify-content:center;height:100%;padding:2rem;flex-direction:column;gap:0.5rem;">
+        <div style="display:flex;align-items:center;justify-content:center;height:100%;padding:2rem;flex-direction:column;gap:0.5rem;min-height:200px;">
           <div style="width:30px;height:30px;border:3px solid rgba(255,255,255,0.1);border-top-color:#f5c518;border-radius:50%;animation:spin 1s ease-in-out infinite;"></div>
           <span style="color:rgba(255,255,255,0.6);font-size:0.8rem;">Loading stream...</span>
         </div>
@@ -161,7 +234,11 @@
       
       if (!match) {
         alert('Match data not found. Please try again.');
-        if (card) card.innerHTML = originalText;
+        if (card) {
+          card.style.opacity = '1';
+          card.style.pointerEvents = 'auto';
+          card.innerHTML = originalHTML;
+        }
         return;
       }
 
@@ -173,14 +250,17 @@
         if (card) {
           card.style.opacity = '1';
           card.style.pointerEvents = 'auto';
-          card.innerHTML = originalText;
+          card.innerHTML = originalHTML;
         }
         return;
       }
 
       // Encode and navigate
       const encodedUrl = encodeURIComponent(m3u8Url);
-      const matchName = encodeURIComponent(matchTitle || match.title || 'Live Match');
+      const matchName = encodeURIComponent(matchTitle || match.title || match.tournament || 'Live Match');
+      
+      console.log('Navigating to player with URL:', m3u8Url);
+      console.log('Match:', matchName);
       
       // Navigate to player
       window.location.href = `/fc-play?url=${encodedUrl}&title=${matchName}&match_id=${matchId}`;
@@ -191,7 +271,7 @@
       if (card) {
         card.style.opacity = '1';
         card.style.pointerEvents = 'auto';
-        card.innerHTML = originalText;
+        card.innerHTML = originalHTML;
       }
     }
   }
@@ -373,7 +453,6 @@
     if (matchId) {
       e.preventDefault();
       e.stopPropagation();
-      // Play with fresh fetch
       playM3U8Stream(matchId, title);
     } else {
       e.preventDefault();
