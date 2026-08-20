@@ -1,4 +1,4 @@
-// fancode.js - FanCode Section with Skeleton Loading
+// fancode.js - FanCode Section with M3U8 Playback
 
 (function() {
   'use strict';
@@ -49,6 +49,80 @@
     return html;
   }
 
+  // ---- EXTRACT M3U8 URL FROM AUTO_STREAMS ----
+  function extractM3U8Url(match) {
+    // Check auto_streams first
+    if (match.auto_streams && match.auto_streams.length > 0) {
+      const stream = match.auto_streams[0];
+      if (stream && stream.auto) {
+        // Parse the m3u8 playlist to get the 1080p or highest quality stream
+        const lines = stream.auto.split('\n');
+        let highestQuality = '';
+        let highestBandwidth = 0;
+        
+        for (let i = 0; i < lines.length; i++) {
+          if (lines[i].includes('#EXT-X-STREAM-INF')) {
+            // Extract bandwidth
+            const bandwidthMatch = lines[i].match(/BANDWIDTH=(\d+)/);
+            if (bandwidthMatch) {
+              const bandwidth = parseInt(bandwidthMatch[1]);
+              // Look for 1080p or highest bandwidth
+              if (lines[i].includes('RESOLUTION=1920x1080') || bandwidth > highestBandwidth) {
+                highestBandwidth = bandwidth;
+                // Next line should be the URL
+                if (i + 1 < lines.length && !lines[i + 1].startsWith('#')) {
+                  highestQuality = lines[i + 1];
+                }
+              }
+            }
+          }
+        }
+        
+        // If no 1080p found, use the last URL in the playlist
+        if (!highestQuality) {
+          for (let i = lines.length - 1; i >= 0; i--) {
+            if (lines[i] && !lines[i].startsWith('#') && lines[i].includes('.m3u8')) {
+              highestQuality = lines[i];
+              break;
+            }
+          }
+        }
+        
+        // Add cookies if available
+        if (highestQuality) {
+          let url = highestQuality;
+          // If the URL doesn't have parameters, add the cookie
+          if (!url.includes('?')) {
+            url += '?' + (stream.cookie || '');
+          }
+          return url;
+        }
+      }
+    }
+    
+    // Check STREAMING_CDN for Primary_Playback_URL
+    if (match.STREAMING_CDN && match.STREAMING_CDN.Primary_Playback_URL) {
+      return match.STREAMING_CDN.Primary_Playback_URL;
+    }
+    
+    return null;
+  }
+
+  // ---- PLAY M3U8 STREAM ----
+  function playM3U8Stream(url, matchTitle) {
+    if (!url) {
+      alert('No stream available for this match');
+      return;
+    }
+    
+    // Encode the URL and navigate to the player page
+    const encodedUrl = encodeURIComponent(url);
+    const matchName = encodeURIComponent(matchTitle || 'Live Match');
+    
+    // Navigate to the player page with the m3u8 URL
+    window.location.href = `/fc-play?url=${encodedUrl}&title=${matchName}`;
+  }
+
   // ---- RENDER MATCH CARDS ----
   function renderMatches(matchData) {
     if (!matchData || matchData.length === 0) {
@@ -71,11 +145,45 @@
       
       // Format status
       let statusText = match.status || 'UPCOMING';
+      const isLive = statusText === 'LIVE' || statusText === 'IN_PROGRESS';
+      const isEnded = statusText === 'ENDED' || statusText === 'FINISHED' || statusText === 'COMPLETED';
+      
       statusText = statusText.replace(/_/g, ' ').toLowerCase();
       statusText = statusText.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+      
+      // Get status class for styling
+      let statusClass = 'upcoming';
+      if (isLive) statusClass = 'live';
+      if (isEnded) statusClass = 'ended';
+
+      // Get team scores (for cricket)
+      let team1Score = '';
+      let team2Score = '';
+      if (match.category === 'Cricket' && team1.cricketScore && team1.cricketScore.length > 0) {
+        const score = team1.cricketScore[0];
+        if (score.runs !== undefined && score.wickets !== undefined) {
+          team1Score = `${score.runs}/${score.wickets}`;
+          if (score.overs && score.overs !== '0') {
+            team1Score += ` (${score.overs})`;
+          }
+        }
+      }
+      if (match.category === 'Cricket' && team2.cricketScore && team2.cricketScore.length > 0) {
+        const score = team2.cricketScore[0];
+        if (score.runs !== undefined && score.wickets !== undefined) {
+          team2Score = `${score.runs}/${score.wickets}`;
+          if (score.overs && score.overs !== '0') {
+            team2Score += ` (${score.overs})`;
+          }
+        }
+      }
+
+      // Get M3U8 URL
+      const m3u8Url = extractM3U8Url(match);
+      const hasStream = !!m3u8Url;
 
       html += `
-        <a href="#" class="fancode-card" data-match-id="${match.match_id || ''}">
+        <div class="fancode-card" data-match-id="${match.match_id || ''}" data-m3u8="${m3u8Url || ''}" data-title="${match.title || match.tournament || 'Live Match'}">
           <div class="fancode-thumb">
             <img 
               src="${imageUrl}" 
@@ -84,6 +192,7 @@
               onerror="this.src='https://via.placeholder.com/400x225/1a1c1e/555?text=No+Image'"
             />
             <span class="fancode-category-tag">${match.category || 'Sports'}</span>
+            ${isLive ? '<span style="position:absolute;top:10px;right:10px;background:rgba(255,0,0,0.8);color:#fff;padding:0.15rem 0.5rem;border-radius:4px;font-size:0.6rem;font-weight:700;text-transform:uppercase;z-index:2;animation:pulse-live 1.5s ease-in-out infinite;">● LIVE</span>' : ''}
           </div>
           <div class="fancode-info">
             <div class="fancode-tournament">${match.tournament || 'Match'}</div>
@@ -91,19 +200,25 @@
               <div class="fancode-team">
                 <img src="${team1.flag?.src || ''}" alt="${team1.name}" onerror="this.style.display='none'" />
                 <span>${team1.shortName || team1.name}</span>
+                ${team1Score ? `<span style="font-size:0.7rem;color:#f5c518;margin-left:0.2rem;">${team1Score}</span>` : ''}
               </div>
               <span class="fancode-vs">VS</span>
               <div class="fancode-team">
                 <img src="${team2.flag?.src || ''}" alt="${team2.name}" onerror="this.style.display='none'" />
                 <span>${team2.shortName || team2.name}</span>
+                ${team2Score ? `<span style="font-size:0.7rem;color:#f5c518;margin-left:0.2rem;">${team2Score}</span>` : ''}
               </div>
             </div>
             <div class="fancode-meta">
-              <span class="fancode-status">${statusText}</span>
+              <div class="fancode-meta-left">
+                <span class="fancode-status ${statusClass}">${statusText}</span>
+                ${match.language && match.language !== 'BLOODY_SWEET' ? `<span style="font-size:0.55rem;color:rgba(255,255,255,0.3);text-transform:uppercase;">${match.language}</span>` : ''}
+              </div>
               <span class="fancode-time">${match.startTime || ''}</span>
             </div>
+            ${hasStream ? '<div style="font-size:0.5rem;color:rgba(0,255,100,0.4);text-align:right;margin-top:0.2rem;letter-spacing:0.03em;">▶ STREAM AVAILABLE</div>' : ''}
           </div>
-        </a>
+        </div>
       `;
     });
 
@@ -134,11 +249,18 @@
       
       const data = await response.json();
       
-      // Extract matches array (could be in data.matches or data directly)
+      // Extract matches array
       matches = data.matches || data || [];
       
       // Filter matches that have team data
       matches = matches.filter(m => m.team && m.team.length >= 2);
+      
+      // Sort: LIVE first, then UPCOMING
+      matches.sort((a, b) => {
+        const aLive = a.status === 'LIVE' || a.status === 'IN_PROGRESS' ? 0 : 1;
+        const bLive = b.status === 'LIVE' || b.status === 'IN_PROGRESS' ? 0 : 1;
+        return aLive - bLive;
+      });
       
       // Render cards
       renderMatches(matches);
@@ -160,7 +282,7 @@
     const card = track.querySelector('.fancode-card, .skeleton-card');
     if (!card) return 280;
     const cardWidth = card.getBoundingClientRect().width;
-    const gap = 20; // gap from CSS
+    const gap = 20;
     return (cardWidth + gap) * 2;
   }
 
@@ -170,6 +292,23 @@
 
   function scrollRight() {
     track.scrollBy({ left: scrollAmount(), behavior: 'smooth' });
+  }
+
+  // ---- CARD CLICK HANDLER ----
+  function handleCardClick(e) {
+    const card = e.target.closest('.fancode-card');
+    if (!card) return;
+    
+    const m3u8Url = card.dataset.m3u8;
+    const title = card.dataset.title || 'Live Match';
+    
+    if (m3u8Url) {
+      e.preventDefault();
+      playM3U8Stream(m3u8Url, title);
+    } else {
+      e.preventDefault();
+      alert('No stream available for this match');
+    }
   }
 
   // ---- INTERSECTION OBSERVER (load on scroll) ----
@@ -197,19 +336,6 @@
     observer.observe(section);
   }
 
-  // ---- CARD CLICK HANDLER ----
-  function handleCardClick(e) {
-    const card = e.target.closest('.fancode-card');
-    if (!card) return;
-    e.preventDefault();
-    const matchId = card.dataset.matchId;
-    if (matchId) {
-      console.log(`FanCode: Match ${matchId} clicked`);
-      // Replace with actual navigation
-      window.location.href = `/live/match-${matchId}.html`;
-    }
-  }
-
   // ---- KEYBOARD NAVIGATION ----
   function handleKeydown(e) {
     if (e.key === 'ArrowLeft') scrollLeft();
@@ -221,11 +347,11 @@
     // Set up event listeners
     if (arrowLeft) arrowLeft.addEventListener('click', scrollLeft);
     if (arrowRight) arrowRight.addEventListener('click', scrollRight);
-    if (track) track.addEventListener('click', handleCardClick);
-    
-    // Keyboard navigation (only when track is focused)
-    if (track) track.addEventListener('keydown', handleKeydown);
-    if (track) track.setAttribute('tabindex', '0');
+    if (track) {
+      track.addEventListener('click', handleCardClick);
+      track.addEventListener('keydown', handleKeydown);
+      track.setAttribute('tabindex', '0');
+    }
 
     // Start lazy load
     initLazyLoad();
