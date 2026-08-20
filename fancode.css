@@ -63,10 +63,15 @@
 }
 .fancode-track::-webkit-scrollbar { display: none; }
 
-/* ---- CARD - EXACT SAME SIZE AS HIGHLIGHTS ---- */
+/* ---- CARD - EXACT SAME SIZE AS HIGHLIGHTS ----
+   NOTE: This single clamp() rule is the ONLY width rule for .fancode-card.
+   .highlight-card in the main stylesheet has no responsive width overrides
+   at any breakpoint, so this card must not have any either — otherwise
+   the two will diverge on mobile/tablet/desktop. Do not add width rules
+   for .fancode-card inside any @media block. */
 .fancode-card {
   flex: 0 0 auto;
-  width: clamp(260px, 34vw, 480px); /* EXACTLY matches highlight-card */
+  width: clamp(260px, 34vw, 480px); /* EXACTLY matches highlight-card, all breakpoints */
   background: #111214;
   border-radius: clamp(8px, 1vw, 14px);
   overflow: hidden;
@@ -270,7 +275,7 @@
 /* ---- SKELETON LOADING - MATCHES CARD SIZE ---- */
 .skeleton-card {
   flex: 0 0 auto;
-  width: clamp(260px, 34vw, 480px);
+  width: clamp(260px, 34vw, 480px); /* same rule as .fancode-card, no breakpoint overrides */
   background: #14161a;
   border-radius: clamp(8px, 1vw, 14px);
   overflow: hidden;
@@ -414,35 +419,32 @@
 .fancode-arrow:active {
   transform: translateY(-50%) scale(0.92);
 }
-.fancode-arrow.arrow-left { 
-  left: clamp(0.2rem, 1.2vw, 0.8rem); 
+.fancode-arrow.arrow-left {
+  left: clamp(0.2rem, 1.2vw, 0.8rem);
 }
-.fancode-arrow.arrow-right { 
-  right: clamp(0.2rem, 1.2vw, 0.8rem); 
+.fancode-arrow.arrow-right {
+  right: clamp(0.2rem, 1.2vw, 0.8rem);
 }
 
-/* ---- RESPONSIVE - EXACTLY MATCHES HIGHLIGHTS ---- */
+/* ---- RESPONSIVE ----
+   Only non-width properties are adjusted here (arrows, title, header padding,
+   team text sizing). Card WIDTH is intentionally NOT touched at any breakpoint
+   so .fancode-card / .skeleton-card stay pixel-identical to .highlight-card,
+   which also has no responsive width rules. */
 @media (max-width: 640px) {
-  .fancode-arrow { 
-    width: clamp(26px, 8vw, 34px); 
-    height: clamp(26px, 8vw, 34px); 
-    font-size: clamp(0.7rem, 3vw, 0.9rem); 
+  .fancode-arrow {
+    width: clamp(26px, 8vw, 34px);
+    height: clamp(26px, 8vw, 34px);
+    font-size: clamp(0.7rem, 3vw, 0.9rem);
   }
-  .fancode-title { 
+  .fancode-title {
     font-size: clamp(0.95rem, 4vw, 1.2rem);
   }
-  .fancode-header { 
-    padding: 0 clamp(0.5rem, 3vw, 1rem); 
+  .fancode-header {
+    padding: 0 clamp(0.5rem, 3vw, 1rem);
   }
   .fancode-track {
     padding: clamp(0.15rem, 0.3vw, 0.3rem) clamp(0.5rem, 3vw, 1rem) clamp(0.4rem, 0.8vw, 0.6rem);
-  }
-  /* Card stays same size on mobile */
-  .fancode-card {
-    width: clamp(220px, 45vw, 280px);
-  }
-  .skeleton-card {
-    width: clamp(220px, 45vw, 280px);
   }
   .fancode-team {
     font-size: clamp(0.7rem, 1.8vw, 0.85rem);
@@ -452,31 +454,4 @@
     width: clamp(20px, 3.5vw, 26px);
     height: clamp(20px, 3.5vw, 26px);
   }
-}
-
-@media (min-width: 641px) and (max-width: 1024px) {
-  .fancode-card {
-    width: clamp(280px, 35vw, 380px);
-  }
-  .skeleton-card {
-    width: clamp(280px, 35vw, 380px);
-  }
-}
-
-@media (min-width: 1025px) {
-  .fancode-card { 
-    width: clamp(320px, 30vw, 420px); 
-  }
-  .skeleton-card { 
-    width: clamp(320px, 30vw, 420px); 
-  }
-}
-
-@media (min-width: 1920px) {
-  .fancode-card { 
-    width: clamp(380px, 28vw, 480px); 
-  }
-  .skeleton-card { 
-    width: clamp(380px, 28vw, 480px); 
-  }
-  }
+    }
