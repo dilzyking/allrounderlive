@@ -1,0 +1,331 @@
+/* fancode.css - FanCode Section Styles */
+
+/* ---- FANCODE SECTION ---- */
+.fancode-section {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 1.5rem 0 2rem;
+  position: relative;
+  background: #0b0d0f;
+}
+
+/* ---- HEADER ---- */
+.fancode-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.2rem;
+  padding: 0 1rem;
+}
+.fancode-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: #ffffff;
+}
+.fancode-title small {
+  font-size: 0.8rem;
+  font-weight: 400;
+  opacity: 0.5;
+  margin-left: 0.2rem;
+}
+.fancode-badge {
+  background: rgba(255,255,255,0.05);
+  padding: 0.25rem 0.9rem;
+  border-radius: 30px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: rgba(255,255,255,0.5);
+  border: 1px solid rgba(255,255,255,0.06);
+}
+
+/* ---- CAROUSEL WRAPPER ---- */
+.fancode-carousel-wrapper {
+  position: relative;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.fancode-track {
+  display: flex;
+  gap: 1.2rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  padding: 0.2rem 0.2rem 0.8rem;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  -webkit-overflow-scrolling: touch;
+}
+.fancode-track::-webkit-scrollbar { display: none; }
+
+/* ---- CARD (matches style) ---- */
+.fancode-card {
+  flex: 0 0 auto;
+  width: 280px;
+  background: #111214;
+  border-radius: 14px;
+  overflow: hidden;
+  transition: transform 0.25s cubic-bezier(0.4,0,0.2,1), box-shadow 0.3s ease;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.5);
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(255,255,255,0.03);
+  cursor: pointer;
+}
+.fancode-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.7);
+  border-color: rgba(255,255,255,0.08);
+}
+
+.fancode-thumb {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #1a1c1e;
+  overflow: hidden;
+}
+.fancode-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  display: block;
+  transition: transform 0.4s ease;
+}
+.fancode-card:hover .fancode-thumb img {
+  transform: scale(1.05);
+}
+
+.fancode-category-tag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(0,0,0,0.75);
+  backdrop-filter: blur(4px);
+  padding: 0.2rem 0.7rem;
+  border-radius: 20px;
+  font-size: 0.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #f5c518;
+  border: 1px solid rgba(255,215,0,0.15);
+  z-index: 2;
+}
+
+.fancode-info {
+  padding: 0.7rem 0.8rem 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  background: #111214;
+}
+
+.fancode-tournament {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: rgba(255,255,255,0.35);
+  font-weight: 600;
+  margin-bottom: 0.15rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.fancode-teams {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.3rem;
+}
+.fancode-team {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 110px;
+}
+.fancode-team img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  object-fit: contain;
+  background: #1e1f22;
+  border: 1px solid rgba(255,255,255,0.05);
+  flex-shrink: 0;
+}
+.fancode-team span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.fancode-vs {
+  color: rgba(255,255,255,0.2);
+  font-weight: 400;
+  font-size: 0.7rem;
+  padding: 0 0.1rem;
+}
+
+.fancode-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.3rem;
+  font-size: 0.7rem;
+  color: rgba(255,255,255,0.4);
+  border-top: 1px solid rgba(255,255,255,0.04);
+  padding-top: 0.4rem;
+}
+.fancode-status {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.6rem;
+  letter-spacing: 0.04em;
+  background: rgba(245,197,24,0.12);
+  padding: 0.15rem 0.6rem;
+  border-radius: 12px;
+  color: #f5c518;
+  border: 1px solid rgba(245,197,24,0.08);
+}
+.fancode-time {
+  font-size: 0.65rem;
+}
+
+/* ---- SKELETON LOADING (NO TEXT) ---- */
+.skeleton-card {
+  flex: 0 0 auto;
+  width: 280px;
+  background: #14161a;
+  border-radius: 14px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(255,255,255,0.02);
+}
+.skeleton-thumb {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: linear-gradient(90deg, #1a1c1e 25%, #23262c 50%, #1a1c1e 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+}
+.skeleton-info {
+  padding: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  background: #14161a;
+}
+.skeleton-line {
+  height: 10px;
+  border-radius: 4px;
+  background: linear-gradient(90deg, #1a1c1e 25%, #23262c 50%, #1a1c1e 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+}
+.skeleton-line.short { width: 40%; }
+.skeleton-line.medium { width: 65%; }
+.skeleton-line.long { width: 85%; }
+
+/* Two team lines side by side */
+.skeleton-teams {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-top: 0.2rem;
+}
+.skeleton-team-block {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex: 1;
+}
+.skeleton-flag {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, #1a1c1e 25%, #23262c 50%, #1a1c1e 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+  flex-shrink: 0;
+}
+.skeleton-name {
+  height: 10px;
+  border-radius: 4px;
+  flex: 1;
+  background: linear-gradient(90deg, #1a1c1e 25%, #23262c 50%, #1a1c1e 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+}
+.skeleton-vs {
+  color: rgba(255,255,255,0.1);
+  font-size: 0.6rem;
+  padding: 0 0.1rem;
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* ---- CAROUSEL ARROWS ---- */
+.fancode-arrow {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: rgba(11,13,15,0.75);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,0.12);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.25s ease;
+  user-select: none;
+}
+.fancode-arrow:hover {
+  background: rgba(11,13,15,0.95);
+  border-color: rgba(255,255,255,0.25);
+  transform: translateY(-50%) scale(1.06);
+}
+.fancode-arrow:active {
+  transform: translateY(-50%) scale(0.92);
+}
+.fancode-arrow.arrow-left { left: 0.2rem; }
+.fancode-arrow.arrow-right { right: 0.2rem; }
+
+/* ---- RESPONSIVE ---- */
+@media (max-width: 640px) {
+  .fancode-arrow { width: 30px; height: 30px; font-size: 0.9rem; }
+  .fancode-card { width: 220px; }
+  .skeleton-card { width: 220px; }
+  .fancode-team { font-size: 0.75rem; max-width: 80px; }
+  .fancode-title { font-size: 1.2rem; }
+  .fancode-header { padding: 0 0.5rem; }
+  .fancode-carousel-wrapper { padding: 0 0.5rem; }
+}
+
+@media (min-width: 1025px) {
+  .fancode-card { width: 300px; }
+  .skeleton-card { width: 300px; }
+}
