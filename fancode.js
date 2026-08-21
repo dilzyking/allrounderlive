@@ -1,21 +1,22 @@
-// fancode.js - FanCode Section with Clean Loading (No Card Overlay)
+// fancode.js - FanCode Section with Dual JSON Fetch
 
 (function() {
   'use strict';
 
   // Configuration
-  const FANCODE_API_URL = 'https://raw.githubusercontent.com/doctor-8trange/zyphx8/refs/heads/main/data/fancode.json';
+  const PREVIOUS_API_URL = 'https://raw.githubusercontent.com/doctor-8trange/zyphx8/refs/heads/main/data/fancode.json';
+  const NEW_API_URL = 'https://raw.githubusercontent.com/drmlive/fancode-live-events/refs/heads/main/fancode.json';
   const SKELETON_COUNT = 6;
 
   // DOM elements
   const track = document.getElementById('fancodeTrack');
   const arrowLeft = document.getElementById('fancodeArrowLeft');
   const arrowRight = document.getElementById('fancodeArrowRight');
-  const badge = document.querySelector('.fancode-badge');
 
   // State
   let isLoading = false;
   let matches = [];
+  let streamUrls = {}; // Store M3U8 URLs by match_id
 
   // ---- SKELETON GENERATOR ----
   function createSkeletonCards(count) {
@@ -49,175 +50,90 @@
     return html;
   }
 
-  // ---- EXTRACT M3U8 URL FROM MATCH DATA ----
-  function extractM3U8Url(match) {
-    console.log('Extracting M3U8 for match:', match.title, 'ID:', match.match_id);
-    
-    // METHOD 1: Check auto_streams
-    if (match.auto_streams && match.auto_streams.length > 0) {
-      console.log('Found auto_streams, count:', match.auto_streams.length);
-      
-      for (let streamIndex = 0; streamIndex < match.auto_streams.length; streamIndex++) {
-        const stream = match.auto_streams[streamIndex];
-        if (stream && stream.auto) {
-          console.log(`Processing stream ${streamIndex}, language:`, stream.language || 'unknown');
-          
-          const lines = stream.auto.split('\n');
-          let highestQuality = '';
-          let highestBandwidth = 0;
-          let allUrls = [];
-          
-          for (let i = 0; i < lines.length; i++) {
-            const line = lines[i];
-            if (line.includes('#EXT-X-STREAM-INF')) {
-              const bandwidthMatch = line.match(/BANDWIDTH=(\d+)/);
-              const resolutionMatch = line.match(/RESOLUTION=(\d+)x(\d+)/);
-              
-              if (bandwidthMatch) {
-                const bandwidth = parseInt(bandwidthMatch[1]);
-                
-                if (i + 1 < lines.length && !lines[i + 1].startsWith('#')) {
-                  const url = lines[i + 1];
-                  allUrls.push({ bandwidth, resolution: resolutionMatch ? `${resolutionMatch[1]}x${resolutionMatch[2]}` : 'unknown', url });
-                  
-                  if (resolutionMatch && resolutionMatch[1] === '1920') {
-                    highestQuality = url;
-                    highestBandwidth = bandwidth;
-                  } else if (!highestQuality || bandwidth > highestBandwidth) {
-                    highestQuality = url;
-                    highestBandwidth = bandwidth;
-                  }
-                }
-              }
-            }
-          }
-          
-          console.log(`Found ${allUrls.length} quality options`);
-          console.log('Selected URL:', highestQuality);
-          
-          if (highestQuality) {
-            let url = highestQuality;
-            
-            if (url.startsWith('http')) {
-              // Already full URL
-            } else if (url.startsWith('/')) {
-              const baseUrl = lines.find(l => l.startsWith('http'));
-              if (baseUrl) {
-                const baseParts = baseUrl.split('/');
-                baseParts.pop();
-                url = baseParts.join('/') + '/' + url;
-              }
-            } else {
-              const fullUrl = lines.find(l => l.startsWith('http'));
-              if (fullUrl) {
-                const baseParts = fullUrl.split('/');
-                baseParts.pop();
-                url = baseParts.join('/') + '/' + url;
-              }
-            }
-            
-            if (stream.cookie) {
-              if (url.includes('?')) {
-                url += '&' + stream.cookie;
-              } else {
-                url += '?' + stream.cookie;
-              }
-            }
-            
-            console.log('Final M3U8 URL:', url);
-            return url;
-          }
-        }
-      }
-    }
-    
-    // METHOD 2: Check STREAMING_CDN
-    if (match.STREAMING_CDN) {
-      if (match.STREAMING_CDN.Primary_Playback_URL) {
-        console.log('Found Primary_Playback_URL:', match.STREAMING_CDN.Primary_Playback_URL);
-        return match.STREAMING_CDN.Primary_Playback_URL;
-      }
-      if (match.STREAMING_CDN.fancode_cdn) {
-        console.log('Found fancode_cdn:', match.STREAMING_CDN.fancode_cdn);
-        return match.STREAMING_CDN.fancode_cdn;
-      }
-      if (match.STREAMING_CDN.backup) {
-        if (match.STREAMING_CDN.backup.fancode_cdn) {
-          console.log('Found backup fancode_cdn:', match.STREAMING_CDN.backup.fancode_cdn);
-          return match.STREAMING_CDN.backup.fancode_cdn;
-        }
-        if (match.STREAMING_CDN.backup.fancode_cdn_v1) {
-          console.log('Found backup fancode_cdn_v1:', match.STREAMING_CDN.backup.fancode_cdn_v1);
-          return match.STREAMING_CDN.backup.fancode_cdn_v1;
-        }
-      }
-    }
-    
-    console.log('No M3U8 URL found for match:', match.title);
-    return null;
-  }
-
-  // ---- FETCH FRESH DATA FOR A SPECIFIC MATCH ----
-  async function fetchFreshMatchData(matchId) {
-    try {
-      console.log('Fetching fresh data for match ID:', matchId);
-      const response = await fetch(FANCODE_API_URL);
-      if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-      
-      const data = await response.json();
-      const allMatches = data.matches || data || [];
-      const match = allMatches.find(m => m.match_id == matchId);
-      
-      if (!match) {
-        console.log('Match not found in fresh data');
-        return null;
-      }
-      
-      console.log('Found fresh match data:', match.title);
-      return match;
-    } catch (error) {
-      console.error('Error fetching fresh match data:', error);
-      return null;
-    }
-  }
-
-  // ---- PLAY M3U8 STREAM - NO CARD OVERLAY ----
-  async function playM3U8Stream(matchId, matchTitle) {
-    if (!matchId) {
-      alert('No match ID available');
-      return;
-    }
+  // ---- FETCH BOTH JSONS AND MERGE ----
+  async function fetchFancodeData() {
+    if (isLoading) return;
+    isLoading = true;
 
     try {
-      // Fetch fresh data
-      const match = await fetchFreshMatchData(matchId);
-      
-      if (!match) {
-        alert('Match data not found. Please try again.');
-        return;
-      }
+      track.innerHTML = createSkeletonCards(SKELETON_COUNT);
 
-      // Extract M3U8 URL from fresh data
-      const m3u8Url = extractM3U8Url(match);
-      
-      if (!m3u8Url) {
-        alert('No stream available for this match');
-        return;
-      }
+      // Fetch both JSONs in parallel
+      const [prevResponse, newResponse] = await Promise.all([
+        fetch(PREVIOUS_API_URL),
+        fetch(NEW_API_URL)
+      ]);
 
-      // Encode and navigate directly - no card overlay
-      const encodedUrl = encodeURIComponent(m3u8Url);
-      const matchName = encodeURIComponent(matchTitle || match.title || match.tournament || 'Live Match');
+      if (!prevResponse.ok) throw new Error('Failed to fetch previous data');
+      if (!newResponse.ok) throw new Error('Failed to fetch stream data');
+
+      const prevData = await prevResponse.json();
+      const newData = await newResponse.json();
+
+      // Extract matches from previous JSON
+      const prevMatches = prevData.matches || prevData || [];
       
-      console.log('Navigating to player with URL:', m3u8Url);
-      console.log('Match:', matchName);
+      // Extract matches from new JSON and build stream URL map
+      const newMatches = newData.matches || newData || [];
       
-      // Navigate directly to player
-      window.location.href = `/fc-play?url=${encodedUrl}&title=${matchName}&match_id=${matchId}`;
+      // Build a map of match_id -> M3U8 URL from new JSON
+      const streamMap = {};
+      newMatches.forEach(match => {
+        if (match.match_id) {
+          // Prefer dai_url, fallback to adfree_url
+          const url = match.dai_url || match.adfree_url || null;
+          if (url) {
+            streamMap[match.match_id] = url;
+            console.log(`Found stream for match ${match.match_id}:`, url);
+          }
+        }
+      });
+
+      console.log(`Found ${Object.keys(streamMap).length} streams from new JSON`);
+      console.log(`Found ${prevMatches.length} matches from previous JSON`);
+
+      // Merge: Add stream URL to previous matches
+      const mergedMatches = prevMatches
+        .filter(m => m.team && m.team.length >= 2) // Only matches with teams
+        .map(m => {
+          const matchId = m.match_id;
+          // Add stream URL if available
+          if (streamMap[matchId]) {
+            m._streamUrl = streamMap[matchId];
+          } else {
+            // Try to find by title match if match_id doesn't match
+            const matchTitle = m.title || '';
+            const newMatch = newMatches.find(nm => {
+              const nmTitle = nm.match_name || nm.title || '';
+              return nmTitle.includes(matchTitle) || matchTitle.includes(nmTitle);
+            });
+            if (newMatch) {
+              m._streamUrl = newMatch.dai_url || newMatch.adfree_url || null;
+            }
+          }
+          return m;
+        });
+
+      matches = mergedMatches;
+
+      // Sort: LIVE first
+      matches.sort((a, b) => {
+        const aLive = a.status === 'LIVE' || a.status === 'IN_PROGRESS' ? 0 : 1;
+        const bLive = b.status === 'LIVE' || b.status === 'IN_PROGRESS' ? 0 : 1;
+        return aLive - bLive;
+      });
+
+      renderMatches(matches);
 
     } catch (error) {
-      console.error('Error playing stream:', error);
-      alert('Failed to load stream. Please try again.');
+      console.error('FanCode fetch error:', error);
+      track.innerHTML = `
+        <div style="color: rgba(255,255,255,0.4); padding: 2rem; text-align: center; width: 100%;">
+          ⚠️ Failed to load matches
+        </div>
+      `;
+    } finally {
+      isLoading = false;
     }
   }
 
@@ -234,11 +150,14 @@
 
     let html = '';
     matchData.forEach(match => {
+      // Get team info from previous JSON structure
       const team1 = match.team && match.team[0] ? match.team[0] : { name: 'Team 1', shortName: 'T1', flag: { src: '' } };
       const team2 = match.team && match.team[1] ? match.team[1] : { name: 'Team 2', shortName: 'T2', flag: { src: '' } };
       
+      // Get image from previous JSON
       const imageUrl = match.image_cdn?.APP || match.image || match.image_cdn?.BG_IMAGE || '';
       
+      // Format status
       let statusText = match.status || 'UPCOMING';
       const isLive = statusText === 'LIVE' || statusText === 'IN_PROGRESS';
       const isEnded = statusText === 'ENDED' || statusText === 'FINISHED' || statusText === 'COMPLETED';
@@ -250,6 +169,7 @@
       if (isLive) statusClass = 'live';
       if (isEnded) statusClass = 'ended';
 
+      // Get team scores from previous JSON
       let team1Score = '';
       let team2Score = '';
       if (match.category === 'Cricket') {
@@ -273,10 +193,11 @@
         }
       }
 
-      const hasStream = !!(match.auto_streams?.length > 0 || match.STREAMING_CDN?.Primary_Playback_URL);
+      // Check if stream exists (from new JSON)
+      const hasStream = !!(match._streamUrl);
 
       html += `
-        <div class="fancode-card" data-match-id="${match.match_id || ''}" data-title="${match.title || match.tournament || 'Live Match'}">
+        <div class="fancode-card" data-match-id="${match.match_id || ''}" data-stream-url="${match._streamUrl || ''}" data-title="${match.title || match.tournament || 'Live Match'}">
           <div class="fancode-thumb">
             <img 
               src="${imageUrl}" 
@@ -316,51 +237,54 @@
     });
 
     track.innerHTML = html;
-    updateBadge(matchData.length);
   }
 
-  // ---- UPDATE BADGE ----
-  function updateBadge(count) {
-    if (badge) {
-      const liveCount = matches.filter(m => m.status === 'LIVE' || m.status === 'IN_PROGRESS').length;
-      const total = count || matches.length;
-      badge.textContent = liveCount > 0 ? `🔴 ${liveCount} live · ${total} matches` : `🏏 ${total} matches`;
+  // ---- PLAY M3U8 STREAM ----
+  async function playM3U8Stream(matchId, matchTitle, streamUrl) {
+    if (!matchId) {
+      alert('No match ID available');
+      return;
     }
-  }
 
-  // ---- FETCH DATA ----
-  async function fetchFancodeData() {
-    if (isLoading) return;
-    isLoading = true;
+    // If we already have the stream URL, use it directly
+    if (streamUrl) {
+      console.log('Using cached stream URL:', streamUrl);
+      const encodedUrl = encodeURIComponent(streamUrl);
+      const matchName = encodeURIComponent(matchTitle || 'Live Match');
+      window.location.href = `/fc-play?url=${encodedUrl}&title=${matchName}&match_id=${matchId}`;
+      return;
+    }
 
+    // Otherwise, fetch fresh from new JSON
     try {
-      track.innerHTML = createSkeletonCards(SKELETON_COUNT);
-
-      const response = await fetch(FANCODE_API_URL);
+      const response = await fetch(NEW_API_URL);
       if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
       
       const data = await response.json();
+      const allMatches = data.matches || data || [];
+      const match = allMatches.find(m => m.match_id == matchId);
       
-      matches = data.matches || data || [];
-      matches = matches.filter(m => m.team && m.team.length >= 2);
+      if (!match) {
+        alert('Match data not found. Please try again.');
+        return;
+      }
+
+      const m3u8Url = match.dai_url || match.adfree_url || null;
       
-      matches.sort((a, b) => {
-        const aLive = a.status === 'LIVE' || a.status === 'IN_PROGRESS' ? 0 : 1;
-        const bLive = b.status === 'LIVE' || b.status === 'IN_PROGRESS' ? 0 : 1;
-        return aLive - bLive;
-      });
+      if (!m3u8Url) {
+        alert('No stream available for this match');
+        return;
+      }
+
+      const encodedUrl = encodeURIComponent(m3u8Url);
+      const matchName = encodeURIComponent(matchTitle || match.match_name || 'Live Match');
       
-      renderMatches(matches);
+      console.log('Navigating to player with URL:', m3u8Url);
+      window.location.href = `/fc-play?url=${encodedUrl}&title=${matchName}&match_id=${matchId}`;
 
     } catch (error) {
-      console.error('FanCode fetch error:', error);
-      track.innerHTML = `
-        <div style="color: rgba(255,255,255,0.4); padding: 2rem; text-align: center; width: 100%;">
-          ⚠️ Failed to load matches
-        </div>
-      `;
-    } finally {
-      isLoading = false;
+      console.error('Error playing stream:', error);
+      alert('Failed to load stream. Please try again.');
     }
   }
 
@@ -388,11 +312,12 @@
     
     const matchId = card.dataset.matchId;
     const title = card.dataset.title || 'Live Match';
+    const streamUrl = card.dataset.streamUrl || '';
     
     if (matchId) {
       e.preventDefault();
       e.stopPropagation();
-      playM3U8Stream(matchId, title);
+      playM3U8Stream(matchId, title, streamUrl);
     } else {
       e.preventDefault();
       alert('Invalid match');
