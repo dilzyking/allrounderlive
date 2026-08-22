@@ -2282,7 +2282,10 @@
   <div class="willow-live-header">
     <h2 class="willow-live-title">
       Willow Live
-      
+      <span class="live-count-badge" id="liveCountBadge">
+        <span class="material-icons" style="font-size: 14px;">fiber_manual_record</span>
+        0 LIVE
+      </span>
     </h2>
   </div>
 
@@ -2290,7 +2293,7 @@
     <button class="carousel-arrow arrow-left" id="willowLiveArrowLeft" aria-label="Scroll left">&#10094;</button>
 
     <div class="willow-live-track" id="willowLiveTrack">
-      <div class="willow-loading">⏳ Loading live matches...</div>
+      <!-- Skeleton loader will be injected here by JavaScript -->
     </div>
 
     <button class="carousel-arrow arrow-right" id="willowLiveArrowRight" aria-label="Scroll right">&#10095;</button>
