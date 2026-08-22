@@ -6,7 +6,80 @@
   background: var(--bg-primary, #0b0d0f);
   z-index: 3;
 }
+/* ====== SKELETON LOADER STYLES ====== */
+.skeleton-card {
+  pointer-events: none;
+  cursor: default;
+}
 
+.skeleton-thumb {
+  position: relative;
+  background: #1a1f26;
+  overflow: hidden;
+}
+
+.skeleton-info {
+  background: #14181f;
+  padding: clamp(0.5rem, 1.1vw, 0.8rem) clamp(0.5rem, 1vw, 0.8rem);
+  min-height: clamp(50px, 8vh, 80px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+}
+
+.skeleton-line {
+  background: #2a303a;
+  border-radius: 4px;
+  height: 14px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.skeleton-line-title {
+  height: 18px;
+  width: 85%;
+}
+
+.skeleton-line-subtitle {
+  height: 12px;
+  width: 60%;
+}
+
+.skeleton-shimmer {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.05) 20%,
+    rgba(255, 255, 255, 0.08) 40%,
+    rgba(255, 255, 255, 0.05) 60%,
+    transparent 100%
+  );
+  animation: shimmer 1.8s ease-in-out infinite;
+  transform: translateX(-100%);
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* Responsive skeleton */
+@media (max-width: 640px) {
+  .skeleton-line-title {
+    height: 16px;
+  }
+  .skeleton-line-subtitle {
+    height: 10px;
+  }
+}
 .willow-live-header {
   padding: 0 clamp(1rem, 5vw, 3rem);
   margin-bottom: clamp(0.7rem, 1.8vw, 1.4rem);
