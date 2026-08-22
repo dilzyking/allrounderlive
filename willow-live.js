@@ -19,12 +19,35 @@ function getSafeStreamId(stream) {
   return stream.tvgId || stream.tvgName || stream.title || stream.match_id || '';
 }
 
+// ====== RENDER SKELETON LOADER ======
+function renderSkeletonLoader() {
+  if (!willowTrack) return;
+  
+  const skeletonCount = 4; // Number of skeleton cards to show
+  let skeletons = '';
+  
+  for (let i = 0; i < skeletonCount; i++) {
+    skeletons += `
+      <div class="willow-live-card skeleton-card">
+        <div class="willow-live-thumb skeleton-thumb">
+          <div class="skeleton-shimmer"></div>
+        </div>
+        <div class="willow-live-info skeleton-info">
+          <div class="skeleton-line skeleton-line-title"></div>
+          <div class="skeleton-line skeleton-line-subtitle"></div>
+        </div>
+      </div>
+    `;
+  }
+  
+  willowTrack.innerHTML = skeletons;
+}
+
 // ====== FETCH MATCHES FROM API ======
 async function fetchWillowMatches() {
   try {
-    if (willowTrack) {
-      willowTrack.innerHTML = '<div class="willow-loading">⏳ Loading matches...</div>';
-    }
+    // Show skeleton loader immediately
+    renderSkeletonLoader();
 
     const response = await fetch(WILLOW_API_URL);
 
@@ -355,6 +378,8 @@ if (willowArrowLeft) {
 }
 
 // ====== INIT ======
+// Start with skeleton loader
+renderSkeletonLoader();
 fetchWillowMatches();
 // Refresh every 5 minutes
 setInterval(fetchWillowMatches, 300000);
