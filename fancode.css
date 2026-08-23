@@ -1,22 +1,27 @@
 /* fancode.css - FanCode Section Styles */
 
 /* ---- FANCODE SECTION ---- */
+/* Make FanCode match Willow layout exactly */
 .fancode-section {
   max-width: 1440px;
   margin: 0 auto;
   padding: clamp(0.6rem, 1.5vw, 1.2rem) 0 clamp(1rem, 3vw, 2rem);
   position: relative;
   background: #0b0d0f;
+  z-index: 3; /* ADD - matches willow */
 }
 
-/* ---- HEADER ---- */
+/* Match header padding exactly */
 .fancode-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: clamp(0.7rem, 1.8vw, 1.4rem);
-  padding: 0 clamp(1rem, 5vw, 3rem);
+  padding: 0 clamp(1rem, 5vw, 3rem); /* MATCH WILLOW */
+  /* Remove any other padding or margin that might offset it */
 }
+
+
 
 .fancode-title {
   font-size: clamp(1.05rem, 2.2vw, 1.7rem);
