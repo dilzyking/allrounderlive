@@ -18,36 +18,35 @@
   let matches = [];
   let streamUrls = {}; // Store M3U8 URLs by match_id
 
-  // ---- SKELETON GENERATOR ----
   function createSkeletonCards(count) {
-    let html = '';
-    for (let i = 0; i < count; i++) {
-      html += `
-        <div class="skeleton-card">
-          <div class="skeleton-thumb"></div>
-          <div class="skeleton-info">
-            <div class="skeleton-line short"></div>
-            <div class="skeleton-line medium"></div>
-            <div class="skeleton-teams">
-              <div class="skeleton-team-block">
-                <div class="skeleton-flag"></div>
-                <div class="skeleton-name"></div>
-              </div>
-              <span class="skeleton-vs">VS</span>
-              <div class="skeleton-team-block">
-                <div class="skeleton-flag"></div>
-                <div class="skeleton-name"></div>
-              </div>
+  let html = '';
+  for (let i = 0; i < count; i++) {
+    html += `
+      <div class="fancode-card fc-skeleton-card">
+        <div class="fc-skeleton-thumb"></div>
+        <div class="fc-skeleton-info">
+          <div class="fc-skeleton-line short"></div>
+          <div class="fc-skeleton-line medium"></div>
+          <div class="fc-skeleton-teams">
+            <div class="fc-skeleton-team-block">
+              <div class="fc-skeleton-flag"></div>
+              <div class="fc-skeleton-name"></div>
             </div>
-            <div style="display:flex; justify-content:space-between; margin-top:0.3rem;">
-              <div class="skeleton-line" style="width:30%;"></div>
-              <div class="skeleton-line" style="width:25%;"></div>
+            <span class="fc-skeleton-vs">VS</span>
+            <div class="fc-skeleton-team-block">
+              <div class="fc-skeleton-flag"></div>
+              <div class="fc-skeleton-name"></div>
             </div>
           </div>
+          <div class="fc-skeleton-meta">
+            <div class="fc-skeleton-badge"></div>
+            <div class="fc-skeleton-time"></div>
+          </div>
         </div>
-      `;
-    }
-    return html;
+      </div>
+    `;
+  }
+  return html;
   }
 
   // ---- FETCH BOTH JSONS AND MERGE ----
