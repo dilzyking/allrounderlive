@@ -1,85 +1,17 @@
-/* ====== WILLOW LIVE MATCHES SECTION ====== */
+/* ============================================================
+   willow-live.css - Willow Live Matches Section Styles
+   ============================================================ */
+
 .willow-live-section {
   position: relative;
   width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
   padding: clamp(0.6rem, 1.5vw, 1.2rem) 0 clamp(1rem, 3vw, 2rem);
   background: var(--bg-primary, #0b0d0f);
   z-index: 3;
 }
-/* ====== SKELETON LOADER STYLES ====== */
-.skeleton-card {
-  pointer-events: none;
-  cursor: default;
-}
 
-.skeleton-thumb {
-  position: relative;
-  background: #1a1f26;
-  overflow: hidden;
-}
-
-.skeleton-info {
-  background: #14181f;
-  padding: clamp(0.5rem, 1.1vw, 0.8rem) clamp(0.5rem, 1vw, 0.8rem);
-  min-height: clamp(50px, 8vh, 80px);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 8px;
-}
-
-.skeleton-line {
-  background: #2a303a;
-  border-radius: 4px;
-  height: 14px;
-  width: 100%;
-  position: relative;
-  overflow: hidden;
-}
-
-.skeleton-line-title {
-  height: 18px;
-  width: 85%;
-}
-
-.skeleton-line-subtitle {
-  height: 12px;
-  width: 60%;
-}
-
-.skeleton-shimmer {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    90deg,
-    transparent 0%,
-    rgba(255, 255, 255, 0.05) 20%,
-    rgba(255, 255, 255, 0.08) 40%,
-    rgba(255, 255, 255, 0.05) 60%,
-    transparent 100%
-  );
-  animation: shimmer 1.8s ease-in-out infinite;
-  transform: translateX(-100%);
-}
-
-@keyframes shimmer {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(100%);
-  }
-}
-
-/* Responsive skeleton */
-@media (max-width: 640px) {
-  .skeleton-line-title {
-    height: 16px;
-  }
-  .skeleton-line-subtitle {
-    height: 10px;
-  }
-}
 .willow-live-header {
   padding: 0 clamp(1rem, 5vw, 3rem);
   margin-bottom: clamp(0.7rem, 1.8vw, 1.4rem);
@@ -143,7 +75,7 @@
   display: none;
 }
 
-/* ====== WILLOW LIVE CARD ====== */
+/* ---- WILLOW LIVE CARD ---- */
 .willow-live-card {
   flex: 0 0 auto;
   width: clamp(260px, 34vw, 480px);
@@ -165,13 +97,12 @@
   box-shadow: 0 8px 30px rgba(245, 175, 25, 0.15);
 }
 
-/* Upcoming card style */
 .willow-live-card.upcoming:hover {
   border-color: #4a5362;
   box-shadow: 0 8px 30px rgba(255, 255, 255, 0.05);
 }
 
-/* ====== THUMBNAIL ====== */
+/* ---- THUMBNAIL ---- */
 .willow-live-thumb {
   position: relative;
   width: 100%;
@@ -193,7 +124,7 @@
   transform: scale(1.08);
 }
 
-/* ====== LIVE BADGE ====== */
+/* ---- BADGES ---- */
 .willow-live-badge-live {
   position: absolute;
   top: 10px;
@@ -213,7 +144,6 @@
   gap: 0.2rem;
 }
 
-/* ====== UPCOMING BADGE ====== */
 .willow-live-badge-upcoming {
   position: absolute;
   top: 10px;
@@ -232,7 +162,6 @@
   gap: 0.2rem;
 }
 
-/* ====== UPCOMING TIME ====== */
 .willow-live-upcoming-time {
   font-size: clamp(0.5rem, 0.8vw, 0.65rem);
   color: #f5c518;
@@ -242,7 +171,7 @@
   margin-top: 1px;
 }
 
-/* ====== PLAY OVERLAY ====== */
+/* ---- PLAY OVERLAY ---- */
 .willow-live-overlay {
   position: absolute;
   inset: 0;
@@ -271,7 +200,7 @@
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.35);
 }
 
-/* ====== CARD INFO ====== */
+/* ---- CARD INFO ---- */
 .willow-live-info {
   padding: clamp(0.5rem, 1.1vw, 0.8rem) clamp(0.5rem, 1vw, 0.8rem);
   display: flex;
@@ -281,7 +210,6 @@
   justify-content: center;
 }
 
-/* ====== WILLOW LIVE MATCH TITLE ====== */
 .willow-live-match-title {
   display: flex;
   align-items: center;
@@ -298,7 +226,6 @@
   text-overflow: ellipsis;
 }
 
-/* ====== TEAM NAME ====== */
 .willow-live-team {
   color: #ffffff;
   font-weight: 600;
@@ -312,7 +239,6 @@
   text-overflow: ellipsis;
 }
 
-/* ====== VS SEPARATOR ====== */
 .willow-live-vs {
   color: rgba(255, 255, 255, 0.35);
   font-weight: 400;
@@ -322,7 +248,6 @@
   flex-shrink: 0;
 }
 
-/* ====== TOURNAMENT/GROUP TAG ====== */
 .willow-live-group {
   font-size: clamp(0.5rem, 0.8vw, 0.65rem);
   color: #f5c518;
@@ -336,7 +261,7 @@
   text-overflow: ellipsis;
 }
 
-/* ====== LOADING STATE ====== */
+/* ---- LOADING / ERROR ---- */
 .willow-loading {
   text-align: center;
   padding: 40px;
@@ -345,7 +270,6 @@
   font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
 }
 
-/* ====== ERROR STATE ====== */
 .willow-error {
   text-align: center;
   padding: 40px;
@@ -365,7 +289,68 @@
   font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
 }
 
-/* ====== CAROUSEL ARROWS ====== */
+/* ---- WILLOW SKELETON (namespaced: willow-skeleton-*, no collision with fancode.css) ---- */
+.willow-skeleton-card {
+  pointer-events: none;
+  cursor: default;
+}
+
+.willow-skeleton-thumb {
+  position: relative;
+  background: #1a1f26;
+  overflow: hidden;
+}
+
+.willow-skeleton-info {
+  background: #14181f;
+  padding: clamp(0.5rem, 1.1vw, 0.8rem) clamp(0.5rem, 1vw, 0.8rem);
+  min-height: clamp(50px, 8vh, 80px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+}
+
+.willow-skeleton-line {
+  background: #2a303a;
+  border-radius: 4px;
+  height: 14px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.willow-skeleton-line-title {
+  height: 18px;
+  width: 85%;
+}
+
+.willow-skeleton-line-subtitle {
+  height: 12px;
+  width: 60%;
+}
+
+.willow-skeleton-shimmer {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.05) 20%,
+    rgba(255, 255, 255, 0.08) 40%,
+    rgba(255, 255, 255, 0.05) 60%,
+    transparent 100%
+  );
+  animation: willow-shimmer 1.8s ease-in-out infinite;
+  transform: translateX(-100%);
+}
+
+@keyframes willow-shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+/* ---- CAROUSEL ARROWS ---- */
 .carousel-arrow {
   position: absolute;
   top: 40%;
@@ -399,22 +384,25 @@
   transform: translateY(-50%) scale(0.92);
 }
 
-.carousel-arrow.arrow-left {
-  left: clamp(0.2rem, 1.2vw, 0.8rem);
-}
+.carousel-arrow.arrow-left { left: clamp(0.2rem, 1.2vw, 0.8rem); }
+.carousel-arrow.arrow-right { right: clamp(0.2rem, 1.2vw, 0.8rem); }
 
-.carousel-arrow.arrow-right {
-  right: clamp(0.2rem, 1.2vw, 0.8rem);
-}
-
-/* ====== ANIMATIONS ====== */
 @keyframes pulse {
   0%, 100% { opacity: 0.7; }
   50% { opacity: 1; }
 }
 
-/* ====== RESPONSIVE ====== */
+/* ---- WILLOW RESPONSIVE ----
+   IMPORTANT: the mobile horizontal padding below (0.5rem/3vw/1rem) MUST
+   stay identical to .fancode-header / .fancode-track mobile padding in
+   fancode.css, or the two sections will visually misalign on mobile. */
 @media (max-width: 640px) {
+  .willow-live-header,
+  .willow-live-track {
+    padding-left: clamp(0.5rem, 3vw, 1rem);
+    padding-right: clamp(0.5rem, 3vw, 1rem);
+  }
+
   .carousel-arrow {
     width: clamp(26px, 8vw, 34px);
     height: clamp(26px, 8vw, 34px);
@@ -424,16 +412,16 @@
   .willow-live-title {
     font-size: clamp(0.95rem, 4vw, 1.2rem);
   }
-  
+
   .willow-live-team {
     max-width: 40%;
     font-size: clamp(0.75rem, 2vw, 0.9rem);
   }
-  
+
   .willow-live-vs {
     font-size: clamp(0.6rem, 1.5vw, 0.75rem);
   }
-  
+
   .willow-live-match-title {
     font-size: clamp(0.75rem, 2vw, 0.9rem);
   }
@@ -444,23 +432,23 @@
     max-width: 35%;
     font-size: clamp(0.65rem, 1.8vw, 0.8rem);
   }
-  
+
   .willow-live-vs {
     font-size: clamp(0.5rem, 1.2vw, 0.65rem);
   }
-  
+
   .willow-live-match-title {
     font-size: clamp(0.65rem, 1.8vw, 0.8rem);
     gap: clamp(0.1rem, 0.3vw, 0.3rem);
   }
-  
+
   .willow-live-info {
     min-height: clamp(40px, 6vh, 60px);
     padding: clamp(0.3rem, 0.8vw, 0.5rem) clamp(0.3rem, 0.8vw, 0.5rem);
   }
-  
+
   .willow-live-badge-upcoming {
     font-size: 0.5rem;
     padding: 0.15rem 0.4rem;
   }
-    }
+}
