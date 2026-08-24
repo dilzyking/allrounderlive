@@ -16,7 +16,7 @@
   // State
   let isLoading = false;
   let matches = [];
-  let streamUrls = {}; // Store M3U8 URLs by match_id
+  let newMatchesCache = []; // Cache the new JSON data
 
   function createSkeletonCards(count) {
     let html = '';
@@ -49,6 +49,39 @@
     return html;
   }
 
+  // Helper function to extract base match ID (remove language suffix)
+  function getBaseMatchId(matchId) {
+    if (!matchId) return '';
+    let baseId = String(matchId);
+    // If contains underscore, take the part before it
+    if (baseId.includes('_')) {
+      baseId = baseId.split('_')[0];
+    }
+    return baseId;
+  }
+
+  // Helper to check if two match titles match
+  function titlesMatch(title1, title2) {
+    if (!title1 || !title2) return false;
+    const t1 = title1.toLowerCase().trim();
+    const t2 = title2.toLowerCase().trim();
+    // Check if one contains the other
+    if (t1.includes(t2) || t2.includes(t1)) return true;
+    // Check if they share significant words (at least 2 words)
+    const words1 = t1.split(' ').filter(w => w.length > 3);
+    const words2 = t2.split(' ').filter(w => w.length > 3);
+    let matchCount = 0;
+    for (const w1 of words1) {
+      for (const w2 of words2) {
+        if (w1 === w2 || w1.includes(w2) || w2.includes(w1)) {
+          matchCount++;
+          if (matchCount >= 2) return true;
+        }
+      }
+    }
+    return false;
+  }
+
   // ---- FETCH BOTH JSONS AND MERGE ----
   async function fetchFancodeData() {
     if (isLoading) return;
@@ -69,23 +102,21 @@
       const prevData = await prevResponse.json();
       const newData = await newResponse.json();
 
+      // Store new matches in cache for later use
+      newMatchesCache = newData.matches || newData || [];
+      
       // Extract matches from previous JSON
       const prevMatches = prevData.matches || prevData || [];
       
-      // Extract matches from new JSON and build stream URL map
-      const newMatches = newData.matches || newData || [];
-      
       // Build a map of match_id -> M3U8 URL from new JSON
-      // IMPORTANT: Convert match_id to string for comparison
       const streamMap = {};
-      newMatches.forEach(match => {
+      newMatchesCache.forEach(match => {
         if (match.match_id) {
-          const matchIdStr = String(match.match_id); // Convert to string
-          // Prefer dai_url, fallback to adfree_url
+          const matchIdStr = String(match.match_id);
           const url = match.dai_url || match.adfree_url || null;
           if (url) {
             streamMap[matchIdStr] = url;
-            console.log(`Found stream for match ${matchIdStr}:`, url);
+            console.log(`Found stream for match ID: ${matchIdStr}`);
           }
         }
       });
@@ -95,34 +126,46 @@
 
       // Merge: Add stream URL to previous matches
       const mergedMatches = prevMatches
-        .filter(m => m.team && m.team.length >= 2) // Only matches with teams
+        .filter(m => m.team && m.team.length >= 2)
         .map(m => {
-          // Extract base match ID (remove language suffix like _HIN, _ENG, _BHO, etc.)
-          let baseMatchId = String(m.match_id || '');
-          // If match_id contains underscore, take the part before it
-          if (baseMatchId.includes('_')) {
-            baseMatchId = baseMatchId.split('_')[0];
-          }
+          const fullMatchId = String(m.match_id || '');
+          const baseMatchId = getBaseMatchId(fullMatchId);
           
           // Try to find stream using base match ID
+          let foundStream = null;
+          
+          // Method 1: Direct match by base ID
           if (streamMap[baseMatchId]) {
-            m._streamUrl = streamMap[baseMatchId];
-            console.log(`Matched stream for ${m.match_id} (base: ${baseMatchId})`);
+            foundStream = streamMap[baseMatchId];
+            console.log(`✅ Matched by ID: ${fullMatchId} -> ${baseMatchId}`);
           } else {
-            // Fallback: try to find by title match
+            // Method 2: Try to find by title match
             const matchTitle = m.title || m.match_name || '';
-            const newMatch = newMatches.find(nm => {
-              const nmTitle = nm.match_name || nm.title || '';
-              // Check if titles match significantly
-              return nmTitle.includes(matchTitle) || matchTitle.includes(nmTitle);
-            });
-            if (newMatch) {
-              m._streamUrl = newMatch.dai_url || newMatch.adfree_url || null;
-              if (m._streamUrl) {
-                console.log(`Matched stream by title for ${m.match_id}`);
+            const matchTeams = m.team.map(t => t.name || '').join(' ');
+            const searchText = (matchTitle + ' ' + matchTeams).toLowerCase();
+            
+            for (const nm of newMatchesCache) {
+              const nmTitle = (nm.match_name || nm.title || '').toLowerCase();
+              const nmTeams = (nm.team_1 + ' ' + nm.team_2 || '').toLowerCase();
+              const nmSearchText = nmTitle + ' ' + nmTeams;
+              
+              // Check if titles match
+              if (titlesMatch(searchText, nmSearchText)) {
+                foundStream = nm.dai_url || nm.adfree_url || null;
+                if (foundStream) {
+                  console.log(`✅ Matched by title: "${matchTitle}" -> "${nm.match_name || nm.title}"`);
+                  break;
+                }
               }
             }
           }
+          
+          if (foundStream) {
+            m._streamUrl = foundStream;
+          } else {
+            console.log(`❌ No stream found for: ${fullMatchId} - ${m.title || ''}`);
+          }
+          
           return m;
         });
 
@@ -141,7 +184,7 @@
       console.error('FanCode fetch error:', error);
       track.innerHTML = `
         <div style="color: rgba(255,255,255,0.4); padding: 2rem; text-align: center; width: 100%;">
-          ⚠️ Failed to load matches
+          ⚠️ Failed to load matches: ${error.message}
         </div>
       `;
     } finally {
@@ -205,14 +248,11 @@
         }
       }
 
-      // Check if stream exists (from new JSON)
+      // Check if stream exists
       const hasStream = !!(match._streamUrl);
 
-      // Get the base match ID for the data attribute (without language suffix)
-      let baseMatchId = String(match.match_id || '');
-      if (baseMatchId.includes('_')) {
-        baseMatchId = baseMatchId.split('_')[0];
-      }
+      // Get the base match ID for the data attribute
+      const baseMatchId = getBaseMatchId(match.match_id);
 
       html += `
         <div class="fancode-card" data-match-id="${baseMatchId}" data-full-match-id="${match.match_id || ''}" data-stream-url="${match._streamUrl || ''}" data-title="${match.title || match.tournament || 'Live Match'}">
@@ -259,14 +299,16 @@
 
   // ---- PLAY M3U8 STREAM ----
   async function playM3U8Stream(matchId, matchTitle, streamUrl) {
+    console.log('🔍 Playing stream for:', { matchId, matchTitle, streamUrl });
+    
     if (!matchId) {
       alert('No match ID available');
       return;
     }
 
     // If we already have the stream URL, use it directly
-    if (streamUrl) {
-      console.log('Using cached stream URL:', streamUrl);
+    if (streamUrl && streamUrl.includes('m3u8')) {
+      console.log('✅ Using cached stream URL:', streamUrl);
       const encodedUrl = encodeURIComponent(streamUrl);
       const matchName = encodeURIComponent(matchTitle || 'Live Match');
       window.location.href = `/fc-play?url=${encodedUrl}&title=${matchName}&match_id=${matchId}`;
@@ -281,25 +323,30 @@
       const data = await response.json();
       const allMatches = data.matches || data || [];
       
-      // Extract base match ID (remove language suffix if present)
-      let baseMatchId = String(matchId);
-      if (baseMatchId.includes('_')) {
-        baseMatchId = baseMatchId.split('_')[0];
-      }
+      // Extract base match ID
+      const baseMatchId = getBaseMatchId(matchId);
+      console.log(`🔍 Looking for match with base ID: ${baseMatchId}`);
       
-      // Try to find match by base ID (converted to number for comparison)
-      // New JSON has match_id as number, old has string with underscore
+      // Method 1: Try to find match by base ID
       let match = allMatches.find(m => String(m.match_id) === baseMatchId);
       
-      // If not found, try by title
-      if (!match && matchTitle) {
+      if (match) {
+        console.log(`✅ Found match by ID: ${match.match_id}`);
+      } else {
+        // Method 2: Try to find by title
+        console.log(`🔍 Trying to find by title: "${matchTitle}"`);
         match = allMatches.find(m => {
-          const mTitle = m.match_name || m.title || '';
-          return mTitle.includes(matchTitle) || matchTitle.includes(mTitle);
+          const mTitle = (m.match_name || m.title || '').toLowerCase();
+          const searchTitle = (matchTitle || '').toLowerCase();
+          return mTitle.includes(searchTitle) || searchTitle.includes(mTitle);
         });
+        if (match) {
+          console.log(`✅ Found match by title: ${match.match_name || match.title}`);
+        }
       }
 
       if (!match) {
+        console.error('❌ Match not found in new JSON');
         alert('Match data not found. Please try again.');
         return;
       }
@@ -307,18 +354,19 @@
       const m3u8Url = match.dai_url || match.adfree_url || null;
       
       if (!m3u8Url) {
+        console.error('❌ No stream URL found for match');
         alert('No stream available for this match');
         return;
       }
 
+      console.log('✅ Found stream URL:', m3u8Url);
       const encodedUrl = encodeURIComponent(m3u8Url);
       const matchName = encodeURIComponent(matchTitle || match.match_name || 'Live Match');
       
-      console.log('Navigating to player with URL:', m3u8Url);
       window.location.href = `/fc-play?url=${encodedUrl}&title=${matchName}&match_id=${matchId}`;
 
     } catch (error) {
-      console.error('Error playing stream:', error);
+      console.error('❌ Error playing stream:', error);
       alert('Failed to load stream. Please try again.');
     }
   }
@@ -348,6 +396,8 @@
     const matchId = card.dataset.matchId || card.dataset.fullMatchId;
     const title = card.dataset.title || 'Live Match';
     const streamUrl = card.dataset.streamUrl || '';
+    
+    console.log('🖱️ Card clicked:', { matchId, title, streamUrl });
     
     if (matchId) {
       e.preventDefault();
