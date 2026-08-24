@@ -19,34 +19,34 @@
   let streamUrls = {}; // Store M3U8 URLs by match_id
 
   function createSkeletonCards(count) {
-  let html = '';
-  for (let i = 0; i < count; i++) {
-    html += `
-      <div class="fancode-card fc-skeleton-card">
-        <div class="fc-skeleton-thumb"></div>
-        <div class="fc-skeleton-info">
-          <div class="fc-skeleton-line short"></div>
-          <div class="fc-skeleton-line medium"></div>
-          <div class="fc-skeleton-teams">
-            <div class="fc-skeleton-team-block">
-              <div class="fc-skeleton-flag"></div>
-              <div class="fc-skeleton-name"></div>
+    let html = '';
+    for (let i = 0; i < count; i++) {
+      html += `
+        <div class="fancode-card fc-skeleton-card">
+          <div class="fc-skeleton-thumb"></div>
+          <div class="fc-skeleton-info">
+            <div class="fc-skeleton-line short"></div>
+            <div class="fc-skeleton-line medium"></div>
+            <div class="fc-skeleton-teams">
+              <div class="fc-skeleton-team-block">
+                <div class="fc-skeleton-flag"></div>
+                <div class="fc-skeleton-name"></div>
+              </div>
+              <span class="fc-skeleton-vs">VS</span>
+              <div class="fc-skeleton-team-block">
+                <div class="fc-skeleton-flag"></div>
+                <div class="fc-skeleton-name"></div>
+              </div>
             </div>
-            <span class="fc-skeleton-vs">VS</span>
-            <div class="fc-skeleton-team-block">
-              <div class="fc-skeleton-flag"></div>
-              <div class="fc-skeleton-name"></div>
+            <div class="fc-skeleton-meta">
+              <div class="fc-skeleton-badge"></div>
+              <div class="fc-skeleton-time"></div>
             </div>
-          </div>
-          <div class="fc-skeleton-meta">
-            <div class="fc-skeleton-badge"></div>
-            <div class="fc-skeleton-time"></div>
           </div>
         </div>
-      </div>
-    `;
-  }
-  return html;
+      `;
+    }
+    return html;
   }
 
   // ---- FETCH BOTH JSONS AND MERGE ----
@@ -76,14 +76,16 @@
       const newMatches = newData.matches || newData || [];
       
       // Build a map of match_id -> M3U8 URL from new JSON
+      // IMPORTANT: Convert match_id to string for comparison
       const streamMap = {};
       newMatches.forEach(match => {
         if (match.match_id) {
+          const matchIdStr = String(match.match_id); // Convert to string
           // Prefer dai_url, fallback to adfree_url
           const url = match.dai_url || match.adfree_url || null;
           if (url) {
-            streamMap[match.match_id] = url;
-            console.log(`Found stream for match ${match.match_id}:`, url);
+            streamMap[matchIdStr] = url;
+            console.log(`Found stream for match ${matchIdStr}:`, url);
           }
         }
       });
@@ -95,19 +97,30 @@
       const mergedMatches = prevMatches
         .filter(m => m.team && m.team.length >= 2) // Only matches with teams
         .map(m => {
-          const matchId = m.match_id;
-          // Add stream URL if available
-          if (streamMap[matchId]) {
-            m._streamUrl = streamMap[matchId];
+          // Extract base match ID (remove language suffix like _HIN, _ENG, _BHO, etc.)
+          let baseMatchId = String(m.match_id || '');
+          // If match_id contains underscore, take the part before it
+          if (baseMatchId.includes('_')) {
+            baseMatchId = baseMatchId.split('_')[0];
+          }
+          
+          // Try to find stream using base match ID
+          if (streamMap[baseMatchId]) {
+            m._streamUrl = streamMap[baseMatchId];
+            console.log(`Matched stream for ${m.match_id} (base: ${baseMatchId})`);
           } else {
-            // Try to find by title match if match_id doesn't match
-            const matchTitle = m.title || '';
+            // Fallback: try to find by title match
+            const matchTitle = m.title || m.match_name || '';
             const newMatch = newMatches.find(nm => {
               const nmTitle = nm.match_name || nm.title || '';
+              // Check if titles match significantly
               return nmTitle.includes(matchTitle) || matchTitle.includes(nmTitle);
             });
             if (newMatch) {
               m._streamUrl = newMatch.dai_url || newMatch.adfree_url || null;
+              if (m._streamUrl) {
+                console.log(`Matched stream by title for ${m.match_id}`);
+              }
             }
           }
           return m;
@@ -195,8 +208,14 @@
       // Check if stream exists (from new JSON)
       const hasStream = !!(match._streamUrl);
 
+      // Get the base match ID for the data attribute (without language suffix)
+      let baseMatchId = String(match.match_id || '');
+      if (baseMatchId.includes('_')) {
+        baseMatchId = baseMatchId.split('_')[0];
+      }
+
       html += `
-        <div class="fancode-card" data-match-id="${match.match_id || ''}" data-stream-url="${match._streamUrl || ''}" data-title="${match.title || match.tournament || 'Live Match'}">
+        <div class="fancode-card" data-match-id="${baseMatchId}" data-full-match-id="${match.match_id || ''}" data-stream-url="${match._streamUrl || ''}" data-title="${match.title || match.tournament || 'Live Match'}">
           <div class="fancode-thumb">
             <img 
               src="${imageUrl}" 
@@ -208,7 +227,7 @@
             ${isLive ? '<span style="position:absolute;top:10px;right:10px;background:rgba(255,0,0,0.8);color:#fff;padding:0.15rem 0.5rem;border-radius:4px;font-size:0.6rem;font-weight:700;text-transform:uppercase;z-index:2;animation:pulse-live 1.5s ease-in-out infinite;">● LIVE</span>' : ''}
           </div>
           <div class="fancode-info">
-            <div class="fancode-tournament">${match.tournament || 'Match'}</div>
+            <div class="fancode-tournament">${match.tournament || match.event_name || 'Match'}</div>
             <div class="fancode-teams">
               <div class="fancode-team">
                 <img src="${team1.flag?.src || ''}" alt="${team1.name}" onerror="this.style.display='none'" />
@@ -261,8 +280,25 @@
       
       const data = await response.json();
       const allMatches = data.matches || data || [];
-      const match = allMatches.find(m => m.match_id == matchId);
       
+      // Extract base match ID (remove language suffix if present)
+      let baseMatchId = String(matchId);
+      if (baseMatchId.includes('_')) {
+        baseMatchId = baseMatchId.split('_')[0];
+      }
+      
+      // Try to find match by base ID (converted to number for comparison)
+      // New JSON has match_id as number, old has string with underscore
+      let match = allMatches.find(m => String(m.match_id) === baseMatchId);
+      
+      // If not found, try by title
+      if (!match && matchTitle) {
+        match = allMatches.find(m => {
+          const mTitle = m.match_name || m.title || '';
+          return mTitle.includes(matchTitle) || matchTitle.includes(mTitle);
+        });
+      }
+
       if (!match) {
         alert('Match data not found. Please try again.');
         return;
@@ -309,7 +345,7 @@
     const card = e.target.closest('.fancode-card');
     if (!card) return;
     
-    const matchId = card.dataset.matchId;
+    const matchId = card.dataset.matchId || card.dataset.fullMatchId;
     const title = card.dataset.title || 'Live Match';
     const streamUrl = card.dataset.streamUrl || '';
     
