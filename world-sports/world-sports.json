@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-02T22:55:17.631343",
+  "timestamp": "2026-09-02T23:00:20.296465",
   "total_matches": 5,
-  "live_count": 0,
-  "upcoming_count": 5,
+  "live_count": 1,
+  "upcoming_count": 4,
   "completed_count": 0,
   "matches": [
     {
@@ -11,22 +11,26 @@
       "teams": "Trinbago Knight Riders vs Antigua and Barbuda Falcons",
       "sport": "cricket",
       "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
+      "status": "live",
+      "status_display": "LIVE",
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788257431540x302.jpg",
       "league": "CPL-T20",
-      "viewers": "7",
-      "viewers_type": "Waiting",
+      "viewers": "9",
+      "viewers_type": "Watching",
       "date": "03 Sep, 2026",
       "time": "04:50 AM",
       "servers": "3",
       "page_url": "/world-sports/player.html?id=1586",
       "match_url": "live/trinbago-knight-riders-vs-antigua-and-barbuda-falcons-1586",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-02T22:49:09.304908"
+      "stream_url": "https://digitalotthub.com/tv/dd/live.php/346.m3u8",
+      "server_count": 3,
+      "server_urls": [
+        "https://digitalotthub.com/tv/dd/live.php/346.m3u8",
+        "https://tvsen7.aynascope.net/ssport2hd/tracks-v1a1/mono.ts.m3u8",
+        "https://tvsen5.aynaott.com/willowhd/tracks-v1a1/mono.ts.m3u8"
+      ],
+      "last_updated": "2026-09-02T22:55:47.117219"
     },
     {
       "match_id": "1583",
@@ -49,7 +53,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-02T22:49:09.306057"
+      "last_updated": "2026-09-02T22:55:47.401475"
     },
     {
       "match_id": "1584",
@@ -72,7 +76,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-02T22:49:09.306645"
+      "last_updated": "2026-09-02T22:55:47.402043"
     },
     {
       "match_id": "1585",
@@ -95,7 +99,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-02T22:49:09.307225"
+      "last_updated": "2026-09-02T22:55:47.402529"
     },
     {
       "match_id": "1221",
@@ -118,7 +122,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-02T22:49:09.307788"
+      "last_updated": "2026-09-02T22:55:47.402968"
     }
   ]
 }
