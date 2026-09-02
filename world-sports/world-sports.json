@@ -1,36 +1,10 @@
 {
-  "timestamp": "2026-09-02T22:43:43.063090",
-  "total_matches": 6,
-  "live_count": 1,
+  "timestamp": "2026-09-02T22:48:45.977835",
+  "total_matches": 5,
+  "live_count": 0,
   "upcoming_count": 5,
   "completed_count": 0,
   "matches": [
-    {
-      "match_id": "1588",
-      "title": "Osnabruck vs Bayern",
-      "teams": "Osnabruck vs Bayern",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248532_53043_VFL_BAY_FC-WEB.png",
-      "league": "Bundesliga",
-      "viewers": "65",
-      "viewers_type": "Watching",
-      "date": "03 Sep, 2026",
-      "time": "12:45 AM",
-      "servers": "2",
-      "page_url": "/world-sports/player.html?id=1588",
-      "match_url": "live/osnabruck-vs-bayern-1588",
-      "stream_url": "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.41%2Fhls%2FQTTTAAAQQQQQQQ.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
-      "server_count": 2,
-      "server_urls": [
-        "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.41%2Fhls%2FQTTTAAAQQQQQQQ.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
-        "https://fawa.duckdns.org/api/proxy?url=https%3A%2F%2Fwww.rtmpcdn.com%2Flive%2Ff38e999b-fb18-4b5d-bde6-4edf50bc0664.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
-      ],
-      "last_updated": "2026-09-02T22:32:50.002312"
-    },
     {
       "match_id": "1586",
       "title": "Trinbago Knight Riders vs Antigua and Barbuda Falcons",
@@ -52,7 +26,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-02T22:42:00.728682"
+      "last_updated": "2026-09-02T22:47:23.483393"
     },
     {
       "match_id": "1583",
@@ -75,7 +49,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-02T22:42:00.728686"
+      "last_updated": "2026-09-02T22:47:23.484099"
     },
     {
       "match_id": "1584",
@@ -98,7 +72,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-02T22:42:00.728687"
+      "last_updated": "2026-09-02T22:47:23.484473"
     },
     {
       "match_id": "1585",
@@ -121,7 +95,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-02T22:42:00.728688"
+      "last_updated": "2026-09-02T22:47:23.484835"
     },
     {
       "match_id": "1221",
@@ -144,7 +118,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-02T22:42:00.728689"
+      "last_updated": "2026-09-02T22:47:23.485217"
     }
   ]
 }
