@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """
 Fetch Sportzfy data from external JSON and generate player pages
+Using only standard library (no external dependencies)
 """
 
-import requests
+import urllib.request
 import json
 import os
 import shutil
@@ -16,14 +17,17 @@ API_DIR = "api"
 TEMPLATE_FILE = "template.html"
 
 def fetch_data():
-    """Fetch match data from external URL"""
+    """Fetch match data from external URL using urllib"""
     print(f"📡 Fetching data from: {EXTERNAL_JSON_URL}")
     try:
-        response = requests.get(EXTERNAL_JSON_URL, timeout=15)
-        response.raise_for_status()
-        data = response.json()
-        print(f"✅ Successfully fetched {data.get('total_matches', 0)} matches")
-        return data
+        req = urllib.request.Request(
+            EXTERNAL_JSON_URL,
+            headers={'User-Agent': 'Mozilla/5.0'}
+        )
+        with urllib.request.urlopen(req, timeout=15) as response:
+            data = json.loads(response.read().decode('utf-8'))
+            print(f"✅ Successfully fetched {data.get('total_matches', 0)} matches")
+            return data
     except Exception as e:
         print(f"❌ Error fetching data: {e}")
         return None
@@ -92,12 +96,6 @@ def copy_template():
     else:
         print(f"⚠️ Template file '{TEMPLATE_FILE}' not found")
         return False
-
-def generate_match_pages(data):
-    """Generate individual match pages"""
-    # We'll use a single player.html with URL parameters
-    # No need to generate separate files
-    print("✅ Using player.html with URL parameters for all matches")
 
 def main():
     print("\n" + "="*60)
