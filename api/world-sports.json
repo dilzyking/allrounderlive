@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-09-02T18:11:23.431253",
-  "total_matches": 52,
+  "timestamp": "2026-09-02T18:16:19.516358",
+  "total_matches": 53,
   "live_count": 3,
   "upcoming_count": 6,
-  "completed_count": 43,
+  "completed_count": 44,
   "matches": [
     {
       "match_id": "1581",
@@ -1007,6 +1007,25 @@
       "date": "01 Sep, 2026",
       "time": "01:25 AM",
       "page_url": "/world-sports/player.html?id=1569",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": []
+    },
+    {
+      "match_id": "1573",
+      "title": "England Vs Ireland-Women (1st ODI)",
+      "teams": "England Vs Ireland-Women (1st ODI)",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "completed",
+      "status_display": "COMPLETED",
+      "thumbnail": "https://i.postimg.cc/7Zgc7HsB/watermarked-img-7682279283483611868.jpg",
+      "league": "Women's International ODI",
+      "viewers": "52",
+      "viewers_type": "Total",
+      "date": "01 Sep, 2026",
+      "time": "05:50 PM",
+      "page_url": "/world-sports/player.html?id=1573",
       "stream_url": null,
       "server_count": 0,
       "server_urls": []
