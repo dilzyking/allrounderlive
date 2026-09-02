@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-02T18:36:30.642822",
-  "total_matches": 60,
-  "live_count": 5,
-  "upcoming_count": 11,
+  "timestamp": "2026-09-02T18:42:04.938235",
+  "total_matches": 61,
+  "live_count": 9,
+  "upcoming_count": 8,
   "completed_count": 44,
   "matches": [
     {
@@ -1036,18 +1036,20 @@
       "teams": "Burton vs AFC Wimbledon",
       "sport": "football",
       "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
+      "status": "live",
+      "status_display": "LIVE",
       "thumbnail": "https://i.postimg.cc/gJYHzzV5/https-www-playmakerstats-com-img-noticias-969-img-S620I957969T20251024230504.jpg",
       "league": "EFL Cup",
       "viewers": "180",
-      "viewers_type": "Waiting",
+      "viewers_type": "Watching",
       "date": "03 Sep, 2026",
       "time": "12:40 AM",
       "page_url": "/world-sports/player.html?id=1590",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": []
+      "stream_url": "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.44%2Fhls%2FroooF.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
+      "server_count": 1,
+      "server_urls": [
+        "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.44%2Fhls%2FroooF.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
+      ]
     },
     {
       "match_id": "1589",
@@ -1055,18 +1057,20 @@
       "teams": "Barnsley vs Blackpool",
       "sport": "football",
       "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
+      "status": "live",
+      "status_display": "LIVE",
       "thumbnail": "https://img.ligaolahraga.com/public/images/news/2026/09/01/angka-dan-statistik-jelang-laga-barnsley-vs-blackpool-di-league-one.webp",
       "league": "EFL Cup",
       "viewers": "493",
-      "viewers_type": "Waiting",
+      "viewers_type": "Watching",
       "date": "03 Sep, 2026",
       "time": "12:40 AM",
       "page_url": "/world-sports/player.html?id=1589",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": []
+      "stream_url": "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.44%2Fhls%2Frooo.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
+      "server_count": 1,
+      "server_urls": [
+        "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.44%2Fhls%2Frooo.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
+      ]
     },
     {
       "match_id": "1591",
@@ -1074,12 +1078,12 @@
       "teams": "Luton vs Stockport County",
       "sport": "football",
       "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
+      "status": "live",
+      "status_display": "LIVE",
       "thumbnail": "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/02/24/grp783wzqHES7a88zcKTpae7WHRxEQHe/EFL1_LUTONTOWN_STOCKPORTCOUNTY_032126_3775695_1920x1080.jpg",
       "league": "EFL Cup",
       "viewers": "3",
-      "viewers_type": "Waiting",
+      "viewers_type": "Watching",
       "date": "03 Sep, 2026",
       "time": "12:40 AM",
       "page_url": "/world-sports/player.html?id=1591",
@@ -1099,7 +1103,7 @@
       "status_display": "LIVE",
       "thumbnail": "https://www.thesportsdb.com/images/media/event/thumb/1xoui41782466035.jpg",
       "league": "EFL Cup",
-      "viewers": "3",
+      "viewers": "5",
       "viewers_type": "Watching",
       "date": "03 Sep, 2026",
       "time": "12:40 AM",
@@ -1116,12 +1120,12 @@
       "teams": "Reading vs Mansfield",
       "sport": "football",
       "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
       "thumbnail": "https://tips.gg/match/reading-vs-mansfield-01-09-2026-08-00/poster/",
       "league": "EFL Cup",
-      "viewers": "4",
-      "viewers_type": "Watching",
+      "viewers": "6",
+      "viewers_type": "Waiting",
       "date": "03 Sep, 2026",
       "time": "12:55 AM",
       "page_url": "/world-sports/player.html?id=1593",
@@ -1137,18 +1141,20 @@
       "teams": "Millwall vs Wrexham",
       "sport": "football",
       "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
+      "status": "live",
+      "status_display": "LIVE",
       "thumbnail": "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2025/07/15/2439269443817/EFLC_MILLWALL_WREXHAM_083025_HL_3357702_1920x1080.jpg",
       "league": "EFL Championship",
       "viewers": "328",
-      "viewers_type": "Waiting",
+      "viewers_type": "Watching",
       "date": "03 Sep, 2026",
       "time": "12:40 AM",
       "page_url": "/world-sports/player.html?id=1594",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": []
+      "stream_url": "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.44%2Fhls%2FIIII.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
+      "server_count": 1,
+      "server_urls": [
+        "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.44%2Fhls%2FIIII.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
+      ]
     },
     {
       "match_id": "1595",
@@ -1168,6 +1174,27 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": []
+    },
+    {
+      "match_id": "1596",
+      "title": "West Bromwich vs Charlton",
+      "teams": "West Bromwich vs Charlton",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYKDjVK8NtQPX0w103WT_WknWKZS8YiygZo5NmQD0J5FDDmsPDrah2WLI&s=10",
+      "league": "EFL Championship",
+      "viewers": "402",
+      "viewers_type": "Watching",
+      "date": "03 Sep, 2026",
+      "time": "12:40 AM",
+      "page_url": "/world-sports/player.html?id=1596",
+      "stream_url": "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.59%2Fhls%2FIIIIAA.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
+      "server_count": 1,
+      "server_urls": [
+        "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.59%2Fhls%2FIIIIAA.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
+      ]
     }
   ]
 }
