@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-02T18:26:30.014819",
-  "total_matches": 56,
-  "live_count": 4,
+  "timestamp": "2026-09-02T18:31:29.780233",
+  "total_matches": 58,
+  "live_count": 6,
   "upcoming_count": 8,
   "completed_count": 44,
   "matches": [
@@ -1078,7 +1078,7 @@
       "status_display": "LIVE",
       "thumbnail": "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/02/24/grp783wzqHES7a88zcKTpae7WHRxEQHe/EFL1_LUTONTOWN_STOCKPORTCOUNTY_032126_3775695_1920x1080.jpg",
       "league": "EFL Cup",
-      "viewers": "217",
+      "viewers": "2",
       "viewers_type": "Watching",
       "date": "03 Sep, 2026",
       "time": "12:40 AM",
@@ -1087,6 +1087,48 @@
       "server_count": 1,
       "server_urls": [
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.44%2Fhls%2FroooFF.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
+      ]
+    },
+    {
+      "match_id": "1592",
+      "title": "Wigan vs MK Dons",
+      "teams": "Wigan vs MK Dons",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "thumbnail": "https://www.thesportsdb.com/images/media/event/thumb/1xoui41782466035.jpg",
+      "league": "EFL Cup",
+      "viewers": "1",
+      "viewers_type": "Watching",
+      "date": "03 Sep, 2026",
+      "time": "12:40 AM",
+      "page_url": "/world-sports/player.html?id=1592",
+      "stream_url": "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.44%2Fhls%2FroooFFF.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
+      "server_count": 1,
+      "server_urls": [
+        "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.44%2Fhls%2FroooFFF.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
+      ]
+    },
+    {
+      "match_id": "1593",
+      "title": "Reading vs Mansfield",
+      "teams": "Reading vs Mansfield",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "thumbnail": "https://tips.gg/match/reading-vs-mansfield-01-09-2026-08-00/poster/",
+      "league": "EFL Cup",
+      "viewers": "2",
+      "viewers_type": "Watching",
+      "date": "03 Sep, 2026",
+      "time": "12:55 AM",
+      "page_url": "/world-sports/player.html?id=1593",
+      "stream_url": "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.44%2Fhls%2FroooFFFF.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
+      "server_count": 1,
+      "server_urls": [
+        "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.44%2Fhls%2FroooFFFF.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ]
     }
   ]
