@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Fetch Sportzfy data from external JSON and generate clean API JSON
+Using relative paths only
 """
 
 import urllib.request
@@ -14,7 +15,6 @@ EXTERNAL_JSON_URL = "https://dilzzy-all-sports.pages.dev/data/matches.json"
 OUTPUT_DIR = "world-sports"
 API_DIR = "api"
 TEMPLATE_FILE = "template.html"
-BASE_URL = "https://allrounderlive.pages.dev"
 
 def fetch_data():
     """Fetch match data from external URL using urllib"""
@@ -39,7 +39,7 @@ def prepare_directories():
     print(f"📁 Directories ready: {OUTPUT_DIR}, {API_DIR}")
 
 def generate_clean_api_json(data):
-    """Generate clean API JSON with essential fields only"""
+    """Generate clean API JSON with essential fields only - using relative paths"""
     api_file = os.path.join(API_DIR, "world-sports.json")
     
     clean_matches = []
@@ -70,7 +70,8 @@ def generate_clean_api_json(data):
             'viewers_type': match.get('viewers_type'),
             'date': match.get('date'),
             'time': match.get('time'),
-            'page_url': f"{BASE_URL}/world-sports/player.html?id={match.get('match_id')}",
+            # Use relative path - no domain
+            'page_url': f"/world-sports/player.html?id={match.get('match_id')}",
             'stream_url': first_server,
             'server_count': len(server_urls),
             'server_urls': server_urls if server_urls else []
