@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-02T18:42:04.938235",
-  "total_matches": 61,
-  "live_count": 9,
-  "upcoming_count": 8,
+  "timestamp": "2026-09-02T18:46:32.734528",
+  "total_matches": 62,
+  "live_count": 12,
+  "upcoming_count": 6,
   "completed_count": 44,
   "matches": [
     {
@@ -86,18 +86,21 @@
       "teams": "Osnabruck vs Bayern",
       "sport": "cricket",
       "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
+      "status": "live",
+      "status_display": "LIVE",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248532_53043_VFL_BAY_FC-WEB.png",
       "league": "Bundesliga",
       "viewers": "11",
-      "viewers_type": "Waiting",
+      "viewers_type": "Watching",
       "date": "03 Sep, 2026",
       "time": "12:45 AM",
       "page_url": "/world-sports/player.html?id=1588",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": []
+      "stream_url": "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.41%2Fhls%2FQTTTAAAQQQQQQQ.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
+      "server_count": 2,
+      "server_urls": [
+        "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.41%2Fhls%2FQTTTAAAQQQQQQQ.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
+        "https://fawa.duckdns.org/api/proxy?url=https%3A%2F%2Fwww.rtmpcdn.com%2Flive%2Ff38e999b-fb18-4b5d-bde6-4edf50bc0664.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
+      ]
     },
     {
       "match_id": "1586",
@@ -1040,7 +1043,7 @@
       "status_display": "LIVE",
       "thumbnail": "https://i.postimg.cc/gJYHzzV5/https-www-playmakerstats-com-img-noticias-969-img-S620I957969T20251024230504.jpg",
       "league": "EFL Cup",
-      "viewers": "180",
+      "viewers": "2",
       "viewers_type": "Watching",
       "date": "03 Sep, 2026",
       "time": "12:40 AM",
@@ -1061,7 +1064,7 @@
       "status_display": "LIVE",
       "thumbnail": "https://img.ligaolahraga.com/public/images/news/2026/09/01/angka-dan-statistik-jelang-laga-barnsley-vs-blackpool-di-league-one.webp",
       "league": "EFL Cup",
-      "viewers": "493",
+      "viewers": "2",
       "viewers_type": "Watching",
       "date": "03 Sep, 2026",
       "time": "12:40 AM",
@@ -1082,7 +1085,7 @@
       "status_display": "LIVE",
       "thumbnail": "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2026/02/24/grp783wzqHES7a88zcKTpae7WHRxEQHe/EFL1_LUTONTOWN_STOCKPORTCOUNTY_032126_3775695_1920x1080.jpg",
       "league": "EFL Cup",
-      "viewers": "3",
+      "viewers": "4",
       "viewers_type": "Watching",
       "date": "03 Sep, 2026",
       "time": "12:40 AM",
@@ -1103,7 +1106,7 @@
       "status_display": "LIVE",
       "thumbnail": "https://www.thesportsdb.com/images/media/event/thumb/1xoui41782466035.jpg",
       "league": "EFL Cup",
-      "viewers": "5",
+      "viewers": "6",
       "viewers_type": "Watching",
       "date": "03 Sep, 2026",
       "time": "12:40 AM",
@@ -1145,7 +1148,7 @@
       "status_display": "LIVE",
       "thumbnail": "https://thumbnails.cbsig.net/CBS_Production_Entertainment_VMS/2025/07/15/2439269443817/EFLC_MILLWALL_WREXHAM_083025_HL_3357702_1920x1080.jpg",
       "league": "EFL Championship",
-      "viewers": "328",
+      "viewers": "1",
       "viewers_type": "Watching",
       "date": "03 Sep, 2026",
       "time": "12:40 AM",
@@ -1162,18 +1165,20 @@
       "teams": "QPR vs Cardiff City",
       "sport": "football",
       "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
+      "status": "live",
+      "status_display": "LIVE",
       "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwgW5KgQebbPx3AICCcD_EPZoKfyLJsu7-8rfdvCNxXI9HPUPOpSoLO0M&s=10",
       "league": "EFL Championship",
       "viewers": "365",
-      "viewers_type": "Waiting",
+      "viewers_type": "Watching",
       "date": "03 Sep, 2026",
       "time": "12:45 AM",
       "page_url": "/world-sports/player.html?id=1595",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": []
+      "stream_url": "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.59%2Fhls%2FIIIIA.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
+      "server_count": 1,
+      "server_urls": [
+        "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.59%2Fhls%2FIIIIA.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
+      ]
     },
     {
       "match_id": "1596",
@@ -1185,7 +1190,7 @@
       "status_display": "LIVE",
       "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYKDjVK8NtQPX0w103WT_WknWKZS8YiygZo5NmQD0J5FDDmsPDrah2WLI&s=10",
       "league": "EFL Championship",
-      "viewers": "402",
+      "viewers": "1",
       "viewers_type": "Watching",
       "date": "03 Sep, 2026",
       "time": "12:40 AM",
@@ -1194,6 +1199,28 @@
       "server_count": 1,
       "server_urls": [
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.59%2Fhls%2FIIIIAA.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
+      ]
+    },
+    {
+      "match_id": "1597",
+      "title": "Men's & Women's Singles vs Men's & Women's Singles",
+      "teams": "Men's & Women's Singles vs Men's & Women's Singles",
+      "sport": "others",
+      "sport_display": "Others",
+      "status": "live",
+      "status_display": "LIVE",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788246543540x302.jpg",
+      "league": "Men's & Women's Singles 2nd Round",
+      "viewers": "1",
+      "viewers_type": "Watching",
+      "date": "03 Sep, 2026",
+      "time": "12:00 PM",
+      "page_url": "/world-sports/player.html?id=1597",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=EHBsUdf3dcu6y1itiUTEhEm13XVI8md1Oy5yxy-99aEvj1Jhz26Fo-mLOVy7DXIqi28p5Kf-8XxOCOwf5oNQutSn7o2FC0SS1y0TmK1fJdukf28dCSDi_zhm-U9nnRMcJgDCWdkx-tKATJSlKAsaNjOSxjLgFBGOgVhHpFG61Qx6ho4LTFyo0d6PU_HEwcf9r9TwZmoT8cYfkyV8MZxqFrfPl0BIyb_jphlPFLYsPQtap0H0pCRvtMfrmC6ZL5qwNn3RXd6GoBzzYBXYlslb65AOF-XeSYrjOxY",
+      "server_count": 2,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=EHBsUdf3dcu6y1itiUTEhEm13XVI8md1Oy5yxy-99aEvj1Jhz26Fo-mLOVy7DXIqi28p5Kf-8XxOCOwf5oNQutSn7o2FC0SS1y0TmK1fJdukf28dCSDi_zhm-U9nnRMcJgDCWdkx-tKATJSlKAsaNjOSxjLgFBGOgVhHpFG61Qx6ho4LTFyo0d6PU_HEwcf9r9TwZmoT8cYfkyV8MZxqFrfPl0BIyb_jphlPFLYsPQtap0H0pCRvtMfrmC6ZL5qwNn3RXd6GoBzzYBXYlslb65AOF-XeSYrjOxY",
+        "https://live.talkoraai.com/match/seg?t=LM5699OfTjWwsytWUuJkXfe6Hcom6B7UioUXamnqh7LMC4fu6WXycnbll1kEP7e0N3pW42pgY7uG2r-sHc7WSyqm9Nw5S0CkdE-MNMheZ1wrpJNcGHkAqoiQvMKTMutvxpHFt1BJxi2JaRWvDDzsIRiaiypz49OCDEVra8AD-zLoJZPXnKtuMJKcnXWHhqyjvvijhei8crinrU3k_K_dt6i6GXERyfoP2xuA9dR-VvoGDdUSQQtAou0rdffnDol1I8sSqjz9MwWFLaOXciP2aVlARKX1ZzTols9Xz6LHxgfm-Q"
       ]
     }
   ]
