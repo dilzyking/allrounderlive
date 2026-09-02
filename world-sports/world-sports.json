@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-02T22:19:40.009734",
+  "timestamp": "2026-09-02T22:24:38.805051",
   "total_matches": 16,
   "live_count": 11,
   "upcoming_count": 4,
@@ -38,23 +38,23 @@
       "sport_display": "Cricket",
       "status": "live",
       "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
+      "runtime": "--",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248532_53043_VFL_BAY_FC-WEB.png",
       "league": "Bundesliga",
-      "viewers": "61",
+      "viewers": "64",
       "viewers_type": "Watching",
       "date": "03 Sep, 2026",
       "time": "12:45 AM",
       "servers": "2",
       "page_url": "/world-sports/player.html?id=1588",
-      "match_url": "https://sportzfy.my.id/live/osnabruck-vs-bayern-1588",
+      "match_url": "live/osnabruck-vs-bayern-1588",
       "stream_url": "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.41%2Fhls%2FQTTTAAAQQQQQQQ.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
       "server_count": 2,
       "server_urls": [
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.41%2Fhls%2FQTTTAAAQQQQQQQ.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
         "https://fawa.duckdns.org/api/proxy?url=https%3A%2F%2Fwww.rtmpcdn.com%2Flive%2Ff38e999b-fb18-4b5d-bde6-4edf50bc0664.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-02T22:14:49.418722"
+      "last_updated": "2026-09-02T22:21:46.979236"
     },
     {
       "match_id": "1598",
@@ -299,11 +299,11 @@
       "time": "04:50 AM",
       "servers": "3",
       "page_url": "/world-sports/player.html?id=1586",
-      "match_url": "https://sportzfy.my.id/live/trinbago-knight-riders-vs-antigua-and-barbuda-falcons-1586",
+      "match_url": "live/trinbago-knight-riders-vs-antigua-and-barbuda-falcons-1586",
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-02T22:14:49.418726"
+      "last_updated": "2026-09-02T22:21:46.979239"
     },
     {
       "match_id": "1583",
@@ -322,11 +322,11 @@
       "time": "08:20 PM",
       "servers": "5",
       "page_url": "/world-sports/player.html?id=1583",
-      "match_url": "https://sportzfy.my.id/live/india-women-vs-hong-kong-china-women-1583",
+      "match_url": "live/india-women-vs-hong-kong-china-women-1583",
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-02T22:14:49.418727"
+      "last_updated": "2026-09-02T22:21:46.979240"
     },
     {
       "match_id": "1584",
@@ -345,11 +345,11 @@
       "time": "08:25 AM",
       "servers": "5",
       "page_url": "/world-sports/player.html?id=1584",
-      "match_url": "https://sportzfy.my.id/live/united-arab-emirates-women-vs-indonesia-women-1584",
+      "match_url": "live/united-arab-emirates-women-vs-indonesia-women-1584",
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-02T22:14:49.418729"
+      "last_updated": "2026-09-02T22:21:46.979241"
     },
     {
       "match_id": "1585",
@@ -368,11 +368,11 @@
       "time": "08:25 PM",
       "servers": "5",
       "page_url": "/world-sports/player.html?id=1585",
-      "match_url": "https://sportzfy.my.id/live/india-women-vs-pakistan-women-1585",
+      "match_url": "live/india-women-vs-pakistan-women-1585",
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-02T22:14:49.418730"
+      "last_updated": "2026-09-02T22:21:46.979242"
     },
     {
       "match_id": "1221",
@@ -382,7 +382,7 @@
       "sport_display": "Cricket",
       "status": "completed",
       "status_display": "COMPLETED",
-      "runtime": "00h 00m 00s",
+      "runtime": "--",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787576024540x302.jpg",
       "league": "ICC World Test Championship",
       "viewers": "387",
@@ -391,11 +391,11 @@
       "time": "03:30 PM",
       "servers": "6",
       "page_url": "/world-sports/player.html?id=1221",
-      "match_url": "https://sportzfy.my.id/live/england-vs-pakistan-3rd-test-day-1-1221",
+      "match_url": "live/england-vs-pakistan-3rd-test-day-1-1221",
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-02T22:14:49.418731"
+      "last_updated": "2026-09-02T22:21:46.979243"
     }
   ]
 }
