@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Fetch Sportzfy data from external JSON and generate clean API JSON
-Using relative paths only
+Using relative paths only - Updated for new JSON structure
 """
 
 import urllib.request
@@ -52,29 +52,50 @@ def generate_clean_api_json(data):
             'completed': 'COMPLETED'
         }.get(status, status.upper())
         
-        # Get first server URL if available
+        # Get sport display name
+        sport = match.get('sport', 'cricket')
+        sport_display = {
+            'cricket': 'Cricket',
+            'football': 'Football',
+            'others': 'Other Sports'
+        }.get(sport, sport.capitalize())
+        
+        # Get server URLs
         server_urls = match.get('server_urls', [])
         first_server = server_urls[0] if server_urls else None
+        
+        # Get runtime (handle None)
+        runtime = match.get('runtime')
+        if runtime is None:
+            runtime = '--'
+        
+        # Get viewers (handle None)
+        viewers = match.get('viewers', '0')
+        viewers_type = match.get('viewers_type', '')
         
         clean_match = {
             'match_id': match.get('match_id'),
             'title': match.get('title'),
             'teams': match.get('teams'),
-            'sport': match.get('sport', 'cricket'),
-            'sport_display': match.get('sport', 'Cricket').capitalize(),
+            'sport': sport,
+            'sport_display': sport_display,
             'status': status,
             'status_display': status_display,
+            'runtime': runtime,
             'thumbnail': match.get('thumbnail'),
             'league': match.get('league'),
-            'viewers': match.get('viewers'),
-            'viewers_type': match.get('viewers_type'),
+            'viewers': viewers,
+            'viewers_type': viewers_type,
             'date': match.get('date'),
             'time': match.get('time'),
+            'servers': match.get('servers', '0'),
             # Use relative path - no domain
             'page_url': f"/world-sports/player.html?id={match.get('match_id')}",
+            'match_url': match.get('match_url'),
             'stream_url': first_server,
             'server_count': len(server_urls),
-            'server_urls': server_urls if server_urls else []
+            'server_urls': server_urls if server_urls else [],
+            'last_updated': match.get('last_updated', datetime.now().isoformat())
         }
         clean_matches.append(clean_match)
     
