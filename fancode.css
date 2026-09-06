@@ -461,7 +461,56 @@
     font-size: clamp(0.7rem, 1.8vw, 0.85rem);
     max-width: clamp(80px, 18vw, 100px);
   }
+/* FanCode Live Badge */
+.live-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255, 0, 0, 0.85);
+  color: #fff;
+  padding: 0.15rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  z-index: 2;
+  animation: pulse-live 1.5s ease-in-out infinite;
+}
 
+@keyframes pulse-live {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+/* Stream Indicators */
+.stream-indicator {
+  font-size: 0.5rem;
+  text-align: right;
+  margin-top: 0.2rem;
+  letter-spacing: 0.03em;
+}
+
+.stream-indicator.available {
+  color: rgba(0, 255, 100, 0.5);
+}
+
+.stream-indicator.unavailable {
+  color: rgba(255, 0, 0, 0.2);
+}
+
+/* Status Badge Colors */
+.fancode-status.live {
+  color: #ff4444;
+  font-weight: 700;
+}
+
+.fancode-status.upcoming {
+  color: #ffaa00;
+}
+
+.fancode-status.ended {
+  color: rgba(255, 255, 255, 0.3);
+}
   .fancode-team img {
     width: clamp(20px, 3.5vw, 26px);
     height: clamp(20px, 3.5vw, 26px);
