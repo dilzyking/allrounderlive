@@ -1,11 +1,10 @@
-// fancode.js - FanCode Section with Dual JSON Fetch
+// fancode.js - FanCode Section
 
 (function() {
   'use strict';
 
   // Configuration
-  const PREVIOUS_API_URL = 'https://raw.githubusercontent.com/doctor-8trange/zyphx8/refs/heads/main/data/fancode.json';
-  const NEW_API_URL = 'https://raw.githubusercontent.com/drmlive/fancode-live-events/refs/heads/main/fancode.json';
+  const API_URL = 'https://raw.githubusercontent.com/drmlive/fancode-live-events/refs/heads/main/fancode.json';
   const SKELETON_COUNT = 6;
 
   // DOM elements
@@ -16,7 +15,6 @@
   // State
   let isLoading = false;
   let matches = [];
-  let newMatchesCache = []; // Cache the new JSON data
 
   function createSkeletonCards(count) {
     let html = '';
@@ -60,29 +58,7 @@
     return baseId;
   }
 
-  // Helper to check if two match titles match
-  function titlesMatch(title1, title2) {
-    if (!title1 || !title2) return false;
-    const t1 = title1.toLowerCase().trim();
-    const t2 = title2.toLowerCase().trim();
-    // Check if one contains the other
-    if (t1.includes(t2) || t2.includes(t1)) return true;
-    // Check if they share significant words (at least 2 words)
-    const words1 = t1.split(' ').filter(w => w.length > 3);
-    const words2 = t2.split(' ').filter(w => w.length > 3);
-    let matchCount = 0;
-    for (const w1 of words1) {
-      for (const w2 of words2) {
-        if (w1 === w2 || w1.includes(w2) || w2.includes(w1)) {
-          matchCount++;
-          if (matchCount >= 2) return true;
-        }
-      }
-    }
-    return false;
-  }
-
-  // ---- FETCH BOTH JSONS AND MERGE ----
+  // ---- FETCH DATA ----
   async function fetchFancodeData() {
     if (isLoading) return;
     isLoading = true;
@@ -90,92 +66,35 @@
     try {
       track.innerHTML = createSkeletonCards(SKELETON_COUNT);
 
-      // Fetch both JSONs in parallel
-      const [prevResponse, newResponse] = await Promise.all([
-        fetch(PREVIOUS_API_URL),
-        fetch(NEW_API_URL)
-      ]);
+      const response = await fetch(API_URL);
+      if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
 
-      if (!prevResponse.ok) throw new Error('Failed to fetch previous data');
-      if (!newResponse.ok) throw new Error('Failed to fetch stream data');
+      const data = await response.json();
+      const allMatches = data.matches || data || [];
 
-      const prevData = await prevResponse.json();
-      const newData = await newResponse.json();
+      console.log(`Found ${allMatches.length} matches`);
 
-      // Store new matches in cache for later use
-      newMatchesCache = newData.matches || newData || [];
-      
-      // Extract matches from previous JSON
-      const prevMatches = prevData.matches || prevData || [];
-      
-      // Build a map of match_id -> M3U8 URL from new JSON
-      const streamMap = {};
-      newMatchesCache.forEach(match => {
-        if (match.match_id) {
-          const matchIdStr = String(match.match_id);
-          const url = match.dai_url || match.adfree_url || null;
-          if (url) {
-            streamMap[matchIdStr] = url;
-            console.log(`Found stream for match ID: ${matchIdStr}`);
-          }
-        }
+      // Filter matches that have teams and stream URLs
+      matches = allMatches.filter(m => {
+        // Must have team_1 and team_2
+        if (!m.team_1 || !m.team_2) return false;
+        // Must have a stream URL
+        return !!(m.dai_url || m.adfree_url);
       });
 
-      console.log(`Found ${Object.keys(streamMap).length} streams from new JSON`);
-      console.log(`Found ${prevMatches.length} matches from previous JSON`);
+      console.log(`Filtered to ${matches.length} matches with streams`);
 
-      // Merge: Add stream URL to previous matches
-      const mergedMatches = prevMatches
-        .filter(m => m.team && m.team.length >= 2)
-        .map(m => {
-          const fullMatchId = String(m.match_id || '');
-          const baseMatchId = getBaseMatchId(fullMatchId);
-          
-          // Try to find stream using base match ID
-          let foundStream = null;
-          
-          // Method 1: Direct match by base ID
-          if (streamMap[baseMatchId]) {
-            foundStream = streamMap[baseMatchId];
-            console.log(`✅ Matched by ID: ${fullMatchId} -> ${baseMatchId}`);
-          } else {
-            // Method 2: Try to find by title match
-            const matchTitle = m.title || m.match_name || '';
-            const matchTeams = m.team.map(t => t.name || '').join(' ');
-            const searchText = (matchTitle + ' ' + matchTeams).toLowerCase();
-            
-            for (const nm of newMatchesCache) {
-              const nmTitle = (nm.match_name || nm.title || '').toLowerCase();
-              const nmTeams = (nm.team_1 + ' ' + nm.team_2 || '').toLowerCase();
-              const nmSearchText = nmTitle + ' ' + nmTeams;
-              
-              // Check if titles match
-              if (titlesMatch(searchText, nmSearchText)) {
-                foundStream = nm.dai_url || nm.adfree_url || null;
-                if (foundStream) {
-                  console.log(`✅ Matched by title: "${matchTitle}" -> "${nm.match_name || nm.title}"`);
-                  break;
-                }
-              }
-            }
-          }
-          
-          if (foundStream) {
-            m._streamUrl = foundStream;
-          } else {
-            console.log(`❌ No stream found for: ${fullMatchId} - ${m.title || ''}`);
-          }
-          
-          return m;
-        });
-
-      matches = mergedMatches;
-
-      // Sort: LIVE first
+      // Sort: LIVE first, then by start time
       matches.sort((a, b) => {
-        const aLive = a.status === 'LIVE' || a.status === 'IN_PROGRESS' ? 0 : 1;
-        const bLive = b.status === 'LIVE' || b.status === 'IN_PROGRESS' ? 0 : 1;
-        return aLive - bLive;
+        const aLive = a.status === 'LIVE' ? 0 : 1;
+        const bLive = b.status === 'LIVE' ? 0 : 1;
+        if (aLive !== bLive) return aLive - bLive;
+        
+        // If both live or both upcoming, sort by start time
+        if (a.startTime && b.startTime) {
+          return new Date(a.startTime) - new Date(b.startTime);
+        }
+        return 0;
       });
 
       renderMatches(matches);
@@ -197,7 +116,7 @@
     if (!matchData || matchData.length === 0) {
       track.innerHTML = `
         <div style="color: rgba(255,255,255,0.3); padding: 2rem; text-align: center; width: 100%;">
-          No matches available
+          No live matches available at the moment
         </div>
       `;
       return;
@@ -205,16 +124,16 @@
 
     let html = '';
     matchData.forEach(match => {
-      // Get team info from previous JSON structure
-      const team1 = match.team && match.team[0] ? match.team[0] : { name: 'Team 1', shortName: 'T1', flag: { src: '' } };
-      const team2 = match.team && match.team[1] ? match.team[1] : { name: 'Team 2', shortName: 'T2', flag: { src: '' } };
+      // Get team info
+      const team1Name = match.team_1 || 'Team 1';
+      const team2Name = match.team_2 || 'Team 2';
       
-      // Get image from previous JSON
-      const imageUrl = match.image_cdn?.APP || match.image || match.image_cdn?.BG_IMAGE || '';
+      // Get image
+      const imageUrl = match.src || '';
       
       // Format status
       let statusText = match.status || 'UPCOMING';
-      const isLive = statusText === 'LIVE' || statusText === 'IN_PROGRESS';
+      const isLive = statusText === 'LIVE';
       const isEnded = statusText === 'ENDED' || statusText === 'FINISHED' || statusText === 'COMPLETED';
       
       statusText = statusText.replace(/_/g, ' ').toLowerCase();
@@ -224,71 +143,43 @@
       if (isLive) statusClass = 'live';
       if (isEnded) statusClass = 'ended';
 
-      // Get team scores from previous JSON
-      let team1Score = '';
-      let team2Score = '';
-      if (match.category === 'Cricket') {
-        if (team1.cricketScore && team1.cricketScore.length > 0) {
-          const score = team1.cricketScore[0];
-          if (score.runs !== undefined && score.wickets !== undefined) {
-            team1Score = `${score.runs}/${score.wickets}`;
-            if (score.overs && score.overs !== '0') {
-              team1Score += ` (${score.overs})`;
-            }
-          }
-        }
-        if (team2.cricketScore && team2.cricketScore.length > 0) {
-          const score = team2.cricketScore[0];
-          if (score.runs !== undefined && score.wickets !== undefined) {
-            team2Score = `${score.runs}/${score.wickets}`;
-            if (score.overs && score.overs !== '0') {
-              team2Score += ` (${score.overs})`;
-            }
-          }
-        }
-      }
+      // Get stream URL
+      const streamUrl = match.dai_url || match.adfree_url || '';
+      const hasStream = !!streamUrl;
 
-      // Check if stream exists
-      const hasStream = !!(match._streamUrl);
-
-      // Get the base match ID for the data attribute
+      // Get base match ID (without language suffix)
       const baseMatchId = getBaseMatchId(match.match_id);
 
       html += `
-        <div class="fancode-card" data-match-id="${baseMatchId}" data-full-match-id="${match.match_id || ''}" data-stream-url="${match._streamUrl || ''}" data-title="${match.title || match.tournament || 'Live Match'}">
+        <div class="fancode-card" data-match-id="${baseMatchId}" data-full-match-id="${match.match_id || ''}" data-stream-url="${streamUrl}" data-title="${match.title || match.match_name || 'Live Match'}">
           <div class="fancode-thumb">
             <img 
               src="${imageUrl}" 
-              alt="${team1.name} vs ${team2.name}"
+              alt="${team1Name} vs ${team2Name}"
               loading="lazy"
               onerror="this.src='https://via.placeholder.com/400x225/1a1c1e/555?text=No+Image'"
             />
-            <span class="fancode-category-tag">${match.category || 'Sports'}</span>
-            ${isLive ? '<span style="position:absolute;top:10px;right:10px;background:rgba(255,0,0,0.8);color:#fff;padding:0.15rem 0.5rem;border-radius:4px;font-size:0.6rem;font-weight:700;text-transform:uppercase;z-index:2;animation:pulse-live 1.5s ease-in-out infinite;">● LIVE</span>' : ''}
+            <span class="fancode-category-tag">${match.event_category || match.category || 'Sports'}</span>
+            ${isLive ? '<span class="live-badge">● LIVE</span>' : ''}
           </div>
           <div class="fancode-info">
-            <div class="fancode-tournament">${match.tournament || match.event_name || 'Match'}</div>
+            <div class="fancode-tournament">${match.event_name || match.title || 'Match'}</div>
             <div class="fancode-teams">
               <div class="fancode-team">
-                <img src="${team1.flag?.src || ''}" alt="${team1.name}" onerror="this.style.display='none'" />
-                <span>${team1.shortName || team1.name}</span>
-                ${team1Score ? `<span style="font-size:0.7rem;color:#f5c518;margin-left:0.2rem;">${team1Score}</span>` : ''}
+                <span>${team1Name}</span>
               </div>
               <span class="fancode-vs">VS</span>
               <div class="fancode-team">
-                <img src="${team2.flag?.src || ''}" alt="${team2.name}" onerror="this.style.display='none'" />
-                <span>${team2.shortName || team2.name}</span>
-                ${team2Score ? `<span style="font-size:0.7rem;color:#f5c518;margin-left:0.2rem;">${team2Score}</span>` : ''}
+                <span>${team2Name}</span>
               </div>
             </div>
             <div class="fancode-meta">
               <div class="fancode-meta-left">
                 <span class="fancode-status ${statusClass}">${statusText}</span>
-                ${match.language && match.language !== 'BLOODY_SWEET' ? `<span style="font-size:0.55rem;color:rgba(255,255,255,0.3);text-transform:uppercase;">${match.language}</span>` : ''}
               </div>
               <span class="fancode-time">${match.startTime || ''}</span>
             </div>
-            ${hasStream ? '<div style="font-size:0.5rem;color:rgba(0,255,100,0.4);text-align:right;margin-top:0.2rem;letter-spacing:0.03em;">▶ CLICK TO PLAY</div>' : '<div style="font-size:0.5rem;color:rgba(255,0,0,0.2);text-align:right;margin-top:0.2rem;">NO STREAM</div>'}
+            ${hasStream ? '<div class="stream-indicator available">▶ CLICK TO PLAY</div>' : '<div class="stream-indicator unavailable">NO STREAM</div>'}
           </div>
         </div>
       `;
@@ -308,16 +199,16 @@
 
     // If we already have the stream URL, use it directly
     if (streamUrl && streamUrl.includes('m3u8')) {
-      console.log('✅ Using cached stream URL:', streamUrl);
+      console.log('✅ Using provided stream URL:', streamUrl);
       const encodedUrl = encodeURIComponent(streamUrl);
       const matchName = encodeURIComponent(matchTitle || 'Live Match');
       window.location.href = `/fc-play?url=${encodedUrl}&title=${matchName}&match_id=${matchId}`;
       return;
     }
 
-    // Otherwise, fetch fresh from new JSON
+    // Otherwise, fetch fresh from JSON
     try {
-      const response = await fetch(NEW_API_URL);
+      const response = await fetch(API_URL);
       if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
       
       const data = await response.json();
@@ -327,13 +218,16 @@
       const baseMatchId = getBaseMatchId(matchId);
       console.log(`🔍 Looking for match with base ID: ${baseMatchId}`);
       
-      // Method 1: Try to find match by base ID
-      let match = allMatches.find(m => String(m.match_id) === baseMatchId);
+      // Try to find match by ID
+      let match = allMatches.find(m => {
+        const mBaseId = getBaseMatchId(m.match_id);
+        return mBaseId === baseMatchId;
+      });
       
       if (match) {
         console.log(`✅ Found match by ID: ${match.match_id}`);
       } else {
-        // Method 2: Try to find by title
+        // Try to find by title
         console.log(`🔍 Trying to find by title: "${matchTitle}"`);
         match = allMatches.find(m => {
           const mTitle = (m.match_name || m.title || '').toLowerCase();
@@ -346,7 +240,7 @@
       }
 
       if (!match) {
-        console.error('❌ Match not found in new JSON');
+        console.error('❌ Match not found in JSON');
         alert('Match data not found. Please try again.');
         return;
       }
@@ -373,7 +267,7 @@
 
   // ---- SCROLL FUNCTIONS ----
   function scrollAmount() {
-    const card = track.querySelector('.fancode-card, .skeleton-card');
+    const card = track.querySelector('.fancode-card, .fc-skeleton-card');
     if (!card) return 280;
     const cardWidth = card.getBoundingClientRect().width;
     const gap = 20;
