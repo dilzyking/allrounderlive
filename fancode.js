@@ -74,23 +74,30 @@
 
       console.log(`Found ${allMatches.length} matches`);
 
-      // Filter matches that have teams and stream URLs
+      // Filter matches that have teams
       matches = allMatches.filter(m => {
         // Must have team_1 and team_2
         if (!m.team_1 || !m.team_2) return false;
-        // Must have a stream URL
-        return !!(m.dai_url || m.adfree_url);
+        return true;
       });
 
-      console.log(`Filtered to ${matches.length} matches with streams`);
+      console.log(`Filtered to ${matches.length} matches with teams`);
 
-      // Sort: LIVE first, then by start time
+      // Sort: LIVE first, then UPCOMING, then by start time
       matches.sort((a, b) => {
-        const aLive = a.status === 'LIVE' ? 0 : 1;
-        const bLive = b.status === 'LIVE' ? 0 : 1;
-        if (aLive !== bLive) return aLive - bLive;
+        // Status priority: LIVE (0) > UPCOMING (1) > others (2)
+        const getPriority = (status) => {
+          if (status === 'LIVE') return 0;
+          if (status === 'UPCOMING') return 1;
+          return 2;
+        };
         
-        // If both live or both upcoming, sort by start time
+        const aPriority = getPriority(a.status);
+        const bPriority = getPriority(b.status);
+        
+        if (aPriority !== bPriority) return aPriority - bPriority;
+        
+        // If same status, sort by start time
         if (a.startTime && b.startTime) {
           return new Date(a.startTime) - new Date(b.startTime);
         }
@@ -116,7 +123,7 @@
     if (!matchData || matchData.length === 0) {
       track.innerHTML = `
         <div style="color: rgba(255,255,255,0.3); padding: 2rem; text-align: center; width: 100%;">
-          No live matches available at the moment
+          No matches available
         </div>
       `;
       return;
@@ -150,6 +157,24 @@
       // Get base match ID (without language suffix)
       const baseMatchId = getBaseMatchId(match.match_id);
 
+      // Format start time nicely
+      let formattedTime = match.startTime || '';
+      if (formattedTime) {
+        try {
+          const date = new Date(formattedTime);
+          if (!isNaN(date)) {
+            formattedTime = date.toLocaleString('en-US', {
+              month: 'short',
+              day: 'numeric',
+              hour: '2-digit',
+              minute: '2-digit'
+            });
+          }
+        } catch (e) {
+          // Keep original format if parsing fails
+        }
+      }
+
       html += `
         <div class="fancode-card" data-match-id="${baseMatchId}" data-full-match-id="${match.match_id || ''}" data-stream-url="${streamUrl}" data-title="${match.title || match.match_name || 'Live Match'}">
           <div class="fancode-thumb">
@@ -176,8 +201,9 @@
             <div class="fancode-meta">
               <div class="fancode-meta-left">
                 <span class="fancode-status ${statusClass}">${statusText}</span>
+                ${match.event_category ? `<span class="fancode-category">${match.event_category}</span>` : ''}
               </div>
-              <span class="fancode-time">${match.startTime || ''}</span>
+              <span class="fancode-time">${formattedTime || match.startTime || ''}</span>
             </div>
             ${hasStream ? '<div class="stream-indicator available">▶ CLICK TO PLAY</div>' : '<div class="stream-indicator unavailable">NO STREAM</div>'}
           </div>
