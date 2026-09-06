@@ -9,7 +9,115 @@
   position: relative;
   background: #0b0d0f;
 }
+/* FanCode Live Badge */
+.live-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255, 0, 0, 0.85);
+  color: #fff;
+  padding: 0.15rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  z-index: 2;
+  animation: pulse-live 1.5s ease-in-out infinite;
+}
 
+@keyframes pulse-live {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+/* Stream Indicators */
+.stream-indicator {
+  font-size: 0.5rem;
+  text-align: right;
+  margin-top: 0.2rem;
+  letter-spacing: 0.03em;
+}
+
+.stream-indicator.available {
+  color: rgba(0, 255, 100, 0.5);
+}
+
+.stream-indicator.unavailable {
+  color: rgba(255, 0, 0, 0.2);
+}
+
+/* Status Badge Colors */
+.fancode-status.live {
+  color: #ff4444;
+  font-weight: 700;
+}
+
+.fancode-status.upcoming {
+  color: #ffaa00;
+}
+
+.fancode-status.ended {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+/* Category tag */
+.fancode-category {
+  font-size: 0.55rem;
+  color: rgba(255, 255, 255, 0.3);
+  text-transform: uppercase;
+  margin-left: 0.5rem;
+}
+
+/* Card hover effect */
+.fancode-card {
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.fancode-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Thumbnail container */
+.fancode-thumb {
+  position: relative;
+  overflow: hidden;
+}
+
+.fancode-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.fancode-card:hover .fancode-thumb img {
+  transform: scale(1.05);
+}
+
+/* Category tag */
+.fancode-category-tag {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 0.15rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.55rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  z-index: 2;
+  backdrop-filter: blur(4px);
+}
+
+/* Time display */
+.fancode-time {
+  font-size: 0.6rem;
+  color: rgba(255, 255, 255, 0.4);
+  white-space: nowrap;
+}
 /* ---- HEADER ---- */
 .fancode-header {
   display: flex;
