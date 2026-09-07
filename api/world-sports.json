@@ -1,64 +1,8 @@
 {
-  "timestamp": "2026-09-06T23:03:40.411996",
-  "total_matches": 2,
-  "live_count": 2,
+  "timestamp": "2026-09-07T00:51:26.413387",
+  "total_matches": 0,
+  "live_count": 0,
   "upcoming_count": 0,
   "completed_count": 0,
-  "matches": [
-    {
-      "match_id": "754",
-      "title": "Espanyol vs Sevilla",
-      "teams": "Espanyol vs Sevilla",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoMXfeD4hgbDsvGj-4kLUIb0IanYxmyVHy5MBF-n1RMn6_hJVL-XzuF9E&s=10",
-      "league": "LaLiga",
-      "viewers": "8",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=754",
-      "match_url": "live/espanyol-vs-sevilla-754",
-      "stream_url": "https://live.talkoraai.com/match/hls?t=jSoU6tYfN-lsNsc_JQcZFg1FG-pQ3EA6oKvHZ9PMfmkd2Rov1voqyQhG7FZ1sTsy3yfTNP9KOe6cVPpSTpVaIGpzp-luviycUwCbPbnBtWTM4z9d4LZEAVrvelc63FR2w2lS7dEEAaBHqeFsOkKbmygDF_7UskTMIRqTbKevhLjdxZ6u7ZXHERkR2A_8B0hRUa609Vpe0tvqCYEkHhq932tJfMFHFbzULQJvZyxqim9NnyeoMgZ6xUSQMife-QNZjH4G8MAAaq4XfUpod-SlTm0VdfeaOQ",
-      "server_count": 2,
-      "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=jSoU6tYfN-lsNsc_JQcZFg1FG-pQ3EA6oKvHZ9PMfmkd2Rov1voqyQhG7FZ1sTsy3yfTNP9KOe6cVPpSTpVaIGpzp-luviycUwCbPbnBtWTM4z9d4LZEAVrvelc63FR2w2lS7dEEAaBHqeFsOkKbmygDF_7UskTMIRqTbKevhLjdxZ6u7ZXHERkR2A_8B0hRUa609Vpe0tvqCYEkHhq932tJfMFHFbzULQJvZyxqim9NnyeoMgZ6xUSQMife-QNZjH4G8MAAaq4XfUpod-SlTm0VdfeaOQ",
-        "https://live.talkoraai.com/match/seg?t=R_RpfSLapfAHVLh-vVFsvvBx43E-B6YaKjiQcy779Wv6W5FZkW6uNDQc_ogO56YPFnvt3_b4efh6vWL3jIHn0TUlWSD0YwwV5zL8t81M1zV3iPUjYb-ySKOhPMDamfiVn4FJnVQ5QVjJtj7MyVVW2axNv9RaJwZupbOA0psFSrCJUWcpcYgi6FnSvpZYNYyXhcjrAWHDWhUen8aB1N66W83Ya4eQnPcNC6Pbvc_-EsbrZidlRazzrHV6LLQ1VQGxXkCH8WvU9y38vDrAi_m2ie7lgUnKn3-Gc5ooaw7h"
-      ],
-      "last_updated": "2026-09-06T21:38:57.516991"
-    },
-    {
-      "match_id": "753",
-      "title": "Guyana Amazon Warriors vs St Kitts and Nevis Patriots",
-      "teams": "Guyana Amazon Warriors vs St Kitts and Nevis Patriots",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788569719540x302.jpg",
-      "league": "CPL-T20",
-      "viewers": "10",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=753",
-      "match_url": "live/guyana-amazon-warriors-vs-st-kitts-and-nevis-patriots-753",
-      "stream_url": "https://live.talkoraai.com/match/hls?t=LRd4jmE87-r3LFbUh2FYPc1GqFEY_eaeHBjjB7ElyrBJ18OVohGo0ko01_H7Ud1D5pOwfku7n0yH9OozE17Ey_CXME2M4Z816bKIWfRQeGuzeJzePznsovB5yys4hKqZQDcswJ2r5sQeQS6k5IPg8WM-iVlfkb9aUrqC8GWuJXBpc1vBzv7q8TeUs_X0OW5gu2aPiO6vDEAmlG9A_JEDsc-yt3PAob7h0VFWopP3qZv-jH-_TUUI3nGb3bUz33RNYxuWEGqg3VZURGQWHETxdXFGsA",
-      "server_count": 5,
-      "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=LRd4jmE87-r3LFbUh2FYPc1GqFEY_eaeHBjjB7ElyrBJ18OVohGo0ko01_H7Ud1D5pOwfku7n0yH9OozE17Ey_CXME2M4Z816bKIWfRQeGuzeJzePznsovB5yys4hKqZQDcswJ2r5sQeQS6k5IPg8WM-iVlfkb9aUrqC8GWuJXBpc1vBzv7q8TeUs_X0OW5gu2aPiO6vDEAmlG9A_JEDsc-yt3PAob7h0VFWopP3qZv-jH-_TUUI3nGb3bUz33RNYxuWEGqg3VZURGQWHETxdXFGsA",
-        "https://live.talkoraai.com/match/seg?t=NZcJuCpcNXygdhBIKF-Z45_I7FR8dypSUxzV6p8yhOr1kMF_MmXO26Le4EDKzaqmi7w48C6mWHudkdNGHQgqyhw83ILtsJFzNebWK1EVF8sBoBHjEbDZ9crTc9KzcA9kJieOIxJK9y4ltVWnbEEodGwAwhglmd-J7kuQZLJxI4-sWKjYr3339yxW6m27_OdsaZNAgNwxWNfXKdxnMkpqxQwZjc7p9cAyFb2EYdfa5DwZrovVr18q4CKYd-VbcrhCobTDw5rUxUEvXCP3ixFn-7tXbLf9wCtx4uuE",
-        "https://tvsen5.aynaott.com/willowhd/tracks-v1a1/mono.ts.m3u8",
-        "https://digitalotthub.com/tv/dd/live.php/598.m3u8",
-        "https://tvsen7.aynaott.com/ssport2hd/index.m3u8"
-      ],
-      "last_updated": "2026-09-06T21:38:58.749983"
-    }
-  ]
+  "matches": []
 }
