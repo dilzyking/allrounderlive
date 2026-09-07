@@ -184,7 +184,6 @@
               loading="lazy"
               onerror="this.src='https://via.placeholder.com/400x225/1a1c1e/555?text=No+Image'"
             />
-            <span class="fancode-category-tag">${match.event_category || match.category || 'Sports'}</span>
             ${isLive ? '<span class="live-badge">● LIVE</span>' : ''}
           </div>
           <div class="fancode-info">
@@ -201,7 +200,6 @@
             <div class="fancode-meta">
               <div class="fancode-meta-left">
                 <span class="fancode-status ${statusClass}">${statusText}</span>
-                ${match.event_category ? `<span class="fancode-category">${match.event_category}</span>` : ''}
               </div>
               <span class="fancode-time">${formattedTime || match.startTime || ''}</span>
             </div>
