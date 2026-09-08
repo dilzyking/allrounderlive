@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-08T07:51:54.880169",
-  "total_matches": 5,
+  "timestamp": "2026-09-08T07:56:58.995251",
+  "total_matches": 7,
   "live_count": 1,
-  "upcoming_count": 4,
+  "upcoming_count": 6,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249120_53065_AMS_MOK_fc-web_1788345784705.jpg",
       "league": "Sher-E-Punjab T20 League",
-      "viewers": "7",
+      "viewers": "8",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -29,7 +29,7 @@
         "https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8",
         "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_5_hd&e=.m3u8"
       ],
-      "last_updated": "2026-09-08T07:46:55.054505"
+      "last_updated": "2026-09-08T07:51:55.913839"
     },
     {
       "match_id": "764",
@@ -52,7 +52,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-08T07:46:56.372086"
+      "last_updated": "2026-09-08T07:51:57.150875"
     },
     {
       "match_id": "765",
@@ -75,7 +75,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-08T07:46:56.372850"
+      "last_updated": "2026-09-08T07:51:57.151677"
     },
     {
       "match_id": "767",
@@ -98,7 +98,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-08T07:46:56.373470"
+      "last_updated": "2026-09-08T07:51:57.152320"
     },
     {
       "match_id": "766",
@@ -121,7 +121,53 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-08T07:46:56.374050"
+      "last_updated": "2026-09-08T07:51:57.152985"
+    },
+    {
+      "match_id": "771",
+      "title": "Ittihad vs Al-Fayha",
+      "teams": "Ittihad vs Al-Fayha",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788787652540x302.jpg",
+      "league": "Saudi Pro League 2026/27",
+      "viewers": "327",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=771",
+      "match_url": "live/ittihad-vs-al-fayha-771",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-08T07:51:57.153639"
+    },
+    {
+      "match_id": "770",
+      "title": "Al Qadsiah vs Al-Ahli",
+      "teams": "Al Qadsiah vs Al-Ahli",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788787506540x302.jpg",
+      "league": "Saudi Pro League 2026/27",
+      "viewers": "290",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=770",
+      "match_url": "live/al-qadsiah-vs-al-ahli-770",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-08T07:51:57.154261"
     }
   ]
 }
