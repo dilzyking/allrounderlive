@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-08T07:41:51.783980",
-  "total_matches": 2,
+  "timestamp": "2026-09-08T07:46:52.802109",
+  "total_matches": 4,
   "live_count": 1,
-  "upcoming_count": 1,
+  "upcoming_count": 3,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249120_53065_AMS_MOK_fc-web_1788345784705.jpg",
       "league": "Sher-E-Punjab T20 League",
-      "viewers": "4",
+      "viewers": "6",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -29,7 +29,7 @@
         "https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8",
         "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_5_hd&e=.m3u8"
       ],
-      "last_updated": "2026-09-08T07:36:52.968602"
+      "last_updated": "2026-09-08T07:41:52.704773"
     },
     {
       "match_id": "764",
@@ -52,7 +52,53 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-08T07:36:53.978231"
+      "last_updated": "2026-09-08T07:41:53.056161"
+    },
+    {
+      "match_id": "765",
+      "title": "Ettifaq vs Al-Faisaly",
+      "teams": "Ettifaq vs Al-Faisaly",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248660_53025_ETT_ALF_FC-Web.png",
+      "league": "Saudi Pro League 2026/27",
+      "viewers": "455",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=765",
+      "match_url": "live/ettifaq-vs-al-faisaly-765",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-08T07:41:53.056699"
+    },
+    {
+      "match_id": "766",
+      "title": "Club Brugge vs Aston Villa",
+      "teams": "Club Brugge vs Aston Villa",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.f68080a3-6f3d-4252-a456-b51fa970b4dd/1/BOXART-16X9/en-US._UR1920,1080_SX624_FMjpg_.jpeg",
+      "league": "UEFA Champions League 2026",
+      "viewers": "492",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=766",
+      "match_url": "live/club-brugge-vs-aston-villa-766",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-08T07:41:53.057154"
     }
   ]
 }
