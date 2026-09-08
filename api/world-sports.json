@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-08T22:03:04.521884",
+  "timestamp": "2026-09-08T22:09:48.405591",
   "total_matches": 2,
-  "live_count": 0,
-  "upcoming_count": 2,
+  "live_count": 1,
+  "upcoming_count": 1,
   "completed_count": 0,
   "matches": [
     {
@@ -11,22 +11,24 @@
       "teams": "Santa Fe vs Vasco",
       "sport": "football",
       "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
+      "status": "live",
+      "status_display": "LIVE",
       "runtime": "00h 00m 00s",
       "thumbnail": "https://www.semana.com/resizer/v2/PJPYH5JO2BBZPDOJNAHFH5WSYU.jpg?smart=true&auth=5a7c961eacd5abd829d12afe8bae4072298f2f57559cdeb1e10da567c8e88196&width=1280&height=720",
       "league": "CONMEBOL Sudamericana",
-      "viewers": "236",
-      "viewers_type": "Waiting",
+      "viewers": "1",
+      "viewers_type": "Watching",
       "date": null,
       "time": null,
       "servers": null,
       "page_url": "/world-sports/player.html?id=778",
       "match_url": "live/santa-fe-vs-vasco-778",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-08T21:57:59.444066"
+      "stream_url": "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.41%2Fhls%2FYMMMA.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
+      "server_count": 1,
+      "server_urls": [
+        "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.41%2Fhls%2FYMMMA.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
+      ],
+      "last_updated": "2026-09-08T22:03:05.443855"
     },
     {
       "match_id": "777",
@@ -49,7 +51,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-08T21:57:59.444696"
+      "last_updated": "2026-09-08T22:03:05.757849"
     }
   ]
 }
