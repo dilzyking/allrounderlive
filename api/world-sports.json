@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-08T23:00:27.438923",
+  "timestamp": "2026-09-08T23:05:30.851356",
   "total_matches": 2,
-  "live_count": 1,
-  "upcoming_count": 1,
+  "live_count": 2,
+  "upcoming_count": 0,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://www.semana.com/resizer/v2/PJPYH5JO2BBZPDOJNAHFH5WSYU.jpg?smart=true&auth=5a7c961eacd5abd829d12afe8bae4072298f2f57559cdeb1e10da567c8e88196&width=1280&height=720",
       "league": "CONMEBOL Sudamericana",
-      "viewers": "10",
+      "viewers": "11",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -28,7 +28,7 @@
       "server_urls": [
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.41%2Fhls%2FYMMMA.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-08T22:51:12.258347"
+      "last_updated": "2026-09-08T23:00:34.040787"
     },
     {
       "match_id": "777",
@@ -36,22 +36,26 @@
       "teams": "Guyana Amazon Warriors vs Antigua and Barbuda Falcons",
       "sport": "cricket",
       "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
+      "status": "live",
+      "status_display": "LIVE",
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788788201540x302.jpg",
       "league": "CPL-T20",
       "viewers": "2",
-      "viewers_type": "Waiting",
+      "viewers_type": "Watching",
       "date": null,
       "time": null,
       "servers": null,
       "page_url": "/world-sports/player.html?id=777",
       "match_url": "live/guyana-amazon-warriors-vs-antigua-and-barbuda-falcons-777",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-08T22:51:12.679773"
+      "stream_url": "https://tvsen5.aynaott.com/willowhd/tracks-v1a1/mono.ts.m3u8",
+      "server_count": 3,
+      "server_urls": [
+        "https://tvsen5.aynaott.com/willowhd/tracks-v1a1/mono.ts.m3u8",
+        "https://tvsen7.aynaott.com/ssport2hd/index.m3u8",
+        "https://tvsen5.aynascope.net/cXPB2LKkErN9/tracks-v1a1/mono.ts.m3u8"
+      ],
+      "last_updated": "2026-09-08T23:00:35.194406"
     }
   ]
 }
