@@ -1,10 +1,35 @@
 {
-  "timestamp": "2026-09-08T07:56:58.995251",
-  "total_matches": 7,
-  "live_count": 1,
-  "upcoming_count": 6,
+  "timestamp": "2026-09-08T08:01:59.781829",
+  "total_matches": 10,
+  "live_count": 2,
+  "upcoming_count": 8,
   "completed_count": 0,
   "matches": [
+    {
+      "match_id": "774",
+      "title": "LOSC vs Betis",
+      "teams": "LOSC vs Betis",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": null,
+      "league": "UEFA Champions League 2026",
+      "viewers": "438",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=774",
+      "match_url": "live/losc-vs-betis-774",
+      "stream_url": "https://curly-surf-da2d.hasannirob234.workers.dev/https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8",
+      "server_count": 1,
+      "server_urls": [
+        "https://curly-surf-da2d.hasannirob234.workers.dev/https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8"
+      ],
+      "last_updated": "2026-09-08T07:56:56.890187"
+    },
     {
       "match_id": "763",
       "title": "Amritsar Soormas vs Mohali Kings",
@@ -16,7 +41,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249120_53065_AMS_MOK_fc-web_1788345784705.jpg",
       "league": "Sher-E-Punjab T20 League",
-      "viewers": "8",
+      "viewers": "9",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -29,7 +54,53 @@
         "https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8",
         "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_5_hd&e=.m3u8"
       ],
-      "last_updated": "2026-09-08T07:51:55.913839"
+      "last_updated": "2026-09-08T07:56:57.224510"
+    },
+    {
+      "match_id": "773",
+      "title": "Porto vs Man City",
+      "teams": "Porto vs Man City",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023619/1788784627467392_UCL2627_MD1_Porto_vs_Man_city_dated_landscape_thumb.jpg",
+      "league": "UEFA Champions League 2026",
+      "viewers": "401",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=773",
+      "match_url": "live/porto-vs-man-city-773",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-08T07:56:57.477329"
+    },
+    {
+      "match_id": "772",
+      "title": "Real Madrid vs Inter Milan",
+      "teams": "Real Madrid vs Inter Milan",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023519/178859150945674_UCL_26_Real-Madrid-vs-Inter_promo_DDT_landscape_thumb.jpg",
+      "league": "UEFA Champions League 2026",
+      "viewers": "364",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=772",
+      "match_url": "live/real-madrid-vs-inter-milan-772",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-08T07:56:57.478069"
     },
     {
       "match_id": "764",
@@ -52,7 +123,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-08T07:51:57.150875"
+      "last_updated": "2026-09-08T07:56:57.478725"
     },
     {
       "match_id": "765",
@@ -75,7 +146,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-08T07:51:57.151677"
+      "last_updated": "2026-09-08T07:56:57.479408"
     },
     {
       "match_id": "767",
@@ -88,7 +159,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.cf427636-6ea7-48d2-9b2d-feb86342cdb3/1/BOXART-16X9/en-US._UR1920,1080_SX624_FMjpg_.jpeg",
       "league": "UEFA Champions League 2026",
-      "viewers": "179",
+      "viewers": "1",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -98,7 +169,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-08T07:51:57.152320"
+      "last_updated": "2026-09-08T07:56:57.480110"
     },
     {
       "match_id": "766",
@@ -121,7 +192,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-08T07:51:57.152985"
+      "last_updated": "2026-09-08T07:56:57.480806"
     },
     {
       "match_id": "771",
@@ -144,7 +215,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-08T07:51:57.153639"
+      "last_updated": "2026-09-08T07:56:57.481505"
     },
     {
       "match_id": "770",
@@ -167,7 +238,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-08T07:51:57.154261"
+      "last_updated": "2026-09-08T07:56:57.482166"
     }
   ]
 }
