@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-09T10:23:16.952314",
-  "total_matches": 2,
-  "live_count": 2,
+  "timestamp": "2026-09-09T10:28:17.373765",
+  "total_matches": 1,
+  "live_count": 1,
   "upcoming_count": 0,
   "completed_count": 0,
   "matches": [
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788178193540x302.jpg",
       "league": "ICC World Test Championship",
-      "viewers": "24",
+      "viewers": "26",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -31,33 +31,7 @@
         "https://tvsen5.aynascope.net/willowhd/mono.m3u8",
         "https://stream.ottplus.live/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8"
       ],
-      "last_updated": "2026-09-09T10:18:16.017225"
-    },
-    {
-      "match_id": "779",
-      "title": "Ludhiana Lions vs Fazilka Falcons",
-      "teams": "Ludhiana Lions vs Fazilka Falcons",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://images.slivcdn.com/videoasset_images/manage_file/1000023605/1788765442093395_PT20_Ludhiana-Lions-vs-Fazilka-Falcons_landscape_thumb.jpg?w=500&q=low",
-      "league": "Sher-E-Punjab T20 League",
-      "viewers": "31",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=779",
-      "match_url": "live/ludhiana-lions-vs-fazilka-falcons-779",
-      "stream_url": "https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8",
-      "server_count": 2,
-      "server_urls": [
-        "https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8",
-        "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_5_hd&e=.m3u8"
-      ],
-      "last_updated": "2026-09-09T10:18:17.294877"
+      "last_updated": "2026-09-09T10:23:19.986949"
     }
   ]
 }
