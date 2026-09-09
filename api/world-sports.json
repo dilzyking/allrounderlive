@@ -1,39 +1,10 @@
 {
-  "timestamp": "2026-09-09T18:52:33.575690",
+  "timestamp": "2026-09-09T18:57:37.975236",
   "total_matches": 8,
-  "live_count": 4,
-  "upcoming_count": 4,
+  "live_count": 3,
+  "upcoming_count": 5,
   "completed_count": 0,
   "matches": [
-    {
-      "match_id": "780",
-      "title": "England vs Pakistan",
-      "teams": "England vs Pakistan",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788178193540x302.jpg",
-      "league": "ICC World Test Championship",
-      "viewers": "159",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=780",
-      "match_url": "live/england-vs-pakistan-780",
-      "stream_url": "https://live.talkoraai.com/match/hls?t=Ut18AVBKwiNahG057jYdPPsFSvWSE2kpvJlSILMDxZiwmyFX42ZgM4YH9tiGb7DkJ7N1nAuMTd2_Bgb2jHXOwJvPW6FtSpdv3j6eI4ieaoQObmtz2q5LLjxu2SUJjwxscK4NgPggCl077rl2hhRb-FUgMMGM9QzE6v__x67qyWFH1k0xxR3y_7MEv0xo4shjh3_rHDu3Wat-otmJ0ANygM_lb-eax4AoKDpP1YgkDBrJflE5DbJYykgkemZ53Ne8rvI6fvXHgLmXaH-WqekJR-XwD1rIkA",
-      "server_count": 5,
-      "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=Ut18AVBKwiNahG057jYdPPsFSvWSE2kpvJlSILMDxZiwmyFX42ZgM4YH9tiGb7DkJ7N1nAuMTd2_Bgb2jHXOwJvPW6FtSpdv3j6eI4ieaoQObmtz2q5LLjxu2SUJjwxscK4NgPggCl077rl2hhRb-FUgMMGM9QzE6v__x67qyWFH1k0xxR3y_7MEv0xo4shjh3_rHDu3Wat-otmJ0ANygM_lb-eax4AoKDpP1YgkDBrJflE5DbJYykgkemZ53Ne8rvI6fvXHgLmXaH-WqekJR-XwD1rIkA",
-        "https://live.talkoraai.com/match/seg?t=SeKFYGaRR8LI7m69J2GVIlcpIDK8V6QDRky-TOE_VaqxubIC5Ein-xl-iaTlFgnAgoFciE8uC8Cxfu-lyb0dea_Dln-vtcWqZqp0q-Ski-MkxvUxnZ6HX5PgVyyYhvyoAtEVdPqdLnWweV3_asmijuhgAm9QNbr4pVTWPHE3GQ69bwWY4KeYSdCVfKji6DD9gjLUtvozYalRdDJcGKcQIO9iIowEoVf5hVQjgGdg9tQB1D5u6D4uFCkpiyf6v6A5JTzjVOFgxjOgnY9oTRL-h5ZOZXxmAJKy7DudMatT",
-        "https://tvsen5.aynascope.net/willowhd/mono.m3u8",
-        "https://stream.ottplus.live/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8",
-        "https://sportz-obiram.emonsa4.workers.dev/proxy?url=DAcVFABRQ0tIRgRYRkNHVVYZSlYMLClFDRkSGg8HMnBTEFlZBUZVRlZSEVIKAhgcGhtVBwpRBlMNFEckdQJeU0kBBAI6J0oeWx9cTBdOFA0rLj9WT3peHUtjQmZdVXJbTXcEVE4PW1paUWtpXEdcXVBVFxAJAR4OUQxeXlpZ"
-      ],
-      "last_updated": "2026-09-09T18:47:45.610253"
-    },
     {
       "match_id": "784",
       "title": "VFB Stuttgart vs Viking",
@@ -45,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://sumbar.akurat.co/_next/image?url=https%3A%2F%2Fakurat.sgp1.cdn.digitaloceanspaces.com%2Fimages%2F20260909-10393466365-0-stuttgart-vs-viking.png&w=3840&q=100",
       "league": "UEFA Champions League 2026",
-      "viewers": "30",
+      "viewers": "31",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -60,7 +31,7 @@
         "https://fawa.duckdns.org/api/proxy?url=https%3A%2F%2Fwww.rtmpcdn.com%2Flive%2F4dbbf846-d4e1-497b-990c-707fb8fffd4b.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.44%2Fhls%2FDOOOA.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-09T18:47:47.295259"
+      "last_updated": "2026-09-09T18:52:48.118062"
     },
     {
       "match_id": "783",
@@ -73,7 +44,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://i.postimg.cc/PxQZcSpF/82d25320-972e-4795-bab0-5146916f90cf.jpg",
       "league": "UEFA Champions League 2026",
-      "viewers": "110",
+      "viewers": "111",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -92,7 +63,7 @@
         "https://live2.domaincdn.cc/livecdn/channel-1.m3u8?auth_key=3000001788971862-0-0-589b468147000fe68ef2401ba41c80ec",
         "https://hrthrtjhrtijkhiurt.chkgjkg.online/hls/68.m3u8"
       ],
-      "last_updated": "2026-09-09T18:47:47.667019"
+      "last_updated": "2026-09-09T18:52:49.774415"
     },
     {
       "match_id": "785",
@@ -105,7 +76,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://i.ytimg.com/vi/n2CkO_mHIpo/maxresdefault.jpg",
       "league": "Saudi Pro League 2026/27",
-      "viewers": "22",
+      "viewers": "24",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -118,7 +89,7 @@
         "https://live.talkoraai.com/match/hls?t=ssjtP0vTowmdLaJMQr5vvTqpdCjLKF8Xoa04y8pe52SuNg7ac_SXnMbiB9es74PMlnXFuTmsRgQlByX2Qw5dE33F4_SOf6VerYhOfIoJzPqo1JEM2lDWw2romMjFawmC-RgbG2ipLrFlXEiHYpkiUZVXE7WJZmyYU_9rkVofwQFhBKPDZ71rrbbLtK8l_ZxxJNgc2hQPi4fjUxo_Fn3cKKhRQU9-NmKh358DKtUbVxWw7dtPXmpRzBsod4rhfq9Cp3Egg-abpm2XR1qWXlVJCT3SwXTIF_Jd",
         "https://live.talkoraai.com/match/seg?t=qqRnuHkEzVMAA2kRUKTT28nZMG-YztCy9DpvL7uIXVoZibkJJGKt8aSpBGqySQPNzu-AfppU9riZZGmAELeihoRV2TT3_phr-a_vBdDnmCkBokaRWpo0RTYjinroKXfn39QGgGeWp1-MDz0Cqp_RaNjcS88RCsMHjstOpWlkwfzws3_ZzMRFmBl8i_EvHiXfJdhte20LH5AbIo9nzfjOgk4s9v4K22Cbv2gwGizzmUoRs0AxYiOOlgBOYYzIcVJhGaBFaazt1r0z7JA-f0x6awQmWJrBnKUiMVeL_DyzCT8"
       ],
-      "last_updated": "2026-09-09T18:47:48.036710"
+      "last_updated": "2026-09-09T18:52:50.155947"
     },
     {
       "match_id": "789",
@@ -141,7 +112,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-09T18:47:48.398718"
+      "last_updated": "2026-09-09T18:52:50.536163"
     },
     {
       "match_id": "788",
@@ -164,7 +135,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-09T18:47:48.399460"
+      "last_updated": "2026-09-09T18:52:50.536809"
     },
     {
       "match_id": "787",
@@ -187,7 +158,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-09T18:47:48.400120"
+      "last_updated": "2026-09-09T18:52:50.537382"
     },
     {
       "match_id": "786",
@@ -210,7 +181,30 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-09T18:47:48.400737"
+      "last_updated": "2026-09-09T18:52:50.537948"
+    },
+    {
+      "match_id": "780",
+      "title": "England vs Pakistan",
+      "teams": "England vs Pakistan",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788178193540x302.jpg",
+      "league": "ICC World Test Championship",
+      "viewers": "161",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=780",
+      "match_url": "live/england-vs-pakistan-780",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-09T18:52:50.538509"
     }
   ]
 }
