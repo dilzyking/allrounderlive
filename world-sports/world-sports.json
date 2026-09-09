@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-09T11:03:30.478878",
-  "total_matches": 1,
+  "timestamp": "2026-09-09T11:08:32.428805",
+  "total_matches": 3,
   "live_count": 1,
-  "upcoming_count": 0,
+  "upcoming_count": 2,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788178193540x302.jpg",
       "league": "ICC World Test Championship",
-      "viewers": "40",
+      "viewers": "42",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -31,7 +31,53 @@
         "https://tvsen5.aynascope.net/willowhd/mono.m3u8",
         "https://stream.ottplus.live/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8"
       ],
-      "last_updated": "2026-09-09T10:58:34.121000"
+      "last_updated": "2026-09-09T11:03:36.215202"
+    },
+    {
+      "match_id": "781",
+      "title": "Mohali Kings vs Bathinda Royals",
+      "teams": "Mohali Kings vs Bathinda Royals",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249122_53065_MOK_BHT_fc-web_1788345784011.jpg",
+      "league": "Sher-E-Punjab T20 League",
+      "viewers": "347",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=781",
+      "match_url": "live/mohali-kings-vs-bathinda-royals-781",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-09T11:03:36.527647"
+    },
+    {
+      "match_id": "782",
+      "title": "Dublin Guardians vs Belfast Wolves",
+      "teams": "Dublin Guardians vs Belfast Wolves",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788932614540x302.jpg",
+      "league": "European T20 Premier League 2026",
+      "viewers": "384",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=782",
+      "match_url": "live/dublin-guardians-vs-belfast-wolves-782",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-09T11:03:36.528260"
     }
   ]
 }
