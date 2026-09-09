@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-09T00:47:28.748898",
+  "timestamp": "2026-09-09T00:58:26.146971",
   "total_matches": 2,
   "live_count": 2,
   "upcoming_count": 0,
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://www.semana.com/resizer/v2/PJPYH5JO2BBZPDOJNAHFH5WSYU.jpg?smart=true&auth=5a7c961eacd5abd829d12afe8bae4072298f2f57559cdeb1e10da567c8e88196&width=1280&height=720",
       "league": "CONMEBOL Sudamericana",
-      "viewers": "35",
+      "viewers": "36",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -28,7 +28,7 @@
       "server_urls": [
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.41%2Fhls%2FYMMMA.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-09T00:42:33.644703"
+      "last_updated": "2026-09-09T00:47:36.629446"
     },
     {
       "match_id": "777",
@@ -41,7 +41,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788788201540x302.jpg",
       "league": "CPL-T20",
-      "viewers": "26",
+      "viewers": "27",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -55,7 +55,7 @@
         "https://tvsen7.aynaott.com/ssport2hd/index.m3u8",
         "https://tvsen5.aynascope.net/cXPB2LKkErN9/tracks-v1a1/mono.ts.m3u8"
       ],
-      "last_updated": "2026-09-09T00:42:34.789194"
+      "last_updated": "2026-09-09T00:47:36.931529"
     }
   ]
 }
