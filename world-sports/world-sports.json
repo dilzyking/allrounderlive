@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-09T11:18:37.813238",
-  "total_matches": 7,
+  "timestamp": "2026-09-09T11:23:38.708658",
+  "total_matches": 9,
   "live_count": 1,
-  "upcoming_count": 6,
+  "upcoming_count": 8,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788178193540x302.jpg",
       "league": "ICC World Test Championship",
-      "viewers": "48",
+      "viewers": "49",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -31,7 +31,7 @@
         "https://tvsen5.aynascope.net/willowhd/mono.m3u8",
         "https://stream.ottplus.live/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8"
       ],
-      "last_updated": "2026-09-09T11:13:39.508216"
+      "last_updated": "2026-09-09T11:18:54.066897"
     },
     {
       "match_id": "781",
@@ -54,7 +54,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-09T11:13:40.306563"
+      "last_updated": "2026-09-09T11:18:54.473266"
     },
     {
       "match_id": "784",
@@ -77,7 +77,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-09T11:13:40.307418"
+      "last_updated": "2026-09-09T11:18:54.473833"
     },
     {
       "match_id": "783",
@@ -100,7 +100,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-09T11:13:40.308096"
+      "last_updated": "2026-09-09T11:18:54.474208"
     },
     {
       "match_id": "785",
@@ -123,7 +123,53 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-09T11:13:40.308746"
+      "last_updated": "2026-09-09T11:18:54.474567"
+    },
+    {
+      "match_id": "788",
+      "title": "PSG vs Slovan Bratislava",
+      "teams": "PSG vs Slovan Bratislava",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://i.postimg.cc/D0Dqd8bh/c26e0059-f71d-4b6d-af53-9d2dec5ceb57.jpg",
+      "league": "UEFA Champions League 2026",
+      "viewers": "2",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=788",
+      "match_url": "live/psg-vs-slovan-bratislava-788",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-09T11:18:54.474943"
+    },
+    {
+      "match_id": "787",
+      "title": "Liverpool vs Atletico Madrid",
+      "teams": "Liverpool vs Atletico Madrid",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://i.postimg.cc/9FFSLSRL/ec123aee-cf0b-48c4-9e09-25c5207586b6.jpg",
+      "league": "UEFA Champions League 2026",
+      "viewers": "219",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=787",
+      "match_url": "live/liverpool-vs-atletico-madrid-787",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-09T11:18:54.475309"
     },
     {
       "match_id": "786",
@@ -146,7 +192,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-09T11:13:40.309410"
+      "last_updated": "2026-09-09T11:18:54.475680"
     },
     {
       "match_id": "782",
@@ -169,7 +215,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-09T11:13:40.310072"
+      "last_updated": "2026-09-09T11:18:54.476029"
     }
   ]
 }
