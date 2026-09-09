@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-09T13:12:11.561206",
+  "timestamp": "2026-09-09T13:17:49.959307",
   "total_matches": 10,
-  "live_count": 1,
-  "upcoming_count": 9,
+  "live_count": 2,
+  "upcoming_count": 8,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788178193540x302.jpg",
       "league": "ICC World Test Championship",
-      "viewers": "74",
+      "viewers": "75",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -31,7 +31,32 @@
         "https://tvsen5.aynascope.net/willowhd/mono.m3u8",
         "https://stream.ottplus.live/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8"
       ],
-      "last_updated": "2026-09-09T13:07:20.136936"
+      "last_updated": "2026-09-09T13:12:17.202391"
+    },
+    {
+      "match_id": "782",
+      "title": "Dublin Guardians vs Belfast Wolves",
+      "teams": "Dublin Guardians vs Belfast Wolves",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788932614540x302.jpg",
+      "league": "European T20 Premier League 2026",
+      "viewers": "1",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=782",
+      "match_url": "live/dublin-guardians-vs-belfast-wolves-782",
+      "stream_url": "https://tvsen5.aynascope.net/cXPB2LKkErN9/tracks-v1a1/mono.ts.m3u8",
+      "server_count": 1,
+      "server_urls": [
+        "https://tvsen5.aynascope.net/cXPB2LKkErN9/tracks-v1a1/mono.ts.m3u8"
+      ],
+      "last_updated": "2026-09-09T13:12:18.248124"
     },
     {
       "match_id": "781",
@@ -54,7 +79,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-09T13:07:21.514878"
+      "last_updated": "2026-09-09T13:12:18.509313"
     },
     {
       "match_id": "784",
@@ -77,7 +102,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-09T13:07:21.515718"
+      "last_updated": "2026-09-09T13:12:18.510033"
     },
     {
       "match_id": "783",
@@ -100,7 +125,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-09T13:07:21.516381"
+      "last_updated": "2026-09-09T13:12:18.510678"
     },
     {
       "match_id": "785",
@@ -123,7 +148,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-09T13:07:21.517071"
+      "last_updated": "2026-09-09T13:12:18.511333"
     },
     {
       "match_id": "789",
@@ -146,7 +171,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-09T13:07:21.517732"
+      "last_updated": "2026-09-09T13:12:18.511994"
     },
     {
       "match_id": "788",
@@ -159,7 +184,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://i.postimg.cc/D0Dqd8bh/c26e0059-f71d-4b6d-af53-9d2dec5ceb57.jpg",
       "league": "UEFA Champions League 2026",
-      "viewers": "3",
+      "viewers": "4",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -169,7 +194,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-09T13:07:21.518356"
+      "last_updated": "2026-09-09T13:12:18.512604"
     },
     {
       "match_id": "787",
@@ -192,7 +217,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-09T13:07:21.518988"
+      "last_updated": "2026-09-09T13:12:18.513228"
     },
     {
       "match_id": "786",
@@ -215,30 +240,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-09T13:07:21.519657"
-    },
-    {
-      "match_id": "782",
-      "title": "Dublin Guardians vs Belfast Wolves",
-      "teams": "Dublin Guardians vs Belfast Wolves",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788932614540x302.jpg",
-      "league": "European T20 Premier League 2026",
-      "viewers": "1",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=782",
-      "match_url": "live/dublin-guardians-vs-belfast-wolves-782",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-09T13:07:21.520279"
+      "last_updated": "2026-09-09T13:12:18.513841"
     }
   ]
 }
