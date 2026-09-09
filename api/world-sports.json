@@ -1,115 +1,10 @@
 {
-  "timestamp": "2026-09-09T21:58:12.545343",
-  "total_matches": 5,
-  "live_count": 4,
+  "timestamp": "2026-09-09T22:17:59.785612",
+  "total_matches": 1,
+  "live_count": 0,
   "upcoming_count": 1,
   "completed_count": 0,
   "matches": [
-    {
-      "match_id": "789",
-      "title": "SCP vs Galatasaray",
-      "teams": "SCP vs Galatasaray",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://i.ytimg.com/vi/lQ82ucEFiko/sddefault.jpg?v=6a9741c6",
-      "league": "UEFA Champions League 2026",
-      "viewers": "15",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=789",
-      "match_url": "live/scp-vs-galatasaray-789",
-      "stream_url": "https://live.talkoraai.com/match/hls?t=sRW5hNGfJ7N3QJA-uxtth8iqhvxD9PQ9A8q8ZKqdb_ePNkp4OGzcqiFG-YkwnYZ5GVTVfAONo4pHTDDmAnEEMGE0Dw3Poj97PKDXduKWGiYzYaYVEUyTIecmG62riFuadrJfoWt6HpETIbSoiDotNc1LVemKVovfCAQxPamFiskfN805yg3lsRh0tliQtvaONuwWQgGenCJY1aXF97L0hwkP42Kp_nI19b9VoI5hjIaWT3fFoXVdBFxmE8uIPK1OIaPnG3n9oDotlcXbnNJjfuIjLhgXjEbrl-o",
-      "server_count": 2,
-      "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=sRW5hNGfJ7N3QJA-uxtth8iqhvxD9PQ9A8q8ZKqdb_ePNkp4OGzcqiFG-YkwnYZ5GVTVfAONo4pHTDDmAnEEMGE0Dw3Poj97PKDXduKWGiYzYaYVEUyTIecmG62riFuadrJfoWt6HpETIbSoiDotNc1LVemKVovfCAQxPamFiskfN805yg3lsRh0tliQtvaONuwWQgGenCJY1aXF97L0hwkP42Kp_nI19b9VoI5hjIaWT3fFoXVdBFxmE8uIPK1OIaPnG3n9oDotlcXbnNJjfuIjLhgXjEbrl-o",
-        "https://live.talkoraai.com/match/seg?t=Fj0ASwcpYZj7YZ7YxhT_nh9ZJBBna6FSCjejqI1BQoqCEE3_52zUbfg3MBmBRuLzdT_x9LwUP3EwiyLd12OPA0DOmbcXsLFx965AZ-ROoqZBVhXy1AJWPfuEuctKkI8S73qE2xcemUpVtpQR_D5S9F3tmbXuk0j6xI244cvhTkKTfo1x_ztW2UhIBqonYTn1iw_okEgwiVaST_UciSG9QDhlN7zbg3o76zn7XGqxTTQD34-qJpp_3NovMmeHx1QUWFS-tv5sNqxbTRhplWFw6iqnAR0nI3FwCgSxnzzhinWGJw"
-      ],
-      "last_updated": "2026-09-09T21:23:41.321733"
-    },
-    {
-      "match_id": "788",
-      "title": "PSG vs Slovan Bratislava",
-      "teams": "PSG vs Slovan Bratislava",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://i.postimg.cc/D0Dqd8bh/c26e0059-f71d-4b6d-af53-9d2dec5ceb57.jpg",
-      "league": "UEFA Champions League 2026",
-      "viewers": "22",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=788",
-      "match_url": "live/psg-vs-slovan-bratislava-788",
-      "stream_url": "https://live.talkoraai.com/match/hls?t=TE2GbhVdQDqcg-2J2HpktdRCKRl_hR-8U6Qh2d83qZj4fEAO13B0EEC5FPa03-tiss4pFd3dGQaLDfqk8WdogPAVGMwxhOgAlR5EpH1JQa1RIhiZAkY68w53ATvvhXYzDehtmaqH-pfjRvRtUCAmTwwzbAUxNqkCj_HSo61p-lpB5glta0EfIP10nUj3jjWrJ4yeRM6nuic88BICkXUoL0HUE53HUTkMXd4BZESypPVGRoTpX0XylEuDyhwCdJ-2TTIbGUHPdsrAMBt_Zo314Yc",
-      "server_count": 3,
-      "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=TE2GbhVdQDqcg-2J2HpktdRCKRl_hR-8U6Qh2d83qZj4fEAO13B0EEC5FPa03-tiss4pFd3dGQaLDfqk8WdogPAVGMwxhOgAlR5EpH1JQa1RIhiZAkY68w53ATvvhXYzDehtmaqH-pfjRvRtUCAmTwwzbAUxNqkCj_HSo61p-lpB5glta0EfIP10nUj3jjWrJ4yeRM6nuic88BICkXUoL0HUE53HUTkMXd4BZESypPVGRoTpX0XylEuDyhwCdJ-2TTIbGUHPdsrAMBt_Zo314Yc",
-        "https://live.talkoraai.com/match/seg?t=StbgnN0ra8maGCcpGxsqci1cYNbFBCCpdgePmYq0NzQdAYqMvQ5I-7EPQ0KhjylBHcYQghS9dBIN9urN_vz6k0Mxjs_zQ2QTBAzl5Zl6h8ohIdH0dhZVX9uQZU1-XyPqRb18N8kABW0MlCuscVizBAD-ViyiQJ-YJg34D1I96kqW22OYWJ1oQybcXvf-P9kvLD-q6_S4tSNgE_gEYGM6gxxqI4E8jI_5Bid9i1jKiYDmdhmxj-9yj1k6pt6tIH3ODNJp3LGko4O3i6Uh3O4C2jxM2fUQZxaHaA",
-        "https://stream.ottplus.live/live/ten_1_hd_abr/live/ten_1_hd_720/chunks.m3u8"
-      ],
-      "last_updated": "2026-09-09T21:23:41.737574"
-    },
-    {
-      "match_id": "787",
-      "title": "Liverpool vs Atletico Madrid",
-      "teams": "Liverpool vs Atletico Madrid",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://i.postimg.cc/9FFSLSRL/ec123aee-cf0b-48c4-9e09-25c5207586b6.jpg",
-      "league": "UEFA Champions League 2026",
-      "viewers": "33",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=787",
-      "match_url": "live/liverpool-vs-atletico-madrid-787",
-      "stream_url": "https://live.talkoraai.com/match/hls?t=-cbYnISGvWRExwT1-0A1Lp5G02WsWkvPIkK_m63XNjPcgWNAhP-zuFs0PHG-JPN2VHC77yF53dd8Cd13feXC_78uxWj_VbtgPtAMeFb-6AKDMWMRfFwhr_bKEURmOMTx1Vnt8IspxUAI3mXzie-9Ti4EU1qMUfmJfriEhVC9oNfhmp4fJ-CBxrAYY9n2xqrP6paFdPwvGWDrl6fw_eezf0kOnGWWC5T9KrdZCr9kIvdScObrJtjq6_W2Tj_Bc_ylfeSIfoa6m-k-KcMgduninepycYNnIw",
-      "server_count": 2,
-      "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=-cbYnISGvWRExwT1-0A1Lp5G02WsWkvPIkK_m63XNjPcgWNAhP-zuFs0PHG-JPN2VHC77yF53dd8Cd13feXC_78uxWj_VbtgPtAMeFb-6AKDMWMRfFwhr_bKEURmOMTx1Vnt8IspxUAI3mXzie-9Ti4EU1qMUfmJfriEhVC9oNfhmp4fJ-CBxrAYY9n2xqrP6paFdPwvGWDrl6fw_eezf0kOnGWWC5T9KrdZCr9kIvdScObrJtjq6_W2Tj_Bc_ylfeSIfoa6m-k-KcMgduninepycYNnIw",
-        "https://live.talkoraai.com/match/seg?t=xHTBUTHdvaDv0arJSklPWrgD_8OuufbSn98RA3BA6psDg26M1hcF5oFnDlp7AIMDKlf12NbKd4M8CBIbSkK4VZ5ENbH54U1zI6NHH3x79kd3VpQweWkp5kNZpN0OsyX9zsSIsfEYnOzlkyq9OKXcK8SI40UvCBL81KmrhHliSr81ylfENaFZFz6OfAlIqtn9HMPSq9u04c4pi5goPEjVPKWrcmXOPHl7yvvLL5SsboExzlMKs5fd-7_orSiYLgqxTsTC1V1piexFkNR4DpIot3mWQ7lu1F80K2bQWfBI"
-      ],
-      "last_updated": "2026-09-09T21:23:42.107724"
-    },
-    {
-      "match_id": "786",
-      "title": "Napoli vs Arsenal",
-      "teams": "Napoli vs Arsenal",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://i.postimg.cc/nz9V9rZj/0e3b64b0-e1c2-4c32-a3ba-c5972a569929.jpg",
-      "league": "UEFA Champions League 2026",
-      "viewers": "23",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=786",
-      "match_url": "live/napoli-vs-arsenal-786",
-      "stream_url": "https://live.talkoraai.com/match/hls?t=T_JcH0dXOfI0lNpec1TKI3N3Gutax93wmsg_Yxh4U3wfTpHIHrnH6TqaNFxgXJDQ78AgtIrVcy3ySYoESIw8h2GSE5LdAIsVfWNF3vK_hZFjgwOlwrm0MSF-C8cV5MnqJzNhXyPL41S9nWv_krhoMpUtYoqYECBhD8WUyPqBF_hhFsIHFK1fhtYri7ULjl4DlH5WJy4htBcfUZ2dLRhOzyZXDwiy9vl2gcRsRpoI6JaRi9BlUSiFDPtNsnbo6tOfDxwTbbjhNC6C9Megw-mljE8bBg",
-      "server_count": 2,
-      "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=T_JcH0dXOfI0lNpec1TKI3N3Gutax93wmsg_Yxh4U3wfTpHIHrnH6TqaNFxgXJDQ78AgtIrVcy3ySYoESIw8h2GSE5LdAIsVfWNF3vK_hZFjgwOlwrm0MSF-C8cV5MnqJzNhXyPL41S9nWv_krhoMpUtYoqYECBhD8WUyPqBF_hhFsIHFK1fhtYri7ULjl4DlH5WJy4htBcfUZ2dLRhOzyZXDwiy9vl2gcRsRpoI6JaRi9BlUSiFDPtNsnbo6tOfDxwTbbjhNC6C9Megw-mljE8bBg",
-        "https://live.talkoraai.com/match/seg?t=BE5KgddbcTCyn7SMHrGZjRTMb9aS8u0bKiTjJxJK_aLSX00Fq5hR7yxVsZu73A4YeBKsZqnFx7DJ7Xasas-Ao4TPojV17uhDtNDMBwMga0631I3H8NXOQrYJrub3lk3pKx3hidP9R3WkmVjnKpldkCHIAaK4hlB4EgVRVxUkt1dgkDsYoQgK1DSMjGmw8sXn6M5BauDieEAZYjJphIRwh15JZ4uEt4W97NdkXseR0A68OUb5zXs204jsbJV-pvOCTmOW7CBh1upPBu1F_5z3AjCp-0jNTQwiEalm"
-      ],
-      "last_updated": "2026-09-09T21:23:42.506544"
-    },
     {
       "match_id": "780",
       "title": "England vs Pakistan",
@@ -131,7 +26,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-09T21:23:42.909246"
+      "last_updated": "2026-09-09T21:59:52.219702"
     }
   ]
 }
