@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-09T11:13:36.755888",
-  "total_matches": 6,
+  "timestamp": "2026-09-09T11:18:37.813238",
+  "total_matches": 7,
   "live_count": 1,
-  "upcoming_count": 5,
+  "upcoming_count": 6,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788178193540x302.jpg",
       "league": "ICC World Test Championship",
-      "viewers": "44",
+      "viewers": "48",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -31,7 +31,7 @@
         "https://tvsen5.aynascope.net/willowhd/mono.m3u8",
         "https://stream.ottplus.live/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8"
       ],
-      "last_updated": "2026-09-09T11:08:40.145323"
+      "last_updated": "2026-09-09T11:13:39.508216"
     },
     {
       "match_id": "781",
@@ -54,7 +54,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-09T11:08:40.429827"
+      "last_updated": "2026-09-09T11:13:40.306563"
     },
     {
       "match_id": "784",
@@ -77,7 +77,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-09T11:08:40.430643"
+      "last_updated": "2026-09-09T11:13:40.307418"
     },
     {
       "match_id": "783",
@@ -100,7 +100,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-09T11:08:40.431294"
+      "last_updated": "2026-09-09T11:13:40.308096"
     },
     {
       "match_id": "785",
@@ -113,7 +113,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://i.ytimg.com/vi/n2CkO_mHIpo/maxresdefault.jpg",
       "league": "Saudi Pro League 2026/27",
-      "viewers": "495",
+      "viewers": "1",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -123,7 +123,30 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-09T11:08:40.431982"
+      "last_updated": "2026-09-09T11:13:40.308746"
+    },
+    {
+      "match_id": "786",
+      "title": "Napoli vs Arsenal",
+      "teams": "Napoli vs Arsenal",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://i.postimg.cc/nz9V9rZj/0e3b64b0-e1c2-4c32-a3ba-c5972a569929.jpg",
+      "league": "UEFA Champions League 2026",
+      "viewers": "182",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=786",
+      "match_url": "live/napoli-vs-arsenal-786",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-09T11:13:40.309410"
     },
     {
       "match_id": "782",
@@ -146,7 +169,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-09T11:08:40.432646"
+      "last_updated": "2026-09-09T11:13:40.310072"
     }
   ]
 }
