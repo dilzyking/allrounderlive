@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-09T11:23:38.708658",
-  "total_matches": 9,
+  "timestamp": "2026-09-09T11:28:40.061843",
+  "total_matches": 10,
   "live_count": 1,
-  "upcoming_count": 8,
+  "upcoming_count": 9,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788178193540x302.jpg",
       "league": "ICC World Test Championship",
-      "viewers": "49",
+      "viewers": "50",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -31,7 +31,7 @@
         "https://tvsen5.aynascope.net/willowhd/mono.m3u8",
         "https://stream.ottplus.live/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8"
       ],
-      "last_updated": "2026-09-09T11:18:54.066897"
+      "last_updated": "2026-09-09T11:23:52.539464"
     },
     {
       "match_id": "781",
@@ -54,7 +54,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-09T11:18:54.473266"
+      "last_updated": "2026-09-09T11:23:53.786524"
     },
     {
       "match_id": "784",
@@ -77,7 +77,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-09T11:18:54.473833"
+      "last_updated": "2026-09-09T11:23:53.787190"
     },
     {
       "match_id": "783",
@@ -100,7 +100,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-09T11:18:54.474208"
+      "last_updated": "2026-09-09T11:23:53.787691"
     },
     {
       "match_id": "785",
@@ -123,7 +123,30 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-09T11:18:54.474567"
+      "last_updated": "2026-09-09T11:23:53.788184"
+    },
+    {
+      "match_id": "789",
+      "title": "SCP vs Galatasaray",
+      "teams": "SCP vs Galatasaray",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://i.ytimg.com/vi/lQ82ucEFiko/sddefault.jpg?v=6a9741c6",
+      "league": "UEFA Champions League 2026",
+      "viewers": "293",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=789",
+      "match_url": "live/scp-vs-galatasaray-789",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-09T11:23:53.788666"
     },
     {
       "match_id": "788",
@@ -146,7 +169,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-09T11:18:54.474943"
+      "last_updated": "2026-09-09T11:23:53.789157"
     },
     {
       "match_id": "787",
@@ -169,7 +192,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-09T11:18:54.475309"
+      "last_updated": "2026-09-09T11:23:53.789628"
     },
     {
       "match_id": "786",
@@ -192,7 +215,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-09T11:18:54.475680"
+      "last_updated": "2026-09-09T11:23:53.790113"
     },
     {
       "match_id": "782",
@@ -215,7 +238,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-09T11:18:54.476029"
+      "last_updated": "2026-09-09T11:23:53.790584"
     }
   ]
 }
