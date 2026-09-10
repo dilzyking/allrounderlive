@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-10T09:21:59.239780",
+  "timestamp": "2026-09-10T09:31:31.101184",
   "total_matches": 8,
-  "live_count": 1,
-  "upcoming_count": 7,
+  "live_count": 3,
+  "upcoming_count": 5,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023702/1788946397965887_PT20_Amritsar-Soormas-vs-Jalandhar-Warriors_landscape_thumb.jpg",
       "league": "Sher-E-Punjab T20 League",
-      "viewers": "28",
+      "viewers": "30",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -29,7 +29,7 @@
         "https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8",
         "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_5_hd&e=.m3u8"
       ],
-      "last_updated": "2026-09-10T09:17:00.707203"
+      "last_updated": "2026-09-10T09:22:04.503991"
     },
     {
       "match_id": "795",
@@ -37,22 +37,25 @@
       "teams": "Rotterdam Dockers vs Glasgow Cosmic",
       "sport": "cricket",
       "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
+      "status": "live",
+      "status_display": "LIVE",
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788940700540x302.jpg",
       "league": "European T20 Premier League 2026",
       "viewers": "2",
-      "viewers_type": "Waiting",
+      "viewers_type": "Watching",
       "date": null,
       "time": null,
       "servers": null,
       "page_url": "/world-sports/player.html?id=795",
       "match_url": "live/rotterdam-dockers-vs-glasgow-cosmic-795",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-10T09:17:01.102390"
+      "stream_url": "https://tvsen5.aynaott.com/willowhd/tracks-v1a1/mono.ts.m3u8",
+      "server_count": 2,
+      "server_urls": [
+        "https://tvsen5.aynaott.com/willowhd/tracks-v1a1/mono.ts.m3u8",
+        "https://tvsen7.aynaott.com/ssport2hd/index.m3u8"
+      ],
+      "last_updated": "2026-09-10T09:22:04.883318"
     },
     {
       "match_id": "780",
@@ -60,22 +63,28 @@
       "teams": "England vs Pakistan",
       "sport": "cricket",
       "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
+      "status": "live",
+      "status_display": "LIVE",
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788178193540x302.jpg",
       "league": "ICC World Test Championship",
-      "viewers": "171",
-      "viewers_type": "Waiting",
+      "viewers": "172",
+      "viewers_type": "Watching",
       "date": null,
       "time": null,
       "servers": null,
       "page_url": "/world-sports/player.html?id=780",
       "match_url": "live/england-vs-pakistan-780",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-10T09:17:01.103099"
+      "stream_url": "https://live.talkoraai.com/match/hls?t=Ut18AVBKwiNahG057jYdPPsFSvWSE2kpvJlSILMDxZiwmyFX42ZgM4YH9tiGb7DkJ7N1nAuMTd2_Bgb2jHXOwJvPW6FtSpdv3j6eI4ieaoQObmtz2q5LLjxu2SUJjwxscK4NgPggCl077rl2hhRb-FUgMMGM9QzE6v__x67qyWFH1k0xxR3y_7MEv0xo4shjh3_rHDu3Wat-otmJ0ANygM_lb-eax4AoKDpP1YgkDBrJflE5DbJYykgkemZ53Ne8rvI6fvXHgLmXaH-WqekJR-XwD1rIkA",
+      "server_count": 5,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=Ut18AVBKwiNahG057jYdPPsFSvWSE2kpvJlSILMDxZiwmyFX42ZgM4YH9tiGb7DkJ7N1nAuMTd2_Bgb2jHXOwJvPW6FtSpdv3j6eI4ieaoQObmtz2q5LLjxu2SUJjwxscK4NgPggCl077rl2hhRb-FUgMMGM9QzE6v__x67qyWFH1k0xxR3y_7MEv0xo4shjh3_rHDu3Wat-otmJ0ANygM_lb-eax4AoKDpP1YgkDBrJflE5DbJYykgkemZ53Ne8rvI6fvXHgLmXaH-WqekJR-XwD1rIkA",
+        "https://live.talkoraai.com/match/seg?t=SeKFYGaRR8LI7m69J2GVIlcpIDK8V6QDRky-TOE_VaqxubIC5Ein-xl-iaTlFgnAgoFciE8uC8Cxfu-lyb0dea_Dln-vtcWqZqp0q-Ski-MkxvUxnZ6HX5PgVyyYhvyoAtEVdPqdLnWweV3_asmijuhgAm9QNbr4pVTWPHE3GQ69bwWY4KeYSdCVfKji6DD9gjLUtvozYalRdDJcGKcQIO9iIowEoVf5hVQjgGdg9tQB1D5u6D4uFCkpiyf6v6A5JTzjVOFgxjOgnY9oTRL-h5ZOZXxmAJKy7DudMatT",
+        "https://tvsen5.aynascope.net/willowhd/mono.m3u8",
+        "https://stream.ottplus.live/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8",
+        "https://sportz-obiram.emonsa4.workers.dev/proxy?url=DAcVFABRQ0tIRgRYRkNHVVYZSlYMLClFDRkSGg8HMnBTEFlZBUZVRlZSEVIKAhgcGhtVBwpRBlMNFEckdQJeU0kBBAI6J0oeWx9cTBdOFA0rLj9WT3peHUtjQmZdVXJbTXcEVE4PW1paUWtpXEdcXVBVFxAJAR4OUQxeXlpZ"
+      ],
+      "last_updated": "2026-09-10T09:22:06.451833"
     },
     {
       "match_id": "796",
@@ -98,7 +107,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-10T09:17:01.103684"
+      "last_updated": "2026-09-10T09:22:06.796920"
     },
     {
       "match_id": "792",
@@ -121,7 +130,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-10T09:17:01.104240"
+      "last_updated": "2026-09-10T09:22:06.797590"
     },
     {
       "match_id": "797",
@@ -144,7 +153,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-10T09:17:01.104800"
+      "last_updated": "2026-09-10T09:22:06.798185"
     },
     {
       "match_id": "793",
@@ -167,7 +176,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-10T09:17:01.105358"
+      "last_updated": "2026-09-10T09:22:06.798761"
     },
     {
       "match_id": "794",
@@ -190,7 +199,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-10T09:17:01.105912"
+      "last_updated": "2026-09-10T09:22:06.799338"
     }
   ]
 }
