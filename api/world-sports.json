@@ -1,37 +1,10 @@
 {
-  "timestamp": "2026-09-10T13:11:31.995932",
-  "total_matches": 13,
+  "timestamp": "2026-09-10T13:16:33.210441",
+  "total_matches": 12,
   "live_count": 2,
-  "upcoming_count": 11,
+  "upcoming_count": 10,
   "completed_count": 0,
   "matches": [
-    {
-      "match_id": "795",
-      "title": "Rotterdam Dockers vs Glasgow Cosmic",
-      "teams": "Rotterdam Dockers vs Glasgow Cosmic",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788940700540x302.jpg",
-      "league": "European T20 Premier League 2026",
-      "viewers": "50",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=795",
-      "match_url": "live/rotterdam-dockers-vs-glasgow-cosmic-795",
-      "stream_url": "https://live.talkoraai.com/match/hls?t=k0FZVfBchrAkOjdi6THBmkrE3MSg-pgPx4DxFcnwLeA6BqkNwhOWfx3hcm6qZ-jIyHDN734j9ZVvo6AHZWuqBk3wcbIdhpWC-BmDoVoR1Ngh9ml23YAYHqAsjPi2SX9uO9dVyMoxcO_Nv0j5U0aacKwlK-9dqPUy0U-XZG1ubGw9yfkTGh3u56hQmoAX89_AvErWR0z6Kkt7X4B4DMznnxSaoGrBabSbHZmYH6lB2Y5PvEHm7agRayHSTzjmcTwNdsH7qPLvoBHFjfYKkCso7h9vDL2vEg",
-      "server_count": 3,
-      "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=k0FZVfBchrAkOjdi6THBmkrE3MSg-pgPx4DxFcnwLeA6BqkNwhOWfx3hcm6qZ-jIyHDN734j9ZVvo6AHZWuqBk3wcbIdhpWC-BmDoVoR1Ngh9ml23YAYHqAsjPi2SX9uO9dVyMoxcO_Nv0j5U0aacKwlK-9dqPUy0U-XZG1ubGw9yfkTGh3u56hQmoAX89_AvErWR0z6Kkt7X4B4DMznnxSaoGrBabSbHZmYH6lB2Y5PvEHm7agRayHSTzjmcTwNdsH7qPLvoBHFjfYKkCso7h9vDL2vEg",
-        "https://live.talkoraai.com/match/seg?t=B3RaY5rkUUwNAtXdCaVy36ckSgCBpNF3mWZE_9DuprIgcOP4I2_-nR55u6Nm4KtBkDhOYZIY5LZo-1TgpDapMCU6yHXVrmyVu1G4BXbmBA-bJ4seU6EYjf2rz4S3Y9xHLXYRxCc6VBmkJPhD46XnYbeDrbUwRgb90ZQF5vqeqjjQR8JHnmiiNxQ-2gBUXGFwiaG5H--3U4O_CZgjDqcztDbxvJfYLQyiBJaXjzQ8ft0Ii_dmDzDFyroViXgqjFY08gss1VcMUp07_FeSCDGclK5WTL2l3jWO4ZpOe079",
-        "https://zerox.4048404.xyz/pro/brah.php?url=https%3A%2F%2Fsaseries.akamaized.net%2Fhls%2Flive%2F2110097%2FZIMvsIND-3827e1%2Fmaster.m3u8"
-      ],
-      "last_updated": "2026-09-10T13:06:37.728995"
-    },
     {
       "match_id": "780",
       "title": "England vs Pakistan",
@@ -43,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788178193540x302.jpg",
       "league": "ICC World Test Championship",
-      "viewers": "233",
+      "viewers": "234",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -59,7 +32,7 @@
         "https://stream.ottplus.live/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8",
         "https://sportz-obiram.emonsa4.workers.dev/proxy?url=DAcVFABRQ0tIRgRYRkNHVVYZSlYMLClFDRkSGg8HMnBTEFlZBUZVRlZSEVIKAhgcGhtVBwpRBlMNFEckdQJeU0kBBAI6J0oeWx9cTBdOFA0rLj9WT3peHUtjQmZdVXJbTXcEVE4PW1paUWtpXEdcXVBVFxAJAR4OUQxeXlpZ"
       ],
-      "last_updated": "2026-09-10T13:06:39.108399"
+      "last_updated": "2026-09-10T13:11:48.373630"
     },
     {
       "match_id": "796",
@@ -67,22 +40,27 @@
       "teams": "Belfast Wolves vs Amsterdam Flames",
       "sport": "cricket",
       "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
+      "status": "live",
+      "status_display": "LIVE",
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788940700540x302.jpg",
       "league": "European T20 Premier League 2026",
       "viewers": "3",
-      "viewers_type": "Waiting",
+      "viewers_type": "Watching",
       "date": null,
       "time": null,
       "servers": null,
       "page_url": "/world-sports/player.html?id=796",
       "match_url": "live/belfast-wolves-vs-amsterdam-flames-796",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-10T13:06:39.460599"
+      "stream_url": "https://tvsen5.aynaott.com/willowhd/tracks-v1a1/mono.ts.m3u8",
+      "server_count": 4,
+      "server_urls": [
+        "https://tvsen5.aynaott.com/willowhd/tracks-v1a1/mono.ts.m3u8",
+        "https://tvsen7.aynaott.com/ssport2hd/index.m3u8",
+        "https://live.talkoraai.com/match/hls?t=k0FZVfBchrAkOjdi6THBmkrE3MSg-pgPx4DxFcnwLeA6BqkNwhOWfx3hcm6qZ-jIyHDN734j9ZVvo6AHZWuqBk3wcbIdhpWC-BmDoVoR1Ngh9ml23YAYHqAsjPi2SX9uO9dVyMoxcO_Nv0j5U0aacKwlK-9dqPUy0U-XZG1ubGw9yfkTGh3u56hQmoAX89_AvErWR0z6Kkt7X4B4DMznnxSaoGrBabSbHZmYH6lB2Y5PvEHm7agRayHSTzjmcTwNdsH7qPLvoBHFjfYKkCso7h9vDL2vEg",
+        "https://live.talkoraai.com/match/seg?t=B3RaY5rkUUwNAtXdCaVy36ckSgCBpNF3mWZE_9DuprIgcOP4I2_-nR55u6Nm4KtBkDhOYZIY5LZo-1TgpDapMCU6yHXVrmyVu1G4BXbmBA-bJ4seU6EYjf2rz4S3Y9xHLXYRxCc6VBmkJPhD46XnYbeDrbUwRgb90ZQF5vqeqjjQR8JHnmiiNxQ-2gBUXGFwiaG5H--3U4O_CZgjDqcztDbxvJfYLQyiBJaXjzQ8ft0Ii_dmDzDFyroViXgqjFY08gss1VcMUp07_FeSCDGclK5WTL2l3jWO4ZpOe079"
+      ],
+      "last_updated": "2026-09-10T13:11:49.563196"
     },
     {
       "match_id": "792",
@@ -105,7 +83,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-10T13:06:39.461278"
+      "last_updated": "2026-09-10T13:11:49.866226"
     },
     {
       "match_id": "797",
@@ -128,7 +106,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-10T13:06:39.461861"
+      "last_updated": "2026-09-10T13:11:49.866957"
     },
     {
       "match_id": "793",
@@ -151,7 +129,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-10T13:06:39.462449"
+      "last_updated": "2026-09-10T13:11:49.867603"
     },
     {
       "match_id": "799",
@@ -174,7 +152,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-10T13:06:39.463021"
+      "last_updated": "2026-09-10T13:11:49.868275"
     },
     {
       "match_id": "798",
@@ -197,7 +175,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-10T13:06:39.463592"
+      "last_updated": "2026-09-10T13:11:49.868926"
     },
     {
       "match_id": "803",
@@ -220,7 +198,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-10T13:06:39.464150"
+      "last_updated": "2026-09-10T13:11:49.869552"
     },
     {
       "match_id": "802",
@@ -233,7 +211,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.853ddc7d-732f-40ef-81e6-907e7e3f7478/2/BOXART-16X9/en-US._UR1920,1080_SX624_FMjpg_.jpeg",
       "league": "UEFA Champions League 2026",
-      "viewers": "2",
+      "viewers": "3",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -243,7 +221,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-10T13:06:39.464710"
+      "last_updated": "2026-09-10T13:11:49.870190"
     },
     {
       "match_id": "801",
@@ -266,7 +244,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-10T13:06:39.465264"
+      "last_updated": "2026-09-10T13:11:49.870812"
     },
     {
       "match_id": "800",
@@ -289,7 +267,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-10T13:06:39.465824"
+      "last_updated": "2026-09-10T13:11:49.871468"
     },
     {
       "match_id": "794",
@@ -312,7 +290,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-10T13:06:39.466385"
+      "last_updated": "2026-09-10T13:11:49.872119"
     }
   ]
 }
