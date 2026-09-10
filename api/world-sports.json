@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-10T07:25:47.828600",
-  "total_matches": 5,
-  "live_count": 0,
-  "upcoming_count": 5,
+  "timestamp": "2026-09-10T07:30:49.697213",
+  "total_matches": 8,
+  "live_count": 1,
+  "upcoming_count": 7,
   "completed_count": 0,
   "matches": [
     {
@@ -11,22 +11,48 @@
       "teams": "Amritsar Soormas vs Jalandhar Warriors",
       "sport": "cricket",
       "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
+      "status": "live",
+      "status_display": "LIVE",
       "runtime": "00h 00m 00s",
       "thumbnail": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023702/1788946397965887_PT20_Amritsar-Soormas-vs-Jalandhar-Warriors_landscape_thumb.jpg",
       "league": "Sher-E-Punjab T20 League",
       "viewers": "367",
-      "viewers_type": "Waiting",
+      "viewers_type": "Watching",
       "date": null,
       "time": null,
       "servers": null,
       "page_url": "/world-sports/player.html?id=791",
       "match_url": "live/amritsar-soormas-vs-jalandhar-warriors-791",
+      "stream_url": "https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8",
+      "server_count": 2,
+      "server_urls": [
+        "https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8",
+        "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_5_hd&e=.m3u8"
+      ],
+      "last_updated": "2026-09-10T07:25:53.868631"
+    },
+    {
+      "match_id": "795",
+      "title": "Rotterdam Dockers vs Glasgow Cosmic",
+      "teams": "Rotterdam Dockers vs Glasgow Cosmic",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788940700540x302.jpg",
+      "league": "European T20 Premier League 2026",
+      "viewers": "165",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=795",
+      "match_url": "live/rotterdam-dockers-vs-glasgow-cosmic-795",
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-10T07:20:52.361076"
+      "last_updated": "2026-09-10T07:25:54.236640"
     },
     {
       "match_id": "780",
@@ -49,7 +75,30 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-10T07:20:52.361802"
+      "last_updated": "2026-09-10T07:25:54.237292"
+    },
+    {
+      "match_id": "796",
+      "title": "Belfast Wolves vs Amsterdam Flames",
+      "teams": "Belfast Wolves vs Amsterdam Flames",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788940700540x302.jpg",
+      "league": "European T20 Premier League 2026",
+      "viewers": "202",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=796",
+      "match_url": "live/belfast-wolves-vs-amsterdam-flames-796",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-10T07:25:54.237876"
     },
     {
       "match_id": "792",
@@ -72,7 +121,30 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-10T07:20:52.362326"
+      "last_updated": "2026-09-10T07:25:54.238444"
+    },
+    {
+      "match_id": "797",
+      "title": "Jamaica Empress Women vs Trinbago Knight Riders Women",
+      "teams": "Jamaica Empress Women vs Trinbago Knight Riders Women",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788939629540x302.jpg",
+      "league": "Women CPL-T20",
+      "viewers": "239",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=797",
+      "match_url": "live/jamaica-empress-women-vs-trinbago-knight-riders-women-797",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-10T07:25:54.239013"
     },
     {
       "match_id": "793",
@@ -85,7 +157,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://i.postimg.cc/J0fcxgH0/1578c1b0-d7ce-4632-afb8-20739f793d48.jpg",
       "league": "Women's Asia Cup 2026-T20",
-      "viewers": "441",
+      "viewers": "1",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -95,7 +167,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-10T07:20:52.362819"
+      "last_updated": "2026-09-10T07:25:54.239591"
     },
     {
       "match_id": "794",
@@ -118,7 +190,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-10T07:20:52.363324"
+      "last_updated": "2026-09-10T07:25:54.240147"
     }
   ]
 }
