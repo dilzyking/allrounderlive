@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-11T22:18:28.733309",
+  "timestamp": "2026-09-11T22:23:32.282930",
   "total_matches": 20,
-  "live_count": 2,
-  "upcoming_count": 18,
+  "live_count": 1,
+  "upcoming_count": 19,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789027666540x302.jpg",
       "league": "Sports League",
-      "viewers": "33",
+      "viewers": "34",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -28,32 +28,7 @@
       "server_urls": [
         "https://live.talkoraai.com/match/hls?t=1Eokv-81_EggDZNvvlGuWRZs_zqHcbdu_bfzpM7_TxDCThB7N1UHkuXdBCfNWQtwaDYtAkS4CNrvvIADsiALoNMbOz2RnO5-YpO2RnryShWIoU7Ux24gOt2jfESNVT4YRFfFawm4k0LnqylDMZLY8TU-FqB2qI1KBHvisevg6tWRfSzo2_HLKro-d9VewQb_LoTgAca60dEr4RAjCpFUguDuijiPOXYy4l7xj_77amlbuoLiW-nI8_tQ_vMDbM4acFrIu_0ac7TQ1i9oGD4qVAQHMbO8K0oCdSE"
       ],
-      "last_updated": "2026-09-11T22:16:14.078331"
-    },
-    {
-      "match_id": "809",
-      "title": "Union Berlin vs Schalke",
-      "teams": "Union Berlin vs Schalke",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/84b2/live/51d9b490-ad35-11f1-9bc8-3509bd1a4ead.jpg",
-      "league": "Bundesliga",
-      "viewers": "51",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=809",
-      "match_url": "live/union-berlin-vs-schalke-809",
-      "stream_url": "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.57%2Fhls%2FZYYYQQQ.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
-      "server_count": 1,
-      "server_urls": [
-        "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.57%2Fhls%2FZYYYQQQ.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
-      ],
-      "last_updated": "2026-09-11T22:16:14.938973"
+      "last_updated": "2026-09-11T22:20:39.461624"
     },
     {
       "match_id": "885",
@@ -76,7 +51,30 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T22:16:15.230774"
+      "last_updated": "2026-09-11T22:20:40.341485"
+    },
+    {
+      "match_id": "890",
+      "title": "Al Khaleej vs Al-Nassr",
+      "teams": "Al Khaleej vs Al-Nassr",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249135_53025_AKH_ANF_FC-Web.png",
+      "league": "Saudi Pro League 2026/27",
+      "viewers": "180",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=890",
+      "match_url": "live/al-khaleej-vs-al-nassr-890",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-11T22:20:40.342257"
     },
     {
       "match_id": "886",
@@ -99,7 +97,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T22:16:15.231594"
+      "last_updated": "2026-09-11T22:20:40.342905"
     },
     {
       "match_id": "887",
@@ -122,7 +120,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T22:16:15.232250"
+      "last_updated": "2026-09-11T22:20:40.343549"
     },
     {
       "match_id": "877",
@@ -145,7 +143,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T22:16:15.232917"
+      "last_updated": "2026-09-11T22:20:40.344199"
     },
     {
       "match_id": "857",
@@ -168,7 +166,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T22:16:15.233579"
+      "last_updated": "2026-09-11T22:20:40.344817"
     },
     {
       "match_id": "858",
@@ -191,7 +189,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T22:16:15.234219"
+      "last_updated": "2026-09-11T22:20:40.345439"
     },
     {
       "match_id": "880",
@@ -214,30 +212,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T22:16:15.234892"
-    },
-    {
-      "match_id": "889",
-      "title": "Al-Taawoun vs Al Hilal SFC",
-      "teams": "Al-Taawoun vs Al Hilal SFC",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249134_53025_ALTW_AHS_FC-Web.png",
-      "league": "EFL Championship",
-      "viewers": "493",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=889",
-      "match_url": "live/al-taawoun-vs-al-hilal-sfc-889",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-11T22:16:15.235539"
+      "last_updated": "2026-09-11T22:20:40.346057"
     },
     {
       "match_id": "881",
@@ -260,7 +235,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T22:16:15.236206"
+      "last_updated": "2026-09-11T22:20:40.346710"
     },
     {
       "match_id": "882",
@@ -283,7 +258,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T22:16:15.236879"
+      "last_updated": "2026-09-11T22:20:40.347341"
     },
     {
       "match_id": "864",
@@ -306,7 +281,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T22:16:15.237511"
+      "last_updated": "2026-09-11T22:20:40.347953"
     },
     {
       "match_id": "883",
@@ -329,7 +304,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T22:16:15.238202"
+      "last_updated": "2026-09-11T22:20:40.348583"
     },
     {
       "match_id": "884",
@@ -352,7 +327,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T22:16:15.238867"
+      "last_updated": "2026-09-11T22:20:40.349212"
     },
     {
       "match_id": "876",
@@ -375,7 +350,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T22:16:15.239506"
+      "last_updated": "2026-09-11T22:20:40.349823"
     },
     {
       "match_id": "878",
@@ -398,7 +373,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T22:16:15.240151"
+      "last_updated": "2026-09-11T22:20:40.350475"
     },
     {
       "match_id": "862",
@@ -421,7 +396,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T22:16:15.240798"
+      "last_updated": "2026-09-11T22:20:40.351073"
     },
     {
       "match_id": "879",
@@ -444,7 +419,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T22:16:15.241423"
+      "last_updated": "2026-09-11T22:20:40.351744"
     },
     {
       "match_id": "888",
@@ -467,7 +442,30 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T22:16:15.242084"
+      "last_updated": "2026-09-11T22:20:40.352392"
+    },
+    {
+      "match_id": "889",
+      "title": "Al-Taawoun vs Al Hilal SFC",
+      "teams": "Al-Taawoun vs Al Hilal SFC",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249134_53025_ALTW_AHS_FC-Web.png",
+      "league": "Saudi Pro League 2026/27",
+      "viewers": "493",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=889",
+      "match_url": "live/al-taawoun-vs-al-hilal-sfc-889",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-11T22:20:40.352996"
     }
   ]
 }
