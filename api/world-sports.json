@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-11T13:12:35.856087",
+  "timestamp": "2026-09-11T13:17:38.345125",
   "total_matches": 4,
-  "live_count": 1,
-  "upcoming_count": 3,
+  "live_count": 2,
+  "upcoming_count": 2,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788178193540x302.jpg",
       "league": "ICC World Test Championship",
-      "viewers": "380",
+      "viewers": "381",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -33,7 +33,7 @@
         "https://sportz-obiram.emonsa4.workers.dev/proxy?url=DAcVFABRQ0tIRgRYRkNHVVYZSlYMLClFDRkSGg8HMnBTEFlZBUZVRlZSEVIKAhgcGhtVBwpRBlMNFEckdQJeU0kBBAI6J0oeWx9cTBdOFA0rLj9WT3peHUtjQmZdVXJbTXcEVE4PW1paUWtpXEdcXVBVFxAJAR4OUQxeXlpZ",
         "https://tvsen5.aynascope.net/willowhd/tracks-v1a1/2026/09/11/09/34/16-09176.ts"
       ],
-      "last_updated": "2026-09-11T13:09:37.364497"
+      "last_updated": "2026-09-11T13:14:42.141058"
     },
     {
       "match_id": "805",
@@ -41,22 +41,25 @@
       "teams": "Dublin Guardians vs Edinburgh Castle Rockers",
       "sport": "cricket",
       "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
+      "status": "live",
+      "status_display": "LIVE",
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789019381540x302.jpg",
       "league": "European T20 Premier League 2026",
       "viewers": "2",
-      "viewers_type": "Waiting",
+      "viewers_type": "Watching",
       "date": null,
       "time": null,
       "servers": null,
       "page_url": "/world-sports/player.html?id=805",
       "match_url": "live/dublin-guardians-vs-edinburgh-castle-rockers-805",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-11T13:09:37.673523"
+      "stream_url": "https://digitalotthub.com/tv/dd/live.php/598.m3u8",
+      "server_count": 2,
+      "server_urls": [
+        "https://digitalotthub.com/tv/dd/live.php/598.m3u8",
+        "https://tvsen7.aynaott.com/ssport2hd/index.m3u8"
+      ],
+      "last_updated": "2026-09-11T13:14:43.434433"
     },
     {
       "match_id": "804",
@@ -79,7 +82,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T13:09:37.674239"
+      "last_updated": "2026-09-11T13:14:43.701420"
     },
     {
       "match_id": "794",
@@ -102,7 +105,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T13:09:37.674906"
+      "last_updated": "2026-09-11T13:14:43.702154"
     }
   ]
 }
