@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-11T17:48:43.434967",
-  "total_matches": 2,
-  "live_count": 2,
+  "timestamp": "2026-09-11T17:54:06.192749",
+  "total_matches": 3,
+  "live_count": 3,
   "upcoming_count": 0,
   "completed_count": 0,
   "matches": [
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788178193540x302.jpg",
       "league": "ICC World Test Championship",
-      "viewers": "506",
+      "viewers": "507",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -33,7 +33,7 @@
         "https://sportz-obiram.emonsa4.workers.dev/proxy?url=DAcVFABRQ0tIRgRYRkNHVVYZSlYMLClFDRkSGg8HMnBTEFlZBUZVRlZSEVIKAhgcGhtVBwpRBlMNFEckdQJeU0kBBAI6J0oeWx9cTBdOFA0rLj9WT3peHUtjQmZdVXJbTXcEVE4PW1paUWtpXEdcXVBVFxAJAR4OUQxeXlpZ",
         "https://tvsen5.aynascope.net/willowhd/tracks-v1a1/2026/09/11/09/34/16-09176.ts"
       ],
-      "last_updated": "2026-09-11T17:45:21.363073"
+      "last_updated": "2026-09-11T17:51:11.603403"
     },
     {
       "match_id": "794",
@@ -46,7 +46,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://i.ibb.co.com/yc2KL1nW/6203c8be-3426-43f8-995a-2857124ea824.jpg",
       "league": "Women's Asia Cup 2026-T20",
-      "viewers": "60",
+      "viewers": "62",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -61,7 +61,33 @@
         "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8",
         "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_1_hd&e=.m3u8"
       ],
-      "last_updated": "2026-09-11T17:45:21.705256"
+      "last_updated": "2026-09-11T17:51:11.969464"
+    },
+    {
+      "match_id": "806",
+      "title": "Women's Doubles Final vs Women's Doubles",
+      "teams": "Women's Doubles Final vs Women's Doubles",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://thesportsencounter.com/wp-content/uploads/2026/09/us_open_womens_doubles_final_featured.webp",
+      "league": "Final",
+      "viewers": "222",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=806",
+      "match_url": "live/women-s-doubles-final-vs-women-s-doubles-806",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=mW7eN6ir_ucU-VHpRz1g9i6h-cixfXbcwNS2XXEO2aIm268wj8IRuGYAfv5VAW6mdTejGSSlJFv53cdyUhUFX5Ov7FzcCkEPbpYkX42XEJPXI6kzcpzVCh9iReQJNc1m12-JXszUWTwbc5i_Y0dPAwn9f9QZXfzDbxlKfXSHLEpvpbNoBDJQohqOUd-UvjWjKLe-o9XZzthnucES9ZSlvN2WJ_7Gs_FsBELIsxG6vLMCp_0GqG4mXRxFGv9aOi3krFAJRE79-uG8rVqRTLWqYuaJIDpfAQHzMLM",
+      "server_count": 2,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=mW7eN6ir_ucU-VHpRz1g9i6h-cixfXbcwNS2XXEO2aIm268wj8IRuGYAfv5VAW6mdTejGSSlJFv53cdyUhUFX5Ov7FzcCkEPbpYkX42XEJPXI6kzcpzVCh9iReQJNc1m12-JXszUWTwbc5i_Y0dPAwn9f9QZXfzDbxlKfXSHLEpvpbNoBDJQohqOUd-UvjWjKLe-o9XZzthnucES9ZSlvN2WJ_7Gs_FsBELIsxG6vLMCp_0GqG4mXRxFGv9aOi3krFAJRE79-uG8rVqRTLWqYuaJIDpfAQHzMLM",
+        "https://live.talkoraai.com/match/seg?t=zN73lpOMlw4-wN0JtOQzRI05jLgtF3OmEv_rtSitWZZclHUSPeVFHFF8TIwRTI587oGiJTecItK-ZMKNDs7HLo9DjmpvbS3tPau5vXoZVpkhb8XlloRPMWo7gSGQRH1vmFRDlC_4IkuXEFWDQB0nS7kccwDZFAShPKcJNTXpVGr7AOJwLpnKALoCZ8aVc3ci-h6osnyRMLn0PsKHwbd-YaDu2ZK8LOgleV5S79g8rSzhTBAg-Y7x3I6YFG2f75n5N-wvjfVlFTSxXRU2dEJjGp7lWMx3YBuKjfHYLKgPRpE8wg"
+      ],
+      "last_updated": "2026-09-11T17:51:12.270815"
     }
   ]
 }
