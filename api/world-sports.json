@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-11T09:30:32.377682",
-  "total_matches": 2,
+  "timestamp": "2026-09-11T09:35:35.527692",
+  "total_matches": 4,
   "live_count": 1,
-  "upcoming_count": 1,
+  "upcoming_count": 3,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788178193540x302.jpg",
       "league": "ICC World Test Championship",
-      "viewers": "337",
+      "viewers": "338",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -32,7 +32,53 @@
         "https://stream.ottplus.live/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8",
         "https://sportz-obiram.emonsa4.workers.dev/proxy?url=DAcVFABRQ0tIRgRYRkNHVVYZSlYMLClFDRkSGg8HMnBTEFlZBUZVRlZSEVIKAhgcGhtVBwpRBlMNFEckdQJeU0kBBAI6J0oeWx9cTBdOFA0rLj9WT3peHUtjQmZdVXJbTXcEVE4PW1paUWtpXEdcXVBVFxAJAR4OUQxeXlpZ"
       ],
-      "last_updated": "2026-09-11T09:27:39.160467"
+      "last_updated": "2026-09-11T09:32:42.484115"
+    },
+    {
+      "match_id": "805",
+      "title": "Dublin Guardians vs Edinburgh Castle Rockers",
+      "teams": "Dublin Guardians vs Edinburgh Castle Rockers",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789019381540x302.jpg",
+      "league": "European T20 Premier League 2026",
+      "viewers": "185",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=805",
+      "match_url": "live/dublin-guardians-vs-edinburgh-castle-rockers-805",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-11T09:32:43.247164"
+    },
+    {
+      "match_id": "804",
+      "title": "Amritsar Soormas vs Ludhiana Lions,",
+      "teams": "Amritsar Soormas vs Ludhiana Lions,",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249115_53065_AMS_LLN_fc-web_1788345783974.jpg",
+      "league": "Sher-E-Punjab T20 League",
+      "viewers": "498",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=804",
+      "match_url": "live/amritsar-soormas-vs-ludhiana-lions-804",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-11T09:32:43.247919"
     },
     {
       "match_id": "794",
@@ -55,7 +101,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T09:27:39.511577"
+      "last_updated": "2026-09-11T09:32:43.248544"
     }
   ]
 }
