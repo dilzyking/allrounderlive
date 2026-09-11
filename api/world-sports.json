@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-11T22:43:38.837713",
-  "total_matches": 22,
+  "timestamp": "2026-09-11T22:48:42.600431",
+  "total_matches": 24,
   "live_count": 2,
-  "upcoming_count": 20,
+  "upcoming_count": 22,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789027666540x302.jpg",
       "league": "Sports League",
-      "viewers": "38",
+      "viewers": "39",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -28,7 +28,7 @@
       "server_urls": [
         "https://live.talkoraai.com/match/hls?t=1Eokv-81_EggDZNvvlGuWRZs_zqHcbdu_bfzpM7_TxDCThB7N1UHkuXdBCfNWQtwaDYtAkS4CNrvvIADsiALoNMbOz2RnO5-YpO2RnryShWIoU7Ux24gOt2jfESNVT4YRFfFawm4k0LnqylDMZLY8TU-FqB2qI1KBHvisevg6tWRfSzo2_HLKro-d9VewQb_LoTgAca60dEr4RAjCpFUguDuijiPOXYy4l7xj_77amlbuoLiW-nI8_tQ_vMDbM4acFrIu_0ac7TQ1i9oGD4qVAQHMbO8K0oCdSE"
       ],
-      "last_updated": "2026-09-11T22:40:44.265363"
+      "last_updated": "2026-09-11T22:45:46.478122"
     },
     {
       "match_id": "885",
@@ -41,7 +41,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248310_53026_GUY_TKR_FC-Web.png",
       "league": "CPL-T20",
-      "viewers": "3",
+      "viewers": "4",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -56,7 +56,7 @@
         "https://live.talkoraai.com/match/seg?t=TqibQZTlGePYq948-YFaqFYF7pstMty-00Vjh5Ax2mmti0tkzCt235nH_Q-BkL0cNEkG6mO8m437qJkBH0vcuIecOSs4gZzB4MHdq2xlhy4C78p5V0qqAhH5GGrtY9ggtzShBb-XTHj4vGsQ2HU2JN2SPmFKKqBmd_spq1rB0EJtlwGwuw7ipeaq4gH_UlWDY49PJGW7iriJXBNUGpfzxDWG0ZcRb1PppHkr_19BjNt3dhp6C5nbhrTkf7gctSfPedilipYMCP2wtri2QNPF791ro6vibXiGeYsg",
         "https://fancode.sm-monirul-islam-rs.workers.dev/4248310/index.m3u8"
       ],
-      "last_updated": "2026-09-11T22:40:45.296326"
+      "last_updated": "2026-09-11T22:45:47.919237"
     },
     {
       "match_id": "886",
@@ -79,7 +79,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T22:40:45.561314"
+      "last_updated": "2026-09-11T22:45:48.192084"
     },
     {
       "match_id": "887",
@@ -102,7 +102,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T22:40:45.562017"
+      "last_updated": "2026-09-11T22:45:48.192612"
     },
     {
       "match_id": "877",
@@ -125,7 +125,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T22:40:45.562614"
+      "last_updated": "2026-09-11T22:45:48.193083"
     },
     {
       "match_id": "857",
@@ -148,7 +148,30 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T22:40:45.563200"
+      "last_updated": "2026-09-11T22:45:48.193541"
+    },
+    {
+      "match_id": "895",
+      "title": "Knight Riders Women vs Guyana Amazon Warriors",
+      "teams": "Knight Riders Women vs Guyana Amazon Warriors",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249091_53061_TKR-W_GUY-W_FC-Web.png",
+      "league": "CPL-T20",
+      "viewers": "365",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=895",
+      "match_url": "live/knight-riders-women-vs-guyana-amazon-warriors-895",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-11T22:45:48.193998"
     },
     {
       "match_id": "858",
@@ -171,7 +194,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T22:40:45.563806"
+      "last_updated": "2026-09-11T22:45:48.194444"
     },
     {
       "match_id": "880",
@@ -194,7 +217,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T22:40:45.564381"
+      "last_updated": "2026-09-11T22:45:48.194892"
     },
     {
       "match_id": "881",
@@ -217,7 +240,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T22:40:45.564962"
+      "last_updated": "2026-09-11T22:45:48.195329"
     },
     {
       "match_id": "882",
@@ -240,7 +263,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T22:40:45.565542"
+      "last_updated": "2026-09-11T22:45:48.195771"
     },
     {
       "match_id": "893",
@@ -263,7 +286,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T22:40:45.566095"
+      "last_updated": "2026-09-11T22:45:48.196213"
     },
     {
       "match_id": "864",
@@ -286,7 +309,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T22:40:45.566669"
+      "last_updated": "2026-09-11T22:45:48.196656"
     },
     {
       "match_id": "883",
@@ -309,7 +332,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T22:40:45.567232"
+      "last_updated": "2026-09-11T22:45:48.197110"
     },
     {
       "match_id": "884",
@@ -332,7 +355,30 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T22:40:45.567805"
+      "last_updated": "2026-09-11T22:45:48.197557"
+    },
+    {
+      "match_id": "894",
+      "title": "Barbados Tridents vs Guyana Amazon Warriors",
+      "teams": "Barbados Tridents vs Guyana Amazon Warriors",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248313_53026_BT_GUY_FC-Web.png",
+      "league": "CPL-T20",
+      "viewers": "328",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=894",
+      "match_url": "live/barbados-tridents-vs-guyana-amazon-warriors-894",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-11T22:45:48.198004"
     },
     {
       "match_id": "891",
@@ -355,7 +401,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T22:40:45.568376"
+      "last_updated": "2026-09-11T22:45:48.198445"
     },
     {
       "match_id": "876",
@@ -378,7 +424,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T22:40:45.568963"
+      "last_updated": "2026-09-11T22:45:48.198885"
     },
     {
       "match_id": "878",
@@ -401,7 +447,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T22:40:45.569529"
+      "last_updated": "2026-09-11T22:45:48.199315"
     },
     {
       "match_id": "862",
@@ -424,7 +470,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T22:40:45.570088"
+      "last_updated": "2026-09-11T22:45:48.199759"
     },
     {
       "match_id": "892",
@@ -447,7 +493,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T22:40:45.570660"
+      "last_updated": "2026-09-11T22:45:48.200217"
     },
     {
       "match_id": "879",
@@ -470,7 +516,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T22:40:45.571223"
+      "last_updated": "2026-09-11T22:45:48.200656"
     },
     {
       "match_id": "888",
@@ -493,7 +539,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T22:40:45.571795"
+      "last_updated": "2026-09-11T22:45:48.201119"
     },
     {
       "match_id": "889",
@@ -516,7 +562,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T22:40:45.572350"
+      "last_updated": "2026-09-11T22:45:48.201557"
     }
   ]
 }
