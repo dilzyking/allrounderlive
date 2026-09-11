@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-11T20:32:26.598532",
-  "total_matches": 10,
-  "live_count": 7,
+  "timestamp": "2026-09-11T20:37:28.766566",
+  "total_matches": 9,
+  "live_count": 6,
   "upcoming_count": 3,
   "completed_count": 0,
   "matches": [
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://media-cdn-v2.laodong.vn/storage/newsportal/2026/9/11/1764840/Rsz_6740Cecc-600D-4E.jpg",
       "league": "LaLiga 2026",
-      "viewers": "31",
+      "viewers": "32",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -31,7 +31,7 @@
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.53%2Fhls%2FOFFFQQ.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
         "https://live.talkoraai.com/match/seg?t=jkREHS2BStIPWjWrQtdnwEqJrzdLEn_8HGqNaLbIFzdCOz8VQoGtWzzYDLoHkCFaWYjFCWb54vnDvV_n9IZS-kMh1ld4Aykq-Nfv2ErYrg5DRWKsdxVHmfCOzVgpwbgtuYpAtVw3_v3nWfHD5rc9AzZd77DIEhjCrM332gmFwBIbKwrnLNMdrgZy-N6thFIJIL25_3qgtFvoKME0SbQIEsdvRIXlkORs1ZZNhC4Vpi2wAqpiJ5kv9LlLIF-Us1OItIpVBI-AjnN2qFK5uglWFmQGWeN46ewWmfGCPDNj"
       ],
-      "last_updated": "2026-09-11T20:29:39.644403"
+      "last_updated": "2026-09-11T20:34:39.027157"
     },
     {
       "match_id": "811",
@@ -44,7 +44,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://r.testifier.nl/Acbs8526SDKI/resizing_type:fill/width:1200/height:675/plain/https://s3-newsifier.ams3.digitaloceanspaces.com/westhamworld.co.uk/images/2026-09/west-ham-v-wrexham-match-preview-6aa273e3a57c3.png@webp",
       "league": "EFL Cup",
-      "viewers": "26",
+      "viewers": "28",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -52,12 +52,13 @@
       "page_url": "/world-sports/player.html?id=811",
       "match_url": "live/west-ham-united-vs-wrexham-a-f-c-811",
       "stream_url": "https://fancode.sm-monirul-islam-rs.workers.dev/4247489/index.m3u8",
-      "server_count": 2,
+      "server_count": 3,
       "server_urls": [
         "https://fancode.sm-monirul-islam-rs.workers.dev/4247489/index.m3u8",
-        "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.53%2Fhls%2FOFFFQ.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
+        "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.53%2Fhls%2FOFFFQ.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
+        "https://live.kaizokutv.me/prox/fan2-prox.php?url=https%3A%2F%2Flive.kaizokutv.me%2Ffancode%2Fplayer.php%3Fserve_master%3D4247489_ENG"
       ],
-      "last_updated": "2026-09-11T20:29:39.959607"
+      "last_updated": "2026-09-11T20:34:40.040649"
     },
     {
       "match_id": "836",
@@ -70,7 +71,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789027624540x302.jpg",
       "league": "",
-      "viewers": "9",
+      "viewers": "10",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -82,30 +83,7 @@
       "server_urls": [
         "https://live.talkoraai.com/match/hls?t=1Eokv-81_EggDZNvvlGuWRZs_zqHcbdu_bfzpM7_TxDCThB7N1UHkuXdBCfNWQtwaDYtAkS4CNrvvIADsiALoNMbOz2RnO5-YpO2RnryShWIoU7Ux24gOt2jfESNVT4YRFfFawm4k0LnqylDMZLY8TU-FqB2qI1KBHvisevg6tWRfSzo2_HLKro-d9VewQb_LoTgAca60dEr4RAjCpFUguDuijiPOXYy4l7xj_77amlbuoLiW-nI8_tQ_vMDbM4acFrIu_0ac7TQ1i9oGD4qVAQHMbO8K0oCdSE"
       ],
-      "last_updated": "2026-09-11T20:29:40.223119"
-    },
-    {
-      "match_id": "842",
-      "title": "YET Aston Villa vs Nottingham Forest",
-      "teams": "YET Aston Villa vs Nottingham Forest",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://cdn.bongo-solutions.com/919f93a7-400e-4149-a70d-204beb589074/content/b6aeec51-8454-4ebc-899b-2495668be367/56f0f145-8f3f-4242-b468-8d70a64905d0.jpg",
-      "league": "Football League",
-      "viewers": "1",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=842",
-      "match_url": "live/yet-aston-villa-vs-nottingham-forest-842",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-11T20:29:40.486448"
+      "last_updated": "2026-09-11T20:34:40.313006"
     },
     {
       "match_id": "807",
@@ -118,7 +96,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://r2.thesportsdb.com/images/media/event/thumb/xjanvp1758292430.jpg",
       "league": "Saudi Pro League 2026/27",
-      "viewers": "30",
+      "viewers": "32",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -130,7 +108,7 @@
       "server_urls": [
         "https://fancode.sm-monirul-islam-rs.workers.dev/4249133/index.m3u8"
       ],
-      "last_updated": "2026-09-11T20:29:40.774027"
+      "last_updated": "2026-09-11T20:34:40.583305"
     },
     {
       "match_id": "809",
@@ -143,7 +121,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/84b2/live/51d9b490-ad35-11f1-9bc8-3509bd1a4ead.jpg",
       "league": "Bundesliga",
-      "viewers": "25",
+      "viewers": "26",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -155,7 +133,7 @@
       "server_urls": [
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.57%2Fhls%2FZYYYQQQ.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-11T20:29:41.040680"
+      "last_updated": "2026-09-11T20:34:40.849211"
     },
     {
       "match_id": "810",
@@ -168,7 +146,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://cdn.ratingbet.com/ratingbet/20260909/d1d8aaba29f3a4233cd1be178dac64afd8aa5a6a721988d08914104894bf45e3-1200-750.webp",
       "league": "Serie A",
-      "viewers": "24",
+      "viewers": "25",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -180,7 +158,7 @@
       "server_urls": [
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.49%2Fhls%2FGE333Q.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-11T20:29:41.305874"
+      "last_updated": "2026-09-11T20:34:41.166971"
     },
     {
       "match_id": "780",
@@ -203,7 +181,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T20:29:41.569114"
+      "last_updated": "2026-09-11T20:34:41.438779"
     },
     {
       "match_id": "839",
@@ -226,7 +204,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T20:29:41.569849"
+      "last_updated": "2026-09-11T20:34:41.439495"
     },
     {
       "match_id": "841",
@@ -249,7 +227,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T20:29:41.570512"
+      "last_updated": "2026-09-11T20:34:41.440159"
     }
   ]
 }
