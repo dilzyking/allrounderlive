@@ -1,38 +1,10 @@
 {
-  "timestamp": "2026-09-11T21:43:17.984438",
-  "total_matches": 8,
-  "live_count": 4,
-  "upcoming_count": 4,
+  "timestamp": "2026-09-11T21:48:19.474081",
+  "total_matches": 9,
+  "live_count": 3,
+  "upcoming_count": 6,
   "completed_count": 0,
   "matches": [
-    {
-      "match_id": "808",
-      "title": "Sevilla vs Valencia",
-      "teams": "Sevilla vs Valencia",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://media-cdn-v2.laodong.vn/storage/newsportal/2026/9/11/1764840/Rsz_6740Cecc-600D-4E.jpg",
-      "league": "LaLiga 2026",
-      "viewers": "47",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=808",
-      "match_url": "live/sevilla-vs-valencia-808",
-      "stream_url": "https://live.talkoraai.com/match/hls?t=cGkf92xyWKE6pV_l7Z3fTrVeNv50HC4CyCjTo0n1hNwQpuIC8USgY8RIB73p-X9BRPnAaGWFpMIZrdJC_Bse8Xc4_7Re8-UWF2P-UnWNrG4WIt46OBdRTcLInFQ_CBhYt0PAyb40YRP0rUlTIHZtpJeTzWNUX25ZZD1Ci6TROiZTDOOjU0cJPV7xG9XU4C4wv1onba0qYSYrynigKWY_sJbD51fN9V-nOR6qSNxF1HlMSak76gbd5IbN6KfzjpDKaNTKZCEpwa0EYmvnidnEFZhN1uWJug",
-      "server_count": 4,
-      "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=cGkf92xyWKE6pV_l7Z3fTrVeNv50HC4CyCjTo0n1hNwQpuIC8USgY8RIB73p-X9BRPnAaGWFpMIZrdJC_Bse8Xc4_7Re8-UWF2P-UnWNrG4WIt46OBdRTcLInFQ_CBhYt0PAyb40YRP0rUlTIHZtpJeTzWNUX25ZZD1Ci6TROiZTDOOjU0cJPV7xG9XU4C4wv1onba0qYSYrynigKWY_sJbD51fN9V-nOR6qSNxF1HlMSak76gbd5IbN6KfzjpDKaNTKZCEpwa0EYmvnidnEFZhN1uWJug",
-        "https://fancode.sm-monirul-islam-rs.workers.dev/4247608/index.m3u8",
-        "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.53%2Fhls%2FOFFFQQ.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
-        "https://live.talkoraai.com/match/seg?t=jkREHS2BStIPWjWrQtdnwEqJrzdLEn_8HGqNaLbIFzdCOz8VQoGtWzzYDLoHkCFaWYjFCWb54vnDvV_n9IZS-kMh1ld4Aykq-Nfv2ErYrg5DRWKsdxVHmfCOzVgpwbgtuYpAtVw3_v3nWfHD5rc9AzZd77DIEhjCrM332gmFwBIbKwrnLNMdrgZy-N6thFIJIL25_3qgtFvoKME0SbQIEsdvRIXlkORs1ZZNhC4Vpi2wAqpiJ5kv9LlLIF-Us1OItIpVBI-AjnN2qFK5uglWFmQGWeN46ewWmfGCPDNj"
-      ],
-      "last_updated": "2026-09-11T21:40:25.317025"
-    },
     {
       "match_id": "811",
       "title": "West Ham United VS Wrexham A.F.C",
@@ -44,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://r.testifier.nl/Acbs8526SDKI/resizing_type:fill/width:1200/height:675/plain/https://s3-newsifier.ams3.digitaloceanspaces.com/westhamworld.co.uk/images/2026-09/west-ham-v-wrexham-match-preview-6aa273e3a57c3.png@webp",
       "league": "EFL Cup",
-      "viewers": "42",
+      "viewers": "43",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -58,7 +30,7 @@
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.53%2Fhls%2FOFFFQ.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
         "https://live.kaizokutv.me/prox/fan2-prox.php?url=https%3A%2F%2Flive.kaizokutv.me%2Ffancode%2Fplayer.php%3Fserve_master%3D4247489_ENG"
       ],
-      "last_updated": "2026-09-11T21:40:25.634029"
+      "last_updated": "2026-09-11T21:45:25.296030"
     },
     {
       "match_id": "836",
@@ -71,7 +43,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789027666540x302.jpg",
       "league": "Sports League",
-      "viewers": "24",
+      "viewers": "25",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -83,7 +55,7 @@
       "server_urls": [
         "https://live.talkoraai.com/match/hls?t=1Eokv-81_EggDZNvvlGuWRZs_zqHcbdu_bfzpM7_TxDCThB7N1UHkuXdBCfNWQtwaDYtAkS4CNrvvIADsiALoNMbOz2RnO5-YpO2RnryShWIoU7Ux24gOt2jfESNVT4YRFfFawm4k0LnqylDMZLY8TU-FqB2qI1KBHvisevg6tWRfSzo2_HLKro-d9VewQb_LoTgAca60dEr4RAjCpFUguDuijiPOXYy4l7xj_77amlbuoLiW-nI8_tQ_vMDbM4acFrIu_0ac7TQ1i9oGD4qVAQHMbO8K0oCdSE"
       ],
-      "last_updated": "2026-09-11T21:40:26.471049"
+      "last_updated": "2026-09-11T21:45:26.319748"
     },
     {
       "match_id": "809",
@@ -96,7 +68,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/84b2/live/51d9b490-ad35-11f1-9bc8-3509bd1a4ead.jpg",
       "league": "Bundesliga",
-      "viewers": "40",
+      "viewers": "41",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -108,7 +80,30 @@
       "server_urls": [
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.57%2Fhls%2FZYYYQQQ.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-11T21:40:26.761201"
+      "last_updated": "2026-09-11T21:45:26.574633"
+    },
+    {
+      "match_id": "877",
+      "title": "Majees Titans vs Mustafa Fragrance House",
+      "teams": "Majees Titans vs Mustafa Fragrance House",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248678_53052_MAT_MF_fc-Web.jpg",
+      "league": "Oman D50 2026",
+      "viewers": "399",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=877",
+      "match_url": "live/majees-titans-vs-mustafa-fragrance-house-877",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-11T21:45:26.824805"
     },
     {
       "match_id": "857",
@@ -131,7 +126,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T21:40:27.049537"
+      "last_updated": "2026-09-11T21:45:26.825558"
     },
     {
       "match_id": "858",
@@ -154,7 +149,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T21:40:27.050274"
+      "last_updated": "2026-09-11T21:45:26.826252"
     },
     {
       "match_id": "864",
@@ -177,7 +172,30 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T21:40:27.050952"
+      "last_updated": "2026-09-11T21:45:26.826904"
+    },
+    {
+      "match_id": "876",
+      "title": "West Ham United vs Fulham",
+      "teams": "West Ham United vs Fulham",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249055_53016_WHU_FUL_fc-web.jpg",
+      "league": "Carabao Cup 2026-27",
+      "viewers": "362",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=876",
+      "match_url": "live/west-ham-united-vs-fulham-876",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-11T21:45:26.827564"
     },
     {
       "match_id": "862",
@@ -200,7 +218,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T21:40:27.051616"
+      "last_updated": "2026-09-11T21:45:26.828222"
     }
   ]
 }
