@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-11T19:59:56.631976",
+  "timestamp": "2026-09-11T20:04:56.773191",
   "total_matches": 7,
   "live_count": 6,
   "upcoming_count": 1,
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://media-cdn-v2.laodong.vn/storage/newsportal/2026/9/11/1764840/Rsz_6740Cecc-600D-4E.jpg",
       "league": "LaLiga 2026",
-      "viewers": "22",
+      "viewers": "23",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -30,7 +30,7 @@
         "https://live.talkoraai.com/match/seg?t=jkREHS2BStIPWjWrQtdnwEqJrzdLEn_8HGqNaLbIFzdCOz8VQoGtWzzYDLoHkCFaWYjFCWb54vnDvV_n9IZS-kMh1ld4Aykq-Nfv2ErYrg5DRWKsdxVHmfCOzVgpwbgtuYpAtVw3_v3nWfHD5rc9AzZd77DIEhjCrM332gmFwBIbKwrnLNMdrgZy-N6thFIJIL25_3qgtFvoKME0SbQIEsdvRIXlkORs1ZZNhC4Vpi2wAqpiJ5kv9LlLIF-Us1OItIpVBI-AjnN2qFK5uglWFmQGWeN46ewWmfGCPDNj",
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.53%2Fhls%2FOFFFQQ.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-11T19:57:01.648454"
+      "last_updated": "2026-09-11T20:02:03.667749"
     },
     {
       "match_id": "811",
@@ -43,7 +43,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://r.testifier.nl/Acbs8526SDKI/resizing_type:fill/width:1200/height:675/plain/https://s3-newsifier.ams3.digitaloceanspaces.com/westhamworld.co.uk/images/2026-09/west-ham-v-wrexham-match-preview-6aa273e3a57c3.png@webp",
       "league": "EFL Cup",
-      "viewers": "17",
+      "viewers": "18",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -55,20 +55,20 @@
       "server_urls": [
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.53%2Fhls%2FOFFFQ.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-11T19:57:02.831413"
+      "last_updated": "2026-09-11T20:02:04.489277"
     },
     {
       "match_id": "836",
       "title": "Men's Singles Semifinal vs Men's Singles Semifinal",
       "teams": "Men's Singles Semifinal vs Men's Singles Semifinal",
-      "sport": "football",
-      "sport_display": "Football",
+      "sport": "others",
+      "sport_display": "Other Sports",
       "status": "live",
       "status_display": "LIVE",
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789027624540x302.jpg",
-      "league": "Football League",
-      "viewers": "2",
+      "league": "",
+      "viewers": "3",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -80,7 +80,7 @@
       "server_urls": [
         "https://live.talkoraai.com/match/hls?t=1Eokv-81_EggDZNvvlGuWRZs_zqHcbdu_bfzpM7_TxDCThB7N1UHkuXdBCfNWQtwaDYtAkS4CNrvvIADsiALoNMbOz2RnO5-YpO2RnryShWIoU7Ux24gOt2jfESNVT4YRFfFawm4k0LnqylDMZLY8TU-FqB2qI1KBHvisevg6tWRfSzo2_HLKro-d9VewQb_LoTgAca60dEr4RAjCpFUguDuijiPOXYy4l7xj_77amlbuoLiW-nI8_tQ_vMDbM4acFrIu_0ac7TQ1i9oGD4qVAQHMbO8K0oCdSE"
       ],
-      "last_updated": "2026-09-11T19:57:03.174134"
+      "last_updated": "2026-09-11T20:02:04.769655"
     },
     {
       "match_id": "807",
@@ -93,19 +93,19 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://r2.thesportsdb.com/images/media/event/thumb/xjanvp1758292430.jpg",
       "league": "Saudi Pro League 2026/27",
-      "viewers": "23",
+      "viewers": "25",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
       "servers": null,
       "page_url": "/world-sports/player.html?id=807",
       "match_url": "live/ahli-vs-al-hazem-807",
-      "stream_url": "https://fawa.duckdns.org/api/proxy.mp4?url=http%3A%2F%2F193.47.62.42%2Fhls%2FB222-174.ts&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
+      "stream_url": "https://fancode.sm-monirul-islam-rs.workers.dev/4249133/index.m3u8",
       "server_count": 1,
       "server_urls": [
-        "https://fawa.duckdns.org/api/proxy.mp4?url=http%3A%2F%2F193.47.62.42%2Fhls%2FB222-174.ts&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
+        "https://fancode.sm-monirul-islam-rs.workers.dev/4249133/index.m3u8"
       ],
-      "last_updated": "2026-09-11T19:57:03.515782"
+      "last_updated": "2026-09-11T20:02:05.051183"
     },
     {
       "match_id": "809",
@@ -118,7 +118,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/84b2/live/51d9b490-ad35-11f1-9bc8-3509bd1a4ead.jpg",
       "league": "Bundesliga",
-      "viewers": "19",
+      "viewers": "20",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -130,7 +130,7 @@
       "server_urls": [
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.57%2Fhls%2FZYYYQQQ.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-11T19:57:03.866883"
+      "last_updated": "2026-09-11T20:02:05.330661"
     },
     {
       "match_id": "810",
@@ -143,7 +143,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://cdn.ratingbet.com/ratingbet/20260909/d1d8aaba29f3a4233cd1be178dac64afd8aa5a6a721988d08914104894bf45e3-1200-750.webp",
       "league": "Serie A",
-      "viewers": "17",
+      "viewers": "18",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -155,7 +155,7 @@
       "server_urls": [
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.49%2Fhls%2FGE333Q.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-11T19:57:04.202411"
+      "last_updated": "2026-09-11T20:02:05.607793"
     },
     {
       "match_id": "780",
@@ -168,7 +168,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788178193540x302.jpg",
       "league": "ICC World Test Championship",
-      "viewers": "520",
+      "viewers": "521",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -178,7 +178,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-11T19:57:04.539275"
+      "last_updated": "2026-09-11T20:02:05.889929"
     }
   ]
 }
