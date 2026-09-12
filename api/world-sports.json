@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-12T18:45:15.279939",
+  "timestamp": "2026-09-12T18:50:20.045152",
   "total_matches": 25,
-  "live_count": 3,
-  "upcoming_count": 22,
+  "live_count": 4,
+  "upcoming_count": 21,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247612_53004_ATH_ELC_FC-Web.png",
       "league": "LaLiga",
-      "viewers": "39",
+      "viewers": "41",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -30,7 +30,7 @@
         "https://fancode.sm-monirul-islam-rs.workers.dev/4247612/index.m3u8",
         "https://live.talkoraai.com/match/seg?t=2xtYJBOc_A4xe0RjFRKuIf19vk_gwmFn1UOp1m34nAgZdagWVrnkbVmdq1sGu-y0EdH8C11mzOjdszy3_s2FVH6iZq2PXZsCoKpCA8TsM9i-nh1eVvpTDYZ2JbUpwVQGNsjWHTtvPiCJNkeKjVMxa4QaDIW9_6_jTD5uYzfajHfdwIphJOvWTY4ipD03ysMs5u24gh5jAKv8ypTntmhhE-eCxPX_IWIObh0QP9kfCd4dUE0f9gnpbRLKMR_v8zbb-GXVvud2-Dh7-_Cnf5EYIPxB8guO6qWcpw#video.m3u8"
       ],
-      "last_updated": "2026-09-12T18:42:14.801123"
+      "last_updated": "2026-09-12T18:47:17.841122"
     },
     {
       "match_id": "930",
@@ -43,7 +43,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249135_53025_AKH_ANF_FC-Web.png",
       "league": "Saudi Pro League 2026/27",
-      "viewers": "15",
+      "viewers": "18",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -57,7 +57,33 @@
         "https://fancode.sm-monirul-islam-rs.workers.dev/4249135/index.m3u8",
         "https://live.talkoraai.com/match/seg?t=bpIZvC2c66-_f1JiVFUfhU3NabyTt4pfmyVstoMtSnNE16pwPqDSDull4lQ7En2RVfsLyWpv6EVGXiKgc-IDSqRZ4pYKr3lj0W5Y6QD43_Yav08w2w1txoczvVp_J1XjmMtggRzEZqGJ8GPVYGh0LFt-h_iAunpgQRhdSNbEJTZ6kMOBXG0ls-pQv2Lv6k4rpaNzVWOUt-pnVGJFPpNbsIUOArNPBoWIm0mu-AOyxwy7EAe3CGv0VuslZhprOyxORfEtaMWECliaH0NaHiziiVD9TCaViVS97Wz3bak3"
       ],
-      "last_updated": "2026-09-12T18:42:15.571578"
+      "last_updated": "2026-09-12T18:47:18.230917"
+    },
+    {
+      "match_id": "896",
+      "title": "Barbados Tridents Women vs Jamaica Empress Women",
+      "teams": "Barbados Tridents Women vs Jamaica Empress Women",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249092_53061_BT-W_JE-W_FC-Web_1788430029026.png",
+      "league": "CPL-T20",
+      "viewers": "4",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=896",
+      "match_url": "live/barbados-tridents-women-vs-jamaica-empress-women-896",
+      "stream_url": "https://live.talkoraai.com/match/seg?t=_fPO04mcK_VUe_RbmpqFxn4aSf0NqU730x_4Nrkx4SkteTELi91HUbPARuzmOop70P1kzK1C2SWRq_tvwnr7iEATqCo50aJ2RyZldVvCjwcPdOLDmIwer6p3TQWqVZ9rwX_vZAVv25maVHhmJhDBMPegWkeIG8WmCZugn3VjxPQwPF3r36faZQH8ASZo25YatlOph79gN5rDM-9rTvKez9IQDCMTK5HAJAmmtO2uPgKvyu7oeEsjTr5__uxn36lFZQukBGX227i8Q61eGDcBTXmkA8ejGO2YHYMN9yB8#video.m3u8",
+      "server_count": 2,
+      "server_urls": [
+        "https://live.talkoraai.com/match/seg?t=_fPO04mcK_VUe_RbmpqFxn4aSf0NqU730x_4Nrkx4SkteTELi91HUbPARuzmOop70P1kzK1C2SWRq_tvwnr7iEATqCo50aJ2RyZldVvCjwcPdOLDmIwer6p3TQWqVZ9rwX_vZAVv25maVHhmJhDBMPegWkeIG8WmCZugn3VjxPQwPF3r36faZQH8ASZo25YatlOph79gN5rDM-9rTvKez9IQDCMTK5HAJAmmtO2uPgKvyu7oeEsjTr5__uxn36lFZQukBGX227i8Q61eGDcBTXmkA8ejGO2YHYMN9yB8#video.m3u8",
+        "https://fancode.sm-monirul-islam-rs.workers.dev/stream/aHR0cHM6Ly9taW5pLmFsbGlub25lcmVib3JuLnNpdGUvZmN3L2xpdmUyMjIucGhwP3VybD1odHRwcyUzQSUyRiUyRmluLW1jLWZsaXZlLmZhbmNvZGUuY29tJTJGbXVtYmFpJTJGNDI0OTA5Ml9lbmdsaXNoX2hsc183NWRhY2Y4NGRmNDAyODNfMXRhLWRpX2gyNjQlMkYxMDgwcC5tM3U4JTNGaGRudGwlM0RFeHBpcmVzJTNEMTc4OTMyNDE5MCU3RV9HTyUzREdlbmVyYXRlZCU3RWFjbCUzRCUyRm11bWJhaSUyRjQyNDkwOTJfZW5nbGlzaF9obHNfNzVkYWNmODRkZjQwMjgzXzF0YS1kaV9oMjY0JTJGJTJBJTdFU2lnbmF0dXJlJTNEQVdEZWMtRi1mTG1RZFZXeWN2TmtkVEU0eWZ0QmFsempXWnY1WXlpRkVqSTA5RUFsN09rSXp3SHRrYk5hYmRpTFRuV3l3Sm1tSFZsZDdVWU85MmZ6bUNWZ1BNSUI=#video.m3u8"
+      ],
+      "last_updated": "2026-09-12T18:47:18.523173"
     },
     {
       "match_id": "927",
@@ -70,7 +96,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuq53MUN6PK6Q183VbK-zSGtRcMfBAQch8onfe9r0962eutnZH259VF_I&s=10",
       "league": "Premier League",
-      "viewers": "16",
+      "viewers": "18",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -83,30 +109,7 @@
         "https://hamyra-api.mdibrahimkhalil516.workers.dev/bongo/live?id=g3dhrGW3lt0",
         "https://live.talkoraai.com/match/seg?t=RhSotyQWlnfTm612RouizFnGwniBTH_H3UzkzylD14bTKMda8ojKJUaM97VIRSBCIVOtXcupEP8svPZMzz8nMHBPjKamims5mEuZ0oOsEKZWuP0oyBhue-4S7tVdgJNMIdjPh2r74qdXTMG5hxS3IfJXiQZixhi-p-rEYqXgpl0FBRcwGOaaZ5h0pwx8WtZFON6PA7A2uSabmfM-HFWQoTT0JCiijaj5qlbC_7nsBKoy0LvZxF7uHBkkY0rI_PkAwRdqbcyfqeKDTns7PvLVSl3o5_Jhzkqk2Kzedm0C0xVWCfPg539pZQmMjnZoQVr_cho1xpSd9Q2bjlDrKeQ3pB86DITOyrZwFzS2QXKgAg5K5ilDE4aueTyJHlRpO-cikCVB0IIj7LSjhHxwAGgvAI3Zag"
       ],
-      "last_updated": "2026-09-12T18:42:15.843541"
-    },
-    {
-      "match_id": "896",
-      "title": "Barbados Tridents Women vs Jamaica Empress Women",
-      "teams": "Barbados Tridents Women vs Jamaica Empress Women",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249092_53061_BT-W_JE-W_FC-Web_1788430029026.png",
-      "league": "CPL-T20",
-      "viewers": "3",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=896",
-      "match_url": "live/barbados-tridents-women-vs-jamaica-empress-women-896",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-12T18:42:16.114931"
+      "last_updated": "2026-09-12T18:47:19.314489"
     },
     {
       "match_id": "882",
@@ -129,7 +132,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T18:42:16.115671"
+      "last_updated": "2026-09-12T18:47:19.606134"
     },
     {
       "match_id": "926",
@@ -152,7 +155,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T18:42:16.116293"
+      "last_updated": "2026-09-12T18:47:19.606860"
     },
     {
       "match_id": "893",
@@ -175,7 +178,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T18:42:16.116934"
+      "last_updated": "2026-09-12T18:47:19.607495"
     },
     {
       "match_id": "897",
@@ -198,7 +201,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T18:42:16.117560"
+      "last_updated": "2026-09-12T18:47:19.608141"
     },
     {
       "match_id": "864",
@@ -221,7 +224,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T18:42:16.118163"
+      "last_updated": "2026-09-12T18:47:19.608791"
     },
     {
       "match_id": "883",
@@ -244,7 +247,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T18:42:16.118796"
+      "last_updated": "2026-09-12T18:47:19.609414"
     },
     {
       "match_id": "928",
@@ -267,7 +270,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T18:42:16.119420"
+      "last_updated": "2026-09-12T18:47:19.610062"
     },
     {
       "match_id": "904",
@@ -290,7 +293,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T18:42:16.120023"
+      "last_updated": "2026-09-12T18:47:19.610696"
     },
     {
       "match_id": "884",
@@ -313,7 +316,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T18:42:16.120642"
+      "last_updated": "2026-09-12T18:47:19.611310"
     },
     {
       "match_id": "929",
@@ -336,7 +339,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T18:42:16.121238"
+      "last_updated": "2026-09-12T18:47:19.611945"
     },
     {
       "match_id": "931",
@@ -359,7 +362,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T18:42:16.121855"
+      "last_updated": "2026-09-12T18:47:19.612580"
     },
     {
       "match_id": "932",
@@ -382,7 +385,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T18:42:16.122480"
+      "last_updated": "2026-09-12T18:47:19.613193"
     },
     {
       "match_id": "894",
@@ -405,7 +408,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T18:42:16.123084"
+      "last_updated": "2026-09-12T18:47:19.613820"
     },
     {
       "match_id": "891",
@@ -428,7 +431,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T18:42:16.123706"
+      "last_updated": "2026-09-12T18:47:19.614428"
     },
     {
       "match_id": "905",
@@ -451,7 +454,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T18:42:16.124302"
+      "last_updated": "2026-09-12T18:47:19.615059"
     },
     {
       "match_id": "876",
@@ -474,7 +477,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T18:42:16.124929"
+      "last_updated": "2026-09-12T18:47:19.615685"
     },
     {
       "match_id": "878",
@@ -497,7 +500,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T18:42:16.125543"
+      "last_updated": "2026-09-12T18:47:19.616293"
     },
     {
       "match_id": "862",
@@ -520,7 +523,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T18:42:16.126126"
+      "last_updated": "2026-09-12T18:47:19.616924"
     },
     {
       "match_id": "906",
@@ -543,7 +546,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T18:42:16.126736"
+      "last_updated": "2026-09-12T18:47:19.617527"
     },
     {
       "match_id": "892",
@@ -566,7 +569,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T18:42:16.127331"
+      "last_updated": "2026-09-12T18:47:19.618165"
     },
     {
       "match_id": "879",
@@ -589,7 +592,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T18:42:16.127921"
+      "last_updated": "2026-09-12T18:47:19.618815"
     }
   ]
 }
