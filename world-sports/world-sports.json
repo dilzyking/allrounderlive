@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-12T17:59:57.650121",
-  "total_matches": 23,
-  "live_count": 3,
+  "timestamp": "2026-09-12T18:04:59.048555",
+  "total_matches": 24,
+  "live_count": 4,
   "upcoming_count": 20,
   "completed_count": 0,
   "matches": [
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247612_53004_ATH_ELC_FC-Web.png",
       "league": "LaLiga",
-      "viewers": "26",
+      "viewers": "28",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -30,7 +30,33 @@
         "https://fancode.sm-monirul-islam-rs.workers.dev/4247612/index.m3u8",
         "https://live.talkoraai.com/match/seg?t=2xtYJBOc_A4xe0RjFRKuIf19vk_gwmFn1UOp1m34nAgZdagWVrnkbVmdq1sGu-y0EdH8C11mzOjdszy3_s2FVH6iZq2PXZsCoKpCA8TsM9i-nh1eVvpTDYZ2JbUpwVQGNsjWHTtvPiCJNkeKjVMxa4QaDIW9_6_jTD5uYzfajHfdwIphJOvWTY4ipD03ysMs5u24gh5jAKv8ypTntmhhE-eCxPX_IWIObh0QP9kfCd4dUE0f9gnpbRLKMR_v8zbb-GXVvud2-Dh7-_Cnf5EYIPxB8guO6qWcpw#video.m3u8"
       ],
-      "last_updated": "2026-09-12T17:56:59.670348"
+      "last_updated": "2026-09-12T18:02:01.797816"
+    },
+    {
+      "match_id": "930",
+      "title": "Al Khaleej vs Al-Nassr",
+      "teams": "Al Khaleej vs Al-Nassr",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249135_53025_AKH_ANF_FC-Web.png",
+      "league": "Saudi Pro League 2026/27",
+      "viewers": "3",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=930",
+      "match_url": "live/al-khaleej-vs-al-nassr-930",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=QwpBY05g00eZDLqjv2EwJhiiM7wnuukTyc6RlGc3x3bbh3o5Jj3haAPu5yhP96-4UxXjFiPTQket7NgLG7NJ5mbOkSRC74GkW9nA1u8spuhtiGxT5wIdLGSmGVPsiUeFmXvEllC9pwCwAKuoM0FhYLYBAOl2NIPUYlITOLHXNv6S7zKtREQv2koIcxl_MNxUogB3yYCClRgyHsH_k53iZ7sjyV-1pNBr3ZayOLOKX8rfDg65SssBJje0qYUqmhpc7_gkQIB64kvcKuP8P9DTe9LG5ypMuA",
+      "server_count": 2,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=QwpBY05g00eZDLqjv2EwJhiiM7wnuukTyc6RlGc3x3bbh3o5Jj3haAPu5yhP96-4UxXjFiPTQket7NgLG7NJ5mbOkSRC74GkW9nA1u8spuhtiGxT5wIdLGSmGVPsiUeFmXvEllC9pwCwAKuoM0FhYLYBAOl2NIPUYlITOLHXNv6S7zKtREQv2koIcxl_MNxUogB3yYCClRgyHsH_k53iZ7sjyV-1pNBr3ZayOLOKX8rfDg65SssBJje0qYUqmhpc7_gkQIB64kvcKuP8P9DTe9LG5ypMuA",
+        "https://live.talkoraai.com/match/seg?t=bpIZvC2c66-_f1JiVFUfhU3NabyTt4pfmyVstoMtSnNE16pwPqDSDull4lQ7En2RVfsLyWpv6EVGXiKgc-IDSqRZ4pYKr3lj0W5Y6QD43_Yav08w2w1txoczvVp_J1XjmMtggRzEZqGJ8GPVYGh0LFt-h_iAunpgQRhdSNbEJTZ6kMOBXG0ls-pQv2Lv6k4rpaNzVWOUt-pnVGJFPpNbsIUOArNPBoWIm0mu-AOyxwy7EAe3CGv0VuslZhprOyxORfEtaMWECliaH0NaHiziiVD9TCaViVS97Wz3bak3"
+      ],
+      "last_updated": "2026-09-12T18:02:02.164725"
     },
     {
       "match_id": "889",
@@ -43,7 +69,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249134_53025_ALTW_AHS_FC-Web.png",
       "league": "Saudi Pro League 2026/27",
-      "viewers": "27",
+      "viewers": "28",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -57,7 +83,7 @@
         "https://live.talkoraai.com/match/seg?t=0W2rAj5sF6efJRaG3ENEtwfnkDakYwSmJ1VEFXP5Pg7C7F_ZZ57BTI1aHcXDIhimcNyuxagFGMrmbA0VudA4lNULBizio1riTz6SsvXyz8tWtWInqwopmFCqjUl4H7VISKaAS_B17-8VBi-OAAO_0hiO9c8bqs3EYAKmfoesfVnlZiS6fm2QDBUzbIqJzr4scD8gdc8z7YD4u3TVG-QPBSPj76U9-KEsYJh8qZL9HdRQXm3yEX2NimUwwfQXhmKllajLIVeBJfaImQodr6CkrYE-DnlWN4tCFCVlg8KW",
         "https://fancode.sm-monirul-islam-rs.workers.dev/4249134/index.m3u8"
       ],
-      "last_updated": "2026-09-12T17:57:00.440377"
+      "last_updated": "2026-09-12T18:02:02.503722"
     },
     {
       "match_id": "927",
@@ -70,7 +96,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuq53MUN6PK6Q183VbK-zSGtRcMfBAQch8onfe9r0962eutnZH259VF_I&s=10",
       "league": "Premier League",
-      "viewers": "2",
+      "viewers": "3",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -83,7 +109,7 @@
         "https://hamyra-api.mdibrahimkhalil516.workers.dev/bongo/live?id=g3dhrGW3lt0",
         "https://live.talkoraai.com/match/seg?t=RhSotyQWlnfTm612RouizFnGwniBTH_H3UzkzylD14bTKMda8ojKJUaM97VIRSBCIVOtXcupEP8svPZMzz8nMHBPjKamims5mEuZ0oOsEKZWuP0oyBhue-4S7tVdgJNMIdjPh2r74qdXTMG5hxS3IfJXiQZixhi-p-rEYqXgpl0FBRcwGOaaZ5h0pwx8WtZFON6PA7A2uSabmfM-HFWQoTT0JCiijaj5qlbC_7nsBKoy0LvZxF7uHBkkY0rI_PkAwRdqbcyfqeKDTns7PvLVSl3o5_Jhzkqk2Kzedm0C0xVWCfPg539pZQmMjnZoQVr_cho1xpSd9Q2bjlDrKeQ3pB86DITOyrZwFzS2QXKgAg5K5ilDE4aueTyJHlRpO-cikCVB0IIj7LSjhHxwAGgvAI3Zag"
       ],
-      "last_updated": "2026-09-12T17:57:00.712587"
+      "last_updated": "2026-09-12T18:02:02.788160"
     },
     {
       "match_id": "896",
@@ -106,7 +132,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T17:57:00.984679"
+      "last_updated": "2026-09-12T18:02:03.074432"
     },
     {
       "match_id": "882",
@@ -129,7 +155,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T17:57:00.985268"
+      "last_updated": "2026-09-12T18:02:03.075163"
     },
     {
       "match_id": "926",
@@ -152,7 +178,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T17:57:00.985777"
+      "last_updated": "2026-09-12T18:02:03.075815"
     },
     {
       "match_id": "893",
@@ -175,7 +201,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T17:57:00.986267"
+      "last_updated": "2026-09-12T18:02:03.076468"
     },
     {
       "match_id": "897",
@@ -198,7 +224,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T17:57:00.986767"
+      "last_updated": "2026-09-12T18:02:03.077118"
     },
     {
       "match_id": "864",
@@ -221,7 +247,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T17:57:00.987251"
+      "last_updated": "2026-09-12T18:02:03.077745"
     },
     {
       "match_id": "883",
@@ -244,7 +270,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T17:57:00.987743"
+      "last_updated": "2026-09-12T18:02:03.078397"
     },
     {
       "match_id": "928",
@@ -267,7 +293,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T17:57:00.988228"
+      "last_updated": "2026-09-12T18:02:03.079048"
     },
     {
       "match_id": "904",
@@ -290,7 +316,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T17:57:00.988741"
+      "last_updated": "2026-09-12T18:02:03.079675"
     },
     {
       "match_id": "884",
@@ -313,7 +339,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T17:57:00.989238"
+      "last_updated": "2026-09-12T18:02:03.080327"
     },
     {
       "match_id": "929",
@@ -336,7 +362,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T17:57:00.989747"
+      "last_updated": "2026-09-12T18:02:03.080955"
     },
     {
       "match_id": "894",
@@ -359,7 +385,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T17:57:00.990236"
+      "last_updated": "2026-09-12T18:02:03.081614"
     },
     {
       "match_id": "891",
@@ -382,7 +408,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T17:57:00.990723"
+      "last_updated": "2026-09-12T18:02:03.082268"
     },
     {
       "match_id": "905",
@@ -405,7 +431,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T17:57:00.991212"
+      "last_updated": "2026-09-12T18:02:03.082897"
     },
     {
       "match_id": "876",
@@ -428,7 +454,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T17:57:00.991688"
+      "last_updated": "2026-09-12T18:02:03.083544"
     },
     {
       "match_id": "878",
@@ -451,7 +477,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T17:57:00.992177"
+      "last_updated": "2026-09-12T18:02:03.084192"
     },
     {
       "match_id": "862",
@@ -474,7 +500,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T17:57:00.992658"
+      "last_updated": "2026-09-12T18:02:03.084826"
     },
     {
       "match_id": "906",
@@ -497,7 +523,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T17:57:00.993163"
+      "last_updated": "2026-09-12T18:02:03.085459"
     },
     {
       "match_id": "892",
@@ -520,7 +546,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T17:57:00.993654"
+      "last_updated": "2026-09-12T18:02:03.086079"
     },
     {
       "match_id": "879",
@@ -543,7 +569,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T17:57:00.994156"
+      "last_updated": "2026-09-12T18:02:03.086683"
     }
   ]
 }
