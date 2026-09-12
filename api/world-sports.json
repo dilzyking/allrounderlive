@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-12T01:36:23.360144",
+  "timestamp": "2026-09-12T01:59:08.060824",
   "total_matches": 26,
-  "live_count": 1,
-  "upcoming_count": 25,
+  "live_count": 3,
+  "upcoming_count": 23,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248310_53026_GUY_TKR_FC-Web.png",
       "league": "CPL-T20",
-      "viewers": "20",
+      "viewers": "23",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -31,7 +31,7 @@
         "https://live.talkoraai.com/match/seg?t=TqibQZTlGePYq948-YFaqFYF7pstMty-00Vjh5Ax2mmti0tkzCt235nH_Q-BkL0cNEkG6mO8m437qJkBH0vcuIecOSs4gZzB4MHdq2xlhy4C78p5V0qqAhH5GGrtY9ggtzShBb-XTHj4vGsQ2HU2JN2SPmFKKqBmd_spq1rB0EJtlwGwuw7ipeaq4gH_UlWDY49PJGW7iriJXBNUGpfzxDWG0ZcRb1PppHkr_19BjNt3dhp6C5nbhrTkf7gctSfPedilipYMCP2wtri2QNPF791ro6vibXiGeYsg",
         "https://fancode.sm-monirul-islam-rs.workers.dev/4248310/index.m3u8"
       ],
-      "last_updated": "2026-09-12T00:50:54.478520"
+      "last_updated": "2026-09-12T01:44:49.012480"
     },
     {
       "match_id": "898",
@@ -39,13 +39,13 @@
       "teams": "Oman vs Hong Kong",
       "sport": "cricket",
       "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
+      "status": "live",
+      "status_display": "LIVE",
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/ACC-Mens-Premier_Web-match-card.png",
       "league": "ACC Men’s Premier Cup 2026",
-      "viewers": "476",
-      "viewers_type": "Waiting",
+      "viewers": "2",
+      "viewers_type": "Watching",
       "date": null,
       "time": null,
       "servers": null,
@@ -54,7 +54,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T00:50:55.259259"
+      "last_updated": "2026-09-12T01:44:50.015054"
     },
     {
       "match_id": "886",
@@ -62,13 +62,13 @@
       "teams": "Nepal vs United Arab Emirates",
       "sport": "football",
       "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
+      "status": "live",
+      "status_display": "LIVE",
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/ACC-Mens-Premier_Web-match-card.png",
       "league": "EFL Championship",
-      "viewers": "1",
-      "viewers_type": "Waiting",
+      "viewers": "2",
+      "viewers_type": "Watching",
       "date": null,
       "time": null,
       "servers": null,
@@ -77,7 +77,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T00:50:55.260046"
+      "last_updated": "2026-09-12T01:44:50.311563"
     },
     {
       "match_id": "887",
@@ -90,7 +90,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/Sher-e-Punjab-T20_BG1.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL1NoZXItZS1QdW5qYWItVDIwX0JHMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InRvcCIsIndpZHRoIjo0ODAsImhlaWdodCI6MjcwfSwid2VicCI6eyJxdWFsaXR5Ijo2MCwibG9zc2xlc3MiOmZhbHNlfX0sIm91dHB1dEZvcm1hdCI6IndlYnAifQ==",
       "league": "Sher-E-Punjab T20 League",
-      "viewers": "2",
+      "viewers": "3",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -100,7 +100,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T00:50:55.260693"
+      "last_updated": "2026-09-12T01:44:50.614022"
     },
     {
       "match_id": "877",
@@ -113,7 +113,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248678_53052_MAT_MF_fc-Web.jpg",
       "league": "Oman D50 2026",
-      "viewers": "399",
+      "viewers": "1",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -123,7 +123,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T00:50:55.261305"
+      "last_updated": "2026-09-12T01:44:50.614710"
     },
     {
       "match_id": "857",
@@ -146,7 +146,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T00:50:55.261930"
+      "last_updated": "2026-09-12T01:44:50.615279"
     },
     {
       "match_id": "895",
@@ -169,7 +169,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T00:50:55.262594"
+      "last_updated": "2026-09-12T01:44:50.615890"
     },
     {
       "match_id": "858",
@@ -192,7 +192,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T00:50:55.263213"
+      "last_updated": "2026-09-12T01:44:50.616450"
     },
     {
       "match_id": "880",
@@ -205,7 +205,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247617_53004_OSN_ESL_FC-Web.png",
       "league": "La Liga",
-      "viewers": "1",
+      "viewers": "2",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -215,7 +215,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T00:50:55.263848"
+      "last_updated": "2026-09-12T01:44:50.617040"
     },
     {
       "match_id": "881",
@@ -238,7 +238,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T00:50:55.264465"
+      "last_updated": "2026-09-12T01:44:50.617620"
     },
     {
       "match_id": "896",
@@ -261,7 +261,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T00:50:55.265058"
+      "last_updated": "2026-09-12T01:44:50.618171"
     },
     {
       "match_id": "882",
@@ -284,7 +284,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T00:50:55.265677"
+      "last_updated": "2026-09-12T01:44:50.618740"
     },
     {
       "match_id": "893",
@@ -297,7 +297,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248312_53026_BT_JK_FC-Web.png",
       "league": "CPL-T20",
-      "viewers": "291",
+      "viewers": "1",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -307,7 +307,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T00:50:55.266273"
+      "last_updated": "2026-09-12T01:44:50.619279"
     },
     {
       "match_id": "897",
@@ -330,7 +330,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T00:50:55.266897"
+      "last_updated": "2026-09-12T01:44:50.619867"
     },
     {
       "match_id": "864",
@@ -353,7 +353,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T00:50:55.267529"
+      "last_updated": "2026-09-12T01:44:50.620421"
     },
     {
       "match_id": "883",
@@ -376,7 +376,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T00:50:55.268121"
+      "last_updated": "2026-09-12T01:44:50.620981"
     },
     {
       "match_id": "884",
@@ -399,7 +399,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T00:50:55.268736"
+      "last_updated": "2026-09-12T01:44:50.621545"
     },
     {
       "match_id": "894",
@@ -422,7 +422,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T00:50:55.269357"
+      "last_updated": "2026-09-12T01:44:50.622086"
     },
     {
       "match_id": "891",
@@ -445,7 +445,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T00:50:55.269957"
+      "last_updated": "2026-09-12T01:44:50.622633"
     },
     {
       "match_id": "876",
@@ -468,7 +468,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T00:50:55.270570"
+      "last_updated": "2026-09-12T01:44:50.623175"
     },
     {
       "match_id": "878",
@@ -491,7 +491,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T00:50:55.271164"
+      "last_updated": "2026-09-12T01:44:50.623732"
     },
     {
       "match_id": "862",
@@ -514,7 +514,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T00:50:55.271776"
+      "last_updated": "2026-09-12T01:44:50.624278"
     },
     {
       "match_id": "892",
@@ -537,7 +537,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T00:50:55.272389"
+      "last_updated": "2026-09-12T01:44:50.624840"
     },
     {
       "match_id": "879",
@@ -560,7 +560,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T00:50:55.272982"
+      "last_updated": "2026-09-12T01:44:50.625391"
     },
     {
       "match_id": "888",
@@ -583,7 +583,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T00:50:55.273592"
+      "last_updated": "2026-09-12T01:44:50.625949"
     },
     {
       "match_id": "889",
@@ -606,7 +606,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T00:50:55.274186"
+      "last_updated": "2026-09-12T01:44:50.626516"
     }
   ]
 }
