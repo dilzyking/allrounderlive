@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-12T11:29:03.434098",
+  "timestamp": "2026-09-12T11:34:06.779463",
   "total_matches": 33,
-  "live_count": 4,
-  "upcoming_count": 29,
+  "live_count": 5,
+  "upcoming_count": 28,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789028257540x302.jpg",
       "league": "European T20 Premier League 2026",
-      "viewers": "42",
+      "viewers": "43",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -30,7 +30,7 @@
         "https://live.talkoraai.com/match/seg?t=jUSxLb4A4PosIa0ijrn1n_Zgds3m2yx1AP_SAB839mMzAxtl9p4eBJk5fhiR2JiQLL3KcesqNl6n_ZZPnTMs6pm276OpSmv8n4qj0LdDr3ZVrkGGxRHX798D42X-_wJRSjO3og8czWRty0iIyMT3jj4czgfdfrN5id_YFb6Hu4n_TYSly6Dbw4VnvrxjG48kP8qHHbzq2YHBSeePb2Np7Z4kdQU72go0EdKpYQ6k7oOne6tYgE5z2OMI1ryMwd4Q1rZ4AQ7jRUP_MDK-KTt5BIltvq5mNHbgS2tT6tA5",
         "https://tvsen7.aynaott.com/ssport2hd/index.m3u8"
       ],
-      "last_updated": "2026-09-12T11:26:04.617835"
+      "last_updated": "2026-09-12T11:31:09.931701"
     },
     {
       "match_id": "914",
@@ -43,7 +43,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788178193540x302.jpg",
       "league": "ICC World Test Championship",
-      "viewers": "30",
+      "viewers": "31",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -58,7 +58,32 @@
         "https://tvsen5.aynascope.net/willowhd/mono.m3u8",
         "https://stream.ottplus.live/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8"
       ],
-      "last_updated": "2026-09-12T11:26:05.896689"
+      "last_updated": "2026-09-12T11:31:11.232619"
+    },
+    {
+      "match_id": "857",
+      "title": "Derby County vs Birmingham City F.C.",
+      "teams": "Derby County vs Birmingham City F.C.",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247490_52993_DER_BIR_fc-web_1786657253171.jpg",
+      "league": "EFL Championship",
+      "viewers": "5",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=857",
+      "match_url": "live/derby-county-vs-birmingham-city-f-c-857",
+      "stream_url": "https://fancode.sm-monirul-islam-rs.workers.dev/4247490/index.m3u8",
+      "server_count": 1,
+      "server_urls": [
+        "https://fancode.sm-monirul-islam-rs.workers.dev/4247490/index.m3u8"
+      ],
+      "last_updated": "2026-09-12T11:31:11.507194"
     },
     {
       "match_id": "903",
@@ -71,7 +96,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249161_53067_UGA_KEN_FC-Web.png",
       "league": "ILT20 Africa Continent Cup 2026",
-      "viewers": "44",
+      "viewers": "45",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -83,7 +108,7 @@
       "server_urls": [
         "https://fancode.sm-monirul-islam-rs.workers.dev/4249161/index.m3u8"
       ],
-      "last_updated": "2026-09-12T11:26:06.164426"
+      "last_updated": "2026-09-12T11:31:11.778682"
     },
     {
       "match_id": "877",
@@ -96,7 +121,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248678_53052_MAT_MF_fc-Web.jpg",
       "league": "Oman D50 2026",
-      "viewers": "19",
+      "viewers": "20",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -108,30 +133,7 @@
       "server_urls": [
         "https://fancode.sm-monirul-islam-rs.workers.dev/4248678/index.m3u8"
       ],
-      "last_updated": "2026-09-12T11:26:06.424925"
-    },
-    {
-      "match_id": "857",
-      "title": "Derby County vs Birmingham City F.C.",
-      "teams": "Derby County vs Birmingham City F.C.",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247490_52993_DER_BIR_fc-web_1786657253171.jpg",
-      "league": "EFL Championship",
-      "viewers": "3",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=857",
-      "match_url": "live/derby-county-vs-birmingham-city-f-c-857",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-12T11:26:06.684947"
+      "last_updated": "2026-09-12T11:31:12.047870"
     },
     {
       "match_id": "909",
@@ -154,7 +156,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T11:26:06.685486"
+      "last_updated": "2026-09-12T11:31:12.319885"
     },
     {
       "match_id": "917",
@@ -177,7 +179,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T11:26:06.685934"
+      "last_updated": "2026-09-12T11:31:12.320564"
     },
     {
       "match_id": "895",
@@ -200,7 +202,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T11:26:06.686392"
+      "last_updated": "2026-09-12T11:31:12.321336"
     },
     {
       "match_id": "858",
@@ -223,7 +225,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T11:26:06.686844"
+      "last_updated": "2026-09-12T11:31:12.321986"
     },
     {
       "match_id": "916",
@@ -246,7 +248,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T11:26:06.687297"
+      "last_updated": "2026-09-12T11:31:12.322599"
     },
     {
       "match_id": "915",
@@ -269,7 +271,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T11:26:06.687743"
+      "last_updated": "2026-09-12T11:31:12.323233"
     },
     {
       "match_id": "910",
@@ -292,7 +294,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T11:26:06.688192"
+      "last_updated": "2026-09-12T11:31:12.323868"
     },
     {
       "match_id": "880",
@@ -315,7 +317,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T11:26:06.688641"
+      "last_updated": "2026-09-12T11:31:12.324475"
     },
     {
       "match_id": "881",
@@ -338,7 +340,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T11:26:06.689085"
+      "last_updated": "2026-09-12T11:31:12.325109"
     },
     {
       "match_id": "896",
@@ -361,7 +363,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T11:26:06.689535"
+      "last_updated": "2026-09-12T11:31:12.325801"
     },
     {
       "match_id": "882",
@@ -384,7 +386,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T11:26:06.689976"
+      "last_updated": "2026-09-12T11:31:12.326411"
     },
     {
       "match_id": "893",
@@ -407,7 +409,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T11:26:06.690426"
+      "last_updated": "2026-09-12T11:31:12.327040"
     },
     {
       "match_id": "897",
@@ -430,7 +432,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T11:26:06.690878"
+      "last_updated": "2026-09-12T11:31:12.327652"
     },
     {
       "match_id": "864",
@@ -453,7 +455,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T11:26:06.691335"
+      "last_updated": "2026-09-12T11:31:12.328283"
     },
     {
       "match_id": "883",
@@ -476,7 +478,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T11:26:06.691778"
+      "last_updated": "2026-09-12T11:31:12.328906"
     },
     {
       "match_id": "904",
@@ -499,7 +501,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T11:26:06.692227"
+      "last_updated": "2026-09-12T11:31:12.329602"
     },
     {
       "match_id": "884",
@@ -522,7 +524,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T11:26:06.692671"
+      "last_updated": "2026-09-12T11:31:12.330232"
     },
     {
       "match_id": "894",
@@ -545,7 +547,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T11:26:06.693112"
+      "last_updated": "2026-09-12T11:31:12.330864"
     },
     {
       "match_id": "891",
@@ -568,7 +570,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T11:26:06.693562"
+      "last_updated": "2026-09-12T11:31:12.331486"
     },
     {
       "match_id": "905",
@@ -591,7 +593,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T11:26:06.694010"
+      "last_updated": "2026-09-12T11:31:12.332118"
     },
     {
       "match_id": "876",
@@ -614,7 +616,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T11:26:06.694470"
+      "last_updated": "2026-09-12T11:31:12.332753"
     },
     {
       "match_id": "878",
@@ -637,7 +639,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T11:26:06.694909"
+      "last_updated": "2026-09-12T11:31:12.333361"
     },
     {
       "match_id": "862",
@@ -660,7 +662,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T11:26:06.695362"
+      "last_updated": "2026-09-12T11:31:12.333994"
     },
     {
       "match_id": "906",
@@ -683,7 +685,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T11:26:06.695805"
+      "last_updated": "2026-09-12T11:31:12.334602"
     },
     {
       "match_id": "892",
@@ -706,7 +708,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T11:26:06.696257"
+      "last_updated": "2026-09-12T11:31:12.335231"
     },
     {
       "match_id": "879",
@@ -729,7 +731,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T11:26:06.696695"
+      "last_updated": "2026-09-12T11:31:12.335852"
     },
     {
       "match_id": "888",
@@ -752,7 +754,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T11:26:06.697136"
+      "last_updated": "2026-09-12T11:31:12.336457"
     },
     {
       "match_id": "889",
@@ -775,7 +777,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T11:26:06.697594"
+      "last_updated": "2026-09-12T11:31:12.337075"
     }
   ]
 }
