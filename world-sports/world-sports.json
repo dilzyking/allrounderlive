@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-12T09:26:10.394050",
+  "timestamp": "2026-09-12T09:31:09.503941",
   "total_matches": 37,
-  "live_count": 9,
-  "upcoming_count": 28,
+  "live_count": 10,
+  "upcoming_count": 27,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/Sher-e-Punjab-T20_BG1.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL1NoZXItZS1QdW5qYWItVDIwX0JHMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InRvcCIsIndpZHRoIjo0ODAsImhlaWdodCI6MjcwfSwid2VicCI6eyJxdWFsaXR5Ijo2MCwibG9zc2xlc3MiOmZhbHNlfX0sIm91dHB1dEZvcm1hdCI6IndlYnAifQ==",
       "league": "Sher-E-Punjab T20 League",
-      "viewers": "29",
+      "viewers": "30",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -30,7 +30,34 @@
         "https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8",
         "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_5_hd&e=.m3u8"
       ],
-      "last_updated": "2026-09-12T09:18:10.986745"
+      "last_updated": "2026-09-12T09:28:10.494024"
+    },
+    {
+      "match_id": "911",
+      "title": "Belfast Wolves vs Rotterdam Dockers",
+      "teams": "Belfast Wolves vs Rotterdam Dockers",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789028257540x302.jpg",
+      "league": "European T20 Premier League 2026",
+      "viewers": "10",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=911",
+      "match_url": "live/belfast-wolves-vs-rotterdam-dockers-911",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=bt7B33b9Cim02ZoUchPFBnsNaSZm_5T3Yl5yrwakzWBLcUa9WUwLd-8DkoqCd9YqwQcMKTHCMVAcr6PRI1aIvwX3qNKPpGEuP-MdrsO-nIHfYH68zKOPeHc1jgNGmabS1HhNXSCZrkOqp17ROwXyRrCLH7Jf2zhlXaFFs11PcOpT72WgneEqXchekyIEX09bwbxGlr8RVZfOCAV46-obVwbNv_txEGGUoO5DnkUg6zuK8m0SkJOs9DTgv5_TQTUCtCT7o9x9ZdCXYBLsVFMkrmUlVvZ0hQ",
+      "server_count": 3,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=bt7B33b9Cim02ZoUchPFBnsNaSZm_5T3Yl5yrwakzWBLcUa9WUwLd-8DkoqCd9YqwQcMKTHCMVAcr6PRI1aIvwX3qNKPpGEuP-MdrsO-nIHfYH68zKOPeHc1jgNGmabS1HhNXSCZrkOqp17ROwXyRrCLH7Jf2zhlXaFFs11PcOpT72WgneEqXchekyIEX09bwbxGlr8RVZfOCAV46-obVwbNv_txEGGUoO5DnkUg6zuK8m0SkJOs9DTgv5_TQTUCtCT7o9x9ZdCXYBLsVFMkrmUlVvZ0hQ",
+        "https://live.talkoraai.com/match/seg?t=jUSxLb4A4PosIa0ijrn1n_Zgds3m2yx1AP_SAB839mMzAxtl9p4eBJk5fhiR2JiQLL3KcesqNl6n_ZZPnTMs6pm276OpSmv8n4qj0LdDr3ZVrkGGxRHX798D42X-_wJRSjO3og8czWRty0iIyMT3jj4czgfdfrN5id_YFb6Hu4n_TYSly6Dbw4VnvrxjG48kP8qHHbzq2YHBSeePb2Np7Z4kdQU72go0EdKpYQ6k7oOne6tYgE5z2OMI1ryMwd4Q1rZ4AQ7jRUP_MDK-KTt5BIltvq5mNHbgS2tT6tA5",
+        "https://tvsen7.aynaott.com/ssport2hd/index.m3u8"
+      ],
+      "last_updated": "2026-09-12T09:28:11.817854"
     },
     {
       "match_id": "902",
@@ -43,7 +70,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://www.fancode.com/skillup-uploads/cms-media/ACC-Mens-Premier_Web-match-card.png",
       "league": "Final, ACC Men's Premier Cup-ODI",
-      "viewers": "19",
+      "viewers": "20",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -55,7 +82,7 @@
       "server_urls": [
         "https://fancode.sm-monirul-islam-rs.workers.dev/4248632/index.m3u8"
       ],
-      "last_updated": "2026-09-12T09:18:11.289145"
+      "last_updated": "2026-09-12T09:28:12.105259"
     },
     {
       "match_id": "901",
@@ -68,7 +95,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789112064540x302.jpg",
       "league": "Cup",
-      "viewers": "16",
+      "viewers": "17",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -81,7 +108,7 @@
         "https://live.talkoraai.com/match/hls?t=pzHZVfb5erhVt3Duq4dcRoHaI9BZkT2GgDkyo1YD_wP1eqz8PofZmgyZfxcVuNcmjQig6xwP5IIuAmw0CB76p95mZxQ4Gk9n3sxn7TEVsz_AsLu9Gv_BTmiZ3YZWMhkTaI29X6Mu9nAqAaB_KJ4W6DabY8VTSEj9exc_6uKBj7u8bo3WkhBIA-c1hUlZOCCUzmo_kNp-KLoQrs9dl7X8uoQhh4O_fZAJS94i9nIE0hKA9tqXBctnK3w_AT4UipnAeejHZjTIN0lLEuLTjDGdAolWvEVq75TKJPLVg8E_KVdNrZGb5Z4",
         "https://live.talkoraai.com/match/seg?t=I-1I15Ib2mrgbPtXYtMWjncDydMCcQcrK6--QdK05KuNDxoRHRm7pXeJ7IG9rklwojb8RYFgWl3oHik8J7O-XyrBavCXJF6m2CnHUUVGqviNC2M7kgjWdj_v33iS53cIF1gxW6c6z_TdtPXNggA5zTazDRzsp6sW9FMew2gf1bCEdXSGjYYSZ0HwSRy7HKIdxAJe3KDHj43ytRjgDXQGgqFboOsi5u9F_7jDE-8f_eU7BxO975R8T3o8s11ZwRN71trmg0MRb6c5GMLZx6d2rM1kebdk6X5Uw2Kz6XjAu5H5QX4oaQGfOtIgG9oc_Q"
       ],
-      "last_updated": "2026-09-12T09:18:12.495429"
+      "last_updated": "2026-09-12T09:28:12.395527"
     },
     {
       "match_id": "900",
@@ -94,7 +121,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/Mini_Match_Motogp.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL01pbmlfTWF0Y2hfTW90b2dwLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjU4MCwiaGVpZ2h0IjoyNDB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
       "league": "Day 2",
-      "viewers": "18",
+      "viewers": "19",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -106,7 +133,7 @@
       "server_urls": [
         "https://fancode.sm-monirul-islam-rs.workers.dev/4248535/index.m3u8"
       ],
-      "last_updated": "2026-09-12T09:18:12.771855"
+      "last_updated": "2026-09-12T09:28:12.680994"
     },
     {
       "match_id": "903",
@@ -119,7 +146,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249161_53067_UGA_KEN_FC-Web.png",
       "league": "ILT20 Africa Continent Cup 2026",
-      "viewers": "17",
+      "viewers": "18",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -131,7 +158,7 @@
       "server_urls": [
         "https://fancode.sm-monirul-islam-rs.workers.dev/4249161/index.m3u8"
       ],
-      "last_updated": "2026-09-12T09:18:13.042895"
+      "last_updated": "2026-09-12T09:28:12.967828"
     },
     {
       "match_id": "907",
@@ -144,7 +171,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/Golf_FC-Web.png",
       "league": "The Solheim Cup 2026",
-      "viewers": "11",
+      "viewers": "12",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -156,7 +183,7 @@
       "server_urls": [
         "https://fancode.sm-monirul-islam-rs.workers.dev/4249082/index.m3u8"
       ],
-      "last_updated": "2026-09-12T09:18:13.316047"
+      "last_updated": "2026-09-12T09:28:13.262557"
     },
     {
       "match_id": "908",
@@ -169,7 +196,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/DTM2.png",
       "league": "DTM 2026",
-      "viewers": "11",
+      "viewers": "13",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -181,7 +208,7 @@
       "server_urls": [
         "https://fancode.sm-monirul-islam-rs.workers.dev/4248640/index.m3u8"
       ],
-      "last_updated": "2026-09-12T09:18:13.586802"
+      "last_updated": "2026-09-12T09:28:13.548124"
     },
     {
       "match_id": "912",
@@ -194,7 +221,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/Ferrari-Challenge-Series-Sydney-old.png",
       "league": "Ferrari Challenge Series 2026",
-      "viewers": "3",
+      "viewers": "4",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -206,7 +233,7 @@
       "server_urls": [
         "https://fancode.sm-monirul-islam-rs.workers.dev/4249176/index.m3u8"
       ],
-      "last_updated": "2026-09-12T09:18:13.856733"
+      "last_updated": "2026-09-12T09:28:13.834443"
     },
     {
       "match_id": "913",
@@ -219,7 +246,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/F2-MADRID_F3_fc-web.jpg",
       "league": "F3 MADRID 2026",
-      "viewers": "1",
+      "viewers": "3",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -231,30 +258,7 @@
       "server_urls": [
         "https://fancode.sm-monirul-islam-rs.workers.dev/139743/index.m3u8"
       ],
-      "last_updated": "2026-09-12T09:18:14.125431"
-    },
-    {
-      "match_id": "911",
-      "title": "Belfast Wolves vs Rotterdam Dockers",
-      "teams": "Belfast Wolves vs Rotterdam Dockers",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789028257540x302.jpg",
-      "league": "European T20 Premier League 2026",
-      "viewers": "257",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=911",
-      "match_url": "live/belfast-wolves-vs-rotterdam-dockers-911",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-12T09:18:14.397607"
+      "last_updated": "2026-09-12T09:28:14.112781"
     },
     {
       "match_id": "877",
@@ -277,7 +281,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T09:18:14.398047"
+      "last_updated": "2026-09-12T09:28:14.403482"
     },
     {
       "match_id": "857",
@@ -300,7 +304,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T09:18:14.398451"
+      "last_updated": "2026-09-12T09:28:14.404203"
     },
     {
       "match_id": "909",
@@ -323,7 +327,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T09:18:14.398825"
+      "last_updated": "2026-09-12T09:28:14.404832"
     },
     {
       "match_id": "895",
@@ -346,7 +350,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T09:18:14.399195"
+      "last_updated": "2026-09-12T09:28:14.405481"
     },
     {
       "match_id": "858",
@@ -369,7 +373,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T09:18:14.399564"
+      "last_updated": "2026-09-12T09:28:14.406122"
     },
     {
       "match_id": "910",
@@ -392,7 +396,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T09:18:14.399921"
+      "last_updated": "2026-09-12T09:28:14.406740"
     },
     {
       "match_id": "880",
@@ -415,7 +419,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T09:18:14.400275"
+      "last_updated": "2026-09-12T09:28:14.407372"
     },
     {
       "match_id": "881",
@@ -438,7 +442,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T09:18:14.400644"
+      "last_updated": "2026-09-12T09:28:14.408013"
     },
     {
       "match_id": "896",
@@ -461,7 +465,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T09:18:14.401000"
+      "last_updated": "2026-09-12T09:28:14.408634"
     },
     {
       "match_id": "882",
@@ -484,7 +488,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T09:18:14.401410"
+      "last_updated": "2026-09-12T09:28:14.409278"
     },
     {
       "match_id": "893",
@@ -507,7 +511,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T09:18:14.401769"
+      "last_updated": "2026-09-12T09:28:14.409920"
     },
     {
       "match_id": "897",
@@ -530,7 +534,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T09:18:14.402126"
+      "last_updated": "2026-09-12T09:28:14.410533"
     },
     {
       "match_id": "864",
@@ -553,7 +557,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T09:18:14.402493"
+      "last_updated": "2026-09-12T09:28:14.411162"
     },
     {
       "match_id": "883",
@@ -576,7 +580,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T09:18:14.402844"
+      "last_updated": "2026-09-12T09:28:14.411775"
     },
     {
       "match_id": "904",
@@ -599,7 +603,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T09:18:14.403193"
+      "last_updated": "2026-09-12T09:28:14.412414"
     },
     {
       "match_id": "884",
@@ -622,7 +626,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T09:18:14.403558"
+      "last_updated": "2026-09-12T09:28:14.413055"
     },
     {
       "match_id": "894",
@@ -645,7 +649,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T09:18:14.403909"
+      "last_updated": "2026-09-12T09:28:14.413676"
     },
     {
       "match_id": "891",
@@ -668,7 +672,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T09:18:14.404260"
+      "last_updated": "2026-09-12T09:28:14.414310"
     },
     {
       "match_id": "905",
@@ -691,7 +695,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T09:18:14.404630"
+      "last_updated": "2026-09-12T09:28:14.414934"
     },
     {
       "match_id": "876",
@@ -714,7 +718,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T09:18:14.404990"
+      "last_updated": "2026-09-12T09:28:14.415624"
     },
     {
       "match_id": "878",
@@ -737,7 +741,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T09:18:14.405358"
+      "last_updated": "2026-09-12T09:28:14.416417"
     },
     {
       "match_id": "862",
@@ -760,7 +764,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T09:18:14.405715"
+      "last_updated": "2026-09-12T09:28:14.417074"
     },
     {
       "match_id": "906",
@@ -783,7 +787,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T09:18:14.406070"
+      "last_updated": "2026-09-12T09:28:14.417686"
     },
     {
       "match_id": "892",
@@ -806,7 +810,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T09:18:14.406440"
+      "last_updated": "2026-09-12T09:28:14.418318"
     },
     {
       "match_id": "879",
@@ -829,7 +833,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T09:18:14.406795"
+      "last_updated": "2026-09-12T09:28:14.418953"
     },
     {
       "match_id": "888",
@@ -852,7 +856,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T09:18:14.407146"
+      "last_updated": "2026-09-12T09:28:14.419568"
     },
     {
       "match_id": "889",
@@ -875,7 +879,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T09:18:14.407517"
+      "last_updated": "2026-09-12T09:28:14.420204"
     }
   ]
 }
