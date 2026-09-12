@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-12T10:31:32.310514",
+  "timestamp": "2026-09-12T10:36:36.602316",
   "total_matches": 34,
-  "live_count": 7,
-  "upcoming_count": 27,
+  "live_count": 8,
+  "upcoming_count": 26,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/Sher-e-Punjab-T20_BG1.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL1NoZXItZS1QdW5qYWItVDIwX0JHMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InRvcCIsIndpZHRoIjo0ODAsImhlaWdodCI6MjcwfSwid2VicCI6eyJxdWFsaXR5Ijo2MCwibG9zc2xlc3MiOmZhbHNlfX0sIm91dHB1dEZvcm1hdCI6IndlYnAifQ==",
       "league": "Sher-E-Punjab T20 League",
-      "viewers": "43",
+      "viewers": "44",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -30,7 +30,7 @@
         "https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8",
         "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_5_hd&e=.m3u8"
       ],
-      "last_updated": "2026-09-12T10:28:33.534737"
+      "last_updated": "2026-09-12T10:33:37.807793"
     },
     {
       "match_id": "911",
@@ -43,7 +43,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789028257540x302.jpg",
       "league": "European T20 Premier League 2026",
-      "viewers": "24",
+      "viewers": "26",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -57,7 +57,7 @@
         "https://live.talkoraai.com/match/seg?t=jUSxLb4A4PosIa0ijrn1n_Zgds3m2yx1AP_SAB839mMzAxtl9p4eBJk5fhiR2JiQLL3KcesqNl6n_ZZPnTMs6pm276OpSmv8n4qj0LdDr3ZVrkGGxRHX798D42X-_wJRSjO3og8czWRty0iIyMT3jj4czgfdfrN5id_YFb6Hu4n_TYSly6Dbw4VnvrxjG48kP8qHHbzq2YHBSeePb2Np7Z4kdQU72go0EdKpYQ6k7oOne6tYgE5z2OMI1ryMwd4Q1rZ4AQ7jRUP_MDK-KTt5BIltvq5mNHbgS2tT6tA5",
         "https://tvsen7.aynaott.com/ssport2hd/index.m3u8"
       ],
-      "last_updated": "2026-09-12T10:28:34.332251"
+      "last_updated": "2026-09-12T10:33:39.158208"
     },
     {
       "match_id": "914",
@@ -70,7 +70,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788178193540x302.jpg",
       "league": "ICC World Test Championship",
-      "viewers": "17",
+      "viewers": "18",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -85,7 +85,30 @@
         "https://tvsen5.aynascope.net/willowhd/mono.m3u8",
         "https://stream.ottplus.live/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8"
       ],
-      "last_updated": "2026-09-12T10:28:34.626125"
+      "last_updated": "2026-09-12T10:33:39.420353"
+    },
+    {
+      "match_id": "877",
+      "title": "Majees Titans vs Mustafa Fragrance House",
+      "teams": "Majees Titans vs Mustafa Fragrance House",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248678_53052_MAT_MF_fc-Web.jpg",
+      "league": "Oman D50 2026",
+      "viewers": "4",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=877",
+      "match_url": "live/majees-titans-vs-mustafa-fragrance-house-877",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-12T10:33:39.691240"
     },
     {
       "match_id": "903",
@@ -98,7 +121,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249161_53067_UGA_KEN_FC-Web.png",
       "league": "ILT20 Africa Continent Cup 2026",
-      "viewers": "32",
+      "viewers": "33",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -110,7 +133,7 @@
       "server_urls": [
         "https://fancode.sm-monirul-islam-rs.workers.dev/4249161/index.m3u8"
       ],
-      "last_updated": "2026-09-12T10:28:34.914490"
+      "last_updated": "2026-09-12T10:33:39.961999"
     },
     {
       "match_id": "908",
@@ -123,7 +146,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/DTM2.png",
       "league": "DTM 2026",
-      "viewers": "25",
+      "viewers": "26",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -135,7 +158,7 @@
       "server_urls": [
         "https://fancode.sm-monirul-islam-rs.workers.dev/4248640/index.m3u8"
       ],
-      "last_updated": "2026-09-12T10:28:35.203778"
+      "last_updated": "2026-09-12T10:33:40.223986"
     },
     {
       "match_id": "912",
@@ -148,7 +171,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/Ferrari-Challenge-Series-Sydney-old.png",
       "league": "Ferrari Challenge Series 2026",
-      "viewers": "17",
+      "viewers": "18",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -160,7 +183,7 @@
       "server_urls": [
         "https://fancode.sm-monirul-islam-rs.workers.dev/4249176/index.m3u8"
       ],
-      "last_updated": "2026-09-12T10:28:35.492461"
+      "last_updated": "2026-09-12T10:33:40.493689"
     },
     {
       "match_id": "913",
@@ -173,7 +196,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/F2-MADRID_F3_fc-web.jpg",
       "league": "F3 MADRID 2026",
-      "viewers": "16",
+      "viewers": "17",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -185,30 +208,7 @@
       "server_urls": [
         "https://fancode.sm-monirul-islam-rs.workers.dev/139743/index.m3u8"
       ],
-      "last_updated": "2026-09-12T10:28:35.781045"
-    },
-    {
-      "match_id": "877",
-      "title": "Majees Titans vs Mustafa Fragrance House",
-      "teams": "Majees Titans vs Mustafa Fragrance House",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248678_53052_MAT_MF_fc-Web.jpg",
-      "league": "Oman D50 2026",
-      "viewers": "4",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=877",
-      "match_url": "live/majees-titans-vs-mustafa-fragrance-house-877",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-12T10:28:36.069152"
+      "last_updated": "2026-09-12T10:33:40.755293"
     },
     {
       "match_id": "857",
@@ -231,7 +231,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T10:28:36.069683"
+      "last_updated": "2026-09-12T10:33:41.023761"
     },
     {
       "match_id": "909",
@@ -254,7 +254,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T10:28:36.070145"
+      "last_updated": "2026-09-12T10:33:41.026067"
     },
     {
       "match_id": "895",
@@ -277,7 +277,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T10:28:36.070609"
+      "last_updated": "2026-09-12T10:33:41.026705"
     },
     {
       "match_id": "858",
@@ -300,7 +300,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T10:28:36.071052"
+      "last_updated": "2026-09-12T10:33:41.027362"
     },
     {
       "match_id": "910",
@@ -323,7 +323,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T10:28:36.071501"
+      "last_updated": "2026-09-12T10:33:41.028008"
     },
     {
       "match_id": "880",
@@ -346,7 +346,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T10:28:36.071951"
+      "last_updated": "2026-09-12T10:33:41.028639"
     },
     {
       "match_id": "881",
@@ -369,7 +369,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T10:28:36.072394"
+      "last_updated": "2026-09-12T10:33:41.029311"
     },
     {
       "match_id": "896",
@@ -392,7 +392,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T10:28:36.072840"
+      "last_updated": "2026-09-12T10:33:41.029956"
     },
     {
       "match_id": "882",
@@ -415,7 +415,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T10:28:36.073291"
+      "last_updated": "2026-09-12T10:33:41.030578"
     },
     {
       "match_id": "893",
@@ -438,7 +438,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T10:28:36.073738"
+      "last_updated": "2026-09-12T10:33:41.031224"
     },
     {
       "match_id": "897",
@@ -461,7 +461,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T10:28:36.074199"
+      "last_updated": "2026-09-12T10:33:41.031863"
     },
     {
       "match_id": "864",
@@ -484,7 +484,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T10:28:36.074641"
+      "last_updated": "2026-09-12T10:33:41.032501"
     },
     {
       "match_id": "883",
@@ -507,7 +507,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T10:28:36.075079"
+      "last_updated": "2026-09-12T10:33:41.033170"
     },
     {
       "match_id": "904",
@@ -530,7 +530,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T10:28:36.075528"
+      "last_updated": "2026-09-12T10:33:41.033813"
     },
     {
       "match_id": "884",
@@ -553,7 +553,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T10:28:36.075965"
+      "last_updated": "2026-09-12T10:33:41.034454"
     },
     {
       "match_id": "894",
@@ -576,7 +576,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T10:28:36.076415"
+      "last_updated": "2026-09-12T10:33:41.035095"
     },
     {
       "match_id": "891",
@@ -599,7 +599,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T10:28:36.076850"
+      "last_updated": "2026-09-12T10:33:41.035713"
     },
     {
       "match_id": "905",
@@ -622,7 +622,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T10:28:36.077301"
+      "last_updated": "2026-09-12T10:33:41.036360"
     },
     {
       "match_id": "876",
@@ -645,7 +645,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T10:28:36.077745"
+      "last_updated": "2026-09-12T10:33:41.036996"
     },
     {
       "match_id": "878",
@@ -668,7 +668,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T10:28:36.078190"
+      "last_updated": "2026-09-12T10:33:41.037623"
     },
     {
       "match_id": "862",
@@ -691,7 +691,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T10:28:36.078628"
+      "last_updated": "2026-09-12T10:33:41.038257"
     },
     {
       "match_id": "906",
@@ -714,7 +714,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T10:28:36.079070"
+      "last_updated": "2026-09-12T10:33:41.038898"
     },
     {
       "match_id": "892",
@@ -737,7 +737,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T10:28:36.079520"
+      "last_updated": "2026-09-12T10:33:41.039519"
     },
     {
       "match_id": "879",
@@ -760,7 +760,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T10:28:36.079953"
+      "last_updated": "2026-09-12T10:33:41.040159"
     },
     {
       "match_id": "888",
@@ -783,7 +783,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T10:28:36.080405"
+      "last_updated": "2026-09-12T10:33:41.040777"
     },
     {
       "match_id": "889",
@@ -806,7 +806,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T10:28:36.080845"
+      "last_updated": "2026-09-12T10:33:41.041419"
     }
   ]
 }
