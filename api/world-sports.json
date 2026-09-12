@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-12T13:25:34.656013",
+  "timestamp": "2026-09-12T13:31:44.572791",
   "total_matches": 38,
-  "live_count": 8,
-  "upcoming_count": 30,
+  "live_count": 9,
+  "upcoming_count": 29,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247490_52993_DER_BIR_fc-web_1786657253171.jpg",
       "league": "EFL Championship",
-      "viewers": "34",
+      "viewers": "35",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -28,7 +28,7 @@
       "server_urls": [
         "https://fancode.sm-monirul-islam-rs.workers.dev/4247490/index.m3u8"
       ],
-      "last_updated": "2026-09-12T13:22:34.981311"
+      "last_updated": "2026-09-12T13:27:34.042392"
     },
     {
       "match_id": "918",
@@ -41,7 +41,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248470_53038_WHU-W_LCL_fc-web.jpg",
       "league": "Barclays Women's Super League 2026-27",
-      "viewers": "25",
+      "viewers": "26",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -53,7 +53,7 @@
       "server_urls": [
         "https://fancode.sm-monirul-islam-rs.workers.dev/4248470/index.m3u8"
       ],
-      "last_updated": "2026-09-12T13:22:35.382239"
+      "last_updated": "2026-09-12T13:27:34.393067"
     },
     {
       "match_id": "909",
@@ -66,7 +66,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247616_53004_RAC_ALA_FC-Web.png",
       "league": "LaLiga 2026",
-      "viewers": "20",
+      "viewers": "21",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -80,7 +80,7 @@
         "https://fancode.sm-monirul-islam-rs.workers.dev/4247616/index.m3u8",
         "https://live.talkoraai.com/match/seg?t=9-1Y-2w0Hw1bksCUgMfPRsgiqTlsnXn8rNLUotNRf5pltrbSuwHkjk9sjZVqLPobXGfJCMos62Mgm0-21-lq_r47Akjyq-E7EYQoynsiHmPzvFs6rmUK2s3Y_fkKlJzaFw0Hk-_yYbbD7G5P1jqiroXyVJJ1Xi0ExgR052dz0G-FcLqN5iutN-xRWHMsEHsGUqporiJtwOUmlIklpnTuDoT92pi2W2-RM4ci0onfK4knL5aV6-nWSekw4i7dwGa94Tia9XA2DxAid6uXPjQdTz8-E-HELA9V8LDlldLC"
       ],
-      "last_updated": "2026-09-12T13:22:36.362208"
+      "last_updated": "2026-09-12T13:27:35.725846"
     },
     {
       "match_id": "921",
@@ -93,7 +93,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://www.fancode.com/skillup-uploads/cms-media/DTM1.png",
       "league": "Race 1",
-      "viewers": "12",
+      "viewers": "13",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -105,7 +105,7 @@
       "server_urls": [
         "https://fancode.sm-monirul-islam-rs.workers.dev/139489/index.m3u8"
       ],
-      "last_updated": "2026-09-12T13:22:36.672677"
+      "last_updated": "2026-09-12T13:27:36.008653"
     },
     {
       "match_id": "920",
@@ -118,7 +118,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789028371540x302.jpg",
       "league": "European T20 Premier League 2026",
-      "viewers": "3",
+      "viewers": "4",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -134,7 +134,33 @@
         "https://tvsen5.aynascope.net/willowhd/mono.m3u8",
         "https://digitalotthub.com/tv/dd/live.php/598.m3u8"
       ],
-      "last_updated": "2026-09-12T13:22:36.954561"
+      "last_updated": "2026-09-12T13:27:36.360460"
+    },
+    {
+      "match_id": "888",
+      "title": "Ludhiana Lions vs Jalandhar Warriors Semi-Final",
+      "teams": "Ludhiana Lions vs Jalandhar Warriors Semi-Final",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/Sher-e-Punjab-T20_BG1.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL1NoZXItZS1QdW5qYWItVDIwX0JHMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InRvcCIsIndpZHRoIjoxNDQwLCJoZWlnaHQiOjgxMH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
+      "league": "Sher-E-Punjab T20 League",
+      "viewers": "1",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=888",
+      "match_url": "live/ludhiana-lions-vs-jalandhar-warriors-semi-final-888",
+      "stream_url": "https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8",
+      "server_count": 2,
+      "server_urls": [
+        "https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8",
+        "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_5_hd&e=.m3u8"
+      ],
+      "last_updated": "2026-09-12T13:27:36.641173"
     },
     {
       "match_id": "877",
@@ -147,7 +173,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248678_53052_MAT_MF_fc-Web.jpg",
       "league": "Oman D50 2026",
-      "viewers": "40",
+      "viewers": "41",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -159,7 +185,7 @@
       "server_urls": [
         "https://fancode.sm-monirul-islam-rs.workers.dev/4248678/index.m3u8"
       ],
-      "last_updated": "2026-09-12T13:22:37.243973"
+      "last_updated": "2026-09-12T13:27:36.918875"
     },
     {
       "match_id": "919",
@@ -172,7 +198,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/F1_ESPANA_fc-web.jpg",
       "league": "F1 TAG HEUER GRAN PREMIO DE ESPANA 2026",
-      "viewers": "17",
+      "viewers": "18",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -184,7 +210,7 @@
       "server_urls": [
         "https://fancode.sm-monirul-islam-rs.workers.dev/139489/index.m3u8"
       ],
-      "last_updated": "2026-09-12T13:22:37.529263"
+      "last_updated": "2026-09-12T13:27:37.200067"
     },
     {
       "match_id": "922",
@@ -197,7 +223,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/F2-MADRID_F2_fc-web.jpg",
       "league": "F2 MADRID 2026",
-      "viewers": "5",
+      "viewers": "6",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -209,7 +235,7 @@
       "server_urls": [
         "https://fancode.sm-monirul-islam-rs.workers.dev/139652/index.m3u8"
       ],
-      "last_updated": "2026-09-12T13:22:37.809786"
+      "last_updated": "2026-09-12T13:27:37.491408"
     },
     {
       "match_id": "917",
@@ -232,7 +258,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T13:22:38.089590"
+      "last_updated": "2026-09-12T13:27:37.769217"
     },
     {
       "match_id": "895",
@@ -255,7 +281,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T13:22:38.089965"
+      "last_updated": "2026-09-12T13:27:37.769744"
     },
     {
       "match_id": "858",
@@ -278,7 +304,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T13:22:38.090257"
+      "last_updated": "2026-09-12T13:27:37.770213"
     },
     {
       "match_id": "923",
@@ -301,7 +327,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T13:22:38.090540"
+      "last_updated": "2026-09-12T13:27:37.770661"
     },
     {
       "match_id": "916",
@@ -324,7 +350,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T13:22:38.090826"
+      "last_updated": "2026-09-12T13:27:37.771105"
     },
     {
       "match_id": "915",
@@ -347,7 +373,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T13:22:38.091107"
+      "last_updated": "2026-09-12T13:27:37.771563"
     },
     {
       "match_id": "910",
@@ -370,7 +396,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T13:22:38.091383"
+      "last_updated": "2026-09-12T13:27:37.772004"
     },
     {
       "match_id": "880",
@@ -393,7 +419,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T13:22:38.091657"
+      "last_updated": "2026-09-12T13:27:37.772459"
     },
     {
       "match_id": "924",
@@ -416,7 +442,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T13:22:38.091937"
+      "last_updated": "2026-09-12T13:27:37.772900"
     },
     {
       "match_id": "881",
@@ -439,7 +465,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T13:22:38.092211"
+      "last_updated": "2026-09-12T13:27:37.773356"
     },
     {
       "match_id": "925",
@@ -462,7 +488,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T13:22:38.092484"
+      "last_updated": "2026-09-12T13:27:37.773793"
     },
     {
       "match_id": "896",
@@ -485,7 +511,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T13:22:38.092763"
+      "last_updated": "2026-09-12T13:27:37.774246"
     },
     {
       "match_id": "882",
@@ -508,7 +534,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T13:22:38.093038"
+      "last_updated": "2026-09-12T13:27:37.774679"
     },
     {
       "match_id": "893",
@@ -531,7 +557,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T13:22:38.093310"
+      "last_updated": "2026-09-12T13:27:37.775131"
     },
     {
       "match_id": "897",
@@ -554,7 +580,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T13:22:38.093584"
+      "last_updated": "2026-09-12T13:27:37.775579"
     },
     {
       "match_id": "864",
@@ -577,7 +603,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T13:22:38.093883"
+      "last_updated": "2026-09-12T13:27:37.776035"
     },
     {
       "match_id": "883",
@@ -600,7 +626,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T13:22:38.094195"
+      "last_updated": "2026-09-12T13:27:37.776497"
     },
     {
       "match_id": "904",
@@ -623,7 +649,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T13:22:38.094482"
+      "last_updated": "2026-09-12T13:27:37.776930"
     },
     {
       "match_id": "884",
@@ -646,7 +672,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T13:22:38.094761"
+      "last_updated": "2026-09-12T13:27:37.777377"
     },
     {
       "match_id": "894",
@@ -669,7 +695,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T13:22:38.095031"
+      "last_updated": "2026-09-12T13:27:37.777825"
     },
     {
       "match_id": "891",
@@ -692,7 +718,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T13:22:38.095300"
+      "last_updated": "2026-09-12T13:27:37.778276"
     },
     {
       "match_id": "905",
@@ -715,7 +741,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T13:22:38.095571"
+      "last_updated": "2026-09-12T13:27:37.778711"
     },
     {
       "match_id": "876",
@@ -738,7 +764,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T13:22:38.095847"
+      "last_updated": "2026-09-12T13:27:37.779156"
     },
     {
       "match_id": "878",
@@ -761,7 +787,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T13:22:38.096116"
+      "last_updated": "2026-09-12T13:27:37.779599"
     },
     {
       "match_id": "862",
@@ -784,7 +810,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T13:22:38.096386"
+      "last_updated": "2026-09-12T13:27:37.780039"
     },
     {
       "match_id": "906",
@@ -807,7 +833,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T13:22:38.096654"
+      "last_updated": "2026-09-12T13:27:37.780491"
     },
     {
       "match_id": "892",
@@ -830,7 +856,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T13:22:38.096930"
+      "last_updated": "2026-09-12T13:27:37.780939"
     },
     {
       "match_id": "879",
@@ -853,30 +879,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T13:22:38.097198"
-    },
-    {
-      "match_id": "888",
-      "title": "Ludhiana Lions vs Jalandhar Warriors Semi-Final",
-      "teams": "Ludhiana Lions vs Jalandhar Warriors Semi-Final",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/Sher-e-Punjab-T20_BG1.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL1NoZXItZS1QdW5qYWItVDIwX0JHMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InRvcCIsIndpZHRoIjoxNDQwLCJoZWlnaHQiOjgxMH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
-      "league": "Sher-E-Punjab T20 League",
-      "viewers": "1",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=888",
-      "match_url": "live/ludhiana-lions-vs-jalandhar-warriors-semi-final-888",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-12T13:22:38.097471"
+      "last_updated": "2026-09-12T13:27:37.781387"
     },
     {
       "match_id": "889",
@@ -899,7 +902,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-12T13:22:38.097748"
+      "last_updated": "2026-09-12T13:27:37.781834"
     }
   ]
 }
