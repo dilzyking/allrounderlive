@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-13T12:59:49.217455",
+  "timestamp": "2026-09-13T13:04:46.073654",
   "total_matches": 28,
-  "live_count": 10,
-  "upcoming_count": 18,
+  "live_count": 11,
+  "upcoming_count": 17,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/Namibia-vs-South-Africa-ODIs-old.jpg",
       "league": "South Africa tour of Namibia, 2026",
-      "viewers": "87",
+      "viewers": "88",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -29,7 +29,7 @@
         "https://fancode.sm-monirul-islam-rs.workers.dev/4248634/index.m3u8",
         "https://cdn-gstyx.styxsports.live/STYX/streams/68oRKR23qeWZvCXu6248791548119.m3u8"
       ],
-      "last_updated": "2026-09-13T12:56:51.097177"
+      "last_updated": "2026-09-13T13:02:07.582535"
     },
     {
       "match_id": "944",
@@ -42,7 +42,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248471_53038_MUN-W_CHE-W_fc-web.jpg",
       "league": "Barclays Women's Super League 2026-27",
-      "viewers": "11",
+      "viewers": "12",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -54,7 +54,7 @@
       "server_urls": [
         "https://fancode.sm-monirul-islam-rs.workers.dev/4248471/index.m3u8"
       ],
-      "last_updated": "2026-09-13T12:56:51.840018"
+      "last_updated": "2026-09-13T13:02:08.953931"
     },
     {
       "match_id": "864",
@@ -67,7 +67,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247492_52993_SHF_WOL_fc-web_1786657253831.jpg",
       "league": "EFL Championship 2026-27",
-      "viewers": "35",
+      "viewers": "36",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -81,7 +81,7 @@
         "https://live.dyrur1.com/live/72339828_b4e309c1e8658bab135d3b4e047cba33_1080p.m3u8?auth_key=1789311319-0-0-664e3ab0baa77682f1e7d7de034a5e21",
         "https://live.dyrur1.com/live/72339828_b4e309c1e8658bab135d3b4e047cba33_540p.m3u8?auth_key=1789311319-0-0-664e3ab0baa77682f1e7d7de034a5e21"
       ],
-      "last_updated": "2026-09-13T12:56:52.099589"
+      "last_updated": "2026-09-13T13:02:09.228630"
     },
     {
       "match_id": "883",
@@ -94,7 +94,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247609_53004_CEV_MAG_FC-Web.png",
       "league": "LaLiga 2026",
-      "viewers": "20",
+      "viewers": "21",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -108,7 +108,30 @@
         "https://fancode.sm-monirul-islam-rs.workers.dev/4247609/index.m3u8",
         "https://live.talkoraai.com/match/seg?t=zNYNOm6VbJsTybA5PFKToWLNY5mpIa-2i5pbEmbNw8J87oAEZAj1beJrl9pvaG20HKfQwpU_NRxgJAkBA8Pk10SqqE5-8s_tv9AWXXnO1Q-ywf7rOXIC4WXcRkhsi0sNCdQ_m4-xEwtO-42m5YtorCuIYPsJ4b09mRfx-9h15hn27sC1DPISQ7K4impl5cs3s8Z7XCEgs_B0Vpc2aN7MqE5R7hsenJyUDn9hormdqDDyp4-U-giYENsYlLQAus9nm7UEDoXY8vBHYH6K9ar25keAqKi9LS8xDZ1y"
       ],
-      "last_updated": "2026-09-13T12:56:52.360221"
+      "last_updated": "2026-09-13T13:02:09.501048"
+    },
+    {
+      "match_id": "928",
+      "title": "Coventry City vs Brighton",
+      "teams": "Coventry City vs Brighton",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://assets.khelnow.com/news/uploads/2026/09/oventry-City-v-Brighton-Hove-Albion.jpg",
+      "league": "EFL Championship",
+      "viewers": "2",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=928",
+      "match_url": "live/coventry-city-vs-brighton-928",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-13T13:02:09.772778"
     },
     {
       "match_id": "940",
@@ -121,7 +144,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://e0.365dm.com/24/04/1600x900/skysports-celtic-rangers-old-firm_6511174.jpg?20240405115650",
       "league": "Scottish League Cup",
-      "viewers": "23",
+      "viewers": "24",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -134,7 +157,7 @@
         "https://live2.dyrur1.com/live/73778626_b56a00cefee2f4ac50276299788dccb1_1080p.m3u8?auth_key=1789311319-0-0-68a43f1b0fc6989a04c244c0bd96539b",
         "https://live2.dyrur1.com/live/73778626_b56a00cefee2f4ac50276299788dccb1_540p.m3u8?auth_key=1789311319-0-0-68a43f1b0fc6989a04c244c0bd96539b"
       ],
-      "last_updated": "2026-09-13T12:56:52.620201"
+      "last_updated": "2026-09-13T13:02:10.053209"
     },
     {
       "match_id": "945",
@@ -147,7 +170,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249164_53067_BOT_RWA_FC-Web.png",
       "league": "ILT20 Africa Continent Cup 2026- T20",
-      "viewers": "10",
+      "viewers": "11",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -159,7 +182,7 @@
       "server_urls": [
         "https://fancode.sm-monirul-islam-rs.workers.dev/4249164/index.m3u8"
       ],
-      "last_updated": "2026-09-13T12:56:52.888773"
+      "last_updated": "2026-09-13T13:02:10.327573"
     },
     {
       "match_id": "946",
@@ -172,7 +195,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/Mini_Match_Motogp.png",
       "league": "RED BULL GRAND PRIX OF SAN MARINO & THE RIMINI RIVIERA",
-      "viewers": "10",
+      "viewers": "11",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -184,7 +207,7 @@
       "server_urls": [
         "https://fancode.sm-monirul-islam-rs.workers.dev/139968/index.m3u8"
       ],
-      "last_updated": "2026-09-13T12:56:53.150882"
+      "last_updated": "2026-09-13T13:02:10.599537"
     },
     {
       "match_id": "947",
@@ -197,7 +220,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/Golf_FC-Web.png",
       "league": "The Solheim Cup 2026",
-      "viewers": "9",
+      "viewers": "10",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -209,7 +232,7 @@
       "server_urls": [
         "https://fancode.sm-monirul-islam-rs.workers.dev/4249083/index.m3u8"
       ],
-      "last_updated": "2026-09-13T12:56:53.410999"
+      "last_updated": "2026-09-13T13:02:10.866358"
     },
     {
       "match_id": "948",
@@ -222,7 +245,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://www.fancode.com/skillup-uploads/cms-media/F1-ESPANA_BG.jpg",
       "league": "F1 TAG HEUER GRAN PREMIO DE ESPANA 2026",
-      "viewers": "8",
+      "viewers": "9",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -234,7 +257,7 @@
       "server_urls": [
         "https://fancode.sm-monirul-islam-rs.workers.dev/139491/index.m3u8"
       ],
-      "last_updated": "2026-09-13T12:56:53.670408"
+      "last_updated": "2026-09-13T13:02:11.140954"
     },
     {
       "match_id": "949",
@@ -247,7 +270,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/DTM2.png",
       "league": "DTM 2026",
-      "viewers": "8",
+      "viewers": "9",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -259,30 +282,7 @@
       "server_urls": [
         "https://fancode.sm-monirul-islam-rs.workers.dev/4249175/index.m3u8"
       ],
-      "last_updated": "2026-09-13T12:56:53.929484"
-    },
-    {
-      "match_id": "928",
-      "title": "Coventry City vs Brighton",
-      "teams": "Coventry City vs Brighton",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://assets.khelnow.com/news/uploads/2026/09/oventry-City-v-Brighton-Hove-Albion.jpg",
-      "league": "EFL Championship",
-      "viewers": "2",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=928",
-      "match_url": "live/coventry-city-vs-brighton-928",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-13T12:56:54.191109"
+      "last_updated": "2026-09-13T13:02:11.409925"
     },
     {
       "match_id": "942",
@@ -305,7 +305,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T12:56:54.191582"
+      "last_updated": "2026-09-13T13:02:11.672598"
     },
     {
       "match_id": "937",
@@ -328,7 +328,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T12:56:54.191961"
+      "last_updated": "2026-09-13T13:02:11.672985"
     },
     {
       "match_id": "943",
@@ -351,7 +351,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T12:56:54.192336"
+      "last_updated": "2026-09-13T13:02:11.673320"
     },
     {
       "match_id": "904",
@@ -374,7 +374,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T12:56:54.192717"
+      "last_updated": "2026-09-13T13:02:11.673639"
     },
     {
       "match_id": "884",
@@ -397,7 +397,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T12:56:54.193087"
+      "last_updated": "2026-09-13T13:02:11.673951"
     },
     {
       "match_id": "929",
@@ -420,7 +420,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T12:56:54.193474"
+      "last_updated": "2026-09-13T13:02:11.674259"
     },
     {
       "match_id": "931",
@@ -443,7 +443,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T12:56:54.193867"
+      "last_updated": "2026-09-13T13:02:11.674569"
     },
     {
       "match_id": "932",
@@ -466,7 +466,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T12:56:54.194241"
+      "last_updated": "2026-09-13T13:02:11.674882"
     },
     {
       "match_id": "894",
@@ -489,7 +489,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T12:56:54.194633"
+      "last_updated": "2026-09-13T13:02:11.675182"
     },
     {
       "match_id": "891",
@@ -512,7 +512,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T12:56:54.195003"
+      "last_updated": "2026-09-13T13:02:11.675501"
     },
     {
       "match_id": "905",
@@ -535,7 +535,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T12:56:54.195370"
+      "last_updated": "2026-09-13T13:02:11.675802"
     },
     {
       "match_id": "876",
@@ -558,7 +558,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T12:56:54.195751"
+      "last_updated": "2026-09-13T13:02:11.676133"
     },
     {
       "match_id": "878",
@@ -581,7 +581,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T12:56:54.196120"
+      "last_updated": "2026-09-13T13:02:11.676445"
     },
     {
       "match_id": "862",
@@ -604,7 +604,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T12:56:54.196500"
+      "last_updated": "2026-09-13T13:02:11.676749"
     },
     {
       "match_id": "906",
@@ -627,7 +627,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T12:56:54.196870"
+      "last_updated": "2026-09-13T13:02:11.677079"
     },
     {
       "match_id": "892",
@@ -650,7 +650,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T12:56:54.197245"
+      "last_updated": "2026-09-13T13:02:11.677391"
     },
     {
       "match_id": "879",
@@ -673,7 +673,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T12:56:54.197620"
+      "last_updated": "2026-09-13T13:02:11.677697"
     }
   ]
 }
