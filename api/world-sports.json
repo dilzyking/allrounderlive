@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-13T06:09:11.380145",
-  "total_matches": 20,
+  "timestamp": "2026-09-13T06:14:12.813773",
+  "total_matches": 21,
   "live_count": 1,
-  "upcoming_count": 19,
+  "upcoming_count": 20,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789242643540x302.jpg",
       "league": "Suzuka 1000 Race Liv",
-      "viewers": "445",
+      "viewers": "1",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -29,30 +29,30 @@
         "https://live.talkoraai.com/match/hls?t=9ucrbyavmss1f9k-xwHOCRSU0XHZOmJiMy4zt-eXExVcR8MCP1419OV4QhnD23cXqF7CrRj1ORYBaSEccEFSLMtP1R3s5OqKnXoZYOgNt4pAJnbmQF_P5Whysqq7lTX2ENYdO6YH0_dVBecgC9m6tDCyIyL77dO-rl81Jw41TtpxazyOf9TWqyt6LvCmcVUm1rAT0EwCnzVUSIpAgiyQMj6Mh0qk4LYypsnpTy4pADA_eR36ILo8_-rDq8sHU8gRXC_fABaWkdZ3nZlxOo8AQzSdKqOiYrDha7gR3ACpI4FKQSIeytM",
         "https://live.talkoraai.com/match/seg?t=6TBRw3-nfargNw6ZxV-rpTM-c3prvFvgBkXELpTf9Dj8lmgCwZQbn5tV_ZWzHpy1BoFNw0LcuZCi5M1Q6EBLSDWYR8maQjo7bgYNJJrVWLzVClwGDzWHUs_jCjLzH9lPtJ6dz63Ju9ztfstaFH30ncMUdATqPtv_WGFYC50-mBXhPNLX9zmVS9PqxDLoOBJlkM4KnbDgvuY1dGni9EuU5ow_KSYxDDREiKPqIx2qa9VfrifH2SVbtzsfK-jgm0zlBNXAMLgFW71bxWY5XHuoCwyGVK-nBK32DCIwkqckHOD_LBtL0rXj9cLw8tYiKg"
       ],
-      "last_updated": "2026-09-13T06:06:14.231096"
+      "last_updated": "2026-09-13T06:11:05.175187"
     },
     {
       "match_id": "936",
-      "title": "Namibia vs South Africa 3rd",
-      "teams": "Namibia vs South Africa 3rd",
-      "sport": "football",
-      "sport_display": "Football",
+      "title": "Namibia vs South Africa 3rd ODI",
+      "teams": "Namibia vs South Africa 3rd ODI",
+      "sport": "cricket",
+      "sport_display": "Cricket",
       "status": "upcoming",
       "status_display": "UPCOMING",
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/Namibia-vs-South-Africa-ODIs-old.jpg",
-      "league": "EFL Championship",
+      "league": "South Africa tour of Namibia, 2026",
       "viewers": "482",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
       "servers": null,
       "page_url": "/world-sports/player.html?id=936",
-      "match_url": "live/namibia-vs-south-africa-3rd-936",
+      "match_url": "live/namibia-vs-south-africa-3rd-odi-936",
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T06:06:15.494484"
+      "last_updated": "2026-09-13T06:11:06.517852"
     },
     {
       "match_id": "897",
@@ -75,7 +75,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T06:06:15.495299"
+      "last_updated": "2026-09-13T06:11:06.518578"
     },
     {
       "match_id": "864",
@@ -98,7 +98,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T06:06:15.495949"
+      "last_updated": "2026-09-13T06:11:06.519176"
     },
     {
       "match_id": "883",
@@ -121,7 +121,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T06:06:15.496586"
+      "last_updated": "2026-09-13T06:11:06.519749"
     },
     {
       "match_id": "928",
@@ -144,7 +144,30 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T06:06:15.497197"
+      "last_updated": "2026-09-13T06:11:06.520331"
+    },
+    {
+      "match_id": "937",
+      "title": "Amritsar Soormas vs Ludhiana Lions Final",
+      "teams": "Amritsar Soormas vs Ludhiana Lions Final",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249115_53065_AMS_LLN_fc-web_1788345783974.jpg",
+      "league": "Sher-E-Punjab T20 League",
+      "viewers": "169",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=937",
+      "match_url": "live/amritsar-soormas-vs-ludhiana-lions-final-937",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-13T06:11:06.520914"
     },
     {
       "match_id": "904",
@@ -167,7 +190,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T06:06:15.497827"
+      "last_updated": "2026-09-13T06:11:06.521489"
     },
     {
       "match_id": "884",
@@ -190,7 +213,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T06:06:15.498429"
+      "last_updated": "2026-09-13T06:11:06.522065"
     },
     {
       "match_id": "929",
@@ -213,7 +236,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T06:06:15.499110"
+      "last_updated": "2026-09-13T06:11:06.522619"
     },
     {
       "match_id": "931",
@@ -236,7 +259,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T06:06:15.499737"
+      "last_updated": "2026-09-13T06:11:06.523188"
     },
     {
       "match_id": "932",
@@ -259,7 +282,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T06:06:15.500340"
+      "last_updated": "2026-09-13T06:11:06.523736"
     },
     {
       "match_id": "894",
@@ -282,7 +305,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T06:06:15.500983"
+      "last_updated": "2026-09-13T06:11:06.524291"
     },
     {
       "match_id": "891",
@@ -305,7 +328,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T06:06:15.501594"
+      "last_updated": "2026-09-13T06:11:06.524852"
     },
     {
       "match_id": "905",
@@ -328,7 +351,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T06:06:15.502210"
+      "last_updated": "2026-09-13T06:11:06.525394"
     },
     {
       "match_id": "876",
@@ -351,7 +374,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T06:06:15.502865"
+      "last_updated": "2026-09-13T06:11:06.525955"
     },
     {
       "match_id": "878",
@@ -374,7 +397,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T06:06:15.503460"
+      "last_updated": "2026-09-13T06:11:06.526499"
     },
     {
       "match_id": "862",
@@ -397,7 +420,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T06:06:15.504084"
+      "last_updated": "2026-09-13T06:11:06.527074"
     },
     {
       "match_id": "906",
@@ -420,7 +443,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T06:06:15.504699"
+      "last_updated": "2026-09-13T06:11:06.527620"
     },
     {
       "match_id": "892",
@@ -443,7 +466,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T06:06:15.505291"
+      "last_updated": "2026-09-13T06:11:06.528183"
     },
     {
       "match_id": "879",
@@ -466,7 +489,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T06:06:15.505904"
+      "last_updated": "2026-09-13T06:11:06.528741"
     }
   ]
 }
