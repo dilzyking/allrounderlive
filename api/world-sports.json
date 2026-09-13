@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-13T11:58:59.923794",
-  "total_matches": 24,
-  "live_count": 5,
+  "timestamp": "2026-09-13T12:03:59.901895",
+  "total_matches": 25,
+  "live_count": 6,
   "upcoming_count": 19,
   "completed_count": 0,
   "matches": [
@@ -16,19 +16,20 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/Namibia-vs-South-Africa-ODIs-old.jpg",
       "league": "South Africa tour of Namibia, 2026",
-      "viewers": "75",
+      "viewers": "77",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
       "servers": null,
       "page_url": "/world-sports/player.html?id=936",
       "match_url": "live/namibia-vs-south-africa-3rd-odi-936",
-      "stream_url": "https://cdn-gstyx.styxsports.live/STYX/streams/68oRKR23qeWZvCXu6248791548119.m3u8",
-      "server_count": 1,
+      "stream_url": "https://fancode.sm-monirul-islam-rs.workers.dev/4248634/index.m3u8",
+      "server_count": 2,
       "server_urls": [
+        "https://fancode.sm-monirul-islam-rs.workers.dev/4248634/index.m3u8",
         "https://cdn-gstyx.styxsports.live/STYX/streams/68oRKR23qeWZvCXu6248791548119.m3u8"
       ],
-      "last_updated": "2026-09-13T11:56:10.234994"
+      "last_updated": "2026-09-13T12:01:06.930839"
     },
     {
       "match_id": "941",
@@ -41,7 +42,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.3bc9323e-6a94-4c06-90ec-9cfe424b4209/1/HERO-16X9/en-US._UR1920,1080_SX1080_FMjpg_.jpeg",
       "league": "European T20 Premier League 2026",
-      "viewers": "7",
+      "viewers": "8",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -56,7 +57,32 @@
         "https://tvsen5.aynascope.net/cXPB2LKkErN9/tracks-v1a1/mono.ts.m3u8",
         "https://tvsen5.aynaott.com/willowhd/tracks-v1a1/mono.ts.m3u8"
       ],
-      "last_updated": "2026-09-13T11:56:11.214434"
+      "last_updated": "2026-09-13T12:01:07.792318"
+    },
+    {
+      "match_id": "944",
+      "title": "Manchester United Women vs Chelsea F.C. Women",
+      "teams": "Manchester United Women vs Chelsea F.C. Women",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248471_53038_MUN-W_CHE-W_fc-web.jpg",
+      "league": "Barclays Women's Super League 2026-27",
+      "viewers": "1",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=944",
+      "match_url": "live/manchester-united-women-vs-chelsea-f-c-women-944",
+      "stream_url": "https://fancode.sm-monirul-islam-rs.workers.dev/4248471/index.m3u8",
+      "server_count": 1,
+      "server_urls": [
+        "https://fancode.sm-monirul-islam-rs.workers.dev/4248471/index.m3u8"
+      ],
+      "last_updated": "2026-09-13T12:01:08.070941"
     },
     {
       "match_id": "864",
@@ -69,7 +95,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247492_52993_SHF_WOL_fc-web_1786657253831.jpg",
       "league": "EFL Championship 2026-27",
-      "viewers": "23",
+      "viewers": "24",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -83,7 +109,7 @@
         "https://live.dyrur1.com/live/72339828_b4e309c1e8658bab135d3b4e047cba33_1080p.m3u8?auth_key=1789311319-0-0-664e3ab0baa77682f1e7d7de034a5e21",
         "https://live.dyrur1.com/live/72339828_b4e309c1e8658bab135d3b4e047cba33_540p.m3u8?auth_key=1789311319-0-0-664e3ab0baa77682f1e7d7de034a5e21"
       ],
-      "last_updated": "2026-09-13T11:56:11.475648"
+      "last_updated": "2026-09-13T12:01:08.354627"
     },
     {
       "match_id": "883",
@@ -96,7 +122,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247609_53004_CEV_MAG_FC-Web.png",
       "league": "LaLiga 2026",
-      "viewers": "7",
+      "viewers": "10",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -107,10 +133,10 @@
       "server_count": 3,
       "server_urls": [
         "https://live.talkoraai.com/match/hls?t=iUHhSsOt1Ju5ZJRgemN0NWv1NGq1Y_ov0vWvQ4HjfgpULUEI9X4ReW4x_BYESwDIMw0b6FQjPrHF8VWBZRK131jHuOv9qMk5Gk9mffeu1E04gmQ62qvHFLQxq7CsxOSF-rr5_DUq6rn5FlURXZwk-0E2Ie8b1CojjqNLjJUdLaKAB_KEHHWB37yF2cA6bMvMVMmDOszRxC0IPIrP0gbFcCN3ZecYqZHDFUWRyuZMkU3RiZ4qSwedsDKaHNMvqXUFYsgEtw1QiBemxpSRtyoMP9GhIA",
-        "https://live.talkoraai.com/match/seg?t=zNYNOm6VbJsTybA5PFKToWLNY5mpIa-2i5pbEmbNw8J87oAEZAj1beJrl9pvaG20HKfQwpU_NRxgJAkBA8Pk10SqqE5-8s_tv9AWXXnO1Q-ywf7rOXIC4WXcRkhsi0sNCdQ_m4-xEwtO-42m5YtorCuIYPsJ4b09mRfx-9h15hn27sC1DPISQ7K4impl5cs3s8Z7XCEgs_B0Vpc2aN7MqE5R7hsenJyUDn9hormdqDDyp4-U-giYENsYlLQAus9nm7UEDoXY8vBHYH6K9ar25keAqKi9LS8xDZ1y",
-        "https://live.kaizokutv.me/prox/fan2-prox.php?url=https%3A%2F%2Flive.kaizokutv.me%2Ffancode%2Fplayer.php%3Fserve_master%3D4247609_ENG"
+        "https://fancode.sm-monirul-islam-rs.workers.dev/4247609/index.m3u8",
+        "https://live.talkoraai.com/match/seg?t=zNYNOm6VbJsTybA5PFKToWLNY5mpIa-2i5pbEmbNw8J87oAEZAj1beJrl9pvaG20HKfQwpU_NRxgJAkBA8Pk10SqqE5-8s_tv9AWXXnO1Q-ywf7rOXIC4WXcRkhsi0sNCdQ_m4-xEwtO-42m5YtorCuIYPsJ4b09mRfx-9h15hn27sC1DPISQ7K4impl5cs3s8Z7XCEgs_B0Vpc2aN7MqE5R7hsenJyUDn9hormdqDDyp4-U-giYENsYlLQAus9nm7UEDoXY8vBHYH6K9ar25keAqKi9LS8xDZ1y"
       ],
-      "last_updated": "2026-09-13T11:56:11.730798"
+      "last_updated": "2026-09-13T12:01:08.629049"
     },
     {
       "match_id": "940",
@@ -123,7 +149,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://e0.365dm.com/24/04/1600x900/skysports-celtic-rangers-old-firm_6511174.jpg?20240405115650",
       "league": "Scottish League Cup",
-      "viewers": "12",
+      "viewers": "13",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -136,7 +162,7 @@
         "https://live2.dyrur1.com/live/73778626_b56a00cefee2f4ac50276299788dccb1_1080p.m3u8?auth_key=1789311319-0-0-68a43f1b0fc6989a04c244c0bd96539b",
         "https://live2.dyrur1.com/live/73778626_b56a00cefee2f4ac50276299788dccb1_540p.m3u8?auth_key=1789311319-0-0-68a43f1b0fc6989a04c244c0bd96539b"
       ],
-      "last_updated": "2026-09-13T11:56:11.983557"
+      "last_updated": "2026-09-13T12:01:08.912122"
     },
     {
       "match_id": "928",
@@ -159,7 +185,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T11:56:12.237908"
+      "last_updated": "2026-09-13T12:01:09.185487"
     },
     {
       "match_id": "942",
@@ -182,7 +208,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T11:56:12.238648"
+      "last_updated": "2026-09-13T12:01:09.186008"
     },
     {
       "match_id": "937",
@@ -205,30 +231,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T11:56:12.239431"
-    },
-    {
-      "match_id": "944",
-      "title": "Manchester United Women vs Chelsea F.C. Women",
-      "teams": "Manchester United Women vs Chelsea F.C. Women",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248471_53038_MUN-W_CHE-W_fc-web.jpg",
-      "league": "EFL Championship",
-      "viewers": "428",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=944",
-      "match_url": "live/manchester-united-women-vs-chelsea-f-c-women-944",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-13T11:56:12.240101"
+      "last_updated": "2026-09-13T12:01:09.186454"
     },
     {
       "match_id": "943",
@@ -251,7 +254,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T11:56:12.240736"
+      "last_updated": "2026-09-13T12:01:09.186890"
     },
     {
       "match_id": "904",
@@ -274,7 +277,30 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T11:56:12.241388"
+      "last_updated": "2026-09-13T12:01:09.187338"
+    },
+    {
+      "match_id": "945",
+      "title": "Botswana vs Rwanda",
+      "teams": "Botswana vs Rwanda",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249164_53067_BOT_RWA_FC-Web.png",
+      "league": "EFL Championship",
+      "viewers": "465",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=945",
+      "match_url": "live/botswana-vs-rwanda-945",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-13T12:01:09.187773"
     },
     {
       "match_id": "884",
@@ -297,7 +323,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T11:56:12.242018"
+      "last_updated": "2026-09-13T12:01:09.188216"
     },
     {
       "match_id": "929",
@@ -320,7 +346,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T11:56:12.242661"
+      "last_updated": "2026-09-13T12:01:09.188644"
     },
     {
       "match_id": "931",
@@ -343,7 +369,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T11:56:12.243309"
+      "last_updated": "2026-09-13T12:01:09.189089"
     },
     {
       "match_id": "932",
@@ -366,7 +392,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T11:56:12.243942"
+      "last_updated": "2026-09-13T12:01:09.189521"
     },
     {
       "match_id": "894",
@@ -389,7 +415,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T11:56:12.244593"
+      "last_updated": "2026-09-13T12:01:09.189966"
     },
     {
       "match_id": "891",
@@ -412,7 +438,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T11:56:12.245236"
+      "last_updated": "2026-09-13T12:01:09.190409"
     },
     {
       "match_id": "905",
@@ -435,7 +461,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T11:56:12.245865"
+      "last_updated": "2026-09-13T12:01:09.190837"
     },
     {
       "match_id": "876",
@@ -458,7 +484,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T11:56:12.246510"
+      "last_updated": "2026-09-13T12:01:09.191290"
     },
     {
       "match_id": "878",
@@ -481,7 +507,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T11:56:12.247156"
+      "last_updated": "2026-09-13T12:01:09.191721"
     },
     {
       "match_id": "862",
@@ -504,7 +530,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T11:56:12.247791"
+      "last_updated": "2026-09-13T12:01:09.192191"
     },
     {
       "match_id": "906",
@@ -527,7 +553,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T11:56:12.248471"
+      "last_updated": "2026-09-13T12:01:09.192643"
     },
     {
       "match_id": "892",
@@ -550,7 +576,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T11:56:12.249121"
+      "last_updated": "2026-09-13T12:01:09.193084"
     },
     {
       "match_id": "879",
@@ -573,7 +599,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T11:56:12.249750"
+      "last_updated": "2026-09-13T12:01:09.193516"
     }
   ]
 }
