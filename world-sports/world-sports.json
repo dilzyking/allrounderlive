@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-13T18:14:04.197930",
-  "total_matches": 12,
-  "live_count": 2,
+  "timestamp": "2026-09-13T18:19:06.940734",
+  "total_matches": 13,
+  "live_count": 3,
   "upcoming_count": 10,
   "completed_count": 0,
   "matches": [
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://storage.googleapis.com/cricinnings-uploads/uploads/img-1789198096742-729028bbef5aaaafdd16b53f2e1ce6e8.jpg",
       "league": "Women's Asia Cup 2026-T20",
-      "viewers": "261",
+      "viewers": "263",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -30,7 +30,7 @@
         "https://stream.ottplus.live/live/ten_1_hd_abr/live/ten_1_hd_720/chunks.m3u8",
         "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=ten_cricket&e=.m3u8"
       ],
-      "last_updated": "2026-09-13T18:11:30.267394"
+      "last_updated": "2026-09-13T18:16:27.614102"
     },
     {
       "match_id": "931",
@@ -43,7 +43,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247613_53004_GEF_COR_FC-Web.png",
       "league": "LaLiga",
-      "viewers": "31",
+      "viewers": "33",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -56,7 +56,33 @@
         "https://live.talkoraai.com/match/hls?t=niBKuIDiayVXA6Eocp8giahNst2nVtBAJZN82Qu-fNw4JYpdAf9dIC6XWrhUNdKWktb_IUfSgC8kEoHyjDBjFoUXyRjS6r_4sDjo8Mf6nEmwhVxHKd70ZZTjoX2AJQxYibAc6pazCWGtYgFQlRHfWUPWjZ1wESs8nA2caihchp1k8Cb8eTWEfbqDDxK4vxtXrMXzMh2MqCgUH8gl9d4z5dsWEcJ3LkzDnh7fr8acfhNaBqr1fZNzMKlRV3z9myV8w6tsMWizxoXWmXwhUw5JClqzmg",
         "https://live.talkoraai.com/match/seg?t=ZYlKZH8WNjnp6zRw3uQYBC7bKxrcuniYKQzTC3P6a0-EautfhE6g_s47S9oE31lXVyRhbe30Bw5LFOfMoANERf1c4-YaNqEdvFZlcgxSl_1kMXAQ3BEE2HPoGH1yx4vC38seuJFKleZRWVj56l7FAjufX6JnfA_X4VLrjA297ye90-I4LAojjPDSYkt9iefnbteMhHRNyI8YnVESAwYPLQUM4vpL_oXgevfq50nC-zGtHWT8V6cxQahLtDwwQZBf2qO9JHJDFHUxEHR4k-VhG1Xm5JtNB8FXEDnU"
       ],
-      "last_updated": "2026-09-13T18:11:31.297701"
+      "last_updated": "2026-09-13T18:16:27.940046"
+    },
+    {
+      "match_id": "951",
+      "title": "Amazon Warriors Women vs Barbados Tridents Women",
+      "teams": "Amazon Warriors Women vs Barbados Tridents Women",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249093_53061_GUY-W_BT-W_FC-Web_1788430024925.png",
+      "league": "Women CPL-T20",
+      "viewers": "2",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=951",
+      "match_url": "live/amazon-warriors-women-vs-barbados-tridents-women-951",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=Jw5LqFzu86ARP-p5Pe45AqQU_H0L2i52IfuBFMjZCii6bbhQT_t9KqTRo_aSeYXw2O52g4zDVsKFaJ7wdhSRX3q-OpZAX_MpSbutOTGEh_lnw8jzPpC-p4f35pbINmOEZAMhJcaQ0BkUML_fO6-bwbxCyPeqOxCwb_MFULy4x42j5bBdeaxrfLF4CS_quqssWSC3P9RFfVsLnCGF_5vPsyBVPpOdIpNSzpBUddS3LeZUCA0Vd1JJdGf5HxrgfzLsQBQ-O_xJioJvyIhxL2-NpLcF4MDChA",
+      "server_count": 2,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=Jw5LqFzu86ARP-p5Pe45AqQU_H0L2i52IfuBFMjZCii6bbhQT_t9KqTRo_aSeYXw2O52g4zDVsKFaJ7wdhSRX3q-OpZAX_MpSbutOTGEh_lnw8jzPpC-p4f35pbINmOEZAMhJcaQ0BkUML_fO6-bwbxCyPeqOxCwb_MFULy4x42j5bBdeaxrfLF4CS_quqssWSC3P9RFfVsLnCGF_5vPsyBVPpOdIpNSzpBUddS3LeZUCA0Vd1JJdGf5HxrgfzLsQBQ-O_xJioJvyIhxL2-NpLcF4MDChA",
+        "https://live.talkoraai.com/match/seg?t=SCN2A-50rwS7A4Ol8DRA44kx0OnYjIWUN4dOvP6VSZQASQWPfC5gngTB__eHmyNk7PgbHYE5w76GI8cyfLHfYLLw943jDrIWaxO04OfpnKh8jsPyp82ZNAq9DjS-t-7LjiNrWS8RdB9Ud8pZzR9Neqvi_3N7vBcYHH-W_Lr9DgphvQT0Pb_rJIdfkOnI14CiRhDfe5no7AjuVH_4GJUmt33qrtT1SJOXcSHkB4TprDFtK88a9eAd5Hfn0RhOw2DH8dwzQbzTvLwa_XgK6tXE1nJjgLFPBFFE5E4Hqxx-"
+      ],
+      "last_updated": "2026-09-13T18:16:28.202335"
     },
     {
       "match_id": "932",
@@ -79,7 +105,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T18:11:31.561362"
+      "last_updated": "2026-09-13T18:16:28.462476"
     },
     {
       "match_id": "894",
@@ -102,7 +128,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T18:11:31.562122"
+      "last_updated": "2026-09-13T18:16:28.463000"
     },
     {
       "match_id": "891",
@@ -125,7 +151,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T18:11:31.563272"
+      "last_updated": "2026-09-13T18:16:28.463466"
     },
     {
       "match_id": "905",
@@ -148,7 +174,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T18:11:31.563955"
+      "last_updated": "2026-09-13T18:16:28.463908"
     },
     {
       "match_id": "876",
@@ -171,7 +197,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T18:11:31.564606"
+      "last_updated": "2026-09-13T18:16:28.464372"
     },
     {
       "match_id": "878",
@@ -184,7 +210,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249056_53016_RED_BRE_fc-web.jpg",
       "league": "EFL Championship",
-      "viewers": "3",
+      "viewers": "4",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -194,7 +220,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T18:11:31.565221"
+      "last_updated": "2026-09-13T18:16:28.464826"
     },
     {
       "match_id": "862",
@@ -217,7 +243,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T18:11:31.565857"
+      "last_updated": "2026-09-13T18:16:28.465271"
     },
     {
       "match_id": "906",
@@ -240,7 +266,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T18:11:31.566502"
+      "last_updated": "2026-09-13T18:16:28.465722"
     },
     {
       "match_id": "892",
@@ -263,7 +289,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T18:11:31.567124"
+      "last_updated": "2026-09-13T18:16:28.466163"
     },
     {
       "match_id": "879",
@@ -286,7 +312,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-13T18:11:31.567759"
+      "last_updated": "2026-09-13T18:16:28.466614"
     }
   ]
 }
