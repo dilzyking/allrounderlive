@@ -1,64 +1,10 @@
 {
-  "timestamp": "2026-09-14T21:46:51.287861",
-  "total_matches": 45,
-  "live_count": 2,
+  "timestamp": "2026-09-14T21:58:03.716761",
+  "total_matches": 43,
+  "live_count": 0,
   "upcoming_count": 43,
   "completed_count": 0,
   "matches": [
-    {
-      "match_id": "1018",
-      "title": "Leeds United vs Newcastle United",
-      "teams": "Leeds United vs Newcastle United",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://media-cdn-v2.laodong.vn/storage/newsportal/2026/9/14/1766509/Rsz_936Bdfdf-9688-49.jpg",
-      "league": "Premier League",
-      "viewers": "34",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1018",
-      "match_url": "live/leeds-united-vs-newcastle-united-1018",
-      "stream_url": "https://hamyra-api.mdibrahimkhalil516.workers.dev/bongo/live?id=YT6dlmfEZup",
-      "server_count": 4,
-      "server_urls": [
-        "https://hamyra-api.mdibrahimkhalil516.workers.dev/bongo/live?id=YT6dlmfEZup",
-        "https://live.talkoraai.com/match/seg?t=4wWCclMNUaAfaTP9eUoSE6k7ALdfqTA7eOsaNgc2N2xJPCQm3ut6z1CPN6EAhMqAtCilxJXwr0FAXux2lAJwH4YIUh-uXoSbXE5BLvBnx4zGxWnmHJM3-uhpa-Ejt9VrguMi-w5ntyAekpgRLdd4Mdo7svLRBX-8--z94Tdg9RuV8R-1RlakZIE-irfDz1hFB2IooKv4-6r2OAGi_LwZjFoVMHAur1DPnVA2co5I_8o75QGJixf99UEnoDjNDblhYldVSbKEQbX2ZwXqN-XzCMzdIChn0xVESmNtafGZNN8ECNy9ZcIuIVG_fk-nzAJ_B3msxF4THe0Bbfqpszz86Dz1RYXRjAXJUs90Sv5OO3PJEtva58jD3m3_HpAox9tTUFwxLp2tA0YcVcxnniqoqEatwA",
-        "https://www.rtmpcdn.com/live/23408853-f32d-4f49-beec-202005a9d272.m3u8",
-        "https://play.aarray.cn/rrty/hd-zh-1-4558543_gqzm.m3u8?auth_key=1789417083-0-0-f4b99e99adec629c9420f43d01d24b7d&token=339ec7acd504d58b&device=4&platform=rrty"
-      ],
-      "last_updated": "2026-09-14T21:38:18.055577"
-    },
-    {
-      "match_id": "891",
-      "title": "Villarreal CF vs Real Betis",
-      "teams": "Villarreal CF vs Real Betis",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247615_53004_VIL_RB_FC-Web.png",
-      "league": "LaLiga 2026",
-      "viewers": "34",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=891",
-      "match_url": "live/villarreal-cf-vs-real-betis-891",
-      "stream_url": "https://live.talkoraai.com/match/hls?t=MBKf5hXKwx1SF4ckdRa365U6CEfTtweMvmc2ZlD0g0Q4-f2nZ44t_iPePTnssu28Bx7Dyk-kdtzjlVSrsgMtI-VN9Nz5tDu8WRPiGdeZMZcoMMRh5ND9l2uxFlh7jMjpdAxyie-vNrzcvIZZvnY_F0dQYN3O8SLVUMgaT_jXJnvCtmp8H3Ir9UGi_OP1AloZivVTfsJOjZvfswAmkpmAUHl9j7w6ByrcBqxrd1oLKDvPLr6UgSXKlajD4PELiKImmCgB90kNFbTy-RH5g59fTVzzl9VpOA",
-      "server_count": 2,
-      "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=MBKf5hXKwx1SF4ckdRa365U6CEfTtweMvmc2ZlD0g0Q4-f2nZ44t_iPePTnssu28Bx7Dyk-kdtzjlVSrsgMtI-VN9Nz5tDu8WRPiGdeZMZcoMMRh5ND9l2uxFlh7jMjpdAxyie-vNrzcvIZZvnY_F0dQYN3O8SLVUMgaT_jXJnvCtmp8H3Ir9UGi_OP1AloZivVTfsJOjZvfswAmkpmAUHl9j7w6ByrcBqxrd1oLKDvPLr6UgSXKlajD4PELiKImmCgB90kNFbTy-RH5g59fTVzzl9VpOA",
-        "https://live.talkoraai.com/match/seg?t=bsr7D9e_8bivWh8CU7dIDQDyIAwgde7wVi4ONGRVZQ63AnCH7OL-4_4YPYUFQJaaphaxK_53qiz2hkB0uI6PfRjfbypeA6Ia7Ivzfy5cpTSyXA358ZQNKcGvHN_--DThALn7e-VnmRZAhDOBpPFB9Og-BB-Jt3T2tlnu04bU0HMAv1yTAetDcjqxjb77Rj5h1T-or4FLWZH0EEs0DfQPRxBGf2az246VoNcch5COsG_MYVYrYq5YAAmdaoiPZ06TINPDho9SUeCcVwo9QKq481o6ZVpN9qu7_W7IvGVy"
-      ],
-      "last_updated": "2026-09-14T21:38:18.830709"
-    },
     {
       "match_id": "1014",
       "title": "Sierra Leone vs Uganda",
@@ -80,7 +26,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.111384"
+      "last_updated": "2026-09-14T21:52:54.928635"
     },
     {
       "match_id": "954",
@@ -103,7 +49,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.111769"
+      "last_updated": "2026-09-14T21:52:54.929466"
     },
     {
       "match_id": "991",
@@ -126,7 +72,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.112103"
+      "last_updated": "2026-09-14T21:52:54.930111"
     },
     {
       "match_id": "977",
@@ -149,7 +95,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.112426"
+      "last_updated": "2026-09-14T21:52:54.930732"
     },
     {
       "match_id": "962",
@@ -172,7 +118,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.112751"
+      "last_updated": "2026-09-14T21:52:54.931367"
     },
     {
       "match_id": "905",
@@ -195,7 +141,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.113071"
+      "last_updated": "2026-09-14T21:52:54.931998"
     },
     {
       "match_id": "979",
@@ -218,7 +164,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.113381"
+      "last_updated": "2026-09-14T21:52:54.932609"
     },
     {
       "match_id": "963",
@@ -241,7 +187,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.113697"
+      "last_updated": "2026-09-14T21:52:54.933237"
     },
     {
       "match_id": "1015",
@@ -264,7 +210,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.114009"
+      "last_updated": "2026-09-14T21:52:54.933860"
     },
     {
       "match_id": "980",
@@ -287,7 +233,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.114312"
+      "last_updated": "2026-09-14T21:52:54.934473"
     },
     {
       "match_id": "876",
@@ -310,7 +256,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.114629"
+      "last_updated": "2026-09-14T21:52:54.935100"
     },
     {
       "match_id": "1011",
@@ -333,7 +279,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.114944"
+      "last_updated": "2026-09-14T21:52:54.935701"
     },
     {
       "match_id": "878",
@@ -356,7 +302,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.115267"
+      "last_updated": "2026-09-14T21:52:54.936333"
     },
     {
       "match_id": "862",
@@ -379,7 +325,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.115587"
+      "last_updated": "2026-09-14T21:52:54.936965"
     },
     {
       "match_id": "981",
@@ -402,7 +348,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.115903"
+      "last_updated": "2026-09-14T21:52:54.937573"
     },
     {
       "match_id": "968",
@@ -425,7 +371,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.116221"
+      "last_updated": "2026-09-14T21:52:54.938203"
     },
     {
       "match_id": "983",
@@ -448,7 +394,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.116550"
+      "last_updated": "2026-09-14T21:52:54.938826"
     },
     {
       "match_id": "982",
@@ -471,7 +417,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.116889"
+      "last_updated": "2026-09-14T21:52:54.939440"
     },
     {
       "match_id": "969",
@@ -494,7 +440,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.117201"
+      "last_updated": "2026-09-14T21:52:54.940073"
     },
     {
       "match_id": "985",
@@ -517,7 +463,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.117516"
+      "last_updated": "2026-09-14T21:52:54.940671"
     },
     {
       "match_id": "984",
@@ -540,7 +486,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.117836"
+      "last_updated": "2026-09-14T21:52:54.941300"
     },
     {
       "match_id": "970",
@@ -563,7 +509,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.118142"
+      "last_updated": "2026-09-14T21:52:54.941934"
     },
     {
       "match_id": "906",
@@ -586,7 +532,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.118451"
+      "last_updated": "2026-09-14T21:52:54.942557"
     },
     {
       "match_id": "986",
@@ -609,7 +555,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.118768"
+      "last_updated": "2026-09-14T21:52:54.943183"
     },
     {
       "match_id": "971",
@@ -632,7 +578,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.119072"
+      "last_updated": "2026-09-14T21:52:54.943815"
     },
     {
       "match_id": "892",
@@ -655,7 +601,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.119378"
+      "last_updated": "2026-09-14T21:52:54.944427"
     },
     {
       "match_id": "987",
@@ -678,7 +624,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.119692"
+      "last_updated": "2026-09-14T21:52:54.945051"
     },
     {
       "match_id": "955",
@@ -701,7 +647,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.120005"
+      "last_updated": "2026-09-14T21:52:54.945654"
     },
     {
       "match_id": "992",
@@ -724,7 +670,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.120317"
+      "last_updated": "2026-09-14T21:52:54.946281"
     },
     {
       "match_id": "879",
@@ -747,7 +693,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.120641"
+      "last_updated": "2026-09-14T21:52:54.946911"
     },
     {
       "match_id": "988",
@@ -770,7 +716,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.120953"
+      "last_updated": "2026-09-14T21:52:54.947517"
     },
     {
       "match_id": "993",
@@ -793,7 +739,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.121268"
+      "last_updated": "2026-09-14T21:52:54.948145"
     },
     {
       "match_id": "989",
@@ -816,7 +762,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.121581"
+      "last_updated": "2026-09-14T21:52:54.948757"
     },
     {
       "match_id": "994",
@@ -839,7 +785,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.121910"
+      "last_updated": "2026-09-14T21:52:54.949389"
     },
     {
       "match_id": "995",
@@ -862,7 +808,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.122216"
+      "last_updated": "2026-09-14T21:52:54.950025"
     },
     {
       "match_id": "996",
@@ -885,7 +831,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.122525"
+      "last_updated": "2026-09-14T21:52:54.950637"
     },
     {
       "match_id": "956",
@@ -908,7 +854,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.122849"
+      "last_updated": "2026-09-14T21:52:54.951284"
     },
     {
       "match_id": "990",
@@ -931,7 +877,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.123165"
+      "last_updated": "2026-09-14T21:52:54.951914"
     },
     {
       "match_id": "1002",
@@ -954,7 +900,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.123473"
+      "last_updated": "2026-09-14T21:52:54.952522"
     },
     {
       "match_id": "1003",
@@ -977,7 +923,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.123796"
+      "last_updated": "2026-09-14T21:52:54.953134"
     },
     {
       "match_id": "1000",
@@ -1000,7 +946,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.124109"
+      "last_updated": "2026-09-14T21:52:54.953731"
     },
     {
       "match_id": "1001",
@@ -1023,7 +969,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.124407"
+      "last_updated": "2026-09-14T21:52:54.954351"
     },
     {
       "match_id": "1008",
@@ -1046,7 +992,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-14T21:38:19.124722"
+      "last_updated": "2026-09-14T21:52:54.954979"
     }
   ]
 }
