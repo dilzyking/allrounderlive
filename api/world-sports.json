@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-15T19:01:47.560998",
+  "timestamp": "2026-09-15T19:21:30.288917",
   "total_matches": 39,
   "live_count": 9,
   "upcoming_count": 30,
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789378653540x302.jpg",
       "league": "Sri Lanka tour of England, 2026",
-      "viewers": "128",
+      "viewers": "140",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -32,7 +32,7 @@
         "https://stream.ottplus.live/live/ten_1_hd_abr/live/ten_1_hd_720/chunks.m3u8",
         "https://live.talkoraai.com/match/seg?t=dQAfnCAT0t-Hi-29kBZqzzaKP9B91LhgwbLJE5yx1SqsFJQOOBEQHB1AVYIz1u1qL0ncl-oonN6EVnarGq7jugSfyZZIVPm40qXU-O72sGEurHGZKLyQZx5OZT355HBCf83LlxE_bQeqT1sDcBVpiqX2tgWuMyouAW_UmxSbxdKg5Y7DbGzwt4VsG_RSh2PzcoE4-Tr1TPTcVfu85s2Qxxb6T91G23X-ifO-gggZiHzsxZEbR_2lILotiJqgI7ON8Q3-jbmfo65t2d0AsOMhO3jsTktao_ssN4uvoPnc"
       ],
-      "last_updated": "2026-09-15T18:59:43.836356"
+      "last_updated": "2026-09-15T19:17:19.061830"
     },
     {
       "match_id": "1027",
@@ -45,7 +45,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/Al-Hilal-vs-Al-Gharafa-Old-card.jpg",
       "league": "AFC Champions League Elite 2026-27",
-      "viewers": "15",
+      "viewers": "16",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -60,7 +60,7 @@
         "https://pull.niues.live/live/stream-9912142_lhd.m3u8?auth_key=1789493222-0-0-04e8c51a123e5de78526537d0ed693fd",
         "https://bpl24middleeast.akamaized.net/hls/live/2109311/tapmad-PAKvsWI-BKd2-TesT/master.m3u8"
       ],
-      "last_updated": "2026-09-15T18:59:44.160177"
+      "last_updated": "2026-09-15T19:17:19.839873"
     },
     {
       "match_id": "876",
@@ -73,7 +73,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249055_53016_WHU_FUL_fc-web.jpg",
       "league": "Carabao Cup 2026-27",
-      "viewers": "11",
+      "viewers": "13",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -86,7 +86,59 @@
         "https://www.rtmpcdn.com/live/0ee5c885-966f-4124-872b-24a525117cfb.m3u8",
         "https://play.aarray.cn/rrty/sd-1-4628326_gqzm.m3u8?auth_key=1789501687-0-0-0c8c3cde04bb0daf6393bd0ddede4a51&token=7bb5ca89b27d4001&device=4&platform=rrty"
       ],
-      "last_updated": "2026-09-15T18:59:44.416563"
+      "last_updated": "2026-09-15T19:17:20.117343"
+    },
+    {
+      "match_id": "1011",
+      "title": "Liverpool vs Tottenham Hotspur",
+      "teams": "Liverpool vs Tottenham Hotspur",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249061_53016_LIV_TOT_fc-web.jpg",
+      "league": "Carabao Cup 2026-27",
+      "viewers": "17",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1011",
+      "match_url": "live/liverpool-vs-tottenham-hotspur-1011",
+      "stream_url": "https://www.rtmpcdn.com/live/5c7e673b-861d-4de7-ad44-66dc2224df71.m3u8",
+      "server_count": 2,
+      "server_urls": [
+        "https://www.rtmpcdn.com/live/5c7e673b-861d-4de7-ad44-66dc2224df71.m3u8",
+        "https://play.aarray.cn/rrty/sd-1-4628321_gqzm.m3u8?auth_key=1789502466-0-0-d03ff03d1988ba9fe36c63756f2a9361&token=ed358b79fd601de2&device=4&platform=rrty"
+      ],
+      "last_updated": "2026-09-15T19:17:20.400024"
+    },
+    {
+      "match_id": "862",
+      "title": "Ipswich Town F.C. vs Arsenal",
+      "teams": "Ipswich Town F.C. vs Arsenal",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249057_53016_IPT_ARS_fc-web.jpg",
+      "league": "189 Carabao Cup 2026-27",
+      "viewers": "19",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=862",
+      "match_url": "live/ipswich-town-f-c-vs-arsenal-862",
+      "stream_url": "https://www.rtmpcdn.com/live/09ba34ff-49b6-4a12-bbd4-c358d81a7d86.m3u8",
+      "server_count": 2,
+      "server_urls": [
+        "https://www.rtmpcdn.com/live/09ba34ff-49b6-4a12-bbd4-c358d81a7d86.m3u8",
+        "https://play.aarray.cn/rrty/sd-1-4628314_gqzm.m3u8?auth_key=1789502411-0-0-4d28502cee3760eb07ec197d72159b83&token=74affbc0de11bea3&device=4&platform=rrty"
+      ],
+      "last_updated": "2026-09-15T19:17:20.677027"
     },
     {
       "match_id": "979",
@@ -99,7 +151,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247625_53004_RVL_ESL_FC-Web.png",
       "league": "LALIGA 2026-27",
-      "viewers": "27",
+      "viewers": "28",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -114,7 +166,7 @@
         "https://www.rtmpcdn.com/live/10c93123-fb54-42d0-8250-c300ea02c77e.m3u8",
         "https://play.aarray.cn/rrty/hd-zh-1-4565418_gqzm.m3u8?auth_key=1789496043-0-0-dbd8a4f657eb20b7ebc9987969c0477e&token=1c022a32d2279545&device=4&platform=rrty"
       ],
-      "last_updated": "2026-09-15T18:59:44.671453"
+      "last_updated": "2026-09-15T19:17:20.949686"
     },
     {
       "match_id": "980",
@@ -127,7 +179,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247619_53004_ALA_VAL_FC-Web.png",
       "league": "LALIGA 2026-27",
-      "viewers": "18",
+      "viewers": "19",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -142,7 +194,7 @@
         "https://www.rtmpcdn.com/live/68022eb2-958a-441c-9e6c-f6b4d578282f.m3u8",
         "https://play.aarray.cn/rrty/hd-zh-1-4565405_gqzm.m3u8?auth_key=1789498444-0-0-198f6cad3a3c2d1bcda48f56b217e954&token=12fc5ad1141d731b&device=4&platform=rrty"
       ],
-      "last_updated": "2026-09-15T18:59:44.927303"
+      "last_updated": "2026-09-15T19:17:21.240474"
     },
     {
       "match_id": "1031",
@@ -155,7 +207,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://ichef.bbci.co.uk/images/ic/1200x675/p0mll3g2.jpg",
       "league": "EFL Cup",
-      "viewers": "1",
+      "viewers": "2",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -168,32 +220,7 @@
         "https://www.rtmpcdn.com/live/158dc6a1-67ad-44cd-a5cf-5c7bd1c72ec1.m3u8",
         "https://play.aarray.cn/rrty/sd-1-4628320_gqzm.m3u8?auth_key=1789502230-0-0-3dc94b04b28ded9d328231e6c3f9e949&token=a209485044ec76fe&device=4&platform=rrty"
       ],
-      "last_updated": "2026-09-15T18:59:45.186227"
-    },
-    {
-      "match_id": "1011",
-      "title": "Liverpool vs Tottenham Hotspur",
-      "teams": "Liverpool vs Tottenham Hotspur",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249061_53016_LIV_TOT_fc-web.jpg",
-      "league": "Carabao Cup 2026-27",
-      "viewers": "12",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1011",
-      "match_url": "live/liverpool-vs-tottenham-hotspur-1011",
-      "stream_url": "https://www.rtmpcdn.com/live/5c7e673b-861d-4de7-ad44-66dc2224df71.m3u8",
-      "server_count": 1,
-      "server_urls": [
-        "https://www.rtmpcdn.com/live/5c7e673b-861d-4de7-ad44-66dc2224df71.m3u8"
-      ],
-      "last_updated": "2026-09-15T18:59:45.442015"
+      "last_updated": "2026-09-15T19:17:21.512410"
     },
     {
       "match_id": "878",
@@ -206,7 +233,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249056_53016_RED_BRE_fc-web.jpg",
       "league": "EFL Championship",
-      "viewers": "12",
+      "viewers": "13",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -214,36 +241,12 @@
       "page_url": "/world-sports/player.html?id=878",
       "match_url": "live/reading-vs-brentford-878",
       "stream_url": "https://www.rtmpcdn.com/live/8ee7580e-395d-4fa9-98ad-c22eb9630a1a.m3u8",
-      "server_count": 1,
+      "server_count": 2,
       "server_urls": [
-        "https://www.rtmpcdn.com/live/8ee7580e-395d-4fa9-98ad-c22eb9630a1a.m3u8"
+        "https://www.rtmpcdn.com/live/8ee7580e-395d-4fa9-98ad-c22eb9630a1a.m3u8",
+        "https://play.aarray.cn/rrty/sd-1-4628317_gqzm.m3u8?auth_key=1789502346-0-0-51564d4057314d649c7f1c9009ea9446&token=1a640e25ea6df3e7&device=4&platform=rrty"
       ],
-      "last_updated": "2026-09-15T18:59:45.697419"
-    },
-    {
-      "match_id": "862",
-      "title": "Ipswich Town F.C. vs Arsenal",
-      "teams": "Ipswich Town F.C. vs Arsenal",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249057_53016_IPT_ARS_fc-web.jpg",
-      "league": "189 Carabao Cup 2026-27",
-      "viewers": "13",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=862",
-      "match_url": "live/ipswich-town-f-c-vs-arsenal-862",
-      "stream_url": "https://www.rtmpcdn.com/live/09ba34ff-49b6-4a12-bbd4-c358d81a7d86.m3u8",
-      "server_count": 1,
-      "server_urls": [
-        "https://www.rtmpcdn.com/live/09ba34ff-49b6-4a12-bbd4-c358d81a7d86.m3u8"
-      ],
-      "last_updated": "2026-09-15T18:59:45.952855"
+      "last_updated": "2026-09-15T19:17:21.783448"
     },
     {
       "match_id": "981",
@@ -256,7 +259,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247622_53004_ELC_RM_FC-Web.png",
       "league": "LALIGA 2026-27",
-      "viewers": "5",
+      "viewers": "6",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -266,7 +269,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T18:59:46.210924"
+      "last_updated": "2026-09-15T19:17:22.060163"
     },
     {
       "match_id": "1028",
@@ -289,7 +292,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T18:59:46.211643"
+      "last_updated": "2026-09-15T19:17:22.070736"
     },
     {
       "match_id": "968",
@@ -302,7 +305,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/aig/match/v1789294242699/4249245_CASACARDS_APP.png",
       "league": "DP World ILT20 Development Tournament 2026",
-      "viewers": "6",
+      "viewers": "7",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -312,7 +315,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T18:59:46.212300"
+      "last_updated": "2026-09-15T19:17:22.071459"
     },
     {
       "match_id": "983",
@@ -335,7 +338,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T18:59:46.212932"
+      "last_updated": "2026-09-15T19:17:22.072074"
     },
     {
       "match_id": "982",
@@ -358,7 +361,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T18:59:46.213579"
+      "last_updated": "2026-09-15T19:17:22.072705"
     },
     {
       "match_id": "969",
@@ -381,7 +384,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T18:59:46.214212"
+      "last_updated": "2026-09-15T19:17:22.073329"
     },
     {
       "match_id": "985",
@@ -404,7 +407,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T18:59:46.214839"
+      "last_updated": "2026-09-15T19:17:22.073933"
     },
     {
       "match_id": "984",
@@ -427,7 +430,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T18:59:46.215474"
+      "last_updated": "2026-09-15T19:17:22.074556"
     },
     {
       "match_id": "970",
@@ -450,7 +453,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T18:59:46.216117"
+      "last_updated": "2026-09-15T19:17:22.075164"
     },
     {
       "match_id": "906",
@@ -473,7 +476,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T18:59:46.216743"
+      "last_updated": "2026-09-15T19:17:22.075794"
     },
     {
       "match_id": "986",
@@ -486,7 +489,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247620_53004_RB_GEF_FC-Web.png",
       "league": "LALIGA 2026-27",
-      "viewers": "8",
+      "viewers": "9",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -496,7 +499,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T18:59:46.217381"
+      "last_updated": "2026-09-15T19:17:22.076422"
     },
     {
       "match_id": "971",
@@ -519,7 +522,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T18:59:46.217991"
+      "last_updated": "2026-09-15T19:17:22.077076"
     },
     {
       "match_id": "892",
@@ -542,7 +545,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T18:59:46.218624"
+      "last_updated": "2026-09-15T19:17:22.077722"
     },
     {
       "match_id": "987",
@@ -565,7 +568,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T18:59:46.219266"
+      "last_updated": "2026-09-15T19:17:22.078440"
     },
     {
       "match_id": "955",
@@ -588,7 +591,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T18:59:46.219887"
+      "last_updated": "2026-09-15T19:17:22.079051"
     },
     {
       "match_id": "992",
@@ -601,7 +604,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247634_53004_ESL_ELC_FC-Web.png",
       "league": "LALIGA 2026-27",
-      "viewers": "5",
+      "viewers": "6",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -611,7 +614,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T18:59:46.220519"
+      "last_updated": "2026-09-15T19:17:22.079693"
     },
     {
       "match_id": "879",
@@ -634,7 +637,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T18:59:46.221151"
+      "last_updated": "2026-09-15T19:17:22.080315"
     },
     {
       "match_id": "988",
@@ -657,7 +660,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T18:59:46.221764"
+      "last_updated": "2026-09-15T19:17:22.080917"
     },
     {
       "match_id": "993",
@@ -680,7 +683,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T18:59:46.222400"
+      "last_updated": "2026-09-15T19:17:22.081537"
     },
     {
       "match_id": "989",
@@ -703,7 +706,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T18:59:46.223009"
+      "last_updated": "2026-09-15T19:17:22.082140"
     },
     {
       "match_id": "994",
@@ -726,7 +729,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T18:59:46.223648"
+      "last_updated": "2026-09-15T19:17:22.082756"
     },
     {
       "match_id": "995",
@@ -739,7 +742,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247630_53004_CEV_RAC_FC-Web.png",
       "league": "LALIGA 2026-27",
-      "viewers": "6",
+      "viewers": "7",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -749,7 +752,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T18:59:46.224277"
+      "last_updated": "2026-09-15T19:17:22.083372"
     },
     {
       "match_id": "996",
@@ -772,7 +775,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T18:59:46.224887"
+      "last_updated": "2026-09-15T19:17:22.083978"
     },
     {
       "match_id": "956",
@@ -795,7 +798,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T18:59:46.225519"
+      "last_updated": "2026-09-15T19:17:22.084593"
     },
     {
       "match_id": "990",
@@ -818,7 +821,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T18:59:46.226144"
+      "last_updated": "2026-09-15T19:17:22.085192"
     },
     {
       "match_id": "1002",
@@ -841,7 +844,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T18:59:46.226774"
+      "last_updated": "2026-09-15T19:17:22.085804"
     },
     {
       "match_id": "1003",
@@ -864,7 +867,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T18:59:46.227408"
+      "last_updated": "2026-09-15T19:17:22.086418"
     },
     {
       "match_id": "1000",
@@ -887,7 +890,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T18:59:46.228022"
+      "last_updated": "2026-09-15T19:17:22.087014"
     },
     {
       "match_id": "1001",
@@ -910,7 +913,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T18:59:46.228659"
+      "last_updated": "2026-09-15T19:17:22.087640"
     },
     {
       "match_id": "1008",
@@ -933,7 +936,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T18:59:46.229293"
+      "last_updated": "2026-09-15T19:17:22.088253"
     }
   ]
 }
