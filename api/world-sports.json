@@ -1,65 +1,10 @@
 {
-  "timestamp": "2026-09-15T21:21:29.815710",
+  "timestamp": "2026-09-15T21:56:03.491213",
   "total_matches": 44,
-  "live_count": 7,
-  "upcoming_count": 37,
+  "live_count": 4,
+  "upcoming_count": 40,
   "completed_count": 0,
   "matches": [
-    {
-      "match_id": "1015",
-      "title": "England vs Sri Lanka-1st T20",
-      "teams": "England vs Sri Lanka-1st T20",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789378653540x302.jpg",
-      "league": "Sri Lanka tour of England, 2026",
-      "viewers": "161",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1015",
-      "match_url": "live/england-vs-sri-lanka-1st-t20-1015",
-      "stream_url": "https://live.talkoraai.com/match/hls?t=pHzeK3aqhohv3fDUpvC2QgMQ_k_2sraulQ2jSH-MA4KqLCXLpNgb70xE_QtLQVsPNtPgji9lFSsiDgx_3T6besZ5bL8CC6aBZRfXUovx8G4ZtuqaPjzZa_g6NUWlJnfyH1XQ7w-Ejtr9Wr2WaNCw1S2unqmAjY3oFUP7UheShC6-X0zMWREy2NmlA2j0QKg_vRJ2WAitxps_hUe88bPffAkIY7eTr7LrNhhkLKDPl8h89MYSd5tW151vWBxMwcP2Sf94a3DJ6WBLTrWVFFK_nJe5gwRQvA",
-      "server_count": 5,
-      "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=pHzeK3aqhohv3fDUpvC2QgMQ_k_2sraulQ2jSH-MA4KqLCXLpNgb70xE_QtLQVsPNtPgji9lFSsiDgx_3T6besZ5bL8CC6aBZRfXUovx8G4ZtuqaPjzZa_g6NUWlJnfyH1XQ7w-Ejtr9Wr2WaNCw1S2unqmAjY3oFUP7UheShC6-X0zMWREy2NmlA2j0QKg_vRJ2WAitxps_hUe88bPffAkIY7eTr7LrNhhkLKDPl8h89MYSd5tW151vWBxMwcP2Sf94a3DJ6WBLTrWVFFK_nJe5gwRQvA",
-        "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=ten_cricket&e=.m3u8",
-        "https://tvsen5.aynascope.net/willowhd/mono.m3u8",
-        "https://stream.ottplus.live/live/ten_1_hd_abr/live/ten_1_hd_720/chunks.m3u8",
-        "https://live.talkoraai.com/match/seg?t=dQAfnCAT0t-Hi-29kBZqzzaKP9B91LhgwbLJE5yx1SqsFJQOOBEQHB1AVYIz1u1qL0ncl-oonN6EVnarGq7jugSfyZZIVPm40qXU-O72sGEurHGZKLyQZx5OZT355HBCf83LlxE_bQeqT1sDcBVpiqX2tgWuMyouAW_UmxSbxdKg5Y7DbGzwt4VsG_RSh2PzcoE4-Tr1TPTcVfu85s2Qxxb6T91G23X-ifO-gggZiHzsxZEbR_2lILotiJqgI7ON8Q3-jbmfo65t2d0AsOMhO3jsTktao_ssN4uvoPnc"
-      ],
-      "last_updated": "2026-09-15T21:04:47.180620"
-    },
-    {
-      "match_id": "876",
-      "title": "West Ham United vs Fulham",
-      "teams": "West Ham United vs Fulham",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249055_53016_WHU_FUL_fc-web.jpg",
-      "league": "Carabao Cup 2026-27",
-      "viewers": "20",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=876",
-      "match_url": "live/west-ham-united-vs-fulham-876",
-      "stream_url": "https://www.rtmpcdn.com/live/0ee5c885-966f-4124-872b-24a525117cfb.m3u8",
-      "server_count": 2,
-      "server_urls": [
-        "https://www.rtmpcdn.com/live/0ee5c885-966f-4124-872b-24a525117cfb.m3u8",
-        "https://play.aarray.cn/rrty/sd-1-4628326_gqzm.m3u8?auth_key=1789501687-0-0-0c8c3cde04bb0daf6393bd0ddede4a51&token=7bb5ca89b27d4001&device=4&platform=rrty"
-      ],
-      "last_updated": "2026-09-15T21:04:48.582172"
-    },
     {
       "match_id": "1011",
       "title": "Liverpool vs Tottenham Hotspur",
@@ -71,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249061_53016_LIV_TOT_fc-web.jpg",
       "league": "Carabao Cup 2026-27",
-      "viewers": "31",
+      "viewers": "34",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -84,7 +29,7 @@
         "https://www.rtmpcdn.com/live/5c7e673b-861d-4de7-ad44-66dc2224df71.m3u8",
         "https://play.aarray.cn/rrty/sd-1-4628321_gqzm.m3u8?auth_key=1789502466-0-0-d03ff03d1988ba9fe36c63756f2a9361&token=ed358b79fd601de2&device=4&platform=rrty"
       ],
-      "last_updated": "2026-09-15T21:04:48.897732"
+      "last_updated": "2026-09-15T21:45:00.123095"
     },
     {
       "match_id": "862",
@@ -97,7 +42,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249057_53016_IPT_ARS_fc-web.jpg",
       "league": "189 Carabao Cup 2026-27",
-      "viewers": "31",
+      "viewers": "34",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -110,7 +55,7 @@
         "https://www.rtmpcdn.com/live/09ba34ff-49b6-4a12-bbd4-c358d81a7d86.m3u8",
         "https://play.aarray.cn/rrty/sd-1-4628314_gqzm.m3u8?auth_key=1789502411-0-0-4d28502cee3760eb07ec197d72159b83&token=74affbc0de11bea3&device=4&platform=rrty"
       ],
-      "last_updated": "2026-09-15T21:04:49.212796"
+      "last_updated": "2026-09-15T21:45:00.951914"
     },
     {
       "match_id": "981",
@@ -123,7 +68,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247622_53004_ELC_RM_FC-Web.png",
       "league": "LALIGA 2026-27",
-      "viewers": "26",
+      "viewers": "29",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -140,33 +85,7 @@
         "https://www.rtmpcdn.com/live/db9aaa6c-f101-4f75-90c0-dd6082fa1ea8.m3u8",
         "https://play.aarray.cn/rrty/hd-zh-1-4565411_gqzm.m3u8?auth_key=1789504806-0-0-336da66fff6b6008d81d45a4450a8971&token=613b018a6b92acd0&device=4&platform=rrty"
       ],
-      "last_updated": "2026-09-15T21:04:49.510504"
-    },
-    {
-      "match_id": "1031",
-      "title": "Peterborough vs Barnsley",
-      "teams": "Peterborough vs Barnsley",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://ichef.bbci.co.uk/images/ic/1200x675/p0mll3g2.jpg",
-      "league": "EFL Cup",
-      "viewers": "7",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1031",
-      "match_url": "live/peterborough-vs-barnsley-1031",
-      "stream_url": "https://www.rtmpcdn.com/live/158dc6a1-67ad-44cd-a5cf-5c7bd1c72ec1.m3u8",
-      "server_count": 2,
-      "server_urls": [
-        "https://www.rtmpcdn.com/live/158dc6a1-67ad-44cd-a5cf-5c7bd1c72ec1.m3u8",
-        "https://play.aarray.cn/rrty/sd-1-4628320_gqzm.m3u8?auth_key=1789502230-0-0-3dc94b04b28ded9d328231e6c3f9e949&token=a209485044ec76fe&device=4&platform=rrty"
-      ],
-      "last_updated": "2026-09-15T21:04:49.843077"
+      "last_updated": "2026-09-15T21:45:01.285231"
     },
     {
       "match_id": "878",
@@ -179,7 +98,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249056_53016_RED_BRE_fc-web.jpg",
       "league": "EFL Championship",
-      "viewers": "17",
+      "viewers": "20",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -192,7 +111,30 @@
         "https://www.rtmpcdn.com/live/8ee7580e-395d-4fa9-98ad-c22eb9630a1a.m3u8",
         "https://play.aarray.cn/rrty/sd-1-4628317_gqzm.m3u8?auth_key=1789502346-0-0-51564d4057314d649c7f1c9009ea9446&token=1a640e25ea6df3e7&device=4&platform=rrty"
       ],
-      "last_updated": "2026-09-15T21:04:50.138264"
+      "last_updated": "2026-09-15T21:45:01.604593"
+    },
+    {
+      "match_id": "1055",
+      "title": "Ararat-Armenia vs Sparta Praha",
+      "teams": "Ararat-Armenia vs Sparta Praha",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17894731451020x576.jpg",
+      "league": "Sports Tournament",
+      "viewers": "335",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1055",
+      "match_url": "live/ararat-armenia-vs-sparta-praha-1055",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-15T21:45:01.895845"
     },
     {
       "match_id": "1028",
@@ -215,7 +157,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T21:04:50.451628"
+      "last_updated": "2026-09-15T21:45:01.896359"
     },
     {
       "match_id": "1040",
@@ -238,7 +180,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T21:04:50.452368"
+      "last_updated": "2026-09-15T21:45:01.896809"
     },
     {
       "match_id": "968",
@@ -261,7 +203,30 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T21:04:50.453034"
+      "last_updated": "2026-09-15T21:45:01.897264"
+    },
+    {
+      "match_id": "1053",
+      "title": "Glasgow Cosmic vs Amsterdam Flames",
+      "teams": "Glasgow Cosmic vs Amsterdam Flames",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789462295540x302.jpg",
+      "league": "European T20 Premier League 2026",
+      "viewers": "261",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1053",
+      "match_url": "live/glasgow-cosmic-vs-amsterdam-flames-1053",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-15T21:45:01.897690"
     },
     {
       "match_id": "1044",
@@ -284,7 +249,30 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T21:04:50.453669"
+      "last_updated": "2026-09-15T21:45:01.898118"
+    },
+    {
+      "match_id": "1054",
+      "title": "Omonoia vs Celta",
+      "teams": "Omonoia vs Celta",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789472960540x302.jpg",
+      "league": "UEFA Europa League",
+      "viewers": "1",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1054",
+      "match_url": "live/omonoia-vs-celta-1054",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-15T21:45:01.898553"
     },
     {
       "match_id": "983",
@@ -307,7 +295,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T21:04:50.454313"
+      "last_updated": "2026-09-15T21:45:01.898964"
     },
     {
       "match_id": "982",
@@ -330,7 +318,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T21:04:50.454964"
+      "last_updated": "2026-09-15T21:45:01.899388"
     },
     {
       "match_id": "969",
@@ -353,7 +341,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T21:04:50.455592"
+      "last_updated": "2026-09-15T21:45:01.899819"
     },
     {
       "match_id": "1041",
@@ -376,7 +364,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T21:04:50.456247"
+      "last_updated": "2026-09-15T21:45:01.900247"
     },
     {
       "match_id": "985",
@@ -389,7 +377,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247626_53004_BAR_RAC_FC-Web.png",
       "league": "LALIGA 2026-27",
-      "viewers": "6",
+      "viewers": "8",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -399,7 +387,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T21:04:50.456885"
+      "last_updated": "2026-09-15T21:45:01.900668"
     },
     {
       "match_id": "984",
@@ -412,7 +400,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247624_53004_LET_ATH_FC-Web.png",
       "league": "LALIGA 2026-27",
-      "viewers": "7",
+      "viewers": "9",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -422,7 +410,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T21:04:50.457507"
+      "last_updated": "2026-09-15T21:45:01.901077"
     },
     {
       "match_id": "970",
@@ -445,7 +433,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T21:04:50.458145"
+      "last_updated": "2026-09-15T21:45:01.901502"
     },
     {
       "match_id": "906",
@@ -468,7 +456,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T21:04:50.458759"
+      "last_updated": "2026-09-15T21:45:01.901915"
     },
     {
       "match_id": "986",
@@ -491,7 +479,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T21:04:50.459417"
+      "last_updated": "2026-09-15T21:45:01.902333"
     },
     {
       "match_id": "971",
@@ -514,7 +502,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T21:04:50.460061"
+      "last_updated": "2026-09-15T21:45:01.902752"
     },
     {
       "match_id": "892",
@@ -537,7 +525,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T21:04:50.460676"
+      "last_updated": "2026-09-15T21:45:01.903175"
     },
     {
       "match_id": "987",
@@ -560,7 +548,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T21:04:50.461313"
+      "last_updated": "2026-09-15T21:45:01.903592"
     },
     {
       "match_id": "1039",
@@ -583,7 +571,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T21:04:50.461957"
+      "last_updated": "2026-09-15T21:45:01.904005"
     },
     {
       "match_id": "955",
@@ -606,7 +594,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T21:04:50.462583"
+      "last_updated": "2026-09-15T21:45:01.904437"
     },
     {
       "match_id": "992",
@@ -629,7 +617,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T21:04:50.463236"
+      "last_updated": "2026-09-15T21:45:01.904857"
     },
     {
       "match_id": "879",
@@ -652,7 +640,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T21:04:50.463886"
+      "last_updated": "2026-09-15T21:45:01.905294"
     },
     {
       "match_id": "988",
@@ -675,7 +663,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T21:04:50.464511"
+      "last_updated": "2026-09-15T21:45:01.905714"
     },
     {
       "match_id": "993",
@@ -698,7 +686,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T21:04:50.465145"
+      "last_updated": "2026-09-15T21:45:01.906139"
     },
     {
       "match_id": "989",
@@ -711,7 +699,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247497_52993_WRX_SOU_fc-web_1786657253176.jpg",
       "league": "Roshn Saudi League 2026-2027",
-      "viewers": "6",
+      "viewers": "7",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -721,7 +709,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T21:04:50.465760"
+      "last_updated": "2026-09-15T21:45:01.906556"
     },
     {
       "match_id": "994",
@@ -744,7 +732,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T21:04:50.466384"
+      "last_updated": "2026-09-15T21:45:01.906968"
     },
     {
       "match_id": "995",
@@ -767,7 +755,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T21:04:50.467014"
+      "last_updated": "2026-09-15T21:45:01.907398"
     },
     {
       "match_id": "996",
@@ -790,7 +778,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T21:04:50.467620"
+      "last_updated": "2026-09-15T21:45:01.907817"
     },
     {
       "match_id": "956",
@@ -813,7 +801,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T21:04:50.468255"
+      "last_updated": "2026-09-15T21:45:01.908241"
     },
     {
       "match_id": "990",
@@ -826,7 +814,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247498_52993_WOL_WBA_fc-web_1786657253863.jpg",
       "league": "EFL Championship 2026-27",
-      "viewers": "6",
+      "viewers": "7",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -836,7 +824,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T21:04:50.468886"
+      "last_updated": "2026-09-15T21:45:01.908662"
     },
     {
       "match_id": "1002",
@@ -859,7 +847,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T21:04:50.469498"
+      "last_updated": "2026-09-15T21:45:01.909072"
     },
     {
       "match_id": "1003",
@@ -882,7 +870,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T21:04:50.470131"
+      "last_updated": "2026-09-15T21:45:01.909507"
     },
     {
       "match_id": "1037",
@@ -905,30 +893,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T21:04:50.470734"
-    },
-    {
-      "match_id": "1045",
-      "title": "Pakistan Champions vs Bangladesh Champions",
-      "teams": "Pakistan Champions vs Bangladesh Champions",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-      "league": "World Championship of Legends, 2026",
-      "viewers": "315",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1045",
-      "match_url": "live/pakistan-champions-vs-bangladesh-champions-1045",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-15T21:04:50.471369"
+      "last_updated": "2026-09-15T21:45:01.909937"
     },
     {
       "match_id": "1000",
@@ -951,7 +916,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T21:04:50.471998"
+      "last_updated": "2026-09-15T21:45:01.910369"
     },
     {
       "match_id": "1001",
@@ -974,7 +939,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T21:04:50.472606"
+      "last_updated": "2026-09-15T21:45:01.910785"
     },
     {
       "match_id": "1008",
@@ -997,7 +962,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T21:04:50.473237"
+      "last_updated": "2026-09-15T21:45:01.911213"
     },
     {
       "match_id": "1042",
@@ -1020,7 +985,30 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T21:04:50.473881"
+      "last_updated": "2026-09-15T21:45:01.911631"
+    },
+    {
+      "match_id": "1049",
+      "title": "Barcelona vs Getafe CF",
+      "teams": "Barcelona vs Getafe CF",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+      "league": "LALIGA 2026-27",
+      "viewers": "463",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1049",
+      "match_url": "live/barcelona-vs-getafe-cf-1049",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-15T21:45:01.912037"
     },
     {
       "match_id": "1043",
@@ -1043,7 +1031,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-15T21:04:50.474497"
+      "last_updated": "2026-09-15T21:45:01.912465"
     }
   ]
 }
