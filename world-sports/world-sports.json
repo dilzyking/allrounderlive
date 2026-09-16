@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-16T16:57:31.784899",
+  "timestamp": "2026-09-16T17:02:28.930199",
   "total_matches": 47,
-  "live_count": 13,
-  "upcoming_count": 34,
+  "live_count": 9,
+  "upcoming_count": 38,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249093_53061_GUY-W_BT-W_FC-Web_1788430024925.png",
       "league": "Women's Caribbean Premier League T20",
-      "viewers": "54",
+      "viewers": "55",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -29,30 +29,59 @@
         "https://live.talkoraai.com/match/hls?t=5Vk7wvU8NP7n1ttoZRgkyzUhOigGpRig7j0fV3_QHwwrnbOhzZM8SJ9dK9S2TEFUjp5oMHOe_X__d2cTi95xnjloWQhgG3AR-b1F4Pe0Y2kPqwrTymZMA-cpnWv4zhl-XmRGYkmStqu9FIr2toD9kqBipBPrZGXX1nSfsrG1h-DtiIxOnxe09cqO0DE6lPrcT4_1Wn5s2m8AmUoq7isa_K6XrxrwXEP6gqxxOph3iNhRwvI9-eS70dwxO0wvMC0PIl35rArFZmQi7rL-qagXY_Fr0g",
         "https://live.talkoraai.com/match/seg?t=GAZ3oRcFJ4NxJFIVXNWPIMCAi3byKUPRMDuIypbGTW4UTyk3q44_GUOFdGsI_FT6EWLMYpHWIKQL2t6MulpUPQbJmyWxnf1jIGbquc4BscuraZM-W7qGrTJtPJ82jvHBeRvC31YOH2a2UooS8pnxSnhOp74vecEtj_sCthvM3B0KLHyR4PXLsv8h6GVsTDC5qP60yjg7YvJ0Ref0xm17aZkb_kgwd4DAavIiGUBLzIeSBY1DSodqlglmPNdU502I3wpOwfZahxnMoRdluY7FzAmM9HGMsIaHwTQ8"
       ],
-      "last_updated": "2026-09-16T16:52:45.828743"
+      "last_updated": "2026-09-16T16:57:46.236539"
     },
     {
-      "match_id": "1071",
-      "title": "Milan vs Benfica",
-      "teams": "Milan vs Benfica",
+      "match_id": "983",
+      "title": "Deportivo de La Coruna vs Sevilla",
+      "teams": "Deportivo de La Coruna vs Sevilla",
       "sport": "football",
       "sport_display": "Football",
       "status": "live",
       "status_display": "LIVE",
       "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789552887540x302.jpg",
-      "league": "UEFA Europa League",
-      "viewers": "227",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247621_53004_COR_SEV_FC-Web.png",
+      "league": "LALIGA 2026-27",
+      "viewers": "15",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
       "servers": null,
-      "page_url": "/world-sports/player.html?id=1071",
-      "match_url": "live/milan-vs-benfica-1071",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-16T16:52:46.866834"
+      "page_url": "/world-sports/player.html?id=983",
+      "match_url": "live/deportivo-de-la-coruna-vs-sevilla-983",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=BK2KjT-ka4Lc3ys0OaHkZ1LTy9P_eqIQUN2IJHbdSM79O2yZ2s_49Yjq05D6U9vt0uE1842Cq8Qudqn9OwwlKm3bm5bz2fytz6DAyhrvxQeOlwY5WkX5_wGj86ak_26Hr-HCC8rBF6YHqxYoLtU7yzgl1tgdLWPFpZwF61Vw4aknRiUajabIUIBeznzaLxbFFDgp2J_K11CbWCJLrre4-01DnyryG4spQ3rMu3tRYICRwNzgA13Y4H7zLWwXKz08oCrl1NzRIkRMSE1I",
+      "server_count": 2,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=BK2KjT-ka4Lc3ys0OaHkZ1LTy9P_eqIQUN2IJHbdSM79O2yZ2s_49Yjq05D6U9vt0uE1842Cq8Qudqn9OwwlKm3bm5bz2fytz6DAyhrvxQeOlwY5WkX5_wGj86ak_26Hr-HCC8rBF6YHqxYoLtU7yzgl1tgdLWPFpZwF61Vw4aknRiUajabIUIBeznzaLxbFFDgp2J_K11CbWCJLrre4-01DnyryG4spQ3rMu3tRYICRwNzgA13Y4H7zLWwXKz08oCrl1NzRIkRMSE1I",
+        "https://live.talkoraai.com/match/seg?t=USWzftiiFk_qMtzxXApZxBOIb38CmevCevbOksRgbpbFw3Hldvb1RBNE35Cf3lv4NeNkcyCTtsvXSketIMyc7AMsTsSkUgL06BBNt26ONbC8GNE6q3vO1slluDdndh7XyQWZxA0J8drNRRv3NvLmDE5MyfHKkucb7-s_2Av9HBdgOWVvwinDvKz6GEtHkc_0Gs268OeSrRMuT1FvNVOfMXA-HQfBKMOwDnzm0HBJgIf3HVFhFU6jorZTG1Kd6aJtr3hsh-dTr2u0OQp_yN39hdanOUo"
+      ],
+      "last_updated": "2026-09-16T16:57:47.566846"
+    },
+    {
+      "match_id": "982",
+      "title": "Atletico de Madrid vs CA Osasuna",
+      "teams": "Atletico de Madrid vs CA Osasuna",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247618_53004_ATM_OSN_FC-Web.png",
+      "league": "LALIGA 2026-27",
+      "viewers": "16",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=982",
+      "match_url": "live/atletico-de-madrid-vs-ca-osasuna-982",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=qQde0vGXf05QGU7dM4_vWhmb_T69qF-VUucYkl7oNWJhpP0iVxOB5JAT1nAyRjMz2BvatKlALnshR0s4FnkbF1uW5aQilt4H60Km8LO8EjYzk5N27gbUi1FDimKqprqA78jS_e5V2ENNGjPnduWDd8hfOzgESUR1VhDK12I5sEqyv18MqWLGMA6DlAkZjetaGJ0XPWNYW7OgCsvMut2DGflHclGP_r3i06pPbvkuVuWbLHP_uUkBG7tGecee57IrgJNPgfxIo2OdV6JY",
+      "server_count": 2,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=qQde0vGXf05QGU7dM4_vWhmb_T69qF-VUucYkl7oNWJhpP0iVxOB5JAT1nAyRjMz2BvatKlALnshR0s4FnkbF1uW5aQilt4H60Km8LO8EjYzk5N27gbUi1FDimKqprqA78jS_e5V2ENNGjPnduWDd8hfOzgESUR1VhDK12I5sEqyv18MqWLGMA6DlAkZjetaGJ0XPWNYW7OgCsvMut2DGflHclGP_r3i06pPbvkuVuWbLHP_uUkBG7tGecee57IrgJNPgfxIo2OdV6JY",
+        "https://live.talkoraai.com/match/seg?t=mCSFM4OGNYfcyngfbB6T47KsABnqWR00eMHPD1H2PSsBEjeY0EJyoqlWTMux79xnmHDDOrH8BXyEBU18iWHAXRBjIDemvq61VmSXL5_4sQez-9ziESf2PgdfDM9ejYo3Rh6V2ZRwioRSCQx-5k9rBcE5eatbRVDEe_7FtiqUhweBnddWW__79j-8_XD-crXQQTM8ZMtDhxDcecq_gFeqNvsgNnmlpqZ7Hfa-BglgPSFV9WiTnEborH_g4cuhGO6ZKRzHCvp4VRO6xQqaeXvPFw98cxE"
+      ],
+      "last_updated": "2026-09-16T16:57:47.851228"
     },
     {
       "match_id": "1064",
@@ -65,7 +94,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248953_53057_ALW_KSC_fc-web_1789025065232.jpg",
       "league": "AFC Champions League Two 2026-27",
-      "viewers": "6",
+      "viewers": "7",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -78,7 +107,7 @@
         "https://live.talkoraai.com/match/hls?t=XyP-bGmQooeIpkI0UGZkqpFsHWR3oxBVW404J7jwkB_QNnkbnYxxVgJ5ZvMr8feoUDZju4kN_-YcSj8uzhJVl_G5XlPYOBWOGaFltqQyw53VesA5rgOdiu1lERaFYUzu88iqtb-M-WKjwKDi-nzI5MzEVBcD7ipjWW5hjZyq2qgBAk6OopEfaWAn1ogyjlGPhxsi-434SMox8vULUxckT4aO1qmBEma2KJsa-4vF4pxBV4bjFMZvqxgNUedbCaE2UwHAI-rCOEgS_WX0ASNf-FFgw_jdGoQQsQ",
         "https://live.talkoraai.com/match/seg?t=qh5P-PYKWKJPeIq-mbZJcriCZISxj4y37xLRHiJkSNUE8yUDAG3AgE1BMyzfrYTNhkY0m7m5Kul6D9K9xqYIf42POFv8xpHjBTbl8Q9dGibDtM8lMOVmlctxscroyhRn4aTJNso1Od9kQ9Z2Lh-du4u6gmZKqo0X0oBh6Cdj5D5h7bH6DHmLnnxE4ccRK-iUAySVlafY8_qU_J3Nj9dGekK2PHaB3vAPteAKDt21DhxPc4Hj64NoEEltGTPppPgs7ZxY77Mr2DLu6X2pRS8_HBUtEJPZUwhUMz9yNnpKKvJH"
       ],
-      "last_updated": "2026-09-16T16:52:47.135974"
+      "last_updated": "2026-09-16T16:57:48.119400"
     },
     {
       "match_id": "1063",
@@ -91,7 +120,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248959_53057_HUS_EBFC_fc-web_1789025065229.jpg",
       "league": "AFC Champions League Two 2026-27",
-      "viewers": "3",
+      "viewers": "4",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -104,7 +133,7 @@
         "https://live.talkoraai.com/match/hls?t=pCsxkGB2mGZ_6TQ_C6e9VdRPDTgEeyJD_iXU1nn2SKqTN5uz52JkhjAGBz8jDHqe9lyEhHy61rDuhZVCSz0PjEMjgPZRHbRBnazGTvGY97USaG0yKXHxqPCIDfh64UD5Rh1zsRJ43P4GhZAN5dvPjWq770bvvh3xq0TmHYv5e-M9vedWqgzvDc46Lyi5vuMygcwpOQu6sTyN1n0xq1n_i33r1cD_RA1mAEo35j6ezSqHotZBtP8qlv4geemIBrPrSIZ2chGI7iz--3SI1LCMBSyDY-cPD1xLLw",
         "https://live.talkoraai.com/match/seg?t=mlL9RkkPro9U0PfGON7imgoMq73LtW-ccLGe_bo7SxtF_aohQO5DOGHAV-sqCp_-PbcvSktxElkDmOCzYURhgT--1DH4I8JMgXmQnc8KeHPr4OXemFoyvze4cgi2HpiG3aMtYO5raLRY4eLH5rwe2UzwfZ6p_RibY_O2UVr2d3myHKuB_7Cyg0dPOI8Px8qLg5Da7QtFiMhpC9GXv7WZEmNXg_fSl9ALmcOhgqB_D8GYaUdv0ICUqzZ-y18QX1ME2kHrX7Tv80cBuVRfNiEVl9siYHOoRiYTOW72m3Bumvne"
       ],
-      "last_updated": "2026-09-16T16:52:47.412227"
+      "last_updated": "2026-09-16T16:57:48.398909"
     },
     {
       "match_id": "1062",
@@ -117,7 +146,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248957_53057_ALN_ALTW_fc-web_1789025065300.jpg",
       "league": "AFC Champions League Two 2026-27",
-      "viewers": "3",
+      "viewers": "4",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -130,7 +159,7 @@
         "https://live.talkoraai.com/match/hls?t=WKilrtpj4aJ4VnSIxTQMnVsvzX4hkn2fv7BxK8j7K575tJuxfEULnuiIia7l6VxhUFSDwXXDOhrj3T33xWOG0C8qiXuvfHUwSVsEXMA9UzUVyPoetDGQt7ItjGCKxYzcg-4QB_QFErJ0V_I9o2HZQLrjlf3jBEyPRRSB0nbLByIA5YKLai9yeskkTqL0_7g-LFAc1bkwCws-04YW9kuG5OIi48e8Kq0UU4igPgPO1VRxkDZ-oCbawArx9GiEZ47mX3Ic4IVFikeRnXhmV39OGz4080fe",
         "https://live.talkoraai.com/match/seg?t=fSe-xyfPItaUpBvysf6ZRvv7NHKCngMr8ZCQLm61l3-BdFNO52dWOVFMJmhrvkstuvMNZnIffRr2K9qM8c8hJPEY8Ub6jf50zoMF9B5ou2_D_PZ5VorEPCyJRP-tKc-uIz_QnahYaWe7ZohjWua8Aw1GQWAdDqEoP69BOyEexxgE3KAf-Fb7moX9DEk6fafaSnmKdiY6F7NiOA0-dHLvrN2Kwmg_Jy5B74oSbG8Tle6n_2IQSM-ZJhL3U4yWkZ8saEMkhLUGMjnem-_3wqlWSdgg8tSgkfuABsPiZg"
       ],
-      "last_updated": "2026-09-16T16:52:47.685808"
+      "last_updated": "2026-09-16T16:57:48.671205"
     },
     {
       "match_id": "1061",
@@ -143,7 +172,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248954_53057_ALK_NAS_fc-web_1789025065277.jpg",
       "league": "AFC Champions League Two 2026-27",
-      "viewers": "3",
+      "viewers": "4",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -156,7 +185,7 @@
         "https://live.talkoraai.com/match/hls?t=zkO1smpHY2NIOMYxrOaNLtVcf1zRDydeglwjcA_DnW8xSDCuefUZ4sRQ5iqAjJSgbdvemaeG_bPAnzjKGkokcyoR19DpkGhfLB04bg-QOwd9rbQ_icaFSa0SB3_VTaWzs15SUVp9ohNCF_12GtrQ1wVOuy5osYMfQwYtC3animibzJuXN12q3Zjj4ovGG6eoDwt7P9voICIrTKUDlpKuskoBisQ2oHe48w69oCXYoHJqVdzp7HCgLX-6sWdiTMMZUeP72ubt_jeaNMmJQu9bptLhV5nHt12AOsAq6-KsZJyNVLsHmhg",
         "https://live.talkoraai.com/match/seg?t=CY_an4e4tO1Cwyfsvz7md8NVWRdG32ohNjC5I7XlILfR_o1s5rok3fqMLb4oWl--22Q9GRfEsSn95lC8fMS0Xo6Ano2F3BsMxg0_B8t4jnPL7-hirppAummZ2_ZtFFsAU1qE6935N8XnqjZ9059uWQsv57b0O0KAhUTosPm5YoBSVanM_lg8-gl2irVKKg02F97cti7ge5RQnV8elQ7t-60-t3im-piMrUQlaGtuAou-Jh8ysCjMx2ZQvw-bb_M1yk3aDLayy1PLWLWTZu54Di6f0aB8Gm4qOb5TQa9acGtZ3blQ9TNxVV8TVZZ1SQ"
       ],
-      "last_updated": "2026-09-16T16:52:47.960059"
+      "last_updated": "2026-09-16T16:57:48.952775"
     },
     {
       "match_id": "1055",
@@ -169,7 +198,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17894731451020x576.jpg",
       "league": "UEFA Europa League",
-      "viewers": "11",
+      "viewers": "13",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -182,7 +211,7 @@
         "https://live.talkoraai.com/match/hls?t=-4OHsX_cQW_Et46LpbC0M4cs152fa8AE4I2wTYJcxRLOcpMMa5PKJs_sXc1q2FbeITpokk6QTvrsrh17RTUMgs3hJrKqDdgbeI2MY2bWCs4NhCdl4gryXZArkAVdZRhRJdMdxncPSDD5caexJAtO4cCXrxApuj7H9yjpFowuURc3y1WPRP38N1w6LdxWWADvNJgg67NxKmCTc4tLUfUXL8BSASarWRbPnh_2i4WPsjmiO8KG41-gsXUihLKGNyscPSmdsLZmTQTytscEEayym2Df6uvbuQ",
         "https://live.talkoraai.com/match/seg?t=5Io0waw8iviFptvwaYAcnx1v4n98aIReDhrz9O9n7Zs2B-jBLh_aJdogfEvdflbxIfd3IzIucBa8_8HblRbov1os5sIKNgUlkWCpYrqYgySmWdIVo1_DgKwHiNvaDX1GnYed3lhR8a9uECDxjgEXL96Ej7AMMDzAFKL5aEj73WdRmBHAv5sDZmpXhqYYV9QIZp7t1BgohUiYdufNO9uazbFzhVRbF4pqm9cYjwuS28nUMxdcyYzytLNEkAzcz9_NIcJlZKxAYCqZ8ANLnTVrkwSVQRGAovA_xg3aDGX6"
       ],
-      "last_updated": "2026-09-16T16:52:48.228798"
+      "last_updated": "2026-09-16T16:57:49.224964"
     },
     {
       "match_id": "1054",
@@ -195,7 +224,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789472960540x302.jpg",
       "league": "UEFA Europa League",
-      "viewers": "13",
+      "viewers": "14",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -208,168 +237,7 @@
         "https://live.talkoraai.com/match/hls?t=KRZO4J2dWlmK7AOsMhmEvTDweH7oLEd57q3AXmgGscH3NjSSOa53xuwo53cmNDx1ZntMvatlAeJYhqsc-15mjEmaQGtShrwM1PLzR8QWG486HkObOlPw6Al7uROPVbfHqvwN87ZJDrfmoP7UNxlTf37-TFNmkTT8WNjFJAFLu8IiNebvGjdBH8mj8cYkrMt8Yfr0g8y6PZdwEJR3hXnM3r73oziX54pByF8EBQxsz2Lvc1Ywa0CHQpOWifRppco2fAKJPA_lzWwDW1bxbA5FIE8",
         "https://live.talkoraai.com/match/seg?t=O9q5g4C3iG8xR_yRpe4MHgIRwB18VkMool4NKNOmqQUkPDgi_ozA0le_m1KiJ6OAUGF9F9h0Z7xQKGio3_dxHc69JvK3NPEVXip3SPXDISVFXV7cN-ohpAZ3rZ12E8Xa8OyXUBgFDOsQpj0yRF6hYPlm5MVcIE7WTHnWYSWyXGaiOGVYh9RL5GFhgFpJNIyHh8HLNyVdlqGurRBbCWeKXvekD0vk2u5XZRFq3ZAh6QcvnqkYPdv4S-ubyQi1gIu6VoKb4MEDE-m4ZRRJKfYCE2-lu6e_GA0HXw"
       ],
-      "last_updated": "2026-09-16T16:52:48.508738"
-    },
-    {
-      "match_id": "1073",
-      "title": "Sturm Graz vs Rennes",
-      "teams": "Sturm Graz vs Rennes",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789553017540x302.jpg",
-      "league": "UEFA Europa League",
-      "viewers": "301",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1073",
-      "match_url": "live/sturm-graz-vs-rennes-1073",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-16T16:52:48.781886"
-    },
-    {
-      "match_id": "1072",
-      "title": "Sheva vs Dinamo Zagreb",
-      "teams": "Sheva vs Dinamo Zagreb",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789553170540x302.jpg",
-      "league": "UEFA Europa League",
-      "viewers": "264",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1072",
-      "match_url": "live/sheva-vs-dinamo-zagreb-1072",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-16T16:52:49.048027"
-    },
-    {
-      "match_id": "1070",
-      "title": "Sunderland vs AZ Alkmaar",
-      "teams": "Sunderland vs AZ Alkmaar",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789552708540x302.jpg",
-      "league": "UEFA Europa League",
-      "viewers": "190",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1070",
-      "match_url": "live/sunderland-vs-az-alkmaar-1070",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-16T16:52:49.323774"
-    },
-    {
-      "match_id": "1069",
-      "title": "Leverkusen vs Celje",
-      "teams": "Leverkusen vs Celje",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789552590540x302.jpg",
-      "league": "UEFA Europa League",
-      "viewers": "153",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1069",
-      "match_url": "live/leverkusen-vs-celje-1069",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-16T16:52:49.597782"
-    },
-    {
-      "match_id": "1068",
-      "title": "Anderlecht vs OL",
-      "teams": "Anderlecht vs OL",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789552453540x302.jpg",
-      "league": "UEFA Europa League",
-      "viewers": "466",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1068",
-      "match_url": "live/anderlecht-vs-ol-1068",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-16T16:52:49.865053"
-    },
-    {
-      "match_id": "983",
-      "title": "Deportivo de La Coruna vs Sevilla",
-      "teams": "Deportivo de La Coruna vs Sevilla",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247621_53004_COR_SEV_FC-Web.png",
-      "league": "LALIGA 2026-27",
-      "viewers": "12",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=983",
-      "match_url": "live/deportivo-de-la-coruna-vs-sevilla-983",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-16T16:52:50.147739"
-    },
-    {
-      "match_id": "982",
-      "title": "Atletico de Madrid vs CA Osasuna",
-      "teams": "Atletico de Madrid vs CA Osasuna",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247618_53004_ATM_OSN_FC-Web.png",
-      "league": "LALIGA 2026-27",
-      "viewers": "12",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=982",
-      "match_url": "live/atletico-de-madrid-vs-ca-osasuna-982",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-16T16:52:50.148451"
+      "last_updated": "2026-09-16T16:57:49.507975"
     },
     {
       "match_id": "1041",
@@ -392,7 +260,30 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T16:52:50.149075"
+      "last_updated": "2026-09-16T16:57:49.775522"
+    },
+    {
+      "match_id": "1071",
+      "title": "Milan vs Benfica",
+      "teams": "Milan vs Benfica",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789552887540x302.jpg",
+      "league": "UEFA Europa League",
+      "viewers": "1",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1071",
+      "match_url": "live/milan-vs-benfica-1071",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-16T16:57:49.776077"
     },
     {
       "match_id": "985",
@@ -415,7 +306,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T16:52:50.149711"
+      "last_updated": "2026-09-16T16:57:49.776585"
     },
     {
       "match_id": "984",
@@ -438,7 +329,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T16:52:50.150326"
+      "last_updated": "2026-09-16T16:57:49.777066"
     },
     {
       "match_id": "906",
@@ -461,7 +352,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T16:52:50.150946"
+      "last_updated": "2026-09-16T16:57:49.777547"
     },
     {
       "match_id": "986",
@@ -484,7 +375,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T16:52:50.151583"
+      "last_updated": "2026-09-16T16:57:49.778031"
     },
     {
       "match_id": "1057",
@@ -507,7 +398,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T16:52:50.152185"
+      "last_updated": "2026-09-16T16:57:49.778516"
     },
     {
       "match_id": "892",
@@ -530,7 +421,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T16:52:50.152806"
+      "last_updated": "2026-09-16T16:57:49.778979"
     },
     {
       "match_id": "987",
@@ -553,7 +444,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T16:52:50.153428"
+      "last_updated": "2026-09-16T16:57:49.779447"
     },
     {
       "match_id": "1039",
@@ -576,7 +467,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T16:52:50.154038"
+      "last_updated": "2026-09-16T16:57:49.779911"
     },
     {
       "match_id": "955",
@@ -599,7 +490,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T16:52:50.154670"
+      "last_updated": "2026-09-16T16:57:49.780376"
     },
     {
       "match_id": "992",
@@ -622,7 +513,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T16:52:50.155283"
+      "last_updated": "2026-09-16T16:57:49.780846"
     },
     {
       "match_id": "879",
@@ -645,7 +536,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T16:52:50.155916"
+      "last_updated": "2026-09-16T16:57:49.781308"
     },
     {
       "match_id": "988",
@@ -668,7 +559,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T16:52:50.156542"
+      "last_updated": "2026-09-16T16:57:49.781787"
     },
     {
       "match_id": "993",
@@ -691,7 +582,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T16:52:50.157146"
+      "last_updated": "2026-09-16T16:57:49.782248"
     },
     {
       "match_id": "989",
@@ -714,7 +605,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T16:52:50.157771"
+      "last_updated": "2026-09-16T16:57:49.782725"
     },
     {
       "match_id": "994",
@@ -737,7 +628,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T16:52:50.158396"
+      "last_updated": "2026-09-16T16:57:49.783197"
     },
     {
       "match_id": "995",
@@ -760,7 +651,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T16:52:50.159002"
+      "last_updated": "2026-09-16T16:57:49.783678"
     },
     {
       "match_id": "996",
@@ -783,7 +674,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T16:52:50.159626"
+      "last_updated": "2026-09-16T16:57:49.784144"
     },
     {
       "match_id": "956",
@@ -806,7 +697,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T16:52:50.160223"
+      "last_updated": "2026-09-16T16:57:49.784622"
     },
     {
       "match_id": "990",
@@ -829,7 +720,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T16:52:50.160846"
+      "last_updated": "2026-09-16T16:57:49.785087"
     },
     {
       "match_id": "1002",
@@ -852,7 +743,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T16:52:50.161465"
+      "last_updated": "2026-09-16T16:57:49.785567"
     },
     {
       "match_id": "1003",
@@ -875,7 +766,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T16:52:50.162068"
+      "last_updated": "2026-09-16T16:57:49.785989"
     },
     {
       "match_id": "1037",
@@ -898,7 +789,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T16:52:50.162758"
+      "last_updated": "2026-09-16T16:57:49.786419"
     },
     {
       "match_id": "1000",
@@ -921,7 +812,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T16:52:50.163367"
+      "last_updated": "2026-09-16T16:57:49.786884"
     },
     {
       "match_id": "1001",
@@ -944,7 +835,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T16:52:50.163993"
+      "last_updated": "2026-09-16T16:57:49.787349"
     },
     {
       "match_id": "1008",
@@ -967,7 +858,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T16:52:50.164616"
+      "last_updated": "2026-09-16T16:57:49.787829"
     },
     {
       "match_id": "1042",
@@ -990,7 +881,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T16:52:50.165217"
+      "last_updated": "2026-09-16T16:57:49.788320"
     },
     {
       "match_id": "1049",
@@ -1013,7 +904,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T16:52:50.165853"
+      "last_updated": "2026-09-16T16:57:49.788770"
     },
     {
       "match_id": "1043",
@@ -1036,7 +927,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T16:52:50.166472"
+      "last_updated": "2026-09-16T16:57:49.789196"
     },
     {
       "match_id": "1066",
@@ -1059,7 +950,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T16:52:50.167076"
+      "last_updated": "2026-09-16T16:57:49.789627"
     },
     {
       "match_id": "1065",
@@ -1082,7 +973,122 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T16:52:50.167695"
+      "last_updated": "2026-09-16T16:57:49.790047"
+    },
+    {
+      "match_id": "1073",
+      "title": "Sturm Graz vs Rennes",
+      "teams": "Sturm Graz vs Rennes",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789553017540x302.jpg",
+      "league": "UEFA Europa League",
+      "viewers": "1",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1073",
+      "match_url": "live/sturm-graz-vs-rennes-1073",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-16T16:57:49.790477"
+    },
+    {
+      "match_id": "1072",
+      "title": "Sheva vs Dinamo Zagreb",
+      "teams": "Sheva vs Dinamo Zagreb",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789553170540x302.jpg",
+      "league": "UEFA Europa League",
+      "viewers": "1",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1072",
+      "match_url": "live/sheva-vs-dinamo-zagreb-1072",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-16T16:57:49.790903"
+    },
+    {
+      "match_id": "1070",
+      "title": "Sunderland vs AZ Alkmaar",
+      "teams": "Sunderland vs AZ Alkmaar",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789552708540x302.jpg",
+      "league": "UEFA Europa League",
+      "viewers": "1",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1070",
+      "match_url": "live/sunderland-vs-az-alkmaar-1070",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-16T16:57:49.791321"
+    },
+    {
+      "match_id": "1069",
+      "title": "Leverkusen vs Celje",
+      "teams": "Leverkusen vs Celje",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789552590540x302.jpg",
+      "league": "UEFA Europa League",
+      "viewers": "1",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1069",
+      "match_url": "live/leverkusen-vs-celje-1069",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-16T16:57:49.791747"
+    },
+    {
+      "match_id": "1068",
+      "title": "Anderlecht vs OL",
+      "teams": "Anderlecht vs OL",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789552453540x302.jpg",
+      "league": "UEFA Europa League",
+      "viewers": "1",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1068",
+      "match_url": "live/anderlecht-vs-ol-1068",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-16T16:57:49.792156"
     },
     {
       "match_id": "1067",
@@ -1105,7 +1111,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T16:52:50.168291"
+      "last_updated": "2026-09-16T16:57:49.792581"
     }
   ]
 }
