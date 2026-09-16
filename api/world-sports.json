@@ -1,65 +1,10 @@
 {
-  "timestamp": "2026-09-16T22:16:49.750678",
-  "total_matches": 28,
-  "live_count": 2,
+  "timestamp": "2026-09-16T22:24:38.125536",
+  "total_matches": 26,
+  "live_count": 0,
   "upcoming_count": 26,
   "completed_count": 0,
   "matches": [
-    {
-      "match_id": "985",
-      "title": "Barcelona vs Racing Club de Santander",
-      "teams": "Barcelona vs Racing Club de Santander",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247626_53004_BAR_RAC_FC-Web.png",
-      "league": "LALIGA 2026-27",
-      "viewers": "112",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=985",
-      "match_url": "live/barcelona-vs-racing-club-de-santander-985",
-      "stream_url": "https://live.talkoraai.com/match/hls?t=qQde0vGXf05QGU7dM4_vWhmb_T69qF-VUucYkl7oNWJhpP0iVxOB5JAT1nAyRjMz2BvatKlALnshR0s4FnkbF1uW5aQilt4H60Km8LO8EjYzk5N27gbUi1FDimKqprqA78jS_e5V2ENNGjPnduWDd8hfOzgESUR1VhDK12I5sEqyv18MqWLGMA6DlAkZjetaGJ0XPWNYW7OgCsvMut2DGflHclGP_r3i06pPbvkuVuWbLHP_uUkBG7tGecee57IrgJNPgfxIo2OdV6JY",
-      "server_count": 4,
-      "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=qQde0vGXf05QGU7dM4_vWhmb_T69qF-VUucYkl7oNWJhpP0iVxOB5JAT1nAyRjMz2BvatKlALnshR0s4FnkbF1uW5aQilt4H60Km8LO8EjYzk5N27gbUi1FDimKqprqA78jS_e5V2ENNGjPnduWDd8hfOzgESUR1VhDK12I5sEqyv18MqWLGMA6DlAkZjetaGJ0XPWNYW7OgCsvMut2DGflHclGP_r3i06pPbvkuVuWbLHP_uUkBG7tGecee57IrgJNPgfxIo2OdV6JY",
-        "https://live.talkoraai.com/match/seg?t=mCSFM4OGNYfcyngfbB6T47KsABnqWR00eMHPD1H2PSsBEjeY0EJyoqlWTMux79xnmHDDOrH8BXyEBU18iWHAXRBjIDemvq61VmSXL5_4sQez-9ziESf2PgdfDM9ejYo3Rh6V2ZRwioRSCQx-5k9rBcE5eatbRVDEe_7FtiqUhweBnddWW__79j-8_XD-crXQQTM8ZMtDhxDcecq_gFeqNvsgNnmlpqZ7Hfa-BglgPSFV9WiTnEborH_g4cuhGO6ZKRzHCvp4VRO6xQqaeXvPFw98cxE",
-        "https://www.rtmpcdn.com/live/6d0178bc-0064-4eee-92d9-0db6ac5e5a23.m3u8",
-        "https://tvsen5.aynaott.com/TnMn5kZz8aLm/tracks-v1a1/mono.ts.m3u8"
-      ],
-      "last_updated": "2026-09-16T22:02:18.073181"
-    },
-    {
-      "match_id": "984",
-      "title": "Levante vs Athletic Club",
-      "teams": "Levante vs Athletic Club",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247624_53004_LET_ATH_FC-Web.png",
-      "league": "LALIGA 2026-27",
-      "viewers": "37",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=984",
-      "match_url": "live/levante-vs-athletic-club-984",
-      "stream_url": "https://live.talkoraai.com/match/hls?t=BK2KjT-ka4Lc3ys0OaHkZ1LTy9P_eqIQUN2IJHbdSM79O2yZ2s_49Yjq05D6U9vt0uE1842Cq8Qudqn9OwwlKm3bm5bz2fytz6DAyhrvxQeOlwY5WkX5_wGj86ak_26Hr-HCC8rBF6YHqxYoLtU7yzgl1tgdLWPFpZwF61Vw4aknRiUajabIUIBeznzaLxbFFDgp2J_K11CbWCJLrre4-01DnyryG4spQ3rMu3tRYICRwNzgA13Y4H7zLWwXKz08oCrl1NzRIkRMSE1I",
-      "server_count": 3,
-      "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=BK2KjT-ka4Lc3ys0OaHkZ1LTy9P_eqIQUN2IJHbdSM79O2yZ2s_49Yjq05D6U9vt0uE1842Cq8Qudqn9OwwlKm3bm5bz2fytz6DAyhrvxQeOlwY5WkX5_wGj86ak_26Hr-HCC8rBF6YHqxYoLtU7yzgl1tgdLWPFpZwF61Vw4aknRiUajabIUIBeznzaLxbFFDgp2J_K11CbWCJLrre4-01DnyryG4spQ3rMu3tRYICRwNzgA13Y4H7zLWwXKz08oCrl1NzRIkRMSE1I",
-        "https://live.talkoraai.com/match/seg?t=USWzftiiFk_qMtzxXApZxBOIb38CmevCevbOksRgbpbFw3Hldvb1RBNE35Cf3lv4NeNkcyCTtsvXSketIMyc7AMsTsSkUgL06BBNt26ONbC8GNE6q3vO1slluDdndh7XyQWZxA0J8drNRRv3NvLmDE5MyfHKkucb7-s_2Av9HBdgOWVvwinDvKz6GEtHkc_0Gs268OeSrRMuT1FvNVOfMXA-HQfBKMOwDnzm0HBJgIf3HVFhFU6jorZTG1Kd6aJtr3hsh-dTr2u0OQp_yN39hdanOUo",
-        "https://www.rtmpcdn.com/live/ad7c9537-c34d-4699-aa14-52c32c34a401.m3u8"
-      ],
-      "last_updated": "2026-09-16T22:02:18.925483"
-    },
     {
       "match_id": "906",
       "title": "India vs Afghanistan 3rd T20I",
@@ -81,7 +26,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T22:02:19.228412"
+      "last_updated": "2026-09-16T22:18:41.250622"
     },
     {
       "match_id": "986",
@@ -104,7 +49,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T22:02:19.229035"
+      "last_updated": "2026-09-16T22:18:41.251457"
     },
     {
       "match_id": "1057",
@@ -127,7 +72,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T22:02:19.229569"
+      "last_updated": "2026-09-16T22:18:41.252026"
     },
     {
       "match_id": "892",
@@ -150,7 +95,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T22:02:19.230111"
+      "last_updated": "2026-09-16T22:18:41.252595"
     },
     {
       "match_id": "987",
@@ -173,7 +118,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T22:02:19.230645"
+      "last_updated": "2026-09-16T22:18:41.253152"
     },
     {
       "match_id": "1039",
@@ -196,7 +141,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T22:02:19.231181"
+      "last_updated": "2026-09-16T22:18:41.253711"
     },
     {
       "match_id": "955",
@@ -219,7 +164,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T22:02:19.231704"
+      "last_updated": "2026-09-16T22:18:41.254261"
     },
     {
       "match_id": "992",
@@ -242,7 +187,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T22:02:19.232244"
+      "last_updated": "2026-09-16T22:18:41.254824"
     },
     {
       "match_id": "879",
@@ -265,7 +210,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T22:02:19.232775"
+      "last_updated": "2026-09-16T22:18:41.255378"
     },
     {
       "match_id": "988",
@@ -288,7 +233,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T22:02:19.233308"
+      "last_updated": "2026-09-16T22:18:41.255946"
     },
     {
       "match_id": "993",
@@ -311,7 +256,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T22:02:19.233833"
+      "last_updated": "2026-09-16T22:18:41.256508"
     },
     {
       "match_id": "989",
@@ -334,7 +279,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T22:02:19.234363"
+      "last_updated": "2026-09-16T22:18:41.257054"
     },
     {
       "match_id": "994",
@@ -357,7 +302,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T22:02:19.234900"
+      "last_updated": "2026-09-16T22:18:41.257612"
     },
     {
       "match_id": "995",
@@ -380,7 +325,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T22:02:19.235422"
+      "last_updated": "2026-09-16T22:18:41.258162"
     },
     {
       "match_id": "996",
@@ -403,7 +348,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T22:02:19.235950"
+      "last_updated": "2026-09-16T22:18:41.258725"
     },
     {
       "match_id": "956",
@@ -426,7 +371,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T22:02:19.236472"
+      "last_updated": "2026-09-16T22:18:41.259284"
     },
     {
       "match_id": "990",
@@ -449,7 +394,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T22:02:19.237001"
+      "last_updated": "2026-09-16T22:18:41.259854"
     },
     {
       "match_id": "1002",
@@ -472,7 +417,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T22:02:19.237529"
+      "last_updated": "2026-09-16T22:18:41.260422"
     },
     {
       "match_id": "1003",
@@ -495,7 +440,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T22:02:19.238061"
+      "last_updated": "2026-09-16T22:18:41.260970"
     },
     {
       "match_id": "1037",
@@ -518,7 +463,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T22:02:19.238582"
+      "last_updated": "2026-09-16T22:18:41.261543"
     },
     {
       "match_id": "1000",
@@ -541,7 +486,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T22:02:19.239109"
+      "last_updated": "2026-09-16T22:18:41.262103"
     },
     {
       "match_id": "1001",
@@ -564,7 +509,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T22:02:19.239634"
+      "last_updated": "2026-09-16T22:18:41.262662"
     },
     {
       "match_id": "1008",
@@ -587,7 +532,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T22:02:19.240174"
+      "last_updated": "2026-09-16T22:18:41.263217"
     },
     {
       "match_id": "1042",
@@ -610,7 +555,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T22:02:19.240704"
+      "last_updated": "2026-09-16T22:18:41.263778"
     },
     {
       "match_id": "1049",
@@ -633,7 +578,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T22:02:19.241234"
+      "last_updated": "2026-09-16T22:18:41.264338"
     },
     {
       "match_id": "1043",
@@ -656,7 +601,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-16T22:02:19.241760"
+      "last_updated": "2026-09-16T22:18:41.264919"
     }
   ]
 }
