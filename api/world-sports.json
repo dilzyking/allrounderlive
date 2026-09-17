@@ -1,115 +1,87 @@
 {
-  "timestamp": "2026-09-17T13:11:43.352872",
-  "total_matches": 37,
-  "live_count": 4,
-  "upcoming_count": 33,
+  "timestamp": "2026-09-17T13:16:47.861662",
+  "total_matches": 33,
+  "live_count": 3,
+  "upcoming_count": 30,
   "completed_count": 0,
   "matches": [
     {
-      "match_id": "1079",
-      "title": "Edinburgh Castle Rockers vs Belfast Wolves",
-      "teams": "Edinburgh Castle Rockers vs Belfast Wolves",
-      "sport": "cricket",
-      "sport_display": "Cricket",
+      "match_id": "1089",
+      "title": "Phnom Penh Crown vs Kuching City",
+      "teams": "Phnom Penh Crown vs Kuching City",
+      "sport": "football",
+      "sport_display": "Football",
       "status": "live",
       "status_display": "LIVE",
       "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789549080540x302.jpg",
-      "league": "European T20 Premier League 2026",
-      "viewers": "48",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1079",
-      "match_url": "live/edinburgh-castle-rockers-vs-belfast-wolves-1079",
-      "stream_url": "https://live.talkoraai.com/match/hls?t=23jjDnCVMxjtn2f0yB07ExzY3BzrRpHgeVdh-OmFwswvrMqJuuD3f7lLECvvE3F92YhGX9gyZ0nNGFf8wDTZuAVK7hhO2_65vZQM9lCjXATD7SHW_xvj4ra2JW75paZdr7HseH4qfPVA_1E5fo_2oOwxA0p-MI79sAv4twSAHFW4e5-kt6RxQYXBhnNzYKX3FN_Rf4BHwMSXVAekO6UBQflbX0_3nSFoEVbUkq24ytAv57AuJIjatxIeOcyoHpuQgunRvkr1hSk5Ca5exdD8GcNbX60GNQ",
-      "server_count": 4,
-      "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=23jjDnCVMxjtn2f0yB07ExzY3BzrRpHgeVdh-OmFwswvrMqJuuD3f7lLECvvE3F92YhGX9gyZ0nNGFf8wDTZuAVK7hhO2_65vZQM9lCjXATD7SHW_xvj4ra2JW75paZdr7HseH4qfPVA_1E5fo_2oOwxA0p-MI79sAv4twSAHFW4e5-kt6RxQYXBhnNzYKX3FN_Rf4BHwMSXVAekO6UBQflbX0_3nSFoEVbUkq24ytAv57AuJIjatxIeOcyoHpuQgunRvkr1hSk5Ca5exdD8GcNbX60GNQ",
-        "https://live.talkoraai.com/match/seg?t=hNicKp3pP0W8L6t5dMTur6TLJJ4AeCAI3CN1gvAuGqO45s242vmgAmx-LjMPqjaG9zXOcuAR_yEvhJ3mCHjgsiQQk5CQrN3x4uI_Y7salv8sEAWmIQDUEsueyoS_xWF9xwsJJRj_42_FmWLzh6_nSRZdnLndXQYbjs1me0-uprXNpVtu6Z5mylAZWJVieZzaxH37j5lwhQiljPuuHwC1obF4YAkmjj52_pAEbIk7myHSPKeOef7lcW9OuNqkBOdo2iiORR62P5Dl3rwHjupnoxrsorjui5CHbv7XTf-L",
-        "https://tvsen5.aynascope.net/cXPB2LKkErN9/tracks-v1a1/mono.ts.m3u8",
-        "https://tvsen7.aynascope.net/ssport2hd/tracks-v1a1/mono.ts.m3u8"
-      ],
-      "last_updated": "2026-09-17T12:08:05.248526"
-    },
-    {
-      "match_id": "1086",
-      "title": "Machida Zelvia (JPN) vs Preah Khan Reach Svay Rieng",
-      "teams": "Machida Zelvia (JPN) vs Preah Khan Reach Svay Rieng",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789628636540x302.jpg",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248968_53057_PPC_KFC_fc-web_1789025065266.jpg",
       "league": "AFC Champions League Two 2026-27",
-      "viewers": "26",
+      "viewers": "2",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
       "servers": null,
-      "page_url": "/world-sports/player.html?id=1086",
-      "match_url": "live/machida-zelvia-jpn-vs-preah-khan-reach-svay-rieng-1086",
-      "stream_url": "https://live.talkoraai.com/match/hls?t=NMJrl7IVm847Zuxx26JLlNCdpD8RXMiPXKDb4M_rsba0N-9jroj42FacMcCH4M46auJpwXinfnV7cDCX568NqMBfl3ZT9uibywY9lGDKOf0EDNhQjMW98qPE-csIUluiI7lwk23PNNY6P69NO7Q--jKx4sQRUaLGKf0zcKMop42dJaswYZ3UjNra3qedRVpuuc_7SOZL1RE5t-G0dz2w0PydNiMNd0EIHpaVE8Zalo_8cYZXJRNuzk24WzQ0k5KMuqMzOhywKObb11-GHwN7SDyE715Z",
+      "page_url": "/world-sports/player.html?id=1089",
+      "match_url": "live/phnom-penh-crown-vs-kuching-city-1089",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=9XUzydaa-m-TnDFaDC-XUpFUZgaKPLW9a7gIAbL0nzzI1Dl3wib7Yq7eTjnq3MCrd-g31WQn42yy3iLvIIt-G0w2rzocoRVWyAi3W9UFx9Acy5hbiUMbIpuJc5hqbRxzJ0gD5dFe91z8L5trK8DEg8hkIpYWQKuMdtlm9enzFyGUxkcRjuNUjvUdgM0srDaxnBGIetmir_viQLHKU4Q5oPW3K1Vhue-e20OEUgZk4kMyJXqWEhkp2x7nnzQRTdAIYT4tUSRJEEa6c3qEz0hdzXXMPWUYM1DpsMeQgAkIQF02UmVOdmY",
       "server_count": 2,
       "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=NMJrl7IVm847Zuxx26JLlNCdpD8RXMiPXKDb4M_rsba0N-9jroj42FacMcCH4M46auJpwXinfnV7cDCX568NqMBfl3ZT9uibywY9lGDKOf0EDNhQjMW98qPE-csIUluiI7lwk23PNNY6P69NO7Q--jKx4sQRUaLGKf0zcKMop42dJaswYZ3UjNra3qedRVpuuc_7SOZL1RE5t-G0dz2w0PydNiMNd0EIHpaVE8Zalo_8cYZXJRNuzk24WzQ0k5KMuqMzOhywKObb11-GHwN7SDyE715Z",
-        "https://live.talkoraai.com/match/seg?t=v-4Ryz1j_Z5W4Et8aK5FHPHsJC0NVf3mk27kP1ep9rNh4B36hsjZGZesCIhFdVATEBhfztosEvyRjCyX8Fbz7IAB2UHk-Gm-ob-Z53S8oRBfM5bI2cW8jz9ALGw-IdpKuAgYFIMa10uP4pr6hcaI86J5SQt9QNhjG7TvoDg22Hz1hSxLeP9qqCzM179nC-F4ZljEkzKs9u279yIQtChC_hVKyQto5oaCYl1WZeAoVzYVU-Pcq6nuiPiSeEB59ZYIIO1CZlyqSbK2fsUtNSrOhFNrNUYLEQ9y2xWxiQ"
+        "https://live.talkoraai.com/match/hls?t=9XUzydaa-m-TnDFaDC-XUpFUZgaKPLW9a7gIAbL0nzzI1Dl3wib7Yq7eTjnq3MCrd-g31WQn42yy3iLvIIt-G0w2rzocoRVWyAi3W9UFx9Acy5hbiUMbIpuJc5hqbRxzJ0gD5dFe91z8L5trK8DEg8hkIpYWQKuMdtlm9enzFyGUxkcRjuNUjvUdgM0srDaxnBGIetmir_viQLHKU4Q5oPW3K1Vhue-e20OEUgZk4kMyJXqWEhkp2x7nnzQRTdAIYT4tUSRJEEa6c3qEz0hdzXXMPWUYM1DpsMeQgAkIQF02UmVOdmY",
+        "https://live.talkoraai.com/match/seg?t=qfDqZY2Wsn9ytS1dzl6w-oty_p65ZR0adUwF-f5Jwnx4CRfmIRoYKO34gSS6Io3lEcAPvSwoD3pkh-FwW8eNagHAwpQHEJf4-_V0JEEv91YzaMshsCiHvKqucANFc7B33pAgyZ9FUIvKDrLKOAclEos3hCjZ0sKnO1Cc9NVYnyjwhU33epFk7FR81jVX86wkSCKGZMvpry09H5hs9OZFTTiJBmaDh7X5a0dTRg-ZFSZsYyGjZjUgqXmciP5DiktZBFKYtTnxbJhZSNPgH7Vu42wEwpxkL6ALkNG8CreaZCSOjvYWRsG5nbvd1QBpOw"
       ],
-      "last_updated": "2026-09-17T12:08:06.050577"
+      "last_updated": "2026-09-17T13:11:55.837248"
     },
     {
-      "match_id": "1085",
-      "title": "Lion City Sailors  (SGP) vs BG Pathum United",
-      "teams": "Lion City Sailors  (SGP) vs BG Pathum United",
-      "sport": "cricket",
-      "sport_display": "Cricket",
+      "match_id": "1088",
+      "title": "Kitchee SC vs Gangwon",
+      "teams": "Kitchee SC vs Gangwon",
+      "sport": "football",
+      "sport_display": "Football",
       "status": "live",
       "status_display": "LIVE",
       "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789627823540x302.jpg",
-      "league": "Adelaide United  (AUS) vs Tai Po",
-      "viewers": "24",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1085",
-      "match_url": "live/lion-city-sailors-sgp-vs-bg-pathum-united-1085",
-      "stream_url": "https://live.talkoraai.com/match/hls?t=0W6nGJuHAssqkfi8YhCnxEmONT5VjeFrWgzjiAYhWkHPz2eabCF7v4RK3Fy79KHZMgCvaeBoOnV0GmO3FcvMZuVdk5xhD-ZkK1gUVQ9Np6-_08R7rCBKdKt5B9sgrDG6vcZPeEVdEe4RFSlGQgb9DxxG-Ex9JM85T2sjLK5P9n4ktlsbCM2SlvjHaEa0Pit6zxa3tieq7QxdLD0EFMMxJgxHrOmpXVxjtw6z0t_9wskEYDgg5uEsAo6q_HObT3UtaAvWSFh1LQmAX56jj52lQcR7mDY2",
-      "server_count": 2,
-      "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=0W6nGJuHAssqkfi8YhCnxEmONT5VjeFrWgzjiAYhWkHPz2eabCF7v4RK3Fy79KHZMgCvaeBoOnV0GmO3FcvMZuVdk5xhD-ZkK1gUVQ9Np6-_08R7rCBKdKt5B9sgrDG6vcZPeEVdEe4RFSlGQgb9DxxG-Ex9JM85T2sjLK5P9n4ktlsbCM2SlvjHaEa0Pit6zxa3tieq7QxdLD0EFMMxJgxHrOmpXVxjtw6z0t_9wskEYDgg5uEsAo6q_HObT3UtaAvWSFh1LQmAX56jj52lQcR7mDY2",
-        "https://live.talkoraai.com/match/seg?t=By9mjIlhIzhTG_7c79ePSt1HSDDQcWsH19hPgnIRd_ptP6OEFiaXsoaJNc89H_6IxZYsiO79r7qLvQNAM-KF9QUeZUPVNFXLBVGpn1GzNhROo1-p3tmyt4frhJ66csxp-UJWG5eN-_eK14nbvJUy0n3cnZ-hAx7rf_6UHu6sYq5Fb6vVP0l8jyP-qZn6eQJSRd4pf4zdKt6U9R-CQaBggBDtpkU_0piMieJtMDTOdwE10wTXIuDJA1GMf1rrzhHjbAGQ-M3G4_nIejZ5rQO_XuGCwLRhexDUpyAJpQ"
-      ],
-      "last_updated": "2026-09-17T12:08:06.342190"
-    },
-    {
-      "match_id": "1084",
-      "title": "Adelaide United  (AUS) vs Tai Po",
-      "teams": "Adelaide United  (AUS) vs Tai Po",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789628278540x302.jpg",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248967_53057_KIT_GW_fc-web_1789025065270.jpg",
       "league": "AFC Champions League Two 2026-27",
-      "viewers": "24",
+      "viewers": "3",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
       "servers": null,
-      "page_url": "/world-sports/player.html?id=1084",
-      "match_url": "live/adelaide-united-aus-vs-tai-po-1084",
-      "stream_url": "https://live.talkoraai.com/match/hls?t=uNvkAPmdKY4yOHDEblCxiMKCc3SBnbubaKCSH3bZ3aK0Cmwy1Naebyw-v4sGVTjuO7B4HpQvlR0pVb3Akbcs8E2zBGKeccRt-oadW4JPGVxiyQZMH9BEFdpjjYM1Jp2G82uBVAjD_EZbsyT1TNi-gqDlJBR4jW87K8R8GSAB3tp-Ww9QPZNqMQdkcu5SoBbjzH2WIPZe7CqctMUWNZ7Rao2b2ncdnyYW25leXQBKIvIlQhgZygCZRAMSRN5P8a1v1vDkOsAa4oQlpR9MEE2zDxPXwS5RXMleGQ",
+      "page_url": "/world-sports/player.html?id=1088",
+      "match_url": "live/kitchee-sc-vs-gangwon-1088",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=TyrhSBqFlbEHgfdRofvh77oIrL3CTCOu8_AnYdtAT0_6GBDw7rV4UtcMuYgO_VFuK8T_XrrLUGqeZ8XjA2zGnxSh1Vb7Qp4g0f34BL_mALjPEyPliI-ME-OBIH366sORgKwzn0oxAaodc5P4MMqOZp8u48zPWHmYEUyYIdlXQYrAsTVJMCzm8A4Wv1eJXk5eZui-SiZBUmo5cdKb3oLwPeAN9Hudq3QGkPInI4sPyOL84ps2UtybhWkxCxli8RaCmljkHhM2Uqm4otrxatv5ELBQUG_NXeFg3A",
       "server_count": 2,
       "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=uNvkAPmdKY4yOHDEblCxiMKCc3SBnbubaKCSH3bZ3aK0Cmwy1Naebyw-v4sGVTjuO7B4HpQvlR0pVb3Akbcs8E2zBGKeccRt-oadW4JPGVxiyQZMH9BEFdpjjYM1Jp2G82uBVAjD_EZbsyT1TNi-gqDlJBR4jW87K8R8GSAB3tp-Ww9QPZNqMQdkcu5SoBbjzH2WIPZe7CqctMUWNZ7Rao2b2ncdnyYW25leXQBKIvIlQhgZygCZRAMSRN5P8a1v1vDkOsAa4oQlpR9MEE2zDxPXwS5RXMleGQ",
-        "https://live.talkoraai.com/match/seg?t=0bfYM9J9sR_HaiNUCEgBd8xxjJs62wPE_z8c8mkoFdZUAwHH_WENBMkFB7gZvR4grUfKGWEQCQrNuQxkxVOlicWwfNmmwnaHSaGoa6DDOIvcTZ7ywSrgpRJtPMdedRIQtQn2tUd4ZJbfK2WVp2aEfD0jUIMomAdWGR1U3X22-Gujn5VG_AtQhXAqhwxPsz8VIaIq142QvS3LJsyLpW1peIKHEIzujXKtBTKkEAt2QE3S6bKDz6EyMcPO-ZOt9eZZIANxC1iiqkCSXyQ2w9Yf5cCx0pfXilRH3bXPXK76dC6y"
+        "https://live.talkoraai.com/match/hls?t=TyrhSBqFlbEHgfdRofvh77oIrL3CTCOu8_AnYdtAT0_6GBDw7rV4UtcMuYgO_VFuK8T_XrrLUGqeZ8XjA2zGnxSh1Vb7Qp4g0f34BL_mALjPEyPliI-ME-OBIH366sORgKwzn0oxAaodc5P4MMqOZp8u48zPWHmYEUyYIdlXQYrAsTVJMCzm8A4Wv1eJXk5eZui-SiZBUmo5cdKb3oLwPeAN9Hudq3QGkPInI4sPyOL84ps2UtybhWkxCxli8RaCmljkHhM2Uqm4otrxatv5ELBQUG_NXeFg3A",
+        "https://live.talkoraai.com/match/seg?t=Kd2qObGOAoNG9rOcCfqJbNH3rooPvhCSnFXVQM0HkUGaLAGoBVR-uMjbs_-B6CCWjuWga_RP3hJ6GpTGSCFe0WP1vGobqZWcZHq7VhGu67tbb1OxAcqgcBVb8SknFpAsv1rw816ely_mUpbKYx20bhuMx_49PHD3uL2AOS9ZZXkP7i7kmjWA0wmOBn9P-18CbRHl-9y2IKaKxyIs0FPvhI8BuTZ-PZehXEq15qdSqDLT3nRooox2S1g94O8ac12vqLSFHkMSdCN6n6XWyGl1Tr3pYTbJNiAyhtsADRHz9Z6z"
       ],
-      "last_updated": "2026-09-17T12:08:06.626409"
+      "last_updated": "2026-09-17T13:11:57.268675"
+    },
+    {
+      "match_id": "1087",
+      "title": "Shanghai Shenhua vs Tampines Rovers",
+      "teams": "Shanghai Shenhua vs Tampines Rovers",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248966_53057_SHN_TAM_fc-web_1789025066387.jpg",
+      "league": "AFC Champions League Two 2026-27",
+      "viewers": "2",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1087",
+      "match_url": "live/shanghai-shenhua-vs-tampines-rovers-1087",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=Vftqs06ZEn6VRopN41rChfig0XhNiwV_Oa4ltNTSZRyZFh8CSA143pGZbddVhkbJprijh_3l8ikfU1F_tvSLH76fcuLjL4Dwx-08a8jmEHDxrOjl-V-nANMpBe5u29124PdY-4LdWd27h1PMTPc0yBJAVU2dwKhyXFOE4uKd1keCdA9KyGwkYOWVBIZ1PnQ22Hpz6zXqid9qjseCoC9qzt7cfHCr7OwVMCqAoupCuTwTR-0P6Nsv3H9i0mWT20iK-MTH_nVif2CNZb4HyOdy3eu6Y_-t",
+      "server_count": 2,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=Vftqs06ZEn6VRopN41rChfig0XhNiwV_Oa4ltNTSZRyZFh8CSA143pGZbddVhkbJprijh_3l8ikfU1F_tvSLH76fcuLjL4Dwx-08a8jmEHDxrOjl-V-nANMpBe5u29124PdY-4LdWd27h1PMTPc0yBJAVU2dwKhyXFOE4uKd1keCdA9KyGwkYOWVBIZ1PnQ22Hpz6zXqid9qjseCoC9qzt7cfHCr7OwVMCqAoupCuTwTR-0P6Nsv3H9i0mWT20iK-MTH_nVif2CNZb4HyOdy3eu6Y_-t",
+        "https://live.talkoraai.com/match/seg?t=gVWH2x1_bhRpdGgU19rlO7Zbj3JE0sdoLOCV3A4VUy5I6deGRY8LioGSvWyi6bNIR9H80U2gZNPX66P0nXPzK1W9SWdMThi8kj98O1FPOPqYDiDSmzzzYR4gGRKAvzXfY5XHuQDvGWkU6rMLTkzVCGW3Vu_6Lp8dowjQHMyDapBHzzQSfdGQNf8QEE5E69uiSHGizaJegSSoq2F-v8pCTDCKJ-PYK_fvIIc-gQi7psjrWxS5KdIiGCnv2emnSTuXr0708bsE91CSvhuRj1uZRTxoJNGOlRVHTuw1nQ"
+      ],
+      "last_updated": "2026-09-17T13:11:57.583927"
     },
     {
       "match_id": "1080",
@@ -122,7 +94,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789549199540x302.jpg",
       "league": "European T20 Premier League 2026",
-      "viewers": "3",
+      "viewers": "4",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -132,7 +104,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T12:08:07.013509"
+      "last_updated": "2026-09-17T13:11:57.883040"
     },
     {
       "match_id": "906",
@@ -155,7 +127,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T12:08:07.014009"
+      "last_updated": "2026-09-17T13:11:57.883403"
     },
     {
       "match_id": "1082",
@@ -178,7 +150,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T12:08:07.014459"
+      "last_updated": "2026-09-17T13:11:57.883717"
     },
     {
       "match_id": "1081",
@@ -201,7 +173,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T12:08:07.014890"
+      "last_updated": "2026-09-17T13:11:57.884038"
     },
     {
       "match_id": "986",
@@ -224,7 +196,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T12:08:07.015312"
+      "last_updated": "2026-09-17T13:11:57.884337"
     },
     {
       "match_id": "1057",
@@ -247,7 +219,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T12:08:07.015761"
+      "last_updated": "2026-09-17T13:11:57.884631"
     },
     {
       "match_id": "1090",
@@ -270,7 +242,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T12:08:07.016194"
+      "last_updated": "2026-09-17T13:11:57.884944"
     },
     {
       "match_id": "892",
@@ -293,7 +265,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T12:08:07.016636"
+      "last_updated": "2026-09-17T13:11:57.885244"
     },
     {
       "match_id": "987",
@@ -316,7 +288,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T12:08:07.017063"
+      "last_updated": "2026-09-17T13:11:57.885547"
     },
     {
       "match_id": "1039",
@@ -339,7 +311,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T12:08:07.017498"
+      "last_updated": "2026-09-17T13:11:57.885844"
     },
     {
       "match_id": "955",
@@ -362,7 +334,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T12:08:07.017938"
+      "last_updated": "2026-09-17T13:11:57.886140"
     },
     {
       "match_id": "992",
@@ -385,7 +357,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T12:08:07.018366"
+      "last_updated": "2026-09-17T13:11:57.886442"
     },
     {
       "match_id": "879",
@@ -408,7 +380,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T12:08:07.018818"
+      "last_updated": "2026-09-17T13:11:57.886747"
     },
     {
       "match_id": "988",
@@ -431,7 +403,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T12:08:07.019246"
+      "last_updated": "2026-09-17T13:11:57.887048"
     },
     {
       "match_id": "993",
@@ -454,7 +426,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T12:08:07.019678"
+      "last_updated": "2026-09-17T13:11:57.887331"
     },
     {
       "match_id": "989",
@@ -477,7 +449,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T12:08:07.020100"
+      "last_updated": "2026-09-17T13:11:57.887616"
     },
     {
       "match_id": "994",
@@ -500,7 +472,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T12:08:07.020532"
+      "last_updated": "2026-09-17T13:11:57.887914"
     },
     {
       "match_id": "995",
@@ -523,7 +495,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T12:08:07.020960"
+      "last_updated": "2026-09-17T13:11:57.888210"
     },
     {
       "match_id": "996",
@@ -546,7 +518,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T12:08:07.021384"
+      "last_updated": "2026-09-17T13:11:57.888503"
     },
     {
       "match_id": "956",
@@ -569,7 +541,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T12:08:07.021823"
+      "last_updated": "2026-09-17T13:11:57.888787"
     },
     {
       "match_id": "990",
@@ -592,7 +564,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T12:08:07.022249"
+      "last_updated": "2026-09-17T13:11:57.889089"
     },
     {
       "match_id": "1002",
@@ -615,7 +587,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T12:08:07.022679"
+      "last_updated": "2026-09-17T13:11:57.889383"
     },
     {
       "match_id": "1003",
@@ -638,7 +610,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T12:08:07.023105"
+      "last_updated": "2026-09-17T13:11:57.889673"
     },
     {
       "match_id": "1037",
@@ -661,7 +633,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T12:08:07.023538"
+      "last_updated": "2026-09-17T13:11:57.889972"
     },
     {
       "match_id": "1000",
@@ -684,7 +656,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T12:08:07.023965"
+      "last_updated": "2026-09-17T13:11:57.890266"
     },
     {
       "match_id": "1001",
@@ -707,7 +679,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T12:08:07.024409"
+      "last_updated": "2026-09-17T13:11:57.890551"
     },
     {
       "match_id": "1008",
@@ -730,7 +702,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T12:08:07.024841"
+      "last_updated": "2026-09-17T13:11:57.890849"
     },
     {
       "match_id": "1042",
@@ -753,7 +725,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T12:08:07.025266"
+      "last_updated": "2026-09-17T13:11:57.891138"
     },
     {
       "match_id": "1049",
@@ -776,7 +748,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T12:08:07.025698"
+      "last_updated": "2026-09-17T13:11:57.891424"
     },
     {
       "match_id": "1043",
@@ -799,76 +771,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T12:08:07.026120"
-    },
-    {
-      "match_id": "1089",
-      "title": "Phnom Penh Crown vs Kuching City",
-      "teams": "Phnom Penh Crown vs Kuching City",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248968_53057_PPC_KFC_fc-web_1789025065266.jpg",
-      "league": "AFC Champions League Two 2026-27",
-      "viewers": "1",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1089",
-      "match_url": "live/phnom-penh-crown-vs-kuching-city-1089",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-17T12:08:07.026551"
-    },
-    {
-      "match_id": "1088",
-      "title": "Kitchee SC vs Gangwon",
-      "teams": "Kitchee SC vs Gangwon",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248967_53057_KIT_GW_fc-web_1789025065270.jpg",
-      "league": "AFC Champions League Two 2026-27",
-      "viewers": "1",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1088",
-      "match_url": "live/kitchee-sc-vs-gangwon-1088",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-17T12:08:07.026979"
-    },
-    {
-      "match_id": "1087",
-      "title": "Shanghai Shenhua vs Tampines Rovers",
-      "teams": "Shanghai Shenhua vs Tampines Rovers",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248966_53057_SHN_TAM_fc-web_1789025066387.jpg",
-      "league": "AFC Champions League Two 2026-27",
-      "viewers": "1",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1087",
-      "match_url": "live/shanghai-shenhua-vs-tampines-rovers-1087",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-17T12:08:07.027402"
+      "last_updated": "2026-09-17T13:11:57.891711"
     }
   ]
 }
