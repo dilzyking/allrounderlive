@@ -1,38 +1,10 @@
 {
-  "timestamp": "2026-09-17T18:32:11.586896",
+  "timestamp": "2026-09-17T18:54:10.531249",
   "total_matches": 34,
-  "live_count": 5,
-  "upcoming_count": 29,
+  "live_count": 6,
+  "upcoming_count": 28,
   "completed_count": 0,
   "matches": [
-    {
-      "match_id": "986",
-      "title": "Real Betis vs Getafe CF",
-      "teams": "Real Betis vs Getafe CF",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247620_53004_RB_GEF_FC-Web.png",
-      "league": "LALIGA 2026-27",
-      "viewers": "48",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=986",
-      "match_url": "live/real-betis-vs-getafe-cf-986",
-      "stream_url": "https://live.talkoraai.com/match/hls?t=-7wZNUC2y-iAwDGe7QR3OGuSFkk4gx8TQAv2FV7_me14wpuG3O-ScGmAJMJ0oDiMuLvXy5TGu_P6FuCm88qz1NEu0TJND6aYIU2cWUrnhZ-o9CKs6ZlYmWiZmXwBEnzFBxQVyfpHXcsFyZDGfl-dwWTnE0bSpgaowXOsjg_hpw9n_71c25iZTMqhywf-WhrclEuk-vnWM1d6rJiFSuxMzFKvGVMEirssnyBUZKHGvmmYHrakdvobegh6ATsqUITYH37Cjswkt-za4_7XjuN9rNOSiw",
-      "server_count": 4,
-      "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=-7wZNUC2y-iAwDGe7QR3OGuSFkk4gx8TQAv2FV7_me14wpuG3O-ScGmAJMJ0oDiMuLvXy5TGu_P6FuCm88qz1NEu0TJND6aYIU2cWUrnhZ-o9CKs6ZlYmWiZmXwBEnzFBxQVyfpHXcsFyZDGfl-dwWTnE0bSpgaowXOsjg_hpw9n_71c25iZTMqhywf-WhrclEuk-vnWM1d6rJiFSuxMzFKvGVMEirssnyBUZKHGvmmYHrakdvobegh6ATsqUITYH37Cjswkt-za4_7XjuN9rNOSiw",
-        "https://live.talkoraai.com/match/seg?t=Z9aNHJUE-6_XLPn9fnym8br1IQsMkXgm96HU-4X4xWSnFYYMS6a2FfCxDn9AKBzER4oK8p7Ku8xjYkjg4p9TBnh_N6bTAWz8ybBr_QBecCWaoxZ-XQB_ciHcbbvRubrOjDIJTxIBn5KpbRxbhUIjJWYgmJcoCqaS82KIkxL1G2SE0LOsrGXGVBxZytdM8KFPlo0Un3pDi9yvk53lGRYkJXCHe2EBGzyV1uug90Fe4bA7ruU1ISlz6vMtqB6ocOtWiCBvdyWOWwtkGootVfxVk0i8kggl6yazdctM",
-        "https://www.rtmpcdn.com/live/46f5245a-b905-4b6a-92ab-d581ef85e52e.m3u8",
-        "https://play.aarray.cn/rrty/hd-zh-1-4565408_gqzm.m3u8?auth_key=1789669504-0-0-f5b2bb0f28c654fee16f2f3180be096e&token=20c2ceb64428b225&device=4&platform=rrty"
-      ],
-      "last_updated": "2026-09-17T18:23:46.911552"
-    },
     {
       "match_id": "1057",
       "title": "England vs Sri Lanka-2nd T20",
@@ -44,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789471490540x302.jpg",
       "league": "Sri Lanka tour of England, 2026",
-      "viewers": "79",
+      "viewers": "84",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -62,7 +34,7 @@
         "https://drk6xq0vhn.gpcdn.net/live/ten_1_hd_720/index.m3u8",
         "https://drk6xq0vhn.gpcdn.net/live/ten_1_hd_720/chunks.m3u8?nimblesessionid=178108663"
       ],
-      "last_updated": "2026-09-17T18:23:48.269556"
+      "last_updated": "2026-09-17T18:36:56.083940"
     },
     {
       "match_id": "1090",
@@ -75,7 +47,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249091_53061_TKR-W_GUY-W_FC-Web.png",
       "league": "Women's Caribbean Premier League, 2026",
-      "viewers": "13",
+      "viewers": "15",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -88,7 +60,33 @@
         "https://live.talkoraai.com/match/hls?t=lzY6bzNPbizKTMHjPwXVTGgI3NkrwDvdYpJcB6y4TYf4U8z-guFPOZwssccmdirRUKNwnchDkK3vlXBdkUfDBZSp8OiGFk8D3Xq0_q3-KOhj9n1UG0DQVzKeiXYogDyDEYqQrqSlSKxRj9zUHhlTUdPBNVV_lY45xwr3e4Oq07dqT6jv39Qe03hKyAbSo9kiEQunH1cE_xDYnZXbHPzzcCvkaRTCkdaxA4u5wzHh8vy6JR_G66xaXnMJ918t3-I9HcG7zlMa8fCDNJrh3ehGAZA",
         "https://live.talkoraai.com/match/seg?t=bdJntSzAJmQzyQ3xzW11Z7naTLyORErO3s-soJLb7WyEN6hgsUcvNhgsJ2T12f5IH7i-QrNVor4a6Wio_OnLV7agX86OUBI8Dw0feuEA_nHGLAjdgDVKkJ1BhkpkEdzgfvbhypazjvGYbY8PtU9ZAzTZliQwox678tronHmdLSP8_i2I0UjXCkMDCGD_e2GlI9Cg1_m0MVBM3TLuzptRSuUE3NB7HLbX_-qCBmV7B0eEFXBjjOOfCaojocnk7gBw91XuplJF9v6Jk2N4_HiI2FsIDc2J2fEPbg"
       ],
-      "last_updated": "2026-09-17T18:23:48.556808"
+      "last_updated": "2026-09-17T18:36:57.113912"
+    },
+    {
+      "match_id": "892",
+      "title": "Manchester City vs Norwich City F.C.",
+      "teams": "Manchester City vs Norwich City F.C.",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249062_53016_MCI_NOR_fc-web.jpg",
+      "league": "EFL Cup",
+      "viewers": "17",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=892",
+      "match_url": "live/manchester-city-vs-norwich-city-f-c-892",
+      "stream_url": "https://www.rtmpcdn.com/live/f2988997-b1f7-44ad-9c47-4138ca5f924c.m3u8",
+      "server_count": 2,
+      "server_urls": [
+        "https://www.rtmpcdn.com/live/f2988997-b1f7-44ad-9c47-4138ca5f924c.m3u8",
+        "https://play.aarray.cn/rrty/sd-1-4628318_gqzm.m3u8?auth_key=1789673342-0-0-df7e034497c3538a1fbaee5fb7cbb9b1&token=5bf4b19b8aef5781&device=4&platform=rrty"
+      ],
+      "last_updated": "2026-09-17T18:36:57.381461"
     },
     {
       "match_id": "1082",
@@ -101,7 +99,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789553413540x302.jpg",
       "league": "UEFA Europa League",
-      "viewers": "27",
+      "viewers": "30",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -114,7 +112,7 @@
         "https://live.talkoraai.com/match/hls?t=qjy3f3av4bXLF3XaNTQpTVD63DbRIMjDy_oaR7wXR1UMlNtzKUP9Dw5B9roY34RA3TNS5tW4jZkSufnx0a-XbctlVf6sgfe1gcs9jJP82qiOk0_eBctdfZ5lhbGTOq4Ir5Qz2Z-KcRv-Lr4tV83FcD8_TRRJ4bTrHLOyQwLZfR1HPzY38Dz96yC3u2aT06wO0tF3xG_QyLoSCu2jFSaP8zCT9JNry-qLNcLbEnMHH83QH5k30CUrdHxre0lrBRgSNVZvBw2aG85N5gx3",
         "https://live.talkoraai.com/match/seg?t=oixeJqbebYgw7pw57KQGpzT9WvBbfp6E7TfVKQRIS9sBuG6Noy7xuO6f5i30sHQtJGdBMYhqwHofrgHVx6ZDg-HoTmscsmGJXGdbC3WE8r8kw7OeQLbFYl3GenhmRoCWIDoLspAcF-K_CAIX8XGbkCOFC_PJDSwh-3qHS9nfM2H1xf2wRm2dd-SwTYRUjgDjLnCQgr4yEkTmc4iE2U2NYPQI30yi9PgCUWTxu7pPfuwyOTUErkAOjBjCbS0WfQ0BeqSPnVQ0gCNIMR5Hj7PoXC7c_34"
       ],
-      "last_updated": "2026-09-17T18:23:48.847039"
+      "last_updated": "2026-09-17T18:36:57.650010"
     },
     {
       "match_id": "1081",
@@ -127,7 +125,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789556663540x302.jpg",
       "league": "UEFA Europa League",
-      "viewers": "31",
+      "viewers": "33",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -140,30 +138,35 @@
         "https://live.talkoraai.com/match/hls?t=TvNQB5r3VBsI89ggcb5YL9pjhavYF7qO9rvebUBWOqMAlhdfIGrbuSr8Si2tZpnt6-WRURqPukN0FctMI0Ln5udhnhPkPgIR-UetDQDKgpcv8kvld7lTedLeQU_sOAtnkOf-RPsTn0RXPrPFAN4DHEgL35ljRIBeJn6OgbrfWM19WWgcLJ4qO3_o0JQVrTOZz-6kZereXoQyN1ysStH1Cio4ci7aUJnwydO5fsie8KLIxZEaWy-UYXxh_axNS5cMdYuoX629EaWXoXWQ",
         "https://live.talkoraai.com/match/seg?t=PCjjZcwp12RB4G9mqoZ-XLjjWRThTl75wEnp_qq0zY_53YcRclACJ4JMPF-WFlcF_bSoHP1pjAU9YvEUM8C2zf32CkJeIdr_ARhzNlqK5hGRHugMM3D6PDwMglsdSIc52gdFNuJVmJs-rjcMiIGWF8FlnGiD30OkO_SowbUFnZjKZ5ETw2Gcerf2nZo1jYcZ83RISiXZXt8JmbZwLELCW3McC9ldNtfMFx3ULOPDZY223BNbHbYOGD7kqGvF3lXrqhPLrx0ZmmVFMJMSIRTGapLC21w"
       ],
-      "last_updated": "2026-09-17T18:23:49.133167"
+      "last_updated": "2026-09-17T18:36:57.919065"
     },
     {
-      "match_id": "892",
-      "title": "Manchester City vs Norwich City F.C.",
-      "teams": "Manchester City vs Norwich City F.C.",
+      "match_id": "986",
+      "title": "Real Betis vs Getafe CF",
+      "teams": "Real Betis vs Getafe CF",
       "sport": "football",
       "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
+      "status": "live",
+      "status_display": "LIVE",
       "runtime": "00h 00m 00s",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249062_53016_MCI_NOR_fc-web.jpg",
-      "league": "EFL Cup",
-      "viewers": "15",
-      "viewers_type": "Waiting",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247620_53004_RB_GEF_FC-Web.png",
+      "league": "LALIGA 2026-27",
+      "viewers": "51",
+      "viewers_type": "Watching",
       "date": null,
       "time": null,
       "servers": null,
-      "page_url": "/world-sports/player.html?id=892",
-      "match_url": "live/manchester-city-vs-norwich-city-f-c-892",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-17T18:23:49.418089"
+      "page_url": "/world-sports/player.html?id=986",
+      "match_url": "live/real-betis-vs-getafe-cf-986",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=-7wZNUC2y-iAwDGe7QR3OGuSFkk4gx8TQAv2FV7_me14wpuG3O-ScGmAJMJ0oDiMuLvXy5TGu_P6FuCm88qz1NEu0TJND6aYIU2cWUrnhZ-o9CKs6ZlYmWiZmXwBEnzFBxQVyfpHXcsFyZDGfl-dwWTnE0bSpgaowXOsjg_hpw9n_71c25iZTMqhywf-WhrclEuk-vnWM1d6rJiFSuxMzFKvGVMEirssnyBUZKHGvmmYHrakdvobegh6ATsqUITYH37Cjswkt-za4_7XjuN9rNOSiw",
+      "server_count": 4,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=-7wZNUC2y-iAwDGe7QR3OGuSFkk4gx8TQAv2FV7_me14wpuG3O-ScGmAJMJ0oDiMuLvXy5TGu_P6FuCm88qz1NEu0TJND6aYIU2cWUrnhZ-o9CKs6ZlYmWiZmXwBEnzFBxQVyfpHXcsFyZDGfl-dwWTnE0bSpgaowXOsjg_hpw9n_71c25iZTMqhywf-WhrclEuk-vnWM1d6rJiFSuxMzFKvGVMEirssnyBUZKHGvmmYHrakdvobegh6ATsqUITYH37Cjswkt-za4_7XjuN9rNOSiw",
+        "https://live.talkoraai.com/match/seg?t=Z9aNHJUE-6_XLPn9fnym8br1IQsMkXgm96HU-4X4xWSnFYYMS6a2FfCxDn9AKBzER4oK8p7Ku8xjYkjg4p9TBnh_N6bTAWz8ybBr_QBecCWaoxZ-XQB_ciHcbbvRubrOjDIJTxIBn5KpbRxbhUIjJWYgmJcoCqaS82KIkxL1G2SE0LOsrGXGVBxZytdM8KFPlo0Un3pDi9yvk53lGRYkJXCHe2EBGzyV1uug90Fe4bA7ruU1ISlz6vMtqB6ocOtWiCBvdyWOWwtkGootVfxVk0i8kggl6yazdctM",
+        "https://www.rtmpcdn.com/live/46f5245a-b905-4b6a-92ab-d581ef85e52e.m3u8",
+        "https://play.aarray.cn/rrty/hd-zh-1-4565408_gqzm.m3u8?auth_key=1789669504-0-0-f5b2bb0f28c654fee16f2f3180be096e&token=20c2ceb64428b225&device=4&platform=rrty"
+      ],
+      "last_updated": "2026-09-17T18:36:58.188979"
     },
     {
       "match_id": "1091",
@@ -186,7 +189,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T18:23:49.418502"
+      "last_updated": "2026-09-17T18:36:58.456059"
     },
     {
       "match_id": "987",
@@ -209,7 +212,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T18:23:49.418859"
+      "last_updated": "2026-09-17T18:36:58.456778"
     },
     {
       "match_id": "1039",
@@ -232,7 +235,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T18:23:49.419194"
+      "last_updated": "2026-09-17T18:36:58.457425"
     },
     {
       "match_id": "955",
@@ -255,7 +258,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T18:23:49.419534"
+      "last_updated": "2026-09-17T18:36:58.458052"
     },
     {
       "match_id": "992",
@@ -278,7 +281,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T18:23:49.419897"
+      "last_updated": "2026-09-17T18:36:58.458710"
     },
     {
       "match_id": "879",
@@ -301,7 +304,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T18:23:49.420245"
+      "last_updated": "2026-09-17T18:36:58.459363"
     },
     {
       "match_id": "988",
@@ -324,7 +327,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T18:23:49.420597"
+      "last_updated": "2026-09-17T18:36:58.459992"
     },
     {
       "match_id": "993",
@@ -347,7 +350,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T18:23:49.420939"
+      "last_updated": "2026-09-17T18:36:58.460638"
     },
     {
       "match_id": "989",
@@ -370,7 +373,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T18:23:49.421270"
+      "last_updated": "2026-09-17T18:36:58.461299"
     },
     {
       "match_id": "994",
@@ -393,7 +396,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T18:23:49.421607"
+      "last_updated": "2026-09-17T18:36:58.461940"
     },
     {
       "match_id": "995",
@@ -416,7 +419,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T18:23:49.421941"
+      "last_updated": "2026-09-17T18:36:58.462593"
     },
     {
       "match_id": "996",
@@ -439,7 +442,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T18:23:49.422266"
+      "last_updated": "2026-09-17T18:36:58.463202"
     },
     {
       "match_id": "956",
@@ -462,7 +465,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T18:23:49.422608"
+      "last_updated": "2026-09-17T18:36:58.463828"
     },
     {
       "match_id": "990",
@@ -485,7 +488,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T18:23:49.422935"
+      "last_updated": "2026-09-17T18:36:58.464468"
     },
     {
       "match_id": "1002",
@@ -508,7 +511,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T18:23:49.423265"
+      "last_updated": "2026-09-17T18:36:58.465083"
     },
     {
       "match_id": "1003",
@@ -531,7 +534,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T18:23:49.423604"
+      "last_updated": "2026-09-17T18:36:58.465720"
     },
     {
       "match_id": "1037",
@@ -554,7 +557,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T18:23:49.423941"
+      "last_updated": "2026-09-17T18:36:58.466339"
     },
     {
       "match_id": "1000",
@@ -577,7 +580,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T18:23:49.424270"
+      "last_updated": "2026-09-17T18:36:58.466952"
     },
     {
       "match_id": "1001",
@@ -600,7 +603,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T18:23:49.424602"
+      "last_updated": "2026-09-17T18:36:58.467591"
     },
     {
       "match_id": "1008",
@@ -623,7 +626,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T18:23:49.424934"
+      "last_updated": "2026-09-17T18:36:58.468201"
     },
     {
       "match_id": "1042",
@@ -646,7 +649,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T18:23:49.425265"
+      "last_updated": "2026-09-17T18:36:58.468845"
     },
     {
       "match_id": "1049",
@@ -669,7 +672,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T18:23:49.425603"
+      "last_updated": "2026-09-17T18:36:58.469484"
     },
     {
       "match_id": "1043",
@@ -692,7 +695,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T18:23:49.425933"
+      "last_updated": "2026-09-17T18:36:58.470111"
     },
     {
       "match_id": "1096",
@@ -715,7 +718,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T18:23:49.426259"
+      "last_updated": "2026-09-17T18:36:58.470762"
     },
     {
       "match_id": "1095",
@@ -738,7 +741,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T18:23:49.426589"
+      "last_updated": "2026-09-17T18:36:58.471396"
     },
     {
       "match_id": "1094",
@@ -761,7 +764,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T18:23:49.426927"
+      "last_updated": "2026-09-17T18:36:58.472014"
     },
     {
       "match_id": "1093",
@@ -784,7 +787,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T18:23:49.427258"
+      "last_updated": "2026-09-17T18:36:58.472650"
     },
     {
       "match_id": "1092",
@@ -807,7 +810,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T18:23:49.427593"
+      "last_updated": "2026-09-17T18:36:58.473265"
     }
   ]
 }
