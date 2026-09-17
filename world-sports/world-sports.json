@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-17T09:35:56.932105",
+  "timestamp": "2026-09-17T09:43:05.277954",
   "total_matches": 33,
   "live_count": 1,
   "upcoming_count": 32,
@@ -16,65 +16,22 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789549080540x302.jpg",
       "league": "European T20 Premier League 2026",
-      "viewers": "3",
+      "viewers": "5",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
       "servers": null,
       "page_url": "/world-sports/player.html?id=1079",
       "match_url": "live/edinburgh-castle-rockers-vs-belfast-wolves-1079",
-      "stream_url": "https://tvsen5.aynascope.net/cXPB2LKkErN9/tracks-v1a1/mono.ts.m3u8",
-      "server_count": 1,
+      "stream_url": "https://live.talkoraai.com/match/hls?t=23jjDnCVMxjtn2f0yB07ExzY3BzrRpHgeVdh-OmFwswvrMqJuuD3f7lLECvvE3F92YhGX9gyZ0nNGFf8wDTZuAVK7hhO2_65vZQM9lCjXATD7SHW_xvj4ra2JW75paZdr7HseH4qfPVA_1E5fo_2oOwxA0p-MI79sAv4twSAHFW4e5-kt6RxQYXBhnNzYKX3FN_Rf4BHwMSXVAekO6UBQflbX0_3nSFoEVbUkq24ytAv57AuJIjatxIeOcyoHpuQgunRvkr1hSk5Ca5exdD8GcNbX60GNQ",
+      "server_count": 4,
       "server_urls": [
-        "https://tvsen5.aynascope.net/cXPB2LKkErN9/tracks-v1a1/mono.ts.m3u8"
+        "https://live.talkoraai.com/match/hls?t=23jjDnCVMxjtn2f0yB07ExzY3BzrRpHgeVdh-OmFwswvrMqJuuD3f7lLECvvE3F92YhGX9gyZ0nNGFf8wDTZuAVK7hhO2_65vZQM9lCjXATD7SHW_xvj4ra2JW75paZdr7HseH4qfPVA_1E5fo_2oOwxA0p-MI79sAv4twSAHFW4e5-kt6RxQYXBhnNzYKX3FN_Rf4BHwMSXVAekO6UBQflbX0_3nSFoEVbUkq24ytAv57AuJIjatxIeOcyoHpuQgunRvkr1hSk5Ca5exdD8GcNbX60GNQ",
+        "https://live.talkoraai.com/match/seg?t=hNicKp3pP0W8L6t5dMTur6TLJJ4AeCAI3CN1gvAuGqO45s242vmgAmx-LjMPqjaG9zXOcuAR_yEvhJ3mCHjgsiQQk5CQrN3x4uI_Y7salv8sEAWmIQDUEsueyoS_xWF9xwsJJRj_42_FmWLzh6_nSRZdnLndXQYbjs1me0-uprXNpVtu6Z5mylAZWJVieZzaxH37j5lwhQiljPuuHwC1obF4YAkmjj52_pAEbIk7myHSPKeOef7lcW9OuNqkBOdo2iiORR62P5Dl3rwHjupnoxrsorjui5CHbv7XTf-L",
+        "https://tvsen5.aynascope.net/cXPB2LKkErN9/tracks-v1a1/mono.ts.m3u8",
+        "https://tvsen7.aynascope.net/ssport2hd/tracks-v1a1/mono.ts.m3u8"
       ],
-      "last_updated": "2026-09-17T09:31:04.456224"
-    },
-    {
-      "match_id": "1085",
-      "title": "Lion City Sailors  (SGP) vs BG Pathum United",
-      "teams": "Lion City Sailors  (SGP) vs BG Pathum United",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789627823540x302.jpg",
-      "league": "Adelaide United  (AUS) vs Tai Po",
-      "viewers": "395",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1085",
-      "match_url": "live/lion-city-sailors-sgp-vs-bg-pathum-united-1085",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.802891"
-    },
-    {
-      "match_id": "1084",
-      "title": "Adelaide United  (AUS) vs Tai Po",
-      "teams": "Adelaide United  (AUS) vs Tai Po",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789628278540x302.jpg",
-      "league": "AFC Champions League Two 2026-27",
-      "viewers": "358",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1084",
-      "match_url": "live/adelaide-united-aus-vs-tai-po-1084",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.803715"
+      "last_updated": "2026-09-17T09:36:02.398651"
     },
     {
       "match_id": "1080",
@@ -97,7 +54,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.804357"
+      "last_updated": "2026-09-17T09:36:02.718446"
     },
     {
       "match_id": "906",
@@ -120,7 +77,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.804956"
+      "last_updated": "2026-09-17T09:36:02.718776"
     },
     {
       "match_id": "1082",
@@ -143,7 +100,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.805566"
+      "last_updated": "2026-09-17T09:36:02.719070"
     },
     {
       "match_id": "1081",
@@ -166,7 +123,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.806176"
+      "last_updated": "2026-09-17T09:36:02.719337"
     },
     {
       "match_id": "986",
@@ -189,7 +146,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.806760"
+      "last_updated": "2026-09-17T09:36:02.719626"
     },
     {
       "match_id": "1057",
@@ -212,7 +169,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.807414"
+      "last_updated": "2026-09-17T09:36:02.719890"
     },
     {
       "match_id": "892",
@@ -235,7 +192,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.807996"
+      "last_updated": "2026-09-17T09:36:02.720161"
     },
     {
       "match_id": "987",
@@ -258,7 +215,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.808608"
+      "last_updated": "2026-09-17T09:36:02.720423"
     },
     {
       "match_id": "1039",
@@ -281,7 +238,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.809211"
+      "last_updated": "2026-09-17T09:36:02.720682"
     },
     {
       "match_id": "955",
@@ -304,7 +261,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.809798"
+      "last_updated": "2026-09-17T09:36:02.720946"
     },
     {
       "match_id": "992",
@@ -327,7 +284,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.810405"
+      "last_updated": "2026-09-17T09:36:02.721217"
     },
     {
       "match_id": "879",
@@ -350,7 +307,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.810983"
+      "last_updated": "2026-09-17T09:36:02.721480"
     },
     {
       "match_id": "988",
@@ -373,7 +330,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.811637"
+      "last_updated": "2026-09-17T09:36:02.721745"
     },
     {
       "match_id": "993",
@@ -396,7 +353,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.812310"
+      "last_updated": "2026-09-17T09:36:02.722015"
     },
     {
       "match_id": "989",
@@ -419,7 +376,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.812902"
+      "last_updated": "2026-09-17T09:36:02.722277"
     },
     {
       "match_id": "994",
@@ -442,7 +399,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.813539"
+      "last_updated": "2026-09-17T09:36:02.722536"
     },
     {
       "match_id": "995",
@@ -465,7 +422,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.814148"
+      "last_updated": "2026-09-17T09:36:02.722796"
     },
     {
       "match_id": "996",
@@ -488,7 +445,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.814729"
+      "last_updated": "2026-09-17T09:36:02.723067"
     },
     {
       "match_id": "956",
@@ -511,7 +468,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.815334"
+      "last_updated": "2026-09-17T09:36:02.723327"
     },
     {
       "match_id": "990",
@@ -534,7 +491,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.815914"
+      "last_updated": "2026-09-17T09:36:02.723592"
     },
     {
       "match_id": "1002",
@@ -557,7 +514,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.816517"
+      "last_updated": "2026-09-17T09:36:02.723854"
     },
     {
       "match_id": "1003",
@@ -580,7 +537,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.817123"
+      "last_updated": "2026-09-17T09:36:02.724122"
     },
     {
       "match_id": "1037",
@@ -603,7 +560,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.817708"
+      "last_updated": "2026-09-17T09:36:02.724383"
     },
     {
       "match_id": "1000",
@@ -626,7 +583,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.818311"
+      "last_updated": "2026-09-17T09:36:02.724646"
     },
     {
       "match_id": "1001",
@@ -649,7 +606,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.818884"
+      "last_updated": "2026-09-17T09:36:02.724908"
     },
     {
       "match_id": "1008",
@@ -672,7 +629,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.819480"
+      "last_updated": "2026-09-17T09:36:02.725176"
     },
     {
       "match_id": "1042",
@@ -695,7 +652,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.820078"
+      "last_updated": "2026-09-17T09:36:02.725437"
     },
     {
       "match_id": "1049",
@@ -718,7 +675,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.820668"
+      "last_updated": "2026-09-17T09:36:02.725698"
     },
     {
       "match_id": "1043",
@@ -741,7 +698,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.821268"
+      "last_updated": "2026-09-17T09:36:02.725969"
     },
     {
       "match_id": "1086",
@@ -764,7 +721,53 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.821845"
+      "last_updated": "2026-09-17T09:36:02.726233"
+    },
+    {
+      "match_id": "1085",
+      "title": "Lion City Sailors  (SGP) vs BG Pathum United",
+      "teams": "Lion City Sailors  (SGP) vs BG Pathum United",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789627823540x302.jpg",
+      "league": "Adelaide United  (AUS) vs Tai Po",
+      "viewers": "395",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1085",
+      "match_url": "live/lion-city-sailors-sgp-vs-bg-pathum-united-1085",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-17T09:36:02.726494"
+    },
+    {
+      "match_id": "1084",
+      "title": "Adelaide United  (AUS) vs Tai Po",
+      "teams": "Adelaide United  (AUS) vs Tai Po",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789628278540x302.jpg",
+      "league": "AFC Champions League Two 2026-27",
+      "viewers": "358",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1084",
+      "match_url": "live/adelaide-united-aus-vs-tai-po-1084",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-17T09:36:02.726756"
     }
   ]
 }
