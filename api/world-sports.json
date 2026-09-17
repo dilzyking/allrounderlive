@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-17T07:15:58.813884",
+  "timestamp": "2026-09-17T07:21:51.105923",
   "total_matches": 31,
   "live_count": 1,
   "upcoming_count": 30,
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://static.cricbuzz.com/a/img/v1/1080x608/i1/c1076618/live-pakistan-women-vs-thailand-women-2nd-quarter-final-asian-games-2026.jpg",
       "league": "Women's Asian Games 2026-T20",
-      "viewers": "2",
+      "viewers": "4",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -28,76 +28,7 @@
       "server_urls": [
         "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=ten_cricket&e=.m3u8"
       ],
-      "last_updated": "2026-09-17T07:11:01.403212"
-    },
-    {
-      "match_id": "1080",
-      "title": "Rotterdam Dockers vs Dublin Guardians",
-      "teams": "Rotterdam Dockers vs Dublin Guardians",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789549199540x302.jpg",
-      "league": "Sports Tournament",
-      "viewers": "1",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1080",
-      "match_url": "live/rotterdam-dockers-vs-dublin-guardians-1080",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-17T07:11:02.652830"
-    },
-    {
-      "match_id": "1081",
-      "title": "OFI vs Hoffenheim",
-      "teams": "OFI vs Hoffenheim",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789556663540x302.jpg",
-      "league": "Sports Tournament",
-      "viewers": "1",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1081",
-      "match_url": "live/ofi-vs-hoffenheim-1081",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-17T07:11:02.653302"
-    },
-    {
-      "match_id": "1082",
-      "title": "Levski Sofia vs RB Salzburg",
-      "teams": "Levski Sofia vs RB Salzburg",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789553413540x302.jpg",
-      "league": "Sports Tournament",
-      "viewers": "1",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1082",
-      "match_url": "live/levski-sofia-vs-rb-salzburg-1082",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-17T07:11:02.653617"
+      "last_updated": "2026-09-17T07:16:11.229390"
     },
     {
       "match_id": "1079",
@@ -120,7 +51,30 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T07:11:02.653920"
+      "last_updated": "2026-09-17T07:16:11.561701"
+    },
+    {
+      "match_id": "1080",
+      "title": "Rotterdam Dockers vs Dublin Guardians",
+      "teams": "Rotterdam Dockers vs Dublin Guardians",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789549199540x302.jpg",
+      "league": "European T20 Premier League 2026",
+      "viewers": "1",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1080",
+      "match_url": "live/rotterdam-dockers-vs-dublin-guardians-1080",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-17T07:16:11.562215"
     },
     {
       "match_id": "906",
@@ -143,7 +97,53 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T07:11:02.654240"
+      "last_updated": "2026-09-17T07:16:11.562561"
+    },
+    {
+      "match_id": "1082",
+      "title": "Levski Sofia vs RB Salzburg",
+      "teams": "Levski Sofia vs RB Salzburg",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789553413540x302.jpg",
+      "league": "UEFA Europa League",
+      "viewers": "2",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1082",
+      "match_url": "live/levski-sofia-vs-rb-salzburg-1082",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-17T07:16:11.562891"
+    },
+    {
+      "match_id": "1081",
+      "title": "OFI vs Hoffenheim",
+      "teams": "OFI vs Hoffenheim",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789556663540x302.jpg",
+      "league": "UEFA Europa League",
+      "viewers": "2",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1081",
+      "match_url": "live/ofi-vs-hoffenheim-1081",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-17T07:16:11.563233"
     },
     {
       "match_id": "986",
@@ -166,7 +166,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T07:11:02.654539"
+      "last_updated": "2026-09-17T07:16:11.563558"
     },
     {
       "match_id": "1057",
@@ -189,7 +189,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T07:11:02.654839"
+      "last_updated": "2026-09-17T07:16:11.563889"
     },
     {
       "match_id": "892",
@@ -212,7 +212,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T07:11:02.655145"
+      "last_updated": "2026-09-17T07:16:11.564237"
     },
     {
       "match_id": "987",
@@ -235,7 +235,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T07:11:02.655449"
+      "last_updated": "2026-09-17T07:16:11.564567"
     },
     {
       "match_id": "1039",
@@ -258,7 +258,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T07:11:02.655743"
+      "last_updated": "2026-09-17T07:16:11.564897"
     },
     {
       "match_id": "955",
@@ -281,7 +281,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T07:11:02.656054"
+      "last_updated": "2026-09-17T07:16:11.565248"
     },
     {
       "match_id": "992",
@@ -304,7 +304,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T07:11:02.656360"
+      "last_updated": "2026-09-17T07:16:11.565585"
     },
     {
       "match_id": "879",
@@ -327,7 +327,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T07:11:02.656666"
+      "last_updated": "2026-09-17T07:16:11.565922"
     },
     {
       "match_id": "988",
@@ -350,7 +350,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T07:11:02.656997"
+      "last_updated": "2026-09-17T07:16:11.566276"
     },
     {
       "match_id": "993",
@@ -373,7 +373,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T07:11:02.657290"
+      "last_updated": "2026-09-17T07:16:11.566604"
     },
     {
       "match_id": "989",
@@ -396,7 +396,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T07:11:02.657579"
+      "last_updated": "2026-09-17T07:16:11.566936"
     },
     {
       "match_id": "994",
@@ -419,7 +419,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T07:11:02.657869"
+      "last_updated": "2026-09-17T07:16:11.567279"
     },
     {
       "match_id": "995",
@@ -442,7 +442,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T07:11:02.658161"
+      "last_updated": "2026-09-17T07:16:11.567613"
     },
     {
       "match_id": "996",
@@ -465,7 +465,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T07:11:02.658456"
+      "last_updated": "2026-09-17T07:16:11.567942"
     },
     {
       "match_id": "956",
@@ -488,7 +488,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T07:11:02.658748"
+      "last_updated": "2026-09-17T07:16:11.568282"
     },
     {
       "match_id": "990",
@@ -511,7 +511,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T07:11:02.659047"
+      "last_updated": "2026-09-17T07:16:11.568610"
     },
     {
       "match_id": "1002",
@@ -534,7 +534,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T07:11:02.659342"
+      "last_updated": "2026-09-17T07:16:11.568936"
     },
     {
       "match_id": "1003",
@@ -557,7 +557,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T07:11:02.659631"
+      "last_updated": "2026-09-17T07:16:11.569280"
     },
     {
       "match_id": "1037",
@@ -580,7 +580,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T07:11:02.659928"
+      "last_updated": "2026-09-17T07:16:11.569617"
     },
     {
       "match_id": "1000",
@@ -603,7 +603,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T07:11:02.660229"
+      "last_updated": "2026-09-17T07:16:11.569952"
     },
     {
       "match_id": "1001",
@@ -626,7 +626,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T07:11:02.660523"
+      "last_updated": "2026-09-17T07:16:11.570299"
     },
     {
       "match_id": "1008",
@@ -649,7 +649,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T07:11:02.660820"
+      "last_updated": "2026-09-17T07:16:11.570637"
     },
     {
       "match_id": "1042",
@@ -672,7 +672,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T07:11:02.661128"
+      "last_updated": "2026-09-17T07:16:11.570983"
     },
     {
       "match_id": "1049",
@@ -695,7 +695,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T07:11:02.661417"
+      "last_updated": "2026-09-17T07:16:11.571329"
     },
     {
       "match_id": "1043",
@@ -718,7 +718,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-17T07:11:02.661711"
+      "last_updated": "2026-09-17T07:16:11.571662"
     }
   ]
 }
