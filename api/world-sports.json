@@ -1,60 +1,36 @@
 {
-  "timestamp": "2026-09-18T22:35:10.922449",
-  "total_matches": 19,
-  "live_count": 2,
+  "timestamp": "2026-09-18T23:03:24.054560",
+  "total_matches": 18,
+  "live_count": 1,
   "upcoming_count": 17,
   "completed_count": 0,
   "matches": [
     {
-      "match_id": "1100",
-      "title": "Brentford vs Chelsea",
-      "teams": "Brentford vs Chelsea",
-      "sport": "football",
-      "sport_display": "Football",
+      "match_id": "1103",
+      "title": "Guyana Amazon Warriors vs Jamaica Kingsmen Qualifier 2",
+      "teams": "Guyana Amazon Warriors vs Jamaica Kingsmen Qualifier 2",
+      "sport": "cricket",
+      "sport_display": "Cricket",
       "status": "live",
       "status_display": "LIVE",
       "runtime": "00h 00m 00s",
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvpex4Tv8gZiAq9d3gURRLwm0etU20CVJX7-QTkjXhNYv0y26NQ6S5Nhk&s=10",
-      "league": "Premier League",
-      "viewers": "17",
+      "thumbnail": "https://api.bdcrictime.com/jamaica-kingsmen-vs-guyana-amazon-warriors-qualifier-2-18_09_2026.jpg",
+      "league": "Caribbean Premier League, 2026",
+      "viewers": "7",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
       "servers": null,
-      "page_url": "/world-sports/player.html?id=1100",
-      "match_url": "live/brentford-vs-chelsea-1100",
-      "stream_url": "https://www.rtmpcdn.com/live/23a1e2df-7456-4ba9-9360-12dea194f2c6.m3u8",
-      "server_count": 2,
+      "page_url": "/world-sports/player.html?id=1103",
+      "match_url": "live/guyana-amazon-warriors-vs-jamaica-kingsmen-qualifier-2-1103",
+      "stream_url": "https://tvsen5.aynascope.net/cXPB2LKkErN9/tracks-v1a1/mono.ts.m3u8",
+      "server_count": 3,
       "server_urls": [
-        "https://www.rtmpcdn.com/live/23a1e2df-7456-4ba9-9360-12dea194f2c6.m3u8",
-        "https://play.aarray.cn/rrty/hd-zh-1-4558557_gqzm.m3u8?auth_key=1789761250-0-0-ca1653a29b171750d2c636d431a95fa4&token=4ce194cc0d8dbd8b&device=4&platform=rrty"
+        "https://tvsen5.aynascope.net/cXPB2LKkErN9/tracks-v1a1/mono.ts.m3u8",
+        "https://tvsen7.aynaott.com/ssport2hd/index.m3u8",
+        "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV1080p.m3u8"
       ],
-      "last_updated": "2026-09-18T21:44:01.865285"
-    },
-    {
-      "match_id": "879",
-      "title": "Bristol City F.C. vs Watford F.C.",
-      "teams": "Bristol City F.C. vs Watford F.C.",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247493_52993_BRI_WAT_fc-web_1786657253841.jpg",
-      "league": "EFL Championship",
-      "viewers": "19",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=879",
-      "match_url": "live/bristol-city-f-c-vs-watford-f-c-879",
-      "stream_url": "https://www.rtmpcdn.com/live/149b9d0e-f9e7-433b-bfda-9bbeb68cca19.m3u8",
-      "server_count": 1,
-      "server_urls": [
-        "https://www.rtmpcdn.com/live/149b9d0e-f9e7-433b-bfda-9bbeb68cca19.m3u8"
-      ],
-      "last_updated": "2026-09-18T21:44:02.267390"
+      "last_updated": "2026-09-18T22:52:04.372403"
     },
     {
       "match_id": "988",
@@ -77,7 +53,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-18T21:44:02.612899"
+      "last_updated": "2026-09-18T22:52:05.705123"
     },
     {
       "match_id": "993",
@@ -100,7 +76,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-18T21:44:02.613610"
+      "last_updated": "2026-09-18T22:52:05.705894"
     },
     {
       "match_id": "989",
@@ -123,7 +99,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-18T21:44:02.614235"
+      "last_updated": "2026-09-18T22:52:05.706553"
     },
     {
       "match_id": "994",
@@ -146,7 +122,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-18T21:44:02.614876"
+      "last_updated": "2026-09-18T22:52:05.707172"
     },
     {
       "match_id": "995",
@@ -169,7 +145,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-18T21:44:02.615502"
+      "last_updated": "2026-09-18T22:52:05.707808"
     },
     {
       "match_id": "996",
@@ -192,7 +168,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-18T21:44:02.616110"
+      "last_updated": "2026-09-18T22:52:05.708431"
     },
     {
       "match_id": "956",
@@ -215,7 +191,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-18T21:44:02.616728"
+      "last_updated": "2026-09-18T22:52:05.709036"
     },
     {
       "match_id": "990",
@@ -238,7 +214,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-18T21:44:02.617322"
+      "last_updated": "2026-09-18T22:52:05.709667"
     },
     {
       "match_id": "1002",
@@ -261,7 +237,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-18T21:44:02.617930"
+      "last_updated": "2026-09-18T22:52:05.710296"
     },
     {
       "match_id": "1003",
@@ -284,7 +260,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-18T21:44:02.618551"
+      "last_updated": "2026-09-18T22:52:05.710891"
     },
     {
       "match_id": "1037",
@@ -307,7 +283,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-18T21:44:02.619147"
+      "last_updated": "2026-09-18T22:52:05.711512"
     },
     {
       "match_id": "1000",
@@ -330,7 +306,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-18T21:44:02.619764"
+      "last_updated": "2026-09-18T22:52:05.712110"
     },
     {
       "match_id": "1001",
@@ -353,7 +329,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-18T21:44:02.620364"
+      "last_updated": "2026-09-18T22:52:05.712732"
     },
     {
       "match_id": "1008",
@@ -376,7 +352,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-18T21:44:02.620980"
+      "last_updated": "2026-09-18T22:52:05.713357"
     },
     {
       "match_id": "1042",
@@ -399,7 +375,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-18T21:44:02.621592"
+      "last_updated": "2026-09-18T22:52:05.713957"
     },
     {
       "match_id": "1049",
@@ -422,7 +398,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-18T21:44:02.622191"
+      "last_updated": "2026-09-18T22:52:05.714574"
     },
     {
       "match_id": "1043",
@@ -445,7 +421,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-18T21:44:02.622798"
+      "last_updated": "2026-09-18T22:52:05.715163"
     }
   ]
 }
