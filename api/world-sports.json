@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-19T11:19:45.597192",
-  "total_matches": 21,
+  "timestamp": "2026-09-19T11:24:48.303955",
+  "total_matches": 23,
   "live_count": 1,
-  "upcoming_count": 20,
+  "upcoming_count": 22,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdBJRvVI9DMRZiZJrw0IDq0YHG_sBJ-TX7jdabfyaT8PwL7pDcOSm85n6h&s=10",
       "league": "Asian Games 2026",
-      "viewers": "31",
+      "viewers": "32",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -34,7 +34,30 @@
         "https://drk6xq0vhn.gpcdn.net/live/ten_2_hd_720/chunks.m3u8",
         "https://drk6xq0vhn.gpcdn.net/live/ten_5_hd_720/chunks.m3u8"
       ],
-      "last_updated": "2026-09-19T11:18:44.138889"
+      "last_updated": "2026-09-19T11:23:45.618176"
+    },
+    {
+      "match_id": "1110",
+      "title": "Tottenham vs Aston Villa",
+      "teams": "Tottenham vs Aston Villa",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/09/19/1789781216603_tottenham_vs_aston_villa_jnjk.jpeg",
+      "league": "Premier League",
+      "viewers": "270",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1110",
+      "match_url": "live/tottenham-vs-aston-villa-1110",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-19T11:23:46.911161"
     },
     {
       "match_id": "988",
@@ -57,7 +80,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T11:18:44.498515"
+      "last_updated": "2026-09-19T11:23:46.911704"
     },
     {
       "match_id": "993",
@@ -80,7 +103,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T11:18:44.499297"
+      "last_updated": "2026-09-19T11:23:46.912054"
     },
     {
       "match_id": "1105",
@@ -103,7 +126,30 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T11:18:44.499943"
+      "last_updated": "2026-09-19T11:23:46.912390"
+    },
+    {
+      "match_id": "1111",
+      "title": "Brighton vs Arsenal",
+      "teams": "Brighton vs Arsenal",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/09/19/1789780930249_brighton_vs_arsenal_ulds.jpeg",
+      "league": "Premier League",
+      "viewers": "307",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1111",
+      "match_url": "live/brighton-vs-arsenal-1111",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-19T11:23:46.912734"
     },
     {
       "match_id": "989",
@@ -126,7 +172,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T11:18:44.500584"
+      "last_updated": "2026-09-19T11:23:46.913063"
     },
     {
       "match_id": "994",
@@ -149,7 +195,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T11:18:44.501209"
+      "last_updated": "2026-09-19T11:23:46.913389"
     },
     {
       "match_id": "995",
@@ -172,7 +218,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T11:18:44.501818"
+      "last_updated": "2026-09-19T11:23:46.913730"
     },
     {
       "match_id": "996",
@@ -195,7 +241,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T11:18:44.502452"
+      "last_updated": "2026-09-19T11:23:46.914060"
     },
     {
       "match_id": "1107",
@@ -218,7 +264,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T11:18:44.503057"
+      "last_updated": "2026-09-19T11:23:46.914387"
     },
     {
       "match_id": "1108",
@@ -241,7 +287,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T11:18:44.503695"
+      "last_updated": "2026-09-19T11:23:46.914729"
     },
     {
       "match_id": "956",
@@ -264,7 +310,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T11:18:44.504322"
+      "last_updated": "2026-09-19T11:23:46.915059"
     },
     {
       "match_id": "990",
@@ -287,7 +333,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T11:18:44.504927"
+      "last_updated": "2026-09-19T11:23:46.915387"
     },
     {
       "match_id": "1002",
@@ -310,7 +356,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T11:18:44.505544"
+      "last_updated": "2026-09-19T11:23:46.915733"
     },
     {
       "match_id": "1003",
@@ -333,7 +379,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T11:18:44.506146"
+      "last_updated": "2026-09-19T11:23:46.916056"
     },
     {
       "match_id": "1037",
@@ -356,7 +402,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T11:18:44.506760"
+      "last_updated": "2026-09-19T11:23:46.916377"
     },
     {
       "match_id": "1000",
@@ -379,7 +425,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T11:18:44.507388"
+      "last_updated": "2026-09-19T11:23:46.916714"
     },
     {
       "match_id": "1001",
@@ -402,7 +448,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T11:18:44.507987"
+      "last_updated": "2026-09-19T11:23:46.917044"
     },
     {
       "match_id": "1008",
@@ -425,7 +471,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T11:18:44.508600"
+      "last_updated": "2026-09-19T11:23:46.917374"
     },
     {
       "match_id": "1042",
@@ -448,7 +494,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T11:18:44.509221"
+      "last_updated": "2026-09-19T11:23:46.917715"
     },
     {
       "match_id": "1049",
@@ -471,7 +517,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T11:18:44.509821"
+      "last_updated": "2026-09-19T11:23:46.918046"
     },
     {
       "match_id": "1043",
@@ -494,7 +540,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T11:18:44.510447"
+      "last_updated": "2026-09-19T11:23:46.918378"
     }
   ]
 }
