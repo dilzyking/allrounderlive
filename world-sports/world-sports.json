@@ -1,139 +1,10 @@
 {
-  "timestamp": "2026-09-19T18:48:09.748201",
-  "total_matches": 28,
-  "live_count": 9,
-  "upcoming_count": 19,
+  "timestamp": "2026-09-19T18:54:28.922726",
+  "total_matches": 22,
+  "live_count": 4,
+  "upcoming_count": 18,
   "completed_count": 0,
   "matches": [
-    {
-      "match_id": "1122",
-      "title": "AS Roma vs Inter Milan",
-      "teams": "AS Roma vs Inter Milan",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK8bWHGecnLNKzj5WOOzgvBSZopmGaSxKIcTY233AvdvB8JNZNP0gC6xgu&s=10",
-      "league": "Serie A",
-      "viewers": "20",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1122",
-      "match_url": "live/as-roma-vs-inter-milan-1122",
-      "stream_url": "https://www.rtmpcdn.com/live/18623c1b-c3d6-40b5-a2d0-76385a86b75d.m3u8",
-      "server_count": 2,
-      "server_urls": [
-        "https://www.rtmpcdn.com/live/18623c1b-c3d6-40b5-a2d0-76385a86b75d.m3u8",
-        "https://play.aarray.cn/rrty/hd-zh-1-4549063_gqzm.m3u8?auth_key=1789840212-0-0-401f64e3007116861a09a6b106a08092&token=c6de96b086c45299&device=4&platform=rrty"
-      ],
-      "last_updated": "2026-09-19T18:44:42.451969"
-    },
-    {
-      "match_id": "995",
-      "title": "RC Celta vs Racing Club de Santander",
-      "teams": "RC Celta vs Racing Club de Santander",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247630_53004_CEV_RAC_FC-Web.png",
-      "league": "LALIGA 2026-27",
-      "viewers": "48",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=995",
-      "match_url": "live/rc-celta-vs-racing-club-de-santander-995",
-      "stream_url": "https://live.talkoraai.com/match/hls?t=wU1eMtRUByfUfUWBvWBDdo1OCj4YjLItVGxaYnKDlWGT27xkfcao8cql29d-uB6mF6PhtoQS0_yBZygso0IhrPB8BAo7QwrA4_rdNkqRj8NjOSVgaDJXkhBBpTdhxBelGi5btQp1LwTfK3osp4EXDhSc3xvplY5jpovcVyXNgGr8Ob2zKhWd3CTyBEBqtj_i_0L6Z455-uTtCkjWtHISWWL2xjUt1DFPu8jMKtoDxLUWUnuSus2d46o_nk23_0lEBsE0Q0enRK7OY5iwq61QJZIRNKriag",
-      "server_count": 2,
-      "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=wU1eMtRUByfUfUWBvWBDdo1OCj4YjLItVGxaYnKDlWGT27xkfcao8cql29d-uB6mF6PhtoQS0_yBZygso0IhrPB8BAo7QwrA4_rdNkqRj8NjOSVgaDJXkhBBpTdhxBelGi5btQp1LwTfK3osp4EXDhSc3xvplY5jpovcVyXNgGr8Ob2zKhWd3CTyBEBqtj_i_0L6Z455-uTtCkjWtHISWWL2xjUt1DFPu8jMKtoDxLUWUnuSus2d46o_nk23_0lEBsE0Q0enRK7OY5iwq61QJZIRNKriag",
-        "https://live.talkoraai.com/match/seg?t=uaHCCoSw27YFYsInPVF7qN1xJKCQrE8Rbr1MIrxIJi5Qg4-3za9ns36G3hC6ix9OxUIzNYA0KEG46I5Zgf0S11CRxgQKHKCUEvbKWEzm7jmX2E_QLbn4DHchwGN4wHrlDIqJ-Tv5JVR0sWknKQhjBd-Nb0qMESf0L5tzGfN2HCtwfGygQWIi-Oi9tPhW1sMBvdtSGatw5WDrVfCwxs-AqiQeyRzBo9rGCxFLbmKlbtGznKjzk96uvARzZGOWfkgSPYy2lSKIniMUf2qPJWD7HyiNOyNpsKmqQrw1DBP6"
-      ],
-      "last_updated": "2026-09-19T18:44:42.844874"
-    },
-    {
-      "match_id": "1128",
-      "title": "Nottingham Forest vs Coventry",
-      "teams": "Nottingham Forest vs Coventry",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://s.yimg.com/lo/mysterio/api/f91433d78d799c2d83005136d955d0ebe89d1939c4b2eb4697229c27d05d793d/lightyear_networkapi/resizefit_w620_h413%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fplaymakerstats_articles_264%2Fc632e0a6c0fe88825d2343273c19f414.jpg",
-      "league": "Premier League",
-      "viewers": "18",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1128",
-      "match_url": "live/nottingham-forest-vs-coventry-1128",
-      "stream_url": "https://www.rtmpcdn.com/live/52a6bc90-5cd4-4316-82d1-7a3bee02ea40.m3u8",
-      "server_count": 2,
-      "server_urls": [
-        "https://www.rtmpcdn.com/live/52a6bc90-5cd4-4316-82d1-7a3bee02ea40.m3u8",
-        "https://play.aarray.cn/rrty/hd-zh-1-4558576_gqzm.m3u8?auth_key=1789840813-0-0-c2436dd8e2a3a48d8bbdcdacea708e59&token=486c6d280ebd9a0e&device=4&platform=rrty"
-      ],
-      "last_updated": "2026-09-19T18:44:43.795073"
-    },
-    {
-      "match_id": "1123",
-      "title": "Stuttgart vs Borussia Dortmund",
-      "teams": "Stuttgart vs Borussia Dortmund",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://s.yimg.com/lo/mysterio/api/697cce6d94d2f6add7839a1b92b65119bb445c6c411bef08225511de10aa1d44/lightyear_networkapi/resizefit_w620_h413%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fplaymakerstats_articles_264%2F6350854d35be7ccbadb783f2d2d8b531.jpg",
-      "league": "Bundesliga",
-      "viewers": "20",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1123",
-      "match_url": "live/stuttgart-vs-borussia-dortmund-1123",
-      "stream_url": "https://www.rtmpcdn.com/live/7b7ee8a6-7b6c-4be3-9c39-a9b873c97a19.m3u8",
-      "server_count": 2,
-      "server_urls": [
-        "https://www.rtmpcdn.com/live/7b7ee8a6-7b6c-4be3-9c39-a9b873c97a19.m3u8",
-        "https://play.aarray.cn/rrty/hd-zh-1-4566255_gqzm.m3u8?auth_key=1789840331-0-0-b73ac32da59baadc3b021c013476d291&token=6b34a85917c38301&device=4&platform=rrty"
-      ],
-      "last_updated": "2026-09-19T18:44:44.131856"
-    },
-    {
-      "match_id": "1129",
-      "title": "Trabzonspor vs Galatasaray",
-      "teams": "Trabzonspor vs Galatasaray",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://english.ahram.org.eg/Media/News/2026/9/19/41_2026-639254116992186159-218.jpg",
-      "league": "Süper Lig",
-      "viewers": "17",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1129",
-      "match_url": "live/trabzonspor-vs-galatasaray-1129",
-      "stream_url": "https://bold-sky-a350.tasinazad234.workers.dev/stream/benisports/playlist.m3u8?expires=1792421876&sig=7Fb7UyyXC0KrvkD9KoY5SmzlXE-Mz6mS-HubKHzBA60",
-      "server_count": 1,
-      "server_urls": [
-        "https://bold-sky-a350.tasinazad234.workers.dev/stream/benisports/playlist.m3u8?expires=1792421876&sig=7Fb7UyyXC0KrvkD9KoY5SmzlXE-Mz6mS-HubKHzBA60"
-      ],
-      "last_updated": "2026-09-19T18:44:44.464196"
-    },
     {
       "match_id": "1126",
       "title": "Angers vs Troyes",
@@ -145,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789831321540x302.jpg",
       "league": "Ligue 1",
-      "viewers": "162",
+      "viewers": "3",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -158,7 +29,7 @@
         "https://live.talkoraai.com/match/hls?t=zP4OKqc3xga1BRr_mPeftDh-ntMZC8GmUuULuuZK708SvJNq74Zveh6OVkEGPa8_nTU45JxQVs9oObV0UxOLSQSks1sELyOTaxyI1LzE417EqXT6biye6Js9dKNL8ERBeOspJkElV8EBG3qamvvMyAhBOeqG4AucNxSIlTMu-zCHdC6L6qKbxL25sHk7ZlIrHbnl_6l-rdLmpIb4b5iexradPHJao5E39sI_Hh3iiH2z_KQTveoiOctnG6QUJY64ElH7E_OLLnm7tQrTS3JFFabumQ",
         "https://live.talkoraai.com/match/seg?t=jSpIMqKIEJw1OZ1VemnQQyZTFdazTjirTNvbDXlfqxt3tq5HrM3ScqoRtDylH-HR7rtrjAKqfrMzmZiPoczLZzjDXgN-3G76kWXVAXKsokPDcBJ2CLbsLJjdWpP79e4aND_21-SVOVvtKIZ0-qobnbxFDpx7g4JI1K1bBnK5CeeSpHZ6b4TmFCTJFFUet7jDc1jLRUXMkIQyjG-lbBKg8JfkLrxVRbnyfv4vLDfE7WBlRuMdIl3gMVor-mfOOetbGFVf8Z91Hv3KLKyNFG3lPPepUVtYsZEaTL91"
       ],
-      "last_updated": "2026-09-19T18:44:44.802243"
+      "last_updated": "2026-09-19T18:53:57.270219"
     },
     {
       "match_id": "1124",
@@ -171,7 +42,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789829903540x302.jpg",
       "league": "Ligue 1",
-      "viewers": "438",
+      "viewers": "3",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -184,7 +55,7 @@
         "https://live.talkoraai.com/match/hls?t=ib51SGMl8YSGbjdd6QJ1HrxT_fUKTLJFsPx1wsZGHvuXrc9iLiA4QbDn0sW4tadR-W6-Jv9vYWwncf5CTmCFg7sstIiMBWDrv6WmrkDJBIHHX5QjriwkIKOtRlxDF8UikbR8gzTcizjTNP65HCdFcFKkKC5YRNWqNWbjCCXTqVlQNtcTfBWn92RFs283Wf3ytB7_vj4vn9xmBrBbKPcJ3_0w6HH2Z1SDwRXncHY8fZIR4xZRXpy1xJ8NUNewPTc7Hxq1Hz7BTlopLPCxR4QdERE",
         "https://live.talkoraai.com/match/seg?t=5OY4rDN29W1mxyDUwNwpqJDycj16Unv51GrDB_ivBhdqCtCcJbLj5oNgQ-lGs7J0C2HKzY9KnLDrzu0yWrUr2CXTlCooTpwI9tCJMolqKcYroekwDW06T6Pnl7m7TbRfLqwhrKUEMmHm5gkB_RsW1SVH-6b_fLexgoGK35dZFYzyseMxCVT9SaZIoPIV2J0KeWPBDBydWwT1CiZgpACa31XyICVfKMSP4CE4Q3PDexWv8YXPcdch1gu9BkDiDqq2GyWQ5j7aFtnrdKkGmTEuTvmlMkH1Z5BSCA"
       ],
-      "last_updated": "2026-09-19T18:44:45.139820"
+      "last_updated": "2026-09-19T18:53:57.649573"
     },
     {
       "match_id": "1125",
@@ -197,7 +68,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789830378540x302.jpg",
       "league": "Ligue 1",
-      "viewers": "475",
+      "viewers": "3",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -210,33 +81,7 @@
         "https://live.talkoraai.com/match/hls?t=iT0Z2pL7iaXW3iYBFBLY-aRgMu0h5uz5MDKNZbK0GDf6o18uBqy5ukl9NSaaTbFM2odmXW1Og1EhwcLI4mslfDpU54jcYBfJX1UThFkUNhKwnbHvy4HTUn67jxwhNkgS9-Ny-SXk5951gWL12QpTxtBXYitrkWuM_i4mbDVqSCr-ddaRtBArWMhF7tRD4lqL0ChU8yo7QVqZFtHnmOI7a3EszpY8upfaA4WW1NK1yusnfdHhfR4b5dftXH3uSvuFVgK37QilMvhfTmu_xLHtVGM1R3l6AA",
         "https://live.talkoraai.com/match/seg?t=D_qQNo89VH-ifHbN4ud0SFgTpLJ8jbpEu0dYak6IkS98PXk4cpR0UEFS95eEcsad-NrkaC9hl5llEC5vRusFxKDxJYMGdJ-fceIMdlj6gkA4dIHFnS3hw_mxKk3W8o7Bxz8SdZZLD6yE4P5RBOutO36rScWEsf5CaO7_3g-bgiYKrervnLht0i5SpjaiPlW2p3BMDxJ0n5T66d_3gwVYLXyUQRNFqit7coOdqKpzpYjjehI17Spdz2T78i4W-HtPO67QV-0UxXcTr6kT7qlm-d363RfF6qrL9IRs1M-I"
       ],
-      "last_updated": "2026-09-19T18:44:45.471696"
-    },
-    {
-      "match_id": "1119",
-      "title": "Mamelodi Sundowns vs Al Ahli",
-      "teams": "Mamelodi Sundowns vs Al Ahli",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "--",
-      "thumbnail": "https://www.afrik-foot.com/en-za/thumbor/DYItwb88MpAxD2Tbq5MCc2s1eFA=/1376x768/smart/filters:format(webp)/https%3A%2F%2Fmedia.afrik-foot.com%2Fen-za%2F2026%2F09%2FGemini_Generated_Image_rjbxlqrjbxlqrjbx.jpg",
-      "league": "FIFA Intercontinental Cup",
-      "viewers": "60",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1119",
-      "match_url": "live/mamelodi-sundowns-vs-al-ahli-1119",
-      "stream_url": "https://www.rtmpcdn.com/live/f8d8c322-8bed-450e-8077-3b7a7a32628a.m3u8",
-      "server_count": 2,
-      "server_urls": [
-        "https://www.rtmpcdn.com/live/f8d8c322-8bed-450e-8077-3b7a7a32628a.m3u8",
-        "https://play.aarray.cn/rrty/sd-1-4645525_gqzm.m3u8?auth_key=1789827017-0-0-1273059458309c718c7f0313952acfbb&token=06d7295f8a4eaca9&device=4&platform=rrty"
-      ],
-      "last_updated": "2026-09-19T18:44:45.808390"
+      "last_updated": "2026-09-19T18:53:57.990905"
     },
     {
       "match_id": "1127",
@@ -244,22 +89,25 @@
       "teams": "Toulouse vs Le Havre",
       "sport": "football",
       "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
+      "status": "live",
+      "status_display": "LIVE",
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789831012540x302.jpg",
       "league": "Ligue 1",
-      "viewers": "199",
-      "viewers_type": "Waiting",
+      "viewers": "7",
+      "viewers_type": "Watching",
       "date": null,
       "time": null,
       "servers": null,
       "page_url": "/world-sports/player.html?id=1127",
       "match_url": "live/toulouse-vs-le-havre-1127",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-19T18:44:46.149981"
+      "stream_url": "https://live.talkoraai.com/match/hls?t=KpquAO0aiKDjelUsinbXTq74za6e3JiYTU5OjoJg9uj3nDF80oOAZg6mpAWOmwCW-H-YeIkYGsaP5COJNPcwIzhnX3jOa0MnFpCxW6kOyGmcN__VWy5of-d53xqkp4az7FfT-U6iiFMDuYPWWzwq9fikOosU-Ri_ufqxRw8hXU0hwenSmjznfs-epN1sAzVIlt9pWMGyai3UmcOVmC7IN0eIwPdfQ_zf0KRvGNd4YTBAANQgshDqtnHd_P6lyysHSNRbUfUE-xoAYOmC9ROgyB_7bJgWuA",
+      "server_count": 2,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=KpquAO0aiKDjelUsinbXTq74za6e3JiYTU5OjoJg9uj3nDF80oOAZg6mpAWOmwCW-H-YeIkYGsaP5COJNPcwIzhnX3jOa0MnFpCxW6kOyGmcN__VWy5of-d53xqkp4az7FfT-U6iiFMDuYPWWzwq9fikOosU-Ri_ufqxRw8hXU0hwenSmjznfs-epN1sAzVIlt9pWMGyai3UmcOVmC7IN0eIwPdfQ_zf0KRvGNd4YTBAANQgshDqtnHd_P6lyysHSNRbUfUE-xoAYOmC9ROgyB_7bJgWuA",
+        "https://live.talkoraai.com/match/seg?t=UBofngwqHkB8W32F0TXvV1g6BVe1EoEhF66LXBmKUdPSMUQwz2qSgFB3BAI65cyyFNc7WAE8-0SeHS44k2enD4vqaiNW6KX3ZH5hx309lE9gQdclgxcna9QbPbQnzfRtlC-vTZ_pCFhiUgcpFf6mui8uCY6e8FNp5x_iPv6HjYkVICOkcXpeK2n5mg0tZfsqd6pd9eWQ6hM1GO1vXm3ikLU9UhRhNuVcgbi8mYKaYFUrkvRAMu8Bnp6nVPJfLrqSRzMjGzksMQYVHE_UA6Huy7gRmId3TtehI49QVfLC"
+      ],
+      "last_updated": "2026-09-19T18:53:58.333937"
     },
     {
       "match_id": "996",
@@ -282,7 +130,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T18:44:46.150683"
+      "last_updated": "2026-09-19T18:53:58.674496"
     },
     {
       "match_id": "1107",
@@ -305,7 +153,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T18:44:46.151313"
+      "last_updated": "2026-09-19T18:53:58.675207"
     },
     {
       "match_id": "1108",
@@ -328,7 +176,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T18:44:46.152012"
+      "last_updated": "2026-09-19T18:53:58.675822"
     },
     {
       "match_id": "956",
@@ -351,7 +199,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T18:44:46.152635"
+      "last_updated": "2026-09-19T18:53:58.676467"
     },
     {
       "match_id": "990",
@@ -374,7 +222,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T18:44:46.153264"
+      "last_updated": "2026-09-19T18:53:58.677101"
     },
     {
       "match_id": "1113",
@@ -397,7 +245,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T18:44:46.153862"
+      "last_updated": "2026-09-19T18:53:58.677715"
     },
     {
       "match_id": "1114",
@@ -420,7 +268,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T18:44:46.154478"
+      "last_updated": "2026-09-19T18:53:58.678346"
     },
     {
       "match_id": "1116",
@@ -443,7 +291,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T18:44:46.155094"
+      "last_updated": "2026-09-19T18:53:58.678987"
     },
     {
       "match_id": "1115",
@@ -466,7 +314,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T18:44:46.155692"
+      "last_updated": "2026-09-19T18:53:58.679591"
     },
     {
       "match_id": "1002",
@@ -489,7 +337,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T18:44:46.156307"
+      "last_updated": "2026-09-19T18:53:58.680215"
     },
     {
       "match_id": "1003",
@@ -512,7 +360,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T18:44:46.156900"
+      "last_updated": "2026-09-19T18:53:58.680820"
     },
     {
       "match_id": "1037",
@@ -535,7 +383,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T18:44:46.157515"
+      "last_updated": "2026-09-19T18:53:58.681436"
     },
     {
       "match_id": "1000",
@@ -558,7 +406,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T18:44:46.158117"
+      "last_updated": "2026-09-19T18:53:58.682060"
     },
     {
       "match_id": "1001",
@@ -581,7 +429,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T18:44:46.158710"
+      "last_updated": "2026-09-19T18:53:58.682672"
     },
     {
       "match_id": "1008",
@@ -604,7 +452,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T18:44:46.159330"
+      "last_updated": "2026-09-19T18:53:58.683292"
     },
     {
       "match_id": "1042",
@@ -627,7 +475,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T18:44:46.159925"
+      "last_updated": "2026-09-19T18:53:58.683895"
     },
     {
       "match_id": "1049",
@@ -650,7 +498,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T18:44:46.160540"
+      "last_updated": "2026-09-19T18:53:58.684518"
     },
     {
       "match_id": "1043",
@@ -673,7 +521,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T18:44:46.161172"
+      "last_updated": "2026-09-19T18:53:58.685131"
     }
   ]
 }
