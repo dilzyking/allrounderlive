@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-20T16:29:12.650354",
+  "timestamp": "2026-09-20T16:34:52.469769",
   "total_matches": 17,
-  "live_count": 4,
-  "upcoming_count": 13,
+  "live_count": 6,
+  "upcoming_count": 11,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789846133540x302.jpg",
       "league": "European T20 Premier League 2026",
-      "viewers": "69",
+      "viewers": "73",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -31,7 +31,7 @@
         "https://tvsen5.aynascope.net/cXPB2LKkErN9/tracks-v1a1/mono.ts.m3u8",
         "https://tvsen7.aynaott.com/ssport2hd/index.m3u8"
       ],
-      "last_updated": "2026-09-20T16:24:16.911911"
+      "last_updated": "2026-09-20T16:34:20.084142"
     },
     {
       "match_id": "1114",
@@ -44,7 +44,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247637_53004_ATM_RM_FC-Web.png",
       "league": "LALIGA 2026-27",
-      "viewers": "217",
+      "viewers": "221",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -62,7 +62,7 @@
         "https://live.talkoraai.com/match/seg?t=MMUvNWlu1FrXu6BZZymV7sbFGJ9oaAXWELNXFmP0lZJ0NwlbRhts3rvZs0LvdmX4lyFqTuOjwbcVNkS8eZlBFWpINiFV1-_CT0mv9EDhMweBFhSne4zaj742c4tr4PmUw3cI54lfLW88YjHw1aIVfijXbQzMFWWFSpeZlp_FG_PndHjK_nssP9tKdOCjDwUZ9bTmIFoaUhZvEr7-sCYYEoeFnMUSzDkJNVojLrKRXHxpCuEqqCvzkpA96nb-oE7qKuxt3Gf6uuefVmme1VNBjQ2D5ldfAuUJtw",
         "https://saseries.akamaized.net/hls/live/2110097/306-tapmad/master.m3u8"
       ],
-      "last_updated": "2026-09-20T16:24:17.268058"
+      "last_updated": "2026-09-20T16:34:20.435865"
     },
     {
       "match_id": "1138",
@@ -75,7 +75,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://assets.myco.io/public/compressed/thumbnails/20260915/mycolive-Match_16__P-1789502481404.webp",
       "league": "Premier League",
-      "viewers": "16",
+      "viewers": "20",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -87,7 +87,53 @@
       "server_urls": [
         "https://tvsen7.aynascope.net/Sports1/index.m3u8"
       ],
-      "last_updated": "2026-09-20T16:24:17.597330"
+      "last_updated": "2026-09-20T16:34:21.321250"
+    },
+    {
+      "match_id": "1116",
+      "title": "Villarreal CF vs Levante",
+      "teams": "Villarreal CF vs Levante",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247632_53004_VIL_LET_FC-Web.png",
+      "league": "LALIGA 2026-27",
+      "viewers": "3",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1116",
+      "match_url": "live/villarreal-cf-vs-levante-1116",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-20T16:34:21.641986"
+    },
+    {
+      "match_id": "1115",
+      "title": "Deportivo de La Coruna vs Real Betis",
+      "teams": "Deportivo de La Coruna vs Real Betis",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247631_53004_COR_RB_FC-Web.png",
+      "league": "LALIGA 2026-27",
+      "viewers": "3",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1115",
+      "match_url": "live/deportivo-de-la-coruna-vs-real-betis-1115",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-20T16:34:21.955641"
     },
     {
       "match_id": "1140",
@@ -100,7 +146,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789894227540x302.jpg",
       "league": "Ligue 1",
-      "viewers": "14",
+      "viewers": "16",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -110,53 +156,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T16:24:17.920861"
-    },
-    {
-      "match_id": "1116",
-      "title": "Villarreal CF vs Levante",
-      "teams": "Villarreal CF vs Levante",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247632_53004_VIL_LET_FC-Web.png",
-      "league": "LALIGA 2026-27",
-      "viewers": "3",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1116",
-      "match_url": "live/villarreal-cf-vs-levante-1116",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-20T16:24:18.259016"
-    },
-    {
-      "match_id": "1115",
-      "title": "Deportivo de La Coruna vs Real Betis",
-      "teams": "Deportivo de La Coruna vs Real Betis",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247631_53004_COR_RB_FC-Web.png",
-      "league": "LALIGA 2026-27",
-      "viewers": "3",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1115",
-      "match_url": "live/deportivo-de-la-coruna-vs-real-betis-1115",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-20T16:24:18.259666"
+      "last_updated": "2026-09-20T16:34:22.271282"
     },
     {
       "match_id": "1141",
@@ -179,7 +179,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T16:24:18.260235"
+      "last_updated": "2026-09-20T16:34:22.592233"
     },
     {
       "match_id": "1002",
@@ -202,7 +202,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T16:24:18.260804"
+      "last_updated": "2026-09-20T16:34:22.592624"
     },
     {
       "match_id": "1130",
@@ -225,7 +225,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T16:24:18.261355"
+      "last_updated": "2026-09-20T16:34:22.592943"
     },
     {
       "match_id": "1003",
@@ -248,7 +248,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T16:24:18.261898"
+      "last_updated": "2026-09-20T16:34:22.593254"
     },
     {
       "match_id": "1037",
@@ -271,7 +271,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T16:24:18.262457"
+      "last_updated": "2026-09-20T16:34:22.593572"
     },
     {
       "match_id": "1000",
@@ -294,7 +294,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T16:24:18.263003"
+      "last_updated": "2026-09-20T16:34:22.593875"
     },
     {
       "match_id": "1001",
@@ -317,7 +317,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T16:24:18.263567"
+      "last_updated": "2026-09-20T16:34:22.594170"
     },
     {
       "match_id": "1008",
@@ -340,7 +340,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T16:24:18.264101"
+      "last_updated": "2026-09-20T16:34:22.594477"
     },
     {
       "match_id": "1042",
@@ -363,7 +363,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T16:24:18.264648"
+      "last_updated": "2026-09-20T16:34:22.594778"
     },
     {
       "match_id": "1049",
@@ -386,7 +386,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T16:24:18.265184"
+      "last_updated": "2026-09-20T16:34:22.595080"
     },
     {
       "match_id": "1043",
@@ -409,7 +409,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T16:24:18.265728"
+      "last_updated": "2026-09-20T16:34:22.595372"
     }
   ]
 }
