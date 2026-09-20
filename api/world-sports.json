@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-20T18:45:00.244553",
+  "timestamp": "2026-09-20T19:08:28.293633",
   "total_matches": 13,
-  "live_count": 2,
-  "upcoming_count": 11,
+  "live_count": 3,
+  "upcoming_count": 10,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247632_53004_VIL_LET_FC-Web.png",
       "league": "LALIGA 2026-27",
-      "viewers": "40",
+      "viewers": "41",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -29,7 +29,7 @@
         "https://www.rtmpcdn.com/live/0c856cf7-24e1-47eb-b211-af32abf2d9be.m3u8",
         "https://play.aarray.cn/rrty/hd-zh-1-4565431_gqzm.m3u8?auth_key=1789929789-0-0-a1fa503bee558ae8ee48d4c1e86e57f9&token=c0d8b8a1c1d5f27c&device=4&platform=rrty"
       ],
-      "last_updated": "2026-09-20T18:30:06.636871"
+      "last_updated": "2026-09-20T18:45:06.825351"
     },
     {
       "match_id": "1115",
@@ -42,7 +42,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247631_53004_COR_RB_FC-Web.png",
       "league": "LALIGA 2026-27",
-      "viewers": "35",
+      "viewers": "36",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -55,7 +55,7 @@
         "https://www.rtmpcdn.com/live/199b967c-1de2-4443-9f92-3c073661fb84.m3u8",
         "https://play.aarray.cn/rrty/hd-zh-1-4565423_gqzm.m3u8?auth_key=1789929729-0-0-8e6ab5bbad958ab572c670ed24d4a6a5&token=7d1196cb2b0e5a94&device=4&platform=rrty"
       ],
-      "last_updated": "2026-09-20T18:30:07.059643"
+      "last_updated": "2026-09-20T18:45:07.233543"
     },
     {
       "match_id": "1141",
@@ -63,22 +63,25 @@
       "teams": "Marseille vs PSG",
       "sport": "football",
       "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
+      "status": "live",
+      "status_display": "LIVE",
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789894488540x302.jpg",
       "league": "Ligue 1",
-      "viewers": "2",
-      "viewers_type": "Waiting",
+      "viewers": "4",
+      "viewers_type": "Watching",
       "date": null,
       "time": null,
       "servers": null,
       "page_url": "/world-sports/player.html?id=1141",
       "match_url": "live/marseille-vs-psg-1141",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-20T18:30:07.460690"
+      "stream_url": "https://www.rtmpcdn.com/live/3e0cfd2e-ab15-4db7-99e2-d849fcff115a.m3u8",
+      "server_count": 2,
+      "server_urls": [
+        "https://www.rtmpcdn.com/live/3e0cfd2e-ab15-4db7-99e2-d849fcff115a.m3u8",
+        "https://play.aarray.cn/rrty/hd-zh-1-4550886_gqzm.m3u8?auth_key=1789933389-0-0-faf1ec929019e1fa3f8b2f0f714f46e5&token=5cdc6449943dd415&device=4&platform=rrty"
+      ],
+      "last_updated": "2026-09-20T18:45:07.561883"
     },
     {
       "match_id": "1002",
@@ -101,7 +104,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T18:30:07.461206"
+      "last_updated": "2026-09-20T18:45:07.889398"
     },
     {
       "match_id": "1130",
@@ -124,7 +127,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T18:30:07.461661"
+      "last_updated": "2026-09-20T18:45:07.890199"
     },
     {
       "match_id": "1003",
@@ -147,7 +150,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T18:30:07.462117"
+      "last_updated": "2026-09-20T18:45:07.890866"
     },
     {
       "match_id": "1037",
@@ -170,7 +173,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T18:30:07.462558"
+      "last_updated": "2026-09-20T18:45:07.891516"
     },
     {
       "match_id": "1000",
@@ -193,7 +196,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T18:30:07.463000"
+      "last_updated": "2026-09-20T18:45:07.892137"
     },
     {
       "match_id": "1001",
@@ -216,7 +219,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T18:30:07.463432"
+      "last_updated": "2026-09-20T18:45:07.892772"
     },
     {
       "match_id": "1008",
@@ -239,7 +242,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T18:30:07.463882"
+      "last_updated": "2026-09-20T18:45:07.893392"
     },
     {
       "match_id": "1042",
@@ -262,7 +265,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T18:30:07.464320"
+      "last_updated": "2026-09-20T18:45:07.894035"
     },
     {
       "match_id": "1049",
@@ -285,7 +288,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T18:30:07.464752"
+      "last_updated": "2026-09-20T18:45:07.894676"
     },
     {
       "match_id": "1043",
@@ -308,7 +311,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T18:30:07.465180"
+      "last_updated": "2026-09-20T18:45:07.895297"
     }
   ]
 }
