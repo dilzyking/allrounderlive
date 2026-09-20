@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-20T15:53:58.482205",
-  "total_matches": 22,
-  "live_count": 9,
+  "timestamp": "2026-09-20T15:59:01.315105",
+  "total_matches": 18,
+  "live_count": 5,
   "upcoming_count": 13,
   "completed_count": 0,
   "matches": [
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/ZIMvsAUS_Web-match-card.png",
       "league": "Australia tour of Zimbabwe, 2026",
-      "viewers": "178",
+      "viewers": "179",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -29,65 +29,7 @@
         "https://live.talkoraai.com/match/hls?t=BSwwmhkkMqjlaEQjzA_bhRBMZ0iSfp_LIB92gGNlxPTVd1xlSmeZJklNjxert5MnJvSA7BBWfmp9xegVvIFWRVXVr9McMthet46hIZBllS8Fib94V8YOu5DIdKIg3pB7itPg86sASMA-ZftVha9jVSyyHhkgazV0Y0Omgx46D_wWTcezsX6n21nDX_j6s0QwbTPCHL7JVt70ye_pbfNMQkjrvhNoVXi_bqiVsJtPHQCr8iB4PhrF0r_0dnYkYfRR6jGx6Rqp35RitUWVUlLuwFSQscAhIQ",
         "https://live.talkoraai.com/match/seg?t=w2FUlxWzyYMvXKzhUnRATfO1m9wgX97VCElHHrvRoQTOpvYuDAfRNvtyGRN29zcplc5W_m7p4iYpu6AQpZhpGBTovuWVvVbS-xT4YqbEgixFfim9SSJt0xglTDA_uf_QuxUPMdpvLT5UovFMhvzafMoG5j0B9izOm3ZxDd5_Bo_m78ZCQSxutyQa9ni4xYIkka86qGax1x1JXRwW9OpG1VFCsfXh5bzA7Bbnr6Rwzqo3X8Z9n91MDEm5Kxu8lX0z5hXSKhrddAkKG_-8qSfRwUAmPqMW1zwpo8cN_S30"
       ],
-      "last_updated": "2026-09-20T15:48:30.188566"
-    },
-    {
-      "match_id": "1137",
-      "title": "Manchester City vs Sunderland",
-      "teams": "Manchester City vs Sunderland",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://assets.myco.io/public/compressed/thumbnails/20260915/mycolive-Match_16__P-1789502226577.webp",
-      "league": "Premier League",
-      "viewers": "75",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1137",
-      "match_url": "live/manchester-city-vs-sunderland-1137",
-      "stream_url": "https://www.rtmpcdn.com/live/e5fd48b7-2ea8-4d3c-a6f0-299023796ac0.m3u8",
-      "server_count": 5,
-      "server_urls": [
-        "https://www.rtmpcdn.com/live/e5fd48b7-2ea8-4d3c-a6f0-299023796ac0.m3u8",
-        "https://play.aarray.cn/rrty/hd-zh-1-4558572_gqzm.m3u8?auth_key=1789913476-0-0-e4afa49db3612851740c4ea10bbb8e98&token=e9c95667f5d131bb&device=4&platform=rrty",
-        "https://tvsen7.aynascope.net/Sports1/index.m3u8",
-        "https://live1.quickscoreboardz.com/live/channel15/playlist.m3u8",
-        "https://live1.quickscoreboardz.com/live/channel4/playlist.m3u8"
-      ],
-      "last_updated": "2026-09-20T15:48:30.555709"
-    },
-    {
-      "match_id": "1135",
-      "title": "Bournemouth vs Liverpool",
-      "teams": "Bournemouth vs Liverpool",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://assets.myco.io/public/compressed/thumbnails/20260915/mycolive-Match_16__P-1789501803225.webp",
-      "league": "Premier League",
-      "viewers": "52",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1135",
-      "match_url": "live/bournemouth-vs-liverpool-1135",
-      "stream_url": "https://www.rtmpcdn.com/live/c482b572-08ff-41f1-a3e8-fdbd06b7ffdd.m3u8",
-      "server_count": 5,
-      "server_urls": [
-        "https://www.rtmpcdn.com/live/c482b572-08ff-41f1-a3e8-fdbd06b7ffdd.m3u8",
-        "https://play.aarray.cn/rrty/hd-zh-1-4558554_gqzm.m3u8?auth_key=1789913595-0-0-52f9fc98c80671047f9836e63d6f64f3&token=70cb883a7d9cefce&device=4&platform=rrty",
-        "https://tfzg0gr3uomttgr31hctw8rzdnctpptwzc3jt.100ycdn.com/live1.quickscoreboardz.com/live/channel5/playlist.m3u8?wsSecret=fa3133fe31c07ba1782a4470faba0ccc&wsABSTime=1789936299%3Freferer%3D&wsSession=f419d136e8bf1d2dc4a50513-178991155615778&wsIPSercert=778c0c2bed3dbfa455b79e0b553ae426&wsBindIP=2&wsserid=1168235407009320693",
-        "https://curly-surf-da2d.hasannirob234.workers.dev/https://live1.quickscoreboardz.com/live/channel5/playlist.m3u8?wsSecret=fa3133fe31c07ba1782a4470faba0ccc&wsABSTime=1789936299?referer=&ua=Mozilla%2F5.0%20(Linux%3B%20Android%2010%3B%20Mi%20Box%2FMiTV)%20AppleWebKit%2F537.36%20(KHTML%2C%20Joint)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F90.0.4430.210%20Safari%2F537.36",
-        "https://live1.quickscoreboardz.com/live/channel5/playlist.m3u8"
-      ],
-      "last_updated": "2026-09-20T15:48:30.895235"
+      "last_updated": "2026-09-20T15:54:07.966538"
     },
     {
       "match_id": "1142",
@@ -100,7 +42,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789846133540x302.jpg",
       "league": "European T20 Premier League 2026",
-      "viewers": "61",
+      "viewers": "62",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -115,7 +57,7 @@
         "https://tvsen5.aynascope.net/cXPB2LKkErN9/tracks-v1a1/mono.ts.m3u8",
         "https://tvsen7.aynaott.com/ssport2hd/index.m3u8"
       ],
-      "last_updated": "2026-09-20T15:48:31.237133"
+      "last_updated": "2026-09-20T15:54:08.894389"
     },
     {
       "match_id": "1114",
@@ -128,7 +70,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247637_53004_ATM_RM_FC-Web.png",
       "league": "LALIGA 2026-27",
-      "viewers": "172",
+      "viewers": "174",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -146,7 +88,7 @@
         "https://live.talkoraai.com/match/seg?t=MMUvNWlu1FrXu6BZZymV7sbFGJ9oaAXWELNXFmP0lZJ0NwlbRhts3rvZs0LvdmX4lyFqTuOjwbcVNkS8eZlBFWpINiFV1-_CT0mv9EDhMweBFhSne4zaj742c4tr4PmUw3cI54lfLW88YjHw1aIVfijXbQzMFWWFSpeZlp_FG_PndHjK_nssP9tKdOCjDwUZ9bTmIFoaUhZvEr7-sCYYEoeFnMUSzDkJNVojLrKRXHxpCuEqqCvzkpA96nb-oE7qKuxt3Gf6uuefVmme1VNBjQ2D5ldfAuUJtw",
         "https://saseries.akamaized.net/hls/live/2110097/306-tapmad/master.m3u8"
       ],
-      "last_updated": "2026-09-20T15:48:31.576116"
+      "last_updated": "2026-09-20T15:54:09.214559"
     },
     {
       "match_id": "1138",
@@ -159,7 +101,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://assets.myco.io/public/compressed/thumbnails/20260915/mycolive-Match_16__P-1789502481404.webp",
       "league": "Premier League",
-      "viewers": "7",
+      "viewers": "8",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -171,60 +113,7 @@
       "server_urls": [
         "https://tvsen7.aynascope.net/Sports1/index.m3u8"
       ],
-      "last_updated": "2026-09-20T15:48:31.916118"
-    },
-    {
-      "match_id": "1139",
-      "title": "Auxerre vs Brest",
-      "teams": "Auxerre vs Brest",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJLuAlbVo07I6CKf5qprjTdu1O-pGqjnTHTycU8q1dY_lQMRtvQWkjYOk&s=10",
-      "league": "Ligue 1",
-      "viewers": "38",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1139",
-      "match_url": "live/auxerre-vs-brest-1139",
-      "stream_url": "https://live.talkoraai.com/match/hls?t=iFsgJlTnSrE1qEFSq9Zm-mVjpDnY-nlbiDVLeamcb5YEmZrsT2zFVJKC8MLh5f6q-tmwklZYwdNRsJQCAzADy9UJLtAT8bW7i4kAXo1GakkH8FFTkVNgoy8ciZzhcZWiyBiMqFo0txwj534IE47n45rNY6q1zGC2a8ybyApScdyOic-kPpQLtxToGDeoRjTKgiI4Tbe89uWAWDz5C-57yI0WEQp1WUerJmGUwfoj0gPXq0qA_Zta316wkaZ-Nl8I1HcQgqX2le4kl1FTBpwebTHi7JtCfQ",
-      "server_count": 2,
-      "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=iFsgJlTnSrE1qEFSq9Zm-mVjpDnY-nlbiDVLeamcb5YEmZrsT2zFVJKC8MLh5f6q-tmwklZYwdNRsJQCAzADy9UJLtAT8bW7i4kAXo1GakkH8FFTkVNgoy8ciZzhcZWiyBiMqFo0txwj534IE47n45rNY6q1zGC2a8ybyApScdyOic-kPpQLtxToGDeoRjTKgiI4Tbe89uWAWDz5C-57yI0WEQp1WUerJmGUwfoj0gPXq0qA_Zta316wkaZ-Nl8I1HcQgqX2le4kl1FTBpwebTHi7JtCfQ",
-        "https://live.talkoraai.com/match/seg?t=zmPeYxwKEaL0FluxePLhGdzSgu3hm5gRYT5xiy6_2FVvTCU6B8kZ8wzki6YDPreLHxJmn5OesfkAfDPmz4fDREIfVu1P2_ACVHVPIv96xXR2K8NP3GAQhUvEnr7Nxwf7rxo2Of6r_n8HprIVlfX8GzdYwxUtdTCBxTBC8c3e9BYKYTekO79D64AB1bYuewu-fdO18wmK5abEsOPaetcfs0hH96X_bUbv964-AsFIydfm-D4Kl9l7oiu5HUX7gOyMhkVOsa59Scf2Guhio3GPwswV1sWFrEx7RecYlOny"
-      ],
-      "last_updated": "2026-09-20T15:48:32.255616"
-    },
-    {
-      "match_id": "1136",
-      "title": "Leeds United vs Crystal Palace",
-      "teams": "Leeds United vs Crystal Palace",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://assets.myco.io/public/compressed/thumbnails/20260915/mycolive-Match_16__P-1789502003272.webp",
-      "league": "Premier League",
-      "viewers": "42",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1136",
-      "match_url": "live/leeds-united-vs-crystal-palace-1136",
-      "stream_url": "https://www.rtmpcdn.com/live/c00713ea-ee78-48c6-9fdd-e642f44ceb00.m3u8",
-      "server_count": 3,
-      "server_urls": [
-        "https://www.rtmpcdn.com/live/c00713ea-ee78-48c6-9fdd-e642f44ceb00.m3u8",
-        "https://play.aarray.cn/rrty/hd-zh-1-4558569_gqzm.m3u8?auth_key=1789913596-0-0-4a2f52faf3566ba7f256299e413ef676&token=b18b0be703c56286&device=4&platform=rrty",
-        "https://live1.quickscoreboardz.com/live/channel14/playlist.m3u8"
-      ],
-      "last_updated": "2026-09-20T15:48:32.594653"
+      "last_updated": "2026-09-20T15:54:09.535093"
     },
     {
       "match_id": "1140",
@@ -237,7 +126,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789894227540x302.jpg",
       "league": "Ligue 1",
-      "viewers": "6",
+      "viewers": "7",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -247,7 +136,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T15:48:32.935049"
+      "last_updated": "2026-09-20T15:54:09.854009"
     },
     {
       "match_id": "1116",
@@ -270,7 +159,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T15:48:33.275217"
+      "last_updated": "2026-09-20T15:54:10.174580"
     },
     {
       "match_id": "1115",
@@ -293,7 +182,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T15:48:33.275860"
+      "last_updated": "2026-09-20T15:54:10.175014"
     },
     {
       "match_id": "1141",
@@ -316,7 +205,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T15:48:33.276429"
+      "last_updated": "2026-09-20T15:54:10.175424"
     },
     {
       "match_id": "1002",
@@ -339,7 +228,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T15:48:33.276970"
+      "last_updated": "2026-09-20T15:54:10.175814"
     },
     {
       "match_id": "1130",
@@ -362,7 +251,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T15:48:33.277526"
+      "last_updated": "2026-09-20T15:54:10.176196"
     },
     {
       "match_id": "1003",
@@ -385,7 +274,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T15:48:33.278090"
+      "last_updated": "2026-09-20T15:54:10.176592"
     },
     {
       "match_id": "1037",
@@ -408,7 +297,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T15:48:33.278662"
+      "last_updated": "2026-09-20T15:54:10.176970"
     },
     {
       "match_id": "1000",
@@ -431,7 +320,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T15:48:33.279217"
+      "last_updated": "2026-09-20T15:54:10.177359"
     },
     {
       "match_id": "1001",
@@ -454,7 +343,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T15:48:33.279870"
+      "last_updated": "2026-09-20T15:54:10.177751"
     },
     {
       "match_id": "1008",
@@ -477,7 +366,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T15:48:33.280429"
+      "last_updated": "2026-09-20T15:54:10.178128"
     },
     {
       "match_id": "1042",
@@ -500,7 +389,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T15:48:33.280978"
+      "last_updated": "2026-09-20T15:54:10.178517"
     },
     {
       "match_id": "1049",
@@ -523,7 +412,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T15:48:33.281546"
+      "last_updated": "2026-09-20T15:54:10.178897"
     },
     {
       "match_id": "1043",
@@ -546,7 +435,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T15:48:33.282095"
+      "last_updated": "2026-09-20T15:54:10.179281"
     }
   ]
 }
