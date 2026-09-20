@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-20T17:59:49.326100",
-  "total_matches": 15,
-  "live_count": 4,
+  "timestamp": "2026-09-20T18:09:52.729725",
+  "total_matches": 14,
+  "live_count": 3,
   "upcoming_count": 11,
   "completed_count": 0,
   "matches": [
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://assets.myco.io/public/compressed/thumbnails/20260915/mycolive-Match_16__P-1789502481404.webp",
       "league": "Premier League",
-      "viewers": "49",
+      "viewers": "52",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -28,7 +28,7 @@
       "server_urls": [
         "https://tvsen7.aynascope.net/Sports1/index.m3u8"
       ],
-      "last_updated": "2026-09-20T17:54:55.748092"
+      "last_updated": "2026-09-20T18:05:00.160215"
     },
     {
       "match_id": "1116",
@@ -41,7 +41,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247632_53004_VIL_LET_FC-Web.png",
       "league": "LALIGA 2026-27",
-      "viewers": "27",
+      "viewers": "29",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -54,7 +54,7 @@
         "https://www.rtmpcdn.com/live/0c856cf7-24e1-47eb-b211-af32abf2d9be.m3u8",
         "https://play.aarray.cn/rrty/hd-zh-1-4565431_gqzm.m3u8?auth_key=1789929789-0-0-a1fa503bee558ae8ee48d4c1e86e57f9&token=c0d8b8a1c1d5f27c&device=4&platform=rrty"
       ],
-      "last_updated": "2026-09-20T17:54:57.394763"
+      "last_updated": "2026-09-20T18:05:01.723431"
     },
     {
       "match_id": "1115",
@@ -67,7 +67,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247631_53004_COR_RB_FC-Web.png",
       "league": "LALIGA 2026-27",
-      "viewers": "27",
+      "viewers": "30",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -80,30 +80,7 @@
         "https://www.rtmpcdn.com/live/199b967c-1de2-4443-9f92-3c073661fb84.m3u8",
         "https://play.aarray.cn/rrty/hd-zh-1-4565423_gqzm.m3u8?auth_key=1789929729-0-0-8e6ab5bbad958ab572c670ed24d4a6a5&token=7d1196cb2b0e5a94&device=4&platform=rrty"
       ],
-      "last_updated": "2026-09-20T17:54:57.745015"
-    },
-    {
-      "match_id": "1140",
-      "title": "Nice vs LOSC",
-      "teams": "Nice vs LOSC",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789894227540x302.jpg",
-      "league": "Ligue 1",
-      "viewers": "35",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1140",
-      "match_url": "live/nice-vs-losc-1140",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-20T17:54:58.086329"
+      "last_updated": "2026-09-20T18:05:02.112546"
     },
     {
       "match_id": "1141",
@@ -126,7 +103,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T17:54:58.434361"
+      "last_updated": "2026-09-20T18:05:02.458837"
     },
     {
       "match_id": "1002",
@@ -149,7 +126,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T17:54:58.435086"
+      "last_updated": "2026-09-20T18:05:02.459322"
     },
     {
       "match_id": "1130",
@@ -172,7 +149,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T17:54:58.435725"
+      "last_updated": "2026-09-20T18:05:02.459746"
     },
     {
       "match_id": "1003",
@@ -195,7 +172,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T17:54:58.436372"
+      "last_updated": "2026-09-20T18:05:02.460165"
     },
     {
       "match_id": "1037",
@@ -218,7 +195,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T17:54:58.437015"
+      "last_updated": "2026-09-20T18:05:02.460584"
     },
     {
       "match_id": "1000",
@@ -241,7 +218,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T17:54:58.437644"
+      "last_updated": "2026-09-20T18:05:02.460994"
     },
     {
       "match_id": "1001",
@@ -264,7 +241,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T17:54:58.438276"
+      "last_updated": "2026-09-20T18:05:02.461398"
     },
     {
       "match_id": "1008",
@@ -287,7 +264,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T17:54:58.438903"
+      "last_updated": "2026-09-20T18:05:02.461808"
     },
     {
       "match_id": "1042",
@@ -310,7 +287,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T17:54:58.439515"
+      "last_updated": "2026-09-20T18:05:02.462208"
     },
     {
       "match_id": "1049",
@@ -333,7 +310,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T17:54:58.440150"
+      "last_updated": "2026-09-20T18:05:02.462621"
     },
     {
       "match_id": "1043",
@@ -356,7 +333,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T17:54:58.440753"
+      "last_updated": "2026-09-20T18:05:02.463025"
     }
   ]
 }
