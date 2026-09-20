@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-20T00:20:25.754762",
+  "timestamp": "2026-09-20T00:21:09.747491",
   "total_matches": 18,
-  "live_count": 0,
-  "upcoming_count": 18,
+  "live_count": 1,
+  "upcoming_count": 17,
   "completed_count": 0,
   "matches": [
     {
@@ -11,22 +11,25 @@
       "teams": "Pakistan Women vs Sri Lanka Women, 1st Semi Final",
       "sport": "cricket",
       "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
+      "status": "live",
+      "status_display": "LIVE",
       "runtime": "00h 00m 00s",
       "thumbnail": "https://myimgs.org/storage/images/41158/917e92fb-46c8-4b34-a04e-bdf878442005.jpg",
       "league": "Women's Asian Games 2026-T20",
       "viewers": "2",
-      "viewers_type": "Waiting",
+      "viewers_type": "Watching",
       "date": null,
       "time": null,
       "servers": null,
       "page_url": "/world-sports/player.html?id=1107",
       "match_url": "live/pakistan-women-vs-sri-lanka-women-1st-semi-final-1107",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-19T23:50:45.396395"
+      "stream_url": "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=ten_cricket&e=.m3u8",
+      "server_count": 2,
+      "server_urls": [
+        "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=ten_cricket&e=.m3u8",
+        "https://robitv.com/lps/https://ml-pull-dvc-myco.io:2096/TENSPORTS_HD/mono.m3u8"
+      ],
+      "last_updated": "2026-09-20T00:20:29.791268"
     },
     {
       "match_id": "1108",
@@ -49,7 +52,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T23:50:45.397242"
+      "last_updated": "2026-09-20T00:20:30.997543"
     },
     {
       "match_id": "956",
@@ -72,7 +75,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T23:50:45.397896"
+      "last_updated": "2026-09-20T00:20:30.998277"
     },
     {
       "match_id": "990",
@@ -95,7 +98,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T23:50:45.398529"
+      "last_updated": "2026-09-20T00:20:30.998889"
     },
     {
       "match_id": "1113",
@@ -118,7 +121,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T23:50:45.399171"
+      "last_updated": "2026-09-20T00:20:30.999472"
     },
     {
       "match_id": "1114",
@@ -141,7 +144,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T23:50:45.399809"
+      "last_updated": "2026-09-20T00:20:31.000037"
     },
     {
       "match_id": "1116",
@@ -164,7 +167,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T23:50:45.400414"
+      "last_updated": "2026-09-20T00:20:31.000578"
     },
     {
       "match_id": "1115",
@@ -187,7 +190,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T23:50:45.401043"
+      "last_updated": "2026-09-20T00:20:31.001134"
     },
     {
       "match_id": "1002",
@@ -200,7 +203,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247633_53004_VAL_RS_FC-Web.png",
       "league": "LALIGA 2026-27",
-      "viewers": "11",
+      "viewers": "12",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -210,7 +213,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T23:50:45.401646"
+      "last_updated": "2026-09-20T00:20:31.001680"
     },
     {
       "match_id": "1130",
@@ -233,7 +236,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T23:50:45.402271"
+      "last_updated": "2026-09-20T00:20:31.002264"
     },
     {
       "match_id": "1003",
@@ -256,7 +259,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T23:50:45.402899"
+      "last_updated": "2026-09-20T00:20:31.002805"
     },
     {
       "match_id": "1037",
@@ -269,7 +272,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
       "league": "World Championship of Legends, 2026",
-      "viewers": "7",
+      "viewers": "9",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -279,7 +282,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T23:50:45.403513"
+      "last_updated": "2026-09-20T00:20:31.003362"
     },
     {
       "match_id": "1000",
@@ -302,7 +305,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T23:50:45.404168"
+      "last_updated": "2026-09-20T00:20:31.003910"
     },
     {
       "match_id": "1001",
@@ -325,7 +328,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T23:50:45.404798"
+      "last_updated": "2026-09-20T00:20:31.004463"
     },
     {
       "match_id": "1008",
@@ -348,7 +351,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T23:50:45.405402"
+      "last_updated": "2026-09-20T00:20:31.005028"
     },
     {
       "match_id": "1042",
@@ -371,7 +374,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T23:50:45.406033"
+      "last_updated": "2026-09-20T00:20:31.005589"
     },
     {
       "match_id": "1049",
@@ -394,7 +397,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T23:50:45.406628"
+      "last_updated": "2026-09-20T00:20:31.006161"
     },
     {
       "match_id": "1043",
@@ -417,7 +420,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-19T23:50:45.407251"
+      "last_updated": "2026-09-20T00:20:31.006704"
     }
   ]
 }
