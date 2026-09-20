@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-20T11:17:18.884844",
-  "total_matches": 16,
-  "live_count": 2,
+  "timestamp": "2026-09-20T11:22:19.880036",
+  "total_matches": 19,
+  "live_count": 5,
   "upcoming_count": 14,
   "completed_count": 0,
   "matches": [
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/ZIMvsAUS_Web-match-card.png",
       "league": "Australia tour of Zimbabwe, 2026",
-      "viewers": "96",
+      "viewers": "98",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -29,7 +29,84 @@
         "https://live.talkoraai.com/match/hls?t=BSwwmhkkMqjlaEQjzA_bhRBMZ0iSfp_LIB92gGNlxPTVd1xlSmeZJklNjxert5MnJvSA7BBWfmp9xegVvIFWRVXVr9McMthet46hIZBllS8Fib94V8YOu5DIdKIg3pB7itPg86sASMA-ZftVha9jVSyyHhkgazV0Y0Omgx46D_wWTcezsX6n21nDX_j6s0QwbTPCHL7JVt70ye_pbfNMQkjrvhNoVXi_bqiVsJtPHQCr8iB4PhrF0r_0dnYkYfRR6jGx6Rqp35RitUWVUlLuwFSQscAhIQ",
         "https://live.talkoraai.com/match/seg?t=w2FUlxWzyYMvXKzhUnRATfO1m9wgX97VCElHHrvRoQTOpvYuDAfRNvtyGRN29zcplc5W_m7p4iYpu6AQpZhpGBTovuWVvVbS-xT4YqbEgixFfim9SSJt0xglTDA_uf_QuxUPMdpvLT5UovFMhvzafMoG5j0B9izOm3ZxDd5_Bo_m78ZCQSxutyQa9ni4xYIkka86qGax1x1JXRwW9OpG1VFCsfXh5bzA7Bbnr6Rwzqo3X8Z9n91MDEm5Kxu8lX0z5hXSKhrddAkKG_-8qSfRwUAmPqMW1zwpo8cN_S30"
       ],
-      "last_updated": "2026-09-20T11:01:50.808945"
+      "last_updated": "2026-09-20T11:17:30.805849"
+    },
+    {
+      "match_id": "1132",
+      "title": "Fiorentina vs Napoli",
+      "teams": "Fiorentina vs Napoli",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBtESGUOIJmxO6WmaeUzggfQoHMzmL2dkhT5j22vzQCDDEgFXq548Cb-c&s=10",
+      "league": "Serie A",
+      "viewers": "384",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1132",
+      "match_url": "live/fiorentina-vs-napoli-1132",
+      "stream_url": "https://www.rtmpcdn.com/live/3390f73a-38f2-49aa-9669-a4ef7f83ceb2.m3u8",
+      "server_count": 2,
+      "server_urls": [
+        "https://www.rtmpcdn.com/live/3390f73a-38f2-49aa-9669-a4ef7f83ceb2.m3u8",
+        "https://play.aarray.cn/rrty/hd-zh-1-4549154_gqzm.m3u8?auth_key=1789905728-0-0-2a12f8460949617c043120fce6629385&token=ff438e9297c20afb&device=4&platform=rrty"
+      ],
+      "last_updated": "2026-09-20T11:17:32.019504"
+    },
+    {
+      "match_id": "1134",
+      "title": "Kyrgyzstan U23 vs Japan U23",
+      "teams": "Kyrgyzstan U23 vs Japan U23",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://i.postimg.cc/vmnvyd7K/image.png",
+      "league": "Asian Games 2026",
+      "viewers": "1",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1134",
+      "match_url": "live/kyrgyzstan-u23-vs-japan-u23-1134",
+      "stream_url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV1080p.m3u8",
+      "server_count": 2,
+      "server_urls": [
+        "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV1080p.m3u8",
+        "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8"
+      ],
+      "last_updated": "2026-09-20T11:17:32.337720"
+    },
+    {
+      "match_id": "1133",
+      "title": "Celtic vs Rangers",
+      "teams": "Celtic vs Rangers",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://s.yimg.com/lo/mysterio/api/3d37e77dbe39d8e6831278d56c09960fd99792d0b3d128e62ca97bd65cbf0018/lightyear_networkapi/resizefill_w976%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fevening_standard_239%2F4802db5306c1eb3227a5a0fced1a687b",
+      "league": "Scottish Premiership",
+      "viewers": "421",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1133",
+      "match_url": "live/celtic-vs-rangers-1133",
+      "stream_url": "https://live1.dyrur1.com/live/72201644_82c6f97ee97b360c015003a2ca109151_720p.m3u8?auth_key=1789916431-0-0-619499e08f40a2587f5b418c2a521178",
+      "server_count": 1,
+      "server_urls": [
+        "https://live1.dyrur1.com/live/72201644_82c6f97ee97b360c015003a2ca109151_720p.m3u8?auth_key=1789916431-0-0-619499e08f40a2587f5b418c2a521178"
+      ],
+      "last_updated": "2026-09-20T11:17:32.651486"
     },
     {
       "match_id": "990",
@@ -42,17 +119,19 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247498_52993_WOL_WBA_fc-web_1786657253863.jpg",
       "league": "EFL Championship 2026-27",
-      "viewers": "14",
+      "viewers": "19",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
       "servers": null,
       "page_url": "/world-sports/player.html?id=990",
       "match_url": "live/wolverhampton-wanderers-f-c-vs-west-bromwich-albion-f-c-990",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-20T11:01:52.306126"
+      "stream_url": "https://live.dyrur1.com/live/72339860_84487dc38d0e9ee8daff17984459bea2_720p.m3u8?auth_key=1789916430-0-0-50bb87b0a2f4dd7a34087c87a0b8c6d2",
+      "server_count": 1,
+      "server_urls": [
+        "https://live.dyrur1.com/live/72339860_84487dc38d0e9ee8daff17984459bea2_720p.m3u8?auth_key=1789916430-0-0-50bb87b0a2f4dd7a34087c87a0b8c6d2"
+      ],
+      "last_updated": "2026-09-20T11:17:32.967159"
     },
     {
       "match_id": "1113",
@@ -75,7 +154,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T11:01:52.610264"
+      "last_updated": "2026-09-20T11:17:33.284145"
     },
     {
       "match_id": "1114",
@@ -98,7 +177,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T11:01:52.610644"
+      "last_updated": "2026-09-20T11:17:33.284744"
     },
     {
       "match_id": "1116",
@@ -121,7 +200,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T11:01:52.610992"
+      "last_updated": "2026-09-20T11:17:33.285262"
     },
     {
       "match_id": "1115",
@@ -144,7 +223,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T11:01:52.611309"
+      "last_updated": "2026-09-20T11:17:33.285776"
     },
     {
       "match_id": "1002",
@@ -167,7 +246,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T11:01:52.611626"
+      "last_updated": "2026-09-20T11:17:33.286269"
     },
     {
       "match_id": "1130",
@@ -190,7 +269,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T11:01:52.611947"
+      "last_updated": "2026-09-20T11:17:33.286773"
     },
     {
       "match_id": "1003",
@@ -213,7 +292,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T11:01:52.612264"
+      "last_updated": "2026-09-20T11:17:33.287255"
     },
     {
       "match_id": "1037",
@@ -236,7 +315,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T11:01:52.612580"
+      "last_updated": "2026-09-20T11:17:33.287768"
     },
     {
       "match_id": "1000",
@@ -259,7 +338,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T11:01:52.612906"
+      "last_updated": "2026-09-20T11:17:33.288257"
     },
     {
       "match_id": "1001",
@@ -282,7 +361,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T11:01:52.613222"
+      "last_updated": "2026-09-20T11:17:33.288770"
     },
     {
       "match_id": "1008",
@@ -305,7 +384,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T11:01:52.613536"
+      "last_updated": "2026-09-20T11:17:33.289266"
     },
     {
       "match_id": "1042",
@@ -328,7 +407,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T11:01:52.613865"
+      "last_updated": "2026-09-20T11:17:33.289761"
     },
     {
       "match_id": "1049",
@@ -341,7 +420,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "league": "LALIGA 2026-27",
-      "viewers": "5",
+      "viewers": "6",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -351,7 +430,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T11:01:52.614174"
+      "last_updated": "2026-09-20T11:17:33.290234"
     },
     {
       "match_id": "1043",
@@ -374,7 +453,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T11:01:52.614483"
+      "last_updated": "2026-09-20T11:17:33.290723"
     }
   ]
 }
