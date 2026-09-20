@@ -1,36 +1,10 @@
 {
-  "timestamp": "2026-09-20T22:45:22.938062",
-  "total_matches": 10,
-  "live_count": 1,
+  "timestamp": "2026-09-20T22:52:13.816059",
+  "total_matches": 9,
+  "live_count": 0,
   "upcoming_count": 9,
   "completed_count": 0,
   "matches": [
-    {
-      "match_id": "1145",
-      "title": "AC Milan vs Lecce",
-      "teams": "AC Milan vs Lecce",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPq2c9FbEsLFG3qQIbyMags4FM8VczGgkuPEbUS3c7-8N9Io3FwkPExLth&s=10",
-      "league": "Serie A",
-      "viewers": "13",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1145",
-      "match_url": "live/ac-milan-vs-lecce-1145",
-      "stream_url": "https://www.rtmpcdn.com/live/99744c54-3d8b-4347-b02c-e8eadc10b77c.m3u8",
-      "server_count": 2,
-      "server_urls": [
-        "https://www.rtmpcdn.com/live/99744c54-3d8b-4347-b02c-e8eadc10b77c.m3u8",
-        "https://play.aarray.cn/rrty/hd-zh-1-4549150_gqzm.m3u8?auth_key=1789933448-0-0-32b253aaa6888f7a0975c68d47c3c4d5&token=55ea7b2d5b419ee1&device=4&platform=rrty"
-      ],
-      "last_updated": "2026-09-20T22:23:38.100857"
-    },
     {
       "match_id": "1130",
       "title": "Antigua & Barbuda Falcons vs Jamaica Kingsmen Final",
@@ -52,7 +26,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T22:23:39.029762"
+      "last_updated": "2026-09-20T22:45:28.704823"
     },
     {
       "match_id": "1003",
@@ -75,7 +49,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T22:23:39.030594"
+      "last_updated": "2026-09-20T22:45:28.705689"
     },
     {
       "match_id": "1037",
@@ -98,7 +72,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T22:23:39.031374"
+      "last_updated": "2026-09-20T22:45:28.706335"
     },
     {
       "match_id": "1000",
@@ -121,7 +95,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T22:23:39.032068"
+      "last_updated": "2026-09-20T22:45:28.706974"
     },
     {
       "match_id": "1001",
@@ -144,7 +118,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T22:23:39.032691"
+      "last_updated": "2026-09-20T22:45:28.707584"
     },
     {
       "match_id": "1008",
@@ -167,7 +141,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T22:23:39.033387"
+      "last_updated": "2026-09-20T22:45:28.708217"
     },
     {
       "match_id": "1042",
@@ -190,7 +164,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T22:23:39.034067"
+      "last_updated": "2026-09-20T22:45:28.708856"
     },
     {
       "match_id": "1049",
@@ -213,7 +187,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T22:23:39.034678"
+      "last_updated": "2026-09-20T22:45:28.709468"
     },
     {
       "match_id": "1043",
@@ -236,7 +210,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T22:23:39.035337"
+      "last_updated": "2026-09-20T22:45:28.710086"
     }
   ]
 }
