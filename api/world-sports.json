@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-20T22:23:28.614402",
-  "total_matches": 11,
-  "live_count": 2,
+  "timestamp": "2026-09-20T22:45:22.938062",
+  "total_matches": 10,
+  "live_count": 1,
   "upcoming_count": 9,
   "completed_count": 0,
   "matches": [
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPq2c9FbEsLFG3qQIbyMags4FM8VczGgkuPEbUS3c7-8N9Io3FwkPExLth&s=10",
       "league": "Serie A",
-      "viewers": "11",
+      "viewers": "13",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -29,35 +29,7 @@
         "https://www.rtmpcdn.com/live/99744c54-3d8b-4347-b02c-e8eadc10b77c.m3u8",
         "https://play.aarray.cn/rrty/hd-zh-1-4549150_gqzm.m3u8?auth_key=1789933448-0-0-32b253aaa6888f7a0975c68d47c3c4d5&token=55ea7b2d5b419ee1&device=4&platform=rrty"
       ],
-      "last_updated": "2026-09-20T21:35:06.354443"
-    },
-    {
-      "match_id": "1002",
-      "title": "Valencia CF vs Real Sociedad",
-      "teams": "Valencia CF vs Real Sociedad",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247633_53004_VAL_RS_FC-Web.png",
-      "league": "LALIGA 2026-27",
-      "viewers": "31",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1002",
-      "match_url": "live/valencia-cf-vs-real-sociedad-1002",
-      "stream_url": "https://www.rtmpcdn.com/live/f59b3a39-b87d-437e-ab5d-98d11be72b24.m3u8",
-      "server_count": 4,
-      "server_urls": [
-        "https://www.rtmpcdn.com/live/f59b3a39-b87d-437e-ab5d-98d11be72b24.m3u8",
-        "https://play.aarray.cn/rrty/hd-zh-1-4565429_gqzm.m3u8?auth_key=1789934227-0-0-10b85447b538dc94504a0b52e840476c&token=57d48cb2563ffdcf&device=4&platform=rrty",
-        "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8",
-        "https://tapmed.dmcamoviezmad.workers.dev/https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8"
-      ],
-      "last_updated": "2026-09-20T21:35:07.953930"
+      "last_updated": "2026-09-20T22:23:38.100857"
     },
     {
       "match_id": "1130",
@@ -70,7 +42,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248286_53026_JK_ABF_FC-Web_1786367986999.png",
       "league": "Caribbean Premier League, 2026",
-      "viewers": "3",
+      "viewers": "4",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -80,7 +52,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T21:35:08.293664"
+      "last_updated": "2026-09-20T22:23:39.029762"
     },
     {
       "match_id": "1003",
@@ -103,7 +75,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T21:35:08.294280"
+      "last_updated": "2026-09-20T22:23:39.030594"
     },
     {
       "match_id": "1037",
@@ -126,7 +98,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T21:35:08.294805"
+      "last_updated": "2026-09-20T22:23:39.031374"
     },
     {
       "match_id": "1000",
@@ -149,7 +121,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T21:35:08.295282"
+      "last_updated": "2026-09-20T22:23:39.032068"
     },
     {
       "match_id": "1001",
@@ -162,7 +134,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249137_53025_AFF_AAS_FC-Web.png",
       "league": "Roshn Saudi League 2026-2027",
-      "viewers": "11",
+      "viewers": "12",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -172,7 +144,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T21:35:08.295703"
+      "last_updated": "2026-09-20T22:23:39.032691"
     },
     {
       "match_id": "1008",
@@ -195,7 +167,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T21:35:08.296176"
+      "last_updated": "2026-09-20T22:23:39.033387"
     },
     {
       "match_id": "1042",
@@ -218,7 +190,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T21:35:08.296592"
+      "last_updated": "2026-09-20T22:23:39.034067"
     },
     {
       "match_id": "1049",
@@ -241,7 +213,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T21:35:08.297071"
+      "last_updated": "2026-09-20T22:23:39.034678"
     },
     {
       "match_id": "1043",
@@ -264,7 +236,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T21:35:08.297528"
+      "last_updated": "2026-09-20T22:23:39.035337"
     }
   ]
 }
