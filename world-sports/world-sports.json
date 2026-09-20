@@ -1,61 +1,35 @@
 {
-  "timestamp": "2026-09-20T19:08:28.293633",
-  "total_matches": 13,
-  "live_count": 3,
-  "upcoming_count": 10,
+  "timestamp": "2026-09-20T19:13:25.811141",
+  "total_matches": 14,
+  "live_count": 5,
+  "upcoming_count": 9,
   "completed_count": 0,
   "matches": [
     {
-      "match_id": "1116",
-      "title": "Villarreal CF vs Levante",
-      "teams": "Villarreal CF vs Levante",
-      "sport": "football",
-      "sport_display": "Football",
+      "match_id": "1145",
+      "title": "AC Milan vs Lecce",
+      "teams": "AC Milan vs Lecce",
+      "sport": "cricket",
+      "sport_display": "Cricket",
       "status": "live",
       "status_display": "LIVE",
       "runtime": "00h 00m 00s",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247632_53004_VIL_LET_FC-Web.png",
-      "league": "LALIGA 2026-27",
-      "viewers": "41",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPq2c9FbEsLFG3qQIbyMags4FM8VczGgkuPEbUS3c7-8N9Io3FwkPExLth&s=10",
+      "league": "Serie A",
+      "viewers": "165",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
       "servers": null,
-      "page_url": "/world-sports/player.html?id=1116",
-      "match_url": "live/villarreal-cf-vs-levante-1116",
-      "stream_url": "https://www.rtmpcdn.com/live/0c856cf7-24e1-47eb-b211-af32abf2d9be.m3u8",
+      "page_url": "/world-sports/player.html?id=1145",
+      "match_url": "live/ac-milan-vs-lecce-1145",
+      "stream_url": "https://www.rtmpcdn.com/live/99744c54-3d8b-4347-b02c-e8eadc10b77c.m3u8",
       "server_count": 2,
       "server_urls": [
-        "https://www.rtmpcdn.com/live/0c856cf7-24e1-47eb-b211-af32abf2d9be.m3u8",
-        "https://play.aarray.cn/rrty/hd-zh-1-4565431_gqzm.m3u8?auth_key=1789929789-0-0-a1fa503bee558ae8ee48d4c1e86e57f9&token=c0d8b8a1c1d5f27c&device=4&platform=rrty"
+        "https://www.rtmpcdn.com/live/99744c54-3d8b-4347-b02c-e8eadc10b77c.m3u8",
+        "https://play.aarray.cn/rrty/hd-zh-1-4549150_gqzm.m3u8?auth_key=1789933448-0-0-32b253aaa6888f7a0975c68d47c3c4d5&token=55ea7b2d5b419ee1&device=4&platform=rrty"
       ],
-      "last_updated": "2026-09-20T18:45:06.825351"
-    },
-    {
-      "match_id": "1115",
-      "title": "Deportivo de La Coruna vs Real Betis",
-      "teams": "Deportivo de La Coruna vs Real Betis",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247631_53004_COR_RB_FC-Web.png",
-      "league": "LALIGA 2026-27",
-      "viewers": "36",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1115",
-      "match_url": "live/deportivo-de-la-coruna-vs-real-betis-1115",
-      "stream_url": "https://www.rtmpcdn.com/live/199b967c-1de2-4443-9f92-3c073661fb84.m3u8",
-      "server_count": 2,
-      "server_urls": [
-        "https://www.rtmpcdn.com/live/199b967c-1de2-4443-9f92-3c073661fb84.m3u8",
-        "https://play.aarray.cn/rrty/hd-zh-1-4565423_gqzm.m3u8?auth_key=1789929729-0-0-8e6ab5bbad958ab572c670ed24d4a6a5&token=7d1196cb2b0e5a94&device=4&platform=rrty"
-      ],
-      "last_updated": "2026-09-20T18:45:07.233543"
+      "last_updated": "2026-09-20T19:08:32.362735"
     },
     {
       "match_id": "1141",
@@ -68,7 +42,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789894488540x302.jpg",
       "league": "Ligue 1",
-      "viewers": "4",
+      "viewers": "8",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -81,7 +55,7 @@
         "https://www.rtmpcdn.com/live/3e0cfd2e-ab15-4db7-99e2-d849fcff115a.m3u8",
         "https://play.aarray.cn/rrty/hd-zh-1-4550886_gqzm.m3u8?auth_key=1789933389-0-0-faf1ec929019e1fa3f8b2f0f714f46e5&token=5cdc6449943dd415&device=4&platform=rrty"
       ],
-      "last_updated": "2026-09-20T18:45:07.561883"
+      "last_updated": "2026-09-20T19:08:33.673165"
     },
     {
       "match_id": "1002",
@@ -89,22 +63,79 @@
       "teams": "Valencia CF vs Real Sociedad",
       "sport": "football",
       "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
+      "status": "live",
+      "status_display": "LIVE",
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247633_53004_VAL_RS_FC-Web.png",
       "league": "LALIGA 2026-27",
-      "viewers": "12",
-      "viewers_type": "Waiting",
+      "viewers": "21",
+      "viewers_type": "Watching",
       "date": null,
       "time": null,
       "servers": null,
       "page_url": "/world-sports/player.html?id=1002",
       "match_url": "live/valencia-cf-vs-real-sociedad-1002",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-20T18:45:07.889398"
+      "stream_url": "https://www.rtmpcdn.com/live/f59b3a39-b87d-437e-ab5d-98d11be72b24.m3u8",
+      "server_count": 4,
+      "server_urls": [
+        "https://www.rtmpcdn.com/live/f59b3a39-b87d-437e-ab5d-98d11be72b24.m3u8",
+        "https://play.aarray.cn/rrty/hd-zh-1-4565429_gqzm.m3u8?auth_key=1789934227-0-0-10b85447b538dc94504a0b52e840476c&token=57d48cb2563ffdcf&device=4&platform=rrty",
+        "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8",
+        "https://tapmed.dmcamoviezmad.workers.dev/https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8"
+      ],
+      "last_updated": "2026-09-20T19:08:34.009292"
+    },
+    {
+      "match_id": "1116",
+      "title": "Villarreal CF vs Levante",
+      "teams": "Villarreal CF vs Levante",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247632_53004_VIL_LET_FC-Web.png",
+      "league": "LALIGA 2026-27",
+      "viewers": "42",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1116",
+      "match_url": "live/villarreal-cf-vs-levante-1116",
+      "stream_url": "https://www.rtmpcdn.com/live/0c856cf7-24e1-47eb-b211-af32abf2d9be.m3u8",
+      "server_count": 2,
+      "server_urls": [
+        "https://www.rtmpcdn.com/live/0c856cf7-24e1-47eb-b211-af32abf2d9be.m3u8",
+        "https://play.aarray.cn/rrty/hd-zh-1-4565431_gqzm.m3u8?auth_key=1789929789-0-0-a1fa503bee558ae8ee48d4c1e86e57f9&token=c0d8b8a1c1d5f27c&device=4&platform=rrty"
+      ],
+      "last_updated": "2026-09-20T19:08:34.351652"
+    },
+    {
+      "match_id": "1115",
+      "title": "Deportivo de La Coruna vs Real Betis",
+      "teams": "Deportivo de La Coruna vs Real Betis",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247631_53004_COR_RB_FC-Web.png",
+      "league": "LALIGA 2026-27",
+      "viewers": "37",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1115",
+      "match_url": "live/deportivo-de-la-coruna-vs-real-betis-1115",
+      "stream_url": "https://www.rtmpcdn.com/live/199b967c-1de2-4443-9f92-3c073661fb84.m3u8",
+      "server_count": 2,
+      "server_urls": [
+        "https://www.rtmpcdn.com/live/199b967c-1de2-4443-9f92-3c073661fb84.m3u8",
+        "https://play.aarray.cn/rrty/hd-zh-1-4565423_gqzm.m3u8?auth_key=1789929729-0-0-8e6ab5bbad958ab572c670ed24d4a6a5&token=7d1196cb2b0e5a94&device=4&platform=rrty"
+      ],
+      "last_updated": "2026-09-20T19:08:34.692108"
     },
     {
       "match_id": "1130",
@@ -127,7 +158,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T18:45:07.890199"
+      "last_updated": "2026-09-20T19:08:35.032517"
     },
     {
       "match_id": "1003",
@@ -150,7 +181,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T18:45:07.890866"
+      "last_updated": "2026-09-20T19:08:35.033209"
     },
     {
       "match_id": "1037",
@@ -173,7 +204,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T18:45:07.891516"
+      "last_updated": "2026-09-20T19:08:35.033820"
     },
     {
       "match_id": "1000",
@@ -196,7 +227,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T18:45:07.892137"
+      "last_updated": "2026-09-20T19:08:35.034442"
     },
     {
       "match_id": "1001",
@@ -219,7 +250,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T18:45:07.892772"
+      "last_updated": "2026-09-20T19:08:35.035047"
     },
     {
       "match_id": "1008",
@@ -242,7 +273,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T18:45:07.893392"
+      "last_updated": "2026-09-20T19:08:35.035649"
     },
     {
       "match_id": "1042",
@@ -265,7 +296,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T18:45:07.894035"
+      "last_updated": "2026-09-20T19:08:35.036267"
     },
     {
       "match_id": "1049",
@@ -288,7 +319,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T18:45:07.894676"
+      "last_updated": "2026-09-20T19:08:35.036975"
     },
     {
       "match_id": "1043",
@@ -311,7 +342,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-20T18:45:07.895297"
+      "last_updated": "2026-09-20T19:08:35.037615"
     }
   ]
 }
