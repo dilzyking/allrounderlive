@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-22T18:42:19.802719",
+  "timestamp": "2026-09-22T18:48:01.883204",
   "total_matches": 21,
-  "live_count": 3,
-  "upcoming_count": 18,
+  "live_count": 4,
+  "upcoming_count": 17,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789972006540x302.jpg",
       "league": "Sri Lanka tour of England, 2026",
-      "viewers": "169",
+      "viewers": "170",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -31,7 +31,30 @@
         "https://robitv.com/lps/https://ml-pull-dvc-myco.io:2096/TENSPORTS_HD/mono.m3u8",
         "https://drk6xq0vhn.gpcdn.net/live/ten_1_hd_720/index.m3u8"
       ],
-      "last_updated": "2026-09-22T18:41:44.698887"
+      "last_updated": "2026-09-22T18:46:49.169987"
+    },
+    {
+      "match_id": "1153",
+      "title": "Serbia vs Greece",
+      "teams": "Serbia vs Greece",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789993868540x302.jpg",
+      "league": "UEFA Nations League 2026/27",
+      "viewers": "1",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1153",
+      "match_url": "live/serbia-vs-greece-1153",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-22T18:46:49.555657"
     },
     {
       "match_id": "1158",
@@ -44,7 +67,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://tips.gg/match/inter-w-vs-hacken-w-22-09-2026-05-45/poster/",
       "league": "UEFA Champions League 2026",
-      "viewers": "25",
+      "viewers": "26",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -56,7 +79,7 @@
       "server_urls": [
         "https://live.talkoraai.com/match/hls?t=3dxF_ej437XfVb5KpDkHU94eVOLk7IPLYyWfX6hzBGlEh69nfmMLjT5GMnGEOLfC6eiYHA4Rq1_d85s7H-wigjfVQ4715FG7sCSbm87bmoik4PzxNNBo2-WNQCugdMCyV9-linS7WBf-fQc7EMwMzsiv5tF92CPJenxJtCLjLxR9mdroWE2dBNru2-AzwOTII5r1lEVEoA9EnTySXzuPQrjPhaY8LKYqASgLTRPkeyoyozA0yExOpWElW1dbVydNm89dlZkjnUxEADU0XyhbQk0Fnw3fzg"
       ],
-      "last_updated": "2026-09-22T18:41:45.101623"
+      "last_updated": "2026-09-22T18:46:49.889093"
     },
     {
       "match_id": "1159",
@@ -69,7 +92,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEKOBhxlUuesuI3Lj7D2Y89IYCStOzxnzGqgRjsSPcIEqRc8lwgjZfkkM&s=10",
       "league": "UEFA Champions League 2026",
-      "viewers": "18",
+      "viewers": "19",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -81,168 +104,7 @@
       "server_urls": [
         "https://live.talkoraai.com/match/hls?t=3dxF_ej437XfVb5KpDkHU94eVOLk7IPLYyWfX6hzBGlEh69nfmMLjT5GMnGEOLfC6eiYHA4Rq1_d85s7H-wigjfVQ4715FG7sCSbm87bmoik4PzxNNBo2-WNQCugdMCyV9-linS7WBf-fQc7EMwMzsiv5tF92CPJenxJtCLjLxR9mdroWE2dBNru2-AzwOTII5r1lEVEoA9EnTySXzuPQrjPhaY8LKYqASgLTRPkeyoyozA0yExOpWElW1dbVydNm89dlZkjnUxEADU0XyhbQk0Fnw3fzg"
       ],
-      "last_updated": "2026-09-22T18:41:45.443853"
-    },
-    {
-      "match_id": "1149",
-      "title": "South Africa vs Australia",
-      "teams": "South Africa vs Australia",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790068057540x302.jpg",
-      "league": "Sports Tournament",
-      "viewers": "1",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1149",
-      "match_url": "live/south-africa-vs-australia-1149",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-22T18:41:45.780880"
-    },
-    {
-      "match_id": "1152",
-      "title": "Liechtenstein vs Luthuania",
-      "teams": "Liechtenstein vs Luthuania",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789993336540x302.jpg",
-      "league": "Sports Tournament",
-      "viewers": "424",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1152",
-      "match_url": "live/liechtenstein-vs-luthuania-1152",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-22T18:41:45.781590"
-    },
-    {
-      "match_id": "1153",
-      "title": "Serbia vs Greece",
-      "teams": "Serbia vs Greece",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789993868540x302.jpg",
-      "league": "Sports Tournament",
-      "viewers": "1",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1153",
-      "match_url": "live/serbia-vs-greece-1153",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-22T18:41:45.782202"
-    },
-    {
-      "match_id": "1154",
-      "title": "Portugal vs Wales",
-      "teams": "Portugal vs Wales",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789993766540x302.jpg",
-      "league": "Sports Tournament",
-      "viewers": "1",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1154",
-      "match_url": "live/portugal-vs-wales-1154",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-22T18:41:45.782846"
-    },
-    {
-      "match_id": "1155",
-      "title": "Kosovo vs Ireland",
-      "teams": "Kosovo vs Ireland",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789993438540x302.jpg",
-      "league": "Sports Tournament",
-      "viewers": "1",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1155",
-      "match_url": "live/kosovo-vs-ireland-1155",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-22T18:41:45.783473"
-    },
-    {
-      "match_id": "1156",
-      "title": "Austria vs Israel",
-      "teams": "Austria vs Israel",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789993659540x302.jpg",
-      "league": "Sports Tournament",
-      "viewers": "1",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1156",
-      "match_url": "live/austria-vs-israel-1156",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-22T18:41:45.784070"
-    },
-    {
-      "match_id": "1157",
-      "title": "Netherlands vs Germany",
-      "teams": "Netherlands vs Germany",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789993554540x302.jpg",
-      "league": "Sports Tournament",
-      "viewers": "259",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1157",
-      "match_url": "live/netherlands-vs-germany-1157",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-22T18:41:45.784688"
+      "last_updated": "2026-09-22T18:46:50.226488"
     },
     {
       "match_id": "1148",
@@ -265,7 +127,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-22T18:41:45.785320"
+      "last_updated": "2026-09-22T18:46:50.555128"
     },
     {
       "match_id": "1147",
@@ -288,7 +150,30 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-22T18:41:45.785935"
+      "last_updated": "2026-09-22T18:46:50.555694"
+    },
+    {
+      "match_id": "1149",
+      "title": "South Africa vs Australia 1st ODI",
+      "teams": "South Africa vs Australia 1st ODI",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790068057540x302.jpg",
+      "league": "Australia Tour of South Africa 2026",
+      "viewers": "1",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1149",
+      "match_url": "live/south-africa-vs-australia-1st-odi-1149",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-22T18:46:50.556223"
     },
     {
       "match_id": "1150",
@@ -311,7 +196,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-22T18:41:45.786554"
+      "last_updated": "2026-09-22T18:46:50.556749"
     },
     {
       "match_id": "1151",
@@ -334,7 +219,122 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-22T18:41:45.787155"
+      "last_updated": "2026-09-22T18:46:50.557217"
+    },
+    {
+      "match_id": "1157",
+      "title": "Netherlands vs Germany",
+      "teams": "Netherlands vs Germany",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789993554540x302.jpg",
+      "league": "UEFA Nations League 2026/27",
+      "viewers": "259",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1157",
+      "match_url": "live/netherlands-vs-germany-1157",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-22T18:46:50.557691"
+    },
+    {
+      "match_id": "1156",
+      "title": "Austria vs Israel",
+      "teams": "Austria vs Israel",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789993659540x302.jpg",
+      "league": "UEFA Nations League 2026/27",
+      "viewers": "1",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1156",
+      "match_url": "live/austria-vs-israel-1156",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-22T18:46:50.558152"
+    },
+    {
+      "match_id": "1155",
+      "title": "Kosovo vs Ireland",
+      "teams": "Kosovo vs Ireland",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789993438540x302.jpg",
+      "league": "UEFA Nations League 2026/27",
+      "viewers": "1",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1155",
+      "match_url": "live/kosovo-vs-ireland-1155",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-22T18:46:50.558626"
+    },
+    {
+      "match_id": "1154",
+      "title": "Portugal vs Wales",
+      "teams": "Portugal vs Wales",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789993766540x302.jpg",
+      "league": "UEFA Nations League 2026/27",
+      "viewers": "1",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1154",
+      "match_url": "live/portugal-vs-wales-1154",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-22T18:46:50.559078"
+    },
+    {
+      "match_id": "1152",
+      "title": "Liechtenstein vs Luthuania",
+      "teams": "Liechtenstein vs Luthuania",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789993336540x302.jpg",
+      "league": "UEFA Nations League 2026/27",
+      "viewers": "424",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1152",
+      "match_url": "live/liechtenstein-vs-luthuania-1152",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-22T18:46:50.559555"
     },
     {
       "match_id": "1037",
@@ -357,7 +357,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-22T18:41:45.787773"
+      "last_updated": "2026-09-22T18:46:50.560025"
     },
     {
       "match_id": "1000",
@@ -380,7 +380,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-22T18:41:45.788389"
+      "last_updated": "2026-09-22T18:46:50.560507"
     },
     {
       "match_id": "1001",
@@ -403,7 +403,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-22T18:41:45.789008"
+      "last_updated": "2026-09-22T18:46:50.560968"
     },
     {
       "match_id": "1008",
@@ -426,7 +426,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-22T18:41:45.789626"
+      "last_updated": "2026-09-22T18:46:50.561441"
     },
     {
       "match_id": "1042",
@@ -449,7 +449,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-22T18:41:45.790223"
+      "last_updated": "2026-09-22T18:46:50.561897"
     },
     {
       "match_id": "1049",
@@ -472,7 +472,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-22T18:41:45.790839"
+      "last_updated": "2026-09-22T18:46:50.562375"
     },
     {
       "match_id": "1043",
@@ -495,7 +495,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-22T18:41:45.791458"
+      "last_updated": "2026-09-22T18:46:50.562844"
     }
   ]
 }
