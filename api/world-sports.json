@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-22T17:06:37.182756",
-  "total_matches": 16,
-  "live_count": 1,
-  "upcoming_count": 15,
+  "timestamp": "2026-09-22T17:11:39.879359",
+  "total_matches": 20,
+  "live_count": 2,
+  "upcoming_count": 18,
   "completed_count": 0,
   "matches": [
     {
@@ -16,17 +16,47 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789972006540x302.jpg",
       "league": "Sri Lanka tour of England, 2026",
-      "viewers": "123",
+      "viewers": "125",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
       "servers": null,
       "page_url": "/world-sports/player.html?id=1146",
       "match_url": "live/england-vs-sri-lanka-1st-odi-1146",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-22T17:06:07.377939"
+      "stream_url": "https://live.talkoraai.com/match/hls?t=3dxF_ej437XfVb5KpDkHU94eVOLk7IPLYyWfX6hzBGlEh69nfmMLjT5GMnGEOLfC6eiYHA4Rq1_d85s7H-wigjfVQ4715FG7sCSbm87bmoik4PzxNNBo2-WNQCugdMCyV9-linS7WBf-fQc7EMwMzsiv5tF92CPJenxJtCLjLxR9mdroWE2dBNru2-AzwOTII5r1lEVEoA9EnTySXzuPQrjPhaY8LKYqASgLTRPkeyoyozA0yExOpWElW1dbVydNm89dlZkjnUxEADU0XyhbQk0Fnw3fzg",
+      "server_count": 4,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=3dxF_ej437XfVb5KpDkHU94eVOLk7IPLYyWfX6hzBGlEh69nfmMLjT5GMnGEOLfC6eiYHA4Rq1_d85s7H-wigjfVQ4715FG7sCSbm87bmoik4PzxNNBo2-WNQCugdMCyV9-linS7WBf-fQc7EMwMzsiv5tF92CPJenxJtCLjLxR9mdroWE2dBNru2-AzwOTII5r1lEVEoA9EnTySXzuPQrjPhaY8LKYqASgLTRPkeyoyozA0yExOpWElW1dbVydNm89dlZkjnUxEADU0XyhbQk0Fnw3fzg",
+        "https://live.talkoraai.com/match/seg?t=pFi0gHvYN_BS_tknNom2juQwuQLzhYG6gaurIRB-X2_OAZMqf-VaL1bQh2xmyRGQzpfb4w8ykoRp5ASJdI-v2UDwFWJLhAAquzNdBJC_zzMzeEJGr4ddfP0HSQu4H4sHPxdSnaOSvcthzMZIo_6ntyNwsKqQVXRhl9_NJ-exi2-MLr4BgRZs2iiPCH0X3zmQtixbIwwFLODU1oDlUsssvkMRzUqgqkTISSVTOBMvGlLqTDk_5iqmLkSWn26MiMilv8ibIJwDyvap5RrrolqZP8PM32UfihUT2ThXBJ4p",
+        "https://robitv.com/lps/https://ml-pull-dvc-myco.io:2096/TENSPORTS_HD/mono.m3u8",
+        "https://drk6xq0vhn.gpcdn.net/live/ten_1_hd_720/index.m3u8"
+      ],
+      "last_updated": "2026-09-22T17:11:07.259385"
+    },
+    {
+      "match_id": "1158",
+      "title": "Inter W vs Hacken W",
+      "teams": "Inter W vs Hacken W",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://tips.gg/match/inter-w-vs-hacken-w-22-09-2026-05-45/poster/",
+      "league": "UEFA Champions League 2026",
+      "viewers": "1",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1158",
+      "match_url": "live/inter-w-vs-hacken-w-1158",
+      "stream_url": "http://193.47.62.59/hls/diiiAAAAQQQQQ.m3u8",
+      "server_count": 1,
+      "server_urls": [
+        "http://193.47.62.59/hls/diiiAAAAQQQQQ.m3u8"
+      ],
+      "last_updated": "2026-09-22T17:11:09.614071"
     },
     {
       "match_id": "1148",
@@ -49,7 +79,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-22T17:06:07.719989"
+      "last_updated": "2026-09-22T17:11:10.196315"
     },
     {
       "match_id": "1149",
@@ -72,7 +102,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-22T17:06:07.720641"
+      "last_updated": "2026-09-22T17:11:10.196995"
     },
     {
       "match_id": "1150",
@@ -95,7 +125,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-22T17:06:07.721236"
+      "last_updated": "2026-09-22T17:11:10.197623"
     },
     {
       "match_id": "1151",
@@ -118,7 +148,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-22T17:06:07.722142"
+      "last_updated": "2026-09-22T17:11:10.198217"
     },
     {
       "match_id": "1152",
@@ -141,7 +171,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-22T17:06:07.723007"
+      "last_updated": "2026-09-22T17:11:10.198837"
     },
     {
       "match_id": "1153",
@@ -164,7 +194,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-22T17:06:07.723526"
+      "last_updated": "2026-09-22T17:11:10.199477"
     },
     {
       "match_id": "1154",
@@ -187,7 +217,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-22T17:06:07.724029"
+      "last_updated": "2026-09-22T17:11:10.200078"
     },
     {
       "match_id": "1155",
@@ -210,7 +240,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-22T17:06:07.724534"
+      "last_updated": "2026-09-22T17:11:10.200693"
     },
     {
       "match_id": "1156",
@@ -233,7 +263,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-22T17:06:07.725025"
+      "last_updated": "2026-09-22T17:11:10.201280"
     },
     {
       "match_id": "1157",
@@ -256,7 +286,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-22T17:06:07.725524"
+      "last_updated": "2026-09-22T17:11:10.201892"
     },
     {
       "match_id": "1147",
@@ -279,7 +309,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-22T17:06:07.726039"
+      "last_updated": "2026-09-22T17:11:10.202510"
     },
     {
       "match_id": "1037",
@@ -302,7 +332,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-22T17:06:07.726545"
+      "last_updated": "2026-09-22T17:11:10.203095"
     },
     {
       "match_id": "1000",
@@ -325,7 +355,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-22T17:06:07.727041"
+      "last_updated": "2026-09-22T17:11:10.203706"
     },
     {
       "match_id": "1001",
@@ -348,7 +378,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-22T17:06:07.727545"
+      "last_updated": "2026-09-22T17:11:10.204316"
     },
     {
       "match_id": "1008",
@@ -371,7 +401,76 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-22T17:06:07.728037"
+      "last_updated": "2026-09-22T17:11:10.204912"
+    },
+    {
+      "match_id": "1042",
+      "title": "Al Hilal SFC vs Al-Ittihad",
+      "teams": "Al Hilal SFC vs Al-Ittihad",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249139_53025_AHS_ITT_FC-Web.png",
+      "league": "Roshn Saudi League 2026-2027",
+      "viewers": "8",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1042",
+      "match_url": "live/al-hilal-sfc-vs-al-ittihad-1042",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-22T17:11:10.205513"
+    },
+    {
+      "match_id": "1049",
+      "title": "Barcelona vs Getafe CF",
+      "teams": "Barcelona vs Getafe CF",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+      "league": "LALIGA 2026-27",
+      "viewers": "8",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1049",
+      "match_url": "live/barcelona-vs-getafe-cf-1049",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-22T17:11:10.206101"
+    },
+    {
+      "match_id": "1043",
+      "title": "Deportivo Alaves vs Atletico de Madrid",
+      "teams": "Deportivo Alaves vs Atletico de Madrid",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+      "league": "LALIGA 2026-27",
+      "viewers": "9",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1043",
+      "match_url": "live/deportivo-alaves-vs-atletico-de-madrid-1043",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-22T17:11:10.206713"
     }
   ]
 }
