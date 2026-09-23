@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-23T10:14:31.972686",
-  "total_matches": 8,
+  "timestamp": "2026-09-23T10:19:33.429604",
+  "total_matches": 9,
   "live_count": 1,
-  "upcoming_count": 7,
+  "upcoming_count": 8,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789984478540x302.jpg",
       "league": "Federation Cup 2026/27",
-      "viewers": "37",
+      "viewers": "45",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -29,7 +29,30 @@
         "https://live.talkoraai.com/match/hls?t=9qZUi43oCbIcHwGH2AcvQhj4mAv-fpwJXFd_S61cuKRNRJulIw_dbvaCKjXwnmd6mDzXna-SRejUIPAB_q0vobvr27Z8IJWK4WAjKX1YoCzWI20JO2lHRZNGCPGgF_6RK1JMYnBZnSGYlhzn1TQcWMd0cHkok630XuOICzk5pqO9MqnnaffU0OmTQaS0i31iy9tLG3Zl3EubtUgqfTE-oGkKgXCGtZwUZpwioE4M62E9UVMHWt-4rraDLutcIw7Kc40bk3Q8z8pJ87kdJFyEhsrL6n3kiw",
         "https://live.talkoraai.com/match/seg?t=vtQvuB7rtl6S7riKMrnDKGypCWEBoLwtLTXcS5LwhCoNUAOF6DxIdP4msK2ZJzWV829U1ffxd3KGUjNkOvcCTzdGWK4VLKtXCF9S_H8v1UsBX3HFo7bYgVxn-FJABXNerVBmEXuU7VWvAaRKCVWqA48CcP9nNDX-1J7Wy5ErguFtAV5wc4HwAcZvCWBtKpYyJ7RPKK6ezZBMt6oiQ7atP3gm1cxoMSIDVT3C44bcd65fkPNJFFHBbTe9-nbhvKwen5664cSn5FvvjLRGHODDVQ7MRR45irOuWjtvUJZl"
       ],
-      "last_updated": "2026-09-23T10:09:02.175962"
+      "last_updated": "2026-09-23T10:19:09.126191"
+    },
+    {
+      "match_id": "1079",
+      "title": "Chattogram City vs Abahani Ltd. Dhaka",
+      "teams": "Chattogram City vs Abahani Ltd. Dhaka",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789984534540x302.jpg",
+      "league": "Sports Tournament",
+      "viewers": "173",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1079",
+      "match_url": "live/chattogram-city-vs-abahani-ltd-dhaka-1079",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-23T10:19:09.466049"
     },
     {
       "match_id": "1037",
@@ -52,7 +75,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-23T10:09:03.000967"
+      "last_updated": "2026-09-23T10:19:09.466894"
     },
     {
       "match_id": "1000",
@@ -75,7 +98,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-23T10:09:03.001687"
+      "last_updated": "2026-09-23T10:19:09.467569"
     },
     {
       "match_id": "1001",
@@ -98,7 +121,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-23T10:09:03.002283"
+      "last_updated": "2026-09-23T10:19:09.468222"
     },
     {
       "match_id": "1008",
@@ -121,7 +144,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-23T10:09:03.002896"
+      "last_updated": "2026-09-23T10:19:09.468823"
     },
     {
       "match_id": "1042",
@@ -144,7 +167,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-23T10:09:03.003507"
+      "last_updated": "2026-09-23T10:19:09.469464"
     },
     {
       "match_id": "1049",
@@ -167,7 +190,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-23T10:09:03.004096"
+      "last_updated": "2026-09-23T10:19:09.470096"
     },
     {
       "match_id": "1043",
@@ -190,7 +213,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-23T10:09:03.004693"
+      "last_updated": "2026-09-23T10:19:09.470693"
     }
   ]
 }
