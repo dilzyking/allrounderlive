@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-24T18:41:19.983473",
+  "timestamp": "2026-09-24T18:46:19.951322",
   "total_matches": 20,
-  "live_count": 3,
-  "upcoming_count": 17,
+  "live_count": 5,
+  "upcoming_count": 15,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789984258540x302.jpg",
       "league": "Sri Lanka tour of England, 2026",
-      "viewers": "172",
+      "viewers": "173",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -31,7 +31,7 @@
         "https://stream.ottplus.live/live/ten_1_hd_abr/live/ten_1_hd_720/chunks.m3u8",
         "https://robitv.com/lps/https://ml-pull-dvc-myco.io:2096/TENSPORTS_HD/mono.m3u8"
       ],
-      "last_updated": "2026-09-24T18:39:06.045297"
+      "last_updated": "2026-09-24T18:44:14.129184"
     },
     {
       "match_id": "1086",
@@ -44,7 +44,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789993037540x302.jpg",
       "league": "UEFA Nations League 2026/27",
-      "viewers": "58",
+      "viewers": "59",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -57,7 +57,34 @@
         "https://live.talkoraai.com/match/hls?t=3uRDfJ4_vmJfQ5Lv1pipuPsL8OaIi-N3QhvediKStf5Gq1vdeL8SQs4USPOolgl59UxQaZtQ3DNzypFCPiW_rx7AlhgHXWZCswNClq0q_b9HfuFav02c23GqYx9-TXF7a4_STCxVDCTStDVCYoFssg7Rx-Gm0QKQoSczkIvNMpXGg3u2uENGP83Gzc--bZ6pzRy5BQB0hGuywAYjlU1GVapMUPvdGwfyEisKoTAu6xTEScZKZTYhix8P2vhSd4LllgG6aMWGbydUcfv2Wg9NkBXIsq0pZw",
         "https://live.talkoraai.com/match/seg?t=iuTcQxivaJcuZWEu4342yohOZXsmtjf_1mH9pB9X5zJ_7AgYp783A6FPIhog5QTeoHKkswzYa856os-NDviAQe5gxf6Y2nXMwIgjYwnDR6HrEbTPP38E17CljhOLzGRGGPnjzzRUcdSbP2JYvWuM0n524psTVWuqhnTi7G5wuM4DImU7zYPzn-jEu7SUIxQHb2QUGoVT_M3adNebRYtcXpdROgff8ywSugZtRqw7_hcA6nf5V_9o41ub-hZ4IU0rHANAErA3j56NAs0Au5A5ZtbYNcUd2IaaJxifgzZP"
       ],
-      "last_updated": "2026-09-24T18:39:07.082576"
+      "last_updated": "2026-09-24T18:44:15.292145"
+    },
+    {
+      "match_id": "1087",
+      "title": "Norway vs Denmark",
+      "teams": "Norway vs Denmark",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789993139540x302.jpg",
+      "league": "UEFA Nations League 2026/27",
+      "viewers": "5",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1087",
+      "match_url": "live/norway-vs-denmark-1087",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=eKlPqd0ACW_7x9-tlH0L5NKgw7KqzFn8n-Qelg_yZlgh06-rApcVyuOGKXkNtpX-dqQIYdyw5uc5bln6DRu_Nq1YIC6maS3EWGRtorXKELWnql_D9fFY7f-EmNH_AREFmDZwCXx5SMoXApRDElR3eDn3hf3DmWD-JGBCnDc_00oD45A5sjK6eG-z2iZS-pfmm5bZtIEOCxqPIhql7aJNYEs8oiOA7eaZGKtYMYhS0ARWqAdXUT_KJQJhhYMBDOOaDDr283XeLuURIFmWAjpkX9N_CXpkiQ",
+      "server_count": 3,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=eKlPqd0ACW_7x9-tlH0L5NKgw7KqzFn8n-Qelg_yZlgh06-rApcVyuOGKXkNtpX-dqQIYdyw5uc5bln6DRu_Nq1YIC6maS3EWGRtorXKELWnql_D9fFY7f-EmNH_AREFmDZwCXx5SMoXApRDElR3eDn3hf3DmWD-JGBCnDc_00oD45A5sjK6eG-z2iZS-pfmm5bZtIEOCxqPIhql7aJNYEs8oiOA7eaZGKtYMYhS0ARWqAdXUT_KJQJhhYMBDOOaDDr283XeLuURIFmWAjpkX9N_CXpkiQ",
+        "https://live.talkoraai.com/match/seg?t=JSDfQP6kkKBKVFjca02N2GhU0QYtDRQ2uI1RxVac45klZJZDNVmtYmZoWLn27qxOD77NwLrmiKqZAA1_dKtf3_yuxTuC_NJT5Ay6DIV9b7VYnGbc2duXlJ7nL1V8lBYQ760___HsaSBmsjJH-GfvjrPe84te0PuPq4CpUs2JZ4yNuLpRcLrefTkjr0_mATogZS4pQgty6VUooACdsnwBIdSTN2yWSQ7x4BJhMBNsb_gl8g1xF7ei45geeqrKPNCSf4yIra6Eyukg02vFY7XdGS-IxuFR2M0hkwJvmoQn",
+        "https://www.rtmpcdn.com/live/a1c47aaa-ef07-478c-b162-7b213e147389.m3u8"
+      ],
+      "last_updated": "2026-09-24T18:44:15.637144"
     },
     {
       "match_id": "1081",
@@ -70,7 +97,7 @@
       "runtime": "--",
       "thumbnail": "https://myimgs.org/storage/images/44609/AsianGames2026.jpg",
       "league": "Asian Games 2026",
-      "viewers": "384",
+      "viewers": "386",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -88,7 +115,34 @@
         "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV1080p.m3u8",
         "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8"
       ],
-      "last_updated": "2026-09-24T18:39:07.439786"
+      "last_updated": "2026-09-24T18:44:15.980282"
+    },
+    {
+      "match_id": "1088",
+      "title": "Liechtenstein vs Luthuania",
+      "teams": "Liechtenstein vs Luthuania",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789993336540x302.jpg",
+      "league": "UEFA Nations League 2026/27",
+      "viewers": "3",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1088",
+      "match_url": "live/liechtenstein-vs-luthuania-1088",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=vQYtxtDB-QvRvA9KQexl5LoLFiIVgJWV0-A_NurFERsAs8QPGSqsYmjxEhm57YmXQxQvRgC6t3UY4yHxpFSZ6k6Q6XgGeitl8MDDJjaa2SFqOi1xa1U_OuDN2ATGFnpkDoXI2yy7B3Tn_ODb2f2durB0aE5K6f9oUHukY7BErgpPQ4BBF7__rN1nKFgQDzjhVmPoPokdFqjwG3cx4VN85-LzBvNZYpuBniVVQG5KVSe20tyEvOOKEVt0NYrKnn2VhFT7posp-3QpSy70jwM9zDeZyIZxxA",
+      "server_count": 3,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=vQYtxtDB-QvRvA9KQexl5LoLFiIVgJWV0-A_NurFERsAs8QPGSqsYmjxEhm57YmXQxQvRgC6t3UY4yHxpFSZ6k6Q6XgGeitl8MDDJjaa2SFqOi1xa1U_OuDN2ATGFnpkDoXI2yy7B3Tn_ODb2f2durB0aE5K6f9oUHukY7BErgpPQ4BBF7__rN1nKFgQDzjhVmPoPokdFqjwG3cx4VN85-LzBvNZYpuBniVVQG5KVSe20tyEvOOKEVt0NYrKnn2VhFT7posp-3QpSy70jwM9zDeZyIZxxA",
+        "https://www.rtmpcdn.com/live/870f6977-557c-40f9-afc0-75fbec73025d.m3u8",
+        "https://live.talkoraai.com/match/seg?t=wul63frH5qZT6rpNfjfc_F9blM4hIX36hbM8VtEYz63MP6HSYJhHrtX0kUJCe6iKxlOeD7zxpsEogkaQkYW9JUTbU4teY5yersyoxfFG9TePLKx2v95sgqMnDoa5T8L_wwUS98BUGT7LPJrbTS_GZ4C2yiP29xpgW-knUbC4f84rMH-biVueG1bsIG1i6Azns_VQ2vuxKHIsj-D67QnNsSaUzsW9j95IuQv0MA7-SLYQjDfsQdIJz0BPSwhquUP5MqyGOugrJ1SFtKoGBdHpGOBnHPM10FQvIf9DYE4S"
+      ],
+      "last_updated": "2026-09-24T18:44:16.329494"
     },
     {
       "match_id": "1092",
@@ -111,7 +165,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T18:39:07.810350"
+      "last_updated": "2026-09-24T18:44:16.682852"
     },
     {
       "match_id": "1089",
@@ -124,7 +178,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789993554540x302.jpg",
       "league": "UEFA Nations League 2026/27",
-      "viewers": "3",
+      "viewers": "4",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -134,30 +188,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T18:39:07.810875"
-    },
-    {
-      "match_id": "1087",
-      "title": "Norway vs Denmark",
-      "teams": "Norway vs Denmark",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789993139540x302.jpg",
-      "league": "UEFA Nations League 2026/27",
-      "viewers": "3",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1087",
-      "match_url": "live/norway-vs-denmark-1087",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-24T18:39:07.811319"
+      "last_updated": "2026-09-24T18:44:16.683582"
     },
     {
       "match_id": "1095",
@@ -180,7 +211,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T18:39:07.811766"
+      "last_updated": "2026-09-24T18:44:16.684219"
     },
     {
       "match_id": "1094",
@@ -203,7 +234,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T18:39:07.812198"
+      "last_updated": "2026-09-24T18:44:16.684921"
     },
     {
       "match_id": "1037",
@@ -226,7 +257,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T18:39:07.812637"
+      "last_updated": "2026-09-24T18:44:16.685563"
     },
     {
       "match_id": "1083",
@@ -249,7 +280,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T18:39:07.813066"
+      "last_updated": "2026-09-24T18:44:16.686181"
     },
     {
       "match_id": "1000",
@@ -272,7 +303,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T18:39:07.813486"
+      "last_updated": "2026-09-24T18:44:16.686811"
     },
     {
       "match_id": "1001",
@@ -295,7 +326,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T18:39:07.813921"
+      "last_updated": "2026-09-24T18:44:16.687434"
     },
     {
       "match_id": "1008",
@@ -318,7 +349,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T18:39:07.814347"
+      "last_updated": "2026-09-24T18:44:16.688047"
     },
     {
       "match_id": "1042",
@@ -341,7 +372,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T18:39:07.814780"
+      "last_updated": "2026-09-24T18:44:16.688670"
     },
     {
       "match_id": "1049",
@@ -364,7 +395,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T18:39:07.815213"
+      "last_updated": "2026-09-24T18:44:16.689274"
     },
     {
       "match_id": "1043",
@@ -387,7 +418,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T18:39:07.815654"
+      "last_updated": "2026-09-24T18:44:16.689908"
     },
     {
       "match_id": "1093",
@@ -410,7 +441,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T18:39:07.816083"
+      "last_updated": "2026-09-24T18:44:16.690536"
     },
     {
       "match_id": "1091",
@@ -433,30 +464,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T18:39:07.816504"
-    },
-    {
-      "match_id": "1088",
-      "title": "Liechtenstein vs Luthuania",
-      "teams": "Liechtenstein vs Luthuania",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789993336540x302.jpg",
-      "league": "UEFA Nations League 2026/27",
-      "viewers": "3",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1088",
-      "match_url": "live/liechtenstein-vs-luthuania-1088",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-24T18:39:07.816942"
+      "last_updated": "2026-09-24T18:44:16.691136"
     },
     {
       "match_id": "1097",
@@ -479,7 +487,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T18:39:07.817364"
+      "last_updated": "2026-09-24T18:44:16.691757"
     }
   ]
 }
