@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-24T16:40:17.844122",
+  "timestamp": "2026-09-24T16:45:18.557337",
   "total_matches": 20,
   "live_count": 3,
   "upcoming_count": 17,
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789984258540x302.jpg",
       "league": "Sri Lanka tour of England, 2026",
-      "viewers": "124",
+      "viewers": "125",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -31,7 +31,7 @@
         "https://stream.ottplus.live/live/ten_1_hd_abr/live/ten_1_hd_720/chunks.m3u8",
         "https://robitv.com/lps/https://ml-pull-dvc-myco.io:2096/TENSPORTS_HD/mono.m3u8"
       ],
-      "last_updated": "2026-09-24T16:38:06.583843"
+      "last_updated": "2026-09-24T16:43:11.808214"
     },
     {
       "match_id": "1086",
@@ -44,17 +44,20 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789993037540x302.jpg",
       "league": "UEFA Nations League 2026/27",
-      "viewers": "15",
+      "viewers": "18",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
       "servers": null,
       "page_url": "/world-sports/player.html?id=1086",
       "match_url": "live/andorra-vs-malta-1086",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-24T16:38:06.959414"
+      "stream_url": "https://live.talkoraai.com/match/hls?t=3uRDfJ4_vmJfQ5Lv1pipuPsL8OaIi-N3QhvediKStf5Gq1vdeL8SQs4USPOolgl59UxQaZtQ3DNzypFCPiW_rx7AlhgHXWZCswNClq0q_b9HfuFav02c23GqYx9-TXF7a4_STCxVDCTStDVCYoFssg7Rx-Gm0QKQoSczkIvNMpXGg3u2uENGP83Gzc--bZ6pzRy5BQB0hGuywAYjlU1GVapMUPvdGwfyEisKoTAu6xTEScZKZTYhix8P2vhSd4LllgG6aMWGbydUcfv2Wg9NkBXIsq0pZw",
+      "server_count": 2,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=3uRDfJ4_vmJfQ5Lv1pipuPsL8OaIi-N3QhvediKStf5Gq1vdeL8SQs4USPOolgl59UxQaZtQ3DNzypFCPiW_rx7AlhgHXWZCswNClq0q_b9HfuFav02c23GqYx9-TXF7a4_STCxVDCTStDVCYoFssg7Rx-Gm0QKQoSczkIvNMpXGg3u2uENGP83Gzc--bZ6pzRy5BQB0hGuywAYjlU1GVapMUPvdGwfyEisKoTAu6xTEScZKZTYhix8P2vhSd4LllgG6aMWGbydUcfv2Wg9NkBXIsq0pZw",
+        "https://live.talkoraai.com/match/seg?t=iuTcQxivaJcuZWEu4342yohOZXsmtjf_1mH9pB9X5zJ_7AgYp783A6FPIhog5QTeoHKkswzYa856os-NDviAQe5gxf6Y2nXMwIgjYwnDR6HrEbTPP38E17CljhOLzGRGGPnjzzRUcdSbP2JYvWuM0n524psTVWuqhnTi7G5wuM4DImU7zYPzn-jEu7SUIxQHb2QUGoVT_M3adNebRYtcXpdROgff8ywSugZtRqw7_hcA6nf5V_9o41ub-hZ4IU0rHANAErA3j56NAs0Au5A5ZtbYNcUd2IaaJxifgzZP"
+      ],
+      "last_updated": "2026-09-24T16:43:12.612470"
     },
     {
       "match_id": "1081",
@@ -67,7 +70,7 @@
       "runtime": "--",
       "thumbnail": "https://myimgs.org/storage/images/44609/AsianGames2026.jpg",
       "league": "Asian Games 2026",
-      "viewers": "353",
+      "viewers": "354",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -85,7 +88,7 @@
         "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV1080p.m3u8",
         "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8"
       ],
-      "last_updated": "2026-09-24T16:38:07.403874"
+      "last_updated": "2026-09-24T16:43:12.898224"
     },
     {
       "match_id": "1093",
@@ -108,7 +111,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T16:38:08.343852"
+      "last_updated": "2026-09-24T16:43:13.191115"
     },
     {
       "match_id": "1092",
@@ -131,7 +134,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T16:38:08.344618"
+      "last_updated": "2026-09-24T16:43:13.191840"
     },
     {
       "match_id": "1091",
@@ -154,7 +157,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T16:38:08.345236"
+      "last_updated": "2026-09-24T16:43:13.192469"
     },
     {
       "match_id": "1089",
@@ -177,7 +180,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T16:38:08.345881"
+      "last_updated": "2026-09-24T16:43:13.193124"
     },
     {
       "match_id": "1088",
@@ -200,7 +203,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T16:38:08.346511"
+      "last_updated": "2026-09-24T16:43:13.193765"
     },
     {
       "match_id": "1087",
@@ -223,7 +226,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T16:38:08.347134"
+      "last_updated": "2026-09-24T16:43:13.194395"
     },
     {
       "match_id": "1095",
@@ -246,7 +249,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T16:38:08.347760"
+      "last_updated": "2026-09-24T16:43:13.195023"
     },
     {
       "match_id": "1094",
@@ -269,7 +272,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T16:38:08.348386"
+      "last_updated": "2026-09-24T16:43:13.195624"
     },
     {
       "match_id": "1037",
@@ -292,7 +295,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T16:38:08.348990"
+      "last_updated": "2026-09-24T16:43:13.196250"
     },
     {
       "match_id": "1083",
@@ -315,7 +318,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T16:38:08.349611"
+      "last_updated": "2026-09-24T16:43:13.196874"
     },
     {
       "match_id": "1000",
@@ -338,7 +341,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T16:38:08.350214"
+      "last_updated": "2026-09-24T16:43:13.197475"
     },
     {
       "match_id": "1001",
@@ -361,7 +364,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T16:38:08.350842"
+      "last_updated": "2026-09-24T16:43:13.198100"
     },
     {
       "match_id": "1008",
@@ -384,7 +387,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T16:38:08.351467"
+      "last_updated": "2026-09-24T16:43:13.198733"
     },
     {
       "match_id": "1042",
@@ -407,7 +410,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T16:38:08.352066"
+      "last_updated": "2026-09-24T16:43:13.199343"
     },
     {
       "match_id": "1049",
@@ -430,7 +433,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T16:38:08.352690"
+      "last_updated": "2026-09-24T16:43:13.199984"
     },
     {
       "match_id": "1043",
@@ -453,7 +456,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T16:38:08.353295"
+      "last_updated": "2026-09-24T16:43:13.200593"
     },
     {
       "match_id": "1097",
@@ -476,7 +479,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T16:38:08.353918"
+      "last_updated": "2026-09-24T16:43:13.201221"
     }
   ]
 }
