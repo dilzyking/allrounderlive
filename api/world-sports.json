@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-24T11:30:47.016134",
+  "timestamp": "2026-09-24T11:35:01.255189",
   "total_matches": 21,
-  "live_count": 2,
-  "upcoming_count": 19,
+  "live_count": 3,
+  "upcoming_count": 18,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790068057540x302.jpg",
       "league": "Australia Tour of South Africa 2026",
-      "viewers": "147",
+      "viewers": "150",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -31,7 +31,34 @@
         "https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8",
         "https://live.talkoraai.com/match/seg?t=krs_cQMAAmsas8BYOi90VymDTnWdRvGLEy-tFqdWARUjTWREIyh-nxTI5iuj3hJzMtw9ppkMrPQX-BRQtuZLJNAT4VnbKCDpBMODK55KQGM9M3DKYoA-PPUoUyx4cBhVcqZQohWCeP7hdf4zHsrgaWWvxPQ3t7IO-gd6YZdgOVbXH3qwqfG1PaZceP1jQ1iqF8i_D-izSJrkX8gQq6AtDxOpxjr6OY21KVaw4TPDe5JTQ6ISqG7dTLsLHuHGK3yi3jXqOkHFbNA6wLpG3MQgoY5jPyWAu1C8Roxo"
       ],
-      "last_updated": "2026-09-24T11:27:28.046134"
+      "last_updated": "2026-09-24T11:32:37.470277"
+    },
+    {
+      "match_id": "1085",
+      "title": "England vs Sri Lanka 2nd ODI",
+      "teams": "England vs Sri Lanka 2nd ODI",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789984258540x302.jpg",
+      "league": "Sri Lanka tour of England, 2026",
+      "viewers": "15",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1085",
+      "match_url": "live/england-vs-sri-lanka-2nd-odi-1085",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=pr64jMjg6DwkZQaolJS1YgmyRRT4mZ8cBC_G_UGIHZT7QO_uQEbI0DsgjzmJtJu9cO7GIgdbz42hDOHwXcHtO5-k9hmgEoDbC0ZINj5ydMsb16Oj64k0Y3LwRoLKnb49i-UK32DjXIyb9ajofFB1BDahHgHCgUM-FNCRoMV8Mnn2tWzp93uzprXRS7-1BHa5ssVEK7NlH1bvd9hEobKPwpcxbGYwGXbBwuiCoScJ8scgKGT848uv4cHYwLbxEdaCPInIPkuWqKNQSz3Dcygtodl36gJnYA",
+      "server_count": 3,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=pr64jMjg6DwkZQaolJS1YgmyRRT4mZ8cBC_G_UGIHZT7QO_uQEbI0DsgjzmJtJu9cO7GIgdbz42hDOHwXcHtO5-k9hmgEoDbC0ZINj5ydMsb16Oj64k0Y3LwRoLKnb49i-UK32DjXIyb9ajofFB1BDahHgHCgUM-FNCRoMV8Mnn2tWzp93uzprXRS7-1BHa5ssVEK7NlH1bvd9hEobKPwpcxbGYwGXbBwuiCoScJ8scgKGT848uv4cHYwLbxEdaCPInIPkuWqKNQSz3Dcygtodl36gJnYA",
+        "https://live.talkoraai.com/match/seg?t=sb4bVyr62VexuZXlIcQOnq5gFkMfLo-Xzn6VrmpOc8kd1fmuIpfl9FqvH5UWu0IaqN_12VXghu5tLtDl_79KK-F6Tn5cny3wbyTf149o7BOHwnDYdsliaCjhKs_CWrQfHKKJc1FTlG7ya4EjUUZ2FKFjz2UDBNtT3uTInmhPY-OohQ7vH-UZrB_r_uIfGmZpWzjmfbgD0VADIU8ZmbfB2jg8CCPhvXt3eFnG7mD9M3rFcFIrqtna_ojZDnGrYOXwzNHyE_KwtAyNPWT92OUB4vmgMS2Tp0sHTOY906oz",
+        "https://stream.ottplus.live/live/ten_1_hd_abr/live/ten_1_hd_720/chunks.m3u8"
+      ],
+      "last_updated": "2026-09-24T11:32:37.787927"
     },
     {
       "match_id": "1081",
@@ -44,7 +71,7 @@
       "runtime": "--",
       "thumbnail": "https://myimgs.org/storage/images/44609/AsianGames2026.jpg",
       "league": "Asian Games 2026",
-      "viewers": "283",
+      "viewers": "285",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -62,30 +89,7 @@
         "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV1080p.m3u8",
         "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8"
       ],
-      "last_updated": "2026-09-24T11:27:28.416991"
-    },
-    {
-      "match_id": "1085",
-      "title": "England vs Sri Lanka 2nd ODI",
-      "teams": "England vs Sri Lanka 2nd ODI",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789984258540x302.jpg",
-      "league": "Sri Lanka tour of England, 2026",
-      "viewers": "14",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1085",
-      "match_url": "live/england-vs-sri-lanka-2nd-odi-1085",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-24T11:27:28.794771"
+      "last_updated": "2026-09-24T11:32:38.863145"
     },
     {
       "match_id": "1086",
@@ -108,7 +112,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T11:27:28.795397"
+      "last_updated": "2026-09-24T11:32:39.141395"
     },
     {
       "match_id": "1093",
@@ -131,7 +135,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T11:27:28.795941"
+      "last_updated": "2026-09-24T11:32:39.142108"
     },
     {
       "match_id": "1092",
@@ -154,7 +158,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T11:27:28.796478"
+      "last_updated": "2026-09-24T11:32:39.142757"
     },
     {
       "match_id": "1091",
@@ -177,7 +181,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T11:27:28.797012"
+      "last_updated": "2026-09-24T11:32:39.143391"
     },
     {
       "match_id": "1089",
@@ -200,7 +204,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T11:27:28.797538"
+      "last_updated": "2026-09-24T11:32:39.144004"
     },
     {
       "match_id": "1088",
@@ -223,7 +227,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T11:27:28.798075"
+      "last_updated": "2026-09-24T11:32:39.144725"
     },
     {
       "match_id": "1087",
@@ -246,7 +250,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T11:27:28.798597"
+      "last_updated": "2026-09-24T11:32:39.145447"
     },
     {
       "match_id": "1095",
@@ -269,7 +273,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T11:27:28.799133"
+      "last_updated": "2026-09-24T11:32:39.146063"
     },
     {
       "match_id": "1094",
@@ -292,7 +296,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T11:27:28.799657"
+      "last_updated": "2026-09-24T11:32:39.146686"
     },
     {
       "match_id": "1037",
@@ -315,7 +319,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T11:27:28.800191"
+      "last_updated": "2026-09-24T11:32:39.147317"
     },
     {
       "match_id": "1083",
@@ -338,7 +342,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T11:27:28.800718"
+      "last_updated": "2026-09-24T11:32:39.147917"
     },
     {
       "match_id": "1000",
@@ -361,7 +365,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T11:27:28.801246"
+      "last_updated": "2026-09-24T11:32:39.148584"
     },
     {
       "match_id": "1001",
@@ -384,7 +388,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T11:27:28.801767"
+      "last_updated": "2026-09-24T11:32:39.149215"
     },
     {
       "match_id": "1008",
@@ -407,7 +411,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T11:27:28.802308"
+      "last_updated": "2026-09-24T11:32:39.149939"
     },
     {
       "match_id": "1042",
@@ -430,7 +434,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T11:27:28.802833"
+      "last_updated": "2026-09-24T11:32:39.150584"
     },
     {
       "match_id": "1049",
@@ -453,7 +457,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T11:27:28.803361"
+      "last_updated": "2026-09-24T11:32:39.151212"
     },
     {
       "match_id": "1043",
@@ -476,7 +480,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T11:27:28.803882"
+      "last_updated": "2026-09-24T11:32:39.151817"
     },
     {
       "match_id": "1097",
@@ -499,7 +503,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T11:27:28.804412"
+      "last_updated": "2026-09-24T11:32:39.152436"
     }
   ]
 }
