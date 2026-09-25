@@ -1,10 +1,62 @@
 {
-  "timestamp": "2026-09-25T15:42:22.014108",
+  "timestamp": "2026-09-25T15:47:23.632184",
   "total_matches": 26,
-  "live_count": 1,
-  "upcoming_count": 25,
+  "live_count": 3,
+  "upcoming_count": 23,
   "completed_count": 0,
   "matches": [
+    {
+      "match_id": "1095",
+      "title": "Armenia vs Latvia",
+      "teams": "Armenia vs Latvia",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790163927540x302.jpg",
+      "league": "UEFA Nations League 2026/27",
+      "viewers": "8",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1095",
+      "match_url": "live/armenia-vs-latvia-1095",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=jenPFwqoKvoaLUXiPKH-zsNfYuHEj1E2tJn9thOD6WZVkSQCdOUx4G5MHHvGgQNk1vhsAjauG51vpycFl-kdmPD4Y8TYR1ERXBu69YjH1rx9zqR2TMj03NSZwVLoMbyoO26uNQCTPTCtuWDG1Dj60xBLtE_h4LgrEoRmRQTi3knFHOq-fFLuuO7Pz2WldRA8u9Lx5X07TIjgZKGd0i4oGL4Ffcd5WkDGvc67iLgbA0sx7ORU2yy6ZkL6sTAw-d8rYHpCwkxgkqdKi0WJoKGA6ZEDU2h3nd90",
+      "server_count": 2,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=jenPFwqoKvoaLUXiPKH-zsNfYuHEj1E2tJn9thOD6WZVkSQCdOUx4G5MHHvGgQNk1vhsAjauG51vpycFl-kdmPD4Y8TYR1ERXBu69YjH1rx9zqR2TMj03NSZwVLoMbyoO26uNQCTPTCtuWDG1Dj60xBLtE_h4LgrEoRmRQTi3knFHOq-fFLuuO7Pz2WldRA8u9Lx5X07TIjgZKGd0i4oGL4Ffcd5WkDGvc67iLgbA0sx7ORU2yy6ZkL6sTAw-d8rYHpCwkxgkqdKi0WJoKGA6ZEDU2h3nd90",
+        "https://live.talkoraai.com/match/seg?t=P0ErvKKHemi64hdJZgyipkYgEnOnVq2qL0QNZzSoj__XyG_MGvnn3c2PvbFvajHZnhesyOCXl6lr22x1f6HiP4UqGU9q85dDRmK7VT39rvTT5d6M4k8y3ypC0AQZWZSZE0o9qjQ7ItAIhocTAMQ3xsinCKrY7Yqs_XA2BsvYd31Q_vszsLtDj-EnfMmomJx8Z2vLHP9eWgTty6peBjkdXP-A8phztLsCruFIeY-ypHmmJbGT166pObQGkDHXt_m3nqVga9WjUNDuiGmQwLIwtg9WzwFSBTMrok-BPQTk3l8qsw"
+      ],
+      "last_updated": "2026-09-25T15:46:20.714438"
+    },
+    {
+      "match_id": "1094",
+      "title": "Georgia vs Northern Ireland",
+      "teams": "Georgia vs Northern Ireland",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790163815540x302.jpg",
+      "league": "UEFA Nations League 2026/27",
+      "viewers": "10",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1094",
+      "match_url": "live/georgia-vs-northern-ireland-1094",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=jenPFwqoKvoaLUXiPKH-zsNfYuHEj1E2tJn9thOD6WZVkSQCdOUx4G5MHHvGgQNk1vhsAjauG51vpycFl-kdmPD4Y8TYR1ERXBu69YjH1rx9zqR2TMj03NSZwVLoMbyoO26uNQCTPTCtuWDG1Dj60xBLtE_h4LgrEoRmRQTi3knFHOq-fFLuuO7Pz2WldRA8u9Lx5X07TIjgZKGd0i4oGL4Ffcd5WkDGvc67iLgbA0sx7ORU2yy6ZkL6sTAw-d8rYHpCwkxgkqdKi0WJoKGA6ZEDU2h3nd90",
+      "server_count": 2,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=jenPFwqoKvoaLUXiPKH-zsNfYuHEj1E2tJn9thOD6WZVkSQCdOUx4G5MHHvGgQNk1vhsAjauG51vpycFl-kdmPD4Y8TYR1ERXBu69YjH1rx9zqR2TMj03NSZwVLoMbyoO26uNQCTPTCtuWDG1Dj60xBLtE_h4LgrEoRmRQTi3knFHOq-fFLuuO7Pz2WldRA8u9Lx5X07TIjgZKGd0i4oGL4Ffcd5WkDGvc67iLgbA0sx7ORU2yy6ZkL6sTAw-d8rYHpCwkxgkqdKi0WJoKGA6ZEDU2h3nd90",
+        "https://live.talkoraai.com/match/seg?t=DPpVY-38989U-EmS6k_Jdcf7vldrZB0EXzowi92BzcubG_RFj7PzscXvGo-HajW0QNs8jBaYAe9tZJG8TZUy9oo_P9yxsdZwTjkkgTwFrAVSUy_BUbhmk2E1bjd_678nO9HwpDU38K_RmWmZl3VYAb1AzZyoz6o60nNZl10fwy9yrhubjVas-Gb-plE36vfl0hIGjFJiuDEJQ2_BM5OVQ8GhKvVpfVD-7J0IViZ4e09mGRJHzpDFhlybk7gYdyinjaz0p1a2wK4FMUVN3c69otANZvqugKTEn4JIS85qhvo"
+      ],
+      "last_updated": "2026-09-25T15:46:21.547864"
+    },
     {
       "match_id": "1081",
       "title": "Asian Games 2026",
@@ -16,7 +68,7 @@
       "runtime": "--",
       "thumbnail": "https://myimgs.org/storage/images/44609/AsianGames2026.jpg",
       "league": "Asian Games 2026",
-      "viewers": "628",
+      "viewers": "629",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -34,53 +86,7 @@
         "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV1080p.m3u8",
         "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8"
       ],
-      "last_updated": "2026-09-25T15:41:14.603462"
-    },
-    {
-      "match_id": "1095",
-      "title": "Armenia vs Latvia",
-      "teams": "Armenia vs Latvia",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790163927540x302.jpg",
-      "league": "UEFA Nations League 2026/27",
-      "viewers": "6",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1095",
-      "match_url": "live/armenia-vs-latvia-1095",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-25T15:41:15.025509"
-    },
-    {
-      "match_id": "1094",
-      "title": "Georgia vs Northern Ireland",
-      "teams": "Georgia vs Northern Ireland",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790163815540x302.jpg",
-      "league": "UEFA Nations League 2026/27",
-      "viewers": "8",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1094",
-      "match_url": "live/georgia-vs-northern-ireland-1094",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-25T15:41:15.026124"
+      "last_updated": "2026-09-25T15:46:21.834088"
     },
     {
       "match_id": "1110",
@@ -103,7 +109,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T15:41:15.026565"
+      "last_updated": "2026-09-25T15:46:22.128151"
     },
     {
       "match_id": "1109",
@@ -126,7 +132,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T15:41:15.027015"
+      "last_updated": "2026-09-25T15:46:22.128834"
     },
     {
       "match_id": "1098",
@@ -149,7 +155,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T15:41:15.027442"
+      "last_updated": "2026-09-25T15:46:22.129466"
     },
     {
       "match_id": "1099",
@@ -172,7 +178,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T15:41:15.027888"
+      "last_updated": "2026-09-25T15:46:22.130101"
     },
     {
       "match_id": "1037",
@@ -195,7 +201,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T15:41:15.028320"
+      "last_updated": "2026-09-25T15:46:22.130718"
     },
     {
       "match_id": "1083",
@@ -218,7 +224,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T15:41:15.028745"
+      "last_updated": "2026-09-25T15:46:22.131341"
     },
     {
       "match_id": "1100",
@@ -241,7 +247,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T15:41:15.029249"
+      "last_updated": "2026-09-25T15:46:22.131943"
     },
     {
       "match_id": "1000",
@@ -264,7 +270,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T15:41:15.029680"
+      "last_updated": "2026-09-25T15:46:22.132559"
     },
     {
       "match_id": "1001",
@@ -287,7 +293,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T15:41:15.030126"
+      "last_updated": "2026-09-25T15:46:22.133193"
     },
     {
       "match_id": "1008",
@@ -310,7 +316,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T15:41:15.030550"
+      "last_updated": "2026-09-25T15:46:22.133785"
     },
     {
       "match_id": "1042",
@@ -333,7 +339,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T15:41:15.030991"
+      "last_updated": "2026-09-25T15:46:22.134399"
     },
     {
       "match_id": "1049",
@@ -356,7 +362,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T15:41:15.031416"
+      "last_updated": "2026-09-25T15:46:22.134987"
     },
     {
       "match_id": "1043",
@@ -379,7 +385,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T15:41:15.031837"
+      "last_updated": "2026-09-25T15:46:22.135598"
     },
     {
       "match_id": "1101",
@@ -402,7 +408,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T15:41:15.032282"
+      "last_updated": "2026-09-25T15:46:22.136217"
     },
     {
       "match_id": "1102",
@@ -425,7 +431,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T15:41:15.032702"
+      "last_updated": "2026-09-25T15:46:22.136815"
     },
     {
       "match_id": "1116",
@@ -448,7 +454,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T15:41:15.033152"
+      "last_updated": "2026-09-25T15:46:22.137421"
     },
     {
       "match_id": "1115",
@@ -471,7 +477,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T15:41:15.033573"
+      "last_updated": "2026-09-25T15:46:22.138010"
     },
     {
       "match_id": "1113",
@@ -494,7 +500,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T15:41:15.034015"
+      "last_updated": "2026-09-25T15:46:22.138615"
     },
     {
       "match_id": "1112",
@@ -517,7 +523,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T15:41:15.034435"
+      "last_updated": "2026-09-25T15:46:22.139223"
     },
     {
       "match_id": "1111",
@@ -540,7 +546,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T15:41:15.034854"
+      "last_updated": "2026-09-25T15:46:22.139817"
     },
     {
       "match_id": "1108",
@@ -563,7 +569,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T15:41:15.035296"
+      "last_updated": "2026-09-25T15:46:22.140435"
     },
     {
       "match_id": "1107",
@@ -586,7 +592,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T15:41:15.035708"
+      "last_updated": "2026-09-25T15:46:22.141054"
     },
     {
       "match_id": "1106",
@@ -609,7 +615,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T15:41:15.036143"
+      "last_updated": "2026-09-25T15:46:22.141663"
     }
   ]
 }
