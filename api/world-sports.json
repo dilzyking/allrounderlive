@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-24T23:58:53.196193",
+  "timestamp": "2026-09-25T00:30:54.769838",
   "total_matches": 17,
-  "live_count": 1,
-  "upcoming_count": 16,
+  "live_count": 2,
+  "upcoming_count": 15,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "--",
       "thumbnail": "https://myimgs.org/storage/images/44609/AsianGames2026.jpg",
       "league": "Asian Games 2026",
-      "viewers": "432",
+      "viewers": "433",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -34,7 +34,34 @@
         "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV1080p.m3u8",
         "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8"
       ],
-      "last_updated": "2026-09-24T23:54:59.571697"
+      "last_updated": "2026-09-25T00:21:43.503059"
+    },
+    {
+      "match_id": "1097",
+      "title": "Hong Kong, China vs Oman",
+      "teams": "Hong Kong, China vs Oman",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.ad4674f2-e9b7-467b-b1af-deb17eb28dbf/2/HERO-16X9/en-US._UR1920,1080_SX1080_FMjpg_.jpeg",
+      "league": "Asian Games 2026 (Cricket T20)",
+      "viewers": "3",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1097",
+      "match_url": "live/hong-kong-china-vs-oman-1097",
+      "stream_url": "https://flussonic.defineatoz.com/PTV/index.m3u8",
+      "server_count": 3,
+      "server_urls": [
+        "https://flussonic.defineatoz.com/PTV/index.m3u8",
+        "https://drk6xq0vhn.gpcdn.net/live/ten_1_hd_720/chunks.m3u8?nimblesessionid=187513619",
+        "https://stream.ottplus.live/live/ten_1_hd_abr/live/ten_1_hd_720/chunks.m3u8"
+      ],
+      "last_updated": "2026-09-25T00:21:43.875241"
     },
     {
       "match_id": "1095",
@@ -57,7 +84,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T23:55:00.466747"
+      "last_updated": "2026-09-25T00:21:44.730631"
     },
     {
       "match_id": "1094",
@@ -80,7 +107,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T23:55:00.467603"
+      "last_updated": "2026-09-25T00:21:44.731383"
     },
     {
       "match_id": "1098",
@@ -103,7 +130,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T23:55:00.468254"
+      "last_updated": "2026-09-25T00:21:44.732018"
     },
     {
       "match_id": "1099",
@@ -126,7 +153,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T23:55:00.468866"
+      "last_updated": "2026-09-25T00:21:44.732669"
     },
     {
       "match_id": "1037",
@@ -149,7 +176,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T23:55:00.469513"
+      "last_updated": "2026-09-25T00:21:44.733299"
     },
     {
       "match_id": "1083",
@@ -172,7 +199,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T23:55:00.470127"
+      "last_updated": "2026-09-25T00:21:44.733909"
     },
     {
       "match_id": "1100",
@@ -195,7 +222,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T23:55:00.470722"
+      "last_updated": "2026-09-25T00:21:44.734539"
     },
     {
       "match_id": "1000",
@@ -218,7 +245,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T23:55:00.471360"
+      "last_updated": "2026-09-25T00:21:44.735149"
     },
     {
       "match_id": "1001",
@@ -241,7 +268,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T23:55:00.471967"
+      "last_updated": "2026-09-25T00:21:44.735775"
     },
     {
       "match_id": "1008",
@@ -264,7 +291,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T23:55:00.472569"
+      "last_updated": "2026-09-25T00:21:44.736408"
     },
     {
       "match_id": "1042",
@@ -287,7 +314,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T23:55:00.473189"
+      "last_updated": "2026-09-25T00:21:44.737019"
     },
     {
       "match_id": "1049",
@@ -310,7 +337,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T23:55:00.473875"
+      "last_updated": "2026-09-25T00:21:44.737642"
     },
     {
       "match_id": "1043",
@@ -333,7 +360,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T23:55:00.474492"
+      "last_updated": "2026-09-25T00:21:44.738259"
     },
     {
       "match_id": "1101",
@@ -356,7 +383,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T23:55:00.475121"
+      "last_updated": "2026-09-25T00:21:44.738866"
     },
     {
       "match_id": "1102",
@@ -379,30 +406,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-24T23:55:00.475722"
-    },
-    {
-      "match_id": "1097",
-      "title": "Hong Kong, China vs Oman",
-      "teams": "Hong Kong, China vs Oman",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.ad4674f2-e9b7-467b-b1af-deb17eb28dbf/2/HERO-16X9/en-US._UR1920,1080_SX1080_FMjpg_.jpeg",
-      "league": "Asian Games 2026 (Cricket T20)",
-      "viewers": "3",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1097",
-      "match_url": "live/hong-kong-china-vs-oman-1097",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-24T23:55:00.476338"
+      "last_updated": "2026-09-25T00:21:44.739487"
     }
   ]
 }
