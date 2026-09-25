@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-25T18:40:05.348990",
+  "timestamp": "2026-09-25T18:45:07.562092",
   "total_matches": 24,
-  "live_count": 2,
-  "upcoming_count": 22,
+  "live_count": 6,
+  "upcoming_count": 18,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790164746540x302.jpg",
       "league": "UEFA Nations League 2026/27",
-      "viewers": "2",
+      "viewers": "4",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -29,7 +29,33 @@
         "https://live.talkoraai.com/match/hls?t=Qy368_eR3gU6COouBSVvcRX5KLqqQMYXBQ-Yeq_Az0J0uTI5SiY1oLUeL7AP-c7Iz8H1N9w-n0-kMp7xubF6zqHtzUQm5UYuvg721H6FGiP9P8MFbi1QZ2a_mnWF-cn5fxqC2UC-7yczajb3VcMRsgwQzSSSpAf8jNeQIz3_6AyvB_Ng4Y432JGemsh1xuF1IeJ4BY5VcCZySQdLqfeZgKGRfa_a1jovQTW9pP1wmDjISRlPyr3OnmIiWUbKcZTgn7xhJcuyAwI8Q0nlm3NLs55mHmNfyg",
         "https://live.talkoraai.com/match/seg?t=Klr0awm3JAOHLUNY1o0aMR9D8jyD38gjQyXpmNiTyRiGXVY3mQP9_s7_xtfRCKK0y9kPqVvc8-Eiv0raTZpRZeTyLY5T71Nc54siFFe1nAc8MaJ0Zky2XGmQpvghcfH-ydC0TE4kVFaaStarsnqvLfSYLLboXlYKoVTKeiK1OxKAzIlB-eVWQZBqNTWFgHJjl6FiZ8GxIWvmBpkiS67GLcdweIqpvWNCinlPMfI1XLhJBT90GE9Gx8TTKltdaNr4WHOJLleZqftQWcqefhN3n8wrOAuK0LDHtaksX1ZX"
       ],
-      "last_updated": "2026-09-25T18:39:06.023552"
+      "last_updated": "2026-09-25T18:44:03.002749"
+    },
+    {
+      "match_id": "1110",
+      "title": "Turkiye vs France",
+      "teams": "Turkiye vs France",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790164870540x302.jpg",
+      "league": "UEFA Nations League 2026/27",
+      "viewers": "4",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1110",
+      "match_url": "live/turkiye-vs-france-1110",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=rVLJ993fWyp0Rfdh9S9n3-qBfHcVdoLbcjla3_-HxcozmPwP6Xq6lHDwzyk-QAv56BUrSkOrtLv0Ap6tEg_9j-lJYLfQ55wY5CDKroI80gq_csyVjQvkOSS-JS6XkIypCFGqURSdGoQ-_KCllx35ELovuulpo6S9YKYRlG5N1-TFGbsNqCGCdCOxPQC28XgvNtQc1AR5KDyub6BQNhPdj3Ql86rjRL6RDHG5wiLS8A6zMoNSCchAiK6gLeBzVh0AjzyW8l_8U1EyNqYGJg2Hd5A",
+      "server_count": 2,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=rVLJ993fWyp0Rfdh9S9n3-qBfHcVdoLbcjla3_-HxcozmPwP6Xq6lHDwzyk-QAv56BUrSkOrtLv0Ap6tEg_9j-lJYLfQ55wY5CDKroI80gq_csyVjQvkOSS-JS6XkIypCFGqURSdGoQ-_KCllx35ELovuulpo6S9YKYRlG5N1-TFGbsNqCGCdCOxPQC28XgvNtQc1AR5KDyub6BQNhPdj3Ql86rjRL6RDHG5wiLS8A6zMoNSCchAiK6gLeBzVh0AjzyW8l_8U1EyNqYGJg2Hd5A",
+        "https://live.talkoraai.com/match/seg?t=TyvnJOSWxw3eBeEpFs3DcLopi2M80fYShtsqflnouEh8yM1MEuPP7MfOUqZl0cH4GtOyCIj7Q20J9t4AJl66_6nXEMJYL0bK5piyqava0AegKaqW-MTq-5Okq_22kwRKK7qrbo2r5YLsilTF2fslFC3-x0d1Bej97n6xqpg2hsgUDBBS36oboFlA7k-xCJFG45mOzT65q4AZLg_0nFxqFsLzMUvLj1WTmAaFh0LITWAvsQ7J0ASwnq-ad7RojzxAfq1-8oUty14dNvddNHsmjQMezfRcVid_wg"
+      ],
+      "last_updated": "2026-09-25T18:44:04.196153"
     },
     {
       "match_id": "1081",
@@ -42,7 +68,7 @@
       "runtime": "--",
       "thumbnail": "https://myimgs.org/storage/images/44609/AsianGames2026.jpg",
       "league": "Asian Games 2026",
-      "viewers": "664",
+      "viewers": "665",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -60,30 +86,85 @@
         "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV1080p.m3u8",
         "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8"
       ],
-      "last_updated": "2026-09-25T18:39:07.270487"
+      "last_updated": "2026-09-25T18:44:04.535236"
     },
     {
-      "match_id": "1110",
-      "title": "Turkiye vs France",
-      "teams": "Turkiye vs France",
+      "match_id": "1108",
+      "title": "Montenegro vs Cyprus",
+      "teams": "Montenegro vs Cyprus",
       "sport": "football",
       "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
+      "status": "live",
+      "status_display": "LIVE",
       "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790164870540x302.jpg",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790164520540x302.jpg",
       "league": "UEFA Nations League 2026/27",
-      "viewers": "2",
-      "viewers_type": "Waiting",
+      "viewers": "196",
+      "viewers_type": "Watching",
       "date": null,
       "time": null,
       "servers": null,
-      "page_url": "/world-sports/player.html?id=1110",
-      "match_url": "live/turkiye-vs-france-1110",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-25T18:39:07.661048"
+      "page_url": "/world-sports/player.html?id=1108",
+      "match_url": "live/montenegro-vs-cyprus-1108",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=-aMOxg9OyHobnAb14szknxQ6mDH9Mmip_8FbXlQv4srFrzPmwFmayAADQvNYHmewkgGVJDKv6CJlUT-R50omiv7-wxu8zMc3dYL6v4CUy4Xcr0nUYZtw9Gukef7XC0yd2IHwh0-eP5DUwwWWrkzzP5FEBROD3g9xlkIb_Oe_8h8ixkz6FPLko-vy4jSAn61JOwWcOhNub57aBqKwc3aE_PxpVgHF7UD8JZ0mqRsverscdbwGoqsOZXujaj5aRImvE0bGG3KhBZl-PlMz6AWapj4yi0tgjA",
+      "server_count": 2,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=-aMOxg9OyHobnAb14szknxQ6mDH9Mmip_8FbXlQv4srFrzPmwFmayAADQvNYHmewkgGVJDKv6CJlUT-R50omiv7-wxu8zMc3dYL6v4CUy4Xcr0nUYZtw9Gukef7XC0yd2IHwh0-eP5DUwwWWrkzzP5FEBROD3g9xlkIb_Oe_8h8ixkz6FPLko-vy4jSAn61JOwWcOhNub57aBqKwc3aE_PxpVgHF7UD8JZ0mqRsverscdbwGoqsOZXujaj5aRImvE0bGG3KhBZl-PlMz6AWapj4yi0tgjA",
+        "https://live.talkoraai.com/match/seg?t=HsNywolppMPsiIXC45GZMt0cRrOqhVLy0NGFe7nMz47v5X9GCC5kW4uXZqUljh_4SSqQotPiB-aVZnbyq2RY6JHPD7S1veAV6Xig6kacVcT19dOiXQPcB_Qeu9tvXkjhRKpQo8a5tGdRkcQ-rYnxrFOI5oGtcecVjZRVO3QoMnCvTh1JiIWAEI0oRNMR-7_YLu2PqnhR9I0zWyirP1IH6htj_Lg_hT8FZyZKYOoNifFSt67NDHiu_Ry_LuMo23INms4YVxVnPxBWlPQj3yU_w8Yt9M7yaMNBuxkfopkQ"
+      ],
+      "last_updated": "2026-09-25T18:44:04.935852"
+    },
+    {
+      "match_id": "1106",
+      "title": "Sweden vs Romania",
+      "teams": "Sweden vs Romania",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790164117540x302.jpg",
+      "league": "UEFA Nations League 2026/27",
+      "viewers": "472",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1106",
+      "match_url": "live/sweden-vs-romania-1106",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=1Sm_9IIkPFUqSIfBbiG9glw_YoWYxdLVaVQ_70XtJ5urYGc9TSkRfzVCXkL9QBo6cguvNFtKpXP3m0DehJSVzuC13qOKXB2K2AhP63xR__azySK7LcryZ7m8oReVFLOJ75WQUmiZdgNmJKzOjNkDIddW7KxB1VIhLk9kRSRE1MzZGyvLtqMWfvIFisPrXV4mQT3Jt9ZmObgchF-Dl9y5yLrFulFCDhPN3FGn8WTYTyFgpz8YImIvWSB6LBnumtYlvjuFF8qY-W_xYXY2FenAVybA2A",
+      "server_count": 2,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=1Sm_9IIkPFUqSIfBbiG9glw_YoWYxdLVaVQ_70XtJ5urYGc9TSkRfzVCXkL9QBo6cguvNFtKpXP3m0DehJSVzuC13qOKXB2K2AhP63xR__azySK7LcryZ7m8oReVFLOJ75WQUmiZdgNmJKzOjNkDIddW7KxB1VIhLk9kRSRE1MzZGyvLtqMWfvIFisPrXV4mQT3Jt9ZmObgchF-Dl9y5yLrFulFCDhPN3FGn8WTYTyFgpz8YImIvWSB6LBnumtYlvjuFF8qY-W_xYXY2FenAVybA2A",
+        "https://live.talkoraai.com/match/seg?t=s3jkMWD3X9W9XUctZbj67kf8gdSZb787vcHq0kuPd52TMWvVCcMm10TOesyHdtkW8yEqAhfjRr7xJLhyN-l1UCROKNVdjUql4ZikIENTQFXRcSRGtIDO14mdb_3wDQM5aCFfisGR0_IswOe0CY9zN6iPdq4q25kG0RORlAnJKdLqUgNce0LPqRu3401g6oQRBtMI_Qd6qEsYtHqXnfk270V97ANdsqDN-ufrAgatvvFPwBVSWELyaTdv9hrr3gcAFaQJUPaxDuyXW8XxvU-LAfj_dCshUB9LyAWa"
+      ],
+      "last_updated": "2026-09-25T18:44:05.277440"
+    },
+    {
+      "match_id": "1107",
+      "title": "Hungary vs Ukraine",
+      "teams": "Hungary vs Ukraine",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790164634540x302.jpg",
+      "league": "UEFA Nations League 2026/27",
+      "viewers": "159",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1107",
+      "match_url": "live/hungary-vs-ukraine-1107",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=1CKQQASzr2lq6R1lkv2coijpMS8FleR465hNaveEY8bOQsAB604F7H-TAtjf3HGuxhd6qCvFlJiiPkrYqR0aB16jBW8zWZwBpp6BB8L3FxX7o9GINO80G3XYaAEgrSoJHab8hAnHSQoIoN7fhUAJMgvRsThVb_NLJo21XhGtUhz3kxNy4tUya3BJQbrSp8FyUBHuh8aH_wbp0HxGRh5mS2R6LYVelU6OorVSslYpFFO6Kuan544CGEsuNeVYuzmzBGzwPsfx3ambFYD3U5LUiq-naW9Xbw",
+      "server_count": 2,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=1CKQQASzr2lq6R1lkv2coijpMS8FleR465hNaveEY8bOQsAB604F7H-TAtjf3HGuxhd6qCvFlJiiPkrYqR0aB16jBW8zWZwBpp6BB8L3FxX7o9GINO80G3XYaAEgrSoJHab8hAnHSQoIoN7fhUAJMgvRsThVb_NLJo21XhGtUhz3kxNy4tUya3BJQbrSp8FyUBHuh8aH_wbp0HxGRh5mS2R6LYVelU6OorVSslYpFFO6Kuan544CGEsuNeVYuzmzBGzwPsfx3ambFYD3U5LUiq-naW9Xbw",
+        "https://live.talkoraai.com/match/seg?t=o5j7rDqFqyM02psI9SgR2NPXiWaFRJ_i7eIl0qnxma-6Nkj5bazjMvnqgE1OxJaQD2Hv4yYWavMVLMC-b6PezrPQ78duCnovD3wSp9sesMacRI5j2zExH0ja1ApuEHoRovDS-CAThU0AVvv0B4KWYziKEqCAmgnQ5HWNDaBrk5-hVLGCTazMy2Q_nlYLNKP0btOAShG9QbXz6vz93-yc6tGxrhziR8Tv792K7f3is8lBcAZY5AIyJCtbIfGL5Jb9IJVnewcODa3SmXETNhELhe7KEBr7AUnJCBt8X4IL"
+      ],
+      "last_updated": "2026-09-25T18:44:05.665904"
     },
     {
       "match_id": "1098",
@@ -106,7 +187,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T18:39:07.661566"
+      "last_updated": "2026-09-25T18:44:06.059907"
     },
     {
       "match_id": "1099",
@@ -129,7 +210,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T18:39:07.661997"
+      "last_updated": "2026-09-25T18:44:06.060534"
     },
     {
       "match_id": "1037",
@@ -152,7 +233,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T18:39:07.662433"
+      "last_updated": "2026-09-25T18:44:06.061051"
     },
     {
       "match_id": "1083",
@@ -175,7 +256,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T18:39:07.662856"
+      "last_updated": "2026-09-25T18:44:06.061576"
     },
     {
       "match_id": "1100",
@@ -198,7 +279,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T18:39:07.663294"
+      "last_updated": "2026-09-25T18:44:06.062085"
     },
     {
       "match_id": "1000",
@@ -221,7 +302,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T18:39:07.663715"
+      "last_updated": "2026-09-25T18:44:06.062620"
     },
     {
       "match_id": "1001",
@@ -244,7 +325,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T18:39:07.664135"
+      "last_updated": "2026-09-25T18:44:06.063152"
     },
     {
       "match_id": "1008",
@@ -267,7 +348,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T18:39:07.664559"
+      "last_updated": "2026-09-25T18:44:06.063678"
     },
     {
       "match_id": "1042",
@@ -290,7 +371,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T18:39:07.664984"
+      "last_updated": "2026-09-25T18:44:06.064187"
     },
     {
       "match_id": "1049",
@@ -313,7 +394,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T18:39:07.665418"
+      "last_updated": "2026-09-25T18:44:06.064714"
     },
     {
       "match_id": "1043",
@@ -336,7 +417,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T18:39:07.665836"
+      "last_updated": "2026-09-25T18:44:06.065227"
     },
     {
       "match_id": "1101",
@@ -359,7 +440,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T18:39:07.666265"
+      "last_updated": "2026-09-25T18:44:06.065810"
     },
     {
       "match_id": "1102",
@@ -382,7 +463,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T18:39:07.666685"
+      "last_updated": "2026-09-25T18:44:06.066330"
     },
     {
       "match_id": "1116",
@@ -405,7 +486,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T18:39:07.667099"
+      "last_updated": "2026-09-25T18:44:06.066904"
     },
     {
       "match_id": "1115",
@@ -428,7 +509,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T18:39:07.667520"
+      "last_updated": "2026-09-25T18:44:06.067412"
     },
     {
       "match_id": "1113",
@@ -451,7 +532,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T18:39:07.667937"
+      "last_updated": "2026-09-25T18:44:06.067940"
     },
     {
       "match_id": "1112",
@@ -474,7 +555,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T18:39:07.668360"
+      "last_updated": "2026-09-25T18:44:06.068470"
     },
     {
       "match_id": "1111",
@@ -497,76 +578,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-25T18:39:07.668770"
-    },
-    {
-      "match_id": "1108",
-      "title": "Montenegro vs Cyprus",
-      "teams": "Montenegro vs Cyprus",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790164520540x302.jpg",
-      "league": "UEFA Nations League 2026/27",
-      "viewers": "196",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1108",
-      "match_url": "live/montenegro-vs-cyprus-1108",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-25T18:39:07.669180"
-    },
-    {
-      "match_id": "1107",
-      "title": "Hungary vs Ukraine",
-      "teams": "Hungary vs Ukraine",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790164634540x302.jpg",
-      "league": "UEFA Nations League 2026/27",
-      "viewers": "159",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1107",
-      "match_url": "live/hungary-vs-ukraine-1107",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-25T18:39:07.669603"
-    },
-    {
-      "match_id": "1106",
-      "title": "Sweden vs Romania",
-      "teams": "Sweden vs Romania",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790164117540x302.jpg",
-      "league": "UEFA Nations League 2026/27",
-      "viewers": "472",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1106",
-      "match_url": "live/sweden-vs-romania-1106",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-25T18:39:07.670014"
+      "last_updated": "2026-09-25T18:44:06.068994"
     }
   ]
 }
