@@ -1,35 +1,113 @@
 {
-  "timestamp": "2026-09-26T15:50:16.398640",
-  "total_matches": 19,
-  "live_count": 2,
-  "upcoming_count": 17,
+  "timestamp": "2026-09-26T15:55:18.721095",
+  "total_matches": 18,
+  "live_count": 5,
+  "upcoming_count": 13,
   "completed_count": 0,
   "matches": [
     {
-      "match_id": "1112",
-      "title": "Slovenia vs Scotland",
-      "teams": "Slovenia vs Scotland",
+      "match_id": "1116",
+      "title": "Iceland vs Estonia",
+      "teams": "Iceland vs Estonia",
       "sport": "football",
       "sport_display": "Football",
       "status": "live",
       "status_display": "LIVE",
       "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790332426540x302.jpg",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790332767540x302.jpg",
       "league": "UEFA Nations League 2026/27",
-      "viewers": "45",
+      "viewers": "5",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
       "servers": null,
-      "page_url": "/world-sports/player.html?id=1112",
-      "match_url": "live/slovenia-vs-scotland-1112",
-      "stream_url": "https://live.talkoraai.com/match/hls?t=3OkeaGWr1OZ4N2knwMtaKdTN0FA9svt59kdvnjJXXH9_v5Jg19vHSpTPJlmQhq6mlUSyBaVUzAfmoPGzp0oSrCPtnHfBHXALWBOUpeeGBNxv6ZtAf_QzGJaU1Ejcz-iaEU8P48AtX7hSR22EewsQFO_9xde12GGjCjhS_TDTF3m0M918CDgB3fl5nqxTjCRIOOhbhl1_JcmccwBDufywKf-9k2AEsRv-cdJmoqxP9bRTjf6zPxFIhouJTlfzORafOdpGd-FbDunOCqrA8Em-dvNpPkh-Vg",
+      "page_url": "/world-sports/player.html?id=1116",
+      "match_url": "live/iceland-vs-estonia-1116",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=auiK1bjGRohlmfjNzg-uyKx5QQ-etUmvotKQrFg8dvAx3Awf6mjdHiDCqKE5cLu9QAS9waeAOL45j7wQ4hWiIfUgqEe12ns2WTVwqAs4kzJs50bKnuSzOi-1I5VkXe13tgp76uhQ4tDaO9gDWVwPpYs7qhOh-N33xS0BPqgeY0IStOqIwNfOfbEm6laIACdYqofeLMBB5zd7-VXBQ2DwLvVetgINZKx9p588K16ZKGSL54GWhR1Uo7CAMIfMT07w_kEF1BFxPcXziKVjLXFmCQq4AWPsW3Uv",
       "server_count": 2,
       "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=3OkeaGWr1OZ4N2knwMtaKdTN0FA9svt59kdvnjJXXH9_v5Jg19vHSpTPJlmQhq6mlUSyBaVUzAfmoPGzp0oSrCPtnHfBHXALWBOUpeeGBNxv6ZtAf_QzGJaU1Ejcz-iaEU8P48AtX7hSR22EewsQFO_9xde12GGjCjhS_TDTF3m0M918CDgB3fl5nqxTjCRIOOhbhl1_JcmccwBDufywKf-9k2AEsRv-cdJmoqxP9bRTjf6zPxFIhouJTlfzORafOdpGd-FbDunOCqrA8Em-dvNpPkh-Vg",
-        "https://live.talkoraai.com/match/seg?t=-MAkR_5Ez9OOXMlZs-ovjDC4pbEbI3hZ4TtY1-PxabBSeNPMUFWv0LYDG8GZXbRPkn_mHlDQWxhcxPGgAjFKKVLrxcFobexCKIUZupXL14JQxj-_uvd7ztUO5Q1zHqIf12DR-ociDum7XlZoqFco6sWfZaEdaJLwQWuoXl921XgVjDWmR_kV0vWkm8ngrTloW3mbeSO7tRb2APBEklRTuMUkr3TVB22rpZ9-hxDQLlkajck8Odhfxa2me9F_QccXoY9TUCqDG5RDRa3CBcMrjrTpYeMPz0gQY1Jb-ijP"
+        "https://live.talkoraai.com/match/hls?t=auiK1bjGRohlmfjNzg-uyKx5QQ-etUmvotKQrFg8dvAx3Awf6mjdHiDCqKE5cLu9QAS9waeAOL45j7wQ4hWiIfUgqEe12ns2WTVwqAs4kzJs50bKnuSzOi-1I5VkXe13tgp76uhQ4tDaO9gDWVwPpYs7qhOh-N33xS0BPqgeY0IStOqIwNfOfbEm6laIACdYqofeLMBB5zd7-VXBQ2DwLvVetgINZKx9p588K16ZKGSL54GWhR1Uo7CAMIfMT07w_kEF1BFxPcXziKVjLXFmCQq4AWPsW3Uv",
+        "https://live.talkoraai.com/match/seg?t=QZOuasc8EbpHaKk4Nff5l-K8CQ-nHFAFA-QExgNbv71gST8kLrfe9wgVvl_BwGOo-cy_awdXsxLWul5sarjyW0onNeq6KKDMF1HdlLGuPYfzo_ypg7qs-bMqLCzLLx0KxMBGSq8n0RgM8DLR7hrMg-lAZyre5XbDqSYN7kW7Buy7urtbgkrsAWq8WzLKMYkBHZnLPjcYF2kpXXZZtqhmAXDPY-pXCC0E9HaFkXxGsma0r6Lf6U_j11SUPPNXlI4KiTX4tzWvZ-Mu3qJlRMKkG3PeThF1t66NTAg5hYuVpiA"
       ],
-      "last_updated": "2026-09-26T15:49:05.526780"
+      "last_updated": "2026-09-26T15:54:08.291746"
+    },
+    {
+      "match_id": "1115",
+      "title": "Bulgaria vs Luxembourg",
+      "teams": "Bulgaria vs Luxembourg",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790332863540x302.jpg",
+      "league": "UEFA Nations League 2026/27",
+      "viewers": "5",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1115",
+      "match_url": "live/bulgaria-vs-luxembourg-1115",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=99SbLXdQIyFeFVP4EU1-8mz5vGajpZ8RurSzgkh-RjZZ2naCwKgdaYWtW5uoO5NyNuqu7haYceTXabiQlqZeL0pf7dyvjq8pTJqgHXtT7T2NQ-uxfV3rt5CSEJfySUv25I2mmcUk7IzJLtJ84EjXjjvm5HKnLjf5gqGNyGIdb0peRPj8ooNdvorXYBua6OEuerxSsDeYhfyY1TsRv7HTZ7wS8YtGGmEqyzYcKozxbJ2nsLdRPpChVvfh4BZ1gJ8Cj5NEfkCfpvhPfqpTctEAS1abAYUvBHWPOn0",
+      "server_count": 2,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=99SbLXdQIyFeFVP4EU1-8mz5vGajpZ8RurSzgkh-RjZZ2naCwKgdaYWtW5uoO5NyNuqu7haYceTXabiQlqZeL0pf7dyvjq8pTJqgHXtT7T2NQ-uxfV3rt5CSEJfySUv25I2mmcUk7IzJLtJ84EjXjjvm5HKnLjf5gqGNyGIdb0peRPj8ooNdvorXYBua6OEuerxSsDeYhfyY1TsRv7HTZ7wS8YtGGmEqyzYcKozxbJ2nsLdRPpChVvfh4BZ1gJ8Cj5NEfkCfpvhPfqpTctEAS1abAYUvBHWPOn0",
+        "https://live.talkoraai.com/match/seg?t=CJR1E1HIargRWVl-DlOI9piEEXGkXdBYpBNKUWvdLBEabAu0-Tlhkt5TGXSzN71NUdRIrt17WB2HsTR8ZBRLT9ZkcK94S318TY-Buu2PQ5TMM2Mlrh0COWRWeTzyfwgMsfXcM8_x9KXARRCsLJerlsPcOuultCrMuRjwxfmPBXopVK--WJg7YV7iPI-Dqf-1olwuAfWi0D6qOAU3AtNn2dKGwUgJ1UkG3kEM0irIQWEv4ziYaW32_r-3S1ijcWkhvBKp0iuAQWqtvbhimSv4BTAbx0eBsBO-ufSELI2O7WE6CA"
+      ],
+      "last_updated": "2026-09-26T15:54:09.464402"
+    },
+    {
+      "match_id": "1118",
+      "title": "San Marino vs Finland",
+      "teams": "San Marino vs Finland",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790332651540x302.jpg",
+      "league": "UEFA Nations League 2026/27",
+      "viewers": "3",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1118",
+      "match_url": "live/san-marino-vs-finland-1118",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=hTkaa9LUniGwTtezKPJ5lKyIO2nBIncZKg2pLs3fs7VGM1TY34UJY0-9ggr9IjiqmQHz7AVmuXHiMT5g0n44FI88LmIwLW5IBThWoZ6CXFWeH830MTw1VRBDSz8Bj57K4NFkicVxZjhkFZJds9wMqFIOBwQFdBra20vy6DEbKaV4YlRJZ7NbISdlgIss5ckztyxcZMflE0Wqp382eg4nDp2HbHIK_55Rm0YO1WQ64XdfmRy0mCuKZSoNqt37X24GRs_fkGIHSW_nIZNejRBrxZ_FCfTsNQ",
+      "server_count": 2,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=hTkaa9LUniGwTtezKPJ5lKyIO2nBIncZKg2pLs3fs7VGM1TY34UJY0-9ggr9IjiqmQHz7AVmuXHiMT5g0n44FI88LmIwLW5IBThWoZ6CXFWeH830MTw1VRBDSz8Bj57K4NFkicVxZjhkFZJds9wMqFIOBwQFdBra20vy6DEbKaV4YlRJZ7NbISdlgIss5ckztyxcZMflE0Wqp382eg4nDp2HbHIK_55Rm0YO1WQ64XdfmRy0mCuKZSoNqt37X24GRs_fkGIHSW_nIZNejRBrxZ_FCfTsNQ",
+        "https://live.talkoraai.com/match/seg?t=B3r-YpnkrA7syW4UM1TzTKigcDj3Ze3PK4g2LCKvpXdlaobVSbz0Egfh8pgtiPuvobFJO7-zNMz13XSnm56ZknvKEFp-rXeaQvbHjYdsxGndhVYQKR3fnZh3qPbPlt00eJGvvaMynodhuuihAFZ5gzwiO_VKNYtYjAMfvluN0OgV2mwb5HUsrFqX4JYuSDe7Sv4K2QVUuF610QXlPrpqZlMaPLaCGap_vE0xIzt0FtnVeej9f9sRpmby5kWdKpE_Zc1sSAR50X1s_r_VigjLAP_gi3v8w6t7WbzniyBL"
+      ],
+      "last_updated": "2026-09-26T15:54:09.783363"
+    },
+    {
+      "match_id": "1113",
+      "title": "Faroe Islands vs Kazakhstan",
+      "teams": "Faroe Islands vs Kazakhstan",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790332537540x302.jpg",
+      "league": "UEFA Nations League 2026/27",
+      "viewers": "2",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1113",
+      "match_url": "live/faroe-islands-vs-kazakhstan-1113",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=bZZ-_cHHl6FeZ62xrRPj9JMG6dZRfnCSwvCDbqZhu7bGdmq23gEP_wzWkCA-KICZxIVhE2HBjm2C14x6X6w_BJbI1f9ObCHzPrRLman481HeU0SmOjipwOF86XuLoWlAFdenuEEEK6P4PlBhRxRhVpye3dZMaB1QOweEIpiMWAYebjmESyVbGJ1HiHrRVteJ3NJkNvnrEb0legEJIDFBkB8xVscMTSJBDOQ-XVFo4rrfO7uvnM6bER5xLqmgJ09bsw1r8hwasggNKVHEEUrLFjzhqA",
+      "server_count": 2,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=bZZ-_cHHl6FeZ62xrRPj9JMG6dZRfnCSwvCDbqZhu7bGdmq23gEP_wzWkCA-KICZxIVhE2HBjm2C14x6X6w_BJbI1f9ObCHzPrRLman481HeU0SmOjipwOF86XuLoWlAFdenuEEEK6P4PlBhRxRhVpye3dZMaB1QOweEIpiMWAYebjmESyVbGJ1HiHrRVteJ3NJkNvnrEb0legEJIDFBkB8xVscMTSJBDOQ-XVFo4rrfO7uvnM6bER5xLqmgJ09bsw1r8hwasggNKVHEEUrLFjzhqA",
+        "https://live.talkoraai.com/match/seg?t=MvV1UeZJDeiWOCaVcGU55DFHqgA8bZf84Qp-3j1KhjHilLCERAly-W2FdYdAl1oN5Hq8qU-1IO8a2gF2RwRf9ourzH30vdKc_zv6BQrJVX1XaYLEbqFZnVbABIigTpvqjYFfA-Y5NdCjhOATCmhWvCCpOAOmt_G1yXGOGIS_giTlYnDa1Qz4hue72x-DYPh6L--DcZkLcUhknclIs7y-LjOhFqVw4d6uxOXpG0CqCUpgAcW9qECM0afsZjH1w9y_1psdUdEdynZUQZz0fovEnYjestkLx_i738V7"
+      ],
+      "last_updated": "2026-09-26T15:54:10.116205"
     },
     {
       "match_id": "1081",
@@ -42,7 +120,7 @@
       "runtime": "--",
       "thumbnail": "https://myimgs.org/storage/images/44609/AsianGames2026.jpg",
       "league": "Asian Games 2026",
-      "viewers": "895",
+      "viewers": "897",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -61,7 +139,7 @@
         "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8",
         "https://sonydaime.akamaized.net/hls/live/2034927/INSTA_VOD3/master-archive.m3u8?startTime=1790395050&endTime=1790399250&hdnea=exp=1790456106~acl=/*~id=66e4956bf26c4eb984ac9e44b80133ab-1790396151195-2010011403136209830~hmac=0676a7ad30c125ec2f2c60d9f028d12595bbbc8d4c9b4de7b7114bcc8ae4d738"
       ],
-      "last_updated": "2026-09-26T15:49:07.061091"
+      "last_updated": "2026-09-26T15:54:10.434548"
     },
     {
       "match_id": "1098",
@@ -84,7 +162,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T15:49:08.064974"
+      "last_updated": "2026-09-26T15:54:10.749963"
     },
     {
       "match_id": "1099",
@@ -107,7 +185,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T15:49:08.065488"
+      "last_updated": "2026-09-26T15:54:10.750334"
     },
     {
       "match_id": "1037",
@@ -130,7 +208,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T15:49:08.065940"
+      "last_updated": "2026-09-26T15:54:10.750639"
     },
     {
       "match_id": "1083",
@@ -153,7 +231,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T15:49:08.066389"
+      "last_updated": "2026-09-26T15:54:10.750945"
     },
     {
       "match_id": "1100",
@@ -176,7 +254,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T15:49:08.066849"
+      "last_updated": "2026-09-26T15:54:10.751253"
     },
     {
       "match_id": "1000",
@@ -199,7 +277,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T15:49:08.067288"
+      "last_updated": "2026-09-26T15:54:10.751555"
     },
     {
       "match_id": "1001",
@@ -222,7 +300,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T15:49:08.067731"
+      "last_updated": "2026-09-26T15:54:10.751853"
     },
     {
       "match_id": "1008",
@@ -245,7 +323,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T15:49:08.068173"
+      "last_updated": "2026-09-26T15:54:10.752153"
     },
     {
       "match_id": "1042",
@@ -268,7 +346,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T15:49:08.068609"
+      "last_updated": "2026-09-26T15:54:10.752446"
     },
     {
       "match_id": "1049",
@@ -291,7 +369,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T15:49:08.069029"
+      "last_updated": "2026-09-26T15:54:10.752738"
     },
     {
       "match_id": "1043",
@@ -314,7 +392,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T15:49:08.069447"
+      "last_updated": "2026-09-26T15:54:10.753039"
     },
     {
       "match_id": "1101",
@@ -337,7 +415,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T15:49:08.069876"
+      "last_updated": "2026-09-26T15:54:10.753330"
     },
     {
       "match_id": "1102",
@@ -360,99 +438,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T15:49:08.070308"
-    },
-    {
-      "match_id": "1118",
-      "title": "San Marino vs Finland",
-      "teams": "San Marino vs Finland",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790332651540x302.jpg",
-      "league": "UEFA Nations League 2026/27",
-      "viewers": "2",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1118",
-      "match_url": "live/san-marino-vs-finland-1118",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-26T15:49:08.070746"
-    },
-    {
-      "match_id": "1116",
-      "title": "Iceland vs Estonia",
-      "teams": "Iceland vs Estonia",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790332767540x302.jpg",
-      "league": "UEFA Nations League 2026/27",
-      "viewers": "2",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1116",
-      "match_url": "live/iceland-vs-estonia-1116",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-26T15:49:08.071171"
-    },
-    {
-      "match_id": "1115",
-      "title": "Bulgaria vs Luxembourg",
-      "teams": "Bulgaria vs Luxembourg",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790332863540x302.jpg",
-      "league": "UEFA Nations League 2026/27",
-      "viewers": "2",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1115",
-      "match_url": "live/bulgaria-vs-luxembourg-1115",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-26T15:49:08.071604"
-    },
-    {
-      "match_id": "1113",
-      "title": "Faroe Islands vs Kazakhstan",
-      "teams": "Faroe Islands vs Kazakhstan",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790332537540x302.jpg",
-      "league": "UEFA Nations League 2026/27",
-      "viewers": "2",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1113",
-      "match_url": "live/faroe-islands-vs-kazakhstan-1113",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-26T15:49:08.072037"
+      "last_updated": "2026-09-26T15:54:10.753621"
     }
   ]
 }
