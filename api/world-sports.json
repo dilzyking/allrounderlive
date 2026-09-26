@@ -1,38 +1,10 @@
 {
-  "timestamp": "2026-09-26T11:46:47.005175",
-  "total_matches": 19,
-  "live_count": 2,
+  "timestamp": "2026-09-26T11:51:49.173969",
+  "total_matches": 18,
+  "live_count": 1,
   "upcoming_count": 17,
   "completed_count": 0,
   "matches": [
-    {
-      "match_id": "1117",
-      "title": "Pakistan vs Thailand",
-      "teams": "Pakistan vs Thailand",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://i.postimg.cc/L8crbbFS/photo-2026-09-26-15-07-07.jpg",
-      "league": "FIFA ASEAN CUP",
-      "viewers": "28",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1117",
-      "match_url": "live/pakistan-vs-thailand-1117",
-      "stream_url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/tracks-v1a1/mono.ts.m3u8",
-      "server_count": 4,
-      "server_urls": [
-        "https://tvsen5.aynaott.com/TnMn5kZz8aLm/tracks-v1a1/mono.ts.m3u8",
-        "https://pull.niues.live/live/stream-9912144_lhd.m3u8?auth_key=1790329383-0-0-0eb4185845e5c59f2c8fc54931e8705e",
-        "https://live05.meung.app/live/78905744_tsc.m3u8",
-        "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.50%2Fhls%2FCCCCA.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
-      ],
-      "last_updated": "2026-09-26T11:45:44.276389"
-    },
     {
       "match_id": "1081",
       "title": "Asian Games 2026",
@@ -44,7 +16,7 @@
       "runtime": "--",
       "thumbnail": "https://myimgs.org/storage/images/44609/AsianGames2026.jpg",
       "league": "Asian Games 2026",
-      "viewers": "846",
+      "viewers": "847",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -63,7 +35,7 @@
         "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8",
         "https://sonydaime.akamaized.net/hls/live/2034927/INSTA_VOD3/master-archive.m3u8?startTime=1790395050&endTime=1790399250&hdnea=exp=1790456106~acl=/*~id=66e4956bf26c4eb984ac9e44b80133ab-1790396151195-2010011403136209830~hmac=0676a7ad30c125ec2f2c60d9f028d12595bbbc8d4c9b4de7b7114bcc8ae4d738"
       ],
-      "last_updated": "2026-09-26T11:45:45.132108"
+      "last_updated": "2026-09-26T11:50:47.880952"
     },
     {
       "match_id": "1098",
@@ -86,7 +58,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T11:45:46.216551"
+      "last_updated": "2026-09-26T11:50:50.528459"
     },
     {
       "match_id": "1099",
@@ -109,7 +81,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T11:45:46.217319"
+      "last_updated": "2026-09-26T11:50:50.529278"
     },
     {
       "match_id": "1037",
@@ -132,7 +104,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T11:45:46.217963"
+      "last_updated": "2026-09-26T11:50:50.529756"
     },
     {
       "match_id": "1083",
@@ -155,7 +127,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T11:45:46.218583"
+      "last_updated": "2026-09-26T11:50:50.530247"
     },
     {
       "match_id": "1100",
@@ -178,7 +150,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T11:45:46.219213"
+      "last_updated": "2026-09-26T11:50:50.530740"
     },
     {
       "match_id": "1000",
@@ -201,7 +173,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T11:45:46.219817"
+      "last_updated": "2026-09-26T11:50:50.531229"
     },
     {
       "match_id": "1001",
@@ -224,7 +196,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T11:45:46.220439"
+      "last_updated": "2026-09-26T11:50:50.531710"
     },
     {
       "match_id": "1008",
@@ -247,7 +219,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T11:45:46.221058"
+      "last_updated": "2026-09-26T11:50:50.532209"
     },
     {
       "match_id": "1042",
@@ -270,7 +242,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T11:45:46.221660"
+      "last_updated": "2026-09-26T11:50:50.532678"
     },
     {
       "match_id": "1049",
@@ -293,7 +265,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T11:45:46.222281"
+      "last_updated": "2026-09-26T11:50:50.533155"
     },
     {
       "match_id": "1043",
@@ -316,7 +288,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T11:45:46.222872"
+      "last_updated": "2026-09-26T11:50:50.533620"
     },
     {
       "match_id": "1101",
@@ -339,7 +311,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T11:45:46.223505"
+      "last_updated": "2026-09-26T11:50:50.534099"
     },
     {
       "match_id": "1102",
@@ -362,7 +334,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T11:45:46.224138"
+      "last_updated": "2026-09-26T11:50:50.534562"
     },
     {
       "match_id": "1112",
@@ -385,7 +357,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T11:45:46.224737"
+      "last_updated": "2026-09-26T11:50:50.535027"
     },
     {
       "match_id": "1116",
@@ -408,7 +380,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T11:45:46.225352"
+      "last_updated": "2026-09-26T11:50:50.535603"
     },
     {
       "match_id": "1115",
@@ -431,7 +403,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T11:45:46.225972"
+      "last_updated": "2026-09-26T11:50:50.536089"
     },
     {
       "match_id": "1113",
@@ -454,7 +426,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T11:45:46.226582"
+      "last_updated": "2026-09-26T11:50:50.536567"
     }
   ]
 }
