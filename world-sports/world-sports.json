@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-26T18:41:34.553276",
-  "total_matches": 25,
+  "timestamp": "2026-09-26T18:46:37.749770",
+  "total_matches": 23,
   "live_count": 6,
-  "upcoming_count": 19,
+  "upcoming_count": 17,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17903330941020x576.jpg",
       "league": "UEFA Champions League 2026",
-      "viewers": "475",
+      "viewers": "2",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -32,59 +32,36 @@
         "https://fawa.duckdns.org/api/proxy?url=https%3A%2F%2Fwww.rtmpcdn.com%2Flive%2F344c9b8d-42c0-4c31-85c6-35df66357b6e.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
         "https://www.rtmpcdn.com/live/344c9b8d-42c0-4c31-85c6-35df66357b6e.m3u8"
       ],
-      "last_updated": "2026-09-26T18:40:32.042155"
+      "last_updated": "2026-09-26T18:45:35.244352"
     },
     {
-      "match_id": "1118",
-      "title": "San Marino vs Finland",
-      "teams": "San Marino vs Finland",
+      "match_id": "1126",
+      "title": "England vs Spain",
+      "teams": "England vs Spain",
       "sport": "football",
       "sport_display": "Football",
       "status": "live",
       "status_display": "LIVE",
       "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790332651540x302.jpg",
-      "league": "UEFA Nations League 2026/27",
-      "viewers": "42",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17903332151020x576.jpg",
+      "league": "UEFA Champions League 2026",
+      "viewers": "10",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
       "servers": null,
-      "page_url": "/world-sports/player.html?id=1118",
-      "match_url": "live/san-marino-vs-finland-1118",
-      "stream_url": "https://live.talkoraai.com/match/hls?t=hTkaa9LUniGwTtezKPJ5lKyIO2nBIncZKg2pLs3fs7VGM1TY34UJY0-9ggr9IjiqmQHz7AVmuXHiMT5g0n44FI88LmIwLW5IBThWoZ6CXFWeH830MTw1VRBDSz8Bj57K4NFkicVxZjhkFZJds9wMqFIOBwQFdBra20vy6DEbKaV4YlRJZ7NbISdlgIss5ckztyxcZMflE0Wqp382eg4nDp2HbHIK_55Rm0YO1WQ64XdfmRy0mCuKZSoNqt37X24GRs_fkGIHSW_nIZNejRBrxZ_FCfTsNQ",
-      "server_count": 2,
+      "page_url": "/world-sports/player.html?id=1126",
+      "match_url": "live/england-vs-spain-1126",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=YUhODAoORXVdcBA0w0Ur7UiJKhWLuVfgv3CdhIK3fOH6ABeAfiYi4kH19L2eEhwRJGUfB9IUG3sf-GSTQ-TPP9aPmaddYuGb4mvACfjJsar9C1WqzQ3FYu3QsvsnMxD2O31Dq3wGumSbNg6oY2e-AHJcIwLvVEUnbkQDolwLX7jrkbRpTtWzpi9HXqWc-9zftA_B75y-Y2txNI0fMoiCPFpP-hzD1EthOPEk3GQknoMBW-cCw534AqK4ZD-45rV-i688-0PrabftNVd42cs2zZQ",
+      "server_count": 5,
       "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=hTkaa9LUniGwTtezKPJ5lKyIO2nBIncZKg2pLs3fs7VGM1TY34UJY0-9ggr9IjiqmQHz7AVmuXHiMT5g0n44FI88LmIwLW5IBThWoZ6CXFWeH830MTw1VRBDSz8Bj57K4NFkicVxZjhkFZJds9wMqFIOBwQFdBra20vy6DEbKaV4YlRJZ7NbISdlgIss5ckztyxcZMflE0Wqp382eg4nDp2HbHIK_55Rm0YO1WQ64XdfmRy0mCuKZSoNqt37X24GRs_fkGIHSW_nIZNejRBrxZ_FCfTsNQ",
-        "https://live.talkoraai.com/match/seg?t=B3r-YpnkrA7syW4UM1TzTKigcDj3Ze3PK4g2LCKvpXdlaobVSbz0Egfh8pgtiPuvobFJO7-zNMz13XSnm56ZknvKEFp-rXeaQvbHjYdsxGndhVYQKR3fnZh3qPbPlt00eJGvvaMynodhuuihAFZ5gzwiO_VKNYtYjAMfvluN0OgV2mwb5HUsrFqX4JYuSDe7Sv4K2QVUuF610QXlPrpqZlMaPLaCGap_vE0xIzt0FtnVeej9f9sRpmby5kWdKpE_Zc1sSAR50X1s_r_VigjLAP_gi3v8w6t7WbzniyBL"
+        "https://live.talkoraai.com/match/hls?t=YUhODAoORXVdcBA0w0Ur7UiJKhWLuVfgv3CdhIK3fOH6ABeAfiYi4kH19L2eEhwRJGUfB9IUG3sf-GSTQ-TPP9aPmaddYuGb4mvACfjJsar9C1WqzQ3FYu3QsvsnMxD2O31Dq3wGumSbNg6oY2e-AHJcIwLvVEUnbkQDolwLX7jrkbRpTtWzpi9HXqWc-9zftA_B75y-Y2txNI0fMoiCPFpP-hzD1EthOPEk3GQknoMBW-cCw534AqK4ZD-45rV-i688-0PrabftNVd42cs2zZQ",
+        "https://live.talkoraai.com/match/seg?t=RodgIVhXEa8n7dSQS0rN-5qQ8s_sNpsZbxBcmPyRdP89NZ8XRQhB3VtzQSnhQoJaS0-Bv1v6jF5SnXC5azMsBbT6tVQw-BzUIt96UiafzLG6D9l-nHQxxwkuRvsc0c_0UOvvgZIesHEviB1qTZehDCI0d_jlw3z6M9Rw1pWignRX3RedrXn2F9lCvyYVeH2XJL6tQLIRw529ud3dUFOr7sBdowscVS3HVB_sIxOdRFHxFj7M_r6i1UZJWs_OrhOPmtn7di0Kj7BSf3_b4sH2BEv8eMV-xGjLGQ",
+        "https://www.rtmpcdn.com/live/06ddaf0c-7799-48b4-be66-27df2fe640dc.m3u8",
+        "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.41%2Fhls%2FDKKKAAAA.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
+        "https://fawa.duckdns.org/api/proxy?url=https%3A%2F%2Fwww.rtmpcdn.com%2Flive%2F06ddaf0c-7799-48b4-be66-27df2fe640dc.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-26T18:40:33.063739"
-    },
-    {
-      "match_id": "1113",
-      "title": "Faroe Islands vs Kazakhstan",
-      "teams": "Faroe Islands vs Kazakhstan",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790332537540x302.jpg",
-      "league": "UEFA Nations League 2026/27",
-      "viewers": "42",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1113",
-      "match_url": "live/faroe-islands-vs-kazakhstan-1113",
-      "stream_url": "https://live.talkoraai.com/match/hls?t=bZZ-_cHHl6FeZ62xrRPj9JMG6dZRfnCSwvCDbqZhu7bGdmq23gEP_wzWkCA-KICZxIVhE2HBjm2C14x6X6w_BJbI1f9ObCHzPrRLman481HeU0SmOjipwOF86XuLoWlAFdenuEEEK6P4PlBhRxRhVpye3dZMaB1QOweEIpiMWAYebjmESyVbGJ1HiHrRVteJ3NJkNvnrEb0legEJIDFBkB8xVscMTSJBDOQ-XVFo4rrfO7uvnM6bER5xLqmgJ09bsw1r8hwasggNKVHEEUrLFjzhqA",
-      "server_count": 2,
-      "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=bZZ-_cHHl6FeZ62xrRPj9JMG6dZRfnCSwvCDbqZhu7bGdmq23gEP_wzWkCA-KICZxIVhE2HBjm2C14x6X6w_BJbI1f9ObCHzPrRLman481HeU0SmOjipwOF86XuLoWlAFdenuEEEK6P4PlBhRxRhVpye3dZMaB1QOweEIpiMWAYebjmESyVbGJ1HiHrRVteJ3NJkNvnrEb0legEJIDFBkB8xVscMTSJBDOQ-XVFo4rrfO7uvnM6bER5xLqmgJ09bsw1r8hwasggNKVHEEUrLFjzhqA",
-        "https://live.talkoraai.com/match/seg?t=MvV1UeZJDeiWOCaVcGU55DFHqgA8bZf84Qp-3j1KhjHilLCERAly-W2FdYdAl1oN5Hq8qU-1IO8a2gF2RwRf9ourzH30vdKc_zv6BQrJVX1XaYLEbqFZnVbABIigTpvqjYFfA-Y5NdCjhOATCmhWvCCpOAOmt_G1yXGOGIS_giTlYnDa1Qz4hue72x-DYPh6L--DcZkLcUhknclIs7y-LjOhFqVw4d6uxOXpG0CqCUpgAcW9qECM0afsZjH1w9y_1psdUdEdynZUQZz0fovEnYjestkLx_i738V7"
-      ],
-      "last_updated": "2026-09-26T18:40:33.411354"
+      "last_updated": "2026-09-26T18:45:35.599807"
     },
     {
       "match_id": "1124",
@@ -97,7 +74,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17903329771020x576.jpg",
       "league": "UEFA Champions League 2026",
-      "viewers": "2",
+      "viewers": "3",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -111,7 +88,7 @@
         "https://live.talkoraai.com/match/seg?t=G36XrJPe1yyrxTJjOTfZUorPXUt1khwjSIC6uDA3_mzMcRwncsBTwvijVNsEFIC3hWq-4A_zmlamK2tBRMsIiiqx9JPx6B94ALCACW5LLdMeGB7VQTsG0NiJCC66cedf79ARiuFWzsvwSF0NvtfLG2i9_IE5uQ2NmoX-YEN1wKZpuclkAvdHr77kXqtxCEv9r0fmJ3ra5sTh7j6GNL-Vil-g-c8Y5orE7rIcZACLLmeFU1ML59k96EgLEJHoOgZBGXzH1mAGAkUmpEEn_-zqb38bYjo7tgmaq03w7e9c",
         "https://www.rtmpcdn.com/live/233db093-4047-4227-841b-beb62a459717.m3u8"
       ],
-      "last_updated": "2026-09-26T18:40:33.713566"
+      "last_updated": "2026-09-26T18:45:35.919642"
     },
     {
       "match_id": "1127",
@@ -124,7 +101,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17903333311020x576.jpg",
       "league": "UEFA Champions League 2026",
-      "viewers": "199",
+      "viewers": "1",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -138,7 +115,34 @@
         "https://live.talkoraai.com/match/seg?t=eWNGb9vrPENtcfYcionOnGPlScRKHWE2JxRaNB6zkL2zxNFsQLnciGGBTqyutrEblo7XceRE4sxPtCbHessbXZ1M7aOqDnc457E3OFjG8NK1ymleZDwtAodgnYMv7Y27XrJTtbyAARIcBwVqPekN-t6DkMWxPTuWfvu6cUodgjOg0C29YQGGzl_WlhbDn3hK1JzPra6GGvhgaCZCxkCltQsqsp2B9M3jL76UDvFBjF_vqBvBOxnFJZHw7Qo-vtpEUr8VjwRE8_HdP2g2WghG24gtr7IRdODF1_ljvQ",
         "https://www.rtmpcdn.com/live/41fee358-5701-4d6f-83c9-5f82eb0700eb.m3u8"
       ],
-      "last_updated": "2026-09-26T18:40:34.056461"
+      "last_updated": "2026-09-26T18:45:36.244603"
+    },
+    {
+      "match_id": "1128",
+      "title": "Albania vs Belarus",
+      "teams": "Albania vs Belarus",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17903334311020x576.jpg",
+      "league": "UEFA Champions League 2026",
+      "viewers": "236",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1128",
+      "match_url": "live/albania-vs-belarus-1128",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=_q0X78k_VGuEJrAT_mGlWEByE5GB-wc3RH7rQP0-D03z1pU-x-ZwBxPOgMz7p_9JyDSUYeej6lnEYmUaLpCIwkarsFCGii7pGn9lahDPG37DDZ1MFHMmPq88tzaGnWaj-B7kUue3Ddpag36vZNz3fnj98__Ii3ieb8UOvYaPYjZyspUCBxREC6m2SYMrm-DV0mjVAT93qKS8AjFnSbZ4ihnLevhPUC3mZEZmK7fpzSe4Ne4TQ318JxhmVngqQY8Vnmp4_1ndTDZNT6673GS9tAZ8EA7E6V3w7GwTKo6s6_W20lPa71c",
+      "server_count": 3,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=_q0X78k_VGuEJrAT_mGlWEByE5GB-wc3RH7rQP0-D03z1pU-x-ZwBxPOgMz7p_9JyDSUYeej6lnEYmUaLpCIwkarsFCGii7pGn9lahDPG37DDZ1MFHMmPq88tzaGnWaj-B7kUue3Ddpag36vZNz3fnj98__Ii3ieb8UOvYaPYjZyspUCBxREC6m2SYMrm-DV0mjVAT93qKS8AjFnSbZ4ihnLevhPUC3mZEZmK7fpzSe4Ne4TQ318JxhmVngqQY8Vnmp4_1ndTDZNT6673GS9tAZ8EA7E6V3w7GwTKo6s6_W20lPa71c",
+        "https://live.talkoraai.com/match/seg?t=k0oPzuKZUid54UyL7j116stX4kHv3SO0_vZygumNQ9prlQP7r6tCuCaanw18dgA3bXzha4nj7LJ34BhiX1zMS0qNdbWs2nturPCOrJRxJE3AWb_LbDc_sOXNORU3KRShZpc_RHOU6mQM9o1WESC8hC2WiU-Ij8T2SkaZqBUf2K7-NqPveDm9tfhOg4e28ZjfaunQ-_uwmp3gL1FUJLRDpb_iCGuCn4Thh9JaZguMl0spu-OCd4aKZLVFkuQElB0ZJM7hq7e-e7-EF0hDdHUJ1oyQgfCNp9OQMHySoj6eZ4Cl4ECy8WmoIPFjJiO8Gw",
+        "https://www.rtmpcdn.com/live/6d627e06-f3d1-4122-8b5f-27dd422abf46.m3u8"
+      ],
+      "last_updated": "2026-09-26T18:45:36.567944"
     },
     {
       "match_id": "1081",
@@ -151,7 +155,7 @@
       "runtime": "--",
       "thumbnail": "https://myimgs.org/storage/images/44609/AsianGames2026.jpg",
       "league": "Asian Games 2026",
-      "viewers": "933",
+      "viewers": "934",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -170,30 +174,7 @@
         "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8",
         "https://sonydaime.akamaized.net/hls/live/2034927/INSTA_VOD3/master-archive.m3u8?startTime=1790395050&endTime=1790399250&hdnea=exp=1790456106~acl=/*~id=66e4956bf26c4eb984ac9e44b80133ab-1790396151195-2010011403136209830~hmac=0676a7ad30c125ec2f2c60d9f028d12595bbbc8d4c9b4de7b7114bcc8ae4d738"
       ],
-      "last_updated": "2026-09-26T18:40:34.358675"
-    },
-    {
-      "match_id": "1126",
-      "title": "England vs Spain",
-      "teams": "England vs Spain",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17903332151020x576.jpg",
-      "league": "UEFA Champions League 2026",
-      "viewers": "3",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1126",
-      "match_url": "live/england-vs-spain-1126",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-26T18:40:34.886504"
+      "last_updated": "2026-09-26T18:45:36.887413"
     },
     {
       "match_id": "1130",
@@ -216,7 +197,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T18:40:34.887211"
+      "last_updated": "2026-09-26T18:45:37.242092"
     },
     {
       "match_id": "1098",
@@ -239,7 +220,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T18:40:34.887875"
+      "last_updated": "2026-09-26T18:45:37.242758"
     },
     {
       "match_id": "1131",
@@ -262,7 +243,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T18:40:34.888528"
+      "last_updated": "2026-09-26T18:45:37.243319"
     },
     {
       "match_id": "1132",
@@ -285,7 +266,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T18:40:34.889162"
+      "last_updated": "2026-09-26T18:45:37.243886"
     },
     {
       "match_id": "1099",
@@ -308,7 +289,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T18:40:34.889819"
+      "last_updated": "2026-09-26T18:45:37.244441"
     },
     {
       "match_id": "1037",
@@ -331,7 +312,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T18:40:34.890472"
+      "last_updated": "2026-09-26T18:45:37.244988"
     },
     {
       "match_id": "1083",
@@ -354,7 +335,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T18:40:34.891099"
+      "last_updated": "2026-09-26T18:45:37.245539"
     },
     {
       "match_id": "1100",
@@ -377,7 +358,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T18:40:34.891746"
+      "last_updated": "2026-09-26T18:45:37.246095"
     },
     {
       "match_id": "1000",
@@ -400,7 +381,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T18:40:34.892381"
+      "last_updated": "2026-09-26T18:45:37.246641"
     },
     {
       "match_id": "1001",
@@ -423,7 +404,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T18:40:34.893008"
+      "last_updated": "2026-09-26T18:45:37.247191"
     },
     {
       "match_id": "1008",
@@ -446,7 +427,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T18:40:34.893658"
+      "last_updated": "2026-09-26T18:45:37.247742"
     },
     {
       "match_id": "1042",
@@ -469,7 +450,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T18:40:34.894302"
+      "last_updated": "2026-09-26T18:45:37.248286"
     },
     {
       "match_id": "1049",
@@ -492,7 +473,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T18:40:34.894936"
+      "last_updated": "2026-09-26T18:45:37.248853"
     },
     {
       "match_id": "1043",
@@ -515,7 +496,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T18:40:34.895589"
+      "last_updated": "2026-09-26T18:45:37.249390"
     },
     {
       "match_id": "1101",
@@ -538,7 +519,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T18:40:34.896213"
+      "last_updated": "2026-09-26T18:45:37.249932"
     },
     {
       "match_id": "1102",
@@ -561,30 +542,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T18:40:34.896874"
-    },
-    {
-      "match_id": "1128",
-      "title": "Albania vs Belarus",
-      "teams": "Albania vs Belarus",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17903334311020x576.jpg",
-      "league": "UEFA Champions League 2026",
-      "viewers": "236",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1128",
-      "match_url": "live/albania-vs-belarus-1128",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-26T18:40:34.897514"
+      "last_updated": "2026-09-26T18:45:37.250464"
     },
     {
       "match_id": "1129",
@@ -607,7 +565,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T18:40:34.898134"
+      "last_updated": "2026-09-26T18:45:37.251012"
     }
   ]
 }
