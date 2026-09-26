@@ -1,10 +1,33 @@
 {
-  "timestamp": "2026-09-26T12:54:36.490226",
+  "timestamp": "2026-09-26T13:04:21.597258",
   "total_matches": 18,
-  "live_count": 1,
-  "upcoming_count": 17,
+  "live_count": 2,
+  "upcoming_count": 16,
   "completed_count": 0,
   "matches": [
+    {
+      "match_id": "1112",
+      "title": "Slovenia vs Scotland",
+      "teams": "Slovenia vs Scotland",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790332426540x302.jpg",
+      "league": "UEFA Nations League 2026/27",
+      "viewers": "3",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1112",
+      "match_url": "live/slovenia-vs-scotland-1112",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-26T13:00:04.448669"
+    },
     {
       "match_id": "1081",
       "title": "Asian Games 2026",
@@ -16,7 +39,7 @@
       "runtime": "--",
       "thumbnail": "https://myimgs.org/storage/images/44609/AsianGames2026.jpg",
       "league": "Asian Games 2026",
-      "viewers": "860",
+      "viewers": "861",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -35,7 +58,7 @@
         "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8",
         "https://sonydaime.akamaized.net/hls/live/2034927/INSTA_VOD3/master-archive.m3u8?startTime=1790395050&endTime=1790399250&hdnea=exp=1790456106~acl=/*~id=66e4956bf26c4eb984ac9e44b80133ab-1790396151195-2010011403136209830~hmac=0676a7ad30c125ec2f2c60d9f028d12595bbbc8d4c9b4de7b7114bcc8ae4d738"
       ],
-      "last_updated": "2026-09-26T12:53:36.595930"
+      "last_updated": "2026-09-26T13:00:06.366767"
     },
     {
       "match_id": "1098",
@@ -58,7 +81,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T12:53:37.458339"
+      "last_updated": "2026-09-26T13:00:06.899893"
     },
     {
       "match_id": "1099",
@@ -81,7 +104,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T12:53:37.459131"
+      "last_updated": "2026-09-26T13:00:06.900701"
     },
     {
       "match_id": "1037",
@@ -104,7 +127,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T12:53:37.459782"
+      "last_updated": "2026-09-26T13:00:06.901346"
     },
     {
       "match_id": "1083",
@@ -127,7 +150,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T12:53:37.460400"
+      "last_updated": "2026-09-26T13:00:06.901950"
     },
     {
       "match_id": "1100",
@@ -150,7 +173,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T12:53:37.461037"
+      "last_updated": "2026-09-26T13:00:06.902569"
     },
     {
       "match_id": "1000",
@@ -173,7 +196,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T12:53:37.461652"
+      "last_updated": "2026-09-26T13:00:06.903176"
     },
     {
       "match_id": "1001",
@@ -196,7 +219,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T12:53:37.462246"
+      "last_updated": "2026-09-26T13:00:06.903763"
     },
     {
       "match_id": "1008",
@@ -219,7 +242,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T12:53:37.462876"
+      "last_updated": "2026-09-26T13:00:06.904422"
     },
     {
       "match_id": "1042",
@@ -242,7 +265,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T12:53:37.463491"
+      "last_updated": "2026-09-26T13:00:06.905018"
     },
     {
       "match_id": "1049",
@@ -265,7 +288,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T12:53:37.464087"
+      "last_updated": "2026-09-26T13:00:06.905627"
     },
     {
       "match_id": "1043",
@@ -288,7 +311,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T12:53:37.464729"
+      "last_updated": "2026-09-26T13:00:06.906227"
     },
     {
       "match_id": "1101",
@@ -311,7 +334,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T12:53:37.465324"
+      "last_updated": "2026-09-26T13:00:06.906810"
     },
     {
       "match_id": "1102",
@@ -334,30 +357,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T12:53:37.465944"
-    },
-    {
-      "match_id": "1112",
-      "title": "Slovenia vs Scotland",
-      "teams": "Slovenia vs Scotland",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790332426540x302.jpg",
-      "league": "UEFA Nations League 2026/27",
-      "viewers": "3",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1112",
-      "match_url": "live/slovenia-vs-scotland-1112",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-26T12:53:37.466573"
+      "last_updated": "2026-09-26T13:00:06.907413"
     },
     {
       "match_id": "1116",
@@ -380,7 +380,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T12:53:37.467174"
+      "last_updated": "2026-09-26T13:00:06.907999"
     },
     {
       "match_id": "1115",
@@ -403,7 +403,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T12:53:37.467793"
+      "last_updated": "2026-09-26T13:00:06.908651"
     },
     {
       "match_id": "1113",
@@ -426,7 +426,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T12:53:37.468406"
+      "last_updated": "2026-09-26T13:00:06.909270"
     }
   ]
 }
