@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-26T19:31:55.562546",
-  "total_matches": 23,
+  "timestamp": "2026-09-26T19:37:00.339915",
+  "total_matches": 24,
   "live_count": 6,
-  "upcoming_count": 17,
+  "upcoming_count": 18,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17903330941020x576.jpg",
       "league": "UEFA Champions League 2026",
-      "viewers": "14",
+      "viewers": "15",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -32,7 +32,7 @@
         "https://fawa.duckdns.org/api/proxy?url=https%3A%2F%2Fwww.rtmpcdn.com%2Flive%2F344c9b8d-42c0-4c31-85c6-35df66357b6e.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
         "https://www.rtmpcdn.com/live/344c9b8d-42c0-4c31-85c6-35df66357b6e.m3u8"
       ],
-      "last_updated": "2026-09-26T19:30:52.006225"
+      "last_updated": "2026-09-26T19:35:55.021763"
     },
     {
       "match_id": "1126",
@@ -45,7 +45,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17903332151020x576.jpg",
       "league": "UEFA Champions League 2026",
-      "viewers": "50",
+      "viewers": "59",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -53,17 +53,18 @@
       "page_url": "/world-sports/player.html?id=1126",
       "match_url": "live/england-vs-spain-1126",
       "stream_url": "https://live.talkoraai.com/match/hls?t=YUhODAoORXVdcBA0w0Ur7UiJKhWLuVfgv3CdhIK3fOH6ABeAfiYi4kH19L2eEhwRJGUfB9IUG3sf-GSTQ-TPP9aPmaddYuGb4mvACfjJsar9C1WqzQ3FYu3QsvsnMxD2O31Dq3wGumSbNg6oY2e-AHJcIwLvVEUnbkQDolwLX7jrkbRpTtWzpi9HXqWc-9zftA_B75y-Y2txNI0fMoiCPFpP-hzD1EthOPEk3GQknoMBW-cCw534AqK4ZD-45rV-i688-0PrabftNVd42cs2zZQ",
-      "server_count": 7,
+      "server_count": 8,
       "server_urls": [
         "https://live.talkoraai.com/match/hls?t=YUhODAoORXVdcBA0w0Ur7UiJKhWLuVfgv3CdhIK3fOH6ABeAfiYi4kH19L2eEhwRJGUfB9IUG3sf-GSTQ-TPP9aPmaddYuGb4mvACfjJsar9C1WqzQ3FYu3QsvsnMxD2O31Dq3wGumSbNg6oY2e-AHJcIwLvVEUnbkQDolwLX7jrkbRpTtWzpi9HXqWc-9zftA_B75y-Y2txNI0fMoiCPFpP-hzD1EthOPEk3GQknoMBW-cCw534AqK4ZD-45rV-i688-0PrabftNVd42cs2zZQ",
         "https://robitv.com/lps/https://ml-pull-dvc-myco.io:2096/TENSPORTS_HD/mono.m3u8",
         "https://drk6xq0vhn.gpcdn.net/live/ten_2_hd_720/index.m3u8",
+        "https://18soso.s3.us-east-2.amazonaws.com/bein1/master.m3u8",
         "https://www.rtmpcdn.com/live/06ddaf0c-7799-48b4-be66-27df2fe640dc.m3u8",
-        "https://live.talkoraai.com/match/seg?t=RodgIVhXEa8n7dSQS0rN-5qQ8s_sNpsZbxBcmPyRdP89NZ8XRQhB3VtzQSnhQoJaS0-Bv1v6jF5SnXC5azMsBbT6tVQw-BzUIt96UiafzLG6D9l-nHQxxwkuRvsc0c_0UOvvgZIesHEviB1qTZehDCI0d_jlw3z6M9Rw1pWignRX3RedrXn2F9lCvyYVeH2XJL6tQLIRw529ud3dUFOr7sBdowscVS3HVB_sIxOdRFHxFj7M_r6i1UZJWs_OrhOPmtn7di0Kj7BSf3_b4sH2BEv8eMV-xGjLGQ",
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.41%2Fhls%2FDKKKAAAA.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
-        "https://fawa.duckdns.org/api/proxy?url=https%3A%2F%2Fwww.rtmpcdn.com%2Flive%2F06ddaf0c-7799-48b4-be66-27df2fe640dc.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
+        "https://fawa.duckdns.org/api/proxy?url=https%3A%2F%2Fwww.rtmpcdn.com%2Flive%2F06ddaf0c-7799-48b4-be66-27df2fe640dc.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
+        "https://live.talkoraai.com/match/seg?t=RodgIVhXEa8n7dSQS0rN-5qQ8s_sNpsZbxBcmPyRdP89NZ8XRQhB3VtzQSnhQoJaS0-Bv1v6jF5SnXC5azMsBbT6tVQw-BzUIt96UiafzLG6D9l-nHQxxwkuRvsc0c_0UOvvgZIesHEviB1qTZehDCI0d_jlw3z6M9Rw1pWignRX3RedrXn2F9lCvyYVeH2XJL6tQLIRw529ud3dUFOr7sBdowscVS3HVB_sIxOdRFHxFj7M_r6i1UZJWs_OrhOPmtn7di0Kj7BSf3_b4sH2BEv8eMV-xGjLGQ"
       ],
-      "last_updated": "2026-09-26T19:30:52.348310"
+      "last_updated": "2026-09-26T19:35:56.170027"
     },
     {
       "match_id": "1124",
@@ -76,7 +77,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17903329771020x576.jpg",
       "league": "UEFA Champions League 2026",
-      "viewers": "13",
+      "viewers": "14",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -90,7 +91,7 @@
         "https://live.talkoraai.com/match/seg?t=G36XrJPe1yyrxTJjOTfZUorPXUt1khwjSIC6uDA3_mzMcRwncsBTwvijVNsEFIC3hWq-4A_zmlamK2tBRMsIiiqx9JPx6B94ALCACW5LLdMeGB7VQTsG0NiJCC66cedf79ARiuFWzsvwSF0NvtfLG2i9_IE5uQ2NmoX-YEN1wKZpuclkAvdHr77kXqtxCEv9r0fmJ3ra5sTh7j6GNL-Vil-g-c8Y5orE7rIcZACLLmeFU1ML59k96EgLEJHoOgZBGXzH1mAGAkUmpEEn_-zqb38bYjo7tgmaq03w7e9c",
         "https://www.rtmpcdn.com/live/233db093-4047-4227-841b-beb62a459717.m3u8"
       ],
-      "last_updated": "2026-09-26T19:30:53.448568"
+      "last_updated": "2026-09-26T19:35:56.478378"
     },
     {
       "match_id": "1127",
@@ -103,7 +104,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17903333311020x576.jpg",
       "league": "UEFA Champions League 2026",
-      "viewers": "10",
+      "viewers": "11",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -117,7 +118,7 @@
         "https://live.talkoraai.com/match/seg?t=eWNGb9vrPENtcfYcionOnGPlScRKHWE2JxRaNB6zkL2zxNFsQLnciGGBTqyutrEblo7XceRE4sxPtCbHessbXZ1M7aOqDnc457E3OFjG8NK1ymleZDwtAodgnYMv7Y27XrJTtbyAARIcBwVqPekN-t6DkMWxPTuWfvu6cUodgjOg0C29YQGGzl_WlhbDn3hK1JzPra6GGvhgaCZCxkCltQsqsp2B9M3jL76UDvFBjF_vqBvBOxnFJZHw7Qo-vtpEUr8VjwRE8_HdP2g2WghG24gtr7IRdODF1_ljvQ",
         "https://www.rtmpcdn.com/live/41fee358-5701-4d6f-83c9-5f82eb0700eb.m3u8"
       ],
-      "last_updated": "2026-09-26T19:30:53.768494"
+      "last_updated": "2026-09-26T19:35:56.787047"
     },
     {
       "match_id": "1128",
@@ -130,7 +131,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17903334311020x576.jpg",
       "league": "UEFA Champions League 2026",
-      "viewers": "10",
+      "viewers": "11",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -144,7 +145,7 @@
         "https://live.talkoraai.com/match/seg?t=k0oPzuKZUid54UyL7j116stX4kHv3SO0_vZygumNQ9prlQP7r6tCuCaanw18dgA3bXzha4nj7LJ34BhiX1zMS0qNdbWs2nturPCOrJRxJE3AWb_LbDc_sOXNORU3KRShZpc_RHOU6mQM9o1WESC8hC2WiU-Ij8T2SkaZqBUf2K7-NqPveDm9tfhOg4e28ZjfaunQ-_uwmp3gL1FUJLRDpb_iCGuCn4Thh9JaZguMl0spu-OCd4aKZLVFkuQElB0ZJM7hq7e-e7-EF0hDdHUJ1oyQgfCNp9OQMHySoj6eZ4Cl4ECy8WmoIPFjJiO8Gw",
         "https://www.rtmpcdn.com/live/6d627e06-f3d1-4122-8b5f-27dd422abf46.m3u8"
       ],
-      "last_updated": "2026-09-26T19:30:54.086732"
+      "last_updated": "2026-09-26T19:35:57.119375"
     },
     {
       "match_id": "1081",
@@ -157,7 +158,7 @@
       "runtime": "--",
       "thumbnail": "https://myimgs.org/storage/images/44609/AsianGames2026.jpg",
       "league": "Asian Games 2026",
-      "viewers": "943",
+      "viewers": "944",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -176,7 +177,7 @@
         "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8",
         "https://sonydaime.akamaized.net/hls/live/2034927/INSTA_VOD3/master-archive.m3u8?startTime=1790395050&endTime=1790399250&hdnea=exp=1790456106~acl=/*~id=66e4956bf26c4eb984ac9e44b80133ab-1790396151195-2010011403136209830~hmac=0676a7ad30c125ec2f2c60d9f028d12595bbbc8d4c9b4de7b7114bcc8ae4d738"
       ],
-      "last_updated": "2026-09-26T19:30:54.399043"
+      "last_updated": "2026-09-26T19:35:57.426209"
     },
     {
       "match_id": "1130",
@@ -199,7 +200,30 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T19:30:54.726549"
+      "last_updated": "2026-09-26T19:35:57.737679"
+    },
+    {
+      "match_id": "1133",
+      "title": "Pakistan vs Hong Kong, China 1st Quarter-Final,",
+      "teams": "Pakistan vs Hong Kong, China 1st Quarter-Final,",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": null,
+      "league": "Asian Games 2026 (Cricket T20)",
+      "viewers": "421",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1133",
+      "match_url": "live/pakistan-vs-hong-kong-china-1st-quarter-final-1133",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-26T19:35:57.738392"
     },
     {
       "match_id": "1098",
@@ -222,7 +246,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T19:30:54.727221"
+      "last_updated": "2026-09-26T19:35:57.739022"
     },
     {
       "match_id": "1131",
@@ -245,7 +269,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T19:30:54.727865"
+      "last_updated": "2026-09-26T19:35:57.739654"
     },
     {
       "match_id": "1132",
@@ -268,7 +292,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T19:30:54.728500"
+      "last_updated": "2026-09-26T19:35:57.740290"
     },
     {
       "match_id": "1099",
@@ -291,7 +315,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T19:30:54.729116"
+      "last_updated": "2026-09-26T19:35:57.740890"
     },
     {
       "match_id": "1037",
@@ -314,7 +338,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T19:30:54.729738"
+      "last_updated": "2026-09-26T19:35:57.741566"
     },
     {
       "match_id": "1083",
@@ -337,7 +361,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T19:30:54.730360"
+      "last_updated": "2026-09-26T19:35:57.742241"
     },
     {
       "match_id": "1100",
@@ -360,7 +384,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T19:30:54.730965"
+      "last_updated": "2026-09-26T19:35:57.742849"
     },
     {
       "match_id": "1000",
@@ -383,7 +407,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T19:30:54.731583"
+      "last_updated": "2026-09-26T19:35:57.743468"
     },
     {
       "match_id": "1001",
@@ -406,7 +430,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T19:30:54.732189"
+      "last_updated": "2026-09-26T19:35:57.744059"
     },
     {
       "match_id": "1008",
@@ -429,7 +453,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T19:30:54.732813"
+      "last_updated": "2026-09-26T19:35:57.744674"
     },
     {
       "match_id": "1042",
@@ -452,7 +476,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T19:30:54.733429"
+      "last_updated": "2026-09-26T19:35:57.745288"
     },
     {
       "match_id": "1049",
@@ -475,7 +499,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T19:30:54.734035"
+      "last_updated": "2026-09-26T19:35:57.745890"
     },
     {
       "match_id": "1043",
@@ -498,7 +522,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T19:30:54.734657"
+      "last_updated": "2026-09-26T19:35:57.746507"
     },
     {
       "match_id": "1101",
@@ -521,7 +545,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T19:30:54.735259"
+      "last_updated": "2026-09-26T19:35:57.747113"
     },
     {
       "match_id": "1102",
@@ -544,7 +568,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T19:30:54.735877"
+      "last_updated": "2026-09-26T19:35:57.747731"
     },
     {
       "match_id": "1129",
@@ -567,7 +591,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T19:30:54.736508"
+      "last_updated": "2026-09-26T19:35:57.748352"
     }
   ]
 }
