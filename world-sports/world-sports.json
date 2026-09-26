@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-26T14:58:11.041061",
-  "total_matches": 24,
+  "timestamp": "2026-09-26T15:04:56.955135",
+  "total_matches": 19,
   "live_count": 2,
-  "upcoming_count": 22,
+  "upcoming_count": 17,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790332426540x302.jpg",
       "league": "UEFA Nations League 2026/27",
-      "viewers": "29",
+      "viewers": "32",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -29,7 +29,7 @@
         "https://live.talkoraai.com/match/hls?t=3OkeaGWr1OZ4N2knwMtaKdTN0FA9svt59kdvnjJXXH9_v5Jg19vHSpTPJlmQhq6mlUSyBaVUzAfmoPGzp0oSrCPtnHfBHXALWBOUpeeGBNxv6ZtAf_QzGJaU1Ejcz-iaEU8P48AtX7hSR22EewsQFO_9xde12GGjCjhS_TDTF3m0M918CDgB3fl5nqxTjCRIOOhbhl1_JcmccwBDufywKf-9k2AEsRv-cdJmoqxP9bRTjf6zPxFIhouJTlfzORafOdpGd-FbDunOCqrA8Em-dvNpPkh-Vg",
         "https://live.talkoraai.com/match/seg?t=-MAkR_5Ez9OOXMlZs-ovjDC4pbEbI3hZ4TtY1-PxabBSeNPMUFWv0LYDG8GZXbRPkn_mHlDQWxhcxPGgAjFKKVLrxcFobexCKIUZupXL14JQxj-_uvd7ztUO5Q1zHqIf12DR-ociDum7XlZoqFco6sWfZaEdaJLwQWuoXl921XgVjDWmR_kV0vWkm8ngrTloW3mbeSO7tRb2APBEklRTuMUkr3TVB22rpZ9-hxDQLlkajck8Odhfxa2me9F_QccXoY9TUCqDG5RDRa3CBcMrjrTpYeMPz0gQY1Jb-ijP"
       ],
-      "last_updated": "2026-09-26T14:56:57.580093"
+      "last_updated": "2026-09-26T15:03:50.812843"
     },
     {
       "match_id": "1081",
@@ -42,7 +42,7 @@
       "runtime": "--",
       "thumbnail": "https://myimgs.org/storage/images/44609/AsianGames2026.jpg",
       "league": "Asian Games 2026",
-      "viewers": "884",
+      "viewers": "886",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -61,122 +61,7 @@
         "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8",
         "https://sonydaime.akamaized.net/hls/live/2034927/INSTA_VOD3/master-archive.m3u8?startTime=1790395050&endTime=1790399250&hdnea=exp=1790456106~acl=/*~id=66e4956bf26c4eb984ac9e44b80133ab-1790396151195-2010011403136209830~hmac=0676a7ad30c125ec2f2c60d9f028d12595bbbc8d4c9b4de7b7114bcc8ae4d738"
       ],
-      "last_updated": "2026-09-26T14:56:58.474270"
-    },
-    {
-      "match_id": "1119",
-      "title": "North Macedonia vs Switzerland",
-      "teams": "North Macedonia vs Switzerland",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790333094540x302.jpg",
-      "league": "Sports Tournament",
-      "viewers": "253",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1119",
-      "match_url": "live/north-macedonia-vs-switzerland-1119",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-26T14:56:58.772810"
-    },
-    {
-      "match_id": "1120",
-      "title": "Czechia vs Croatia",
-      "teams": "Czechia vs Croatia",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790332977540x302.jpg",
-      "league": "Sports Tournament",
-      "viewers": "290",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1120",
-      "match_url": "live/czechia-vs-croatia-1120",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-26T14:56:58.773497"
-    },
-    {
-      "match_id": "1121",
-      "title": "Slovakia vs Moldova",
-      "teams": "Slovakia vs Moldova",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790333331540x302.jpg",
-      "league": "Sports Tournament",
-      "viewers": "327",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1121",
-      "match_url": "live/slovakia-vs-moldova-1121",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-26T14:56:58.774126"
-    },
-    {
-      "match_id": "1122",
-      "title": "England vs Spain",
-      "teams": "England vs Spain",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790333215540x302.jpg",
-      "league": "Sports Tournament",
-      "viewers": "364",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1122",
-      "match_url": "live/england-vs-spain-1122",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-26T14:56:58.774736"
-    },
-    {
-      "match_id": "1123",
-      "title": "Albania vs Belarus",
-      "teams": "Albania vs Belarus",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790333431540x302.jpg",
-      "league": "Sports Tournament",
-      "viewers": "401",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1123",
-      "match_url": "live/albania-vs-belarus-1123",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-26T14:56:58.775366"
+      "last_updated": "2026-09-26T15:03:51.138296"
     },
     {
       "match_id": "1098",
@@ -189,7 +74,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
       "league": "Australia tour of South Africa",
-      "viewers": "5",
+      "viewers": "6",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -199,7 +84,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T14:56:58.775967"
+      "last_updated": "2026-09-26T15:03:51.933258"
     },
     {
       "match_id": "1099",
@@ -212,7 +97,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
       "league": "Australia tour of South Africa",
-      "viewers": "5",
+      "viewers": "6",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -222,7 +107,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T14:56:58.776589"
+      "last_updated": "2026-09-26T15:03:51.933949"
     },
     {
       "match_id": "1037",
@@ -235,7 +120,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
       "league": "World Championship of Legends, 2026",
-      "viewers": "13",
+      "viewers": "14",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -245,7 +130,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T14:56:58.777200"
+      "last_updated": "2026-09-26T15:03:51.934607"
     },
     {
       "match_id": "1083",
@@ -258,7 +143,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024504/1790111246357701_FIFA_international_friendlies_india_vs_brazil_dated_landscape_thumb.jpg",
       "league": "International Friendly Football 2026",
-      "viewers": "11",
+      "viewers": "12",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -268,7 +153,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T14:56:58.777786"
+      "last_updated": "2026-09-26T15:03:51.935241"
     },
     {
       "match_id": "1100",
@@ -281,7 +166,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
       "league": "Australia tour of South Africa",
-      "viewers": "6",
+      "viewers": "7",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -291,7 +176,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T14:56:58.778406"
+      "last_updated": "2026-09-26T15:03:51.935863"
     },
     {
       "match_id": "1000",
@@ -304,7 +189,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249136_53025_ALK_ALQ_FC-Web.png",
       "league": "Roshn Saudi League 2026-2027",
-      "viewers": "16",
+      "viewers": "17",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -314,7 +199,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T14:56:58.779002"
+      "last_updated": "2026-09-26T15:03:51.936507"
     },
     {
       "match_id": "1001",
@@ -327,7 +212,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249137_53025_AFF_AAS_FC-Web.png",
       "league": "Roshn Saudi League 2026-2027",
-      "viewers": "15",
+      "viewers": "16",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -337,7 +222,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T14:56:58.779613"
+      "last_updated": "2026-09-26T15:03:51.937137"
     },
     {
       "match_id": "1008",
@@ -350,7 +235,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249138_53025_ANF_DIR_FC-Web.png",
       "league": "Roshn Saudi League 2026-2027",
-      "viewers": "16",
+      "viewers": "17",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -360,7 +245,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T14:56:58.780224"
+      "last_updated": "2026-09-26T15:03:51.937776"
     },
     {
       "match_id": "1042",
@@ -373,7 +258,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249139_53025_AHS_ITT_FC-Web.png",
       "league": "Roshn Saudi League 2026-2027",
-      "viewers": "10",
+      "viewers": "11",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -383,7 +268,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T14:56:58.780817"
+      "last_updated": "2026-09-26T15:03:51.938422"
     },
     {
       "match_id": "1049",
@@ -396,7 +281,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "league": "LALIGA 2026-27",
-      "viewers": "7",
+      "viewers": "8",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -406,7 +291,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T14:56:58.781419"
+      "last_updated": "2026-09-26T15:03:51.939038"
     },
     {
       "match_id": "1043",
@@ -419,7 +304,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "league": "LALIGA 2026-27",
-      "viewers": "9",
+      "viewers": "10",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -429,7 +314,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T14:56:58.781998"
+      "last_updated": "2026-09-26T15:03:51.939669"
     },
     {
       "match_id": "1101",
@@ -442,7 +327,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
       "league": "Australia tour of South Africa",
-      "viewers": "6",
+      "viewers": "7",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -452,7 +337,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T14:56:58.782602"
+      "last_updated": "2026-09-26T15:03:51.940302"
     },
     {
       "match_id": "1102",
@@ -465,7 +350,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
       "league": "Australia tour of South Africa",
-      "viewers": "4",
+      "viewers": "5",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -475,7 +360,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T14:56:58.783209"
+      "last_updated": "2026-09-26T15:03:51.940914"
     },
     {
       "match_id": "1118",
@@ -488,7 +373,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790332651540x302.jpg",
       "league": "UEFA Nations League 2026/27",
-      "viewers": "1",
+      "viewers": "2",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -498,7 +383,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T14:56:58.783798"
+      "last_updated": "2026-09-26T15:03:51.941547"
     },
     {
       "match_id": "1116",
@@ -511,7 +396,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790332767540x302.jpg",
       "league": "UEFA Nations League 2026/27",
-      "viewers": "1",
+      "viewers": "2",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -521,7 +406,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T14:56:58.784398"
+      "last_updated": "2026-09-26T15:03:51.942177"
     },
     {
       "match_id": "1115",
@@ -534,7 +419,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790332863540x302.jpg",
       "league": "UEFA Nations League 2026/27",
-      "viewers": "1",
+      "viewers": "2",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -544,7 +429,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T14:56:58.784975"
+      "last_updated": "2026-09-26T15:03:51.942795"
     },
     {
       "match_id": "1113",
@@ -557,7 +442,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790332537540x302.jpg",
       "league": "UEFA Nations League 2026/27",
-      "viewers": "1",
+      "viewers": "2",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -567,7 +452,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-26T14:56:58.785584"
+      "last_updated": "2026-09-26T15:03:51.943433"
     }
   ]
 }
