@@ -1,36 +1,10 @@
 {
-  "timestamp": "2026-09-27T18:33:00.756898",
-  "total_matches": 21,
-  "live_count": 6,
-  "upcoming_count": 15,
+  "timestamp": "2026-09-27T18:38:01.286199",
+  "total_matches": 17,
+  "live_count": 4,
+  "upcoming_count": 13,
   "completed_count": 0,
   "matches": [
-    {
-      "match_id": "1136",
-      "title": "Serbia vs Netherlands",
-      "teams": "Serbia vs Netherlands",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17904437891020x576.jpg",
-      "league": "UEFA Nations League 2026/27",
-      "viewers": "48",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1136",
-      "match_url": "live/serbia-vs-netherlands-1136",
-      "stream_url": "https://live.talkoraai.com/match/hls?t=86eHU7A-smLgDU0E61ALfc3BnKi2R_7MNvI6x16udlRk8OBxKBc1j3_4CdhJq_3o2fR_uAgdkePnBbcSDhm-mSoAmxc3BRjGM9bitreYdQjFHDDqIRxDayIpaEY13s_i9O7YX3hSi2ZXDQ_6I-iO68wVEmxZy5qZqY0JSgP21CnWgiXDd-uHqtv-T7LlucUjBczywO5M6elgkIcjeVYxhFiEj_150Krt6S3UgLg0Z-HYKWlPa_kXaSvNvudB1HvS1SjGJp7xM_EKnhV4xOkpT7ghN31Um7AM",
-      "server_count": 2,
-      "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=86eHU7A-smLgDU0E61ALfc3BnKi2R_7MNvI6x16udlRk8OBxKBc1j3_4CdhJq_3o2fR_uAgdkePnBbcSDhm-mSoAmxc3BRjGM9bitreYdQjFHDDqIRxDayIpaEY13s_i9O7YX3hSi2ZXDQ_6I-iO68wVEmxZy5qZqY0JSgP21CnWgiXDd-uHqtv-T7LlucUjBczywO5M6elgkIcjeVYxhFiEj_150Krt6S3UgLg0Z-HYKWlPa_kXaSvNvudB1HvS1SjGJp7xM_EKnhV4xOkpT7ghN31Um7AM",
-        "https://live.talkoraai.com/match/seg?t=aeZZfFKKTjH8W-u9qz-fjxQLRmoIFrXWVzb7uaaD5pAztDdTwLgSPEBq6vHDC0Z7Q2Sm9uRKGeHbpPL32KNyPQkgh8b68mnOndUc09XzhobqJWlhx-xKmKamHt2PPNV_C4UDS28gLfRZa1L00K8fnTKO7_zQig7T0CY3GeiFyNHsa0i39h8saD7uprdc5sZ3mBjypiRZ6mwvHT1XbncuE87WLQJf2VkdY_e_E-lb5JU7HtcpjFYAI2rpZpwFZp_lFFC3GtWmu3eHQaEuAJqHSrOCU5QZuKtvGRud2dfu-RY"
-      ],
-      "last_updated": "2026-09-27T18:30:00.697656"
-    },
     {
       "match_id": "1139",
       "title": "Norway vs Portugal",
@@ -42,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17904445191020x576.jpg",
       "league": "UEFA Nations League 2026/27",
-      "viewers": "3",
+      "viewers": "9",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -58,84 +32,59 @@
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.41%2Fhls%2FMTTTAA.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
         "https://fawa.duckdns.org/api/proxy?url=https%3A%2F%2Fwww.rtmpcdn.com%2Flive%2F81d8e571-51b9-406b-a087-47b23c479c6b.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-27T18:30:02.090545"
+      "last_updated": "2026-09-27T18:34:59.679558"
     },
     {
-      "match_id": "1135",
-      "title": "Denmark vs Wales",
-      "teams": "Denmark vs Wales",
+      "match_id": "1141",
+      "title": "Germany vs Greece",
+      "teams": "Germany vs Greece",
       "sport": "football",
       "sport_display": "Football",
       "status": "live",
       "status_display": "LIVE",
       "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17904434171020x576.jpg",
-      "league": "UEFA Champions League 2026",
-      "viewers": "35",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17904449471020x576.jpg",
+      "league": "UEFA Nations League 2026/27",
+      "viewers": "4",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
       "servers": null,
-      "page_url": "/world-sports/player.html?id=1135",
-      "match_url": "live/denmark-vs-wales-1135",
-      "stream_url": "https://live.talkoraai.com/match/hls?t=yWLCdb0sMWI2kkxVsd3nm49mjsj0oxNc0EOJw0OtU4L-X7L47MNLsPB3Ilnbd53XhLD0AiS5SvSwpGSszgYioYDql5w83bGZR9J600v7-VpAImNipKSeEXh4qIiaxHsGwsAEtQ8fUnLz71utm7n-QS7eVErhMSUA21Eqh2GG0UAKHjAsTcJfvj_8bD7OhUrY57fc1lGwCjniza7odip-PDdIBFR_SiDd53_w9ktNtu_qYnkU11TGSgSTk3gVO8E31z0hADGvP7LHF98EhUmaYhU",
+      "page_url": "/world-sports/player.html?id=1141",
+      "match_url": "live/germany-vs-greece-1141",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=Zj-1gder-CuZ0AMdYGHaoYnICep7KWqYFz2Au2DmKdRlBrlBMPglALIbPT30gG4WwOWM7IvJGSG1jLg6qUHiogpQlJUpPRMtF19KNXLqqzIch1aBhwDgSumbjZbO-MeY2k-A6tECmiK7gnHUZbWRameBNt5tNUoohgGy6yd-CAl0menePbBJTdacrC_uVMe0pU9a2QcVxdvq7Fv35i2U3dhrahnFUeguBs8734IcYEm3ipCxktqTe94SlgpLGP8TKo3nUA51kb-6S7glV9u0yzc6paHe1A",
       "server_count": 2,
       "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=yWLCdb0sMWI2kkxVsd3nm49mjsj0oxNc0EOJw0OtU4L-X7L47MNLsPB3Ilnbd53XhLD0AiS5SvSwpGSszgYioYDql5w83bGZR9J600v7-VpAImNipKSeEXh4qIiaxHsGwsAEtQ8fUnLz71utm7n-QS7eVErhMSUA21Eqh2GG0UAKHjAsTcJfvj_8bD7OhUrY57fc1lGwCjniza7odip-PDdIBFR_SiDd53_w9ktNtu_qYnkU11TGSgSTk3gVO8E31z0hADGvP7LHF98EhUmaYhU",
-        "https://live.talkoraai.com/match/seg?t=QqQRYwcwS1bcU4Q0aGvNME4gNEOlVS5UuY8gTFn5lKBCSwVvv6sy19NE0MSN3i6mWqtIyDvvsIzSXqzaRpka5BecJtx-reCE-8IvurDNVvi4y1ZrK6cDVfYwcV-wmWi-qJ3CCgznmIeIajG_0ng0FSgEWb49cfaYjSb8EGP61Ztep3_9HbweWsGC-CwLw8LmsvneFjdWP0kO67Dvi8sxbwLarkD03vgGCV6zHzraxSAgf2MTlpgZM1_zA-9X-3WJWNN0CqwV6qlmq9cGjQjNfXdWROwvegiVzA"
+        "https://live.talkoraai.com/match/hls?t=Zj-1gder-CuZ0AMdYGHaoYnICep7KWqYFz2Au2DmKdRlBrlBMPglALIbPT30gG4WwOWM7IvJGSG1jLg6qUHiogpQlJUpPRMtF19KNXLqqzIch1aBhwDgSumbjZbO-MeY2k-A6tECmiK7gnHUZbWRameBNt5tNUoohgGy6yd-CAl0menePbBJTdacrC_uVMe0pU9a2QcVxdvq7Fv35i2U3dhrahnFUeguBs8734IcYEm3ipCxktqTe94SlgpLGP8TKo3nUA51kb-6S7glV9u0yzc6paHe1A",
+        "https://live.talkoraai.com/match/hls?t=Zj-1gder-CuZ0AMdYGHaoYnICep7KWqYFz2Au2DmKdRlBrlBMPglALIbPT30gG4WwOWM7IvJGSG1jLg6qUHiogpQlJUpPRMtF19KNXLqqzIch1aBhwDgSumbjZbO-MeY2k-A6tECmiK7gnHUZbWRameBNt5tNUoohgGy6yd-CAl0menePbBJTdacrC_uVMe0pU9a2QcVxdvq7Fv35i2U3dhrahnFUeguBs8734IcYEm3ipCxktqTe94SlgpLGP8TKo3nUA51kb-6S7glV9u0yzc6paHe1A"
       ],
-      "last_updated": "2026-09-27T18:30:02.718968"
+      "last_updated": "2026-09-27T18:35:00.854688"
     },
     {
-      "match_id": "1138",
-      "title": "Austria vs Kosovo",
-      "teams": "Austria vs Kosovo",
+      "match_id": "1140",
+      "title": "Israel vs Ireland",
+      "teams": "Israel vs Ireland",
       "sport": "football",
       "sport_display": "Football",
       "status": "live",
       "status_display": "LIVE",
       "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17904442961020x576.jpg",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17904447101020x576.jpg",
       "league": "UEFA Nations League 2026/27",
-      "viewers": "13",
+      "viewers": "5",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
       "servers": null,
-      "page_url": "/world-sports/player.html?id=1138",
-      "match_url": "live/austria-vs-kosovo-1138",
-      "stream_url": "https://live.talkoraai.com/match/hls?t=7kV905WB6w3uS1j02HdNBxeYRoYpZ3pIaTpeYZVIW0JeiJcOwVHahcU6RY3MCm3_0hnjxd9IZ27hikprfo5nLfbx-JXZwj5KvgymMYyUPvYYpadke-DxekEkj7R8E4852KMRlDDL22sxfPQvHhYPvQdV1SsntyM8GQgF929wyL7n-3-6qYYE4yvt3cOWmeoBOAtDGBIBfXmsHWZX4d3IcvgE0lvsAM0vBa467gugNXwkJ7sFx8bOYTGydQa6fhdJSaWoJZF0nu0YX4f4ZbDF9bf6dGSO2u0",
-      "server_count": 1,
-      "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=7kV905WB6w3uS1j02HdNBxeYRoYpZ3pIaTpeYZVIW0JeiJcOwVHahcU6RY3MCm3_0hnjxd9IZ27hikprfo5nLfbx-JXZwj5KvgymMYyUPvYYpadke-DxekEkj7R8E4852KMRlDDL22sxfPQvHhYPvQdV1SsntyM8GQgF929wyL7n-3-6qYYE4yvt3cOWmeoBOAtDGBIBfXmsHWZX4d3IcvgE0lvsAM0vBa467gugNXwkJ7sFx8bOYTGydQa6fhdJSaWoJZF0nu0YX4f4ZbDF9bf6dGSO2u0"
-      ],
-      "last_updated": "2026-09-27T18:30:03.337733"
-    },
-    {
-      "match_id": "1137",
-      "title": "Gibraltar vs Andorra",
-      "teams": "Gibraltar vs Andorra",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17904439661020x576.jpg",
-      "league": "UEFA Nations League 2026/27",
-      "viewers": "38",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1137",
-      "match_url": "live/gibraltar-vs-andorra-1137",
-      "stream_url": "https://live.talkoraai.com/match/hls?t=JNVlv7FnYC88z4eo7cWQoDPJNqElqjxHwpcR59HvrdAxUuB6hOTn_J2TjX65jL8S7IgqZpfiQLuUvgUjX8dxFfqUwJ8sQp6s1Me7LWT2_6jYzHz1BmEBIirajOSTSxNNzgS7x-H1V2bWxipq_wlkOclU2sJm9L0yx5Bq0igCgDYkOrhRZZanIeo96qjVYtrSr0njz8nV6vQ8MjfYYHB00xQSm8VvXflPC9Zq6zjlQL_2o4YGnex__qxebCqVCSzfMhBESrF9Eu-LdcEG-3E1JVEQ02V6keM",
+      "page_url": "/world-sports/player.html?id=1140",
+      "match_url": "live/israel-vs-ireland-1140",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=_LYRlUaLRDkG7kUPnVJSY_MKKmOpEHhEwlGMtQFf7gtGY_nkSm2Ao88jbUJrwvFcHTIIRHl_ZmJUiSpamL5g5Ef1L5hoJA6j-PPOpm8G3mdY8vC7jV8J1sV5lYeJC_F3UwQpQXKKZHjN0TnwpcMvk0IS9g9JCedfLTp7nGh7hFuonWoA7fw5ebdJCJMXIkrVXJsBgn_qGLli8jtn7mtrgKGIdc-pWNXjbeCRSJI4wQUr8I5Cxq25W0cSivJ8aA8ndKkIaNEmBY9DPa9W2zMsT6lsOg",
       "server_count": 2,
       "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=JNVlv7FnYC88z4eo7cWQoDPJNqElqjxHwpcR59HvrdAxUuB6hOTn_J2TjX65jL8S7IgqZpfiQLuUvgUjX8dxFfqUwJ8sQp6s1Me7LWT2_6jYzHz1BmEBIirajOSTSxNNzgS7x-H1V2bWxipq_wlkOclU2sJm9L0yx5Bq0igCgDYkOrhRZZanIeo96qjVYtrSr0njz8nV6vQ8MjfYYHB00xQSm8VvXflPC9Zq6zjlQL_2o4YGnex__qxebCqVCSzfMhBESrF9Eu-LdcEG-3E1JVEQ02V6keM",
-        "https://live.talkoraai.com/match/seg?t=NT_nMwCAAHbpNmgLHRIzWJPeDOAp4Eo_glpwH6Z3uBJVXt6tK-fK90LynMg85gdSEOYO1JYVIvabl-g5AbPl3JwYCjyT7m-3z28mXFkbRoIx4mwfsxz6iRSsKxWNogoX9FNkG-HcjxJ8BbV_0W3t76wFsdbWu_RyU5ohk6m1G8e8_FBEefI6CqMlMKzETpkhjTXrXiD1cEntIdlMH17WRMQhNlHLeeoIRq_tlvPk073z7K08xg9iJEfqc8ExgLIFIEqQrkq1BTGX_6RNCtbUvhKD6h-tHHNEWUygXUHAjg"
+        "https://live.talkoraai.com/match/hls?t=_LYRlUaLRDkG7kUPnVJSY_MKKmOpEHhEwlGMtQFf7gtGY_nkSm2Ao88jbUJrwvFcHTIIRHl_ZmJUiSpamL5g5Ef1L5hoJA6j-PPOpm8G3mdY8vC7jV8J1sV5lYeJC_F3UwQpQXKKZHjN0TnwpcMvk0IS9g9JCedfLTp7nGh7hFuonWoA7fw5ebdJCJMXIkrVXJsBgn_qGLli8jtn7mtrgKGIdc-pWNXjbeCRSJI4wQUr8I5Cxq25W0cSivJ8aA8ndKkIaNEmBY9DPa9W2zMsT6lsOg",
+        "https://live.talkoraai.com/match/seg?t=jC3wrEN1LKrHCLMD-Isw33Q3vEIqY24bLA67W7YwNOpiUGbG7eIQwiuwEN0Kz5Y4BG9MojbjiulKagbnmO7sb5P-W9I5lIJub4Byh8wDoPpZIsCOJgNCJdlqaivk5YHGlocRcUGnrBj4ITCmh84yuXa59kE4s_pB52YIOVyV-qaHC8uu7riN6wgC5st9DYx8VJjPFJdIuYsms-Tw_fI3JyWecq563y2sRroW2LJFGFsXnvmB80oSX2Io0DHEwEPCOpQjMuTx0zEFxSUlgPy-3ERwnyC4im3Diwg6"
       ],
-      "last_updated": "2026-09-27T18:30:03.885272"
+      "last_updated": "2026-09-27T18:35:01.420533"
     },
     {
       "match_id": "1081",
@@ -148,7 +97,7 @@
       "runtime": "--",
       "thumbnail": "https://myimgs.org/storage/images/44609/AsianGames2026.jpg",
       "league": "Asian Games 2026",
-      "viewers": "200",
+      "viewers": "201",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -167,30 +116,7 @@
         "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8",
         "https://sonydaime.akamaized.net/hls/live/2034927/INSTA_VOD3/master-archive.m3u8?startTime=1790395050&endTime=1790399250&hdnea=exp=1790456106~acl=/*~id=66e4956bf26c4eb984ac9e44b80133ab-1790396151195-2010011403136209830~hmac=0676a7ad30c125ec2f2c60d9f028d12595bbbc8d4c9b4de7b7114bcc8ae4d738"
       ],
-      "last_updated": "2026-09-27T18:30:04.424912"
-    },
-    {
-      "match_id": "1141",
-      "title": "Germany vs Greece",
-      "teams": "Germany vs Greece",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17904449471020x576.jpg",
-      "league": "UEFA Nations League 2026/27",
-      "viewers": "4",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1141",
-      "match_url": "live/germany-vs-greece-1141",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-27T18:30:04.871841"
+      "last_updated": "2026-09-27T18:35:01.754069"
     },
     {
       "match_id": "1132",
@@ -213,7 +139,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T18:30:04.872355"
+      "last_updated": "2026-09-27T18:35:02.342371"
     },
     {
       "match_id": "1099",
@@ -236,7 +162,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T18:30:04.872762"
+      "last_updated": "2026-09-27T18:35:02.343129"
     },
     {
       "match_id": "1037",
@@ -259,7 +185,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T18:30:04.873151"
+      "last_updated": "2026-09-27T18:35:02.343751"
     },
     {
       "match_id": "1083",
@@ -282,7 +208,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T18:30:04.873560"
+      "last_updated": "2026-09-27T18:35:02.344382"
     },
     {
       "match_id": "1100",
@@ -305,7 +231,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T18:30:04.873946"
+      "last_updated": "2026-09-27T18:35:02.344985"
     },
     {
       "match_id": "1000",
@@ -328,7 +254,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T18:30:04.874342"
+      "last_updated": "2026-09-27T18:35:02.345616"
     },
     {
       "match_id": "1001",
@@ -351,7 +277,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T18:30:04.874720"
+      "last_updated": "2026-09-27T18:35:02.346236"
     },
     {
       "match_id": "1008",
@@ -374,7 +300,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T18:30:04.875094"
+      "last_updated": "2026-09-27T18:35:02.346837"
     },
     {
       "match_id": "1042",
@@ -397,7 +323,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T18:30:04.875530"
+      "last_updated": "2026-09-27T18:35:02.347458"
     },
     {
       "match_id": "1049",
@@ -420,7 +346,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T18:30:04.875913"
+      "last_updated": "2026-09-27T18:35:02.348075"
     },
     {
       "match_id": "1043",
@@ -443,7 +369,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T18:30:04.876303"
+      "last_updated": "2026-09-27T18:35:02.348676"
     },
     {
       "match_id": "1101",
@@ -466,7 +392,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T18:30:04.876687"
+      "last_updated": "2026-09-27T18:35:02.349296"
     },
     {
       "match_id": "1102",
@@ -489,30 +415,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T18:30:04.877069"
-    },
-    {
-      "match_id": "1140",
-      "title": "Israel vs Ireland",
-      "teams": "Israel vs Ireland",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17904447101020x576.jpg",
-      "league": "UEFA Nations League 2026/27",
-      "viewers": "1",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1140",
-      "match_url": "live/israel-vs-ireland-1140",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-27T18:30:04.877473"
+      "last_updated": "2026-09-27T18:35:02.349896"
     }
   ]
 }
