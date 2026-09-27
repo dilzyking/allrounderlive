@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-27T10:58:50.315027",
-  "total_matches": 17,
+  "timestamp": "2026-09-27T11:03:50.224153",
+  "total_matches": 25,
   "live_count": 4,
-  "upcoming_count": 13,
+  "upcoming_count": 21,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
       "league": "Australia tour of South Africa",
-      "viewers": "100",
+      "viewers": "103",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -31,7 +31,7 @@
         "https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8",
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.55%2Fhls%2FbbbbbA.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-27T10:58:04.206132"
+      "last_updated": "2026-09-27T11:03:09.067445"
     },
     {
       "match_id": "1130",
@@ -44,7 +44,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17901433451020x576.jpg",
       "league": "West Indies Tour of India 2026",
-      "viewers": "212",
+      "viewers": "221",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -60,7 +60,7 @@
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.55%2Fhls%2FbbbbbAA.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
         "https://hey-lookme.shop/vk.php?url=https://hey-lookme.shop/cursed.php/cursed/stream.m3u8"
       ],
-      "last_updated": "2026-09-27T10:58:05.336804"
+      "last_updated": "2026-09-27T11:03:09.539488"
     },
     {
       "match_id": "1131",
@@ -73,7 +73,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17899859771020x576.jpg",
       "league": "Sri Lanka tour of England, 2026",
-      "viewers": "50",
+      "viewers": "52",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -88,7 +88,7 @@
         "https://tapmed.dmcamoviezmad.workers.dev/https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8",
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.55%2Fhls%2FbbbbbAAA.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-27T10:58:05.748937"
+      "last_updated": "2026-09-27T11:03:09.905538"
     },
     {
       "match_id": "1081",
@@ -101,7 +101,7 @@
       "runtime": "--",
       "thumbnail": "https://myimgs.org/storage/images/44609/AsianGames2026.jpg",
       "league": "Asian Games 2026",
-      "viewers": "106",
+      "viewers": "107",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -120,7 +120,168 @@
         "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8",
         "https://sonydaime.akamaized.net/hls/live/2034927/INSTA_VOD3/master-archive.m3u8?startTime=1790395050&endTime=1790399250&hdnea=exp=1790456106~acl=/*~id=66e4956bf26c4eb984ac9e44b80133ab-1790396151195-2010011403136209830~hmac=0676a7ad30c125ec2f2c60d9f028d12595bbbc8d4c9b4de7b7114bcc8ae4d738"
       ],
-      "last_updated": "2026-09-27T10:58:06.078226"
+      "last_updated": "2026-09-27T11:03:10.269850"
+    },
+    {
+      "match_id": "1135",
+      "title": "Denmark vs Wales",
+      "teams": "Denmark vs Wales",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17904434171020x576.jpg",
+      "league": "Sports Tournament",
+      "viewers": "495",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1135",
+      "match_url": "live/denmark-vs-wales-1135",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-27T11:03:11.712058"
+    },
+    {
+      "match_id": "1136",
+      "title": "Serbia vs Netherlands",
+      "teams": "Serbia vs Netherlands",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17904437891020x576.jpg",
+      "league": "Sports Tournament",
+      "viewers": "182",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1136",
+      "match_url": "live/serbia-vs-netherlands-1136",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-27T11:03:11.712744"
+    },
+    {
+      "match_id": "1137",
+      "title": "Gibraltar vs Andorra",
+      "teams": "Gibraltar vs Andorra",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17904439661020x576.jpg",
+      "league": "Sports Tournament",
+      "viewers": "219",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1137",
+      "match_url": "live/gibraltar-vs-andorra-1137",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-27T11:03:11.713313"
+    },
+    {
+      "match_id": "1138",
+      "title": "Austria vs Kosovo",
+      "teams": "Austria vs Kosovo",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17904442961020x576.jpg",
+      "league": "Sports Tournament",
+      "viewers": "256",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1138",
+      "match_url": "live/austria-vs-kosovo-1138",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-27T11:03:11.713878"
+    },
+    {
+      "match_id": "1139",
+      "title": "Norway vs Portugal",
+      "teams": "Norway vs Portugal",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17904445191020x576.jpg",
+      "league": "Sports Tournament",
+      "viewers": "293",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1139",
+      "match_url": "live/norway-vs-portugal-1139",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-27T11:03:11.714437"
+    },
+    {
+      "match_id": "1140",
+      "title": "Israel vs Ireland",
+      "teams": "Israel vs Ireland",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17904447101020x576.jpg",
+      "league": "Sports Tournament",
+      "viewers": "330",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1140",
+      "match_url": "live/israel-vs-ireland-1140",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-27T11:03:11.715024"
+    },
+    {
+      "match_id": "1141",
+      "title": "Germany vs Greece",
+      "teams": "Germany vs Greece",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17904449471020x576.jpg",
+      "league": "Sports Tournament",
+      "viewers": "367",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1141",
+      "match_url": "live/germany-vs-greece-1141",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-27T11:03:11.715562"
     },
     {
       "match_id": "1132",
@@ -143,7 +304,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T10:58:06.397247"
+      "last_updated": "2026-09-27T11:03:11.716139"
     },
     {
       "match_id": "1099",
@@ -166,7 +327,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T10:58:06.397862"
+      "last_updated": "2026-09-27T11:03:11.716681"
     },
     {
       "match_id": "1037",
@@ -189,7 +350,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T10:58:06.398391"
+      "last_updated": "2026-09-27T11:03:11.717225"
     },
     {
       "match_id": "1083",
@@ -212,7 +373,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T10:58:06.398923"
+      "last_updated": "2026-09-27T11:03:11.717764"
     },
     {
       "match_id": "1100",
@@ -235,7 +396,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T10:58:06.399444"
+      "last_updated": "2026-09-27T11:03:11.718312"
     },
     {
       "match_id": "1000",
@@ -258,7 +419,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T10:58:06.399974"
+      "last_updated": "2026-09-27T11:03:11.718845"
     },
     {
       "match_id": "1001",
@@ -281,7 +442,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T10:58:06.400495"
+      "last_updated": "2026-09-27T11:03:11.719394"
     },
     {
       "match_id": "1008",
@@ -304,7 +465,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T10:58:06.401026"
+      "last_updated": "2026-09-27T11:03:11.719931"
     },
     {
       "match_id": "1042",
@@ -327,7 +488,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T10:58:06.401545"
+      "last_updated": "2026-09-27T11:03:11.720471"
     },
     {
       "match_id": "1049",
@@ -350,7 +511,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T10:58:06.402075"
+      "last_updated": "2026-09-27T11:03:11.721010"
     },
     {
       "match_id": "1043",
@@ -373,7 +534,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T10:58:06.402592"
+      "last_updated": "2026-09-27T11:03:11.721544"
     },
     {
       "match_id": "1101",
@@ -396,7 +557,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T10:58:06.403146"
+      "last_updated": "2026-09-27T11:03:11.722092"
     },
     {
       "match_id": "1102",
@@ -419,7 +580,30 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T10:58:06.403703"
+      "last_updated": "2026-09-27T11:03:11.722628"
+    },
+    {
+      "match_id": "1134",
+      "title": "Lithuania vs Azerbaijan",
+      "teams": "Lithuania vs Azerbaijan",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790443181540x302.jpg",
+      "league": "UEFA Champions League 2026",
+      "viewers": "458",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1134",
+      "match_url": "live/lithuania-vs-azerbaijan-1134",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-27T11:03:11.723170"
     }
   ]
 }
