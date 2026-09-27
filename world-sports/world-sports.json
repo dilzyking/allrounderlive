@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-27T12:54:35.947355",
+  "timestamp": "2026-09-27T12:59:37.755642",
   "total_matches": 25,
-  "live_count": 4,
-  "upcoming_count": 21,
+  "live_count": 5,
+  "upcoming_count": 20,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
       "league": "Australia tour of South Africa",
-      "viewers": "150",
+      "viewers": "152",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -31,7 +31,7 @@
         "https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8",
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.55%2Fhls%2FbbbbbA.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-27T12:54:00.388459"
+      "last_updated": "2026-09-27T12:59:05.004756"
     },
     {
       "match_id": "1130",
@@ -44,7 +44,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17901433451020x576.jpg",
       "league": "West Indies Tour of India 2026",
-      "viewers": "284",
+      "viewers": "286",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -60,7 +60,7 @@
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.55%2Fhls%2FbbbbbAA.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
         "https://hey-lookme.shop/vk.php?url=https://hey-lookme.shop/cursed.php/cursed/stream.m3u8"
       ],
-      "last_updated": "2026-09-27T12:54:00.858999"
+      "last_updated": "2026-09-27T12:59:06.000402"
     },
     {
       "match_id": "1131",
@@ -73,7 +73,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17899859771020x576.jpg",
       "league": "Sri Lanka tour of England, 2026",
-      "viewers": "82",
+      "viewers": "83",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -88,7 +88,33 @@
         "https://tapmed.dmcamoviezmad.workers.dev/https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8",
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.55%2Fhls%2FbbbbbAAA.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-27T12:54:01.412586"
+      "last_updated": "2026-09-27T12:59:07.370434"
+    },
+    {
+      "match_id": "1134",
+      "title": "Lithuania vs Azerbaijan",
+      "teams": "Lithuania vs Azerbaijan",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790443181540x302.jpg",
+      "league": "UEFA Champions League 2026",
+      "viewers": "3",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1134",
+      "match_url": "live/lithuania-vs-azerbaijan-1134",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=2XzJsOvFRy1gNYAN0FFVb3DeKSLaJGpG7nN1Sr7Yuh2HxPEI0r-3gWxBqWxDZ8TwJli3vPIxJJD5P5JWLfX-uXoLGrB6ki65__EkiejO8_MOGCx7qo4LmZdgh8gfuh1XjMLVxukl1lJYFQvEwPqRdLP_0J1iPY7PmLW8uKd3p25EvRbDJ_okkKMtsrvP-rJtwKUrS6_TDPu0Bkf6u6zqjBD1gC4Nb7-NvsQsQTVD4PybAdxjahOmFxCayy98WcFFFgYPhmy94TvIx7e7EVox6odh7g",
+      "server_count": 2,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=2XzJsOvFRy1gNYAN0FFVb3DeKSLaJGpG7nN1Sr7Yuh2HxPEI0r-3gWxBqWxDZ8TwJli3vPIxJJD5P5JWLfX-uXoLGrB6ki65__EkiejO8_MOGCx7qo4LmZdgh8gfuh1XjMLVxukl1lJYFQvEwPqRdLP_0J1iPY7PmLW8uKd3p25EvRbDJ_okkKMtsrvP-rJtwKUrS6_TDPu0Bkf6u6zqjBD1gC4Nb7-NvsQsQTVD4PybAdxjahOmFxCayy98WcFFFgYPhmy94TvIx7e7EVox6odh7g",
+        "https://live.talkoraai.com/match/seg?t=NG4eMluY7qarj_VsNb_8n3sV_ZNZb0zH5RLDnzPrUYsSEgmFUKRCo8n2qBS_L2TMHsmA3QBPLRuWdhqijBFuq2HsXgQJixGd1REKExtEO0mTQqQzujIi4pHn9-u4fRjhl2WGMbevXrR7LsjVE_ubDx2pNvGyU4hZsty9qMN7xo0mWFBdutUZ3VCJepuzt3LlItW09VfPnNBhE01EG7zsJ-6vBk3yOfKJ0U90AktOeEN_W5ucFPaba2Qv9U9nuSrwr9xWNXartJZO8JzGgWFf7fUTExx5ARvsTnnb"
+      ],
+      "last_updated": "2026-09-27T12:59:07.768662"
     },
     {
       "match_id": "1081",
@@ -101,7 +127,7 @@
       "runtime": "--",
       "thumbnail": "https://myimgs.org/storage/images/44609/AsianGames2026.jpg",
       "league": "Asian Games 2026",
-      "viewers": "131",
+      "viewers": "132",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -120,7 +146,7 @@
         "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8",
         "https://sonydaime.akamaized.net/hls/live/2034927/INSTA_VOD3/master-archive.m3u8?startTime=1790395050&endTime=1790399250&hdnea=exp=1790456106~acl=/*~id=66e4956bf26c4eb984ac9e44b80133ab-1790396151195-2010011403136209830~hmac=0676a7ad30c125ec2f2c60d9f028d12595bbbc8d4c9b4de7b7114bcc8ae4d738"
       ],
-      "last_updated": "2026-09-27T12:54:01.885992"
+      "last_updated": "2026-09-27T12:59:08.896104"
     },
     {
       "match_id": "1136",
@@ -143,7 +169,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T12:54:02.351762"
+      "last_updated": "2026-09-27T12:59:09.233845"
     },
     {
       "match_id": "1141",
@@ -166,7 +192,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T12:54:02.352287"
+      "last_updated": "2026-09-27T12:59:09.234232"
     },
     {
       "match_id": "1139",
@@ -189,7 +215,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T12:54:02.352706"
+      "last_updated": "2026-09-27T12:59:09.234537"
     },
     {
       "match_id": "1132",
@@ -212,7 +238,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T12:54:02.353144"
+      "last_updated": "2026-09-27T12:59:09.234845"
     },
     {
       "match_id": "1099",
@@ -235,7 +261,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T12:54:02.353558"
+      "last_updated": "2026-09-27T12:59:09.235153"
     },
     {
       "match_id": "1037",
@@ -258,7 +284,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T12:54:02.353961"
+      "last_updated": "2026-09-27T12:59:09.235459"
     },
     {
       "match_id": "1083",
@@ -281,7 +307,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T12:54:02.354382"
+      "last_updated": "2026-09-27T12:59:09.235753"
     },
     {
       "match_id": "1100",
@@ -304,7 +330,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T12:54:02.354785"
+      "last_updated": "2026-09-27T12:59:09.236056"
     },
     {
       "match_id": "1000",
@@ -327,7 +353,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T12:54:02.355203"
+      "last_updated": "2026-09-27T12:59:09.236349"
     },
     {
       "match_id": "1001",
@@ -350,7 +376,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T12:54:02.355617"
+      "last_updated": "2026-09-27T12:59:09.236647"
     },
     {
       "match_id": "1008",
@@ -373,7 +399,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T12:54:02.356053"
+      "last_updated": "2026-09-27T12:59:09.236967"
     },
     {
       "match_id": "1042",
@@ -396,7 +422,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T12:54:02.356466"
+      "last_updated": "2026-09-27T12:59:09.237272"
     },
     {
       "match_id": "1049",
@@ -419,7 +445,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T12:54:02.356872"
+      "last_updated": "2026-09-27T12:59:09.237561"
     },
     {
       "match_id": "1043",
@@ -442,7 +468,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T12:54:02.357289"
+      "last_updated": "2026-09-27T12:59:09.237857"
     },
     {
       "match_id": "1101",
@@ -465,7 +491,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T12:54:02.357689"
+      "last_updated": "2026-09-27T12:59:09.238173"
     },
     {
       "match_id": "1102",
@@ -488,30 +514,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T12:54:02.358100"
-    },
-    {
-      "match_id": "1134",
-      "title": "Lithuania vs Azerbaijan",
-      "teams": "Lithuania vs Azerbaijan",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790443181540x302.jpg",
-      "league": "UEFA Champions League 2026",
-      "viewers": "458",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1134",
-      "match_url": "live/lithuania-vs-azerbaijan-1134",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-27T12:54:02.358503"
+      "last_updated": "2026-09-27T12:59:09.238466"
     },
     {
       "match_id": "1137",
@@ -534,7 +537,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T12:54:02.358899"
+      "last_updated": "2026-09-27T12:59:09.238763"
     },
     {
       "match_id": "1135",
@@ -557,7 +560,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T12:54:02.359310"
+      "last_updated": "2026-09-27T12:59:09.239072"
     },
     {
       "match_id": "1140",
@@ -580,7 +583,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T12:54:02.359707"
+      "last_updated": "2026-09-27T12:59:09.239368"
     },
     {
       "match_id": "1138",
@@ -603,7 +606,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-27T12:54:02.360116"
+      "last_updated": "2026-09-27T12:59:09.239663"
     }
   ]
 }
