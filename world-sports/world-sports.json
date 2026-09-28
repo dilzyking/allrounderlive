@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-28T08:53:18.742309",
+  "timestamp": "2026-09-28T08:58:20.803414",
   "total_matches": 15,
   "live_count": 2,
   "upcoming_count": 13,
@@ -16,19 +16,21 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://outspoken.newagebd.com/files/img/202506/3d2836a97128e20ce9fdae08ff2e8fda.jpg",
       "league": "FIFA ASEAN CUP",
-      "viewers": "404",
+      "viewers": "13",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
       "servers": null,
       "page_url": "/world-sports/player.html?id=1142",
       "match_url": "live/bangladesh-vs-singapore-1142",
-      "stream_url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8",
-      "server_count": 1,
+      "stream_url": "https://live2.domaincdn.cc/livecdn/channel-15.m3u8?auth_key=3000001790585430-0-0-5b43fa91edaefde34d3ff10fd12bf612",
+      "server_count": 3,
       "server_urls": [
-        "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8"
+        "https://live2.domaincdn.cc/livecdn/channel-15.m3u8?auth_key=3000001790585430-0-0-5b43fa91edaefde34d3ff10fd12bf612",
+        "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8",
+        "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.55%2Fhls%2FNUUU.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-28T08:50:15.386014"
+      "last_updated": "2026-09-28T08:55:22.120976"
     },
     {
       "match_id": "1081",
@@ -41,7 +43,7 @@
       "runtime": "--",
       "thumbnail": "https://myimgs.org/storage/images/44609/AsianGames2026.jpg",
       "league": "Asian Games 2026",
-      "viewers": "332",
+      "viewers": "334",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -60,7 +62,7 @@
         "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8",
         "https://sonydaime.akamaized.net/hls/live/2034927/INSTA_VOD3/master-archive.m3u8?startTime=1790395050&endTime=1790399250&hdnea=exp=1790456106~acl=/*~id=66e4956bf26c4eb984ac9e44b80133ab-1790396151195-2010011403136209830~hmac=0676a7ad30c125ec2f2c60d9f028d12595bbbc8d4c9b4de7b7114bcc8ae4d738"
       ],
-      "last_updated": "2026-09-28T08:50:15.826430"
+      "last_updated": "2026-09-28T08:55:23.087645"
     },
     {
       "match_id": "1132",
@@ -83,7 +85,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T08:50:17.060079"
+      "last_updated": "2026-09-28T08:55:23.436148"
     },
     {
       "match_id": "1099",
@@ -106,7 +108,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T08:50:17.060766"
+      "last_updated": "2026-09-28T08:55:23.436778"
     },
     {
       "match_id": "1037",
@@ -129,7 +131,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T08:50:17.061436"
+      "last_updated": "2026-09-28T08:55:23.437333"
     },
     {
       "match_id": "1083",
@@ -152,7 +154,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T08:50:17.062086"
+      "last_updated": "2026-09-28T08:55:23.437887"
     },
     {
       "match_id": "1100",
@@ -175,7 +177,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T08:50:17.062698"
+      "last_updated": "2026-09-28T08:55:23.438417"
     },
     {
       "match_id": "1000",
@@ -198,7 +200,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T08:50:17.063327"
+      "last_updated": "2026-09-28T08:55:23.438952"
     },
     {
       "match_id": "1001",
@@ -221,7 +223,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T08:50:17.063926"
+      "last_updated": "2026-09-28T08:55:23.439480"
     },
     {
       "match_id": "1008",
@@ -244,7 +246,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T08:50:17.064569"
+      "last_updated": "2026-09-28T08:55:23.440019"
     },
     {
       "match_id": "1042",
@@ -267,7 +269,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T08:50:17.065186"
+      "last_updated": "2026-09-28T08:55:23.440554"
     },
     {
       "match_id": "1049",
@@ -290,7 +292,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T08:50:17.065773"
+      "last_updated": "2026-09-28T08:55:23.441083"
     },
     {
       "match_id": "1043",
@@ -313,7 +315,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T08:50:17.066387"
+      "last_updated": "2026-09-28T08:55:23.441621"
     },
     {
       "match_id": "1101",
@@ -336,7 +338,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T08:50:17.066987"
+      "last_updated": "2026-09-28T08:55:23.442147"
     },
     {
       "match_id": "1102",
@@ -359,7 +361,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T08:50:17.067606"
+      "last_updated": "2026-09-28T08:55:23.442683"
     }
   ]
 }
