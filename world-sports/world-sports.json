@@ -1,10 +1,79 @@
 {
-  "timestamp": "2026-09-28T16:00:07.952365",
+  "timestamp": "2026-09-28T16:05:10.777095",
   "total_matches": 18,
-  "live_count": 1,
-  "upcoming_count": 17,
+  "live_count": 4,
+  "upcoming_count": 14,
   "completed_count": 0,
   "matches": [
+    {
+      "match_id": "1145",
+      "title": "Latvia vs Cyprus",
+      "teams": "Latvia vs Cyprus",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17904481441020x576.jpg",
+      "league": "UEFA Nations League 2026/27",
+      "viewers": "2",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1145",
+      "match_url": "live/latvia-vs-cyprus-1145",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-28T16:02:12.086430"
+    },
+    {
+      "match_id": "1144",
+      "title": "Armenia vs Montenegro",
+      "teams": "Armenia vs Montenegro",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17904474921020x576.jpg",
+      "league": "Sports Tournament",
+      "viewers": "2",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1144",
+      "match_url": "live/armenia-vs-montenegro-1144",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-28T16:02:12.511949"
+    },
+    {
+      "match_id": "1143",
+      "title": "Georgia vs Ukraine",
+      "teams": "Georgia vs Ukraine",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17904472801020x576.jpg",
+      "league": "UEFA Nations League 2026/27",
+      "viewers": "2",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1143",
+      "match_url": "live/georgia-vs-ukraine-1143",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-28T16:02:13.526317"
+    },
     {
       "match_id": "1081",
       "title": "Asian Games 2026",
@@ -16,7 +85,7 @@
       "runtime": "--",
       "thumbnail": "https://myimgs.org/storage/images/44609/AsianGames2026.jpg",
       "league": "Asian Games 2026",
-      "viewers": "432",
+      "viewers": "440",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -37,76 +106,7 @@
         "https://crickcast-fam.pages.dev/api/proxy?u=https://cloudplay-sonyliv.pages.dev/ten1.m3u8",
         "https://crickcast-fam.pages.dev/api/proxy?u=https://cloudplay-sonyliv.pages.dev/ten3.m3u8"
       ],
-      "last_updated": "2026-09-28T15:21:56.840498"
-    },
-    {
-      "match_id": "1145",
-      "title": "Latvia vs Cyprus",
-      "teams": "Latvia vs Cyprus",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17904481441020x576.jpg",
-      "league": "UEFA Nations League 2026/27",
-      "viewers": "2",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1145",
-      "match_url": "live/latvia-vs-cyprus-1145",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-28T15:21:57.279528"
-    },
-    {
-      "match_id": "1144",
-      "title": "Armenia vs Montenegro",
-      "teams": "Armenia vs Montenegro",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17904474921020x576.jpg",
-      "league": "Sports Tournament",
-      "viewers": "2",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1144",
-      "match_url": "live/armenia-vs-montenegro-1144",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-28T15:21:57.280297"
-    },
-    {
-      "match_id": "1143",
-      "title": "Georgia vs Ukraine",
-      "teams": "Georgia vs Ukraine",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17904472801020x576.jpg",
-      "league": "UEFA Nations League 2026/27",
-      "viewers": "2",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1143",
-      "match_url": "live/georgia-vs-ukraine-1143",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-28T15:21:57.280888"
+      "last_updated": "2026-09-28T16:02:13.944166"
     },
     {
       "match_id": "1132",
@@ -129,7 +129,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T15:21:57.281447"
+      "last_updated": "2026-09-28T16:02:15.089756"
     },
     {
       "match_id": "1099",
@@ -152,7 +152,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T15:21:57.282012"
+      "last_updated": "2026-09-28T16:02:15.090184"
     },
     {
       "match_id": "1037",
@@ -175,7 +175,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T15:21:57.282542"
+      "last_updated": "2026-09-28T16:02:15.090517"
     },
     {
       "match_id": "1083",
@@ -198,7 +198,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T15:21:57.283092"
+      "last_updated": "2026-09-28T16:02:15.090838"
     },
     {
       "match_id": "1146",
@@ -221,7 +221,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T15:21:57.283645"
+      "last_updated": "2026-09-28T16:02:15.091162"
     },
     {
       "match_id": "1100",
@@ -244,7 +244,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T15:21:57.284199"
+      "last_updated": "2026-09-28T16:02:15.091483"
     },
     {
       "match_id": "1000",
@@ -267,7 +267,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T15:21:57.284746"
+      "last_updated": "2026-09-28T16:02:15.091798"
     },
     {
       "match_id": "1001",
@@ -290,7 +290,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T15:21:57.285288"
+      "last_updated": "2026-09-28T16:02:15.092112"
     },
     {
       "match_id": "1008",
@@ -313,7 +313,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T15:21:57.285828"
+      "last_updated": "2026-09-28T16:02:15.092432"
     },
     {
       "match_id": "1042",
@@ -336,7 +336,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T15:21:57.286360"
+      "last_updated": "2026-09-28T16:02:15.092733"
     },
     {
       "match_id": "1049",
@@ -359,7 +359,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T15:21:57.286900"
+      "last_updated": "2026-09-28T16:02:15.093042"
     },
     {
       "match_id": "1043",
@@ -382,7 +382,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T15:21:57.287437"
+      "last_updated": "2026-09-28T16:02:15.093355"
     },
     {
       "match_id": "1101",
@@ -405,7 +405,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T15:21:57.287990"
+      "last_updated": "2026-09-28T16:02:15.093662"
     },
     {
       "match_id": "1102",
@@ -428,7 +428,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T15:21:57.288539"
+      "last_updated": "2026-09-28T16:02:15.093972"
     }
   ]
 }
