@@ -1,10 +1,38 @@
 {
-  "timestamp": "2026-09-28T18:39:25.774873",
-  "total_matches": 24,
-  "live_count": 7,
-  "upcoming_count": 17,
+  "timestamp": "2026-09-28T18:44:28.363467",
+  "total_matches": 23,
+  "live_count": 9,
+  "upcoming_count": 14,
   "completed_count": 0,
   "matches": [
+    {
+      "match_id": "1151",
+      "title": "Turkiye vs Italy",
+      "teams": "Turkiye vs Italy",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17904492891020x576.jpg",
+      "league": "UEFA Nations League 2026/27",
+      "viewers": "1",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1151",
+      "match_url": "live/turkiye-vs-italy-1151",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=MGEo9mRM2h05PeuyRFmFESiowF3YMXcvEMGyQNvmxJnZf1PfU7Jk6jW9hf7pXSHhN9VpKU0Tff3uuQgZZbtrniuMGK8i8t72xsSKqZrp0aZHyyCYiQONzZxtdre2tnsxjpTaObZuLr2K_5xKmFaUyeUPM9niIRwCmYSJjpjo6pNyFiLzwIKqO8iFS0ShW7Mgf7AqA_BKlSOkj-DZiulCLOR1NYqIT-9KESYGCn9icnJWCLKt-p37KOdwU-XNFSvhgBtGUJUvdKAr5qp3tisFrvWxM8181w",
+      "server_count": 4,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=MGEo9mRM2h05PeuyRFmFESiowF3YMXcvEMGyQNvmxJnZf1PfU7Jk6jW9hf7pXSHhN9VpKU0Tff3uuQgZZbtrniuMGK8i8t72xsSKqZrp0aZHyyCYiQONzZxtdre2tnsxjpTaObZuLr2K_5xKmFaUyeUPM9niIRwCmYSJjpjo6pNyFiLzwIKqO8iFS0ShW7Mgf7AqA_BKlSOkj-DZiulCLOR1NYqIT-9KESYGCn9icnJWCLKt-p37KOdwU-XNFSvhgBtGUJUvdKAr5qp3tisFrvWxM8181w",
+        "https://www.rtmpcdn.com/live/5056701c-e70a-43c9-bda0-498093d07ad0.m3u8",
+        "https://live.talkoraai.com/match/seg?t=MgeeeLcCs0Ko6rXNhKNJlf4Rr9g7W21ULxxUtCzJAp-h3cOR8i8ahoe-hGc2Ihcmre06IqJ4SUzRE5736ymrfTDrGCbrY8w-po0LrsDsbEoeK8tsX6VtAZOkDP5pn5ZE8hS9NBaHBrhJ1ISKRpA5H8Bo5vgpV_Hlf8l0BlLrKOXEymhrx5SASOZjopmx6rbz2QWO84r8mrBz6cRo218CaSC-4l3AKvF6amLClVubpfFMPqddzgmHKSdIj-0VMf035V5cm1ODvmewoxYMsbcT7bCNb4b3M3Kjk0KFKMAu",
+        "https://play.aarray.cn/rrty/hd-zh-1-4517961_gqzm.m3u8?auth_key=1790624282-0-0-3011796310d220daaf3963471cf38489&token=2c0a91970bc09576&device=4&platform=rrty"
+      ],
+      "last_updated": "2026-09-28T18:41:34.729324"
+    },
     {
       "match_id": "1149",
       "title": "Belgium vs France",
@@ -16,7 +44,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.slivcdn.com/videoasset_images/manage_file/1000025115/1790553494255885_UNL26_belgium_vs_france_tonight_landscape_thumb.jpg?w=500&q=low",
       "league": "UEFA Nations League 2026/27",
-      "viewers": "2",
+      "viewers": "5",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -24,7 +52,7 @@
       "page_url": "/world-sports/player.html?id=1149",
       "match_url": "live/belgium-vs-france-1149",
       "stream_url": "https://live.talkoraai.com/match/hls?t=ln9h3dZn4S1pMlKIgjS82GPA6yAVvacrMvfXGnZZ6lh4tdtwqGryWZniwifwrJ1fhtMIAaFVnet4M4MA9qMhgjpOS7UIOWpseDb84HeCTR8V_9Y-qCUymSn6t0bqXQiDLMpDndVUGhcKIEzvOmYgppf7FBzYooiuPwRaVKm9XYFA9M8yH3W7xQQwpRAnnLLg75uPykpqtF0WaEFmUyK6IIy-KoQEVIj_-L5laXre_0JuPd3zpdacD-nvcu3victiPdmiht2orGWhSuqNiuI36JBKe3lSag",
-      "server_count": 7,
+      "server_count": 9,
       "server_urls": [
         "https://live.talkoraai.com/match/hls?t=ln9h3dZn4S1pMlKIgjS82GPA6yAVvacrMvfXGnZZ6lh4tdtwqGryWZniwifwrJ1fhtMIAaFVnet4M4MA9qMhgjpOS7UIOWpseDb84HeCTR8V_9Y-qCUymSn6t0bqXQiDLMpDndVUGhcKIEzvOmYgppf7FBzYooiuPwRaVKm9XYFA9M8yH3W7xQQwpRAnnLLg75uPykpqtF0WaEFmUyK6IIy-KoQEVIj_-L5laXre_0JuPd3zpdacD-nvcu3victiPdmiht2orGWhSuqNiuI36JBKe3lSag",
         "https://drk6xq0vhn.gpcdn.net/live/ten_2_hd_720/index.m3u8",
@@ -32,36 +60,11 @@
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.41%2Fhls%2FAGGGQQ.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.41%2Fhls%2FAGGGQQQ.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
         "https://fawa.duckdns.org/api/proxy?url=https%3A%2F%2Fwww.rtmpcdn.com%2Flive%2F44da50b3-cdf0-400c-831b-43d1813a61a7.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
-        "https://live.talkoraai.com/match/seg?t=xVt1MpMmxWyZzajTaKImcPk2pVPeujJeXeoumEmgplm_revrPQc7XZbgQ-r1EWElHwX1Bc9K9AMEpX2T2lcaOoBeKYEELifyKEn5GKeK_O0Qy9LUcTXMSlI0MARhxslg9T2gv1fXdM4GYJvwieTaSrmww_eENwCJGy-aTaTsXEv0HEuFO41FSaYWN2vVU07V_P8PPHo-jAOVWXZmZXR4tT4hQwp5fJXIUPei8pGDSzhWM-Zy0cmsYhtHmoHSLotl-ej1J47h68NDK9gN7StJPuJZk5F5_XZmZLho6BKQ"
+        "https://live.talkoraai.com/match/seg?t=xVt1MpMmxWyZzajTaKImcPk2pVPeujJeXeoumEmgplm_revrPQc7XZbgQ-r1EWElHwX1Bc9K9AMEpX2T2lcaOoBeKYEELifyKEn5GKeK_O0Qy9LUcTXMSlI0MARhxslg9T2gv1fXdM4GYJvwieTaSrmww_eENwCJGy-aTaTsXEv0HEuFO41FSaYWN2vVU07V_P8PPHo-jAOVWXZmZXR4tT4hQwp5fJXIUPei8pGDSzhWM-Zy0cmsYhtHmoHSLotl-ej1J47h68NDK9gN7StJPuJZk5F5_XZmZLho6BKQ",
+        "https://hwyypull.ncctrials.com/live/stream-746673_lhd.m3u8",
+        "https://78db6781fe37bdefc00c3c6eecf7706a.livehwc4.com/hwyypull.ncctrials.com/live/stream-746673_lhd.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=8df63f29d2810c22cbaaba611ea7f71b"
       ],
-      "last_updated": "2026-09-28T18:36:28.029263"
-    },
-    {
-      "match_id": "1153",
-      "title": "Zimbabwe vs DR Congo",
-      "teams": "Zimbabwe vs DR Congo",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://cdn.foot-africa.com/20260927/a49f4de951cd12e22a59551d3f16aa3a69b4b9672ea67203ca7fdb4b1e941244-1200-675.webp",
-      "league": "Africa Cup of Nations qualification",
-      "viewers": "29",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1153",
-      "match_url": "live/zimbabwe-vs-dr-congo-1153",
-      "stream_url": "https://play.aarray.cn/rrty/hd-en-1-4642699_gqzm.m3u8?auth_key=1790617561-0-0-a8018f41d58b08e09fb63834cfd23a8d&token=ff0400b54610b661&device=4&platform=rrty",
-      "server_count": 3,
-      "server_urls": [
-        "https://play.aarray.cn/rrty/hd-en-1-4642699_gqzm.m3u8?auth_key=1790617561-0-0-a8018f41d58b08e09fb63834cfd23a8d&token=ff0400b54610b661&device=4&platform=rrty",
-        "https://www.rtmpcdn.com/live/8162559c-7b2c-4f12-af04-93655690c205.m3u8",
-        "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.44%2Fhls%2FH666QQ.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
-      ],
-      "last_updated": "2026-09-28T18:36:29.302717"
+      "last_updated": "2026-09-28T18:41:35.995661"
     },
     {
       "match_id": "1145",
@@ -74,7 +77,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17904481441020x576.jpg",
       "league": "UEFA Nations League 2026/27",
-      "viewers": "42",
+      "viewers": "43",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -87,7 +90,7 @@
         "https://live.talkoraai.com/match/hls?t=4LjaymvzOnrb0HuHxD-FwOqmZfPfLFvEB0NVV7amHxQ4ysn2Mx64103GY4ZFTzyqrEVom6kO9A70OvR3_PC7my81bMc1DE7EOz90lUKdhJPpKqCZ34pCHWU-9oBTXZosMSlav1tbd02vuhN9JGcMU18CQh5rp9xZLAUyskmQBeCj9CgpdD6xLX4M-ITd8LcXujt2cfz3qEixxdhtwOQ7fUgC-h5Nkc-N0SPslB_JszKj9kWGw3_PwQ2SMJ5A4YdBTcWv1qjpxlr-jRSMFAtdoz8gBCttwA",
         "https://live.talkoraai.com/match/seg?t=_q18IUouGPN0sIj1C9DGgtMRvpQkKFXdf5f58zF3u6nVZG-d-Ym6fYApoWIgQARYf7itA9jsdoS6FnC8qcvf-LicJuL3IFPQy7u7m1fhIjnMBWrfAaLnDsHDv9fvMD0jJJm9I-VjFTcfYspJqIaOhp6sXZbunRAsXWIKWAlp4FNNVoNvT8ICdUv5dN6IyD6kDRMH4lTi-TV339L6zjA1WVC_Xq0Eqikp0eOka6atJoz2Rgtb_fH1Qh8fLAk4ckgyB-CqOcilkHbK_30y9JnOcodrcmjbVNCoBpZrDdKS"
       ],
-      "last_updated": "2026-09-28T18:36:29.651432"
+      "last_updated": "2026-09-28T18:41:36.415374"
     },
     {
       "match_id": "1144",
@@ -100,7 +103,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17904474921020x576.jpg",
       "league": "Sports Tournament",
-      "viewers": "34",
+      "viewers": "35",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -113,7 +116,7 @@
         "https://live.talkoraai.com/match/hls?t=ln9h3dZn4S1pMlKIgjS82GPA6yAVvacrMvfXGnZZ6lh4tdtwqGryWZniwifwrJ1fhtMIAaFVnet4M4MA9qMhgjpOS7UIOWpseDb84HeCTR8V_9Y-qCUymSn6t0bqXQiDLMpDndVUGhcKIEzvOmYgppf7FBzYooiuPwRaVKm9XYFA9M8yH3W7xQQwpRAnnLLg75uPykpqtF0WaEFmUyK6IIy-KoQEVIj_-L5laXre_0JuPd3zpdacD-nvcu3victiPdmiht2orGWhSuqNiuI36JBKe3lSag",
         "https://live.talkoraai.com/match/seg?t=xVt1MpMmxWyZzajTaKImcPk2pVPeujJeXeoumEmgplm_revrPQc7XZbgQ-r1EWElHwX1Bc9K9AMEpX2T2lcaOoBeKYEELifyKEn5GKeK_O0Qy9LUcTXMSlI0MARhxslg9T2gv1fXdM4GYJvwieTaSrmww_eENwCJGy-aTaTsXEv0HEuFO41FSaYWN2vVU07V_P8PPHo-jAOVWXZmZXR4tT4hQwp5fJXIUPei8pGDSzhWM-Zy0cmsYhtHmoHSLotl-ej1J47h68NDK9gN7StJPuJZk5F5_XZmZLho6BKQ"
       ],
-      "last_updated": "2026-09-28T18:36:30.023202"
+      "last_updated": "2026-09-28T18:41:37.052981"
     },
     {
       "match_id": "1143",
@@ -126,7 +129,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17904472801020x576.jpg",
       "league": "UEFA Nations League 2026/27",
-      "viewers": "34",
+      "viewers": "35",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -139,7 +142,7 @@
         "https://live.talkoraai.com/match/hls?t=Eqy39xj_GoKHoUXI8JqCjtogW5XLMFcMcCXwQ_CkI0bubJ_0SdF9zQVodlE-rTqfeqBBJrNLzHtByXwUpyliFlOEuYCHToQE8ZUoZ2RHIoi8cGT7BJMH5Uf_k-mkcRkCyornU8GJQeMr-2e_NBMsL4mvlcAQvi1kCGYsJOdel04_EQM2zt-9G1Ezec2yeLp8ymkfktyBOc_R8iigDDythj-lVuhDU5INGGFIF3fD3oSidgfENrGr_gM3hOjxFr6CU-a7p_4wGI5LXXePtpscF6NrFg",
         "https://live.talkoraai.com/match/seg?t=Hs1o-vlINUVDcZtfRe0dTDuAFwy4bCJj4LrZgNAyZb1WllehD0KM9GEQW-yiHD6QqQeePxlcCgUNfhrg0dOErWPIHweCweKD45hOp9V8PLVM95H0-r-3MxzWoz_mShl8YA9JmjtPusDsaw_xc8lQmfzDIYXOR6qRgWlibMLHNVI8sM_A7k872ydi-sA-aCby8oNdM20Vzz5FBHrFSLJK5EUDQJLugPvN6XdXjrnThI-OsydAVlg97y4hBx07fnSOlgl_ONIbJI5Dq4KG1Aq3r1Fa2Gvit5sMzBLT"
       ],
-      "last_updated": "2026-09-28T18:36:31.056887"
+      "last_updated": "2026-09-28T18:41:37.397037"
     },
     {
       "match_id": "1148",
@@ -152,7 +155,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17904483411020x576.jpg",
       "league": "UEFA Nations League 2026/27",
-      "viewers": "276",
+      "viewers": "1",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -166,7 +169,59 @@
         "https://live.talkoraai.com/match/seg?t=gB3mGXKMPcaXHGNdEcSVrx4YcYwmDsXnau6v-JnHYZuhF4mxB_Zzd9IqtJOLhJF-t1Ip3P-wn0w1Ke8x_qXtUjJ3bu5q9NjpyX_T1TtuEwjwQDGSlcfunSZdN1cyRf3EcgHxW59CsQR2UuIcRVoUWQGoVzEH640BDyBPwt25I4Fbdq9DBwC-nUbIxYRQih6AanZZxBJ8LlhpGJtJISCEB30QqgOq2zqTqWnjQZ3F3kvxFyPUq32OW3mhNAlnkpSMLsbZKUZkAKp09qcMuQcAh4nVquY4-O_Hr-D1",
         "https://www.rtmpcdn.com/live/622ba94a-511c-4a11-853b-adcc688e85b2.m3u8"
       ],
-      "last_updated": "2026-09-28T18:36:31.412018"
+      "last_updated": "2026-09-28T18:41:37.753900"
+    },
+    {
+      "match_id": "1150",
+      "title": "Northern Ireland vs Hungary",
+      "teams": "Northern Ireland vs Hungary",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17904490751020x576.jpg",
+      "league": "UEFA Nations League 2026/27",
+      "viewers": "350",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1150",
+      "match_url": "live/northern-ireland-vs-hungary-1150",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=ikZ5L0L1T7MHXc2azAKtpimOlQw2jf41Xj-72wYk4miTl6T2RKYyuwrI3CIbynsRq2q68wewYVfACoHT3Nh_STDdMRG6otLHOJ5inJB_hyZggbBREiew-SUOrhKhJffLd_ETCCWPLwN0kn_ZcwRLlRd3AyEeyJqRCMupViC80mwWiP_lQcZ05lnfvMWzOmHRrxiL_LBtDqY-XiLcPUIRozjlW-rA2JTaYhjhvXFsdlLqIr9dtBZNsQK7MDjwFM5qUDcYopPWZVImFLtL0hLrcqtxTROPnA",
+      "server_count": 2,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=ikZ5L0L1T7MHXc2azAKtpimOlQw2jf41Xj-72wYk4miTl6T2RKYyuwrI3CIbynsRq2q68wewYVfACoHT3Nh_STDdMRG6otLHOJ5inJB_hyZggbBREiew-SUOrhKhJffLd_ETCCWPLwN0kn_ZcwRLlRd3AyEeyJqRCMupViC80mwWiP_lQcZ05lnfvMWzOmHRrxiL_LBtDqY-XiLcPUIRozjlW-rA2JTaYhjhvXFsdlLqIr9dtBZNsQK7MDjwFM5qUDcYopPWZVImFLtL0hLrcqtxTROPnA",
+        "https://live.talkoraai.com/match/seg?t=03_u3gINu9dMvwGgR-veTHQyngGbDKhn5Jb2abdCFMsFRMrDgCfx_EQ4M4VSJ3OH7CalRbZY31iK6V5qBewwdkKoyknS7b880-PMn1zTNsuPUjj509bBX7FU4Jtn8DfKAGcGK2f7IlekApG2eN_tdvP4EQli6aeGxD36i4jNbeVJAzI-ZasHL66u1wg55sjhSXSJJARq2ufvRxGGMv7ZSju3AnPMT97fplte-H1OoWDwtdsp2swPpVKVFMpyypgSvVmdcr5AbD85Y2PJn0-FxGWsdZj8tf5QthgoWx0X"
+      ],
+      "last_updated": "2026-09-28T18:41:38.110286"
+    },
+    {
+      "match_id": "1152",
+      "title": "Sweden vs Poland",
+      "teams": "Sweden vs Poland",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17904494961020x576.jpg",
+      "league": "UEFA Nations League 2026/27",
+      "viewers": "424",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1152",
+      "match_url": "live/sweden-vs-poland-1152",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=s9RRcryiRxfZvN18H87CEJSpGDmTlMl35VXrynBKXE5RU8EKN87ZuAreNexlXCBerXUJ_kDTQwI1QeYwkXszTXUQYwdPMTDikK8z2u1s_zqHOKtolBkyThUuhrs1O0ZNS5KNEBTrWcLg1oLURSwhHZLtgRsm-ccHXSkp7weoqSXpnIsMWJ0e7AW6GiwG61R2ghLnNNbhiFk241Gy1yLzdAj_SqQu7_IoSohwtyAYOIuU-a1CakzftOCyF7X4xpLHTNDbV_DOPCsraraZ3ESG3UU",
+      "server_count": 2,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=s9RRcryiRxfZvN18H87CEJSpGDmTlMl35VXrynBKXE5RU8EKN87ZuAreNexlXCBerXUJ_kDTQwI1QeYwkXszTXUQYwdPMTDikK8z2u1s_zqHOKtolBkyThUuhrs1O0ZNS5KNEBTrWcLg1oLURSwhHZLtgRsm-ccHXSkp7weoqSXpnIsMWJ0e7AW6GiwG61R2ghLnNNbhiFk241Gy1yLzdAj_SqQu7_IoSohwtyAYOIuU-a1CakzftOCyF7X4xpLHTNDbV_DOPCsraraZ3ESG3UU",
+        "https://live.talkoraai.com/match/seg?t=GRbnW6iD1x5WGwEk43r0Unz1az4kN5kxfx2CHpG_PsFWhDTkpjsdimwwcxPhheudKmnC1qMZbozwL40m-4zyUdNvU3P5VcyUzBA__wn6YRXEMD6irZMF0uwbnyVEjQu3JKeFM42hG9ZyPJXJG42GqCO4bdBOhL5gbrWz7-siql3oZNFYrRYpk-o4o2drQTDsLljyf1tIaXAz9ZfWvRoU0BTOE_0uM90zkgMQ2O_pgcgJD_CgusVKLI7rhBS06O0HEacrGpowkAmbxhZBlOiSgJkmJcINmeDR-Q"
+      ],
+      "last_updated": "2026-09-28T18:41:39.529893"
     },
     {
       "match_id": "1081",
@@ -179,7 +234,7 @@
       "runtime": "--",
       "thumbnail": "https://myimgs.org/storage/images/44609/AsianGames2026.jpg",
       "league": "Asian Games 2026",
-      "viewers": "470",
+      "viewers": "471",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -200,30 +255,7 @@
         "https://crickcast-fam.pages.dev/api/proxy?u=https://cloudplay-sonyliv.pages.dev/ten1.m3u8",
         "https://crickcast-fam.pages.dev/api/proxy?u=https://cloudplay-sonyliv.pages.dev/ten3.m3u8"
       ],
-      "last_updated": "2026-09-28T18:36:31.759508"
-    },
-    {
-      "match_id": "1151",
-      "title": "Turkiye vs Italy",
-      "teams": "Turkiye vs Italy",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17904492891020x576.jpg",
-      "league": "UEFA Nations League 2026/27",
-      "viewers": "1",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1151",
-      "match_url": "live/turkiye-vs-italy-1151",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-28T18:36:32.104565"
+      "last_updated": "2026-09-28T18:41:39.886908"
     },
     {
       "match_id": "1132",
@@ -246,7 +278,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T18:36:32.105199"
+      "last_updated": "2026-09-28T18:41:40.236319"
     },
     {
       "match_id": "1099",
@@ -269,7 +301,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T18:36:32.105768"
+      "last_updated": "2026-09-28T18:41:40.237018"
     },
     {
       "match_id": "1037",
@@ -292,7 +324,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T18:36:32.106325"
+      "last_updated": "2026-09-28T18:41:40.237648"
     },
     {
       "match_id": "1083",
@@ -315,7 +347,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T18:36:32.106881"
+      "last_updated": "2026-09-28T18:41:40.238254"
     },
     {
       "match_id": "1146",
@@ -338,7 +370,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T18:36:32.107427"
+      "last_updated": "2026-09-28T18:41:40.238876"
     },
     {
       "match_id": "1100",
@@ -361,7 +393,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T18:36:32.107984"
+      "last_updated": "2026-09-28T18:41:40.239482"
     },
     {
       "match_id": "1000",
@@ -384,7 +416,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T18:36:32.108545"
+      "last_updated": "2026-09-28T18:41:40.240113"
     },
     {
       "match_id": "1001",
@@ -407,7 +439,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T18:36:32.109093"
+      "last_updated": "2026-09-28T18:41:40.240731"
     },
     {
       "match_id": "1008",
@@ -430,7 +462,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T18:36:32.109637"
+      "last_updated": "2026-09-28T18:41:40.241326"
     },
     {
       "match_id": "1042",
@@ -453,7 +485,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T18:36:32.110178"
+      "last_updated": "2026-09-28T18:41:40.241944"
     },
     {
       "match_id": "1049",
@@ -476,7 +508,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T18:36:32.110727"
+      "last_updated": "2026-09-28T18:41:40.242538"
     },
     {
       "match_id": "1043",
@@ -499,7 +531,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T18:36:32.111266"
+      "last_updated": "2026-09-28T18:41:40.243155"
     },
     {
       "match_id": "1101",
@@ -522,7 +554,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T18:36:32.111898"
+      "last_updated": "2026-09-28T18:41:40.243784"
     },
     {
       "match_id": "1102",
@@ -545,53 +577,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T18:36:32.112450"
-    },
-    {
-      "match_id": "1150",
-      "title": "Northern Ireland vs Hungary",
-      "teams": "Northern Ireland vs Hungary",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17904490751020x576.jpg",
-      "league": "UEFA Nations League 2026/27",
-      "viewers": "350",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1150",
-      "match_url": "live/northern-ireland-vs-hungary-1150",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-28T18:36:32.113025"
-    },
-    {
-      "match_id": "1152",
-      "title": "Sweden vs Poland",
-      "teams": "Sweden vs Poland",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17904494961020x576.jpg",
-      "league": "UEFA Nations League 2026/27",
-      "viewers": "424",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1152",
-      "match_url": "live/sweden-vs-poland-1152",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-28T18:36:32.113582"
+      "last_updated": "2026-09-28T18:41:40.244382"
     }
   ]
 }
