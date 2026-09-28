@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-28T13:01:25.590760",
-  "total_matches": 17,
+  "timestamp": "2026-09-28T13:06:26.228683",
+  "total_matches": 18,
   "live_count": 1,
-  "upcoming_count": 16,
+  "upcoming_count": 17,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "--",
       "thumbnail": "https://myimgs.org/storage/images/44609/AsianGames2026.jpg",
       "league": "Asian Games 2026",
-      "viewers": "397",
+      "viewers": "398",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -35,30 +35,30 @@
         "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8",
         "https://sonydaime.akamaized.net/hls/live/2034927/INSTA_VOD3/master-archive.m3u8?startTime=1790395050&endTime=1790399250&hdnea=exp=1790456106~acl=/*~id=66e4956bf26c4eb984ac9e44b80133ab-1790396151195-2010011403136209830~hmac=0676a7ad30c125ec2f2c60d9f028d12595bbbc8d4c9b4de7b7114bcc8ae4d738"
       ],
-      "last_updated": "2026-09-28T12:58:24.722888"
+      "last_updated": "2026-09-28T13:03:31.503155"
     },
     {
-      "match_id": "1143",
-      "title": "Georgia vs Ukraine",
-      "teams": "Georgia vs Ukraine",
+      "match_id": "1145",
+      "title": "Latvia vs Cyprus",
+      "teams": "Latvia vs Cyprus",
       "sport": "football",
       "sport_display": "Football",
       "status": "upcoming",
       "status_display": "UPCOMING",
       "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17904472801020x576.jpg",
-      "league": "Sports Tournament",
-      "viewers": "441",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17904481441020x576.jpg",
+      "league": "UEFA Nations League 2026/27",
+      "viewers": "165",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
       "servers": null,
-      "page_url": "/world-sports/player.html?id=1143",
-      "match_url": "live/georgia-vs-ukraine-1143",
+      "page_url": "/world-sports/player.html?id=1145",
+      "match_url": "live/latvia-vs-cyprus-1145",
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T12:58:25.124488"
+      "last_updated": "2026-09-28T13:03:34.418846"
     },
     {
       "match_id": "1144",
@@ -81,30 +81,30 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T12:58:25.125130"
+      "last_updated": "2026-09-28T13:03:34.419676"
     },
     {
-      "match_id": "1145",
-      "title": "Latvia vs Cyprus",
-      "teams": "Latvia vs Cyprus",
+      "match_id": "1143",
+      "title": "Georgia vs Ukraine",
+      "teams": "Georgia vs Ukraine",
       "sport": "football",
       "sport_display": "Football",
       "status": "upcoming",
       "status_display": "UPCOMING",
       "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17904481441020x576.jpg",
-      "league": "Sports Tournament",
-      "viewers": "165",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17904472801020x576.jpg",
+      "league": "UEFA Nations League 2026/27",
+      "viewers": "441",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
       "servers": null,
-      "page_url": "/world-sports/player.html?id=1145",
-      "match_url": "live/latvia-vs-cyprus-1145",
+      "page_url": "/world-sports/player.html?id=1143",
+      "match_url": "live/georgia-vs-ukraine-1143",
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T12:58:25.125602"
+      "last_updated": "2026-09-28T13:03:34.420349"
     },
     {
       "match_id": "1132",
@@ -127,7 +127,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T12:58:25.126028"
+      "last_updated": "2026-09-28T13:03:34.420972"
     },
     {
       "match_id": "1099",
@@ -150,7 +150,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T12:58:25.126489"
+      "last_updated": "2026-09-28T13:03:34.421618"
     },
     {
       "match_id": "1037",
@@ -173,7 +173,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T12:58:25.126912"
+      "last_updated": "2026-09-28T13:03:34.422247"
     },
     {
       "match_id": "1083",
@@ -196,7 +196,30 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T12:58:25.127347"
+      "last_updated": "2026-09-28T13:03:34.422855"
+    },
+    {
+      "match_id": "1146",
+      "title": "Pakistan Champions vs Bangladesh Champions",
+      "teams": "Pakistan Champions vs Bangladesh Champions",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+      "league": "World Championship of Legends, 2026",
+      "viewers": "202",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1146",
+      "match_url": "live/pakistan-champions-vs-bangladesh-champions-1146",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-28T13:03:34.423499"
     },
     {
       "match_id": "1100",
@@ -219,7 +242,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T12:58:25.127774"
+      "last_updated": "2026-09-28T13:03:34.424109"
     },
     {
       "match_id": "1000",
@@ -242,7 +265,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T12:58:25.128224"
+      "last_updated": "2026-09-28T13:03:34.424728"
     },
     {
       "match_id": "1001",
@@ -265,7 +288,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T12:58:25.128666"
+      "last_updated": "2026-09-28T13:03:34.425355"
     },
     {
       "match_id": "1008",
@@ -288,7 +311,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T12:58:25.129117"
+      "last_updated": "2026-09-28T13:03:34.425954"
     },
     {
       "match_id": "1042",
@@ -311,7 +334,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T12:58:25.129542"
+      "last_updated": "2026-09-28T13:03:34.426585"
     },
     {
       "match_id": "1049",
@@ -334,7 +357,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T12:58:25.129956"
+      "last_updated": "2026-09-28T13:03:34.427192"
     },
     {
       "match_id": "1043",
@@ -357,7 +380,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T12:58:25.130377"
+      "last_updated": "2026-09-28T13:03:34.427853"
     },
     {
       "match_id": "1101",
@@ -380,7 +403,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T12:58:25.130784"
+      "last_updated": "2026-09-28T13:03:34.428491"
     },
     {
       "match_id": "1102",
@@ -403,7 +426,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-28T12:58:25.131204"
+      "last_updated": "2026-09-28T13:03:34.429087"
     }
   ]
 }
