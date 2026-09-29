@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-29T18:34:49.093896",
+  "timestamp": "2026-09-29T18:39:50.779730",
   "total_matches": 23,
-  "live_count": 2,
-  "upcoming_count": 21,
+  "live_count": 3,
+  "upcoming_count": 20,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17905428471020x576.jpg",
       "league": "UEFA Nations League 2026/27",
-      "viewers": "222",
+      "viewers": "2",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -30,7 +30,33 @@
         "https://live.talkoraai.com/match/seg?t=v2Ob7SO3s8sPHEqNhwyFOBP5r_mu_teOuHLR3SOsA_lOoNus93-cBccV_NE-waLXNa1GIPBLruuMOkWp1JPiCvwijqcdiOSdF2kCfN8PyKLhKxBmIsZdrQB1ahK8LZPPALZ6QNzM-Iw4J8MV2PB88BK5WkXdIiSWMT1FraOcOSNYLqbYzknK-VcTTMQWzz-gWb-FdY8sDKxdXSGtYY4oWlyHRhAtPK78_B-9W30h91f8AlBHT0rCQox3TRltf1z9IaGK2XMWdAUqQQxVNl-DVoQ6Xk12kOmWqz6r",
         "https://www.rtmpcdn.com/live/05213fd0-0c33-49a6-a1d1-d8209356b688.m3u8"
       ],
-      "last_updated": "2026-09-29T18:31:31.076398"
+      "last_updated": "2026-09-29T18:36:33.268499"
+    },
+    {
+      "match_id": "1159",
+      "title": "Czechia vs England",
+      "teams": "Czechia vs England",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17905436641020x576.jpg",
+      "league": "Sports Tournament",
+      "viewers": "333",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1159",
+      "match_url": "live/czechia-vs-england-1159",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=5NKesaTI3HJ-mi7me6FDVswrxTucevOsD1swrVwK_Wg2Cjt9aiUQhNmJuppbEToBVKxpYkES8Q2jJ7XVH21ddhHdNczv-4Z42Vy46Y3q47o0ShpUtrcMmHzvezWhwI4Aw3BxVwsXX_2nRrldxihy3CJ0rb8uLSBuy3OXAt6sBMf6CGif_WSPK7kHL3suLtSqHcgEZkqn81EvMNJsxclPv7K_VYIMr7S26BaeOntxYmc_eJ-aRWmS7t2TXEqZUhWGXmDfRCC388fBrEeVZWiZerxCOqPjQg",
+      "server_count": 2,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=5NKesaTI3HJ-mi7me6FDVswrxTucevOsD1swrVwK_Wg2Cjt9aiUQhNmJuppbEToBVKxpYkES8Q2jJ7XVH21ddhHdNczv-4Z42Vy46Y3q47o0ShpUtrcMmHzvezWhwI4Aw3BxVwsXX_2nRrldxihy3CJ0rb8uLSBuy3OXAt6sBMf6CGif_WSPK7kHL3suLtSqHcgEZkqn81EvMNJsxclPv7K_VYIMr7S26BaeOntxYmc_eJ-aRWmS7t2TXEqZUhWGXmDfRCC388fBrEeVZWiZerxCOqPjQg",
+        "https://live.talkoraai.com/match/seg?t=03_RSSKcj0KpNwre1P324tOoH8bmHPauhCsR5pqaUp2XE1S7YcDS8TtNFzyALIIMyIGL6yjFamYU6ATt1Hjky4E2fB06OjYfajoTA0GaLNIFrF1blmwlQ1Dm3h6XKbyC0ai2DNcCmyNRIjd9DnL_3HtBR_A_5R2C4v1avRW4RMS3mPmRSVLZ0EPNUDX12mOslRBCHbMvxhXUnjSM03yEaZkF9ZmxWKhdFJZ_oTxoco7K059jwKiS_N1iqlHjVj6lc7ehVKpzAXpi-Ii1ZqMHyAEw_i4X-V-m47alSzGM"
+      ],
+      "last_updated": "2026-09-29T18:36:34.210562"
     },
     {
       "match_id": "1081",
@@ -43,7 +69,7 @@
       "runtime": "--",
       "thumbnail": "https://myimgs.org/storage/images/44609/AsianGames2026.jpg",
       "league": "Asian Games 2026",
-      "viewers": "764",
+      "viewers": "765",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -64,7 +90,7 @@
         "https://crickcast-fam.pages.dev/api/proxy?u=https://cloudplay-sonyliv.pages.dev/ten1.m3u8",
         "https://crickcast-fam.pages.dev/api/proxy?u=https://cloudplay-sonyliv.pages.dev/ten3.m3u8"
       ],
-      "last_updated": "2026-09-29T18:31:31.754298"
+      "last_updated": "2026-09-29T18:36:34.559866"
     },
     {
       "match_id": "1157",
@@ -87,99 +113,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.067630"
-    },
-    {
-      "match_id": "1158",
-      "title": "Slovakia vs Kazakhstan",
-      "teams": "Slovakia vs Kazakhstan",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17905432211020x576.jpg",
-      "league": "Sports Tournament",
-      "viewers": "296",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1158",
-      "match_url": "live/slovakia-vs-kazakhstan-1158",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.068375"
-    },
-    {
-      "match_id": "1159",
-      "title": "Czechia vs England",
-      "teams": "Czechia vs England",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17905436641020x576.jpg",
-      "league": "Sports Tournament",
-      "viewers": "333",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1159",
-      "match_url": "live/czechia-vs-england-1159",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.069013"
-    },
-    {
-      "match_id": "1160",
-      "title": "Slovenia vs North Macedonia",
-      "teams": "Slovenia vs North Macedonia",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17905438931020x576.jpg",
-      "league": "Sports Tournament",
-      "viewers": "370",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1160",
-      "match_url": "live/slovenia-vs-north-macedonia-1160",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.069657"
-    },
-    {
-      "match_id": "1161",
-      "title": "Bulgaria vs Estonia",
-      "teams": "Bulgaria vs Estonia",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17905442461020x576.jpg",
-      "league": "Sports Tournament",
-      "viewers": "407",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1161",
-      "match_url": "live/bulgaria-vs-estonia-1161",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.070294"
+      "last_updated": "2026-09-29T18:36:34.901437"
     },
     {
       "match_id": "1162",
@@ -202,7 +136,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.070905"
+      "last_updated": "2026-09-29T18:36:34.902164"
     },
     {
       "match_id": "1163",
@@ -225,7 +159,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.071537"
+      "last_updated": "2026-09-29T18:36:34.902821"
     },
     {
       "match_id": "1132",
@@ -248,7 +182,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.072132"
+      "last_updated": "2026-09-29T18:36:34.903463"
     },
     {
       "match_id": "1099",
@@ -271,7 +205,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.072747"
+      "last_updated": "2026-09-29T18:36:34.904109"
     },
     {
       "match_id": "1037",
@@ -294,7 +228,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.073378"
+      "last_updated": "2026-09-29T18:36:34.904764"
     },
     {
       "match_id": "1083",
@@ -317,7 +251,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.073970"
+      "last_updated": "2026-09-29T18:36:34.905379"
     },
     {
       "match_id": "1146",
@@ -340,7 +274,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.074588"
+      "last_updated": "2026-09-29T18:36:34.906008"
     },
     {
       "match_id": "1100",
@@ -363,7 +297,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.075197"
+      "last_updated": "2026-09-29T18:36:34.906607"
     },
     {
       "match_id": "1000",
@@ -386,7 +320,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.075800"
+      "last_updated": "2026-09-29T18:36:34.907240"
     },
     {
       "match_id": "1001",
@@ -409,7 +343,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.076415"
+      "last_updated": "2026-09-29T18:36:34.907867"
     },
     {
       "match_id": "1008",
@@ -432,7 +366,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.077007"
+      "last_updated": "2026-09-29T18:36:34.908480"
     },
     {
       "match_id": "1042",
@@ -455,7 +389,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.077628"
+      "last_updated": "2026-09-29T18:36:34.909118"
     },
     {
       "match_id": "1049",
@@ -478,7 +412,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.078248"
+      "last_updated": "2026-09-29T18:36:34.909717"
     },
     {
       "match_id": "1043",
@@ -501,7 +435,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.078849"
+      "last_updated": "2026-09-29T18:36:34.910350"
     },
     {
       "match_id": "1101",
@@ -524,7 +458,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.079474"
+      "last_updated": "2026-09-29T18:36:34.910975"
     },
     {
       "match_id": "1102",
@@ -547,7 +481,76 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.080067"
+      "last_updated": "2026-09-29T18:36:34.911585"
+    },
+    {
+      "match_id": "1161",
+      "title": "Bulgaria vs Estonia",
+      "teams": "Bulgaria vs Estonia",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17905442461020x576.jpg",
+      "league": "Sports Tournament",
+      "viewers": "407",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1161",
+      "match_url": "live/bulgaria-vs-estonia-1161",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-29T18:36:34.912206"
+    },
+    {
+      "match_id": "1160",
+      "title": "Slovenia vs North Macedonia",
+      "teams": "Slovenia vs North Macedonia",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17905438931020x576.jpg",
+      "league": "Sports Tournament",
+      "viewers": "370",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1160",
+      "match_url": "live/slovenia-vs-north-macedonia-1160",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-29T18:36:34.912825"
+    },
+    {
+      "match_id": "1158",
+      "title": "Slovakia vs Kazakhstan",
+      "teams": "Slovakia vs Kazakhstan",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17905432211020x576.jpg",
+      "league": "Sports Tournament",
+      "viewers": "296",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1158",
+      "match_url": "live/slovakia-vs-kazakhstan-1158",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-29T18:36:34.913428"
     }
   ]
 }
