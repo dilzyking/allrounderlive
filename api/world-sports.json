@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-29T18:14:39.502701",
-  "total_matches": 15,
+  "timestamp": "2026-09-29T18:19:39.761762",
+  "total_matches": 23,
   "live_count": 1,
-  "upcoming_count": 14,
+  "upcoming_count": 22,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "--",
       "thumbnail": "https://myimgs.org/storage/images/44609/AsianGames2026.jpg",
       "league": "Asian Games 2026",
-      "viewers": "759",
+      "viewers": "760",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -37,7 +37,191 @@
         "https://crickcast-fam.pages.dev/api/proxy?u=https://cloudplay-sonyliv.pages.dev/ten1.m3u8",
         "https://crickcast-fam.pages.dev/api/proxy?u=https://cloudplay-sonyliv.pages.dev/ten3.m3u8"
       ],
-      "last_updated": "2026-09-29T18:11:22.776980"
+      "last_updated": "2026-09-29T18:16:27.825310"
+    },
+    {
+      "match_id": "1156",
+      "title": "Spain vs Croatia",
+      "teams": "Spain vs Croatia",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17905428471020x576.jpg",
+      "league": "UEFA Nations League 2026/27",
+      "viewers": "222",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1156",
+      "match_url": "live/spain-vs-croatia-1156",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-29T18:16:28.212294"
+    },
+    {
+      "match_id": "1157",
+      "title": "Luxembourg vs Iceland",
+      "teams": "Luxembourg vs Iceland",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17905430411020x576.jpg",
+      "league": "Sports Tournament",
+      "viewers": "259",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1157",
+      "match_url": "live/luxembourg-vs-iceland-1157",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-29T18:16:28.212749"
+    },
+    {
+      "match_id": "1158",
+      "title": "Slovakia vs Kazakhstan",
+      "teams": "Slovakia vs Kazakhstan",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17905432211020x576.jpg",
+      "league": "Sports Tournament",
+      "viewers": "296",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1158",
+      "match_url": "live/slovakia-vs-kazakhstan-1158",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-29T18:16:28.213080"
+    },
+    {
+      "match_id": "1159",
+      "title": "Czechia vs England",
+      "teams": "Czechia vs England",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17905436641020x576.jpg",
+      "league": "Sports Tournament",
+      "viewers": "333",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1159",
+      "match_url": "live/czechia-vs-england-1159",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-29T18:16:28.213418"
+    },
+    {
+      "match_id": "1160",
+      "title": "Slovenia vs North Macedonia",
+      "teams": "Slovenia vs North Macedonia",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17905438931020x576.jpg",
+      "league": "Sports Tournament",
+      "viewers": "370",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1160",
+      "match_url": "live/slovenia-vs-north-macedonia-1160",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-29T18:16:28.213741"
+    },
+    {
+      "match_id": "1161",
+      "title": "Bulgaria vs Estonia",
+      "teams": "Bulgaria vs Estonia",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17905442461020x576.jpg",
+      "league": "Sports Tournament",
+      "viewers": "407",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1161",
+      "match_url": "live/bulgaria-vs-estonia-1161",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-29T18:16:28.214060"
+    },
+    {
+      "match_id": "1162",
+      "title": "San Marino vs Albania",
+      "teams": "San Marino vs Albania",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17905444551020x576.jpg",
+      "league": "Sports Tournament",
+      "viewers": "444",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1162",
+      "match_url": "live/san-marino-vs-albania-1162",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-29T18:16:28.214390"
+    },
+    {
+      "match_id": "1163",
+      "title": "Scotland vs Switzerland",
+      "teams": "Scotland vs Switzerland",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17905446431020x576.jpg",
+      "league": "Sports Tournament",
+      "viewers": "481",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1163",
+      "match_url": "live/scotland-vs-switzerland-1163",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-09-29T18:16:28.214712"
     },
     {
       "match_id": "1132",
@@ -60,7 +244,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-29T18:11:23.527895"
+      "last_updated": "2026-09-29T18:16:28.215028"
     },
     {
       "match_id": "1099",
@@ -83,7 +267,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-29T18:11:23.528799"
+      "last_updated": "2026-09-29T18:16:28.215364"
     },
     {
       "match_id": "1037",
@@ -106,7 +290,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-29T18:11:23.529527"
+      "last_updated": "2026-09-29T18:16:28.215688"
     },
     {
       "match_id": "1083",
@@ -129,7 +313,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-29T18:11:23.530164"
+      "last_updated": "2026-09-29T18:16:28.216008"
     },
     {
       "match_id": "1146",
@@ -152,7 +336,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-29T18:11:23.530771"
+      "last_updated": "2026-09-29T18:16:28.216337"
     },
     {
       "match_id": "1100",
@@ -175,7 +359,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-29T18:11:23.531419"
+      "last_updated": "2026-09-29T18:16:28.216660"
     },
     {
       "match_id": "1000",
@@ -198,7 +382,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-29T18:11:23.532040"
+      "last_updated": "2026-09-29T18:16:28.216975"
     },
     {
       "match_id": "1001",
@@ -221,7 +405,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-29T18:11:23.532653"
+      "last_updated": "2026-09-29T18:16:28.217316"
     },
     {
       "match_id": "1008",
@@ -244,7 +428,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-29T18:11:23.533273"
+      "last_updated": "2026-09-29T18:16:28.217634"
     },
     {
       "match_id": "1042",
@@ -267,7 +451,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-29T18:11:23.533874"
+      "last_updated": "2026-09-29T18:16:28.217946"
     },
     {
       "match_id": "1049",
@@ -290,7 +474,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-29T18:11:23.534482"
+      "last_updated": "2026-09-29T18:16:28.218268"
     },
     {
       "match_id": "1043",
@@ -313,7 +497,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-29T18:11:23.535094"
+      "last_updated": "2026-09-29T18:16:28.218583"
     },
     {
       "match_id": "1101",
@@ -336,7 +520,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-29T18:11:23.535685"
+      "last_updated": "2026-09-29T18:16:28.218895"
     },
     {
       "match_id": "1102",
@@ -359,7 +543,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-29T18:11:23.536486"
+      "last_updated": "2026-09-29T18:16:28.219214"
     }
   ]
 }
