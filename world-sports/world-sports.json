@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-30T09:15:16.116532",
+  "timestamp": "2026-09-30T09:20:16.404586",
   "total_matches": 15,
   "live_count": 2,
   "upcoming_count": 13,
@@ -16,17 +16,22 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17901552361020x576.jpg",
       "league": "West Indies Tour of India 2026",
-      "viewers": "60",
+      "viewers": "62",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
       "servers": null,
       "page_url": "/world-sports/player.html?id=1132",
       "match_url": "live/india-vs-west-indies-2nd-odi-1132",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-30T09:11:46.325532"
+      "stream_url": "https://live.talkoraai.com/match/hls?t=pWP6f3rja0RaCSpmr-Dyag6J8-S3Oe0GwpBv-KUKV3VFryh5o_XlfaEWVhkXJ8_aUnGxMgrXxffkNR_vKCtmcH1PL_RSLIs43_cYOTjE8vKnaWbRyI9exeo6e6wBpJxYDjIuBRAyawyRTsuvSMuQCtlZzOJRCde6qC9IXRwS5Lj8bfaeufKqqeOVrm5jmsNZLurfoC9SZb8pofuQFgL5UEi6EhG_ISMTChH1i0u4KIgAyvaHJe0zS5J0S_fFhwfXFL5dH3tVEipE1X0c7MiQR1LPX2dpAi4",
+      "server_count": 4,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=pWP6f3rja0RaCSpmr-Dyag6J8-S3Oe0GwpBv-KUKV3VFryh5o_XlfaEWVhkXJ8_aUnGxMgrXxffkNR_vKCtmcH1PL_RSLIs43_cYOTjE8vKnaWbRyI9exeo6e6wBpJxYDjIuBRAyawyRTsuvSMuQCtlZzOJRCde6qC9IXRwS5Lj8bfaeufKqqeOVrm5jmsNZLurfoC9SZb8pofuQFgL5UEi6EhG_ISMTChH1i0u4KIgAyvaHJe0zS5J0S_fFhwfXFL5dH3tVEipE1X0c7MiQR1LPX2dpAi4",
+        "https://tvsen7.aynascope.net/ssport2hd/tracks-v1a1/mono.ts.m3u8",
+        "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.50%2Fhls%2FARRRa.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
+        "https://live.talkoraai.com/match/seg?t=KaAbIFslNIne4I_S3Mfoo04O4Db1XtqfZppSPIgYIKqEG6oT-wgpSFuzdpdiulASCVzbRevGXNlwB94dGLkxDXB5Gw6wok1j6Jjs5JeItoil1edWk-QZ_HTxtkT5qnBlFa7NSH1kBgfe7ydVd95Q6u5i32VJiseK46wZEXKrGzVbToGXBCX2TaDl8RMLdroz2IG_ahOn08ushdFCa3iiDGVzPRUqPoBRRciHSc2K1JbSoegYudfVN6axZbL87q7wBFitq4tY-x5yVDUv_6UsyhBfS1WnhIfNYTHLqivNWw"
+      ],
+      "last_updated": "2026-09-30T09:16:56.658118"
     },
     {
       "match_id": "1081",
@@ -39,7 +44,7 @@
       "runtime": "--",
       "thumbnail": "https://myimgs.org/storage/images/44609/AsianGames2026.jpg",
       "league": "Asian Games 2026",
-      "viewers": "896",
+      "viewers": "897",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -60,7 +65,7 @@
         "https://crickcast-fam.pages.dev/api/proxy?u=https://cloudplay-sonyliv.pages.dev/ten1.m3u8",
         "https://crickcast-fam.pages.dev/api/proxy?u=https://cloudplay-sonyliv.pages.dev/ten3.m3u8"
       ],
-      "last_updated": "2026-09-30T09:12:01.343343"
+      "last_updated": "2026-09-30T09:16:57.032127"
     },
     {
       "match_id": "1099",
@@ -83,7 +88,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-30T09:12:02.696793"
+      "last_updated": "2026-09-30T09:16:57.392906"
     },
     {
       "match_id": "1037",
@@ -106,7 +111,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-30T09:12:02.697653"
+      "last_updated": "2026-09-30T09:16:57.393616"
     },
     {
       "match_id": "1083",
@@ -129,7 +134,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-30T09:12:02.698312"
+      "last_updated": "2026-09-30T09:16:57.394286"
     },
     {
       "match_id": "1146",
@@ -152,7 +157,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-30T09:12:02.698975"
+      "last_updated": "2026-09-30T09:16:57.394940"
     },
     {
       "match_id": "1100",
@@ -175,7 +180,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-30T09:12:02.699604"
+      "last_updated": "2026-09-30T09:16:57.395577"
     },
     {
       "match_id": "1000",
@@ -198,7 +203,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-30T09:12:02.700204"
+      "last_updated": "2026-09-30T09:16:57.396212"
     },
     {
       "match_id": "1001",
@@ -221,7 +226,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-30T09:12:02.700874"
+      "last_updated": "2026-09-30T09:16:57.396837"
     },
     {
       "match_id": "1008",
@@ -244,7 +249,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-30T09:12:02.701485"
+      "last_updated": "2026-09-30T09:16:57.397441"
     },
     {
       "match_id": "1042",
@@ -267,7 +272,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-30T09:12:02.702110"
+      "last_updated": "2026-09-30T09:16:57.398060"
     },
     {
       "match_id": "1049",
@@ -290,7 +295,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-30T09:12:02.702731"
+      "last_updated": "2026-09-30T09:16:57.398657"
     },
     {
       "match_id": "1043",
@@ -313,7 +318,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-30T09:12:02.703329"
+      "last_updated": "2026-09-30T09:16:57.399283"
     },
     {
       "match_id": "1101",
@@ -336,7 +341,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-30T09:12:02.704069"
+      "last_updated": "2026-09-30T09:16:57.399915"
     },
     {
       "match_id": "1102",
@@ -359,7 +364,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-30T09:12:02.704704"
+      "last_updated": "2026-09-30T09:16:57.400519"
     }
   ]
 }
