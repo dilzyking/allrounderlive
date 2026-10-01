@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-30T23:59:54.727395",
+  "timestamp": "2026-10-01T00:04:59.067712",
   "total_matches": 28,
-  "live_count": 3,
-  "upcoming_count": 25,
+  "live_count": 5,
+  "upcoming_count": 23,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249814_53099_TTS_BBZ_FC-Web.png",
       "league": "Canada Super 60",
-      "viewers": "42",
+      "viewers": "43",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -30,7 +30,7 @@
         "https://tvsen7.aynascope.net/zY3hJ7pQ2vM5gD8s/tracks-v1a1/mono.ts.m3u8",
         "https://tvsen5.aynaott.com/TnMn5kZz8aLmjkl/index.m3u8"
       ],
-      "last_updated": "2026-09-30T23:55:45.249148"
+      "last_updated": "2026-10-01T00:00:46.848774"
     },
     {
       "match_id": "1166",
@@ -43,7 +43,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249815_53099_VAC_MRT_FC-Web.png",
       "league": "Canada Super 60",
-      "viewers": "13",
+      "viewers": "14",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -57,7 +57,69 @@
         "https://tvsen7.aynascope.net/zY3hJ7pQ2vM5gD8s/tracks-v1a1/mono.ts.m3u8",
         "http://livetv.akr4m.com:8080/bdtv/restrem/02.m3u8"
       ],
-      "last_updated": "2026-09-30T23:55:46.185010"
+      "last_updated": "2026-10-01T00:00:47.735033"
+    },
+    {
+      "match_id": "1179",
+      "title": "Argentina vs Bolivia",
+      "teams": "Argentina vs Bolivia",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGP4EJtzORsldLfl9g-dGndStsYOmt77FMWyjNrT71gqo8pWVaA9t_F6g&s=10",
+      "league": "FIFA Friendly 2026",
+      "viewers": "1",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1179",
+      "match_url": "live/argentina-vs-bolivia-1179",
+      "stream_url": "https://hwyypull.ncctrials.com/live/stream-746673_lhd.m3u8",
+      "server_count": 3,
+      "server_urls": [
+        "https://hwyypull.ncctrials.com/live/stream-746673_lhd.m3u8",
+        "https://live2.domaincdn.cc/livecdn/channel-21.m3u8?auth_key=3000001790789934-0-0-acda2e689606da5876b9611335f8440f",
+        "https://live05.meung.app/live/78905744.m3u8"
+      ],
+      "last_updated": "2026-10-01T00:00:48.082915"
+    },
+    {
+      "match_id": "1177",
+      "title": "Pakistan vs Bangladesh 1st Semi-Final",
+      "teams": "Pakistan vs Bangladesh 1st Semi-Final",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.2f6f8b61-15b2-48df-b66c-7011d1f87238/2/HERO-16X9/en-US._UR1920,1080_.jpeg",
+      "league": "Asian Games 2026 (Cricket T20)",
+      "viewers": "4",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1177",
+      "match_url": "live/pakistan-vs-bangladesh-1st-semi-final-1177",
+      "stream_url": "https://drk6xq0vhn.gpcdn.net/live/ten_1_hd_720/index.m3u8",
+      "server_count": 11,
+      "server_urls": [
+        "https://drk6xq0vhn.gpcdn.net/live/ten_1_hd_720/index.m3u8",
+        "https://robitv.com/lps/https://ml-pull-dvc-myco.io:2096/TENSPORTS_HD/mono.m3u8",
+        "https://alixbd.com/playlistconfig/toffee.php?ts_proxy=aHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbS9jZG4vbGl2ZS9zb255X3Nwb3J0c18yX2hkLzU3Ni81NzYubTN1OD9oZG50bD1FeHBpcmVzPTE3OTA4ODY0OTB%2BX0dPPUdlbmVyYXRlZH5VUkxQcmVmaXg9YUhSMGNITTZMeTl3Y205a0xXeHBibVZoY2kxdFpXUnBZUzUwYjJabVpXVnNhWFpsTG1OdmJRfkRhdGE9ZXlKemRXSnpZM0pwWW1WeVgybGtJam9pTW1ZeU5tRXlabVl0T0RSa1lTMDBOelJpTFdKaU4yRXRNakZsWTJWaFpUSXlOREJtSW4wflNpZ25hdHVyZT1BZGhCMkxjWUtzR2k5Mzd3QnIxU0l6T0RHUzVlVVNIdEVla1FEbGNENlY1RDQtczFHM1E4Y25xYnFJN1Q0NEVhVG1LTkVlOUlPZkZKVUtUcVJlU2hHN0xueW5nSw%3D%3D",
+        "https://drk6xq0vhn.gpcdn.net/live/ten_2_hd_720/index.m3u8",
+        "https://alixbd.com/playlistconfig/toffee.php?channel=Sony%20Ten%20Sports%202%20HD&raw=1",
+        "https://alixbd.com/playlistconfig/toffee.php?ts_proxy=aHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbS9jZG4vbGl2ZS9zb255X3Nwb3J0c18yX2hkLzU3Ni81NzYubTN1OD9oZG50bD1FeHBpcmVzPTE3OTA4ODY0OTB%2BX0dPPUdlbmVyYXRlZH5VUkxQcmVmaXg9YUhSMGNITTZMeTl3Y205a0xXeHBibVZoY2kxdFpXUnBZUzUwYjJabVpXVnNhWFpsTG1OdmJRfkRhdGE9ZXlKemRXSnpZM0pwWW1WeVgybGtJam9pTW1ZeU5tRXlabVl0T0RSa1lTMDBOelJpTFdKaU4yRXRNakZsWTJWaFpUSXlOREJtSW4wflNpZ25hdHVyZT1BZGhCMkxjWUtzR2k5Mzd3QnIxU0l6T0RHUzVlVVNIdEVla1FEbGNENlY1RDQtczFHM1E4Y25xYnFJN1Q0NEVhVG1LTkVlOUlPZkZKVUtUcVJlU2hHN0xueW5nSw%3D%3D",
+        "https://alixbd.com/playlistconfig/toffee.php?channel=Sony+Ten+Sports+1+HD&stream_data=1",
+        "https://alixbd.com/playlistconfig/toffee.php?channel=Sony%20Ten%20Sports%202%20HD&raw=1",
+        "https://alixbd.com/playlistconfig/toffee.php?channel=Sony+Ten+Sports+2+HD&stream_data=1",
+        "https://alixbd.com/playlistconfig/toffee.php?ts_proxy=aHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbS9jZG4vbGl2ZS90ZW5fY3JpY2tldC8xMDgwLzEwODAubTN1OD9oZG50bD1FeHBpcmVzPTE3OTA4ODY4MTF%2BX0dPPUdlbmVyYXRlZH5VUkxQcmVmaXg9YUhSMGNITTZMeTl3Y205a0xXeHBibVZoY2kxdFpXUnBZUzUwYjJabVpXVnNhWFpsTG1OdmJRfkRhdGE9ZXlKemRXSnpZM0pwWW1WeVgybGtJam9pTW1ZeU5tRXlabVl0T0RSa1lTMDBOelJpTFdKaU4yRXRNakZsWTJWaFpUSXlOREJtSW4wflNpZ25hdHVyZT1BZGhCMkxjVHNwbUY2SW10Z2NBODhHTFNtMFhTUEZpYUNXMjhrbEh4T3JjWkYzU1djcTV0YmhZRGNtSERMX3d0TFRQQTlCOEY2bjMtQmZWendWOGQ0cWk0VHg0Rg%3D%3D",
+        "https://alixbd.com/playlistconfig/toffee.php?channel=Sony%20Ten%20Cricket&raw=1"
+      ],
+      "last_updated": "2026-10-01T00:00:48.488640"
     },
     {
       "match_id": "1081",
@@ -70,7 +132,7 @@
       "runtime": "--",
       "thumbnail": "https://myimgs.org/storage/images/44609/AsianGames2026.jpg",
       "league": "Asian Games 2026",
-      "viewers": "085",
+      "viewers": "086",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -93,53 +155,7 @@
         "https://alixbd.com/playlistconfig/toffee.php?ts_proxy=aHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbS9jZG4vbGl2ZS9zb255X3Nwb3J0c18yX2hkLzU3Ni81NzYubTN1OD9oZG50bD1FeHBpcmVzPTE3OTA4ODY0OTB%2BX0dPPUdlbmVyYXRlZH5VUkxQcmVmaXg9YUhSMGNITTZMeTl3Y205a0xXeHBibVZoY2kxdFpXUnBZUzUwYjJabVpXVnNhWFpsTG1OdmJRfkRhdGE9ZXlKemRXSnpZM0pwWW1WeVgybGtJam9pTW1ZeU5tRXlabVl0T0RSa1lTMDBOelJpTFdKaU4yRXRNakZsWTJWaFpUSXlOREJtSW4wflNpZ25hdHVyZT1BZGhCMkxjWUtzR2k5Mzd3QnIxU0l6T0RHUzVlVVNIdEVla1FEbGNENlY1RDQtczFHM1E4Y25xYnFJN1Q0NEVhVG1LTkVlOUlPZkZKVUtUcVJlU2hHN0xueW5nSw%3D%3D",
         "https://alixbd.com/playlistconfig/toffee.php?channel=Sony%20Ten%20Sports%202%20HD&raw=1"
       ],
-      "last_updated": "2026-09-30T23:55:46.533284"
-    },
-    {
-      "match_id": "1179",
-      "title": "Argentina vs Bolivia",
-      "teams": "Argentina vs Bolivia",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGP4EJtzORsldLfl9g-dGndStsYOmt77FMWyjNrT71gqo8pWVaA9t_F6g&s=10",
-      "league": "FIFA Friendly 2026",
-      "viewers": "1",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1179",
-      "match_url": "live/argentina-vs-bolivia-1179",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-30T23:55:46.867087"
-    },
-    {
-      "match_id": "1177",
-      "title": "Pakistan vs Bangladesh 1st Semi-Final",
-      "teams": "Pakistan vs Bangladesh 1st Semi-Final",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.2f6f8b61-15b2-48df-b66c-7011d1f87238/2/HERO-16X9/en-US._UR1920,1080_.jpeg",
-      "league": "Asian Games 2026 (Cricket T20)",
-      "viewers": "3",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1177",
-      "match_url": "live/pakistan-vs-bangladesh-1st-semi-final-1177",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-09-30T23:55:46.867777"
+      "last_updated": "2026-10-01T00:00:48.906378"
     },
     {
       "match_id": "1167",
@@ -162,7 +178,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-30T23:55:46.868433"
+      "last_updated": "2026-10-01T00:00:49.270805"
     },
     {
       "match_id": "1178",
@@ -185,7 +201,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-30T23:55:46.869085"
+      "last_updated": "2026-10-01T00:00:49.271348"
     },
     {
       "match_id": "1168",
@@ -208,7 +224,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-30T23:55:46.869691"
+      "last_updated": "2026-10-01T00:00:49.271807"
     },
     {
       "match_id": "1169",
@@ -231,7 +247,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-30T23:55:46.870336"
+      "last_updated": "2026-10-01T00:00:49.272259"
     },
     {
       "match_id": "1170",
@@ -254,7 +270,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-30T23:55:46.870968"
+      "last_updated": "2026-10-01T00:00:49.272697"
     },
     {
       "match_id": "1171",
@@ -277,7 +293,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-30T23:55:46.871573"
+      "last_updated": "2026-10-01T00:00:49.273123"
     },
     {
       "match_id": "1172",
@@ -300,7 +316,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-30T23:55:46.872198"
+      "last_updated": "2026-10-01T00:00:49.273561"
     },
     {
       "match_id": "1173",
@@ -323,7 +339,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-30T23:55:46.872826"
+      "last_updated": "2026-10-01T00:00:49.273992"
     },
     {
       "match_id": "1037",
@@ -346,7 +362,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-30T23:55:46.873429"
+      "last_updated": "2026-10-01T00:00:49.274425"
     },
     {
       "match_id": "1083",
@@ -369,7 +385,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-30T23:55:46.874057"
+      "last_updated": "2026-10-01T00:00:49.274851"
     },
     {
       "match_id": "1146",
@@ -392,7 +408,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-30T23:55:46.874663"
+      "last_updated": "2026-10-01T00:00:49.275289"
     },
     {
       "match_id": "1174",
@@ -415,7 +431,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-30T23:55:46.875298"
+      "last_updated": "2026-10-01T00:00:49.275717"
     },
     {
       "match_id": "1175",
@@ -438,7 +454,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-30T23:55:46.875919"
+      "last_updated": "2026-10-01T00:00:49.276152"
     },
     {
       "match_id": "1176",
@@ -461,7 +477,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-30T23:55:46.876525"
+      "last_updated": "2026-10-01T00:00:49.276580"
     },
     {
       "match_id": "1100",
@@ -484,7 +500,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-30T23:55:46.877142"
+      "last_updated": "2026-10-01T00:00:49.277003"
     },
     {
       "match_id": "1000",
@@ -507,7 +523,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-30T23:55:46.877742"
+      "last_updated": "2026-10-01T00:00:49.277452"
     },
     {
       "match_id": "1001",
@@ -530,7 +546,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-30T23:55:46.878374"
+      "last_updated": "2026-10-01T00:00:49.277878"
     },
     {
       "match_id": "1008",
@@ -553,7 +569,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-30T23:55:46.878997"
+      "last_updated": "2026-10-01T00:00:49.278322"
     },
     {
       "match_id": "1042",
@@ -576,7 +592,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-30T23:55:46.879591"
+      "last_updated": "2026-10-01T00:00:49.278744"
     },
     {
       "match_id": "1049",
@@ -599,7 +615,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-30T23:55:46.880248"
+      "last_updated": "2026-10-01T00:00:49.279179"
     },
     {
       "match_id": "1043",
@@ -622,7 +638,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-30T23:55:46.880876"
+      "last_updated": "2026-10-01T00:00:49.279604"
     },
     {
       "match_id": "1101",
@@ -645,7 +661,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-30T23:55:46.881481"
+      "last_updated": "2026-10-01T00:00:49.280025"
     },
     {
       "match_id": "1102",
@@ -668,7 +684,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-09-30T23:55:46.882102"
+      "last_updated": "2026-10-01T00:00:49.280455"
     }
   ]
 }
