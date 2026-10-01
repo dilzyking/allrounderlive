@@ -1,37 +1,10 @@
 {
-  "timestamp": "2026-10-01T05:35:48.027756",
-  "total_matches": 24,
-  "live_count": 3,
+  "timestamp": "2026-10-01T05:40:50.317606",
+  "total_matches": 23,
+  "live_count": 2,
   "upcoming_count": 21,
   "completed_count": 0,
   "matches": [
-    {
-      "match_id": "1167",
-      "title": "White Rock Warriors vs Mississauga Masters-T10",
-      "teams": "White Rock Warriors vs Mississauga Masters-T10",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249816_53099_WRW_MGM_FC-Web.png",
-      "league": "Canada Super 60",
-      "viewers": "50",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1167",
-      "match_url": "live/white-rock-warriors-vs-mississauga-masters-t10-1167",
-      "stream_url": "https://flussonic.defineatoz.com/TSports2/tracks-v1a1/mono.m3u8",
-      "server_count": 3,
-      "server_urls": [
-        "https://flussonic.defineatoz.com/TSports2/tracks-v1a1/mono.m3u8",
-        "https://tvsen7.aynascope.net/zY3hJ7pQ2vM5gD8s/tracks-v1a1/mono.ts.m3u8",
-        "http://livetv.akr4m.com:8080/bdtv/restrem/02.m3u8"
-      ],
-      "last_updated": "2026-10-01T05:31:39.269976"
-    },
     {
       "match_id": "1178",
       "title": "India vs Sri Lanka 2nd Semi-Final",
@@ -43,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://api.bdcrictime.com/india-vs-sri-lanka-2nd-semi-final-30_09_2026.jpg",
       "league": "Asian Games 2026 (Cricket T20)",
-      "viewers": "25",
+      "viewers": "27",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -60,7 +33,7 @@
         "https://alixbd.com/playlistconfig/toffee.php?channel=Sony%20Ten%20Sports%202%20HD&raw=1",
         "https://alixbd.com/playlistconfig/toffee.php?channel=Sony%20Ten%20Cricket&raw=1"
       ],
-      "last_updated": "2026-10-01T05:31:40.252524"
+      "last_updated": "2026-10-01T05:36:39.701522"
     },
     {
       "match_id": "1081",
@@ -73,7 +46,7 @@
       "runtime": "--",
       "thumbnail": "https://myimgs.org/storage/images/44609/AsianGames2026.jpg",
       "league": "Asian Games 2026",
-      "viewers": "147",
+      "viewers": "148",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -96,7 +69,7 @@
         "https://alixbd.com/playlistconfig/toffee.php?ts_proxy=aHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbS9jZG4vbGl2ZS9zb255X3Nwb3J0c18yX2hkLzU3Ni81NzYubTN1OD9oZG50bD1FeHBpcmVzPTE3OTA4ODY0OTB%2BX0dPPUdlbmVyYXRlZH5VUkxQcmVmaXg9YUhSMGNITTZMeTl3Y205a0xXeHBibVZoY2kxdFpXUnBZUzUwYjJabVpXVnNhWFpsTG1OdmJRfkRhdGE9ZXlKemRXSnpZM0pwWW1WeVgybGtJam9pTW1ZeU5tRXlabVl0T0RSa1lTMDBOelJpTFdKaU4yRXRNakZsWTJWaFpUSXlOREJtSW4wflNpZ25hdHVyZT1BZGhCMkxjWUtzR2k5Mzd3QnIxU0l6T0RHUzVlVVNIdEVla1FEbGNENlY1RDQtczFHM1E4Y25xYnFJN1Q0NEVhVG1LTkVlOUlPZkZKVUtUcVJlU2hHN0xueW5nSw%3D%3D",
         "https://alixbd.com/playlistconfig/toffee.php?channel=Sony%20Ten%20Sports%202%20HD&raw=1"
       ],
-      "last_updated": "2026-10-01T05:31:40.596996"
+      "last_updated": "2026-10-01T05:36:40.040838"
     },
     {
       "match_id": "1168",
@@ -119,7 +92,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T05:31:40.947297"
+      "last_updated": "2026-10-01T05:36:40.937164"
     },
     {
       "match_id": "1169",
@@ -142,7 +115,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T05:31:40.948003"
+      "last_updated": "2026-10-01T05:36:40.937839"
     },
     {
       "match_id": "1170",
@@ -165,7 +138,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T05:31:40.948660"
+      "last_updated": "2026-10-01T05:36:40.938417"
     },
     {
       "match_id": "1171",
@@ -188,7 +161,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T05:31:40.949277"
+      "last_updated": "2026-10-01T05:36:40.938974"
     },
     {
       "match_id": "1172",
@@ -211,7 +184,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T05:31:40.949904"
+      "last_updated": "2026-10-01T05:36:40.939570"
     },
     {
       "match_id": "1173",
@@ -234,7 +207,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T05:31:40.950502"
+      "last_updated": "2026-10-01T05:36:40.940117"
     },
     {
       "match_id": "1037",
@@ -257,7 +230,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T05:31:40.951121"
+      "last_updated": "2026-10-01T05:36:40.940668"
     },
     {
       "match_id": "1083",
@@ -280,7 +253,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T05:31:40.951730"
+      "last_updated": "2026-10-01T05:36:40.941200"
     },
     {
       "match_id": "1146",
@@ -303,7 +276,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T05:31:40.952328"
+      "last_updated": "2026-10-01T05:36:40.941748"
     },
     {
       "match_id": "1174",
@@ -326,7 +299,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T05:31:40.952947"
+      "last_updated": "2026-10-01T05:36:40.942297"
     },
     {
       "match_id": "1175",
@@ -349,7 +322,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T05:31:40.953549"
+      "last_updated": "2026-10-01T05:36:40.942837"
     },
     {
       "match_id": "1176",
@@ -372,7 +345,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T05:31:40.954178"
+      "last_updated": "2026-10-01T05:36:40.943387"
     },
     {
       "match_id": "1100",
@@ -395,7 +368,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T05:31:40.954807"
+      "last_updated": "2026-10-01T05:36:40.943922"
     },
     {
       "match_id": "1000",
@@ -418,7 +391,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T05:31:40.955415"
+      "last_updated": "2026-10-01T05:36:40.944470"
     },
     {
       "match_id": "1001",
@@ -441,7 +414,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T05:31:40.956046"
+      "last_updated": "2026-10-01T05:36:40.945003"
     },
     {
       "match_id": "1008",
@@ -464,7 +437,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T05:31:40.956673"
+      "last_updated": "2026-10-01T05:36:40.945552"
     },
     {
       "match_id": "1042",
@@ -487,7 +460,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T05:31:40.957279"
+      "last_updated": "2026-10-01T05:36:40.946089"
     },
     {
       "match_id": "1049",
@@ -510,7 +483,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T05:31:40.957896"
+      "last_updated": "2026-10-01T05:36:40.946629"
     },
     {
       "match_id": "1043",
@@ -533,7 +506,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T05:31:40.958496"
+      "last_updated": "2026-10-01T05:36:40.947159"
     },
     {
       "match_id": "1101",
@@ -556,7 +529,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T05:31:40.959117"
+      "last_updated": "2026-10-01T05:36:40.947709"
     },
     {
       "match_id": "1102",
@@ -579,7 +552,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T05:31:40.959736"
+      "last_updated": "2026-10-01T05:36:40.948261"
     }
   ]
 }
