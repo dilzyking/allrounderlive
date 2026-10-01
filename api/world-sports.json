@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-01T04:30:19.317891",
+  "timestamp": "2026-10-01T04:35:19.121239",
   "total_matches": 24,
-  "live_count": 2,
-  "upcoming_count": 22,
+  "live_count": 3,
+  "upcoming_count": 21,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249816_53099_WRW_MGM_FC-Web.png",
       "league": "Canada Super 60",
-      "viewers": "37",
+      "viewers": "38",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -30,7 +30,37 @@
         "https://tvsen7.aynascope.net/zY3hJ7pQ2vM5gD8s/tracks-v1a1/mono.ts.m3u8",
         "http://livetv.akr4m.com:8080/bdtv/restrem/02.m3u8"
       ],
-      "last_updated": "2026-10-01T04:26:05.827297"
+      "last_updated": "2026-10-01T04:31:09.634836"
+    },
+    {
+      "match_id": "1178",
+      "title": "India vs Sri Lanka 2nd Semi-Final",
+      "teams": "India vs Sri Lanka 2nd Semi-Final",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://api.bdcrictime.com/india-vs-sri-lanka-2nd-semi-final-30_09_2026.jpg",
+      "league": "Asian Games 2026 (Cricket T20)",
+      "viewers": "3",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1178",
+      "match_url": "live/india-vs-sri-lanka-2nd-semi-final-1178",
+      "stream_url": "https://drk6xq0vhn.gpcdn.net/live/ten_1_hd_720/index.m3u8",
+      "server_count": 6,
+      "server_urls": [
+        "https://drk6xq0vhn.gpcdn.net/live/ten_1_hd_720/index.m3u8",
+        "https://robitv.com/lps/https://ml-pull-dvc-myco.io:2096/TENSPORTS_HD/mono.m3u8",
+        "https://alixbd.com/playlistconfig/toffee.php?ts_proxy=aHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbS9jZG4vbGl2ZS9zb255X3Nwb3J0c18yX2hkLzU3Ni81NzYubTN1OD9oZG50bD1FeHBpcmVzPTE3OTA4ODY0OTB%2BX0dPPUdlbmVyYXRlZH5VUkxQcmVmaXg9YUhSMGNITTZMeTl3Y205a0xXeHBibVZoY2kxdFpXUnBZUzUwYjJabVpXVnNhWFpsTG1OdmJRfkRhdGE9ZXlKemRXSnpZM0pwWW1WeVgybGtJam9pTW1ZeU5tRXlabVl0T0RSa1lTMDBOelJpTFdKaU4yRXRNakZsWTJWaFpUSXlOREJtSW4wflNpZ25hdHVyZT1BZGhCMkxjWUtzR2k5Mzd3QnIxU0l6T0RHUzVlVVNIdEVla1FEbGNENlY1RDQtczFHM1E4Y25xYnFJN1Q0NEVhVG1LTkVlOUlPZkZKVUtUcVJlU2hHN0xueW5nSw%3D%3D",
+        "https://drk6xq0vhn.gpcdn.net/live/ten_2_hd_720/index.m3u8",
+        "https://alixbd.com/playlistconfig/toffee.php?channel=Sony%20Ten%20Sports%202%20HD&raw=1",
+        "https://alixbd.com/playlistconfig/toffee.php?channel=Sony%20Ten%20Cricket&raw=1"
+      ],
+      "last_updated": "2026-10-01T04:31:10.675184"
     },
     {
       "match_id": "1081",
@@ -43,7 +73,7 @@
       "runtime": "--",
       "thumbnail": "https://myimgs.org/storage/images/44609/AsianGames2026.jpg",
       "league": "Asian Games 2026",
-      "viewers": "131",
+      "viewers": "133",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -66,30 +96,7 @@
         "https://alixbd.com/playlistconfig/toffee.php?ts_proxy=aHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbS9jZG4vbGl2ZS9zb255X3Nwb3J0c18yX2hkLzU3Ni81NzYubTN1OD9oZG50bD1FeHBpcmVzPTE3OTA4ODY0OTB%2BX0dPPUdlbmVyYXRlZH5VUkxQcmVmaXg9YUhSMGNITTZMeTl3Y205a0xXeHBibVZoY2kxdFpXUnBZUzUwYjJabVpXVnNhWFpsTG1OdmJRfkRhdGE9ZXlKemRXSnpZM0pwWW1WeVgybGtJam9pTW1ZeU5tRXlabVl0T0RSa1lTMDBOelJpTFdKaU4yRXRNakZsWTJWaFpUSXlOREJtSW4wflNpZ25hdHVyZT1BZGhCMkxjWUtzR2k5Mzd3QnIxU0l6T0RHUzVlVVNIdEVla1FEbGNENlY1RDQtczFHM1E4Y25xYnFJN1Q0NEVhVG1LTkVlOUlPZkZKVUtUcVJlU2hHN0xueW5nSw%3D%3D",
         "https://alixbd.com/playlistconfig/toffee.php?channel=Sony%20Ten%20Sports%202%20HD&raw=1"
       ],
-      "last_updated": "2026-10-01T04:26:06.161315"
-    },
-    {
-      "match_id": "1178",
-      "title": "India vs Sri Lanka 2nd Semi-Final",
-      "teams": "India vs Sri Lanka 2nd Semi-Final",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://api.bdcrictime.com/india-vs-sri-lanka-2nd-semi-final-30_09_2026.jpg",
-      "league": "Asian Games 2026 (Cricket T20)",
-      "viewers": "2",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1178",
-      "match_url": "live/india-vs-sri-lanka-2nd-semi-final-1178",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-10-01T04:26:06.523436"
+      "last_updated": "2026-10-01T04:31:10.999390"
     },
     {
       "match_id": "1168",
@@ -112,7 +119,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T04:26:06.524152"
+      "last_updated": "2026-10-01T04:31:11.331605"
     },
     {
       "match_id": "1169",
@@ -135,7 +142,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T04:26:06.524770"
+      "last_updated": "2026-10-01T04:31:11.332096"
     },
     {
       "match_id": "1170",
@@ -158,7 +165,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T04:26:06.525436"
+      "last_updated": "2026-10-01T04:31:11.332531"
     },
     {
       "match_id": "1171",
@@ -181,7 +188,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T04:26:06.526062"
+      "last_updated": "2026-10-01T04:31:11.332979"
     },
     {
       "match_id": "1172",
@@ -204,7 +211,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T04:26:06.526660"
+      "last_updated": "2026-10-01T04:31:11.333410"
     },
     {
       "match_id": "1173",
@@ -227,7 +234,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T04:26:06.527272"
+      "last_updated": "2026-10-01T04:31:11.333844"
     },
     {
       "match_id": "1037",
@@ -250,7 +257,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T04:26:06.527852"
+      "last_updated": "2026-10-01T04:31:11.334270"
     },
     {
       "match_id": "1083",
@@ -273,7 +280,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T04:26:06.528478"
+      "last_updated": "2026-10-01T04:31:11.334701"
     },
     {
       "match_id": "1146",
@@ -296,7 +303,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T04:26:06.529080"
+      "last_updated": "2026-10-01T04:31:11.335120"
     },
     {
       "match_id": "1174",
@@ -319,7 +326,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T04:26:06.529662"
+      "last_updated": "2026-10-01T04:31:11.335545"
     },
     {
       "match_id": "1175",
@@ -342,7 +349,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T04:26:06.530264"
+      "last_updated": "2026-10-01T04:31:11.335963"
     },
     {
       "match_id": "1176",
@@ -365,7 +372,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T04:26:06.530857"
+      "last_updated": "2026-10-01T04:31:11.336384"
     },
     {
       "match_id": "1100",
@@ -388,7 +395,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T04:26:06.531462"
+      "last_updated": "2026-10-01T04:31:11.336812"
     },
     {
       "match_id": "1000",
@@ -411,7 +418,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T04:26:06.532070"
+      "last_updated": "2026-10-01T04:31:11.337235"
     },
     {
       "match_id": "1001",
@@ -434,7 +441,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T04:26:06.532658"
+      "last_updated": "2026-10-01T04:31:11.337669"
     },
     {
       "match_id": "1008",
@@ -457,7 +464,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T04:26:06.533262"
+      "last_updated": "2026-10-01T04:31:11.338093"
     },
     {
       "match_id": "1042",
@@ -480,7 +487,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T04:26:06.533840"
+      "last_updated": "2026-10-01T04:31:11.338506"
     },
     {
       "match_id": "1049",
@@ -503,7 +510,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T04:26:06.534444"
+      "last_updated": "2026-10-01T04:31:11.338935"
     },
     {
       "match_id": "1043",
@@ -526,7 +533,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T04:26:06.535045"
+      "last_updated": "2026-10-01T04:31:11.339350"
     },
     {
       "match_id": "1101",
@@ -549,7 +556,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T04:26:06.535640"
+      "last_updated": "2026-10-01T04:31:11.339776"
     },
     {
       "match_id": "1102",
@@ -572,7 +579,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-01T04:26:06.536243"
+      "last_updated": "2026-10-01T04:31:11.340199"
     }
   ]
 }
