@@ -1,10 +1,33 @@
 {
-  "timestamp": "2026-10-02T22:56:49.737114",
+  "timestamp": "2026-10-02T23:22:59.006758",
   "total_matches": 19,
-  "live_count": 1,
-  "upcoming_count": 18,
+  "live_count": 2,
+  "upcoming_count": 17,
   "completed_count": 0,
   "matches": [
+    {
+      "match_id": "1171",
+      "title": "Vancouver Anchors vs Toronto Sixers",
+      "teams": "Vancouver Anchors vs Toronto Sixers",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249820_53099_VAC_TTS_FC-Web.png",
+      "league": "Roshn Saudi League 2026-2027",
+      "viewers": "7",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1171",
+      "match_url": "live/vancouver-anchors-vs-toronto-sixers-1171",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-10-02T23:03:23.396717"
+    },
     {
       "match_id": "1081",
       "title": "Asian Games 2026",
@@ -16,7 +39,7 @@
       "runtime": "--",
       "thumbnail": "https://myimgs.org/storage/images/44609/AsianGames2026.jpg",
       "league": "Asian Games 2026",
-      "viewers": "636",
+      "viewers": "637",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -39,30 +62,7 @@
         "https://alixbd.com/playlistconfig/toffee.php?ts_proxy=aHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbS9jZG4vbGl2ZS9zb255X3Nwb3J0c18yX2hkLzU3Ni81NzYubTN1OD9oZG50bD1FeHBpcmVzPTE3OTA4ODY0OTB%2BX0dPPUdlbmVyYXRlZH5VUkxQcmVmaXg9YUhSMGNITTZMeTl3Y205a0xXeHBibVZoY2kxdFpXUnBZUzUwYjJabVpXVnNhWFpsTG1OdmJRfkRhdGE9ZXlKemRXSnpZM0pwWW1WeVgybGtJam9pTW1ZeU5tRXlabVl0T0RSa1lTMDBOelJpTFdKaU4yRXRNakZsWTJWaFpUSXlOREJtSW4wflNpZ25hdHVyZT1BZGhCMkxjWUtzR2k5Mzd3QnIxU0l6T0RHUzVlVVNIdEVla1FEbGNENlY1RDQtczFHM1E4Y25xYnFJN1Q0NEVhVG1LTkVlOUlPZkZKVUtUcVJlU2hHN0xueW5nSw%3D%3D",
         "https://alixbd.com/playlistconfig/toffee.php?channel=Sony%20Ten%20Sports%202%20HD&raw=1"
       ],
-      "last_updated": "2026-10-02T22:54:10.607356"
-    },
-    {
-      "match_id": "1171",
-      "title": "Vancouver Anchors vs Toronto Sixers",
-      "teams": "Vancouver Anchors vs Toronto Sixers",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249820_53099_VAC_TTS_FC-Web.png",
-      "league": "Roshn Saudi League 2026-2027",
-      "viewers": "7",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1171",
-      "match_url": "live/vancouver-anchors-vs-toronto-sixers-1171",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-10-02T22:54:10.980727"
+      "last_updated": "2026-10-02T23:03:23.719726"
     },
     {
       "match_id": "1172",
@@ -85,7 +85,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-02T22:54:10.981466"
+      "last_updated": "2026-10-02T23:03:24.646168"
     },
     {
       "match_id": "1173",
@@ -108,7 +108,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-02T22:54:10.982110"
+      "last_updated": "2026-10-02T23:03:24.646884"
     },
     {
       "match_id": "1037",
@@ -131,7 +131,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-02T22:54:10.982745"
+      "last_updated": "2026-10-02T23:03:24.647548"
     },
     {
       "match_id": "1083",
@@ -154,7 +154,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-02T22:54:10.983356"
+      "last_updated": "2026-10-02T23:03:24.648178"
     },
     {
       "match_id": "1146",
@@ -177,7 +177,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-02T22:54:10.983975"
+      "last_updated": "2026-10-02T23:03:24.648773"
     },
     {
       "match_id": "1174",
@@ -200,7 +200,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-02T22:54:10.984683"
+      "last_updated": "2026-10-02T23:03:24.649391"
     },
     {
       "match_id": "1175",
@@ -223,7 +223,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-02T22:54:10.985291"
+      "last_updated": "2026-10-02T23:03:24.649974"
     },
     {
       "match_id": "1176",
@@ -246,7 +246,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-02T22:54:10.985915"
+      "last_updated": "2026-10-02T23:03:24.650599"
     },
     {
       "match_id": "1100",
@@ -269,7 +269,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-02T22:54:10.986505"
+      "last_updated": "2026-10-02T23:03:24.651200"
     },
     {
       "match_id": "1000",
@@ -292,7 +292,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-02T22:54:10.987128"
+      "last_updated": "2026-10-02T23:03:24.651785"
     },
     {
       "match_id": "1001",
@@ -315,7 +315,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-02T22:54:10.987746"
+      "last_updated": "2026-10-02T23:03:24.652385"
     },
     {
       "match_id": "1008",
@@ -328,7 +328,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249138_53025_ANF_DIR_FC-Web.png",
       "league": "Roshn Saudi League 2026-2027",
-      "viewers": "23",
+      "viewers": "24",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -338,7 +338,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-02T22:54:10.988345"
+      "last_updated": "2026-10-02T23:03:24.652974"
     },
     {
       "match_id": "1042",
@@ -361,7 +361,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-02T22:54:10.988949"
+      "last_updated": "2026-10-02T23:03:24.653591"
     },
     {
       "match_id": "1049",
@@ -384,7 +384,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-02T22:54:10.989562"
+      "last_updated": "2026-10-02T23:03:24.654222"
     },
     {
       "match_id": "1043",
@@ -407,7 +407,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-02T22:54:10.990158"
+      "last_updated": "2026-10-02T23:03:24.654808"
     },
     {
       "match_id": "1101",
@@ -430,7 +430,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-02T22:54:10.990767"
+      "last_updated": "2026-10-02T23:03:24.655415"
     },
     {
       "match_id": "1102",
@@ -453,7 +453,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-02T22:54:10.991359"
+      "last_updated": "2026-10-02T23:03:24.656001"
     }
   ]
 }
