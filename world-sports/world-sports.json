@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-03T05:46:06.808176",
+  "timestamp": "2026-10-03T05:51:45.756004",
   "total_matches": 18,
-  "live_count": 2,
-  "upcoming_count": 16,
+  "live_count": 3,
+  "upcoming_count": 15,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://media.cricketwinner.com/media/2026/10/India-vs-Pakistan-Asian-Games-2026-Cricket-Final-Where-to-Watch-Live.webp",
       "league": "Asian games",
-      "viewers": "226",
+      "viewers": "240",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -29,7 +29,30 @@
         "https://robitv.com/lps/https://ml-pull-dvc-myco.io:2096/TENSPORTS_HD/mono.m3u8",
         "https://drk6xq0vhn.gpcdn.net/live/ten_1_hd_720/index.m3u8"
       ],
-      "last_updated": "2026-10-03T05:43:44.877224"
+      "last_updated": "2026-10-03T05:48:45.824143"
+    },
+    {
+      "match_id": "1173",
+      "title": "Brampton Blitz vs Mississauga Masters",
+      "teams": "Brampton Blitz vs Mississauga Masters",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249822_53099_BBZ_MGM_FC-Web.png",
+      "league": "Roshn Saudi League 2026-2027",
+      "viewers": "9",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1173",
+      "match_url": "live/brampton-blitz-vs-mississauga-masters-1173",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-10-03T05:48:46.148917"
     },
     {
       "match_id": "1081",
@@ -42,7 +65,7 @@
       "runtime": "--",
       "thumbnail": "https://myimgs.org/storage/images/44609/AsianGames2026.jpg",
       "league": "Asian Games 2026",
-      "viewers": "708",
+      "viewers": "711",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -65,30 +88,7 @@
         "https://alixbd.com/playlistconfig/toffee.php?ts_proxy=aHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbS9jZG4vbGl2ZS9zb255X3Nwb3J0c18yX2hkLzU3Ni81NzYubTN1OD9oZG50bD1FeHBpcmVzPTE3OTA4ODY0OTB%2BX0dPPUdlbmVyYXRlZH5VUkxQcmVmaXg9YUhSMGNITTZMeTl3Y205a0xXeHBibVZoY2kxdFpXUnBZUzUwYjJabVpXVnNhWFpsTG1OdmJRfkRhdGE9ZXlKemRXSnpZM0pwWW1WeVgybGtJam9pTW1ZeU5tRXlabVl0T0RSa1lTMDBOelJpTFdKaU4yRXRNakZsWTJWaFpUSXlOREJtSW4wflNpZ25hdHVyZT1BZGhCMkxjWUtzR2k5Mzd3QnIxU0l6T0RHUzVlVVNIdEVla1FEbGNENlY1RDQtczFHM1E4Y25xYnFJN1Q0NEVhVG1LTkVlOUlPZkZKVUtUcVJlU2hHN0xueW5nSw%3D%3D",
         "https://alixbd.com/playlistconfig/toffee.php?channel=Sony%20Ten%20Sports%202%20HD&raw=1"
       ],
-      "last_updated": "2026-10-03T05:43:45.685651"
-    },
-    {
-      "match_id": "1173",
-      "title": "Brampton Blitz vs Mississauga Masters",
-      "teams": "Brampton Blitz vs Mississauga Masters",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249822_53099_BBZ_MGM_FC-Web.png",
-      "league": "Roshn Saudi League 2026-2027",
-      "viewers": "7",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1173",
-      "match_url": "live/brampton-blitz-vs-mississauga-masters-1173",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-10-03T05:43:45.974343"
+      "last_updated": "2026-10-03T05:48:46.466357"
     },
     {
       "match_id": "1037",
@@ -111,7 +111,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-03T05:43:45.975063"
+      "last_updated": "2026-10-03T05:48:46.778166"
     },
     {
       "match_id": "1083",
@@ -134,7 +134,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-03T05:43:45.975716"
+      "last_updated": "2026-10-03T05:48:46.778885"
     },
     {
       "match_id": "1146",
@@ -157,7 +157,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-03T05:43:45.976334"
+      "last_updated": "2026-10-03T05:48:46.779516"
     },
     {
       "match_id": "1174",
@@ -180,7 +180,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-03T05:43:45.976964"
+      "last_updated": "2026-10-03T05:48:46.780164"
     },
     {
       "match_id": "1175",
@@ -203,7 +203,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-03T05:43:45.977594"
+      "last_updated": "2026-10-03T05:48:46.780791"
     },
     {
       "match_id": "1176",
@@ -226,7 +226,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-03T05:43:45.978198"
+      "last_updated": "2026-10-03T05:48:46.781404"
     },
     {
       "match_id": "1100",
@@ -249,7 +249,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-03T05:43:45.978825"
+      "last_updated": "2026-10-03T05:48:46.782039"
     },
     {
       "match_id": "1000",
@@ -272,7 +272,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-03T05:43:45.979430"
+      "last_updated": "2026-10-03T05:48:46.782645"
     },
     {
       "match_id": "1001",
@@ -295,7 +295,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-03T05:43:45.980073"
+      "last_updated": "2026-10-03T05:48:46.783366"
     },
     {
       "match_id": "1008",
@@ -318,7 +318,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-03T05:43:45.980710"
+      "last_updated": "2026-10-03T05:48:46.784024"
     },
     {
       "match_id": "1042",
@@ -341,7 +341,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-03T05:43:45.981314"
+      "last_updated": "2026-10-03T05:48:46.784626"
     },
     {
       "match_id": "1049",
@@ -364,7 +364,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-03T05:43:45.981936"
+      "last_updated": "2026-10-03T05:48:46.785255"
     },
     {
       "match_id": "1043",
@@ -387,7 +387,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-03T05:43:45.982557"
+      "last_updated": "2026-10-03T05:48:46.785882"
     },
     {
       "match_id": "1101",
@@ -410,7 +410,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-03T05:43:45.983157"
+      "last_updated": "2026-10-03T05:48:46.786483"
     },
     {
       "match_id": "1102",
@@ -433,7 +433,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-03T05:43:45.983786"
+      "last_updated": "2026-10-03T05:48:46.787101"
     }
   ]
 }
