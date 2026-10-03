@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-03T09:18:09.374492",
+  "timestamp": "2026-10-03T09:23:11.934149",
   "total_matches": 18,
-  "live_count": 2,
-  "upcoming_count": 16,
+  "live_count": 3,
+  "upcoming_count": 15,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249822_53099_BBZ_MGM_FC-Web.png",
       "league": "Roshn Saudi League 2026-2027",
-      "viewers": "53",
+      "viewers": "54",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -26,7 +26,35 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-03T09:15:36.720408"
+      "last_updated": "2026-10-03T09:20:40.169159"
+    },
+    {
+      "match_id": "1183",
+      "title": "India vs West Indies 3rd ODI",
+      "teams": "India vs West Indies 3rd ODI",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17903364351020x576.jpg",
+      "league": "West Indies Tour of India 2026",
+      "viewers": "2",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1183",
+      "match_url": "live/india-vs-west-indies-3rd-odi-1183",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=UIJGbN7r-Pc6d_aBFnY93qi028o4mAwKOGDxrGIve3AFeV2yyoBmA8tMoTCfKFAGL_vql5xHgxJ--N_4r8xCLWT-Y3rsofi40CgKwB3P-eLMLQBG1tBA9qvdwTPfUPj9m04exDP55cw9wj8oV9C08t3TgJDFlj7um99tKj8-BPsE2BzleZgJBsq0t9IflOA3UWZSR0D5x4sVQLn2E2ndI2BNqQkSHfPo4-1JEe9UJV2dQlhK1g5r-NIYaRcGEBvJDBLufhVqZrqUOYsNtVYtqWg",
+      "server_count": 4,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=UIJGbN7r-Pc6d_aBFnY93qi028o4mAwKOGDxrGIve3AFeV2yyoBmA8tMoTCfKFAGL_vql5xHgxJ--N_4r8xCLWT-Y3rsofi40CgKwB3P-eLMLQBG1tBA9qvdwTPfUPj9m04exDP55cw9wj8oV9C08t3TgJDFlj7um99tKj8-BPsE2BzleZgJBsq0t9IflOA3UWZSR0D5x4sVQLn2E2ndI2BNqQkSHfPo4-1JEe9UJV2dQlhK1g5r-NIYaRcGEBvJDBLufhVqZrqUOYsNtVYtqWg",
+        "https://tvsen7.aynascope.net/ssport2hd/tracks-v1a1/mono.ts.m3u8",
+        "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.50%2Fhls%2FTTTT.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
+        "https://live.talkoraai.com/match/seg?t=HSfYZ8JegWi2a_5P4gXsjlBB8IBDZJ8kE_xP92W6DbRFunF9hpFQTLITI4mmXDXdE823FACglkWtWjMPOxz4nsSHgOPnEwMdqj6cQTXHSPZadoF6bzhgG9bqvSdKfjVeUFciI0EqZ7j0CkbW8JGWAl53iPXizJmd4RpSnMATV7U2phr1oi47WXKb7ywhIeS1K_GGGO9Hw0PBmPTXLNnSWyza4w2xZwTsAJC3Cywm0IJ_UnGqJm_2ayx3UihNpLVxBZkrdmCElyog73RHXsvcKgAiAbu01s4f6g"
+      ],
+      "last_updated": "2026-10-03T09:20:40.494047"
     },
     {
       "match_id": "1081",
@@ -39,7 +67,7 @@
       "runtime": "--",
       "thumbnail": "https://myimgs.org/storage/images/44609/AsianGames2026.jpg",
       "league": "Asian Games 2026",
-      "viewers": "762",
+      "viewers": "763",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -62,30 +90,7 @@
         "https://alixbd.com/playlistconfig/toffee.php?ts_proxy=aHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbS9jZG4vbGl2ZS9zb255X3Nwb3J0c18yX2hkLzU3Ni81NzYubTN1OD9oZG50bD1FeHBpcmVzPTE3OTA4ODY0OTB%2BX0dPPUdlbmVyYXRlZH5VUkxQcmVmaXg9YUhSMGNITTZMeTl3Y205a0xXeHBibVZoY2kxdFpXUnBZUzUwYjJabVpXVnNhWFpsTG1OdmJRfkRhdGE9ZXlKemRXSnpZM0pwWW1WeVgybGtJam9pTW1ZeU5tRXlabVl0T0RSa1lTMDBOelJpTFdKaU4yRXRNakZsWTJWaFpUSXlOREJtSW4wflNpZ25hdHVyZT1BZGhCMkxjWUtzR2k5Mzd3QnIxU0l6T0RHUzVlVVNIdEVla1FEbGNENlY1RDQtczFHM1E4Y25xYnFJN1Q0NEVhVG1LTkVlOUlPZkZKVUtUcVJlU2hHN0xueW5nSw%3D%3D",
         "https://alixbd.com/playlistconfig/toffee.php?channel=Sony%20Ten%20Sports%202%20HD&raw=1"
       ],
-      "last_updated": "2026-10-03T09:15:37.574092"
-    },
-    {
-      "match_id": "1183",
-      "title": "India vs West Indies",
-      "teams": "India vs West Indies",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17903364351020x576.jpg",
-      "league": "Sports Tournament",
-      "viewers": "171",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1183",
-      "match_url": "live/india-vs-west-indies-1183",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-10-03T09:15:39.631928"
+      "last_updated": "2026-10-03T09:20:42.527226"
     },
     {
       "match_id": "1037",
@@ -108,7 +113,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-03T09:15:39.632718"
+      "last_updated": "2026-10-03T09:20:42.843178"
     },
     {
       "match_id": "1083",
@@ -131,7 +136,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-03T09:15:39.633366"
+      "last_updated": "2026-10-03T09:20:42.843913"
     },
     {
       "match_id": "1146",
@@ -154,7 +159,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-03T09:15:39.633981"
+      "last_updated": "2026-10-03T09:20:42.844576"
     },
     {
       "match_id": "1174",
@@ -177,7 +182,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-03T09:15:39.634616"
+      "last_updated": "2026-10-03T09:20:42.845221"
     },
     {
       "match_id": "1175",
@@ -200,7 +205,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-03T09:15:39.635243"
+      "last_updated": "2026-10-03T09:20:42.845874"
     },
     {
       "match_id": "1176",
@@ -223,7 +228,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-03T09:15:39.635845"
+      "last_updated": "2026-10-03T09:20:42.846517"
     },
     {
       "match_id": "1100",
@@ -246,7 +251,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-03T09:15:39.636505"
+      "last_updated": "2026-10-03T09:20:42.847147"
     },
     {
       "match_id": "1000",
@@ -269,7 +274,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-03T09:15:39.637108"
+      "last_updated": "2026-10-03T09:20:42.847786"
     },
     {
       "match_id": "1001",
@@ -292,7 +297,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-03T09:15:39.637720"
+      "last_updated": "2026-10-03T09:20:42.848436"
     },
     {
       "match_id": "1008",
@@ -315,7 +320,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-03T09:15:39.638323"
+      "last_updated": "2026-10-03T09:20:42.849051"
     },
     {
       "match_id": "1042",
@@ -338,7 +343,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-03T09:15:39.638911"
+      "last_updated": "2026-10-03T09:20:42.849682"
     },
     {
       "match_id": "1049",
@@ -361,7 +366,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-03T09:15:39.639538"
+      "last_updated": "2026-10-03T09:20:42.850310"
     },
     {
       "match_id": "1043",
@@ -384,7 +389,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-03T09:15:39.640144"
+      "last_updated": "2026-10-03T09:20:42.850931"
     },
     {
       "match_id": "1101",
@@ -407,7 +412,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-03T09:15:39.640802"
+      "last_updated": "2026-10-03T09:20:42.851571"
     },
     {
       "match_id": "1102",
@@ -430,7 +435,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-03T09:15:39.641424"
+      "last_updated": "2026-10-03T09:20:42.852182"
     }
   ]
 }
