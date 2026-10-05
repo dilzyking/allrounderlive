@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-05T18:34:15.878079",
+  "timestamp": "2026-10-05T18:39:16.729179",
   "total_matches": 33,
-  "live_count": 2,
-  "upcoming_count": 31,
+  "live_count": 3,
+  "upcoming_count": 30,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249217_53069_BGC_EDC_FC-Web_1790764441279.png",
       "league": "World Championship of Legends, 2026",
-      "viewers": "77",
+      "viewers": "78",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -32,7 +32,35 @@
         "https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/index.m3u8",
         "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8"
       ],
-      "last_updated": "2026-10-05T18:33:31.330060"
+      "last_updated": "2026-10-05T18:38:37.653124"
+    },
+    {
+      "match_id": "1210",
+      "title": "Italy vs Turkiye",
+      "teams": "Italy vs Turkiye",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17908395951020x576.jpg",
+      "league": "UEFA Nations League 2026/27",
+      "viewers": "9",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1210",
+      "match_url": "live/italy-vs-turkiye-1210",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=PBBcWoNXILRLhcdKM4FXrMcPBhuDCH-xv2I_OZ0Wtkb79HmPC4jjMlyDnexTf_zuVju1m4K5LsW-IY5kb6QIhm20aLQtH3AYL9o3Sy7KUyBxxjdNzeKGnYPPS_o9YtKIsZnOFKDhCBsghcQPvP2o4mRJKDJM_R2ffbfUu26K7O8m-NKaEl75KUjq-7z2YO6DHMFvHkIhEL9JwMlgejIkvu2B1zIxcpEjG7NBJobzj9uqVyW8cZSV2UplMQBbb8Ch-EWDjh4RsSwinmeleCtvaXA10g",
+      "server_count": 4,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=PBBcWoNXILRLhcdKM4FXrMcPBhuDCH-xv2I_OZ0Wtkb79HmPC4jjMlyDnexTf_zuVju1m4K5LsW-IY5kb6QIhm20aLQtH3AYL9o3Sy7KUyBxxjdNzeKGnYPPS_o9YtKIsZnOFKDhCBsghcQPvP2o4mRJKDJM_R2ffbfUu26K7O8m-NKaEl75KUjq-7z2YO6DHMFvHkIhEL9JwMlgejIkvu2B1zIxcpEjG7NBJobzj9uqVyW8cZSV2UplMQBbb8Ch-EWDjh4RsSwinmeleCtvaXA10g",
+        "https://live.talkoraai.com/match/seg?t=UjODU17e02nGcwqoHjKt0DPSRcAZvGgtVnP_lz_-hDiX5wRLssa22kqdCVtwNy_vC1l1YUPVrrrn3sk-XOvoTDFjwN-FE2bRQxcPWCD6JlNu7zy6aKChuPgpgyFJ3g9645_MC8BAYc_oBHioNdOu4vR7jc1AyvLQvj-eOtZOM2Xx13rFvtDO08PEUZwp0Uyr4l-9jv8QXTUXFEsoVnd4gQ_e1gi4TbvZOAC7ZsriIZyBA0DCSyMebzk4HVeMykDH0MS5DFmQ-intxqAvn0MlPKAdaCEX-0TeEgpm",
+        "https://drk6xq0vhn.gpcdn.net/live/ten_5_hd_720/index.m3u8",
+        "https://www.rtmpcdn.com/live/70a1cc87-dfe8-4b92-a5e1-b247b1341db7.m3u8"
+      ],
+      "last_updated": "2026-10-05T18:38:38.067895"
     },
     {
       "match_id": "1081",
@@ -45,7 +73,7 @@
       "runtime": "--",
       "thumbnail": "https://myimgs.org/storage/images/44609/AsianGames2026.jpg",
       "league": "Asian Games 2026",
-      "viewers": "383",
+      "viewers": "386",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -68,30 +96,7 @@
         "https://alixbd.com/playlistconfig/toffee.php?ts_proxy=aHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbS9jZG4vbGl2ZS9zb255X3Nwb3J0c18yX2hkLzU3Ni81NzYubTN1OD9oZG50bD1FeHBpcmVzPTE3OTA4ODY0OTB%2BX0dPPUdlbmVyYXRlZH5VUkxQcmVmaXg9YUhSMGNITTZMeTl3Y205a0xXeHBibVZoY2kxdFpXUnBZUzUwYjJabVpXVnNhWFpsTG1OdmJRfkRhdGE9ZXlKemRXSnpZM0pwWW1WeVgybGtJam9pTW1ZeU5tRXlabVl0T0RSa1lTMDBOelJpTFdKaU4yRXRNakZsWTJWaFpUSXlOREJtSW4wflNpZ25hdHVyZT1BZGhCMkxjWUtzR2k5Mzd3QnIxU0l6T0RHUzVlVVNIdEVla1FEbGNENlY1RDQtczFHM1E4Y25xYnFJN1Q0NEVhVG1LTkVlOUlPZkZKVUtUcVJlU2hHN0xueW5nSw%3D%3D",
         "https://alixbd.com/playlistconfig/toffee.php?channel=Sony%20Ten%20Sports%202%20HD&raw=1"
       ],
-      "last_updated": "2026-10-05T18:33:31.710541"
-    },
-    {
-      "match_id": "1210",
-      "title": "Italy vs Turkiye",
-      "teams": "Italy vs Turkiye",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17908395951020x576.jpg",
-      "league": "UEFA Nations League 2026/27",
-      "viewers": "8",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1210",
-      "match_url": "live/italy-vs-turkiye-1210",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-10-05T18:33:32.073720"
+      "last_updated": "2026-10-05T18:38:38.462387"
     },
     {
       "match_id": "1213",
@@ -114,7 +119,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:33:32.074070"
+      "last_updated": "2026-10-05T18:38:38.849625"
     },
     {
       "match_id": "1214",
@@ -137,7 +142,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:33:32.074357"
+      "last_updated": "2026-10-05T18:38:38.850297"
     },
     {
       "match_id": "1215",
@@ -160,7 +165,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:33:32.074645"
+      "last_updated": "2026-10-05T18:38:38.850940"
     },
     {
       "match_id": "1216",
@@ -183,7 +188,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:33:32.074931"
+      "last_updated": "2026-10-05T18:38:38.851561"
     },
     {
       "match_id": "1217",
@@ -206,7 +211,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:33:32.075204"
+      "last_updated": "2026-10-05T18:38:38.852159"
     },
     {
       "match_id": "1218",
@@ -229,7 +234,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:33:32.075478"
+      "last_updated": "2026-10-05T18:38:38.852789"
     },
     {
       "match_id": "1188",
@@ -252,7 +257,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:33:32.075757"
+      "last_updated": "2026-10-05T18:38:38.853379"
     },
     {
       "match_id": "1189",
@@ -275,7 +280,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:33:32.076029"
+      "last_updated": "2026-10-05T18:38:38.853998"
     },
     {
       "match_id": "1190",
@@ -298,7 +303,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:33:32.076301"
+      "last_updated": "2026-10-05T18:38:38.854618"
     },
     {
       "match_id": "1191",
@@ -321,7 +326,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:33:32.076574"
+      "last_updated": "2026-10-05T18:38:38.855209"
     },
     {
       "match_id": "1100",
@@ -344,7 +349,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:33:32.076853"
+      "last_updated": "2026-10-05T18:38:38.855828"
     },
     {
       "match_id": "1192",
@@ -367,7 +372,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:33:32.077129"
+      "last_updated": "2026-10-05T18:38:38.856447"
     },
     {
       "match_id": "1000",
@@ -390,7 +395,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:33:32.077400"
+      "last_updated": "2026-10-05T18:38:38.857050"
     },
     {
       "match_id": "1001",
@@ -413,7 +418,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:33:32.077671"
+      "last_updated": "2026-10-05T18:38:38.857656"
     },
     {
       "match_id": "1193",
@@ -436,7 +441,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:33:32.077949"
+      "last_updated": "2026-10-05T18:38:38.858252"
     },
     {
       "match_id": "1008",
@@ -459,7 +464,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:33:32.078220"
+      "last_updated": "2026-10-05T18:38:38.858861"
     },
     {
       "match_id": "1194",
@@ -482,7 +487,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:33:32.078490"
+      "last_updated": "2026-10-05T18:38:38.859472"
     },
     {
       "match_id": "1195",
@@ -505,7 +510,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:33:32.078766"
+      "last_updated": "2026-10-05T18:38:38.860067"
     },
     {
       "match_id": "1042",
@@ -528,7 +533,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:33:32.079035"
+      "last_updated": "2026-10-05T18:38:38.860670"
     },
     {
       "match_id": "1196",
@@ -551,7 +556,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:33:32.079304"
+      "last_updated": "2026-10-05T18:38:38.861257"
     },
     {
       "match_id": "1197",
@@ -574,7 +579,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:33:32.079575"
+      "last_updated": "2026-10-05T18:38:38.861859"
     },
     {
       "match_id": "1049",
@@ -597,7 +602,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:33:32.079854"
+      "last_updated": "2026-10-05T18:38:38.862451"
     },
     {
       "match_id": "1043",
@@ -620,7 +625,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:33:32.080125"
+      "last_updated": "2026-10-05T18:38:38.863040"
     },
     {
       "match_id": "1198",
@@ -643,7 +648,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:33:32.080395"
+      "last_updated": "2026-10-05T18:38:38.863643"
     },
     {
       "match_id": "1199",
@@ -666,7 +671,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:33:32.080666"
+      "last_updated": "2026-10-05T18:38:38.864221"
     },
     {
       "match_id": "1200",
@@ -689,7 +694,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:33:32.080942"
+      "last_updated": "2026-10-05T18:38:38.864822"
     },
     {
       "match_id": "1201",
@@ -712,7 +717,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:33:32.081211"
+      "last_updated": "2026-10-05T18:38:38.865411"
     },
     {
       "match_id": "1202",
@@ -735,7 +740,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:33:32.081481"
+      "last_updated": "2026-10-05T18:38:38.866011"
     },
     {
       "match_id": "1101",
@@ -758,7 +763,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:33:32.081758"
+      "last_updated": "2026-10-05T18:38:38.866610"
     },
     {
       "match_id": "1102",
@@ -781,7 +786,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:33:32.082029"
+      "last_updated": "2026-10-05T18:38:38.867194"
     }
   ]
 }
