@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-05T18:39:16.729179",
+  "timestamp": "2026-10-05T18:44:20.235436",
   "total_matches": 33,
-  "live_count": 3,
-  "upcoming_count": 30,
+  "live_count": 7,
+  "upcoming_count": 26,
   "completed_count": 0,
   "matches": [
     {
@@ -16,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249217_53069_BGC_EDC_FC-Web_1790764441279.png",
       "league": "World Championship of Legends, 2026",
-      "viewers": "78",
+      "viewers": "79",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -32,7 +32,7 @@
         "https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/index.m3u8",
         "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8"
       ],
-      "last_updated": "2026-10-05T18:38:37.653124"
+      "last_updated": "2026-10-05T18:43:37.566483"
     },
     {
       "match_id": "1210",
@@ -45,7 +45,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17908395951020x576.jpg",
       "league": "UEFA Nations League 2026/27",
-      "viewers": "9",
+      "viewers": "10",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -60,7 +60,115 @@
         "https://drk6xq0vhn.gpcdn.net/live/ten_5_hd_720/index.m3u8",
         "https://www.rtmpcdn.com/live/70a1cc87-dfe8-4b92-a5e1-b247b1341db7.m3u8"
       ],
-      "last_updated": "2026-10-05T18:38:38.067895"
+      "last_updated": "2026-10-05T18:43:38.771366"
+    },
+    {
+      "match_id": "1213",
+      "title": "France vs Belgium",
+      "teams": "France vs Belgium",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17908406441020x576.jpg",
+      "league": "UEFA Nations League 2026/27",
+      "viewers": "2",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1213",
+      "match_url": "live/france-vs-belgium-1213",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=UxJp8LiBUVrpNwRN6tL7fA74SmjVdg9-AaewnLTQjXEsmFE9sDmL16sXXhaLtkt1YJv3vdeFTBptEBgp6uPjWiJctA3ctKR_u7IRpFe19QXgqReGPWllViYut-pzHhzWRRsfSd1YRQ2MOF_bqkRJP8EPCqQYNbMyWXOXeNyVPFNTN2A2Xwb5r7ye2tuEohi0yUcUmenf-S4LfXLtjH99H0YC9iHRwh3lTO3CUYtuEhJjshl2KmKM-mZPqFapX3U7r46sltvB0qklc2m18qsxSREQQ4p0la0",
+      "server_count": 6,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=UxJp8LiBUVrpNwRN6tL7fA74SmjVdg9-AaewnLTQjXEsmFE9sDmL16sXXhaLtkt1YJv3vdeFTBptEBgp6uPjWiJctA3ctKR_u7IRpFe19QXgqReGPWllViYut-pzHhzWRRsfSd1YRQ2MOF_bqkRJP8EPCqQYNbMyWXOXeNyVPFNTN2A2Xwb5r7ye2tuEohi0yUcUmenf-S4LfXLtjH99H0YC9iHRwh3lTO3CUYtuEhJjshl2KmKM-mZPqFapX3U7r46sltvB0qklc2m18qsxSREQQ4p0la0",
+        "https://robitv.com/lps/https://ml-pull-dvc-myco.io:2096/TENSPORTS_HD/mono.m3u8",
+        "https://drk6xq0vhn.gpcdn.net/live/ten_2_hd_720/index.m3u8",
+        "https://live.talkoraai.com/match/seg?t=4GoQts3WI2gpPDSrwisQZFakjGHac-RXJHSDfTi6e66xrV5IxCt2ofSF8iMIqblcUAsin3N_-saHGMKJFPElTyI6ZHjqwVhHykHl8OVbAR2481Te9bu3wN8KEnUzBbALK9FTLw1Ds9Fb7e8VJkfAQuyxgCdU9GunLbxxYNWb8wQ3oPTY0mfnEb5V8yX-6rhx27K1JgRyAusHbBO_3IFXcVqPGIalZrPbwdTxiChaWswRp_OnjEt0nDfNn6-YLpBi2F6V8Aj3clLhjho558INkOCDPV-JwwOSDrdYfrFNcw",
+        "https://www.rtmpcdn.com/live/25c5b6cf-bb3d-407c-ad06-490d59e36307.m3u8",
+        "https://play.aarray.cn/rrty/hd-zh-1-4518039_gqzm.m3u8?auth_key=1791229085-0-0-4ffbe52fa9f4b4b2a24fa2706f1a3b6e&token=1595f1619d4453f7&device=4&platform=rrty"
+      ],
+      "last_updated": "2026-10-05T18:43:39.150053"
+    },
+    {
+      "match_id": "1217",
+      "title": "Ukraine vs Hungary",
+      "teams": "Ukraine vs Hungary",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17908410301020x576.jpg",
+      "league": "Sports Tournament",
+      "viewers": "379",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1217",
+      "match_url": "live/ukraine-vs-hungary-1217",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=hRXelpRT0IxMo2OKXkP1MH_BC0Rw9kTKtV-tPSANH8yNbJB2_CgZKsh_Ui0PRj47ROYGVsp1bxLMV2_lNc39B0tE_cjL0DtF_eAwGTe2rr2heFtyzsrWKGZkqZripaQafp9T4Tnggqn6StIgaArjxmT8Gek_QWHLyCyw6vygbMlCRWj-eEil_nSKeS0UP2GSQV8xKksNklqrip6ftmzaEe-MUXWJ9l0XmiFXaUTao_7dzceoJptJElnQRH88sq3lzAkO2E38is1Aa3OQ",
+      "server_count": 2,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=hRXelpRT0IxMo2OKXkP1MH_BC0Rw9kTKtV-tPSANH8yNbJB2_CgZKsh_Ui0PRj47ROYGVsp1bxLMV2_lNc39B0tE_cjL0DtF_eAwGTe2rr2heFtyzsrWKGZkqZripaQafp9T4Tnggqn6StIgaArjxmT8Gek_QWHLyCyw6vygbMlCRWj-eEil_nSKeS0UP2GSQV8xKksNklqrip6ftmzaEe-MUXWJ9l0XmiFXaUTao_7dzceoJptJElnQRH88sq3lzAkO2E38is1Aa3OQ",
+        "https://live.talkoraai.com/match/seg?t=-XHa-3ILeu5SqfOnHoiXLrlge-QXIbrkBH5uikTzw-JeyrUcYGfIcU2wj6jmP0AKyjhSqTfYiSJczgVyetuV3zlmwrC4Q90iG9Gf7hKKYK51nSLYvhpmN1_Iof9UGAf-KOvmstUiOlO-UGy2xKskr_Kyblrs_Q2Fr8OIgaYph9lHPM78cD5sLz-rr6R8DrLyqZGtOvDZB_BGSD9gUS-fzyx3NuHCRtQjQ-x1PUr-skf9He7UjHmefYUo8FOdBY5VAubdbW8fnYykwFdByaDkPw1fLog"
+      ],
+      "last_updated": "2026-10-05T18:43:39.521019"
+    },
+    {
+      "match_id": "1215",
+      "title": "Bosnia and Herzegovina vs Poland",
+      "teams": "Bosnia and Herzegovina vs Poland",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17908401291020x576.jpg",
+      "league": "UEFA Nations League 2026/27",
+      "viewers": "305",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1215",
+      "match_url": "live/bosnia-and-herzegovina-vs-poland-1215",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=WDmJz0cGZqPSlRublU0Gg_2HQHMkSQKZd9ML7NzwuxtfX9eoaZyy17rp2N0XUtPueFBL7UAyyOtZj-n44krY90H6y1bcXioVvNa3RpvKx9vo-BioRUDur4Gc--03Ra3216x20UtkmBQNbHspQBOm66oaab_gxBW5F9C7myG5rqvCO_MwsajsyjO6kzYpDcITrUCxLT5L4XCCb2g9IR2uUfynmRUO3pnMei3fjPfY57Y2KwRZnm3y8rHkJvWOmQLqi5I57Pcf-f-q1Euuz9boPm6cHcPZ-A",
+      "server_count": 2,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=WDmJz0cGZqPSlRublU0Gg_2HQHMkSQKZd9ML7NzwuxtfX9eoaZyy17rp2N0XUtPueFBL7UAyyOtZj-n44krY90H6y1bcXioVvNa3RpvKx9vo-BioRUDur4Gc--03Ra3216x20UtkmBQNbHspQBOm66oaab_gxBW5F9C7myG5rqvCO_MwsajsyjO6kzYpDcITrUCxLT5L4XCCb2g9IR2uUfynmRUO3pnMei3fjPfY57Y2KwRZnm3y8rHkJvWOmQLqi5I57Pcf-f-q1Euuz9boPm6cHcPZ-A",
+        "https://live.talkoraai.com/match/seg?t=NjKwm69sMqhJG8fFuw9FUIMXzX2LtWMUbF2uqcP9MA0lTgJa05bHK7UtiTEG6ygI3sTo0tkRjBV-E7kpGiltxd8MhJEWPQy7EifNHepxDFViSc0fjiVpih2LRWsZTfMqdYd3I-sy2RhOV9hFIjObu6xAaR5AQN5mdOlv0dM05XzSW7fTiwe0nd8mfZONuZi4ZKAf8HeijP0iaUgdaFmkXOsrr423UdeG5kLS-o6BstXIeAie3rhxNgEIFGlkDUG8BVz_SkiQKT4AAr7Jj-HDPFG1hf1fGgC8dX0xewJQ"
+      ],
+      "last_updated": "2026-10-05T18:43:39.877129"
+    },
+    {
+      "match_id": "1214",
+      "title": "Romania vs Sweden",
+      "teams": "Romania vs Sweden",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17908399141020x576.jpg",
+      "league": "Sports Tournament",
+      "viewers": "4",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1214",
+      "match_url": "live/romania-vs-sweden-1214",
+      "stream_url": "https://live.talkoraai.com/match/hls?t=I2rv_udVRGh0wrkQh8QXqUzSpquGZcGFa-VdNryX3E_rZZLLOW35Ik-vWA9OIDs1Rc5uGy3TeSxxJUDMhCR71tw7g1Ota9e97jdujjZHwHjztE-5MeqRXwnKzjIL6YRLIEA8ME-Kekexoj7JxGXZds2BE0eXLv-7eESjZKJrpJME2tx0HlHc_E1pYJIamGy25Lgif7yccvkwq449nOM8tGdHVWHUzhwor6UCj7opk59e07OKXMT3LoWbWB7ya1-LZ7UDPNza8z5PQ7rUlLybVzbr",
+      "server_count": 2,
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=I2rv_udVRGh0wrkQh8QXqUzSpquGZcGFa-VdNryX3E_rZZLLOW35Ik-vWA9OIDs1Rc5uGy3TeSxxJUDMhCR71tw7g1Ota9e97jdujjZHwHjztE-5MeqRXwnKzjIL6YRLIEA8ME-Kekexoj7JxGXZds2BE0eXLv-7eESjZKJrpJME2tx0HlHc_E1pYJIamGy25Lgif7yccvkwq449nOM8tGdHVWHUzhwor6UCj7opk59e07OKXMT3LoWbWB7ya1-LZ7UDPNza8z5PQ7rUlLybVzbr",
+        "https://live.talkoraai.com/match/seg?t=UuREgQqh-fozJiIrKT4WEoRRW2eXsvU1YqnAk22ZHua6qaWiKpeLlxGcAu3NbjJBdv1NurBWASjIaMAReO84UzMghi4EFMig91IIxUErvN3JvZM-eiyByYAR1sPUFwlpqbF0unP54HWxIblC5sRTek1dhj7InoQW4-cAmQI1KVVVjNh6-6QH1xltiCYb6wSPGyzX7ejRaWd10ebszxX8AQNOsYceFojdoTXg6yvThiLmOaQmEHDHVt6iCnV3gGvTF025_pQBXinR2hO2X6D3tdFH_FUjoCePOeo"
+      ],
+      "last_updated": "2026-10-05T18:43:40.228083"
     },
     {
       "match_id": "1081",
@@ -73,7 +181,7 @@
       "runtime": "--",
       "thumbnail": "https://myimgs.org/storage/images/44609/AsianGames2026.jpg",
       "league": "Asian Games 2026",
-      "viewers": "386",
+      "viewers": "387",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -96,76 +204,7 @@
         "https://alixbd.com/playlistconfig/toffee.php?ts_proxy=aHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbS9jZG4vbGl2ZS9zb255X3Nwb3J0c18yX2hkLzU3Ni81NzYubTN1OD9oZG50bD1FeHBpcmVzPTE3OTA4ODY0OTB%2BX0dPPUdlbmVyYXRlZH5VUkxQcmVmaXg9YUhSMGNITTZMeTl3Y205a0xXeHBibVZoY2kxdFpXUnBZUzUwYjJabVpXVnNhWFpsTG1OdmJRfkRhdGE9ZXlKemRXSnpZM0pwWW1WeVgybGtJam9pTW1ZeU5tRXlabVl0T0RSa1lTMDBOelJpTFdKaU4yRXRNakZsWTJWaFpUSXlOREJtSW4wflNpZ25hdHVyZT1BZGhCMkxjWUtzR2k5Mzd3QnIxU0l6T0RHUzVlVVNIdEVla1FEbGNENlY1RDQtczFHM1E4Y25xYnFJN1Q0NEVhVG1LTkVlOUlPZkZKVUtUcVJlU2hHN0xueW5nSw%3D%3D",
         "https://alixbd.com/playlistconfig/toffee.php?channel=Sony%20Ten%20Sports%202%20HD&raw=1"
       ],
-      "last_updated": "2026-10-05T18:38:38.462387"
-    },
-    {
-      "match_id": "1213",
-      "title": "France vs Belgium",
-      "teams": "France vs Belgium",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17908406441020x576.jpg",
-      "league": "Sports Tournament",
-      "viewers": "231",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1213",
-      "match_url": "live/france-vs-belgium-1213",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-10-05T18:38:38.849625"
-    },
-    {
-      "match_id": "1214",
-      "title": "Romania vs Sweden",
-      "teams": "Romania vs Sweden",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17908399141020x576.jpg",
-      "league": "Sports Tournament",
-      "viewers": "268",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1214",
-      "match_url": "live/romania-vs-sweden-1214",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-10-05T18:38:38.850297"
-    },
-    {
-      "match_id": "1215",
-      "title": "Bosnia and Herzegovina vs Poland",
-      "teams": "Bosnia and Herzegovina vs Poland",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17908401291020x576.jpg",
-      "league": "Sports Tournament",
-      "viewers": "305",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1215",
-      "match_url": "live/bosnia-and-herzegovina-vs-poland-1215",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-10-05T18:38:38.850940"
+      "last_updated": "2026-10-05T18:43:40.578488"
     },
     {
       "match_id": "1216",
@@ -188,30 +227,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:38:38.851561"
-    },
-    {
-      "match_id": "1217",
-      "title": "Ukraine vs Hungary",
-      "teams": "Ukraine vs Hungary",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17908410301020x576.jpg",
-      "league": "Sports Tournament",
-      "viewers": "379",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1217",
-      "match_url": "live/ukraine-vs-hungary-1217",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-10-05T18:38:38.852159"
+      "last_updated": "2026-10-05T18:43:40.930629"
     },
     {
       "match_id": "1218",
@@ -234,7 +250,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:38:38.852789"
+      "last_updated": "2026-10-05T18:43:40.931362"
     },
     {
       "match_id": "1188",
@@ -257,7 +273,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:38:38.853379"
+      "last_updated": "2026-10-05T18:43:40.931965"
     },
     {
       "match_id": "1189",
@@ -280,7 +296,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:38:38.853998"
+      "last_updated": "2026-10-05T18:43:40.932593"
     },
     {
       "match_id": "1190",
@@ -303,7 +319,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:38:38.854618"
+      "last_updated": "2026-10-05T18:43:40.933217"
     },
     {
       "match_id": "1191",
@@ -326,7 +342,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:38:38.855209"
+      "last_updated": "2026-10-05T18:43:40.933813"
     },
     {
       "match_id": "1100",
@@ -349,7 +365,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:38:38.855828"
+      "last_updated": "2026-10-05T18:43:40.934449"
     },
     {
       "match_id": "1192",
@@ -372,7 +388,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:38:38.856447"
+      "last_updated": "2026-10-05T18:43:40.935055"
     },
     {
       "match_id": "1000",
@@ -395,7 +411,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:38:38.857050"
+      "last_updated": "2026-10-05T18:43:40.935686"
     },
     {
       "match_id": "1001",
@@ -418,7 +434,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:38:38.857656"
+      "last_updated": "2026-10-05T18:43:40.936304"
     },
     {
       "match_id": "1193",
@@ -441,7 +457,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:38:38.858252"
+      "last_updated": "2026-10-05T18:43:40.936908"
     },
     {
       "match_id": "1008",
@@ -464,7 +480,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:38:38.858861"
+      "last_updated": "2026-10-05T18:43:40.937531"
     },
     {
       "match_id": "1194",
@@ -487,7 +503,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:38:38.859472"
+      "last_updated": "2026-10-05T18:43:40.938152"
     },
     {
       "match_id": "1195",
@@ -510,7 +526,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:38:38.860067"
+      "last_updated": "2026-10-05T18:43:40.938752"
     },
     {
       "match_id": "1042",
@@ -533,7 +549,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:38:38.860670"
+      "last_updated": "2026-10-05T18:43:40.939370"
     },
     {
       "match_id": "1196",
@@ -556,7 +572,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:38:38.861257"
+      "last_updated": "2026-10-05T18:43:40.939958"
     },
     {
       "match_id": "1197",
@@ -579,7 +595,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:38:38.861859"
+      "last_updated": "2026-10-05T18:43:40.940568"
     },
     {
       "match_id": "1049",
@@ -602,7 +618,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:38:38.862451"
+      "last_updated": "2026-10-05T18:43:40.941182"
     },
     {
       "match_id": "1043",
@@ -625,7 +641,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:38:38.863040"
+      "last_updated": "2026-10-05T18:43:40.941777"
     },
     {
       "match_id": "1198",
@@ -648,7 +664,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:38:38.863643"
+      "last_updated": "2026-10-05T18:43:40.942392"
     },
     {
       "match_id": "1199",
@@ -671,7 +687,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:38:38.864221"
+      "last_updated": "2026-10-05T18:43:40.942978"
     },
     {
       "match_id": "1200",
@@ -694,7 +710,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:38:38.864822"
+      "last_updated": "2026-10-05T18:43:40.943612"
     },
     {
       "match_id": "1201",
@@ -717,7 +733,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:38:38.865411"
+      "last_updated": "2026-10-05T18:43:40.944252"
     },
     {
       "match_id": "1202",
@@ -740,7 +756,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:38:38.866011"
+      "last_updated": "2026-10-05T18:43:40.944858"
     },
     {
       "match_id": "1101",
@@ -763,7 +779,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:38:38.866610"
+      "last_updated": "2026-10-05T18:43:40.945475"
     },
     {
       "match_id": "1102",
@@ -786,7 +802,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-05T18:38:38.867194"
+      "last_updated": "2026-10-05T18:43:40.946067"
     }
   ]
 }
