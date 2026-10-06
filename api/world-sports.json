@@ -1,10 +1,38 @@
 {
-  "timestamp": "2026-10-06T22:59:58.489189",
+  "timestamp": "2026-10-06T23:05:00.961105",
   "total_matches": 24,
-  "live_count": 1,
-  "upcoming_count": 23,
+  "live_count": 2,
+  "upcoming_count": 22,
   "completed_count": 0,
   "matches": [
+    {
+      "match_id": "1221",
+      "title": "Argentina vs Benin",
+      "teams": "Argentina vs Benin",
+      "sport": "football",
+      "sport_display": "Football",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://i.ibb.co.com/0pBsgSyc/image.png",
+      "league": "FIFA Friendly 2026",
+      "viewers": "16",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1221",
+      "match_url": "live/argentina-vs-benin-1221",
+      "stream_url": "https://live2.domaincdn.cc/livecdn/channel-15.m3u8?auth_key=3000001791312602-0-0-32ab93d3238728ba4f470f2f80d7f251",
+      "server_count": 4,
+      "server_urls": [
+        "https://live2.domaincdn.cc/livecdn/channel-15.m3u8?auth_key=3000001791312602-0-0-32ab93d3238728ba4f470f2f80d7f251",
+        "https://live2.domaincdn.cc/livecdn/channel-11.m3u8?auth_key=3000001791314559-0-0-08cd302c29adb7108eaab417a267ae77",
+        "https://tfzw1gr4uqmtt8y41hcjzgezdrmmcpf5gkce.100ycdn.com/live1.quickscoreboardz.com/live/channel6/playlist.m3u8?wsSecret=50d362f883165fe49ad78ad5547b6c5b&wsABSTime=1791357803&wsSession=64ed3e79a7ece57c6cc9459e-179131612549701&wsIPSercert=d09a9b62dec27196c444a3e2d5ef9c13&wsBindIP=2&wsserid=1168309213681259573",
+        "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1791316181-0-0-e778028fa972c3d1da951c92e5875053"
+      ],
+      "last_updated": "2026-10-06T23:03:41.839845"
+    },
     {
       "match_id": "1081",
       "title": "Asian Games 2026",
@@ -16,7 +44,7 @@
       "runtime": "--",
       "thumbnail": "https://myimgs.org/storage/images/44609/AsianGames2026.jpg",
       "league": "Asian Games 2026",
-      "viewers": "677",
+      "viewers": "679",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -39,30 +67,7 @@
         "https://alixbd.com/playlistconfig/toffee.php?ts_proxy=aHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbS9jZG4vbGl2ZS9zb255X3Nwb3J0c18yX2hkLzU3Ni81NzYubTN1OD9oZG50bD1FeHBpcmVzPTE3OTA4ODY0OTB%2BX0dPPUdlbmVyYXRlZH5VUkxQcmVmaXg9YUhSMGNITTZMeTl3Y205a0xXeHBibVZoY2kxdFpXUnBZUzUwYjJabVpXVnNhWFpsTG1OdmJRfkRhdGE9ZXlKemRXSnpZM0pwWW1WeVgybGtJam9pTW1ZeU5tRXlabVl0T0RSa1lTMDBOelJpTFdKaU4yRXRNakZsWTJWaFpUSXlOREJtSW4wflNpZ25hdHVyZT1BZGhCMkxjWUtzR2k5Mzd3QnIxU0l6T0RHUzVlVVNIdEVla1FEbGNENlY1RDQtczFHM1E4Y25xYnFJN1Q0NEVhVG1LTkVlOUlPZkZKVUtUcVJlU2hHN0xueW5nSw%3D%3D",
         "https://alixbd.com/playlistconfig/toffee.php?channel=Sony%20Ten%20Sports%202%20HD&raw=1"
       ],
-      "last_updated": "2026-10-06T22:58:37.317336"
-    },
-    {
-      "match_id": "1221",
-      "title": "Argentina vs Benin",
-      "teams": "Argentina vs Benin",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "upcoming",
-      "status_display": "UPCOMING",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://i.ibb.co.com/0pBsgSyc/image.png",
-      "league": "FIFA Friendly 2026",
-      "viewers": "7",
-      "viewers_type": "Waiting",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1221",
-      "match_url": "live/argentina-vs-benin-1221",
-      "stream_url": null,
-      "server_count": 0,
-      "server_urls": [],
-      "last_updated": "2026-10-06T22:58:38.399933"
+      "last_updated": "2026-10-06T23:03:42.221130"
     },
     {
       "match_id": "1190",
@@ -85,7 +90,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-06T22:58:38.400618"
+      "last_updated": "2026-10-06T23:03:43.132532"
     },
     {
       "match_id": "1191",
@@ -108,7 +113,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-06T22:58:38.401079"
+      "last_updated": "2026-10-06T23:03:43.133151"
     },
     {
       "match_id": "1100",
@@ -131,7 +136,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-06T22:58:38.401545"
+      "last_updated": "2026-10-06T23:03:43.133703"
     },
     {
       "match_id": "1192",
@@ -154,7 +159,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-06T22:58:38.401972"
+      "last_updated": "2026-10-06T23:03:43.134249"
     },
     {
       "match_id": "1000",
@@ -177,7 +182,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-06T22:58:38.402408"
+      "last_updated": "2026-10-06T23:03:43.134786"
     },
     {
       "match_id": "1001",
@@ -200,7 +205,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-06T22:58:38.402828"
+      "last_updated": "2026-10-06T23:03:43.135337"
     },
     {
       "match_id": "1193",
@@ -223,7 +228,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-06T22:58:38.403265"
+      "last_updated": "2026-10-06T23:03:43.135888"
     },
     {
       "match_id": "1008",
@@ -246,7 +251,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-06T22:58:38.403689"
+      "last_updated": "2026-10-06T23:03:43.136441"
     },
     {
       "match_id": "1194",
@@ -269,7 +274,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-06T22:58:38.404119"
+      "last_updated": "2026-10-06T23:03:43.136984"
     },
     {
       "match_id": "1195",
@@ -292,7 +297,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-06T22:58:38.404565"
+      "last_updated": "2026-10-06T23:03:43.137526"
     },
     {
       "match_id": "1042",
@@ -315,7 +320,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-06T22:58:38.404982"
+      "last_updated": "2026-10-06T23:03:43.138065"
     },
     {
       "match_id": "1196",
@@ -338,7 +343,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-06T22:58:38.405407"
+      "last_updated": "2026-10-06T23:03:43.138595"
     },
     {
       "match_id": "1197",
@@ -361,7 +366,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-06T22:58:38.405824"
+      "last_updated": "2026-10-06T23:03:43.139143"
     },
     {
       "match_id": "1049",
@@ -384,7 +389,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-06T22:58:38.406245"
+      "last_updated": "2026-10-06T23:03:43.139677"
     },
     {
       "match_id": "1043",
@@ -407,7 +412,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-06T22:58:38.406661"
+      "last_updated": "2026-10-06T23:03:43.140211"
     },
     {
       "match_id": "1198",
@@ -430,7 +435,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-06T22:58:38.407074"
+      "last_updated": "2026-10-06T23:03:43.140740"
     },
     {
       "match_id": "1199",
@@ -453,7 +458,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-06T22:58:38.407498"
+      "last_updated": "2026-10-06T23:03:43.141276"
     },
     {
       "match_id": "1200",
@@ -476,7 +481,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-06T22:58:38.407918"
+      "last_updated": "2026-10-06T23:03:43.141801"
     },
     {
       "match_id": "1201",
@@ -499,7 +504,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-06T22:58:38.408359"
+      "last_updated": "2026-10-06T23:03:43.142336"
     },
     {
       "match_id": "1202",
@@ -522,7 +527,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-06T22:58:38.408777"
+      "last_updated": "2026-10-06T23:03:43.142866"
     },
     {
       "match_id": "1101",
@@ -545,7 +550,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-06T22:58:38.409200"
+      "last_updated": "2026-10-06T23:03:43.143405"
     },
     {
       "match_id": "1102",
@@ -568,7 +573,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-06T22:58:38.409626"
+      "last_updated": "2026-10-06T23:03:43.143936"
     }
   ]
 }
