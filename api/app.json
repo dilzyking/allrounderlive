@@ -33,7 +33,7 @@
         "server1": {
           "type": "dash",
           "label": "Server 1 (DASH)",
-          "mpd": "https://cdn-stream-01.allsportslive.io/dash/red-lions-vs-blue-eagles/manifest.mpd",
+          "mpd": "https://stream-relay-buddy.lovable.app/api/public/proxy?url=https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c79",
           "drm": {
             "type": "widevine",
             "licenseUrl": "https://drm-gateway.allsportslive.io/widevine/license",
@@ -42,8 +42,8 @@
               "Content-Type": "application/octet-stream"
             },
             "clearkey": {
-              "keyId": "8f4a2b1c9d3e5f7a6b8c0d2e4f6a8b1c",
-              "key": "3e7d9f1a2b4c6d8e0f2a4b6c8d0e2f4a"
+              "keyId": "69a5aa835a061ce64a630d1046727e40",
+              "key": "d02feac8a999bd06bf4059bf33411749"
             }
           }
         },
