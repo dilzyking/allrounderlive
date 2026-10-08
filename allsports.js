@@ -1,42 +1,53 @@
-/* ===== All Sports Section Loader ===== */
+/* ============================================================
+   allsports.js - All Sports Section (FanCode-style carousel)
+   ============================================================ */
 
 // ⬇️ Replace with your deployed Worker URL
 const ALLSPORTS_API = "https://all-sports.freedekholive-577.workers.dev/";
 
-const SKELETON_COUNT = 8;   // how many placeholder cards to show
+const SKELETON_COUNT = 6;
 
 (function () {
-  const grid = document.getElementById("allSportsGrid");
-  if (!grid) return;
+  const track = document.getElementById("allsportsTrack");
+  const prevBtn = document.getElementById("allsportsPrev");
+  const nextBtn = document.getElementById("allsportsNext");
+  const countEl = document.getElementById("allsportsCount");
+  if (!track) return;
+
+  let loaded = false;
 
   /* ---------- Skeleton ---------- */
   function showSkeleton() {
-    grid.innerHTML = Array.from({ length: SKELETON_COUNT }).map(() => `
-      <div class="allsports-skel">
-        <div class="skel-badge"></div>
-        <div class="skel-name"></div>
-        <div class="skel-name short"></div>
-        <div class="skel-teams">
-          <div class="skel-circle"></div>
-          <div class="skel-vs"></div>
-          <div class="skel-circle"></div>
+    track.innerHTML = Array.from({ length: SKELETON_COUNT }).map(() => `
+      <div class="as-skeleton-card">
+        <div class="as-skeleton-thumb">
+          <div class="as-skeleton-badge"></div>
+          <div class="as-skeleton-name"></div>
+          <div class="as-skeleton-teams">
+            <div class="as-skeleton-circle"></div>
+            <div class="as-skeleton-vs"></div>
+            <div class="as-skeleton-circle"></div>
+          </div>
         </div>
-        <div class="skel-time"></div>
+        <div class="as-skeleton-info">
+          <div class="as-skeleton-line short"></div>
+          <div class="as-skeleton-line medium"></div>
+        </div>
       </div>
     `).join("");
   }
 
-  /* ---------- Load events ---------- */
+  /* ---------- Load ---------- */
   async function loadEvents() {
-    // Only show skeleton on first load (empty grid)
-    if (!grid.dataset.loaded) showSkeleton();
+    if (!loaded) showSkeleton();
 
     try {
       const res = await fetch(ALLSPORTS_API);
       const events = await res.json();
 
       if (!Array.isArray(events) || events.length === 0) {
-        grid.innerHTML = `<div class="allsports-empty">No events found.</div>`;
+        track.innerHTML = `<div class="allsports-empty">No events found.</div>`;
+        if (countEl) countEl.textContent = "0";
         return;
       }
 
@@ -44,11 +55,12 @@ const SKELETON_COUNT = 8;   // how many placeholder cards to show
       const order = { live: 0, upcoming: 1, ended: 2, unknown: 3 };
       events.sort((a, b) => (order[a.status] ?? 3) - (order[b.status] ?? 3));
 
-      grid.innerHTML = events.map(renderCard).join("");
-      grid.dataset.loaded = "1";
+      track.innerHTML = events.map(renderCard).join("");
+      if (countEl) countEl.textContent = `${events.length} events`;
+      loaded = true;
     } catch (err) {
       console.error("[AllSports] load failed:", err);
-      grid.innerHTML = `<div class="allsports-empty">Failed to load events.</div>`;
+      track.innerHTML = `<div class="allsports-empty">Failed to load events.</div>`;
     }
   }
 
@@ -59,25 +71,35 @@ const SKELETON_COUNT = 8;   // how many placeholder cards to show
 
     return `
       <div class="allsports-card" onclick="AllSports.open('${ev.slug}')">
-        <span class="allsports-badge ${status}">${status}</span>
+        <div class="allsports-thumb">
 
-        <div class="allsports-name">${esc(e.name || ev.title || "")}</div>
+          <span class="allsports-badge ${status}">${status}</span>
 
-        <div class="allsports-teams">
-          <div class="allsports-team">
-            <img src="${e.teamAFlag || ''}" alt="${esc(e.teamA || '')}" loading="lazy"
-                 onerror="this.style.visibility='hidden'">
-            <span>${esc(e.teamA || "")}</span>
+          <div class="allsports-event-name" title="${esc(e.name || ev.title || '')}">
+            ${esc(e.name || ev.title || "")}
           </div>
-          <div class="allsports-vs">VS</div>
-          <div class="allsports-team">
-            <img src="${e.teamBFlag || ''}" alt="${esc(e.teamB || '')}" loading="lazy"
-                 onerror="this.style.visibility='hidden'">
-            <span>${esc(e.teamB || "")}</span>
+
+          <div class="allsports-teams">
+            <div class="allsports-team">
+              <img src="${e.teamAFlag || ''}" alt="${esc(e.teamA || '')}" loading="lazy"
+                   onerror="this.style.visibility='hidden'">
+              <span>${esc(e.teamA || "")}</span>
+            </div>
+            <div class="allsports-vs">VS</div>
+            <div class="allsports-team">
+              <img src="${e.teamBFlag || ''}" alt="${esc(e.teamB || '')}" loading="lazy"
+                   onerror="this.style.visibility='hidden'">
+              <span>${esc(e.teamB || "")}</span>
+            </div>
           </div>
         </div>
 
-        <div class="allsports-time">${esc(e.startTimeIST || "")}</div>
+        <div class="allsports-info">
+          <div class="allsports-meta">
+            <span class="allsports-category">${esc(e.category || "")}</span>
+            <span class="allsports-time">⏱ ${esc(e.startTimeIST || "")}</span>
+          </div>
+        </div>
       </div>
     `;
   }
@@ -91,7 +113,19 @@ const SKELETON_COUNT = 8;   // how many placeholder cards to show
       .replace(/"/g, "&quot;");
   }
 
-  /* ---------- Public namespace ---------- */
+  /* ---------- Arrows ---------- */
+  function scrollByCard(dir) {
+    const card = track.querySelector(".allsports-card, .as-skeleton-card");
+    if (!card) return;
+    const gap = parseInt(getComputedStyle(track).gap) || 20;
+    const step = card.offsetWidth + gap;
+    track.scrollBy({ left: dir * step, behavior: "smooth" });
+  }
+
+  prevBtn?.addEventListener("click", () => scrollByCard(-1));
+  nextBtn?.addEventListener("click", () => scrollByCard(1));
+
+  /* ---------- Public ---------- */
   window.AllSports = {
     open(slug) {
       window.location.href = `player.html?slug=${encodeURIComponent(slug)}`;
