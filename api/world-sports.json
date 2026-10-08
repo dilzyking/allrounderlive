@@ -1,10 +1,56 @@
 {
-  "timestamp": "2026-10-08T19:27:25.870023",
-  "total_matches": 21,
-  "live_count": 1,
-  "upcoming_count": 20,
+  "timestamp": "2026-10-08T20:36:10.511258",
+  "total_matches": 25,
+  "live_count": 3,
+  "upcoming_count": 22,
   "completed_count": 0,
   "matches": [
+    {
+      "match_id": "1225",
+      "title": "Afghanistan vs Bangladesh 1Test",
+      "teams": "Afghanistan vs Bangladesh 1Test",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17914675091020x576.jpg",
+      "league": "Test Series 2026",
+      "viewers": "325",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1225",
+      "match_url": "live/afghanistan-vs-bangladesh-1test-1225",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-10-08T20:04:37.861308"
+    },
+    {
+      "match_id": "1224",
+      "title": "Pakistan U19 vs Sri Lanka U19",
+      "teams": "Pakistan U19 vs Sri Lanka U19",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "live",
+      "status_display": "LIVE",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17908574761020x576.jpg",
+      "league": "Women's Under-19s T20 Tri-Series 2026/27",
+      "viewers": "288",
+      "viewers_type": "Watching",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1224",
+      "match_url": "live/pakistan-u19-vs-sri-lanka-u19-1224",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-10-08T20:04:38.237423"
+    },
     {
       "match_id": "1081",
       "title": "Asian Games 2026",
@@ -16,7 +62,7 @@
       "runtime": "--",
       "thumbnail": "https://myimgs.org/storage/images/44609/AsianGames2026.jpg",
       "league": "Asian Games 2026",
-      "viewers": "931",
+      "viewers": "936",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -39,7 +85,7 @@
         "https://alixbd.com/playlistconfig/toffee.php?ts_proxy=aHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbS9jZG4vbGl2ZS9zb255X3Nwb3J0c18yX2hkLzU3Ni81NzYubTN1OD9oZG50bD1FeHBpcmVzPTE3OTA4ODY0OTB%2BX0dPPUdlbmVyYXRlZH5VUkxQcmVmaXg9YUhSMGNITTZMeTl3Y205a0xXeHBibVZoY2kxdFpXUnBZUzUwYjJabVpXVnNhWFpsTG1OdmJRfkRhdGE9ZXlKemRXSnpZM0pwWW1WeVgybGtJam9pTW1ZeU5tRXlabVl0T0RSa1lTMDBOelJpTFdKaU4yRXRNakZsWTJWaFpUSXlOREJtSW4wflNpZ25hdHVyZT1BZGhCMkxjWUtzR2k5Mzd3QnIxU0l6T0RHUzVlVVNIdEVla1FEbGNENlY1RDQtczFHM1E4Y25xYnFJN1Q0NEVhVG1LTkVlOUlPZkZKVUtUcVJlU2hHN0xueW5nSw%3D%3D",
         "https://alixbd.com/playlistconfig/toffee.php?channel=Sony%20Ten%20Sports%202%20HD&raw=1"
       ],
-      "last_updated": "2026-10-08T14:36:00.494377"
+      "last_updated": "2026-10-08T20:04:38.611435"
     },
     {
       "match_id": "1100",
@@ -52,7 +98,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
       "league": "Australia tour of South Africa",
-      "viewers": "25",
+      "viewers": "27",
       "viewers_type": "Waiting",
       "date": null,
       "time": null,
@@ -62,7 +108,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-08T14:36:00.811428"
+      "last_updated": "2026-10-08T20:04:39.027228"
     },
     {
       "match_id": "1192",
@@ -85,7 +131,53 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-08T14:36:00.812078"
+      "last_updated": "2026-10-08T20:04:39.027791"
+    },
+    {
+      "match_id": "1227",
+      "title": "Pakistan vs Sri Lanka 1St T20",
+      "teams": "Pakistan vs Sri Lanka 1St T20",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17912678441020x576.jpg",
+      "league": "Sri Lanka Tour of Pakistan 2026",
+      "viewers": "399",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1227",
+      "match_url": "live/pakistan-vs-sri-lanka-1st-t20-1227",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-10-08T20:04:39.028165"
+    },
+    {
+      "match_id": "1228",
+      "title": "India vs West Indies",
+      "teams": "India vs West Indies",
+      "sport": "cricket",
+      "sport_display": "Cricket",
+      "status": "upcoming",
+      "status_display": "UPCOMING",
+      "runtime": "00h 00m 00s",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17912807661020x576.jpg",
+      "league": "West Indies Tour of India 2026",
+      "viewers": "436",
+      "viewers_type": "Waiting",
+      "date": null,
+      "time": null,
+      "servers": null,
+      "page_url": "/world-sports/player.html?id=1228",
+      "match_url": "live/india-vs-west-indies-1228",
+      "stream_url": null,
+      "server_count": 0,
+      "server_urls": [],
+      "last_updated": "2026-10-08T20:04:39.028561"
     },
     {
       "match_id": "1000",
@@ -108,7 +200,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-08T14:36:00.812660"
+      "last_updated": "2026-10-08T20:04:39.028933"
     },
     {
       "match_id": "1001",
@@ -131,7 +223,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-08T14:36:00.813203"
+      "last_updated": "2026-10-08T20:04:39.029300"
     },
     {
       "match_id": "1193",
@@ -154,7 +246,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-08T14:36:00.813710"
+      "last_updated": "2026-10-08T20:04:39.029670"
     },
     {
       "match_id": "1008",
@@ -177,7 +269,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-08T14:36:00.814239"
+      "last_updated": "2026-10-08T20:04:39.030030"
     },
     {
       "match_id": "1194",
@@ -200,7 +292,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-08T14:36:00.814731"
+      "last_updated": "2026-10-08T20:04:39.030403"
     },
     {
       "match_id": "1195",
@@ -223,7 +315,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-08T14:36:00.815224"
+      "last_updated": "2026-10-08T20:04:39.030767"
     },
     {
       "match_id": "1042",
@@ -246,7 +338,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-08T14:36:00.815711"
+      "last_updated": "2026-10-08T20:04:39.031134"
     },
     {
       "match_id": "1196",
@@ -269,7 +361,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-08T14:36:00.816240"
+      "last_updated": "2026-10-08T20:04:39.031535"
     },
     {
       "match_id": "1197",
@@ -292,7 +384,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-08T14:36:00.816733"
+      "last_updated": "2026-10-08T20:04:39.031910"
     },
     {
       "match_id": "1049",
@@ -315,7 +407,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-08T14:36:00.817237"
+      "last_updated": "2026-10-08T20:04:39.032262"
     },
     {
       "match_id": "1043",
@@ -338,7 +430,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-08T14:36:00.817722"
+      "last_updated": "2026-10-08T20:04:39.032628"
     },
     {
       "match_id": "1198",
@@ -361,7 +453,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-08T14:36:00.818213"
+      "last_updated": "2026-10-08T20:04:39.032981"
     },
     {
       "match_id": "1199",
@@ -384,7 +476,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-08T14:36:00.818707"
+      "last_updated": "2026-10-08T20:04:39.033357"
     },
     {
       "match_id": "1200",
@@ -407,7 +499,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-08T14:36:00.819201"
+      "last_updated": "2026-10-08T20:04:39.033737"
     },
     {
       "match_id": "1201",
@@ -430,7 +522,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-08T14:36:00.819687"
+      "last_updated": "2026-10-08T20:04:39.034101"
     },
     {
       "match_id": "1202",
@@ -453,7 +545,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-08T14:36:00.820202"
+      "last_updated": "2026-10-08T20:04:39.034459"
     },
     {
       "match_id": "1101",
@@ -476,7 +568,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-08T14:36:00.820699"
+      "last_updated": "2026-10-08T20:04:39.034835"
     },
     {
       "match_id": "1102",
@@ -499,7 +591,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-08T14:36:00.821219"
+      "last_updated": "2026-10-08T20:04:39.035215"
     }
   ]
 }
