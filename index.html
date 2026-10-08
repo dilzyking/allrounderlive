@@ -2329,9 +2329,19 @@
     <!-- ===== ALL SPORTS ===== -->
 <link rel="stylesheet" href="allsports.css">
 
-<section class="section">
-  <h2 class="section-title">All Sports</h2>
-  <div id="allSportsGrid" class="allsports-grid"></div>
+<section class="allsports-section">
+  <div class="allsports-header">
+    <h2 class="allsports-title">
+       All Sports 
+    </h2>
+    <span class="allsports-badge-count" id="allsportsCount">—</span>
+  </div>
+
+  <div class="allsports-carousel-wrapper">
+    <button class="allsports-arrow arrow-left"  id="allsportsPrev" aria-label="Previous">❮</button>
+    <div class="allsports-track" id="allsportsTrack"></div>
+    <button class="allsports-arrow arrow-right" id="allsportsNext" aria-label="Next">❯</button>
+  </div>
 </section>
 
 <script src="allsports.js"></script>
