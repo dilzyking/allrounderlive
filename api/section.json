@@ -1,0 +1,578 @@
+{
+  "schema_version": 2,
+  "app": "MatchDekho",
+  "page": "home",
+  "api_base_url": "https://api.example.com",
+
+  "settings": {
+    "refresh_on_open": true,
+    "default_cache_seconds": 300,
+    "loading_style": "skeleton",
+    "hide_empty_sections": true,
+    "auto_place_sections_in_navigation": true,
+    "default_image_fit": "cover",
+    "default_image_position": "center",
+    "search": {
+      "enabled": true,
+      "include_enabled_sections_only": true,
+      "search_content_via_section_endpoints": true,
+      "deduplicate_by_item_id": true
+    }
+  },
+
+  "navigation": {
+    "tabs": [
+      {
+        "id": "home",
+        "title": "Home",
+        "order": 1
+      },
+      {
+        "id": "live",
+        "title": "Live",
+        "order": 2
+      },
+      {
+        "id": "sports",
+        "title": "Sports",
+        "order": 3
+      },
+      {
+        "id": "discover",
+        "title": "Discover",
+        "order": 4
+      }
+    ],
+    "unknown_tab_behavior": "hide_section"
+  },
+
+  "sections": [
+    {
+      "id": "featured",
+      "title": "Featured",
+      "subtitle": null,
+      "enabled": true,
+      "order": 1,
+      "section_type": "hero_carousel",
+      "content_type": "mixed",
+
+      "data": {
+        "source": "api",
+        "endpoint": "/home/featured",
+        "cache_seconds": 120,
+        "pagination": false
+      },
+
+      "card": {
+        "orientation": "landscape",
+        "aspect_ratio": "16:9",
+        "width_mode": "screen_fraction",
+        "width_value": 0.96,
+        "height_dp": 255,
+        "image_fit": "cover",
+        "image_position": "top",
+        "corner_radius_dp": 18
+      },
+
+      "carousel": {
+        "enabled": true,
+        "auto_slide": true,
+        "interval_ms": 5000,
+        "transition_ms": 1250,
+        "animation": "focus_scale",
+        "side_preview_dp": 10,
+        "side_scale": 0.92,
+        "infinite_loop": true
+      },
+
+      "display": {
+        "show_header": false,
+        "show_view_all": true,
+        "max_items": 10
+      },
+
+      "ads": {
+        "enabled": false,
+        "placement_id": null
+      },
+
+      "navigation": {
+        "tab_ids": ["home"],
+        "use_section_order": true
+      },
+
+      "view_all": {
+        "enabled": true,
+        "auto_create_page": true,
+        "route": "/section/featured",
+        "page_title": "Featured",
+        "layout": "grid",
+        "use_section_data_source": true,
+        "pagination": true
+      },
+
+      "search": {
+        "enabled": true,
+        "include_items": true,
+        "result_card_style": "section_card",
+        "search_fields": [
+          "title",
+          "subtitle",
+          "tags"
+        ]
+      }
+    },
+
+    {
+      "id": "live_matches",
+      "title": "Live Matches",
+      "subtitle": "Watch live sports",
+      "enabled": true,
+      "order": 2,
+      "section_type": "horizontal_list",
+      "content_type": "matches",
+
+      "data": {
+        "source": "api",
+        "endpoint": "/home/live-matches",
+        "cache_seconds": 30,
+        "pagination": true
+      },
+
+      "card": {
+        "orientation": "landscape",
+        "aspect_ratio": "16:9",
+        "width_mode": "dp",
+        "width_value": 280,
+        "height_dp": 165,
+        "image_fit": "cover",
+        "image_position": "center",
+        "corner_radius_dp": 16
+      },
+
+      "carousel": {
+        "enabled": false,
+        "auto_slide": false,
+        "interval_ms": 0,
+        "transition_ms": 0,
+        "animation": "none",
+        "side_preview_dp": 0,
+        "side_scale": 1.0,
+        "infinite_loop": false
+      },
+
+      "display": {
+        "show_header": true,
+        "show_view_all": true,
+        "max_items": 12
+      },
+
+      "ads": {
+        "enabled": false,
+        "placement_id": null
+      },
+
+      "navigation": {
+        "tab_ids": ["home", "live"],
+        "use_section_order": true
+      },
+
+      "view_all": {
+        "enabled": true,
+        "auto_create_page": true,
+        "route": "/section/live_matches",
+        "page_title": "Live Matches",
+        "layout": "grid",
+        "use_section_data_source": true,
+        "pagination": true
+      },
+
+      "search": {
+        "enabled": true,
+        "include_items": true,
+        "result_card_style": "section_card",
+        "search_fields": [
+          "title",
+          "subtitle",
+          "tags"
+        ]
+      }
+    },
+
+    {
+      "id": "upcoming_matches",
+      "title": "Upcoming Matches",
+      "subtitle": "Don't miss the action",
+      "enabled": true,
+      "order": 3,
+      "section_type": "horizontal_list",
+      "content_type": "matches",
+
+      "data": {
+        "source": "api",
+        "endpoint": "/home/upcoming-matches",
+        "cache_seconds": 300,
+        "pagination": true
+      },
+
+      "card": {
+        "orientation": "landscape",
+        "aspect_ratio": "16:9",
+        "width_mode": "dp",
+        "width_value": 280,
+        "height_dp": 165,
+        "image_fit": "cover",
+        "image_position": "bottom",
+        "corner_radius_dp": 16
+      },
+
+      "carousel": {
+        "enabled": false,
+        "auto_slide": false,
+        "interval_ms": 0,
+        "transition_ms": 0,
+        "animation": "none",
+        "side_preview_dp": 0,
+        "side_scale": 1.0,
+        "infinite_loop": false
+      },
+
+      "display": {
+        "show_header": true,
+        "show_view_all": true,
+        "max_items": 12
+      },
+
+      "ads": {
+        "enabled": false,
+        "placement_id": null
+      },
+
+      "navigation": {
+        "tab_ids": ["home", "sports"],
+        "use_section_order": true
+      },
+
+      "view_all": {
+        "enabled": true,
+        "auto_create_page": true,
+        "route": "/section/upcoming_matches",
+        "page_title": "Upcoming Matches",
+        "layout": "grid",
+        "use_section_data_source": true,
+        "pagination": true
+      },
+
+      "search": {
+        "enabled": true,
+        "include_items": true,
+        "result_card_style": "section_card",
+        "search_fields": [
+          "title",
+          "subtitle",
+          "tags"
+        ]
+      }
+    },
+
+    {
+      "id": "highlights",
+      "title": "Highlights",
+      "subtitle": "Best moments",
+      "enabled": true,
+      "order": 4,
+      "section_type": "horizontal_list",
+      "content_type": "videos",
+
+      "data": {
+        "source": "api",
+        "endpoint": "/home/highlights",
+        "cache_seconds": 600,
+        "pagination": true
+      },
+
+      "card": {
+        "orientation": "landscape",
+        "aspect_ratio": "16:9",
+        "width_mode": "dp",
+        "width_value": 260,
+        "height_dp": 150,
+        "image_fit": "cover",
+        "image_position": "center",
+        "corner_radius_dp": 16
+      },
+
+      "carousel": {
+        "enabled": false,
+        "auto_slide": false,
+        "interval_ms": 0,
+        "transition_ms": 0,
+        "animation": "none",
+        "side_preview_dp": 0,
+        "side_scale": 1.0,
+        "infinite_loop": false
+      },
+
+      "display": {
+        "show_header": true,
+        "show_view_all": true,
+        "max_items": 10
+      },
+
+      "ads": {
+        "enabled": false,
+        "placement_id": null
+      },
+
+      "navigation": {
+        "tab_ids": ["home", "discover"],
+        "use_section_order": true
+      },
+
+      "view_all": {
+        "enabled": true,
+        "auto_create_page": true,
+        "route": "/section/highlights",
+        "page_title": "Highlights",
+        "layout": "grid",
+        "use_section_data_source": true,
+        "pagination": true
+      },
+
+      "search": {
+        "enabled": true,
+        "include_items": true,
+        "result_card_style": "section_card",
+        "search_fields": [
+          "title",
+          "subtitle",
+          "tags"
+        ]
+      }
+    },
+
+    {
+      "id": "advertisement_1",
+      "title": "Advertisement",
+      "subtitle": null,
+      "enabled": true,
+      "order": 5,
+      "section_type": "ad_slot",
+      "content_type": "ads",
+
+      "data": {
+        "source": "static",
+        "endpoint": null,
+        "cache_seconds": 0,
+        "pagination": false
+      },
+
+      "card": {
+        "orientation": "landscape",
+        "aspect_ratio": "16:5",
+        "width_mode": "screen_fraction",
+        "width_value": 1.0,
+        "height_dp": 110,
+        "image_fit": "cover",
+        "image_position": "center",
+        "corner_radius_dp": 12
+      },
+
+      "carousel": {
+        "enabled": false,
+        "auto_slide": false,
+        "interval_ms": 0,
+        "transition_ms": 0,
+        "animation": "none",
+        "side_preview_dp": 0,
+        "side_scale": 1.0,
+        "infinite_loop": false
+      },
+
+      "display": {
+        "show_header": false,
+        "show_view_all": false,
+        "max_items": 1
+      },
+
+      "ads": {
+        "enabled": true,
+        "placement_id": "home_inline_1"
+      },
+
+      "navigation": {
+        "tab_ids": ["home"],
+        "use_section_order": true
+      },
+
+      "view_all": {
+        "enabled": false,
+        "auto_create_page": false,
+        "route": null,
+        "page_title": null,
+        "layout": null,
+        "use_section_data_source": false,
+        "pagination": false
+      },
+
+      "search": {
+        "enabled": false,
+        "include_items": false,
+        "result_card_style": null,
+        "search_fields": []
+      }
+    },
+
+    {
+      "id": "tournaments",
+      "title": "Tournaments",
+      "subtitle": "Explore competitions",
+      "enabled": true,
+      "order": 6,
+      "section_type": "horizontal_list",
+      "content_type": "tournaments",
+
+      "data": {
+        "source": "api",
+        "endpoint": "/home/tournaments",
+        "cache_seconds": 1800,
+        "pagination": true
+      },
+
+      "card": {
+        "orientation": "portrait",
+        "aspect_ratio": "2:3",
+        "width_mode": "dp",
+        "width_value": 145,
+        "height_dp": 215,
+        "image_fit": "cover",
+        "image_position": "top",
+        "corner_radius_dp": 16
+      },
+
+      "carousel": {
+        "enabled": false,
+        "auto_slide": false,
+        "interval_ms": 0,
+        "transition_ms": 0,
+        "animation": "none",
+        "side_preview_dp": 0,
+        "side_scale": 1.0,
+        "infinite_loop": false
+      },
+
+      "display": {
+        "show_header": true,
+        "show_view_all": true,
+        "max_items": 12
+      },
+
+      "ads": {
+        "enabled": false,
+        "placement_id": null
+      },
+
+      "navigation": {
+        "tab_ids": ["home", "sports"],
+        "use_section_order": true
+      },
+
+      "view_all": {
+        "enabled": true,
+        "auto_create_page": true,
+        "route": "/section/tournaments",
+        "page_title": "Tournaments",
+        "layout": "grid",
+        "use_section_data_source": true,
+        "pagination": true
+      },
+
+      "search": {
+        "enabled": true,
+        "include_items": true,
+        "result_card_style": "section_card",
+        "search_fields": [
+          "title",
+          "subtitle",
+          "tags"
+        ]
+      }
+    },
+
+    {
+      "id": "sports_news",
+      "title": "Sports News",
+      "subtitle": "Latest updates",
+      "enabled": true,
+      "order": 7,
+      "section_type": "horizontal_list",
+      "content_type": "articles",
+
+      "data": {
+        "source": "api",
+        "endpoint": "/home/sports-news",
+        "cache_seconds": 900,
+        "pagination": true
+      },
+
+      "card": {
+        "orientation": "landscape",
+        "aspect_ratio": "16:9",
+        "width_mode": "dp",
+        "width_value": 250,
+        "height_dp": 145,
+        "image_fit": "cover",
+        "image_position": "center",
+        "corner_radius_dp": 16
+      },
+
+      "carousel": {
+        "enabled": false,
+        "auto_slide": false,
+        "interval_ms": 0,
+        "transition_ms": 0,
+        "animation": "none",
+        "side_preview_dp": 0,
+        "side_scale": 1.0,
+        "infinite_loop": false
+      },
+
+      "display": {
+        "show_header": true,
+        "show_view_all": true,
+        "max_items": 10
+      },
+
+      "ads": {
+        "enabled": false,
+        "placement_id": null
+      },
+
+      "navigation": {
+        "tab_ids": ["home", "discover"],
+        "use_section_order": true
+      },
+
+      "view_all": {
+        "enabled": true,
+        "auto_create_page": true,
+        "route": "/section/sports_news",
+        "page_title": "Sports News",
+        "layout": "grid",
+        "use_section_data_source": true,
+        "pagination": true
+      },
+
+      "search": {
+        "enabled": true,
+        "include_items": true,
+        "result_card_style": "section_card",
+        "search_fields": [
+          "title",
+          "subtitle",
+          "tags"
+        ]
+      }
+    }
+  ]
+}
