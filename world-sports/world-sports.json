@@ -1,62 +1,10 @@
 {
-  "timestamp": "2026-10-09T21:53:50.077608",
-  "total_matches": 19,
-  "live_count": 3,
+  "timestamp": "2026-10-09T21:58:54.429937",
+  "total_matches": 17,
+  "live_count": 1,
   "upcoming_count": 16,
   "completed_count": 0,
   "matches": [
-    {
-      "match_id": "1231",
-      "title": "West Ham United vs Queens Park Rangers F.C.",
-      "teams": "West Ham United vs Queens Park Rangers F.C.",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249588_52993_WHU_QPR_fc-web.jpg",
-      "league": "EFL Championship 2026-27",
-      "viewers": "29",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1231",
-      "match_url": "live/west-ham-united-vs-queens-park-rangers-f-c-1231",
-      "stream_url": "https://admin2.formaturamaxi.com.br/cbssn.m3u8",
-      "server_count": 2,
-      "server_urls": [
-        "https://admin2.formaturamaxi.com.br/cbssn.m3u8",
-        "https://fawa.duckdns.org/api/proxy.mp4?url=http%3A%2F%2F193.47.62.44%2Fhls%2FJEEEAAA-733.ts&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
-      ],
-      "last_updated": "2026-10-09T21:48:53.804022"
-    },
-    {
-      "match_id": "1230",
-      "title": "Malaga vs RCD Espanyol",
-      "teams": "Malaga vs RCD Espanyol",
-      "sport": "football",
-      "sport_display": "Football",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247646_53004_MAG_ESL_FC-Web.png",
-      "league": "LALIGA 2026-27",
-      "viewers": "29",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1230",
-      "match_url": "live/malaga-vs-rcd-espanyol-1230",
-      "stream_url": "https://live.talkoraai.com/match/hls?t=b8GhGPmXIdpvgRWshTQFtxiji0AK4LqU9yiS92r7JQ5xAYd4bkoTnje-hJtlME1DDNsfMMcOGOcp-p2a6cEVHxHdRwkoEPRGs0V8qW0TKt0qzTyBzgcADi1MvnNX9X8rsnCqadOPwfrVgPs83NR1tBUhVXq0Yg8ebMoNooZMU77mW6t_hX5jmZpGM7cZI2jAxOc99K7a0m13O5od__lL1-Kj38tIL3uy5FqaMouFeEpHq60H2p5516vewFKcxI9MaWfds4NRrEtS6HOVZ_m9PquwP8m2Oss",
-      "server_count": 2,
-      "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=b8GhGPmXIdpvgRWshTQFtxiji0AK4LqU9yiS92r7JQ5xAYd4bkoTnje-hJtlME1DDNsfMMcOGOcp-p2a6cEVHxHdRwkoEPRGs0V8qW0TKt0qzTyBzgcADi1MvnNX9X8rsnCqadOPwfrVgPs83NR1tBUhVXq0Yg8ebMoNooZMU77mW6t_hX5jmZpGM7cZI2jAxOc99K7a0m13O5od__lL1-Kj38tIL3uy5FqaMouFeEpHq60H2p5516vewFKcxI9MaWfds4NRrEtS6HOVZ_m9PquwP8m2Oss",
-        "https://live.talkoraai.com/match/seg?t=-z7OkZ9VE218ZwHXT7o7vQg1EcsvMvSqNVm10uepEji_miQJ7etwzUXwl3UDEnLiehXwrkmuADWp2DNhrTD_u9EG8aV3t2mj2pPHYS97cAFIrTlagCiqQyl5cVZoo0EzzJoA3wWFHffmTvr1k_Du085_zLgZ7u42mfWJu_bzBsqqjtVjJnQv1pcnbX8Ne7nEU3GUBwzxBeLOcY77XFq3qaF2OCMDOCd5ObS14gPaixQ5zC1sosPHDnSoLuME_jWBB_JswYXcz5jNn2E-WibwpwcnfpRoOT1Eaat_tw0qXw"
-      ],
-      "last_updated": "2026-10-09T21:48:54.249757"
-    },
     {
       "match_id": "1081",
       "title": "Asian Games 2026",
@@ -68,7 +16,7 @@
       "runtime": "--",
       "thumbnail": "https://myimgs.org/storage/images/44609/AsianGames2026.jpg",
       "league": "Asian Games 2026",
-      "viewers": "234",
+      "viewers": "235",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -91,7 +39,7 @@
         "https://alixbd.com/playlistconfig/toffee.php?ts_proxy=aHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbS9jZG4vbGl2ZS9zb255X3Nwb3J0c18yX2hkLzU3Ni81NzYubTN1OD9oZG50bD1FeHBpcmVzPTE3OTA4ODY0OTB%2BX0dPPUdlbmVyYXRlZH5VUkxQcmVmaXg9YUhSMGNITTZMeTl3Y205a0xXeHBibVZoY2kxdFpXUnBZUzUwYjJabVpXVnNhWFpsTG1OdmJRfkRhdGE9ZXlKemRXSnpZM0pwWW1WeVgybGtJam9pTW1ZeU5tRXlabVl0T0RSa1lTMDBOelJpTFdKaU4yRXRNakZsWTJWaFpUSXlOREJtSW4wflNpZ25hdHVyZT1BZGhCMkxjWUtzR2k5Mzd3QnIxU0l6T0RHUzVlVVNIdEVla1FEbGNENlY1RDQtczFHM1E4Y25xYnFJN1Q0NEVhVG1LTkVlOUlPZkZKVUtUcVJlU2hHN0xueW5nSw%3D%3D",
         "https://alixbd.com/playlistconfig/toffee.php?channel=Sony%20Ten%20Sports%202%20HD&raw=1"
       ],
-      "last_updated": "2026-10-09T21:48:54.624687"
+      "last_updated": "2026-10-09T21:53:59.211512"
     },
     {
       "match_id": "1225",
@@ -114,7 +62,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-09T21:48:56.455532"
+      "last_updated": "2026-10-09T21:53:59.609871"
     },
     {
       "match_id": "1100",
@@ -137,7 +85,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-09T21:48:56.456019"
+      "last_updated": "2026-10-09T21:53:59.610704"
     },
     {
       "match_id": "1194",
@@ -160,7 +108,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-09T21:48:56.456453"
+      "last_updated": "2026-10-09T21:53:59.611378"
     },
     {
       "match_id": "1195",
@@ -183,7 +131,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-09T21:48:56.456871"
+      "last_updated": "2026-10-09T21:53:59.612014"
     },
     {
       "match_id": "1042",
@@ -206,7 +154,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-09T21:48:56.457290"
+      "last_updated": "2026-10-09T21:53:59.612678"
     },
     {
       "match_id": "1196",
@@ -229,7 +177,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-09T21:48:56.457705"
+      "last_updated": "2026-10-09T21:53:59.613314"
     },
     {
       "match_id": "1197",
@@ -252,7 +200,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-09T21:48:56.458115"
+      "last_updated": "2026-10-09T21:53:59.613943"
     },
     {
       "match_id": "1049",
@@ -275,7 +223,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-09T21:48:56.458535"
+      "last_updated": "2026-10-09T21:53:59.614620"
     },
     {
       "match_id": "1043",
@@ -298,7 +246,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-09T21:48:56.458956"
+      "last_updated": "2026-10-09T21:53:59.615250"
     },
     {
       "match_id": "1198",
@@ -321,7 +269,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-09T21:48:56.459367"
+      "last_updated": "2026-10-09T21:53:59.615869"
     },
     {
       "match_id": "1199",
@@ -344,7 +292,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-09T21:48:56.459773"
+      "last_updated": "2026-10-09T21:53:59.616509"
     },
     {
       "match_id": "1200",
@@ -367,7 +315,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-09T21:48:56.460171"
+      "last_updated": "2026-10-09T21:53:59.617113"
     },
     {
       "match_id": "1201",
@@ -390,7 +338,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-09T21:48:56.460592"
+      "last_updated": "2026-10-09T21:53:59.617739"
     },
     {
       "match_id": "1202",
@@ -413,7 +361,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-09T21:48:56.460996"
+      "last_updated": "2026-10-09T21:53:59.618410"
     },
     {
       "match_id": "1101",
@@ -436,7 +384,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-09T21:48:56.461406"
+      "last_updated": "2026-10-09T21:53:59.619032"
     },
     {
       "match_id": "1102",
@@ -459,7 +407,7 @@
       "stream_url": null,
       "server_count": 0,
       "server_urls": [],
-      "last_updated": "2026-10-09T21:48:56.461806"
+      "last_updated": "2026-10-09T21:53:59.619680"
     }
   ]
 }
