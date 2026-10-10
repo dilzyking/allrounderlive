@@ -3,7 +3,7 @@
    ============================================================ */
 
 // ⬇️ Replace with your deployed Worker URL
-const ALLSPORTS_API = "https://all-sports.freedekholive-577.workers.dev/";
+const ALLSPORTS_API = "https://all-sports.freedekholive-577.workers.dev/football.json";
 
 const SKELETON_COUNT = 6;
 
