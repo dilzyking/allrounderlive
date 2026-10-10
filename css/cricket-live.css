@@ -1,85 +1,49 @@
 /* =========================================================
-   CRICKET LIVE
-   Lightweight solid-panel design
-   Compatible with the existing cricket-live.js
+   CRICKET LIVE — section styles
+   Mirror of allsports.css with unique .cricket-live-* / .cl-*
+   class names so it can coexist with the Football section.
    ========================================================= */
 
-/* ---------- SECTION ---------- */
-
 .cricket-live-section {
-  width: 100%;
   max-width: 1440px;
   margin: 0 auto;
-  padding:
-    clamp(0.6rem, 1.5vw, 1.2rem)
-    0
-    clamp(1rem, 3vw, 2rem);
+  padding: clamp(.6rem, 1.5vw, 1.2rem) 0 clamp(1rem, 3vw, 2rem);
   position: relative;
   background: #0b0d0f;
-  color: #f5f8fa;
-  font-family: "Inter", system-ui, sans-serif;
 }
-
-.cricket-live-section,
-.cricket-live-section *,
-.cricket-live-section *::before,
-.cricket-live-section *::after {
-  box-sizing: border-box;
-}
-
-/* ---------- HEADER ---------- */
 
 .cricket-live-header {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  gap: 12px;
-  margin-bottom: clamp(0.7rem, 1.8vw, 1.4rem);
+  align-items: center;
+  margin-bottom: clamp(.7rem, 1.8vw, 1.4rem);
   padding: 0 clamp(1rem, 5vw, 3rem);
 }
 
 .cricket-live-title {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin: 0;
-  color: #f5f8fa;
   font-size: clamp(1.05rem, 2.2vw, 1.7rem);
   font-weight: 700;
-  line-height: 1.3;
-  letter-spacing: -0.025em;
-}
-
-.cricket-live-title::before {
-  content: "";
-  width: 4px;
-  height: 22px;
-  flex-shrink: 0;
-  border-radius: 3px;
-  background: #7dffb3;
+  letter-spacing: -.01em;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  color: #fff;
 }
 
 .cricket-live-title small {
-  color: #8d9aa4;
-  font-size: 11px;
-  font-weight: 500;
+  font-size: clamp(.6rem, .8vw, .8rem);
+  font-weight: 400;
+  opacity: .5;
 }
 
 .cricket-live-count {
-  flex-shrink: 0;
-  padding: 6px 10px;
-  border: 1px solid #28343c;
-  border-radius: 7px;
-  background: #141b21;
-  color: #b3c0c9;
-  font-size: 11px;
-  font-weight: 600;
-  line-height: 1.2;
-  white-space: nowrap;
-  font-variant-numeric: tabular-nums;
+  background: rgba(255, 255, 255, .05);
+  padding: .3rem .8rem;
+  border-radius: 30px;
+  font-size: .72rem;
+  color: rgba(255, 255, 255, .55);
+  border: 1px solid rgba(255, 255, 255, .07);
 }
-
-/* ---------- CAROUSEL ---------- */
 
 .cricket-live-carousel-wrapper {
   position: relative;
@@ -88,16 +52,16 @@
 
 .cricket-live-track {
   display: flex;
-  align-items: stretch;
-  gap: clamp(0.8rem, 1.8vw, 1.6rem);
+  gap: clamp(.8rem, 1.8vw, 1.6rem);
   overflow-x: auto;
   overflow-y: hidden;
-  padding:
-    4px
-    clamp(1rem, 5vw, 3rem)
-    12px;
   scroll-behavior: smooth;
+  padding:
+    clamp(.2rem, .4vw, .4rem)
+    clamp(1rem, 5vw, 3rem)
+    clamp(.5rem, 1vw, .8rem);
   scrollbar-width: none;
+  -ms-overflow-style: none;
   -webkit-overflow-scrolling: touch;
 }
 
@@ -105,99 +69,160 @@
   display: none;
 }
 
-/* ---------- CARD ---------- */
-
 .cricket-live-card {
-  position: relative;
-  display: flex;
   flex: 0 0 auto;
-  flex-direction: column;
   width: clamp(260px, 34vw, 480px);
-  min-width: 0;
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
-  border: 1px solid #29353d;
-  border-radius: 14px;
-  background: #12191f;
-  color: #f5f8fa;
+  position: relative;
+  isolation: isolate;
+  border-radius: clamp(8px, 1vw, 14px);
+  color: #fff;
   cursor: pointer;
-  text-decoration: none;
-  -webkit-tap-highlight-color: transparent;
+  background: #111214;
+  border: 1px solid rgba(255, 255, 255, .08);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, .45);
+  transition:
+    transform .35s cubic-bezier(.4, 0, .2, 1),
+    box-shadow .35s ease,
+    border-color .35s ease;
+}
+
+.cricket-live-card:hover {
+  transform: scale(1.045);
+  border-color: rgba(255, 255, 255, .2);
+  box-shadow: 0 16px 45px rgba(0, 0, 0, .65);
+  z-index: 5;
 }
 
 .cricket-live-card:focus-visible {
-  outline: 2px solid #7dffb3;
+  outline: 2px solid #f5c518;
   outline-offset: 2px;
 }
 
-/* ---------- MATCH PANEL ---------- */
-
 .cricket-live-thumb {
-  position: relative;
-  flex-shrink: 0;
   width: 100%;
   aspect-ratio: 16 / 9;
+  position: relative;
   overflow: hidden;
-  border-bottom: 1px solid #29353d;
-  background: linear-gradient(
-    125deg,
-    #19372d 0%,
-    #172b2a 44%,
-    #18232b 100%
-  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:
+    radial-gradient(
+      ellipse at 15% 20%,
+      rgba(28, 109, 115, .32),
+      transparent 48%
+    ),
+    radial-gradient(
+      ellipse at 85% 75%,
+      rgba(42, 63, 129, .3),
+      transparent 48%
+    ),
+    linear-gradient(
+      135deg,
+      #19262b 0%,
+      #11191e 48%,
+      #171e2b 100%
+    );
 }
-
-/* Static diagonal detail instead of blurred decoration. */
 
 .cricket-live-thumb::before {
   content: "";
   position: absolute;
   inset: 0;
+  background:
+    linear-gradient(
+      125deg,
+      rgba(255, 255, 255, .09),
+      transparent 37%
+    ),
+    repeating-linear-gradient(
+      125deg,
+      transparent 0,
+      transparent 38px,
+      rgba(255, 255, 255, .012) 39px,
+      transparent 40px
+    );
+  pointer-events: none;
+}
+
+.cricket-live-thumb::after {
+  content: "";
+  position: absolute;
+  width: 65%;
+  height: 140%;
+  top: -20%;
+  left: -80%;
+  transform: rotate(22deg);
   background: linear-gradient(
-    125deg,
-    transparent 0%,
-    transparent 67%,
-    #233b36 67%,
-    #233b36 68%,
-    transparent 68%,
-    transparent 100%
+    90deg,
+    transparent,
+    rgba(255, 255, 255, .055),
+    transparent
+  );
+  transition: left .8s ease;
+  pointer-events: none;
+}
+
+.cricket-live-card:hover .cricket-live-thumb::after {
+  left: 140%;
+}
+
+.cl-glass-orb {
+  position: absolute;
+  width: 58%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(85, 204, 196, .15),
+    rgba(85, 204, 196, .035) 55%,
+    transparent 75%
   );
   pointer-events: none;
 }
 
-/* Old glass and moving-shine elements are unused. */
-
-.cricket-live-thumb::after,
-.cl-glass-orb {
-  display: none;
+.cl-glass-orb.one {
+  top: -50%;
+  left: -20%;
 }
 
-/* ---------- TOP LABELS ---------- */
+.cl-glass-orb.two {
+  right: -22%;
+  bottom: -70%;
+  background: radial-gradient(
+    circle,
+    rgba(91, 119, 244, .17),
+    transparent 72%
+  );
+}
 
 .cricket-live-topbar {
   position: absolute;
-  top: 11px;
-  left: 12px;
-  right: 12px;
-  z-index: 2;
+  top: clamp(10px, 1.4vw, 16px);
+  left: clamp(10px, 1.4vw, 16px);
+  right: clamp(10px, 1.4vw, 16px);
+  z-index: 3;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: flex-start;
   gap: 8px;
 }
 
 .cricket-live-sport-tag {
-  max-width: 58%;
-  overflow: hidden;
-  padding: 5px 8px;
-  border: 1px solid #355047;
-  border-radius: 5px;
-  background: #1b352d;
-  color: #b2e7ca;
-  font-size: clamp(9px, 0.8vw, 11px);
-  font-weight: 700;
-  line-height: 1.2;
-  letter-spacing: 0.08em;
+  max-width: 55%;
+  padding: 5px 10px;
+  background: rgba(255, 255, 255, .09);
+  border: 1px solid rgba(255, 255, 255, .13);
+  border-radius: 7px;
+  font-size: clamp(9px, .8vw, 11px);
+  font-weight: 750;
+  letter-spacing: .09em;
   text-transform: uppercase;
+  color: rgba(255, 255, 255, .85);
+  overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
@@ -206,101 +231,125 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  flex-shrink: 0;
   gap: 6px;
-  padding: 5px 8px;
-  border: 1px solid transparent;
-  border-radius: 5px;
-  font-size: clamp(9px, 0.8vw, 11px);
+  flex-shrink: 0;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: clamp(9px, .75vw, 11px);
   font-weight: 800;
-  line-height: 1.2;
-  letter-spacing: 0.06em;
+  letter-spacing: .07em;
   text-transform: uppercase;
 }
 
 .cricket-live-badge.live {
-  border-color: #f05061;
-  background: #c82b42;
-  color: #ffffff;
+  background: rgba(220, 25, 45, .92);
+  color: #fff;
+  box-shadow: 0 0 22px rgba(255, 28, 57, .25);
 }
 
 .cricket-live-badge.live::before {
   content: "";
-  width: 5px;
-  height: 5px;
-  flex-shrink: 0;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
-  background: #ffffff;
+  background: #fff;
+  box-shadow: 0 0 7px #fff;
+  animation: cl-live-dot 1.4s ease-in-out infinite;
 }
 
 .cricket-live-badge.upcoming {
-  border-color: #67552e;
-  background: #342d1b;
-  color: #f4d58d;
+  background: rgba(245, 197, 24, .13);
+  border: 1px solid rgba(245, 197, 24, .28);
+  color: #ffdc69;
 }
 
-.cricket-live-badge.ended,
+.cricket-live-badge.ended {
+  background: rgba(255, 255, 255, .09);
+  border: 1px solid rgba(255, 255, 255, .12);
+  color: #aab1ba;
+}
+
 .cricket-live-badge.unknown {
-  border-color: #3b4650;
-  background: #242d36;
-  color: #b5c0ca;
+  background: rgba(255, 255, 255, .09);
+  color: #d4d8df;
 }
 
-/* ---------- TEAMS ---------- */
+@keyframes cl-live-dot {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: .45;
+    transform: scale(.75);
+  }
+}
 
 .cricket-live-match-content {
-  position: absolute;
-  inset: 43px 14px 10px;
-  z-index: 1;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  padding: clamp(40px, 5vw, 60px) 16px 12px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: clamp(8px, 1vw, 14px);
-  min-width: 0;
+  gap: clamp(12px, 1.8vw, 20px);
 }
 
 .cricket-live-event-name {
-  width: 100%;
-  overflow: hidden;
-  color: #b5c8cc;
-  font-size: clamp(10px, 0.9vw, 13px);
-  font-weight: 500;
-  line-height: 1.3;
+  width: 90%;
   text-align: center;
-  text-overflow: ellipsis;
+  font-size: clamp(10px, 1vw, 14px);
+  font-weight: 750;
+  letter-spacing: .035em;
+  color: rgba(255, 255, 255, .86);
   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .cricket-live-teams {
+  width: 100%;
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
   align-items: center;
-  gap: clamp(10px, 1.6vw, 22px);
-  width: 100%;
-  min-width: 0;
+  gap: clamp(12px, 2vw, 28px);
 }
 
 .cricket-live-team {
+  min-width: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 7px;
-  min-width: 0;
+  gap: clamp(7px, 1vw, 12px);
 }
 
 .cl-team-image-wrap {
+  width: clamp(68px, 8vw, 104px);
+  height: clamp(68px, 8vw, 104px);
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  width: clamp(48px, 6vw, 80px);
-  height: clamp(48px, 6vw, 80px);
-  overflow: hidden;
-  border: 2px solid #3b5656;
   border-radius: 50%;
-  background: #1b2b32;
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, .16),
+    rgba(255, 255, 255, .035)
+  );
+  border: 1px solid rgba(255, 255, 255, .19);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, .15),
+    0 10px 24px rgba(0, 0, 0, .22);
+  transition: transform .3s ease;
+}
+
+.cricket-live-card:hover .cl-team-image-wrap {
+  transform: translateY(-4px);
 }
 
 .cl-team-placeholder {
@@ -309,78 +358,71 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: inherit;
-  color: #d4e8e3;
-  font-size: clamp(16px, 2vw, 23px);
-  font-weight: 800;
-  letter-spacing: -0.04em;
+  border-radius: 50%;
+  color: rgba(255, 255, 255, .8);
+  font-size: clamp(18px, 2.5vw, 28px);
+  font-weight: 850;
+  letter-spacing: -.04em;
 }
 
 .cl-team-image-wrap img {
-  position: relative;
-  z-index: 1;
-  display: block;
   width: 76%;
   height: 76%;
+  position: relative;
+  z-index: 1;
   object-fit: contain;
   border-radius: 50%;
   visibility: hidden;
+  filter: drop-shadow(0 3px 8px rgba(0, 0, 0, .3));
 }
-
-/* Visibility is enabled by CricketLive.imageLoaded(). */
 
 .cricket-live-team-name {
   display: block;
-  width: 100%;
   max-width: 100%;
-  overflow: hidden;
-  color: #f4f8f9;
-  font-size: clamp(11px, 1vw, 14px);
-  font-weight: 700;
-  line-height: 1.3;
+  font-size: clamp(11px, 1.05vw, 15px);
+  font-weight: 750;
   text-align: center;
-  text-overflow: ellipsis;
+  color: #f4f6f9;
   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .cricket-live-vs {
+  width: clamp(34px, 4vw, 50px);
+  height: clamp(34px, 4vw, 50px);
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 30px;
-  height: 30px;
-  border: 1px solid #38504f;
-  border-radius: 8px;
-  background: #182b2d;
-  color: #a7c2bc;
-  font-size: 10px;
-  font-weight: 800;
-  letter-spacing: 0.02em;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, .07);
+  border: 1px solid rgba(255, 255, 255, .12);
+  color: rgba(255, 255, 255, .8);
+  font-size: clamp(11px, 1vw, 14px);
+  font-weight: 850;
+  letter-spacing: .04em;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .07);
 }
 
-/* ---------- INFORMATION PANEL ---------- */
-
 .cricket-live-info {
-  display: flex;
   flex: 1;
+  min-height: clamp(75px, 8vw, 100px);
+  padding: clamp(11px, 1.2vw, 16px);
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 12px;
-  min-width: 0;
-  min-height: 96px;
-  padding: clamp(12px, 1.3vw, 17px);
-  background: #12191f;
+  gap: 10px;
+  background: linear-gradient(135deg, #14181d, #101317);
 }
 
 .cricket-live-info-title {
+  font-size: clamp(11px, 1vw, 14px);
+  font-weight: 750;
+  color: #f5c518;
+  letter-spacing: .035em;
   overflow: hidden;
-  color: #eef4f6;
-  font-size: clamp(12px, 1vw, 14px);
-  font-weight: 700;
-  line-height: 1.35;
-  letter-spacing: -0.01em;
-  text-overflow: ellipsis;
   white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .cricket-live-meta {
@@ -392,188 +434,192 @@
 }
 
 .cricket-live-meta-left {
+  min-width: 0;
   display: flex;
-  flex: 1;
   flex-direction: column;
   gap: 4px;
-  min-width: 0;
 }
 
 .cricket-live-category {
-  overflow: hidden;
-  color: #93baa9;
-  font-size: 9px;
-  font-weight: 700;
-  line-height: 1.3;
-  letter-spacing: 0.08em;
+  font-size: clamp(9px, .75vw, 11px);
+  font-weight: 750;
   text-transform: uppercase;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  letter-spacing: .08em;
+  color: rgba(255, 255, 255, .66);
 }
 
 .cricket-live-time {
-  overflow: hidden;
-  color: #a3b0ba;
-  font-size: clamp(10px, 0.85vw, 12px);
-  line-height: 1.4;
-  font-variant-numeric: tabular-nums;
-  text-overflow: ellipsis;
+  font-size: clamp(10px, .85vw, 12px);
+  color: rgba(255, 255, 255, .48);
   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-/* ---------- WATCH BUTTON ---------- */
-
 .cricket-live-watch-btn {
+  flex-shrink: 0;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  flex-shrink: 0;
-  gap: 6px;
-  min-height: 36px;
-  padding: 0 clamp(11px, 1.3vw, 17px);
-  border: 1px solid #7dffb3;
-  border-radius: 7px;
-  background: #7dffb3;
-  color: #10271b;
+  gap: 7px;
+  min-height: clamp(33px, 3vw, 40px);
+  padding: 0 clamp(12px, 1.4vw, 19px);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, .15);
+  background: linear-gradient(135deg, #e8f8f4, #a8e9d9);
+  color: #102a27;
   font-family: inherit;
-  font-size: clamp(10px, 0.85vw, 12px);
-  font-weight: 800;
-  line-height: 1;
-  white-space: nowrap;
+  font-size: clamp(10px, .85vw, 12px);
+  font-weight: 850;
+  letter-spacing: .01em;
   cursor: pointer;
-  -webkit-tap-highlight-color: transparent;
+  box-shadow: 0 4px 16px rgba(88, 214, 182, .14);
+  transition:
+    transform .2s ease,
+    box-shadow .2s ease;
+}
+
+.cricket-live-watch-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 7px 20px rgba(88, 214, 182, .25);
 }
 
 .cricket-live-watch-btn svg {
-  display: block;
   width: 13px;
   height: 13px;
-  flex-shrink: 0;
   fill: currentColor;
 }
 
 .cricket-live-watch-btn.upcoming {
-  border-color: #5e5133;
-  background: #302a1d;
-  color: #f1d394;
+  background: rgba(245, 197, 24, .1);
+  border-color: rgba(245, 197, 24, .25);
+  color: #f5c518;
+  box-shadow: none;
 }
 
-.cricket-live-watch-btn.ended,
-.cricket-live-watch-btn.unknown {
-  border-color: #3a4651;
-  background: #242e38;
-  color: #c3cdd6;
+.cricket-live-watch-btn.ended {
+  background: rgba(255, 255, 255, .07);
+  color: #c5cbd2;
+  box-shadow: none;
 }
-
-.cricket-live-watch-btn:focus-visible,
-.cricket-live-arrow:focus-visible {
-  outline: 2px solid #b1ffd1;
-  outline-offset: 2px;
-}
-
-.cricket-live-watch-btn:active {
-  opacity: 0.8;
-}
-
-/* ---------- EMPTY STATE ---------- */
 
 .cricket-live-empty {
-  flex: 0 0 100%;
-  padding: 28px 16px;
-  border: 1px solid #28333c;
-  border-radius: 12px;
-  background: #12191f;
-  color: #9dabb6;
-  font-size: 13px;
-  line-height: 1.5;
+  flex: 0 0 auto;
+  width: 100%;
   text-align: center;
+  color: rgba(255, 255, 255, .45);
+  padding: 2rem 1rem;
+  font-size: .9rem;
 }
 
-/* ---------- STATIC SKELETONS ---------- */
+/* ---------- SKELETON ---------- */
 
 .cl-skeleton-card {
   flex: 0 0 auto;
   width: clamp(260px, 34vw, 480px);
+  background: #14161a;
+  border-radius: clamp(8px, 1vw, 14px);
   overflow: hidden;
-  border: 1px solid #29353d;
-  border-radius: 14px;
-  background: #12191f;
+  border: 1px solid rgba(255, 255, 255, .04);
 }
 
 .cl-skeleton-thumb {
   position: relative;
   width: 100%;
   aspect-ratio: 16 / 9;
-  border-bottom: 1px solid #29353d;
-  background: #19262d;
+  background: linear-gradient(
+    90deg,
+    #1a1c1e 25%,
+    #23262c 50%,
+    #1a1c1e 75%
+  );
+  background-size: 200% 100%;
+  animation: cl-shimmer 1.5s ease-in-out infinite;
 }
 
 .cl-skeleton-badge {
   position: absolute;
-  top: 11px;
+  top: 12px;
   right: 12px;
-  width: 58px;
-  height: 21px;
-  border-radius: 5px;
-  background: #304149;
+  width: 65px;
+  height: 20px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, .09);
 }
 
 .cl-skeleton-name {
   position: absolute;
-  top: 29%;
-  left: 22%;
-  width: 56%;
-  height: 10px;
-  border-radius: 4px;
-  background: #304149;
+  top: 26%;
+  left: 20%;
+  width: 60%;
+  height: 12px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, .09);
 }
 
 .cl-skeleton-teams {
   position: absolute;
-  inset: 44% 12px 10px;
+  top: 46%;
+  left: 0;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 22px;
+  gap: 20px;
 }
 
 .cl-skeleton-circle {
-  width: clamp(48px, 6vw, 80px);
-  height: clamp(48px, 6vw, 80px);
-  border: 2px solid #3b4d55;
+  width: clamp(68px, 8vw, 104px);
+  height: clamp(68px, 8vw, 104px);
   border-radius: 50%;
-  background: #293b43;
+  background: rgba(255, 255, 255, .1);
 }
 
 .cl-skeleton-vs {
-  width: 30px;
-  height: 30px;
-  border-radius: 8px;
-  background: #304149;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, .08);
 }
 
 .cl-skeleton-info {
+  min-height: 85px;
+  padding: 14px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   gap: 12px;
-  min-height: 96px;
-  padding: 14px;
-  background: #12191f;
+  background: #14161a;
 }
 
 .cl-skeleton-line {
-  height: 11px;
-  border-radius: 4px;
-  background: #2b3741;
+  height: 13px;
+  border-radius: 5px;
+  background: linear-gradient(
+    90deg,
+    #1a1c1e 25%,
+    #23262c 50%,
+    #1a1c1e 75%
+  );
+  background-size: 200% 100%;
+  animation: cl-shimmer 1.5s ease-in-out infinite;
 }
 
 .cl-skeleton-line.short {
-  width: 38%;
+  width: 35%;
 }
 
 .cl-skeleton-line.medium {
-  width: 68%;
+  width: 65%;
+}
+
+@keyframes cl-shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+
+  100% {
+    background-position: 200% 0;
+  }
 }
 
 /* ---------- ARROWS ---------- */
@@ -581,145 +627,130 @@
 .cricket-live-arrow {
   position: absolute;
   top: 40%;
-  z-index: 5;
+  transform: translateY(-50%);
+  width: clamp(30px, 3.5vw, 46px);
+  height: clamp(30px, 3.5vw, 46px);
+  border-radius: 50%;
+  background: rgba(11, 13, 15, .75);
+  border: 1px solid rgba(255, 255, 255, .12);
+  color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 36px;
-  height: 36px;
-  padding: 0;
-  border: 1px solid #41505c;
-  border-radius: 50%;
-  background: #18232c;
-  color: #eef6fa;
-  font-size: 14px;
-  line-height: 1;
+  font-size: clamp(.85rem, 1.5vw, 1.2rem);
   cursor: pointer;
-  transform: translateY(-50%);
+  z-index: 10;
+  transition: all .3s ease;
   user-select: none;
-  -webkit-tap-highlight-color: transparent;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.cricket-live-carousel-wrapper:hover .cricket-live-arrow {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.cricket-live-arrow:hover {
+  background: rgba(11, 13, 15, .95);
+  border-color: rgba(255, 255, 255, .25);
+  transform: translateY(-50%) scale(1.08);
 }
 
 .cricket-live-arrow.arrow-left {
-  left: clamp(3px, 1.2vw, 12px);
+  left: clamp(.2rem, 1.2vw, .8rem);
 }
 
 .cricket-live-arrow.arrow-right {
-  right: clamp(3px, 1.2vw, 12px);
-}
-
-/* ---------- DESKTOP INTERACTION ---------- */
-
-@media (hover: hover) and (pointer: fine) {
-  .cricket-live-card:hover {
-    border-color: #63917b;
-  }
-
-  .cricket-live-watch-btn.live:hover {
-    background: #a2ffca;
-    border-color: #a2ffca;
-  }
-
-  .cricket-live-arrow:hover {
-    background: #293c47;
-    border-color: #7dffb3;
-  }
+  right: clamp(.2rem, 1.2vw, .8rem);
 }
 
 /* ---------- MOBILE ---------- */
 
 @media (max-width: 640px) {
   .cricket-live-header {
-    padding: 0 clamp(0.5rem, 3vw, 1rem);
+    padding: 0 clamp(.5rem, 3vw, 1rem);
   }
 
   .cricket-live-title {
-    gap: 8px;
-    font-size: clamp(0.95rem, 4vw, 1.2rem);
-  }
-
-  .cricket-live-title::before {
-    height: 18px;
-  }
-
-  .cricket-live-count {
-    padding: 5px 8px;
-    font-size: 10px;
+    font-size: clamp(.95rem, 4vw, 1.2rem);
   }
 
   .cricket-live-track {
     padding:
-      4px
-      clamp(0.5rem, 3vw, 1rem)
-      10px;
+      clamp(.15rem, .3vw, .3rem)
+      clamp(.5rem, 3vw, 1rem)
+      clamp(.4rem, .8vw, .6rem);
+  }
+
+  .cricket-live-arrow {
+    width: clamp(26px, 8vw, 34px);
+    height: clamp(26px, 8vw, 34px);
+    font-size: .8rem;
+    opacity: 1;
+    pointer-events: auto;
   }
 
   .cricket-live-topbar {
     top: 9px;
-    left: 10px;
-    right: 10px;
+    left: 9px;
+    right: 9px;
   }
 
   .cricket-live-sport-tag,
   .cricket-live-badge {
-    padding: 4px 7px;
     font-size: 9px;
+    padding: 4px 8px;
   }
 
   .cricket-live-match-content {
-    inset: 37px 12px 9px;
-    gap: 7px;
+    padding: 38px 12px 8px;
+    gap: 11px;
   }
 
   .cricket-live-event-name {
     font-size: 10px;
   }
 
-  .cricket-live-teams {
-    gap: 10px;
-  }
-
-  .cl-team-image-wrap,
-  .cl-skeleton-circle {
-    width: 50px;
-    height: 50px;
-  }
-
-  .cricket-live-team {
-    gap: 6px;
+  .cl-team-image-wrap {
+    width: 67px;
+    height: 67px;
   }
 
   .cricket-live-team-name {
     font-size: 11px;
+    max-width: 88px;
   }
 
-  .cricket-live-info {
-    min-height: 94px;
-    padding: 12px;
-    gap: 11px;
-  }
-
-  .cricket-live-info-title {
-    font-size: 12px;
-  }
-
-  .cricket-live-watch-btn {
-    min-height: 34px;
-    padding: 0 10px;
+  .cricket-live-vs {
+    width: 33px;
+    height: 33px;
     font-size: 10px;
   }
 
-  .cricket-live-arrow {
-    width: 32px;
-    height: 32px;
-    font-size: 12px;
+  .cricket-live-info {
+    min-height: 82px;
+    padding: 11px;
+  }
+
+  .cricket-live-watch-btn {
+    padding: 0 10px;
+    min-height: 32px;
+    font-size: 10px;
   }
 }
 
-/* ---------- REDUCED MOTION ---------- */
-
 @media (prefers-reduced-motion: reduce) {
-  .cricket-live-track {
-    scroll-behavior: auto;
+  .cricket-live-card,
+  .cricket-live-thumb::after,
+  .cl-team-image-wrap,
+  .cricket-live-watch-btn {
+    transition: none;
+  }
+
+  .cricket-live-badge.live::before,
+  .cl-skeleton-thumb,
+  .cl-skeleton-line {
+    animation: none;
   }
    }
