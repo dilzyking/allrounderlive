@@ -1,4 +1,10 @@
-.allsports-section {
+/* =========================================================
+   CRICKET LIVE — section styles
+   Mirror of allsports.css with unique .cricket-live-* / .cl-*
+   class names so it can coexist with the Football section.
+   ========================================================= */
+
+.cricket-live-section {
   max-width: 1440px;
   margin: 0 auto;
   padding: clamp(.6rem,1.5vw,1.2rem) 0 clamp(1rem,3vw,2rem);
@@ -6,7 +12,7 @@
   background: #0b0d0f;
 }
 
-.allsports-header {
+.cricket-live-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,7 +20,7 @@
   padding: 0 clamp(1rem,5vw,3rem);
 }
 
-.allsports-title {
+.cricket-live-title {
   font-size: clamp(1.05rem,2.2vw,1.7rem);
   font-weight: 700;
   letter-spacing: -.01em;
@@ -24,13 +30,13 @@
   color: #fff;
 }
 
-.allsports-title small {
+.cricket-live-title small {
   font-size: clamp(.6rem,.8vw,.8rem);
   font-weight: 400;
   opacity: .5;
 }
 
-.allsports-badge-count {
+.cricket-live-count {
   background: rgba(255,255,255,.05);
   padding: .3rem .8rem;
   border-radius: 30px;
@@ -39,12 +45,12 @@
   border: 1px solid rgba(255,255,255,.07);
 }
 
-.allsports-carousel-wrapper {
+.cricket-live-carousel-wrapper {
   position: relative;
   width: 100%;
 }
 
-.allsports-track {
+.cricket-live-track {
   display: flex;
   gap: clamp(.8rem,1.8vw,1.6rem);
   overflow-x: auto;
@@ -56,11 +62,11 @@
   -webkit-overflow-scrolling: touch;
 }
 
-.allsports-track::-webkit-scrollbar {
+.cricket-live-track::-webkit-scrollbar {
   display: none;
 }
 
-.allsports-card {
+.cricket-live-card {
   flex: 0 0 auto;
   width: clamp(260px,34vw,480px);
   display: flex;
@@ -79,19 +85,19 @@
               border-color .35s ease;
 }
 
-.allsports-card:hover {
+.cricket-live-card:hover {
   transform: scale(1.045);
   border-color: rgba(255,255,255,.2);
   box-shadow: 0 16px 45px rgba(0,0,0,.65);
   z-index: 5;
 }
 
-.allsports-card:focus-visible {
+.cricket-live-card:focus-visible {
   outline: 2px solid #f5c518;
   outline-offset: 2px;
 }
 
-.allsports-thumb {
+.cricket-live-thumb {
   width: 100%;
   aspect-ratio: 16 / 9;
   position: relative;
@@ -105,7 +111,7 @@
     linear-gradient(135deg,#19262b 0%,#11191e 48%,#171e2b 100%);
 }
 
-.allsports-thumb::before {
+.cricket-live-thumb::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -121,7 +127,7 @@
   pointer-events: none;
 }
 
-.allsports-thumb::after {
+.cricket-live-thumb::after {
   content: "";
   position: absolute;
   width: 65%;
@@ -139,11 +145,11 @@
   pointer-events: none;
 }
 
-.allsports-card:hover .allsports-thumb::after {
+.cricket-live-card:hover .cricket-live-thumb::after {
   left: 140%;
 }
 
-.allsports-glass-orb {
+.cl-glass-orb {
   position: absolute;
   width: 58%;
   aspect-ratio: 1;
@@ -158,12 +164,12 @@
   pointer-events: none;
 }
 
-.allsports-glass-orb.one {
+.cl-glass-orb.one {
   top: -50%;
   left: -20%;
 }
 
-.allsports-glass-orb.two {
+.cl-glass-orb.two {
   right: -22%;
   bottom: -70%;
   background: radial-gradient(
@@ -173,7 +179,7 @@
   );
 }
 
-.allsports-topbar {
+.cricket-live-topbar {
   position: absolute;
   top: clamp(10px,1.4vw,16px);
   left: clamp(10px,1.4vw,16px);
@@ -185,7 +191,7 @@
   gap: 8px;
 }
 
-.allsports-sport-tag {
+.cricket-live-sport-tag {
   max-width: 55%;
   padding: 5px 10px;
   background: rgba(255,255,255,.09);
@@ -203,7 +209,7 @@
   white-space: nowrap;
 }
 
-.allsports-badge {
+.cricket-live-badge {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -219,45 +225,45 @@
   -webkit-backdrop-filter: blur(10px);
 }
 
-.allsports-badge.live {
+.cricket-live-badge.live {
   background: rgba(220,25,45,.92);
   color: #fff;
   box-shadow: 0 0 22px rgba(255,28,57,.25);
 }
 
-.allsports-badge.live::before {
+.cricket-live-badge.live::before {
   content: "";
   width: 6px;
   height: 6px;
   border-radius: 50%;
   background: #fff;
   box-shadow: 0 0 7px #fff;
-  animation: as-live-dot 1.4s ease-in-out infinite;
+  animation: cl-live-dot 1.4s ease-in-out infinite;
 }
 
-.allsports-badge.upcoming {
+.cricket-live-badge.upcoming {
   background: rgba(245,197,24,.13);
   border: 1px solid rgba(245,197,24,.28);
   color: #ffdc69;
 }
 
-.allsports-badge.ended {
+.cricket-live-badge.ended {
   background: rgba(255,255,255,.09);
   border: 1px solid rgba(255,255,255,.12);
   color: #aab1ba;
 }
 
-.allsports-badge.unknown {
+.cricket-live-badge.unknown {
   background: rgba(255,255,255,.09);
   color: #d4d8df;
 }
 
-@keyframes as-live-dot {
+@keyframes cl-live-dot {
   0%,100% { opacity: 1; transform: scale(1); }
   50% { opacity: .45; transform: scale(.75); }
 }
 
-.allsports-match-content {
+.cricket-live-match-content {
   position: relative;
   z-index: 2;
   width: 100%;
@@ -269,7 +275,7 @@
   gap: clamp(12px,1.8vw,20px);
 }
 
-.allsports-event-name {
+.cricket-live-event-name {
   width: 90%;
   text-align: center;
   font-size: clamp(10px,1vw,14px);
@@ -281,7 +287,7 @@
   text-overflow: ellipsis;
 }
 
-.allsports-teams {
+.cricket-live-teams {
   width: 100%;
   display: grid;
   grid-template-columns: minmax(0,1fr) auto minmax(0,1fr);
@@ -289,7 +295,7 @@
   gap: clamp(12px,2vw,28px);
 }
 
-.allsports-team {
+.cricket-live-team {
   min-width: 0;
   display: flex;
   flex-direction: column;
@@ -297,7 +303,7 @@
   gap: clamp(7px,1vw,12px);
 }
 
-.as-team-image-wrap {
+.cl-team-image-wrap {
   width: clamp(68px,8vw,104px);
   height: clamp(68px,8vw,104px);
   position: relative;
@@ -320,11 +326,11 @@
   transition: transform .3s ease;
 }
 
-.allsports-card:hover .as-team-image-wrap {
+.cricket-live-card:hover .cl-team-image-wrap {
   transform: translateY(-4px);
 }
 
-.as-team-placeholder {
+.cl-team-placeholder {
   position: absolute;
   inset: 0;
   display: flex;
@@ -337,7 +343,7 @@
   letter-spacing: -.04em;
 }
 
-.as-team-image-wrap img {
+.cl-team-image-wrap img {
   width: 76%;
   height: 76%;
   position: relative;
@@ -348,7 +354,7 @@
   filter: drop-shadow(0 3px 8px rgba(0,0,0,.3));
 }
 
-.allsports-team-name {
+.cricket-live-team-name {
   display: block;
   max-width: 100%;
   font-size: clamp(11px,1.05vw,15px);
@@ -360,7 +366,7 @@
   text-overflow: ellipsis;
 }
 
-.allsports-vs {
+.cricket-live-vs {
   width: clamp(34px,4vw,50px);
   height: clamp(34px,4vw,50px);
   display: flex;
@@ -376,7 +382,7 @@
   box-shadow: inset 0 1px 0 rgba(255,255,255,.07);
 }
 
-.allsports-info {
+.cricket-live-info {
   flex: 1;
   min-height: clamp(75px,8vw,100px);
   padding: clamp(11px,1.2vw,16px);
@@ -387,7 +393,7 @@
   background: linear-gradient(135deg,#14181d,#101317);
 }
 
-.allsports-info-title {
+.cricket-live-info-title {
   font-size: clamp(11px,1vw,14px);
   font-weight: 750;
   color: #f5c518;
@@ -397,7 +403,7 @@
   text-overflow: ellipsis;
 }
 
-.allsports-meta {
+.cricket-live-meta {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -405,14 +411,14 @@
   min-width: 0;
 }
 
-.allsports-meta-left {
+.cricket-live-meta-left {
   min-width: 0;
   display: flex;
   flex-direction: column;
   gap: 4px;
 }
 
-.allsports-category {
+.cricket-live-category {
   font-size: clamp(9px,.75vw,11px);
   font-weight: 750;
   text-transform: uppercase;
@@ -420,7 +426,7 @@
   color: rgba(255,255,255,.66);
 }
 
-.allsports-time {
+.cricket-live-time {
   font-size: clamp(10px,.85vw,12px);
   color: rgba(255,255,255,.48);
   white-space: nowrap;
@@ -428,7 +434,7 @@
   text-overflow: ellipsis;
 }
 
-.allsports-watch-btn {
+.cricket-live-watch-btn {
   flex-shrink: 0;
   display: inline-flex;
   align-items: center;
@@ -449,31 +455,31 @@
   transition: transform .2s ease,box-shadow .2s ease;
 }
 
-.allsports-watch-btn:hover {
+.cricket-live-watch-btn:hover {
   transform: translateY(-2px);
   box-shadow: 0 7px 20px rgba(88,214,182,.25);
 }
 
-.allsports-watch-btn svg {
+.cricket-live-watch-btn svg {
   width: 13px;
   height: 13px;
   fill: currentColor;
 }
 
-.allsports-watch-btn.upcoming {
+.cricket-live-watch-btn.upcoming {
   background: rgba(245,197,24,.1);
   border-color: rgba(245,197,24,.25);
   color: #f5c518;
   box-shadow: none;
 }
 
-.allsports-watch-btn.ended {
+.cricket-live-watch-btn.ended {
   background: rgba(255,255,255,.07);
   color: #c5cbd2;
   box-shadow: none;
 }
 
-.allsports-empty {
+.cricket-live-empty {
   flex: 0 0 auto;
   width: 100%;
   text-align: center;
@@ -482,7 +488,8 @@
   font-size: .9rem;
 }
 
-.as-skeleton-card {
+/* ---------- skeleton ---------- */
+.cl-skeleton-card {
   flex: 0 0 auto;
   width: clamp(260px,34vw,480px);
   background: #14161a;
@@ -491,16 +498,16 @@
   border: 1px solid rgba(255,255,255,.04);
 }
 
-.as-skeleton-thumb {
+.cl-skeleton-thumb {
   position: relative;
   width: 100%;
   aspect-ratio: 16 / 9;
   background: linear-gradient(90deg,#1a1c1e 25%,#23262c 50%,#1a1c1e 75%);
   background-size: 200% 100%;
-  animation: as-shimmer 1.5s ease-in-out infinite;
+  animation: cl-shimmer 1.5s ease-in-out infinite;
 }
 
-.as-skeleton-badge {
+.cl-skeleton-badge {
   position: absolute;
   top: 12px;
   right: 12px;
@@ -510,7 +517,7 @@
   background: rgba(255,255,255,.09);
 }
 
-.as-skeleton-name {
+.cl-skeleton-name {
   position: absolute;
   top: 26%;
   left: 20%;
@@ -520,7 +527,7 @@
   background: rgba(255,255,255,.09);
 }
 
-.as-skeleton-teams {
+.cl-skeleton-teams {
   position: absolute;
   top: 46%;
   left: 0;
@@ -531,21 +538,21 @@
   gap: 20px;
 }
 
-.as-skeleton-circle {
+.cl-skeleton-circle {
   width: clamp(68px,8vw,104px);
   height: clamp(68px,8vw,104px);
   border-radius: 50%;
   background: rgba(255,255,255,.1);
 }
 
-.as-skeleton-vs {
+.cl-skeleton-vs {
   width: 34px;
   height: 34px;
   border-radius: 50%;
   background: rgba(255,255,255,.08);
 }
 
-.as-skeleton-info {
+.cl-skeleton-info {
   min-height: 85px;
   padding: 14px;
   display: flex;
@@ -554,23 +561,24 @@
   background: #14161a;
 }
 
-.as-skeleton-line {
+.cl-skeleton-line {
   height: 13px;
   border-radius: 5px;
   background: linear-gradient(90deg,#1a1c1e 25%,#23262c 50%,#1a1c1e 75%);
   background-size: 200% 100%;
-  animation: as-shimmer 1.5s ease-in-out infinite;
+  animation: cl-shimmer 1.5s ease-in-out infinite;
 }
 
-.as-skeleton-line.short { width: 35%; }
-.as-skeleton-line.medium { width: 65%; }
+.cl-skeleton-line.short { width: 35%; }
+.cl-skeleton-line.medium { width: 65%; }
 
-@keyframes as-shimmer {
+@keyframes cl-shimmer {
   0% { background-position: -200% 0; }
   100% { background-position: 200% 0; }
 }
 
-.allsports-arrow {
+/* ---------- arrows ---------- */
+.cricket-live-arrow {
   position: absolute;
   top: 40%;
   transform: translateY(-50%);
@@ -594,39 +602,40 @@
   pointer-events: none;
 }
 
-.allsports-carousel-wrapper:hover .allsports-arrow {
+.cricket-live-carousel-wrapper:hover .cricket-live-arrow {
   opacity: 1;
   pointer-events: auto;
 }
 
-.allsports-arrow:hover {
+.cricket-live-arrow:hover {
   background: rgba(11,13,15,.95);
   border-color: rgba(255,255,255,.25);
   transform: translateY(-50%) scale(1.08);
 }
 
-.allsports-arrow.arrow-left {
+.cricket-live-arrow.arrow-left {
   left: clamp(.2rem,1.2vw,.8rem);
 }
 
-.allsports-arrow.arrow-right {
+.cricket-live-arrow.arrow-right {
   right: clamp(.2rem,1.2vw,.8rem);
 }
 
+/* ---------- mobile ---------- */
 @media (max-width:640px) {
-  .allsports-header {
+  .cricket-live-header {
     padding: 0 clamp(.5rem,3vw,1rem);
   }
 
-  .allsports-title {
+  .cricket-live-title {
     font-size: clamp(.95rem,4vw,1.2rem);
   }
 
-  .allsports-track {
+  .cricket-live-track {
     padding: clamp(.15rem,.3vw,.3rem) clamp(.5rem,3vw,1rem) clamp(.4rem,.8vw,.6rem);
   }
 
-  .allsports-arrow {
+  .cricket-live-arrow {
     width: clamp(26px,8vw,34px);
     height: clamp(26px,8vw,34px);
     font-size: .8rem;
@@ -634,49 +643,49 @@
     pointer-events: auto;
   }
 
-  .allsports-topbar {
+  .cricket-live-topbar {
     top: 9px;
     left: 9px;
     right: 9px;
   }
 
-  .allsports-sport-tag,
-  .allsports-badge {
+  .cricket-live-sport-tag,
+  .cricket-live-badge {
     font-size: 9px;
     padding: 4px 8px;
   }
 
-  .allsports-match-content {
+  .cricket-live-match-content {
     padding: 38px 12px 8px;
     gap: 11px;
   }
 
-  .allsports-event-name {
+  .cricket-live-event-name {
     font-size: 10px;
   }
 
-  .as-team-image-wrap {
+  .cl-team-image-wrap {
     width: 67px;
     height: 67px;
   }
 
-  .allsports-team-name {
+  .cricket-live-team-name {
     font-size: 11px;
     max-width: 88px;
   }
 
-  .allsports-vs {
+  .cricket-live-vs {
     width: 33px;
     height: 33px;
     font-size: 10px;
   }
 
-  .allsports-info {
+  .cricket-live-info {
     min-height: 82px;
     padding: 11px;
   }
 
-  .allsports-watch-btn {
+  .cricket-live-watch-btn {
     padding: 0 10px;
     min-height: 32px;
     font-size: 10px;
@@ -684,16 +693,16 @@
 }
 
 @media (prefers-reduced-motion:reduce) {
-  .allsports-card,
-  .allsports-thumb::after,
-  .as-team-image-wrap,
-  .allsports-watch-btn {
+  .cricket-live-card,
+  .cricket-live-thumb::after,
+  .cl-team-image-wrap,
+  .cricket-live-watch-btn {
     transition: none;
   }
 
-  .allsports-badge.live::before,
-  .as-skeleton-thumb,
-  .as-skeleton-line {
+  .cricket-live-badge.live::before,
+  .cl-skeleton-thumb,
+  .cl-skeleton-line {
     animation: none;
   }
 }
