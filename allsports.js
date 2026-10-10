@@ -1,18 +1,32 @@
-const ALLSPORTS_API = "https://all-sports.freedekholive-577.workers.dev/football.json";
+/* =========================================================
+   FOOTBALL / ALL SPORTS
+   Preserves the existing design, API and player route.
+   Avoids rebuilding cards when their content is unchanged.
+   ========================================================= */
+
+const ALLSPORTS_API =
+  'https://all-sports.freedekholive-577.workers.dev/football.json';
+
 const SKELETON_COUNT = 6;
 const REFRESH_INTERVAL = 60000;
 
 (function () {
-  "use strict";
+  'use strict';
 
-  const track = document.getElementById("allsportsTrack");
-  const prevBtn = document.getElementById("allsportsPrev");
-  const nextBtn = document.getElementById("allsportsNext");
-  const countEl = document.getElementById("allsportsCount");
+  // ---------- DOM ELEMENTS ----------
 
-  if (!track) return;
+  const track = document.getElementById('allsportsTrack');
+  const prevBtn = document.getElementById('allsportsPrev');
+  const nextBtn = document.getElementById('allsportsNext');
+  const countEl = document.getElementById('allsportsCount');
 
-  const section = track.closest(".allsports-section");
+  if (!track) {
+    return;
+  }
+
+  const section = track.closest('.allsports-section');
+
+  // ---------- STATE ----------
 
   let loaded = false;
   let loading = false;
@@ -20,32 +34,41 @@ const REFRESH_INTERVAL = 60000;
   let sectionVisible = false;
   let refreshTimer = null;
   let events = [];
+  let renderedCards = null;
+
+  // ---------- HELPERS ----------
 
   function esc(value) {
-    return String(value ?? "")
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;")
-      .replace(/'/g, "&#39;");
+    return String(value ?? '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
   }
 
   function cleanUrl(value) {
-    if (!value || typeof value !== "string") return "";
+    if (!value || typeof value !== 'string') {
+      return '';
+    }
 
-    const url = value.split("|")[0].trim();
+    const url = value.split('|')[0].trim();
 
-    return /^https?:\/\//i.test(url) ? url : "";
+    return /^https?:\/\//i.test(url) ? url : '';
   }
 
   function getInitials(name) {
-    return String(name || "TEAM")
+    return String(name || 'TEAM')
       .trim()
       .split(/\s+/)
       .slice(0, 2)
-      .map(part => part.charAt(0).toUpperCase())
-      .join("");
+      .map(function (part) {
+        return part.charAt(0).toUpperCase();
+      })
+      .join('');
   }
+
+  // ---------- TEAM IMAGES ----------
 
   function getImageCandidates(event, side) {
     const urls = [];
@@ -58,7 +81,7 @@ const REFRESH_INTERVAL = 60000;
       }
     }
 
-    if (side === "A") {
+    if (side === 'A') {
       add(event.teamAFlag);
       add(event.teamALogo);
       add(event.teamAImage);
@@ -78,17 +101,17 @@ const REFRESH_INTERVAL = 60000;
     try {
       const parsed = new URL(url);
 
-      if (!["http:", "https:"].includes(parsed.protocol)) {
-        return "";
+      if (!['http:', 'https:'].includes(parsed.protocol)) {
+        return '';
       }
 
       return (
-        "https://wsrv.nl/?url=" +
+        'https://wsrv.nl/?url=' +
         encodeURIComponent(url) +
-        "&w=240&h=240&fit=contain"
+        '&w=240&h=240&fit=contain'
       );
     } catch {
-      return "";
+      return '';
     }
   }
 
@@ -117,7 +140,7 @@ const REFRESH_INTERVAL = 60000;
                 onerror="AllSports.imageFallback(this)"
               >
             `
-            : ""
+            : ''
         }
       </div>
     `;
@@ -125,31 +148,33 @@ const REFRESH_INTERVAL = 60000;
 
   function imageLoaded(img) {
     if (img && img.naturalWidth > 0) {
-      img.style.visibility = "visible";
+      img.style.visibility = 'visible';
     }
   }
 
   function imageFallback(img) {
-    if (!img) return;
+    if (!img) {
+      return;
+    }
 
     let candidates = [];
 
     try {
       candidates = JSON.parse(
-        img.dataset.candidates || "[]"
+        img.dataset.candidates || '[]'
       );
     } catch {
       candidates = [];
     }
 
     let index = Number(img.dataset.index || 0);
-    const proxyTried = img.dataset.proxy === "1";
+    const proxyTried = img.dataset.proxy === '1';
 
     if (!proxyTried && candidates[index]) {
       const proxy = getProxyUrl(candidates[index]);
 
       if (proxy) {
-        img.dataset.proxy = "1";
+        img.dataset.proxy = '1';
         img.src = proxy;
         return;
       }
@@ -159,7 +184,7 @@ const REFRESH_INTERVAL = 60000;
 
     if (index < candidates.length) {
       img.dataset.index = String(index);
-      img.dataset.proxy = "0";
+      img.dataset.proxy = '0';
       img.src = candidates[index];
       return;
     }
@@ -169,24 +194,28 @@ const REFRESH_INTERVAL = 60000;
     img.remove();
   }
 
+  // ---------- STATUS AND TIME ----------
+
   function getStatus(event) {
     const status = String(
-      event.status || "unknown"
+      event.status || 'unknown'
     ).toLowerCase();
 
-    return ["live", "upcoming", "ended"].includes(status)
+    return ['live', 'upcoming', 'ended'].includes(status)
       ? status
-      : "unknown";
+      : 'unknown';
   }
 
   function parseTime(value) {
-    if (!value) return NaN;
+    if (!value) {
+      return NaN;
+    }
 
     return Date.parse(
       String(value)
-        .replace(/\//g, "-")
-        .replace(/\s+\+0000$/, "Z")
-        .replace(" ", "T")
+        .replace(/\//g, '-')
+        .replace(/\s+\+0000$/, 'Z')
+        .replace(' ', 'T')
     );
   }
 
@@ -198,12 +227,14 @@ const REFRESH_INTERVAL = 60000;
       unknown: 3
     };
 
-    return [...data].sort((a, b) => {
+    return [...data].sort(function (a, b) {
       const statusDiff =
         (order[getStatus(a)] ?? 3) -
         (order[getStatus(b)] ?? 3);
 
-      if (statusDiff !== 0) return statusDiff;
+      if (statusDiff !== 0) {
+        return statusDiff;
+      }
 
       const aTime = parseTime(a.event?.startTimeUTC);
       const bTime = parseTime(b.event?.startTimeUTC);
@@ -220,7 +251,9 @@ const REFRESH_INTERVAL = 60000;
   }
 
   function formatTime(value) {
-    if (!value) return "Time TBA";
+    if (!value) {
+      return 'Time TBA';
+    }
 
     const text = String(value);
 
@@ -228,30 +261,41 @@ const REFRESH_INTERVAL = 60000;
       /(\d{4})-(\d{2})-(\d{2})\s+(\d{2}):(\d{2})/
     );
 
-    if (!match) return text;
+    if (!match) {
+      return text;
+    }
 
-    const [, year, month, day, hour, minute] = match;
+    const [, , month, day, hour, minute] = match;
 
     const hours = Number(hour);
     const displayHour = hours % 12 || 12;
-    const period = hours >= 12 ? "PM" : "AM";
+    const period = hours >= 12 ? 'PM' : 'AM';
 
-    return `${day}/${month} · ${displayHour}:${minute} ${period} IST`;
+    return (
+      `${day}/${month} · ` +
+      `${displayHour}:${minute} ${period} IST`
+    );
   }
 
   function getButtonLabel(status) {
-    return status === "live" ? "Watch Live" : "Watch Now";
+    return status === 'live'
+      ? 'Watch Live'
+      : 'Watch Now';
   }
+
+  // ---------- MATCH CARDS ----------
 
   function renderCard(ev) {
     const e = ev.event || {};
     const status = getStatus(ev);
 
-    const name = e.name || ev.title || "Sports Event";
-    const teamA = e.teamA || "Team A";
-    const teamB = e.teamB || "Team B";
-    const category = e.category || ev.cat || "Sports";
-    const slug = ev.slug || "";
+    const name =
+      e.name || ev.title || 'Sports Event';
+
+    const teamA = e.teamA || 'Team A';
+    const teamB = e.teamB || 'Team B';
+    const category = e.category || ev.cat || 'Sports';
+    const slug = ev.slug || '';
 
     const buttonLabel = getButtonLabel(status);
 
@@ -296,7 +340,7 @@ const REFRESH_INTERVAL = 60000;
             <div class="allsports-teams">
 
               <div class="allsports-team">
-                ${renderTeamImage(teamA, e, "A")}
+                ${renderTeamImage(teamA, e, 'A')}
 
                 <span class="allsports-team-name">
                   ${esc(teamA)}
@@ -308,7 +352,7 @@ const REFRESH_INTERVAL = 60000;
               </div>
 
               <div class="allsports-team">
-                ${renderTeamImage(teamB, e, "B")}
+                ${renderTeamImage(teamB, e, 'B')}
 
                 <span class="allsports-team-name">
                   ${esc(teamB)}
@@ -348,7 +392,7 @@ const REFRESH_INTERVAL = 60000;
               type="button"
               class="allsports-watch-btn ${status}"
               data-slug="${esc(slug)}"
-              aria-label="${esc(buttonLabel + " - " + name)}"
+              aria-label="${esc(buttonLabel + ' - ' + name)}"
             >
               ${playIcon}
               <span>${esc(buttonLabel)}</span>
@@ -362,64 +406,77 @@ const REFRESH_INTERVAL = 60000;
     `;
   }
 
+  // ---------- SKELETON LOADER ----------
+
   function showSkeleton() {
     track.innerHTML = Array.from(
       { length: SKELETON_COUNT },
-      () => `
-        <div class="as-skeleton-card">
+      function () {
+        return `
+          <div class="as-skeleton-card">
 
-          <div class="as-skeleton-thumb">
-            <div class="as-skeleton-badge"></div>
-            <div class="as-skeleton-name"></div>
+            <div class="as-skeleton-thumb">
+              <div class="as-skeleton-badge"></div>
+              <div class="as-skeleton-name"></div>
 
-            <div class="as-skeleton-teams">
-              <div class="as-skeleton-circle"></div>
-              <div class="as-skeleton-vs"></div>
-              <div class="as-skeleton-circle"></div>
+              <div class="as-skeleton-teams">
+                <div class="as-skeleton-circle"></div>
+                <div class="as-skeleton-vs"></div>
+                <div class="as-skeleton-circle"></div>
+              </div>
             </div>
-          </div>
 
-          <div class="as-skeleton-info">
-            <div class="as-skeleton-line short"></div>
-            <div class="as-skeleton-line medium"></div>
-          </div>
+            <div class="as-skeleton-info">
+              <div class="as-skeleton-line short"></div>
+              <div class="as-skeleton-line medium"></div>
+            </div>
 
-        </div>
-      `
-    ).join("");
+          </div>
+        `;
+      }
+    ).join('');
   }
 
+  // ---------- FETCH AND UPDATE ----------
+
   async function loadEvents() {
-    if (loading) return;
+    if (loading) {
+      return;
+    }
 
     loading = true;
 
+    // Keep existing cards visible during refreshes.
     if (!loaded) {
       showSkeleton();
     }
 
     try {
       const response = await fetch(ALLSPORTS_API, {
-        method: "GET",
-        cache: "no-cache",
+        method: 'GET',
+        cache: 'no-cache',
         headers: {
-          Accept: "application/json"
+          Accept: 'application/json'
         }
       });
 
       if (!response.ok) {
-        throw new Error(`API error: ${response.status}`);
+        throw new Error(
+          `API error: ${response.status}`
+        );
       }
 
       const data = await response.json();
 
       if (!Array.isArray(data)) {
-        throw new Error("Invalid API response");
+        throw new Error('Invalid API response');
       }
 
       events = sortEvents(data);
 
       if (!events.length) {
+        renderedCards = null;
+
         track.innerHTML = `
           <div class="allsports-empty">
             No events available.
@@ -427,7 +484,7 @@ const REFRESH_INTERVAL = 60000;
         `;
 
         if (countEl) {
-          countEl.textContent = "0 events";
+          countEl.textContent = '0 events';
         }
 
         loaded = true;
@@ -438,21 +495,30 @@ const REFRESH_INTERVAL = 60000;
         ? track.scrollLeft
         : 0;
 
-      track.innerHTML = events.map(renderCard).join("");
+      const nextCards = events
+        .map(renderCard)
+        .join('');
+
+      // Avoid destroying and rebuilding unchanged cards.
+      if (nextCards !== renderedCards) {
+        track.innerHTML = nextCards;
+        renderedCards = nextCards;
+      }
 
       if (loaded) {
         track.scrollLeft = scrollPosition;
       }
 
       if (countEl) {
-        countEl.textContent = `${events.length} events`;
+        countEl.textContent =
+          `${events.length} events`;
       }
 
       loaded = true;
-
     } catch (error) {
-      console.error("[AllSports]", error);
+      console.error('[AllSports]', error);
 
+      // Preserve loaded cards if a refresh fails.
       if (!loaded) {
         track.innerHTML = `
           <div class="allsports-empty">
@@ -465,12 +531,16 @@ const REFRESH_INTERVAL = 60000;
     }
   }
 
+  // ---------- CAROUSEL CONTROLS ----------
+
   function scrollByCard(direction) {
     const card = track.querySelector(
-      ".allsports-card, .as-skeleton-card"
+      '.allsports-card, .as-skeleton-card'
     );
 
-    if (!card) return;
+    if (!card) {
+      return;
+    }
 
     const styles = getComputedStyle(track);
 
@@ -481,50 +551,69 @@ const REFRESH_INTERVAL = 60000;
 
     track.scrollBy({
       left: direction * (card.offsetWidth + gap),
-      behavior: "smooth"
+      behavior: 'smooth'
     });
   }
 
+  // ---------- PLAYER NAVIGATION ----------
+
   function openPlayer(slug) {
-    if (!slug) return;
+    if (!slug) {
+      return;
+    }
 
     window.location.href =
       `football?slug=${encodeURIComponent(slug)}`;
   }
 
-  prevBtn?.addEventListener("click", () => {
+  prevBtn?.addEventListener('click', function () {
     scrollByCard(-1);
   });
 
-  nextBtn?.addEventListener("click", () => {
+  nextBtn?.addEventListener('click', function () {
     scrollByCard(1);
   });
 
-  track.addEventListener("click", event => {
-    const card = event.target.closest(".allsports-card");
+  track.addEventListener('click', function (event) {
+    const card = event.target.closest(
+      '.allsports-card'
+    );
 
-    if (!card) return;
+    if (!card) {
+      return;
+    }
 
     openPlayer(card.dataset.slug);
   });
 
-  track.addEventListener("keydown", event => {
-    if (event.key !== "Enter" && event.key !== " ") {
+  track.addEventListener('keydown', function (event) {
+    if (
+      event.key !== 'Enter' &&
+      event.key !== ' '
+    ) {
       return;
     }
 
-    const card = event.target.closest(".allsports-card");
+    const card = event.target.closest(
+      '.allsports-card'
+    );
 
-    if (!card) return;
+    if (!card) {
+      return;
+    }
 
     event.preventDefault();
     openPlayer(card.dataset.slug);
   });
 
-  function startRefresh() {
-    if (refreshTimer || document.hidden) return;
+  // ---------- VISIBLE-ONLY REFRESH ----------
 
-    refreshTimer = setInterval(() => {
+  function startRefresh() {
+    if (refreshTimer || document.hidden) {
+      return;
+    }
+
+    refreshTimer = setInterval(function () {
       if (sectionVisible && !document.hidden) {
         loadEvents();
       }
@@ -532,14 +621,18 @@ const REFRESH_INTERVAL = 60000;
   }
 
   function stopRefresh() {
-    if (!refreshTimer) return;
+    if (!refreshTimer) {
+      return;
+    }
 
     clearInterval(refreshTimer);
     refreshTimer = null;
   }
 
   function initializeSection() {
-    if (initialized) return;
+    if (initialized) {
+      return;
+    }
 
     initialized = true;
     loadEvents();
@@ -556,20 +649,29 @@ const REFRESH_INTERVAL = 60000;
     }
   }
 
+  // ---------- PUBLIC HELPERS ----------
+
   window.AllSports = {
     open: openPlayer,
-    imageLoaded,
-    imageFallback,
+    imageLoaded: imageLoaded,
+    imageFallback: imageFallback,
     reload: loadEvents
   };
 
-  if ("IntersectionObserver" in window && section) {
+  // ---------- LAZY INITIALIZATION ----------
+
+  if (
+    'IntersectionObserver' in window &&
+    section
+  ) {
     const observer = new IntersectionObserver(
-      entries => {
-        handleVisibility(entries[0].isIntersecting);
+      function (entries) {
+        handleVisibility(
+          entries[0].isIntersecting
+        );
       },
       {
-        rootMargin: "300px 0px",
+        rootMargin: '300px 0px',
         threshold: 0
       }
     );
@@ -579,15 +681,18 @@ const REFRESH_INTERVAL = 60000;
     handleVisibility(true);
   }
 
-  document.addEventListener("visibilitychange", () => {
-    if (document.hidden) {
-      stopRefresh();
-    } else if (sectionVisible) {
-      if (initialized) {
-        loadEvents();
-      }
+  document.addEventListener(
+    'visibilitychange',
+    function () {
+      if (document.hidden) {
+        stopRefresh();
+      } else if (sectionVisible) {
+        if (initialized) {
+          loadEvents();
+        }
 
-      startRefresh();
+        startRefresh();
+      }
     }
-  });
+  );
 })();
