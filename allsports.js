@@ -25,37 +25,35 @@ const REFRESH_INTERVAL = 60000;
       .replace(/'/g, "&#39;");
   }
 
-  function cleanUrl(url) {
-    if (!url || typeof url !== "string") return "";
+  function cleanUrl(value) {
+    if (!value || typeof value !== "string") return "";
 
-    const cleaned = url.split("|")[0].trim();
+    const url = value.split("|")[0].trim();
 
-    if (!/^https?:\/\//i.test(cleaned)) return "";
-
-    return cleaned;
+    return /^https?:\/\//i.test(url) ? url : "";
   }
 
   function getInitials(name) {
-    if (!name) return "FC";
-
-    return String(name)
+    const parts = String(name || "TEAM")
       .trim()
-      .split(/\s+/)
+      .split(/\s+/);
+
+    return parts
       .slice(0, 2)
-      .map(word => word.charAt(0).toUpperCase())
+      .map(part => part.charAt(0).toUpperCase())
       .join("");
   }
 
   function getImageCandidates(event, side) {
-    const candidates = [];
+    const urls = [];
 
-    const add = value => {
+    function add(value) {
       const url = cleanUrl(value);
 
-      if (url && !candidates.includes(url)) {
-        candidates.push(url);
+      if (url && !urls.includes(url)) {
+        urls.push(url);
       }
-    };
+    }
 
     if (side === "A") {
       add(event.teamAFlag);
@@ -70,12 +68,10 @@ const REFRESH_INTERVAL = 60000;
     add(event.logo);
     add(event.eventLogo);
 
-    return candidates;
+    return urls;
   }
 
   function getProxyUrl(url) {
-    if (!url) return "";
-
     try {
       const parsed = new URL(url);
 
@@ -95,48 +91,19 @@ const REFRESH_INTERVAL = 60000;
 
   function renderTeamImage(name, event, side) {
     const candidates = getImageCandidates(event, side);
-    const firstImage = candidates[0] || "";
-    const initials = getInitials(name);
 
     return `
-      <div class="as-team-image-wrap"
-           style="
-             width:48px;
-             height:48px;
-             position:relative;
-             display:flex;
-             align-items:center;
-             justify-content:center;
-             flex-shrink:0;
-           ">
+      <div class="as-team-image-wrap">
 
-        <div class="as-team-placeholder"
-             style="
-               position:absolute;
-               inset:0;
-               display:flex;
-               align-items:center;
-               justify-content:center;
-               border-radius:50%;
-               background:linear-gradient(
-                 135deg,
-                 rgba(255,255,255,.16),
-                 rgba(255,255,255,.05)
-               );
-               border:1px solid rgba(255,255,255,.12);
-               color:#fff;
-               font-size:14px;
-               font-weight:800;
-               letter-spacing:.5px;
-             ">
-          ${esc(initials)}
+        <div class="as-team-placeholder">
+          ${esc(getInitials(name))}
         </div>
 
         ${
-          firstImage
+          candidates.length
             ? `
               <img
-                src="${esc(firstImage)}"
+                src="${esc(candidates[0])}"
                 alt="${esc(name)}"
                 loading="lazy"
                 decoding="async"
@@ -146,14 +113,6 @@ const REFRESH_INTERVAL = 60000;
                 data-proxy="0"
                 onload="AllSports.imageLoaded(this)"
                 onerror="AllSports.imageFallback(this)"
-                style="
-                  position:relative;
-                  z-index:1;
-                  width:100%;
-                  height:100%;
-                  object-fit:contain;
-                  visibility:hidden;
-                "
               >
             `
             : ""
@@ -164,9 +123,7 @@ const REFRESH_INTERVAL = 60000;
   }
 
   function imageLoaded(img) {
-    if (!img) return;
-
-    if (img.naturalWidth > 0) {
+    if (img && img.naturalWidth > 0) {
       img.style.visibility = "visible";
     }
   }
@@ -178,7 +135,7 @@ const REFRESH_INTERVAL = 60000;
 
     try {
       candidates = JSON.parse(
-        img.getAttribute("data-candidates") || "[]"
+        img.dataset.candidates || "[]"
       );
     } catch {
       candidates = [];
@@ -186,14 +143,13 @@ const REFRESH_INTERVAL = 60000;
 
     let index = Number(img.dataset.index || 0);
     const proxyTried = img.dataset.proxy === "1";
-    const currentUrl = candidates[index];
 
-    if (!proxyTried && currentUrl) {
-      const proxyUrl = getProxyUrl(currentUrl);
+    if (!proxyTried && candidates[index]) {
+      const proxy = getProxyUrl(candidates[index]);
 
-      if (proxyUrl) {
+      if (proxy) {
         img.dataset.proxy = "1";
-        img.src = proxyUrl;
+        img.src = proxy;
         return;
       }
     }
@@ -209,29 +165,7 @@ const REFRESH_INTERVAL = 60000;
 
     img.onerror = null;
     img.onload = null;
-    img.style.display = "none";
-  }
-
-  function showSkeleton() {
-    track.innerHTML = Array.from({
-      length: SKELETON_COUNT
-    }).map(() => `
-      <div class="as-skeleton-card">
-        <div class="as-skeleton-thumb">
-          <div class="as-skeleton-badge"></div>
-          <div class="as-skeleton-name"></div>
-          <div class="as-skeleton-teams">
-            <div class="as-skeleton-circle"></div>
-            <div class="as-skeleton-vs"></div>
-            <div class="as-skeleton-circle"></div>
-          </div>
-        </div>
-        <div class="as-skeleton-info">
-          <div class="as-skeleton-line short"></div>
-          <div class="as-skeleton-line medium"></div>
-        </div>
-      </div>
-    `).join("");
+    img.remove();
   }
 
   function getStatus(event) {
@@ -239,22 +173,20 @@ const REFRESH_INTERVAL = 60000;
       event.status || "unknown"
     ).toLowerCase();
 
-    if (["live", "upcoming", "ended"].includes(status)) {
-      return status;
-    }
-
-    return "unknown";
+    return ["live", "upcoming", "ended"].includes(status)
+      ? status
+      : "unknown";
   }
 
   function parseTime(value) {
     if (!value) return NaN;
 
-    const normalized = String(value)
-      .replace(/\//g, "-")
-      .replace(/\s+\+0000$/, "Z")
-      .replace(" ", "T");
-
-    return Date.parse(normalized);
+    return Date.parse(
+      String(value)
+        .replace(/\//g, "-")
+        .replace(/\s+\+0000$/, "Z")
+        .replace(" ", "T")
+    );
   }
 
   function sortEvents(data) {
@@ -266,19 +198,19 @@ const REFRESH_INTERVAL = 60000;
     };
 
     return [...data].sort((a, b) => {
-      const aStatus = getStatus(a);
-      const bStatus = getStatus(b);
-
       const statusDiff =
-        (order[aStatus] ?? 3) -
-        (order[bStatus] ?? 3);
+        (order[getStatus(a)] ?? 3) -
+        (order[getStatus(b)] ?? 3);
 
       if (statusDiff !== 0) return statusDiff;
 
       const aTime = parseTime(a.event?.startTimeUTC);
       const bTime = parseTime(b.event?.startTimeUTC);
 
-      if (Number.isFinite(aTime) && Number.isFinite(bTime)) {
+      if (
+        Number.isFinite(aTime) &&
+        Number.isFinite(bTime)
+      ) {
         return aTime - bTime;
       }
 
@@ -286,68 +218,187 @@ const REFRESH_INTERVAL = 60000;
     });
   }
 
+  function formatTime(value) {
+    if (!value) return "Time TBA";
+
+    const text = String(value);
+
+    const match = text.match(
+      /(\d{4})-(\d{2})-(\d{2})\s+(\d{2}):(\d{2})/
+    );
+
+    if (!match) return text;
+
+    const [, year, month, day, hour, minute] = match;
+
+    const hours = Number(hour);
+    const displayHour = hours % 12 || 12;
+    const period = hours >= 12 ? "PM" : "AM";
+
+    return `${day}/${month} · ${displayHour}:${minute} ${period} IST`;
+  }
+
+  function getButtonLabel(status) {
+    if (status === "live") return "Watch Live";
+    if (status === "upcoming") return "Match Details";
+    if (status === "ended") return "View Match";
+
+    return "View Match";
+  }
+
   function renderCard(ev) {
     const e = ev.event || {};
     const status = getStatus(ev);
-    const name = e.name || ev.title || "";
+
+    const name = e.name || ev.title || "Sports Event";
     const teamA = e.teamA || "Team A";
     const teamB = e.teamB || "Team B";
-    const category = e.category || ev.cat || "";
-    const startTime = e.startTimeIST || "";
+    const category = e.category || ev.cat || "Sports";
     const slug = ev.slug || "";
 
+    const buttonLabel = getButtonLabel(status);
+
+    const playIcon = `
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M8 5.5v13l10-6.5z"></path>
+      </svg>
+    `;
+
     return `
-      <div
+      <article
         class="allsports-card"
         data-slug="${esc(slug)}"
         role="link"
         tabindex="0"
+        aria-label="${esc(name)}"
       >
+
         <div class="allsports-thumb">
 
-          <span class="allsports-badge ${status}">
-            ${esc(status)}
-          </span>
+          <div class="allsports-glass-orb one"></div>
+          <div class="allsports-glass-orb two"></div>
+
+          <div class="allsports-topbar">
+
+            <span class="allsports-sport-tag">
+              ${esc(category)}
+            </span>
+
+            <span class="allsports-badge ${status}">
+              ${esc(status)}
+            </span>
+
+          </div>
+
+          <div class="allsports-match-content">
+
+            <div
+              class="allsports-event-name"
+              title="${esc(name)}"
+            >
+              ${esc(name)}
+            </div>
+
+            <div class="allsports-teams">
+
+              <div class="allsports-team">
+
+                ${renderTeamImage(teamA, e, "A")}
+
+                <span class="allsports-team-name">
+                  ${esc(teamA)}
+                </span>
+
+              </div>
+
+              <div class="allsports-vs">
+                VS
+              </div>
+
+              <div class="allsports-team">
+
+                ${renderTeamImage(teamB, e, "B")}
+
+                <span class="allsports-team-name">
+                  ${esc(teamB)}
+                </span>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="allsports-info">
 
           <div
-            class="allsports-event-name"
+            class="allsports-info-title"
             title="${esc(name)}"
           >
             ${esc(name)}
           </div>
 
-          <div class="allsports-teams">
-
-            <div class="allsports-team">
-              ${renderTeamImage(teamA, e, "A")}
-              <span>${esc(teamA)}</span>
-            </div>
-
-            <div class="allsports-vs">VS</div>
-
-            <div class="allsports-team">
-              ${renderTeamImage(teamB, e, "B")}
-              <span>${esc(teamB)}</span>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="allsports-info">
           <div class="allsports-meta">
 
-            <span class="allsports-category">
-              ${esc(category)}
-            </span>
+            <div class="allsports-meta-left">
 
-            <span class="allsports-time">
-              ⏱ ${esc(startTime)}
-            </span>
+              <span class="allsports-category">
+                ${esc(category)}
+              </span>
+
+              <span class="allsports-time">
+                ${esc(formatTime(e.startTimeIST))}
+              </span>
+
+            </div>
+
+            <button
+              type="button"
+              class="allsports-watch-btn ${status}"
+              data-slug="${esc(slug)}"
+              aria-label="${esc(buttonLabel + " - " + name)}"
+            >
+              ${playIcon}
+              <span>${esc(buttonLabel)}</span>
+            </button>
 
           </div>
+
         </div>
-      </div>
+
+      </article>
     `;
+  }
+
+  function showSkeleton() {
+    track.innerHTML = Array.from(
+      { length: SKELETON_COUNT },
+      () => `
+        <div class="as-skeleton-card">
+
+          <div class="as-skeleton-thumb">
+
+            <div class="as-skeleton-badge"></div>
+            <div class="as-skeleton-name"></div>
+
+            <div class="as-skeleton-teams">
+              <div class="as-skeleton-circle"></div>
+              <div class="as-skeleton-vs"></div>
+              <div class="as-skeleton-circle"></div>
+            </div>
+
+          </div>
+
+          <div class="as-skeleton-info">
+            <div class="as-skeleton-line short"></div>
+            <div class="as-skeleton-line medium"></div>
+          </div>
+
+        </div>
+      `
+    ).join("");
   }
 
   async function loadEvents() {
@@ -375,15 +426,15 @@ const REFRESH_INTERVAL = 60000;
       const data = await response.json();
 
       if (!Array.isArray(data)) {
-        throw new Error("Invalid API response format");
+        throw new Error("Invalid API response");
       }
 
       events = sortEvents(data);
 
-      if (events.length === 0) {
+      if (!events.length) {
         track.innerHTML = `
           <div class="allsports-empty">
-            No events found.
+            No events available.
           </div>
         `;
 
@@ -395,12 +446,14 @@ const REFRESH_INTERVAL = 60000;
         return;
       }
 
-      const previousScroll = loaded ? track.scrollLeft : 0;
+      const scrollPosition = loaded
+        ? track.scrollLeft
+        : 0;
 
       track.innerHTML = events.map(renderCard).join("");
 
       if (loaded) {
-        track.scrollLeft = previousScroll;
+        track.scrollLeft = scrollPosition;
       }
 
       if (countEl) {
@@ -410,7 +463,7 @@ const REFRESH_INTERVAL = 60000;
       loaded = true;
 
     } catch (error) {
-      console.error("[AllSports] Failed to load:", error);
+      console.error("[AllSports]", error);
 
       if (!loaded) {
         track.innerHTML = `
@@ -438,10 +491,8 @@ const REFRESH_INTERVAL = 60000;
       parseFloat(styles.gap) ||
       20;
 
-    const step = card.offsetWidth + gap;
-
     track.scrollBy({
-      left: direction * step,
+      left: direction * (card.offsetWidth + gap),
       behavior: "smooth"
     });
   }
@@ -478,8 +529,14 @@ const REFRESH_INTERVAL = 60000;
 
     if (!card) return;
 
-    event.preventDefault();
+    if (
+      event.key !== "Enter" &&
+      event.key !== " "
+    ) {
+      return;
+    }
 
+    event.preventDefault();
     openPlayer(card.dataset.slug);
   });
 
