@@ -1831,6 +1831,49 @@
       .glass-cloud {
         animation-play-state: paused;
       }
+  
+  /* Skip rendering offscreen thumbnails.
+     Their original width and 16:9 dimensions remain unchanged. */
+  @supports (content-visibility: auto) {
+    .allsports-thumb,
+    .cricket-live-thumb {
+      content-visibility: auto;
+    }
+  }
+
+  /* Pause animations on cards outside the visible area. */
+  .performance-paused,
+  .performance-paused *,
+  .performance-paused::before,
+  .performance-paused::after,
+  .performance-paused *::before,
+  .performance-paused *::after,
+  body.page-hidden main *,
+  body.page-hidden main *::before,
+  body.page-hidden main *::after {
+    animation-play-state: paused !important;
+  }
+
+  /* Move the existing shine using transforms instead of
+     changing its layout position on every animation frame. */
+  .allsports-thumb::after,
+  .cricket-live-thumb::after {
+    left: -80%;
+    transform: translateX(0) rotate(22deg);
+  }
+
+  .allsports-card:hover .allsports-thumb::after,
+  .cricket-live-card:hover .cricket-live-thumb::after {
+    left: -80%;
+    transform: translateX(338.461538%) rotate(22deg);
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .allsports-thumb::after,
+    .cricket-live-thumb::after {
+      transition: transform 0.8s ease;
+    }
+  }
     </style>
   </head>
   <body>
