@@ -1,26 +1,32 @@
 /* =========================================================
    CRICKET LIVE
-   Fork of allsports.js — unique IDs/classes so it does not
-   collide with the Football "allsports" section on the same page.
+   Preserves the existing design, API and player route.
+   Avoids rebuilding cards when their content is unchanged.
    ========================================================= */
 
-const CRICKET_API = "https://all-sports.freedekholive-577.workers.dev/cricket.json";
+const CRICKET_API =
+  'https://all-sports.freedekholive-577.workers.dev/cricket.json';
+
 const CRICKET_SKELETON_COUNT = 6;
 const CRICKET_REFRESH_INTERVAL = 60000;
 
 (function () {
-  "use strict";
+  'use strict';
 
-  // ---- Unique element IDs (match the HTML) ----
-  const track    = document.getElementById("cricketLiveTrack");
-  const prevBtn  = document.getElementById("cricketLivePrev");
-  const nextBtn  = document.getElementById("cricketLiveNext");
-  const countEl  = document.getElementById("cricketLiveCount");
+  // ---------- DOM ELEMENTS ----------
 
-  if (!track) return;
+  const track = document.getElementById('cricketLiveTrack');
+  const prevBtn = document.getElementById('cricketLivePrev');
+  const nextBtn = document.getElementById('cricketLiveNext');
+  const countEl = document.getElementById('cricketLiveCount');
 
-  // ---- Unique section wrapper ----
-  const section = track.closest(".cricket-live-section");
+  if (!track) {
+    return;
+  }
+
+  const section = track.closest('.cricket-live-section');
+
+  // ---------- STATE ----------
 
   let loaded = false;
   let loading = false;
@@ -28,39 +34,54 @@ const CRICKET_REFRESH_INTERVAL = 60000;
   let sectionVisible = false;
   let refreshTimer = null;
   let events = [];
+  let renderedCards = null;
 
-  /* ---------- helpers ---------- */
+  // ---------- HELPERS ----------
+
   function esc(value) {
-    return String(value ?? "")
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;")
-      .replace(/'/g, "&#39;");
+    return String(value ?? '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
   }
 
   function cleanUrl(value) {
-    if (!value || typeof value !== "string") return "";
-    const url = value.split("|")[0].trim();
-    return /^https?:\/\//i.test(url) ? url : "";
+    if (!value || typeof value !== 'string') {
+      return '';
+    }
+
+    const url = value.split('|')[0].trim();
+
+    return /^https?:\/\//i.test(url) ? url : '';
   }
 
   function getInitials(name) {
-    return String(name || "TEAM")
+    return String(name || 'TEAM')
       .trim()
       .split(/\s+/)
       .slice(0, 2)
-      .map(part => part.charAt(0).toUpperCase())
-      .join("");
+      .map(function (part) {
+        return part.charAt(0).toUpperCase();
+      })
+      .join('');
   }
+
+  // ---------- TEAM IMAGES ----------
 
   function getImageCandidates(event, side) {
     const urls = [];
+
     function add(value) {
       const url = cleanUrl(value);
-      if (url && !urls.includes(url)) urls.push(url);
+
+      if (url && !urls.includes(url)) {
+        urls.push(url);
+      }
     }
-    if (side === "A") {
+
+    if (side === 'A') {
       add(event.teamAFlag);
       add(event.teamALogo);
       add(event.teamAImage);
@@ -69,32 +90,40 @@ const CRICKET_REFRESH_INTERVAL = 60000;
       add(event.teamBLogo);
       add(event.teamBImage);
     }
+
     add(event.logo);
     add(event.eventLogo);
+
     return urls;
   }
 
   function getProxyUrl(url) {
     try {
       const parsed = new URL(url);
-      if (!["http:", "https:"].includes(parsed.protocol)) return "";
+
+      if (!['http:', 'https:'].includes(parsed.protocol)) {
+        return '';
+      }
+
       return (
-        "https://wsrv.nl/?url=" +
+        'https://wsrv.nl/?url=' +
         encodeURIComponent(url) +
-        "&w=240&h=240&fit=contain"
+        '&w=240&h=240&fit=contain'
       );
     } catch {
-      return "";
+      return '';
     }
   }
 
   function renderTeamImage(name, event, side) {
     const candidates = getImageCandidates(event, side);
+
     return `
       <div class="cl-team-image-wrap">
         <div class="cl-team-placeholder">
           ${esc(getInitials(name))}
         </div>
+
         ${
           candidates.length
             ? `
@@ -111,7 +140,7 @@ const CRICKET_REFRESH_INTERVAL = 60000;
                 onerror="CricketLive.imageFallback(this)"
               >
             `
-            : ""
+            : ''
         }
       </div>
     `;
@@ -119,34 +148,43 @@ const CRICKET_REFRESH_INTERVAL = 60000;
 
   function imageLoaded(img) {
     if (img && img.naturalWidth > 0) {
-      img.style.visibility = "visible";
+      img.style.visibility = 'visible';
     }
   }
 
   function imageFallback(img) {
-    if (!img) return;
+    if (!img) {
+      return;
+    }
+
     let candidates = [];
+
     try {
-      candidates = JSON.parse(img.dataset.candidates || "[]");
+      candidates = JSON.parse(
+        img.dataset.candidates || '[]'
+      );
     } catch {
       candidates = [];
     }
+
     let index = Number(img.dataset.index || 0);
-    const proxyTried = img.dataset.proxy === "1";
+    const proxyTried = img.dataset.proxy === '1';
 
     if (!proxyTried && candidates[index]) {
       const proxy = getProxyUrl(candidates[index]);
+
       if (proxy) {
-        img.dataset.proxy = "1";
+        img.dataset.proxy = '1';
         img.src = proxy;
         return;
       }
     }
 
     index++;
+
     if (index < candidates.length) {
       img.dataset.index = String(index);
-      img.dataset.proxy = "0";
+      img.dataset.proxy = '0';
       img.src = candidates[index];
       return;
     }
@@ -156,65 +194,109 @@ const CRICKET_REFRESH_INTERVAL = 60000;
     img.remove();
   }
 
+  // ---------- STATUS AND TIME ----------
+
   function getStatus(event) {
-    const status = String(event.status || "unknown").toLowerCase();
-    return ["live", "upcoming", "ended"].includes(status) ? status : "unknown";
+    const status = String(
+      event.status || 'unknown'
+    ).toLowerCase();
+
+    return ['live', 'upcoming', 'ended'].includes(status)
+      ? status
+      : 'unknown';
   }
 
   function parseTime(value) {
-    if (!value) return NaN;
+    if (!value) {
+      return NaN;
+    }
+
     return Date.parse(
       String(value)
-        .replace(/\//g, "-")
-        .replace(/\s+\+0000$/, "Z")
-        .replace(" ", "T")
+        .replace(/\//g, '-')
+        .replace(/\s+\+0000$/, 'Z')
+        .replace(' ', 'T')
     );
   }
 
   function sortEvents(data) {
-    const order = { live: 0, upcoming: 1, ended: 2, unknown: 3 };
-    return [...data].sort((a, b) => {
+    const order = {
+      live: 0,
+      upcoming: 1,
+      ended: 2,
+      unknown: 3
+    };
+
+    return [...data].sort(function (a, b) {
       const statusDiff =
-        (order[getStatus(a)] ?? 3) - (order[getStatus(b)] ?? 3);
-      if (statusDiff !== 0) return statusDiff;
+        (order[getStatus(a)] ?? 3) -
+        (order[getStatus(b)] ?? 3);
+
+      if (statusDiff !== 0) {
+        return statusDiff;
+      }
 
       const aTime = parseTime(a.event?.startTimeUTC);
       const bTime = parseTime(b.event?.startTimeUTC);
-      if (Number.isFinite(aTime) && Number.isFinite(bTime)) {
+
+      if (
+        Number.isFinite(aTime) &&
+        Number.isFinite(bTime)
+      ) {
         return aTime - bTime;
       }
+
       return 0;
     });
   }
 
   function formatTime(value) {
-    if (!value) return "Time TBA";
+    if (!value) {
+      return 'Time TBA';
+    }
+
     const text = String(value);
+
     const match = text.match(
       /(\d{4})-(\d{2})-(\d{2})\s+(\d{2}):(\d{2})/
     );
-    if (!match) return text;
+
+    if (!match) {
+      return text;
+    }
 
     const [, , month, day, hour, minute] = match;
+
     const hours = Number(hour);
     const displayHour = hours % 12 || 12;
-    const period = hours >= 12 ? "PM" : "AM";
-    return `${day}/${month} · ${displayHour}:${minute} ${period} IST`;
+    const period = hours >= 12 ? 'PM' : 'AM';
+
+    return (
+      `${day}/${month} · ` +
+      `${displayHour}:${minute} ${period} IST`
+    );
   }
 
   function getButtonLabel(status) {
-    return status === "live" ? "Watch Live" : "Watch Now";
+    return status === 'live'
+      ? 'Watch Live'
+      : 'Watch Now';
   }
+
+  // ---------- MATCH CARDS ----------
 
   function renderCard(ev) {
     const e = ev.event || {};
     const status = getStatus(ev);
 
-    const name = e.name || ev.title || "Cricket Match";
-    const teamA = e.teamA || "Team A";
-    const teamB = e.teamB || "Team B";
-    const category = e.category || ev.cat || "Cricket";
-    const slug = ev.slug || "";
+    const name =
+      e.name || ev.title || 'Cricket Match';
+
+    const teamA = e.teamA || 'Team A';
+    const teamB = e.teamB || 'Team B';
+    const category = e.category || ev.cat || 'Cricket';
+    const slug = ev.slug || '';
+
     const buttonLabel = getButtonLabel(status);
 
     const playIcon = `
@@ -240,6 +322,7 @@ const CRICKET_REFRESH_INTERVAL = 60000;
             <span class="cricket-live-sport-tag">
               ${esc(category)}
             </span>
+
             <span class="cricket-live-badge ${status}">
               ${esc(status)}
             </span>
@@ -247,180 +330,317 @@ const CRICKET_REFRESH_INTERVAL = 60000;
 
           <div class="cricket-live-match-content">
 
-            <div class="cricket-live-event-name" title="${esc(name)}">
+            <div
+              class="cricket-live-event-name"
+              title="${esc(name)}"
+            >
               ${esc(name)}
             </div>
 
             <div class="cricket-live-teams">
 
               <div class="cricket-live-team">
-                ${renderTeamImage(teamA, e, "A")}
-                <span class="cricket-live-team-name">${esc(teamA)}</span>
+                ${renderTeamImage(teamA, e, 'A')}
+
+                <span class="cricket-live-team-name">
+                  ${esc(teamA)}
+                </span>
               </div>
 
-              <div class="cricket-live-vs">VS</div>
+              <div class="cricket-live-vs">
+                VS
+              </div>
 
               <div class="cricket-live-team">
-                ${renderTeamImage(teamB, e, "B")}
-                <span class="cricket-live-team-name">${esc(teamB)}</span>
+                ${renderTeamImage(teamB, e, 'B')}
+
+                <span class="cricket-live-team-name">
+                  ${esc(teamB)}
+                </span>
               </div>
 
             </div>
+
           </div>
+
         </div>
 
         <div class="cricket-live-info">
 
-          <div class="cricket-live-info-title" title="${esc(name)}">
+          <div
+            class="cricket-live-info-title"
+            title="${esc(name)}"
+          >
             ${esc(name)}
           </div>
 
           <div class="cricket-live-meta">
+
             <div class="cricket-live-meta-left">
-              <span class="cricket-live-category">${esc(category)}</span>
-              <span class="cricket-live-time">${esc(formatTime(e.startTimeIST))}</span>
+
+              <span class="cricket-live-category">
+                ${esc(category)}
+              </span>
+
+              <span class="cricket-live-time">
+                ${esc(formatTime(e.startTimeIST))}
+              </span>
+
             </div>
 
             <button
               type="button"
               class="cricket-live-watch-btn ${status}"
               data-slug="${esc(slug)}"
-              aria-label="${esc(buttonLabel + " - " + name)}"
+              aria-label="${esc(buttonLabel + ' - ' + name)}"
             >
               ${playIcon}
               <span>${esc(buttonLabel)}</span>
             </button>
+
           </div>
+
         </div>
+
       </article>
     `;
   }
 
+  // ---------- SKELETON LOADER ----------
+
   function showSkeleton() {
     track.innerHTML = Array.from(
       { length: CRICKET_SKELETON_COUNT },
-      () => `
-        <div class="cl-skeleton-card">
-          <div class="cl-skeleton-thumb">
-            <div class="cl-skeleton-badge"></div>
-            <div class="cl-skeleton-name"></div>
-            <div class="cl-skeleton-teams">
-              <div class="cl-skeleton-circle"></div>
-              <div class="cl-skeleton-vs"></div>
-              <div class="cl-skeleton-circle"></div>
+      function () {
+        return `
+          <div class="cl-skeleton-card">
+
+            <div class="cl-skeleton-thumb">
+              <div class="cl-skeleton-badge"></div>
+              <div class="cl-skeleton-name"></div>
+
+              <div class="cl-skeleton-teams">
+                <div class="cl-skeleton-circle"></div>
+                <div class="cl-skeleton-vs"></div>
+                <div class="cl-skeleton-circle"></div>
+              </div>
             </div>
+
+            <div class="cl-skeleton-info">
+              <div class="cl-skeleton-line short"></div>
+              <div class="cl-skeleton-line medium"></div>
+            </div>
+
           </div>
-          <div class="cl-skeleton-info">
-            <div class="cl-skeleton-line short"></div>
-            <div class="cl-skeleton-line medium"></div>
-          </div>
-        </div>
-      `
-    ).join("");
+        `;
+      }
+    ).join('');
   }
 
+  // ---------- FETCH AND UPDATE ----------
+
   async function loadEvents() {
-    if (loading) return;
+    if (loading) {
+      return;
+    }
+
     loading = true;
 
-    if (!loaded) showSkeleton();
+    // Keep existing cards visible during refreshes.
+    if (!loaded) {
+      showSkeleton();
+    }
 
     try {
       const response = await fetch(CRICKET_API, {
-        method: "GET",
-        cache: "no-cache",
-        headers: { Accept: "application/json" }
+        method: 'GET',
+        cache: 'no-cache',
+        headers: {
+          Accept: 'application/json'
+        }
       });
 
-      if (!response.ok) throw new Error(`API error: ${response.status}`);
+      if (!response.ok) {
+        throw new Error(
+          `API error: ${response.status}`
+        );
+      }
 
       const data = await response.json();
-      if (!Array.isArray(data)) throw new Error("Invalid API response");
+
+      if (!Array.isArray(data)) {
+        throw new Error('Invalid API response');
+      }
 
       events = sortEvents(data);
 
       if (!events.length) {
-        track.innerHTML = `<div class="cricket-live-empty">No cricket matches available.</div>`;
-        if (countEl) countEl.textContent = "0 events";
+        renderedCards = null;
+
+        track.innerHTML = `
+          <div class="cricket-live-empty">
+            No cricket matches available.
+          </div>
+        `;
+
+        if (countEl) {
+          countEl.textContent = '0 events';
+        }
+
         loaded = true;
         return;
       }
 
-      const scrollPosition = loaded ? track.scrollLeft : 0;
-      track.innerHTML = events.map(renderCard).join("");
-      if (loaded) track.scrollLeft = scrollPosition;
+      const scrollPosition = loaded
+        ? track.scrollLeft
+        : 0;
 
-      if (countEl) countEl.textContent = `${events.length} events`;
+      const nextCards = events
+        .map(renderCard)
+        .join('');
+
+      // Avoid destroying and rebuilding unchanged cards.
+      if (nextCards !== renderedCards) {
+        track.innerHTML = nextCards;
+        renderedCards = nextCards;
+      }
+
+      if (loaded) {
+        track.scrollLeft = scrollPosition;
+      }
+
+      if (countEl) {
+        countEl.textContent =
+          `${events.length} events`;
+      }
 
       loaded = true;
     } catch (error) {
-      console.error("[CricketLive]", error);
+      console.error('[CricketLive]', error);
+
+      // Preserve loaded cards if a refresh fails.
       if (!loaded) {
-        track.innerHTML = `<div class="cricket-live-empty">Failed to load cricket matches.</div>`;
+        track.innerHTML = `
+          <div class="cricket-live-empty">
+            Failed to load cricket matches.
+          </div>
+        `;
       }
     } finally {
       loading = false;
     }
   }
 
+  // ---------- CAROUSEL CONTROLS ----------
+
   function scrollByCard(direction) {
-    const card = track.querySelector(".cricket-live-card, .cl-skeleton-card");
-    if (!card) return;
+    const card = track.querySelector(
+      '.cricket-live-card, .cl-skeleton-card'
+    );
+
+    if (!card) {
+      return;
+    }
 
     const styles = getComputedStyle(track);
+
     const gap =
-      parseFloat(styles.columnGap) || parseFloat(styles.gap) || 20;
+      parseFloat(styles.columnGap) ||
+      parseFloat(styles.gap) ||
+      20;
 
     track.scrollBy({
       left: direction * (card.offsetWidth + gap),
-      behavior: "smooth"
+      behavior: 'smooth'
     });
   }
 
+  // ---------- PLAYER NAVIGATION ----------
+
   function openPlayer(slug) {
-    if (!slug) return;
-    // Cricket goes to its own route
-    window.location.href = `cricket?slug=${encodeURIComponent(slug)}`;
+    if (!slug) {
+      return;
+    }
+
+    window.location.href =
+      `cricket?slug=${encodeURIComponent(slug)}`;
   }
 
-  prevBtn?.addEventListener("click", () => scrollByCard(-1));
-  nextBtn?.addEventListener("click", () => scrollByCard(1));
+  prevBtn?.addEventListener('click', function () {
+    scrollByCard(-1);
+  });
 
-  track.addEventListener("click", event => {
-    const card = event.target.closest(".cricket-live-card");
-    if (!card) return;
+  nextBtn?.addEventListener('click', function () {
+    scrollByCard(1);
+  });
+
+  track.addEventListener('click', function (event) {
+    const card = event.target.closest(
+      '.cricket-live-card'
+    );
+
+    if (!card) {
+      return;
+    }
+
     openPlayer(card.dataset.slug);
   });
 
-  track.addEventListener("keydown", event => {
-    if (event.key !== "Enter" && event.key !== " ") return;
-    const card = event.target.closest(".cricket-live-card");
-    if (!card) return;
+  track.addEventListener('keydown', function (event) {
+    if (
+      event.key !== 'Enter' &&
+      event.key !== ' '
+    ) {
+      return;
+    }
+
+    const card = event.target.closest(
+      '.cricket-live-card'
+    );
+
+    if (!card) {
+      return;
+    }
+
     event.preventDefault();
     openPlayer(card.dataset.slug);
   });
 
+  // ---------- VISIBLE-ONLY REFRESH ----------
+
   function startRefresh() {
-    if (refreshTimer || document.hidden) return;
-    refreshTimer = setInterval(() => {
-      if (sectionVisible && !document.hidden) loadEvents();
+    if (refreshTimer || document.hidden) {
+      return;
+    }
+
+    refreshTimer = setInterval(function () {
+      if (sectionVisible && !document.hidden) {
+        loadEvents();
+      }
     }, CRICKET_REFRESH_INTERVAL);
   }
 
   function stopRefresh() {
-    if (!refreshTimer) return;
+    if (!refreshTimer) {
+      return;
+    }
+
     clearInterval(refreshTimer);
     refreshTimer = null;
   }
 
   function initializeSection() {
-    if (initialized) return;
+    if (initialized) {
+      return;
+    }
+
     initialized = true;
     loadEvents();
   }
 
   function handleVisibility(isVisible) {
     sectionVisible = isVisible;
+
     if (isVisible) {
       initializeSection();
       startRefresh();
@@ -429,29 +649,50 @@ const CRICKET_REFRESH_INTERVAL = 60000;
     }
   }
 
+  // ---------- PUBLIC HELPERS ----------
+
   window.CricketLive = {
     open: openPlayer,
-    imageLoaded,
-    imageFallback,
+    imageLoaded: imageLoaded,
+    imageFallback: imageFallback,
     reload: loadEvents
   };
 
-  if ("IntersectionObserver" in window && section) {
+  // ---------- LAZY INITIALIZATION ----------
+
+  if (
+    'IntersectionObserver' in window &&
+    section
+  ) {
     const observer = new IntersectionObserver(
-      entries => handleVisibility(entries[0].isIntersecting),
-      { rootMargin: "300px 0px", threshold: 0 }
+      function (entries) {
+        handleVisibility(
+          entries[0].isIntersecting
+        );
+      },
+      {
+        rootMargin: '300px 0px',
+        threshold: 0
+      }
     );
+
     observer.observe(section);
   } else {
     handleVisibility(true);
   }
 
-  document.addEventListener("visibilitychange", () => {
-    if (document.hidden) {
-      stopRefresh();
-    } else if (sectionVisible) {
-      if (initialized) loadEvents();
-      startRefresh();
+  document.addEventListener(
+    'visibilitychange',
+    function () {
+      if (document.hidden) {
+        stopRefresh();
+      } else if (sectionVisible) {
+        if (initialized) {
+          loadEvents();
+        }
+
+        startRefresh();
+      }
     }
-  });
+  );
 })();
