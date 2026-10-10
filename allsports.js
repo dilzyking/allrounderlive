@@ -12,8 +12,13 @@ const REFRESH_INTERVAL = 60000;
 
   if (!track) return;
 
+  const section = track.closest(".allsports-section");
+
   let loaded = false;
   let loading = false;
+  let initialized = false;
+  let sectionVisible = false;
+  let refreshTimer = null;
   let events = [];
 
   function esc(value) {
@@ -34,11 +39,9 @@ const REFRESH_INTERVAL = 60000;
   }
 
   function getInitials(name) {
-    const parts = String(name || "TEAM")
+    return String(name || "TEAM")
       .trim()
-      .split(/\s+/);
-
-    return parts
+      .split(/\s+/)
       .slice(0, 2)
       .map(part => part.charAt(0).toUpperCase())
       .join("");
@@ -94,7 +97,6 @@ const REFRESH_INTERVAL = 60000;
 
     return `
       <div class="as-team-image-wrap">
-
         <div class="as-team-placeholder">
           ${esc(getInitials(name))}
         </div>
@@ -117,7 +119,6 @@ const REFRESH_INTERVAL = 60000;
             `
             : ""
         }
-
       </div>
     `;
   }
@@ -239,11 +240,7 @@ const REFRESH_INTERVAL = 60000;
   }
 
   function getButtonLabel(status) {
-    if (status === "live") return "Watch Live";
-    if (status === "upcoming") return "Match Details";
-    if (status === "ended") return "View Match";
-
-    return "View Match";
+    return status === "live" ? "Watch Live" : "Watch Now";
   }
 
   function renderCard(ev) {
@@ -272,14 +269,12 @@ const REFRESH_INTERVAL = 60000;
         tabindex="0"
         aria-label="${esc(name)}"
       >
-
         <div class="allsports-thumb">
 
           <div class="allsports-glass-orb one"></div>
           <div class="allsports-glass-orb two"></div>
 
           <div class="allsports-topbar">
-
             <span class="allsports-sport-tag">
               ${esc(category)}
             </span>
@@ -287,7 +282,6 @@ const REFRESH_INTERVAL = 60000;
             <span class="allsports-badge ${status}">
               ${esc(status)}
             </span>
-
           </div>
 
           <div class="allsports-match-content">
@@ -302,13 +296,11 @@ const REFRESH_INTERVAL = 60000;
             <div class="allsports-teams">
 
               <div class="allsports-team">
-
                 ${renderTeamImage(teamA, e, "A")}
 
                 <span class="allsports-team-name">
                   ${esc(teamA)}
                 </span>
-
               </div>
 
               <div class="allsports-vs">
@@ -316,13 +308,11 @@ const REFRESH_INTERVAL = 60000;
               </div>
 
               <div class="allsports-team">
-
                 ${renderTeamImage(teamB, e, "B")}
 
                 <span class="allsports-team-name">
                   ${esc(teamB)}
                 </span>
-
               </div>
 
             </div>
@@ -379,7 +369,6 @@ const REFRESH_INTERVAL = 60000;
         <div class="as-skeleton-card">
 
           <div class="as-skeleton-thumb">
-
             <div class="as-skeleton-badge"></div>
             <div class="as-skeleton-name"></div>
 
@@ -388,7 +377,6 @@ const REFRESH_INTERVAL = 60000;
               <div class="as-skeleton-vs"></div>
               <div class="as-skeleton-circle"></div>
             </div>
-
           </div>
 
           <div class="as-skeleton-info">
@@ -529,16 +517,44 @@ const REFRESH_INTERVAL = 60000;
 
     if (!card) return;
 
-    if (
-      event.key !== "Enter" &&
-      event.key !== " "
-    ) {
-      return;
-    }
-
     event.preventDefault();
     openPlayer(card.dataset.slug);
   });
+
+  function startRefresh() {
+    if (refreshTimer || document.hidden) return;
+
+    refreshTimer = setInterval(() => {
+      if (sectionVisible && !document.hidden) {
+        loadEvents();
+      }
+    }, REFRESH_INTERVAL);
+  }
+
+  function stopRefresh() {
+    if (!refreshTimer) return;
+
+    clearInterval(refreshTimer);
+    refreshTimer = null;
+  }
+
+  function initializeSection() {
+    if (initialized) return;
+
+    initialized = true;
+    loadEvents();
+  }
+
+  function handleVisibility(isVisible) {
+    sectionVisible = isVisible;
+
+    if (isVisible) {
+      initializeSection();
+      startRefresh();
+    } else {
+      stopRefresh();
+    }
+  }
 
   window.AllSports = {
     open: openPlayer,
@@ -547,7 +563,31 @@ const REFRESH_INTERVAL = 60000;
     reload: loadEvents
   };
 
-  loadEvents();
+  if ("IntersectionObserver" in window && section) {
+    const observer = new IntersectionObserver(
+      entries => {
+        handleVisibility(entries[0].isIntersecting);
+      },
+      {
+        rootMargin: "300px 0px",
+        threshold: 0
+      }
+    );
 
-  setInterval(loadEvents, REFRESH_INTERVAL);
+    observer.observe(section);
+  } else {
+    handleVisibility(true);
+  }
+
+  document.addEventListener("visibilitychange", () => {
+    if (document.hidden) {
+      stopRefresh();
+    } else if (sectionVisible) {
+      if (initialized) {
+        loadEvents();
+      }
+
+      startRefresh();
+    }
+  });
 })();
