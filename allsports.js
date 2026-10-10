@@ -1,698 +1,605 @@
-/* =========================================================
-   FOOTBALL / ALL SPORTS
-   Preserves the existing design, API and player route.
-   Avoids rebuilding cards when their content is unchanged.
-   ========================================================= */
 
-const ALLSPORTS_API =
-  'https://all-sports.freedekholive-577.workers.dev/football.json';
+const FOOTFY_URL = 'https://footfytv.pro/api/matches';
+const FOOTFY_API_KEY = '435JH345G345G34U5345434J5434535HG';
+const CACHE_SECONDS = 30;
 
-const SKELETON_COUNT = 6;
-const REFRESH_INTERVAL = 60000;
+const IST_FORMATTER = new Intl.DateTimeFormat('en-GB', {
+  timeZone: 'Asia/Kolkata',
+  year: 'numeric',
+  month: '2-digit',
+  day: '2-digit',
+  hour: '2-digit',
+  minute: '2-digit',
+  second: '2-digit',
+  hourCycle: 'h23'
+});
 
-(function () {
-  'use strict';
+function validText(value) {
+  if (typeof value === 'number' && Number.isFinite(value)) return String(value);
+  if (typeof value !== 'string') return null;
+  const str = value.trim();
+  return str && !/^(null|undefined|n\/a|none)$/i.test(str) ? str : null;
+}
 
-  // ---------- DOM ELEMENTS ----------
+function firstText(...values) {
+  for (const value of values) {
+    const result = validText(value);
+    if (result !== null) return result;
+  }
+  return null;
+}
 
-  const track = document.getElementById('allsportsTrack');
-  const prevBtn = document.getElementById('allsportsPrev');
-  const nextBtn = document.getElementById('allsportsNext');
-  const countEl = document.getElementById('allsportsCount');
+function teamName(value) {
+  if (value && typeof value === 'object') {
+    return firstText(value.name, value.shortName, value.title);
+  }
+  return validText(value);
+}
 
-  if (!track) {
-    return;
+function teamLogo(value) {
+  return value && typeof value === 'object'
+    ? firstText(value.logo, value.image, value.flag)
+    : null;
+}
+
+function toDate(value) {
+  if (value === null || value === undefined || value === '') return null;
+  if (value instanceof Date) return Number.isNaN(value.getTime()) ? null : value;
+
+  if (typeof value === 'number' && Number.isFinite(value)) {
+    const date = new Date(value < 1e12 ? value * 1000 : value);
+    return Number.isNaN(date.getTime()) ? null : date;
   }
 
-  const section = track.closest('.allsports-section');
+  let text = validText(value);
+  if (!text) return null;
+  if (/^\d{10,13}$/.test(text)) return toDate(Number(text));
 
-  // ---------- STATE ----------
+  text = text.replace(/^(\d{4})\/(\d{2})\/(\d{2})/, '$1-$2-$3');
+  text = text.replace(/^(\d{4}-\d{2}-\d{2})\s+/, '$1T');
+  text = text.replace(/\s+IST$/i, '+05:30');
+  text = text.replace(/\s+UTC$/i, 'Z');
+  text = text.replace(/\s+([+-]\d{2})(\d{2})$/, '$1:$2');
+  text = text.replace(/([+-]\d{2})(\d{2})$/, '$1:$2');
 
-  let loaded = false;
-  let loading = false;
-  let initialized = false;
-  let sectionVisible = false;
-  let refreshTimer = null;
-  let events = [];
-  let renderedCards = null;
-
-  // ---------- HELPERS ----------
-
-  function esc(value) {
-    return String(value ?? '')
-      .replace(/&/g, '&amp;')
-      .replace(/</g, '&lt;')
-      .replace(/>/g, '&gt;')
-      .replace(/"/g, '&quot;')
-      .replace(/'/g, '&#39;');
+  if (/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}/.test(text) &&
+      !/(Z|[+-]\d{2}:\d{2})$/i.test(text)) {
+    text += 'Z';
   }
 
-  function cleanUrl(value) {
-    if (!value || typeof value !== 'string') {
-      return '';
+  const parsed = new Date(text);
+  return Number.isNaN(parsed.getTime()) ? null : parsed;
+}
+
+function firstDate(...values) {
+  for (const value of values) {
+    const date = toDate(value);
+    if (date) return date;
+  }
+  return null;
+}
+
+function utcTime(date) {
+  if (!date) return null;
+  return date.toISOString().slice(0, 19).replace(/-/g, '/').replace('T', ' ') + ' +0000';
+}
+
+function istTime(date) {
+  if (!date) return null;
+  const parts = Object.fromEntries(
+    IST_FORMATTER.formatToParts(date).map(part => [part.type, part.value])
+  );
+  return `${parts.year}-${parts.month}-${parts.day} ${parts.hour}:${parts.minute}:${parts.second} IST`;
+}
+
+function normalizedId(value) {
+  if (typeof value === 'number' && Number.isFinite(value)) return value;
+  const text = validText(value);
+  if (!text) return null;
+
+  if (/^\d+$/.test(text)) {
+    const asNumber = Number(text);
+    if (Number.isSafeInteger(asNumber)) return asNumber;
+  }
+  return text;
+}
+
+function slugify(value) {
+  const text = validText(value);
+  if (!text) return null;
+
+  return text.toLowerCase()
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '') || null;
+}
+
+function versions(match) {
+  return [
+    match,
+    match?.mergedData,
+    match?.apiData,
+    match?.mergedData?.apiData
+  ].filter(value => value && typeof value === 'object' && !Array.isArray(value));
+}
+
+function sportOf(match) {
+  const candidates = versions(match).flatMap(item => [
+    item.category,
+    item.sport,
+    item.cat,
+    item.event?.category,
+    item.eventInfo?.category,
+    item.overrides?.category
+  ]);
+
+  for (const value of candidates) {
+    const sport = validText(value)?.toLowerCase();
+    if (!sport) continue;
+
+    if (sport.includes('football') || sport === 'soccer') return 'Football';
+    if (sport.includes('cricket')) return 'Cricket';
+  }
+
+  return null;
+}
+
+function getMatchDates(records) {
+  const start = firstDate(...records.flatMap(item => [
+    item.startTime,
+    item.time,
+    item.startTimeUTC,
+    item.event?.startTimeUTC,
+    item.event?.startTime,
+    item.eventInfo?.startTime,
+    item.overrides?.time,
+    item.event?.startTimeIST,
+    item.startTimeIST
+  ]));
+
+  const end = firstDate(...records.flatMap(item => [
+    item.endTime,
+    item.endTimeUTC,
+    item.event?.endTimeUTC,
+    item.event?.endTime,
+    item.eventInfo?.endTime,
+    item.overrides?.endTime,
+    item.event?.endTimeIST,
+    item.endTimeIST
+  ]));
+
+  return { start, end };
+}
+
+function matchStatus(records, start, end) {
+  const now = Date.now();
+
+  if (end && now >= end.getTime()) return 'ended';
+  if (start && now < start.getTime()) return 'upcoming';
+  if (start && end && now >= start.getTime() && now < end.getTime()) return 'live';
+
+  const original = firstText(...records.flatMap(item => [
+    item.overrides?.status,
+    item.status,
+    item.eventInfo?.Status,
+    item.eventInfo?.status,
+    item.event?.status
+  ]))?.toLowerCase();
+
+  if (original) {
+    if (/^(live|ongoing|in progress|in_progress)$/.test(original)) return 'live';
+    if (/^(upcoming|scheduled|not started|not_started)$/.test(original)) return 'upcoming';
+    if (/^(ended|finished|finish|completed|complete|final|ft)$/.test(original)) return 'ended';
+  }
+
+  if (records.some(item => item.isFinished === true)) return 'ended';
+  if (records.some(item => item.isLive === true)) return 'live';
+  if (records.some(item => item.isUpcoming === true)) return 'upcoming';
+
+  return null;
+}
+
+function cleanStreamUrl(value) {
+  const raw = validText(value);
+  if (!raw) return null;
+
+  const url = raw.split('|', 1)[0].trim();
+  if (!/^https?:\/\//i.test(url)) return null;
+
+  try {
+    const parsed = new URL(url);
+
+    if (['no.link', 'example.com', 'example.org', 'localhost']
+      .includes(parsed.hostname.toLowerCase())) {
+      return null;
     }
 
-    const url = value.split('|')[0].trim();
+    return url;
+  } catch {
+    return null;
+  }
+}
 
-    return /^https?:\/\//i.test(url) ? url : '';
+function streamType(stream, url) {
+  if (/\.mpd(?:$|[?#])/i.test(url)) return 'dash';
+  if (/\.m3u8(?:$|[?#])/i.test(url)) return 'hls';
+
+  const type = firstText(
+    stream.type,
+    stream.streamType,
+    stream.format
+  )?.toLowerCase();
+
+  if (type && /^(dash|mpd|mpeg-dash)$/.test(type)) return 'dash';
+  if (type && /^(hls|m3u8)$/.test(type)) return 'hls';
+
+  return null;
+}
+
+function streamKey(stream) {
+  const drm = stream?.drm;
+  const candidate = firstText(stream?.drmKey, stream?.api);
+
+  if (candidate && /^[0-9a-f]{32}:[0-9a-f]{32}$/i.test(candidate)) {
+    return candidate;
   }
 
-  function getInitials(name) {
-    return String(name || 'TEAM')
-      .trim()
-      .split(/\s+/)
-      .slice(0, 2)
-      .map(function (part) {
-        return part.charAt(0).toUpperCase();
-      })
-      .join('');
-  }
+  const kid = firstText(drm?.kid, drm?.keyId);
+  const key = firstText(drm?.key);
 
-  // ---------- TEAM IMAGES ----------
+  if (kid && key) return `${kid}:${key}`;
 
-  function getImageCandidates(event, side) {
-    const urls = [];
+  if (drm?.clearKeys && typeof drm.clearKeys === 'object') {
+    const [firstEntry] = Object.entries(drm.clearKeys);
 
-    function add(value) {
-      const url = cleanUrl(value);
-
-      if (url && !urls.includes(url)) {
-        urls.push(url);
-      }
-    }
-
-    if (side === 'A') {
-      add(event.teamAFlag);
-      add(event.teamALogo);
-      add(event.teamAImage);
-    } else {
-      add(event.teamBFlag);
-      add(event.teamBLogo);
-      add(event.teamBImage);
-    }
-
-    add(event.logo);
-    add(event.eventLogo);
-
-    return urls;
-  }
-
-  function getProxyUrl(url) {
-    try {
-      const parsed = new URL(url);
-
-      if (!['http:', 'https:'].includes(parsed.protocol)) {
-        return '';
-      }
-
-      return (
-        'https://wsrv.nl/?url=' +
-        encodeURIComponent(url) +
-        '&w=240&h=240&fit=contain'
-      );
-    } catch {
-      return '';
+    if (firstEntry && firstEntry[0] && firstEntry[1]) {
+      return `${firstEntry[0]}:${firstEntry[1]}`;
     }
   }
 
-  function renderTeamImage(name, event, side) {
-    const candidates = getImageCandidates(event, side);
-
-    return `
-      <div class="as-team-image-wrap">
-        <div class="as-team-placeholder">
-          ${esc(getInitials(name))}
-        </div>
-
-        ${
-          candidates.length
-            ? `
-              <img
-                src="${esc(candidates[0])}"
-                alt="${esc(name)}"
-                loading="lazy"
-                decoding="async"
-                referrerpolicy="no-referrer"
-                data-candidates="${esc(JSON.stringify(candidates))}"
-                data-index="0"
-                data-proxy="0"
-                onload="AllSports.imageLoaded(this)"
-                onerror="AllSports.imageFallback(this)"
-              >
-            `
-            : ''
-        }
-      </div>
-    `;
-  }
-
-  function imageLoaded(img) {
-    if (img && img.naturalWidth > 0) {
-      img.style.visibility = 'visible';
-    }
-  }
-
-  function imageFallback(img) {
-    if (!img) {
-      return;
-    }
-
-    let candidates = [];
-
-    try {
-      candidates = JSON.parse(
-        img.dataset.candidates || '[]'
-      );
-    } catch {
-      candidates = [];
-    }
-
-    let index = Number(img.dataset.index || 0);
-    const proxyTried = img.dataset.proxy === '1';
-
-    if (!proxyTried && candidates[index]) {
-      const proxy = getProxyUrl(candidates[index]);
-
-      if (proxy) {
-        img.dataset.proxy = '1';
-        img.src = proxy;
-        return;
-      }
-    }
-
-    index++;
-
-    if (index < candidates.length) {
-      img.dataset.index = String(index);
-      img.dataset.proxy = '0';
-      img.src = candidates[index];
-      return;
-    }
-
-    img.onerror = null;
-    img.onload = null;
-    img.remove();
-  }
-
-  // ---------- STATUS AND TIME ----------
-
-  function getStatus(event) {
-    const status = String(
-      event.status || 'unknown'
-    ).toLowerCase();
-
-    return ['live', 'upcoming', 'ended'].includes(status)
-      ? status
-      : 'unknown';
-  }
-
-  function parseTime(value) {
-    if (!value) {
-      return NaN;
-    }
-
-    return Date.parse(
-      String(value)
-        .replace(/\//g, '-')
-        .replace(/\s+\+0000$/, 'Z')
-        .replace(' ', 'T')
-    );
-  }
-
-  function sortEvents(data) {
-    const order = {
-      live: 0,
-      upcoming: 1,
-      ended: 2,
-      unknown: 3
-    };
-
-    return [...data].sort(function (a, b) {
-      const statusDiff =
-        (order[getStatus(a)] ?? 3) -
-        (order[getStatus(b)] ?? 3);
-
-      if (statusDiff !== 0) {
-        return statusDiff;
-      }
-
-      const aTime = parseTime(a.event?.startTimeUTC);
-      const bTime = parseTime(b.event?.startTimeUTC);
-
-      if (
-        Number.isFinite(aTime) &&
-        Number.isFinite(bTime)
-      ) {
-        return aTime - bTime;
-      }
-
-      return 0;
-    });
-  }
-
-  function formatTime(value) {
-    if (!value) {
-      return 'Time TBA';
-    }
-
-    const text = String(value);
-
-    const match = text.match(
-      /(\d{4})-(\d{2})-(\d{2})\s+(\d{2}):(\d{2})/
-    );
-
-    if (!match) {
-      return text;
-    }
-
-    const [, , month, day, hour, minute] = match;
-
-    const hours = Number(hour);
-    const displayHour = hours % 12 || 12;
-    const period = hours >= 12 ? 'PM' : 'AM';
-
-    return (
-      `${day}/${month} · ` +
-      `${displayHour}:${minute} ${period} IST`
-    );
-  }
-
-  function getButtonLabel(status) {
-    return status === 'live'
-      ? 'Watch Live'
-      : 'Watch Now';
-  }
-
-  // ---------- MATCH CARDS ----------
-
-  function renderCard(ev) {
-    const e = ev.event || {};
-    const status = getStatus(ev);
-
-    const name =
-      e.name || ev.title || 'Sports Event';
-
-    const teamA = e.teamA || 'Team A';
-    const teamB = e.teamB || 'Team B';
-    const category = e.category || ev.cat || 'Sports';
-    const slug = ev.slug || '';
-
-    const buttonLabel = getButtonLabel(status);
-
-    const playIcon = `
-      <svg viewBox="0 0 24 24" aria-hidden="true">
-        <path d="M8 5.5v13l10-6.5z"></path>
-      </svg>
-    `;
-
-    return `
-      <article
-        class="allsports-card"
-        data-slug="${esc(slug)}"
-        role="link"
-        tabindex="0"
-        aria-label="${esc(name)}"
-      >
-        <div class="allsports-thumb">
-
-          <div class="allsports-glass-orb one"></div>
-          <div class="allsports-glass-orb two"></div>
-
-          <div class="allsports-topbar">
-            <span class="allsports-sport-tag">
-              ${esc(category)}
-            </span>
-
-            <span class="allsports-badge ${status}">
-              ${esc(status)}
-            </span>
-          </div>
-
-          <div class="allsports-match-content">
-
-            <div
-              class="allsports-event-name"
-              title="${esc(name)}"
-            >
-              ${esc(name)}
-            </div>
-
-            <div class="allsports-teams">
-
-              <div class="allsports-team">
-                ${renderTeamImage(teamA, e, 'A')}
-
-                <span class="allsports-team-name">
-                  ${esc(teamA)}
-                </span>
-              </div>
-
-              <div class="allsports-vs">
-                VS
-              </div>
-
-              <div class="allsports-team">
-                ${renderTeamImage(teamB, e, 'B')}
-
-                <span class="allsports-team-name">
-                  ${esc(teamB)}
-                </span>
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-
-        <div class="allsports-info">
-
-          <div
-            class="allsports-info-title"
-            title="${esc(name)}"
-          >
-            ${esc(name)}
-          </div>
-
-          <div class="allsports-meta">
-
-            <div class="allsports-meta-left">
-
-              <span class="allsports-category">
-                ${esc(category)}
-              </span>
-
-              <span class="allsports-time">
-                ${esc(formatTime(e.startTimeIST))}
-              </span>
-
-            </div>
-
-            <button
-              type="button"
-              class="allsports-watch-btn ${status}"
-              data-slug="${esc(slug)}"
-              aria-label="${esc(buttonLabel + ' - ' + name)}"
-            >
-              ${playIcon}
-              <span>${esc(buttonLabel)}</span>
-            </button>
-
-          </div>
-
-        </div>
-
-      </article>
-    `;
-  }
-
-  // ---------- SKELETON LOADER ----------
-
-  function showSkeleton() {
-    track.innerHTML = Array.from(
-      { length: SKELETON_COUNT },
-      function () {
-        return `
-          <div class="as-skeleton-card">
-
-            <div class="as-skeleton-thumb">
-              <div class="as-skeleton-badge"></div>
-              <div class="as-skeleton-name"></div>
-
-              <div class="as-skeleton-teams">
-                <div class="as-skeleton-circle"></div>
-                <div class="as-skeleton-vs"></div>
-                <div class="as-skeleton-circle"></div>
-              </div>
-            </div>
-
-            <div class="as-skeleton-info">
-              <div class="as-skeleton-line short"></div>
-              <div class="as-skeleton-line medium"></div>
-            </div>
-
-          </div>
-        `;
-      }
-    ).join('');
-  }
-
-  // ---------- FETCH AND UPDATE ----------
-
-  async function loadEvents() {
-    if (loading) {
-      return;
-    }
-
-    loading = true;
-
-    // Keep existing cards visible during refreshes.
-    if (!loaded) {
-      showSkeleton();
-    }
-
-    try {
-      const response = await fetch(ALLSPORTS_API, {
-        method: 'GET',
-        cache: 'no-cache',
-        headers: {
-          Accept: 'application/json'
-        }
-      });
-
-      if (!response.ok) {
-        throw new Error(
-          `API error: ${response.status}`
+  return null;
+}
+
+function gatherStreams(records) {
+  const output = [];
+  const seen = new Map();
+
+  for (const item of records) {
+    for (const field of [
+      'servers',
+      'streams',
+      'channels',
+      'dashStreams',
+      'channels_data'
+    ]) {
+      if (!Array.isArray(item[field])) continue;
+
+      for (const raw of item[field]) {
+        const stream = typeof raw === 'string' ? { url: raw } : raw;
+
+        if (!stream || typeof stream !== 'object') continue;
+        if (stream.active === false || stream.enabled === false) continue;
+
+        const url = cleanStreamUrl(firstText(
+          stream.url,
+          stream.streamUrl,
+          stream.link,
+          stream.externalUrl,
+          stream.src
+        ));
+
+        if (!url) continue;
+
+        const type = streamType(stream, url);
+        if (!type) continue;
+
+        const title = firstText(
+          stream.title,
+          stream.label,
+          stream.name
         );
-      }
 
-      const data = await response.json();
+        const keyValue = streamKey(stream);
 
-      if (!Array.isArray(data)) {
-        throw new Error('Invalid API response');
-      }
+        if (seen.has(url)) {
+          const existing = output[seen.get(url)];
 
-      events = sortEvents(data);
+          if (!existing.title && title) existing.title = title;
+          if (!existing.key && keyValue) existing.key = keyValue;
 
-      if (!events.length) {
-        renderedCards = null;
-
-        track.innerHTML = `
-          <div class="allsports-empty">
-            No events available.
-          </div>
-        `;
-
-        if (countEl) {
-          countEl.textContent = '0 events';
+          continue;
         }
 
-        loaded = true;
-        return;
+        seen.set(url, output.length);
+
+        output.push({
+          title,
+          type,
+          url,
+          key: keyValue
+        });
       }
-
-      const scrollPosition = loaded
-        ? track.scrollLeft
-        : 0;
-
-      const nextCards = events
-        .map(renderCard)
-        .join('');
-
-      // Avoid destroying and rebuilding unchanged cards.
-      if (nextCards !== renderedCards) {
-        track.innerHTML = nextCards;
-        renderedCards = nextCards;
-      }
-
-      if (loaded) {
-        track.scrollLeft = scrollPosition;
-      }
-
-      if (countEl) {
-        countEl.textContent =
-          `${events.length} events`;
-      }
-
-      loaded = true;
-    } catch (error) {
-      console.error('[AllSports]', error);
-
-      // Preserve loaded cards if a refresh fails.
-      if (!loaded) {
-        track.innerHTML = `
-          <div class="allsports-empty">
-            Failed to load events.
-          </div>
-        `;
-      }
-    } finally {
-      loading = false;
     }
   }
 
-  // ---------- CAROUSEL CONTROLS ----------
+  return output;
+}
 
-  function scrollByCard(direction) {
-    const card = track.querySelector(
-      '.allsports-card, .as-skeleton-card'
-    );
+function mapMatch(match, category) {
+  const records = versions(match);
 
-    if (!card) {
-      return;
-    }
+  const a = firstText(...records.flatMap(item => [
+    item.teamA,
+    teamName(item.homeTeam),
+    item.eventInfo?.teamA,
+    item.event?.teamA,
+    teamName(item.overrides?.homeTeam)
+  ]));
 
-    const styles = getComputedStyle(track);
+  const b = firstText(...records.flatMap(item => [
+    item.teamB,
+    teamName(item.awayTeam),
+    item.eventInfo?.teamB,
+    item.event?.teamB,
+    teamName(item.overrides?.awayTeam)
+  ]));
 
-    const gap =
-      parseFloat(styles.columnGap) ||
-      parseFloat(styles.gap) ||
-      20;
+  const aFlag = firstText(...records.flatMap(item => [
+    item.teamAFlag,
+    item.homeLogo,
+    teamLogo(item.homeTeam),
+    item.eventInfo?.teamAFlag,
+    item.event?.teamAFlag,
+    teamLogo(item.overrides?.homeTeam)
+  ]));
 
-    track.scrollBy({
-      left: direction * (card.offsetWidth + gap),
-      behavior: 'smooth'
-    });
-  }
+  const bFlag = firstText(...records.flatMap(item => [
+    item.teamBFlag,
+    item.awayLogo,
+    teamLogo(item.awayTeam),
+    item.eventInfo?.teamBFlag,
+    item.event?.teamBFlag,
+    teamLogo(item.overrides?.awayTeam)
+  ]));
 
-  // ---------- PLAYER NAVIGATION ----------
+  const eventName = firstText(...records.flatMap(item => [
+    item.eventName,
+    item.league,
+    item.event?.name,
+    item.event?.title,
+    item.eventInfo?.eventName,
+    item.overrides?.league
+  ]));
 
-  function openPlayer(slug) {
-    if (!slug) {
-      return;
-    }
+  const eventLogo = firstText(...records.flatMap(item => [
+    item.leagueLogo,
+    item.event?.logo,
+    item.image,
+    item.event?.image
+  ]));
 
-    window.location.href =
-      `football?slug=${encodeURIComponent(slug)}`;
-  }
+  const id = normalizedId(firstText(
+    match.id,
+    match.apiId,
+    match.apiData?.id,
+    match.mergedData?.id,
+    match._id,
+    match.overrideId
+  ));
 
-  prevBtn?.addEventListener('click', function () {
-    scrollByCard(-1);
-  });
+  const matchupTitle = a && b ? `${a} vs ${b}` : null;
 
-  nextBtn?.addEventListener('click', function () {
-    scrollByCard(1);
-  });
+  const title = firstText(
+    match.title,
+    match.overrides?.title,
+    matchupTitle,
+    match.mergedData?.title,
+    match.apiData?.title
+  );
 
-  track.addEventListener('click', function (event) {
-    const card = event.target.closest(
-      '.allsports-card'
-    );
+  const slug = firstText(
+    match.slug,
+    match.seoSlug,
+    match.mergedData?.slug,
+    match.mergedData?.seoSlug,
+    match.apiData?.seoSlug
+  ) || slugify(matchupTitle || title || `${category}-${id ?? 'match'}`);
 
-    if (!card) {
-      return;
-    }
+  const { start, end } = getMatchDates(records);
 
-    openPlayer(card.dataset.slug);
-  });
-
-  track.addEventListener('keydown', function (event) {
-    if (
-      event.key !== 'Enter' &&
-      event.key !== ' '
-    ) {
-      return;
-    }
-
-    const card = event.target.closest(
-      '.allsports-card'
-    );
-
-    if (!card) {
-      return;
-    }
-
-    event.preventDefault();
-    openPlayer(card.dataset.slug);
-  });
-
-  // ---------- VISIBLE-ONLY REFRESH ----------
-
-  function startRefresh() {
-    if (refreshTimer || document.hidden) {
-      return;
-    }
-
-    refreshTimer = setInterval(function () {
-      if (sectionVisible && !document.hidden) {
-        loadEvents();
-      }
-    }, REFRESH_INTERVAL);
-  }
-
-  function stopRefresh() {
-    if (!refreshTimer) {
-      return;
-    }
-
-    clearInterval(refreshTimer);
-    refreshTimer = null;
-  }
-
-  function initializeSection() {
-    if (initialized) {
-      return;
-    }
-
-    initialized = true;
-    loadEvents();
-  }
-
-  function handleVisibility(isVisible) {
-    sectionVisible = isVisible;
-
-    if (isVisible) {
-      initializeSection();
-      startRefresh();
-    } else {
-      stopRefresh();
-    }
-  }
-
-  // ---------- PUBLIC HELPERS ----------
-
-  window.AllSports = {
-    open: openPlayer,
-    imageLoaded: imageLoaded,
-    imageFallback: imageFallback,
-    reload: loadEvents
+  return {
+    id,
+    title,
+    slug,
+    cat: 'Live Events',
+    status: matchStatus(records, start, end),
+    event: {
+      name: eventName,
+      category,
+      teamA: a,
+      teamAFlag: aFlag,
+      teamB: b,
+      teamBFlag: bFlag,
+      logo: eventLogo,
+      startTimeIST: istTime(start),
+      endTimeIST: istTime(end),
+      startTimeUTC: utcTime(start),
+      endTimeUTC: utcTime(end)
+    },
+    dashStreams: gatherStreams(records)
   };
+}
 
-  // ---------- LAZY INITIALIZATION ----------
+function extractMatches(payload, depth = 0) {
+  if (Array.isArray(payload)) return payload;
+  if (!payload || typeof payload !== 'object' || depth > 5) return [];
+
+  for (const key of [
+    'matches',
+    'events',
+    'data',
+    'results',
+    'items',
+    'fixtures',
+    'list',
+    'response'
+  ]) {
+    const result = extractMatches(payload[key], depth + 1);
+    if (result.length) return result;
+  }
+
+  const grouped = [
+    'football',
+    'Football',
+    'cricket',
+    'Cricket'
+  ].flatMap(key => extractMatches(payload[key], depth + 1));
+
+  if (grouped.length) return grouped;
 
   if (
-    'IntersectionObserver' in window &&
-    section
+    payload.id !== undefined ||
+    payload.apiId !== undefined ||
+    payload._id !== undefined
   ) {
-    const observer = new IntersectionObserver(
-      function (entries) {
-        handleVisibility(
-          entries[0].isIntersecting
-        );
-      },
-      {
-        rootMargin: '300px 0px',
-        threshold: 0
-      }
-    );
-
-    observer.observe(section);
-  } else {
-    handleVisibility(true);
+    return [payload];
   }
 
-  document.addEventListener(
-    'visibilitychange',
-    function () {
-      if (document.hidden) {
-        stopRefresh();
-      } else if (sectionVisible) {
-        if (initialized) {
-          loadEvents();
-        }
+  return [];
+}
 
-        startRefresh();
-      }
+function mapAll(payload, category) {
+  const unique = new Map();
+  const matches = extractMatches(payload);
+
+  for (const match of matches) {
+    if (!match || typeof match !== 'object') continue;
+    if (sportOf(match) !== category) continue;
+
+    const converted = mapMatch(match, category);
+
+    const uniqueId = converted.id !== null
+      ? `id:${converted.id}`
+      : `slug:${converted.slug ?? JSON.stringify(converted.event)}`;
+
+    const existing = unique.get(uniqueId);
+
+    if (!existing || converted.dashStreams.length > existing.dashStreams.length) {
+      unique.set(uniqueId, converted);
     }
-  );
-})();
+  }
+
+  return [...unique.values()];
+}
+
+function jsonResponse(data, status = 200, extraHeaders = {}) {
+  return new Response(JSON.stringify(data, null, 2), {
+    status,
+    headers: {
+      'Content-Type': 'application/json; charset=utf-8',
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET, HEAD, OPTIONS',
+      'Access-Control-Allow-Headers': 'Content-Type',
+      'Cache-Control': status === 200
+        ? `public, max-age=${CACHE_SECONDS}, s-maxage=${CACHE_SECONDS}`
+        : 'no-store',
+      ...extraHeaders
+    }
+  });
+}
+
+async function handleRequest(request, env = {}, ctx = null) {
+  const { pathname } = new URL(request.url);
+
+  if (request.method === 'OPTIONS') {
+    return new Response(null, {
+      status: 204,
+      headers: {
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Methods': 'GET, HEAD, OPTIONS',
+        'Access-Control-Allow-Headers': 'Content-Type'
+      }
+    });
+  }
+
+  if (!['GET', 'HEAD'].includes(request.method)) {
+    return jsonResponse({ error: 'Method not allowed' }, 405);
+  }
+
+  if (pathname !== '/football.json' && pathname !== '/cricket.json') {
+    return jsonResponse({
+      error: 'Use /football.json or /cricket.json'
+    }, 404);
+  }
+
+  const category = pathname === '/football.json'
+    ? 'Football'
+    : 'Cricket';
+
+  const cache = typeof caches !== 'undefined'
+    ? caches.default
+    : null;
+
+  if (request.method === 'GET' && cache) {
+    const cached = await cache.match(request);
+    if (cached) return cached;
+  }
+
+  try {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 12000);
+
+    let upstream;
+
+    try {
+      upstream = await fetch(FOOTFY_URL, {
+        headers: {
+          'x-footfy-key': FOOTFY_API_KEY,
+          'Accept': 'application/json'
+        },
+        signal: controller.signal
+      });
+    } finally {
+      clearTimeout(timeout);
+    }
+
+    if (!upstream.ok) {
+      return jsonResponse({
+        error: 'Footfy API request failed',
+        upstreamStatus: upstream.status
+      }, 502);
+    }
+
+    const payload = await upstream.json();
+    const data = mapAll(payload, category);
+    const response = jsonResponse(data);
+
+    if (request.method === 'GET' && cache && ctx?.waitUntil) {
+      ctx.waitUntil(cache.put(request, response.clone()));
+    }
+
+    if (request.method === 'HEAD') {
+      return new Response(null, {
+        status: 200,
+        headers: response.headers
+      });
+    }
+
+    return response;
+  } catch (error) {
+    return jsonResponse({
+      error: 'Unable to retrieve or parse Footfy API data'
+    }, 502);
+  }
+}
+
+// Cloudflare Workers
+export default {
+  fetch: handleRequest
+};
+
+// Cloudflare Pages Functions
+export async function onRequest(context) {
+  return handleRequest(context.request, context.env, context);
+}
