@@ -489,7 +489,7 @@ const REFRESH_INTERVAL = 60000;
     if (!slug) return;
 
     window.location.href =
-      `football.html?slug=${encodeURIComponent(slug)}`;
+      `football?slug=${encodeURIComponent(slug)}`;
   }
 
   prevBtn?.addEventListener("click", () => {
