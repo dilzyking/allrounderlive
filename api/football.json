@@ -3112,40 +3112,6 @@
     ]
   },
   {
-    "id": 5028,
-    "title": "Saudi Pro League",
-    "slug": "diriyah-vs-neom",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Saudi Pro League",
-      "category": "Football",
-      "teamA": "Diriyah",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/853574/image",
-      "teamB": "Neom",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/530631/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/955/image/dark",
-      "startTimeIST": "2026-10-30 20:20:00 IST",
-      "endTimeIST": "2026-10-30 22:40:00 IST",
-      "startTimeUTC": "2026/10/30 14:50:00 +0000",
-      "endTimeUTC": "2026/10/30 17:10:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/RRRRQQQQ.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 3926,
     "title": "NFL REDZONE",
     "slug": "nfl-vs-nfl",
