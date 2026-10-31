@@ -374,120 +374,6 @@
     ]
   },
   {
-    "id": 5064,
-    "title": "LaLiga",
-    "slug": "levante-vs-atletico-madrid",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "LaLiga",
-      "category": "Football",
-      "teamA": "Levante",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2849/image",
-      "teamB": "Atlético Madrid",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2836/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
-      "startTimeIST": "2026-10-31 18:30:00 IST",
-      "endTimeIST": "2026-10-31 20:50:00 IST",
-      "startTimeUTC": "2026/10/31 13:00:00 +0000",
-      "endTimeUTC": "2026/10/31 15:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "beIN ENGLISH FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
-        "key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
-      },
-      {
-        "title": "FANCODE FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
-      },
-      {
-        "title": "D SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd",
-        "key": "f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
-      },
-      {
-        "title": "FAST SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4565501.m3u8?txSecret=333608e1a7f36423c42f5e4d5219b58b&txTime=6AE5F709",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/BDDDAAAAQQA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5066,
-    "title": "LaLiga 2",
-    "slug": "real-sociedad-b-vs-girona",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "LaLiga 2",
-      "category": "Football",
-      "teamA": "Real Sociedad B",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/24360/image",
-      "teamB": "Girona",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/24264/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "startTimeIST": "2026-10-31 18:30:00 IST",
-      "endTimeIST": "2026-10-31 20:50:00 IST",
-      "startTimeUTC": "2026/10/31 13:00:00 +0000",
-      "endTimeUTC": "2026/10/31 15:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "FAST SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/sd-1-4567343.m3u8?txSecret=514561cc35b7d208e1ffecf14c516c17&txTime=6AE5F781",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/VUUUAAAAQQQ.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5067,
-    "title": "Trendyol Süper Lig",
-    "slug": "kocaelispor-vs-rizespor",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Trendyol Süper Lig",
-      "category": "Football",
-      "teamA": "Kocaelispor",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/3065/image",
-      "teamB": "Rizespor",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/3064/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
-      "startTimeIST": "2026-10-31 18:30:00 IST",
-      "endTimeIST": "2026-10-31 20:50:00 IST",
-      "startTimeUTC": "2026/10/31 13:00:00 +0000",
-      "endTimeUTC": "2026/10/31 15:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/BDDDAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5121,
     "title": "Saudi Pro League",
     "slug": "al-taawoun-vs-al-ettifaq",
@@ -2015,6 +1901,120 @@
       "endTimeUTC": "2026/11/01 10:20:00 +0000"
     },
     "dashStreams": []
+  },
+  {
+    "id": 5064,
+    "title": "LaLiga",
+    "slug": "levante-vs-atletico-madrid",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "LaLiga",
+      "category": "Football",
+      "teamA": "Levante",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2849/image",
+      "teamB": "Atlético Madrid",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2836/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+      "startTimeIST": "2026-10-31 18:30:00 IST",
+      "endTimeIST": "2026-10-31 20:50:00 IST",
+      "startTimeUTC": "2026/10/31 13:00:00 +0000",
+      "endTimeUTC": "2026/10/31 15:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "beIN ENGLISH FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
+        "key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
+      },
+      {
+        "title": "FANCODE FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+      },
+      {
+        "title": "D SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd",
+        "key": "f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
+      },
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4565501.m3u8?txSecret=333608e1a7f36423c42f5e4d5219b58b&txTime=6AE5F709",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/BDDDAAAAQQA.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5066,
+    "title": "LaLiga 2",
+    "slug": "real-sociedad-b-vs-girona",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "LaLiga 2",
+      "category": "Football",
+      "teamA": "Real Sociedad B",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/24360/image",
+      "teamB": "Girona",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/24264/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
+      "startTimeIST": "2026-10-31 18:30:00 IST",
+      "endTimeIST": "2026-10-31 20:50:00 IST",
+      "startTimeUTC": "2026/10/31 13:00:00 +0000",
+      "endTimeUTC": "2026/10/31 15:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4567343.m3u8?txSecret=514561cc35b7d208e1ffecf14c516c17&txTime=6AE5F781",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/VUUUAAAAQQQ.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5067,
+    "title": "Trendyol Süper Lig",
+    "slug": "kocaelispor-vs-rizespor",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Trendyol Süper Lig",
+      "category": "Football",
+      "teamA": "Kocaelispor",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/3065/image",
+      "teamB": "Rizespor",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/3064/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
+      "startTimeIST": "2026-10-31 18:30:00 IST",
+      "endTimeIST": "2026-10-31 20:50:00 IST",
+      "startTimeUTC": "2026/10/31 13:00:00 +0000",
+      "endTimeUTC": "2026/10/31 15:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/BDDDAA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5065,
