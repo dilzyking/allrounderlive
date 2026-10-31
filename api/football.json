@@ -374,40 +374,6 @@
     ]
   },
   {
-    "id": 5113,
-    "title": "Liga Portugal Betclic",
-    "slug": "porto-vs-estoril",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Liga Portugal Betclic",
-      "category": "Football",
-      "teamA": "Porto",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/3002/image",
-      "teamB": "Estoril",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4500/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/238/image/dark",
-      "startTimeIST": "2026-11-01 02:00:00 IST",
-      "endTimeIST": "2026-11-01 04:20:00 IST",
-      "startTimeUTC": "2026/10/31 20:30:00 +0000",
-      "endTimeUTC": "2026/10/31 22:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "D SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd",
-        "key": "f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1793482026-0-0-905c3dc6de13c79e648a75eccfa0301a",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5118,
     "title": "Liga MX, Apertura",
     "slug": "pachuca-vs-tigres",
@@ -532,6 +498,40 @@
       "endTimeUTC": "2026/11/01 10:20:00 +0000"
     },
     "dashStreams": []
+  },
+  {
+    "id": 5113,
+    "title": "Liga Portugal Betclic",
+    "slug": "porto-vs-estoril",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Liga Portugal Betclic",
+      "category": "Football",
+      "teamA": "Porto",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/3002/image",
+      "teamB": "Estoril",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4500/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/238/image/dark",
+      "startTimeIST": "2026-11-01 02:00:00 IST",
+      "endTimeIST": "2026-11-01 04:20:00 IST",
+      "startTimeUTC": "2026/10/31 20:30:00 +0000",
+      "endTimeUTC": "2026/10/31 22:50:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "D SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd",
+        "key": "f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1793482026-0-0-905c3dc6de13c79e648a75eccfa0301a",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5107,
