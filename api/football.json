@@ -374,58 +374,6 @@
     ]
   },
   {
-    "id": 4454,
-    "title": "Indian Super League",
-    "slug": "isl-vs-isl",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Indian Super League",
-      "category": "Football",
-      "teamA": "ISL",
-      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/1900/image",
-      "teamB": "ISL",
-      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/1900/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1900/image",
-      "startTimeIST": "2026-10-31 17:00:00 IST",
-      "endTimeIST": "2026-10-31 22:00:00 IST",
-      "startTimeUTC": "2026/10/31 11:30:00 +0000",
-      "endTimeUTC": "2026/10/31 16:30:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PRIME VIDEO FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/kaugpconjv/out/v1/dc6b6d0f4bf74cba84807c9de45683b6/cenc.mpd",
-        "key": "55bde6fbce567a3dccf69968f4b804f5:ced22b5107a842875a295c1261130063"
-      },
-      {
-        "title": "SonyLiv (ENG)",
-        "type": "hls",
-        "url": "https://sonymtmnew.akamaized.net/hls/live/2120307/footlive3110/ENG/std_lrh-800300010.m3u8?hdnea=exp=1793465781~acl=/*~id=04748013220376876316667711953229~hmac=083e63e5054bd788fcfd8ab2febb68a26d214682d2671b977e30c3a641c2e27a",
-        "key": null
-      },
-      {
-        "title": "SonyLiv (HIN)",
-        "type": "hls",
-        "url": "https://sonymtmnew.akamaized.net/hls/live/2120300/footlive3110/HIN/std_lrh-800300010.m3u8?hdnea=exp=1793465781~acl=/*~id=04748013220376876316667711953229~hmac=083e63e5054bd788fcfd8ab2febb68a26d214682d2671b977e30c3a641c2e27a",
-        "key": null
-      },
-      {
-        "title": "SonyLiv (TAM)",
-        "type": "hls",
-        "url": "https://sonymtmnew.akamaized.net/hls/live/2120304/footlive3110/TAM/std_lrh-800300010.m3u8?hdnea=exp=1793465781~acl=/*~id=04748013220376876316667711953229~hmac=083e63e5054bd788fcfd8ab2febb68a26d214682d2671b977e30c3a641c2e27a",
-        "key": null
-      },
-      {
-        "title": "SonyLiv (MAL)",
-        "type": "hls",
-        "url": "https://sonymtmnew.akamaized.net/hls/live/2120306/footlive3110/MAL/std_lrh-800300010.m3u8?hdnea=exp=1793465781~acl=/*~id=04748013220376876316667711953229~hmac=083e63e5054bd788fcfd8ab2febb68a26d214682d2671b977e30c3a641c2e27a",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5058,
     "title": "2. Bundesliga",
     "slug": "wolfsburg-vs-osnabruck",
@@ -918,11 +866,57 @@
     ]
   },
   {
+    "id": 4454,
+    "title": "Indian Super League",
+    "slug": "isl-vs-isl",
+    "cat": "Live Events",
+    "status": "live",
+    "event": {
+      "name": "Indian Super League",
+      "category": "Football",
+      "teamA": "ISL",
+      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/1900/image",
+      "teamB": "ISL",
+      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/1900/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1900/image",
+      "startTimeIST": "2026-10-31 19:30:00 IST",
+      "endTimeIST": "2026-10-31 22:00:00 IST",
+      "startTimeUTC": "2026/10/31 14:00:00 +0000",
+      "endTimeUTC": "2026/10/31 16:30:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "PRIME VIDEO FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/otmqjqoff0/out/v1/11d1a5224b8f4d888379715e7d6220f2/cenc.mpd",
+        "key": "2028c0ed011bf30e99416243b010015d:f8b3fc9cb034c0b72661e84d025ae01a"
+      },
+      {
+        "title": "SonyLiv (ENG)",
+        "type": "hls",
+        "url": "https://sonymtmnew.akamaized.net/hls/live/2120302/footlive3110/ENG/std_lrh-800300010.m3u8?hdnea=exp=1793495418~acl=/*~id=af30a945ade97ece2ce911b0fc8cd61d-1793452202999~hmac=f6fbe4afa547ad2e27301ad8b4366955fce214445293aca61a509cc22aacbb8c",
+        "key": null
+      },
+      {
+        "title": "SonyLiv (HIN)",
+        "type": "hls",
+        "url": "https://sonymtmnew.akamaized.net/hls/live/2120305/footlive3110/HIN/std_lrh-800300010.m3u8?hdnea=exp=1793495418~acl=/*~id=af30a945ade97ece2ce911b0fc8cd61d-1793452202999~hmac=f6fbe4afa547ad2e27301ad8b4366955fce214445293aca61a509cc22aacbb8c",
+        "key": null
+      },
+      {
+        "title": "SonyLiv (BEN)",
+        "type": "hls",
+        "url": "https://sonymtmnew.akamaized.net/hls/live/2120308/footlive3110/BEN/std_lrh-800300010.m3u8?hdnea=exp=1793495418~acl=/*~id=af30a945ade97ece2ce911b0fc8cd61d-1793452202999~hmac=f6fbe4afa547ad2e27301ad8b4366955fce214445293aca61a509cc22aacbb8c",
+        "key": null
+      }
+    ]
+  },
+  {
     "id": 5068,
     "title": "Serie A",
     "slug": "bologna-vs-monza",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Serie A",
       "category": "Football",
