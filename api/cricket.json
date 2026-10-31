@@ -1,45 +1,5 @@
 [
   {
-    "id": 4896,
-    "title": "Nepal Premier League",
-    "slug": "npl-vs-npl",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Nepal Premier League",
-      "category": "Cricket",
-      "teamA": "NPL",
-      "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAV3dcOxi7602i_xcqoTE6eoiGVCPJFo6uZwtDkDK-g&s=10",
-      "teamB": "NPL",
-      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAV3dcOxi7602i_xcqoTE6eoiGVCPJFo6uZwtDkDK-g&s=10",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAV3dcOxi7602i_xcqoTE6eoiGVCPJFo6uZwtDkDK-g&s=10",
-      "startTimeIST": "2026-10-31 16:45:00 IST",
-      "endTimeIST": "2026-10-31 23:30:00 IST",
-      "startTimeUTC": "2026/10/31 11:15:00 +0000",
-      "endTimeUTC": "2026/10/31 18:00:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://c8.vfruitfairy.com/NPLT20/index.m3u8",
-        "key": null
-      },
-      {
-        "title": "NPL LIVE HD",
-        "type": "hls",
-        "url": "https://ottnlive-fstream.nettvstreamz.com/live_hls/npl_match_3/index.m3u8",
-        "key": null
-      },
-      {
-        "title": "STAR SPORTS HD",
-        "type": "hls",
-        "url": "https://baila-lentoo.pages.dev/all-sp/373201.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 3934,
     "title": "ICC World Test Championship",
     "slug": "sa-vs-aus",
@@ -477,6 +437,46 @@
         "title": "FANCODE (IND)",
         "type": "hls",
         "url": "https://dai-fancode.pages.dev/mumbai/4250526_english_hls_d3c070eb3076082_1ta-di_h264/index.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 4896,
+    "title": "Nepal Premier League",
+    "slug": "npl-vs-npl",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Nepal Premier League",
+      "category": "Cricket",
+      "teamA": "NPL",
+      "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAV3dcOxi7602i_xcqoTE6eoiGVCPJFo6uZwtDkDK-g&s=10",
+      "teamB": "NPL",
+      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAV3dcOxi7602i_xcqoTE6eoiGVCPJFo6uZwtDkDK-g&s=10",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAV3dcOxi7602i_xcqoTE6eoiGVCPJFo6uZwtDkDK-g&s=10",
+      "startTimeIST": "2026-10-31 16:45:00 IST",
+      "endTimeIST": "2026-10-31 23:30:00 IST",
+      "startTimeUTC": "2026/10/31 11:15:00 +0000",
+      "endTimeUTC": "2026/10/31 18:00:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://c8.vfruitfairy.com/NPLT20/index.m3u8",
+        "key": null
+      },
+      {
+        "title": "NPL LIVE HD",
+        "type": "hls",
+        "url": "https://ottnlive-fstream.nettvstreamz.com/live_hls/npl_match_3/index.m3u8",
+        "key": null
+      },
+      {
+        "title": "STAR SPORTS HD",
+        "type": "hls",
+        "url": "https://baila-lentoo.pages.dev/all-sp/373201.m3u8",
         "key": null
       }
     ]
