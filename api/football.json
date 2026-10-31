@@ -1388,7 +1388,20 @@
       "startTimeUTC": "2026/10/31 15:30:00 +0000",
       "endTimeUTC": "2026/10/31 17:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "SportDigital Fussball",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?",
+        "key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
+      },
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4552237.m3u8?txSecret=2dae1237a3a9f5280057cd922d6aec13&txTime=6AE61B8C",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5096,
