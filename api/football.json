@@ -716,6 +716,12 @@
         "key": null
       },
       {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=b93d41b18d329082f081d7ea42dca131&txTime=6ae67cce",
+        "key": null
+      },
+      {
         "title": "LOW QUALITY",
         "type": "hls",
         "url": "http://193.47.62.59/hls/JOOOA.m3u8",
@@ -776,7 +782,14 @@
       "startTimeUTC": "2026/10/31 19:00:00 +0000",
       "endTimeUTC": "2026/10/31 21:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PREMIERE BR FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
+        "key": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
+      }
+    ]
   },
   {
     "id": 5109,
