@@ -374,6 +374,166 @@
     ]
   },
   {
+    "id": 5113,
+    "title": "Liga Portugal Betclic",
+    "slug": "porto-vs-estoril",
+    "cat": "Live Events",
+    "status": "live",
+    "event": {
+      "name": "Liga Portugal Betclic",
+      "category": "Football",
+      "teamA": "Porto",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/3002/image",
+      "teamB": "Estoril",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4500/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/238/image/dark",
+      "startTimeIST": "2026-11-01 02:00:00 IST",
+      "endTimeIST": "2026-11-01 04:20:00 IST",
+      "startTimeUTC": "2026/10/31 20:30:00 +0000",
+      "endTimeUTC": "2026/10/31 22:50:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "D SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd",
+        "key": "f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1793482026-0-0-905c3dc6de13c79e648a75eccfa0301a",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5118,
+    "title": "Liga MX, Apertura",
+    "slug": "pachuca-vs-tigres",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Liga MX, Apertura",
+      "category": "Football",
+      "teamA": "Pachuca",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1936/image",
+      "teamB": "Tigres",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1940/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11621/image/dark",
+      "startTimeIST": "2026-11-01 04:30:00 IST",
+      "endTimeIST": "2026-11-01 06:50:00 IST",
+      "startTimeUTC": "2026/10/31 23:00:00 +0000",
+      "endTimeUTC": "2026/11/01 01:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5120,
+    "title": "Liga MX, Apertura",
+    "slug": "monterrey-vs-tijuana",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Liga MX, Apertura",
+      "category": "Football",
+      "teamA": "Monterrey",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1932/image",
+      "teamB": "Tijuana",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/36525/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11621/image/dark",
+      "startTimeIST": "2026-11-01 06:35:00 IST",
+      "endTimeIST": "2026-11-01 08:55:00 IST",
+      "startTimeUTC": "2026/11/01 01:05:00 +0000",
+      "endTimeUTC": "2026/11/01 03:25:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5119,
+    "title": "Liga MX, Apertura",
+    "slug": "guadalajara-vs-atlante",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Liga MX, Apertura",
+      "category": "Football",
+      "teamA": "Guadalajara",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1938/image",
+      "teamB": "Atlante",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1943/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11621/image/dark",
+      "startTimeIST": "2026-11-01 06:37:00 IST",
+      "endTimeIST": "2026-11-01 08:57:00 IST",
+      "startTimeUTC": "2026/11/01 01:07:00 +0000",
+      "endTimeUTC": "2026/11/01 03:27:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5114,
+    "title": "Liga MX, Apertura",
+    "slug": "america-vs-toluca",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Liga MX, Apertura",
+      "category": "Football",
+      "teamA": "América",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1939/image",
+      "teamB": "Toluca",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1931/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11621/image/dark",
+      "startTimeIST": "2026-11-01 08:40:00 IST",
+      "endTimeIST": "2026-11-01 11:00:00 IST",
+      "startTimeUTC": "2026/11/01 03:10:00 +0000",
+      "endTimeUTC": "2026/11/01 05:30:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5116,
+    "title": "A-League Men",
+    "slug": "melbourne-victory-vs-central-coast",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "A-League Men",
+      "category": "Football",
+      "teamA": "Melbourne Victory",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/5970/image",
+      "teamB": "Central Coast",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/5966/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/136/image/dark",
+      "startTimeIST": "2026-11-01 09:30:00 IST",
+      "endTimeIST": "2026-11-01 11:50:00 IST",
+      "startTimeUTC": "2026/11/01 04:00:00 +0000",
+      "endTimeUTC": "2026/11/01 06:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5115,
+    "title": "A-League Men",
+    "slug": "perth-glory-vs-adelaide-united",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "A-League Men",
+      "category": "Football",
+      "teamA": "Perth Glory",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2945/image",
+      "teamB": "Adelaide United",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2946/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/136/image/dark",
+      "startTimeIST": "2026-11-01 13:30:00 IST",
+      "endTimeIST": "2026-11-01 15:50:00 IST",
+      "startTimeUTC": "2026/11/01 08:00:00 +0000",
+      "endTimeUTC": "2026/11/01 10:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
     "id": 5107,
     "title": "Premier League",
     "slug": "aston-villa-vs-fulham",
@@ -602,166 +762,6 @@
         "key": null
       }
     ]
-  },
-  {
-    "id": 5113,
-    "title": "Liga Portugal Betclic",
-    "slug": "porto-vs-estoril",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Liga Portugal Betclic",
-      "category": "Football",
-      "teamA": "Porto",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/3002/image",
-      "teamB": "Estoril",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4500/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/238/image/dark",
-      "startTimeIST": "2026-11-01 02:00:00 IST",
-      "endTimeIST": "2026-11-01 04:20:00 IST",
-      "startTimeUTC": "2026/10/31 20:30:00 +0000",
-      "endTimeUTC": "2026/10/31 22:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "D SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd",
-        "key": "f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1793482026-0-0-905c3dc6de13c79e648a75eccfa0301a",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5118,
-    "title": "Liga MX, Apertura",
-    "slug": "pachuca-vs-tigres",
-    "cat": "Live Events",
-    "status": "upcoming",
-    "event": {
-      "name": "Liga MX, Apertura",
-      "category": "Football",
-      "teamA": "Pachuca",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1936/image",
-      "teamB": "Tigres",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1940/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11621/image/dark",
-      "startTimeIST": "2026-11-01 04:30:00 IST",
-      "endTimeIST": "2026-11-01 06:50:00 IST",
-      "startTimeUTC": "2026/10/31 23:00:00 +0000",
-      "endTimeUTC": "2026/11/01 01:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5120,
-    "title": "Liga MX, Apertura",
-    "slug": "monterrey-vs-tijuana",
-    "cat": "Live Events",
-    "status": "upcoming",
-    "event": {
-      "name": "Liga MX, Apertura",
-      "category": "Football",
-      "teamA": "Monterrey",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1932/image",
-      "teamB": "Tijuana",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/36525/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11621/image/dark",
-      "startTimeIST": "2026-11-01 06:35:00 IST",
-      "endTimeIST": "2026-11-01 08:55:00 IST",
-      "startTimeUTC": "2026/11/01 01:05:00 +0000",
-      "endTimeUTC": "2026/11/01 03:25:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5119,
-    "title": "Liga MX, Apertura",
-    "slug": "guadalajara-vs-atlante",
-    "cat": "Live Events",
-    "status": "upcoming",
-    "event": {
-      "name": "Liga MX, Apertura",
-      "category": "Football",
-      "teamA": "Guadalajara",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1938/image",
-      "teamB": "Atlante",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1943/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11621/image/dark",
-      "startTimeIST": "2026-11-01 06:37:00 IST",
-      "endTimeIST": "2026-11-01 08:57:00 IST",
-      "startTimeUTC": "2026/11/01 01:07:00 +0000",
-      "endTimeUTC": "2026/11/01 03:27:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5114,
-    "title": "Liga MX, Apertura",
-    "slug": "america-vs-toluca",
-    "cat": "Live Events",
-    "status": "upcoming",
-    "event": {
-      "name": "Liga MX, Apertura",
-      "category": "Football",
-      "teamA": "América",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1939/image",
-      "teamB": "Toluca",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1931/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11621/image/dark",
-      "startTimeIST": "2026-11-01 08:40:00 IST",
-      "endTimeIST": "2026-11-01 11:00:00 IST",
-      "startTimeUTC": "2026/11/01 03:10:00 +0000",
-      "endTimeUTC": "2026/11/01 05:30:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5116,
-    "title": "A-League Men",
-    "slug": "melbourne-victory-vs-central-coast",
-    "cat": "Live Events",
-    "status": "upcoming",
-    "event": {
-      "name": "A-League Men",
-      "category": "Football",
-      "teamA": "Melbourne Victory",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/5970/image",
-      "teamB": "Central Coast",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/5966/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/136/image/dark",
-      "startTimeIST": "2026-11-01 09:30:00 IST",
-      "endTimeIST": "2026-11-01 11:50:00 IST",
-      "startTimeUTC": "2026/11/01 04:00:00 +0000",
-      "endTimeUTC": "2026/11/01 06:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5115,
-    "title": "A-League Men",
-    "slug": "perth-glory-vs-adelaide-united",
-    "cat": "Live Events",
-    "status": "upcoming",
-    "event": {
-      "name": "A-League Men",
-      "category": "Football",
-      "teamA": "Perth Glory",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2945/image",
-      "teamB": "Adelaide United",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2946/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/136/image/dark",
-      "startTimeIST": "2026-11-01 13:30:00 IST",
-      "endTimeIST": "2026-11-01 15:50:00 IST",
-      "startTimeUTC": "2026/11/01 08:00:00 +0000",
-      "endTimeUTC": "2026/11/01 10:20:00 +0000"
-    },
-    "dashStreams": []
   },
   {
     "id": 5106,
@@ -3035,46 +3035,6 @@
         "title": "LOW QUALITY",
         "type": "hls",
         "url": "http://193.47.62.41/hls/3333AAAAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5035,
-    "title": "Ligue 1",
-    "slug": "lille-vs-lens",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Ligue 1",
-      "category": "Football",
-      "teamA": "Lille",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1643/image",
-      "teamB": "Lens",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1648/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
-      "startTimeIST": "2026-10-31 01:35:00 IST",
-      "endTimeIST": "2026-10-31 03:55:00 IST",
-      "startTimeUTC": "2026/10/30 20:05:00 +0000",
-      "endTimeUTC": "2026/10/30 22:25:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "beIN SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/xuvcbrlxmb/out/v1/27aac1f9df984d65a9d4b95d234f4468/cenc.mpd?aws_sessionId=9cc7d647-12ea-46fa-8e5f-e801e6c74cc8",
-        "key": "74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c"
-      },
-      {
-        "title": "CazéTV FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
-        "key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.41/hls/3333AAAA.m3u8",
         "key": null
       }
     ]
