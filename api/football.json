@@ -378,7 +378,7 @@
     "title": "2. Bundesliga",
     "slug": "karlsruhe-vs-heidenheim",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "2. Bundesliga",
       "category": "Football",
@@ -3173,46 +3173,6 @@
         "title": "LOW QUALITY",
         "type": "hls",
         "url": "http://193.47.62.41/hls/3333AA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5032,
-    "title": "Bundesliga",
-    "slug": "elversberg-vs-mainz-05",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Bundesliga",
-      "category": "Football",
-      "teamA": "Elversberg",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2598/image",
-      "teamB": "Mainz 05",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2556/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/35/image/dark",
-      "startTimeIST": "2026-10-31 01:00:00 IST",
-      "endTimeIST": "2026-10-31 03:20:00 IST",
-      "startTimeUTC": "2026/10/30 19:30:00 +0000",
-      "endTimeUTC": "2026/10/30 21:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "DAZN SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ecgq16funr/out/v1/f0bd8b7c40b54444a6ad52cd9e60cb4f/cenc.mpd",
-        "key": "92ced59d6ad14c38b3d9210b364f8200:d8e60166931203524b0179c6956e0904"
-      },
-      {
-        "title": "HD QUALITY",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel15.m3u8?",
-        "key": null
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.50/hls/CIII.m3u8",
         "key": null
       }
     ]
