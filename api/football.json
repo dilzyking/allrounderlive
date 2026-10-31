@@ -378,7 +378,7 @@
     "title": "Premier League",
     "slug": "aston-villa-vs-fulham",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Premier League",
       "category": "Football",
@@ -436,7 +436,7 @@
     "title": "LaLiga",
     "slug": "barcelona-vs-alaves",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "LaLiga",
       "category": "Football",
@@ -500,7 +500,7 @@
     "title": "LaLiga 2",
     "slug": "albacete-vs-sabadell",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "LaLiga 2",
       "category": "Football",
@@ -534,7 +534,7 @@
     "title": "VriendenLoterij Eredivisie",
     "slug": "cambuur-vs-ga-eagles",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "VriendenLoterij Eredivisie",
       "category": "Football",
@@ -568,7 +568,7 @@
     "title": "VriendenLoterij Eredivisie",
     "slug": "ajax-vs-az",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "VriendenLoterij Eredivisie",
       "category": "Football",
@@ -3075,104 +3075,6 @@
         "title": "LOW QUALITY",
         "type": "hls",
         "url": "http://193.47.62.41/hls/3333AAAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5033,
-    "title": "LaLiga",
-    "slug": "villarreal-vs-espanyol",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "LaLiga",
-      "category": "Football",
-      "teamA": "Villarreal",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2819/image",
-      "teamB": "Espanyol",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2814/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
-      "startTimeIST": "2026-10-31 01:30:00 IST",
-      "endTimeIST": "2026-10-31 03:50:00 IST",
-      "startTimeUTC": "2026/10/30 20:00:00 +0000",
-      "endTimeUTC": "2026/10/30 22:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "beIN ENGLISH FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
-        "key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
-      },
-      {
-        "title": "D SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd",
-        "key": "f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
-      },
-      {
-        "title": "FANCODE FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.41/hls/3333AAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5034,
-    "title": "Championship",
-    "slug": "sheffield-utd-vs-wrexham",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "Sheffield Utd",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/15/image",
-      "teamB": "Wrexham",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/64/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-10-31 01:30:00 IST",
-      "endTimeIST": "2026-10-31 03:50:00 IST",
-      "startTimeUTC": "2026/10/30 20:00:00 +0000",
-      "endTimeUTC": "2026/10/30 22:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/ji5ri1ho4f/out/v1/36bd33e1ab234bc38cc9e4d6a9496d4e/cenc.mpd?aws_sessionId=d961c6b5-7439-4b41-ab61-f609f266621f",
-        "key": "8748eeb1b93a33756f2949ef26191ef7:6c376df5be75d3dff7aa61a9e1567bee"
-      },
-      {
-        "title": "DAZN SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ggdp6oa1yx/out/v1/0132f06edcd94e679ac3d5cf83fb5004/cenc.mpd",
-        "key": "facf2c65fd8b81366a1f92b3760d2edd:a841c9efd4df389bd9ff344c43e718eb"
-      },
-      {
-        "title": "beIN ENGLISH FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-        "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-      },
-      {
-        "title": "CBS SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-        "key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.41/hls/3333AA.m3u8",
         "key": null
       }
     ]
