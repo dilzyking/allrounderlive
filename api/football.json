@@ -578,10 +578,40 @@
     },
     "dashStreams": [
       {
+        "title": "PEACOCK ENG FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/nvncqvtse1/out/v1/be9927b90c9b465eaf9df4ec2b7e575f/cenc.mpd",
+        "key": "a6ec23c96f2410bfda33918d6ee2e679:02770937740bd4dcb013edd31ecb3fd8"
+      },
+      {
         "title": "FUBO SPORTS FHD",
         "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd",
-        "key": "42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1"
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/wizqvl82qv/out/v1/734e2579f6ef499a9d667b8911659679/cenc.mpd?aws_sessionId=c0f6f1e4-07a6-4053-9b82-78a9397bad25",
+        "key": "ed8e29b654f9bae33cefa1438e40a155:0e56bbf6d9fce248f55128a648ae8aae"
+      },
+      {
+        "title": "SKY SPORTS FHD",
+        "type": "hls",
+        "url": "https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=8QTMu03fE4HQaxvEpkjmSA&e=2093477106&scheme=https",
+        "key": null
+      },
+      {
+        "title": "PEACOCK TV HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/58974/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4558650.m3u8?txSecret=e6dcf9449bf13678e93ddc0dd38686f0&txTime=6AE65ABB",
+        "key": null
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.50/hls/LLLLAA.m3u8",
+        "key": null
       }
     ]
   },
@@ -782,6 +812,12 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd",
         "key": "f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1793482026-0-0-905c3dc6de13c79e648a75eccfa0301a",
+        "key": null
       }
     ]
   },
