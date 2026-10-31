@@ -20,6 +20,12 @@
     },
     "dashStreams": [
       {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://c8.vfruitfairy.com/NPLT20/index.m3u8",
+        "key": null
+      },
+      {
         "title": "NPL LIVE HD",
         "type": "hls",
         "url": "https://ottnlive-fstream.nettvstreamz.com/live_hls/npl_match_3/index.m3u8",
@@ -29,12 +35,6 @@
         "title": "STAR SPORTS HD",
         "type": "hls",
         "url": "https://baila-lentoo.pages.dev/all-sp/373201.m3u8",
-        "key": null
-      },
-      {
-        "title": "FANCODE (IND)",
-        "type": "hls",
-        "url": "https://dai-fancode.pages.dev/mumbai/4250361_english_hls_e960221e3d18899_1ta-di_h264/index.m3u8",
         "key": null
       }
     ]
