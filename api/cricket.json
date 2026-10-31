@@ -40,75 +40,11 @@
     ]
   },
   {
-    "id": 4527,
-    "title": "ODI Tri-series in Pakistan",
-    "slug": "pak-vs-sl",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "ODI Tri-series in Pakistan",
-      "category": "Cricket",
-      "teamA": "PAK",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/187754/image",
-      "teamB": "SL",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/187756/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/22868/image/dark",
-      "startTimeIST": "2026-10-31 13:30:00 IST",
-      "endTimeIST": "2026-10-31 23:00:00 IST",
-      "startTimeUTC": "2026/10/31 08:00:00 +0000",
-      "endTimeUTC": "2026/10/31 17:30:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "WILLOW FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n7ex9isjbb/out/v1/81f4a6fe53954a978d1aad56ceefa0bd/cenc.mpd",
-        "key": "a323fd2c6886dfea4831314fd63c4eb7:462c6dd2b56c26e958f5981fea25aef4"
-      },
-      {
-        "title": "SKY CRICKET FHD",
-        "type": "hls",
-        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
-        "key": null
-      },
-      {
-        "title": "TAPMAD FHD",
-        "type": "hls",
-        "url": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad3/master.m3u8",
-        "key": null
-      },
-      {
-        "title": "TAPMAD 2 FHD",
-        "type": "hls",
-        "url": "https://tencent-cdn.tapmad.com/v1/01a14a9fb90c15fc60e91e1786b061/01a14a9feb881ea540a81c2b41b75e/main.m3u8",
-        "key": null
-      },
-      {
-        "title": "WILLOW ALT",
-        "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/n7ex9isjbb/out/v1/81f4a6fe53954a978d1aad56ceefa0bd/cenc.mpd",
-        "key": "a323fd2c6886dfea4831314fd63c4eb7:462c6dd2b56c26e958f5981fea25aef4"
-      },
-      {
-        "title": "PTV SPORTS HD",
-        "type": "hls",
-        "url": "https://live.msnetworks.net/ptv-sports/master.m3u8",
-        "key": null
-      },
-      {
-        "title": "T SPORTS HD",
-        "type": "hls",
-        "url": "http://103.151.60.162:2122/play/a030/index.m3u8?hls",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 3934,
     "title": "ICC World Test Championship",
     "slug": "sa-vs-aus",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "ICC World Test Championship",
       "category": "Cricket",
@@ -541,6 +477,70 @@
         "title": "FANCODE (IND)",
         "type": "hls",
         "url": "https://dai-fancode.pages.dev/mumbai/4250526_english_hls_d3c070eb3076082_1ta-di_h264/index.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 4527,
+    "title": "ODI Tri-series in Pakistan",
+    "slug": "pak-vs-sl",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "ODI Tri-series in Pakistan",
+      "category": "Cricket",
+      "teamA": "PAK",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/187754/image",
+      "teamB": "SL",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/187756/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/22868/image/dark",
+      "startTimeIST": "2026-10-31 13:30:00 IST",
+      "endTimeIST": "2026-10-31 23:00:00 IST",
+      "startTimeUTC": "2026/10/31 08:00:00 +0000",
+      "endTimeUTC": "2026/10/31 17:30:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "WILLOW FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n7ex9isjbb/out/v1/81f4a6fe53954a978d1aad56ceefa0bd/cenc.mpd",
+        "key": "a323fd2c6886dfea4831314fd63c4eb7:462c6dd2b56c26e958f5981fea25aef4"
+      },
+      {
+        "title": "SKY CRICKET FHD",
+        "type": "hls",
+        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
+        "key": null
+      },
+      {
+        "title": "TAPMAD FHD",
+        "type": "hls",
+        "url": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad3/master.m3u8",
+        "key": null
+      },
+      {
+        "title": "TAPMAD 2 FHD",
+        "type": "hls",
+        "url": "https://tencent-cdn.tapmad.com/v1/01a14a9fb90c15fc60e91e1786b061/01a14a9feb881ea540a81c2b41b75e/main.m3u8",
+        "key": null
+      },
+      {
+        "title": "WILLOW ALT",
+        "type": "dash",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/n7ex9isjbb/out/v1/81f4a6fe53954a978d1aad56ceefa0bd/cenc.mpd",
+        "key": "a323fd2c6886dfea4831314fd63c4eb7:462c6dd2b56c26e958f5981fea25aef4"
+      },
+      {
+        "title": "PTV SPORTS HD",
+        "type": "hls",
+        "url": "https://live.msnetworks.net/ptv-sports/master.m3u8",
+        "key": null
+      },
+      {
+        "title": "T SPORTS HD",
+        "type": "hls",
+        "url": "http://103.151.60.162:2122/play/a030/index.m3u8?hls",
         "key": null
       }
     ]
