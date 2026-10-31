@@ -374,34 +374,6 @@
     ]
   },
   {
-    "id": 5096,
-    "title": "Trendyol Süper Lig",
-    "slug": "fenerbahce-vs-goztepe",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Trendyol Süper Lig",
-      "category": "Football",
-      "teamA": "Fenerbahçe",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/3052/image",
-      "teamB": "Göztepe",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/3054/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
-      "startTimeIST": "2026-10-31 21:30:00 IST",
-      "endTimeIST": "2026-10-31 23:50:00 IST",
-      "startTimeUTC": "2026/10/31 16:00:00 +0000",
-      "endTimeUTC": "2026/10/31 18:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "FAST SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/sd-1-4581353.m3u8?txSecret=b10b2009824e88c2c57dba23281d4422&txTime=6AE61BCC",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5097,
     "title": "Serie A",
     "slug": "udinese-vs-roma",
@@ -1170,6 +1142,34 @@
       "endTimeUTC": "2026/11/01 10:20:00 +0000"
     },
     "dashStreams": []
+  },
+  {
+    "id": 5096,
+    "title": "Trendyol Süper Lig",
+    "slug": "fenerbahce-vs-goztepe",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Trendyol Süper Lig",
+      "category": "Football",
+      "teamA": "Fenerbahçe",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/3052/image",
+      "teamB": "Göztepe",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/3054/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
+      "startTimeIST": "2026-10-31 21:30:00 IST",
+      "endTimeIST": "2026-10-31 23:50:00 IST",
+      "startTimeUTC": "2026/10/31 16:00:00 +0000",
+      "endTimeUTC": "2026/10/31 18:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4581353.m3u8?txSecret=b10b2009824e88c2c57dba23281d4422&txTime=6AE61BCC",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5094,
