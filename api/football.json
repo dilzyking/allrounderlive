@@ -420,34 +420,6 @@
     ]
   },
   {
-    "id": 5068,
-    "title": "Serie A",
-    "slug": "bologna-vs-monza",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Serie A",
-      "category": "Football",
-      "teamA": "Bologna",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2685/image",
-      "teamB": "Monza",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2729/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "startTimeIST": "2026-10-31 19:30:00 IST",
-      "endTimeIST": "2026-10-31 21:50:00 IST",
-      "startTimeUTC": "2026/10/31 14:00:00 +0000",
-      "endTimeUTC": "2026/10/31 16:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/kox3zctdlc/out/v1/69e4face0f4147aab7f9e8127b888b30/cenc.mpd?aws_sessionId=f592f3b2-5b4f-4f9f-9667-229f43c333c4",
-        "key": "cc6fc0a19334bcf6f1f13303d6eadf59:b0fe88983e13b84219657709474b64fc"
-      }
-    ]
-  },
-  {
     "id": 5069,
     "title": "Bundesliga",
     "slug": "bremen-vs-hoffenheim",
@@ -1906,6 +1878,34 @@
       "endTimeUTC": "2026/11/01 10:20:00 +0000"
     },
     "dashStreams": []
+  },
+  {
+    "id": 5068,
+    "title": "Serie A",
+    "slug": "bologna-vs-monza",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Serie A",
+      "category": "Football",
+      "teamA": "Bologna",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2685/image",
+      "teamB": "Monza",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2729/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
+      "startTimeIST": "2026-10-31 19:30:00 IST",
+      "endTimeIST": "2026-10-31 21:50:00 IST",
+      "startTimeUTC": "2026/10/31 14:00:00 +0000",
+      "endTimeUTC": "2026/10/31 16:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/kox3zctdlc/out/v1/69e4face0f4147aab7f9e8127b888b30/cenc.mpd?aws_sessionId=f592f3b2-5b4f-4f9f-9667-229f43c333c4",
+        "key": "cc6fc0a19334bcf6f1f13303d6eadf59:b0fe88983e13b84219657709474b64fc"
+      }
+    ]
   },
   {
     "id": 5121,
