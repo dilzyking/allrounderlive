@@ -832,7 +832,26 @@
       "startTimeUTC": "2026/10/31 14:30:00 +0000",
       "endTimeUTC": "2026/10/31 16:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "DAZN SPORTS HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/58914/load-playlist-multi?&.m3u8",
+        "key": null
+      },
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4566372.m3u8?txSecret=7ab408aded4ef4d9ebcc6135fec5c99f&txTime=6AE60E49",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/kkkkAAAAAQQ.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5070,
@@ -853,7 +872,20 @@
       "startTimeUTC": "2026/10/31 14:30:00 +0000",
       "endTimeUTC": "2026/10/31 16:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4566370.m3u8?txSecret=6a2261e635d03ca547abafbc517d917c&txTime=6AE60E64",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/kkkkAAAA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5071,
@@ -882,6 +914,12 @@
         "key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
       },
       {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4566375.m3u8?txSecret=1404bb278a0c6d66e4cedf795d6bd35b&txTime=6AE60E05",
+        "key": null
+      },
+      {
         "title": "SD SERVER",
         "type": "hls",
         "url": "http://193.47.62.44/hls/kkkkAAAAAQ.m3u8",
@@ -908,7 +946,26 @@
       "startTimeUTC": "2026/10/31 14:30:00 +0000",
       "endTimeUTC": "2026/10/31 16:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "DAZN SPORTS HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/58913/load-playlist-multi?&.m3u8",
+        "key": null
+      },
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4566363.m3u8?txSecret=e091b1c3f3b5b4c3d9d21a18f4055e0e&txTime=6AE60E7C",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/kkkkAAA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5073,
@@ -929,7 +986,26 @@
       "startTimeUTC": "2026/10/31 14:30:00 +0000",
       "endTimeUTC": "2026/10/31 16:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "DAZN SPORTS HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/58912/load-playlist-multi?&.m3u8",
+        "key": null
+      },
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4566359.m3u8?txSecret=7ed57524d71c974a0b8ab3a4117bfa3f&txTime=6AE60E36",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/kkkkAAAAA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5077,
