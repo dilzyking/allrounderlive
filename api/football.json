@@ -1380,7 +1380,7 @@
     "title": "Trendyol Süper Lig",
     "slug": "fenerbahce-vs-goztepe",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Trendyol Süper Lig",
       "category": "Football",
@@ -1394,7 +1394,14 @@
       "startTimeUTC": "2026/10/31 16:00:00 +0000",
       "endTimeUTC": "2026/10/31 18:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4581353.m3u8?txSecret=b10b2009824e88c2c57dba23281d4422&txTime=6AE61BCC",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5097,
