@@ -174,6 +174,140 @@
     ]
   },
   {
+    "id": 5023,
+    "title": "Hong Kong Sixes 2026",
+    "slug": "hong-kong-sixes-vs-hong-kong-sixes",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Hong Kong Sixes 2026",
+      "category": "Cricket",
+      "teamA": "Hong Kong Sixes",
+      "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROAZg75-MhSbdgNwcKZHw5iCYHkWvg86Dv_g&s",
+      "teamB": "Hong Kong Sixes",
+      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROAZg75-MhSbdgNwcKZHw5iCYHkWvg86Dv_g&s",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROAZg75-MhSbdgNwcKZHw5iCYHkWvg86Dv_g&s",
+      "startTimeIST": "2026-11-01 07:00:00 IST",
+      "endTimeIST": "2026-11-01 14:30:00 IST",
+      "startTimeUTC": "2026/11/01 01:30:00 +0000",
+      "endTimeUTC": "2026/11/01 09:00:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "WILLOW FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/nu7kjdrsmr/out/v1/2074ea6e3a4241c1b35884570c8ecb2e/cenc.mpd",
+        "key": "a694d0db6c7998b91bf89ed100e682b8:5b13f5556048466f7f19c23d70ae220b"
+      },
+      {
+        "title": "TAPMAD FHD",
+        "type": "hls",
+        "url": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8",
+        "key": null
+      },
+      {
+        "title": "WILLOW ALT",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+        "key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
+      },
+      {
+        "title": "SONY SIX HD",
+        "type": "hls",
+        "url": "https://becarefulfal.bondsplive.online/441092/logosp.webp?&e=.m3u8",
+        "key": null
+      },
+      {
+        "title": "TAPMAD 2 FHD",
+        "type": "hls",
+        "url": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8",
+        "key": null
+      },
+      {
+        "title": "A SPORTS HD",
+        "type": "hls",
+        "url": "https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8?e=1784102512&token=968935df4fd0678de5d7fe392c0610d9&u=ee5437a7-c16b-4700-b317-a41b77d5cba9",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://c8.vfruitfairy.com/HONG6six/index.m3u8",
+        "key": null
+      },
+      {
+        "title": "CRICBUZZ HD",
+        "type": "hls",
+        "url": "https://baila-lentoo.pages.dev/all-sp/809382.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 4963,
+    "title": "Women's Big Bash League",
+    "slug": "wbbl-vs-wbbl",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Women's Big Bash League",
+      "category": "Cricket",
+      "teamA": "WBBL",
+      "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH9OS4ikdL0U1wBewY6aIs6YK6KHWTHm7aa9O7wGaw4w&s=10",
+      "teamB": "WBBL",
+      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH9OS4ikdL0U1wBewY6aIs6YK6KHWTHm7aa9O7wGaw4w&s=10",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH9OS4ikdL0U1wBewY6aIs6YK6KHWTHm7aa9O7wGaw4w&s=10",
+      "startTimeIST": "2026-11-01 10:00:00 IST",
+      "endTimeIST": "2026-11-01 18:10:00 IST",
+      "startTimeUTC": "2026/11/01 04:30:00 +0000",
+      "endTimeUTC": "2026/11/01 12:40:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "WILLOW FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/cie3oxklbt/out/v1/7e4172da4a0f4c4d9247c78ab34fc5bc/cenc.mpd",
+        "key": "82b8543f9ed421538363bacc50c6cc93:a1c7f34031ab2f04a33af7f2df053146"
+      },
+      {
+        "title": "WILLOW ALT",
+        "type": "dash",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/cie3oxklbt/out/v1/7e4172da4a0f4c4d9247c78ab34fc5bc/cenc.mpd",
+        "key": "82b8543f9ed421538363bacc50c6cc93:a1c7f34031ab2f04a33af7f2df053146"
+      },
+      {
+        "title": "EUROSPORTS FHD",
+        "type": "dash",
+        "url": "https://wbd.skandha.tv/EuroSport_HD/EuroSport_HD.isml/.mpd",
+        "key": "12ed56d780abcfebcd23aa27e4ac5015:6784567890abcfebcd23aa27e4ac2814"
+      },
+      {
+        "title": "SKY CRICKET FHD",
+        "type": "hls",
+        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
+        "key": null
+      },
+      {
+        "title": "FANCODE (IND)",
+        "type": "hls",
+        "url": "https://dai-fancode.pages.dev/mumbai/4250391_english_hls_9173e82c8482158_1ta-di_h264/index.m3u8",
+        "key": null
+      },
+      {
+        "title": "FOX CRICKET HD",
+        "type": "hls",
+        "url": "https://baila-lentoo.pages.dev/all-sp/809389.m3u8",
+        "key": null
+      },
+      {
+        "title": "CRICBUZZ HD",
+        "type": "hls",
+        "url": "https://baila-lentoo.pages.dev/all-sp/809382.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
     "id": 4726,
     "title": "T20 International",
     "slug": "nz-vs-ind",
@@ -407,140 +541,6 @@
         "title": "FANCODE (IND)",
         "type": "hls",
         "url": "https://dai-fancode.pages.dev/mumbai/4250526_english_hls_d3c070eb3076082_1ta-di_h264/index.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 4963,
-    "title": "Women's Big Bash League",
-    "slug": "wbbl-vs-wbbl",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Women's Big Bash League",
-      "category": "Cricket",
-      "teamA": "WBBL",
-      "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH9OS4ikdL0U1wBewY6aIs6YK6KHWTHm7aa9O7wGaw4w&s=10",
-      "teamB": "WBBL",
-      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH9OS4ikdL0U1wBewY6aIs6YK6KHWTHm7aa9O7wGaw4w&s=10",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH9OS4ikdL0U1wBewY6aIs6YK6KHWTHm7aa9O7wGaw4w&s=10",
-      "startTimeIST": "2026-10-31 10:00:00 IST",
-      "endTimeIST": "2026-10-31 18:10:00 IST",
-      "startTimeUTC": "2026/10/31 04:30:00 +0000",
-      "endTimeUTC": "2026/10/31 12:40:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "WILLOW FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/cie3oxklbt/out/v1/7e4172da4a0f4c4d9247c78ab34fc5bc/cenc.mpd",
-        "key": "82b8543f9ed421538363bacc50c6cc93:a1c7f34031ab2f04a33af7f2df053146"
-      },
-      {
-        "title": "WILLOW ALT",
-        "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/cie3oxklbt/out/v1/7e4172da4a0f4c4d9247c78ab34fc5bc/cenc.mpd",
-        "key": "82b8543f9ed421538363bacc50c6cc93:a1c7f34031ab2f04a33af7f2df053146"
-      },
-      {
-        "title": "EUROSPORTS FHD",
-        "type": "dash",
-        "url": "https://wbd.skandha.tv/EuroSport_HD/EuroSport_HD.isml/.mpd",
-        "key": "12ed56d780abcfebcd23aa27e4ac5015:6784567890abcfebcd23aa27e4ac2814"
-      },
-      {
-        "title": "SKY CRICKET FHD",
-        "type": "hls",
-        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
-        "key": null
-      },
-      {
-        "title": "FANCODE (IND)",
-        "type": "hls",
-        "url": "https://dai-fancode.pages.dev/mumbai/4250391_english_hls_9173e82c8482158_1ta-di_h264/index.m3u8",
-        "key": null
-      },
-      {
-        "title": "FOX CRICKET HD",
-        "type": "hls",
-        "url": "https://baila-lentoo.pages.dev/all-sp/809389.m3u8",
-        "key": null
-      },
-      {
-        "title": "CRICBUZZ HD",
-        "type": "hls",
-        "url": "https://baila-lentoo.pages.dev/all-sp/809382.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5023,
-    "title": "Hong Kong Sixes 2026",
-    "slug": "hong-kong-sixes-vs-hong-kong-sixes",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Hong Kong Sixes 2026",
-      "category": "Cricket",
-      "teamA": "Hong Kong Sixes",
-      "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROAZg75-MhSbdgNwcKZHw5iCYHkWvg86Dv_g&s",
-      "teamB": "Hong Kong Sixes",
-      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROAZg75-MhSbdgNwcKZHw5iCYHkWvg86Dv_g&s",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROAZg75-MhSbdgNwcKZHw5iCYHkWvg86Dv_g&s",
-      "startTimeIST": "2026-10-31 06:10:00 IST",
-      "endTimeIST": "2026-10-31 15:15:00 IST",
-      "startTimeUTC": "2026/10/31 00:40:00 +0000",
-      "endTimeUTC": "2026/10/31 09:45:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "WILLOW FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/nu7kjdrsmr/out/v1/2074ea6e3a4241c1b35884570c8ecb2e/cenc.mpd",
-        "key": "a694d0db6c7998b91bf89ed100e682b8:5b13f5556048466f7f19c23d70ae220b"
-      },
-      {
-        "title": "TAPMAD FHD",
-        "type": "hls",
-        "url": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8",
-        "key": null
-      },
-      {
-        "title": "WILLOW ALT",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
-        "key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
-      },
-      {
-        "title": "SONY SIX HD",
-        "type": "hls",
-        "url": "https://becarefulfal.bondsplive.online/441092/logosp.webp?&e=.m3u8",
-        "key": null
-      },
-      {
-        "title": "TAPMAD 2 FHD",
-        "type": "hls",
-        "url": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8",
-        "key": null
-      },
-      {
-        "title": "A SPORTS HD",
-        "type": "hls",
-        "url": "https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8?e=1784102512&token=968935df4fd0678de5d7fe392c0610d9&u=ee5437a7-c16b-4700-b317-a41b77d5cba9",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://c8.vfruitfairy.com/HONG6six/index.m3u8",
-        "key": null
-      },
-      {
-        "title": "CRICBUZZ HD",
-        "type": "hls",
-        "url": "https://baila-lentoo.pages.dev/all-sp/809382.m3u8",
         "key": null
       }
     ]
