@@ -374,74 +374,6 @@
     ]
   },
   {
-    "id": 5092,
-    "title": "LaLiga",
-    "slug": "rayo-vallecano-vs-celta",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "LaLiga",
-      "category": "Football",
-      "teamA": "Rayo Vallecano",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2818/image",
-      "teamB": "Celta",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2821/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
-      "startTimeIST": "2026-10-31 20:45:00 IST",
-      "endTimeIST": "2026-10-31 23:05:00 IST",
-      "startTimeUTC": "2026/10/31 15:15:00 +0000",
-      "endTimeUTC": "2026/10/31 17:35:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "FANCODE FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
-      },
-      {
-        "title": "CAZE TV FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
-        "key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
-      },
-      {
-        "title": "FAST SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4565504.m3u8?txSecret=c62479542d0872c2aa2b35a22911485e&txTime=6AE61A7D",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5093,
-    "title": "LaLiga 2",
-    "slug": "eibar-vs-almeria",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "LaLiga 2",
-      "category": "Football",
-      "teamA": "Eibar",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2839/image",
-      "teamB": "Almería",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2858/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "startTimeIST": "2026-10-31 20:45:00 IST",
-      "endTimeIST": "2026-10-31 23:05:00 IST",
-      "startTimeUTC": "2026/10/31 15:15:00 +0000",
-      "endTimeUTC": "2026/10/31 17:35:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "FAST SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/sd-1-4567339.m3u8?txSecret=b1b9bc095439714f2f1dfbb250407c47&txTime=6AE61AB3",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5094,
     "title": "Liga Portugal Betclic",
     "slug": "moreirense-vs-estrela-amadora",
@@ -1161,6 +1093,74 @@
       "endTimeUTC": "2026/11/01 10:20:00 +0000"
     },
     "dashStreams": []
+  },
+  {
+    "id": 5092,
+    "title": "LaLiga",
+    "slug": "rayo-vallecano-vs-celta",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "LaLiga",
+      "category": "Football",
+      "teamA": "Rayo Vallecano",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2818/image",
+      "teamB": "Celta",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2821/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+      "startTimeIST": "2026-10-31 20:45:00 IST",
+      "endTimeIST": "2026-10-31 23:05:00 IST",
+      "startTimeUTC": "2026/10/31 15:15:00 +0000",
+      "endTimeUTC": "2026/10/31 17:35:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "FANCODE FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+      },
+      {
+        "title": "CAZE TV FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
+        "key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
+      },
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4565504.m3u8?txSecret=c62479542d0872c2aa2b35a22911485e&txTime=6AE61A7D",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5093,
+    "title": "LaLiga 2",
+    "slug": "eibar-vs-almeria",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "LaLiga 2",
+      "category": "Football",
+      "teamA": "Eibar",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2839/image",
+      "teamB": "Almería",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2858/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
+      "startTimeIST": "2026-10-31 20:45:00 IST",
+      "endTimeIST": "2026-10-31 23:05:00 IST",
+      "startTimeUTC": "2026/10/31 15:15:00 +0000",
+      "endTimeUTC": "2026/10/31 17:35:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4567339.m3u8?txSecret=b1b9bc095439714f2f1dfbb250407c47&txTime=6AE61AB3",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5074,
