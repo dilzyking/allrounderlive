@@ -374,565 +374,6 @@
     ]
   },
   {
-    "id": 5074,
-    "title": "Premier League",
-    "slug": "bournemouth-vs-leeds",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Premier League",
-      "category": "Football",
-      "teamA": "Bournemouth",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/60/image",
-      "teamB": "Leeds",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/34/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
-      "startTimeIST": "2026-10-31 20:30:00 IST",
-      "endTimeIST": "2026-10-31 22:50:00 IST",
-      "startTimeUTC": "2026/10/31 15:00:00 +0000",
-      "endTimeUTC": "2026/10/31 17:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "FUBO SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/y41kzj5gl4/out/v1/4379e830995b4993a974c6cd682b8b54/cenc.mpd?aws_sessionId=2fd09059-3fbc-4560-b788-31929abc1233",
-        "key": "d769cd4a29d99846454b4c6522a48737:f28baac0518d2a2ad820f806a271bec7"
-      },
-      {
-        "title": "PEACOCK TV HD",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/58915/load-playlist-multi?&.m3u8",
-        "key": null
-      },
-      {
-        "title": "FAST SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4558652.m3u8?txSecret=8822e82ae63e539c587b0576961ad9a0&txTime=6AE614DB",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.50/hls/A888.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5075,
-    "title": "Premier League",
-    "slug": "coventry-vs-sunderland",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Premier League",
-      "category": "Football",
-      "teamA": "Coventry",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/11/image",
-      "teamB": "Sunderland",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/41/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
-      "startTimeIST": "2026-10-31 20:30:00 IST",
-      "endTimeIST": "2026-10-31 22:50:00 IST",
-      "startTimeUTC": "2026/10/31 15:00:00 +0000",
-      "endTimeUTC": "2026/10/31 17:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "FUBO SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/8d0nsihnec/out/v1/4da9b7d2b1414cb28afd976da2c3b840/cenc.mpd?aws_sessionId=5e296bb2-8ebb-40c6-8801-8dd7200a925c",
-        "key": "8c9e016364d1ec0c25dde02ab73a7dc0:94e71c7a2acb9fa7e73389de306c1f16"
-      },
-      {
-        "title": "PEACOCK TV HD",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/58918/load-playlist-multi?&.m3u8",
-        "key": null
-      },
-      {
-        "title": "FAST SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4558661.m3u8?txSecret=25958a1204d78fbc3d713cfe9dab029c&txTime=6AE6150D",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.41/hls/A888aa.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5076,
-    "title": "Premier League",
-    "slug": "brentford-vs-forest",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Premier League",
-      "category": "Football",
-      "teamA": "Brentford",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/50/image",
-      "teamB": "Forest",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/14/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
-      "startTimeIST": "2026-10-31 20:30:00 IST",
-      "endTimeIST": "2026-10-31 22:50:00 IST",
-      "startTimeUTC": "2026/10/31 15:00:00 +0000",
-      "endTimeUTC": "2026/10/31 17:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "FUBO SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/k1xqidoiy1/out/v1/00d2828855a944ffbbdc15232c4157a9/cenc.mpd",
-        "key": "5892fecfff0a4d5a7eef925f2538c386:70bdd64f7dc30ba525abc5655f14b540"
-      },
-      {
-        "title": "USA NETWORK HD",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/58919/load-playlist-multi?&.m3u8",
-        "key": null
-      },
-      {
-        "title": "FAST SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4558654.m3u8?txSecret=b13ccdc38f5a428aca2dac9c5b693718&txTime=6AE614F9",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.50/hls/A888a.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5078,
-    "title": "Premier League",
-    "slug": "hull-vs-ipswich",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Premier League",
-      "category": "Football",
-      "teamA": "Hull",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/96/image",
-      "teamB": "Ipswich",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/32/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
-      "startTimeIST": "2026-10-31 20:30:00 IST",
-      "endTimeIST": "2026-10-31 22:50:00 IST",
-      "startTimeUTC": "2026/10/31 15:00:00 +0000",
-      "endTimeUTC": "2026/10/31 17:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "FUBO SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/qhinby0vwz/out/v1/959c0e797f864fd5a2acfbf924cca5c2/cenc.mpd?aws_sessionId=bfc43920-027e-4425-b762-5e1b766c9bf2",
-        "key": "c50e22cee8d6ded6ee6242a6a7e68102:b2c753d93d06e56196c6a00768c145dd"
-      },
-      {
-        "title": "PEACOCK TV HD",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/58916/load-playlist-multi?&.m3u8",
-        "key": null
-      },
-      {
-        "title": "FAST SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4558675.m3u8?txSecret=c5c71daeb86cace4cdb1bb931c5432db&txTime=6AE61522",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.41/hls/A888aaa.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5079,
-    "title": "Premier League",
-    "slug": "man-city-vs-brighton",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Premier League",
-      "category": "Football",
-      "teamA": "Man City",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/17/image",
-      "teamB": "Brighton",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/30/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
-      "startTimeIST": "2026-10-31 20:30:00 IST",
-      "endTimeIST": "2026-10-31 22:50:00 IST",
-      "startTimeUTC": "2026/10/31 15:00:00 +0000",
-      "endTimeUTC": "2026/10/31 17:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "FUBO SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/uoemmv0upd/out/v1/b59284953fcd4c93a6977856612840ae/cenc.mpd?aws_sessionId=47bf560e-cee6-4ada-a4f8-d148ebb4aab9",
-        "key": "f1d7426b1be3cb85a1d2932b21ffd263:f14833238fdbca625200e6e96f86b6c4"
-      },
-      {
-        "title": "FUBO SPORTS ALT",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd",
-        "key": "42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1"
-      },
-      {
-        "title": "PEACOCK TV HD",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/58917/load-playlist-multi?&.m3u8",
-        "key": null
-      },
-      {
-        "title": "FAST SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4558684.m3u8?txSecret=0a4f679486ca6f2cf8782f6504a0e3c3&txTime=6AE61536",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.55/hls/A888aaaa.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5080,
-    "title": "Championship",
-    "slug": "millwall-vs-derby",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "Millwall",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/25/image",
-      "teamB": "Derby",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/27/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-10-31 20:30:00 IST",
-      "endTimeIST": "2026-10-31 22:50:00 IST",
-      "startTimeUTC": "2026/10/31 15:00:00 +0000",
-      "endTimeUTC": "2026/10/31 17:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "beIN ENGLISH FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-        "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-      },
-      {
-        "title": "FAST SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/sd-1-4563652.m3u8?txSecret=129bf9b7d7d648ebefaff9f3a1ba71f4&txTime=6AE6135D",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.59/hls/GLLLAAQQQQ.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5081,
-    "title": "Championship",
-    "slug": "middlesbrough-vs-charlton",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "Middlesbrough",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/36/image",
-      "teamB": "Charlton",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/47/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-10-31 20:30:00 IST",
-      "endTimeIST": "2026-10-31 22:50:00 IST",
-      "startTimeUTC": "2026/10/31 15:00:00 +0000",
-      "endTimeUTC": "2026/10/31 17:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "FAST SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/sd-1-4563651.m3u8?txSecret=2115dfe1dfd28bce915d04fd61591d40&txTime=6AE61346",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.41/hls/G888AAAAqq.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5082,
-    "title": "Championship",
-    "slug": "burnley-vs-portsmouth",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "Burnley",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/6/image",
-      "teamB": "Portsmouth",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-10-31 20:30:00 IST",
-      "endTimeIST": "2026-10-31 22:50:00 IST",
-      "startTimeUTC": "2026/10/31 15:00:00 +0000",
-      "endTimeUTC": "2026/10/31 17:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5083,
-    "title": "Championship",
-    "slug": "southampton-vs-qpr",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "Southampton",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/45/image",
-      "teamB": "QPR",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-10-31 20:30:00 IST",
-      "endTimeIST": "2026-10-31 22:50:00 IST",
-      "startTimeUTC": "2026/10/31 15:00:00 +0000",
-      "endTimeUTC": "2026/10/31 17:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "FAST SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/sd-1-4563654.m3u8?txSecret=0c6dc0abaa57dbee582fc828c3335189&txTime=6AE61373",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.50/hls/T999AAAAQQ.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5084,
-    "title": "Championship",
-    "slug": "wolves-vs-cardiff",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "Wolves",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/3/image",
-      "teamB": "Cardiff",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/61/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-10-31 20:30:00 IST",
-      "endTimeIST": "2026-10-31 22:50:00 IST",
-      "startTimeUTC": "2026/10/31 15:00:00 +0000",
-      "endTimeUTC": "2026/10/31 17:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "FAST SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/sd-1-4563659.m3u8?txSecret=a81674a770f2a11bdaab1fe335859001&txTime=6AE613A9",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.59/hls/GLLLAAQQQQQ.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5085,
-    "title": "Championship",
-    "slug": "bolton-vs-bristol-city",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "Bolton",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/5/image",
-      "teamB": "Bristol City",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/58/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-10-31 20:30:00 IST",
-      "endTimeIST": "2026-10-31 22:50:00 IST",
-      "startTimeUTC": "2026/10/31 15:00:00 +0000",
-      "endTimeUTC": "2026/10/31 17:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5086,
-    "title": "Championship",
-    "slug": "west-ham-vs-west-brom",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "West Ham",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/37/image",
-      "teamB": "West Brom",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/8/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-10-31 20:30:00 IST",
-      "endTimeIST": "2026-10-31 22:50:00 IST",
-      "startTimeUTC": "2026/10/31 15:00:00 +0000",
-      "endTimeUTC": "2026/10/31 17:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "CBS NETWORK",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-        "key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-      },
-      {
-        "title": "FAST SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/sd-1-4563656.m3u8?txSecret=1cbc18daf12fdf59d73a27a9c3365b49&txTime=6AE6138B",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5087,
-    "title": "Championship",
-    "slug": "swansea-vs-blackburn",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "Swansea",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/74/image",
-      "teamB": "Blackburn",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/46/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-10-31 20:30:00 IST",
-      "endTimeIST": "2026-10-31 22:50:00 IST",
-      "startTimeUTC": "2026/10/31 15:00:00 +0000",
-      "endTimeUTC": "2026/10/31 17:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5088,
-    "title": "Scottish Premiership",
-    "slug": "kilmarnock-vs-st-johnstone",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Scottish Premiership",
-      "category": "Football",
-      "teamA": "Kilmarnock",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2347/image",
-      "teamB": "St. Johnstone",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2348/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/36/image/dark",
-      "startTimeIST": "2026-10-31 20:30:00 IST",
-      "endTimeIST": "2026-10-31 22:50:00 IST",
-      "startTimeUTC": "2026/10/31 15:00:00 +0000",
-      "endTimeUTC": "2026/10/31 17:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5089,
-    "title": "Scottish Premiership",
-    "slug": "dundee-utd-vs-hearts",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Scottish Premiership",
-      "category": "Football",
-      "teamA": "Dundee Utd",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2349/image",
-      "teamB": "Hearts",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2353/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/36/image/dark",
-      "startTimeIST": "2026-10-31 20:30:00 IST",
-      "endTimeIST": "2026-10-31 22:50:00 IST",
-      "startTimeUTC": "2026/10/31 15:00:00 +0000",
-      "endTimeUTC": "2026/10/31 17:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5090,
-    "title": "Scottish Premiership",
-    "slug": "hibernian-vs-dundee",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Scottish Premiership",
-      "category": "Football",
-      "teamA": "Hibernian",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2354/image",
-      "teamB": "Dundee",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2357/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/36/image/dark",
-      "startTimeIST": "2026-10-31 20:30:00 IST",
-      "endTimeIST": "2026-10-31 22:50:00 IST",
-      "startTimeUTC": "2026/10/31 15:00:00 +0000",
-      "endTimeUTC": "2026/10/31 17:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5091,
-    "title": "Scottish Premiership",
-    "slug": "motherwell-vs-st-mirren",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Scottish Premiership",
-      "category": "Football",
-      "teamA": "Motherwell",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2346/image",
-      "teamB": "St Mirren",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2359/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/36/image/dark",
-      "startTimeIST": "2026-10-31 20:30:00 IST",
-      "endTimeIST": "2026-10-31 22:50:00 IST",
-      "startTimeUTC": "2026/10/31 15:00:00 +0000",
-      "endTimeUTC": "2026/10/31 17:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 5092,
     "title": "LaLiga",
     "slug": "rayo-vallecano-vs-celta",
@@ -1104,10 +545,40 @@
     },
     "dashStreams": [
       {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/mxso6scrtg/out/v1/b3544f9833f0429894701c32d0fc024b/cenc.mpd?aws_sessionId=495fdb18-c069-4263-b9ff-728319ab0389",
+        "key": "18d174570a81b42cff1f6fb6e19106c1:7a0d9afbc556089281a73408594729fe"
+      },
+      {
         "title": "FUBO SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/jjywhzonb4/out/v1/312cb5388cd94f7c9c257e86819368e0/cenc.mpd?aws_sessionId=5ac3f0f3-e149-4960-88d9-914f3e43e2ef",
+        "key": "b82373bc6113efa11c8abe02afa5a180:1b8a7c388b073e9adc112d605ae34570"
+      },
+      {
+        "title": "beIN ENGLISH FHD",
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
         "key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
+      },
+      {
+        "title": "SPORT 1 CZ",
+        "type": "dash",
+        "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+        "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+      },
+      {
+        "title": "PARAMOUNT+ HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/58941/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "LOW SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.59/hls/SSSSQQQQQ.m3u8",
+        "key": null
       }
     ]
   },
@@ -1688,6 +1159,565 @@
       "endTimeIST": "2026-11-01 15:50:00 IST",
       "startTimeUTC": "2026/11/01 08:00:00 +0000",
       "endTimeUTC": "2026/11/01 10:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5074,
+    "title": "Premier League",
+    "slug": "bournemouth-vs-leeds",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Premier League",
+      "category": "Football",
+      "teamA": "Bournemouth",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/60/image",
+      "teamB": "Leeds",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/34/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
+      "startTimeIST": "2026-10-31 20:30:00 IST",
+      "endTimeIST": "2026-10-31 22:50:00 IST",
+      "startTimeUTC": "2026/10/31 15:00:00 +0000",
+      "endTimeUTC": "2026/10/31 17:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "FUBO SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/y41kzj5gl4/out/v1/4379e830995b4993a974c6cd682b8b54/cenc.mpd?aws_sessionId=2fd09059-3fbc-4560-b788-31929abc1233",
+        "key": "d769cd4a29d99846454b4c6522a48737:f28baac0518d2a2ad820f806a271bec7"
+      },
+      {
+        "title": "PEACOCK TV HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/58915/load-playlist-multi?&.m3u8",
+        "key": null
+      },
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4558652.m3u8?txSecret=8822e82ae63e539c587b0576961ad9a0&txTime=6AE614DB",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.50/hls/A888.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5075,
+    "title": "Premier League",
+    "slug": "coventry-vs-sunderland",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Premier League",
+      "category": "Football",
+      "teamA": "Coventry",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/11/image",
+      "teamB": "Sunderland",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/41/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
+      "startTimeIST": "2026-10-31 20:30:00 IST",
+      "endTimeIST": "2026-10-31 22:50:00 IST",
+      "startTimeUTC": "2026/10/31 15:00:00 +0000",
+      "endTimeUTC": "2026/10/31 17:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "FUBO SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/8d0nsihnec/out/v1/4da9b7d2b1414cb28afd976da2c3b840/cenc.mpd?aws_sessionId=5e296bb2-8ebb-40c6-8801-8dd7200a925c",
+        "key": "8c9e016364d1ec0c25dde02ab73a7dc0:94e71c7a2acb9fa7e73389de306c1f16"
+      },
+      {
+        "title": "PEACOCK TV HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/58918/load-playlist-multi?&.m3u8",
+        "key": null
+      },
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4558661.m3u8?txSecret=25958a1204d78fbc3d713cfe9dab029c&txTime=6AE6150D",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.41/hls/A888aa.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5076,
+    "title": "Premier League",
+    "slug": "brentford-vs-forest",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Premier League",
+      "category": "Football",
+      "teamA": "Brentford",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/50/image",
+      "teamB": "Forest",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/14/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
+      "startTimeIST": "2026-10-31 20:30:00 IST",
+      "endTimeIST": "2026-10-31 22:50:00 IST",
+      "startTimeUTC": "2026/10/31 15:00:00 +0000",
+      "endTimeUTC": "2026/10/31 17:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "FUBO SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/k1xqidoiy1/out/v1/00d2828855a944ffbbdc15232c4157a9/cenc.mpd",
+        "key": "5892fecfff0a4d5a7eef925f2538c386:70bdd64f7dc30ba525abc5655f14b540"
+      },
+      {
+        "title": "USA NETWORK HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/58919/load-playlist-multi?&.m3u8",
+        "key": null
+      },
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4558654.m3u8?txSecret=b13ccdc38f5a428aca2dac9c5b693718&txTime=6AE614F9",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.50/hls/A888a.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5078,
+    "title": "Premier League",
+    "slug": "hull-vs-ipswich",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Premier League",
+      "category": "Football",
+      "teamA": "Hull",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/96/image",
+      "teamB": "Ipswich",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/32/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
+      "startTimeIST": "2026-10-31 20:30:00 IST",
+      "endTimeIST": "2026-10-31 22:50:00 IST",
+      "startTimeUTC": "2026/10/31 15:00:00 +0000",
+      "endTimeUTC": "2026/10/31 17:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "FUBO SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/qhinby0vwz/out/v1/959c0e797f864fd5a2acfbf924cca5c2/cenc.mpd?aws_sessionId=bfc43920-027e-4425-b762-5e1b766c9bf2",
+        "key": "c50e22cee8d6ded6ee6242a6a7e68102:b2c753d93d06e56196c6a00768c145dd"
+      },
+      {
+        "title": "PEACOCK TV HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/58916/load-playlist-multi?&.m3u8",
+        "key": null
+      },
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4558675.m3u8?txSecret=c5c71daeb86cace4cdb1bb931c5432db&txTime=6AE61522",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.41/hls/A888aaa.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5079,
+    "title": "Premier League",
+    "slug": "man-city-vs-brighton",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Premier League",
+      "category": "Football",
+      "teamA": "Man City",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/17/image",
+      "teamB": "Brighton",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/30/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
+      "startTimeIST": "2026-10-31 20:30:00 IST",
+      "endTimeIST": "2026-10-31 22:50:00 IST",
+      "startTimeUTC": "2026/10/31 15:00:00 +0000",
+      "endTimeUTC": "2026/10/31 17:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "FUBO SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/uoemmv0upd/out/v1/b59284953fcd4c93a6977856612840ae/cenc.mpd?aws_sessionId=47bf560e-cee6-4ada-a4f8-d148ebb4aab9",
+        "key": "f1d7426b1be3cb85a1d2932b21ffd263:f14833238fdbca625200e6e96f86b6c4"
+      },
+      {
+        "title": "FUBO SPORTS ALT",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd",
+        "key": "42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1"
+      },
+      {
+        "title": "PEACOCK TV HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/58917/load-playlist-multi?&.m3u8",
+        "key": null
+      },
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4558684.m3u8?txSecret=0a4f679486ca6f2cf8782f6504a0e3c3&txTime=6AE61536",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.55/hls/A888aaaa.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5080,
+    "title": "Championship",
+    "slug": "millwall-vs-derby",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Championship",
+      "category": "Football",
+      "teamA": "Millwall",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/25/image",
+      "teamB": "Derby",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/27/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
+      "startTimeIST": "2026-10-31 20:30:00 IST",
+      "endTimeIST": "2026-10-31 22:50:00 IST",
+      "startTimeUTC": "2026/10/31 15:00:00 +0000",
+      "endTimeUTC": "2026/10/31 17:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "beIN ENGLISH FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+        "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+      },
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4563652.m3u8?txSecret=129bf9b7d7d648ebefaff9f3a1ba71f4&txTime=6AE6135D",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.59/hls/GLLLAAQQQQ.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5081,
+    "title": "Championship",
+    "slug": "middlesbrough-vs-charlton",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Championship",
+      "category": "Football",
+      "teamA": "Middlesbrough",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/36/image",
+      "teamB": "Charlton",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/47/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
+      "startTimeIST": "2026-10-31 20:30:00 IST",
+      "endTimeIST": "2026-10-31 22:50:00 IST",
+      "startTimeUTC": "2026/10/31 15:00:00 +0000",
+      "endTimeUTC": "2026/10/31 17:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4563651.m3u8?txSecret=2115dfe1dfd28bce915d04fd61591d40&txTime=6AE61346",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.41/hls/G888AAAAqq.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5082,
+    "title": "Championship",
+    "slug": "burnley-vs-portsmouth",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Championship",
+      "category": "Football",
+      "teamA": "Burnley",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/6/image",
+      "teamB": "Portsmouth",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
+      "startTimeIST": "2026-10-31 20:30:00 IST",
+      "endTimeIST": "2026-10-31 22:50:00 IST",
+      "startTimeUTC": "2026/10/31 15:00:00 +0000",
+      "endTimeUTC": "2026/10/31 17:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5083,
+    "title": "Championship",
+    "slug": "southampton-vs-qpr",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Championship",
+      "category": "Football",
+      "teamA": "Southampton",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/45/image",
+      "teamB": "QPR",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
+      "startTimeIST": "2026-10-31 20:30:00 IST",
+      "endTimeIST": "2026-10-31 22:50:00 IST",
+      "startTimeUTC": "2026/10/31 15:00:00 +0000",
+      "endTimeUTC": "2026/10/31 17:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4563654.m3u8?txSecret=0c6dc0abaa57dbee582fc828c3335189&txTime=6AE61373",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.50/hls/T999AAAAQQ.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5084,
+    "title": "Championship",
+    "slug": "wolves-vs-cardiff",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Championship",
+      "category": "Football",
+      "teamA": "Wolves",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/3/image",
+      "teamB": "Cardiff",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/61/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
+      "startTimeIST": "2026-10-31 20:30:00 IST",
+      "endTimeIST": "2026-10-31 22:50:00 IST",
+      "startTimeUTC": "2026/10/31 15:00:00 +0000",
+      "endTimeUTC": "2026/10/31 17:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4563659.m3u8?txSecret=a81674a770f2a11bdaab1fe335859001&txTime=6AE613A9",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.59/hls/GLLLAAQQQQQ.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5085,
+    "title": "Championship",
+    "slug": "bolton-vs-bristol-city",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Championship",
+      "category": "Football",
+      "teamA": "Bolton",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/5/image",
+      "teamB": "Bristol City",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/58/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
+      "startTimeIST": "2026-10-31 20:30:00 IST",
+      "endTimeIST": "2026-10-31 22:50:00 IST",
+      "startTimeUTC": "2026/10/31 15:00:00 +0000",
+      "endTimeUTC": "2026/10/31 17:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5086,
+    "title": "Championship",
+    "slug": "west-ham-vs-west-brom",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Championship",
+      "category": "Football",
+      "teamA": "West Ham",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/37/image",
+      "teamB": "West Brom",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/8/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
+      "startTimeIST": "2026-10-31 20:30:00 IST",
+      "endTimeIST": "2026-10-31 22:50:00 IST",
+      "startTimeUTC": "2026/10/31 15:00:00 +0000",
+      "endTimeUTC": "2026/10/31 17:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "CBS NETWORK",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
+        "key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+      },
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4563656.m3u8?txSecret=1cbc18daf12fdf59d73a27a9c3365b49&txTime=6AE6138B",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5087,
+    "title": "Championship",
+    "slug": "swansea-vs-blackburn",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Championship",
+      "category": "Football",
+      "teamA": "Swansea",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/74/image",
+      "teamB": "Blackburn",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/46/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
+      "startTimeIST": "2026-10-31 20:30:00 IST",
+      "endTimeIST": "2026-10-31 22:50:00 IST",
+      "startTimeUTC": "2026/10/31 15:00:00 +0000",
+      "endTimeUTC": "2026/10/31 17:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5088,
+    "title": "Scottish Premiership",
+    "slug": "kilmarnock-vs-st-johnstone",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Scottish Premiership",
+      "category": "Football",
+      "teamA": "Kilmarnock",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2347/image",
+      "teamB": "St. Johnstone",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2348/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/36/image/dark",
+      "startTimeIST": "2026-10-31 20:30:00 IST",
+      "endTimeIST": "2026-10-31 22:50:00 IST",
+      "startTimeUTC": "2026/10/31 15:00:00 +0000",
+      "endTimeUTC": "2026/10/31 17:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5089,
+    "title": "Scottish Premiership",
+    "slug": "dundee-utd-vs-hearts",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Scottish Premiership",
+      "category": "Football",
+      "teamA": "Dundee Utd",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2349/image",
+      "teamB": "Hearts",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2353/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/36/image/dark",
+      "startTimeIST": "2026-10-31 20:30:00 IST",
+      "endTimeIST": "2026-10-31 22:50:00 IST",
+      "startTimeUTC": "2026/10/31 15:00:00 +0000",
+      "endTimeUTC": "2026/10/31 17:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5090,
+    "title": "Scottish Premiership",
+    "slug": "hibernian-vs-dundee",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Scottish Premiership",
+      "category": "Football",
+      "teamA": "Hibernian",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2354/image",
+      "teamB": "Dundee",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2357/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/36/image/dark",
+      "startTimeIST": "2026-10-31 20:30:00 IST",
+      "endTimeIST": "2026-10-31 22:50:00 IST",
+      "startTimeUTC": "2026/10/31 15:00:00 +0000",
+      "endTimeUTC": "2026/10/31 17:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5091,
+    "title": "Scottish Premiership",
+    "slug": "motherwell-vs-st-mirren",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Scottish Premiership",
+      "category": "Football",
+      "teamA": "Motherwell",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2346/image",
+      "teamB": "St Mirren",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2359/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/36/image/dark",
+      "startTimeIST": "2026-10-31 20:30:00 IST",
+      "endTimeIST": "2026-10-31 22:50:00 IST",
+      "startTimeUTC": "2026/10/31 15:00:00 +0000",
+      "endTimeUTC": "2026/10/31 17:20:00 +0000"
     },
     "dashStreams": []
   },
