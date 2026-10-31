@@ -378,7 +378,7 @@
     "title": "Saudi Pro League",
     "slug": "al-hilal-vs-al-fateh",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Saudi Pro League",
       "category": "Football",
@@ -3091,126 +3091,6 @@
         "title": "LOW QUALITY",
         "type": "hls",
         "url": "http://193.47.62.50/hls/CIII.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5026,
-    "title": "Ligue 1",
-    "slug": "le-havre-vs-psg",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Ligue 1",
-      "category": "Football",
-      "teamA": "Le Havre",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1662/image",
-      "teamB": "PSG",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1644/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
-      "startTimeIST": "2026-10-30 23:30:00 IST",
-      "endTimeIST": "2026-10-31 01:50:00 IST",
-      "startTimeUTC": "2026/10/30 18:00:00 +0000",
-      "endTimeUTC": "2026/10/30 20:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "beIN SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/xuvcbrlxmb/out/v1/27aac1f9df984d65a9d4b95d234f4468/cenc.mpd?aws_sessionId=9cc7d647-12ea-46fa-8e5f-e801e6c74cc8",
-        "key": "74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c"
-      },
-      {
-        "title": "CazéTV FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
-        "key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4550914.m3u8?txSecret=a35ff84c46d5ae8c997290b80cfd8de8&txTime=6AE4EFCB",
-        "key": null
-      },
-      {
-        "title": "HD QUALITY",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel1.m3u8?",
-        "key": null
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.59/hls/IFFFAAAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5030,
-    "title": "Ligue 1",
-    "slug": "nice-vs-rennes",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Ligue 1",
-      "category": "Football",
-      "teamA": "Nice",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1661/image",
-      "teamB": "Rennes",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1658/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
-      "startTimeIST": "2026-10-30 23:30:00 IST",
-      "endTimeIST": "2026-10-31 01:50:00 IST",
-      "startTimeUTC": "2026/10/30 18:00:00 +0000",
-      "endTimeUTC": "2026/10/30 20:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "beIN SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xnypecepsc/out/v1/0cb42f7039694b3199d1cd2cba7a5ddb/cenc.mpd",
-        "key": "6fb0ddc7e384e78dea1868457c21fc7d:88f26e97ed7f41070644f8519fd4d2ae"
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4550919.m3u8?txSecret=3affb818bea1dbd8e813ec3be52b1bf4&txTime=6AE4EFF8",
-        "key": null
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.59/hls/IFFFAAAAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5031,
-    "title": "Saudi Pro League",
-    "slug": "al-shabab-vs-al-ahli",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Saudi Pro League",
-      "category": "Football",
-      "teamA": "Al-Shabab",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/34313/image",
-      "teamB": "Al-Ahli",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/34469/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/955/image/dark",
-      "startTimeIST": "2026-10-30 23:30:00 IST",
-      "endTimeIST": "2026-10-31 01:50:00 IST",
-      "startTimeUTC": "2026/10/30 18:00:00 +0000",
-      "endTimeUTC": "2026/10/30 20:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/IFFFAAA.m3u8",
         "key": null
       }
     ]
