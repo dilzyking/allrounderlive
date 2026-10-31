@@ -1311,6 +1311,12 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
         "key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
+      },
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4565504.m3u8?txSecret=c62479542d0872c2aa2b35a22911485e&txTime=6AE61A7D",
+        "key": null
       }
     ]
   },
@@ -1333,7 +1339,14 @@
       "startTimeUTC": "2026/10/31 15:15:00 +0000",
       "endTimeUTC": "2026/10/31 17:35:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4567339.m3u8?txSecret=b1b9bc095439714f2f1dfbb250407c47&txTime=6AE61AB3",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5094,
