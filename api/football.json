@@ -948,6 +948,12 @@
     },
     "dashStreams": [
       {
+        "title": "DAZN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/io1kqrnkwj/out/v1/c9a8204bd4464e77b8c99eb45508fb62/cenc.mpd",
+        "key": "974992869d1029b6e565ac07c154317f:4c1c0d9ce99d5a944ae2ba1db15d84b0"
+      },
+      {
         "title": "DAZN SPORTS HD",
         "type": "hls",
         "url": "https://chatgpt.hereisman.net/playlist/58913/load-playlist-multi?&.m3u8",
@@ -987,6 +993,12 @@
       "endTimeUTC": "2026/10/31 16:50:00 +0000"
     },
     "dashStreams": [
+      {
+        "title": "DAZN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/3rcuyeabcv/out/v1/df2eb8eaef81491d96fea57c1020269f/cenc.mpd",
+        "key": "01c8ab0fcd1267651244a06c70f57963:d517f8b616beb81874704f8cbdf14db8"
+      },
       {
         "title": "DAZN SPORTS HD",
         "type": "hls",
