@@ -374,39 +374,11 @@
     ]
   },
   {
-    "id": 5077,
-    "title": "Saudi Pro League",
-    "slug": "al-fayha-vs-al-faisaly",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Saudi Pro League",
-      "category": "Football",
-      "teamA": "Al-Fayha",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/168094/image",
-      "teamB": "Al Faisaly",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/56035/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/955/image/dark",
-      "startTimeIST": "2026-10-31 20:25:00 IST",
-      "endTimeIST": "2026-10-31 22:45:00 IST",
-      "startTimeUTC": "2026/10/31 14:55:00 +0000",
-      "endTimeUTC": "2026/10/31 17:15:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "FAST SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/sd-1-4599641.m3u8?txSecret=94d6da6a054b7e9b2adc5e62ae2bacd8&txTime=6AE61060",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5074,
     "title": "Premier League",
     "slug": "bournemouth-vs-leeds",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Premier League",
       "category": "Football",
@@ -452,7 +424,7 @@
     "title": "Premier League",
     "slug": "coventry-vs-sunderland",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Premier League",
       "category": "Football",
@@ -498,7 +470,7 @@
     "title": "Premier League",
     "slug": "brentford-vs-forest",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Premier League",
       "category": "Football",
@@ -544,7 +516,7 @@
     "title": "Premier League",
     "slug": "hull-vs-ipswich",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Premier League",
       "category": "Football",
@@ -590,7 +562,7 @@
     "title": "Premier League",
     "slug": "man-city-vs-brighton",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Premier League",
       "category": "Football",
@@ -642,7 +614,7 @@
     "title": "Championship",
     "slug": "millwall-vs-derby",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Championship",
       "category": "Football",
@@ -682,7 +654,7 @@
     "title": "Championship",
     "slug": "middlesbrough-vs-charlton",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Championship",
       "category": "Football",
@@ -716,7 +688,7 @@
     "title": "Championship",
     "slug": "burnley-vs-portsmouth",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Championship",
       "category": "Football",
@@ -737,7 +709,7 @@
     "title": "Championship",
     "slug": "southampton-vs-qpr",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Championship",
       "category": "Football",
@@ -771,7 +743,7 @@
     "title": "Championship",
     "slug": "wolves-vs-cardiff",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Championship",
       "category": "Football",
@@ -805,7 +777,7 @@
     "title": "Championship",
     "slug": "bolton-vs-bristol-city",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Championship",
       "category": "Football",
@@ -826,7 +798,7 @@
     "title": "Championship",
     "slug": "west-ham-vs-west-brom",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Championship",
       "category": "Football",
@@ -860,7 +832,7 @@
     "title": "Championship",
     "slug": "swansea-vs-blackburn",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Championship",
       "category": "Football",
@@ -881,7 +853,7 @@
     "title": "Scottish Premiership",
     "slug": "kilmarnock-vs-st-johnstone",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Scottish Premiership",
       "category": "Football",
@@ -902,7 +874,7 @@
     "title": "Scottish Premiership",
     "slug": "dundee-utd-vs-hearts",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Scottish Premiership",
       "category": "Football",
@@ -923,7 +895,7 @@
     "title": "Scottish Premiership",
     "slug": "hibernian-vs-dundee",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Scottish Premiership",
       "category": "Football",
@@ -944,7 +916,7 @@
     "title": "Scottish Premiership",
     "slug": "motherwell-vs-st-mirren",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Scottish Premiership",
       "category": "Football",
@@ -1718,6 +1690,34 @@
       "endTimeUTC": "2026/11/01 10:20:00 +0000"
     },
     "dashStreams": []
+  },
+  {
+    "id": 5077,
+    "title": "Saudi Pro League",
+    "slug": "al-fayha-vs-al-faisaly",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Saudi Pro League",
+      "category": "Football",
+      "teamA": "Al-Fayha",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/168094/image",
+      "teamB": "Al Faisaly",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/56035/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/955/image/dark",
+      "startTimeIST": "2026-10-31 20:25:00 IST",
+      "endTimeIST": "2026-10-31 22:45:00 IST",
+      "startTimeUTC": "2026/10/31 14:55:00 +0000",
+      "endTimeUTC": "2026/10/31 17:15:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4599641.m3u8?txSecret=94d6da6a054b7e9b2adc5e62ae2bacd8&txTime=6AE61060",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5069,
