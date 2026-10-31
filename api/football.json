@@ -846,7 +846,7 @@
     "title": "Saudi Pro League",
     "slug": "al-fayha-vs-al-faisaly",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Saudi Pro League",
       "category": "Football",
@@ -916,7 +916,14 @@
       "startTimeUTC": "2026/10/31 15:00:00 +0000",
       "endTimeUTC": "2026/10/31 17:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PEACOCK TV HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/58918/load-playlist-multi?&.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5076,
@@ -965,7 +972,14 @@
       "startTimeUTC": "2026/10/31 15:00:00 +0000",
       "endTimeUTC": "2026/10/31 17:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PEACOCK TV HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/58916/load-playlist-multi?&.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5079,
@@ -1020,7 +1034,20 @@
       "startTimeUTC": "2026/10/31 15:00:00 +0000",
       "endTimeUTC": "2026/10/31 17:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "beIN ENGLISH FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+        "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+      },
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4563652.m3u8?txSecret=129bf9b7d7d648ebefaff9f3a1ba71f4&txTime=6AE6135D",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5081,
@@ -1041,7 +1068,14 @@
       "startTimeUTC": "2026/10/31 15:00:00 +0000",
       "endTimeUTC": "2026/10/31 17:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4563651.m3u8?txSecret=2115dfe1dfd28bce915d04fd61591d40&txTime=6AE61346",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5082,
@@ -1083,7 +1117,14 @@
       "startTimeUTC": "2026/10/31 15:00:00 +0000",
       "endTimeUTC": "2026/10/31 17:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4563654.m3u8?txSecret=0c6dc0abaa57dbee582fc828c3335189&txTime=6AE61373",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5084,
@@ -1104,7 +1145,14 @@
       "startTimeUTC": "2026/10/31 15:00:00 +0000",
       "endTimeUTC": "2026/10/31 17:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4563659.m3u8?txSecret=a81674a770f2a11bdaab1fe335859001&txTime=6AE613A9",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5085,
@@ -1146,7 +1194,20 @@
       "startTimeUTC": "2026/10/31 15:00:00 +0000",
       "endTimeUTC": "2026/10/31 17:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "CBS NETWORK",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
+        "key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+      },
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4563656.m3u8?txSecret=1cbc18daf12fdf59d73a27a9c3365b49&txTime=6AE6138B",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5087,
@@ -1272,7 +1333,20 @@
       "startTimeUTC": "2026/10/31 15:15:00 +0000",
       "endTimeUTC": "2026/10/31 17:35:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "FANCODE FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+      },
+      {
+        "title": "CAZE TV FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
+        "key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
+      }
+    ]
   },
   {
     "id": 5093,
