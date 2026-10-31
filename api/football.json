@@ -374,61 +374,6 @@
     ]
   },
   {
-    "id": 5094,
-    "title": "Liga Portugal Betclic",
-    "slug": "moreirense-vs-estrela-amadora",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Liga Portugal Betclic",
-      "category": "Football",
-      "teamA": "Moreirense",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/3014/image",
-      "teamB": "Estrela Amadora",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/3035/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/238/image/dark",
-      "startTimeIST": "2026-10-31 21:00:00 IST",
-      "endTimeIST": "2026-10-31 23:20:00 IST",
-      "startTimeUTC": "2026/10/31 15:30:00 +0000",
-      "endTimeUTC": "2026/10/31 17:50:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5095,
-    "title": "VriendenLoterij Eredivisie",
-    "slug": "feyenoord-vs-fortuna",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "VriendenLoterij Eredivisie",
-      "category": "Football",
-      "teamA": "Feyenoord",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2959/image",
-      "teamB": "Fortuna",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2957/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
-      "startTimeIST": "2026-10-31 21:00:00 IST",
-      "endTimeIST": "2026-10-31 23:20:00 IST",
-      "startTimeUTC": "2026/10/31 15:30:00 +0000",
-      "endTimeUTC": "2026/10/31 17:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SportDigital Fussball",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?",
-        "key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
-      },
-      {
-        "title": "FAST SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/sd-1-4552237.m3u8?txSecret=2dae1237a3a9f5280057cd922d6aec13&txTime=6AE61B8C",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5096,
     "title": "Trendyol Süper Lig",
     "slug": "fenerbahce-vs-goztepe",
@@ -1179,6 +1124,61 @@
       "endTimeUTC": "2026/11/01 10:20:00 +0000"
     },
     "dashStreams": []
+  },
+  {
+    "id": 5094,
+    "title": "Liga Portugal Betclic",
+    "slug": "moreirense-vs-estrela-amadora",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Liga Portugal Betclic",
+      "category": "Football",
+      "teamA": "Moreirense",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/3014/image",
+      "teamB": "Estrela Amadora",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/3035/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/238/image/dark",
+      "startTimeIST": "2026-10-31 21:00:00 IST",
+      "endTimeIST": "2026-10-31 23:20:00 IST",
+      "startTimeUTC": "2026/10/31 15:30:00 +0000",
+      "endTimeUTC": "2026/10/31 17:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5095,
+    "title": "VriendenLoterij Eredivisie",
+    "slug": "feyenoord-vs-fortuna",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "VriendenLoterij Eredivisie",
+      "category": "Football",
+      "teamA": "Feyenoord",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2959/image",
+      "teamB": "Fortuna",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2957/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
+      "startTimeIST": "2026-10-31 21:00:00 IST",
+      "endTimeIST": "2026-10-31 23:20:00 IST",
+      "startTimeUTC": "2026/10/31 15:30:00 +0000",
+      "endTimeUTC": "2026/10/31 17:50:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "SportDigital Fussball",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?",
+        "key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
+      },
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4552237.m3u8?txSecret=2dae1237a3a9f5280057cd922d6aec13&txTime=6AE61B8C",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5092,
