@@ -374,52 +374,6 @@
     ]
   },
   {
-    "id": 4454,
-    "title": "Indian Super League",
-    "slug": "isl-vs-isl",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Indian Super League",
-      "category": "Football",
-      "teamA": "ISL",
-      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/1900/image",
-      "teamB": "ISL",
-      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/1900/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1900/image",
-      "startTimeIST": "2026-10-31 19:30:00 IST",
-      "endTimeIST": "2026-10-31 22:00:00 IST",
-      "startTimeUTC": "2026/10/31 14:00:00 +0000",
-      "endTimeUTC": "2026/10/31 16:30:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PRIME VIDEO FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/otmqjqoff0/out/v1/11d1a5224b8f4d888379715e7d6220f2/cenc.mpd",
-        "key": "2028c0ed011bf30e99416243b010015d:f8b3fc9cb034c0b72661e84d025ae01a"
-      },
-      {
-        "title": "SonyLiv (ENG)",
-        "type": "hls",
-        "url": "https://sonymtmnew.akamaized.net/hls/live/2120302/footlive3110/ENG/std_lrh-800300010.m3u8?hdnea=exp=1793495418~acl=/*~id=af30a945ade97ece2ce911b0fc8cd61d-1793452202999~hmac=f6fbe4afa547ad2e27301ad8b4366955fce214445293aca61a509cc22aacbb8c",
-        "key": null
-      },
-      {
-        "title": "SonyLiv (HIN)",
-        "type": "hls",
-        "url": "https://sonymtmnew.akamaized.net/hls/live/2120305/footlive3110/HIN/std_lrh-800300010.m3u8?hdnea=exp=1793495418~acl=/*~id=af30a945ade97ece2ce911b0fc8cd61d-1793452202999~hmac=f6fbe4afa547ad2e27301ad8b4366955fce214445293aca61a509cc22aacbb8c",
-        "key": null
-      },
-      {
-        "title": "SonyLiv (BEN)",
-        "type": "hls",
-        "url": "https://sonymtmnew.akamaized.net/hls/live/2120308/footlive3110/BEN/std_lrh-800300010.m3u8?hdnea=exp=1793495418~acl=/*~id=af30a945ade97ece2ce911b0fc8cd61d-1793452202999~hmac=f6fbe4afa547ad2e27301ad8b4366955fce214445293aca61a509cc22aacbb8c",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5069,
     "title": "Bundesliga",
     "slug": "bremen-vs-hoffenheim",
@@ -1878,6 +1832,52 @@
       "endTimeUTC": "2026/11/01 10:20:00 +0000"
     },
     "dashStreams": []
+  },
+  {
+    "id": 4454,
+    "title": "Indian Super League",
+    "slug": "isl-vs-isl",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Indian Super League",
+      "category": "Football",
+      "teamA": "ISL",
+      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/1900/image",
+      "teamB": "ISL",
+      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/1900/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1900/image",
+      "startTimeIST": "2026-10-31 19:30:00 IST",
+      "endTimeIST": "2026-10-31 22:00:00 IST",
+      "startTimeUTC": "2026/10/31 14:00:00 +0000",
+      "endTimeUTC": "2026/10/31 16:30:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "PRIME VIDEO FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/otmqjqoff0/out/v1/11d1a5224b8f4d888379715e7d6220f2/cenc.mpd",
+        "key": "2028c0ed011bf30e99416243b010015d:f8b3fc9cb034c0b72661e84d025ae01a"
+      },
+      {
+        "title": "SonyLiv (ENG)",
+        "type": "hls",
+        "url": "https://sonymtmnew.akamaized.net/hls/live/2120302/footlive3110/ENG/std_lrh-800300010.m3u8?hdnea=exp=1793495418~acl=/*~id=af30a945ade97ece2ce911b0fc8cd61d-1793452202999~hmac=f6fbe4afa547ad2e27301ad8b4366955fce214445293aca61a509cc22aacbb8c",
+        "key": null
+      },
+      {
+        "title": "SonyLiv (HIN)",
+        "type": "hls",
+        "url": "https://sonymtmnew.akamaized.net/hls/live/2120305/footlive3110/HIN/std_lrh-800300010.m3u8?hdnea=exp=1793495418~acl=/*~id=af30a945ade97ece2ce911b0fc8cd61d-1793452202999~hmac=f6fbe4afa547ad2e27301ad8b4366955fce214445293aca61a509cc22aacbb8c",
+        "key": null
+      },
+      {
+        "title": "SonyLiv (BEN)",
+        "type": "hls",
+        "url": "https://sonymtmnew.akamaized.net/hls/live/2120308/footlive3110/BEN/std_lrh-800300010.m3u8?hdnea=exp=1793495418~acl=/*~id=af30a945ade97ece2ce911b0fc8cd61d-1793452202999~hmac=f6fbe4afa547ad2e27301ad8b4366955fce214445293aca61a509cc22aacbb8c",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5068,
