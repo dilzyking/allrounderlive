@@ -374,34 +374,6 @@
     ]
   },
   {
-    "id": 5121,
-    "title": "Saudi Pro League",
-    "slug": "al-taawoun-vs-al-ettifaq",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Saudi Pro League",
-      "category": "Football",
-      "teamA": "Al-Taawoun",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/56021/image",
-      "teamB": "Al-Ettifaq",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/34318/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/955/image/dark",
-      "startTimeIST": "2026-10-31 19:00:00 IST",
-      "endTimeIST": "2026-10-31 21:20:00 IST",
-      "startTimeUTC": "2026/10/31 13:30:00 +0000",
-      "endTimeUTC": "2026/10/31 15:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/BDDDAAAAQQAAAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 4454,
     "title": "Indian Super League",
     "slug": "isl-vs-isl",
@@ -1927,6 +1899,34 @@
       "endTimeUTC": "2026/11/01 10:20:00 +0000"
     },
     "dashStreams": []
+  },
+  {
+    "id": 5121,
+    "title": "Saudi Pro League",
+    "slug": "al-taawoun-vs-al-ettifaq",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Saudi Pro League",
+      "category": "Football",
+      "teamA": "Al-Taawoun",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/56021/image",
+      "teamB": "Al-Ettifaq",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/34318/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/955/image/dark",
+      "startTimeIST": "2026-10-31 19:00:00 IST",
+      "endTimeIST": "2026-10-31 21:20:00 IST",
+      "startTimeUTC": "2026/10/31 13:30:00 +0000",
+      "endTimeUTC": "2026/10/31 15:50:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/BDDDAAAAQQAAAA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5064,
