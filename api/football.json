@@ -703,7 +703,20 @@
       "startTimeUTC": "2026/11/01 12:30:00 +0000",
       "endTimeUTC": "2026/11/01 14:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4566595.m3u8?txSecret=570255fef8db81737fea7eb6b8f49adf&txTime=6AE743AB",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.55/hls/JIIIAA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5124,
@@ -724,7 +737,20 @@
       "startTimeUTC": "2026/11/01 12:30:00 +0000",
       "endTimeUTC": "2026/11/01 14:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4566535.m3u8?txSecret=08ac4f20aa9473ce1d90d9b92d220d82&txTime=6AE743DE",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.55/hls/JIII.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5125,
@@ -745,7 +771,20 @@
       "startTimeUTC": "2026/11/01 12:30:00 +0000",
       "endTimeUTC": "2026/11/01 14:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4566602.m3u8?txSecret=7dcfce00d6b58711e3df86a0a99351a8&txTime=6AE743C8",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.55/hls/JIIIA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5126,
