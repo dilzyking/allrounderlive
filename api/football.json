@@ -521,6 +521,48 @@
         "type": "dash",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/wwmbmktacw/out/v1/c6b561b85d374da4a9bcf42de192bf99/cenc.mpd?aws_sessionId=9c9fa417-eb7a-47ad-8343-5504e944771c",
         "key": "9afba5a3c123b275d1ecbdcb7002e530:fb47476d2e7ec4cc7987261088b555e8"
+      },
+      {
+        "title": "FUBO SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/cj9ylmqsf0/out/v1/0ee8b60f8f9f4da2a4ef153a1c5df21b/cenc.mpd?aws_sessionId=47d1cddf-795e-45c4-b031-266761b8e28c",
+        "key": "65f9ed4580a4af3c117a339c44cdfe3b:3e7d40c4b2ca331fe48bd65acae439d7"
+      },
+      {
+        "title": "PEACOCK FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/wwmbmktacw/out/v1/c6b561b85d374da4a9bcf42de192bf99/cenc.mpd?aws_sessionId=561ace50-c033-4402-9563-407902b6a0f3",
+        "key": "9afba5a3c123b275d1ecbdcb7002e530:fb47476d2e7ec4cc7987261088b555e8"
+      },
+      {
+        "title": "beIN ENGLISH FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
+        "key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
+      },
+      {
+        "title": "SPORT 1 CZ FHD",
+        "type": "dash",
+        "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+        "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+      },
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4549105.m3u8?txSecret=01a5f35e92b834b8e59e1084001ac357&txTime=6AE736F6",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/cff94e78-fb0a-4545-bef5-274069bae6d5.m3u8",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.50/hls/ZZZZAAA.m3u8",
+        "key": null
       }
     ]
   },
@@ -543,7 +585,14 @@
       "startTimeUTC": "2026/11/01 11:30:00 +0000",
       "endTimeUTC": "2026/11/01 13:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.50/hls/ZZZZAA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5120,
@@ -564,7 +613,14 @@
       "startTimeUTC": "2026/11/01 11:30:00 +0000",
       "endTimeUTC": "2026/11/01 13:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.50/hls/ZZZZ.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5121,
