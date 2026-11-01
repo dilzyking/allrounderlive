@@ -2930,62 +2930,6 @@
     ]
   },
   {
-    "id": 5040,
-    "title": "Liga MX, Apertura",
-    "slug": "juarez-vs-queretaro",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Liga MX, Apertura",
-      "category": "Football",
-      "teamA": "Juárez",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/201624/image",
-      "teamB": "Querétaro",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1951/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11621/image/dark",
-      "startTimeIST": "2026-10-31 06:30:00 IST",
-      "endTimeIST": "2026-10-31 08:50:00 IST",
-      "startTimeUTC": "2026/10/31 01:00:00 +0000",
-      "endTimeUTC": "2026/10/31 03:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "Link 1",
-        "type": "hls",
-        "url": "https://admin2.formaturamaxi.com.br/foxone7mx.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5041,
-    "title": "Liga MX, Apertura",
-    "slug": "san-luis-vs-atlas",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Liga MX, Apertura",
-      "category": "Football",
-      "teamA": "San Luis",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1950/image",
-      "teamB": "Atlas",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1949/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11621/image/dark",
-      "startTimeIST": "2026-10-31 06:30:00 IST",
-      "endTimeIST": "2026-10-31 08:50:00 IST",
-      "startTimeUTC": "2026/10/31 01:00:00 +0000",
-      "endTimeUTC": "2026/10/31 03:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "Link 1",
-        "type": "hls",
-        "url": "https://admin2.formaturamaxi.com.br/vixmx.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 3926,
     "title": "NFL REDZONE",
     "slug": "nfl-vs-nfl",
