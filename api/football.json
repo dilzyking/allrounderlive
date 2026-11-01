@@ -873,48 +873,6 @@
     ]
   },
   {
-    "id": 5153,
-    "title": "Ligue 1",
-    "slug": "marseille-vs-toulouse",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Ligue 1",
-      "category": "Football",
-      "teamA": "Marseille",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1641/image",
-      "teamB": "Toulouse",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1681/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
-      "startTimeIST": "2026-11-02 01:15:00 IST",
-      "endTimeIST": "2026-11-02 03:35:00 IST",
-      "startTimeUTC": "2026/11/01 19:45:00 +0000",
-      "endTimeUTC": "2026/11/01 22:05:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5154,
-    "title": "Serie A",
-    "slug": "juventus-vs-napoli",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Serie A",
-      "category": "Football",
-      "teamA": "Juventus",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2687/image",
-      "teamB": "Napoli",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2714/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "startTimeIST": "2026-11-02 01:15:00 IST",
-      "endTimeIST": "2026-11-02 03:35:00 IST",
-      "startTimeUTC": "2026/11/01 19:45:00 +0000",
-      "endTimeUTC": "2026/11/01 22:05:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 5155,
     "title": "LaLiga",
     "slug": "athletic-club-vs-real-sociedad",
@@ -1100,6 +1058,48 @@
       "endTimeIST": "2026-11-02 09:50:00 IST",
       "startTimeUTC": "2026/11/02 01:20:00 +0000",
       "endTimeUTC": "2026/11/02 04:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5153,
+    "title": "Ligue 1",
+    "slug": "marseille-vs-toulouse",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Ligue 1",
+      "category": "Football",
+      "teamA": "Marseille",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1641/image",
+      "teamB": "Toulouse",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1681/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
+      "startTimeIST": "2026-11-02 01:15:00 IST",
+      "endTimeIST": "2026-11-02 03:35:00 IST",
+      "startTimeUTC": "2026/11/01 19:45:00 +0000",
+      "endTimeUTC": "2026/11/01 22:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5154,
+    "title": "Serie A",
+    "slug": "juventus-vs-napoli",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Serie A",
+      "category": "Football",
+      "teamA": "Juventus",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2687/image",
+      "teamB": "Napoli",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2714/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
+      "startTimeIST": "2026-11-02 01:15:00 IST",
+      "endTimeIST": "2026-11-02 03:35:00 IST",
+      "startTimeUTC": "2026/11/01 19:45:00 +0000",
+      "endTimeUTC": "2026/11/01 22:05:00 +0000"
     },
     "dashStreams": []
   },
@@ -2519,128 +2519,6 @@
         "title": "LOW QUALITY",
         "type": "hls",
         "url": "http://193.47.62.59/hls/JOOO.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5106,
-    "title": "Serie A",
-    "slug": "milan-vs-inter",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Serie A",
-      "category": "Football",
-      "teamA": "Milan",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2692/image",
-      "teamB": "Inter",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2697/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "startTimeIST": "2026-11-01 01:15:00 IST",
-      "endTimeIST": "2026-11-01 03:35:00 IST",
-      "startTimeUTC": "2026/10/31 19:45:00 +0000",
-      "endTimeUTC": "2026/10/31 22:05:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/rzve3vnoqx/out/v1/ad3af4afccef4f8badb6197b1251946f/cenc.mpd?aws_sessionId=69a5a625-bd9b-453c-a7e4-f71bee9157cd",
-        "key": "1bc15cebdb8bbe98ef47749f14c6b0aa:2ed5134c3546a495a8a3216d2c3fb294"
-      },
-      {
-        "title": "FUBO SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/mr9nvpnlnt/out/v1/d7f4f63d6d22400abc3e83956523a283/cenc.mpd?aws_sessionId=0d38cff8-a52b-40f8-82f7-c3e38d4707e7",
-        "key": "fa9f124c42c3a3027f6503d75200d920:786effbbba3028a34074ecfe73f2c33d"
-      },
-      {
-        "title": "beIN ENGLISH FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
-        "key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
-      },
-      {
-        "title": "PEACOCK FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/ydwc6xkfsq/out/v1/d625df59f7f748a0a033bda0763d34d1/cenc.mpd?aws_sessionId=80bc2f57-ee7f-4035-875b-15e287e3e000",
-        "key": "1bc15cebdb8bbe98ef47749f14c6b0aa:2ed5134c3546a495a8a3216d2c3fb294"
-      },
-      {
-        "title": "FUBO SPORTS ALT",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd",
-        "key": "42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1"
-      },
-      {
-        "title": "CBS SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-        "key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-      },
-      {
-        "title": "SPORT 1 CZ FHD",
-        "type": "dash",
-        "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-        "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4549139.m3u8?txSecret=0c13e3e79608398e94ce1e9b1399e5a6&txTime=6AE65863",
-        "key": null
-      },
-      {
-        "title": "LOW SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.55/hls/LLLL.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5108,
-    "title": "Ligue 1",
-    "slug": "troyes-vs-le-mans",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Ligue 1",
-      "category": "Football",
-      "teamA": "Troyes",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1652/image",
-      "teamB": "Le Mans",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1672/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
-      "startTimeIST": "2026-11-01 01:15:00 IST",
-      "endTimeIST": "2026-11-01 03:35:00 IST",
-      "startTimeUTC": "2026/10/31 19:45:00 +0000",
-      "endTimeUTC": "2026/10/31 22:05:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "beIN SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xnypecepsc/out/v1/0cb42f7039694b3199d1cd2cba7a5ddb/cenc.mpd",
-        "key": "6fb0ddc7e384e78dea1868457c21fc7d:88f26e97ed7f41070644f8519fd4d2ae"
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4550922.m3u8?txSecret=2ff90cc5f71cc03afd026be3d1ff0caf&txTime=6AE657CC",
-        "key": null
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://www.rtmpcdn.com/live/9805701a-3ffa-43f7-89b8-54a3b83cd40a.m3u8",
-        "key": null
-      },
-      {
-        "title": "LOW SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.59/hls/EKKKAAAAAA.m3u8",
         "key": null
       }
     ]
