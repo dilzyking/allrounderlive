@@ -813,7 +813,7 @@
     "title": "Serie A",
     "slug": "lecce-vs-genoa",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Serie A",
       "category": "Football",
@@ -3007,64 +3007,6 @@
         "title": "LOW QUALITY",
         "type": "hls",
         "url": "http://193.47.62.59/hls/GAGAGAQQQQ.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5097,
-    "title": "Serie A",
-    "slug": "udinese-vs-roma",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Serie A",
-      "category": "Football",
-      "teamA": "Udinese",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2695/image",
-      "teamB": "Roma",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2702/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "startTimeIST": "2026-10-31 22:30:00 IST",
-      "endTimeIST": "2026-11-01 00:50:00 IST",
-      "startTimeUTC": "2026/10/31 17:00:00 +0000",
-      "endTimeUTC": "2026/10/31 19:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/mxso6scrtg/out/v1/b3544f9833f0429894701c32d0fc024b/cenc.mpd?aws_sessionId=495fdb18-c069-4263-b9ff-728319ab0389",
-        "key": "18d174570a81b42cff1f6fb6e19106c1:7a0d9afbc556089281a73408594729fe"
-      },
-      {
-        "title": "FUBO SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/jjywhzonb4/out/v1/312cb5388cd94f7c9c257e86819368e0/cenc.mpd?aws_sessionId=5ac3f0f3-e149-4960-88d9-914f3e43e2ef",
-        "key": "b82373bc6113efa11c8abe02afa5a180:1b8a7c388b073e9adc112d605ae34570"
-      },
-      {
-        "title": "beIN ENGLISH FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
-        "key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
-      },
-      {
-        "title": "SPORT 1 CZ",
-        "type": "dash",
-        "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-        "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-      },
-      {
-        "title": "PARAMOUNT+ HD",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/58941/load-playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "LOW SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.59/hls/SSSSQQQQQ.m3u8",
         "key": null
       }
     ]
