@@ -441,7 +441,20 @@
       "startTimeUTC": "2026/11/01 11:15:00 +0000",
       "endTimeUTC": "2026/11/01 13:35:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.50/hls/AVVVQAAAAQQQQ.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 4454,
