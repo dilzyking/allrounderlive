@@ -435,186 +435,6 @@
     ]
   },
   {
-    "id": 5132,
-    "title": "Serie A",
-    "slug": "lazio-vs-cagliari",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Serie A",
-      "category": "Football",
-      "teamA": "Lazio",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2699/image",
-      "teamB": "Cagliari",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2719/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "startTimeIST": "2026-11-01 19:30:00 IST",
-      "endTimeIST": "2026-11-01 21:50:00 IST",
-      "startTimeUTC": "2026/11/01 14:00:00 +0000",
-      "endTimeUTC": "2026/11/01 16:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/sg26hcq4jb/out/v1/cbefa7d3aa044a42b3fbb2d9f0ed8771/cenc.mpd?aws_sessionId=6f72bd41-cc05-4448-bdc8-0110b089a955",
-        "key": "65bf781cc51efe95158616c012821dee:1fdadf8f65dc2dee9de4bd299a219263"
-      },
-      {
-        "title": "FUBO SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/fm0tdlxrfq/out/v1/ee234bf8b2854366834b938725860805/cenc.mpd?aws_sessionId=e9687835-fab1-4436-a8d9-38800aa116ef",
-        "key": "4d6c44925ac7c05add19ac2365681e5b:09602294e18cd9c2aa9843fe0fdbc160"
-      }
-    ]
-  },
-  {
-    "id": 5133,
-    "title": "Serie A",
-    "slug": "frosinone-vs-torino",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Serie A",
-      "category": "Football",
-      "teamA": "Frosinone",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2801/image",
-      "teamB": "Torino",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2696/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "startTimeIST": "2026-11-01 19:30:00 IST",
-      "endTimeIST": "2026-11-01 21:50:00 IST",
-      "startTimeUTC": "2026/11/01 14:00:00 +0000",
-      "endTimeUTC": "2026/11/01 16:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/z7k5coaglr/out/v1/f798f09d4b6b44de82700e47ff0207f6/cenc.mpd?aws_sessionId=d30fa58d-89fd-47ee-9f14-3bb210aa2b9e",
-        "key": "f905d936f4562b52ee955d3ff3dcd06c:65f555c4104074c2f2d2fe7a9f685ed5"
-      },
-      {
-        "title": "FUBO SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/yukpgzjukf/out/v1/e9584c6de0d145a9ac1b36ddf7795081/cenc.mpd?aws_sessionId=882cb45b-b0fd-4d57-999a-97cbc604a9b0",
-        "key": "e09a0900100e5ac77d4adb45a602a86b:7da511a38053d3e150d38f47ac7d8298"
-      }
-    ]
-  },
-  {
-    "id": 5134,
-    "title": "Ligue 1",
-    "slug": "strasbourg-vs-auxerre",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Ligue 1",
-      "category": "Football",
-      "teamA": "Strasbourg",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1659/image",
-      "teamB": "Auxerre",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1646/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
-      "startTimeIST": "2026-11-01 19:30:00 IST",
-      "endTimeIST": "2026-11-01 21:50:00 IST",
-      "startTimeUTC": "2026/11/01 14:00:00 +0000",
-      "endTimeUTC": "2026/11/01 16:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "beIN SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd?aws_sessionId=61680024-9246-43b6-8499-8369b0070330",
-        "key": "74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c"
-      }
-    ]
-  },
-  {
-    "id": 5135,
-    "title": "Women's Super League",
-    "slug": "birmingham-vs-tottenham",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Women's Super League",
-      "category": "Football",
-      "teamA": "Birmingham",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/66766/image",
-      "teamB": "Tottenham",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/273547/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/1044/image/dark",
-      "startTimeIST": "2026-11-01 19:30:00 IST",
-      "endTimeIST": "2026-11-01 21:50:00 IST",
-      "startTimeUTC": "2026/11/01 14:00:00 +0000",
-      "endTimeUTC": "2026/11/01 16:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/w9tlt39b4c/out/v1/e5537d935f1d4da49601b668c679a1b5/cenc.mpd?aws_sessionId=eb49c2d6-2c9a-4ec3-8d8a-ead06e528cdf",
-        "key": "0e4900dc17fb1dc015a949303139ce12:f097bd28477ea73824d2b3c6b747f30d"
-      }
-    ]
-  },
-  {
-    "id": 5136,
-    "title": "Women's Super League",
-    "slug": "brighton-vs-crystal-palace",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Women's Super League",
-      "category": "Football",
-      "teamA": "Brighton",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/266376/image",
-      "teamB": "Crystal Palace",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/234204/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/1044/image/dark",
-      "startTimeIST": "2026-11-01 19:30:00 IST",
-      "endTimeIST": "2026-11-01 21:50:00 IST",
-      "startTimeUTC": "2026/11/01 14:00:00 +0000",
-      "endTimeUTC": "2026/11/01 16:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/qp1tgbcynh/out/v1/84172b48b00945db9fa62fbfcb521f3d/cenc.mpd?aws_sessionId=6cdd27b8-ea14-4284-a9fe-ad5a1e20d6fe",
-        "key": "c37758ed86c66a3bf2bec0c29e7f6491:e84a1d94810130dad27a508b60ba091b"
-      }
-    ]
-  },
-  {
-    "id": 5137,
-    "title": "Women's Super League",
-    "slug": "west-ham-vs-liverpool",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Women's Super League",
-      "category": "Football",
-      "teamA": "West Ham",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/297802/image",
-      "teamB": "Liverpool",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/66774/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/1044/image/dark",
-      "startTimeIST": "2026-11-01 19:30:00 IST",
-      "endTimeIST": "2026-11-01 21:50:00 IST",
-      "startTimeUTC": "2026/11/01 14:00:00 +0000",
-      "endTimeUTC": "2026/11/01 16:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/ndctoimkk0/out/v1/c5b85559aa564641858f1bce599ddc08/cenc.mpd?aws_sessionId=91f3a046-0165-4104-91af-ae759517a396",
-        "key": "e5d2051a759dddf27e15405a86c935e4:3d07efeb5ad276d98f33675cc149d86c"
-      }
-    ]
-  },
-  {
     "id": 5138,
     "title": "Bundesliga",
     "slug": "union-berlin-vs-koln",
@@ -1475,6 +1295,186 @@
       "endTimeUTC": "2026/11/02 04:20:00 +0000"
     },
     "dashStreams": []
+  },
+  {
+    "id": 5132,
+    "title": "Serie A",
+    "slug": "lazio-vs-cagliari",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Serie A",
+      "category": "Football",
+      "teamA": "Lazio",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2699/image",
+      "teamB": "Cagliari",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2719/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
+      "startTimeIST": "2026-11-01 19:30:00 IST",
+      "endTimeIST": "2026-11-01 21:50:00 IST",
+      "startTimeUTC": "2026/11/01 14:00:00 +0000",
+      "endTimeUTC": "2026/11/01 16:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/sg26hcq4jb/out/v1/cbefa7d3aa044a42b3fbb2d9f0ed8771/cenc.mpd?aws_sessionId=6f72bd41-cc05-4448-bdc8-0110b089a955",
+        "key": "65bf781cc51efe95158616c012821dee:1fdadf8f65dc2dee9de4bd299a219263"
+      },
+      {
+        "title": "FUBO SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/fm0tdlxrfq/out/v1/ee234bf8b2854366834b938725860805/cenc.mpd?aws_sessionId=e9687835-fab1-4436-a8d9-38800aa116ef",
+        "key": "4d6c44925ac7c05add19ac2365681e5b:09602294e18cd9c2aa9843fe0fdbc160"
+      }
+    ]
+  },
+  {
+    "id": 5133,
+    "title": "Serie A",
+    "slug": "frosinone-vs-torino",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Serie A",
+      "category": "Football",
+      "teamA": "Frosinone",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2801/image",
+      "teamB": "Torino",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2696/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
+      "startTimeIST": "2026-11-01 19:30:00 IST",
+      "endTimeIST": "2026-11-01 21:50:00 IST",
+      "startTimeUTC": "2026/11/01 14:00:00 +0000",
+      "endTimeUTC": "2026/11/01 16:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/z7k5coaglr/out/v1/f798f09d4b6b44de82700e47ff0207f6/cenc.mpd?aws_sessionId=d30fa58d-89fd-47ee-9f14-3bb210aa2b9e",
+        "key": "f905d936f4562b52ee955d3ff3dcd06c:65f555c4104074c2f2d2fe7a9f685ed5"
+      },
+      {
+        "title": "FUBO SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/yukpgzjukf/out/v1/e9584c6de0d145a9ac1b36ddf7795081/cenc.mpd?aws_sessionId=882cb45b-b0fd-4d57-999a-97cbc604a9b0",
+        "key": "e09a0900100e5ac77d4adb45a602a86b:7da511a38053d3e150d38f47ac7d8298"
+      }
+    ]
+  },
+  {
+    "id": 5134,
+    "title": "Ligue 1",
+    "slug": "strasbourg-vs-auxerre",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Ligue 1",
+      "category": "Football",
+      "teamA": "Strasbourg",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1659/image",
+      "teamB": "Auxerre",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1646/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
+      "startTimeIST": "2026-11-01 19:30:00 IST",
+      "endTimeIST": "2026-11-01 21:50:00 IST",
+      "startTimeUTC": "2026/11/01 14:00:00 +0000",
+      "endTimeUTC": "2026/11/01 16:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "beIN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd?aws_sessionId=61680024-9246-43b6-8499-8369b0070330",
+        "key": "74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c"
+      }
+    ]
+  },
+  {
+    "id": 5135,
+    "title": "Women's Super League",
+    "slug": "birmingham-vs-tottenham",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Women's Super League",
+      "category": "Football",
+      "teamA": "Birmingham",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/66766/image",
+      "teamB": "Tottenham",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/273547/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/1044/image/dark",
+      "startTimeIST": "2026-11-01 19:30:00 IST",
+      "endTimeIST": "2026-11-01 21:50:00 IST",
+      "startTimeUTC": "2026/11/01 14:00:00 +0000",
+      "endTimeUTC": "2026/11/01 16:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/w9tlt39b4c/out/v1/e5537d935f1d4da49601b668c679a1b5/cenc.mpd?aws_sessionId=eb49c2d6-2c9a-4ec3-8d8a-ead06e528cdf",
+        "key": "0e4900dc17fb1dc015a949303139ce12:f097bd28477ea73824d2b3c6b747f30d"
+      }
+    ]
+  },
+  {
+    "id": 5136,
+    "title": "Women's Super League",
+    "slug": "brighton-vs-crystal-palace",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Women's Super League",
+      "category": "Football",
+      "teamA": "Brighton",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/266376/image",
+      "teamB": "Crystal Palace",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/234204/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/1044/image/dark",
+      "startTimeIST": "2026-11-01 19:30:00 IST",
+      "endTimeIST": "2026-11-01 21:50:00 IST",
+      "startTimeUTC": "2026/11/01 14:00:00 +0000",
+      "endTimeUTC": "2026/11/01 16:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/qp1tgbcynh/out/v1/84172b48b00945db9fa62fbfcb521f3d/cenc.mpd?aws_sessionId=6cdd27b8-ea14-4284-a9fe-ad5a1e20d6fe",
+        "key": "c37758ed86c66a3bf2bec0c29e7f6491:e84a1d94810130dad27a508b60ba091b"
+      }
+    ]
+  },
+  {
+    "id": 5137,
+    "title": "Women's Super League",
+    "slug": "west-ham-vs-liverpool",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Women's Super League",
+      "category": "Football",
+      "teamA": "West Ham",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/297802/image",
+      "teamB": "Liverpool",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/66774/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/1044/image/dark",
+      "startTimeIST": "2026-11-01 19:30:00 IST",
+      "endTimeIST": "2026-11-01 21:50:00 IST",
+      "startTimeUTC": "2026/11/01 14:00:00 +0000",
+      "endTimeUTC": "2026/11/01 16:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/ndctoimkk0/out/v1/c5b85559aa564641858f1bce599ddc08/cenc.mpd?aws_sessionId=91f3a046-0165-4104-91af-ae759517a396",
+        "key": "e5d2051a759dddf27e15405a86c935e4:3d07efeb5ad276d98f33675cc149d86c"
+      }
+    ]
   },
   {
     "id": 5130,
@@ -3823,34 +3823,6 @@
         "type": "hls",
         "url": "http://193.47.62.44/hls/kkkkAAAAA.m3u8",
         "key": null
-      }
-    ]
-  },
-  {
-    "id": 5068,
-    "title": "Serie A",
-    "slug": "bologna-vs-monza",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Serie A",
-      "category": "Football",
-      "teamA": "Bologna",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2685/image",
-      "teamB": "Monza",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2729/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "startTimeIST": "2026-10-31 19:30:00 IST",
-      "endTimeIST": "2026-10-31 21:50:00 IST",
-      "startTimeUTC": "2026/10/31 14:00:00 +0000",
-      "endTimeUTC": "2026/10/31 16:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/kox3zctdlc/out/v1/69e4face0f4147aab7f9e8127b888b30/cenc.mpd?aws_sessionId=f592f3b2-5b4f-4f9f-9667-229f43c333c4",
-        "key": "cc6fc0a19334bcf6f1f13303d6eadf59:b0fe88983e13b84219657709474b64fc"
       }
     ]
   },
