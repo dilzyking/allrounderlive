@@ -919,7 +919,14 @@
       "startTimeUTC": "2026/11/01 13:30:00 +0000",
       "endTimeUTC": "2026/11/01 15:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.55/hls/YOOOAAAA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5131,
@@ -940,7 +947,14 @@
       "startTimeUTC": "2026/11/01 13:30:00 +0000",
       "endTimeUTC": "2026/11/01 15:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.55/hls/YOOOAAAAA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5132,
