@@ -973,7 +973,20 @@
       "startTimeUTC": "2026/11/01 14:30:00 +0000",
       "endTimeUTC": "2026/11/01 16:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "DAZN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xl00zoj5d6/out/v1/61e522c484fc4c4c91edfc3079455477/cenc.mpd",
+        "key": "9442939e77cef9646b9598b373ebffe4:1dc1b4dc6f97f9b5fefef1dee17a7cb2"
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.41/hls/R777AAAA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5139,
@@ -994,7 +1007,20 @@
       "startTimeUTC": "2026/11/01 14:30:00 +0000",
       "endTimeUTC": "2026/11/01 16:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/lq6k74mslj/out/v1/eabff88c0f9147ecb5c5fb47855f285b/cenc.mpd?aws_sessionId=7cace465-ef37-4404-9844-6c3533c4ee17",
+        "key": "b5341abc7b06077de81b52448f9e873e:cb169a61f3f764f1d4b4dc5c785dbbf9"
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.41/hls/R777A.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5140,
