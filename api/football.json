@@ -439,7 +439,7 @@
     "title": "2. Bundesliga",
     "slug": "st-pauli-vs-nurnberg",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "2. Bundesliga",
       "category": "Football",
@@ -473,7 +473,7 @@
     "title": "2. Bundesliga",
     "slug": "furth-vs-kiel",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "2. Bundesliga",
       "category": "Football",
@@ -507,7 +507,7 @@
     "title": "2. Bundesliga",
     "slug": "hannover-vs-dresden",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "2. Bundesliga",
       "category": "Football",
@@ -979,6 +979,12 @@
         "type": "dash",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xl00zoj5d6/out/v1/61e522c484fc4c4c91edfc3079455477/cenc.mpd",
         "key": "9442939e77cef9646b9598b373ebffe4:1dc1b4dc6f97f9b5fefef1dee17a7cb2"
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/7f25ea19-5ab7-4e0f-977d-c420c02b2000.m3u8",
+        "key": null
       },
       {
         "title": "SD SERVER",
@@ -3876,196 +3882,6 @@
         "title": "SD SERVER",
         "type": "hls",
         "url": "http://193.47.62.44/hls/VUUU.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5057,
-    "title": "Premier League",
-    "slug": "chelsea-vs-man-utd",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Premier League",
-      "category": "Football",
-      "teamA": "Chelsea",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/38/image",
-      "teamB": "Man Utd",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/35/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
-      "startTimeIST": "2026-10-31 18:00:00 IST",
-      "endTimeIST": "2026-10-31 20:20:00 IST",
-      "startTimeUTC": "2026/10/31 12:30:00 +0000",
-      "endTimeUTC": "2026/10/31 14:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "TNT SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
-        "key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
-      },
-      {
-        "title": "FUBO SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd",
-        "key": "42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1"
-      },
-      {
-        "title": "SKY SPORTS FHD",
-        "type": "hls",
-        "url": "https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=Dxx13S3dlOjavbRFqRtQ6g&e=2075285630&scheme=",
-        "key": null
-      },
-      {
-        "title": "CazéTV FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
-        "key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
-      },
-      {
-        "title": "USA NETWORK HD",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/58909/load-playlist-multi?&.m3u8",
-        "key": null
-      },
-      {
-        "title": "FAST SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4558656.m3u8?txSecret=4f2dbbe823b9cb8a4f58846eb91afaf4&txTime=6AE5F202",
-        "key": null
-      },
-      {
-        "title": "beIN ARABIC FHD",
-        "type": "hls",
-        "url": "https://live-cdn.ryazanslah3.space/hls/bein1.m3u8?",
-        "key": null
-      },
-      {
-        "title": "FAST SERVER+",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel1.m3u8?",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5061,
-    "title": "Championship",
-    "slug": "stoke-vs-preston",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "Stoke",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/29/image",
-      "teamB": "Preston",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/21/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-10-31 18:00:00 IST",
-      "endTimeIST": "2026-10-31 20:20:00 IST",
-      "startTimeUTC": "2026/10/31 12:30:00 +0000",
-      "endTimeUTC": "2026/10/31 14:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/4g0osmwmot/out/v1/82ab87f0b6d74273b070ba3545052b17/cenc.mpd?aws_sessionId=111e164e-8aa0-4302-a447-22ae0931692d",
-        "key": "3e7fb9ca2f31434268097f1c71b638e0:10f38076c5b6ea3f524c29e1cd8c3762"
-      },
-      {
-        "title": "beIN ENGLISH FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-        "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-      },
-      {
-        "title": "FAST SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4563655.m3u8?txSecret=4e1422c2a331ea90cc26061d1478446c&txTime=6AE5F2B6",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/ZZZZ.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5062,
-    "title": "Championship",
-    "slug": "lincoln-vs-birmingham",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "Lincoln",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/92/image",
-      "teamB": "Birmingham",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/9/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-10-31 18:00:00 IST",
-      "endTimeIST": "2026-10-31 20:20:00 IST",
-      "startTimeUTC": "2026/10/31 12:30:00 +0000",
-      "endTimeUTC": "2026/10/31 14:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "CBS SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-        "key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-      },
-      {
-        "title": "FAST SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4563650.m3u8?txSecret=ee1ee0f81a298325e3a34e8a391d6918&txTime=6AE5F27A",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/goooAAAAQQQQ.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5063,
-    "title": "Championship",
-    "slug": "norwich-vs-watford",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "Norwich",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/263/image",
-      "teamB": "Watford",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/24/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-10-31 18:00:00 IST",
-      "endTimeIST": "2026-10-31 20:20:00 IST",
-      "startTimeUTC": "2026/10/31 12:30:00 +0000",
-      "endTimeUTC": "2026/10/31 14:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/goooAAAAQQQQA.m3u8",
-        "key": null
-      },
-      {
-        "title": "FAST SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/sd-1-4563653.m3u8?txSecret=6e860ad97df936f508f6f864e758918f&txTime=6AE5F04F",
         "key": null
       }
     ]
