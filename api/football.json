@@ -793,7 +793,37 @@
         "key": null
       },
       {
-        "title": "SD SERVER",
+        "title": "PEACOCK HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59049/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "NBC SPORTS HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59052/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "LIVE SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4558679.m3u8?txSecret=d3d38ce861e42b8b355158244e78a33c&txTime=6AE77DD4",
+        "key": null
+      },
+      {
+        "title": "HD QUALITY",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/6da4b11e-fef6-4773-8c01-a4d9ef3c8845.m3u8",
+        "key": null
+      },
+      {
+        "title": "LIVE SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel1.m3u8?",
+        "key": null
+      },
+      {
+        "title": "LOW QUALITY",
         "type": "hls",
         "url": "http://193.47.62.50/hls/G333a.m3u8",
         "key": null
@@ -865,7 +895,32 @@
       "startTimeUTC": "2026/11/01 17:00:00 +0000",
       "endTimeUTC": "2026/11/01 19:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "beIN ENGLISH FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
+        "key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
+      },
+      {
+        "title": "CBS SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
+        "key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+      },
+      {
+        "title": "CazéTV FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
+        "key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
+      },
+      {
+        "title": "SPORT 1 CZ FHD",
+        "type": "dash",
+        "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+        "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+      }
+    ]
   },
   {
     "id": 5149,
