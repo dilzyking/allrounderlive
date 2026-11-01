@@ -374,62 +374,6 @@
     ]
   },
   {
-    "id": 5120,
-    "title": "Liga MX, Apertura",
-    "slug": "monterrey-vs-tijuana",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Liga MX, Apertura",
-      "category": "Football",
-      "teamA": "Monterrey",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1932/image",
-      "teamB": "Tijuana",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/36525/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11621/image/dark",
-      "startTimeIST": "2026-11-01 06:35:00 IST",
-      "endTimeIST": "2026-11-01 08:55:00 IST",
-      "startTimeUTC": "2026/11/01 01:05:00 +0000",
-      "endTimeUTC": "2026/11/01 03:25:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "Link 1",
-        "type": "hls",
-        "url": "http://193.47.62.55/hls/JJJJAAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5119,
-    "title": "Liga MX, Apertura",
-    "slug": "guadalajara-vs-atlante",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Liga MX, Apertura",
-      "category": "Football",
-      "teamA": "Guadalajara",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1938/image",
-      "teamB": "Atlante",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1943/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11621/image/dark",
-      "startTimeIST": "2026-11-01 06:37:00 IST",
-      "endTimeIST": "2026-11-01 08:57:00 IST",
-      "startTimeUTC": "2026/11/01 01:07:00 +0000",
-      "endTimeUTC": "2026/11/01 03:27:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "Link 1",
-        "type": "hls",
-        "url": "https://admin2.formaturamaxi.com.br/primemx.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5114,
     "title": "Liga MX, Apertura",
     "slug": "america-vs-toluca",
@@ -491,6 +435,62 @@
       "endTimeUTC": "2026/11/01 10:20:00 +0000"
     },
     "dashStreams": []
+  },
+  {
+    "id": 5119,
+    "title": "Liga MX, Apertura",
+    "slug": "guadalajara-vs-atlante",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Liga MX, Apertura",
+      "category": "Football",
+      "teamA": "Guadalajara",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1938/image",
+      "teamB": "Atlante",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1943/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11621/image/dark",
+      "startTimeIST": "2026-11-01 06:37:00 IST",
+      "endTimeIST": "2026-11-01 08:57:00 IST",
+      "startTimeUTC": "2026/11/01 01:07:00 +0000",
+      "endTimeUTC": "2026/11/01 03:27:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "Link 1",
+        "type": "hls",
+        "url": "https://admin2.formaturamaxi.com.br/primemx.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5120,
+    "title": "Liga MX, Apertura",
+    "slug": "monterrey-vs-tijuana",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Liga MX, Apertura",
+      "category": "Football",
+      "teamA": "Monterrey",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1932/image",
+      "teamB": "Tijuana",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/36525/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11621/image/dark",
+      "startTimeIST": "2026-11-01 06:35:00 IST",
+      "endTimeIST": "2026-11-01 08:55:00 IST",
+      "startTimeUTC": "2026/11/01 01:05:00 +0000",
+      "endTimeUTC": "2026/11/01 03:25:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "Link 1",
+        "type": "hls",
+        "url": "http://193.47.62.55/hls/JJJJAAA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5118,
