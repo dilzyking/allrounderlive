@@ -3891,34 +3891,6 @@
     ]
   },
   {
-    "id": 5038,
-    "title": "A-League Men",
-    "slug": "melbourne-city-vs-sydney-fc",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "A-League Men",
-      "category": "Football",
-      "teamA": "Melbourne City",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/42210/image",
-      "teamB": "Sydney FC",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/5971/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/136/image/dark",
-      "startTimeIST": "2026-10-31 11:30:00 IST",
-      "endTimeIST": "2026-10-31 13:50:00 IST",
-      "startTimeUTC": "2026/10/31 06:00:00 +0000",
-      "endTimeUTC": "2026/10/31 08:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "TNT SPORTS 3",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd",
-        "key": "cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca"
-      }
-    ]
-  },
-  {
     "id": 3926,
     "title": "NFL REDZONE",
     "slug": "nfl-vs-nfl",
