@@ -3897,40 +3897,6 @@
     ]
   },
   {
-    "id": 5065,
-    "title": "Women's Super League",
-    "slug": "everton-vs-man-utd",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Women's Super League",
-      "category": "Football",
-      "teamA": "Everton",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/36704/image",
-      "teamB": "Man Utd",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/301455/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/1044/image/dark",
-      "startTimeIST": "2026-10-31 18:15:00 IST",
-      "endTimeIST": "2026-10-31 20:35:00 IST",
-      "startTimeUTC": "2026/10/31 12:45:00 +0000",
-      "endTimeUTC": "2026/10/31 15:05:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SKY SPORTS FHD",
-        "type": "hls",
-        "url": "https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=Dxx13S3dlOjavbRFqRtQ6g&e=2075285630&scheme=",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/VUUU.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 3926,
     "title": "NFL REDZONE",
     "slug": "nfl-vs-nfl",
