@@ -1,51 +1,5 @@
 [
   {
-    "id": 4896,
-    "title": "Nepal Premier League",
-    "slug": "npl-vs-npl",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Nepal Premier League",
-      "category": "Cricket",
-      "teamA": "NPL",
-      "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAV3dcOxi7602i_xcqoTE6eoiGVCPJFo6uZwtDkDK-g&s=10",
-      "teamB": "NPL",
-      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAV3dcOxi7602i_xcqoTE6eoiGVCPJFo6uZwtDkDK-g&s=10",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAV3dcOxi7602i_xcqoTE6eoiGVCPJFo6uZwtDkDK-g&s=10",
-      "startTimeIST": "2026-11-01 16:45:00 IST",
-      "endTimeIST": "2026-11-01 21:15:00 IST",
-      "startTimeUTC": "2026/11/01 11:15:00 +0000",
-      "endTimeUTC": "2026/11/01 15:45:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "NPL LIVE HD",
-        "type": "hls",
-        "url": "https://spowncdn.bondsplive.online/nplok/logo.png?&e=.m3u8",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://c8.vfruitfairy.com/NPLT20/index.m3u8",
-        "key": null
-      },
-      {
-        "title": "HIMALAYA HD",
-        "type": "hls",
-        "url": "https://spchx.bondsplive.online/414167/logosp.webp?&e=.m3u8",
-        "key": null
-      },
-      {
-        "title": "FANCODE (IND)",
-        "type": "hls",
-        "url": "https://dai-fancode.pages.dev/mumbai/4250363_english_hls_3c429d187460404_1ta-di_h264/index.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 3934,
     "title": "ICC World Test Championship",
     "slug": "sa-vs-aus",
@@ -221,6 +175,52 @@
         "title": "FANCODE (IND)",
         "type": "hls",
         "url": "https://dai-fancode.pages.dev/mumbai/4250526_english_hls_d3c070eb3076082_1ta-di_h264/index.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 4896,
+    "title": "Nepal Premier League",
+    "slug": "npl-vs-npl",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Nepal Premier League",
+      "category": "Cricket",
+      "teamA": "NPL",
+      "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAV3dcOxi7602i_xcqoTE6eoiGVCPJFo6uZwtDkDK-g&s=10",
+      "teamB": "NPL",
+      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAV3dcOxi7602i_xcqoTE6eoiGVCPJFo6uZwtDkDK-g&s=10",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAV3dcOxi7602i_xcqoTE6eoiGVCPJFo6uZwtDkDK-g&s=10",
+      "startTimeIST": "2026-11-01 16:45:00 IST",
+      "endTimeIST": "2026-11-01 21:15:00 IST",
+      "startTimeUTC": "2026/11/01 11:15:00 +0000",
+      "endTimeUTC": "2026/11/01 15:45:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "NPL LIVE HD",
+        "type": "hls",
+        "url": "https://spowncdn.bondsplive.online/nplok/logo.png?&e=.m3u8",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://c8.vfruitfairy.com/NPLT20/index.m3u8",
+        "key": null
+      },
+      {
+        "title": "HIMALAYA HD",
+        "type": "hls",
+        "url": "https://spchx.bondsplive.online/414167/logosp.webp?&e=.m3u8",
+        "key": null
+      },
+      {
+        "title": "FANCODE (IND)",
+        "type": "hls",
+        "url": "https://dai-fancode.pages.dev/mumbai/4250363_english_hls_3c429d187460404_1ta-di_h264/index.m3u8",
         "key": null
       }
     ]
