@@ -521,7 +521,14 @@
       "startTimeUTC": "2026/11/01 11:30:00 +0000",
       "endTimeUTC": "2026/11/01 13:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/wwmbmktacw/out/v1/c6b561b85d374da4a9bcf42de192bf99/cenc.mpd?aws_sessionId=9c9fa417-eb7a-47ad-8343-5504e944771c",
+        "key": "9afba5a3c123b275d1ecbdcb7002e530:fb47476d2e7ec4cc7987261088b555e8"
+      }
+    ]
   },
   {
     "id": 5119,
