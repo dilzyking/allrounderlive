@@ -897,6 +897,12 @@
         "type": "dash",
         "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
         "key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.55/hls/KRRRAAAAAQQQA.m3u8",
+        "key": null
       }
     ]
   },
