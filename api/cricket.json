@@ -90,12 +90,6 @@
     },
     "dashStreams": [
       {
-        "title": "WILLOW FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/dsqjzanbb8/out/v1/dd0f18dcbbfe4f329dee9a0295412322/cenc.mpd",
-        "key": "47882cfe843d91ab3032dfff9fa1b468:e249d2d8555ba8cc75431a25749e8822"
-      },
-      {
         "title": "TAPMAD FHD",
         "type": "hls",
         "url": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8",
