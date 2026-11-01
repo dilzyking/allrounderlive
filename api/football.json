@@ -417,19 +417,19 @@
       {
         "title": "PRIME VIDEO FHD",
         "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/wyy9kwu5ej/out/v1/5e9aee810f8944ecaca949b77dc8add1/cenc.mpd",
-        "key": "da1e5d08adf948ea4d58b42dc350af37:c08f92ace66a2b8547b64efefba10a3f"
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ebirnvewph/out/v1/2e1afb64f23b48a5acac9886327c2b8c/cenc.mpd",
+        "key": "c57fbe97649816539cf25b0c95d37d9d:ddf4da52ec2358bdf08a6fc60c4d1bc3"
       },
       {
         "title": "SonyLiv (ENG)",
         "type": "hls",
-        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120299/footlive0111/ENG/std_lrh-800300010.m3u8",
+        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2018458/footlive0111/ENG/std_lrh-800300010.m3u8",
         "key": null
       },
       {
         "title": "SonyLiv (HIN)",
         "type": "hls",
-        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120301/footlive0111/HIN/std_lrh-800300010.m3u8",
+        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2022316/footlive0111/HIN/std_lrh-800300010.m3u8",
         "key": null
       }
     ]
@@ -439,7 +439,7 @@
     "title": "Women's Super League",
     "slug": "london-city-vs-man-city",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Women's Super League",
       "category": "Football",
@@ -467,7 +467,7 @@
     "title": "Women's Super League",
     "slug": "arsenal-vs-aston-villa",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Women's Super League",
       "category": "Football",
@@ -855,7 +855,20 @@
       "startTimeUTC": "2026/11/01 14:00:00 +0000",
       "endTimeUTC": "2026/11/01 16:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/sg26hcq4jb/out/v1/cbefa7d3aa044a42b3fbb2d9f0ed8771/cenc.mpd?aws_sessionId=6f72bd41-cc05-4448-bdc8-0110b089a955",
+        "key": "65bf781cc51efe95158616c012821dee:1fdadf8f65dc2dee9de4bd299a219263"
+      },
+      {
+        "title": "FUBO SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/fm0tdlxrfq/out/v1/ee234bf8b2854366834b938725860805/cenc.mpd?aws_sessionId=e9687835-fab1-4436-a8d9-38800aa116ef",
+        "key": "4d6c44925ac7c05add19ac2365681e5b:09602294e18cd9c2aa9843fe0fdbc160"
+      }
+    ]
   },
   {
     "id": 5133,
@@ -876,7 +889,20 @@
       "startTimeUTC": "2026/11/01 14:00:00 +0000",
       "endTimeUTC": "2026/11/01 16:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/z7k5coaglr/out/v1/f798f09d4b6b44de82700e47ff0207f6/cenc.mpd?aws_sessionId=d30fa58d-89fd-47ee-9f14-3bb210aa2b9e",
+        "key": "f905d936f4562b52ee955d3ff3dcd06c:65f555c4104074c2f2d2fe7a9f685ed5"
+      },
+      {
+        "title": "FUBO SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/yukpgzjukf/out/v1/e9584c6de0d145a9ac1b36ddf7795081/cenc.mpd?aws_sessionId=882cb45b-b0fd-4d57-999a-97cbc604a9b0",
+        "key": "e09a0900100e5ac77d4adb45a602a86b:7da511a38053d3e150d38f47ac7d8298"
+      }
+    ]
   },
   {
     "id": 5134,
@@ -918,7 +944,14 @@
       "startTimeUTC": "2026/11/01 14:00:00 +0000",
       "endTimeUTC": "2026/11/01 16:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/w9tlt39b4c/out/v1/e5537d935f1d4da49601b668c679a1b5/cenc.mpd?aws_sessionId=eb49c2d6-2c9a-4ec3-8d8a-ead06e528cdf",
+        "key": "0e4900dc17fb1dc015a949303139ce12:f097bd28477ea73824d2b3c6b747f30d"
+      }
+    ]
   },
   {
     "id": 5136,
@@ -960,7 +993,14 @@
       "startTimeUTC": "2026/11/01 14:00:00 +0000",
       "endTimeUTC": "2026/11/01 16:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/ndctoimkk0/out/v1/c5b85559aa564641858f1bce599ddc08/cenc.mpd?aws_sessionId=91f3a046-0165-4104-91af-ae759517a396",
+        "key": "e5d2051a759dddf27e15405a86c935e4:3d07efeb5ad276d98f33675cc149d86c"
+      }
+    ]
   },
   {
     "id": 5138,
@@ -3986,132 +4026,6 @@
         "title": "FAST SERVER",
         "type": "hls",
         "url": "https://live.vivo155.com/live/sd-1-4563653.m3u8?txSecret=6e860ad97df936f508f6f864e758918f&txTime=6AE5F04F",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5058,
-    "title": "2. Bundesliga",
-    "slug": "wolfsburg-vs-osnabruck",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "2. Bundesliga",
-      "category": "Football",
-      "teamA": "Wolfsburg",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2524/image",
-      "teamB": "Osnabrück",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2581/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
-      "startTimeIST": "2026-10-31 17:30:00 IST",
-      "endTimeIST": "2026-10-31 19:50:00 IST",
-      "startTimeUTC": "2026/10/31 12:00:00 +0000",
-      "endTimeUTC": "2026/10/31 14:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "FAST SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/sd-1-4566589.m3u8?txSecret=f4605cf603c180c1f92e2f0d93860817&txTime=6AE5E9EF",
-        "key": null
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel9.m3u8?",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/juuua.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5059,
-    "title": "2. Bundesliga",
-    "slug": "darmstadt-vs-magdeburg",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "2. Bundesliga",
-      "category": "Football",
-      "teamA": "Darmstadt",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2576/image",
-      "teamB": "Magdeburg",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2591/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
-      "startTimeIST": "2026-10-31 17:30:00 IST",
-      "endTimeIST": "2026-10-31 19:50:00 IST",
-      "startTimeUTC": "2026/10/31 12:00:00 +0000",
-      "endTimeUTC": "2026/10/31 14:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "FAST SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/sd-1-4566559.m3u8?txSecret=bd3fa25515ae9fa30a87463141b104e1&txTime=6AE5EA1B",
-        "key": null
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/crrraaaqqqq.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5060,
-    "title": "2. Bundesliga",
-    "slug": "kaiserslautern-vs-hertha",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "2. Bundesliga",
-      "category": "Football",
-      "teamA": "Kaiserslautern",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2675/image",
-      "teamB": "Hertha",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2528/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
-      "startTimeIST": "2026-10-31 17:30:00 IST",
-      "endTimeIST": "2026-10-31 19:50:00 IST",
-      "startTimeUTC": "2026/10/31 12:00:00 +0000",
-      "endTimeUTC": "2026/10/31 14:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "DAZN SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vszmn76lja/out/v1/4988d23eb50a4094bcc86a29f79423bb/cenc.mpd",
-        "key": "bc6da6cdc7db9750d39cbf9d36248ac1:456e4f020278cdb8a7f1d235b036199c"
-      },
-      {
-        "title": "FAST SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/sd-1-4566598.m3u8?txSecret=9130911308d477081691a444dac91f94&txTime=6AE5EA37",
-        "key": null
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel21.m3u8?",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/juuu.m3u8",
         "key": null
       }
     ]
