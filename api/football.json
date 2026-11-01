@@ -873,174 +873,6 @@
     ]
   },
   {
-    "id": 5169,
-    "title": "NFL",
-    "slug": "buccaneers-vs-falcons",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "NFL",
-      "category": "Football",
-      "teamA": "Buccaneers",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/4388/image",
-      "teamB": "Falcons",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4393/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
-      "startTimeIST": "2026-11-01 23:30:00 IST",
-      "endTimeIST": "2026-11-02 02:30:00 IST",
-      "startTimeUTC": "2026/11/01 18:00:00 +0000",
-      "endTimeUTC": "2026/11/01 21:00:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5171,
-    "title": "NFL",
-    "slug": "bills-vs-ravens",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "NFL",
-      "category": "Football",
-      "teamA": "Bills",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/4414/image",
-      "teamB": "Ravens",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4413/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
-      "startTimeIST": "2026-11-01 23:30:00 IST",
-      "endTimeIST": "2026-11-02 02:30:00 IST",
-      "startTimeUTC": "2026/11/01 18:00:00 +0000",
-      "endTimeUTC": "2026/11/01 21:00:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5172,
-    "title": "NFL",
-    "slug": "steelers-vs-browns",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "NFL",
-      "category": "Football",
-      "teamA": "Steelers",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/4345/image",
-      "teamB": "Browns",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4417/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
-      "startTimeIST": "2026-11-01 23:30:00 IST",
-      "endTimeIST": "2026-11-02 02:30:00 IST",
-      "startTimeUTC": "2026/11/01 18:00:00 +0000",
-      "endTimeUTC": "2026/11/01 21:00:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5173,
-    "title": "NFL",
-    "slug": "jets-vs-raiders",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "NFL",
-      "category": "Football",
-      "teamA": "Jets",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/4427/image",
-      "teamB": "Raiders",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4390/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
-      "startTimeIST": "2026-11-01 23:30:00 IST",
-      "endTimeIST": "2026-11-02 02:30:00 IST",
-      "startTimeUTC": "2026/11/01 18:00:00 +0000",
-      "endTimeUTC": "2026/11/01 21:00:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5176,
-    "title": "NFL",
-    "slug": "cowboys-vs-cardinals",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "NFL",
-      "category": "Football",
-      "teamA": "Cowboys",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/4392/image",
-      "teamB": "Cardinals",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4412/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
-      "startTimeIST": "2026-11-01 23:30:00 IST",
-      "endTimeIST": "2026-11-02 02:30:00 IST",
-      "startTimeUTC": "2026/11/01 18:00:00 +0000",
-      "endTimeUTC": "2026/11/01 21:00:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5177,
-    "title": "NFL",
-    "slug": "lions-vs-vikings",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "NFL",
-      "category": "Football",
-      "teamA": "Lions",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/4419/image",
-      "teamB": "Vikings",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4423/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
-      "startTimeIST": "2026-11-01 23:30:00 IST",
-      "endTimeIST": "2026-11-02 02:30:00 IST",
-      "startTimeUTC": "2026/11/01 18:00:00 +0000",
-      "endTimeUTC": "2026/11/01 21:00:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5178,
-    "title": "NFL",
-    "slug": "jaguars-vs-colts",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "NFL",
-      "category": "Football",
-      "teamA": "Jaguars",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/4386/image",
-      "teamB": "Colts",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4421/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
-      "startTimeIST": "2026-11-01 23:30:00 IST",
-      "endTimeIST": "2026-11-02 02:30:00 IST",
-      "startTimeUTC": "2026/11/01 18:00:00 +0000",
-      "endTimeUTC": "2026/11/01 21:00:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5180,
-    "title": "NFL",
-    "slug": "bengals-vs-titans",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "NFL",
-      "category": "Football",
-      "teamA": "Bengals",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/4416/image",
-      "teamB": "Titans",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4431/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
-      "startTimeIST": "2026-11-01 23:30:00 IST",
-      "endTimeIST": "2026-11-02 02:30:00 IST",
-      "startTimeUTC": "2026/11/01 18:00:00 +0000",
-      "endTimeUTC": "2026/11/01 21:00:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 5153,
     "title": "Ligue 1",
     "slug": "marseille-vs-toulouse",
@@ -1310,6 +1142,174 @@
       "endTimeIST": "2026-11-02 01:50:00 IST",
       "startTimeUTC": "2026/11/01 18:00:00 +0000",
       "endTimeUTC": "2026/11/01 20:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5169,
+    "title": "NFL",
+    "slug": "buccaneers-vs-falcons",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "NFL",
+      "category": "Football",
+      "teamA": "Buccaneers",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4388/image",
+      "teamB": "Falcons",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4393/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "startTimeIST": "2026-11-01 23:30:00 IST",
+      "endTimeIST": "2026-11-02 02:30:00 IST",
+      "startTimeUTC": "2026/11/01 18:00:00 +0000",
+      "endTimeUTC": "2026/11/01 21:00:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5171,
+    "title": "NFL",
+    "slug": "bills-vs-ravens",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "NFL",
+      "category": "Football",
+      "teamA": "Bills",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4414/image",
+      "teamB": "Ravens",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4413/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "startTimeIST": "2026-11-01 23:30:00 IST",
+      "endTimeIST": "2026-11-02 02:30:00 IST",
+      "startTimeUTC": "2026/11/01 18:00:00 +0000",
+      "endTimeUTC": "2026/11/01 21:00:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5172,
+    "title": "NFL",
+    "slug": "steelers-vs-browns",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "NFL",
+      "category": "Football",
+      "teamA": "Steelers",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4345/image",
+      "teamB": "Browns",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4417/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "startTimeIST": "2026-11-01 23:30:00 IST",
+      "endTimeIST": "2026-11-02 02:30:00 IST",
+      "startTimeUTC": "2026/11/01 18:00:00 +0000",
+      "endTimeUTC": "2026/11/01 21:00:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5173,
+    "title": "NFL",
+    "slug": "jets-vs-raiders",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "NFL",
+      "category": "Football",
+      "teamA": "Jets",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4427/image",
+      "teamB": "Raiders",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4390/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "startTimeIST": "2026-11-01 23:30:00 IST",
+      "endTimeIST": "2026-11-02 02:30:00 IST",
+      "startTimeUTC": "2026/11/01 18:00:00 +0000",
+      "endTimeUTC": "2026/11/01 21:00:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5176,
+    "title": "NFL",
+    "slug": "cowboys-vs-cardinals",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "NFL",
+      "category": "Football",
+      "teamA": "Cowboys",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4392/image",
+      "teamB": "Cardinals",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4412/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "startTimeIST": "2026-11-01 23:30:00 IST",
+      "endTimeIST": "2026-11-02 02:30:00 IST",
+      "startTimeUTC": "2026/11/01 18:00:00 +0000",
+      "endTimeUTC": "2026/11/01 21:00:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5177,
+    "title": "NFL",
+    "slug": "lions-vs-vikings",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "NFL",
+      "category": "Football",
+      "teamA": "Lions",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4419/image",
+      "teamB": "Vikings",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4423/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "startTimeIST": "2026-11-01 23:30:00 IST",
+      "endTimeIST": "2026-11-02 02:30:00 IST",
+      "startTimeUTC": "2026/11/01 18:00:00 +0000",
+      "endTimeUTC": "2026/11/01 21:00:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5178,
+    "title": "NFL",
+    "slug": "jaguars-vs-colts",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "NFL",
+      "category": "Football",
+      "teamA": "Jaguars",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4386/image",
+      "teamB": "Colts",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4421/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "startTimeIST": "2026-11-01 23:30:00 IST",
+      "endTimeIST": "2026-11-02 02:30:00 IST",
+      "startTimeUTC": "2026/11/01 18:00:00 +0000",
+      "endTimeUTC": "2026/11/01 21:00:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5180,
+    "title": "NFL",
+    "slug": "bengals-vs-titans",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "NFL",
+      "category": "Football",
+      "teamA": "Bengals",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4416/image",
+      "teamB": "Titans",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4431/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "startTimeIST": "2026-11-01 23:30:00 IST",
+      "endTimeIST": "2026-11-02 02:30:00 IST",
+      "startTimeUTC": "2026/11/01 18:00:00 +0000",
+      "endTimeUTC": "2026/11/01 21:00:00 +0000"
     },
     "dashStreams": []
   },
