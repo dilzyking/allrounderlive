@@ -122,100 +122,6 @@
     ]
   },
   {
-    "id": 4726,
-    "title": "T20 International",
-    "slug": "nz-vs-ind",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "T20 International",
-      "category": "Cricket",
-      "teamA": "NZ",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/187755/image",
-      "teamB": "IND",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/187765/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11191/image/dark",
-      "startTimeIST": "2026-11-01 12:20:00 IST",
-      "endTimeIST": "2026-11-01 17:15:00 IST",
-      "startTimeUTC": "2026/11/01 06:50:00 +0000",
-      "endTimeUTC": "2026/11/01 11:45:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PRIME HINDI FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/mohqiz9gyv/out/v1/95de092d1d574891ba87cd37df9c3f2b/cenc.mpd",
-        "key": "4d4e8cc811e844075fa97ed19abb1abe:9bcb83c52597af936e9b3ff8a4dd27e4"
-      },
-      {
-        "title": "PRIME ENG FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/9z1fajy3r4/out/v1/2e1a478d31fb4c1dbd2e54391b006a35/cenc.mpd",
-        "key": "de23ce5421c57988c1ba1cd8a0d16551:fb50935ff66bcea5899f989c5bbfd270"
-      },
-      {
-        "title": "WILLOW FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/pog3pkfhga/out/v1/20164001c7d9489f898d05761ad05077/cenc.mpd",
-        "key": "2765adbf6880195515fed136e5a989fa:f1356a68a923c31d7184dfa1b91c161f"
-      },
-      {
-        "title": "TNT SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd",
-        "key": "cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca"
-      },
-      {
-        "title": "TAPMAD FHD",
-        "type": "hls",
-        "url": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8",
-        "key": null
-      },
-      {
-        "title": "WILLOW ALT",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/fra-nitro/live/clients/dash/enc/pog3pkfhga/out/v1/20164001c7d9489f898d05761ad05077/cenc.mpd",
-        "key": "2765adbf6880195515fed136e5a989fa:f1356a68a923c31d7184dfa1b91c161f"
-      },
-      {
-        "title": "SonyLiv (ENG)",
-        "type": "hls",
-        "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119931/cricodi_0111/ENG/master.m3u8?hdnea=exp=1793557562~acl=/*~id=e33ead837184844847309b94deab02b2-1793514361774~hmac=d45844a2b7565db3dae802c87b7e920b2f95b54ef9a860aa3121ea8b3c03ac8b",
-        "key": null
-      },
-      {
-        "title": "SonyLiv (HIN)",
-        "type": "hls",
-        "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119921/cricodi_0111/HIN/master.m3u8?hdnea=exp=1793557562~acl=/*~id=e33ead837184844847309b94deab02b2-1793514361774~hmac=d45844a2b7565db3dae802c87b7e920b2f95b54ef9a860aa3121ea8b3c03ac8b",
-        "key": null
-      },
-      {
-        "title": "SonyLiv (HIN)",
-        "type": "hls",
-        "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119921/cricodi_3010/HIN/std_lrh-800300010.m3u8?hdnea=exp=1793384988~acl=/*~id=80544463850118442124985754858702~hmac=21063c5dc25983ed44ff98f1259d1c041125c069820aeec4facd965956876ec8",
-        "key": null
-      },
-      {
-        "title": "SonyLiv (TAM)",
-        "type": "hls",
-        "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119951/cricodi_0111/TAM/master.m3u8?hdnea=exp=1793557562~acl=/*~id=e33ead837184844847309b94deab02b2-1793514361774~hmac=d45844a2b7565db3dae802c87b7e920b2f95b54ef9a860aa3121ea8b3c03ac8b",
-        "key": null
-      },
-      {
-        "title": "SonyLiv (TEL)",
-        "type": "hls",
-        "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119941/cricodi_0111/TEL/master.m3u8?hdnea=exp=1793557562~acl=/*~id=e33ead837184844847309b94deab02b2-1793514361774~hmac=d45844a2b7565db3dae802c87b7e920b2f95b54ef9a860aa3121ea8b3c03ac8b",
-        "key": null
-      },
-      {
-        "title": "SonyLiv (KEN)",
-        "type": "hls",
-        "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119782/cricodi_0111/KAN/master.m3u8?hdnea=exp=1793557562~acl=/*~id=e33ead837184844847309b94deab02b2-1793514361774~hmac=d45844a2b7565db3dae802c87b7e920b2f95b54ef9a860aa3121ea8b3c03ac8b",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 4963,
     "title": "Women's Big Bash League",
     "slug": "wbbl-vs-wbbl",
@@ -401,6 +307,100 @@
         "title": "SONYLIV [ASIA]",
         "type": "hls",
         "url": "https://sonydaime.akamaized.net/hls/live/2120303/criclive3010/ENG/std_lrh-800300010.m3u8?hdnea=exp=1793440431~acl=/*~id=58342385308836800944090866097145~hmac=5bffa12c1ad3d571d42d0a08556a10c336eb428ed8191a43041a35af1aa43e3e",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 4726,
+    "title": "T20 International",
+    "slug": "nz-vs-ind",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "T20 International",
+      "category": "Cricket",
+      "teamA": "NZ",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/187755/image",
+      "teamB": "IND",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/187765/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11191/image/dark",
+      "startTimeIST": "2026-11-01 12:20:00 IST",
+      "endTimeIST": "2026-11-01 17:15:00 IST",
+      "startTimeUTC": "2026/11/01 06:50:00 +0000",
+      "endTimeUTC": "2026/11/01 11:45:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "PRIME HINDI FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/mohqiz9gyv/out/v1/95de092d1d574891ba87cd37df9c3f2b/cenc.mpd",
+        "key": "4d4e8cc811e844075fa97ed19abb1abe:9bcb83c52597af936e9b3ff8a4dd27e4"
+      },
+      {
+        "title": "PRIME ENG FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/9z1fajy3r4/out/v1/2e1a478d31fb4c1dbd2e54391b006a35/cenc.mpd",
+        "key": "de23ce5421c57988c1ba1cd8a0d16551:fb50935ff66bcea5899f989c5bbfd270"
+      },
+      {
+        "title": "WILLOW FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/pog3pkfhga/out/v1/20164001c7d9489f898d05761ad05077/cenc.mpd",
+        "key": "2765adbf6880195515fed136e5a989fa:f1356a68a923c31d7184dfa1b91c161f"
+      },
+      {
+        "title": "TNT SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd",
+        "key": "cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca"
+      },
+      {
+        "title": "TAPMAD FHD",
+        "type": "hls",
+        "url": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad2/master.m3u8",
+        "key": null
+      },
+      {
+        "title": "WILLOW ALT",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/fra-nitro/live/clients/dash/enc/pog3pkfhga/out/v1/20164001c7d9489f898d05761ad05077/cenc.mpd",
+        "key": "2765adbf6880195515fed136e5a989fa:f1356a68a923c31d7184dfa1b91c161f"
+      },
+      {
+        "title": "SonyLiv (ENG)",
+        "type": "hls",
+        "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119931/cricodi_0111/ENG/master.m3u8?hdnea=exp=1793557562~acl=/*~id=e33ead837184844847309b94deab02b2-1793514361774~hmac=d45844a2b7565db3dae802c87b7e920b2f95b54ef9a860aa3121ea8b3c03ac8b",
+        "key": null
+      },
+      {
+        "title": "SonyLiv (HIN)",
+        "type": "hls",
+        "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119921/cricodi_0111/HIN/master.m3u8?hdnea=exp=1793557562~acl=/*~id=e33ead837184844847309b94deab02b2-1793514361774~hmac=d45844a2b7565db3dae802c87b7e920b2f95b54ef9a860aa3121ea8b3c03ac8b",
+        "key": null
+      },
+      {
+        "title": "SonyLiv (HIN)",
+        "type": "hls",
+        "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119921/cricodi_3010/HIN/std_lrh-800300010.m3u8?hdnea=exp=1793384988~acl=/*~id=80544463850118442124985754858702~hmac=21063c5dc25983ed44ff98f1259d1c041125c069820aeec4facd965956876ec8",
+        "key": null
+      },
+      {
+        "title": "SonyLiv (TAM)",
+        "type": "hls",
+        "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119951/cricodi_0111/TAM/master.m3u8?hdnea=exp=1793557562~acl=/*~id=e33ead837184844847309b94deab02b2-1793514361774~hmac=d45844a2b7565db3dae802c87b7e920b2f95b54ef9a860aa3121ea8b3c03ac8b",
+        "key": null
+      },
+      {
+        "title": "SonyLiv (TEL)",
+        "type": "hls",
+        "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119941/cricodi_0111/TEL/master.m3u8?hdnea=exp=1793557562~acl=/*~id=e33ead837184844847309b94deab02b2-1793514361774~hmac=d45844a2b7565db3dae802c87b7e920b2f95b54ef9a860aa3121ea8b3c03ac8b",
+        "key": null
+      },
+      {
+        "title": "SonyLiv (KEN)",
+        "type": "hls",
+        "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119782/cricodi_0111/KAN/master.m3u8?hdnea=exp=1793557562~acl=/*~id=e33ead837184844847309b94deab02b2-1793514361774~hmac=d45844a2b7565db3dae802c87b7e920b2f95b54ef9a860aa3121ea8b3c03ac8b",
         "key": null
       }
     ]
