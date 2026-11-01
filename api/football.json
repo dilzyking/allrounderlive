@@ -439,7 +439,7 @@
     "title": "Serie A",
     "slug": "como-vs-venezia",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Serie A",
       "category": "Football",
@@ -509,7 +509,7 @@
     "title": "Liga F Moeve",
     "slug": "fc-badalona-women-vs-fc-barcelona",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Liga F Moeve",
       "category": "Football",
@@ -537,7 +537,7 @@
     "title": "Serie A Women",
     "slug": "inter-vs-lazio",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Serie A Women",
       "category": "Football",
@@ -926,6 +926,12 @@
       "endTimeUTC": "2026/11/01 15:50:00 +0000"
     },
     "dashStreams": [
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/fb665ec8-646c-42da-9846-fd5012ba068e.m3u8",
+        "key": null
+      },
       {
         "title": "SD SERVER",
         "type": "hls",
