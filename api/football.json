@@ -873,48 +873,6 @@
     ]
   },
   {
-    "id": 5155,
-    "title": "LaLiga",
-    "slug": "athletic-club-vs-real-sociedad",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "LaLiga",
-      "category": "Football",
-      "teamA": "Athletic Club",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2825/image",
-      "teamB": "Real Sociedad",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2824/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
-      "startTimeIST": "2026-11-02 01:30:00 IST",
-      "endTimeIST": "2026-11-02 03:50:00 IST",
-      "startTimeUTC": "2026/11/01 20:00:00 +0000",
-      "endTimeUTC": "2026/11/01 22:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5156,
-    "title": "LaLiga 2",
-    "slug": "tenerife-vs-andorra",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "LaLiga 2",
-      "category": "Football",
-      "teamA": "Tenerife",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2822/image",
-      "teamB": "Andorra",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/324871/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "startTimeIST": "2026-11-02 01:30:00 IST",
-      "endTimeIST": "2026-11-02 03:50:00 IST",
-      "startTimeUTC": "2026/11/01 20:00:00 +0000",
-      "endTimeUTC": "2026/11/01 22:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 5157,
     "title": "Liga Portugal Betclic",
     "slug": "braga-vs-famalicao",
@@ -1058,6 +1016,48 @@
       "endTimeIST": "2026-11-02 09:50:00 IST",
       "startTimeUTC": "2026/11/02 01:20:00 +0000",
       "endTimeUTC": "2026/11/02 04:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5155,
+    "title": "LaLiga",
+    "slug": "athletic-club-vs-real-sociedad",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "LaLiga",
+      "category": "Football",
+      "teamA": "Athletic Club",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2825/image",
+      "teamB": "Real Sociedad",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2824/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+      "startTimeIST": "2026-11-02 01:30:00 IST",
+      "endTimeIST": "2026-11-02 03:50:00 IST",
+      "startTimeUTC": "2026/11/01 20:00:00 +0000",
+      "endTimeUTC": "2026/11/01 22:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5156,
+    "title": "LaLiga 2",
+    "slug": "tenerife-vs-andorra",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "LaLiga 2",
+      "category": "Football",
+      "teamA": "Tenerife",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2822/image",
+      "teamB": "Andorra",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/324871/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
+      "startTimeIST": "2026-11-02 01:30:00 IST",
+      "endTimeIST": "2026-11-02 03:50:00 IST",
+      "startTimeUTC": "2026/11/01 20:00:00 +0000",
+      "endTimeUTC": "2026/11/01 22:20:00 +0000"
     },
     "dashStreams": []
   },
@@ -2329,196 +2329,6 @@
         "title": "SD SERVER",
         "type": "hls",
         "url": "https://pull.niues.live/live/stream-9912130_lhd.m3u8?auth_key=1793482026-0-0-905c3dc6de13c79e648a75eccfa0301a",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5107,
-    "title": "Premier League",
-    "slug": "aston-villa-vs-fulham",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Premier League",
-      "category": "Football",
-      "teamA": "Aston Villa",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/40/image",
-      "teamB": "Fulham",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/43/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
-      "startTimeIST": "2026-11-01 01:30:00 IST",
-      "endTimeIST": "2026-11-01 03:50:00 IST",
-      "startTimeUTC": "2026/10/31 20:00:00 +0000",
-      "endTimeUTC": "2026/10/31 22:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PEACOCK ENG FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/nvncqvtse1/out/v1/be9927b90c9b465eaf9df4ec2b7e575f/cenc.mpd",
-        "key": "a6ec23c96f2410bfda33918d6ee2e679:02770937740bd4dcb013edd31ecb3fd8"
-      },
-      {
-        "title": "FUBO SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/wizqvl82qv/out/v1/734e2579f6ef499a9d667b8911659679/cenc.mpd?aws_sessionId=c0f6f1e4-07a6-4053-9b82-78a9397bad25",
-        "key": "ed8e29b654f9bae33cefa1438e40a155:0e56bbf6d9fce248f55128a648ae8aae"
-      },
-      {
-        "title": "SKY SPORTS FHD",
-        "type": "hls",
-        "url": "https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=8QTMu03fE4HQaxvEpkjmSA&e=2093477106&scheme=https",
-        "key": null
-      },
-      {
-        "title": "PEACOCK TV HD",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/58974/load-playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4558650.m3u8?txSecret=e6dcf9449bf13678e93ddc0dd38686f0&txTime=6AE65ABB",
-        "key": null
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.50/hls/LLLLAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5110,
-    "title": "LaLiga",
-    "slug": "barcelona-vs-alaves",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "LaLiga",
-      "category": "Football",
-      "teamA": "Barcelona",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2817/image",
-      "teamB": "Alavés",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2885/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
-      "startTimeIST": "2026-11-01 01:30:00 IST",
-      "endTimeIST": "2026-11-01 03:50:00 IST",
-      "startTimeUTC": "2026/10/31 20:00:00 +0000",
-      "endTimeUTC": "2026/10/31 22:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "beIN ENGLISH FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-        "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-      },
-      {
-        "title": "FANCODE FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
-      },
-      {
-        "title": "CazéTV FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
-        "key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
-      },
-      {
-        "title": "ESPN DEPORTES HD",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/58978/load-playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "LIVE SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4565498.m3u8?txSecret=2fd2bd699c6568d052c596620552fb08&txTime=6AE65D53",
-        "key": null
-      },
-      {
-        "title": "HD QUALITY",
-        "type": "hls",
-        "url": "https://www.rtmpcdn.com/live/43fe2ecc-c836-4be0-a198-3b036f97b1b2.m3u8",
-        "key": null
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.55/hls/LLLLA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5111,
-    "title": "LaLiga 2",
-    "slug": "albacete-vs-sabadell",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "LaLiga 2",
-      "category": "Football",
-      "teamA": "Albacete",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2848/image",
-      "teamB": "Sabadell",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/24335/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "startTimeIST": "2026-11-01 01:30:00 IST",
-      "endTimeIST": "2026-11-01 03:50:00 IST",
-      "startTimeUTC": "2026/10/31 20:00:00 +0000",
-      "endTimeUTC": "2026/10/31 22:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/sd-1-4567335.m3u8?txSecret=6cae35d35118baa000374f0554e05115&txTime=6AE65DB1",
-        "key": null
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.59/hls/GAGAGAQQQQ.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5112,
-    "title": "VriendenLoterij Eredivisie",
-    "slug": "cambuur-vs-ga-eagles",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "VriendenLoterij Eredivisie",
-      "category": "Football",
-      "teamA": "Cambuur",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2970/image",
-      "teamB": "GA Eagles",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2979/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
-      "startTimeIST": "2026-11-01 01:30:00 IST",
-      "endTimeIST": "2026-11-01 03:50:00 IST",
-      "startTimeUTC": "2026/10/31 20:00:00 +0000",
-      "endTimeUTC": "2026/10/31 22:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/sd-1-4552241.m3u8?txSecret=e154442a11b25229b21e29b367dd956e&txTime=6AE65DEA",
-        "key": null
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.59/hls/JOOO.m3u8",
         "key": null
       }
     ]
