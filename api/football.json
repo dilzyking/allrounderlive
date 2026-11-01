@@ -395,46 +395,6 @@
     "dashStreams": []
   },
   {
-    "id": 4454,
-    "title": "Indian Super League",
-    "slug": "isl-vs-isl",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Indian Super League",
-      "category": "Football",
-      "teamA": "ISL",
-      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/1900/image",
-      "teamB": "ISL",
-      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/1900/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1900/image",
-      "startTimeIST": "2026-11-01 17:00:00 IST",
-      "endTimeIST": "2026-11-01 22:00:00 IST",
-      "startTimeUTC": "2026/11/01 11:30:00 +0000",
-      "endTimeUTC": "2026/11/01 16:30:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PRIME VIDEO FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ebirnvewph/out/v1/2e1afb64f23b48a5acac9886327c2b8c/cenc.mpd",
-        "key": "c57fbe97649816539cf25b0c95d37d9d:ddf4da52ec2358bdf08a6fc60c4d1bc3"
-      },
-      {
-        "title": "SonyLiv (ENG)",
-        "type": "hls",
-        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2018458/footlive0111/ENG/std_lrh-800300010.m3u8",
-        "key": null
-      },
-      {
-        "title": "SonyLiv (HIN)",
-        "type": "hls",
-        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2022316/footlive0111/HIN/std_lrh-800300010.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5138,
     "title": "Bundesliga",
     "slug": "union-berlin-vs-koln",
@@ -793,7 +753,7 @@
     "title": "Premier League",
     "slug": "liverpool-vs-arsenal",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Premier League",
       "category": "Football",
@@ -814,7 +774,7 @@
     "title": "Bundesliga",
     "slug": "frankfurt-vs-hsv",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Bundesliga",
       "category": "Football",
@@ -1912,6 +1872,46 @@
         "title": "SD SERVER",
         "type": "hls",
         "url": "http://193.47.62.55/hls/BFFF.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 4454,
+    "title": "Indian Super League",
+    "slug": "isl-vs-isl",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Indian Super League",
+      "category": "Football",
+      "teamA": "ISL",
+      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/1900/image",
+      "teamB": "ISL",
+      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/1900/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1900/image",
+      "startTimeIST": "2026-11-01 17:00:00 IST",
+      "endTimeIST": "2026-11-01 22:00:00 IST",
+      "startTimeUTC": "2026/11/01 11:30:00 +0000",
+      "endTimeUTC": "2026/11/01 16:30:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "PRIME VIDEO FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ebirnvewph/out/v1/2e1afb64f23b48a5acac9886327c2b8c/cenc.mpd",
+        "key": "c57fbe97649816539cf25b0c95d37d9d:ddf4da52ec2358bdf08a6fc60c4d1bc3"
+      },
+      {
+        "title": "SonyLiv (ENG)",
+        "type": "hls",
+        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2018458/footlive0111/ENG/std_lrh-800300010.m3u8",
+        "key": null
+      },
+      {
+        "title": "SonyLiv (HIN)",
+        "type": "hls",
+        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2022316/footlive0111/HIN/std_lrh-800300010.m3u8",
         "key": null
       }
     ]
