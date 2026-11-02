@@ -1,2799 +1,2491 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
-  <!-- ====== DYNAMIC SEO META TAGS ====== -->
-
-  <!-- ====== FONTS ====== -->
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-<!-- Willow Live Styles -->
-<link rel="stylesheet" href="willow-live.css">
-  <link rel="stylesheet" href="world-sports.css" />
-
-  <link rel="stylesheet" href="fancode.css">
-<!-- ====== PERFORMANCE & SECURITY ====== -->
-<link rel="dns-prefetch" href="https://img.tod.tv" />
-<link rel="dns-prefetch" href="https://flagpedia.net" />
-<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
-<!-- ====== THREE-DOMAIN SEO: MATCHDEKHO SEPARATE, ALLROUNDERLIVE .COM PREFERRED ====== -->
-<script>
-  const currentDomain = window.location.hostname.toLowerCase();
-  const isMatchDekho = currentDomain === 'matchdekho.in' ||
-                       currentDomain === 'www.matchdekho.in' ||
-                       currentDomain.includes('matchdekho');
-  const isAllrounderLive = !isMatchDekho;
-
-  // .in and .com share AllrounderLive identity; the preferred/indexable URL is .com.
-  // MatchDekho is kept strictly separate.
-  const siteName = isMatchDekho ? 'Match Dekho' : 'AllrounderLive';
-  const siteTitle = isMatchDekho ? 'Match Dekho' : 'AllrounderLive';
-  const siteUrl = isMatchDekho ? 'https://matchdekho.in/' : 'https://allrounderlive.com/';
-  const siteDescription = isMatchDekho
-    ? 'Match Dekho brings you live sports updates, football and cricket fixtures, match highlights, schedules, and real-time scores.'
-    : 'AllrounderLive (All Rounder Live) covers cricket, football, scores, fixtures and highlights. Looking for allrounderlive.in? Visit allrounderlive.com.';
-  const siteKeywords = isMatchDekho
-    ? 'Match Dekho, MatchDekho, matchdekho.in, live sports updates, football fixtures, cricket scores, match highlights, sports schedules'
-    : 'AllrounderLive, allrounder live, all rounder live, allrounder live.in, all rounder live in, all rounder live.in, allrounderlive.in, allrounder.live in, allrounderlive.com, cricket, football, live sports updates, scores, match highlights, sports schedules';
-  const twitterHandle = isMatchDekho ? '@matchdekho' : '@allrounderlive';
-  const sitePageTitle = isMatchDekho
-    ? 'Match Dekho | Live Sports Updates, Football, Cricket & Match Highlights'
-    : 'AllrounderLive (All Rounder Live) | Cricket & Football Updates';
-  const siteSocialTitle = isMatchDekho
-    ? 'Match Dekho | Live Sports Updates & Match Highlights'
-    : 'AllrounderLive | Cricket, Football & Live Sports';
-
-  function applyDomainSEO() {
-    document.title = sitePageTitle;
-
-    function updateMeta(selector, content) {
-      const element = document.querySelector(selector);
-      if (element) element.setAttribute('content', content);
-    }
-    function updateLink(selector, href) {
-      const element = document.querySelector(selector);
-      if (element) element.setAttribute('href', href);
-    }
-
-    updateMeta('meta[name="description"]', siteDescription);
-    updateMeta('meta[name="keywords"]', siteKeywords);
-    updateLink('link[rel="canonical"]', siteUrl);
-    updateMeta('meta[property="og:title"]', siteSocialTitle);
-    updateMeta('meta[property="og:description"]', siteDescription);
-    updateMeta('meta[property="og:url"]', siteUrl);
-    updateMeta('meta[property="og:site_name"]', siteTitle);
-    updateMeta('meta[property="og:image"]', siteUrl + 'images/og-image.jpg');
-    updateMeta('meta[name="twitter:title"]', siteSocialTitle);
-    updateMeta('meta[name="twitter:description"]', siteDescription);
-    updateMeta('meta[name="twitter:site"]', twitterHandle);
-    updateMeta('meta[name="twitter:creator"]', twitterHandle);
-    updateMeta('meta[name="twitter:image"]', siteUrl + 'images/og-image.jpg');
-    updateMeta('meta[name="author"]', siteTitle);
-    updateMeta('meta[name="application-name"]', siteTitle);
-    updateLink('link[rel="alternate"][hreflang="en"]', siteUrl);
-    updateLink('link[rel="alternate"][hreflang="en-IN"]', siteUrl);
-
-    updateSchemas(siteName, siteUrl, siteDescription);
-  }
-
-  function updateSchemas(name, url, description) {
-    const isMD = name === 'Match Dekho';
-    const social = isMD ? 'matchdekho' : 'allrounderlive';
-    const websiteSchema = {
-      '@context': 'https://schema.org',
-      '@type': 'WebSite',
-      '@id': url + '#website',
-      'name': name,
-      'alternateName': isMD ? 'MatchDekho' : ['Allrounder Live', 'All Rounder Live', 'allrounderlive.com'],
-      'url': url,
-      'description': description,
-      'potentialAction': {
-        '@type': 'SearchAction',
-        'target': url + 'search?q={search_term_string}',
-        'query-input': 'required name=search_term_string'
+<html lang="en"
+  ><head
+    ><meta charset="UTF-8" /><meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover"
+    /><meta name="theme-color" content="#08090d" /><title>MATCHDEKHO · Live Sports</title>
+    <link rel="stylesheet" href="football.css">
+    <script defer src="football.js"></script>
+    <style>
+      @font-face {
+        font-family: "Outfit";
+        font-style: normal;
+        font-weight: 100 900;
+        font-display: block;
+        src: url(https://allrounderlive.in/font.woff2) format("woff2");
       }
-    };
-    const orgSchema = {
-      '@context': 'https://schema.org',
-      '@type': 'Organization',
-      '@id': url + '#organization',
-      'name': name,
-      'url': url,
-      'logo': url + 'images/logo.png',
-      'description': description,
-      'sameAs': [
-        'https://twitter.com/' + social,
-        'https://facebook.com/' + social,
-        'https://instagram.com/' + social,
-        'https://youtube.com/' + social
-      ]
-    };
-    const channelSchema = {
-      '@context': 'https://schema.org',
-      '@type': 'BroadcastChannel',
-      'name': name + ' Sports Channel',
-      'description': 'Sports streaming, cricket and football updates.',
-      'broadcastDisplayName': name,
-      'genre': 'Sports',
-      'inLanguage': 'en'
-    };
-    const scripts = document.querySelectorAll('script[type="application/ld+json"]');
-    if (scripts.length >= 3) {
-      scripts[0].textContent = JSON.stringify(websiteSchema);
-      scripts[1].textContent = JSON.stringify(orgSchema);
-      scripts[2].textContent = JSON.stringify(channelSchema);
-    }
-  }
-</script>
-
-<!-- ====== STATIC META TAGS: .COM FALLBACK; MATCHDEKHO UPDATED BY JS ====== -->
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<title>AllrounderLive (All Rounder Live) | Cricket & Football Updates</title>
-<meta name="description" content="AllrounderLive (All Rounder Live) covers cricket, football, scores, fixtures and highlights. Looking for allrounderlive.in? Visit allrounderlive.com." />
-<meta name="keywords" content="AllrounderLive, allrounder live, all rounder live, allrounder live.in, all rounder live in, all rounder live.in, allrounderlive.in, allrounder.live in, allrounderlive.com, cricket, football, live sports updates, scores, match highlights, sports schedules" />
-<link rel="canonical" href="https://allrounderlive.com/" />
-
-<!-- Open Graph (OG) Tags -->
-<meta property="og:title" content="AllrounderLive | Cricket, Football & Live Sports" />
-<meta property="og:description" content="AllrounderLive (All Rounder Live): cricket, football, scores, fixtures and highlights. Looking for allrounderlive.in? Visit allrounderlive.com." />
-<meta property="og:url" content="https://allrounderlive.com/" />
-<meta property="og:type" content="website" />
-<meta property="og:site_name" content="AllrounderLive" />
-<meta property="og:image" content="https://allrounderlive.com/images/og-image.jpg" />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="630" />
-<meta property="og:locale" content="en_IN" />
-
-<!-- Twitter Cards -->
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="AllrounderLive | Cricket, Football & Live Sports" />
-<meta name="twitter:description" content="AllrounderLive (All Rounder Live): cricket, football, live updates, fixtures and highlights at allrounderlive.com." />
-<meta name="twitter:image" content="https://allrounderlive.com/images/og-image.jpg" />
-<meta name="twitter:site" content="@allrounderlive" />
-<meta name="twitter:creator" content="@allrounderlive" />
-
-<!-- Additional SEO Tags -->
-<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
-<meta name="googlebot" content="index, follow" />
-<meta name="bingbot" content="index, follow" />
-<link rel="alternate" hreflang="en" href="https://allrounderlive.com/" />
-<link rel="alternate" hreflang="en-IN" href="https://allrounderlive.com/" />
-
-<!-- ====== SCHEMA MARKUP (JSON-LD) ====== -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "@id": "https://allrounderlive.com/#website",
-  "name": "AllrounderLive",
-  "alternateName": ["Allrounder Live", "All Rounder Live", "allrounderlive.com"],
-  "url": "https://allrounderlive.com/",
-  "description": "AllrounderLive (All Rounder Live): cricket, football, live sports updates, match fixtures, scores and highlights at allrounderlive.com.",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://allrounderlive.com/search?q={search_term_string}",
-    "query-input": "required name=search_term_string"
-  }
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "@id": "https://allrounderlive.com/#organization",
-  "name": "AllrounderLive",
-  "url": "https://allrounderlive.com/",
-  "logo": "https://allrounderlive.com/images/logo.png",
-  "description": "Cricket, football and live sports updates."
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BroadcastChannel",
-  "name": "AllrounderLive Sports Channel",
-  "description": "Sports streaming, cricket and football updates.",
-  "broadcastDisplayName": "AllrounderLive",
-  "genre": "Sports",
-  "inLanguage": "en"
-}
-</script>
-
-<!-- Apply domain-specific SEO immediately after the static fallback tags
-     and JSON-LD exist, before the page body is parsed. This ONE HTML file
-     works on matchdekho.in, allrounderlive.in and allrounderlive.com. -->
-<script>applyDomainSEO();</script>
-
-<!-- ====== VERIFICATION META TAGS ====== -->
-<meta name="google-site-verification" content="YOUR_GOOGLE_VERIFICATION_CODE" />
-<meta name="msvalidate.01" content="YOUR_BING_VERIFICATION_CODE" />
-<meta name="yandex-verification" content="YOUR_YANDEX_VERIFICATION_CODE" />
-
-<!-- ====== PERFORMANCE & SECURITY ====== -->
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link rel="dns-prefetch" href="https://img.tod.tv" />
-<link rel="dns-prefetch" href="https://flagpedia.net" />
-<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
-
-<!-- ====== FAVICON & APPLE TOUCH ICON ====== -->
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-<link rel="manifest" href="/site.webmanifest" />
-<meta name="theme-color" content="#0b0d0f" />
-<meta name="author" content="AllrounderLive" />
-<meta name="application-name" content="AllrounderLive" />
-<meta name="referrer" content="strict-origin-when-cross-origin" />
-
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0PZNSQFRV7"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-0PZNSQFRV7');
-</script>
-  <style>
-    /* ---------- RESET & BASE ---------- */
-    *,
-    *::before,
-    *::after {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    :root {
-      --bg-primary: #0b0d0f;
-      --green: #7dffb3;
-      --white: #ffffff;
-      --golden: #f5c518;
-      --golden-dark: #d4a800;
-    }
-
-    html {
-      font-size: 16px;
-      scroll-behavior: smooth;
-      -webkit-text-size-adjust: 100%;
-    }
-
-    body {
-      width: 100%;
-      min-height: 100vh;
-      min-height: 100dvh;
-      background: var(--bg-primary);
-      font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
-      display: flex;
-      flex-direction: column;
-      overflow-x: hidden;
-      position: relative;
-    }
-
-    /* ---------- HEADER ---------- */
-    header {
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      width: 100%;
-      padding: clamp(0.3rem, 1.2vw, 0.7rem) clamp(0.8rem, 4vw, 3rem);
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      background: transparent;
-      z-index: 1000;
-      border-bottom: none;
-      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    /* ---------- LOGO ---------- */
-    .logo {
-      text-decoration: none;
-      font-size: clamp(0.85rem, 2.5vw, 1.5rem);
-      font-weight: 700;
-      letter-spacing: clamp(-0.01em, -0.03em, -0.05em);
-      display: inline-flex;
-      align-items: center;
-      white-space: nowrap;
-      transition: transform 0.2s ease;
-      z-index: 1001;
-      font-family: 'Inter', system-ui, sans-serif;
-    }
-
-    .logo:hover {
-      transform: scale(1.02);
-    }
-
-    .logo .match {
-      color: var(--green);
-      text-shadow: 0 0 clamp(15px, 3vw, 40px) rgba(125, 255, 179, 0.15);
-    }
-
-    .logo .dekho {
-      color: var(--white);
-      text-shadow: 0 0 clamp(8px, 1.5vw, 25px) rgba(255, 255, 255, 0.05);
-    }
-
-    /* ---------- HEADER NAV - DESKTOP ---------- */
-    .header-nav {
-      display: flex;
-      align-items: center;
-      gap: clamp(0.5rem, 1.5vw, 1.5rem);
-    }
-
-    .header-nav a {
-      color: rgba(255, 255, 255, 0.7);
-      text-decoration: none;
-      font-size: clamp(0.6rem, 1.2vw, 0.9rem);
-      font-weight: 500;
-      transition: color 0.3s ease;
-      letter-spacing: 0.02em;
-      font-family: 'Inter', system-ui, sans-serif;
-      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
-    }
-
-    .header-nav a:hover {
-      color: #ffffff;
-    }
-
-    .header-nav .sign-in {
-      color: #ffffff;
-      font-weight: 600;
-    }
-
-    .header-nav .subscribe {
-      background: var(--golden);
-      color: #0b0d0f;
-      padding: clamp(0.2rem, 0.5vw, 0.5rem) clamp(0.6rem, 1.5vw, 1.2rem);
-      border-radius: clamp(20px, 3vw, 40px);
-      font-weight: 700;
-      font-size: clamp(0.55rem, 1vw, 0.8rem);
-      transition: all 0.3s ease;
-      text-shadow: none;
-    }
-
-    .header-nav .subscribe:hover {
-      transform: scale(1.05);
-      background: #e6b800;
-    }
-
-    /* ---------- HAMBURGER MENU (MOBILE ONLY) ---------- */
-    .hamburger {
-      display: none;
-      flex-direction: column;
-      gap: clamp(4px, 0.5vw, 6px);
-      cursor: pointer;
-      padding: clamp(4px, 0.5vw, 8px);
-      z-index: 1001;
-      background: transparent;
-      border: none;
-      position: relative;
-    }
-
-    .hamburger span {
-      display: block;
-      width: clamp(24px, 3vw, 30px);
-      height: clamp(2.5px, 0.3vw, 3.5px);
-      background: #ffffff;
-      border-radius: 2px;
-      transition: all 0.3s ease;
-      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
-    }
-
-    .hamburger.active span:nth-child(1) {
-      transform: rotate(45deg) translate(clamp(5px, 0.6vw, 7px), clamp(5px, 0.6vw, 7px));
-    }
-
-    .hamburger.active span:nth-child(2) {
-      opacity: 0;
-    }
-
-    .hamburger.active span:nth-child(3) {
-      transform: rotate(-45deg) translate(clamp(5px, 0.6vw, 7px), clamp(-5px, -0.6vw, -7px));
-    }
-
-    /* ---------- MOBILE MENU OVERLAY ---------- */
-    .mobile-menu {
-      display: none;
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: rgba(11, 13, 15, 0.98);
-      z-index: 999;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: clamp(1.2rem, 3vh, 2.5rem);
-      padding: 2rem;
-      animation: fadeIn 0.3s ease;
-    }
-
-    .mobile-menu.active {
-      display: flex;
-    }
-
-    .mobile-menu a {
-      color: #ffffff;
-      text-decoration: none;
-      font-size: clamp(1.2rem, 4vw, 1.8rem);
-      font-weight: 500;
-      transition: color 0.3s ease;
-      letter-spacing: 0.05em;
-      font-family: 'Inter', system-ui, sans-serif;
-      text-shadow: 0 2px 12px rgba(0, 0, 0, 0.6);
-    }
-
-    .mobile-menu a:hover {
-      color: var(--golden);
-    }
-
-    .mobile-menu .subscribe-mobile {
-      background: var(--golden);
-      color: #0b0d0f;
-      padding: clamp(0.6rem, 1.5vw, 1rem) clamp(1.5rem, 4vw, 2.5rem);
-      border-radius: clamp(30px, 4vw, 50px);
-      font-weight: 700;
-      font-size: clamp(1rem, 3vw, 1.4rem);
-      margin-top: clamp(0.5rem, 1vh, 1rem);
-      text-shadow: none;
-    }
-
-    .mobile-menu .subscribe-mobile:hover {
-      background: #e6b800;
-      transform: scale(1.05);
-    }
-
-    @keyframes fadeIn {
-      0% { opacity: 0; }
-      100% { opacity: 1; }
-    }
-
-    /* ---------- POSTER WRAPPER - CLICKABLE / SLIDER ---------- */
-    .poster-wrapper {
-      position: relative;
-      width: 100%;
-      height: 100vh;
-      height: 100dvh;
-      margin-top: 0;
-      z-index: 1;
-      overflow: hidden;
-      cursor: pointer;
-    }
-
-    .poster-section {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: absolute;
-      top: 0;
-      left: 0;
-      padding: 0;
-      margin: 0;
-      min-height: 100vh;
-      min-height: 100dvh;
-      background: var(--bg-primary);
-      opacity: 0;
-      visibility: hidden;
-      pointer-events: none;
-      transition: opacity 0.7s ease;
-      z-index: 1;
-    }
-
-    .poster-section.active {
-      opacity: 1;
-      visibility: visible;
-      pointer-events: auto;
-      z-index: 2;
-    }
-
-    .poster-section picture {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      width: 100%;
-      height: 100%;
-      display: block;
-      z-index: 0;
-    }
-
-    .poster-image {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      display: block;
-      margin: 0;
-      padding: 0;
-      transition: all 0.3s ease;
-      pointer-events: none;
-    }
-
-    /* ---------- GRADIENTS ---------- */
-    .gradient-left {
-      position: absolute;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      width: clamp(35%, 50%, 65%);
-      background: linear-gradient(
-        to right,
-        #0b0d0f 0%,
-        #0b0d0f 10%,
-        rgba(11, 13, 15, 0.85) 25%,
-        rgba(11, 13, 15, 0.5) 50%,
-        rgba(11, 13, 15, 0.15) 75%,
-        transparent 100%
-      );
-      pointer-events: none;
-      z-index: 2;
-    }
-
-    .gradient-overlay {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      width: 100%;
-      height: clamp(18%, 28%, 38%);
-      background: linear-gradient(
-        to top,
-        #0b0d0f 0%,
-        #0b0d0f 15%,
-        rgba(11, 13, 15, 0.85) 30%,
-        rgba(11, 13, 15, 0.5) 50%,
-        rgba(11, 13, 15, 0.2) 70%,
-        transparent 100%
-      );
-      pointer-events: none;
-      z-index: 2;
-    }
-
-    /* ---------- SLIDER PROGRESS BAR (TOP) ---------- */
-    .slider-progress {
-      position: absolute;
-      top: clamp(4.5rem, 9vh, 6.5rem);
-      left: clamp(3%, 5vw, 8%);
-      right: clamp(3%, 5vw, 8%);
-      display: flex;
-      gap: clamp(6px, 0.8vw, 10px);
-      z-index: 20;
-      pointer-events: none;
-    }
-
-    .progress-track {
-      flex: 1;
-      height: clamp(2.5px, 0.3vw, 3.5px);
-      background: rgba(255, 255, 255, 0.25);
-      border-radius: 4px;
-      overflow: hidden;
-      position: relative;
-    }
-
-    .progress-fill {
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 0%;
-      background: var(--white);
-      border-radius: 4px;
-    }
-
-    .progress-fill.filling {
-      animation: fillProgress 10s linear forwards;
-    }
-
-    .progress-fill.filled {
-      width: 100%;
-    }
-
-    @keyframes fillProgress {
-      from { width: 0%; }
-      to { width: 100%; }
-    }
-
-    /* ---------- SLIDER ARROWS ---------- */
-    .slider-arrow {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      width: clamp(34px, 4vw, 52px);
-      height: clamp(34px, 4vw, 52px);
-      border-radius: 50%;
-      background: rgba(11, 13, 15, 0.4);
-      backdrop-filter: blur(8px);
-      -webkit-backdrop-filter: blur(8px);
-      border: 1px solid rgba(255, 255, 255, 0.15);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #ffffff;
-      font-size: clamp(1rem, 1.8vw, 1.5rem);
-      cursor: pointer;
-      z-index: 20;
-      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-      line-height: 1;
-      user-select: none;
-    }
-
-    .slider-arrow:hover {
-      background: rgba(11, 13, 15, 0.7);
-      border-color: rgba(255, 255, 255, 0.3);
-      transform: translateY(-50%) scale(1.08);
-    }
-
-    .slider-arrow:active {
-      transform: translateY(-50%) scale(0.92);
-    }
-
-    .slider-arrow.arrow-left {
-      left: clamp(0.6rem, 2vw, 1.8rem);
-    }
-
-    .slider-arrow.arrow-right {
-      right: clamp(0.6rem, 2vw, 1.8rem);
-    }
-
-    @media (orientation: portrait) and (max-width: 768px) {
-      .slider-progress {
-        top: clamp(3.5rem, 8vh, 5rem);
-      }
-
-      .slider-arrow {
-        width: clamp(30px, 8vw, 40px);
-        height: clamp(30px, 8vw, 40px);
-        font-size: clamp(0.85rem, 3.5vw, 1.1rem);
-      }
-    }
-
-    /* ---------- MATCH DETAILS OVERLAY ---------- */
-    .match-details {
-      position: absolute;
-      bottom: clamp(8%, 12vh, 18%);
-      left: clamp(3%, 5vw, 8%);
-      z-index: 10;
-      max-width: clamp(320px, 55vw, 650px);
-      animation: fadeInUp 0.8s ease-out;
-      pointer-events: none;
-    }
-
-    /* Match Title - WITH SHADOW */
-    .match-title {
-      font-size: clamp(0.7rem, 1.2vw, 1rem);
-      color: rgba(255, 255, 255, 0.5);
-      text-transform: uppercase;
-      letter-spacing: 0.12em;
-      margin-bottom: clamp(0.25rem, 0.5vw, 0.6rem);
-      font-weight: 600;
-      font-family: 'Inter', system-ui, sans-serif;
-      text-shadow: 0 2px 12px rgba(0, 0, 0, 0.7), 0 0 30px rgba(0, 0, 0, 0.3);
-    }
-
-    /* ---------- TEAMS ROW - FLAG ABOVE NAME, SCORE CENTERED ---------- */
-    .teams-row {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: clamp(0.8rem, 2vw, 2rem);
-      margin-bottom: clamp(0.3rem, 0.6vw, 0.8rem);
-    }
-
-    .team {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: clamp(0.15rem, 0.3vw, 0.4rem);
-    }
-
-    .team-flag {
-      width: clamp(55px, 7vw, 100px);
-      height: clamp(38px, 4.8vw, 65px);
-      object-fit: cover;
-      border-radius: 4px;
-      border: 1px solid rgba(255, 255, 255, 0.12);
-      flex-shrink: 0;
-      transition: all 0.3s ease;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
-    }
-
-    /* Team name - WITH SHADOW */
-    .team-name {
-      font-size: clamp(0.7rem, 1.2vw, 1rem);
-      font-weight: 600;
-      color: rgba(255, 255, 255, 0.85);
-      letter-spacing: 0.05em;
-      text-align: center;
-      font-family: 'Inter', system-ui, sans-serif;
-      text-shadow: 0 2px 12px rgba(0, 0, 0, 0.8), 0 0 30px rgba(0, 0, 0, 0.4);
-    }
-
-    /* Score - WITH SHADOW */
-    .vs-score {
-      font-size: clamp(2rem, 4vw, 3.5rem);
-      font-weight: 800;
-      color: #ffffff;
-      letter-spacing: 0.05em;
-      padding: 0 clamp(0.3rem, 0.8vw, 1rem);
-      font-family: 'Inter', system-ui, sans-serif;
-      line-height: 1;
-      margin-top: clamp(0.3rem, 0.6vw, 1rem);
-      text-shadow: 0 4px 20px rgba(0, 0, 0, 0.9), 0 0 40px rgba(0, 0, 0, 0.5);
-    }
-
-    /* Match Info - WITH SHADOW */
-    .match-info {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      gap: clamp(0.3rem, 0.8vw, 1rem);
-      margin-bottom: clamp(0.3rem, 0.6vw, 0.8rem);
-    }
-
-    .match-info .tag {
-      font-size: clamp(0.6rem, 1vw, 0.85rem);
-      color: rgba(255, 255, 255, 0.5);
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      font-weight: 600;
-      font-family: 'Inter', system-ui, sans-serif;
-      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
-    }
-
-    .match-info .date,
-    .match-info .time,
-    .match-info .venue {
-      font-size: clamp(0.6rem, 1vw, 0.85rem);
-      color: rgba(255, 255, 255, 0.7);
-      font-weight: 400;
-      font-family: 'Inter', system-ui, sans-serif;
-      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
-    }
-
-    .match-info .separator {
-      color: rgba(255, 255, 255, 0.2);
-    }
-
-    /* Badges - WITH SHADOW */
-    .badges {
-      display: flex;
-      flex-wrap: wrap;
-      gap: clamp(0.3rem, 0.6vw, 0.8rem);
-      margin-bottom: clamp(0.4rem, 0.8vw, 1rem);
-    }
-
-    .badge {
-      padding: clamp(0.2rem, 0.4vw, 0.5rem) clamp(0.5rem, 1vw, 1.2rem);
-      border-radius: clamp(14px, 2vw, 22px);
-      font-size: clamp(0.5rem, 0.8vw, 0.75rem);
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-      border: 1px solid rgba(255, 255, 255, 0.08);
-      font-family: 'Inter', system-ui, sans-serif;
-      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
-    }
-
-    .badge-fulltime {
-      background: rgba(245, 197, 24, 0.15);
-      color: var(--golden);
-      border-color: rgba(245, 197, 24, 0.2);
-    }
-
-    .badge-4k {
-      background: rgba(255, 255, 255, 0.04);
-      color: rgba(255, 255, 255, 0.5);
-    }
-
-    .badge-hdr {
-      background: rgba(255, 255, 255, 0.04);
-      color: rgba(255, 255, 255, 0.5);
-    }
-
-    .badge-fanzone {
-      background: rgba(125, 255, 179, 0.08);
-      color: var(--green);
-      border-color: rgba(125, 255, 179, 0.15);
-    }
-
-    /* ---------- ACTION BUTTONS ---------- */
-    .action-buttons {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      gap: clamp(0.5rem, 1vw, 1.2rem);
-      margin-top: clamp(0.3rem, 0.6vw, 0.8rem);
-      pointer-events: auto;
-      position: relative;
-      z-index: 11;
-    }
-
-    /* WATCH BUTTON - ROUND LEFT, STRAIGHT RIGHT */
-    .watch-btn {
-      display: inline-flex;
-      align-items: center;
-      gap: clamp(0.4rem, 0.8vw, 0.8rem);
-      padding: clamp(0.6rem, 1.2vw, 1.2rem) clamp(1.2rem, 3vw, 3rem);
-      background: linear-gradient(135deg, #f5c518 0%, #e6b800 50%, #d4a800 100%);
-      color: #0b0d0f;
-      font-size: clamp(0.85rem, 1.6vw, 1.3rem);
-      font-weight: 700;
-      font-family: 'Inter', system-ui, sans-serif;
-      border: clamp(2px, 0.25vw, 4px) solid #0b0d0f;
-      border-radius: 0 clamp(30px, 4vw, 50px) clamp(30px, 4vw, 50px) 0;
-      cursor: pointer;
-      text-decoration: none;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-      box-shadow:
-        0 clamp(3px, 0.8vw, 10px) clamp(15px, 2.5vw, 30px) rgba(245, 197, 24, 0.25),
-        0 clamp(2px, 0.4vw, 5px) clamp(8px, 1.5vw, 20px) rgba(0, 0, 0, 0.3),
-        inset 0 clamp(1px, 0.2vw, 2px) clamp(2px, 0.4vw, 5px) rgba(255, 255, 255, 0.3);
-      position: relative;
-      overflow: hidden;
-      border-left: clamp(2px, 0.25vw, 4px) solid #0b0d0f;
-      text-shadow: none;
-    }
-
-    .watch-btn::before {
-      content: '';
-      position: absolute;
-      top: -50%;
-      left: -50%;
-      width: 200%;
-      height: 200%;
-      background: radial-gradient(
-        circle at center,
-        rgba(255, 255, 255, 0.15) 0%,
-        transparent 60%
-      );
-      opacity: 0;
-      transition: opacity 0.4s ease;
-      pointer-events: none;
-    }
-
-    .watch-btn:hover {
-      transform: scale(1.05) translateY(clamp(-2px, -0.3vh, -4px));
-      box-shadow:
-        0 clamp(6px, 1.2vw, 16px) clamp(25px, 4vw, 50px) rgba(245, 197, 24, 0.35),
-        0 clamp(3px, 0.6vw, 8px) clamp(12px, 2.5vw, 30px) rgba(0, 0, 0, 0.4),
-        inset 0 clamp(1px, 0.2vw, 2px) clamp(2px, 0.4vw, 5px) rgba(255, 255, 255, 0.4);
-    }
-
-    .watch-btn:hover::before {
-      opacity: 1;
-    }
-
-    .watch-btn:active {
-      transform: scale(0.95);
-    }
-
-    .watch-btn .icon {
-      font-size: clamp(0.9rem, 1.6vw, 1.5rem);
-      line-height: 1;
-    }
-
-    /* + My TOD Button - WITH SHADOW */
-    .btn-mytod {
-      display: inline-flex;
-      align-items: center;
-      gap: clamp(0.2rem, 0.4vw, 0.4rem);
-      padding: clamp(0.4rem, 0.8vw, 0.8rem) clamp(0.8rem, 1.5vw, 1.8rem);
-      background: transparent;
-      color: #ffffff;
-      font-size: clamp(0.65rem, 1.2vw, 0.95rem);
-      font-weight: 600;
-      font-family: 'Inter', system-ui, sans-serif;
-      border: 1px solid rgba(255, 255, 255, 0.15);
-      border-radius: clamp(20px, 2.5vw, 35px);
-      cursor: pointer;
-      text-decoration: none;
-      transition: all 0.3s ease;
-      text-transform: uppercase;
-      letter-spacing: 0.04em;
-      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
-    }
-
-    .btn-mytod:hover {
-      background: rgba(255, 255, 255, 0.05);
-      border-color: rgba(255, 255, 255, 0.3);
-    }
-
-    /* ---------- ANIMATIONS ---------- */
-    @keyframes fadeInUp {
-      0% {
-        opacity: 0;
-        transform: translateY(clamp(20px, 3vh, 40px));
-      }
-      100% {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-    /* ---------- GLASS CLOUDS ---------- */
-    .glass-cloud {
-      position: fixed;
-      border-radius: 50%;
-      pointer-events: none;
-      z-index: 0;
-      filter: blur(clamp(30px, 6vw, 60px));
-      will-change: transform, opacity;
-    }
-
-    .cloud-1 {
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: min(80vw, 700px);
-      height: min(50vh, 400px);
-      background: radial-gradient(
-        ellipse at center,
-        rgba(125, 255, 179, 0.05) 0%,
-        rgba(255, 255, 255, 0.025) 40%,
-        transparent 70%
-      );
-      animation: pulse 4s ease-in-out infinite;
-    }
-
-    .cloud-2 {
-      top: clamp(10%, 15vh, 25%);
-      left: clamp(5%, 8vw, 15%);
-      width: clamp(150px, 25vw, 350px);
-      height: clamp(100px, 18vh, 250px);
-      background: radial-gradient(
-        ellipse at center,
-        rgba(125, 255, 179, 0.035) 0%,
-        rgba(255, 255, 255, 0.02) 30%,
-        transparent 70%
-      );
-      animation: float1 8s ease-in-out infinite;
-    }
-
-    .cloud-3 {
-      bottom: clamp(10%, 12vh, 20%);
-      right: clamp(3%, 5vw, 12%);
-      width: clamp(180px, 28vw, 400px);
-      height: clamp(120px, 20vh, 280px);
-      background: radial-gradient(
-        ellipse at center,
-        rgba(125, 255, 179, 0.03) 0%,
-        rgba(255, 255, 255, 0.015) 30%,
-        transparent 70%
-      );
-      animation: float2 10s ease-in-out infinite reverse;
-    }
-
-    .cloud-4 {
-      top: clamp(60%, 65vh, 75%);
-      left: clamp(2%, 3vw, 8%);
-      width: clamp(100px, 15vw, 200px);
-      height: clamp(70px, 10vh, 150px);
-      background: radial-gradient(
-        ellipse at center,
-        rgba(125, 255, 179, 0.02) 0%,
-        rgba(255, 255, 255, 0.01) 30%,
-        transparent 70%
-      );
-      animation: float3 12s ease-in-out infinite 2s;
-      filter: blur(clamp(40px, 5vw, 70px));
-    }
-
-    /* ---------- ANIMATIONS ---------- */
-    @keyframes pulse {
-      0%, 100% {
-        opacity: 0.5;
-        transform: translate(-50%, -50%) scale(1);
-      }
-      50% {
-        opacity: 1;
-        transform: translate(-50%, -50%) scale(1.08);
-      }
-    }
-
-    @keyframes float1 {
-      0%, 100% {
-        transform: translate(0, 0) scale(1);
-      }
-      33% {
-        transform: translate(clamp(10px, 2vw, 30px), clamp(-10px, -2vh, -25px)) scale(1.02);
-      }
-      66% {
-        transform: translate(clamp(-5px, -1vw, -15px), clamp(5px, 1vh, 15px)) scale(0.98);
-      }
-    }
-
-    @keyframes float2 {
-      0%, 100% {
-        transform: translate(0, 0) scale(1);
-      }
-      50% {
-        transform: translate(clamp(-15px, -3vw, -40px), clamp(-12px, -2.5vh, -30px)) scale(1.05);
-      }
-    }
-
-    @keyframes float3 {
-      0%, 100% {
-        transform: translate(0, 0) rotate(0deg);
-      }
-      50% {
-        transform: translate(clamp(20px, 4vw, 50px), clamp(8px, 1.5vh, 20px)) rotate(5deg);
-      }
-    }
-
-    /* ---------- HIGHLIGHTS SECTION (OTT-STYLE CAROUSEL) ---------- */
-    .highlights-section {
-      position: relative;
-      width: 100%;
-      max-width: 1440px;
-      margin: clamp(-2.5rem, -3.5vw, -1rem) auto 0;
-      padding: clamp(0.6rem, 1.5vw, 1.2rem) 0 clamp(1rem, 3vw, 2rem);
-      background: var(--bg-primary);
-      z-index: 3;
-    }
-
-    .highlights-header {
-      padding: 0 clamp(1rem, 5vw, 3rem);
-      margin-bottom: clamp(0.7rem, 1.8vw, 1.4rem);
-    }
-
-    .highlights-title {
-      color: #ffffff;
-      font-size: clamp(1.05rem, 2.2vw, 1.7rem);
-      font-weight: 700;
-      font-family: 'Inter', system-ui, sans-serif;
-      letter-spacing: 0.01em;
-      margin: 0;
-    }
-
-    .highlights-carousel-wrapper {
-      position: relative;
-      width: 100%;
-    }
-
-    .highlights-track {
-      display: flex;
-      align-items: flex-start;
-      gap: clamp(0.8rem, 1.8vw, 1.6rem);
-      overflow-x: auto;
-      overflow-y: hidden;
-      scroll-behavior: smooth;
-      padding: clamp(0.3rem, 0.6vw, 0.5rem) clamp(1rem, 5vw, 3rem) clamp(0.5rem, 1vw, 0.8rem);
-      scrollbar-width: none;
-      -ms-overflow-style: none;
-      -webkit-overflow-scrolling: touch;
-    }
-
-    .highlights-track::-webkit-scrollbar {
-      display: none;
-    }
-
-    .highlight-card {
-      flex: 0 0 auto;
-      width: clamp(260px, 34vw, 480px);
-      text-decoration: none;
-      cursor: pointer;
-      display: block;
-      transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
-      position: relative;
-    }
-
-    .highlight-card:hover {
-      transform: scale(1.045);
-      z-index: 5;
-    }
-
-    .highlight-thumb {
-      position: relative;
-      width: 100%;
-      aspect-ratio: 16 / 9;
-      border-radius: clamp(8px, 1vw, 14px);
-      overflow: hidden;
-      background: #111214;
-      box-shadow: 0 clamp(4px, 0.8vw, 10px) clamp(15px, 2.5vw, 30px) rgba(0, 0, 0, 0.45);
-    }
-
-    .highlight-thumb img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      display: block;
-      transition: transform 0.4s ease;
-      pointer-events: none;
-    }
-
-    .highlight-card:hover .highlight-thumb img {
-      transform: scale(1.08);
-    }
-
-    .play-overlay {
-      position: absolute;
-      inset: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: rgba(0, 0, 0, 0.25);
-      opacity: 0;
-      transition: opacity 0.3s ease;
-    }
-
-    .highlight-card:hover .play-overlay {
-      opacity: 1;
-    }
-
-    .play-icon {
-      width: clamp(38px, 5.5vw, 62px);
-      height: clamp(38px, 5.5vw, 62px);
-      border-radius: 50%;
-      background: rgba(255, 255, 255, 0.92);
-      color: #0b0d0f;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: clamp(0.95rem, 1.8vw, 1.4rem);
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.35);
-    }
-
-    .highlight-info {
-      padding: clamp(0.5rem, 1.1vw, 0.8rem) 0 0;
-      display: flex;
-      flex-direction: column;
-      gap: clamp(2px, 0.3vw, 4px);
-    }
-
-    .highlight-tag {
-      font-size: clamp(0.6rem, 1vw, 0.78rem);
-      color: var(--golden);
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      font-weight: 700;
-      font-family: 'Inter', system-ui, sans-serif;
-    }
-
-    .highlight-name {
-      font-size: clamp(0.85rem, 1.5vw, 1.15rem);
-      color: #ffffff;
-      font-weight: 600;
-      font-family: 'Inter', system-ui, sans-serif;
-      letter-spacing: 0.01em;
-    }
-
-    /* ---------- HIGHLIGHTS CAROUSEL ARROWS ---------- */
-    .carousel-arrow {
-      position: absolute;
-      top: 40%;
-      transform: translateY(-50%);
-      width: clamp(30px, 3.5vw, 46px);
-      height: clamp(30px, 3.5vw, 46px);
-      border-radius: 50%;
-      background: rgba(11, 13, 15, 0.65);
-      backdrop-filter: blur(8px);
-      -webkit-backdrop-filter: blur(8px);
-      border: 1px solid rgba(255, 255, 255, 0.15);
-      color: #ffffff;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: clamp(0.85rem, 1.5vw, 1.2rem);
-      cursor: pointer;
-      z-index: 10;
-      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-      line-height: 1;
-      user-select: none;
-    }
-
-    .carousel-arrow:hover {
-      background: rgba(11, 13, 15, 0.9);
-      border-color: rgba(255, 255, 255, 0.3);
-      transform: translateY(-50%) scale(1.08);
-    }
-
-    .carousel-arrow:active {
-      transform: translateY(-50%) scale(0.92);
-    }
-
-    .carousel-arrow.arrow-left {
-      left: clamp(0.2rem, 1.2vw, 0.8rem);
-    }
-
-    .carousel-arrow.arrow-right {
-      right: clamp(0.2rem, 1.2vw, 0.8rem);
-    }
-
-    @media (max-width: 640px) {
-      .carousel-arrow {
-        width: clamp(26px, 8vw, 34px);
-        height: clamp(26px, 8vw, 34px);
-        font-size: clamp(0.7rem, 3vw, 0.9rem);
-      }
-
-      .highlights-title {
-        font-size: clamp(0.95rem, 4vw, 1.2rem);
-      }
-
-      /* Must match .willow-live-header/.willow-live-track (willow-live.css)
-         and .fancode-header/.fancode-track (fancode.css) mobile padding
-         exactly, or the three carousels will misalign on mobile. */
-      .highlights-header,
-      .highlights-track {
-        padding-left: clamp(0.5rem, 3vw, 1rem);
-        padding-right: clamp(0.5rem, 3vw, 1rem);
-      }
-    }
-
-    /* ---------- MAIN ---------- */
-    main {
-      flex: 1;
-      min-height: 100vh;
-      min-height: 100dvh;
-      width: 100%;
-      position: relative;
-      z-index: 1;
-      background: var(--bg-primary);
-    }
-
-    /* ============================================================ */
-    /* ========== RESPONSIVE ========== */
-    /* ============================================================ */
-
-    /* ----- MOBILE: PORTRAIT (HAMBURGER + CENTER LOGO) ----- */
-    @media (orientation: portrait) and (max-width: 768px) {
-      header {
-        padding: clamp(0.3rem, 1.2vw, 0.5rem) clamp(0.8rem, 3vw, 1.2rem);
-        justify-content: space-between;
-        position: fixed;
-      }
-
-      .logo {
-        font-size: clamp(1.2rem, 4.5vw, 1.8rem);
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-      }
-
-      .logo:hover {
-        transform: translateX(-50%) scale(1.02);
-      }
-
-      .header-nav {
-        display: none;
-      }
-
-      .hamburger {
-        display: flex;
-        position: relative;
-        margin-left: 0;
-        padding: clamp(4px, 0.6vw, 8px);
-        gap: clamp(4px, 0.5vw, 6px);
-      }
-
-      .hamburger span {
-        width: clamp(22px, 3vw, 28px);
-        height: clamp(2.5px, 0.3vw, 3px);
-      }
-
-      .poster-section {
-        min-height: 100vh;
-        min-height: 100dvh;
-      }
-
-      .poster-image {
-        min-height: 100vh;
-        min-height: 100dvh;
-        object-fit: cover;
-        width: 100%;
-      }
-
-      .gradient-left {
-        display: none;
-      }
-
-      .gradient-overlay {
-        height: clamp(28%, 38%, 48%);
-      }
-
-      .match-details {
-        bottom: clamp(10%, 14vh, 20%);
-        left: clamp(4%, 6vw, 8%);
-        max-width: clamp(300px, 80vw, 450px);
-      }
-
-      .match-title {
-        font-size: clamp(0.6rem, 1.2vw, 0.8rem);
-        text-shadow: 0 2px 12px rgba(0, 0, 0, 0.8), 0 0 30px rgba(0, 0, 0, 0.4);
-      }
-
-      .team-flag {
-        width: clamp(48px, 6.5vw, 65px);
-        height: clamp(34px, 4.5vw, 45px);
-      }
-
-      .team-name {
-        font-size: clamp(0.65rem, 1.2vw, 0.85rem);
-        text-shadow: 0 2px 12px rgba(0, 0, 0, 0.9), 0 0 30px rgba(0, 0, 0, 0.5);
-      }
-
-      .vs-score {
-        font-size: clamp(1.8rem, 4.5vw, 2.5rem);
-        margin-top: clamp(0.25rem, 0.6vw, 0.6rem);
-        text-shadow: 0 4px 20px rgba(0, 0, 0, 0.9), 0 0 40px rgba(0, 0, 0, 0.6);
-      }
-
-      .match-info .tag {
-        font-size: clamp(0.55rem, 1vw, 0.75rem);
-        text-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
-      }
-
-      .match-info .date,
-      .match-info .time,
-      .match-info .venue {
-        font-size: clamp(0.55rem, 1vw, 0.75rem);
-        text-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
-      }
-
-      .badge {
-        font-size: clamp(0.45rem, 0.8vw, 0.6rem);
-        padding: clamp(0.15rem, 0.4vw, 0.3rem) clamp(0.4rem, 0.8vw, 0.7rem);
-        border-radius: clamp(10px, 1.8vw, 14px);
-        text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
-      }
-
-      .watch-btn {
-        padding: clamp(0.7rem, 2vw, 1rem) clamp(1.2rem, 3.5vw, 2rem);
-        font-size: clamp(0.9rem, 2.5vw, 1.2rem);
-        border-width: clamp(2px, 0.3vw, 3px);
-        gap: clamp(0.4rem, 0.8vw, 0.6rem);
-        border-radius: 0 clamp(30px, 5vw, 50px) clamp(30px, 5vw, 50px) 0;
-        border-left: clamp(2px, 0.3vw, 3px) solid #0b0d0f;
-        width: auto;
-      }
-
-      .watch-btn .icon {
-        font-size: clamp(0.9rem, 2vw, 1.3rem);
-      }
-
-      .btn-mytod {
-        padding: clamp(0.5rem, 1.2vw, 0.7rem) clamp(0.8rem, 1.5vw, 1.2rem);
-        font-size: clamp(0.7rem, 1.5vw, 0.9rem);
-        width: auto;
-        text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
-      }
-    }
-
-    /* ----- MOBILE: PORTRAIT (small phones) ----- */
-    @media (orientation: portrait) and (max-width: 480px) {
-      header {
-        padding: 0.2rem 0.6rem;
-      }
-
-      .logo {
-        font-size: clamp(1rem, 4vw, 1.5rem);
-      }
-
-      .hamburger {
-        padding: clamp(3px, 0.4vw, 5px);
-        gap: clamp(3px, 0.4vw, 4px);
-      }
-
-      .hamburger span {
-        width: clamp(18px, 2.5vw, 22px);
-        height: clamp(2px, 0.25vw, 2.5px);
-      }
-
-      .poster-section {
-        min-height: 100vh;
-        min-height: 100dvh;
-      }
-
-      .poster-image {
-        min-height: 100vh;
-        min-height: 100dvh;
-      }
-
-      .gradient-left {
-        display: none;
-      }
-
-      .gradient-overlay {
-        height: clamp(30%, 40%, 50%);
-      }
-
-      .match-details {
-        bottom: clamp(12%, 16vh, 24%);
-        left: clamp(5%, 7vw, 10%);
-        max-width: clamp(220px, 85vw, 340px);
-      }
-
-      .match-title {
-        font-size: clamp(0.5rem, 1vw, 0.65rem);
-      }
-
-      .team-flag {
-        width: clamp(40px, 5.5vw, 52px);
-        height: clamp(28px, 4vw, 36px);
-      }
-
-      .team-name {
-        font-size: clamp(0.55rem, 1vw, 0.7rem);
-      }
-
-      .vs-score {
-        font-size: clamp(1.5rem, 4vw, 2rem);
-        margin-top: clamp(0.15rem, 0.4vw, 0.4rem);
-      }
-
-      .match-info .tag {
-        font-size: clamp(0.45rem, 0.8vw, 0.6rem);
-      }
-
-      .match-info .date,
-      .match-info .time,
-      .match-info .venue {
-        font-size: clamp(0.45rem, 0.8vw, 0.6rem);
-      }
-
-      .badge {
-        font-size: clamp(0.4rem, 0.7vw, 0.5rem);
-        padding: clamp(0.1rem, 0.3vw, 0.2rem) clamp(0.3rem, 0.6vw, 0.5rem);
-        border-radius: clamp(8px, 1.5vw, 12px);
-      }
-
-      .watch-btn {
-        padding: clamp(0.55rem, 1.8vw, 0.75rem) clamp(0.9rem, 2.5vw, 1.4rem);
-        font-size: clamp(0.75rem, 2.2vw, 1rem);
-        border-width: clamp(1.5px, 0.2vw, 2px);
-        gap: clamp(0.3rem, 0.6vw, 0.4rem);
-        border-radius: 0 clamp(25px, 4vw, 35px) clamp(25px, 4vw, 35px) 0;
-      }
-
-      .watch-btn .icon {
-        font-size: clamp(0.75rem, 1.8vw, 1rem);
-      }
-
-      .btn-mytod {
-        padding: clamp(0.35rem, 0.8vw, 0.5rem) clamp(0.6rem, 1.2vw, 0.9rem);
-        font-size: clamp(0.6rem, 1.2vw, 0.75rem);
-      }
-    }
-
-    /* ----- TABLET: PORTRAIT (HAMBURGER + CENTER LOGO) ----- */
-    @media (orientation: portrait) and (min-width: 769px) and (max-width: 1024px) {
-      header {
-        justify-content: space-between;
-        position: fixed;
-      }
-
-      .logo {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        font-size: clamp(1.6rem, 4vw, 2.2rem);
-      }
-
-      .logo:hover {
-        transform: translateX(-50%) scale(1.02);
-      }
-
-      .header-nav {
-        display: none;
-      }
-
-      .hamburger {
-        display: flex;
-        position: relative;
-        padding: clamp(4px, 0.6vw, 8px);
-        gap: clamp(4px, 0.5vw, 6px);
-      }
-
-      .hamburger span {
-        width: clamp(26px, 3vw, 32px);
-        height: clamp(2.5px, 0.3vw, 3px);
-      }
-
-      .poster-section {
-        min-height: 100vh;
-        min-height: 100dvh;
-      }
-
-      .poster-image {
-        min-height: 100vh;
-        min-height: 100dvh;
-        object-fit: cover;
-      }
-
-      .gradient-left {
-        display: none;
-      }
-
-      .gradient-overlay {
-        height: clamp(20%, 30%, 40%);
-      }
-
-      .match-details {
-        max-width: clamp(380px, 55vw, 520px);
-      }
-
-      .match-title {
-        font-size: clamp(0.8rem, 1.2vw, 1rem);
-      }
-
-      .team-flag {
-        width: clamp(65px, 6.5vw, 80px);
-        height: clamp(45px, 4.5vw, 55px);
-      }
-
-      .team-name {
-        font-size: clamp(0.8rem, 1.2vw, 1rem);
-      }
-
-      .vs-score {
-        font-size: clamp(2.2rem, 3.5vw, 2.8rem);
-        margin-top: clamp(0.3rem, 0.6vw, 0.8rem);
-      }
-
-      .watch-btn {
-        padding: clamp(0.8rem, 1.8vw, 1.2rem) clamp(1.8rem, 3.5vw, 3rem);
-        font-size: clamp(1rem, 1.8vw, 1.4rem);
-        border-radius: 0 clamp(35px, 4vw, 50px) clamp(35px, 4vw, 50px) 0;
-      }
-    }
-
-    /* ----- LANDSCAPE: Tablets & Desktops (FULL MENU, LEFT GRADIENT VISIBLE) ----- */
-    @media (orientation: landscape) and (min-width: 769px) {
-      .hamburger {
-        display: none;
-      }
-
-      .header-nav {
-        display: flex;
-      }
-
-      .logo {
-        position: static;
-        transform: none;
-        font-size: clamp(0.85rem, 2.5vw, 1.5rem);
-      }
-
-      .logo:hover {
-        transform: scale(1.02);
-      }
-
-      .poster-section {
-        min-height: 100vh;
-        min-height: 100dvh;
-      }
-
-      .poster-image {
-        min-height: 100vh;
-        min-height: 100dvh;
-        object-fit: cover;
-        width: 100%;
-      }
-
-      .gradient-left {
-        display: block;
-        width: clamp(28%, 40%, 52%);
-        background: linear-gradient(
-          to right,
-          #0b0d0f 0%,
-          #0b0d0f 8%,
-          rgba(11, 13, 15, 0.8) 22%,
-          rgba(11, 13, 15, 0.4) 45%,
-          rgba(11, 13, 15, 0.1) 70%,
-          transparent 100%
-        );
-      }
-
-      .gradient-overlay {
-        height: clamp(18%, 28%, 38%);
-      }
-
-      .match-details {
-        bottom: clamp(10%, 14vh, 18%);
-        left: clamp(3%, 5vw, 7%);
-        max-width: clamp(380px, 45vw, 580px);
-      }
-
-      .team-flag {
-        width: clamp(70px, 7vw, 95px);
-        height: clamp(48px, 4.8vw, 62px);
-      }
-
-      .team-name {
-        font-size: clamp(0.8rem, 1.2vw, 1rem);
-      }
-
-      .vs-score {
-        font-size: clamp(2.2rem, 3.5vw, 3.2rem);
-        margin-top: clamp(0.3rem, 0.6vw, 0.9rem);
-      }
-    }
-
-    /* ----- DESKTOP: Standard (FULL MENU, LEFT GRADIENT VISIBLE) ----- */
-    @media (min-width: 1025px) {
-      .hamburger {
-        display: none;
-      }
-
-      .header-nav {
-        display: flex;
-      }
-
-      .logo {
-        position: static;
-        transform: none;
-      }
-
-      .logo:hover {
-        transform: scale(1.02);
-      }
-
-      .poster-section {
-        min-height: 100vh;
-        min-height: 100dvh;
-      }
-
-      .poster-image {
-        min-height: 100vh;
-        min-height: 100dvh;
-        object-fit: cover;
-        width: 100%;
-      }
-
-      .gradient-left {
-        display: block;
-        width: clamp(25%, 38%, 48%);
-        background: linear-gradient(
-          to right,
-          #0b0d0f 0%,
-          #0b0d0f 8%,
-          rgba(11, 13, 15, 0.75) 22%,
-          rgba(11, 13, 15, 0.35) 45%,
-          rgba(11, 13, 15, 0.1) 70%,
-          transparent 100%
-        );
-      }
-
-      .gradient-overlay {
-        height: clamp(18%, 28%, 38%);
-      }
-
-      .match-details {
-        bottom: clamp(12%, 16vh, 22%);
-        left: clamp(4%, 6vw, 8%);
-        max-width: clamp(440px, 45vw, 650px);
-      }
-
-      .team-flag {
-        width: clamp(80px, 7vw, 100px);
-        height: clamp(55px, 4.8vw, 65px);
-      }
-
-      .team-name {
-        font-size: clamp(0.85rem, 1.2vw, 1.05rem);
-      }
-
-      .vs-score {
-        font-size: clamp(2.5rem, 3.5vw, 3.5rem);
-        margin-top: clamp(0.4rem, 0.7vw, 1rem);
-      }
-
-      .watch-btn {
-        border-radius: 0 clamp(35px, 4vw, 55px) clamp(35px, 4vw, 55px) 0;
-      }
-    }
-
-    /* ----- LARGE DESKTOP: 1920px+ ----- */
-    @media (min-width: 1920px) {
-      .poster-section {
-        min-height: 100vh;
-        min-height: 100dvh;
-      }
-
-      .poster-image {
-        min-height: 100vh;
-        min-height: 100dvh;
-      }
-
-      .gradient-left {
-        width: clamp(22%, 35%, 42%);
-      }
-
-      .gradient-overlay {
-        height: clamp(16%, 26%, 36%);
-      }
-
-      .match-details {
-        max-width: clamp(560px, 40vw, 750px);
-      }
-
-      .team-flag {
-        width: clamp(95px, 6vw, 115px);
-        height: clamp(65px, 4.2vw, 75px);
-      }
-
-      .team-name {
-        font-size: clamp(1rem, 1.2vw, 1.2rem);
-      }
-
-      .vs-score {
-        font-size: clamp(3rem, 3.5vw, 4rem);
-      }
-
-      .watch-btn {
-        padding: clamp(1rem, 1.8vw, 1.4rem) clamp(2.2rem, 3.5vw, 3.5rem);
-        font-size: clamp(1.2rem, 2vw, 1.6rem);
-        border-width: clamp(2.5px, 0.3vw, 4px);
-        border-radius: 0 clamp(40px, 5vw, 60px) clamp(40px, 5vw, 60px) 0;
-      }
-    }
-
-    /* ----- ULTRA-WIDE (21:9) ----- */
-    @media (min-aspect-ratio: 21/9) {
-      .poster-section {
-        min-height: 100vh;
-        min-height: 100dvh;
-      }
-
-      .poster-image {
-        min-height: 100vh;
-        min-height: 100dvh;
-        object-fit: cover;
-      }
-
-      .gradient-left {
-        width: clamp(20%, 32%, 42%);
-        background: linear-gradient(
-          to right,
-          #0b0d0f 0%,
-          #0b0d0f 8%,
-          rgba(11, 13, 15, 0.7) 20%,
-          rgba(11, 13, 15, 0.3) 45%,
-          transparent 100%
-        );
-      }
-
-      .gradient-overlay {
-        height: clamp(15%, 24%, 32%);
-      }
-
-      .match-details {
-        bottom: clamp(10%, 14vh, 18%);
-        left: clamp(3%, 5vw, 7%);
-        max-width: clamp(420px, 40vw, 620px);
-      }
-
-      .team-flag {
-        width: clamp(70px, 6vw, 90px);
-        height: clamp(48px, 4.2vw, 60px);
-      }
-
-      .vs-score {
-        font-size: clamp(2.2rem, 3.2vw, 3.2rem);
-      }
-    }
-
-    /* ----- TALL SCREENS (foldables) ----- */
-    @media (max-aspect-ratio: 9/16) {
-      header {
-        justify-content: space-between;
-        position: fixed;
-      }
-
-      .logo {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        font-size: clamp(1.1rem, 4vw, 1.6rem);
-      }
-
-      .logo:hover {
-        transform: translateX(-50%) scale(1.02);
-      }
-
-      .header-nav {
-        display: none;
-      }
-
-      .hamburger {
-        display: flex;
-        position: relative;
-        padding: clamp(4px, 0.5vw, 6px);
-        gap: clamp(3px, 0.4vw, 5px);
-      }
-
-      .hamburger span {
-        width: clamp(20px, 2.5vw, 26px);
-        height: clamp(2px, 0.25vw, 2.5px);
-      }
-
-      .poster-section {
-        min-height: 100vh;
-        min-height: 100dvh;
-      }
-
-      .poster-image {
-        min-height: 100vh;
-        min-height: 100dvh;
-        object-fit: cover;
-      }
-
-      .gradient-left {
-        display: none;
-      }
-
-      .gradient-overlay {
-        height: clamp(30%, 40%, 50%);
-      }
-
-      .match-details {
-        bottom: clamp(15%, 20vh, 28%);
-        left: clamp(5%, 8vw, 12%);
-        max-width: clamp(250px, 65vw, 360px);
-      }
-
-      .team-flag {
-        width: clamp(45px, 6vw, 58px);
-        height: clamp(32px, 4.2vw, 40px);
-      }
-
-      .team-name {
-        font-size: clamp(0.6rem, 1vw, 0.8rem);
-      }
-
-      .vs-score {
-        font-size: clamp(1.6rem, 4vw, 2.2rem);
-        margin-top: clamp(0.2rem, 0.5vw, 0.5rem);
-      }
-
-      .watch-btn {
-        padding: clamp(0.6rem, 1.8vw, 0.9rem) clamp(1.2rem, 3vw, 1.8rem);
-        font-size: clamp(0.8rem, 2.2vw, 1.1rem);
-        border-radius: 0 clamp(25px, 4vw, 40px) clamp(25px, 4vw, 40px) 0;
-      }
-
-      .btn-mytod {
-        padding: clamp(0.4rem, 1vw, 0.6rem) clamp(0.7rem, 1.2vw, 1rem);
-        font-size: clamp(0.6rem, 1.2vw, 0.8rem);
-      }
-    }
-
-    /* ---------- RESPONSIVE CLOUDS ---------- */
-    @media (max-width: 1024px) {
-      .cloud-1 {
-        width: min(85vw, 600px);
-        height: min(45vh, 350px);
-      }
-    }
-
-    @media (max-width: 768px) {
-      .cloud-1 {
-        width: 85vw;
-        height: 35vh;
-        filter: blur(clamp(25px, 5vw, 40px));
-      }
-
-      .cloud-2 {
-        width: clamp(120px, 30vw, 180px);
-        height: clamp(80px, 20vh, 120px);
-        top: clamp(8%, 10vh, 15%);
-        left: clamp(3%, 5vw, 8%);
-      }
-
-      .cloud-3 {
-        width: clamp(140px, 32vw, 200px);
-        height: clamp(90px, 22vh, 140px);
-        bottom: clamp(8%, 10vh, 15%);
-        right: clamp(2%, 4vw, 6%);
-      }
-
-      .cloud-4 {
-        width: clamp(80px, 18vw, 120px);
-        height: clamp(60px, 12vh, 90px);
-      }
-    }
-
-    @media (max-width: 480px) {
-      .cloud-1 {
-        width: 90vw;
-        height: 30vh;
-        filter: blur(20px);
-      }
-
-      .cloud-2 {
-        width: 100px;
-        height: 70px;
-        top: 12%;
-        left: 5%;
-      }
-
-      .cloud-3 {
-        width: 120px;
-        height: 80px;
-        bottom: 12%;
-        right: 3%;
-      }
-
-      .cloud-4 {
-        display: none;
-      }
-    }
-
-    @media (min-aspect-ratio: 1/1) and (max-height: 800px) {
-      .cloud-1 {
-        height: 40vh;
-        width: 70vw;
-      }
-    }
-
-    @media (min-width: 1920px) {
-      .cloud-1 {
-        width: 700px;
-        height: 450px;
-      }
-
-      .cloud-2 {
-        width: 400px;
-        height: 280px;
-      }
-
-      .cloud-3 {
-        width: 450px;
-        height: 300px;
-      }
-    }
-
-    /* ---------- REDUCED MOTION ---------- */
-    @media (prefers-reduced-motion: reduce) {
-      *,
-      *::before,
-      *::after {
-        animation-duration: 0.01ms !important;
-        animation-iteration-count: 1 !important;
-        transition-duration: 0.01ms !important;
-      }
-    }
-
-    @media (prefers-color-scheme: light) {
       :root {
-        --bg-primary: #0b0d0f;
+        --font: "Outfit", "Poppins", "Segoe UI", system-ui, sans-serif;
+        --ease: cubic-bezier(0.4, 0, 0.15, 1);
+        --out: cubic-bezier(0.22, 1, 0.36, 1);
+        --autoplay: 7000ms;
+        --sw: 88%;
+        --sl: 6%;
+        --gap: 8px;
+        --dur: 0.9s;
       }
-    }
-    /* ---------- SCROLL-PEEK FIX ----------
-       Placed last on purpose: it overrides the earlier 100vh/100dvh
-       rules (same specificity, later in source order wins) so a sliver
-       of the section below the poster is visible on the first screen,
-       giving users a visual cue to scroll instead of a full dead-end frame. */
-    @media (max-width: 1024px) {
-      .poster-wrapper {
-        height: 74vh;
-        height: 74dvh;
+      * {
+        box-sizing: border-box;
       }
-
-      .poster-section {
-        min-height: 74vh;
-        min-height: 74dvh;
+      html {
+        -webkit-text-size-adjust: 100%;
+        text-size-adjust: 100%;
       }
-
-      .poster-image {
-        min-height: 74vh;
-        min-height: 74dvh;
+      html,
+      body,
+      button,
+      a,
+      input {
+        font-family: var(--font);
+        font-synthesis: none;
+        text-rendering: optimizeLegibility;
       }
-    }
-
-    .scroll-indicator {
-      position: absolute;
-      bottom: 14px;
-      left: 50%;
-      transform: translateX(-50%);
-      z-index: 6;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 3px;
-      color: #fff;
-      opacity: 0.9;
-      pointer-events: none;
-      animation: scrollBounce 1.8s ease-in-out infinite;
-      text-shadow: 0 2px 6px rgba(0, 0, 0, 0.65);
-    }
-
-    .scroll-indicator span {
-      font-size: 0.65rem;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-      font-weight: 700;
-    }
-
-    .scroll-indicator svg {
-      width: 18px;
-      height: 18px;
-      display: block;
-    }
-
-    @keyframes scrollBounce {
-      0%, 100% { transform: translate(-50%, 0); }
-      50% { transform: translate(-50%, 8px); }
-    }
-
-    @media (min-width: 1025px) {
-      .scroll-indicator {
+      body {
+        margin: 0;
+        background: #08090d;
+        color: #eee;
+        position: relative;
+        isolation: isolate;
+        -webkit-font-smoothing: antialiased;
+      }
+      button {
+        font: inherit;
+        cursor: pointer;
+      }
+      a,
+      button {
+        -webkit-tap-highlight-color: transparent;
+      }
+      .ambient {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: var(--ah, 650px);
+        overflow: hidden;
+        z-index: -1;
+        pointer-events: none;
+        background: #242416;
+      }
+      .ambient-layer {
+        position: absolute;
+        inset: -30px;
+        background-size: cover;
+        background-position: center 18%;
+        filter: blur(22px) brightness(0.65);
+        opacity: 0;
+        transition: opacity 0.6s ease;
+        will-change: opacity;
+        transform: translateZ(0);
+      }
+      .ambient-layer.visible {
+        opacity: 1;
+      }
+      .ambient:after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(180deg, #08090d05, #08090d25 45%, #08090d 96%);
+      }
+      /* header */
+      header {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        height: 62px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding: 0 20px;
+        background: linear-gradient(#07090d99, #07090d00);
+        transition: background-color 0.35s ease;
+      }
+      header.scrolled {
+        background: #08090df5;
+      }
+      .menu {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 6px;
+        width: 34px;
+        height: 34px;
+        padding: 0;
+        border: 0;
+        background: none;
+        color: #fff;
+      }
+      .menu i {
+        display: block;
+        height: 3px;
+        width: 26px;
+        border-radius: 3px;
+        background: currentColor;
+        transform-origin: left center;
+        transition:
+          width 0.3s var(--out),
+          transform 0.3s var(--out);
+      }
+      .menu i:nth-child(2) {
+        width: 16px;
+      }
+      .menu:hover i:nth-child(2),
+      .menu:focus-visible i:nth-child(2) {
+        width: 26px;
+      }
+      .menu:active i {
+        transform: scaleX(0.82);
+      }
+      .menu:focus-visible {
+        outline: 2px solid #f55505;
+        outline-offset: 4px;
+        border-radius: 6px;
+      }
+      .brand {
+        font-weight: 800;
+        font-style: italic;
+        font-size: 23px;
+        letter-spacing: -1px;
+        color: #ff560e;
+        text-decoration: none;
+      }
+      .brand {
+        display: flex;
+        align-items: center;
+      }
+      .brand img {
+        display: block;
+        height: 48px;
+        width: auto;
+        max-width: 240px;
+        object-fit: contain;
+      }
+      .offers {
+        margin-left: auto;
+        border: 1px solid #ffffff40;
+        border-radius: 22px;
+        background: #ffffff1f;
+        color: #f3e8cb;
+        padding: 7px 11px;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+      .offers svg {
+        width: 17px;
+        height: 17px;
+      }
+      .desktop-nav,
+      .profile,
+      .arrow {
         display: none;
       }
-    }
-
-    /* ---------- FIX: TRUE 16:9 BANNER IN "DESKTOP SITE" MODE ON PHONES ----------
-       Phones held in portrait keep orientation:portrait even after the user
-       enables "Request Desktop Site" (which only widens the viewport).
-       That made the poster stay in the mobile full-height vertical layout
-       even though the 16:9 desktop image was correctly loading.
-       This rule keys off viewport WIDTH only, so it wins regardless of the
-       physical orientation, and forces a real 16:9 box. Placed last so it
-       overrides the earlier height:100vh rules for any width >= 769px. */
-    @media (min-width: 769px) {
-      .poster-wrapper {
-        height: auto;
-        aspect-ratio: 16 / 9;
-        max-height: 100vh;
-        max-height: 100dvh;
+      /* hero + carousel */
+      .hero {
+        position: relative;
       }
-
-      .poster-section {
-        min-height: 0;
-        height: 100%;
+      .viewport {
+        position: relative;
+        display: flex;
+        gap: var(--gap);
+        padding: 0 var(--sl);
+        overflow-x: auto;
+        overflow-y: hidden;
+        scroll-snap-type: x mandatory;
+        overscroll-behavior-x: contain;
+        scrollbar-width: none;
+        -webkit-overflow-scrolling: touch;
+        aspect-ratio: 100/110;
+        opacity: 0;
+        transition: opacity 0.5s ease;
       }
-
-      .poster-image {
-        min-height: 0;
-        height: 100%;
-      }
-
-      .scroll-indicator {
+      .viewport::-webkit-scrollbar {
         display: none;
       }
-    }
-  </style>
-</head>
-<body>
-
-  <!-- ====== HEADER ====== -->
-  <header>
-    <!-- Hamburger (Mobile/Vertical only) -->
-    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-
-    <!-- Logo - Centered on Mobile/Vertical -->
-    <a href="#" class="logo" aria-label="matchdekho home">
-      <span class="match">match</span><span class="dekho">dekho</span>
-    </a>
-
-    <!-- Desktop Navigation -->
-    <nav class="header-nav">
-      <a href="#">Home</a>
-      <a href="#">Sports</a>
-      <a href="#">Football</a>
-      <a href="#">Cricket</a>
-      <a href="#">UFC</a>
-      <a href="#" class="sign-in">Sign In</a>
-      <a href="#" class="subscribe">Watch Free</a>
-    </nav>
-  </header>
-
-  <!-- ====== MOBILE MENU OVERLAY ====== -->
-  <div class="mobile-menu" id="mobileMenu">
-    <a href="#">Home</a>
-    <a href="#">Sports</a>
-    <a href="#">Cricket</a>
-    <a href="#">Shows</a>
-    <a href="#">TV</a>
-    <a href="#">Fifa 2026</a>
-    <a href="#" class="subscribe-mobile">Watch Free</a>
-  </div>
-
-  <!-- ====== POSTER SECTION - CLICKABLE / SLIDER ====== -->
-  <div class="poster-wrapper" id="posterWrapper">
-
-<section class="poster-section active" data-slide="0">
-  <!-- Poster Image -->
-           <picture>
-        <source
-          media="(orientation: portrait) and (max-width: 768px)"
-          srcset="https://img.tod.tv/resources/images/link/45fdcdd9-ba5e-3ef5-a737-5b36f6be5d86/8c0c7840-d932-5be7-abf7-2d7d3b1fb6b9/639281810190000000/0:20:720:960/768x1024/0be4fbfd-6dca-4fb3-b4cb-0bbd10a9fb72_hero-block-34-en.webpStatus200"
-        />
-        <source
-          media="(min-width: 769px)"
-         srcset="https://img.tod.tv/resources/images/link/ccaebbaf-1d40-3eee-a73c-d61c9483e259/6060b852-c1ae-5aac-985e-64478041ec5e/639281810180000000/0:0:1912:1080/1920x900/3ef1335b-13c6-43f2-899b-8fa31f371fde_wallpaper-169-en.webp"
-        />
-        <img
-          src="https://img.tod.tv/resources/images/link/ccaebbaf-1d40-3eee-a73c-d61c9483e259/6060b852-c1ae-5aac-985e-64478041ec5e/639281810180000000/0:0:1912:1080/1920x900/3ef1335b-13c6-43f2-899b-8fa31f371fde_wallpaper-169-en.webp"
-          alt="matchdekho poster"
-          class="poster-image"
-          loading="lazy"
-        />
-      </picture>
-      <!-- Gradients -->
-      <div class="gradient-left"></div>
-      <div class="gradient-overlay"></div>
-
-      <!-- ====== MATCH DETAILS ====== -->
-      <div class="match-details">
-        <!-- Tournament Title -->
-        <div class="match-title">LALIGA, 2026</div>
-
-        <!-- Teams - FLAG ABOVE NAME, SCORE CENTERED -->
-        <div class="teams-row">
-          <div class="team">
-            <img
-              src="https://banderasysoportes.com/wp-content/uploads/RACING.png"
-              alt="india"
-              class="team-flag"
-              loading="lazy"
-            />
-            <span class="team-name">Santader</span>
-          </div>
-          <span class="vs-score">VS</span>
-          <div class="team">
-            <img
-              src="https://flagsireland.com/cdn/shop/files/Real_Madrid_FC_Stripes_Flag_942493b5-d77e-4f50-aca3-b7caa99d096c.jpg?v=1781785214"
-              alt="Newzealand"
-              class="team-flag"
-              loading="lazy"
-            />
-            <span class="team-name">Madrid</span>
-          </div>
+      .ready .viewport {
+        opacity: 1;
+      }
+      .slide {
+        position: relative;
+        flex: 0 0 100%;
+        min-width: 0;
+        overflow: hidden;
+        border-radius: 4px;
+        background: #101a0b;
+        scroll-snap-align: center;
+        scroll-snap-stop: always;
+        contain: layout paint;
+      }
+      .snap .info > * {
+        transition: none !important;
+      }
+      .mode-switch .slide,
+      .mode-switch .info > * {
+        transition: none !important;
+      }
+      .poster {
+        transform: translate3d(var(--px, 0px), 0, 0);
+        will-change: transform;
+      }
+      picture {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+      .poster {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        background: #121721;
+        -webkit-user-drag: none;
+      }
+      .slide.wide picture {
+        height: 100%;
+      }
+      .slide.wide .poster {
+        height: 100%;
+        aspect-ratio: auto;
+        object-fit: cover;
+        object-position: center;
+      }
+      .shade {
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(180deg, #00000000 50%, #000000b8 100%);
+      }
+      .slide.wide .shade {
+        background: linear-gradient(180deg, #00000000 50%, #000000b8 100%);
+      }
+      .slide:after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        border: 1px solid #ffffff47;
+        border-radius: inherit;
+        pointer-events: none;
+        z-index: 3;
+      }
+      .info {
+        position: absolute;
+        left: 10px;
+        right: 10px;
+        bottom: 6%;
+        text-align: center;
+        z-index: 2;
+      }
+      .info > * {
+        opacity: 0;
+        transform: translate3d(0, 12px, 0);
+        transition:
+          opacity 0.45s ease,
+          transform 0.5s var(--out);
+      }
+      .on .info > * {
+        opacity: 1;
+        transform: none;
+        transition-delay: calc(0.1s + var(--k, 0) * 0.07s);
+      }
+      .series {
+        font-size: clamp(11px, 2.8vw, 17px);
+        color: #e0e0d7;
+        margin: 0 0 9px;
+      }
+      .teams {
+        margin: 0;
+        font-size: clamp(20px, 5vw, 34px);
+        line-height: 1.14;
+        font-weight: 700;
+      }
+      .versus {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        color: #b2bd96;
+        font-size: 12px;
+        height: 20px;
+        font-weight: 400;
+      }
+      .versus:before,
+      .versus:after {
+        content: "";
+        width: 96px;
+        height: 1px;
+        background: linear-gradient(90deg, transparent, #94a17a);
+      }
+      .versus:after {
+        transform: rotate(180deg);
+      }
+      .status {
+        font-size: clamp(11px, 2.8vw, 17px);
+        margin: 11px 0 14px;
+        color: #d4d6cf;
+      }
+      /* match-state themes: live = orange, result = white, upcoming = blue */
+      .slide {
+        --c: #f55505;
+        --c2: #f55505;
+        --ink: #fff;
+        --glow: 245, 85, 5;
+      }
+      .slide[data-t="result"] {
+        --c: #f4f5f7;
+        --c2: #ffffff;
+        --ink: #0d1017;
+        --glow: 255, 255, 255;
+      }
+      .slide[data-t="upcoming"] {
+        --c: #2563ff;
+        --c2: #4d86ff;
+        --ink: #fff;
+        --glow: 37, 99, 255;
+      }
+      .watch {
+        position: relative;
+        overflow: hidden;
+        isolation: isolate;
+        display: inline-flex;
+        gap: 8px;
+        align-items: center;
+        justify-content: center;
+        border: 0;
+        border-radius: 3px;
+        background: linear-gradient(180deg, color-mix(in srgb, var(--c) 86%, #fff 14%), var(--c));
+        color: var(--ink);
+        font-size: 12px;
+        min-height: 36px;
+        padding: 0 20px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-decoration: none;
+        box-shadow:
+          inset 0 1px 0 rgba(255, 255, 255, 0.3),
+          0 8px 22px -8px rgba(var(--glow), 0.65);
+      }
+      /* shimmer sweep (transform + opacity only) */
+      .watch:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 45%;
+        z-index: 2;
+        pointer-events: none;
+        background: linear-gradient(
+          105deg,
+          transparent,
+          rgba(255, 255, 255, 0.55) 50%,
+          transparent
+        );
+        opacity: 0;
+        transform: translate3d(-160%, 0, 0) skewX(-20deg);
+      }
+      .slide[data-t="result"] .watch:after {
+        background: linear-gradient(105deg, transparent, rgba(13, 16, 23, 0.14) 50%, transparent);
+      }
+      .on .watch:after {
+        animation: shimmer 6.5s cubic-bezier(0.45, 0, 0.25, 1) 1.5s infinite;
+      }
+      @keyframes shimmer {
+        0% {
+          opacity: 0;
+          transform: translate3d(-160%, 0, 0) skewX(-20deg);
+        }
+        5% {
+          opacity: 0.85;
+        }
+        40%,
+        100% {
+          opacity: 0;
+          transform: translate3d(340%, 0, 0) skewX(-20deg);
+        }
+      }
+      .watch .ico {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        flex: 0 0 20px;
+        width: 20px;
+        height: 20px;
+        isolation: isolate;
+      }
+      .watch .ico svg {
+        position: relative;
+        z-index: 1;
+        display: block;
+        width: 17px;
+        height: 17px;
+        fill: currentColor;
+        transform-origin: 50% 50%;
+      }
+      /* halo pulse: two soft filled circles expand from the icon and fade, staggered */
+      .watch .ico:before,
+      .watch .ico:after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        border-radius: 50%;
+        background: color-mix(in srgb, var(--ink) 35%, transparent);
+        pointer-events: none;
+        z-index: 0;
+        opacity: 0;
+      }
+      .on .watch .ico:before,
+      .on .watch .ico:after {
+        animation: iconHalo 2.4s ease-out infinite;
+      }
+      .on .watch .ico:after {
+        animation-delay: 1.2s;
+      }
+      @keyframes iconHalo {
+        0% {
+          transform: scale(1);
+          opacity: 0.35;
+        }
+        70% {
+          transform: scale(2.4);
+          opacity: 0;
+        }
+        100% {
+          transform: scale(2.6);
+          opacity: 0;
+        }
+      }
+      /* per-icon motion: live = heartbeat, result = trophy shine-bounce, upcoming = bell ring */
+      .slide.on[data-t="live"] .watch .ico svg {
+        animation: beat 1.8s ease-in-out infinite;
+      }
+      .slide.on[data-t="result"] .watch .ico svg {
+        animation: trophy 2.8s ease-in-out infinite;
+        transform-origin: 50% 90%;
+      }
+      .slide.on[data-t="upcoming"] .watch .ico svg {
+        animation: bell 2.6s ease-in-out infinite;
+        transform-origin: 50% 8%;
+      }
+      @keyframes beat {
+        0%,
+        60%,
+        100% {
+          transform: scale(1);
+        }
+        12% {
+          transform: scale(1.22);
+        }
+        24% {
+          transform: scale(1);
+        }
+        36% {
+          transform: scale(1.12);
+        }
+      }
+      @keyframes trophy {
+        0%,
+        55%,
+        100% {
+          transform: translateY(0) rotate(0) scale(1);
+        }
+        64% {
+          transform: translateY(-2px) rotate(-8deg) scale(1.14);
+        }
+        74% {
+          transform: translateY(0) rotate(7deg) scale(1.06);
+        }
+        84% {
+          transform: translateY(-1px) rotate(-3deg) scale(1.08);
+        }
+      }
+      @keyframes bell {
+        0%,
+        45%,
+        100% {
+          transform: rotate(0);
+        }
+        7% {
+          transform: rotate(18deg);
+        }
+        14% {
+          transform: rotate(-16deg);
+        }
+        21% {
+          transform: rotate(12deg);
+        }
+        28% {
+          transform: rotate(-8deg);
+        }
+        35% {
+          transform: rotate(4deg);
+        }
+      }
+      .tag {
+        display: none;
+      }
+      .dot[data-t="live"] .bar {
+        background: #f55505;
+      }
+      .dot[data-t="result"] .bar {
+        background: #fff;
+      }
+      .dot[data-t="upcoming"] .bar {
+        background: #4d86ff;
+      }
+      /* dots */
+      .dots {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+        padding: 12px 0 30px;
+      }
+      .dot {
+        position: relative;
+        overflow: hidden;
+        width: 5px;
+        height: 4px;
+        border: 0;
+        border-radius: 999px;
+        padding: 0;
+        background: #ffffff3d;
+        transition:
+          width 0.35s var(--ease),
+          background-color 0.3s;
+      }
+      .dot.active {
+        width: 18px;
+        height: 4px;
+        background: #ffffff3d;
+      }
+      .dot .bar {
+        position: absolute;
+        inset: 0;
+        opacity: 1;
+        background: #ffffffd9;
+        border-radius: inherit;
+        transform: translateX(-100%);
+      }
+      .dot.active .bar {
+        animation: prog var(--autoplay) linear forwards;
+      }
+      @keyframes prog {
+        to {
+          transform: translateX(0);
+        }
+      }
+      @keyframes pulse {
+        50% {
+          opacity: 0.35;
+        }
+      }
+      /* live rail */
+      .live {
+        padding: 0 16px 35px;
+      }
+      .section-title {
+        font-size: 17px;
+        margin: 0 0 10px;
+        font-weight: 600;
+        color: #d4d4d8;
+      }
+      .section-title button {
+        border: 0;
+        background: none;
+        color: inherit;
+        font-size: 26px;
+        vertical-align: -2px;
+        margin-left: 3px;
+        padding: 0;
+        line-height: 15px;
+      }
+      .rail {
+        display: flex;
+        gap: 7px;
+        overflow-x: auto;
+        scrollbar-width: none;
+        margin-right: -16px;
+        padding-right: 16px;
+      }
+      .rail::-webkit-scrollbar {
+        display: none;
+      }
+      .live-rail {
+        position: relative;
+      }
+      .card {
+        flex: 0 0 78%;
+        border: 1px solid #1b1d25;
+        background: #121620;
+        overflow: hidden;
+        color: inherit;
+        text-decoration: none;
+      }
+      .thumb {
+        aspect-ratio: 16/9;
+        position: relative;
+        overflow: hidden;
+      }
+      .thumb img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        display: block;
+      }
+      .thumb:after {
+        content: "";
+        position: absolute;
+        inset: 62% 0 0;
+        background: linear-gradient(transparent, #12162080);
+      }
+      .badge {
+        position: absolute;
+        bottom: 7px;
+        left: 8px;
+        background: #f1f0ec;
+        color: #222935;
+        font-size: 12px;
+        font-weight: 800;
+        font-style: italic;
+        border-radius: 2px;
+        padding: 4px 6px;
+        z-index: 1;
+      }
+      .badge:before {
+        content: "";
+        display: inline-block;
+        width: 6px;
+        height: 6px;
+        background: #f23b50;
+        border-radius: 50%;
+        margin-right: 5px;
+        vertical-align: 1px;
+      }
+      .caption {
+        padding: 9px 8px 6px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 11px;
+        color: #93969f;
+      }
+      .dialog {
+        border: 1px solid #42434b;
+        background: #14151b;
+        color: #fff;
+        border-radius: 16px;
+        padding: 24px;
+        max-width: 320px;
+        width: 88%;
+        box-shadow: 0 20px 70px #0009;
+      }
+      .dialog::backdrop {
+        background: #000b;
+      }
+      .dialog h2 {
+        margin: 0 0 12px;
+        font-size: 20px;
+      }
+      .close {
+        border: 0;
+        background: #ff5300;
+        color: #fff;
+        padding: 10px 18px;
+        border-radius: 4px;
+        margin-top: 18px;
+      }
+      .navlinks {
+        display: grid;
+        gap: 16px;
+      }
+      .navlinks a {
+        color: #fff;
+        text-decoration: none;
+      }
+      /* ---- drawer ---- */
+      [hidden] {
+        display: none !important;
+      }
+      html.lock {
+        overflow: hidden;
+      }
+      .scrim {
+        position: fixed;
+        inset: 0;
+        z-index: 40;
+        background: rgba(0, 0, 0, 0.62);
+        opacity: 0;
+        visibility: hidden;
+        transition:
+          opacity 0.38s ease,
+          visibility 0s linear 0.38s;
+      }
+      .scrim.open {
+        opacity: 1;
+        visibility: visible;
+        transition: opacity 0.38s ease;
+      }
+      .drawer {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 50;
+        width: min(86vw, 340px);
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        background: linear-gradient(180deg, #13151c, #0b0d12 45%);
+        border-right: 1px solid #ffffff12;
+        box-shadow: 24px 0 60px -20px #000c;
+        transform: translate3d(-104%, 0, 0);
+        visibility: hidden;
+        transition:
+          transform 0.32s cubic-bezier(0.4, 0, 1, 1),
+          visibility 0s linear 0.32s;
+        will-change: transform;
+        touch-action: pan-y;
+        padding-top: env(safe-area-inset-top, 0px);
+        padding-bottom: env(safe-area-inset-bottom, 0px);
+      }
+      .drawer.open {
+        transform: none;
+        visibility: visible;
+        transition: transform 0.5s cubic-bezier(0.32, 0.72, 0, 1);
+      }
+      .drawer.drag {
+        transition: none;
+      }
+      .drawer:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        height: 200px;
+        background: radial-gradient(80% 100% at 0 0, #f5550526, transparent);
+        pointer-events: none;
+      }
+      .dr-head {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 14px 16px 10px 20px;
+      }
+      .dr-logo img {
+        display: block;
+        height: 44px;
+        width: auto;
+        max-width: 220px;
+        object-fit: contain;
+      }
+      .dclose {
+        position: relative;
+        width: 42px;
+        height: 42px;
+        border: 0;
+        border-radius: 50%;
+        background: #ffffff10;
+        color: #fff;
+        transition:
+          background-color 0.2s,
+          transform 0.3s var(--out);
+      }
+      .dclose:hover {
+        background: #ffffff1c;
+      }
+      .dclose:active {
+        transform: rotate(90deg) scale(0.92);
+      }
+      .dclose:focus-visible {
+        outline: 2px solid #f55505;
+        outline-offset: 3px;
+      }
+      .dclose b {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 18px;
+        height: 2.5px;
+        margin: -1.25px 0 0 -9px;
+        border-radius: 3px;
+        background: currentColor;
+        transform: rotate(0) scaleX(0.2);
+        transition: transform 0.5s var(--out);
+      }
+      .drawer.open .dclose b:nth-child(1) {
+        transform: rotate(45deg) scaleX(1);
+        transition-delay: 0.2s;
+      }
+      .drawer.open .dclose b:nth-child(2) {
+        transform: rotate(-45deg) scaleX(1);
+        transition-delay: 0.26s;
+      }
+      .dr-search {
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin: 6px 16px 10px;
+        padding: 0 14px;
+        height: 44px;
+        border-radius: 12px;
+        background: #ffffff0d;
+        border: 1px solid #ffffff12;
+        transition:
+          border-color 0.25s,
+          background-color 0.25s;
+      }
+      .dr-search:focus-within {
+        border-color: #f5550599;
+        background: #ffffff14;
+      }
+      .dr-search svg {
+        width: 18px;
+        height: 18px;
+        flex: 0 0 18px;
+        fill: none;
+        stroke: #8b90a0;
+        stroke-width: 1.8;
+        stroke-linecap: round;
+      }
+      .dr-search input {
+        flex: 1;
+        min-width: 0;
+        border: 0;
+        outline: 0;
+        background: none;
+        color: #fff;
+        font-size: 16px;
+      }
+      .dr-search input::placeholder {
+        color: #7d8190;
+      }
+      .dr-scroll {
+        position: relative;
+        flex: 1;
+        overflow-y: auto;
+        overscroll-behavior: contain;
+        padding: 4px 10px 12px;
+        scrollbar-width: none;
+      }
+      .dr-scroll::-webkit-scrollbar {
+        display: none;
+      }
+      .dr-item,
+      .dr-foot {
+        opacity: 0;
+        translate: -16px 0;
+        transition:
+          opacity 0.2s ease,
+          translate 0.2s ease,
+          transform 0.15s ease,
+          background-color 0.2s,
+          color 0.2s;
+      }
+      .drawer.open .dr-item,
+      .drawer.open .dr-foot {
+        opacity: 1;
+        translate: 0 0;
+        transition:
+          opacity 0.45s ease calc(var(--i, 0) * 40ms + 140ms),
+          translate 0.55s var(--out) calc(var(--i, 0) * 40ms + 140ms),
+          transform 0.15s ease,
+          background-color 0.2s,
+          color 0.2s;
+      }
+      .dr-item {
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        width: 100%;
+        min-height: 50px;
+        padding: 0 14px;
+        margin: 2px 0;
+        border: 0;
+        border-radius: 10px;
+        background: none;
+        color: #dfe1e7;
+        font-size: 15px;
+        font-weight: 500;
+        text-decoration: none;
+        text-align: left;
+      }
+      .dr-item .i {
+        width: 22px;
+        height: 22px;
+        flex: 0 0 22px;
+        fill: none;
+        stroke: currentColor;
+        stroke-width: 1.7;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        opacity: 0.85;
+      }
+      .dr-item:hover {
+        background: #ffffff0a;
+      }
+      .dr-item:active {
+        transform: scale(0.98);
+        background: #ffffff12;
+      }
+      .dr-item:focus-visible,
+      .dr-res:focus-visible,
+      .dr-sub-item:focus-visible,
+      .dr-login:focus-visible {
+        outline: 2px solid #f55505;
+        outline-offset: -2px;
+      }
+      .dr-item[aria-current="page"] {
+        color: #fff;
+        background: linear-gradient(90deg, #f5550528, transparent);
+      }
+      .dr-item[aria-current="page"]:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 12px;
+        bottom: 12px;
+        width: 3px;
+        border-radius: 3px;
+        background: #f55505;
+      }
+      .dr-item[aria-current="page"] .i {
+        stroke: #f55505;
+        opacity: 1;
+      }
+      .dr-badge {
+        margin-left: auto;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        background: #f55505;
+        color: #fff;
+        font-size: 11px;
+        font-weight: 800;
+        padding: 3px 9px 3px 7px;
+        border-radius: 99px;
+      }
+      .dr-badge i {
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: #fff;
+        animation: pulse 2s ease-in-out infinite;
+      }
+      .dr-new {
+        margin-left: auto;
+        background: #2563ff;
+        color: #fff;
+        font-size: 10px;
+        font-weight: 800;
+        letter-spacing: 0.6px;
+        padding: 3px 8px;
+        border-radius: 99px;
+      }
+      .chev {
+        margin-left: auto;
+        width: 18px;
+        height: 18px;
+        fill: none;
+        stroke: currentColor;
+        stroke-width: 2;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        opacity: 0.7;
+        transition: transform 0.35s var(--out);
+      }
+      .dr-acc[aria-expanded="true"] .chev {
+        transform: rotate(180deg);
+      }
+      .dr-sub {
+        display: grid;
+        grid-template-rows: 0fr;
+        transition: grid-template-rows 0.42s var(--ease);
+      }
+      .dr-sub.open {
+        grid-template-rows: 1fr;
+      }
+      .dr-sub > div {
+        min-height: 0;
+        overflow: hidden;
+        margin-left: 25px;
+        padding-left: 12px;
+        border-left: 1px solid #ffffff14;
+      }
+      .dr-sub-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        min-height: 42px;
+        padding: 0 12px;
+        border-radius: 8px;
+        color: #b4b8c5;
+        font-size: 14px;
+        text-decoration: none;
+        transition:
+          background-color 0.2s,
+          color 0.2s;
+      }
+      .dr-sub-item:before {
+        content: "";
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background: #f55505;
+        opacity: 0.7;
+      }
+      .dr-sub-item:hover,
+      .dr-sub-item:active {
+        background: #ffffff0d;
+        color: #fff;
+      }
+      .dr-sep {
+        height: 1px;
+        margin: 10px 14px;
+        background: #ffffff12;
+      }
+      .dr-h {
+        margin: 12px 8px 6px;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+        color: #7d8190;
+      }
+      .dr-res {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 2px 10px;
+        align-items: center;
+        padding: 10px 12px;
+        margin: 2px 0;
+        border-radius: 10px;
+        color: #e9eaee;
+        text-decoration: none;
+        transition: background-color 0.2s;
+      }
+      .dr-res:hover,
+      .dr-res:active {
+        background: #ffffff0d;
+      }
+      .dr-res.match {
+        grid-template-columns: 80px minmax(0, 1fr);
+      }
+      .dr-res.match .dr-poster {
+        grid-column: 1;
+        grid-row: 1 / 4;
+        width: 80px;
+        aspect-ratio: 16/9;
+        object-fit: cover;
+        display: block;
+        border-radius: 6px;
+        background: #121620;
+      }
+      .dr-res.match .dr-tag,
+      .dr-res.match b,
+      .dr-res.match small {
+        grid-column: 2;
+        min-width: 0;
+      }
+      .dr-res.match .dr-tag {
+        justify-self: start;
+      }
+      .dr-res.match b,
+      .dr-res.match small {
+        overflow-wrap: anywhere;
+      }
+      .dr-res b {
+        font-size: 14px;
+        font-weight: 600;
+      }
+      .dr-res small {
+        grid-column: 2;
+        color: #8b90a0;
+        font-size: 12px;
+      }
+      .dr-res.sec {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+      .dr-res.sec .i {
+        width: 20px;
+        height: 20px;
+        fill: none;
+        stroke: #f55505;
+        stroke-width: 1.7;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .dr-tag {
+        font-size: 10px;
+        font-weight: 800;
+        letter-spacing: 0.5px;
+        padding: 3px 7px;
+        border-radius: 3px;
+        background: #f55505;
+        color: #fff;
+      }
+      .dr-tag[data-t="result"] {
+        background: #f4f5f7;
+        color: #0d1017;
+      }
+      .dr-tag[data-t="upcoming"] {
+        background: #2563ff;
+      }
+      .dr-empty {
+        padding: 28px 12px;
+        text-align: center;
+        color: #8b90a0;
+        font-size: 14px;
+      }
+      .dr-foot {
+        position: relative;
+        padding: 12px 16px 16px;
+        border-top: 1px solid #ffffff12;
+        background: #0b0d12;
+      }
+      .dr-login {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 46px;
+        border-radius: 3px;
+        background: #f55505;
+        color: #fff;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition:
+          background-color 0.2s,
+          transform 0.15s;
+      }
+      .dr-login:hover {
+        background: #7a2b02;
+      }
+      .dr-login:active {
+        background: #3d1501;
+        transform: scale(0.98);
+      }
+      .dr-legal {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        margin-top: 12px;
+        font-size: 11px;
+        color: #7d8190;
+      }
+      .dr-legal a {
+        color: inherit;
+        text-decoration: none;
+      }
+      .dr-legal a:hover {
+        color: #fff;
+      }
+      .slide {
+        cursor: pointer;
+      }
+      /* tablet + desktop */
+      @media (min-width: 768px) {
+        .ambient {
+          display: none;
+        }
+        :root {
+          --sw: 100%;
+          --sl: 0%;
+          --gap: 0px;
+          --autoplay: 7000ms;
+        }
+        .drawer,
+        .scrim {
+          display: none !important;
+        }
+        .viewport {
+          display: block;
+          overflow: hidden;
+          padding: 0;
+          scroll-snap-type: none;
+          touch-action: pan-y;
+          cursor: grab;
+          user-select: none;
+          -webkit-user-select: none;
+        }
+        .viewport.dragging {
+          cursor: grabbing;
+        }
+        .slide {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: var(--sl);
+          width: var(--sw);
+          flex: none;
+          scroll-snap-align: none;
+          transform: translate3d(calc(var(--o, 0) * (100% + var(--gap)) + var(--dx, 0px)), 0, 0);
+          opacity: 0.55;
+          transition:
+            transform var(--dur) var(--ease),
+            opacity var(--dur) var(--ease);
+          will-change: transform, opacity;
+          backface-visibility: hidden;
+        }
+        .slide.on {
+          opacity: 1;
+        }
+        .dragging .slide {
+          transition: none;
+        }
+        .slide.clone {
+          display: none;
+        }
+        .poster {
+          transform: none;
+          will-change: auto;
+        }
+        header {
+          position: fixed;
+          left: 0;
+          right: 0;
+          height: clamp(60px, 3.75vw, 72px);
+          padding: 0 clamp(16px, 1.45vw, 28px);
+          gap: clamp(18px, 2.1vw, 40px);
+          background: linear-gradient(#07090dd0, #07090d00);
+        }
+        .menu {
+          display: none;
+        }
+        .brand img {
+          height: clamp(36px, 2.6vw, 48px);
+          max-width: 260px;
+        }
+        .desktop-nav {
+          display: flex;
+          gap: clamp(16px, 1.65vw, 32px);
+        }
+        .desktop-nav a {
+          position: relative;
+          display: inline-flex;
+          align-items: center;
+          gap: 5px;
+          font-size: clamp(13px, 0.8vw, 16px);
+          font-weight: 500;
+          color: #d6d8de;
+          text-decoration: none;
+          transition: color 0.2s;
+        }
+        .desktop-nav a:hover,
+        .desktop-nav a:first-child {
+          color: #fff;
+        }
+        .desktop-nav a:first-child:after {
+          content: "";
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: -9px;
+          height: 2px;
+          background: #ff5900;
+        }
+        .desktop-nav svg {
+          width: 11px;
+          height: 11px;
+        }
+        .offers {
+          font-size: 14px;
+        }
+        .profile {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: 0;
+          background: none;
+          color: #fff;
+          padding: 0;
+          margin-left: -6px;
+        }
+        .profile svg {
+          width: clamp(28px, 1.7vw, 34px);
+          height: clamp(28px, 1.7vw, 34px);
+        }
+        .viewport {
+          aspect-ratio: 16/9;
+        }
+        .slide {
+          border-radius: 0;
+          background: #08090d;
+        }
+        .slide:after {
+          border: 0;
+        }
+        .slide .poster,
+        .slide.wide .poster {
+          height: 100%;
+          aspect-ratio: auto;
+          object-fit: cover;
+          object-position: center;
+        }
+        .slide.wide picture {
+          height: 100%;
+        }
+        .slide .shade,
+        .slide.wide .shade {
+          background:
+            radial-gradient(circle at bottom left, #07090d, #0000, #0000),
+            linear-gradient(180deg, #0000, #0000 76%, #07090d);
+        }
+        .info {
+          left: 4%;
+          right: auto;
+          bottom: 14%;
+          width: 42%;
+          text-align: left;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+        }
+        .tag {
+          display: inline-flex;
+          align-items: center;
+          gap: 6px;
+          order: -1;
+          background: var(--c);
+          color: var(--ink);
+          font-style: italic;
+          font-weight: 800;
+          letter-spacing: 0.5px;
+          font-size: clamp(11px, 0.75vw, 14px);
+          padding: 5px 10px 5px 8px;
+          margin-bottom: clamp(10px, 0.85vw, 16px);
+          border-radius: 3px;
+        }
+        .tag i {
+          width: 6px;
+          height: 6px;
+          border-radius: 50%;
+          background: currentColor;
+        }
+        .slide[data-t="live"] .tag i {
+          animation: pulse 1.6s ease-in-out infinite;
+        }
+        .slide:not([data-t="live"]) .tag i {
+          display: none;
+        }
+        .teams {
+          font-size: clamp(23px, 2.6vw, 44px);
+          line-height: 1.16;
+          text-shadow: 0 2px 18px #0006;
+        }
+        .versus {
+          display: inline-block;
+          vertical-align: baseline;
+          height: auto;
+          margin: 0 10px;
+          font-size: 0;
+          line-height: 1;
+        }
+        .versus:before {
+          display: inline;
+          content: "VS";
+          width: auto;
+          height: auto;
+          background: none;
+          font-size: clamp(14px, 1.45vw, 28px);
+          line-height: 1;
+          font-style: italic;
+          font-weight: 700;
+          color: #7d8594;
+          margin: 0;
+        }
+        .versus:after {
+          display: none;
+        }
+        .series {
+          order: 2;
+          margin: 16px 0 0;
+          font-size: clamp(12px, 0.85vw, 16px);
+          color: #aeb3bc;
+        }
+        .status {
+          order: 3;
+          margin: 12px 0 20px;
+          font-size: clamp(13px, 0.95vw, 18px);
+          font-weight: 600;
+          color: #eceef2;
+        }
+        .watch {
+          order: 4;
+          width: clamp(220px, 21vw, 404px);
+          min-height: clamp(38px, 2.4vw, 46px);
+          font-size: clamp(12px, 0.8vw, 14px);
+          letter-spacing: 1px;
+          transition:
+            background-color 0.25s,
+            transform 0.25s;
+        }
+        .watch:hover {
+          filter: brightness(1.08);
+        }
+        .slide[data-t="live"] .watch:hover {
+          filter: none;
+          background: #7a2b02;
+        }
+        .slide[data-t="live"] .watch:active {
+          background: #3d1501;
+        }
+        .dots {
+          position: absolute;
+          left: 4%;
+          bottom: clamp(28px, 3.55vw, 68px);
+          padding: 0;
+          gap: 4px;
+        }
+        .dot {
+          border-radius: 999px;
+          background: #ffffff3d;
+        }
+        .dot.active {
+          width: 16px;
+          height: 4px;
+          background: #ffffff3d;
+        }
+        .dot .bar {
+          opacity: 1;
+        }
+        .arrow {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+          top: calc(50% - 24px);
+          z-index: 4;
+          width: 48px;
+          height: 48px;
+          border: 0;
+          background: none;
+          color: #fff;
+          opacity: 0.9;
+          filter: drop-shadow(0 1px 5px #0009);
+          transition:
+            transform 0.25s,
+            opacity 0.25s;
+        }
+        .arrow svg {
+          width: 26px;
+          height: 26px;
+        }
+        .arrow.prev {
+          left: 8px;
+        }
+        .arrow.next {
+          right: 8px;
+        }
+        .arrow:hover {
+          opacity: 1;
+        }
+        .arrow.prev:hover {
+          transform: translateX(-3px);
+        }
+        .arrow.next:hover {
+          transform: translateX(3px);
+        }
+        .live {
+          padding: 25px 4% 40px;
+        }
+        .live-rail .arrow {
+          top: calc((92vw - 18px) * 9 / 64 - 24px);
+        }
+        .live-rail .prev {
+          left: calc(8px - 4vw);
+        }
+        .live-rail .next {
+          right: calc(8px - 4vw);
+        }
+        .section-title {
+          font-size: 24px;
+          margin-bottom: 18px;
+        }
+        .rail {
+          gap: 18px;
+          margin-right: -4vw;
+          padding-right: 4vw;
+        }
+        .card {
+          flex: 0 0 calc((92vw - 18px) / 2);
+        }
+        .caption {
+          font-size: 14px;
+          line-height: 1.5;
+          padding: 12px;
+        }
+        .badge {
+          font-size: 13px;
+        }
+      }
+      @media (min-width: 1280px) {
+        .info {
+          bottom: 11%;
+          width: 37%;
+        }
+        .dot {
+          width: 6px;
+          height: 6px;
+        }
+        .dot.active {
+          width: 24px;
+          height: 6px;
+        }
+      }
+      @media (min-width: 1600px) {
+        .dot {
+          width: 8px;
+          height: 8px;
+        }
+        .dot.active {
+          width: 32px;
+          height: 8px;
+        }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .drawer,
+        .scrim,
+        .dr-item,
+        .dr-foot,
+        .dr-sub,
+        .dclose b,
+        .menu i {
+          transition: none !important;
+        }
+        .slide,
+        .info > *,
+        header,
+        .ambient-layer,
+        .viewport {
+          transition: none !important;
+        }
+        .dot.active .bar,
+        .tag i,
+        .watch:before,
+        .watch:after {
+          animation: none;
+        }
+        .watch .ico svg,
+        .watch .ico:before,
+        .watch .ico:after,
+        .watch:after {
+          animation: none !important;
+        }
+      }
+    </style></head
+  ><body
+    ><div class="ambient" aria-hidden="true"
+      ><div class="ambient-layer"></div><div class="ambient-layer"></div
+    ></div>
+    <header
+      ><button class="menu" aria-label="Open menu" aria-expanded="false" aria-controls="drawer"
+        ><i></i><i></i><i></i></button
+      ><a href="#" class="brand" aria-label="MATCHDEKHO"
+        ><img src="https://imgh.in/host/bfpz0q" alt="MATCHDEKHO"
+      /></a>
+      <nav class="desktop-nav"
+        ><a href="#">Home</a><a href="#live">Live Now</a><a href="#">Schedule</a
+        ><a href="#">Cricket</a><a href="#">Football</a><a href="#">Formula 1</a
+        ><a href="#"
+          >All Sports
+          <svg
+            viewBox="0 0 12 12"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.6"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="m2.5 4.5 3.5 3.5 3.5-3.5" /></svg></a
+      ></nav>
+      <button class="offers"
+        ><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+          <path d="m12 2 3 3 4 0 0 4 3 3-3 3v4h-4l-3 3-3-3H5v-4l-3-3 3-3V5h4z" />
+          <path d="m8 16 8-8" />
+          <circle cx="8" cy="8" r="1" />
+          <circle cx="16" cy="16" r="1" />
+        </svg>
+        Offers</button
+      >
+      <button class="profile" aria-label="Account"
+        ><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+          <circle cx="12" cy="12" r="10" />
+          <circle cx="12" cy="10" r="3.2" />
+          <path d="M5.8 18.5c1.6-2.6 3.6-3.8 6.2-3.8s4.6 1.2 6.2 3.8" /></svg></button
+    ></header>
+    <main
+      ><section class="hero" aria-label="Featured matches"
+        ><div class="viewport" tabindex="0" aria-roledescription="carousel"></div>
+        <button class="arrow prev" aria-label="Previous slide"
+          ><svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="m15 4-8 8 8 8" /></svg
+        ></button>
+        <button class="arrow next" aria-label="Next slide"
+          ><svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="m9 4 8 8-8 8" /></svg
+        ></button>
+        <div class="dots" aria-label="Choose slide"></div
+      ></section>
+      <section class="live" id="live"
+        ><h2 class="section-title"
+          >All Live Now (<span id="lc">0</span>)
+          <button aria-label="Scroll live matches">›</button></h2
+        ><div class="live-rail"
+          ><div class="rail"></div
+          ><button class="arrow prev live-prev" aria-label="Previous live matches"
+            ><svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="m15 4-8 8 8 8" /></svg></button
+          ><button class="arrow next live-next" aria-label="Next live matches"
+            ><svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="m9 4 8 8-8 8" /></svg></button></div></section
+    >
+      <section class="live allsports-section" id="football" aria-label="Football events">
+        <h2 class="section-title">Football (<span id="allsportsCount">0</span>)
+          <button type="button" aria-label="Scroll football matches">›</button>
+        </h2>
+        <div class="live-rail">
+          <div class="rail" id="allsportsTrack" aria-busy="false"></div>
+          <button class="arrow prev" id="allsportsPrev" aria-label="Previous football matches">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 4-8 8 8 8"/></svg>
+          </button>
+          <button class="arrow next" id="allsportsNext" aria-label="Next football matches">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 4 8 8-8 8"/></svg>
+          </button>
         </div>
+      </section>
+    </main>
+    <div class="scrim" id="scrim"></div>
+    <aside class="drawer" id="drawer" aria-hidden="true" aria-label="Main menu" inert>
+      <div class="dr-head"
+        ><a class="dr-logo" href="#" aria-label="MATCHDEKHO"
+          ><img src="https://imgh.in/host/bfpz0q" alt="MATCHDEKHO" /></a
+        ><button class="dclose" aria-label="Close menu"><b></b><b></b></button
+      ></div>
+      <label class="dr-search"
+        ><svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="11" cy="11" r="6.5" />
+          <path d="m16 16 4.5 4.5" /></svg
+        ><input
+          type="search"
+          placeholder="Search matches &amp; sports"
+          autocomplete="off"
+          enterkeyhint="search"
+          aria-label="Search"
+      /></label>
+      <div class="dr-scroll"
+        ><nav class="dr-nav" aria-label="Sections"></nav><div class="dr-results" hidden></div
+      ></div>
+      <div class="dr-foot" style="--i: 9"
+        ><a class="dr-login" href="#">Sign in / Sign up</a
+        ><p class="dr-legal"
+          ><a href="#">Terms</a><a href="#">Privacy</a><a href="#">Support</a></p
+        ></div
+      >
+    </aside>
+    <script id="match-data" type="application/json">
+      [
+        {
+          "id": "sa-aus",
+          "portrait": "https://imgh.in/host/2s6rjd",
+          "landscape": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.8a40f4ed-55ee-4b0b-84f3-a0961c33aa14/5/HERO-16X9/en-US._UR1920,1080_SX1920_FMavif_PQ65_.jpeg",
+          "home": "India",
+          "away": "Newzealand",
+          "series": "India tour of Newzealand, 2026 · 1st ODI",
+          "status": "Day 4: Australia trail by 410",
+          "label": "LIVE",
+          "url": "https://www.fancode.com/cricket"
+        },
+        {
+          "id": "4249667",
+          "portrait": "https://images.fancode.com/skillup-uploads/cms-media/ZIM.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL1pJTS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJ3aWR0aCI6ODAwLCJoZWlnaHQiOjEwMDB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
+          "landscape": "https://images.fancode.com/skillup-uploads/cms-media/4249667_53087_WAU_NSW_FC-WEB_1791299730396.jpg",
+          "home": "Western Australia",
+          "away": "New South Wales",
+          "series": "Sheffield Shield, 2026/27",
+          "status": "Upcoming match",
+          "label": "UPCOMING",
+          "url": "https://www.fancode.com/cricket/tour/sheffield-shield-2026-27-19896475/matches/cricket-4249667/live-match-info"
+        },
+        {
+          "id": "4249665",
+          "portrait": "https://images.fancode.com/skillup-uploads/cms-media/4250371_53124_CWR_PKA_fc-App-V2.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhLzQyNTAzNzFfNTMxMjRfQ1dSX1BLQV9mYy1BcHAtVjIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjgwMCwiaGVpZ2h0IjoxMDAwfSwid2VicCI6eyJxdWFsaXR5Ijo2MCwibG9zc2xlc3MiOmZhbHNlfX0sIm91dHB1dEZvcm1hdCI6IndlYnAifQ==",
+          "landscape": "https://images.fancode.com/skillup-uploads/cms-media/4249665_53087_TAS_VCT_FC-WEB_1791295173197.jpg",
+          "home": "Tasmania",
+          "away": "Victoria",
+          "series": "Sheffield Shield, 2026/27",
+          "status": "Live match",
+          "label": "LIVE",
+          "url": "https://www.fancode.com/cricket/tour/sheffield-shield-2026-27-19896475/matches/cricket-4249665/live-match-info"
+        },
+        {
+          "id": "4249804",
+          "portrait": "https://images.fancode.com/skillup-uploads/cms-media/West-Indies-tour-of-Bangladesh-sporty-v2.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL1dlc3QtSW5kaWVzLXRvdXItb2YtQmFuZ2xhZGVzaC1zcG9ydHktdjIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwid2lkdGgiOjgwMCwiaGVpZ2h0IjoxMDAwfSwid2VicCI6eyJxdWFsaXR5Ijo2MCwibG9zc2xlc3MiOmZhbHNlfX0sIm91dHB1dEZvcm1hdCI6IndlYnAifQ==",
+          "landscape": "https://images.fancode.com/skillup-uploads/cms-media/4249804_53097_SS-W_PS-W_FC-WebTVBG.png",
+          "home": "Sydney Sixers Women",
+          "away": "Perth Scorchers Women",
+          "series": "T20 Spring Challenge, 2026 · Final",
+          "status": "SS-W beat PS-W by 15 runs",
+          "label": "COMPLETED",
+          "url": "https://www.fancode.com/cricket/tour/t20-spring-challenge-2026-19898316/matches/sydney-sixers-women-vs-perth-scorchers-women-4249804/live-match-info"
+        }
+      ]
+    </script>
+    <script>
+      const $ = (s) => document.querySelector(s);
+      const matches = JSON.parse($("#match-data").textContent),
+        N = matches.length;
+      const viewport = $(".viewport"),
+        dots = $(".dots"),
+        rail = $(".rail"),
+        hero = $(".hero"),
+        header = $("header");
+      const media = matchMedia("(min-width:768px)");
+      const esc = (s) =>
+        String(s).replace(
+          /[&<>"']/g,
+          (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c],
+        );
 
-        <!-- Match Info -->
-        <div class="match-info">
-          <span class="tag">Live</span>
-          <span class="separator">•</span>
-          <span class="date">Nov 1th</span>
-          <span class="separator">•</span>
-          <span class="time">12:00</span>
-          <span class="separator">•</span>
-          <span class="venue">Sports Park</span>
-        </div>
-
-        <!-- Badges -->
-        <div class="badges">
-          <span class="badge badge-fulltime">LIVE</span>
-          <span class="badge badge-4k">4K</span>
-          <span class="badge badge-hdr">HDR</span>
-          <span class="badge badge-fanzone">FanZone</span>
-        </div>
-
-        <!-- Action Buttons -->
-        <div class="action-buttons">
-          <a href="/live/laliga.html" class="watch-btn">
-            <span class="icon">▶</span>
-            <span>Watch Now</span>
-          </a>
-          <a href="#" class="btn-mytod">+ My TOD</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- SLIDE 2 -->
-   <section class="poster-section" data-slide="1">
-  <!-- Poster Image -->
-           <picture>
-        <source
-          media="(orientation: portrait) and (max-width: 768px)"
-          srcset="https://imgh.in/host/2s6rjd"
-        />
-        <source
-          media="(min-width: 769px)"
-         srcset="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.8a40f4ed-55ee-4b0b-84f3-a0961c33aa14/5/HERO-16X9/en-US._UR1920,1080_SX1920_FMavif_PQ65_.jpeg"
-        />
-        <img
-          src="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.8a40f4ed-55ee-4b0b-84f3-a0961c33aa14/5/HERO-16X9/en-US._UR1920,1080_SX1920_FMavif_PQ65_.jpeg"
-          alt="matchdekho poster"
-          class="poster-image"
-          loading="lazy"
-        />
-      </picture>
-      <!-- Gradients -->
-      <div class="gradient-left"></div>
-      <div class="gradient-overlay"></div>
-
-      <!-- ====== MATCH DETAILS ====== -->
-      <div class="match-details">
-        <!-- Tournament Title -->
-        <div class="match-title">INDIA TOUR OF NZ, 2026</div>
-
-        <!-- Teams - FLAG ABOVE NAME, SCORE CENTERED -->
-        <div class="teams-row">
-          <div class="team">
-            <img
-              src="https://i.pinimg.com/originals/44/02/57/440257d061972e045735747a626e62ae.gif"
-              alt="india"
-              class="team-flag"
-              loading="lazy"
-            />
-            <span class="team-name">India</span>
-          </div>
-          <span class="vs-score">VS</span>
-          <div class="team">
-            <img
-              src="https://media.tenor.com/VcZKPaWgKUkAAAAM/nz-flag-stars.gif"
-              alt="Newzealand"
-              class="team-flag"
-              loading="lazy"
-            />
-            <span class="team-name">Newzealand</span>
-          </div>
-        </div>
-
-        <!-- Match Info -->
-        <div class="match-info">
-          <span class="tag">Live</span>
-          <span class="separator">•</span>
-          <span class="date">Oct 22th</span>
-          <span class="separator">•</span>
-          <span class="time">12:00</span>
-          <span class="separator">•</span>
-          <span class="venue">Sports Park,NZ</span>
-        </div>
-
-        <!-- Badges -->
-        <div class="badges">
-          <span class="badge badge-fulltime">LIVE</span>
-          <span class="badge badge-4k">4K</span>
-          <span class="badge badge-hdr">HDR</span>
-          <span class="badge badge-fanzone">FanZone</span>
-        </div>
-
-        <!-- Action Buttons -->
-        <div class="action-buttons">
-          <a href="/live/india-vs-nz.html" class="watch-btn">
-            <span class="icon">▶</span>
-            <span>Watch Now</span>
-          </a>
-          <a href="#" class="btn-mytod">+ My TOD</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- ====== SLIDER PROGRESS BAR ====== -->
-    <div class="slider-progress" id="sliderProgress">
-      <div class="progress-track" data-track="0">
-        <div class="progress-fill"></div>
-      </div>
-      <div class="progress-track" data-track="1">
-        <div class="progress-fill"></div>
-      </div>
-    </div>
-
-    <!-- ====== SLIDER ARROWS ====== -->
-    <button class="slider-arrow arrow-left" id="arrowLeft" aria-label="Previous slide">&#10094;</button>
-    <button class="slider-arrow arrow-right" id="arrowRight" aria-label="Next slide">&#10095;</button>
-
-    <!-- ====== SCROLL DOWN INDICATOR (mobile/tablet only) ====== -->
-    <div class="scroll-indicator" aria-hidden="true">
-      <span>Scroll</span>
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-        <polyline points="6 9 12 15 18 9"></polyline>
-      </svg>
-    </div>
-
-  </div>
-
-  <!-- ====== GLASS CLOUDS ====== -->
-  <div class="glass-cloud cloud-1" aria-hidden="true"></div>
-  <div class="glass-cloud cloud-2" aria-hidden="true"></div>
-  <div class="glass-cloud cloud-3" aria-hidden="true"></div>
-  <div class="glass-cloud cloud-4" aria-hidden="true"></div>
-
-  <!-- ====== MAIN CONTENT ====== -->
-  <main role="main">
-<!-- ===== ALL SPORTS ===== -->
-<link rel="stylesheet" href="allsports.css">
-
-<section class="allsports-section">
-  <div class="allsports-header">
-    <h2 class="allsports-title">
-       FootBall Live
-    </h2>
-    <span class="allsports-badge-count" id="allsportsCount">—</span>
-  </div>
-
-  <div class="allsports-carousel-wrapper">
-    <button class="allsports-arrow arrow-left"  id="allsportsPrev" aria-label="Previous">❮</button>
-    <div class="allsports-track" id="allsportsTrack"></div>
-    <button class="allsports-arrow arrow-right" id="allsportsNext" aria-label="Next">❯</button>
-  </div>
-</section>
-
-<script src="allsports.js"></script>
-
-    <!-- ===== CRICKET LIVE ===== -->
-
-   <link rel="stylesheet" href="css/cricket-live.css">
-
-<section class="cricket-live-section">
-  <div class="cricket-live-header">
-    <h2 class="cricket-live-title">Cricket Live</h2>
-    <span class="cricket-live-count" id="cricketLiveCount">—</span>
-  </div>
-
-  <div class="cricket-live-carousel-wrapper">
-    <button class="cricket-live-arrow arrow-left"  id="cricketLivePrev" aria-label="Previous">❮</button>
-    <div class="cricket-live-track" id="cricketLiveTrack"></div>
-    <button class="cricket-live-arrow arrow-right" id="cricketLiveNext" aria-label="Next">❯</button>
-  </div>
-</section>
-
-<script src="js/cricket-live.js"></script>
-
-    <!-- ====== WILLOW LIVE SECTION ====== -->
-<section class="willow-live-section">
-  <div class="willow-live-header">
-    <h2 class="willow-live-title">
-      Willow Live
-    </h2>
-  </div>
-
-  <div class="willow-live-carousel-wrapper">
-    <button class="carousel-arrow arrow-left" id="willowLiveArrowLeft" aria-label="Scroll left">&#10094;</button>
-
-    <div class="willow-live-track" id="willowLiveTrack">
-      <!-- Skeleton loader will be injected here by JavaScript -->
-    </div>
-
-    <button class="carousel-arrow arrow-right" id="willowLiveArrowRight" aria-label="Scroll right">&#10095;</button>
-  </div>
-</section>
-
-<!-- Include CSS and JS -->
-<link rel="stylesheet" href="willow-live.css">
-<script src="willow-live.js"></script>
-    <!-- ====== HIGHLIGHTS SECTION ====== -->
-    <section class="highlights-section">
-      <div class="highlights-header">
-        <h2 class="highlights-title">Highlights</h2>
-      </div>
-
-      <div class="highlights-carousel-wrapper">
-        <button class="carousel-arrow arrow-left" id="highlightsArrowLeft" aria-label="Scroll highlights left">&#10094;</button>
-
-        <div class="highlights-track" id="highlightsTrack">
-          <!-- ====== HIGHLIGHTS 1 ====== -->
-
-           <a href="/videos/India-vs-zim.html" class="highlight-card" data-highlight="spain-france">
-            <div class="highlight-thumb">
-              <img
-                src="https://img.youtube.com/vi/vobZJTEqCHo/maxresdefault.jpg"
-                alt="Argentina vs England Highlights"
-                loading="lazy"
-              />
-              <div class="play-overlay">
-                <span class="play-icon">▶</span>
-              </div>
-            </div>
-            <div class="highlight-info">
-              <span class="highlight-tag">Highlights</span>
-              <span class="highlight-name">India Vs Zimbabwe</span>
-            </div>
-           </a>
-
-          <!-- ====== HIGHLIGHTS 1 ====== -->
-
-           <a href="/videos/fifa-final-highlights.html" class="highlight-card" data-highlight="spain-france">
-            <div class="highlight-thumb">
-              <img
-                src="https://akamaividz2.zee5.com/image/upload/w_1920,h_1080,c_scale,f_webp,q_auto:eco/resources/0-1-6z51008119/list/1920x1080list324bba5387274b9d954ece8157209b12fb01c4b8492e43cb9d4979b643a7cd6c.jpg"
-                alt="Argentina vs England Highlights"
-                loading="lazy"
-              />
-              <div class="play-overlay">
-                <span class="play-icon">▶</span>
-              </div>
-            </div>
-            <div class="highlight-info">
-              <span class="highlight-tag">Highlights</span>
-              <span class="highlight-name">Final: Argentina Vs Spain</span>
-            </div>
-           </a>
-
-<!-- ====== HIGHLIGHTS 1 ====== -->
-
-           <a href="/videos/argentina-vs-england.html" class="highlight-card" data-highlight="spain-france">
-            <div class="highlight-thumb">
-              <img
-                src="https://akamaividz2.zee5.com/image/upload/w_1755,h_987,c_scale,f_webp,q_auto:eco/resources/0-1-6z51004241/list/1920x1080list3240b183f449409ba37752dc3bcc5042d230423dd7c04123b16a74b26b5bb328.jpg"
-                alt="Argentina vs England Highlights"
-                loading="lazy"
-              />
-              <div class="play-overlay">
-                <span class="play-icon">▶</span>
-              </div>
-            </div>
-            <div class="highlight-info">
-              <span class="highlight-tag">Highlights</span>
-              <span class="highlight-name">Argentina Vs England</span>
-            </div>
-           </a>
-
-         <!-- ====== HIGHLIGHTS 1 ====== -->
-
-           <a href="/videos/spain-vs-france.html" class="highlight-card" data-highlight="spain-france">
-            <div class="highlight-thumb">
-              <img
-                src="https://i.ytimg.com/vi/_cV8QcKp3GU/maxresdefault.jpg"
-                alt="Spain vs France Highlights"
-                loading="lazy"
-              />
-              <div class="play-overlay">
-                <span class="play-icon">▶</span>
-              </div>
-            </div>
-            <div class="highlight-info">
-              <span class="highlight-tag">Highlights</span>
-              <span class="highlight-name">France Vs Sapin</span>
-            </div>
-           </a>
-
-          <!-- ====== HIGHLIGHTS 1 ====== -->
-
-           <a href="/highlights/argentina-vs-swiz" class="highlight-card" data-highlight="switzerland-argentina">
-            <div class="highlight-thumb">
-              <img
-                src="https://i.ytimg.com/vi/dDRLCjMPymA/maxresdefault.jpg"
-                alt="Switzerland vs Argentina Highlights"
-                loading="lazy"
-              />
-              <div class="play-overlay">
-                <span class="play-icon">▶</span>
-              </div>
-            </div>
-            <div class="highlight-info">
-              <span class="highlight-tag">Highlights</span>
-              <span class="highlight-name">Switzerland vs Argentina</span>
-            </div>
-          </a>
-
-          <!-- ====== HIGHLIGHTS 2 ====== -->
-
-          <a href="/highlights/england-vs-norway.html" class="highlight-card" data-highlight="switzerland-argentina">
-            <div class="highlight-thumb">
-              <img
-                src="https://akamaividz2.zee5.com/image/upload/w_1920,h_1080,c_scale,f_webp,q_auto:eco/resources/0-1-6z51003113/list/1920x1080listdf8bffacb0354ed28f03edd43412b55129e23e2a351243cdaa3ff7bee75b590f.jpg"
-                alt="Switzerland vs Argentina Highlights"
-                loading="lazy"
-              />
-              <div class="play-overlay">
-                <span class="play-icon">▶</span>
-              </div>
-            </div>
-            <div class="highlight-info">
-              <span class="highlight-tag">Highlights</span>
-              <span class="highlight-name">Norway vs England</span>
-            </div>
-          </a>
-        </div>
-
-        <button class="carousel-arrow arrow-right" id="highlightsArrowRight" aria-label="Scroll highlights right">&#10095;</button>
-      </div>
-    </section>
-    <!-- ====== FANCODE SECTION ====== -->
-<section class="fancode-section" id="fancodeSection">
-  <div class="fancode-header">
-    <div class="fancode-title">
-       FanCode
-    </div>
-
-  </div>
-
-  <div class="fancode-carousel-wrapper">
-    <button class="fancode-arrow arrow-left" id="fancodeArrowLeft" aria-label="Scroll left">&#10094;</button>
-    <div class="fancode-track" id="fancodeTrack" tabindex="0">
-      <!-- Skeletons will be inserted by JavaScript -->
-    </div>
-    <button class="fancode-arrow arrow-right" id="fancodeArrowRight" aria-label="Scroll right">&#10095;</button>
-  </div>
-</section>
-<!-- ====== WORLD SPORTS SECTION ====== -->
-<section class="world-sports-section" id="worldSportsSection">
-  <div class="world-sports-header">
-    <h2 class="world-sports-title">World Sports</h2>
-    <span class="world-sports-badge">Live</span>
-  </div>
-
-  <div class="world-sports-carousel-wrapper">
-    <button class="world-sports-arrow arrow-left" id="worldSportsArrowLeft" aria-label="Scroll left">&#10094;</button>
-    <div class="world-sports-track" id="worldSportsTrack">
-      <!-- skeleton / cards injected by JS -->
-    </div>
-    <button class="world-sports-arrow arrow-right" id="worldSportsArrowRight" aria-label="Scroll right">&#10095;</button>
-  </div>
-</section>
-    <script src="fancode.js"></script>
-    <script src="world-sports.js"></script>
-  </main>
-
-  <script>
-    // ====== HAMBURGER MENU TOGGLE ======
-    const hamburger = document.getElementById('hamburger');
-    const mobileMenu = document.getElementById('mobileMenu');
-
-    hamburger.addEventListener('click', function(e) {
-      e.stopPropagation();
-      this.classList.toggle('active');
-      mobileMenu.classList.toggle('active');
-      document.body.style.overflow = mobileMenu.classList.contains('active') ? 'hidden' : '';
-    });
-
-    // Close menu when clicking a link
-    document.querySelectorAll('.mobile-menu a').forEach(link => {
-      link.addEventListener('click', function() {
-        hamburger.classList.remove('active');
-        mobileMenu.classList.remove('active');
-        document.body.style.overflow = '';
+      const TYPE = { LIVE: "live", COMPLETED: "result", UPCOMING: "upcoming" };
+      const typeOf = (m) => TYPE[m.label] || "result";
+      const BTN = {
+        live: { t: "WATCH LIVE", i: '<path d="M8 5L20 12L8 19Z"/>' },
+        result: {
+          t: "MATCH RESULT",
+          i: '<path d="M5 4h14v3h-2v2a5 5 0 0 1-4 4.9V17h3v3H8v-3h3v-3.1A5 5 0 0 1 7 9V7H5zM9 7v2a3 3 0 0 0 6 0V7z"/>',
+        },
+        upcoming: {
+          t: "REMIND ME",
+          i: '<path d="M12 22a2.5 2.5 0 0 0 2.5-2.5h-5A2.5 2.5 0 0 0 12 22zm7-6V11a7 7 0 0 0-5-6.7V3a2 2 0 0 0-4 0v1.3A7 7 0 0 0 5 11v5l-2 2v1h18v-1z"/>',
+        },
+      };
+      const TAG = { live: "LIVE", result: "RESULT", upcoming: "UPCOMING" };
+      const render = (m, i) => {
+        const t = typeOf(m),
+          B = BTN[t];
+        return `<article class="slide${m.portrait === m.landscape ? " wide" : ""}" data-t="${t}" aria-label="${esc(m.home + " versus " + m.away)}"><picture><source media="(min-width:768px)" srcset="${esc(m.landscape)}"><img class="poster" src="${esc(m.portrait)}" alt="${esc(m.home + " vs " + m.away)}" draggable="false" decoding="async"${i === 1 ? ' fetchpriority="high"' : ""}></picture><div class="shade"></div><div class="info"><span class="tag"><i></i>${TAG[t]}</span><p class="series">${esc(m.series).replace(" · ", " • ")}</p><h2 class="teams">${esc(m.home)}<span class="versus">∨</span>${esc(m.away)}</h2><p class="status">${esc(m.status)}</p><a class="watch" href="${esc(m.url)}"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true">${B.i}</svg></span>${B.t}</a></div></article>`;
+      };
+      viewport.innerHTML = [matches[N - 1], ...matches, matches[0]].map(render).join("");
+      const slides = [...viewport.children];
+      /* first/last are cloned at the ends so a neighbour card always shows on both sides */
+      [slides[0], slides[N + 1]].forEach((c) => {
+        c.classList.add("clone");
+        c.setAttribute("aria-hidden", "true");
+        c.inert = true;
       });
-    });
+      slides.forEach((s) =>
+        [...s.querySelector(".info").children].forEach((c, k) => c.style.setProperty("--k", k)),
+      );
+      dots.innerHTML = matches
+        .map(
+          (m, i) =>
+            `<button class="dot" data-t="${typeOf(m)}" aria-label="Show match ${i + 1}"><span class="bar"></span></button>`,
+        )
+        .join("");
 
-    // Close menu on escape key
-    document.addEventListener('keydown', function(e) {
-      if (e.key === 'Escape' && mobileMenu.classList.contains('active')) {
-        hamburger.classList.remove('active');
-        mobileMenu.classList.remove('active');
-        document.body.style.overflow = '';
-      }
-    });
-
-    // Close menu when clicking outside
-    document.addEventListener('click', function(e) {
-      if (mobileMenu.classList.contains('active') &&
-          !mobileMenu.contains(e.target) &&
-          !hamburger.contains(e.target)) {
-        hamburger.classList.remove('active');
-        mobileMenu.classList.remove('active');
-        document.body.style.overflow = '';
-      }
-    });
-
-   // ====== POSTER CLICK - NAVIGATE TO WATCH PAGE ======
-const posterWrapper = document.getElementById('posterWrapper');
-posterWrapper.addEventListener('click', function(e) {
-  // Don't trigger if clicking on watch button, mytod button, or slider controls
-  if (
-    e.target.closest('.watch-btn') ||
-    e.target.closest('.btn-mytod') ||
-    e.target.closest('.slider-arrow') ||
-    e.target.closest('.slider-progress')
-  ) {
-    return;
-  }
-  // Get the watch button from the active slide and navigate to its href
-  const activeSlide = document.querySelector('.poster-section.active');
-  const watchBtn = activeSlide ? activeSlide.querySelector('.watch-btn') : null;
-  if (watchBtn) {
-    const href = watchBtn.getAttribute('href');
-    if (href) {
-      window.location.href = href;
-    }
-  }
-});
-
-    // ====== WATCH BUTTON CLICK - NAVIGATE TO LINK ======
-document.querySelectorAll('.watch-btn').forEach(function (btn) {
-  btn.addEventListener('click', function (e) {
-    e.preventDefault();
-    e.stopPropagation();
-    // Navigate to the href of the link
-    const href = this.getAttribute('href');
-    if (href) {
-      window.location.href = href;
-    }
-  });
-});
-
-    // ====== MY TOD BUTTON (ALL SLIDES) ======
-    document.querySelectorAll('.btn-mytod').forEach(function (btn) {
-      btn.addEventListener('click', function (e) {
-        e.preventDefault();
-        e.stopPropagation();
-        // You can change this to any action
-        alert('Added to My TOD!');
-      });
-    });
-
-    // ====== HERO SLIDER (AUTO-SLIDE + PROGRESS BAR + ARROWS) ======
-    (function () {
-      const slides = Array.from(document.querySelectorAll('.poster-section'));
-      const tracks = Array.from(document.querySelectorAll('.progress-track'));
-      const arrowLeft = document.getElementById('arrowLeft');
-      const arrowRight = document.getElementById('arrowRight');
-      const SLIDE_DURATION = 10000; // 10 seconds
-      let currentIndex = 0;
-      let autoplayTimer = null;
-
-      function getFill(trackIndex) {
-        return tracks[trackIndex].querySelector('.progress-fill');
-      }
-
-      function updateProgressBars(activeIndex) {
-        tracks.forEach(function (track, i) {
-          const fill = getFill(i);
-          // Reset animation state
-          fill.classList.remove('filling');
-          fill.classList.remove('filled');
-          fill.style.width = '';
-          // Force reflow so the animation restarts cleanly
-          void fill.offsetWidth;
-
-          if (i < activeIndex) {
-            fill.classList.add('filled'); // already-passed slides stay full
-          } else if (i === activeIndex) {
-            fill.classList.add('filling'); // current slide animates 0 -> 100%
+      const AUTOPLAY = 7000,
+        SLIDE_MS = 1000,
+        SLOW = 900,
+        FAST = 450;
+      const reduced = matchMedia("(prefers-reduced-motion:reduce)");
+      let desk = media.matches,
+        cur = 0,
+        pos = 1,
+        anim = 0,
+        autoTimer,
+        settleT,
+        touching = false,
+        ticking = false;
+      /* ===== landscape engine: seamless transform slider (virtual offsets, no clones) ===== */
+      const rs = slides.slice(1, N + 1);
+      const half = N >> 1,
+        min = -half,
+        max = N - 1 - half;
+      let vo = rs.map((_, i) => ((i + half) % N) - half);
+      let moving = false,
+        pend = 0,
+        pdir = 1,
+        queued = 0,
+        tm,
+        drag = null,
+        suppress = false,
+        dragFrame = 0,
+        modeVersion = 0;
+      const put = (i, snap) => {
+        const s = rs[i];
+        if (snap) {
+          s.style.transition = "none";
+          s.style.setProperty("--o", vo[i]);
+          requestAnimationFrame(() => requestAnimationFrame(() => (s.style.transition = "")));
+        } else s.style.setProperty("--o", vo[i]);
+      };
+      const normalize = () =>
+        vo.forEach((v, i) => {
+          if (v > max || v < min) {
+            vo[i] = v > max ? v - N : v + N;
+            put(i, true);
           }
-          // slides after current stay empty (default width: 0%)
         });
+      function step(dir) {
+        const version = modeVersion;
+        moving = true;
+        normalize();
+        if (dir > 0) {
+          const i = vo.indexOf(min);
+          vo[i] = max + 1;
+          put(i, true);
+        }
+        requestAnimationFrame(() =>
+          requestAnimationFrame(() => {
+            if (version !== modeVersion) return;
+            cur = (cur + dir + N) % N;
+            viewport.style.setProperty("--dur", (pend ? FAST : SLOW) + "ms");
+            vo.forEach((_, i) => {
+              vo[i] -= dir;
+              put(i);
+            });
+            viewport.style.setProperty("--dx", "0px");
+            mark();
+            clearTimeout(tm);
+            tm = setTimeout(done, (pend ? FAST : SLOW) + 40);
+          }),
+        );
+      }
+      function done() {
+        moving = false;
+        normalize();
+        if (pend > 0) {
+          pend--;
+          step(pdir);
+        } else if (queued) {
+          const d = queued;
+          queued = 0;
+          step(d);
+        }
+      }
+      function nav(dir, count = 1) {
+        if (moving) {
+          queued = dir;
+          return;
+        }
+        pend = count - 1;
+        pdir = dir;
+        step(dir);
       }
 
-      function goToSlide(index) {
-        const total = slides.length;
-        const nextIndex = ((index % total) + total) % total; // safe wrap/loop
-
-        slides[currentIndex].classList.remove('active');
-        slides[nextIndex].classList.add('active');
-        currentIndex = nextIndex;
-
-        updateProgressBars(currentIndex);
-        restartAutoplay();
+      /* ===== portrait engine: native scroll-snap with looped clones + poster drift ===== */
+      const ease = (t) => (t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2);
+      /* real match i lives at slides[i+1]; slides[0] and slides[N+1] are the loop clones */
+      const target = (i) => {
+        const s = slides[i + 1];
+        return s.offsetLeft - (viewport.clientWidth - s.offsetWidth) / 2;
+      };
+      function stopAnim() {
+        cancelAnimationFrame(anim);
+        anim = 0;
+        viewport.style.scrollSnapType = "";
       }
-
-      function nextSlide() {
-        goToSlide(currentIndex + 1);
+      function jump(left) {
+        viewport.classList.add("snap");
+        viewport.style.scrollSnapType = "none";
+        viewport.scrollLeft = left;
+        update();
+        requestAnimationFrame(() =>
+          requestAnimationFrame(() => {
+            viewport.classList.remove("snap");
+            if (!anim) viewport.style.scrollSnapType = "";
+          }),
+        );
       }
-
-      function prevSlide() {
-        goToSlide(currentIndex - 1);
+      function settle() {
+        if (desk || anim || touching) return;
+        const c = viewport.scrollLeft + viewport.clientWidth / 2;
+        let p = 0,
+          bd = 1e9;
+        slides.forEach((s, i) => {
+          const d = Math.abs(s.offsetLeft + s.offsetWidth / 2 - c);
+          if (d < bd) {
+            bd = d;
+            p = i;
+          }
+        });
+        if (p === 0) jump(target(N - 1));
+        else if (p === N + 1) jump(target(0));
       }
-
-      function restartAutoplay() {
-        if (autoplayTimer) clearTimeout(autoplayTimer);
-        autoplayTimer = setTimeout(nextSlide, SLIDE_DURATION);
+      function goTo(i, ms) {
+        stopAnim();
+        const from = viewport.scrollLeft,
+          to = target(i),
+          d = to - from;
+        if (reduced.matches || Math.abs(d) < 1) {
+          viewport.scrollLeft = to;
+          settle();
+          return;
+        }
+        const dur = ms || SLIDE_MS,
+          t0 = performance.now();
+        viewport.style.scrollSnapType = "none";
+        const tick = (now) => {
+          const p = Math.min(1, (now - t0) / dur);
+          viewport.scrollLeft = from + d * ease(p);
+          if (p < 1) anim = requestAnimationFrame(tick);
+          else {
+            stopAnim();
+            settle();
+          }
+        };
+        anim = requestAnimationFrame(tick);
       }
-
-      arrowRight.addEventListener('click', function (e) {
-        e.stopPropagation();
-        nextSlide();
-      });
-
-      arrowLeft.addEventListener('click', function (e) {
-        e.stopPropagation();
-        prevSlide();
-      });
-
-      // Kick things off
-      updateProgressBars(currentIndex);
-      restartAutoplay();
-    })();
-
-    // ====== HIGHLIGHTS CAROUSEL (SCROLL + ARROWS) ======
-    (function () {
-      const track = document.getElementById('highlightsTrack');
-      const arrowLeft = document.getElementById('highlightsArrowLeft');
-      const arrowRight = document.getElementById('highlightsArrowRight');
-
-      if (!track || !arrowLeft || !arrowRight) return;
-
-      function getScrollAmount() {
-        const card = track.querySelector('.highlight-card');
-        if (!card) return 320;
-        const trackStyles = getComputedStyle(track);
-        const gap = parseFloat(trackStyles.columnGap || trackStyles.gap || '20');
-        // scroll roughly two cards at a time, like OTT rows
-        return (card.getBoundingClientRect().width + gap) * 2;
+      function update() {
+        if (desk) return;
+        const c = viewport.scrollLeft + viewport.clientWidth / 2;
+        let best = 0,
+          bd = 1e9;
+        slides.forEach((s, i) => {
+          const w = s.offsetWidth,
+            d = Math.max(-1.5, Math.min(1.5, (s.offsetLeft + w / 2 - c) / w));
+          s.style.setProperty("--px", (-0.2 * w * d * Math.abs(d)).toFixed(2) + "px");
+          if (Math.abs(d) < bd) {
+            bd = Math.abs(d);
+            best = i;
+          }
+        });
+        if (best !== pos) {
+          pos = best;
+          cur = (best - 1 + N) % N;
+          mark();
+        }
       }
+      viewport.addEventListener(
+        "scroll",
+        () => {
+          if (desk) return;
+          if (!ticking) {
+            ticking = true;
+            requestAnimationFrame(() => {
+              ticking = false;
+              update();
+            });
+          }
+          clearTimeout(settleT);
+          settleT = setTimeout(settle, 140);
+        },
+        { passive: true },
+      );
+      ["pointerdown", "touchstart", "wheel"].forEach((ev) =>
+        viewport.addEventListener(
+          ev,
+          () => {
+            if (desk) return;
+            stopAnim();
+            if (ev !== "wheel") {
+              touching = true;
+            }
+          },
+          { passive: true },
+        ),
+      );
+      ["pointerup", "pointercancel", "touchend"].forEach((ev) =>
+        addEventListener(ev, () => {
+          touching = false;
+          if (desk) return;
+          clearTimeout(settleT);
+          settleT = setTimeout(settle, 160);
+        }),
+      );
 
-      arrowRight.addEventListener('click', function (e) {
-        e.stopPropagation();
-        track.scrollBy({ left: getScrollAmount(), behavior: 'smooth' });
-      });
-
-      arrowLeft.addEventListener('click', function (e) {
-        e.stopPropagation();
-        track.scrollBy({ left: -getScrollAmount(), behavior: 'smooth' });
-      });
-    })();
-
-  // ====== HIGHLIGHT CARD CLICK - NAVIGATE TO HIGHLIGHTS PAGE ======
-document.querySelectorAll('.highlight-card').forEach(function (card) {
-  card.addEventListener('click', function (e) {
-    e.preventDefault();
-    e.stopPropagation();
-    // Navigate to the href of the link
-    const href = this.getAttribute('href');
-    if (href) {
-      window.location.href = href;
-    }
-  });
-});
-    // Videos
- document.addEventListener('DOMContentLoaded', function() {
-  const container = document.getElementById('videoSectionContainer');
-
-  // Create a loading indicator
-  container.innerHTML = `
-    <div style="color: rgba(255,255,255,0.3); text-align: center; padding: 2rem;">
-      <div style="display: inline-block; width: 30px; height: 30px; border: 3px solid rgba(255,255,255,0.1); border-radius: 50%; border-top-color: var(--golden); animation: spin 1s ease-in-out infinite;"></div>
-    </div>
-  `;
-
-  // Load with Intersection Observer
-  if ('IntersectionObserver' in window) {
-    const observer = new IntersectionObserver(function(entries) {
-      entries.forEach(function(entry) {
-        if (entry.isIntersecting) {
-          loadVideoContent();
-          observer.disconnect();
+      /* ===== shared ===== */
+      const go = (dir) => (desk ? nav(dir) : goTo(cur + dir));
+      function setMode() {
+        ++modeVersion;
+        desk = media.matches;
+        stopAnim();
+        clearTimeout(settleT);
+        cancelAnimationFrame(dragFrame);
+        dragFrame = 0;
+        touching = false;
+        viewport.classList.add("mode-switch");
+        slides.forEach((s) => {
+          s.style.removeProperty("--o");
+          s.style.removeProperty("--px");
+          s.style.transition = "";
+        });
+        viewport.style.removeProperty("--dx");
+        viewport.classList.remove("dragging", "snap");
+        moving = false;
+        pend = 0;
+        queued = 0;
+        clearTimeout(tm);
+        drag = null;
+        if (desk) {
+          vo = rs.map((_, i) => ((((i - cur + half) % N) + N) % N) - half);
+          rs.forEach((s, i) => s.style.setProperty("--o", vo[i]));
+          viewport.scrollLeft = 0;
+        } else {
+          viewport.scrollLeft = target(cur);
+          pos = cur + 1;
+          update();
+        }
+        mark();
+        void viewport.offsetWidth;
+        viewport.classList.remove("mode-switch");
+      }
+      addEventListener("resize", () => {
+        if (desk !== media.matches) {
+          setMode();
+          return;
+        }
+        if (!desk) {
+          stopAnim();
+          viewport.scrollLeft = target(cur);
         }
       });
-    }, { rootMargin: '200px' });
 
-    observer.observe(container);
-  } else {
-    // Fallback: load after a delay
-    setTimeout(loadVideoContent, 1000);
-  }
+      function restartBar() {
+        clearTimeout(autoTimer);
+        const b = dots.children[cur]?.firstElementChild;
+        if (b) {
+          b.getAnimations().forEach((a) => a.cancel());
+          b.style.animation = "none";
+          if (!document.hidden && !reduced.matches)
+            b.animate([{ transform: "translateX(-100%)" }, { transform: "translateX(0)" }], {
+              duration: AUTOPLAY,
+              fill: "forwards",
+            });
+        }
+        if (!document.hidden && !reduced.matches)
+          autoTimer = setTimeout(() => {
+            if (desk) {
+              if (moving || drag) restartBar();
+              else nav(1);
+            } else {
+              if (touching) restartBar();
+              else goTo(cur + 1);
+            }
+          }, AUTOPLAY);
+      }
+      document.addEventListener("visibilitychange", restartBar);
+      reduced.addEventListener("change", restartBar);
 
-  function loadVideoContent() {
-    // You can either fetch from external file or include inline
-    // Option 1: Fetch from external file
-    fetch('/sections/videos.html')
-      .then(response => response.text())
-      .then(html => {
-        container.innerHTML = html;
-        // Execute scripts in the loaded content
-        const scripts = container.querySelectorAll('script');
-        scripts.forEach(function(script) {
-          const newScript = document.createElement('script');
-          newScript.textContent = script.textContent;
-          document.body.appendChild(newScript);
+      function mark() {
+        const on = desk ? cur + 1 : pos;
+        slides.forEach((s, i) => {
+          const a = i === on;
+          s.classList.toggle("on", a);
+          s.setAttribute("aria-hidden", String(!a));
+          s.inert = desk ? !a : s.classList.contains("clone");
         });
-      })
-      .catch(() => {
-        // Option 2: Fallback to inline content
-        container.innerHTML = getVideoSectionHTML();
-        // Re-run carousel initialization if needed
+        [...dots.children].forEach((b, i) => {
+          b.classList.toggle("active", i === cur);
+          b.setAttribute("aria-current", String(i === cur));
+        });
+        if (!mark.f) {
+          mark.f = 1;
+          updateAmbient();
+        } else {
+          clearTimeout(mark.a);
+          mark.a = setTimeout(updateAmbient, 450);
+        }
+        restartBar();
+      }
+      [...dots.children].forEach(
+        (b, i) =>
+          (b.onclick = () => {
+            if (desk) {
+              const f = (i - cur + N) % N;
+              if (!f || moving) return;
+              f <= N / 2 ? nav(1, f) : nav(-1, N - f);
+            } else if (i !== cur) goTo(i);
+          }),
+      );
+      $(".prev").onclick = () => go(-1);
+      $(".next").onclick = () => go(1);
+      viewport.addEventListener("keydown", (e) => {
+        if (e.key === "ArrowLeft" || e.key === "ArrowRight") {
+          e.preventDefault();
+          go(e.key === "ArrowRight" ? 1 : -1);
+        }
       });
-  }
 
-  function getVideoSectionHTML() {
-    // Return your video section HTML here as a string
-    // This is useful if you want to avoid a separate fetch
-    return `
-      <div class="videos-section visible">
-        <div class="videos-header">
-          <h2 class="videos-title">🎬 Latest Videos</h2>
-        </div>
-        <div class="videos-carousel-wrapper">
-          <button class="carousel-arrow arrow-left" id="videosArrowLeft">❮</button>
-          <div class="videos-track" id="videosTrack">
-            <!-- Your video cards here -->
-          </div>
-          <button class="carousel-arrow arrow-right" id="videosArrowRight">❯</button>
-        </div>
-      </div>
-    `;
-  }
-});
+      /* landscape drag / swipe: slides follow the pointer, then glide */
+      viewport.addEventListener("dragstart", (e) => e.preventDefault());
+      viewport.addEventListener("pointerdown", (e) => {
+        if (!desk || moving || e.button > 0) return;
+        drag = {
+          x: e.clientX,
+          y: e.clientY,
+          id: e.pointerId,
+          dx: 0,
+          on: false,
+          w: rs[0].offsetWidth,
+        };
+      });
+      viewport.addEventListener("pointermove", (e) => {
+        if (!drag || e.pointerId !== drag.id) return;
+        const dx = e.clientX - drag.x,
+          dy = e.clientY - drag.y;
+        if (!drag.on && Math.abs(dx) > 8 && Math.abs(dx) > Math.abs(dy)) {
+          drag.on = true;
+          viewport.setPointerCapture(e.pointerId);
+          viewport.classList.add("dragging");
+        }
+        if (drag.on) {
+          drag.dx = Math.max(-drag.w, Math.min(drag.w, dx));
+          if (!dragFrame)
+            dragFrame = requestAnimationFrame(() => {
+              dragFrame = 0;
+              if (drag) viewport.style.setProperty("--dx", drag.dx + "px");
+            });
+        }
+      });
+      function release(cancel) {
+        if (!drag) return;
+        cancelAnimationFrame(dragFrame);
+        dragFrame = 0;
+        const d = drag;
+        drag = null;
+        suppress = d.on;
+        viewport.classList.remove("dragging");
+        if (d.on) {
+          if (!cancel && Math.abs(d.dx) > Math.min(60, d.w * 0.15)) nav(d.dx < 0 ? 1 : -1);
+          else viewport.style.setProperty("--dx", "0px");
+        }
+        setTimeout(() => (suppress = false));
+      }
+      viewport.addEventListener("pointerup", () => release(false));
+      viewport.addEventListener("pointercancel", () => release(true));
+      viewport.addEventListener(
+        "click",
+        (e) => {
+          if (suppress) {
+            e.preventDefault();
+            e.stopPropagation();
+          }
+        },
+        true,
+      );
+      /* the whole card behaves like its button */
+      viewport.addEventListener("click", (e) => {
+        if (e.defaultPrevented || e.target.closest("a")) return;
+        const sl = e.target.closest(".slide");
+        if (!sl || sl.classList.contains("clone")) return;
+        const a = sl.querySelector(".watch");
+        if (a) location.href = a.href;
+      });
 
-  </script>
-</body>
-</html>
+      /* ambient glow (cross-fades two pre-blurred layers; size is updated only on resize) */
+      const layers = [...document.querySelectorAll(".ambient-layer")];
+      let slot = 0,
+        akey = "",
+        aver = 0;
+      function updateAmbient() {
+        if (media.matches) {
+          ++aver;
+          akey = "";
+          return;
+        }
+        const m = matches[cur],
+          url = m.portrait,
+          key = m.id + media.matches;
+        if (key === akey) return;
+        akey = key;
+        const v = ++aver,
+          img = new Image();
+        img.onload = () => {
+          if (v !== aver) return;
+          slot = 1 - slot;
+          layers[slot].style.backgroundImage = `url("${url.replace(/"/g, "%22")}")`;
+          layers[slot].classList.add("visible");
+          layers[1 - slot].classList.remove("visible");
+        };
+        img.src = url;
+      }
+      new ResizeObserver(() =>
+        document.documentElement.style.setProperty(
+          "--ah",
+          header.offsetHeight + viewport.offsetHeight + "px",
+        ),
+      ).observe(viewport);
+      media.addEventListener("change", () => {
+        setMode();
+        updateAmbient();
+      });
+
+      /* header + live rail + menu */
+      const sync = () => header.classList.toggle("scrolled", scrollY > 24);
+      addEventListener("scroll", sync, { passive: true });
+      sync();
+      const live = matches.filter((m) => m.label === "LIVE");
+      $("#lc").textContent = live.length;
+      rail.innerHTML = live
+        .map(
+          (m) =>
+            `<a class="card" href="${esc(m.url)}"><div class="thumb"><img src="${esc(m.landscape)}" alt="${esc(m.home + " vs " + m.away)}" loading="lazy" decoding="async"><span class="badge">LIVE</span></div><div class="caption">${esc(m.series)}<br>${esc(m.home + " vs " + m.away)}</div></a>`,
+        )
+        .join("");
+      $(".section-title button").onclick = () =>
+        rail.scrollBy({ left: rail.clientWidth * 0.65, behavior: "smooth" });
+      $(".live-prev").onclick = () =>
+        rail.scrollBy({
+          left: -rail.clientWidth * 0.65,
+          behavior: reduced.matches ? "auto" : "smooth",
+        });
+      $(".live-next").onclick = () =>
+        rail.scrollBy({
+          left: rail.clientWidth * 0.65,
+          behavior: reduced.matches ? "auto" : "smooth",
+        });
+      /* ---- drawer menu ---- */
+      const IC = {
+        home: '<path d="M3 11.5 12 4l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/>',
+        live: '<circle cx="12" cy="12" r="2.2" fill="currentColor"/><path d="M7.7 7.7a6 6 0 0 0 0 8.6M16.3 7.7a6 6 0 0 1 0 8.6M4.8 4.8a10 10 0 0 0 0 14.4M19.2 4.8a10 10 0 0 1 0 14.4"/>',
+        cal: '<rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/>',
+        cric: '<path d="m14 4 6 6-9.5 9.5a2 2 0 0 1-2.8 0l-3.2-3.2a2 2 0 0 1 0-2.8z"/><path d="m5 19-2 2"/>',
+        foot: '<circle cx="12" cy="12" r="9"/><path d="m12 8 3.5 2.5-1.3 4.1H9.8L8.5 10.5z"/><path d="M12 3v5M15.5 10.5 20 9M14.2 14.6l2.6 3.7M9.8 14.6l-2.6 3.7M8.5 10.5 4 9"/>',
+        f1: '<path d="M4 17a8 8 0 1 1 16 0"/><path d="m12 17 4-5"/><circle cx="12" cy="17" r="1.2" fill="currentColor"/>',
+        grid: '<rect x="4" y="4" width="6.5" height="6.5" rx="1.5"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.5"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.5"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.5"/>',
+        tag: '<path d="M3 12V4h8l10 10-8 8z"/><circle cx="7.5" cy="8.5" r="1.3"/>',
+        help: '<circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.7.4-1 .9-1 1.7M12 17h.01"/>',
+      };
+      const ico = (k) => `<svg class="i" viewBox="0 0 24 24" aria-hidden="true">${IC[k]}</svg>`;
+      const NAV = [
+        ["Home", "#", "home"],
+        ["Live Now", "#live", "live"],
+        ["Schedule", "#", "cal"],
+        ["Cricket", "#", "cric"],
+        ["Football", "#", "foot"],
+        ["Formula 1", "#", "f1"],
+      ];
+      const SPORTS = [
+        "Tennis",
+        "Basketball",
+        "Kabaddi",
+        "Hockey",
+        "Golf",
+        "NASCAR",
+        "MMA",
+        "Badminton",
+        "Volleyball",
+      ];
+      let ki = 0;
+      const sty = () => `style="--i:${ki++}"`;
+      const liveBadge = live.length ? `<span class="dr-badge"><i></i>${live.length}</span>` : "";
+      const drawer = $("#drawer"),
+        scrim = $("#scrim"),
+        menuBtn = $(".menu"),
+        qNav = $(".dr-nav"),
+        qRes = $(".dr-results"),
+        qIn = $(".dr-search input");
+      qNav.innerHTML =
+        NAV.map(
+          ([t, h, i], n) =>
+            `<a class="dr-item" ${sty()} href="${h}"${n === 0 ? ' aria-current="page"' : ""}>${ico(i)}<span>${t}</span>${t === "Live Now" ? liveBadge : ""}</a>`,
+        ).join("") +
+        `<button class="dr-item dr-acc" ${sty()} aria-expanded="false" aria-controls="dr-sub">${ico("grid")}<span>All Sports</span><svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button><div class="dr-sub" id="dr-sub"><div>${SPORTS.map((t) => `<a class="dr-sub-item" href="#">${t}</a>`).join("")}</div></div>` +
+        `<div class="dr-sep"></div>` +
+        `<a class="dr-item" ${sty()} href="#">${ico("tag")}<span>Offers</span><span class="dr-new">NEW</span></a><a class="dr-item" ${sty()} href="#">${ico("help")}<span>Help &amp; Support</span></a>`;
+      let dOpen = false,
+        lastFocus = null;
+      function openDrawer() {
+        if (dOpen) return;
+        dOpen = true;
+        lastFocus = document.activeElement;
+        drawer.inert = false;
+        drawer.setAttribute("aria-hidden", "false");
+        menuBtn.setAttribute("aria-expanded", "true");
+        document.documentElement.classList.add("lock");
+        drawer.classList.add("open");
+        scrim.classList.add("open");
+        setTimeout(() => $(".dclose").focus({ preventScroll: true }), 60);
+      }
+      function closeDrawer() {
+        if (!dOpen) return;
+        dOpen = false;
+        drawer.classList.remove("open");
+        scrim.classList.remove("open");
+        drawer.inert = true;
+        drawer.setAttribute("aria-hidden", "true");
+        menuBtn.setAttribute("aria-expanded", "false");
+        document.documentElement.classList.remove("lock");
+        if (lastFocus && lastFocus.focus) lastFocus.focus({ preventScroll: true });
+      }
+      menuBtn.onclick = openDrawer;
+      $(".dclose").onclick = closeDrawer;
+      scrim.onclick = closeDrawer;
+      addEventListener("keydown", (e) => {
+        if (e.key === "Escape") closeDrawer();
+      });
+      media.addEventListener("change", () => {
+        if (media.matches) closeDrawer();
+      });
+      drawer.addEventListener("keydown", (e) => {
+        if (e.key !== "Tab") return;
+        const f = [...drawer.querySelectorAll("a[href],button,input")].filter(
+          (x) => x.offsetParent !== null,
+        );
+        if (!f.length) return;
+        const a = f[0],
+          z = f[f.length - 1];
+        if (e.shiftKey && document.activeElement === a) {
+          e.preventDefault();
+          z.focus();
+        } else if (!e.shiftKey && document.activeElement === z) {
+          e.preventDefault();
+          a.focus();
+        }
+      });
+      drawer.addEventListener("click", (e) => {
+        const acc = e.target.closest(".dr-acc");
+        if (acc) {
+          const o = acc.getAttribute("aria-expanded") !== "true";
+          acc.setAttribute("aria-expanded", String(o));
+          $("#dr-sub").classList.toggle("open", o);
+          return;
+        }
+        const a = e.target.closest("a[href]");
+        if (a) {
+          if (a.classList.contains("dr-item")) {
+            qNav.querySelectorAll("a.dr-item").forEach((x) => x.removeAttribute("aria-current"));
+            a.setAttribute("aria-current", "page");
+          }
+          closeDrawer();
+        }
+      });
+      /* search: sections + matches */
+      qIn.addEventListener("input", () => {
+        const raw = qIn.value.trim(),
+          v = raw.toLowerCase();
+        qNav.hidden = !!v;
+        qRes.hidden = !v;
+        if (!v) {
+          qRes.innerHTML = "";
+          return;
+        }
+        const secs = [
+          ...NAV.map(([t, h, i]) => ({ t, h, i })),
+          ...SPORTS.map((t) => ({ t, h: "#", i: "grid" })),
+        ].filter((x) => x.t.toLowerCase().includes(v));
+        const ms = matches.filter((m) =>
+          (m.home + " " + m.away + " " + m.series).toLowerCase().includes(v),
+        );
+        qRes.innerHTML =
+          (ms.length
+            ? `<p class="dr-h">Matches</p>` +
+              ms
+                .map((m) => {
+                  const t = typeOf(m);
+                  return `<a class="dr-res match" href="${esc(m.url)}"><img class="dr-poster" src="${esc(m.landscape)}" alt="" loading="lazy" decoding="async"><span class="dr-tag" data-t="${t}">${TAG[t]}</span><b>${esc(m.home)} vs ${esc(m.away)}</b><small>${esc(m.series)}</small></a>`;
+                })
+                .join("")
+            : "") +
+            (secs.length
+              ? `<p class="dr-h">Sections</p>` +
+                secs
+                  .map((x) => `<a class="dr-res sec" href="${x.h}">${ico(x.i)}<b>${x.t}</b></a>`)
+                  .join("")
+              : "") || `<p class="dr-empty">No results for “${esc(raw)}”</p>`;
+      });
+      /* swipe left to close */
+      let dg = null;
+      drawer.addEventListener("pointerdown", (e) => {
+        if (!dOpen || e.target.closest("input")) return;
+        dg = {
+          x: e.clientX,
+          y: e.clientY,
+          id: e.pointerId,
+          dx: 0,
+          on: false,
+          t: performance.now(),
+        };
+      });
+      drawer.addEventListener("pointermove", (e) => {
+        if (!dg || e.pointerId !== dg.id) return;
+        const dx = e.clientX - dg.x,
+          dy = e.clientY - dg.y;
+        if (!dg.on && dx < -8 && Math.abs(dx) > Math.abs(dy) * 1.4) {
+          dg.on = true;
+          drawer.setPointerCapture(e.pointerId);
+          drawer.classList.add("drag");
+          scrim.style.transition = "none";
+        }
+        if (dg.on) {
+          dg.dx = Math.min(0, dx);
+          drawer.style.transform = `translate3d(${dg.dx}px,0,0)`;
+          scrim.style.opacity = Math.max(0, 1 + dg.dx / drawer.offsetWidth);
+        }
+      });
+      function endDrag(cancel) {
+        if (!dg) return;
+        const d = dg;
+        dg = null;
+        if (!d.on) return;
+        const w = drawer.offsetWidth,
+          v = d.dx / (performance.now() - d.t);
+        drawer.classList.remove("drag");
+        drawer.style.transform = "";
+        scrim.style.transition = "";
+        scrim.style.opacity = "";
+        if (!cancel && (d.dx < -w * 0.3 || v < -0.5)) closeDrawer();
+      }
+      drawer.addEventListener("pointerup", () => endDrag(false));
+      drawer.addEventListener("pointercancel", () => endDrag(true));
+
+      /* start only once hero images are decoded, so the first slide never stutters */
+      const decoded = Promise.all(
+        [...viewport.querySelectorAll("img")].map((i) =>
+          i.decode ? i.decode().catch(() => {}) : 0,
+        ),
+      );
+      const first = viewport.querySelector("img");
+      Promise.race([
+        first.decode ? first.decode().catch(() => {}) : Promise.resolve(),
+        new Promise((r) => setTimeout(r, 2500)),
+      ]).then(() => {
+        setMode();
+        document.body.classList.add("ready");
+      });
+    </script></body
+  ></html
+>
