@@ -378,7 +378,7 @@
     "title": "AFC Champions League Elite",
     "slug": "tractor-vs-neftchi",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "AFC Champions League Elite",
       "category": "Football",
@@ -418,7 +418,7 @@
     "title": "AFC Champions League Elite",
     "slug": "al-wasl-vs-al-jawiya",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "AFC Champions League Elite",
       "category": "Football",
@@ -458,7 +458,7 @@
     "title": "AFC Champions League Elite",
     "slug": "al-sadd-vs-al-ahli",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "AFC Champions League Elite",
       "category": "Football",
@@ -653,7 +653,38 @@
       "startTimeUTC": "2026/11/02 18:15:00 +0000",
       "endTimeUTC": "2026/11/02 20:35:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4621483.m3u8?txSecret=3bb191e8baea49c82a5ef71d0457e4c3&txTime=6AE8E625",
+        "key": null
+      },
+      {
+        "title": "LIVE SERVER",
+        "type": "hls",
+        "url": "https://live.uu1pp.com/sport/202_5710485_1.m3u8?txSecret=8507750be91826be3c1e21c3bc714fab&txTime=6AE91A33",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "https://hls.lauthaitv.cc/live/itti-ainfc-afcc1/index.m3u8",
+        "key": null
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.41/hls/ylllq.m3u8",
+        "key": null
+      },
+      {
+        "title": "FANCODE [IND]",
+        "type": "hls",
+        "url": "https://dai-fancode.pages.dev/mumbai/4248732_english_hls_1b9e148e1247439_1ta-di_h264/index.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5193,
@@ -676,9 +707,27 @@
     },
     "dashStreams": [
       {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4621438.m3u8?txSecret=18e289cfe59db1dfe4b618b7a16a6678&txTime=6AE8E650",
+        "key": null
+      },
+      {
+        "title": "LIVE SERVER",
+        "type": "hls",
+        "url": "https://live.uu1pp.com/sport/202_5703049_1.m3u8?txSecret=f5a55ddcbcb42b11d5471e0724d2848e&txTime=6AE91A4D",
+        "key": null
+      },
+      {
         "title": "LOW QUALITY",
         "type": "hls",
         "url": "http://193.47.62.41/hls/ylll.m3u8",
+        "key": null
+      },
+      {
+        "title": "FANCODE [IND]",
+        "type": "hls",
+        "url": "https://dai-fancode.pages.dev/mumbai/4248733_english_hls_0194875fca800_1ta-di_h264/index.m3u8",
         "key": null
       }
     ]
@@ -911,7 +960,20 @@
       "startTimeUTC": "2026/11/02 20:15:00 +0000",
       "endTimeUTC": "2026/11/02 22:35:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "beIN ENGLISH FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd?",
+        "key": "74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c"
+      },
+      {
+        "title": "D SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd",
+        "key": "f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
+      }
+    ]
   },
   {
     "id": 5208,
@@ -953,7 +1015,20 @@
       "startTimeUTC": "2026/11/02 23:00:00 +0000",
       "endTimeUTC": "2026/11/03 01:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PREMIERE BR FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
+        "key": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
+      },
+      {
+        "title": "SporTV BR FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd",
+        "key": "51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
+      }
+    ]
   },
   {
     "id": 5191,
@@ -2567,40 +2642,6 @@
         "title": "SD SERVER",
         "type": "hls",
         "url": "http://193.47.62.41/hls/DRRRRQQQQ.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5182,
-    "title": "Trendyol Süper Lig",
-    "slug": "kas-mpasa-vs-besiktas",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Trendyol Süper Lig",
-      "category": "Football",
-      "teamA": "Kasımpaşa",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/6063/image",
-      "teamB": "Beşiktaş",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/3050/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
-      "startTimeIST": "2026-11-01 21:30:00 IST",
-      "endTimeIST": "2026-11-01 23:50:00 IST",
-      "startTimeUTC": "2026/11/01 16:00:00 +0000",
-      "endTimeUTC": "2026/11/01 18:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "beIN SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/penehwquxc/out/v1/e01e96068c20482280b810b34aa66a6e/cenc.mpd",
-        "key": "4b17f5cd91d6b9dde66cf11dac2c7805:ffc6dd5e62c688c5f8e131649df94a2d"
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.41/hls/MMMMAQQQQA.m3u8",
         "key": null
       }
     ]
