@@ -374,132 +374,6 @@
     ]
   },
   {
-    "id": 5187,
-    "title": "AFC Champions League Elite",
-    "slug": "tractor-vs-neftchi",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "AFC Champions League Elite",
-      "category": "Football",
-      "teamA": "Tractor",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/53715/image",
-      "teamB": "Neftchi",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/36256/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/463/image/dark",
-      "startTimeIST": "2026-11-02 21:30:00 IST",
-      "endTimeIST": "2026-11-02 23:50:00 IST",
-      "startTimeUTC": "2026/11/02 16:00:00 +0000",
-      "endTimeUTC": "2026/11/02 18:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4621446.m3u8?txSecret=567dbc13afaaf3d0bf2c2f9219b76b9b&txTime=6AE8C58D",
-        "key": null
-      },
-      {
-        "title": "LIVE SERVER",
-        "type": "hls",
-        "url": "https://live.uu1pp.com/sport/202_5703030_1.m3u8?txSecret=cc78bf795d5ac332170751793f829362&txTime=6AE8FA4C",
-        "key": null
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/TTTTAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5190,
-    "title": "AFC Champions League Elite",
-    "slug": "al-wasl-vs-al-jawiya",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "AFC Champions League Elite",
-      "category": "Football",
-      "teamA": "Al-Wasl",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/47674/image",
-      "teamB": "Al-Jawiya",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/213877/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/463/image/dark",
-      "startTimeIST": "2026-11-02 21:30:00 IST",
-      "endTimeIST": "2026-11-02 23:50:00 IST",
-      "startTimeUTC": "2026/11/02 16:00:00 +0000",
-      "endTimeUTC": "2026/11/02 18:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4621462.m3u8?txSecret=821552b5b9fd8d2d6ae1722eca31c9b1&txTime=6AE8C5B9",
-        "key": null
-      },
-      {
-        "title": "LIVE SERVER",
-        "type": "hls",
-        "url": "https://live.uu1pp.com/sport/202_5703029_1.m3u8?txSecret=8dbb87c680e85330626ca7a1a10d0f16&txTime=6AE8FA34",
-        "key": null
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/TTTTA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5192,
-    "title": "AFC Champions League Elite",
-    "slug": "al-sadd-vs-al-ahli",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "AFC Champions League Elite",
-      "category": "Football",
-      "teamA": "Al-Sadd",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/39733/image",
-      "teamB": "Al-Ahli",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/34469/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/463/image/dark",
-      "startTimeIST": "2026-11-02 21:30:00 IST",
-      "endTimeIST": "2026-11-02 23:50:00 IST",
-      "startTimeUTC": "2026/11/02 16:00:00 +0000",
-      "endTimeUTC": "2026/11/02 18:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "beIN SPORTS FHD",
-        "type": "hls",
-        "url": "https://live-cdn.ryazanslah3.space/hls/bein1.m3u8?",
-        "key": null
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4621411.m3u8?txSecret=1f3d37aaf826b086770b1416249d380b&txTime=6AE8C5D6",
-        "key": null
-      },
-      {
-        "title": "HD QUALITY",
-        "type": "hls",
-        "url": "https://live.uu1pp.com/sport/202_5703048_1.m3u8?txSecret=a7c6fca642e47d47970fc5a10347b227&txTime=6AE8F9DA",
-        "key": null
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/TTTT.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5210,
     "title": "Trendyol Süper Lig",
     "slug": "genclerbirligi-vs-alanyaspor",
@@ -1213,6 +1087,132 @@
         "title": "SonyLiv (HIN)",
         "type": "hls",
         "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2022316/footlive0111/HIN/std_lrh-800300010.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5187,
+    "title": "AFC Champions League Elite",
+    "slug": "tractor-vs-neftchi",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "AFC Champions League Elite",
+      "category": "Football",
+      "teamA": "Tractor",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/53715/image",
+      "teamB": "Neftchi",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/36256/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/463/image/dark",
+      "startTimeIST": "2026-11-02 21:30:00 IST",
+      "endTimeIST": "2026-11-02 23:50:00 IST",
+      "startTimeUTC": "2026/11/02 16:00:00 +0000",
+      "endTimeUTC": "2026/11/02 18:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4621446.m3u8?txSecret=567dbc13afaaf3d0bf2c2f9219b76b9b&txTime=6AE8C58D",
+        "key": null
+      },
+      {
+        "title": "LIVE SERVER",
+        "type": "hls",
+        "url": "https://live.uu1pp.com/sport/202_5703030_1.m3u8?txSecret=cc78bf795d5ac332170751793f829362&txTime=6AE8FA4C",
+        "key": null
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/TTTTAA.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5190,
+    "title": "AFC Champions League Elite",
+    "slug": "al-wasl-vs-al-jawiya",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "AFC Champions League Elite",
+      "category": "Football",
+      "teamA": "Al-Wasl",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/47674/image",
+      "teamB": "Al-Jawiya",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/213877/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/463/image/dark",
+      "startTimeIST": "2026-11-02 21:30:00 IST",
+      "endTimeIST": "2026-11-02 23:50:00 IST",
+      "startTimeUTC": "2026/11/02 16:00:00 +0000",
+      "endTimeUTC": "2026/11/02 18:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4621462.m3u8?txSecret=821552b5b9fd8d2d6ae1722eca31c9b1&txTime=6AE8C5B9",
+        "key": null
+      },
+      {
+        "title": "LIVE SERVER",
+        "type": "hls",
+        "url": "https://live.uu1pp.com/sport/202_5703029_1.m3u8?txSecret=8dbb87c680e85330626ca7a1a10d0f16&txTime=6AE8FA34",
+        "key": null
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/TTTTA.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5192,
+    "title": "AFC Champions League Elite",
+    "slug": "al-sadd-vs-al-ahli",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "AFC Champions League Elite",
+      "category": "Football",
+      "teamA": "Al-Sadd",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/39733/image",
+      "teamB": "Al-Ahli",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/34469/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/463/image/dark",
+      "startTimeIST": "2026-11-02 21:30:00 IST",
+      "endTimeIST": "2026-11-02 23:50:00 IST",
+      "startTimeUTC": "2026/11/02 16:00:00 +0000",
+      "endTimeUTC": "2026/11/02 18:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "beIN SPORTS FHD",
+        "type": "hls",
+        "url": "https://live-cdn.ryazanslah3.space/hls/bein1.m3u8?",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4621411.m3u8?txSecret=1f3d37aaf826b086770b1416249d380b&txTime=6AE8C5D6",
+        "key": null
+      },
+      {
+        "title": "HD QUALITY",
+        "type": "hls",
+        "url": "https://live.uu1pp.com/sport/202_5703048_1.m3u8?txSecret=a7c6fca642e47d47970fc5a10347b227&txTime=6AE8F9DA",
+        "key": null
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/TTTT.m3u8",
         "key": null
       }
     ]
