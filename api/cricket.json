@@ -30,6 +30,12 @@
         "type": "hls",
         "url": "http://c8.vfruitfairy.com/NPLT20/index.m3u8",
         "key": null
+      },
+      {
+        "title": "FANCODE SD",
+        "type": "dash",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash-sd/enc/iwpchve3wl/out/v1/946019f85dc64ae99ff9ce64a9727a62/cenc-sd.mpd",
+        "key": "286eb7dc538143790fa9913639531920:e3f5cb08d14d9e9c08438c673819540f"
       }
     ]
   },
@@ -38,7 +44,7 @@
     "title": "Women's Big Bash League",
     "slug": "wbbl-vs-wbbl",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Women's Big Bash League",
       "category": "Cricket",
@@ -81,12 +87,6 @@
         "title": "TAPMAD FHD",
         "type": "hls",
         "url": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8",
-        "key": null
-      },
-      {
-        "title": "FANCODE (IND)",
-        "type": "hls",
-        "url": "https://dai-fancode.pages.dev/mumbai/4250392_english_hls_ab5ad34ec069159_1ta-di_h264/index.m3u8",
         "key": null
       }
     ]
