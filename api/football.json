@@ -3155,68 +3155,6 @@
     ]
   },
   {
-    "id": 5121,
-    "title": "Women's Super League",
-    "slug": "london-city-vs-man-city",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Women's Super League",
-      "category": "Football",
-      "teamA": "London City",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/326573/image",
-      "teamB": "Man City",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/142658/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/1044/image/dark",
-      "startTimeIST": "2026-11-01 17:30:00 IST",
-      "endTimeIST": "2026-11-01 19:50:00 IST",
-      "startTimeUTC": "2026/11/01 12:00:00 +0000",
-      "endTimeUTC": "2026/11/01 14:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.55/hls/BFFFA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5122,
-    "title": "Women's Super League",
-    "slug": "arsenal-vs-aston-villa",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Women's Super League",
-      "category": "Football",
-      "teamA": "Arsenal",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/26243/image",
-      "teamB": "Aston Villa",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/266375/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/1044/image/dark",
-      "startTimeIST": "2026-11-01 17:30:00 IST",
-      "endTimeIST": "2026-11-01 19:50:00 IST",
-      "startTimeUTC": "2026/11/01 12:00:00 +0000",
-      "endTimeUTC": "2026/11/01 14:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/wjxi48cycl/out/v1/a5f67fb7a62642e789846c74f02438e2/cenc.mpd?aws_sessionId=06175cb3-c102-48f6-9a0d-de7303575efc",
-        "key": "f9ac0394e37c6f2f3cf2c0b425ba0a14:ff7d86fb4517b5593ae3d6b259b6b6ff"
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.55/hls/BFFF.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 3255,
     "title": "UEFA Champions League",
     "slug": "the-golazo-show-vs-the-golazo-show",
