@@ -345,52 +345,6 @@
     ]
   },
   {
-    "id": 5023,
-    "title": "Hong Kong Sixes 2026",
-    "slug": "hong-kong-sixes-vs-hong-kong-sixes",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Hong Kong Sixes 2026",
-      "category": "Cricket",
-      "teamA": "Hong Kong Sixes",
-      "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROAZg75-MhSbdgNwcKZHw5iCYHkWvg86Dv_g&s",
-      "teamB": "Hong Kong Sixes",
-      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROAZg75-MhSbdgNwcKZHw5iCYHkWvg86Dv_g&s",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROAZg75-MhSbdgNwcKZHw5iCYHkWvg86Dv_g&s",
-      "startTimeIST": "2026-11-01 07:00:00 IST",
-      "endTimeIST": "2026-11-01 14:30:00 IST",
-      "startTimeUTC": "2026/11/01 01:30:00 +0000",
-      "endTimeUTC": "2026/11/01 09:00:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "TAPMAD FHD",
-        "type": "hls",
-        "url": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8",
-        "key": null
-      },
-      {
-        "title": "SONY SIX HD",
-        "type": "hls",
-        "url": "https://becarefulfal.bondsplive.online/441092/logosp.webp?&e=.m3u8",
-        "key": null
-      },
-      {
-        "title": "A SPORTS HD",
-        "type": "hls",
-        "url": "https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8?e=1784102512&token=968935df4fd0678de5d7fe392c0610d9&u=ee5437a7-c16b-4700-b317-a41b77d5cba9",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://c8.vfruitfairy.com/HONG6six/index.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 984,
     "title": "ENG vs NZ",
     "slug": "eng-vs-nz",
