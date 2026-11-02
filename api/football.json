@@ -502,7 +502,32 @@
       "startTimeUTC": "2026/11/02 13:45:00 +0000",
       "endTimeUTC": "2026/11/02 16:05:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "beIN SPORTS FHD",
+        "type": "hls",
+        "url": "https://live-cdn.ryazanslah3.space/hls/bein2.m3u8?",
+        "key": null
+      },
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4621440.m3u8?txSecret=ad78bb536e23461cba3cffb7faa5cc15&txTime=6AE8A562",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel1.m3u8?",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/YFFFAAAAA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5199,
