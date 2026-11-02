@@ -5,7 +5,7 @@
    ========================================================= */
 
 const ALLSPORTS_API =
-  'https://allrounderlive.in/api/football.json';
+  'https://allrounderlive.com/api/football.json';
 
 const SKELETON_COUNT = 6;
 const REFRESH_INTERVAL = 60000;
