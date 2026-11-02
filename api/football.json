@@ -374,140 +374,6 @@
     ]
   },
   {
-    "id": 5205,
-    "title": "Serie A",
-    "slug": "atalanta-vs-parma",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Serie A",
-      "category": "Football",
-      "teamA": "Atalanta",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2686/image",
-      "teamB": "Parma",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2690/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "startTimeIST": "2026-11-03 01:15:00 IST",
-      "endTimeIST": "2026-11-03 03:35:00 IST",
-      "startTimeUTC": "2026/11/02 19:45:00 +0000",
-      "endTimeUTC": "2026/11/02 22:05:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/a8se1ewxyh/out/v1/6be60264f35a4029992b9cd7bfc953d5/cenc.mpd",
-        "key": "1f1beb990203c7f2e20468ed555f1736:7887b793790dec665b757615ce5bce12"
-      },
-      {
-        "title": "DAZN ITALIAN FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ip3xd8i9cy/out/v1/bfc7a8bbf77244df8919ad8d76018b40/cenc.mpd",
-        "key": "d38bea3e827e44ed1d874bcd57f9f718:daaed331633a6b260dfce59af86be0fa"
-      },
-      {
-        "title": "DAZN SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/wyjjf8trsu/out/v1/eae36d06f8e041e08c2f8f00b8b9db77/cenc.mpd",
-        "key": "99a7a3acf15d01e38fe95ecfb623d2b5:9065f8b2bbc0559eedf3ebc8bf3bde86"
-      },
-      {
-        "title": "TNT SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
-        "key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
-      },
-      {
-        "title": "CBS SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-        "key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-      },
-      {
-        "title": "SPORT 1 CZ FHD",
-        "type": "dash",
-        "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-        "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-      },
-      {
-        "title": "PARAMOUNT+ HD",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59119/load-playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "LIVE SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4549095.m3u8?txSecret=ae30515d7eb51e070ef3d9953be8358e&txTime=6AE8FC4F",
-        "key": null
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live.uu1pp.com/sport/202_5605029_1.m3u8?txSecret=f1928dc4f9fd835dcea91bd3bdc51295&txTime=6AE9301D",
-        "key": null
-      },
-      {
-        "title": "LOW SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.59/hls/FRFRFRAAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5206,
-    "title": "Ligue 1",
-    "slug": "lorient-vs-brest",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Ligue 1",
-      "category": "Football",
-      "teamA": "Lorient",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1656/image",
-      "teamB": "Brest",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1715/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
-      "startTimeIST": "2026-11-03 01:15:00 IST",
-      "endTimeIST": "2026-11-03 03:35:00 IST",
-      "startTimeUTC": "2026/11/02 19:45:00 +0000",
-      "endTimeUTC": "2026/11/02 22:05:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "DAZN SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/hjosczfikj/out/v1/c9ae9a5fdaa34de4bb850066065c9280/cenc.mpd",
-        "key": "4cf6e1a461066c43589adb8b495fa0b1:90d28f3dc6e65427ba1e5717f2dd77e4"
-      },
-      {
-        "title": "beIN ENGLISH FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n7hbpksb18/out/v1/be5403be4a674a7da8b3c81b1fe79692/cenc.mpd",
-        "key": "4fce30c060b7b0464ab765e24fee5ecc:65d612238736eec3794c7e75a6fd362c"
-      },
-      {
-        "title": "LIVE SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4550916.m3u8?txSecret=a0f538997a0ba40f33eaa75930b538ee&txTime=6AE8FC7E",
-        "key": null
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live.uu1pp.com/sport/202_5601176_1.m3u8?txSecret=e28e9bcc771f6caee984ac428b0b4b2c&txTime=6AE93036",
-        "key": null
-      },
-      {
-        "title": "LOW SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.59/hls/FRFRFR.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5197,
     "title": "Premier League",
     "slug": "newcastle-vs-everton",
@@ -1000,6 +866,140 @@
         "title": "SonyLiv (HIN)",
         "type": "hls",
         "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2022316/footlive0111/HIN/std_lrh-800300010.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5205,
+    "title": "Serie A",
+    "slug": "atalanta-vs-parma",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Serie A",
+      "category": "Football",
+      "teamA": "Atalanta",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2686/image",
+      "teamB": "Parma",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2690/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
+      "startTimeIST": "2026-11-03 01:15:00 IST",
+      "endTimeIST": "2026-11-03 03:35:00 IST",
+      "startTimeUTC": "2026/11/02 19:45:00 +0000",
+      "endTimeUTC": "2026/11/02 22:05:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/a8se1ewxyh/out/v1/6be60264f35a4029992b9cd7bfc953d5/cenc.mpd",
+        "key": "1f1beb990203c7f2e20468ed555f1736:7887b793790dec665b757615ce5bce12"
+      },
+      {
+        "title": "DAZN ITALIAN FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ip3xd8i9cy/out/v1/bfc7a8bbf77244df8919ad8d76018b40/cenc.mpd",
+        "key": "d38bea3e827e44ed1d874bcd57f9f718:daaed331633a6b260dfce59af86be0fa"
+      },
+      {
+        "title": "DAZN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/wyjjf8trsu/out/v1/eae36d06f8e041e08c2f8f00b8b9db77/cenc.mpd",
+        "key": "99a7a3acf15d01e38fe95ecfb623d2b5:9065f8b2bbc0559eedf3ebc8bf3bde86"
+      },
+      {
+        "title": "TNT SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+        "key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+      },
+      {
+        "title": "CBS SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
+        "key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+      },
+      {
+        "title": "SPORT 1 CZ FHD",
+        "type": "dash",
+        "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+        "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+      },
+      {
+        "title": "PARAMOUNT+ HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59119/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "LIVE SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4549095.m3u8?txSecret=ae30515d7eb51e070ef3d9953be8358e&txTime=6AE8FC4F",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live.uu1pp.com/sport/202_5605029_1.m3u8?txSecret=f1928dc4f9fd835dcea91bd3bdc51295&txTime=6AE9301D",
+        "key": null
+      },
+      {
+        "title": "LOW SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.59/hls/FRFRFRAAA.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5206,
+    "title": "Ligue 1",
+    "slug": "lorient-vs-brest",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Ligue 1",
+      "category": "Football",
+      "teamA": "Lorient",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1656/image",
+      "teamB": "Brest",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1715/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
+      "startTimeIST": "2026-11-03 01:15:00 IST",
+      "endTimeIST": "2026-11-03 03:35:00 IST",
+      "startTimeUTC": "2026/11/02 19:45:00 +0000",
+      "endTimeUTC": "2026/11/02 22:05:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "DAZN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/hjosczfikj/out/v1/c9ae9a5fdaa34de4bb850066065c9280/cenc.mpd",
+        "key": "4cf6e1a461066c43589adb8b495fa0b1:90d28f3dc6e65427ba1e5717f2dd77e4"
+      },
+      {
+        "title": "beIN ENGLISH FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n7hbpksb18/out/v1/be5403be4a674a7da8b3c81b1fe79692/cenc.mpd",
+        "key": "4fce30c060b7b0464ab765e24fee5ecc:65d612238736eec3794c7e75a6fd362c"
+      },
+      {
+        "title": "LIVE SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4550916.m3u8?txSecret=a0f538997a0ba40f33eaa75930b538ee&txTime=6AE8FC7E",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live.uu1pp.com/sport/202_5601176_1.m3u8?txSecret=e28e9bcc771f6caee984ac428b0b4b2c&txTime=6AE93036",
+        "key": null
+      },
+      {
+        "title": "LOW SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.59/hls/FRFRFR.m3u8",
         "key": null
       }
     ]
