@@ -513,16 +513,28 @@
     },
     "dashStreams": [
       {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/a8se1ewxyh/out/v1/6be60264f35a4029992b9cd7bfc953d5/cenc.mpd",
+        "key": "1f1beb990203c7f2e20468ed555f1736:7887b793790dec665b757615ce5bce12"
+      },
+      {
+        "title": "DAZN ITALIAN FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ip3xd8i9cy/out/v1/bfc7a8bbf77244df8919ad8d76018b40/cenc.mpd",
+        "key": "d38bea3e827e44ed1d874bcd57f9f718:daaed331633a6b260dfce59af86be0fa"
+      },
+      {
+        "title": "DAZN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/wyjjf8trsu/out/v1/eae36d06f8e041e08c2f8f00b8b9db77/cenc.mpd",
+        "key": "99a7a3acf15d01e38fe95ecfb623d2b5:9065f8b2bbc0559eedf3ebc8bf3bde86"
+      },
+      {
         "title": "TNT SPORTS FHD",
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
         "key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
-      },
-      {
-        "title": "beIN ENGLISH FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
-        "key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
       },
       {
         "title": "CBS SPORTS FHD",
@@ -583,6 +595,12 @@
     },
     "dashStreams": [
       {
+        "title": "DAZN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/hjosczfikj/out/v1/c9ae9a5fdaa34de4bb850066065c9280/cenc.mpd",
+        "key": "4cf6e1a461066c43589adb8b495fa0b1:90d28f3dc6e65427ba1e5717f2dd77e4"
+      },
+      {
         "title": "beIN ENGLISH FHD",
         "type": "dash",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n7hbpksb18/out/v1/be5403be4a674a7da8b3c81b1fe79692/cenc.mpd",
@@ -636,6 +654,12 @@
       },
       {
         "title": "SKY SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qdbhkwig26/out/v1/c3a69dfec0434abea00756cd73e749ff/cenc.mpd",
+        "key": "1106fb025da5b31657618344099c6c14:788284538616a73b56214e90196a6e0f"
+      },
+      {
+        "title": "SKY SPORTS FHD",
         "type": "hls",
         "url": "https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=8QTMu03fE4HQaxvEpkjmSA&e=2093477106&scheme=https",
         "key": null
@@ -686,6 +710,12 @@
       "endTimeUTC": "2026/11/02 22:20:00 +0000"
     },
     "dashStreams": [
+      {
+        "title": "DAZN SPORTS (EN/ES)",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/2cbyhcycwi/out/v1/3408f06f77434fefa5a0cf2cd8c58ffa/cenc.mpd",
+        "key": "13ce949c292d44c6893123c2e8569f7d:ee6cc78d0be27019d63fbc1b8331ad5f"
+      },
       {
         "title": "PREMIER SPORTS FHD",
         "type": "dash",
@@ -769,7 +799,7 @@
     "title": "Liga Portugal Betclic",
     "slug": "benfica-vs-alverca",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Liga Portugal Betclic",
       "category": "Football",
@@ -803,7 +833,7 @@
     "title": "Liga Portugal Betclic",
     "slug": "gil-vicente-vs-vitoria",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Liga Portugal Betclic",
       "category": "Football",
