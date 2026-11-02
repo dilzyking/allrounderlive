@@ -610,27 +610,6 @@
     ]
   },
   {
-    "id": 5209,
-    "title": "Trendyol 1.Lig",
-    "slug": "kayserispor-vs-muglaspor",
-    "cat": "Live Events",
-    "status": "upcoming",
-    "event": {
-      "name": "Trendyol 1.Lig",
-      "category": "Football",
-      "teamA": "Kayserispor",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/3072/image",
-      "teamB": "Muğlaspor",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/7034/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/98/image/dark",
-      "startTimeIST": "2026-11-02 22:30:00 IST",
-      "endTimeIST": "2026-11-03 00:50:00 IST",
-      "startTimeUTC": "2026/11/02 17:00:00 +0000",
-      "endTimeUTC": "2026/11/02 19:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 5210,
     "title": "Trendyol Süper Lig",
     "slug": "genclerbirligi-vs-alanyaspor",
@@ -644,6 +623,34 @@
       "teamB": "Alanyaspor",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/6362/image",
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
+      "startTimeIST": "2026-11-02 22:30:00 IST",
+      "endTimeIST": "2026-11-03 00:50:00 IST",
+      "startTimeUTC": "2026/11/02 17:00:00 +0000",
+      "endTimeUTC": "2026/11/02 19:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/2JJJAAA.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5209,
+    "title": "Trendyol 1.Lig",
+    "slug": "kayserispor-vs-muglaspor",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Trendyol 1.Lig",
+      "category": "Football",
+      "teamA": "Kayserispor",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/3072/image",
+      "teamB": "Muğlaspor",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/7034/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/98/image/dark",
       "startTimeIST": "2026-11-02 22:30:00 IST",
       "endTimeIST": "2026-11-03 00:50:00 IST",
       "startTimeUTC": "2026/11/02 17:00:00 +0000",
