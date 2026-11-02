@@ -505,34 +505,6 @@
     ]
   },
   {
-    "id": 5183,
-    "title": "MLS",
-    "slug": "los-angeles-vs-minnesota",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "MLS",
-      "category": "Football",
-      "teamA": "Los Angeles",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/274650/image",
-      "teamB": "Minnesota",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/41618/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/242/image/dark",
-      "startTimeIST": "2026-11-02 07:00:00 IST",
-      "endTimeIST": "2026-11-02 09:20:00 IST",
-      "startTimeUTC": "2026/11/02 01:30:00 +0000",
-      "endTimeUTC": "2026/11/02 03:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://edgestream2.pro/hls/hjksgdfauzy51.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5187,
     "title": "MLS",
     "slug": "portland-vs-houston",
