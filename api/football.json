@@ -378,7 +378,7 @@
     "title": "Premier League",
     "slug": "newcastle-vs-everton",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Premier League",
       "category": "Football",
@@ -442,7 +442,7 @@
     "title": "LaLiga",
     "slug": "deportivo-vs-osasuna",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "LaLiga",
       "category": "Football",
@@ -512,7 +512,7 @@
     "title": "LaLiga 2",
     "slug": "mallorca-vs-cadiz",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "LaLiga 2",
       "category": "Football",
@@ -1731,104 +1731,6 @@
         "title": "LOW QUALITY",
         "type": "hls",
         "url": "http://193.47.62.41/hls/sasasa.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5155,
-    "title": "LaLiga",
-    "slug": "athletic-club-vs-real-sociedad",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "LaLiga",
-      "category": "Football",
-      "teamA": "Athletic Club",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2825/image",
-      "teamB": "Real Sociedad",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2824/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
-      "startTimeIST": "2026-11-02 01:30:00 IST",
-      "endTimeIST": "2026-11-02 03:50:00 IST",
-      "startTimeUTC": "2026/11/01 20:00:00 +0000",
-      "endTimeUTC": "2026/11/01 22:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PREMIER SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
-        "key": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f"
-      },
-      {
-        "title": "beIN ENGLISH FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-        "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-      },
-      {
-        "title": "FANCODE FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
-      },
-      {
-        "title": "CazéTV FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vzeco5ty0v/out/v1/44c6b8f31a2544e3b2a9bb41ed5e241e/cenc.mpd",
-        "key": "ac7abaa9c9481aacfbdac64fc3ec3312:c0c504a2ed2e70b879a650b8770a38c6"
-      },
-      {
-        "title": "ESPN DEPORTES HD",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59068/load-playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "HD QUALITY",
-        "type": "hls",
-        "url": "https://www.rtmpcdn.com/live/143c3f42-f260-4b28-b2ab-68ee2fd32dd4.m3u8",
-        "key": null
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.41/hls/DEDEDEAAAAAQQQ.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5156,
-    "title": "LaLiga 2",
-    "slug": "tenerife-vs-andorra",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "LaLiga 2",
-      "category": "Football",
-      "teamA": "Tenerife",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2822/image",
-      "teamB": "Andorra",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/324871/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "startTimeIST": "2026-11-02 01:30:00 IST",
-      "endTimeIST": "2026-11-02 03:50:00 IST",
-      "startTimeUTC": "2026/11/01 20:00:00 +0000",
-      "endTimeUTC": "2026/11/01 22:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "LaLiga Hypermotion",
-        "type": "dash",
-        "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-        "key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.41/hls/DNNNA.m3u8",
         "key": null
       }
     ]
