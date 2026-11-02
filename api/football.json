@@ -535,6 +535,30 @@
         "type": "dash",
         "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
         "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+      },
+      {
+        "title": "PARAMOUNT+ HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59119/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "LIVE SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4549095.m3u8?txSecret=ae30515d7eb51e070ef3d9953be8358e&txTime=6AE8FC4F",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live.uu1pp.com/sport/202_5605029_1.m3u8?txSecret=f1928dc4f9fd835dcea91bd3bdc51295&txTime=6AE9301D",
+        "key": null
+      },
+      {
+        "title": "LOW SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.59/hls/FRFRFRAAA.m3u8",
+        "key": null
       }
     ]
   },
@@ -565,10 +589,22 @@
         "key": "4fce30c060b7b0464ab765e24fee5ecc:65d612238736eec3794c7e75a6fd362c"
       },
       {
-        "title": "CazéTV FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
-        "key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
+        "title": "LIVE SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4550916.m3u8?txSecret=a0f538997a0ba40f33eaa75930b538ee&txTime=6AE8FC7E",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live.uu1pp.com/sport/202_5601176_1.m3u8?txSecret=e28e9bcc771f6caee984ac428b0b4b2c&txTime=6AE93036",
+        "key": null
+      },
+      {
+        "title": "LOW SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.59/hls/FRFRFR.m3u8",
+        "key": null
       }
     ]
   },
@@ -602,6 +638,30 @@
         "title": "SKY SPORTS FHD",
         "type": "hls",
         "url": "https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=8QTMu03fE4HQaxvEpkjmSA&e=2093477106&scheme=https",
+        "key": null
+      },
+      {
+        "title": "USA NETWORK HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59121/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "LIVE SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4558688.m3u8?txSecret=9a2698f76986dd544e4273b4d8b53938&txTime=6AE8FD60",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live.uu1pp.com/sport/202_5597517_1.m3u8?txSecret=e932ba08d6a6acfb764c4dce36cf24a6&txTime=6AE931ED",
+        "key": null
+      },
+      {
+        "title": "LOW SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.55/hls/AFFF.m3u8",
         "key": null
       }
     ]
@@ -645,10 +705,28 @@
         "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
       },
       {
-        "title": "CazéTV FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vzeco5ty0v/out/v1/44c6b8f31a2544e3b2a9bb41ed5e241e/cenc.mpd",
-        "key": "ac7abaa9c9481aacfbdac64fc3ec3312:c0c504a2ed2e70b879a650b8770a38c6"
+        "title": "ESPN DEPORTES HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59120/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "LIVE SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4565496.m3u8?txSecret=3ff005d2655a60107849ff6740e9c19b&txTime=6AE8FD87",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live.uu1pp.com/sport/202_5601454_1.m3u8?txSecret=520883061c9afafa10b9c08d7be175e1&txTime=6AE9321B",
+        "key": null
+      },
+      {
+        "title": "LOW SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/KPPP.m3u8",
+        "key": null
       }
     ]
   },
@@ -677,6 +755,12 @@
         "type": "dash",
         "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
         "key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
+      },
+      {
+        "title": "LIVE SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4567341.m3u8?txSecret=e79b74b8b6916b661bb0ee5a1bafc790&txTime=6AE8FE09",
+        "key": null
       }
     ]
   },
