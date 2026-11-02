@@ -502,7 +502,26 @@
       "startTimeUTC": "2026/11/02 16:00:00 +0000",
       "endTimeUTC": "2026/11/02 18:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4621446.m3u8?txSecret=567dbc13afaaf3d0bf2c2f9219b76b9b&txTime=6AE8C58D",
+        "key": null
+      },
+      {
+        "title": "LIVE SERVER",
+        "type": "hls",
+        "url": "https://live.uu1pp.com/sport/202_5703030_1.m3u8?txSecret=cc78bf795d5ac332170751793f829362&txTime=6AE8FA4C",
+        "key": null
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/TTTTAA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5190,
@@ -523,7 +542,26 @@
       "startTimeUTC": "2026/11/02 16:00:00 +0000",
       "endTimeUTC": "2026/11/02 18:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4621462.m3u8?txSecret=821552b5b9fd8d2d6ae1722eca31c9b1&txTime=6AE8C5B9",
+        "key": null
+      },
+      {
+        "title": "LIVE SERVER",
+        "type": "hls",
+        "url": "https://live.uu1pp.com/sport/202_5703029_1.m3u8?txSecret=8dbb87c680e85330626ca7a1a10d0f16&txTime=6AE8FA34",
+        "key": null
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/TTTTA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5192,
@@ -544,7 +582,32 @@
       "startTimeUTC": "2026/11/02 16:00:00 +0000",
       "endTimeUTC": "2026/11/02 18:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "beIN SPORTS FHD",
+        "type": "hls",
+        "url": "https://live-cdn.ryazanslah3.space/hls/bein1.m3u8?",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4621411.m3u8?txSecret=1f3d37aaf826b086770b1416249d380b&txTime=6AE8C5D6",
+        "key": null
+      },
+      {
+        "title": "HD QUALITY",
+        "type": "hls",
+        "url": "https://live.uu1pp.com/sport/202_5703048_1.m3u8?txSecret=a7c6fca642e47d47970fc5a10347b227&txTime=6AE8F9DA",
+        "key": null
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/TTTT.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5209,
