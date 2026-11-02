@@ -20,27 +20,15 @@
     },
     "dashStreams": [
       {
-        "title": "NPL LIVE HD",
-        "type": "hls",
-        "url": "https://spowncdn.bondsplive.online/nplok/logo.png?&e=.m3u8",
-        "key": null
+        "title": "FANCODE FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
       },
       {
         "title": "SD SERVER",
         "type": "hls",
         "url": "http://c8.vfruitfairy.com/NPLT20/index.m3u8",
-        "key": null
-      },
-      {
-        "title": "HIMALAYA HD",
-        "type": "hls",
-        "url": "https://spchx.bondsplive.online/414167/logosp.webp?&e=.m3u8",
-        "key": null
-      },
-      {
-        "title": "FANCODE (IND)",
-        "type": "hls",
-        "url": "https://dai-fancode.pages.dev/mumbai/4250363_english_hls_3c429d187460404_1ta-di_h264/index.m3u8",
         "key": null
       }
     ]
