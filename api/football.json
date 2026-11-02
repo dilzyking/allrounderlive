@@ -468,7 +468,20 @@
       "startTimeUTC": "2026/11/02 13:00:00 +0000",
       "endTimeUTC": "2026/11/02 15:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "LaLiga Hypermotion",
+        "type": "dash",
+        "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
+        "key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/YFFFAAAA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5184,
