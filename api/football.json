@@ -3373,34 +3373,6 @@
     ]
   },
   {
-    "id": 5115,
-    "title": "A-League Men",
-    "slug": "perth-glory-vs-adelaide-united",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "A-League Men",
-      "category": "Football",
-      "teamA": "Perth Glory",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2945/image",
-      "teamB": "Adelaide United",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2946/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/136/image/dark",
-      "startTimeIST": "2026-11-01 13:30:00 IST",
-      "endTimeIST": "2026-11-01 15:50:00 IST",
-      "startTimeUTC": "2026/11/01 08:00:00 +0000",
-      "endTimeUTC": "2026/11/01 10:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "TNT SPORTS 4",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
-        "key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
-      }
-    ]
-  },
-  {
     "id": 3255,
     "title": "UEFA Champions League",
     "slug": "the-golazo-show-vs-the-golazo-show",
