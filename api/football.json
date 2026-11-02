@@ -450,40 +450,6 @@
     ]
   },
   {
-    "id": 5198,
-    "title": "LaLiga 2",
-    "slug": "tenerife-vs-andorra",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "LaLiga 2",
-      "category": "Football",
-      "teamA": "Tenerife",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2822/image",
-      "teamB": "Andorra",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/324871/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "startTimeIST": "2026-11-02 18:30:00 IST",
-      "endTimeIST": "2026-11-02 20:50:00 IST",
-      "startTimeUTC": "2026/11/02 13:00:00 +0000",
-      "endTimeUTC": "2026/11/02 15:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "LaLiga Hypermotion",
-        "type": "dash",
-        "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-        "key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/YFFFAAAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5184,
     "title": "AFC Champions League Elite",
     "slug": "pakhtakor-vs-al-nassr",
@@ -1124,6 +1090,40 @@
         "title": "SonyLiv (HIN)",
         "type": "hls",
         "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2022316/footlive0111/HIN/std_lrh-800300010.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5198,
+    "title": "LaLiga 2",
+    "slug": "tenerife-vs-andorra",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "LaLiga 2",
+      "category": "Football",
+      "teamA": "Tenerife",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2822/image",
+      "teamB": "Andorra",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/324871/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
+      "startTimeIST": "2026-11-02 18:30:00 IST",
+      "endTimeIST": "2026-11-02 20:50:00 IST",
+      "startTimeUTC": "2026/11/02 13:00:00 +0000",
+      "endTimeUTC": "2026/11/02 15:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "LaLiga Hypermotion",
+        "type": "dash",
+        "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
+        "key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/YFFFAAAA.m3u8",
         "key": null
       }
     ]
