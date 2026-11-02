@@ -471,40 +471,6 @@
     ]
   },
   {
-    "id": 5175,
-    "title": "NFL",
-    "slug": "commanders-vs-eagles",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "NFL",
-      "category": "Football",
-      "teamA": "Commanders",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/4432/image",
-      "teamB": "Eagles",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4428/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
-      "startTimeIST": "2026-11-02 06:50:00 IST",
-      "endTimeIST": "2026-11-02 09:50:00 IST",
-      "startTimeUTC": "2026/11/02 01:20:00 +0000",
-      "endTimeUTC": "2026/11/02 04:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "TSN SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
-        "key": "14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d"
-      },
-      {
-        "title": "TSN4 SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
-        "key": "abc5b2883121012850ebda05b528c5ec:e5250924f4b738905f7163a0134587a7"
-      }
-    ]
-  },
-  {
     "id": 5187,
     "title": "MLS",
     "slug": "portland-vs-houston",
@@ -569,6 +535,40 @@
         "type": "hls",
         "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2022316/footlive0111/HIN/std_lrh-800300010.m3u8",
         "key": null
+      }
+    ]
+  },
+  {
+    "id": 5175,
+    "title": "NFL",
+    "slug": "commanders-vs-eagles",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "NFL",
+      "category": "Football",
+      "teamA": "Commanders",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4432/image",
+      "teamB": "Eagles",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4428/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "startTimeIST": "2026-11-02 06:50:00 IST",
+      "endTimeIST": "2026-11-02 09:50:00 IST",
+      "startTimeUTC": "2026/11/02 01:20:00 +0000",
+      "endTimeUTC": "2026/11/02 04:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "TSN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
+        "key": "14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d"
+      },
+      {
+        "title": "TSN4 SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
+        "key": "abc5b2883121012850ebda05b528c5ec:e5250924f4b738905f7163a0134587a7"
       }
     ]
   },
