@@ -1,45 +1,5 @@
 [
   {
-    "id": 4896,
-    "title": "Nepal Premier League",
-    "slug": "npl-vs-npl",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Nepal Premier League",
-      "category": "Cricket",
-      "teamA": "NPL",
-      "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAV3dcOxi7602i_xcqoTE6eoiGVCPJFo6uZwtDkDK-g&s=10",
-      "teamB": "NPL",
-      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAV3dcOxi7602i_xcqoTE6eoiGVCPJFo6uZwtDkDK-g&s=10",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAV3dcOxi7602i_xcqoTE6eoiGVCPJFo6uZwtDkDK-g&s=10",
-      "startTimeIST": "2026-11-02 12:10:00 IST",
-      "endTimeIST": "2026-11-02 21:15:00 IST",
-      "startTimeUTC": "2026/11/02 06:40:00 +0000",
-      "endTimeUTC": "2026/11/02 15:45:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "FANCODE FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://c8.vfruitfairy.com/NPLT20/index.m3u8",
-        "key": null
-      },
-      {
-        "title": "FANCODE SD",
-        "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash-sd/enc/iwpchve3wl/out/v1/946019f85dc64ae99ff9ce64a9727a62/cenc-sd.mpd",
-        "key": "286eb7dc538143790fa9913639531920:e3f5cb08d14d9e9c08438c673819540f"
-      }
-    ]
-  },
-  {
     "id": 4726,
     "title": "One Day International",
     "slug": "nz-vs-ind",
@@ -261,6 +221,46 @@
         "type": "hls",
         "url": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8",
         "key": null
+      }
+    ]
+  },
+  {
+    "id": 4896,
+    "title": "Nepal Premier League",
+    "slug": "npl-vs-npl",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Nepal Premier League",
+      "category": "Cricket",
+      "teamA": "NPL",
+      "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAV3dcOxi7602i_xcqoTE6eoiGVCPJFo6uZwtDkDK-g&s=10",
+      "teamB": "NPL",
+      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAV3dcOxi7602i_xcqoTE6eoiGVCPJFo6uZwtDkDK-g&s=10",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAV3dcOxi7602i_xcqoTE6eoiGVCPJFo6uZwtDkDK-g&s=10",
+      "startTimeIST": "2026-11-02 12:10:00 IST",
+      "endTimeIST": "2026-11-02 21:15:00 IST",
+      "startTimeUTC": "2026/11/02 06:40:00 +0000",
+      "endTimeUTC": "2026/11/02 15:45:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "FANCODE FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://c8.vfruitfairy.com/NPLT20/index.m3u8",
+        "key": null
+      },
+      {
+        "title": "FANCODE SD",
+        "type": "dash",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash-sd/enc/iwpchve3wl/out/v1/946019f85dc64ae99ff9ce64a9727a62/cenc-sd.mpd",
+        "key": "286eb7dc538143790fa9913639531920:e3f5cb08d14d9e9c08438c673819540f"
       }
     ]
   },
