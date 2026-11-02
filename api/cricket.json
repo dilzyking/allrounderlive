@@ -317,34 +317,6 @@
     ]
   },
   {
-    "id": 5055,
-    "title": "2nd UNOFFICIAL TEST",
-    "slug": "nz-vs-ind",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "2nd UNOFFICIAL TEST",
-      "category": "Cricket",
-      "teamA": "NZ",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/187755/image",
-      "teamB": "IND",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/187765/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11191/image/dark",
-      "startTimeIST": "2026-11-01 12:30:00 IST",
-      "endTimeIST": "2026-11-01 17:00:00 IST",
-      "startTimeUTC": "2026/11/01 07:00:00 +0000",
-      "endTimeUTC": "2026/11/01 11:30:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SONYLIV [ASIA]",
-        "type": "hls",
-        "url": "https://sonydaime.akamaized.net/hls/live/2120303/criclive3010/ENG/std_lrh-800300010.m3u8?hdnea=exp=1793440431~acl=/*~id=58342385308836800944090866097145~hmac=5bffa12c1ad3d571d42d0a08556a10c336eb428ed8191a43041a35af1aa43e3e",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 984,
     "title": "ENG vs NZ",
     "slug": "eng-vs-nz",
