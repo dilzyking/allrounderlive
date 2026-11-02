@@ -374,27 +374,6 @@
     ]
   },
   {
-    "id": 5114,
-    "title": "Liga MX, Apertura",
-    "slug": "america-vs-toluca",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Liga MX, Apertura",
-      "category": "Football",
-      "teamA": "América",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1939/image",
-      "teamB": "Toluca",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1931/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11621/image/dark",
-      "startTimeIST": "2026-11-01 08:40:00 IST",
-      "endTimeIST": "2026-11-01 11:00:00 IST",
-      "startTimeUTC": "2026/11/01 03:10:00 +0000",
-      "endTimeUTC": "2026/11/01 05:30:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 3926,
     "title": "NFL REDZONE",
     "slug": "nfl-vs-nfl",
