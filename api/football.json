@@ -454,7 +454,7 @@
     "title": "LaLiga 2",
     "slug": "oviedo-vs-las-palmas",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "LaLiga 2",
       "category": "Football",
@@ -2549,122 +2549,6 @@
         "title": "SD SERVER",
         "type": "hls",
         "url": "http://193.47.62.41/hls/J444AAAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5140,
-    "title": "LaLiga",
-    "slug": "racing-club-vs-real-madrid",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "LaLiga",
-      "category": "Football",
-      "teamA": "Racing Club",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2835/image",
-      "teamB": "Real Madrid",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2829/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
-      "startTimeIST": "2026-11-01 20:45:00 IST",
-      "endTimeIST": "2026-11-01 23:05:00 IST",
-      "startTimeUTC": "2026/11/01 15:15:00 +0000",
-      "endTimeUTC": "2026/11/01 17:35:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "TSN SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd",
-        "key": "385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8"
-      },
-      {
-        "title": "PREMIER SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
-        "key": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19"
-      },
-      {
-        "title": "beIN ENGLISH FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-        "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-      },
-      {
-        "title": "FANCODE FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
-      },
-      {
-        "title": "D SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd",
-        "key": "f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
-      },
-      {
-        "title": "Caze TV 3 FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vzeco5ty0v/out/v1/44c6b8f31a2544e3b2a9bb41ed5e241e/cenc.mpd",
-        "key": "ac7abaa9c9481aacfbdac64fc3ec3312:c0c504a2ed2e70b879a650b8770a38c6"
-      },
-      {
-        "title": "ESPN DEPORTES HD",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59026/load-playlist-multi?&.m3u8",
-        "key": null
-      },
-      {
-        "title": "FAST SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4565503.m3u8?txSecret=3bb93d04b15b1367a7676ff5b37ce75d&txTime=6AE76963",
-        "key": null
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://www.rtmpcdn.com/live/329720a6-2d3d-4167-b63c-2086c6f2a27d.m3u8",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.50/hls/GAGAGA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5142,
-    "title": "LaLiga 2",
-    "slug": "ceuta-vs-sporting",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "LaLiga 2",
-      "category": "Football",
-      "teamA": "Ceuta",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2869/image",
-      "teamB": "Sporting",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2852/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "startTimeIST": "2026-11-01 20:45:00 IST",
-      "endTimeIST": "2026-11-01 23:05:00 IST",
-      "startTimeUTC": "2026/11/01 15:15:00 +0000",
-      "endTimeUTC": "2026/11/01 17:35:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "Laliga Hypermotion",
-        "type": "dash",
-        "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-        "key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.41/hls/6666AAAAAAAQQ.m3u8",
         "key": null
       }
     ]
