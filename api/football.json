@@ -471,34 +471,6 @@
     ]
   },
   {
-    "id": 5159,
-    "title": "MLS",
-    "slug": "new-england-vs-inter-miami",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "MLS",
-      "category": "Football",
-      "teamA": "New England",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2511/image",
-      "teamB": "Inter Miami",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/337602/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/242/image/dark",
-      "startTimeIST": "2026-11-02 05:30:00 IST",
-      "endTimeIST": "2026-11-02 07:50:00 IST",
-      "startTimeUTC": "2026/11/02 00:00:00 +0000",
-      "endTimeUTC": "2026/11/02 02:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "CANAL5 FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ntkdl68eob/out/v1/bd5dfb7676994383881bc6e71877d29d/cenc.mpd",
-        "key": "d695093ea3e66d75a4d213a3e2cbf360:01be3f645e89a067d2786c295f68dde4"
-      }
-    ]
-  },
-  {
     "id": 5158,
     "title": "Liga MX, Apertura",
     "slug": "cruz-azul-vs-leon",
@@ -606,6 +578,34 @@
         "type": "hls",
         "url": "https://admin2.formaturamaxi.com.br/prem.m3u8",
         "key": null
+      }
+    ]
+  },
+  {
+    "id": 5159,
+    "title": "MLS",
+    "slug": "new-england-vs-inter-miami",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "MLS",
+      "category": "Football",
+      "teamA": "New England",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2511/image",
+      "teamB": "Inter Miami",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/337602/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/242/image/dark",
+      "startTimeIST": "2026-11-02 05:30:00 IST",
+      "endTimeIST": "2026-11-02 07:50:00 IST",
+      "startTimeUTC": "2026/11/02 00:00:00 +0000",
+      "endTimeUTC": "2026/11/02 02:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "CANAL5 FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ntkdl68eob/out/v1/bd5dfb7676994383881bc6e71877d29d/cenc.mpd",
+        "key": "d695093ea3e66d75a4d213a3e2cbf360:01be3f645e89a067d2786c295f68dde4"
       }
     ]
   },
