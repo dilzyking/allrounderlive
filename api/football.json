@@ -3345,34 +3345,6 @@
     ]
   },
   {
-    "id": 5118,
-    "title": "Trendyol Süper Lig",
-    "slug": "amed-vs-eyupspor",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Trendyol Süper Lig",
-      "category": "Football",
-      "teamA": "Amed",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/207011/image",
-      "teamB": "Eyüpspor",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/7040/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
-      "startTimeIST": "2026-11-01 16:00:00 IST",
-      "endTimeIST": "2026-11-01 18:20:00 IST",
-      "startTimeUTC": "2026/11/01 10:30:00 +0000",
-      "endTimeUTC": "2026/11/01 12:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel17.m3u8?",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 3255,
     "title": "UEFA Champions League",
     "slug": "the-golazo-show-vs-the-golazo-show",
