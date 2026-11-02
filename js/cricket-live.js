@@ -5,7 +5,7 @@
    ========================================================= */
 
 const CRICKET_API =
-  'https://allrounderlive.in/api/cricket.json';
+  'https://allrounderlive.com/api/cricket.json';
 
 const CRICKET_SKELETON_COUNT = 6;
 const CRICKET_REFRESH_INTERVAL = 60000;
