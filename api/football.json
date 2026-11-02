@@ -454,7 +454,7 @@
     "title": "LaLiga 2",
     "slug": "tenerife-vs-andorra",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "LaLiga 2",
       "category": "Football",
@@ -548,7 +548,20 @@
       "startTimeUTC": "2026/11/02 15:15:00 +0000",
       "endTimeUTC": "2026/11/02 17:35:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "LaLiga Hypermotion",
+        "type": "dash",
+        "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
+        "key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/YFFFAAAA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5187,
@@ -2872,182 +2885,6 @@
         "title": "SD SERVER",
         "type": "hls",
         "url": "http://193.47.62.55/hls/YOOOAAAAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5126,
-    "title": "LaLiga",
-    "slug": "getafe-vs-sevilla",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "LaLiga",
-      "category": "Football",
-      "teamA": "Getafe",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2859/image",
-      "teamB": "Sevilla",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2833/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
-      "startTimeIST": "2026-11-01 18:30:00 IST",
-      "endTimeIST": "2026-11-01 20:50:00 IST",
-      "startTimeUTC": "2026/11/01 13:00:00 +0000",
-      "endTimeUTC": "2026/11/01 15:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PREMIER SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
-        "key": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19"
-      },
-      {
-        "title": "FANCODE FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
-      },
-      {
-        "title": "CazéTV FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ui54qo0g6h/out/v1/620e1448188d4bbe9a28d0dd52f45bb7/cenc.mpd",
-        "key": "ba6aca5a550163c38d06646bb50f04e7:516c3b471fce48a5b7a2e5ee7dd505f2"
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.55/hls/B111AAQQQQAAAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5127,
-    "title": "Trendyol Süper Lig",
-    "slug": "trabzonspor-vs-gaziantep",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Trendyol Süper Lig",
-      "category": "Football",
-      "teamA": "Trabzonspor",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/3051/image",
-      "teamB": "Gaziantep",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/5138/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
-      "startTimeIST": "2026-11-01 18:30:00 IST",
-      "endTimeIST": "2026-11-01 20:50:00 IST",
-      "startTimeUTC": "2026/11/01 13:00:00 +0000",
-      "endTimeUTC": "2026/11/01 15:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.55/hls/KRRRAAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5128,
-    "title": "Trendyol Süper Lig",
-    "slug": "basaksehir-vs-samsunspor",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Trendyol Süper Lig",
-      "category": "Football",
-      "teamA": "Başakşehir",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/3086/image",
-      "teamB": "Samsunspor",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/3053/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
-      "startTimeIST": "2026-11-01 18:30:00 IST",
-      "endTimeIST": "2026-11-01 20:50:00 IST",
-      "startTimeUTC": "2026/11/01 13:00:00 +0000",
-      "endTimeUTC": "2026/11/01 15:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.55/hls/KRRRAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5129,
-    "title": "Scottish Premiership",
-    "slug": "falkirk-vs-celtic",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Scottish Premiership",
-      "category": "Football",
-      "teamA": "Falkirk",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2363/image",
-      "teamB": "Celtic",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2352/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/36/image/dark",
-      "startTimeIST": "2026-11-01 18:30:00 IST",
-      "endTimeIST": "2026-11-01 20:50:00 IST",
-      "startTimeUTC": "2026/11/01 13:00:00 +0000",
-      "endTimeUTC": "2026/11/01 15:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "beIN ENGLISH FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-        "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-      },
-      {
-        "title": "SportDigital Fussball",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?",
-        "key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/D555.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5181,
-    "title": "LaLiga 2",
-    "slug": "eldense-vs-granada",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "LaLiga 2",
-      "category": "Football",
-      "teamA": "Eldense",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/47321/image",
-      "teamB": "Granada",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/33779/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "startTimeIST": "2026-11-01 18:30:00 IST",
-      "endTimeIST": "2026-11-01 20:50:00 IST",
-      "startTimeUTC": "2026/11/01 13:00:00 +0000",
-      "endTimeUTC": "2026/11/01 15:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "LaLiga Hypermotion",
-        "type": "dash",
-        "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-        "key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.55/hls/KRRRAAAAAQQQA.m3u8",
         "key": null
       }
     ]
