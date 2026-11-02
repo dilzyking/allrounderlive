@@ -374,82 +374,6 @@
     ]
   },
   {
-    "id": 3926,
-    "title": "NFL REDZONE",
-    "slug": "nfl-vs-nfl",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "NFL REDZONE",
-      "category": "Football",
-      "teamA": "NFL",
-      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/9464/image",
-      "teamB": "NFL",
-      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/9464/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/9464/image",
-      "startTimeIST": "2026-11-01 23:25:00 IST",
-      "endTimeIST": "2026-11-02 23:25:00 IST",
-      "startTimeUTC": "2026/11/01 17:55:00 +0000",
-      "endTimeUTC": "2026/11/02 17:55:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "REDZONE FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/dash/enc/tppdoitn9n/out/v1/9828b56372fb434fafdcf88c72052d01/cenc.mpd",
-        "key": "85f340146e46533b39d1415d90746352:448aafcc613ddfd448f14d9275eda19b"
-      },
-      {
-        "title": "NFL RedZone HD",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/58646/load-playlist?&.m3u8",
-        "key": null
-      },
-      {
-        "title": "SERVER 1 HD [USA]",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/58621/load-playlist?&.m3u8",
-        "key": null
-      },
-      {
-        "title": "NFL REDZONE HD",
-        "type": "hls",
-        "url": "https://edgestream4.pro/hls/wnbcnxbcs42.m3u8?",
-        "key": null
-      },
-      {
-        "title": "SERVER 2 HD [USA]",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/58619/load-playlist?&.m3u8",
-        "key": null
-      },
-      {
-        "title": "SERVER 3 HD [USA]",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/58620/load-playlist?&.m3u8",
-        "key": null
-      },
-      {
-        "title": "NFL NETWORK HD",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/54923/load-playlist?&.m3u8",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.50/hls/hmmmAAAAAAA.m3u8",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "https://play.aurasportsplayer.cfd/nfl/1939?source=0",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5187,
     "title": "AFC Champions League Elite",
     "slug": "tractor-vs-neftchi",
@@ -2107,6 +2031,82 @@
         "title": "LOW QUALITY",
         "type": "hls",
         "url": "http://193.47.62.50/hls/G999.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 3926,
+    "title": "NFL REDZONE",
+    "slug": "nfl-vs-nfl",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "NFL REDZONE",
+      "category": "Football",
+      "teamA": "NFL",
+      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/9464/image",
+      "teamB": "NFL",
+      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/9464/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/9464/image",
+      "startTimeIST": "2026-11-01 23:25:00 IST",
+      "endTimeIST": "2026-11-02 23:25:00 IST",
+      "startTimeUTC": "2026/11/01 17:55:00 +0000",
+      "endTimeUTC": "2026/11/02 17:55:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "REDZONE FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/dash/enc/tppdoitn9n/out/v1/9828b56372fb434fafdcf88c72052d01/cenc.mpd",
+        "key": "85f340146e46533b39d1415d90746352:448aafcc613ddfd448f14d9275eda19b"
+      },
+      {
+        "title": "NFL RedZone HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/58646/load-playlist?&.m3u8",
+        "key": null
+      },
+      {
+        "title": "SERVER 1 HD [USA]",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/58621/load-playlist?&.m3u8",
+        "key": null
+      },
+      {
+        "title": "NFL REDZONE HD",
+        "type": "hls",
+        "url": "https://edgestream4.pro/hls/wnbcnxbcs42.m3u8?",
+        "key": null
+      },
+      {
+        "title": "SERVER 2 HD [USA]",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/58619/load-playlist?&.m3u8",
+        "key": null
+      },
+      {
+        "title": "SERVER 3 HD [USA]",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/58620/load-playlist?&.m3u8",
+        "key": null
+      },
+      {
+        "title": "NFL NETWORK HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/54923/load-playlist?&.m3u8",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.50/hls/hmmmAAAAAAA.m3u8",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "https://play.aurasportsplayer.cfd/nfl/1939?source=0",
         "key": null
       }
     ]
