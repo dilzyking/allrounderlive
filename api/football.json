@@ -2498,34 +2498,6 @@
     ]
   },
   {
-    "id": 5143,
-    "title": "VriendenLoterij Eredivisie",
-    "slug": "groningen-vs-sparta",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "VriendenLoterij Eredivisie",
-      "category": "Football",
-      "teamA": "Groningen",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2951/image",
-      "teamB": "Sparta",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2960/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
-      "startTimeIST": "2026-11-01 21:15:00 IST",
-      "endTimeIST": "2026-11-01 23:35:00 IST",
-      "startTimeUTC": "2026/11/01 15:45:00 +0000",
-      "endTimeUTC": "2026/11/01 18:05:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel21.m3u8?",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 3255,
     "title": "UEFA Champions League",
     "slug": "the-golazo-show-vs-the-golazo-show",
