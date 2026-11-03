@@ -26,16 +26,16 @@
         "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
       },
       {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://c8.vfruitfairy.com/NPLT20/index.m3u8",
-        "key": null
-      },
-      {
         "title": "FANCODE SD",
         "type": "dash",
         "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash-sd/enc/iwpchve3wl/out/v1/946019f85dc64ae99ff9ce64a9727a62/cenc-sd.mpd",
         "key": "286eb7dc538143790fa9913639531920:e3f5cb08d14d9e9c08438c673819540f"
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://c8.vfruitfairy.com/NPLT20/index.m3u8",
+        "key": null
       }
     ]
   },
