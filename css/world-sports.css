@@ -1,0 +1,210 @@
+
+/* =========================================================
+   WORLD SPORTS — MATCHDEKHO
+   Same cards as Football / Cricket / Willow / FanCode.
+   16:9 poster, top-center crop, two caption lines.
+   ========================================================= */
+
+/* Card layout inherits .card from index.html */
+
+#worldSportsSection .world-sports-card {
+  display: block;
+  padding: 0;
+  text-align: left;
+  border-radius: 0;
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ---------- POSTER ---------- */
+
+#worldSportsSection .world-sports-thumb {
+  position: relative;
+  overflow: hidden;
+  background: #121620;
+}
+
+#worldSportsSection .world-sports-thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  /* Crop from TOP MIDDLE */
+  object-position: center top;
+}
+
+#worldSportsSection .ws-no-poster {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: #93969f;
+  font-size: 12px;
+}
+
+/* ---------- EXACTLY TWO CAPTION LINES ---------- */
+
+#worldSportsSection .world-sports-card .caption {
+  overflow: hidden;
+}
+
+#worldSportsSection .world-sports-card .caption > span {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* First line — bright white teams */
+
+#worldSportsSection .world-sports-card .ws-match-title {
+  color: #e2e3e8 !important;
+  font-weight: 600 !important;
+  opacity: 1;
+}
+
+/* Second line — grey league / date */
+
+#worldSportsSection .world-sports-card .ws-meta {
+  color: #93969f !important;
+  font-weight: 400 !important;
+  opacity: 1;
+}
+
+/* ---------- UPCOMING BELL ---------- */
+
+#worldSportsSection .ws-upcoming-icon {
+  position: absolute;
+  bottom: 7px;
+  left: 8px;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 27px;
+  height: 25px;
+  padding: 4px;
+  border-radius: 2px;
+  background: #f1f0ec;
+  color: #222935;
+}
+
+#worldSportsSection .ws-upcoming-icon svg {
+  display: block;
+  width: 17px;
+  height: 17px;
+  fill: currentColor;
+}
+
+/* LIVE badge inherits .badge from index.html */
+
+/* ---------- SKELETON ---------- */
+
+#worldSportsSection .ws-skeleton-thumb {
+  background: linear-gradient(
+    100deg,
+    #121620 25%,
+    #222938 50%,
+    #121620 75%
+  );
+  background-size: 200% 100%;
+  animation: ws-loading 1.6s ease-in-out infinite;
+}
+
+#worldSportsSection .ws-skeleton-line {
+  height: 10px;
+  width: 80%;
+  margin: 5px 0;
+  background: #ffffff12;
+}
+
+#worldSportsSection .ws-skeleton-line:last-child {
+  width: 55%;
+}
+
+@keyframes ws-loading {
+  to {
+    background-position: -200% 0;
+  }
+}
+
+/* ---------- EMPTY / RETRY ---------- */
+
+#worldSportsSection .ws-empty {
+  padding: 24px 0;
+  color: #93969f;
+}
+
+#worldSportsSection .ws-retry {
+  margin-left: 8px;
+  padding: 5px 10px;
+  border: 1px solid #ffffff30;
+  border-radius: 4px;
+  background: #ffffff0d;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* ---------- SIDE ARROWS ---------- */
+
+#worldSportsSection .live-rail > .arrow {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 5;
+  width: 48px;
+  height: 48px;
+  top: var(--ws-arrow-top, 70px);
+  padding: 0;
+  border: 0;
+  background: none;
+  color: #fff;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  filter: drop-shadow(0 1px 5px #000c);
+}
+
+#worldSportsSection .live-rail > .prev {
+  left: 0;
+}
+
+#worldSportsSection .live-rail > .next {
+  right: 0;
+}
+
+#worldSportsSection .live-rail > .arrow svg {
+  width: 26px;
+  height: 26px;
+}
+
+/* ---------- FOCUS ---------- */
+
+#worldSportsSection .world-sports-card:focus-visible,
+#worldSportsSection .arrow:focus-visible,
+#worldSportsSection .ws-retry:focus-visible {
+  outline: 2px solid #f55505;
+  outline-offset: -2px;
+}
+
+/* ---------- PORTRAIT PHONES ---------- */
+
+@media (max-width: 767px) and (orientation: portrait) {
+  #worldSportsSection .live-rail > .arrow {
+    display: none !important;
+  }
+}
+
+/* ---------- REDUCED MOTION ---------- */
+
+@media (prefers-reduced-motion: reduce) {
+  #worldSportsSection .ws-skeleton-thumb {
+    animation: none;
+  }
+
+  #worldSportsSection .live-rail > .arrow {
+    transition: none;
+  }
+}
