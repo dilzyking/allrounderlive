@@ -395,182 +395,6 @@
     "dashStreams": []
   },
   {
-    "id": 5198,
-    "title": "UEFA Champions League",
-    "slug": "galatasaray-vs-stuttgart",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "UEFA Champions League",
-      "category": "Football",
-      "teamA": "Galatasaray",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/3061/image",
-      "teamB": "Stuttgart",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2677/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "startTimeIST": "2026-11-03 23:15:00 IST",
-      "endTimeIST": "2026-11-04 01:35:00 IST",
-      "startTimeUTC": "2026/11/03 17:45:00 +0000",
-      "endTimeUTC": "2026/11/03 20:05:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/nneitrfr1l/out/v1/c96eca69bbb04f77add2020a85495524/cenc.mpd",
-        "key": "92d6baa3bffdea423754f5e0ab55631a:50b69d834ee34886fa9830363b88e800"
-      },
-      {
-        "title": "PRIME VIDEO FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/pmxpfwjpew/out/v1/57a2345d56b3485088df37bb379b1884/cenc.mpd",
-        "key": "042cea058767bc670450467c2ed410cb:045a98c84a49742be3a5a454198ec14c"
-      },
-      {
-        "title": "VIX Español FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gwpfwrdluy/out/v1/83e94e1e8f76494f8173edb038f25837/cenc.mpd",
-        "key": "9d5218f13397a8cbed7a4544d0d6d198:919a50686f1bd2dbd1f1b6a9357a9577"
-      },
-      {
-        "title": "DAZN DE FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/u4nnymerwj/out/v1/3a24e30418334f10b02441649eaa8cc3/cenc.mpd",
-        "key": "a9dac59142fae1c70a50d526b491a86e:62752c3314581b6a305f3c655810e201"
-      },
-      {
-        "title": "TNT SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
-        "key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
-      },
-      {
-        "title": "CBS SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-        "key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4628435.m3u8?txSecret=94ae11617a86f1e1f52d5b968c1bbe03&txTime=6AEA2E2C",
-        "key": null
-      },
-      {
-        "title": "LIVE SERVER",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel1.m3u8?",
-        "key": null
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.59/hls/TPPPA.m3u8",
-        "key": null
-      },
-      {
-        "title": "SonyLiv (Asia)",
-        "type": "hls",
-        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120303/footlive0311/ENG/std_lrh-800300010.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5206,
-    "title": "UEFA Champions League",
-    "slug": "shakhtar-vs-sporting",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "UEFA Champions League",
-      "category": "Football",
-      "teamA": "Shakhtar",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/3313/image",
-      "teamB": "Sporting",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/3001/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "startTimeIST": "2026-11-03 23:15:00 IST",
-      "endTimeIST": "2026-11-04 01:35:00 IST",
-      "startTimeUTC": "2026/11/03 17:45:00 +0000",
-      "endTimeUTC": "2026/11/03 20:05:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/aeumjv0tof/out/v1/0d70b9334db84658bd3db38c484a071a/cenc.mpd",
-        "key": "c6b9abe413b8c5552ad7f4a57dbb2af2:e37d1a8371a874deda5f9b7260e65cde"
-      },
-      {
-        "title": "TNT SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
-        "key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
-      },
-      {
-        "title": "PRIME VIDEO FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5z5zrkjiuu/out/v1/7f409e917e5740f18b65323ab79309e5/cenc.mpd",
-        "key": "e6a29d67b1f49548bc93da53455af671:877d754b52368cebafec625d56be4967"
-      },
-      {
-        "title": "VIX Español FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/w4lpjel0uk/out/v1/d7683dec68ba4f86bfa5ddf4bd842020/cenc.mpd",
-        "key": "f0db1a79217cb4d57ae5616c4bf7b2d8:c01f7bdddf9afec6c7c70841905aeed6"
-      },
-      {
-        "title": "DAZN DE FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/jiybvnjqls/out/v1/9cbdccb678364dafbac6a54af5461882/cenc.mpd",
-        "key": "bddd33b45c3b369cf7febc4c35332e83:1bbd40180ff193eb23f3db5dbdc43c40"
-      },
-      {
-        "title": "HBO MAX BR FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/gwhjevq6ar/out/v1/bf0c281f2dba46cb87434d45ed13003f/cenc.mpd",
-        "key": "83a4bc2c011e2c72b35b7b5f2d35560d:01bd0115c83d3493449181ba68998ab1"
-      },
-      {
-        "title": "PARAMOUNT+ HD",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59194/load-playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "LIVE SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4628496.m3u8?txSecret=4a74cb960700c25acb77fd007065e6ac&txTime=6AEA2E6B",
-        "key": null
-      },
-      {
-        "title": "TAPMAD FHD",
-        "type": "hls",
-        "url": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8",
-        "key": null
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?",
-        "key": null
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.50/hls/TPPPAA.m3u8",
-        "key": null
-      },
-      {
-        "title": "SONYLIV [ASIA]",
-        "type": "hls",
-        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120304/footlive0311/ENG/std_lrh-800300010.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5207,
     "title": "Copa del Rey",
     "slug": "pamplona-vs-eibar",
@@ -1456,6 +1280,182 @@
         "title": "SonyLiv (HIN)",
         "type": "hls",
         "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2022316/footlive0111/HIN/std_lrh-800300010.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5198,
+    "title": "UEFA Champions League",
+    "slug": "galatasaray-vs-stuttgart",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "UEFA Champions League",
+      "category": "Football",
+      "teamA": "Galatasaray",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/3061/image",
+      "teamB": "Stuttgart",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2677/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/7/image/dark",
+      "startTimeIST": "2026-11-03 23:15:00 IST",
+      "endTimeIST": "2026-11-04 01:35:00 IST",
+      "startTimeUTC": "2026/11/03 17:45:00 +0000",
+      "endTimeUTC": "2026/11/03 20:05:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/nneitrfr1l/out/v1/c96eca69bbb04f77add2020a85495524/cenc.mpd",
+        "key": "92d6baa3bffdea423754f5e0ab55631a:50b69d834ee34886fa9830363b88e800"
+      },
+      {
+        "title": "PRIME VIDEO FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/pmxpfwjpew/out/v1/57a2345d56b3485088df37bb379b1884/cenc.mpd",
+        "key": "042cea058767bc670450467c2ed410cb:045a98c84a49742be3a5a454198ec14c"
+      },
+      {
+        "title": "VIX Español FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gwpfwrdluy/out/v1/83e94e1e8f76494f8173edb038f25837/cenc.mpd",
+        "key": "9d5218f13397a8cbed7a4544d0d6d198:919a50686f1bd2dbd1f1b6a9357a9577"
+      },
+      {
+        "title": "DAZN DE FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/u4nnymerwj/out/v1/3a24e30418334f10b02441649eaa8cc3/cenc.mpd",
+        "key": "a9dac59142fae1c70a50d526b491a86e:62752c3314581b6a305f3c655810e201"
+      },
+      {
+        "title": "TNT SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
+        "key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
+      },
+      {
+        "title": "CBS SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
+        "key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4628435.m3u8?txSecret=94ae11617a86f1e1f52d5b968c1bbe03&txTime=6AEA2E2C",
+        "key": null
+      },
+      {
+        "title": "LIVE SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel1.m3u8?",
+        "key": null
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.59/hls/TPPPA.m3u8",
+        "key": null
+      },
+      {
+        "title": "SonyLiv (Asia)",
+        "type": "hls",
+        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120303/footlive0311/ENG/std_lrh-800300010.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5206,
+    "title": "UEFA Champions League",
+    "slug": "shakhtar-vs-sporting",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "UEFA Champions League",
+      "category": "Football",
+      "teamA": "Shakhtar",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/3313/image",
+      "teamB": "Sporting",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/3001/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/7/image/dark",
+      "startTimeIST": "2026-11-03 23:15:00 IST",
+      "endTimeIST": "2026-11-04 01:35:00 IST",
+      "startTimeUTC": "2026/11/03 17:45:00 +0000",
+      "endTimeUTC": "2026/11/03 20:05:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/aeumjv0tof/out/v1/0d70b9334db84658bd3db38c484a071a/cenc.mpd",
+        "key": "c6b9abe413b8c5552ad7f4a57dbb2af2:e37d1a8371a874deda5f9b7260e65cde"
+      },
+      {
+        "title": "TNT SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
+        "key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
+      },
+      {
+        "title": "PRIME VIDEO FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5z5zrkjiuu/out/v1/7f409e917e5740f18b65323ab79309e5/cenc.mpd",
+        "key": "e6a29d67b1f49548bc93da53455af671:877d754b52368cebafec625d56be4967"
+      },
+      {
+        "title": "VIX Español FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/w4lpjel0uk/out/v1/d7683dec68ba4f86bfa5ddf4bd842020/cenc.mpd",
+        "key": "f0db1a79217cb4d57ae5616c4bf7b2d8:c01f7bdddf9afec6c7c70841905aeed6"
+      },
+      {
+        "title": "DAZN DE FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/jiybvnjqls/out/v1/9cbdccb678364dafbac6a54af5461882/cenc.mpd",
+        "key": "bddd33b45c3b369cf7febc4c35332e83:1bbd40180ff193eb23f3db5dbdc43c40"
+      },
+      {
+        "title": "HBO MAX BR FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/gwhjevq6ar/out/v1/bf0c281f2dba46cb87434d45ed13003f/cenc.mpd",
+        "key": "83a4bc2c011e2c72b35b7b5f2d35560d:01bd0115c83d3493449181ba68998ab1"
+      },
+      {
+        "title": "PARAMOUNT+ HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59194/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "LIVE SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4628496.m3u8?txSecret=4a74cb960700c25acb77fd007065e6ac&txTime=6AEA2E6B",
+        "key": null
+      },
+      {
+        "title": "TAPMAD FHD",
+        "type": "hls",
+        "url": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?",
+        "key": null
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.50/hls/TPPPAA.m3u8",
+        "key": null
+      },
+      {
+        "title": "SONYLIV [ASIA]",
+        "type": "hls",
+        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120304/footlive0311/ENG/std_lrh-800300010.m3u8",
         "key": null
       }
     ]
