@@ -575,6 +575,12 @@
     },
     "dashStreams": [
       {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/onettscsr6/out/v1/ede01716668e47c9b535c30736781a1d/cenc.mpd",
+        "key": "a750109c8ebfdedbee825a182e87cea4:e2af3c63f879a1b9b5e74d89ca68065d"
+      },
+      {
         "title": "LOW QUALITY",
         "type": "hls",
         "url": "http://193.47.62.41/hls/X7UUUAAAAQ.m3u8",
@@ -605,7 +611,7 @@
       {
         "title": "LOW QUALITY",
         "type": "hls",
-        "url": "http://193.47.62.41/hls/7UUUAA.m3u8",
+        "url": "http://193.47.62.41/hls/X7UUUAA.m3u8",
         "key": null
       }
     ]
@@ -633,7 +639,7 @@
       {
         "title": "LOW QUALITY",
         "type": "hls",
-        "url": "http://193.47.62.41/hls/7UUUAAA.m3u8",
+        "url": "http://193.47.62.41/hls/X7UUUAAA.m3u8",
         "key": null
       }
     ]
@@ -661,7 +667,7 @@
       {
         "title": "LOW QUALITY",
         "type": "hls",
-        "url": "http://193.47.62.41/hls/7UUU.m3u8",
+        "url": "http://193.47.62.41/hls/X7UUU.m3u8",
         "key": null
       }
     ]
@@ -676,10 +682,10 @@
       "name": "UEFA Champions League",
       "category": "Football",
       "teamA": "The Golazo Show",
-      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/7/image",
+      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
       "teamB": "The Golazo Show",
-      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/7/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image",
+      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
       "startTimeIST": "2026-11-04 01:30:00 IST",
       "endTimeIST": "2026-11-04 06:30:00 IST",
       "startTimeUTC": "2026/11/03 20:00:00 +0000",
@@ -1161,9 +1167,15 @@
     },
     "dashStreams": [
       {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b9caoephnn/out/v1/b53b2cf820b94e7fae6169ca06bb6fd6/cenc.mpd",
+        "key": "735ec2c484e8404f9bb1d162186f16a4:eb90599b0afc0766a9138c287e86c3a8"
+      },
+      {
         "title": "LOW QUALITY",
         "type": "hls",
-        "url": "http://193.47.62.41/hls/7UUUAAAAQQAAQ.m3u8",
+        "url": "http://193.47.62.41/hls/X7UUUAAAAQQAAQ.m3u8",
         "key": null
       }
     ]
