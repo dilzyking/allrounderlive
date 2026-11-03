@@ -399,7 +399,7 @@
     "title": "Copa del Rey",
     "slug": "pamplona-vs-eibar",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Copa del Rey",
       "category": "Football",
@@ -420,7 +420,7 @@
     "title": "Copa del Rey",
     "slug": "anaitasuna-vs-alaves",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Copa del Rey",
       "category": "Football",
@@ -493,7 +493,7 @@
       {
         "title": "LOW QUALITY",
         "type": "hls",
-        "url": "http://193.47.62.41/hls/7UUUA.m3u8",
+        "url": "http://193.47.62.41/hls/X7UUUA.m3u8",
         "key": null
       }
     ]
@@ -521,7 +521,7 @@
       {
         "title": "LOW QUALITY",
         "type": "hls",
-        "url": "http://193.47.62.41/hls/7UUUAAAAQQ.m3u8",
+        "url": "http://193.47.62.41/hls/X7UUUAAAAQQ.m3u8",
         "key": null
       }
     ]
@@ -549,7 +549,7 @@
       {
         "title": "LOW QUALITY",
         "type": "hls",
-        "url": "http://193.47.62.41/hls/7UUUAAAA.m3u8",
+        "url": "http://193.47.62.41/hls/X7UUUAAAA.m3u8",
         "key": null
       }
     ]
@@ -577,7 +577,7 @@
       {
         "title": "LOW QUALITY",
         "type": "hls",
-        "url": "http://193.47.62.41/hls/7UUUAAAAQ.m3u8",
+        "url": "http://193.47.62.41/hls/X7UUUAAAAQ.m3u8",
         "key": null
       }
     ]
@@ -830,6 +830,12 @@
       "endTimeUTC": "2026/11/03 23:00:00 +0000"
     },
     "dashStreams": [
+      {
+        "title": "PRIME VIDEO FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/7ginakmkhd/out/v1/ed941032a0cf478583800821f6f73f92/cenc.mpd",
+        "key": "3c9c9759302a690821dc000229d317f4:dcda7b2874e022d6a03847f78565fedf"
+      },
       {
         "title": "PARAMOUNT+ FHD",
         "type": "dash",
