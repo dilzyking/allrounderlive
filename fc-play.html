@@ -1,0 +1,2205 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="referrer" content="no-referrer">
+<meta name="theme-color" content="#08090d">
+<title>Live Sports · MATCHDEKHO</title>
+
+<link rel="preload"
+      href="https://allrounderlive.com/font.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin>
+
+<link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/shaka-player@4.16.2/dist/controls.css">
+
+<script src="https://cdn.jsdelivr.net/npm/shaka-player@4.16.2/dist/shaka-player.ui.min.js"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CQXW3DBDQL"></script>
+<script>
+window.dataLayer=window.dataLayer||[];
+function gtag(){dataLayer.push(arguments)}
+gtag('js',new Date());
+gtag('config','G-CQXW3DBDQL');
+</script>
+
+<style>
+@font-face{
+  font-family:Outfit;
+  src:url("https://allrounderlive.com/font.woff2") format("woff2");
+  font-style:normal;
+  font-weight:100 900;
+  font-display:swap;
+}
+
+:root{
+  --font:Outfit,Inter,"Segoe UI",system-ui,sans-serif;
+  --bg:#08090d;
+  --accent:#f55505;
+  --out:cubic-bezier(.22,1,.36,1);
+  --header-height:62px;
+}
+
+*{box-sizing:border-box}
+
+html{
+  background:var(--bg);
+  -webkit-text-size-adjust:100%;
+}
+
+body{
+  margin:0;
+  min-height:100vh;
+  min-height:100dvh;
+  background:var(--bg);
+  color:#eee;
+  font-family:var(--font);
+  -webkit-font-smoothing:antialiased;
+}
+
+button,input,a{
+  font-family:inherit;
+  -webkit-tap-highlight-color:transparent;
+}
+
+button{cursor:pointer}
+a{color:inherit}
+[hidden]{display:none!important}
+html.lock{overflow:hidden}
+
+/* ========== HEADER ========== */
+
+.site-header{
+  position:sticky;
+  top:0;
+  z-index:30;
+  height:var(--header-height);
+  display:flex;
+  align-items:center;
+  gap:20px;
+  padding:0 20px;
+  background:linear-gradient(
+    180deg,
+    #131d2b 0%,
+    #101723 28%,
+    #0c111a 60%,
+    #08090d 100%
+  );
+  border-bottom:1px solid #ffffff12;
+}
+
+.menu{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:flex-start;
+  gap:6px;
+  flex:0 0 34px;
+  height:34px;
+  padding:0;
+  border:0;
+  background:none;
+  color:white;
+}
+
+.menu i{
+  display:block;
+  width:26px;
+  height:3px;
+  border-radius:3px;
+  background:currentColor;
+  transition:width .3s var(--out);
+}
+
+.menu i:nth-child(2){width:16px}
+.menu:hover i:nth-child(2){width:26px}
+
+.brand{
+  display:flex;
+  align-items:center;
+  min-width:0;
+  text-decoration:none;
+}
+
+.brand img{
+  display:block;
+  width:auto;
+  height:48px;
+  max-width:min(240px,38vw);
+  object-fit:contain;
+}
+
+.brand-fallback{
+  display:none;
+  color:#ff560e;
+  font-size:22px;
+  font-weight:900;
+  font-style:italic;
+}
+
+.img-failed img{display:none!important}
+.img-failed .brand-fallback{display:inline}
+
+.desktop-nav,.profile{display:none}
+
+.offers{
+  margin-left:auto;
+  display:flex;
+  align-items:center;
+  gap:6px;
+  flex-shrink:0;
+  border:1px solid #ffffff40;
+  border-radius:22px;
+  background:#ffffff1f;
+  color:#f3e8cb;
+  padding:7px 11px;
+  font-size:12px;
+}
+
+.offers svg{
+  width:17px;
+  height:17px;
+}
+
+/* ========== PAGE ========== */
+
+main{
+  min-height:calc(100dvh - var(--header-height));
+  background:var(--bg);
+}
+
+/* ========== PLAYER ========== */
+
+.player-wrapper{
+  position:relative;
+  width:100%;
+  aspect-ratio:16/9;
+  background:#000;
+  overflow:hidden;
+}
+
+#player-container.shaka-video-container{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  background:#000;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+#player-container video{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  background:#000;
+}
+
+.custom-watermark{
+  position:absolute;
+  z-index:40;
+  pointer-events:none;
+  bottom:80px;
+  right:20px;
+  color:rgba(255,255,255,.10);
+  font-size:11px;
+  font-weight:600;
+  letter-spacing:.5px;
+  text-transform:uppercase;
+}
+
+/* ========== ORIGINAL LOADER ========== */
+
+.loading-overlay{
+  position:absolute;
+  inset:0;
+  z-index:2000;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  background:#000;
+  color:#fff;
+  pointer-events:none;
+}
+
+.spinner{
+  width:40px;
+  height:40px;
+  border:4px solid rgba(255,255,255,.15);
+  border-top-color:#3b82f6;
+  border-radius:50%;
+  animation:spin 1s linear infinite;
+}
+
+@keyframes spin{
+  to{transform:rotate(360deg)}
+}
+
+/* ========== ORIGINAL SHAKA CONTROLS ========== */
+
+#player-container .shaka-controls-container{
+  background:transparent!important;
+  box-shadow:none!important;
+  filter:none!important;
+}
+
+#player-container .shaka-bottom-controls{
+  display:flex!important;
+  flex-direction:column!important;
+  padding:10px 16px;
+  box-shadow:none!important;
+}
+
+#player-container .shaka-seek-bar-container{
+  display:block!important;
+  width:100%!important;
+  height:8px!important;
+  margin:0 0 10px!important;
+  padding:0!important;
+  order:-1!important;
+  position:relative!important;
+}
+
+#player-container .shaka-seek-bar{
+  width:100%!important;
+  height:8px!important;
+  border-radius:50px;
+  background:rgba(255,255,255,.15)!important;
+  position:relative!important;
+}
+
+#player-container .shaka-seek-bar .shaka-range-element{
+  width:100%!important;
+  height:8px!important;
+  background:transparent!important;
+  border-radius:50px;
+  appearance:none!important;
+  -webkit-appearance:none!important;
+  outline:none!important;
+}
+
+#player-container .shaka-seek-bar .shaka-range-element::-webkit-slider-thumb{
+  -webkit-appearance:none;
+  appearance:none;
+  width:18px;
+  height:18px;
+  border:2px solid #fff;
+  border-radius:50%;
+  background:#ff3b30;
+  box-shadow:0 0 12px rgba(255,59,48,.6);
+  cursor:pointer;
+  margin-top:-5px;
+}
+
+#player-container .shaka-seek-bar .shaka-range-element::-webkit-slider-runnable-track{
+  height:8px!important;
+  border-radius:50px;
+  background:transparent!important;
+}
+
+#player-container .shaka-seek-bar .shaka-range-element::-moz-range-thumb{
+  width:18px;
+  height:18px;
+  border:2px solid white;
+  border-radius:50%;
+  background:#ff3b30;
+}
+
+#player-container .shaka-current-time,
+#player-container .shaka-time-duration{
+  font-size:14px;
+  font-weight:600;
+  color:#fff;
+  padding:0 8px;
+}
+
+#player-container .shaka-bottom-controls>div{
+  display:flex!important;
+  align-items:center!important;
+  gap:4px!important;
+}
+
+#player-container .shaka-controls-container button,
+#player-container .shaka-play-button,
+#player-container .shaka-mute-button,
+#player-container .shaka-fullscreen-button,
+#player-container .shaka-pip-button,
+#player-container .shaka-current-time,
+#player-container .shaka-time-duration,
+#player-container .shaka-volume-slider,
+#player-container .shaka-seek-bar-container{
+  box-shadow:none!important;
+  filter:none!important;
+  text-shadow:none!important;
+}
+
+#player-container .shaka-overflow-menu,
+#player-container .shaka-settings-menu{
+  background:rgba(20,20,20,.92);
+  backdrop-filter:blur(18px);
+  border:1px solid #ffffff14;
+  border-radius:12px;
+  box-shadow:none!important;
+}
+
+#player-container .shaka-volume-slider{
+  width:60px;
+}
+
+/* ========== WHATSAPP STRIP ONLY ========== */
+
+.wa-strip{
+  display:flex;
+  align-items:center;
+  gap:11px;
+  margin:18px 4% 4px;
+  padding:12px 14px;
+  background:linear-gradient(
+    100deg,
+    #111c1a,
+    #10171a 70%,
+    #111620
+  );
+  border:1px solid #2a3934;
+  border-radius:6px;
+}
+
+.strip-icon{
+  display:grid;
+  place-items:center;
+  flex:0 0 39px;
+  height:39px;
+  border:1px solid #25d36640;
+  border-radius:8px;
+  color:#25d366;
+  background:#25d36614;
+}
+
+.strip-icon svg{
+  width:21px;
+  height:21px;
+}
+
+.strip-text{
+  display:flex;
+  flex:1;
+  min-width:0;
+  flex-direction:column;
+  gap:3px;
+}
+
+.strip-text .t1{
+  color:#f0f1f4;
+  font-size:12px;
+  font-weight:750;
+  line-height:1.3;
+}
+
+.strip-text .t2{
+  color:#89968e;
+  font-size:11px;
+  line-height:1.3;
+}
+
+.strip-cta{
+  flex-shrink:0;
+  min-width:65px;
+  min-height:34px;
+  padding:6px 12px;
+  border:1px solid #28d369;
+  border-radius:4px;
+  color:#0b1a12;
+  background:#28d369;
+  font-size:11px;
+  font-weight:800;
+}
+
+.strip-close{
+  display:grid;
+  place-items:center;
+  flex:0 0 25px;
+  height:25px;
+  padding:0;
+  border:0;
+  background:none;
+  color:#8d9895;
+}
+
+.strip-close svg{
+  width:17px;
+  height:17px;
+  fill:none;
+  stroke:currentColor;
+  stroke-width:2;
+  stroke-linecap:round;
+}
+
+/* ========== TABS ========== */
+
+.streams-shell{
+  padding:14px 4% 58px;
+  max-width:1660px;
+  margin:0 auto;
+}
+
+.tabs{
+  position:sticky;
+  top:var(--header-height);
+  z-index:15;
+  display:flex;
+  width:100%;
+  min-height:56px;
+  overflow:hidden;
+  background:#0c0f15;
+  border:1px solid #202631;
+  border-bottom:1px solid #303744;
+  border-radius:5px 5px 0 0;
+}
+
+.tab-btn{
+  position:relative;
+  flex:1;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:9px;
+  min-width:0;
+  min-height:56px;
+  padding:12px 18px;
+  border:0;
+  background:none;
+  color:#8d94a2;
+  font-size:14px;
+  font-weight:750;
+  transition:.2s;
+}
+
+.tab-btn+.tab-btn{
+  border-left:1px solid #1d2330;
+}
+
+.tab-btn .icon-tab{
+  width:20px;
+  height:20px;
+  flex-shrink:0;
+  stroke:currentColor;
+  stroke-width:1.8;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  fill:none;
+}
+
+.tab-btn.active{
+  color:#f8f9fb;
+  background:linear-gradient(180deg,#1b202a,#10151d);
+}
+
+.tab-btn.active .icon-tab{
+  color:var(--accent);
+}
+
+.tab-btn.active::after{
+  content:"";
+  position:absolute;
+  bottom:0;
+  left:16%;
+  right:16%;
+  height:3px;
+  background:var(--accent);
+  border-radius:4px 4px 0 0;
+}
+
+.tab-content{
+  display:none;
+  width:100%;
+  background:var(--bg);
+}
+
+.tab-content.active{
+  display:block;
+}
+
+.section-heading{
+  margin:10px 0 8px;
+}
+
+.section-heading h2{
+  display:flex;
+  align-items:center;
+  gap:9px;
+  margin:0;
+  color:#eaecf0;
+  font-size:clamp(19px,2vw,26px);
+  font-weight:700;
+  letter-spacing:-.5px;
+}
+
+.section-chevron{
+  width:18px;
+  height:18px;
+  fill:none;
+  stroke:#e7e9ed;
+  stroke-width:2.4;
+}
+
+/* ========== MATCH DETAILS ========== */
+
+.match-panel{
+  padding-top:10px;
+}
+
+.match-loading{
+  padding:28px 16px;
+  border:1px solid #253044;
+  border-radius:9px;
+  background:#111721;
+  color:#a2abb9;
+  text-align:center;
+  font-size:13px;
+}
+
+.match-highlight{
+  display:grid;
+  grid-template-columns:minmax(0,1fr);
+  overflow:hidden;
+  margin-top:12px;
+  background:linear-gradient(145deg,#18212e,#0e131c 75%);
+  border:1px solid #293140;
+  border-radius:9px;
+}
+
+.match-cover{
+  position:relative;
+  width:100%;
+  aspect-ratio:16/8;
+  overflow:hidden;
+  background:radial-gradient(
+    ellipse at 65% 32%,
+    #233a54,
+    #111724 55%,
+    #0b0e15
+  );
+}
+
+.match-cover img{
+  width:100%;
+  height:100%;
+  display:block;
+  object-fit:cover;
+}
+
+.match-copy{
+  padding:19px 20px 22px;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content:center;
+  gap:10px;
+}
+
+.match-chip{
+  display:inline-flex;
+  padding:5px 9px;
+  border:1px solid #344151;
+  border-radius:3px;
+  color:#c8d3e1;
+  background:#192333;
+  font-size:10px;
+  font-weight:850;
+  letter-spacing:.7px;
+}
+
+.match-chip[data-status="live"]{
+  color:#ff9c63;
+  border-color:#78412b;
+  background:#2c1b16;
+}
+
+.match-copy h3{
+  margin:0;
+  color:#f5f6f9;
+  font-size:clamp(17px,2.2vw,27px);
+  line-height:1.23;
+  letter-spacing:-.55px;
+}
+
+.match-copy p{
+  margin:0;
+  color:#9fa8b7;
+  font-size:12px;
+  line-height:1.6;
+}
+
+.match-facts{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:10px;
+  margin-top:12px;
+}
+
+.match-fact{
+  min-width:0;
+  min-height:88px;
+  padding:14px;
+  background:linear-gradient(145deg,#171f2b,#10151e);
+  border:1px solid #293140;
+  border-radius:8px;
+}
+
+.fact-label{
+  display:block;
+  color:#818d9f;
+  font-size:10px;
+  font-weight:750;
+  text-transform:uppercase;
+  letter-spacing:.85px;
+}
+
+.fact-value{
+  display:block;
+  margin-top:12px;
+  color:#e7ebf2;
+  font-size:13px;
+  font-weight:700;
+  line-height:1.4;
+  overflow-wrap:anywhere;
+}
+
+/* ========== CHAT ========== */
+
+.chat-container{
+  min-height:70vh;
+  overflow:hidden;
+  border:1px solid #252d39;
+  border-radius:6px;
+  background:#101620;
+}
+
+.chat-container iframe{
+  display:block;
+  width:100%;
+  height:70vh;
+  min-height:70vh;
+  border:0;
+}
+
+/* ========== HAMBURGER DRAWER ========== */
+
+.scrim{
+  position:fixed;
+  inset:0;
+  z-index:40;
+  opacity:0;
+  visibility:hidden;
+  background:#000a;
+  transition:opacity .38s,visibility .38s;
+}
+
+.scrim.open{
+  opacity:1;
+  visibility:visible;
+}
+
+.drawer{
+  position:fixed;
+  top:0;
+  bottom:0;
+  left:0;
+  z-index:50;
+  display:flex;
+  flex-direction:column;
+  width:min(86vw,340px);
+  overflow:hidden;
+  background:linear-gradient(180deg,#13151c,#0b0d12 45%);
+  border-right:1px solid #ffffff12;
+  box-shadow:24px 0 60px -20px #000c;
+  transform:translate3d(-104%,0,0);
+  visibility:hidden;
+  transition:
+    transform .32s cubic-bezier(.4,0,1,1),
+    visibility 0s linear .32s;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+  touch-action:pan-y;
+}
+
+.drawer.open{
+  transform:none;
+  visibility:visible;
+  transition:transform .5s cubic-bezier(.32,.72,0,1);
+}
+
+.drawer.drag{
+  transition:none;
+}
+
+.drawer::before{
+  content:"";
+  position:absolute;
+  left:0;
+  right:0;
+  top:0;
+  height:200px;
+  background:radial-gradient(
+    80% 100% at 0 0,
+    #f5550526,
+    transparent
+  );
+  pointer-events:none;
+}
+
+.dr-head{
+  position:relative;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:14px 16px 10px 20px;
+}
+
+.dr-logo{
+  display:flex;
+  align-items:center;
+  text-decoration:none;
+}
+
+.dr-logo img{
+  height:44px;
+  width:auto;
+  max-width:220px;
+  object-fit:contain;
+}
+
+.dclose{
+  position:relative;
+  flex-shrink:0;
+  width:42px;
+  height:42px;
+  border:0;
+  border-radius:50%;
+  background:#ffffff10;
+  color:#fff;
+}
+
+.dclose b{
+  position:absolute;
+  left:50%;
+  top:50%;
+  width:18px;
+  height:2.5px;
+  margin:-1.25px 0 0 -9px;
+  background:currentColor;
+  border-radius:3px;
+}
+
+.dclose b:first-child{
+  transform:rotate(45deg);
+}
+
+.dclose b:last-child{
+  transform:rotate(-45deg);
+}
+
+.dr-search{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  margin:6px 16px 10px;
+  padding:0 14px;
+  min-height:44px;
+  border:1px solid #ffffff12;
+  border-radius:12px;
+  background:#ffffff0d;
+}
+
+.dr-search svg{
+  width:18px;
+  height:18px;
+  fill:none;
+  stroke:#8b90a0;
+  stroke-width:1.8;
+}
+
+.dr-search input{
+  flex:1;
+  min-width:0;
+  border:0;
+  outline:0;
+  background:none;
+  color:#fff;
+  font-size:16px;
+}
+
+.dr-search input::placeholder{
+  color:#7d8190;
+}
+
+.dr-scroll{
+  position:relative;
+  flex:1;
+  overflow-y:auto;
+  padding:4px 10px 12px;
+  scrollbar-width:none;
+}
+
+.dr-item{
+  position:relative;
+  display:flex;
+  align-items:center;
+  gap:14px;
+  width:100%;
+  min-height:50px;
+  padding:0 14px;
+  margin:2px 0;
+  border:0;
+  border-radius:10px;
+  background:none;
+  color:#dfe1e7;
+  font-size:15px;
+  font-weight:500;
+  text-decoration:none;
+  text-align:left;
+}
+
+.dr-item .i{
+  width:22px;
+  height:22px;
+  flex-shrink:0;
+  fill:none;
+  stroke:currentColor;
+  stroke-width:1.7;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+}
+
+.dr-item:hover{
+  background:#ffffff0a;
+}
+
+.dr-item[aria-current="page"]{
+  color:white;
+  background:linear-gradient(90deg,#f5550528,transparent);
+}
+
+.dr-item[aria-current="page"]::before{
+  content:"";
+  position:absolute;
+  left:0;
+  top:12px;
+  bottom:12px;
+  width:3px;
+  background:#f55505;
+  border-radius:3px;
+}
+
+.dr-item[aria-current="page"] .i{
+  stroke:#f55505;
+}
+
+.chev{
+  width:18px;
+  height:18px;
+  margin-left:auto;
+  fill:none;
+  stroke:currentColor;
+  stroke-width:2;
+  transition:transform .3s;
+}
+
+.dr-acc[aria-expanded="true"] .chev{
+  transform:rotate(180deg);
+}
+
+.dr-sub{
+  display:grid;
+  grid-template-rows:0fr;
+  transition:grid-template-rows .35s;
+}
+
+.dr-sub.open{
+  grid-template-rows:1fr;
+}
+
+.dr-sub>div{
+  min-height:0;
+  overflow:hidden;
+  margin-left:25px;
+  padding-left:12px;
+  border-left:1px solid #ffffff14;
+}
+
+.dr-sub-item{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  min-height:42px;
+  padding:0 12px;
+  border-radius:8px;
+  color:#b4b8c5;
+  font-size:14px;
+  text-decoration:none;
+}
+
+.dr-sub-item::before{
+  content:"";
+  width:5px;
+  height:5px;
+  border-radius:50%;
+  background:#f55505;
+}
+
+.dr-sub-item:hover{
+  background:#ffffff0d;
+  color:#fff;
+}
+
+.dr-sep{
+  height:1px;
+  margin:10px 14px;
+  background:#ffffff12;
+}
+
+.dr-new{
+  margin-left:auto;
+  padding:3px 8px;
+  border-radius:99px;
+  background:#2563ff;
+  color:white;
+  font-size:10px;
+  font-weight:800;
+}
+
+.dr-h{
+  margin:12px 8px 6px;
+  color:#7d8190;
+  font-size:11px;
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:1.2px;
+}
+
+.dr-res{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  padding:12px;
+  color:#e9eaee;
+  text-decoration:none;
+  border-radius:10px;
+}
+
+.dr-res:hover{
+  background:#ffffff0d;
+}
+
+.dr-res .i{
+  width:20px;
+  height:20px;
+  fill:none;
+  stroke:#f55505;
+  stroke-width:1.7;
+}
+
+.dr-empty{
+  padding:28px 12px;
+  text-align:center;
+  color:#8b90a0;
+  font-size:14px;
+}
+
+.dr-foot{
+  position:relative;
+  padding:12px 16px 16px;
+  background:#0b0d12;
+  border-top:1px solid #ffffff12;
+}
+
+.dr-login{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:46px;
+  background:#f55505;
+  color:white;
+  border-radius:3px;
+  text-decoration:none;
+  font-size:13px;
+  font-weight:700;
+}
+
+.dr-legal{
+  display:flex;
+  justify-content:center;
+  gap:16px;
+  margin:12px 0 0;
+  color:#7d8190;
+  font-size:11px;
+}
+
+.dr-legal a{
+  text-decoration:none;
+}
+
+/* ========== RESPONSIVE ========== */
+
+@media(max-width:600px){
+  .brand img{height:45px}
+
+  .wa-strip{
+    margin:12px 10px 4px;
+    padding:10px;
+    gap:8px;
+  }
+
+  .strip-icon{
+    flex-basis:32px;
+    height:32px;
+  }
+
+  .strip-text .t1{font-size:11px}
+  .strip-text .t2{display:none}
+
+  .strip-cta{
+    min-width:51px;
+    min-height:30px;
+    padding:5px 8px;
+    font-size:10px;
+  }
+
+  .streams-shell{
+    padding:10px 10px 40px;
+  }
+
+  .tabs,.tab-btn{
+    min-height:51px;
+  }
+
+  .tab-btn{
+    gap:6px;
+    font-size:12px;
+    padding:10px 12px;
+  }
+
+  .tab-btn .icon-tab{
+    width:17px;
+    height:17px;
+  }
+
+  .match-copy{padding:15px}
+
+  .match-fact{
+    min-height:78px;
+    padding:12px;
+  }
+
+  .fact-value{
+    margin-top:8px;
+    font-size:12px;
+  }
+
+  .custom-watermark{
+    bottom:70px;
+    right:14px;
+    font-size:9px;
+  }
+
+  #player-container .shaka-seek-bar-container,
+  #player-container .shaka-seek-bar{
+    height:6px!important;
+  }
+
+  #player-container .shaka-seek-bar
+  .shaka-range-element::-webkit-slider-thumb{
+    width:14px;
+    height:14px;
+  }
+}
+
+@media(min-width:768px){
+  .menu,.drawer,.scrim{
+    display:none!important;
+  }
+
+  .site-header{
+    height:clamp(60px,3.75vw,72px);
+    padding:0 clamp(16px,1.45vw,28px);
+    gap:clamp(18px,2.1vw,40px);
+  }
+
+  :root{
+    --header-height:clamp(60px,3.75vw,72px);
+  }
+
+  .desktop-nav{
+    display:flex;
+    gap:clamp(16px,1.65vw,32px);
+  }
+
+  .desktop-nav a{
+    position:relative;
+    display:inline-flex;
+    align-items:center;
+    gap:5px;
+    font-size:clamp(13px,.8vw,16px);
+    font-weight:500;
+    color:#d6d8de;
+    text-decoration:none;
+  }
+
+  .desktop-nav a:first-child::after{
+    content:"";
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:-9px;
+    height:2px;
+    background:#ff5900;
+  }
+
+  .desktop-nav svg{
+    width:11px;
+    height:11px;
+  }
+
+  .profile{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border:0;
+    padding:0;
+    margin-left:-6px;
+    background:none;
+    color:white;
+  }
+
+  .profile svg{
+    width:32px;
+    height:32px;
+  }
+}
+
+@media(min-width:800px){
+  .match-highlight{
+    grid-template-columns:40% 60%;
+  }
+
+  .match-cover{
+    aspect-ratio:auto;
+    min-height:240px;
+  }
+
+  .match-facts{
+    grid-template-columns:repeat(4,minmax(0,1fr));
+  }
+}
+
+@media(min-width:900px){
+  .player-wrapper{
+    height:min(56.25vw,70vh);
+    aspect-ratio:auto;
+  }
+}
+
+@media(prefers-reduced-motion:reduce){
+  .drawer,.scrim,.menu i,.dr-sub{
+    transition:none!important;
+  }
+
+  .spinner{
+    animation:none;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!-- ========== HEADER ========== -->
+
+<header class="site-header">
+
+  <button
+    class="menu"
+    type="button"
+    aria-label="Open menu"
+    aria-expanded="false"
+    aria-controls="drawer">
+    <i></i><i></i><i></i>
+  </button>
+
+  <a class="brand" href="#" aria-label="MATCHDEKHO">
+    <img
+      src="https://imgh.in/host/bfpz0q"
+      alt="MATCHDEKHO"
+      onerror="this.parentElement.classList.add('img-failed')">
+    <span class="brand-fallback">MATCHDEKHO</span>
+  </a>
+
+  <nav class="desktop-nav" aria-label="Main navigation">
+    <a href="#">Home</a>
+    <a href="#">Schedule</a>
+    <a href="#channels">Cricket</a>
+    <a href="#">Football</a>
+    <a href="#">Formula 1</a>
+    <a href="#">
+      All Sports
+      <svg viewBox="0 0 12 12" fill="none"
+           stroke="currentColor" stroke-width="1.6">
+        <path d="m2.5 4.5 3.5 3.5 3.5-3.5"/>
+      </svg>
+    </a>
+  </nav>
+
+  <button class="offers" type="button">
+    <svg viewBox="0 0 24 24" fill="none"
+         stroke="currentColor" stroke-width="1.6">
+      <path d="m12 2 3 3 4 0 0 4 3 3-3 3v4h-4l-3 3-3-3H5v-4l-3-3 3-3V5h4z"/>
+      <path d="m8 16 8-8"/>
+      <circle cx="8" cy="8" r="1"/>
+      <circle cx="16" cy="16" r="1"/>
+    </svg>
+    Offers
+  </button>
+
+  <button class="profile" type="button" aria-label="Account">
+    <svg viewBox="0 0 24 24" fill="none"
+         stroke="currentColor" stroke-width="1.6">
+      <circle cx="12" cy="12" r="10"/>
+      <circle cx="12" cy="10" r="3.2"/>
+      <path d="M5.8 18.5c1.6-2.6 3.6-3.8 6.2-3.8s4.6 1.2 6.2 3.8"/>
+    </svg>
+  </button>
+</header>
+
+<!-- ========== MAIN ========== -->
+
+<main>
+
+  <!-- ORIGINAL HLS PLAYER -->
+
+  <section class="player-wrapper" aria-label="FanCode HLS player">
+
+    <div class="shaka-video-container" id="player-container">
+
+      <video
+        id="video"
+        autoplay
+        muted
+        playsinline
+        preload="metadata">
+      </video>
+
+      <div class="custom-watermark">
+        LIVE · FANCODE
+      </div>
+
+      <div id="loading" class="loading-overlay">
+        <div class="spinner"></div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- WHATSAPP STRIP (NO POPUP) -->
+
+  <aside class="wa-strip" id="waStrip">
+
+    <span class="strip-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="currentColor">
+        <path d="M20.52 3.48A11.82 11.82 0 0 0 12.04 0C5.45 0 .08 5.37.08 11.96c0 2.11.55 4.17 1.59 5.99L0 24l6.24-1.63a11.9 11.9 0 0 0 5.8 1.48h.01c6.59 0 11.96-5.37 11.96-11.96 0-3.19-1.24-6.19-3.49-8.41zM12.05 21.8a9.8 9.8 0 0 1-5-1.37l-.36-.21-3.7.97.99-3.61-.24-.37a9.77 9.77 0 1 1 8.31 4.59zm5.38-7.34c-.29-.14-1.72-.85-1.98-.95-.27-.1-.46-.14-.66.14-.19.29-.76.95-.93 1.14-.17.19-.34.22-.63.08-.29-.14-1.21-.45-2.31-1.45-.85-.75-1.43-1.68-1.6-1.96-.17-.29-.02-.44.12-.58.13-.13.29-.34.43-.51.14-.17.19-.29.29-.48.1-.19.05-.36-.02-.51-.07-.14-.66-1.59-.91-2.17-.24-.57-.49-.49-.66-.5h-.56c-.19 0-.49.07-.75.36s-.98.96-.98 2.34.99 2.71 1.13 2.9c.14.19 1.95 2.98 4.72 4.18.66.29 1.18.46 1.58.59.66.21 1.26.18 1.74.11.53-.08 1.72-.7 1.96-1.37.24-.67.24-1.24.17-1.37-.07-.13-.27-.21-.56-.35z"/>
+      </svg>
+    </span>
+
+    <span class="strip-text">
+      <span class="t1">
+        Stay connected with MATCHDEKHO on WhatsApp
+      </span>
+      <span class="t2">
+        Optional match alerts, streaming links and channel updates
+      </span>
+    </span>
+
+    <button class="strip-cta" id="stripJoinBtn" type="button">
+      Join
+    </button>
+
+    <button class="strip-close" id="stripCloseBtn"
+            type="button" aria-label="Dismiss banner">
+      <svg viewBox="0 0 24 24">
+        <path d="M6 6l12 12M18 6 6 18"/>
+      </svg>
+    </button>
+
+  </aside>
+
+  <!-- MATCH DETAILS + LIVE CHAT -->
+
+  <div class="streams-shell">
+
+    <div class="tabs" role="tablist" aria-label="Match sections">
+
+      <button
+        class="tab-btn active"
+        type="button"
+        role="tab"
+        data-tab="channels"
+        id="channelsTab"
+        aria-controls="channels"
+        aria-selected="true">
+
+        <svg class="icon-tab" viewBox="0 0 24 24">
+          <path d="M4 4h16v16H4zM8 9h8M8 13h8M8 17h5"/>
+        </svg>
+
+        <span>Match Details</span>
+      </button>
+
+      <button
+        class="tab-btn"
+        type="button"
+        role="tab"
+        data-tab="chat"
+        id="chatTab"
+        aria-controls="chat"
+        aria-selected="false">
+
+        <svg class="icon-tab" viewBox="0 0 24 24">
+          <path d="M20 12a8 8 0 0 1-8 8c-1.5 0-2.9-.3-4-.9L3 21l1.9-5A8 8 0 1 1 20 12Z"/>
+          <path d="M8 12h8M8 9h5"/>
+        </svg>
+
+        <span>Live Chat</span>
+      </button>
+
+    </div>
+
+    <section
+      class="tab-content active match-panel"
+      id="channels"
+      role="tabpanel"
+      aria-labelledby="channelsTab">
+
+      <div class="section-heading">
+        <h2>
+          Match Details
+          <svg class="section-chevron" viewBox="0 0 24 24">
+            <path d="m9 4 8 8-8 8"/>
+          </svg>
+        </h2>
+      </div>
+
+      <div id="matchDetails" class="match-loading">
+        Loading match information…
+      </div>
+
+    </section>
+
+    <section
+      class="tab-content"
+      id="chat"
+      role="tabpanel"
+      aria-labelledby="chatTab"
+      hidden>
+
+      <div class="section-heading">
+        <h2>Live Chat</h2>
+      </div>
+
+      <div class="chat-container">
+        <iframe
+          src="https://live-chat-matchdekho.onrender.com"
+          loading="lazy"
+          title="Live Chat"
+          allow="autoplay; encrypted-media"
+          sandbox="allow-same-origin allow-scripts allow-forms allow-popups">
+        </iframe>
+      </div>
+
+    </section>
+
+  </div>
+
+</main>
+
+<!-- ========== MOBILE DRAWER ========== -->
+
+<div class="scrim" id="scrim"></div>
+
+<aside
+  class="drawer"
+  id="drawer"
+  aria-hidden="true"
+  aria-label="Main menu"
+  inert>
+
+  <div class="dr-head">
+
+    <a class="dr-logo" href="#" aria-label="MATCHDEKHO">
+      <img
+        src="https://imgh.in/host/bfpz0q"
+        alt="MATCHDEKHO"
+        onerror="this.parentElement.classList.add('img-failed')">
+      <span class="brand-fallback">MATCHDEKHO</span>
+    </a>
+
+    <button class="dclose" type="button" aria-label="Close menu">
+      <b></b><b></b>
+    </button>
+
+  </div>
+
+  <label class="dr-search">
+    <svg viewBox="0 0 24 24">
+      <circle cx="11" cy="11" r="6.5"/>
+      <path d="m16 16 4.5 4.5"/>
+    </svg>
+    <input
+      type="search"
+      placeholder="Search matches & sports"
+      autocomplete="off"
+      aria-label="Search">
+  </label>
+
+  <div class="dr-scroll">
+    <nav class="dr-nav" aria-label="Sections"></nav>
+    <div class="dr-results" hidden></div>
+  </div>
+
+  <div class="dr-foot">
+    <a class="dr-login" href="#">Sign in / Sign up</a>
+
+    <p class="dr-legal">
+      <a href="#">Terms</a>
+      <a href="#">Privacy</a>
+      <a href="#">Support</a>
+    </p>
+  </div>
+
+</aside>
+
+<!-- ========== JAVASCRIPT ========== -->
+
+<script>
+(function(){
+'use strict';
+
+const WHATSAPP_LINK =
+  'https://whatsapp.com/channel/0029Vb99cQ95K3zXgZsecR29';
+
+/* ==================================================
+   ORIGINAL FANCODE SHAKA PLAYER
+   ================================================== */
+
+(function(){
+
+  const params = new URLSearchParams(window.location.search);
+
+  let STREAM_URL = params.get('url');
+
+  if(!STREAM_URL){
+    STREAM_URL =
+      "https://in-mc-flive.fancode.com/mumbai/4248054_english_hls_03789dd60351500_1ta-di_h264/1080p.m3u8?hdntl=Expires=1786008364~_GO=Generated~acl=/mumbai/4248054_english_hls_03789dd60351500_1ta-di_h264/*~Signature=AYCJ36RBkKa9suXDt3v_dBrYV76a2_n2HGxw1ulUTe4iL7cevkpSQZHJeuXe8-hAxt2OfXJ1dFiK-ZmcUoyQm8od_W0D";
+  }
+
+  async function initPlayer(){
+
+    const video = document.getElementById('video');
+    const container = document.getElementById('player-container');
+    const loading = document.getElementById('loading');
+
+    shaka.polyfill.installAll();
+
+    if(!shaka.Player.isBrowserSupported()){
+      alert('Browser not supported for Shaka Player');
+      return;
+    }
+
+    try{
+
+      const player = new shaka.Player();
+      await player.attach(video);
+
+      const ui = new shaka.ui.Overlay(player,container,video);
+
+      ui.configure({
+        addBigPlayButton:true,
+        addSeekBar:true,
+
+        controlPanelElements:[
+          "mute",
+          "play_pause",
+          "time_and_duration",
+          "spacer",
+          "quality",
+          "picture_in_picture",
+          "fullscreen"
+        ],
+
+        seekBarColors:{
+          base:"rgba(255,255,255,0.2)",
+          buffered:"rgba(255,255,255,0.4)",
+          played:"#ff3b30"
+        }
+      });
+
+      player.configure({
+        streaming:{
+          bufferingGoal:10,
+          rebufferingGoal:2,
+          safeSeekOffset:5,
+          lowLatencyMode:true
+        }
+      });
+
+      await player.load(STREAM_URL);
+
+      video.muted=false;
+
+      try{
+        await video.play();
+      }catch(e){
+
+        video.muted=true;
+        await video.play();
+
+        setTimeout(()=>{
+          video.muted=false;
+          video.play().catch(()=>{});
+        },1000);
+      }
+
+      video.addEventListener('playing',()=>{
+        loading.style.display='none';
+      });
+
+      video.removeEventListener('pause',null);
+
+      let userPaused=false;
+
+      document.addEventListener('click',function(e){
+
+        const pauseBtn=e.target.closest('.shaka-play-button');
+
+        if(pauseBtn){
+          if(!video.paused){
+            userPaused=true;
+          }else{
+            userPaused=false;
+          }
+        }
+      });
+
+      video.addEventListener('pause',function(){
+
+        if(!video.ended&&!userPaused){
+
+          setTimeout(()=>{
+            if(video.paused&&!video.ended){
+              video.play().catch(()=>{});
+            }
+          },500);
+        }
+
+        setTimeout(()=>{
+          userPaused=false;
+        },100);
+      });
+
+      video.addEventListener('play',function(){
+        userPaused=false;
+      });
+
+      setInterval(()=>{
+        if(video.paused&&!video.ended&&!userPaused){
+          video.play().catch(()=>{});
+        }
+      },3000);
+
+      setTimeout(()=>{
+        loading.style.display='none';
+      },6000);
+
+      setTimeout(()=>{
+
+        const seekBar=document.querySelector(
+          '.shaka-seek-bar-container'
+        );
+
+        if(seekBar){
+          seekBar.style.display='block !important';
+          seekBar.style.visibility='visible !important';
+          seekBar.style.opacity='1 !important';
+        }
+
+      },500);
+
+    }catch(e){
+
+      console.warn(
+        'Shaka error, falling back to native HLS:',
+        e
+      );
+
+      video.src=STREAM_URL;
+      video.muted=false;
+
+      video.play().catch(()=>{
+        video.muted=true;
+        video.play();
+      });
+
+      video.addEventListener('playing',()=>{
+        loading.style.display='none';
+      });
+
+      setTimeout(()=>{
+        loading.style.display='none';
+      },6000);
+
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded',()=>{
+    const loading=document.getElementById('loading');
+    if(loading) loading.style.display='flex';
+    initPlayer();
+  });
+
+})();
+
+/* ==================================================
+   MATCH DETAILS
+   ================================================== */
+
+(function(){
+
+  const API_URL =
+    'https://willow-api.sayanwork-studioo.workers.dev/';
+
+  const search=new URLSearchParams(location.search);
+  const MATCH_ID=search.get('id');
+
+  const detailPanel=document.getElementById('matchDetails');
+
+  const esc=v=>String(v??'').replace(
+    /[&<>"']/g,
+    c=>({
+      '&':'&amp;',
+      '<':'&lt;',
+      '>':'&gt;',
+      '"':'&quot;',
+      "'":'&#39;'
+    }[c])
+  );
+
+  function validURL(value){
+    try{
+      const url=new URL(value);
+      return ['http:','https:'].includes(url.protocol)
+        ?url.href:'';
+    }catch{
+      return '';
+    }
+  }
+
+  function renderSimpleDetails(){
+
+    detailPanel.className='';
+
+    detailPanel.innerHTML=`
+      <div class="match-facts">
+
+        <article class="match-fact">
+          <span class="fact-label">Stream Format</span>
+          <strong class="fact-value">HLS</strong>
+        </article>
+
+        <article class="match-fact">
+          <span class="fact-label">Playback</span>
+          <strong class="fact-value">Shaka Player</strong>
+        </article>
+
+        <article class="match-fact">
+          <span class="fact-label">Quality</span>
+          <strong class="fact-value">Adaptive</strong>
+        </article>
+
+        <article class="match-fact">
+          <span class="fact-label">Source</span>
+          <strong class="fact-value">
+            ${search.has('url')?'URL parameter':'Default stream'}
+          </strong>
+        </article>
+
+      </div>`;
+  }
+
+  async function renderMatch(){
+
+    if(!MATCH_ID){
+      renderSimpleDetails();
+      return;
+    }
+
+    try{
+
+      const response=await fetch(API_URL);
+
+      if(!response.ok){
+        throw Error('API HTTP '+response.status);
+      }
+
+      const data=await response.json();
+
+      const all=Array.isArray(data)
+        ?data
+        :Array.isArray(data.Matches)
+          ?data.Matches
+          :Array.isArray(data.streams)
+            ?data.streams
+            :[];
+
+      const match=all.find(m=>
+        String(
+          m.tvgId||
+          m.tvgName||
+          m.title||
+          m.match_id||
+          ''
+        )===MATCH_ID
+      );
+
+      if(!match){
+        renderSimpleDetails();
+        return;
+      }
+
+      const title=String(
+        match.title||match.tvgName||'Live sports'
+      );
+
+      const group=String(
+        match.groupTitle||
+        match.category||
+        match.league||
+        'Cricket'
+      );
+
+      const status=String(match.status||'Unknown');
+      const synopsis=String(match.synopsis||'');
+      const time=String(
+        match.time||
+        match.startTime||
+        match.start_time||
+        'To be announced'
+      );
+
+      const poster=validURL(
+        match.cover_image||
+        match.poster||
+        match.image||
+        ''
+      );
+
+      detailPanel.className='';
+
+      detailPanel.innerHTML=`
+        <article class="match-highlight">
+
+          <div class="match-cover">
+            ${poster?`<img src="${esc(poster)}" alt="Match cover" loading="lazy">`:''}
+          </div>
+
+          <div class="match-copy">
+            <span class="match-chip"
+              data-status="${status.toUpperCase()==='LIVE'?'live':'upcoming'}">
+              ${esc(status)}
+            </span>
+
+            <h3>${esc(title)}</h3>
+            <p>${esc(synopsis||group)}</p>
+          </div>
+
+        </article>
+
+        <div class="match-facts">
+
+          <article class="match-fact">
+            <span class="fact-label">Competition</span>
+            <strong class="fact-value">${esc(group)}</strong>
+          </article>
+
+          <article class="match-fact">
+            <span class="fact-label">Match Time</span>
+            <strong class="fact-value">${esc(time)}</strong>
+          </article>
+
+          <article class="match-fact">
+            <span class="fact-label">Status</span>
+            <strong class="fact-value">${esc(status)}</strong>
+          </article>
+
+          <article class="match-fact">
+            <span class="fact-label">Stream</span>
+            <strong class="fact-value">HLS</strong>
+          </article>
+
+        </div>`;
+
+      document.title=title+' · MATCHDEKHO';
+
+    }catch(error){
+      console.warn('Match details unavailable:',error);
+      renderSimpleDetails();
+    }
+
+  }
+
+  renderMatch();
+
+})();
+
+/* ==================================================
+   TABS
+   ================================================== */
+
+document.querySelectorAll('.tab-btn').forEach(btn=>{
+
+  btn.addEventListener('click',()=>{
+
+    const target=btn.dataset.tab;
+
+    document.querySelectorAll('.tab-btn').forEach(b=>{
+      const active=b===btn;
+      b.classList.toggle('active',active);
+      b.setAttribute('aria-selected',String(active));
+    });
+
+    document.querySelectorAll('.tab-content').forEach(panel=>{
+      const active=panel.id===target;
+      panel.classList.toggle('active',active);
+      panel.hidden=!active;
+    });
+
+  });
+
+});
+
+/* ==================================================
+   WHATSAPP STRIP ONLY
+   NO POPUP
+   ================================================== */
+
+document.getElementById('stripJoinBtn').onclick=()=>{
+  window.open(
+    WHATSAPP_LINK,
+    '_blank',
+    'noopener,noreferrer'
+  );
+};
+
+document.getElementById('stripCloseBtn').onclick=()=>{
+  document.getElementById('waStrip').hidden=true;
+};
+
+/* ==================================================
+   HEADER AND DRAWER
+   ================================================== */
+
+const $=s=>document.querySelector(s);
+
+const header=$('.site-header');
+const drawer=$('#drawer');
+const scrim=$('#scrim');
+const menuBtn=$('.menu');
+const closeBtn=$('.dclose');
+const qNav=$('.dr-nav');
+const qRes=$('.dr-results');
+const qIn=$('.dr-search input');
+const media=matchMedia('(min-width:768px)');
+
+window.addEventListener('scroll',()=>{
+  header.classList.toggle('scrolled',scrollY>24);
+},{passive:true});
+
+const IC={
+  home:'<path d="M3 11.5 12 4l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/>',
+  cal:'<rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/>',
+  cric:'<path d="m14 4 6 6-9.5 9.5a2 2 0 0 1-2.8 0l-3.2-3.2a2 2 0 0 1 0-2.8z"/>',
+  foot:'<circle cx="12" cy="12" r="9"/><path d="m12 8 3.5 2.5-1.3 4.1H9.8L8.5 10.5z"/>',
+  f1:'<path d="M4 17a8 8 0 1 1 16 0"/><path d="m12 17 4-5"/>',
+  grid:'<rect x="4" y="4" width="6.5" height="6.5" rx="1.5"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.5"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.5"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.5"/>',
+  tag:'<path d="M3 12V4h8l10 10-8 8z"/>',
+  help:'<circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.7.4-1 .9-1 1.7"/>'
+};
+
+const ico=k=>`
+  <svg class="i" viewBox="0 0 24 24" aria-hidden="true">
+    ${IC[k]}
+  </svg>
+`;
+
+const NAV=[
+  ['Home','#','home'],
+  ['Schedule','#','cal'],
+  ['Cricket','#channels','cric'],
+  ['Football','#','foot'],
+  ['Formula 1','#','f1']
+];
+
+const SPORTS=[
+  'Tennis','Basketball','Kabaddi',
+  'Hockey','Golf','NASCAR',
+  'MMA','Badminton','Volleyball'
+];
+
+qNav.innerHTML=
+  NAV.map(([t,h,i],n)=>`
+    <a class="dr-item"
+       href="${h}"
+       ${n===0?'aria-current="page"':''}>
+      ${ico(i)}
+      <span>${t}</span>
+    </a>
+  `).join('')+
+
+  `<button class="dr-item dr-acc"
+     type="button"
+     aria-expanded="false"
+     aria-controls="dr-sub">
+     ${ico('grid')}
+     <span>All Sports</span>
+     <svg class="chev" viewBox="0 0 24 24">
+       <path d="m6 9 6 6 6-6"/>
+     </svg>
+   </button>
+
+   <div class="dr-sub" id="dr-sub">
+     <div>
+       ${SPORTS.map(t=>`
+         <a class="dr-sub-item" href="#">${t}</a>
+       `).join('')}
+     </div>
+   </div>
+
+   <div class="dr-sep"></div>
+
+   <a class="dr-item" href="#">
+     ${ico('tag')}
+     <span>Offers</span>
+     <span class="dr-new">NEW</span>
+   </a>
+
+   <a class="dr-item" href="#">
+     ${ico('help')}
+     <span>Help & Support</span>
+   </a>`;
+
+let dOpen=false;
+let lastFocus=null;
+
+function openDrawer(){
+
+  if(dOpen||media.matches)return;
+
+  dOpen=true;
+  lastFocus=document.activeElement;
+
+  drawer.inert=false;
+  drawer.setAttribute('aria-hidden','false');
+
+  menuBtn.setAttribute('aria-expanded','true');
+
+  document.documentElement.classList.add('lock');
+
+  drawer.classList.add('open');
+  scrim.classList.add('open');
+
+  setTimeout(()=>{
+    if(dOpen)closeBtn.focus({preventScroll:true});
+  },60);
+}
+
+function closeDrawer(){
+
+  if(!dOpen)return;
+
+  dOpen=false;
+
+  drawer.classList.remove('open');
+  scrim.classList.remove('open');
+
+  drawer.inert=true;
+  drawer.setAttribute('aria-hidden','true');
+
+  menuBtn.setAttribute('aria-expanded','false');
+
+  document.documentElement.classList.remove('lock');
+
+  if(lastFocus?.focus){
+    lastFocus.focus({preventScroll:true});
+  }
+}
+
+menuBtn.onclick=openDrawer;
+closeBtn.onclick=closeDrawer;
+scrim.onclick=closeDrawer;
+
+window.addEventListener('keydown',e=>{
+  if(e.key==='Escape')closeDrawer();
+});
+
+media.addEventListener('change',()=>{
+  if(media.matches)closeDrawer();
+});
+
+drawer.addEventListener('click',e=>{
+
+  const acc=e.target.closest('.dr-acc');
+
+  if(acc){
+
+    const expanded=
+      acc.getAttribute('aria-expanded')!=='true';
+
+    acc.setAttribute('aria-expanded',String(expanded));
+
+    $('#dr-sub').classList.toggle('open',expanded);
+    return;
+  }
+
+  const link=e.target.closest('a[href]');
+
+  if(link)closeDrawer();
+
+});
+
+/* DRAWER SEARCH */
+
+qIn.addEventListener('input',()=>{
+
+  const raw=qIn.value.trim();
+  const value=raw.toLowerCase();
+
+  qNav.hidden=!!value;
+  qRes.hidden=!value;
+
+  if(!value){
+    qRes.innerHTML='';
+    return;
+  }
+
+  const sections=[
+    ...NAV.map(([t,h,i])=>({t,h,i})),
+    ...SPORTS.map(t=>({t,h:'#',i:'grid'}))
+  ].filter(x=>x.t.toLowerCase().includes(value));
+
+  const escapeHTML=s=>String(s).replace(
+    /[&<>"']/g,
+    c=>({
+      '&':'&amp;',
+      '<':'&lt;',
+      '>':'&gt;',
+      '"':'&quot;',
+      "'":'&#39;'
+    }[c])
+  );
+
+  qRes.innerHTML=sections.length
+    ?'<p class="dr-h">Sections</p>'+
+      sections.map(x=>`
+        <a class="dr-res" href="${x.h}">
+          ${ico(x.i)}
+          <b>${escapeHTML(x.t)}</b>
+        </a>
+      `).join('')
+    :`<p class="dr-empty">
+        No results for “${escapeHTML(raw)}”
+      </p>`;
+});
+
+/* SWIPE LEFT TO CLOSE */
+
+let drag=null;
+
+drawer.addEventListener('pointerdown',e=>{
+
+  if(!dOpen||e.target.closest('input'))return;
+
+  drag={
+    x:e.clientX,
+    y:e.clientY,
+    id:e.pointerId,
+    dx:0,
+    on:false,
+    t:performance.now()
+  };
+});
+
+drawer.addEventListener('pointermove',e=>{
+
+  if(!drag||e.pointerId!==drag.id)return;
+
+  const dx=e.clientX-drag.x;
+  const dy=e.clientY-drag.y;
+
+  if(!drag.on&&dx< -8&&Math.abs(dx)>Math.abs(dy)*1.4){
+    drag.on=true;
+    drawer.setPointerCapture(e.pointerId);
+    drawer.classList.add('drag');
+    scrim.style.transition='none';
+  }
+
+  if(drag.on){
+    drag.dx=Math.min(0,dx);
+    drawer.style.transform=`translate3d(${drag.dx}px,0,0)`;
+    scrim.style.opacity=Math.max(
+      0,
+      1+drag.dx/drawer.offsetWidth
+    );
+  }
+});
+
+function endDrag(cancel){
+
+  if(!drag)return;
+
+  const d=drag;
+  drag=null;
+
+  if(!d.on)return;
+
+  const width=drawer.offsetWidth;
+
+  const velocity=d.dx/Math.max(
+    1,
+    performance.now()-d.t
+  );
+
+  drawer.classList.remove('drag');
+  drawer.style.transform='';
+  scrim.style.transition='';
+  scrim.style.opacity='';
+
+  if(!cancel&&(d.dx< -width*.3||velocity< -.5)){
+    closeDrawer();
+  }
+}
+
+drawer.addEventListener('pointerup',()=>endDrag(false));
+drawer.addEventListener('pointercancel',()=>endDrag(true));
+
+})();
+</script>
+
+<!-- ORIGINAL PAGE AD SCRIPT -->
+<script src="https://pl30635578.effectivecpmnetwork.com/fa/39/69/fa3969f9a99b769eddf6af8828044a3f.js"></script>
+
+</body>
+  </html>
