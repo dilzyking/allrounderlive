@@ -847,7 +847,7 @@
     "title": "UEFA Champions League",
     "slug": "the-golazo-show-vs-the-golazo-show",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Champions League",
       "category": "Football",
@@ -881,7 +881,7 @@
     "title": "UEFA Champions League",
     "slug": "barcelona-vs-aston-villa",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Champions League",
       "category": "Football",
@@ -907,6 +907,24 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
         "key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+      },
+      {
+        "title": "DAZN SPORTS DE",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vfvwmn8lpn/out/v1/fa48945789f044c89d69a67a81acd513/cenc.mpd",
+        "key": "d5e2fec3b6ccef137970196c83892fcf:5db83e1690553fda8b857360ba7e4171"
+      },
+      {
+        "title": "SonyLiv (Asia)",
+        "type": "hls",
+        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120300/footlive0311/ENG/std_lrh-800300010.m3u8",
+        "key": null
+      },
+      {
+        "title": "LOW SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/HCCCa.m3u8",
+        "key": null
       }
     ]
   },
@@ -915,7 +933,7 @@
     "title": "UEFA Champions League",
     "slug": "atletico-madrid-vs-bayern",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Champions League",
       "category": "Football",
@@ -955,7 +973,7 @@
     "title": "UEFA Champions League",
     "slug": "villarreal-vs-psg",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Champions League",
       "category": "Football",
@@ -981,6 +999,24 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
         "key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
+      },
+      {
+        "title": "DAZN SPORTS DE",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/db1e5w2dci/out/v1/3664a5f5c459440cb8becc5f4494277b/cenc.mpd",
+        "key": "6dcdc041688dd8c939209051ddc16ad7:07f42a6ce5def87eaa37b2cf01263d9d"
+      },
+      {
+        "title": "SonyLiv (Asia)",
+        "type": "hls",
+        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2094589/footlive0311/ENG/std_lrh-800300010.m3u8",
+        "key": null
+      },
+      {
+        "title": "LOW SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.59/hls/HCCCaaaaa.m3u8",
+        "key": null
       }
     ]
   },
@@ -989,7 +1025,7 @@
     "title": "UEFA Champions League",
     "slug": "man-utd-vs-roma",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Champions League",
       "category": "Football",
@@ -1015,6 +1051,36 @@
         "type": "dash",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/decwmbtmq9/out/v1/66735c86f0c146b5ad6c898cca401c4f/cenc.mpd",
         "key": "36e4c42e68010f7a3e5f543d18e48242:014543c3e28193bbe08cf7e3f729715e"
+      },
+      {
+        "title": "SONYLIV [ENG]",
+        "type": "hls",
+        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120308/footlive0311/ENG/std_lrh-800300010.m3u8",
+        "key": null
+      },
+      {
+        "title": "SONYLIV [HIN]",
+        "type": "hls",
+        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120306/footlive0311/HIN/std_lrh-800300010.m3u8",
+        "key": null
+      },
+      {
+        "title": "SONYLIV [TAM]",
+        "type": "hls",
+        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2005444/footlive0311/TAM/std_lrh-800300010.m3u8",
+        "key": null
+      },
+      {
+        "title": "SONYLIV [TEL]",
+        "type": "hls",
+        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120307/footlive0311/TEL/std_lrh-800300010.m3u8",
+        "key": null
+      },
+      {
+        "title": "SONYLIV [KAN]",
+        "type": "hls",
+        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120305/footlive0311/KAN/std_lrh-800300010.m3u8",
+        "key": null
       }
     ]
   },
@@ -1023,7 +1089,7 @@
     "title": "UEFA Champions League",
     "slug": "feyenoord-vs-inter",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Champions League",
       "category": "Football",
@@ -1045,10 +1111,34 @@
         "key": "fc651bf819bdc1df6aa7c249f1acfe66:06229427fb5ea8c1fcf8c8f878b2fc23"
       },
       {
+        "title": "VIX Español FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yzurcf456k/out/v1/4df741b740c1401a93dd7f933bdde012/cenc.mpd",
+        "key": "c3c680a53aab9eec4b43db218a3713a6:1adcde85460fd0b23f1510ca56e1e58b"
+      },
+      {
+        "title": "DAZN SPORTS DE",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/td2vcx9ney/out/v1/7ce09a13e61a4e008492bb0545ba65fa/cenc.mpd",
+        "key": "8b199d76b52fbb59394d3e1f21f19b49:e5bde1d899ea6c48116aa39f3e50829d"
+      },
+      {
         "title": "CBS SPORTS FHD",
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
         "key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+      },
+      {
+        "title": "SonyLiv (Asia)",
+        "type": "hls",
+        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2094588/footlive0311/ENG/std_lrh-800300010.m3u8",
+        "key": null
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.55/hls/HCCCaaa.m3u8",
+        "key": null
       }
     ]
   },
@@ -1057,7 +1147,7 @@
     "title": "UEFA Champions League",
     "slug": "bod-glimt-vs-lille",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Champions League",
       "category": "Football",
@@ -1085,7 +1175,7 @@
     "title": "UEFA Champions League",
     "slug": "lask-vs-slovan",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Champions League",
       "category": "Football",
@@ -1113,7 +1203,7 @@
     "title": "Championship",
     "slug": "west-brom-vs-southampton",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Championship",
       "category": "Football",
@@ -1153,7 +1243,7 @@
     "title": "Championship",
     "slug": "birmingham-vs-millwall",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Championship",
       "category": "Football",
