@@ -587,6 +587,54 @@
         "type": "dash",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/w4lpjel0uk/out/v1/d7683dec68ba4f86bfa5ddf4bd842020/cenc.mpd",
         "key": "f0db1a79217cb4d57ae5616c4bf7b2d8:c01f7bdddf9afec6c7c70841905aeed6"
+      },
+      {
+        "title": "DAZN DE FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/jiybvnjqls/out/v1/9cbdccb678364dafbac6a54af5461882/cenc.mpd",
+        "key": "bddd33b45c3b369cf7febc4c35332e83:1bbd40180ff193eb23f3db5dbdc43c40"
+      },
+      {
+        "title": "HBO MAX BR FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/gwhjevq6ar/out/v1/bf0c281f2dba46cb87434d45ed13003f/cenc.mpd",
+        "key": "83a4bc2c011e2c72b35b7b5f2d35560d:01bd0115c83d3493449181ba68998ab1"
+      },
+      {
+        "title": "PARAMOUNT+ HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59194/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "LIVE SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4628496.m3u8?txSecret=4a74cb960700c25acb77fd007065e6ac&txTime=6AEA2E6B",
+        "key": null
+      },
+      {
+        "title": "TAPMAD FHD",
+        "type": "hls",
+        "url": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?",
+        "key": null
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.50/hls/TPPPAA.m3u8",
+        "key": null
+      },
+      {
+        "title": "SONYLIV [ASIA]",
+        "type": "hls",
+        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120304/footlive0311/ENG/std_lrh-800300010.m3u8",
+        "key": null
       }
     ]
   },
@@ -966,7 +1014,14 @@
       "startTimeUTC": "2026/11/03 20:00:00 +0000",
       "endTimeUTC": "2026/11/03 22:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "beIN ENGLISH FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+        "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+      }
+    ]
   },
   {
     "id": 5231,
