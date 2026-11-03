@@ -395,46 +395,6 @@
     "dashStreams": []
   },
   {
-    "id": 5189,
-    "title": "AFC Champions League Two",
-    "slug": "east-bengal-vs-al-seeb",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "AFC Champions League Two",
-      "category": "Football",
-      "teamA": "East Bengal",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/40655/image",
-      "teamB": "Al Seeb",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/71044/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/668/image/dark",
-      "startTimeIST": "2026-11-03 19:15:00 IST",
-      "endTimeIST": "2026-11-03 21:35:00 IST",
-      "startTimeUTC": "2026/11/03 13:45:00 +0000",
-      "endTimeUTC": "2026/11/03 16:05:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel18.m3u8?",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.41/hls/DAAA.m3u8",
-        "key": null
-      },
-      {
-        "title": "SD SERVER+",
-        "type": "hls",
-        "url": "http://162.251.160.53:8089/344/index.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5201,
     "title": "UEFA Youth League",
     "slug": "barcelona-u19-vs-aston-villa-u19",
@@ -1167,6 +1127,46 @@
     ]
   },
   {
+    "id": 5189,
+    "title": "AFC Champions League Two",
+    "slug": "east-bengal-vs-al-seeb",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "AFC Champions League Two",
+      "category": "Football",
+      "teamA": "East Bengal",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/40655/image",
+      "teamB": "Al Seeb",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/71044/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/668/image/dark",
+      "startTimeIST": "2026-11-03 19:15:00 IST",
+      "endTimeIST": "2026-11-03 21:35:00 IST",
+      "startTimeUTC": "2026/11/03 13:45:00 +0000",
+      "endTimeUTC": "2026/11/03 16:05:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel18.m3u8?",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.41/hls/DAAA.m3u8",
+        "key": null
+      },
+      {
+        "title": "SD SERVER+",
+        "type": "hls",
+        "url": "http://162.251.160.53:8089/344/index.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
     "id": 5200,
     "title": "UEFA Youth League",
     "slug": "feyenoord-u19-vs-inter-u20",
@@ -1716,52 +1716,6 @@
         "title": "LOW QUALITY",
         "type": "hls",
         "url": "http://193.47.62.44/hls/TTTT.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5184,
-    "title": "AFC Champions League Elite",
-    "slug": "pakhtakor-vs-al-nassr",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "AFC Champions League Elite",
-      "category": "Football",
-      "teamA": "Pakhtakor",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/34310/image",
-      "teamB": "Al-Nassr",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/23400/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/463/image/dark",
-      "startTimeIST": "2026-11-02 19:15:00 IST",
-      "endTimeIST": "2026-11-02 21:35:00 IST",
-      "startTimeUTC": "2026/11/02 13:45:00 +0000",
-      "endTimeUTC": "2026/11/02 16:05:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "beIN SPORTS FHD",
-        "type": "hls",
-        "url": "https://live-cdn.ryazanslah3.space/hls/bein2.m3u8?",
-        "key": null
-      },
-      {
-        "title": "FAST SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4621440.m3u8?txSecret=ad78bb536e23461cba3cffb7faa5cc15&txTime=6AE8A562",
-        "key": null
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel1.m3u8?",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/YFFFAAAAA.m3u8",
         "key": null
       }
     ]
