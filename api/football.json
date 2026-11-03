@@ -503,7 +503,14 @@
       "startTimeUTC": "2026/11/03 12:00:00 +0000",
       "endTimeUTC": "2026/11/03 14:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.41/hls/ELLLA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5186,
@@ -587,7 +594,14 @@
       "startTimeUTC": "2026/11/03 13:00:00 +0000",
       "endTimeUTC": "2026/11/03 15:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.41/hls/ELLLAAAAA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5189,
