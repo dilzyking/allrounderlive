@@ -843,6 +843,40 @@
     ]
   },
   {
+    "id": 3255,
+    "title": "UEFA Champions League",
+    "slug": "the-golazo-show-vs-the-golazo-show",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Champions League",
+      "category": "Football",
+      "teamA": "The Golazo Show",
+      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/7/image",
+      "teamB": "The Golazo Show",
+      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/7/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image",
+      "startTimeIST": "2026-11-04 01:30:00 IST",
+      "endTimeIST": "2026-11-04 06:30:00 IST",
+      "startTimeUTC": "2026/11/03 20:00:00 +0000",
+      "endTimeUTC": "2026/11/04 01:00:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xkheeec2xv/out/v1/0ba456ea055847d4ac3288f8784d4518/cenc.mpd",
+        "key": "260b37ce733c1b217d443e1be601b3c5:ab79e014ce4ed784b63743c084bb6cb5"
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.41/hls/eooo.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
     "id": 5217,
     "title": "UEFA Champions League",
     "slug": "barcelona-vs-aston-villa",
@@ -861,7 +895,20 @@
       "startTimeUTC": "2026/11/03 20:00:00 +0000",
       "endTimeUTC": "2026/11/03 23:00:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/hfrpveg4ut/out/v1/898ffe1fc933458b940e736c42708232/cenc.mpd",
+        "key": "9257aba4a8155ec0566886d9d2173cbb:c1663d6dd5e13c6105f55986e1b82bb0"
+      },
+      {
+        "title": "TNT SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+        "key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+      }
+    ]
   },
   {
     "id": 5218,
@@ -882,7 +929,26 @@
       "startTimeUTC": "2026/11/03 20:00:00 +0000",
       "endTimeUTC": "2026/11/03 23:00:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vh0otvgsty/out/v1/bd515f9d353d436c8d9f7fad1a036eae/cenc.mpd",
+        "key": "81e0ae17a7166c881b38468bee4d210d:be2dd777d1aa42adc54d090fcf886b29"
+      },
+      {
+        "title": "TNT SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
+        "key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
+      },
+      {
+        "title": "VIX Español FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/9k8paepic3/out/v1/be6a823f7db5432bb0b75f704e5b0751/cenc.mpd",
+        "key": "81e0ae17a7166c881b38468bee4d210d:be2dd777d1aa42adc54d090fcf886b29"
+      }
+    ]
   },
   {
     "id": 5219,
@@ -903,7 +969,20 @@
       "startTimeUTC": "2026/11/03 20:00:00 +0000",
       "endTimeUTC": "2026/11/03 23:00:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0nsrdwyz6d/out/v1/1fb3f803330c4d56b7067eb32a2d7b5b/cenc.mpd",
+        "key": "c42433b27c13a1ad99d32d2c027eeb59:2dad308a6387c9d4fc9b881d01b509d1"
+      },
+      {
+        "title": "TNT SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
+        "key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
+      }
+    ]
   },
   {
     "id": 5220,
@@ -924,7 +1003,20 @@
       "startTimeUTC": "2026/11/03 20:00:00 +0000",
       "endTimeUTC": "2026/11/03 23:00:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/f9bag1jthy/out/v1/3b8065fd2f2448ae950acb1799289059/cenc.mpd",
+        "key": "36e4c42e68010f7a3e5f543d18e48242:014543c3e28193bbe08cf7e3f729715e"
+      },
+      {
+        "title": "VIX Español FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/decwmbtmq9/out/v1/66735c86f0c146b5ad6c898cca401c4f/cenc.mpd",
+        "key": "36e4c42e68010f7a3e5f543d18e48242:014543c3e28193bbe08cf7e3f729715e"
+      }
+    ]
   },
   {
     "id": 5221,
@@ -945,7 +1037,20 @@
       "startTimeUTC": "2026/11/03 20:00:00 +0000",
       "endTimeUTC": "2026/11/03 23:00:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/odyam8seie/out/v1/a5f86f8dc35746c9a5d1b0128bb8196c/cenc.mpd",
+        "key": "fc651bf819bdc1df6aa7c249f1acfe66:06229427fb5ea8c1fcf8c8f878b2fc23"
+      },
+      {
+        "title": "CBS SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
+        "key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+      }
+    ]
   },
   {
     "id": 5222,
@@ -966,7 +1071,14 @@
       "startTimeUTC": "2026/11/03 20:00:00 +0000",
       "endTimeUTC": "2026/11/03 22:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vup2gkotxm/out/v1/35a4a5af02a048968c2b300ddd4677a2/cenc.mpd",
+        "key": "f9c393a27d7eab26828310d5116228b4:54242b217e2cb116436f2a8f72b9ba6b"
+      }
+    ]
   },
   {
     "id": 5223,
@@ -987,7 +1099,14 @@
       "startTimeUTC": "2026/11/03 20:00:00 +0000",
       "endTimeUTC": "2026/11/03 22:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ej3seddljs/out/v1/273718f161c34b44bc7e125ce3fa6173/cenc.mpd",
+        "key": "0f9a8647387c8ced25cb81e31daa8465:138042cf1b65ee0021b4bb86a8eb4272"
+      }
+    ]
   },
   {
     "id": 5229,
@@ -1014,6 +1133,18 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
         "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+      },
+      {
+        "title": "FANCODE FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.41/hls/7UUUAAAAQQAAQQ.m3u8",
+        "key": null
       }
     ]
   },
@@ -1036,7 +1167,14 @@
       "startTimeUTC": "2026/11/03 20:00:00 +0000",
       "endTimeUTC": "2026/11/03 22:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.41/hls/7UUUAAAAQQAAQ.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5225,
@@ -1057,7 +1195,14 @@
       "startTimeUTC": "2026/11/03 22:30:00 +0000",
       "endTimeUTC": "2026/11/04 00:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "HD SERVER",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/oy6rp0jwmf/out/v1/580ecf12bad24979baf8dd993dce053e/cenc.mpd",
+        "key": "9dc40460c93087aea84d6315f08ecb64:f69c8d4624fddff4ca89bd0b31bdc4a7"
+      }
+    ]
   },
   {
     "id": 5226,
@@ -1895,40 +2040,6 @@
         "title": "SD SERVER",
         "type": "hls",
         "url": "https://play.aurasportsplayer.cfd/nfl/1939?source=0",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 3255,
-    "title": "UEFA Champions League",
-    "slug": "the-golazo-show-vs-the-golazo-show",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "UEFA Champions League",
-      "category": "Football",
-      "teamA": "The Golazo Show",
-      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/7/image",
-      "teamB": "The Golazo Show",
-      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/7/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image",
-      "startTimeIST": "2026-10-22 00:25:00 IST",
-      "endTimeIST": "2026-10-22 03:00:00 IST",
-      "startTimeUTC": "2026/10/21 18:55:00 +0000",
-      "endTimeUTC": "2026/10/21 21:30:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/startover/clients/dash/manipulated-manifest-pdx-prod/enc/vccsuzk9hw/out/v1/9f0c651db4144f9794f7552472320e3d/9e6ee722-12ab-410a-9892-b17fb79cda3a-cenc.mpd?aws_sessionId=03df375b-e23d-4dff-b823-e2541bdb779b",
-        "key": "01b1876fa350df084aa1fc80f3a4e75d:e67deb0fcd60726770099a5762015272"
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.59/hls/VOOOA.m3u8",
         "key": null
       }
     ]
