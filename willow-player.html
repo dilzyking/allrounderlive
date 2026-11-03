@@ -1,0 +1,1181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#08090d">
+  <title>Willow Live · MATCHDEKHO</title>
+
+  <link rel="preload" href="https://allrounderlive.com/font.woff2" as="font" type="font/woff2" crossorigin>
+
+  <!-- Original analytics retained -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CQXW3DBDQL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-CQXW3DBDQL');
+  </script>
+
+  <!-- One pinned version of Shaka UI: avoid mixed/duplicate control bars -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/shaka-player@5.3.3/dist/controls.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/shaka-player@5.3.3/dist/shaka-player.ui.min.js"></script>
+  <style>
+    @font-face {
+      font-family: "Outfit";
+      font-style: normal;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url("https://allrounderlive.com/font.woff2") format("woff2");
+    }
+    :root {
+      --font: "Outfit", "Inter", "Segoe UI", system-ui, sans-serif;
+      --bg: #08090d;
+      --out: cubic-bezier(.22,1,.36,1);
+      --ease: cubic-bezier(.4,0,.15,1);
+      --header-height: 62px;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; background: var(--bg); }
+    html, body, button, input, a { font-family: var(--font); font-synthesis: none; text-rendering: optimizeLegibility; }
+    body { margin: 0; min-height: 100vh; color: #eee; background: var(--bg); -webkit-font-smoothing: antialiased; }
+    button { font: inherit; cursor: pointer; }
+    a, button { -webkit-tap-highlight-color: transparent; }
+    a { color: inherit; }
+    [hidden] { display: none !important; }
+    html.lock { overflow: hidden; }
+
+    /* ===== MATCHDEKHO HEADER: DARK NAVY -> BLACK ===== */
+    .site-header {
+      position: sticky;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 30;
+      height: var(--header-height);
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      padding: 0 20px;
+      background: linear-gradient(180deg,#131d2b 0%,#101723 28%,#0c111a 60%,#08090d 100%);
+      border-bottom: 1px solid rgba(255,255,255,.07);
+    }
+    .site-header.scrolled {
+      background: linear-gradient(180deg,#131d2b 0%,#101723 28%,#0c111a 60%,#08090d 100%);
+    }
+    .menu {
+      display: flex; flex-direction: column; align-items: flex-start; justify-content: center;
+      gap: 6px; width: 34px; height: 34px; padding: 0;
+      flex: 0 0 34px; background: none; border: 0; color: #fff;
+    }
+    .menu i {
+      display: block; height: 3px; width: 26px; border-radius: 3px; background: currentColor;
+      transform-origin: left center;
+      transition: width .3s var(--out), transform .3s var(--out);
+    }
+    .menu i:nth-child(2) { width: 16px; }
+    .menu:hover i:nth-child(2), .menu:focus-visible i:nth-child(2) { width: 26px; }
+    .menu:active i { transform: scaleX(.82); }
+    .menu:focus-visible, .dclose:focus-visible { outline: 2px solid #f55505; outline-offset: 4px; border-radius: 6px; }
+    .brand { display: flex; align-items: center; min-width: 0; text-decoration: none; color: #ff560e; font-weight: 800; font-style: italic; }
+    .brand img { display: block; height: 48px; width: auto; max-width: min(240px,38vw); object-fit: contain; }
+    .brand .brand-fallback { display:none; color:#ff560e; font-size:22px; font-weight:900; font-style:italic; letter-spacing:-.9px; }
+    .brand.img-failed img { display:none; }
+    .brand.img-failed .brand-fallback { display:inline; }
+    .dr-logo .brand-fallback { display:none; color:#ff560e; font-size:20px; font-weight:900; font-style:italic; letter-spacing:-.8px; }
+    .dr-logo.img-failed img { display:none; }
+    .dr-logo.img-failed .brand-fallback { display:inline; }
+    .offers {
+      margin-left: auto; display: flex; align-items: center; gap: 6px; flex-shrink: 0;
+      border: 1px solid #ffffff40; border-radius: 22px; background: #ffffff1f;
+      padding: 7px 11px; font-size: 12px; color: #f3e8cb;
+    }
+    .offers svg { width: 17px; height: 17px; }
+    .desktop-nav, .profile { display: none; }
+
+    /* ===== PLAYER AREA ===== */
+    main { min-height: calc(100dvh - var(--header-height)); background: var(--bg); }
+    .player-wrapper {
+      width: 100%; position: relative; aspect-ratio: 16 / 9;
+      background: #000; overflow: hidden;
+    }
+    .player-wrapper iframe {
+      position: absolute; inset: 0; width: 100%; height: 100%;
+      border: 0; display: block; background: #000;
+    }
+    @media (min-width: 900px) {
+      .player-wrapper { height: min(56.25vw,70vh); aspect-ratio: auto; }
+    }
+
+    /* ===== PREMIUM LIVE-MATCH SUMMARY ===== */
+    :root {
+      --surface: #111620;
+      --surface-2: #151b26;
+      --stroke: #252c39;
+      --text-main: #f4f5f8;
+      --text-muted: #9299a8;
+      --accent: #ff6412;
+      --accent-soft: rgba(255,100,18,.12);
+    }
+
+    /* ===== FANCODE-STYLE WHATSAPP UPDATE STRIP ===== */
+    .wa-strip {
+      display: flex; align-items: center; gap: 11px;
+      margin: 18px 4% 4px; padding: 12px 14px;
+      background: linear-gradient(100deg,#111c1a,#10171a 70%,#111620);
+      border: 1px solid #2a3934; border-radius: 6px;
+    }
+    .strip-icon {
+      display: grid; place-items: center; flex: 0 0 39px; height: 39px;
+      border: 1px solid rgba(37,211,102,.25); border-radius: 8px;
+      color: #25d366; background: rgba(37,211,102,.08);
+    }
+    .strip-icon svg { width: 21px; height: 21px; }
+    .strip-text { display: flex; flex-direction: column; flex: 1; min-width: 0; gap: 3px; }
+    .strip-text .t1 { color: #f0f1f4; font-size: 12px; font-weight: 750; line-height: 1.3; }
+    .strip-text .t2 { color: #89968e; font-size: 11px; line-height: 1.3; }
+    .strip-cta {
+      display: inline-flex; align-items: center; justify-content: center; gap: 5px; flex-shrink: 0;
+      min-width: 65px; min-height: 34px; padding: 6px 12px;
+      color: #0b1a12; border: 1px solid #28d369; background: #28d369;
+      border-radius: 4px; font-size: 11px; font-weight: 800;
+      transition: transform .2s,background .2s;
+    }
+    .strip-cta:hover { background: #4be288; transform: translateY(-1px); }
+    .strip-close { display: grid; place-items: center; flex: 0 0 25px; height: 25px; color: #8d9895; background: none; border: 0; border-radius: 4px; }
+    .strip-close:hover { color: #fff; background: #ffffff12; }
+    .strip-close svg { height: 17px; width: 17px; stroke: currentColor; fill: none; stroke-width: 2; stroke-linecap: round; }
+
+    /* ===== FANCODE-INSPIRED STREAM / CHAT NAVIGATION ===== */
+    .streams-shell { padding: 14px 4% 58px; max-width: 1660px; margin: 0 auto; }
+    .tabs {
+      position: sticky; top: var(--header-height); z-index: 15;
+      display: flex; align-items: stretch; gap: 0; width: 100%; min-height: 56px;
+      background: #0c0f15; border: 1px solid #202631; border-radius: 5px 5px 0 0;
+      border-bottom: 1px solid #303744; overflow: hidden;
+    }
+    .tab-btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: 9px;
+      position: relative; flex: 1; min-height: 56px; padding: 12px 18px;
+      border: 0; color: #8d94a2; background: none;
+      font-size: 14px; font-weight: 750; letter-spacing: .05px;
+      transition: color .2s, background .2s;
+    }
+    .tab-btn + .tab-btn { border-left: 1px solid #1d2330; }
+    .tab-btn > span { white-space: nowrap; }
+    .tab-btn { min-width: 0; }
+    .tab-btn .icon-tab { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; flex: 0 0 20px; }
+    .tab-btn:hover { background: #151a24; color: #fff; }
+    .tab-btn.active { color: #f8f9fb; background: linear-gradient(180deg,#1b202a,#10151d); }
+    .tab-btn.active .icon-tab { color: var(--accent); }
+    .tab-btn.active::after {
+      content: ''; position: absolute; bottom: 0; height: 3px; left: 16%; right: 16%;
+      background: var(--accent); border-radius: 4px 4px 0 0;
+    }
+    .tab-count {
+      display: inline-grid; place-items: center; min-width: 22px; height: 19px; padding: 0 4px;
+      font-weight: 850; font-size: 10px; color: #b8becb; background: #2a303b; border-radius: 4px;
+    }
+    .tab-content { display: none; min-height: 0; width: 100%; background: #08090d; }
+    .tab-content.active { display: block; animation: sectionFade .3s ease both; }
+    @keyframes sectionFade { from { opacity: .4; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+    .section-heading {
+      display: flex; align-items: flex-end; justify-content: space-between; gap: 16px;
+      margin: 10px 0 8px;
+    }
+    .section-heading h2 {
+      display: flex; align-items: center; gap: 9px; margin: 0; font-size: clamp(19px,2vw,26px);
+      color: #eaecf0; font-weight: 700; line-height: 1.15; letter-spacing: -.5px;
+    }
+    .section-heading h2 .section-chevron { width: 18px; height: 18px; stroke: #e7e9ed; stroke-width: 2.4; fill: none; }
+    .section-heading p { margin: 7px 0 0; color: #9096a4; font-size: 12px; line-height: 1.5; }
+    .stream-count { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; color: #aab0bb; font-size: 11px; font-weight: 700; padding-bottom: 4px; }
+    .stream-count i { width: 7px; height: 7px; background: #f34b57; border-radius: 50%; }
+
+    /* ===== COMPACT CHANNEL CARDS: CIRCULAR LETTER LOGO + NAME BELOW ===== */
+    .channels-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: clamp(10px, 1.35vw, 18px);
+      align-content: start;
+      width: 100%;
+    }
+    .channel-card {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 13px;
+      width: 100%;
+      min-width: 0;
+      min-height: 158px;
+      padding: 20px 12px 18px;
+      text-align: center;
+      border: 1px solid #252c38;
+      border-radius: 9px;
+      background: linear-gradient(155deg, #19202c 0%, #111721 65%, #10141e 100%);
+      color: #f7f8fb;
+      overflow: hidden;
+      box-shadow: 0 6px 16px rgba(0,0,0,.13);
+      transition: border-color .23s, box-shadow .25s, transform .3s var(--out), background .25s;
+    }
+    .channel-card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background: radial-gradient(ellipse at 50% 0%, rgba(78,131,191,.09), transparent 76%);
+    }
+    .channel-card:hover {
+      border-color: #596578;
+      transform: translateY(-3px);
+      box-shadow: 0 14px 30px rgba(0,0,0,.26);
+    }
+    .channel-card:active { transform: scale(.986); }
+    .channel-card.active {
+      border-color: #ff681c;
+      box-shadow: 0 0 0 1px rgba(255,104,28,.35), 0 14px 30px -21px rgba(255,100,18,.45);
+      background: linear-gradient(155deg, #27212a 0%, #171b25 65%, #11151f 100%);
+    }
+    .channel-card.active::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      border: 1px solid rgba(255,151,75,.24);
+      border-radius: inherit;
+    }
+    .channel-logo {
+      position: relative;
+      display: grid;
+      place-items: center;
+      flex: 0 0 auto;
+      width: 65px;
+      height: 65px;
+      border: 2px solid rgba(130,173,218,.32);
+      border-radius: 50%;
+      background: radial-gradient(circle at 30% 20%, #273b54, #0d1421 78%);
+      color: #e8f1ff;
+      font-size: 18px;
+      font-weight: 850;
+      letter-spacing: -.5px;
+      box-shadow: inset 0 1px 5px rgba(255,255,255,.07), 0 7px 18px rgba(0,0,0,.3);
+      transition: border-color .25s, color .25s, box-shadow .25s;
+    }
+    .channel-card.active .channel-logo {
+      border-color: #ff8c4a;
+      color: #fff3e6;
+      box-shadow: inset 0 1px 8px rgba(255,155,89,.13), 0 0 0 5px rgba(255,100,18,.07);
+    }
+    .channel-name {
+      position: relative;
+      display: block;
+      max-width: 100%;
+      color: #f4f6fa;
+      font-size: clamp(13px, 1.1vw, 16px);
+      font-weight: 750;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .channel-card.active .channel-name { color: #fff; }
+    .chat-container { width: 100%; min-height: 70vh; overflow: hidden; border: 1px solid #252d39; border-radius: 6px; background: #101620; }
+    .chat-container iframe { display: block; width: 100%; min-height: 70vh; height: 70vh; border: 0; }
+
+    /* ===== PREMIUM WHATSAPP POPUP (SHOWS ON EVERY RELOAD) ===== */
+    #waOverlay {
+      position: fixed; inset: 0; z-index: 999999; display: none; align-items: center;
+      justify-content: center; padding: 16px; overflow-y: auto;
+      background: rgba(1,3,8,.85); backdrop-filter: blur(13px); -webkit-backdrop-filter: blur(13px);
+    }
+    #waOverlay.show { display: flex; animation: overlayIn .22s ease both; }
+    #waCard {
+      position: relative; isolation: isolate; overflow: hidden; width: 100%; max-width: 424px;
+      max-height: calc(100dvh - 32px); overflow-y: auto; border-radius: 15px;
+      background: linear-gradient(145deg,#1b2430 0%,#111620 47%,#0d1119 100%);
+      border: 1px solid #354151; box-shadow: 0 35px 105px rgba(0,0,0,.75),0 5px 20px rgba(0,0,0,.25);
+      color: #f5f6f9; text-align: center; scrollbar-width: none;
+    }
+    #waCard::-webkit-scrollbar { display: none; }
+    #waCard::before { content: ''; position: absolute; top: 0; left: 0; right: 0; z-index: 4; height: 3px; background: linear-gradient(90deg,#ff6412,#ef9d37 30%,#28d369 75%,#128c7e); }
+    #waOverlay.show #waCard { animation: modalIn .42s cubic-bezier(.18,1,.32,1) both; }
+    @keyframes overlayIn { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes modalIn { from { opacity: 0; transform: translateY(22px) scale(.96); } to { opacity: 1; transform: translateY(0) scale(1); } }
+    .popup-head { display: flex; align-items: center; justify-content: space-between; padding: 20px 22px 0; }
+    .popup-brand { display: inline-flex; align-items: center; gap: 7px; color: #cfd4de; font-size: 10px; font-weight: 900; letter-spacing: 1.3px; }
+    .popup-brand i { width: 6px; height: 6px; border-radius: 50%; background: #ff6412; box-shadow: 0 0 0 4px rgba(255,100,18,.1); }
+    .popup-close { display: grid; place-items: center; width: 31px; height: 31px; border: 1px solid #364050; background: rgba(255,255,255,.045); border-radius: 50%; color: #a9b1bf; }
+    .popup-close:hover { color: #fff; background: #2a3443; }
+    .popup-close svg { width: 15px; height: 15px; stroke: currentColor; stroke-width: 2; fill: none; }
+    .popup-art {
+      position: relative; height: 158px; display: flex; align-items: center; justify-content: center;
+      background: radial-gradient(ellipse at 50% 56%,rgba(37,211,102,.16),transparent 48%);
+      isolation: isolate;
+    }
+    .popup-art::before, .popup-art::after {
+      content: ''; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);
+      width: 122px; height: 122px; border: 1px solid rgba(37,211,102,.19); border-radius: 50%;
+    }
+    .popup-art::after { width: 176px; height: 176px; border-color: rgba(37,211,102,.08); }
+    .popup-icon-wrap { position: relative; z-index: 2; display: grid; place-items: center; height: 88px; width: 88px; border-radius: 23px; transform: rotate(-8deg); background: linear-gradient(145deg,#44e889,#179a51); box-shadow: 0 18px 38px rgba(3,13,8,.65),0 0 65px rgba(37,211,102,.17),inset 0 1px 1px rgba(255,255,255,.35); }
+    .popup-icon-wrap svg { width: 48px; height: 48px; fill: white; transform: rotate(8deg); }
+    .popup-float { position: absolute; z-index: 2; display: grid; place-items: center; width: 34px; height: 34px; border-radius: 10px; border: 1px solid #3a4756; color: #d8e4ea; background: #202b37; box-shadow: 0 8px 20px rgba(0,0,0,.35); }
+    .popup-float svg { height: 19px; width: 19px; stroke: currentColor; fill: none; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+    .popup-float.first { top: 21px; left: 17%; transform: rotate(-12deg); }
+    .popup-float.second { bottom: 14px; right: 17%; transform: rotate(11deg); }
+    .popup-content { padding: 0 27px 27px; }
+    .popup-kicker { color: #53dc8f; font-weight: 800; letter-spacing: 1.6px; font-size: 10px; margin-bottom: 9px; }
+    #waCard h2 { margin: 0 0 9px; font-size: clamp(23px,5.4vw,30px); line-height: 1.12; letter-spacing: -.95px; font-weight: 800; }
+    #waCard p { margin: 0; color: #a3acb9; font-size: 13px; line-height: 1.6; }
+    .popup-benefits { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 13px; padding: 20px 0 23px; }
+    .popup-benefits span { display: inline-flex; align-items: center; gap: 5px; color: #c6cdd6; font-size: 11px; font-weight: 600; }
+    .popup-benefits svg { width: 14px; height: 14px; stroke: #3cdb80; fill: none; stroke-width: 2.3; }
+    .waBtns { display: flex; flex-direction: column; gap: 9px; }
+    .waBtn { display: inline-flex; justify-content: center; align-items: center; gap: 9px; width: 100%; min-height: 46px; border-radius: 6px; font-weight: 800; font-size: 13px; transition: transform .2s, background .2s, border-color .2s; }
+    .waBtn:active { transform: scale(.985); }
+    #joinNow { order: -1; background: #25d366; color: #081910; border: 1px solid #25d366; box-shadow: 0 7px 20px -13px rgba(37,211,102,.9); }
+    #joinNow:hover { background: #4de189; }
+    #joinNow svg { width: 16px; height: 16px; stroke: currentColor; fill: none; stroke-width: 2; }
+    #joinedBtn { border: 1px solid #364251; color: #d1d7e1; background: #202835; }
+    #joinedBtn:hover { background: #2a3544; }
+
+    /* Tactile material-style ripple on the Already Joined action. */
+    #joinedBtn { position: relative; isolation: isolate; overflow: hidden; }
+    #joinedBtn .btn-label { position: relative; z-index: 2; pointer-events: none; }
+    #joinedBtn .btn-ripple {
+      position: absolute; z-index: 1; pointer-events: none;
+      border-radius: 50%; background: rgba(255,255,255,.40);
+      transform: scale(0); opacity: .8;
+      animation: joinedRipple .58s cubic-bezier(.15,.58,.25,1) forwards;
+    }
+    @keyframes joinedRipple {
+      0% { transform: scale(0); opacity: .76; }
+      60% { opacity: .3; }
+      100% { transform: scale(1); opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) { #joinedBtn .btn-ripple { animation: none; } }
+    .popup-note { display: block; margin-top: 14px; color: #717d8d; font-size: 10px; }
+    .popup-close:focus-visible, .waBtn:focus-visible { outline: 2px solid #25d366; outline-offset: 2px; }
+
+    /* ===== HAMBURGER DRAWER ===== */
+    .scrim {
+      position: fixed; inset: 0; z-index: 40;
+      background: rgba(0,0,0,.62); opacity: 0; visibility: hidden;
+      transition: opacity .38s ease,visibility 0s linear .38s;
+    }
+    .scrim.open { opacity: 1; visibility: visible; transition: opacity .38s ease; }
+    .drawer {
+      position: fixed; top: 0; bottom: 0; left: 0; z-index: 50;
+      display: flex; flex-direction: column; width: min(86vw,340px); overflow: hidden;
+      background: linear-gradient(180deg,#13151c,#0b0d12 45%);
+      border-right: 1px solid #ffffff12; box-shadow: 24px 0 60px -20px #000c;
+      transform: translate3d(-104%,0,0); visibility: hidden;
+      transition: transform .32s cubic-bezier(.4,0,1,1),visibility 0s linear .32s;
+      will-change: transform; touch-action: pan-y;
+      padding-top: env(safe-area-inset-top,0px);
+      padding-bottom: env(safe-area-inset-bottom,0px);
+    }
+    .drawer.open { transform: none; visibility: visible; transition: transform .5s cubic-bezier(.32,.72,0,1); }
+    .drawer.drag { transition: none; }
+    .drawer::before {
+      content: ""; position: absolute; left: 0; right: 0; top: 0; height: 200px;
+      background: radial-gradient(80% 100% at 0 0,#f5550526,transparent); pointer-events: none;
+    }
+    .dr-head { position: relative; display: flex; align-items: center; justify-content: space-between; padding: 14px 16px 10px 20px; }
+    .dr-logo img { display: block; height: 44px; width: auto; max-width: 220px; object-fit: contain; }
+    .dclose { position: relative; flex-shrink: 0; width: 42px; height: 42px; border: 0; border-radius: 50%; background: #ffffff10; color: #fff; transition: background-color .2s,transform .3s var(--out); }
+    .dclose:hover { background: #ffffff1c; }
+    .dclose:active { transform: rotate(90deg) scale(.92); }
+    .dclose b { position: absolute; left: 50%; top: 50%; width: 18px; height: 2.5px; margin: -1.25px 0 0 -9px; border-radius: 3px; background: currentColor; transform: rotate(0) scaleX(.2); transition: transform .5s var(--out); }
+    .drawer.open .dclose b:nth-child(1) { transform: rotate(45deg) scaleX(1); transition-delay: .2s; }
+    .drawer.open .dclose b:nth-child(2) { transform: rotate(-45deg) scaleX(1); transition-delay: .26s; }
+    .dr-search { position: relative; display: flex; align-items: center; gap: 10px; margin: 6px 16px 10px; padding: 0 14px; min-height: 44px; border-radius: 12px; background: #ffffff0d; border: 1px solid #ffffff12; transition: border-color .25s,background-color .25s; }
+    .dr-search:focus-within { border-color: #f5550599; background: #ffffff14; }
+    .dr-search svg { flex: 0 0 18px; width: 18px; height: 18px; fill: none; stroke: #8b90a0; stroke-width: 1.8; stroke-linecap: round; }
+    .dr-search input { flex: 1; min-width: 0; border: 0; outline: 0; background: none; color: #fff; font-size: 16px; }
+    .dr-search input::placeholder { color: #7d8190; }
+    .dr-scroll { position: relative; flex: 1; overflow-y: auto; overscroll-behavior: contain; padding: 4px 10px 12px; scrollbar-width: none; }
+    .dr-scroll::-webkit-scrollbar { display: none; }
+    .dr-item, .dr-foot { opacity: 0; translate: -16px 0; transition: opacity .2s ease,translate .2s ease,transform .15s ease,background-color .2s,color .2s; }
+    .drawer.open .dr-item, .drawer.open .dr-foot { opacity: 1; translate: 0 0; transition: opacity .45s ease calc(var(--i,0)*40ms + 140ms),translate .55s var(--out) calc(var(--i,0)*40ms + 140ms),transform .15s ease,background-color .2s,color .2s; }
+    .dr-item { position: relative; display: flex; align-items: center; gap: 14px; width: 100%; min-height: 50px; padding: 0 14px; margin: 2px 0; border: 0; border-radius: 10px; background: none; color: #dfe1e7; font-size: 15px; font-weight: 500; text-decoration: none; text-align: left; }
+    .dr-item .i { flex: 0 0 22px; width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; opacity: .85; }
+    .dr-item:hover { background: #ffffff0a; }
+    .dr-item:active { transform: scale(.98); background: #ffffff12; }
+    .dr-item[aria-current="page"] { color: #fff; background: linear-gradient(90deg,#f5550528,transparent); }
+    .dr-item[aria-current="page"]::before { content: ""; position: absolute; left: 0; top: 12px; bottom: 12px; width: 3px; border-radius: 3px; background: #f55505; }
+    .dr-item[aria-current="page"] .i { stroke: #f55505; opacity: 1; }
+    .chev { margin-left: auto; width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; opacity: .7; transition: transform .35s var(--out); }
+    .dr-acc[aria-expanded="true"] .chev { transform: rotate(180deg); }
+    .dr-sub { display: grid; grid-template-rows: 0fr; transition: grid-template-rows .42s var(--ease); }
+    .dr-sub.open { grid-template-rows: 1fr; }
+    .dr-sub > div { min-height: 0; overflow: hidden; margin-left: 25px; padding-left: 12px; border-left: 1px solid #ffffff14; }
+    .dr-sub-item { display: flex; align-items: center; gap: 10px; min-height: 42px; padding: 0 12px; border-radius: 8px; color: #b4b8c5; font-size: 14px; text-decoration: none; transition: background-color .2s,color .2s; }
+    .dr-sub-item::before { content: ""; width: 5px; height: 5px; border-radius: 50%; background: #f55505; opacity: .7; }
+    .dr-sub-item:hover { background: #ffffff0d; color: #fff; }
+    .dr-sep { height: 1px; margin: 10px 14px; background: #ffffff12; }
+    .dr-new { margin-left: auto; background: #2563ff; color: #fff; font-size: 10px; font-weight: 800; letter-spacing: .6px; padding: 3px 8px; border-radius: 99px; }
+    .dr-h { margin: 12px 8px 6px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: #7d8190; }
+    .dr-res { display: flex; align-items: center; gap: 12px; padding: 12px; margin: 2px 0; border-radius: 10px; color: #e9eaee; text-decoration: none; }
+    .dr-res:hover { background: #ffffff0d; }
+    .dr-res .i { width: 20px; height: 20px; fill: none; stroke: #f55505; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+    .dr-res b { font-size: 14px; font-weight: 600; }
+    .dr-empty { padding: 28px 12px; text-align: center; color: #8b90a0; font-size: 14px; }
+    .dr-foot { position: relative; padding: 12px 16px 16px; border-top: 1px solid #ffffff12; background: #0b0d12; }
+    .dr-login { display: flex; align-items: center; justify-content: center; height: 46px; border-radius: 3px; background: #f55505; color: #fff; font-size: 13px; font-weight: 700; letter-spacing: .8px; text-transform: uppercase; text-decoration: none; transition: background-color .2s,transform .15s; }
+    .dr-login:hover { background: #7a2b02; }
+    .dr-login:active { background: #3d1501; transform: scale(.98); }
+    .dr-legal { display: flex; justify-content: center; gap: 16px; margin: 12px 0 0; font-size: 11px; color: #7d8190; }
+    .dr-legal a { color: inherit; text-decoration: none; }
+    .dr-legal a:hover { color: #fff; }
+    .dr-item:focus-visible, .dr-sub-item:focus-visible, .dr-login:focus-visible, .dr-res:focus-visible, .channel-card:focus-visible, .tab-btn:focus-visible { outline: 2px solid #f55505; outline-offset: -2px; }
+
+    /* ===== RESPONSIVE LAYOUT ===== */
+    @media (max-width: 600px) {
+      .wa-strip { margin: 10px 12px 0; padding: 10px; gap: 9px; }
+      .strip-icon { flex-basis: 34px; height: 34px; }
+      .strip-text .t1 { font-size: 11px; }
+      .strip-text .t2 { display: none; }
+      .strip-cta { min-width: 50px; min-height: 30px; padding: 5px 9px; font-size: 10px; }
+      .strip-close { flex-basis: 19px; width: 19px; height: 25px; }
+      .streams-shell { padding: 12px 12px 42px; }
+      .tabs, .tab-btn { min-height: 49px; }
+      .tab-btn { padding: 11px 8px; gap: 6px; font-size: 12px; }
+      .tab-btn .icon-tab { width: 18px; height: 18px; flex-basis: 18px; }
+      .section-heading { margin: 8px 0 7px; }
+      .section-heading h2 { font-size: 19px; }
+      .section-heading p { font-size: 11px; }
+      .stream-count { font-size: 10px; }
+      .channels-grid { gap: 10px; }
+      .channel-card { min-height: 140px; padding: 17px 8px 15px; gap: 12px; }
+      .channel-logo { width: 55px; height: 55px; font-size: 15px; }
+      .channel-name { font-size: 12px; }
+      .popup-content { padding: 0 21px 23px; }
+      .popup-head { padding: 17px 18px 0; }
+      .popup-art { height: 145px; }
+    }
+    @media (max-width: 360px) {
+      .channel-logo { width: 49px; height: 49px; font-size: 13px; }
+    }
+    @media (min-width: 768px) {
+      .menu, .drawer, .scrim { display: none !important; }
+      .site-header { height: clamp(60px,3.75vw,72px); padding: 0 clamp(16px,1.45vw,28px); gap: clamp(18px,2.1vw,40px); }
+      .brand img { height: clamp(36px,2.6vw,48px); max-width: 260px; }
+      .desktop-nav { display: flex; gap: clamp(16px,1.65vw,32px); }
+      .desktop-nav a { position: relative; display: inline-flex; align-items: center; gap: 5px; font-size: clamp(13px,.8vw,16px); font-weight: 500; color: #d6d8de; text-decoration: none; transition: color .2s; }
+      .desktop-nav a:hover, .desktop-nav a:first-child { color: #fff; }
+      .desktop-nav a:first-child::after { content: ""; position: absolute; left: 0; right: 0; bottom: -9px; height: 2px; background: #ff5900; }
+      .desktop-nav svg { width: 11px; height: 11px; }
+      .offers { font-size: 14px; }
+      .profile { display: flex; align-items: center; justify-content: center; border: 0; background: none; color: #fff; padding: 0; margin-left: -6px; }
+      .profile svg { width: clamp(28px,1.7vw,34px); height: clamp(28px,1.7vw,34px); }
+      :root { --header-height: clamp(60px,3.75vw,72px); }
+    }
+    @media (min-width: 650px) {
+      .channels-grid { grid-template-columns: repeat(3,minmax(0,1fr)); }
+    }
+    @media (min-width: 1050px) {
+      .channels-grid { grid-template-columns: repeat(4,minmax(0,1fr)); }
+    }
+    @media (min-width: 1500px) {
+      .channels-grid { grid-template-columns: repeat(5,minmax(0,1fr)); }
+    }
+    @media (orientation: landscape) and (max-height: 500px) {
+      .streams-shell { padding-top: 17px; }
+      #waOverlay { align-items: flex-start; }
+      .popup-art { height: 100px; }
+      .popup-icon-wrap { height: 67px; width: 67px; border-radius: 15px; }
+      .popup-icon-wrap svg { height: 38px; width: 38px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .drawer, .scrim, .dr-item, .dr-foot, .dr-sub, .dclose b, .menu i { transition: none !important; }
+      #waOverlay.show, #waOverlay.show #waCard, .tab-content.active, .live-chip::before { animation: none !important; }
+      .channel-card, .waBtn { transition: none !important; }
+    }
+
+    /* ===== WILLOW VIDEO, NO DUPLICATE UI OR NATIVE SEEK BAR ===== */
+    .player-wrapper { background:#000; }
+    #videoContainer { position:absolute; inset:0; width:100%; height:100%; background:#000; }
+    #videoContainer.shaka-video-container { position:absolute; inset:0; }
+    #videoContainer video { width:100%; height:100%; position:absolute; inset:0; background:#000; object-fit:contain; }
+    #videoContainer video::-webkit-media-controls { display:none !important; }
+    #videoContainer video::-webkit-media-controls-enclosure { display:none !important; }
+    #videoContainer .shaka-controls-container { z-index:2; }
+    #videoContainer .shaka-controls-button-panel {
+      background:linear-gradient(0deg,rgba(0,0,0,.79),rgba(0,0,0,.03)); border:0;
+    }
+    #videoContainer .shaka-controls-container button { color:#fff; }
+    #videoContainer .shaka-play-button {
+      border-radius:50%; border:1px solid rgba(255,255,255,.18);
+      background:rgba(22,27,36,.76); backdrop-filter:blur(10px);
+      box-shadow:0 10px 35px #0008;
+    }
+    #videoContainer .shaka-seek-bar-container { background:rgba(0,0,0,.24); }
+    #videoContainer .shaka-spinner-container,
+    #videoContainer .shaka-spinner,
+    #videoContainer .shaka-spinner-svg { display:none !important; visibility:hidden !important; }
+    .player-overlay { position:absolute; inset:0; z-index:5; display:flex; flex-direction:column; justify-content:center; align-items:center; gap:14px; padding:20px; text-align:center; pointer-events:none; background:rgba(0,0,0,.68); color:#ecf0f6; }
+    .player-overlay[hidden] { display:none !important; }
+    .player-overlay .spinner { width:42px; height:42px; border:3px solid #ffffff25; border-top-color:#ff6412; border-right-color:#ff6412; border-radius:50%; animation:swirl .8s linear infinite; }
+    @keyframes swirl { to { transform:rotate(360deg); } }
+    .player-overlay p { margin:0; font-size:13px; color:#c7ccd5; line-height:1.55; max-width:360px; }
+    .player-overlay strong { display:block; font-size:15px; color:#fff; }
+    .player-overlay.error { pointer-events:auto; background:#08090de8; }
+    .player-overlay.error .spinner { display:none; }
+    .retry-btn { min-height:38px; padding:0 20px; border:1px solid #f66b1c; border-radius:5px; background:#ff6412; color:#fff; font-size:12px; font-weight:800; }
+    .retry-btn[hidden] { display:none!important; }
+    .player-meta { position:absolute; top:10px; left:12px; z-index:4; display:flex; align-items:center; gap:8px; pointer-events:none; }
+    .player-state { display:inline-flex; align-items:center; gap:6px; padding:5px 10px; border:1px solid #ffffff35; border-radius:3px; background:#090c12b9; color:#fff; font-weight:800; font-size:10px; letter-spacing:.7px; backdrop-filter:blur(6px); }
+    .player-state::before { content:''; width:6px; height:6px; border-radius:50%; background:#ff6412; }
+    .player-state[data-status=upcoming]::before { background:#6097ff; }
+    .player-state[data-status=completed]::before { background:#b7bec9; }
+    .server-state { font-size:10px; color:#d5dce5; background:#090c12b9; border:1px solid #ffffff26; padding:5px 9px; border-radius:3px; }
+    .server-state[hidden] { display:none; }
+    .match-panel { padding-top:10px; }
+    .match-highlight { display:grid; grid-template-columns: minmax(0,1fr); margin-top:12px; overflow:hidden; border:1px solid #293140; background:linear-gradient(145deg,#18212e,#0e131c 75%); border-radius:9px; box-shadow:0 10px 26px #0004; }
+    .match-cover { position:relative; aspect-ratio:16/8; width:100%; overflow:hidden; background:radial-gradient(ellipse at 65% 32%,#233a54,#111724 55%,#0b0e15); }
+    .match-cover::after { content:''; position:absolute; inset:0; background:linear-gradient(0deg,#0d131cc9,transparent 70%); pointer-events:none; }
+    .match-cover img { width:100%; height:100%; object-fit:cover; display:block; }
+    .match-cover img[hidden] { display:none; }
+    .match-copy { padding:19px 20px 22px; display:flex; flex-direction:column; align-items:flex-start; justify-content:center; gap:10px; min-width:0; }
+    .match-chip { display:inline-flex; align-items:center; gap:6px; padding:5px 9px; background:#192333; color:#c8d3e1; border:1px solid #344151; border-radius:3px; letter-spacing:.7px; font-size:10px; font-weight:850; text-transform:uppercase; }
+    .match-chip[data-status=live] { color:#ff9c63; border-color:#78412b; background:#2c1b16; }
+    .match-chip[data-status=upcoming] { color:#8cb8ff; border-color:#274b77; background:#12233d; }
+    .match-copy h3 { margin:0; color:#f5f6f9; line-height:1.23; font-size:clamp(17px,2.2vw,27px); letter-spacing:-.55px; font-weight:800; overflow-wrap:anywhere; }
+    .match-copy p { margin:0; font-size:12px; line-height:1.6; color:#9fa8b7; }
+    .match-fixture { display:flex; align-items:center; gap:10px; font-size:12px; color:#e8edf6; font-weight:750; min-width:0; flex-wrap:wrap; }
+    .match-fixture .versus { color:#ff8143; font-size:11px; font-style:italic; font-weight:900; }
+    .match-facts { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; margin-top:12px; }
+    .match-fact { min-width:0; min-height:88px; padding:14px; background:linear-gradient(145deg,#171f2b,#10151e); border:1px solid #293140; border-radius:8px; }
+    .match-fact .fact-label { display:flex; align-items:center; gap:6px; font-size:10px; font-weight:750; text-transform:uppercase; letter-spacing:.85px; color:#818d9f; }
+    .match-fact .fact-label svg { width:16px; height:16px; flex:0 0 16px; fill:none; stroke:#ff7b32; stroke-width:1.9; stroke-linecap:round; stroke-linejoin:round; }
+    .match-fact .fact-value { display:block; color:#e7ebf2; font-size:13px; font-weight:700; line-height:1.4; margin-top:12px; overflow-wrap:anywhere; }
+    .match-extra { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-top:13px; padding:11px 2px; color:#969eac; font-size:11px; }
+    .match-extra a { color:#ff9855; text-decoration:none; font-weight:750; }
+    .match-extra a:hover { text-decoration:underline; }
+    .match-loading { padding:28px 16px; border:1px solid #253044; border-radius:9px; background:#111721; text-align:center; font-size:13px; color:#a2abb9; }
+    @media(min-width:800px) {
+      .match-highlight { grid-template-columns:minmax(0,40%) minmax(0,60%); }
+      .match-cover { aspect-ratio:auto; min-height:240px; }
+      .match-facts { grid-template-columns: repeat(4,minmax(0,1fr)); }
+      .match-copy { padding:25px 30px; }
+    }
+    @media(max-width:600px) {
+      .player-overlay .spinner { width:34px; height:34px; }
+      .player-meta { top:7px; left:8px; }
+      .match-cover { aspect-ratio:16/8.5; }
+      .match-copy { padding:15px 15px 18px; }
+      .match-facts { gap:8px; }
+      .match-fact { padding:12px; min-height:78px; }
+      .match-fact .fact-value { margin-top:8px; font-size:12px; }
+    }
+    @media(prefers-reduced-motion:reduce) { .player-overlay .spinner { animation:none; } }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <button class="menu" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="drawer"><i></i><i></i><i></i></button>
+    <a class="brand" href="#" aria-label="MATCHDEKHO">
+      <img src="https://imgh.in/host/bfpz0q" alt="MATCHDEKHO" onerror="this.parentElement.classList.add('img-failed')"><span class="brand-fallback">MATCHDEKHO</span>
+    </a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#">Home</a>
+      <a href="#">Schedule</a>
+      <a href="#channels">Cricket</a>
+      <a href="#">Football</a>
+      <a href="#">Formula 1</a>
+      <a href="#">All Sports <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m2.5 4.5 3.5 3.5 3.5-3.5"/></svg></a>
+    </nav>
+    <button class="offers" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="m12 2 3 3 4 0 0 4 3 3-3 3v4h-4l-3 3-3-3H5v-4l-3-3 3-3V5h4z"/><path d="m8 16 8-8"/><circle cx="8" cy="8" r="1"/><circle cx="16" cy="16" r="1"/></svg>Offers</button>
+    <button class="profile" type="button" aria-label="Account"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="10" r="3.2"/><path d="M5.8 18.5c1.6-2.6 3.6-3.8 6.2-3.8s4.6 1.2 6.2 3.8"/></svg></button>
+  </header>
+
+  <main>
+    <!-- Player sits directly below the MATCHDEKHO header -->
+    <section class="player-wrapper" aria-label="Willow live player">
+      <div id="videoContainer">
+        <!-- No native controls: Shaka creates exactly one overlay and seek bar -->
+        <video id="videoElement" playsinline autoplay preload="metadata" aria-label="Willow live stream"></video>
+      </div>
+      <div class="player-meta" aria-live="polite">
+        <span class="player-state" id="playerState">MATCH</span>
+        <span class="server-state" id="serverState" hidden></span>
+      </div>
+      <div class="player-overlay" id="loadingState" role="status">
+        <span class="spinner" aria-hidden="true"></span>
+        <strong id="loadingTitle">Loading match…</strong>
+        <p id="loadingDescription">Connecting to Willow</p>
+      </div>
+      <div class="player-overlay error" id="errorState" role="alert" hidden>
+        <span class="spinner" aria-hidden="true"></span>
+        <strong id="errorTitle">Stream unavailable</strong>
+        <p id="errorDescription">Unable to load this match.</p>
+        <button type="button" class="retry-btn" id="retryBtn">Try Again</button>
+      </div>
+    </section>
+
+    <!-- DISMISSIBLE WHATSAPP UPDATE STRIP -->
+    <aside class="wa-strip" id="waStrip" aria-label="WhatsApp updates">
+      <span class="strip-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.52 3.48A11.82 11.82 0 0 0 12.04 0C5.45 0 .08 5.37.08 11.96c0 2.11.55 4.17 1.59 5.99L0 24l6.24-1.63a11.9 11.9 0 0 0 5.8 1.48h.01c6.59 0 11.96-5.37 11.96-11.96 0-3.19-1.24-6.19-3.49-8.41zM12.05 21.8a9.8 9.8 0 0 1-5-1.37l-.36-.21-3.7.97.99-3.61-.24-.37a9.77 9.77 0 1 1 8.31 4.59zm5.38-7.34c-.29-.14-1.72-.85-1.98-.95-.27-.1-.46-.14-.66.14-.19.29-.76.95-.93 1.14-.17.19-.34.22-.63.08-.29-.14-1.21-.45-2.31-1.45-.85-.75-1.43-1.68-1.6-1.96-.17-.29-.02-.44.12-.58.13-.13.29-.34.43-.51.14-.17.19-.29.29-.48.1-.19.05-.36-.02-.51-.07-.14-.66-1.59-.91-2.17-.24-.57-.49-.49-.66-.5h-.56c-.19 0-.49.07-.75.36s-.98.96-.98 2.34.99 2.71 1.13 2.9c.14.19 1.95 2.98 4.72 4.18.66.29 1.18.46 1.58.59.66.21 1.26.18 1.74.11.53-.08 1.72-.7 1.96-1.37.24-.67.24-1.24.17-1.37-.07-.13-.27-.21-.56-.35z"/></svg></span>
+      <span class="strip-text"><span class="t1">Stay connected with MATCHDEKHO on WhatsApp</span><span class="t2">Optional match alerts, streaming links and channel updates</span></span>
+      <button class="strip-cta" type="button" id="stripJoinBtn">Join</button>
+      <button class="strip-close" type="button" id="stripCloseBtn" aria-label="Dismiss WhatsApp banner"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+    </aside>
+
+    <!-- Match data replaces the stream-card section -->
+    <div class="streams-shell">
+      <div class="tabs" role="tablist" aria-label="Match sections">
+        <button class="tab-btn active" type="button" role="tab" data-tab="channels" id="channelsTab" aria-controls="channels" aria-selected="true">
+          <svg class="icon-tab" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v16H4zM8 9h8M8 13h8M8 17h5"/></svg>
+          <span>Match Details</span>
+        </button>
+        <button class="tab-btn" type="button" role="tab" data-tab="chat" id="chatTab" aria-controls="chat" aria-selected="false">
+          <svg class="icon-tab" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 0 1-8 8c-1.5 0-2.9-.3-4-.9L3 21l1.9-5A8 8 0 1 1 20 12Z"/><path d="M8 12h8M8 9h5"/></svg>
+          <span>Live Chat</span>
+        </button>
+      </div>
+      <section class="tab-content active match-panel" id="channels" role="tabpanel" aria-labelledby="channelsTab">
+        <div class="section-heading"><div><h2>Match Details <svg class="section-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 4 8 8-8 8"/></svg></h2></div></div>
+        <div id="matchDetails" class="match-loading" aria-live="polite">Loading match information…</div>
+      </section>
+      <section class="tab-content" id="chat" role="tabpanel" aria-labelledby="chatTab" hidden>
+        <div class="section-heading"><div><h2>Live Chat <svg class="section-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 4 8 8-8 8"/></svg></h2></div></div>
+        <div class="chat-container"><iframe src="https://live-chat-matchdekho.onrender.com" loading="lazy" title="Live Chat" allow="autoplay; encrypted-media" sandbox="allow-same-origin allow-scripts allow-forms allow-popups"></iframe></div>
+      </section>
+    </div>
+  </main>
+
+  <!-- MATCHDEKHO HAMBURGER DRAWER -->
+  <div class="scrim" id="scrim"></div>
+  <aside class="drawer" id="drawer" aria-hidden="true" aria-label="Main menu" inert>
+    <div class="dr-head"><a class="dr-logo" href="#" aria-label="MATCHDEKHO"><img src="https://imgh.in/host/bfpz0q" alt="MATCHDEKHO" onerror="this.parentElement.classList.add('img-failed')"><span class="brand-fallback">MATCHDEKHO</span></a><button class="dclose" type="button" aria-label="Close menu"><b></b><b></b></button></div>
+    <label class="dr-search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><input type="search" placeholder="Search matches &amp; sports" autocomplete="off" enterkeyhint="search" aria-label="Search"></label>
+    <div class="dr-scroll"><nav class="dr-nav" aria-label="Sections"></nav><div class="dr-results" hidden></div></div>
+    <div class="dr-foot" style="--i:9"><a class="dr-login" href="#">Sign in / Sign up</a><p class="dr-legal"><a href="#">Terms</a><a href="#">Privacy</a><a href="#">Support</a></p></div>
+  </aside>
+
+  <!-- PREMIUM WHATSAPP POPUP: APPEARS ON EVERY PAGE RELOAD -->
+  <div id="waOverlay" role="presentation">
+    <div id="waCard" role="dialog" aria-modal="true" aria-labelledby="waTitle" aria-describedby="waDescription" tabindex="-1">
+      <div class="popup-head">
+        <span class="popup-brand"><i aria-hidden="true"></i>MATCHDEKHO UPDATES</span>
+        <button id="popupCloseBtn" class="popup-close" type="button" aria-label="Close WhatsApp popup"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+      </div>
+      <div class="popup-art" aria-hidden="true">
+        <span class="popup-float first"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 16.5h12l-2-2V10a4 4 0 0 0-8 0v4.5zM10 19h4M4 8a8 8 0 0 1 3-4M20 8a8 8 0 0 0-3-4"/></svg></span>
+        <span class="popup-icon-wrap"><svg viewBox="0 0 24 24"><path d="M20.52 3.48A11.82 11.82 0 0 0 12.04 0C5.45 0 .08 5.37.08 11.96c0 2.11.55 4.17 1.59 5.99L0 24l6.24-1.63a11.9 11.9 0 0 0 5.8 1.48h.01c6.59 0 11.96-5.37 11.96-11.96 0-3.19-1.24-6.19-3.49-8.41zM12.05 21.8a9.8 9.8 0 0 1-5-1.37l-.36-.21-3.7.97.99-3.61-.24-.37a9.77 9.77 0 1 1 8.31 4.59zm5.38-7.34c-.29-.14-1.72-.85-1.98-.95-.27-.1-.46-.14-.66.14-.19.29-.76.95-.93 1.14-.17.19-.34.22-.63.08-.29-.14-1.21-.45-2.31-1.45-.85-.75-1.43-1.68-1.6-1.96-.17-.29-.02-.44.12-.58.13-.13.29-.34.43-.51.14-.17.19-.29.29-.48.1-.19.05-.36-.02-.51-.07-.14-.66-1.59-.91-2.17-.24-.57-.49-.49-.66-.5h-.56c-.19 0-.49.07-.75.36s-.98.96-.98 2.34.99 2.71 1.13 2.9c.14.19 1.95 2.98 4.72 4.18.66.29 1.18.46 1.58.59.66.21 1.26.18 1.74.11.53-.08 1.72-.7 1.96-1.37.24-.67.24-1.24.17-1.37-.07-.13-.27-.21-.56-.35z"/></svg></span>
+        <span class="popup-float second"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 15 8-8 3 3-8 8a2 2 0 0 1-3-3Z M7 18 5 20 M14 4l6 6"/></svg></span>
+      </div>
+      <div class="popup-content">
+        <div class="popup-kicker">NEVER MISS AN UPDATE</div>
+        <h2 id="waTitle">Stay in the game.</h2>
+        <p id="waDescription">Join the MATCHDEKHO WhatsApp channel for match updates and stream announcements.</p>
+        <div class="popup-benefits"><span><svg viewBox="0 0 24 24"><path d="m4 12 5 5L20 6"/></svg>Match updates</span><span><svg viewBox="0 0 24 24"><path d="m4 12 5 5L20 6"/></svg>Channel alerts</span></div>
+        <div class="waBtns">
+          <button class="waBtn" id="joinedBtn" type="button"><span class="btn-label">Already Joined / Continue</span></button>
+          <button class="waBtn" id="joinNow" type="button">Join WhatsApp Channel <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></button>
+        </div>
+        <small class="popup-note">Optional · Opens WhatsApp in a new tab</small>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (() => {
+      'use strict';
+      const WHATSAPP_LINK = 'https://whatsapp.com/channel/0029Vb99cQ95K3zXgZsecR29';
+      // ===== WILLOW PLAYER + MATCH INFORMATION =====
+      const API_URL = 'https://willow-api.sayanwork-studioo.workers.dev/';
+      const MATCH_ID = new URLSearchParams(location.search).get('id');
+      const MAX_RETRIES = 2;
+      const LOAD_TIMEOUT = 15000;
+      const video = document.getElementById('videoElement');
+      const videoContainer = document.getElementById('videoContainer');
+      const loadPanel = document.getElementById('loadingState');
+      const errorPanel = document.getElementById('errorState');
+      const detailPanel = document.getElementById('matchDetails');
+      const serverState = document.getElementById('serverState');
+      const stateTag = document.getElementById('playerState');
+      const retryBtn = document.getElementById('retryBtn');
+      const escapeData = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+      const validURL = url => { try { const u = new URL(url); return ['http:','https:'].includes(u.protocol) ? u.href : ''; } catch { return ''; } };
+      let player = null;
+      let ui = null;
+      let currentMatch = null;
+      let streams = [];
+      let activeIndex = -1;
+      let loading = false;
+      let shouldStop = false;
+      let errorRecoveryPending = false;
+      let stableTimer = 0;
+      let runtimeFailures = 0;
+      let loadingToken = 0;
+
+      function setLoading(title, description = 'Connecting to Willow') {
+        loadPanel.hidden = false;
+        errorPanel.hidden = true;
+        document.getElementById('loadingTitle').textContent = title;
+        document.getElementById('loadingDescription').textContent = description;
+      }
+      function hideLoading() { loadPanel.hidden = true; }
+      function showError(title, description, retry = true) {
+        loadPanel.hidden = true;
+        errorPanel.hidden = false;
+        document.getElementById('errorTitle').textContent = title;
+        document.getElementById('errorDescription').textContent = description;
+        retryBtn.hidden = !retry;
+      }
+      function setServer(name, index) {
+        activeIndex = index;
+        serverState.hidden = false;
+        serverState.textContent = name;
+      }
+      function setStatus(status) {
+        const s = String(status || 'UNKNOWN').toUpperCase();
+        const normalized = s === 'LIVE' ? 'live' : s === 'UPCOMING' ? 'upcoming' : 'completed';
+        stateTag.dataset.status = normalized;
+        stateTag.textContent = s;
+      }
+      function getSafeStreamId(m) { return String(m.tvgId || m.tvgName || m.title || m.match_id || ''); }
+      function getAllStreamUrls(match) {
+        const found = [];
+        function add(source, fallback) {
+          if (!source) return;
+          if (typeof source === 'string') {
+            const url = validURL(source);
+            if (url && !found.some(s => s.url === url)) found.push({url, name:fallback});
+            return;
+          }
+          if (Array.isArray(source)) {
+            source.forEach((s,i) => {
+              if (typeof s === 'string') add(s, `${fallback} ${i+1}`);
+              else if (s && typeof s === 'object') add(s.url || s.src || s.streamUrl, s.title || s.name || `${fallback} ${i+1}`);
+            });
+          } else if (typeof source === 'object') {
+            Object.entries(source).forEach(([name,url]) => add(url, name));
+          }
+        }
+        add(match.stream_url_alpha, 'Alpha');
+        add(match.stream_url_bravo, 'Bravo');
+        return found;
+      }
+      function clearKeys(raw) {
+        const out = {};
+        if (!raw) return out;
+        if (typeof raw === 'object' && !Array.isArray(raw)) {
+          Object.entries(raw).forEach(([id,key]) => {
+            if (/^[\da-f]{32}$/i.test(id) && /^[\da-f]{32}$/i.test(key)) out[id.toLowerCase()] = key.toLowerCase();
+          });
+          return out;
+        }
+        String(raw).split(/[;,\n]/).forEach(entry => {
+          const m = entry.trim().match(/^([\da-f]{32})\s*:\s*([\da-f]{32})$/i);
+          if (m) out[m[1].toLowerCase()] = m[2].toLowerCase();
+        });
+        return out;
+      }
+      function renderMatch(match) {
+        const title = match.title || match.tvgName || match.groupTitle || 'Willow Match';
+        const status = String(match.status || 'SCHEDULED').toUpperCase();
+        const time = String(match.time || match.startTime || match.start_time || '').trim();
+        const group = match.groupTitle || match.category || match.league || (String(title).split(/\s+-\s+/)[0] || 'Cricket');
+        const eventSummary = match.synopsis && match.synopsis !== title ? match.synopsis : 'Match and stream information from Willow';
+        const poster = validURL(match.cover_image || match.poster || match.image || '');
+        const listing = validURL(match.match_url || '');
+        const parts = String(title).split(/\s+-\s+/);
+        const fixtures = parts[parts.length - 1].split(/\s+vs\.?\s+/i);
+        const teams = fixtures.length === 2 ? `<div class="match-fixture"><span>${escapeData(fixtures[0])}</span><span class="versus">VS</span><span>${escapeData(fixtures[1])}</span></div>` : '';
+        const cards = [
+          ['event', 'Competition', group],
+          ['clock', 'Match Time', time || 'To be announced'],
+          ['status', 'Status', status],
+          ['id', 'Match ID', String(match.match_id || MATCH_ID)]
+        ];
+        const icons = {
+          event:'<svg viewBox="0 0 24 24"><path d="M4 4h16v16H4zM8 7v10M12 7v10M16 7v10"/></svg>',
+          clock:'<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>',
+          status:'<svg viewBox="0 0 24 24"><path d="M3 12h4l3-6 4 12 3-6h4"/></svg>',
+          id:'<svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9h10M7 13h6"/></svg>'
+        };
+        detailPanel.className = '';
+        detailPanel.innerHTML = `
+          <article class="match-highlight">
+            <div class="match-cover">${poster ? `<img src="${escapeData(poster)}" alt="Match cover" loading="lazy" decoding="async">` : ''}</div>
+            <div class="match-copy">
+              <span class="match-chip" data-status="${status === 'LIVE' ? 'live' : status === 'UPCOMING' ? 'upcoming' : 'completed'}">${escapeData(status)}</span>
+              <h3>${escapeData(title)}</h3>${teams}
+              <p>${escapeData(eventSummary)}</p>
+            </div>
+          </article>
+          <div class="match-facts">${cards.map(([icon,label,value]) => `<article class="match-fact"><span class="fact-label">${icons[icon]}${label}</span><strong class="fact-value">${escapeData(value)}</strong></article>`).join('')}</div>
+          <div class="match-extra"><span>Schedule displayed as provided by the Willow API${time && /BDT/i.test(time) ? ' (BDT)' : ''}.</span>${listing ? `<a href="${escapeData(listing)}" target="_blank" rel="noopener noreferrer">Official listing ↗</a>` : ''}</div>`;
+        document.title = `${title} · MATCHDEKHO`;
+        setStatus(status);
+        if (poster) video.poster = poster;
+      }
+
+      async function initShaka() {
+        if (player) return;
+        if (!window.shaka || !shaka.ui || !shaka.Player) throw Error('Shaka Player could not load.');
+        shaka.polyfill.installAll();
+        if (!shaka.Player.isBrowserSupported()) throw Error('This browser does not support Shaka Player.');
+        // Native controls intentionally disabled; create ONE Shaka UI overlay for the page lifetime.
+        video.controls = false;
+        video.removeAttribute('controls');
+        player = new shaka.Player();
+        await player.attach(video);
+        ui = new shaka.ui.Overlay(player, videoContainer, video);
+        ui.configure({
+          addBigPlayButton:true,
+          addSeekBar:true,
+          controlPanelElements:['play_pause','mute','volume','time_and_duration','spacer','language','captions','quality','picture_in_picture','fullscreen'],
+          seekBarColors:{base:'rgba(255,255,255,.2)',buffered:'rgba(255,255,255,.4)',played:'#ff6412'},
+          volumeBarColors:{base:'rgba(255,255,255,.25)',level:'#ff6412'}
+        });
+        player.configure({
+          streaming: {
+            bufferingGoal:15, rebufferingGoal:2, bufferBehind:15,
+            retryParameters:{timeout:8000,maxAttempts:3,baseDelay:300,backoffFactor:1.5}
+          },
+          manifest:{retryParameters:{timeout:8000,maxAttempts:3}}
+        });
+        player.addEventListener('error', event => {
+          console.error('Shaka error:', event.detail);
+          if (loading || shouldStop || errorRecoveryPending) return;
+          const issue = event.detail;
+          if (issue?.severity === shaka.util.Error.Severity.CRITICAL) {
+            errorRecoveryPending = true;
+            window.setTimeout(() => {
+              errorRecoveryPending = false;
+              if (!loading && !shouldStop) recoverStream();
+            }, 400);
+          }
+        });
+        player.addEventListener('buffering', event => {
+          if (loading || shouldStop) return;
+          if (event.buffering && !video.paused) setLoading('Buffering…','Restoring the live stream');
+          else if (!event.buffering && video.readyState >= 2) hideLoading();
+        });
+        video.addEventListener('playing', () => { if (!loading) hideLoading(); });
+        video.addEventListener('pause', () => { if (!loading) hideLoading(); });
+      }
+
+      function waitTimeout(promise, limitMs) {
+        let timer;
+        return Promise.race([
+          promise,
+          new Promise((_,reject) => { timer=setTimeout(() => reject(new Error('Stream load timed out')),limitMs); })
+        ]).finally(() => clearTimeout(timer));
+      }
+      async function loadAvailable(startIndex = 0) {
+        if (loading || shouldStop) return;
+        loading = true;
+        errorRecoveryPending = false;
+        clearTimeout(stableTimer);
+        const token = ++loadingToken;
+        try {
+          await initShaka();
+          for (let idx = startIndex; idx < streams.length && token === loadingToken; idx++) {
+            const stream = streams[idx];
+            for (let retry = 0; retry <= MAX_RETRIES && token === loadingToken; retry++) {
+              setServer(stream.name, idx);
+              setLoading('Connecting to live stream…', `${stream.name} · Attempt ${retry+1}/${MAX_RETRIES+1}`);
+              try {
+                video.pause();
+                await player.unload();
+                player.configure({drm:{clearKeys:clearKeys(currentMatch?.drm_key)}});
+                await waitTimeout(player.load(stream.url), LOAD_TIMEOUT);
+                if (token !== loadingToken) return;
+                loading = false;
+                hideLoading();
+                hideError();
+                try { await video.play(); }
+                catch(e) { if (e.name !== 'NotAllowedError' && e.name !== 'AbortError') console.warn('Autoplay:',e); }
+                runtimeFailures = 0;
+                stableTimer = setTimeout(() => { runtimeFailures = 0; }, 60000);
+                return;
+              } catch(error) {
+                console.warn(`Stream ${idx+1} attempt ${retry+1} failed:`, error);
+                if (token !== loadingToken) return;
+              }
+            }
+          }
+          showError('All streams unavailable','The current match streams could not be played. Please try again.');
+        } catch(error) {
+          console.error('Willow initialization error:',error);
+          showError('Player unavailable', error.message || 'Unable to start the player.');
+        } finally { if (token === loadingToken) loading = false; }
+      }
+      function hideError() { errorPanel.hidden = true; }
+      function recoverStream() {
+        if (loading || shouldStop || streams.length === 0) return;
+        if (runtimeFailures >= streams.length) {
+          showError('Stream interrupted','Please try again to reconnect.');
+          return;
+        }
+        runtimeFailures++;
+        loadAvailable(Math.min(Math.max(activeIndex,0)+1, streams.length-1));
+      }
+      async function fetchMatchData() {
+        if (!MATCH_ID) {
+          showError('No match selected','Open a Willow event using ?id=YOUR_MATCH_ID.');
+          detailPanel.className='match-loading';
+          detailPanel.textContent='No match identifier was provided in the URL.';
+          return;
+        }
+        setLoading('Loading match…','Fetching Willow match information');
+        try {
+          const response = await fetch(API_URL,{headers:{Accept:'application/json'}});
+          if (!response.ok) throw Error(`Willow API returned ${response.status}`);
+          const data = await response.json();
+          if (data?.error) throw Error(String(data.message || 'API error'));
+          const all = Array.isArray(data) ? data : Array.isArray(data.Matches) ? data.Matches : Array.isArray(data.streams) ? data.streams : [];
+          const match = all.find(m => getSafeStreamId(m) === MATCH_ID || String(m.match_id || '') === MATCH_ID);
+          if (!match) throw Error('No event found for this match ID.');
+          currentMatch = match;
+          streams = getAllStreamUrls(match);
+          renderMatch(match);
+          if (String(match.status || '').toUpperCase() !== 'LIVE') {
+            showError(String(match.status || '').toUpperCase() === 'UPCOMING' ? 'Match has not started' : 'Match is not live', `Current status: ${match.status || 'Unknown'}. Live playback is unavailable at this time.`, false);
+            return;
+          }
+          if (!streams.length) {
+            showError('No live streams available','No active stream URLs are listed for this match.',false);
+            return;
+          }
+          await loadAvailable(0);
+        } catch(error) {
+          console.error('Willow match fetch:',error);
+          detailPanel.className = 'match-loading';
+          detailPanel.textContent = error.message || 'Unable to fetch match information.';
+          showError('Unable to load match',error.message || 'Please retry.');
+        }
+      }
+      retryBtn.addEventListener('click', () => {
+        if (!currentMatch) fetchMatchData();
+        else if (streams.length) loadAvailable(0);
+        else fetchMatchData();
+      });
+      window.addEventListener('pagehide', async () => {
+        shouldStop = true;
+        ++loadingToken;
+        clearTimeout(stableTimer);
+        video.pause();
+        if (ui) { try { await ui.destroy(); } catch(e) {} ui = null; }
+        if (player) { try { await player.destroy(); } catch(e) {} player = null; }
+      });
+      if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', fetchMatchData, {once:true});
+      else fetchMatchData();
+
+      // CHANNELS / LIVE CHAT TABS
+      const tabBtns = [...document.querySelectorAll('.tab-btn')];
+      const tabContents = [...document.querySelectorAll('.tab-content')];
+      tabBtns.forEach(btn => btn.addEventListener('click', () => {
+        const target = btn.dataset.tab;
+        tabBtns.forEach(b => {
+          const active = b === btn;
+          b.classList.toggle('active', active);
+          b.setAttribute('aria-selected', String(active));
+        });
+        tabContents.forEach(panel => {
+          const active = panel.id === target;
+          panel.classList.toggle('active', active);
+          panel.hidden = !active;
+        });
+      }));
+
+      // WhatsApp popup always opens 3 seconds after each full page load.
+      // No localStorage or sessionStorage gating is used.
+      const waOverlay = document.getElementById('waOverlay');
+      const popupCloseBtn = document.getElementById('popupCloseBtn');
+      let popupPreviousFocus = null;
+      function dismissPopup() {
+        if (!waOverlay.classList.contains('show')) return;
+        waOverlay.classList.remove('show');
+        document.documentElement.classList.remove('popup-open');
+        if (popupPreviousFocus?.focus) popupPreviousFocus.focus({ preventScroll: true });
+      }
+      function showPopup() {
+        popupPreviousFocus = document.activeElement;
+        waOverlay.classList.add('show');
+        popupCloseBtn.focus({ preventScroll: true });
+      }
+      window.setTimeout(showPopup, 3000);
+      popupCloseBtn.addEventListener('click', dismissPopup);
+      document.getElementById('joinNow').addEventListener('click', () => {
+        window.open(WHATSAPP_LINK, '_blank', 'noopener,noreferrer');
+        dismissPopup();
+      });
+      const joinedBtn = document.getElementById('joinedBtn');
+      let joinedClosing = false;
+      joinedBtn.addEventListener('click', event => {
+        if (joinedClosing) return;
+        joinedClosing = true;
+        const rect = joinedBtn.getBoundingClientRect();
+        const size = Math.max(rect.width, rect.height) * 2;
+        const ripple = document.createElement('span');
+        ripple.className = 'btn-ripple';
+        const x = event.detail === 0 ? rect.width / 2 : event.clientX - rect.left;
+        const y = event.detail === 0 ? rect.height / 2 : event.clientY - rect.top;
+        ripple.style.width = `${size}px`;
+        ripple.style.height = `${size}px`;
+        ripple.style.left = `${x - size / 2}px`;
+        ripple.style.top = `${y - size / 2}px`;
+        joinedBtn.appendChild(ripple);
+        window.setTimeout(() => {
+          dismissPopup();
+          ripple.remove();
+          joinedClosing = false;
+        }, matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 360);
+      });
+      waOverlay.addEventListener('click', e => { if (e.target === waOverlay) dismissPopup(); });
+      document.addEventListener('keydown', e => {
+        if (!waOverlay.classList.contains('show')) return;
+        if (e.key === 'Escape') dismissPopup();
+        if (e.key === 'Tab') {
+          const items = [...waOverlay.querySelectorAll('button')];
+          const first = items[0], last = items[items.length-1];
+          if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+          else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+        }
+      });
+      document.getElementById('stripJoinBtn').addEventListener('click', () => {
+        window.open(WHATSAPP_LINK, '_blank', 'noopener,noreferrer');
+      });
+      document.getElementById('stripCloseBtn').addEventListener('click', () => {
+        document.getElementById('waStrip').hidden = true;
+      });
+
+      // HEADER + HAMBURGER DRAWER
+      const $ = s => document.querySelector(s);
+      const header = $('.site-header');
+      const drawer = $('#drawer');
+      const scrim = $('#scrim');
+      const menuBtn = $('.menu');
+      const closeBtn = $('.dclose');
+      const qNav = $('.dr-nav');
+      const qRes = $('.dr-results');
+      const qIn = $('.dr-search input');
+      const media = matchMedia('(min-width:768px)');
+      const syncHeader = () => header.classList.toggle('scrolled', window.scrollY > 24);
+      window.addEventListener('scroll', syncHeader, { passive: true });
+      syncHeader();
+      const IC = {
+        home: '<path d="M3 11.5 12 4l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/>',
+        cal: '<rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/>',
+        cric: '<path d="m14 4 6 6-9.5 9.5a2 2 0 0 1-2.8 0l-3.2-3.2a2 2 0 0 1 0-2.8z"/><path d="m5 19-2 2"/>',
+        foot: '<circle cx="12" cy="12" r="9"/><path d="m12 8 3.5 2.5-1.3 4.1H9.8L8.5 10.5z"/><path d="M12 3v5M15.5 10.5 20 9M14.2 14.6l2.6 3.7M9.8 14.6l-2.6 3.7M8.5 10.5 4 9"/>',
+        f1: '<path d="M4 17a8 8 0 1 1 16 0"/><path d="m12 17 4-5"/><circle cx="12" cy="17" r="1.2" fill="currentColor"/>',
+        grid: '<rect x="4" y="4" width="6.5" height="6.5" rx="1.5"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.5"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.5"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.5"/>',
+        tag: '<path d="M3 12V4h8l10 10-8 8z"/><circle cx="7.5" cy="8.5" r="1.3"/>',
+        help: '<circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.7.4-1 .9-1 1.7M12 17h.01"/>'
+      };
+      const ico = key => `<svg class="i" viewBox="0 0 24 24" aria-hidden="true">${IC[key]}</svg>`;
+      const NAV = [['Home','#','home'],['Schedule','#','cal'],['Cricket','#channels','cric'],['Football','#','foot'],['Formula 1','#','f1']];
+      const SPORTS = ['Tennis','Basketball','Kabaddi','Hockey','Golf','NASCAR','MMA','Badminton','Volleyball'];
+      let ki = 0;
+      const sty = () => `style="--i:${ki++}"`;
+      qNav.innerHTML = NAV.map(([t,h,i],n) =>
+        `<a class="dr-item" ${sty()} href="${h}" ${n===0?'aria-current="page"':''}>${ico(i)}<span>${t}</span></a>`
+      ).join('') +
+      `<button class="dr-item dr-acc" type="button" ${sty()} aria-expanded="false" aria-controls="dr-sub">${ico('grid')}<span>All Sports</span><svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>` +
+      `<div class="dr-sub" id="dr-sub"><div>${SPORTS.map(t=>`<a class="dr-sub-item" href="#">${t}</a>`).join('')}</div></div>` +
+      `<div class="dr-sep"></div>` +
+      `<a class="dr-item" ${sty()} href="#">${ico('tag')}<span>Offers</span><span class="dr-new">NEW</span></a>` +
+      `<a class="dr-item" ${sty()} href="#">${ico('help')}<span>Help &amp; Support</span></a>`;
+      let dOpen = false, lastFocus = null;
+      function openDrawer() {
+        if (dOpen || media.matches) return;
+        dOpen = true;
+        lastFocus = document.activeElement;
+        drawer.inert = false;
+        drawer.setAttribute('aria-hidden','false');
+        menuBtn.setAttribute('aria-expanded','true');
+        document.documentElement.classList.add('lock');
+        drawer.classList.add('open'); scrim.classList.add('open');
+        setTimeout(() => { if (dOpen) closeBtn.focus({ preventScroll:true }); }, 60);
+      }
+      function closeDrawer() {
+        if (!dOpen) return;
+        dOpen = false;
+        drawer.classList.remove('open'); scrim.classList.remove('open');
+        drawer.inert = true;
+        drawer.setAttribute('aria-hidden','true');
+        menuBtn.setAttribute('aria-expanded','false');
+        document.documentElement.classList.remove('lock');
+        if (lastFocus?.focus) lastFocus.focus({ preventScroll:true });
+      }
+      menuBtn.addEventListener('click', openDrawer);
+      closeBtn.addEventListener('click', closeDrawer);
+      scrim.addEventListener('click', closeDrawer);
+      window.addEventListener('keydown', e => { if (e.key === 'Escape') closeDrawer(); });
+      media.addEventListener('change', () => { if (media.matches) closeDrawer(); });
+      drawer.addEventListener('click', e => {
+        const acc = e.target.closest('.dr-acc');
+        if (acc) {
+          const expanded = acc.getAttribute('aria-expanded') !== 'true';
+          acc.setAttribute('aria-expanded',String(expanded));
+          $('#dr-sub').classList.toggle('open',expanded);
+          return;
+        }
+        const link = e.target.closest('a[href]');
+        if (link) {
+          if (link.classList.contains('dr-item')) {
+            qNav.querySelectorAll('a.dr-item').forEach(a => a.removeAttribute('aria-current'));
+            link.setAttribute('aria-current','page');
+          }
+          closeDrawer();
+        }
+      });
+      const esc = text => String(text).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+      qIn.addEventListener('input', () => {
+        const raw = qIn.value.trim(), v = raw.toLowerCase();
+        qNav.hidden = !!v; qRes.hidden = !v;
+        if (!v) { qRes.innerHTML = ''; return; }
+        const secs = [...NAV.map(([t,h,i])=>({t,h,i})),...SPORTS.map(t=>({t,h:'#',i:'grid'}))].filter(x=>x.t.toLowerCase().includes(v));
+        qRes.innerHTML = secs.length
+          ? `<p class="dr-h">Sections</p>` + secs.map(x=>`<a class="dr-res" href="${x.h}">${ico(x.i)}<b>${esc(x.t)}</b></a>`).join('')
+          : `<p class="dr-empty">No results for “${esc(raw)}”</p>`;
+      });
+      drawer.addEventListener('keydown', e => {
+        if (e.key !== 'Tab') return;
+        const f = [...drawer.querySelectorAll('a[href],button,input')].filter(x=>x.offsetParent !== null);
+        if (!f.length) return;
+        if (e.shiftKey && document.activeElement === f[0]) { e.preventDefault(); f[f.length-1].focus(); }
+        else if (!e.shiftKey && document.activeElement === f[f.length-1]) { e.preventDefault(); f[0].focus(); }
+      });
+      let drag = null;
+      drawer.addEventListener('pointerdown', e => {
+        if (!dOpen || e.target.closest('input')) return;
+        drag = {x:e.clientX,y:e.clientY,id:e.pointerId,dx:0,on:false,t:performance.now()};
+      });
+      drawer.addEventListener('pointermove', e => {
+        if (!drag || e.pointerId !== drag.id) return;
+        const dx=e.clientX-drag.x,dy=e.clientY-drag.y;
+        if (!drag.on && dx < -8 && Math.abs(dx)>Math.abs(dy)*1.4) {
+          drag.on = true;
+          drawer.setPointerCapture(e.pointerId); drawer.classList.add('drag'); scrim.style.transition='none';
+        }
+        if (drag.on) {
+          drag.dx=Math.min(0,dx);
+          drawer.style.transform=`translate3d(${drag.dx}px,0,0)`;
+          scrim.style.opacity=Math.max(0,1+drag.dx/drawer.offsetWidth);
+        }
+      });
+      function endDrag(cancel) {
+        if (!drag) return;
+        const d=drag; drag=null;
+        if (!d.on) return;
+        const w=drawer.offsetWidth, v=d.dx/Math.max(1,performance.now()-d.t);
+        drawer.classList.remove('drag'); drawer.style.transform=''; scrim.style.transition=''; scrim.style.opacity='';
+        if (!cancel && (d.dx<-w*.3 || v<-.5)) closeDrawer();
+      }
+      drawer.addEventListener('pointerup',()=>endDrag(false));
+      drawer.addEventListener('pointercancel',()=>endDrag(true));
+    })();
+  </script>
+  <!-- Original Willow page ad script retained -->
+  <script src="https://pl30635578.effectivecpmnetwork.com/fa/39/69/fa3969f9a99b769eddf6af8828044a3f.js"></script>
+</body>
+</html>
