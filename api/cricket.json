@@ -20,6 +20,12 @@
     },
     "dashStreams": [
       {
+        "title": "TNT SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
+        "key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
+      },
+      {
         "title": "PRIME HINDI FHD",
         "type": "dash",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/mohqiz9gyv/out/v1/95de092d1d574891ba87cd37df9c3f2b/cenc.mpd",
@@ -36,12 +42,6 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/pog3pkfhga/out/v1/20164001c7d9489f898d05761ad05077/cenc.mpd",
         "key": "2765adbf6880195515fed136e5a989fa:f1356a68a923c31d7184dfa1b91c161f"
-      },
-      {
-        "title": "TNT SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd",
-        "key": "cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca"
       },
       {
         "title": "TAPMAD FHD",
@@ -229,7 +229,7 @@
     "title": "Nepal Premier League",
     "slug": "npl-vs-npl",
     "cat": "Live Events",
-    "status": "ended",
+    "status": "upcoming",
     "event": {
       "name": "Nepal Premier League",
       "category": "Cricket",
@@ -238,10 +238,10 @@
       "teamB": "NPL",
       "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAV3dcOxi7602i_xcqoTE6eoiGVCPJFo6uZwtDkDK-g&s=10",
       "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAV3dcOxi7602i_xcqoTE6eoiGVCPJFo6uZwtDkDK-g&s=10",
-      "startTimeIST": "2026-11-03 12:10:00 IST",
-      "endTimeIST": "2026-11-03 21:15:00 IST",
-      "startTimeUTC": "2026/11/03 06:40:00 +0000",
-      "endTimeUTC": "2026/11/03 15:45:00 +0000"
+      "startTimeIST": "2026-11-05 12:10:00 IST",
+      "endTimeIST": "2026-11-05 21:15:00 IST",
+      "startTimeUTC": "2026/11/05 06:40:00 +0000",
+      "endTimeUTC": "2026/11/05 15:45:00 +0000"
     },
     "dashStreams": [
       {
