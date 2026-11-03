@@ -869,16 +869,16 @@
         "key": "3c9c9759302a690821dc000229d317f4:dcda7b2874e022d6a03847f78565fedf"
       },
       {
-        "title": "PARAMOUNT+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0nsrdwyz6d/out/v1/1fb3f803330c4d56b7067eb32a2d7b5b/cenc.mpd",
-        "key": "c42433b27c13a1ad99d32d2c027eeb59:2dad308a6387c9d4fc9b881d01b509d1"
-      },
-      {
         "title": "TNT SPORTS FHD",
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
         "key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
+      },
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0nsrdwyz6d/out/v1/1fb3f803330c4d56b7067eb32a2d7b5b/cenc.mpd",
+        "key": "c42433b27c13a1ad99d32d2c027eeb59:2dad308a6387c9d4fc9b881d01b509d1"
       },
       {
         "title": "DAZN SPORTS DE",
@@ -887,15 +887,33 @@
         "key": "6dcdc041688dd8c939209051ddc16ad7:07f42a6ce5def87eaa37b2cf01263d9d"
       },
       {
+        "title": "TNT SPORTS HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59200/load-playlist-multi?&.m3u8",
+        "key": null
+      },
+      {
         "title": "SonyLiv (Asia)",
         "type": "hls",
         "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2094589/footlive0311/ENG/std_lrh-800300010.m3u8",
         "key": null
       },
       {
+        "title": "FHD SERVER",
+        "type": "hls",
+        "url": "https://tg0o4gr4uqmtt8y41hcjzgezdrmmbqbh8c3toq73u1cjqxfozr5udctzy.100ycdn.com/apxvf0ws91.yarncdn.live/live/sd-6Mxj4xYAKY3ZEvFyyJ/playlist.m3u8?wsSession=8fe805974b1895289911c75d-179373652619860&wsIPSercert=95393e5936bc899fb6501629a824abeb&wsBindIP=2&wsserid=1168309217956179940",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/30ca7e7b-ad32-4a90-aa2e-fd389c580555.m3u8",
+        "key": null
+      },
+      {
         "title": "LOW SERVER",
         "type": "hls",
-        "url": "http://193.47.62.59/hls/HCCCaaaaa.m3u8",
+        "url": "http://193.47.62.55/hls/HCCCaaaaaX.m3u8",
         "key": null
       }
     ]
@@ -927,16 +945,28 @@
         "key": "6d5337196b414dded830543ce01575c8:f5db6c7b83d3a8ee391191a5486ba567"
       },
       {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/f9bag1jthy/out/v1/3b8065fd2f2448ae950acb1799289059/cenc.mpd",
+        "key": "36e4c42e68010f7a3e5f543d18e48242:014543c3e28193bbe08cf7e3f729715e"
+      },
+      {
         "title": "DAZN SPORTS HD",
         "type": "hls",
         "url": "https://chatgpt.hereisman.net/playlist/59197/load-playlist-multi?&.m3u8",
         "key": null
       },
       {
-        "title": "PARAMOUNT+ FHD",
+        "title": "DAZN DE FHD",
         "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/f9bag1jthy/out/v1/3b8065fd2f2448ae950acb1799289059/cenc.mpd",
-        "key": "36e4c42e68010f7a3e5f543d18e48242:014543c3e28193bbe08cf7e3f729715e"
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/jtyvkcoh4v/out/v1/075533792ddb4a178c7b77a2c582bcaa/cenc.mpd",
+        "key": "746772ee03bdc6b4c4d26384bff0e499:3d88f15c96f473fbfae335e7f1b6b200"
+      },
+      {
+        "title": "VIX Español FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rxlovii2bb/out/v1/4ee96f7b64494c1aa1dc327b3f9b07ed/cenc.mpd",
+        "key": "d504a4144684bf40c4ad12a9cf7c3faa:f81e60e7f3c75a3453b3dd605d2b01dd"
       },
       {
         "title": "TAPMAD FHD",
@@ -1287,7 +1317,7 @@
     },
     "dashStreams": [
       {
-        "title": "HD SERVER",
+        "title": "PREMIERE FHD",
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/oy6rp0jwmf/out/v1/580ecf12bad24979baf8dd993dce053e/cenc.mpd",
         "key": "9dc40460c93087aea84d6315f08ecb64:f69c8d4624fddff4ca89bd0b31bdc4a7"
