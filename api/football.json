@@ -443,6 +443,12 @@
     },
     "dashStreams": [
       {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4621495.m3u8?txSecret=a05fe407a6ee081223268203a63b0458&txTime=6AE9E278",
+        "key": null
+      },
+      {
         "title": "SD SERVER",
         "type": "hls",
         "url": "http://193.47.62.41/hls/ELLLAAA.m3u8",
@@ -452,6 +458,12 @@
         "title": "SD SERVER+",
         "type": "hls",
         "url": "http://162.251.160.53:8089/231/index.m3u8",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel2.m3u8?",
         "key": null
       }
     ]
