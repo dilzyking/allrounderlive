@@ -1,0 +1,199 @@
+/* Card dimensions, captions, arrows and LIVE badges inherit All Live Now. */
+.allsports-section .allsports-thumb {
+  background: radial-gradient(ellipse at 8% 0%, #315e62 0%, transparent 60%),
+    radial-gradient(ellipse at 100% 100%, #262f54 0%, transparent 65%), #101820;
+  isolation: isolate;
+}
+.as-poster-content {
+  position: absolute;
+  inset: 6% 6% 17%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5%;
+}
+.as-event-name {
+  text-align: center;
+  color: #dde2e7;
+  font-size: clamp(10px, 2.8vw, 16px);
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.as-teams {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 18% minmax(0, 1fr);
+  align-items: center;
+  text-align: center;
+}
+.as-team { min-width: 0; }
+.as-team-image-wrap {
+  position: relative;
+  width: 58%;
+  aspect-ratio: 1;
+  margin: 0 auto 4px;
+  border: 1px solid #ffffff38;
+  border-radius: 50%;
+  background: linear-gradient(140deg, #ffffff22, #ffffff05);
+  box-shadow: inset 0 2px 0 #ffffff19;
+  overflow: hidden;
+}
+.as-team-placeholder, .as-team-image-wrap img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+.as-team-placeholder {
+  display: grid;
+  place-items: center;
+  color: #e1e6eb;
+  font-weight: 700;
+  font-size: clamp(12px, 3vw, 22px);
+}
+.as-team-image-wrap img { object-fit: contain; padding: 12%; visibility: hidden; }
+.as-team-image-wrap.has-image .as-team-placeholder { visibility: hidden; }
+.as-team-name {
+  display: block;
+  color: #e2e3e8;
+  font-size: clamp(10px, 2.8vw, 17px);
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.as-vs {
+  display: grid;
+  place-items: center;
+  width: 80%;
+  aspect-ratio: 1;
+  margin: auto;
+  background: #ffffff0c;
+  border: 1px solid #ffffff20;
+  border-radius: 50%;
+  font-size: clamp(11px, 2.8vw, 18px);
+  font-weight: 700;
+  color: #cdd1db;
+}
+.allsports-section .caption > span {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.allsports-section .as-meta { font-size: inherit; }
+.allsports-section .as-state { color: #b7bbc5; }
+.allsports-card:focus-visible { outline: 2px solid #f55505; outline-offset: -2px; }
+.allsports-empty { padding: 24px 0; color: #93969f; }
+.as-skeleton-thumb {
+  background: linear-gradient(100deg, #121620 25%, #222938 50%, #121620 75%);
+  background-size: 200% 100%;
+  animation: as-loading 1.6s ease-in-out infinite;
+}
+.as-skeleton-line { height: 10px; background: #ffffff12; margin: 5px 0; width: 80%; }
+.as-skeleton-line:last-child { width: 55%; }
+@keyframes as-loading { to { background-position: -200% 0; } }
+@media (prefers-reduced-motion: reduce) { .as-skeleton-thumb { animation: none; } }
+
+.as-upcoming-icon {
+  position: absolute; bottom: 7px; left: 8px; z-index: 1;
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 27px; height: 25px; padding: 4px;
+  border-radius: 2px; background: #f1f0ec; color: #222935;
+}
+.as-upcoming-icon svg { width: 17px; height: 17px; fill: currentColor; }
+.allsports-section .live-rail .arrow {
+  display: flex; position: absolute; align-items: center; justify-content: center;
+  top: var(--as-arrow-top, 65px); width: 36px; height: 42px;
+  padding: 0; border: 0; background: none; color: #fff; z-index: 4;
+  filter: drop-shadow(0 1px 5px #000c);
+}
+.allsports-section .live-rail .arrow svg { width: 24px; height: 24px; }
+.allsports-section .live-rail .prev { left: -14px; }
+.allsports-section .live-rail .next { right: -14px; }
+@media (min-width: 768px) {
+  .allsports-section .live-rail .arrow { width: 48px; height: 48px; }
+  .allsports-section .live-rail .arrow svg { width: 26px; height: 26px; }
+  .allsports-section .live-rail .prev { left: calc(8px - 4vw); }
+  .allsports-section .live-rail .next { right: calc(8px - 4vw); }
+}
+
+/* ==========================================
+   ALL SPORTS — LANDSCAPE CARD SIZE FIX
+   Show 2.5 cards in a single frame
+   ========================================== */
+
+@media (orientation: landscape) and (max-height: 600px) {
+
+  .allsports-section {
+    --as-card-gap: 12px;
+    --as-side-padding: 16px;
+  }
+
+  .allsports-section .allsports-card {
+    flex: 0 0 calc(
+      (100vw - 32px - 24px) / 2.5
+    ) !important;
+
+    width: calc(
+      (100vw - 32px - 24px) / 2.5
+    ) !important;
+
+    min-width: 0 !important;
+    max-width: none !important;
+    box-sizing: border-box;
+  }
+
+  .allsports-section .allsports-thumb {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+
+  .allsports-section .as-event-name {
+    font-size: clamp(10px, 1.7vw, 14px);
+  }
+
+  .allsports-section .as-team-name {
+    font-size: clamp(10px, 1.6vw, 14px);
+  }
+
+  .allsports-section .as-vs {
+    font-size: clamp(10px, 1.6vw, 15px);
+  }
+}
+/* Landscape phones only: ~2.5 cards visible per frame */
+@media (orientation: landscape) and (max-height: 500px) {
+  .allsports-section .live-rail {
+    --as-gap: 10px;        /* set to your current card gap */
+    --as-arrow-top: 45px;  /* arrows follow the smaller thumbnails */
+  }
+
+  .allsports-section .live-rail .allsports-card {
+    /* 2 full cards + half card + 2 gaps = 100% */
+    flex: 0 0 calc((100% - 2 * var(--as-gap)) / 2.5);
+    width: calc((100% - 2 * var(--as-gap)) / 2.5);
+    min-width: 0;
+    max-width: none;
+  }
+
+  /* vw-based clamps get too large in landscape, so scale text down */
+  .as-event-name,
+  .as-team-name,
+  .as-vs { font-size: clamp(9px, 1.6vw, 12px); }
+  .as-team-placeholder { font-size: clamp(10px, 2vw, 15px); }
+}
+
+/* Football — first caption line */
+
+.allsports-section .caption > span:first-child {
+  color: #e2e3e8;
+  font-weight: 600;
+}
+
+/* Football — second caption line */
+
+.allsports-section .caption > span:nth-child(2) {
+  color: #93969f;
+  font-weight: 400;
+}
