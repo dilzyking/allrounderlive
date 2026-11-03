@@ -465,6 +465,48 @@
     "dashStreams": []
   },
   {
+    "id": 5197,
+    "title": "UEFA Youth League",
+    "slug": "galatasaray-u19-vs-stuttgart-u19",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Youth League",
+      "category": "Football",
+      "teamA": "Galatasaray U19",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/120868/image",
+      "teamB": "Stuttgart U19",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/43732/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2132/image/dark",
+      "startTimeIST": "2026-11-03 16:30:00 IST",
+      "endTimeIST": "2026-11-03 18:50:00 IST",
+      "startTimeUTC": "2026/11/03 11:00:00 +0000",
+      "endTimeUTC": "2026/11/03 13:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5202,
+    "title": "UEFA Youth League",
+    "slug": "villarreal-u19-vs-psg-u19",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Youth League",
+      "category": "Football",
+      "teamA": "Villarreal U19",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/206355/image",
+      "teamB": "PSG U19",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/90138/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2132/image/dark",
+      "startTimeIST": "2026-11-03 17:30:00 IST",
+      "endTimeIST": "2026-11-03 19:50:00 IST",
+      "startTimeUTC": "2026/11/03 12:00:00 +0000",
+      "endTimeUTC": "2026/11/03 14:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
     "id": 5186,
     "title": "AFC Champions League Elite",
     "slug": "port-fc-vs-guoan",
@@ -507,6 +549,48 @@
     "dashStreams": []
   },
   {
+    "id": 5200,
+    "title": "UEFA Youth League",
+    "slug": "feyenoord-u19-vs-inter-u20",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Youth League",
+      "category": "Football",
+      "teamA": "Feyenoord U19",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/197177/image",
+      "teamB": "Inter U20",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/826804/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2132/image/dark",
+      "startTimeIST": "2026-11-03 18:30:00 IST",
+      "endTimeIST": "2026-11-03 20:50:00 IST",
+      "startTimeUTC": "2026/11/03 13:00:00 +0000",
+      "endTimeUTC": "2026/11/03 15:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5203,
+    "title": "UEFA Youth League",
+    "slug": "man-united-u19-vs-roma-u20",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Youth League",
+      "category": "Football",
+      "teamA": "Man. United U19",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/120848/image",
+      "teamB": "Roma U20",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/826818/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2132/image/dark",
+      "startTimeIST": "2026-11-03 18:30:00 IST",
+      "endTimeIST": "2026-11-03 20:50:00 IST",
+      "startTimeUTC": "2026/11/03 13:00:00 +0000",
+      "endTimeUTC": "2026/11/03 15:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
     "id": 5189,
     "title": "AFC Champions League Two",
     "slug": "east-bengal-vs-al-seeb",
@@ -528,7 +612,133 @@
     "dashStreams": []
   },
   {
-    "id": 5231,
+    "id": 5201,
+    "title": "UEFA Youth League",
+    "slug": "barcelona-u19-vs-aston-villa-u19",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Youth League",
+      "category": "Football",
+      "teamA": "Barcelona U19",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/90128/image",
+      "teamB": "Aston Villa U19",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/90122/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2132/image/dark",
+      "startTimeIST": "2026-11-03 20:30:00 IST",
+      "endTimeIST": "2026-11-03 22:50:00 IST",
+      "startTimeUTC": "2026/11/03 15:00:00 +0000",
+      "endTimeUTC": "2026/11/03 17:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5205,
+    "title": "UEFA Youth League",
+    "slug": "atl-madrid-u19-vs-bayern-u19",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Youth League",
+      "category": "Football",
+      "teamA": "Atl. Madrid U19",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/72022/image",
+      "teamB": "Bayern U19",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/43728/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2132/image/dark",
+      "startTimeIST": "2026-11-03 20:30:00 IST",
+      "endTimeIST": "2026-11-03 22:50:00 IST",
+      "startTimeUTC": "2026/11/03 15:00:00 +0000",
+      "endTimeUTC": "2026/11/03 17:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5199,
+    "title": "AFC Champions League Elite",
+    "slug": "esteghlal-fc-vs-al-shamal-sc",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "AFC Champions League Elite",
+      "category": "Football",
+      "teamA": "Esteghlal FC",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/34316/image",
+      "teamB": "Al Shamal SC",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/170366/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/463/image/dark",
+      "startTimeIST": "2026-11-03 21:30:00 IST",
+      "endTimeIST": "2026-11-03 23:50:00 IST",
+      "startTimeUTC": "2026/11/03 16:00:00 +0000",
+      "endTimeUTC": "2026/11/03 18:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5204,
+    "title": "AFC Champions League Two",
+    "slug": "al-hussein-irbid-vs-shorta",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "AFC Champions League Two",
+      "category": "Football",
+      "teamA": "Al-Hussein Irbid",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/117204/image",
+      "teamB": "Shorta",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/61532/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/668/image/dark",
+      "startTimeIST": "2026-11-03 21:30:00 IST",
+      "endTimeIST": "2026-11-03 23:50:00 IST",
+      "startTimeUTC": "2026/11/03 16:00:00 +0000",
+      "endTimeUTC": "2026/11/03 18:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5198,
+    "title": "UEFA Champions League",
+    "slug": "galatasaray-vs-stuttgart",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Champions League",
+      "category": "Football",
+      "teamA": "Galatasaray",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/3061/image",
+      "teamB": "Stuttgart",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2677/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/7/image/dark",
+      "startTimeIST": "2026-11-03 23:15:00 IST",
+      "endTimeIST": "2026-11-04 01:35:00 IST",
+      "startTimeUTC": "2026/11/03 17:45:00 +0000",
+      "endTimeUTC": "2026/11/03 20:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5206,
+    "title": "UEFA Champions League",
+    "slug": "shakhtar-vs-sporting",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Champions League",
+      "category": "Football",
+      "teamA": "Shakhtar",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/3313/image",
+      "teamB": "Sporting",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/3001/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/7/image/dark",
+      "startTimeIST": "2026-11-03 23:15:00 IST",
+      "endTimeIST": "2026-11-04 01:35:00 IST",
+      "startTimeUTC": "2026/11/03 17:45:00 +0000",
+      "endTimeUTC": "2026/11/03 20:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5207,
     "title": "Copa del Rey",
     "slug": "pamplona-vs-eibar",
     "cat": "Live Events",
@@ -546,14 +756,532 @@
       "startTimeUTC": "2026/11/03 18:00:00 +0000",
       "endTimeUTC": "2026/11/03 20:20:00 +0000"
     },
-    "dashStreams": [
-      {
-        "title": "Ivan-FluX",
-        "type": "hls",
-        "url": "https://fallback-video.ivan-fluxo.workers.dev/video/index.m3u8",
-        "key": null
-      }
-    ]
+    "dashStreams": []
+  },
+  {
+    "id": 5208,
+    "title": "Copa del Rey",
+    "slug": "anaitasuna-vs-alaves",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Copa del Rey",
+      "category": "Football",
+      "teamA": "Anaitasuna",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/263773/image",
+      "teamB": "Alavés",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2885/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/329/image/dark",
+      "startTimeIST": "2026-11-03 23:30:00 IST",
+      "endTimeIST": "2026-11-04 01:50:00 IST",
+      "startTimeUTC": "2026/11/03 18:00:00 +0000",
+      "endTimeUTC": "2026/11/03 20:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5209,
+    "title": "AFC Champions League Elite",
+    "slug": "al-hilal-vs-shabab-al-ahli",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "AFC Champions League Elite",
+      "category": "Football",
+      "teamA": "Al-Hilal",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/21895/image",
+      "teamB": "Shabab Al-Ahli",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/264111/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/463/image/dark",
+      "startTimeIST": "2026-11-03 23:45:00 IST",
+      "endTimeIST": "2026-11-04 02:05:00 IST",
+      "startTimeUTC": "2026/11/03 18:15:00 +0000",
+      "endTimeUTC": "2026/11/03 20:35:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5210,
+    "title": "Championship",
+    "slug": "charlton-vs-bolton",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Championship",
+      "category": "Football",
+      "teamA": "Charlton",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/47/image",
+      "teamB": "Bolton",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/5/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
+      "startTimeIST": "2026-11-04 01:15:00 IST",
+      "endTimeIST": "2026-11-04 03:35:00 IST",
+      "startTimeUTC": "2026/11/03 19:45:00 +0000",
+      "endTimeUTC": "2026/11/03 22:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5211,
+    "title": "Championship",
+    "slug": "watford-vs-lincoln",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Championship",
+      "category": "Football",
+      "teamA": "Watford",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/24/image",
+      "teamB": "Lincoln",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/92/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
+      "startTimeIST": "2026-11-04 01:15:00 IST",
+      "endTimeIST": "2026-11-04 03:35:00 IST",
+      "startTimeUTC": "2026/11/03 19:45:00 +0000",
+      "endTimeUTC": "2026/11/03 22:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5212,
+    "title": "Championship",
+    "slug": "preston-vs-sheffield-utd",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Championship",
+      "category": "Football",
+      "teamA": "Preston",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/21/image",
+      "teamB": "Sheffield Utd",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/15/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
+      "startTimeIST": "2026-11-04 01:15:00 IST",
+      "endTimeIST": "2026-11-04 03:35:00 IST",
+      "startTimeUTC": "2026/11/03 19:45:00 +0000",
+      "endTimeUTC": "2026/11/03 22:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5213,
+    "title": "Championship",
+    "slug": "qpr-vs-burnley",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Championship",
+      "category": "Football",
+      "teamA": "QPR",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1/image",
+      "teamB": "Burnley",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/6/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
+      "startTimeIST": "2026-11-04 01:15:00 IST",
+      "endTimeIST": "2026-11-04 03:35:00 IST",
+      "startTimeUTC": "2026/11/03 19:45:00 +0000",
+      "endTimeUTC": "2026/11/03 22:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5214,
+    "title": "Championship",
+    "slug": "derby-vs-norwich",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Championship",
+      "category": "Football",
+      "teamA": "Derby",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/27/image",
+      "teamB": "Norwich",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/263/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
+      "startTimeIST": "2026-11-04 01:15:00 IST",
+      "endTimeIST": "2026-11-04 03:35:00 IST",
+      "startTimeUTC": "2026/11/03 19:45:00 +0000",
+      "endTimeUTC": "2026/11/03 22:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5215,
+    "title": "Championship",
+    "slug": "portsmouth-vs-swansea",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Championship",
+      "category": "Football",
+      "teamA": "Portsmouth",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2/image",
+      "teamB": "Swansea",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/74/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
+      "startTimeIST": "2026-11-04 01:15:00 IST",
+      "endTimeIST": "2026-11-04 03:35:00 IST",
+      "startTimeUTC": "2026/11/03 19:45:00 +0000",
+      "endTimeUTC": "2026/11/03 22:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5216,
+    "title": "Championship",
+    "slug": "blackburn-vs-stoke",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Championship",
+      "category": "Football",
+      "teamA": "Blackburn",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/46/image",
+      "teamB": "Stoke",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/29/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
+      "startTimeIST": "2026-11-04 01:15:00 IST",
+      "endTimeIST": "2026-11-04 03:35:00 IST",
+      "startTimeUTC": "2026/11/03 19:45:00 +0000",
+      "endTimeUTC": "2026/11/03 22:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5217,
+    "title": "UEFA Champions League",
+    "slug": "barcelona-vs-aston-villa",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Champions League",
+      "category": "Football",
+      "teamA": "Barcelona",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2817/image",
+      "teamB": "Aston Villa",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/40/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/7/image/dark",
+      "startTimeIST": "2026-11-04 01:30:00 IST",
+      "endTimeIST": "2026-11-04 03:50:00 IST",
+      "startTimeUTC": "2026/11/03 20:00:00 +0000",
+      "endTimeUTC": "2026/11/03 22:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5218,
+    "title": "UEFA Champions League",
+    "slug": "atletico-madrid-vs-bayern",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Champions League",
+      "category": "Football",
+      "teamA": "Atlético Madrid",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2836/image",
+      "teamB": "Bayern",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2672/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/7/image/dark",
+      "startTimeIST": "2026-11-04 01:30:00 IST",
+      "endTimeIST": "2026-11-04 03:50:00 IST",
+      "startTimeUTC": "2026/11/03 20:00:00 +0000",
+      "endTimeUTC": "2026/11/03 22:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5219,
+    "title": "UEFA Champions League",
+    "slug": "villarreal-vs-psg",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Champions League",
+      "category": "Football",
+      "teamA": "Villarreal",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2819/image",
+      "teamB": "PSG",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1644/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/7/image/dark",
+      "startTimeIST": "2026-11-04 01:30:00 IST",
+      "endTimeIST": "2026-11-04 03:50:00 IST",
+      "startTimeUTC": "2026/11/03 20:00:00 +0000",
+      "endTimeUTC": "2026/11/03 22:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5220,
+    "title": "UEFA Champions League",
+    "slug": "man-utd-vs-roma",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Champions League",
+      "category": "Football",
+      "teamA": "Man Utd",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/35/image",
+      "teamB": "Roma",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2702/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/7/image/dark",
+      "startTimeIST": "2026-11-04 01:30:00 IST",
+      "endTimeIST": "2026-11-04 03:50:00 IST",
+      "startTimeUTC": "2026/11/03 20:00:00 +0000",
+      "endTimeUTC": "2026/11/03 22:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5221,
+    "title": "UEFA Champions League",
+    "slug": "feyenoord-vs-inter",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Champions League",
+      "category": "Football",
+      "teamA": "Feyenoord",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2959/image",
+      "teamB": "Inter",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2697/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/7/image/dark",
+      "startTimeIST": "2026-11-04 01:30:00 IST",
+      "endTimeIST": "2026-11-04 03:50:00 IST",
+      "startTimeUTC": "2026/11/03 20:00:00 +0000",
+      "endTimeUTC": "2026/11/03 22:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5222,
+    "title": "UEFA Champions League",
+    "slug": "bod-glimt-vs-lille",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Champions League",
+      "category": "Football",
+      "teamA": "Bodø/Glimt",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/656/image",
+      "teamB": "Lille",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1643/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/7/image/dark",
+      "startTimeIST": "2026-11-04 01:30:00 IST",
+      "endTimeIST": "2026-11-04 03:50:00 IST",
+      "startTimeUTC": "2026/11/03 20:00:00 +0000",
+      "endTimeUTC": "2026/11/03 22:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5223,
+    "title": "UEFA Champions League",
+    "slug": "lask-vs-slovan",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Champions League",
+      "category": "Football",
+      "teamA": "LASK",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2058/image",
+      "teamB": "Slovan",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2404/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/7/image/dark",
+      "startTimeIST": "2026-11-04 01:30:00 IST",
+      "endTimeIST": "2026-11-04 03:50:00 IST",
+      "startTimeUTC": "2026/11/03 20:00:00 +0000",
+      "endTimeUTC": "2026/11/03 22:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5229,
+    "title": "Championship",
+    "slug": "west-brom-vs-southampton",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Championship",
+      "category": "Football",
+      "teamA": "West Brom",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/8/image",
+      "teamB": "Southampton",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/45/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
+      "startTimeIST": "2026-11-04 01:30:00 IST",
+      "endTimeIST": "2026-11-04 03:50:00 IST",
+      "startTimeUTC": "2026/11/03 20:00:00 +0000",
+      "endTimeUTC": "2026/11/03 22:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5231,
+    "title": "Championship",
+    "slug": "birmingham-vs-millwall",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Championship",
+      "category": "Football",
+      "teamA": "Birmingham",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/9/image",
+      "teamB": "Millwall",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/25/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
+      "startTimeIST": "2026-11-04 01:30:00 IST",
+      "endTimeIST": "2026-11-04 03:50:00 IST",
+      "startTimeUTC": "2026/11/03 20:00:00 +0000",
+      "endTimeUTC": "2026/11/03 22:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5225,
+    "title": "Campeonato Brasileiro Série A",
+    "slug": "chapecoense-vs-mirassol",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Campeonato Brasileiro Série A",
+      "category": "Football",
+      "teamA": "Chapecoense",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/21845/image",
+      "teamB": "Mirassol",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/21982/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
+      "startTimeIST": "2026-11-04 04:00:00 IST",
+      "endTimeIST": "2026-11-04 06:20:00 IST",
+      "startTimeUTC": "2026/11/03 22:30:00 +0000",
+      "endTimeUTC": "2026/11/04 00:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5226,
+    "title": "Campeonato Brasileiro Série A",
+    "slug": "internacional-vs-coritiba",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Campeonato Brasileiro Série A",
+      "category": "Football",
+      "teamA": "Internacional",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1966/image",
+      "teamB": "Coritiba",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1982/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
+      "startTimeIST": "2026-11-04 06:00:00 IST",
+      "endTimeIST": "2026-11-04 08:20:00 IST",
+      "startTimeUTC": "2026/11/04 00:30:00 +0000",
+      "endTimeUTC": "2026/11/04 02:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5230,
+    "title": "AFC Champions League Two",
+    "slug": "melbourne-victory-vs-persib",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "AFC Champions League Two",
+      "category": "Football",
+      "teamA": "Melbourne Victory",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/5970/image",
+      "teamB": "Persib",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/64289/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/668/image/dark",
+      "startTimeIST": "2026-11-04 13:15:00 IST",
+      "endTimeIST": "2026-11-04 15:35:00 IST",
+      "startTimeUTC": "2026/11/04 07:45:00 +0000",
+      "endTimeUTC": "2026/11/04 10:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5224,
+    "title": "AFC Champions League Two",
+    "slug": "fc-seoul-vs-viettel",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "AFC Champions League Two",
+      "category": "Football",
+      "teamA": "FC Seoul",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/7646/image",
+      "teamB": "Viettel",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/231270/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/668/image/dark",
+      "startTimeIST": "2026-11-04 15:30:00 IST",
+      "endTimeIST": "2026-11-04 17:50:00 IST",
+      "startTimeUTC": "2026/11/04 10:00:00 +0000",
+      "endTimeUTC": "2026/11/04 12:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5227,
+    "title": "UEFA Youth League",
+    "slug": "aek-u19-vs-real-madrid-u19",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Youth League",
+      "category": "Football",
+      "teamA": "AEK U19",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/297065/image",
+      "teamB": "Real Madrid U19",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/120854/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2132/image/dark",
+      "startTimeIST": "2026-11-04 15:30:00 IST",
+      "endTimeIST": "2026-11-04 17:50:00 IST",
+      "startTimeUTC": "2026/11/04 10:00:00 +0000",
+      "endTimeUTC": "2026/11/04 12:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5228,
+    "title": "AFC Champions League Elite",
+    "slug": "pohang-steelers-vs-gamba-osaka",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "AFC Champions League Elite",
+      "category": "Football",
+      "teamA": "Pohang Steelers",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/7650/image",
+      "teamB": "Gamba Osaka",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/3138/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/463/image/dark",
+      "startTimeIST": "2026-11-04 15:30:00 IST",
+      "endTimeIST": "2026-11-04 17:50:00 IST",
+      "startTimeUTC": "2026/11/04 10:00:00 +0000",
+      "endTimeUTC": "2026/11/04 12:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5232,
+    "title": "UEFA Youth League",
+    "slug": "fenerbahce-u19-vs-liverpool-u19",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Youth League",
+      "category": "Football",
+      "teamA": "Fenerbahçe U19",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/243800/image",
+      "teamB": "Liverpool U19",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/90134/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2132/image/dark",
+      "startTimeIST": "2026-11-04 16:30:00 IST",
+      "endTimeIST": "2026-11-04 18:50:00 IST",
+      "startTimeUTC": "2026/11/04 11:00:00 +0000",
+      "endTimeUTC": "2026/11/04 13:20:00 +0000"
+    },
+    "dashStreams": []
   },
   {
     "id": 4454,
@@ -594,443 +1322,6 @@
         "key": null
       }
     ]
-  },
-  {
-    "id": 5211,
-    "title": "Campeonato Brasileiro Série A",
-    "slug": "rb-bragantino-vs-santos",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Campeonato Brasileiro Série A",
-      "category": "Football",
-      "teamA": "RB Bragantino",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1999/image",
-      "teamB": "Santos",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1968/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
-      "startTimeIST": "2026-11-03 04:30:00 IST",
-      "endTimeIST": "2026-11-03 06:50:00 IST",
-      "startTimeUTC": "2026/11/02 23:00:00 +0000",
-      "endTimeUTC": "2026/11/03 01:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PREMIERE BR FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
-        "key": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
-      },
-      {
-        "title": "SporTV BR FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd",
-        "key": "51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
-      }
-    ]
-  },
-  {
-    "id": 5207,
-    "title": "Liga Portugal Betclic",
-    "slug": "benfica-vs-alverca",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Liga Portugal Betclic",
-      "category": "Football",
-      "teamA": "Benfica",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/3006/image",
-      "teamB": "Alverca",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/190328/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/238/image/dark",
-      "startTimeIST": "2026-11-03 01:45:00 IST",
-      "endTimeIST": "2026-11-03 04:05:00 IST",
-      "startTimeUTC": "2026/11/02 20:15:00 +0000",
-      "endTimeUTC": "2026/11/02 22:35:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "beIN ENGLISH FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd?",
-        "key": "74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c"
-      },
-      {
-        "title": "D SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd",
-        "key": "f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
-      },
-      {
-        "title": "LIVE SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/sd-1-4578233.m3u8?txSecret=1bcfe68b8bf2bc7bc254156b3820c669&txTime=6AE8FE31",
-        "key": null
-      },
-      {
-        "title": "LOW SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/KPPPAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5208,
-    "title": "Liga Portugal Betclic",
-    "slug": "gil-vicente-vs-vitoria",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Liga Portugal Betclic",
-      "category": "Football",
-      "teamA": "Gil Vicente",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/3010/image",
-      "teamB": "Vitória",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/3009/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/238/image/dark",
-      "startTimeIST": "2026-11-03 01:45:00 IST",
-      "endTimeIST": "2026-11-03 04:05:00 IST",
-      "startTimeUTC": "2026/11/02 20:15:00 +0000",
-      "endTimeUTC": "2026/11/02 22:35:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/sd-1-4578237.m3u8?txSecret=7f7db6e777489d01570c2dd6ed531b98&txTime=6AE8FE48",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/KPPPAAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5197,
-    "title": "Premier League",
-    "slug": "newcastle-vs-everton",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Premier League",
-      "category": "Football",
-      "teamA": "Newcastle",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/39/image",
-      "teamB": "Everton",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/48/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
-      "startTimeIST": "2026-11-03 01:30:00 IST",
-      "endTimeIST": "2026-11-03 03:50:00 IST",
-      "startTimeUTC": "2026/11/02 20:00:00 +0000",
-      "endTimeUTC": "2026/11/02 22:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "FUBO SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd",
-        "key": "42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1"
-      },
-      {
-        "title": "SKY SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qdbhkwig26/out/v1/c3a69dfec0434abea00756cd73e749ff/cenc.mpd",
-        "key": "1106fb025da5b31657618344099c6c14:788284538616a73b56214e90196a6e0f"
-      },
-      {
-        "title": "SKY SPORTS FHD",
-        "type": "hls",
-        "url": "https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=8QTMu03fE4HQaxvEpkjmSA&e=2093477106&scheme=https",
-        "key": null
-      },
-      {
-        "title": "USA NETWORK HD",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59121/load-playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "LIVE SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4558688.m3u8?txSecret=9a2698f76986dd544e4273b4d8b53938&txTime=6AE8FD60",
-        "key": null
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live.uu1pp.com/sport/202_5597517_1.m3u8?txSecret=e932ba08d6a6acfb764c4dce36cf24a6&txTime=6AE931ED",
-        "key": null
-      },
-      {
-        "title": "LOW SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.55/hls/AFFF.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5201,
-    "title": "LaLiga",
-    "slug": "deportivo-vs-osasuna",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "LaLiga",
-      "category": "Football",
-      "teamA": "Deportivo",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2832/image",
-      "teamB": "Osasuna",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2820/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
-      "startTimeIST": "2026-11-03 01:30:00 IST",
-      "endTimeIST": "2026-11-03 03:50:00 IST",
-      "startTimeUTC": "2026/11/02 20:00:00 +0000",
-      "endTimeUTC": "2026/11/02 22:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "DAZN SPORTS (EN/ES)",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/2cbyhcycwi/out/v1/3408f06f77434fefa5a0cf2cd8c58ffa/cenc.mpd",
-        "key": "13ce949c292d44c6893123c2e8569f7d:ee6cc78d0be27019d63fbc1b8331ad5f"
-      },
-      {
-        "title": "PREMIER SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
-        "key": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f"
-      },
-      {
-        "title": "beIN ENGLISH FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-        "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-      },
-      {
-        "title": "FANCODE FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
-      },
-      {
-        "title": "ESPN DEPORTES HD",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59120/load-playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "LIVE SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4565496.m3u8?txSecret=3ff005d2655a60107849ff6740e9c19b&txTime=6AE8FD87",
-        "key": null
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live.uu1pp.com/sport/202_5601454_1.m3u8?txSecret=520883061c9afafa10b9c08d7be175e1&txTime=6AE9321B",
-        "key": null
-      },
-      {
-        "title": "LOW SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/KPPP.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5202,
-    "title": "LaLiga 2",
-    "slug": "mallorca-vs-cadiz",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "LaLiga 2",
-      "category": "Football",
-      "teamA": "Mallorca",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2826/image",
-      "teamB": "Cádiz",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4488/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "startTimeIST": "2026-11-03 01:30:00 IST",
-      "endTimeIST": "2026-11-03 03:50:00 IST",
-      "startTimeUTC": "2026/11/02 20:00:00 +0000",
-      "endTimeUTC": "2026/11/02 22:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "LaLiga Hypermotion",
-        "type": "dash",
-        "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-        "key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-      },
-      {
-        "title": "LIVE SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/sd-1-4567341.m3u8?txSecret=e79b74b8b6916b661bb0ee5a1bafc790&txTime=6AE8FE09",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5205,
-    "title": "Serie A",
-    "slug": "atalanta-vs-parma",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Serie A",
-      "category": "Football",
-      "teamA": "Atalanta",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2686/image",
-      "teamB": "Parma",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2690/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "startTimeIST": "2026-11-03 01:15:00 IST",
-      "endTimeIST": "2026-11-03 03:35:00 IST",
-      "startTimeUTC": "2026/11/02 19:45:00 +0000",
-      "endTimeUTC": "2026/11/02 22:05:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/a8se1ewxyh/out/v1/6be60264f35a4029992b9cd7bfc953d5/cenc.mpd",
-        "key": "1f1beb990203c7f2e20468ed555f1736:7887b793790dec665b757615ce5bce12"
-      },
-      {
-        "title": "DAZN ITALIAN FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ip3xd8i9cy/out/v1/bfc7a8bbf77244df8919ad8d76018b40/cenc.mpd",
-        "key": "d38bea3e827e44ed1d874bcd57f9f718:daaed331633a6b260dfce59af86be0fa"
-      },
-      {
-        "title": "DAZN SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/wyjjf8trsu/out/v1/eae36d06f8e041e08c2f8f00b8b9db77/cenc.mpd",
-        "key": "99a7a3acf15d01e38fe95ecfb623d2b5:9065f8b2bbc0559eedf3ebc8bf3bde86"
-      },
-      {
-        "title": "TNT SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
-        "key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
-      },
-      {
-        "title": "CBS SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-        "key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-      },
-      {
-        "title": "SPORT 1 CZ FHD",
-        "type": "dash",
-        "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-        "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-      },
-      {
-        "title": "PARAMOUNT+ HD",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59119/load-playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "LIVE SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4549095.m3u8?txSecret=ae30515d7eb51e070ef3d9953be8358e&txTime=6AE8FC4F",
-        "key": null
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live.uu1pp.com/sport/202_5605029_1.m3u8?txSecret=f1928dc4f9fd835dcea91bd3bdc51295&txTime=6AE9301D",
-        "key": null
-      },
-      {
-        "title": "LOW SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.59/hls/FRFRFRAAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5206,
-    "title": "Ligue 1",
-    "slug": "lorient-vs-brest",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Ligue 1",
-      "category": "Football",
-      "teamA": "Lorient",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1656/image",
-      "teamB": "Brest",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1715/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
-      "startTimeIST": "2026-11-03 01:15:00 IST",
-      "endTimeIST": "2026-11-03 03:35:00 IST",
-      "startTimeUTC": "2026/11/02 19:45:00 +0000",
-      "endTimeUTC": "2026/11/02 22:05:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "DAZN SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/hjosczfikj/out/v1/c9ae9a5fdaa34de4bb850066065c9280/cenc.mpd",
-        "key": "4cf6e1a461066c43589adb8b495fa0b1:90d28f3dc6e65427ba1e5717f2dd77e4"
-      },
-      {
-        "title": "beIN ENGLISH FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n7hbpksb18/out/v1/be5403be4a674a7da8b3c81b1fe79692/cenc.mpd",
-        "key": "4fce30c060b7b0464ab765e24fee5ecc:65d612238736eec3794c7e75a6fd362c"
-      },
-      {
-        "title": "LIVE SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4550916.m3u8?txSecret=a0f538997a0ba40f33eaa75930b538ee&txTime=6AE8FC7E",
-        "key": null
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live.uu1pp.com/sport/202_5601176_1.m3u8?txSecret=e28e9bcc771f6caee984ac428b0b4b2c&txTime=6AE93036",
-        "key": null
-      },
-      {
-        "title": "LOW SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.59/hls/FRFRFR.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5203,
-    "title": "Serie A Women",
-    "slug": "fiorentina-vs-juventus",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Serie A Women",
-      "category": "Football",
-      "teamA": "Fiorentina",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/264911/image",
-      "teamB": "Juventus",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/269824/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/10640/image/dark",
-      "startTimeIST": "2026-11-03 01:00:00 IST",
-      "endTimeIST": "2026-11-03 03:20:00 IST",
-      "startTimeUTC": "2026/11/02 19:30:00 +0000",
-      "endTimeUTC": "2026/11/02 21:50:00 +0000"
-    },
-    "dashStreams": []
   },
   {
     "id": 5185,
@@ -1129,141 +1420,6 @@
         "key": null
       }
     ]
-  },
-  {
-    "id": 5200,
-    "title": "LaLiga 2",
-    "slug": "valladolid-vs-leganes",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "LaLiga 2",
-      "category": "Football",
-      "teamA": "Valladolid",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2831/image",
-      "teamB": "Leganés",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2845/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "startTimeIST": "2026-11-02 23:00:00 IST",
-      "endTimeIST": "2026-11-03 01:20:00 IST",
-      "startTimeUTC": "2026/11/02 17:30:00 +0000",
-      "endTimeUTC": "2026/11/02 19:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "LaLiga Hypermotion",
-        "type": "dash",
-        "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-        "key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/YFFFAAAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5204,
-    "title": "Serie A",
-    "slug": "sassuolo-vs-fiorentina",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Serie A",
-      "category": "Football",
-      "teamA": "Sassuolo",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2793/image",
-      "teamB": "Fiorentina",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2693/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "startTimeIST": "2026-11-02 23:00:00 IST",
-      "endTimeIST": "2026-11-03 01:20:00 IST",
-      "startTimeUTC": "2026/11/02 17:30:00 +0000",
-      "endTimeUTC": "2026/11/02 19:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "beIN ENGLISH FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
-        "key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
-      },
-      {
-        "title": "CBS SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-        "key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-      },
-      {
-        "title": "SPORT 1 CZ FHD",
-        "type": "dash",
-        "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-        "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/8KKK.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5210,
-    "title": "Trendyol Süper Lig",
-    "slug": "genclerbirligi-vs-alanyaspor",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Trendyol Süper Lig",
-      "category": "Football",
-      "teamA": "Gençlerbirliği",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/7802/image",
-      "teamB": "Alanyaspor",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/6362/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
-      "startTimeIST": "2026-11-02 22:30:00 IST",
-      "endTimeIST": "2026-11-03 00:50:00 IST",
-      "startTimeUTC": "2026/11/02 17:00:00 +0000",
-      "endTimeUTC": "2026/11/02 19:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/sd-1-4581354.m3u8?txSecret=d6a24d858aa1c7f9a0990d22f5345b68&txTime=6AE8D4B2",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/2JJJAAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5209,
-    "title": "Trendyol 1.Lig",
-    "slug": "kayserispor-vs-muglaspor",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Trendyol 1.Lig",
-      "category": "Football",
-      "teamA": "Kayserispor",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/3072/image",
-      "teamB": "Muğlaspor",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/7034/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/98/image/dark",
-      "startTimeIST": "2026-11-02 22:30:00 IST",
-      "endTimeIST": "2026-11-03 00:50:00 IST",
-      "startTimeUTC": "2026/11/02 17:00:00 +0000",
-      "endTimeUTC": "2026/11/02 19:20:00 +0000"
-    },
-    "dashStreams": []
   },
   {
     "id": 5187,
@@ -1392,40 +1548,6 @@
     ]
   },
   {
-    "id": 5199,
-    "title": "LaLiga 2",
-    "slug": "oviedo-vs-las-palmas",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "LaLiga 2",
-      "category": "Football",
-      "teamA": "Oviedo",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2851/image",
-      "teamB": "Las Palmas",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/6577/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "startTimeIST": "2026-11-02 20:45:00 IST",
-      "endTimeIST": "2026-11-02 23:05:00 IST",
-      "startTimeUTC": "2026/11/02 15:15:00 +0000",
-      "endTimeUTC": "2026/11/02 17:35:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "LaLiga Hypermotion",
-        "type": "dash",
-        "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-        "key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/YFFFAAAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5184,
     "title": "AFC Champions League Elite",
     "slug": "pakhtakor-vs-al-nassr",
@@ -1467,40 +1589,6 @@
         "title": "SD SERVER",
         "type": "hls",
         "url": "http://193.47.62.44/hls/YFFFAAAAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5198,
-    "title": "LaLiga 2",
-    "slug": "tenerife-vs-andorra",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "LaLiga 2",
-      "category": "Football",
-      "teamA": "Tenerife",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2822/image",
-      "teamB": "Andorra",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/324871/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "startTimeIST": "2026-11-02 18:30:00 IST",
-      "endTimeIST": "2026-11-02 20:50:00 IST",
-      "startTimeUTC": "2026/11/02 13:00:00 +0000",
-      "endTimeUTC": "2026/11/02 15:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "LaLiga Hypermotion",
-        "type": "dash",
-        "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-        "key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/YFFFAAAA.m3u8",
         "key": null
       }
     ]
