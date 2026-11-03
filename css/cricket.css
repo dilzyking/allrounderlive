@@ -1,0 +1,280 @@
+/* Uses the existing .card, .thumb, .caption and .badge styles.
+   Same card sizes, two-line captions and LIVE badge as Football. */
+
+#cricket .cricket-live-thumb {
+  background:
+    radial-gradient(
+      ellipse at 8% 0%,
+      #315e62 0%,
+      transparent 60%
+    ),
+    radial-gradient(
+      ellipse at 100% 100%,
+      #262f54 0%,
+      transparent 65%
+    ),
+    #101820;
+  isolation: isolate;
+}
+
+#cricket .cl-poster-content {
+  position: absolute;
+  inset: 6% 6% 17%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5%;
+}
+
+#cricket .cl-event-name {
+  flex-shrink: 0;
+  text-align: center;
+  color: #dde2e7;
+  font-size: clamp(10px, 2.8vw, 16px);
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#cricket .cl-teams {
+  display: grid;
+  grid-template-columns:
+    minmax(0, 1fr)
+    18%
+    minmax(0, 1fr);
+  align-items: center;
+  text-align: center;
+}
+
+#cricket .cl-team {
+  min-width: 0;
+}
+
+#cricket .cl-team-image-wrap {
+  position: relative;
+  width: 58%;
+  aspect-ratio: 1;
+  margin: 0 auto 4px;
+  border: 1px solid #ffffff38;
+  border-radius: 50%;
+  background: linear-gradient(
+    140deg,
+    #ffffff22,
+    #ffffff05
+  );
+  box-shadow: inset 0 2px 0 #ffffff19;
+  overflow: hidden;
+}
+
+#cricket .cl-team-placeholder,
+#cricket .cl-team-image-wrap img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#cricket .cl-team-placeholder {
+  display: grid;
+  place-items: center;
+  color: #e1e6eb;
+  font-weight: 700;
+  font-size: clamp(12px, 3vw, 22px);
+}
+
+#cricket .cl-team-image-wrap img {
+  display: block;
+  object-fit: contain;
+  object-position: center;
+  padding: 12%;
+  visibility: hidden;
+}
+
+#cricket .cl-team-image-wrap.has-image .cl-team-placeholder {
+  visibility: hidden;
+}
+
+#cricket .cl-team-name {
+  display: block;
+  color: #e2e3e8;
+  font-size: clamp(10px, 2.8vw, 17px);
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#cricket .cl-vs {
+  display: grid;
+  place-items: center;
+  width: 80%;
+  aspect-ratio: 1;
+  margin: auto;
+  background: #ffffff0c;
+  border: 1px solid #ffffff20;
+  border-radius: 50%;
+  font-size: clamp(11px, 2.8vw, 18px);
+  font-weight: 700;
+  color: #cdd1db;
+}
+
+/* Exactly two caption lines. */
+#cricket .caption > span {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#cricket .cl-meta {
+  font-size: inherit;
+}
+
+/* Upcoming status bell — same placement as the LIVE badge. */
+#cricket .cl-upcoming-icon {
+  position: absolute;
+  bottom: 7px;
+  left: 8px;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 27px;
+  height: 25px;
+  padding: 4px;
+  border-radius: 2px;
+  background: #f1f0ec;
+  color: #222935;
+}
+
+#cricket .cl-upcoming-icon svg {
+  display: block;
+  width: 17px;
+  height: 17px;
+  fill: currentColor;
+}
+
+/* Side arrows: visible on desktop and landscape phones. */
+#cricket .live-rail > .arrow {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 5;
+  width: 48px;
+  height: 48px;
+  top: var(--cl-arrow-top, 70px);
+  padding: 0;
+  border: 0;
+  background: none;
+  color: #fff;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  filter: drop-shadow(0 1px 5px #000c);
+}
+
+#cricket .live-rail > .prev {
+  left: 0;
+}
+
+#cricket .live-rail > .next {
+  right: 0;
+}
+
+#cricket .live-rail > .arrow svg {
+  width: 26px;
+  height: 26px;
+}
+
+#cricket .cricket-live-card:focus-visible,
+#cricket .arrow:focus-visible {
+  outline: 2px solid #f55505;
+  outline-offset: -2px;
+}
+
+#cricket .cl-empty {
+  padding: 24px 0;
+  color: #93969f;
+}
+
+#cricket .cl-retry {
+  margin-left: 8px;
+  padding: 5px 10px;
+  border: 1px solid #ffffff30;
+  border-radius: 4px;
+  background: #ffffff0d;
+  color: inherit;
+}
+
+#cricket .cl-skeleton-thumb {
+  background: linear-gradient(
+    100deg,
+    #121620 25%,
+    #222938 50%,
+    #121620 75%
+  );
+  background-size: 200% 100%;
+  animation: cl-loading 1.6s ease-in-out infinite;
+}
+
+#cricket .cl-skeleton-line {
+  height: 10px;
+  margin: 5px 0;
+  width: 80%;
+  background: #ffffff12;
+}
+
+#cricket .cl-skeleton-line:last-child {
+  width: 55%;
+}
+
+@keyframes cl-loading {
+  to {
+    background-position: -200% 0;
+  }
+}
+
+/* Hide only Cricket arrows on portrait phones. */
+@media (max-width: 767px) and (orientation: portrait) {
+  #cricket .live-rail > .arrow {
+    display: none !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #cricket .cl-skeleton-thumb {
+    animation: none;
+  }
+
+  #cricket .live-rail > .arrow {
+    transition: none;
+  }
+}
+
+/* ==========================================
+   CRICKET — FANCODE STYLE CAPTIONS
+   ========================================== */
+
+/* First line: Team A VS Team B */
+#cricket .cricket-live-card .caption > span:first-child {
+  display: block;
+  color: #e2e3e8 !important;
+  font-weight: 600 !important;
+  opacity: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Second line: Series name and match time */
+#cricket .cricket-live-card .caption > span:nth-child(2) {
+  display: block;
+  color: #93969f !important;
+  font-weight: 400 !important;
+  opacity: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
