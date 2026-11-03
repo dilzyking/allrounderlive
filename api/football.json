@@ -394,9 +394,21 @@
     },
     "dashStreams": [
       {
-        "title": "SPORTIFy HD",
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/97f72f19-df76-4cac-b162-f71b7f3bd04b.m3u8",
+        "key": null
+      },
+      {
+        "title": "FAST SERVER",
         "type": "hls",
         "url": "https://live2.jorvakstreamcache.com/live/channel5.m3u8?",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.41/hls/CACACA.m3u8",
         "key": null
       }
     ]
