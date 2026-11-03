@@ -1,0 +1,262 @@
+
+/* =========================================================
+   WILLOW LIVE — matches the existing Cricket / Football rail.
+   Uses your existing .live, .live-rail, .rail, .card, .thumb,
+   .caption, .badge and .arrow rules from index.html.
+   Posters are real API images; no generated gradient artwork.
+   ========================================================= */
+
+#willow .wl-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#willow .wl-count {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 8px;
+  border-radius: 3px;
+  background: #f55505;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 800;
+  line-height: 1.35;
+}
+
+#willow .wl-count::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  background: currentColor;
+  border-radius: 50%;
+}
+
+#willow .willow-live-card {
+  display: block;
+  padding: 0;
+  text-align: left;
+  border-radius: 0;
+  font: inherit;
+}
+
+#willow button.willow-live-card {
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: default;
+}
+
+#willow .willow-live-thumb {
+  background: #121620;
+}
+
+#willow .willow-live-thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+#willow .wl-no-poster {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: #8b90a0;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* Play overlay for playable LIVE matches. */
+
+#willow .wl-play {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 42px;
+  height: 42px;
+  transform: translate(-50%, -50%);
+  display: grid;
+  place-items: center;
+  border: 1px solid #ffffff65;
+  border-radius: 50%;
+  background: #08090d85;
+  color: #fff;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity .22s ease;
+  pointer-events: none;
+}
+
+#willow .wl-play svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+#willow a.willow-live-card:hover .wl-play,
+#willow a.willow-live-card:focus-visible .wl-play {
+  opacity: 1;
+}
+
+/* Upcoming bell, same placement as Cricket. */
+
+#willow .wl-upcoming-icon {
+  position: absolute;
+  bottom: 7px;
+  left: 8px;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 27px;
+  height: 25px;
+  padding: 4px;
+  border-radius: 2px;
+  background: #f1f0ec;
+  color: #222935;
+}
+
+#willow .wl-upcoming-icon svg {
+  display: block;
+  width: 17px;
+  height: 17px;
+  fill: currentColor;
+}
+
+/* Exactly two caption lines, like Cricket. */
+
+#willow .caption > span {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#willow .wl-meta {
+  font-size: inherit;
+}
+
+/* Focus states. */
+
+#willow .willow-live-card:focus-visible,
+#willow .arrow:focus-visible,
+#willow .wl-retry:focus-visible {
+  outline: 2px solid #f55505;
+  outline-offset: -2px;
+}
+
+/* Empty and error states. */
+
+#willow .wl-empty {
+  padding: 24px 0;
+  color: #93969f;
+}
+
+#willow .wl-retry {
+  margin-left: 8px;
+  padding: 5px 10px;
+  border: 1px solid #ffffff30;
+  border-radius: 4px;
+  background: #ffffff0d;
+  color: inherit;
+}
+
+/* Skeleton loader. */
+
+#willow .wl-skeleton-thumb {
+  background: linear-gradient(
+    100deg,
+    #121620 25%,
+    #222938 50%,
+    #121620 75%
+  );
+  background-size: 200% 100%;
+  animation: wl-loading 1.6s ease-in-out infinite;
+}
+
+#willow .wl-skeleton-line {
+  height: 10px;
+  width: 80%;
+  margin: 5px 0;
+  background: #ffffff12;
+}
+
+#willow .wl-skeleton-line:last-child {
+  width: 55%;
+}
+
+@keyframes wl-loading {
+  to {
+    background-position: -200% 0;
+  }
+}
+
+/* Independent Willow arrow controls. */
+
+#willow .live-rail > .arrow {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 5;
+  width: 48px;
+  height: 48px;
+  top: var(--wl-arrow-top, 70px);
+  padding: 0;
+  border: 0;
+  background: none;
+  color: #fff;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  filter: drop-shadow(0 1px 5px #000c);
+}
+
+#willow .live-rail > .prev {
+  left: 0;
+}
+
+#willow .live-rail > .next {
+  right: 0;
+}
+
+#willow .live-rail > .arrow svg {
+  width: 26px;
+  height: 26px;
+}
+
+/* Hide arrows on portrait phones only. */
+
+@media (max-width: 767px) and (orientation: portrait) {
+  #willow .live-rail > .arrow {
+    display: none !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #willow .wl-skeleton-thumb {
+    animation: none;
+  }
+
+  #willow .wl-play,
+  #willow .live-rail > .arrow {
+    transition: none;
+  }
+}
+
+/* Willow team names — same as FanCode */
+
+#willow .caption > span:first-child {
+  color: #e2e3e8;
+  font-weight: 600;
+}
+
+/* Second line — series or match details */
+
+#willow .caption .wl-meta {
+  color: #93969f;
+  font-weight: 400;
+}
