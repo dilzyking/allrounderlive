@@ -531,7 +531,20 @@
       "startTimeUTC": "2026/11/03 12:15:00 +0000",
       "endTimeUTC": "2026/11/03 14:35:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.41/hls/ELLLAAA.m3u8",
+        "key": null
+      },
+      {
+        "title": "SD SERVER+",
+        "type": "hls",
+        "url": "http://162.251.160.53:8089/231/index.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5195,
@@ -552,7 +565,20 @@
       "startTimeUTC": "2026/11/03 12:15:00 +0000",
       "endTimeUTC": "2026/11/03 14:35:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.41/hls/ELLLAA.m3u8",
+        "key": null
+      },
+      {
+        "title": "SD SERVER+",
+        "type": "hls",
+        "url": "http://162.251.160.53:8089/132/index.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5200,
@@ -622,7 +648,20 @@
       "startTimeUTC": "2026/11/03 13:45:00 +0000",
       "endTimeUTC": "2026/11/03 16:05:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.41/hls/DAAA.m3u8",
+        "key": null
+      },
+      {
+        "title": "SD SERVER+",
+        "type": "hls",
+        "url": "http://162.251.160.53:8089/344/index.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5201,
@@ -643,7 +682,14 @@
       "startTimeUTC": "2026/11/03 15:00:00 +0000",
       "endTimeUTC": "2026/11/03 17:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.41/hls/DAAAQQQQ.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5205,
@@ -664,7 +710,14 @@
       "startTimeUTC": "2026/11/03 15:00:00 +0000",
       "endTimeUTC": "2026/11/03 17:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.41/hls/DAAAQQQ.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5199,
