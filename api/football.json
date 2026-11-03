@@ -893,6 +893,207 @@
     ]
   },
   {
+    "id": 5225,
+    "title": "Campeonato Brasileiro Série A",
+    "slug": "chapecoense-vs-mirassol",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Campeonato Brasileiro Série A",
+      "category": "Football",
+      "teamA": "Chapecoense",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/21845/image",
+      "teamB": "Mirassol",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/21982/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
+      "startTimeIST": "2026-11-04 04:00:00 IST",
+      "endTimeIST": "2026-11-04 06:20:00 IST",
+      "startTimeUTC": "2026/11/03 22:30:00 +0000",
+      "endTimeUTC": "2026/11/04 00:50:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "PREMIERE FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/oy6rp0jwmf/out/v1/580ecf12bad24979baf8dd993dce053e/cenc.mpd",
+        "key": "9dc40460c93087aea84d6315f08ecb64:f69c8d4624fddff4ca89bd0b31bdc4a7"
+      }
+    ]
+  },
+  {
+    "id": 5226,
+    "title": "Campeonato Brasileiro Série A",
+    "slug": "internacional-vs-coritiba",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Campeonato Brasileiro Série A",
+      "category": "Football",
+      "teamA": "Internacional",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1966/image",
+      "teamB": "Coritiba",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1982/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
+      "startTimeIST": "2026-11-04 06:00:00 IST",
+      "endTimeIST": "2026-11-04 08:20:00 IST",
+      "startTimeUTC": "2026/11/04 00:30:00 +0000",
+      "endTimeUTC": "2026/11/04 02:50:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "PREMIERE FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
+        "key": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
+      }
+    ]
+  },
+  {
+    "id": 5230,
+    "title": "AFC Champions League Two",
+    "slug": "melbourne-victory-vs-persib",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "AFC Champions League Two",
+      "category": "Football",
+      "teamA": "Melbourne Victory",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/5970/image",
+      "teamB": "Persib",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/64289/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/668/image/dark",
+      "startTimeIST": "2026-11-04 13:15:00 IST",
+      "endTimeIST": "2026-11-04 15:35:00 IST",
+      "startTimeUTC": "2026/11/04 07:45:00 +0000",
+      "endTimeUTC": "2026/11/04 10:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5224,
+    "title": "AFC Champions League Two",
+    "slug": "fc-seoul-vs-viettel",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "AFC Champions League Two",
+      "category": "Football",
+      "teamA": "FC Seoul",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/7646/image",
+      "teamB": "Viettel",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/231270/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/668/image/dark",
+      "startTimeIST": "2026-11-04 15:30:00 IST",
+      "endTimeIST": "2026-11-04 17:50:00 IST",
+      "startTimeUTC": "2026/11/04 10:00:00 +0000",
+      "endTimeUTC": "2026/11/04 12:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5227,
+    "title": "UEFA Youth League",
+    "slug": "aek-u19-vs-real-madrid-u19",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Youth League",
+      "category": "Football",
+      "teamA": "AEK U19",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/297065/image",
+      "teamB": "Real Madrid U19",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/120854/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2132/image/dark",
+      "startTimeIST": "2026-11-04 15:30:00 IST",
+      "endTimeIST": "2026-11-04 17:50:00 IST",
+      "startTimeUTC": "2026/11/04 10:00:00 +0000",
+      "endTimeUTC": "2026/11/04 12:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5228,
+    "title": "AFC Champions League Elite",
+    "slug": "pohang-steelers-vs-gamba-osaka",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "AFC Champions League Elite",
+      "category": "Football",
+      "teamA": "Pohang Steelers",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/7650/image",
+      "teamB": "Gamba Osaka",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/3138/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/463/image/dark",
+      "startTimeIST": "2026-11-04 15:30:00 IST",
+      "endTimeIST": "2026-11-04 17:50:00 IST",
+      "startTimeUTC": "2026/11/04 10:00:00 +0000",
+      "endTimeUTC": "2026/11/04 12:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5232,
+    "title": "UEFA Youth League",
+    "slug": "fenerbahce-u19-vs-liverpool-u19",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Youth League",
+      "category": "Football",
+      "teamA": "Fenerbahçe U19",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/243800/image",
+      "teamB": "Liverpool U19",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/90134/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2132/image/dark",
+      "startTimeIST": "2026-11-04 16:30:00 IST",
+      "endTimeIST": "2026-11-04 18:50:00 IST",
+      "startTimeUTC": "2026/11/04 11:00:00 +0000",
+      "endTimeUTC": "2026/11/04 13:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 4454,
+    "title": "Indian Super League",
+    "slug": "isl-vs-isl",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Indian Super League",
+      "category": "Football",
+      "teamA": "ISL",
+      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/1900/image",
+      "teamB": "ISL",
+      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/1900/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1900/image",
+      "startTimeIST": "2026-11-05 17:00:00 IST",
+      "endTimeIST": "2026-11-05 22:00:00 IST",
+      "startTimeUTC": "2026/11/05 11:30:00 +0000",
+      "endTimeUTC": "2026/11/05 16:30:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "PRIME VIDEO FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ebirnvewph/out/v1/2e1afb64f23b48a5acac9886327c2b8c/cenc.mpd",
+        "key": "c57fbe97649816539cf25b0c95d37d9d:ddf4da52ec2358bdf08a6fc60c4d1bc3"
+      },
+      {
+        "title": "SonyLiv (ENG)",
+        "type": "hls",
+        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2018458/footlive0111/ENG/std_lrh-800300010.m3u8",
+        "key": null
+      },
+      {
+        "title": "SonyLiv (HIN)",
+        "type": "hls",
+        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2022316/footlive0111/HIN/std_lrh-800300010.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
     "id": 5222,
     "title": "UEFA Champions League",
     "slug": "bod-glimt-vs-lille",
@@ -1090,207 +1291,6 @@
         "title": "LOW QUALITY",
         "type": "hls",
         "url": "http://193.47.62.41/hls/X7UUUAAAAQQAAQ.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5225,
-    "title": "Campeonato Brasileiro Série A",
-    "slug": "chapecoense-vs-mirassol",
-    "cat": "Live Events",
-    "status": "upcoming",
-    "event": {
-      "name": "Campeonato Brasileiro Série A",
-      "category": "Football",
-      "teamA": "Chapecoense",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/21845/image",
-      "teamB": "Mirassol",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/21982/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
-      "startTimeIST": "2026-11-04 04:00:00 IST",
-      "endTimeIST": "2026-11-04 06:20:00 IST",
-      "startTimeUTC": "2026/11/03 22:30:00 +0000",
-      "endTimeUTC": "2026/11/04 00:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PREMIERE FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/oy6rp0jwmf/out/v1/580ecf12bad24979baf8dd993dce053e/cenc.mpd",
-        "key": "9dc40460c93087aea84d6315f08ecb64:f69c8d4624fddff4ca89bd0b31bdc4a7"
-      }
-    ]
-  },
-  {
-    "id": 5226,
-    "title": "Campeonato Brasileiro Série A",
-    "slug": "internacional-vs-coritiba",
-    "cat": "Live Events",
-    "status": "upcoming",
-    "event": {
-      "name": "Campeonato Brasileiro Série A",
-      "category": "Football",
-      "teamA": "Internacional",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1966/image",
-      "teamB": "Coritiba",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1982/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
-      "startTimeIST": "2026-11-04 06:00:00 IST",
-      "endTimeIST": "2026-11-04 08:20:00 IST",
-      "startTimeUTC": "2026/11/04 00:30:00 +0000",
-      "endTimeUTC": "2026/11/04 02:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PREMIERE FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
-        "key": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
-      }
-    ]
-  },
-  {
-    "id": 5230,
-    "title": "AFC Champions League Two",
-    "slug": "melbourne-victory-vs-persib",
-    "cat": "Live Events",
-    "status": "upcoming",
-    "event": {
-      "name": "AFC Champions League Two",
-      "category": "Football",
-      "teamA": "Melbourne Victory",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/5970/image",
-      "teamB": "Persib",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/64289/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/668/image/dark",
-      "startTimeIST": "2026-11-04 13:15:00 IST",
-      "endTimeIST": "2026-11-04 15:35:00 IST",
-      "startTimeUTC": "2026/11/04 07:45:00 +0000",
-      "endTimeUTC": "2026/11/04 10:05:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5224,
-    "title": "AFC Champions League Two",
-    "slug": "fc-seoul-vs-viettel",
-    "cat": "Live Events",
-    "status": "upcoming",
-    "event": {
-      "name": "AFC Champions League Two",
-      "category": "Football",
-      "teamA": "FC Seoul",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/7646/image",
-      "teamB": "Viettel",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/231270/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/668/image/dark",
-      "startTimeIST": "2026-11-04 15:30:00 IST",
-      "endTimeIST": "2026-11-04 17:50:00 IST",
-      "startTimeUTC": "2026/11/04 10:00:00 +0000",
-      "endTimeUTC": "2026/11/04 12:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5227,
-    "title": "UEFA Youth League",
-    "slug": "aek-u19-vs-real-madrid-u19",
-    "cat": "Live Events",
-    "status": "upcoming",
-    "event": {
-      "name": "UEFA Youth League",
-      "category": "Football",
-      "teamA": "AEK U19",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/297065/image",
-      "teamB": "Real Madrid U19",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/120854/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2132/image/dark",
-      "startTimeIST": "2026-11-04 15:30:00 IST",
-      "endTimeIST": "2026-11-04 17:50:00 IST",
-      "startTimeUTC": "2026/11/04 10:00:00 +0000",
-      "endTimeUTC": "2026/11/04 12:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5228,
-    "title": "AFC Champions League Elite",
-    "slug": "pohang-steelers-vs-gamba-osaka",
-    "cat": "Live Events",
-    "status": "upcoming",
-    "event": {
-      "name": "AFC Champions League Elite",
-      "category": "Football",
-      "teamA": "Pohang Steelers",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/7650/image",
-      "teamB": "Gamba Osaka",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/3138/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/463/image/dark",
-      "startTimeIST": "2026-11-04 15:30:00 IST",
-      "endTimeIST": "2026-11-04 17:50:00 IST",
-      "startTimeUTC": "2026/11/04 10:00:00 +0000",
-      "endTimeUTC": "2026/11/04 12:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5232,
-    "title": "UEFA Youth League",
-    "slug": "fenerbahce-u19-vs-liverpool-u19",
-    "cat": "Live Events",
-    "status": "upcoming",
-    "event": {
-      "name": "UEFA Youth League",
-      "category": "Football",
-      "teamA": "Fenerbahçe U19",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/243800/image",
-      "teamB": "Liverpool U19",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/90134/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2132/image/dark",
-      "startTimeIST": "2026-11-04 16:30:00 IST",
-      "endTimeIST": "2026-11-04 18:50:00 IST",
-      "startTimeUTC": "2026/11/04 11:00:00 +0000",
-      "endTimeUTC": "2026/11/04 13:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 4454,
-    "title": "Indian Super League",
-    "slug": "isl-vs-isl",
-    "cat": "Live Events",
-    "status": "upcoming",
-    "event": {
-      "name": "Indian Super League",
-      "category": "Football",
-      "teamA": "ISL",
-      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/1900/image",
-      "teamB": "ISL",
-      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/1900/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1900/image",
-      "startTimeIST": "2026-11-05 17:00:00 IST",
-      "endTimeIST": "2026-11-05 22:00:00 IST",
-      "startTimeUTC": "2026/11/05 11:30:00 +0000",
-      "endTimeUTC": "2026/11/05 16:30:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PRIME VIDEO FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ebirnvewph/out/v1/2e1afb64f23b48a5acac9886327c2b8c/cenc.mpd",
-        "key": "c57fbe97649816539cf25b0c95d37d9d:ddf4da52ec2358bdf08a6fc60c4d1bc3"
-      },
-      {
-        "title": "SonyLiv (ENG)",
-        "type": "hls",
-        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2018458/footlive0111/ENG/std_lrh-800300010.m3u8",
-        "key": null
-      },
-      {
-        "title": "SonyLiv (HIN)",
-        "type": "hls",
-        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2022316/footlive0111/HIN/std_lrh-800300010.m3u8",
         "key": null
       }
     ]
