@@ -631,7 +631,20 @@
       "startTimeUTC": "2026/11/03 18:15:00 +0000",
       "endTimeUTC": "2026/11/03 20:35:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "HD QUALITY",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel20.m3u8?",
+        "key": null
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.41/hls/AA111AA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5210,
@@ -652,7 +665,14 @@
       "startTimeUTC": "2026/11/03 19:45:00 +0000",
       "endTimeUTC": "2026/11/03 22:05:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.41/hls/7UUUA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5211,
@@ -673,7 +693,14 @@
       "startTimeUTC": "2026/11/03 19:45:00 +0000",
       "endTimeUTC": "2026/11/03 22:05:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.41/hls/7UUUAAAAQQ.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5212,
@@ -694,7 +721,14 @@
       "startTimeUTC": "2026/11/03 19:45:00 +0000",
       "endTimeUTC": "2026/11/03 22:05:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.41/hls/7UUUAAAA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5213,
@@ -715,7 +749,14 @@
       "startTimeUTC": "2026/11/03 19:45:00 +0000",
       "endTimeUTC": "2026/11/03 22:05:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.41/hls/7UUUAAAAQ.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5214,
@@ -736,7 +777,14 @@
       "startTimeUTC": "2026/11/03 19:45:00 +0000",
       "endTimeUTC": "2026/11/03 22:05:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.41/hls/7UUUAA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5215,
@@ -757,7 +805,14 @@
       "startTimeUTC": "2026/11/03 19:45:00 +0000",
       "endTimeUTC": "2026/11/03 22:05:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.41/hls/7UUUAAA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5216,
@@ -778,7 +833,14 @@
       "startTimeUTC": "2026/11/03 19:45:00 +0000",
       "endTimeUTC": "2026/11/03 22:05:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.41/hls/7UUU.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5217,
