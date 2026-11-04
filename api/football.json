@@ -420,7 +420,7 @@
     "title": "AFC Champions League Two",
     "slug": "fc-seoul-vs-viettel",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "AFC Champions League Two",
       "category": "Football",
@@ -460,7 +460,7 @@
     "title": "UEFA Youth League",
     "slug": "aek-u19-vs-real-madrid-u19",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "UEFA Youth League",
       "category": "Football",
@@ -500,7 +500,7 @@
     "title": "AFC Champions League Elite",
     "slug": "pohang-steelers-vs-gamba-osaka",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "AFC Champions League Elite",
       "category": "Football",
@@ -2654,114 +2654,6 @@
         "title": "SD SERVER",
         "type": "hls",
         "url": "http://193.47.62.41/hls/ELLLA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5188,
-    "title": "AFC Champions League Elite",
-    "slug": "jeonbuk-vs-jdt",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "AFC Champions League Elite",
-      "category": "Football",
-      "teamA": "Jeonbuk",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/6908/image",
-      "teamB": "JDT",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/3327/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/463/image/dark",
-      "startTimeIST": "2026-11-03 15:30:00 IST",
-      "endTimeIST": "2026-11-03 17:50:00 IST",
-      "startTimeUTC": "2026/11/03 10:00:00 +0000",
-      "endTimeUTC": "2026/11/03 12:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD SERVER+",
-        "type": "hls",
-        "url": "https://www.rtmpcdn.com/live/621a7a22-9172-420b-82c6-1bb4e7f09980.m3u8",
-        "key": null
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://162.251.160.53:8089/344/index.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5194,
-    "title": "AFC Champions League Elite",
-    "slug": "vissel-kobe-vs-ratchaburi",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "AFC Champions League Elite",
-      "category": "Football",
-      "teamA": "Vissel Kobe",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/3146/image",
-      "teamB": "Ratchaburi",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/85743/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/463/image/dark",
-      "startTimeIST": "2026-11-03 15:30:00 IST",
-      "endTimeIST": "2026-11-03 17:50:00 IST",
-      "startTimeUTC": "2026/11/03 10:00:00 +0000",
-      "endTimeUTC": "2026/11/03 12:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD SERVER+",
-        "type": "hls",
-        "url": "https://www.rtmpcdn.com/live/04859605-2956-4d18-b32a-297b6cf0ac99.m3u8",
-        "key": null
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel11.m3u8?",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5196,
-    "title": "AFC Champions League Elite",
-    "slug": "kashiwa-vs-daejeon-hana",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "AFC Champions League Elite",
-      "category": "Football",
-      "teamA": "Kashiwa",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/3140/image",
-      "teamB": "Daejeon Hana",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/7645/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/463/image/dark",
-      "startTimeIST": "2026-11-03 15:30:00 IST",
-      "endTimeIST": "2026-11-03 17:50:00 IST",
-      "startTimeUTC": "2026/11/03 10:00:00 +0000",
-      "endTimeUTC": "2026/11/03 12:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD SERVER+",
-        "type": "hls",
-        "url": "https://www.rtmpcdn.com/live/bc480319-4c7c-486a-8003-07af2a1520a7.m3u8",
-        "key": null
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel15.m3u8?",
         "key": null
       }
     ]
