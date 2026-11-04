@@ -424,7 +424,7 @@
     "title": "UEFA Champions League",
     "slug": "dortmund-vs-real-betis",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "UEFA Champions League",
       "category": "Football",
@@ -512,7 +512,7 @@
     "title": "UEFA Champions League",
     "slug": "leipzig-vs-man-city",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "UEFA Champions League",
       "category": "Football",
@@ -624,7 +624,7 @@
     "title": "UEFA Champions League",
     "slug": "porto-vs-napoli",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "UEFA Champions League",
       "category": "Football",
@@ -688,7 +688,7 @@
     "title": "UEFA Champions League",
     "slug": "slavia-praha-vs-arsenal",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "UEFA Champions League",
       "category": "Football",
@@ -776,7 +776,7 @@
     "title": "UEFA Champions League",
     "slug": "lens-vs-como",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "UEFA Champions League",
       "category": "Football",
@@ -846,7 +846,7 @@
     "title": "UEFA Champions League",
     "slug": "psv-vs-club-brugge",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "UEFA Champions League",
       "category": "Football",
@@ -910,7 +910,7 @@
     "title": "UEFA Champions League",
     "slug": "viking-vs-sabah",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "UEFA Champions League",
       "category": "Football",
@@ -968,7 +968,7 @@
     "title": "Championship",
     "slug": "bristol-city-vs-wolves",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Championship",
       "category": "Football",
@@ -2552,208 +2552,6 @@
         "title": "LOW QUALITY",
         "type": "hls",
         "url": "http://193.47.62.55/hls/HCCCaaaX.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5222,
-    "title": "UEFA Champions League",
-    "slug": "bod-glimt-vs-lille",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "UEFA Champions League",
-      "category": "Football",
-      "teamA": "Bodø/Glimt",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/656/image",
-      "teamB": "Lille",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1643/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "startTimeIST": "2026-11-04 01:30:00 IST",
-      "endTimeIST": "2026-11-04 03:50:00 IST",
-      "startTimeUTC": "2026/11/03 20:00:00 +0000",
-      "endTimeUTC": "2026/11/03 22:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vup2gkotxm/out/v1/35a4a5af02a048968c2b300ddd4677a2/cenc.mpd",
-        "key": "f9c393a27d7eab26828310d5116228b4:54242b217e2cb116436f2a8f72b9ba6b"
-      },
-      {
-        "title": "PRIME VIDEO FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/jl3tltjw9p/out/v1/16fb5ea7267e4d6b9b48b22aedeac0a5/cenc.mpd",
-        "key": "8d7dc1cf69c9ab1e7dc09227b1db0725:9020db32fc968a40a1145f6bdc9b068b"
-      },
-      {
-        "title": "DAZN SPORTS DE",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b722xitfbt/out/v1/64cda6be047340fc8eab0cfbd350848f/cenc.mpd",
-        "key": "4ab1edbb78f4867a4e68821974ddc07f:c581c41a8e61fd0bc9ec0d4c23cfea86"
-      },
-      {
-        "title": "ViX ESPANOL FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/hknyjwcuzu/out/v1/aef31af53940433bb1b5a1d1eaa6ed5d/cenc.mpd",
-        "key": "1ba1ee8262e770b7d92759485de83fa6:eb42d4be46e10ae5e1c529efc451e3f5"
-      },
-      {
-        "title": "SONYLIV [ASIA]",
-        "type": "hls",
-        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2018457/footlive0311/ENG/std_lrh-800300010.m3u8",
-        "key": null
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://www.rtmpcdn.com/live/180b7261-1b17-4bbe-a3ee-0bca3d142e7f.m3u8",
-        "key": null
-      },
-      {
-        "title": "LOW SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/HCCCaa.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5223,
-    "title": "UEFA Champions League",
-    "slug": "lask-vs-slovan",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "UEFA Champions League",
-      "category": "Football",
-      "teamA": "LASK",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2058/image",
-      "teamB": "Slovan",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2404/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "startTimeIST": "2026-11-04 01:30:00 IST",
-      "endTimeIST": "2026-11-04 03:50:00 IST",
-      "startTimeUTC": "2026/11/03 20:00:00 +0000",
-      "endTimeUTC": "2026/11/03 22:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ej3seddljs/out/v1/273718f161c34b44bc7e125ce3fa6173/cenc.mpd",
-        "key": "0f9a8647387c8ced25cb81e31daa8465:138042cf1b65ee0021b4bb86a8eb4272"
-      },
-      {
-        "title": "SonyLiv PRIME FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/frppdagy9a/out/v1/296c87e90f8b47a28d17e904859cbeb5/cenc.mpd",
-        "key": "4a321a70e4ff0e73b07dcced835e2b76:d5257c51769a08a6171e8481e211348d"
-      },
-      {
-        "title": "VIX Español FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/mustdnrpeu/out/v1/c36180058f2a49a9ac8e96607922aa95/cenc.mpd",
-        "key": "451fbdc63a11c0819e6d36c54fe95261:5125bacd14af0cbb86d23615a3d94e81"
-      },
-      {
-        "title": "DAZN DE FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ifwb7xeivb/out/v1/0ef0d09b99094ee9bcf8619782c7535b/cenc.mpd",
-        "key": "05247b8d82d43428e0d5e1fa9993435a:0ac0b44e21d83314c934490e522b6379"
-      },
-      {
-        "title": "SonyLiv (Asia)",
-        "type": "hls",
-        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2094587/footlive0311/ENG/std_lrh-800300010.m3u8",
-        "key": null
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://www.rtmpcdn.com/live/c6e9b636-8423-4be7-8604-4692859ede68.m3u8",
-        "key": null
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.41/hls/eoooA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5229,
-    "title": "Championship",
-    "slug": "west-brom-vs-southampton",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "West Brom",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/8/image",
-      "teamB": "Southampton",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/45/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-11-04 01:30:00 IST",
-      "endTimeIST": "2026-11-04 03:50:00 IST",
-      "startTimeUTC": "2026/11/03 20:00:00 +0000",
-      "endTimeUTC": "2026/11/03 22:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "beIN ENGLISH FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-        "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-      },
-      {
-        "title": "FANCODE FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.41/hls/7UUUAAAAQQAAQQ.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5231,
-    "title": "Championship",
-    "slug": "birmingham-vs-millwall",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "Birmingham",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/9/image",
-      "teamB": "Millwall",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/25/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-11-04 01:30:00 IST",
-      "endTimeIST": "2026-11-04 03:50:00 IST",
-      "startTimeUTC": "2026/11/03 20:00:00 +0000",
-      "endTimeUTC": "2026/11/03 22:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b9caoephnn/out/v1/b53b2cf820b94e7fae6169ca06bb6fd6/cenc.mpd",
-        "key": "735ec2c484e8404f9bb1d162186f16a4:eb90599b0afc0766a9138c287e86c3a8"
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.41/hls/X7UUUAAAAQQAAQ.m3u8",
         "key": null
       }
     ]
