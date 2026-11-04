@@ -600,6 +600,18 @@
     },
     "dashStreams": [
       {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/htqkbztz1l/out/v1/87095d82ecbf4de7ad3f5ad789f1f060/cenc.mpd",
+        "key": "d470693cba80fbeec8e909f80ed70edc:8f436dc5b928988a18d011a3b99a58b5"
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.50/hls/z777AAA.m3u8",
+        "key": null
+      },
+      {
         "title": "DAZN DE FHD",
         "type": "dash",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/x5mu0qhmrk/out/v1/b8bac9a22bfe401bacf4298b49b7997c/cenc.mpd",
@@ -727,7 +739,32 @@
       "startTimeUTC": "2026/11/04 19:45:00 +0000",
       "endTimeUTC": "2026/11/04 22:05:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n1lhb2ffmr/out/v1/fd2157164ff14b08aee352dd0f295309/cenc.mpd",
+        "key": "1c6a422a997d250d93eba4656ca35ee0:280cb26b9073a5175e88992f85291699"
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4563670.m3u8?txSecret=967f716a84215a332bc8b534bd15b260&txTime=6AEB9AF4",
+        "key": null
+      },
+      {
+        "title": "HD QUALITY",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel21.m3u8?",
+        "key": null
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.50/hls/tiiiAA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5249,
@@ -748,7 +785,32 @@
       "startTimeUTC": "2026/11/04 20:00:00 +0000",
       "endTimeUTC": "2026/11/04 22:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/shjayahvpp/out/v1/a971b8fc52b44a1398237689dc61930c/cenc.mpd",
+        "key": "58434b280dc5da2a0c2a0dd1ea4f48c1:0367f18e8b0ea8fede8ee6cb3b82d33a"
+      },
+      {
+        "title": "TNT SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
+        "key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
+      },
+      {
+        "title": "DAZN DE FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/p9e7ygthvj/out/v1/c6e578e510f340b29c16febf3c470572/cenc.mpd",
+        "key": "874b7df0e3c0b86b0e056c8398d64f66:674ce96dacc3b24d099c9e0dfe179c70"
+      },
+      {
+        "title": "SONYLIV [ASIA]",
+        "type": "hls",
+        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120303/footlive0411/ENG/std_lrh-800300010.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5250,
@@ -811,7 +873,32 @@
       "startTimeUTC": "2026/11/04 20:00:00 +0000",
       "endTimeUTC": "2026/11/04 22:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ymeumajbnz/out/v1/0c52d1e9c59346e783fca2b5cd02762f/cenc.mpd",
+        "key": "284fb360031b922b7c44697e042f9109:4ebb11445096fa3b030580d985433bf9"
+      },
+      {
+        "title": "TNT SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+        "key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+      },
+      {
+        "title": "DAZN DE FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/zvn93joghj/out/v1/3e6fd3525aef47a0827ad25d4b1eafc3/cenc.mpd",
+        "key": "e6b846f1025ac88b970d2ee03c85ad14:15167e2a38eb3ab78eea15100425f9cc"
+      },
+      {
+        "title": "SONYLIV [ASIA]",
+        "type": "hls",
+        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2022320/footlive0411/ENG/std_lrh-800300010.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5253,
@@ -874,7 +961,20 @@
       "startTimeUTC": "2026/11/04 20:00:00 +0000",
       "endTimeUTC": "2026/11/04 22:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/pcfkzhzk0s/out/v1/374e618bd90e4c64845f11bd7f56832f/cenc.mpd",
+        "key": "e60b8609a832e0e89e24e20360799b32:4372ab7df1035676ca2664e982eaad11"
+      },
+      {
+        "title": "SONYLIV [ASIA]",
+        "type": "hls",
+        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2022322/Footlive0411/ENG/std_lrh-800300010.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5256,
@@ -895,7 +995,20 @@
       "startTimeUTC": "2026/11/04 20:00:00 +0000",
       "endTimeUTC": "2026/11/04 22:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "beIN ENGLISH FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+        "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.50/hls/tiiiAAAA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5259,
