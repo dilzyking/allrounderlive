@@ -533,6 +533,34 @@
     ]
   },
   {
+    "id": 5265,
+    "title": "UEFA Europa League",
+    "slug": "rennes-vs-olympiacos",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Europa League",
+      "category": "Football",
+      "teamA": "Rennes",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1658/image",
+      "teamB": "Olympiacos",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/3245/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/679/image/dark",
+      "startTimeIST": "2026-11-04 21:00:00 IST",
+      "endTimeIST": "2026-11-04 23:20:00 IST",
+      "startTimeUTC": "2026/11/04 15:30:00 +0000",
+      "endTimeUTC": "2026/11/04 17:50:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.55/hls/AYYYYQQQQAAA.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
     "id": 5240,
     "title": "AFC Champions League Two",
     "slug": "al-wahda-vs-al-khaldiya",
