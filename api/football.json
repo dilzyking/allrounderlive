@@ -472,6 +472,12 @@
       {
         "title": "HD SERVER",
         "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/c424d5cb-c4c5-4cd7-9ac1-8e1d12743536.m3u8",
+        "key": null
+      },
+      {
+        "title": "HD SERVER+",
+        "type": "hls",
         "url": "https://live2.jorvakstreamcache.com/live/channel2.m3u8?",
         "key": null
       },
