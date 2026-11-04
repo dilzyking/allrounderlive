@@ -487,7 +487,7 @@
     "title": "AFC Champions League Two",
     "slug": "fc-seoul-vs-viettel",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "AFC Champions League Two",
       "category": "Football",
@@ -503,15 +503,27 @@
     },
     "dashStreams": [
       {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4621350.m3u8?txSecret=c36e19116a245a274b03d6bc38afb05a&txTime=6AEB0EB6",
+        "key": null
+      },
+      {
         "title": "SD SERVER",
         "type": "hls",
         "url": "http://162.251.160.53:8089/1236/index.m3u8",
         "key": null
       },
       {
-        "title": "FAST SERVER",
+        "title": "FAST SERVER+",
         "type": "hls",
         "url": "https://live1.quickscoreboardz.com/live/channel15/playlist.m3u8?wsSecret=39c8fa87326e044819537c2c2202bf62&wsABSTime=1793820072",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.domaincdn.cc/livecdn/channel-24.m3u8?auth_key=3000001793785392-0-0-da18d27271023ba64c3c21fde0ba85fb",
         "key": null
       }
     ]
@@ -521,7 +533,7 @@
     "title": "UEFA Youth League",
     "slug": "aek-u19-vs-real-madrid-u19",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Youth League",
       "category": "Football",
@@ -547,6 +559,12 @@
         "type": "hls",
         "url": "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8",
         "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.55/hls/rrrrA.m3u8",
+        "key": null
       }
     ]
   },
@@ -555,7 +573,7 @@
     "title": "AFC Champions League Elite",
     "slug": "pohang-steelers-vs-gamba-osaka",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "AFC Champions League Elite",
       "category": "Football",
@@ -571,9 +589,21 @@
     },
     "dashStreams": [
       {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4621506.m3u8?txSecret=1a268250d7b49117021c378d986e778d&txTime=6AEB0B2B",
+        "key": null
+      },
+      {
         "title": "SD SERVER",
         "type": "hls",
         "url": "http://162.251.160.53:8089/1009/index.m3u8",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?",
         "key": null
       }
     ]
