@@ -219,6 +219,48 @@
     "dashStreams": []
   },
   {
+    "id": 5235,
+    "title": "U19 Asia Cup",
+    "slug": "sl-u19-vs-mas-u19",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "U19 Asia Cup",
+      "category": "Cricket",
+      "teamA": "SL-U19",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/213106/image",
+      "teamB": "MAS-U19",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/505670/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11486/image/dark",
+      "startTimeIST": "2026-11-05 10:30:00 IST",
+      "endTimeIST": "2026-11-05 15:00:00 IST",
+      "startTimeUTC": "2026/11/05 05:00:00 +0000",
+      "endTimeUTC": "2026/11/05 09:30:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5236,
+    "title": "U19 Asia Cup",
+    "slug": "ban-u19-vs-afg-u19",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "U19 Asia Cup",
+      "category": "Cricket",
+      "teamA": "BAN-U19",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/213099/image",
+      "teamB": "AFG-U19",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/213103/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11486/image/dark",
+      "startTimeIST": "2026-11-05 10:30:00 IST",
+      "endTimeIST": "2026-11-05 15:00:00 IST",
+      "startTimeUTC": "2026/11/05 05:00:00 +0000",
+      "endTimeUTC": "2026/11/05 09:30:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
     "id": 4896,
     "title": "Nepal Premier League",
     "slug": "npl-vs-npl",
@@ -257,6 +299,48 @@
         "key": null
       }
     ]
+  },
+  {
+    "id": 5233,
+    "title": "U19 Asia Cup",
+    "slug": "pak-u19-vs-uae-u19",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "U19 Asia Cup",
+      "category": "Cricket",
+      "teamA": "PAK-U19",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/213104/image",
+      "teamB": "UAE-U19",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/300266/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11486/image/dark",
+      "startTimeIST": "2026-11-06 10:30:00 IST",
+      "endTimeIST": "2026-11-06 15:00:00 IST",
+      "startTimeUTC": "2026/11/06 05:00:00 +0000",
+      "endTimeUTC": "2026/11/06 09:30:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5234,
+    "title": "U19 Asia Cup",
+    "slug": "ind-u19-vs-nep-u19",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "U19 Asia Cup",
+      "category": "Cricket",
+      "teamA": "IND-U19",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/213112/image",
+      "teamB": "NEP-U19",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/213113/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11486/image/dark",
+      "startTimeIST": "2026-11-06 10:30:00 IST",
+      "endTimeIST": "2026-11-06 15:00:00 IST",
+      "startTimeUTC": "2026/11/06 05:00:00 +0000",
+      "endTimeUTC": "2026/11/06 09:30:00 +0000"
+    },
+    "dashStreams": []
   },
   {
     "id": 984,
