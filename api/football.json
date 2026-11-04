@@ -455,7 +455,26 @@
       "startTimeUTC": "2026/11/04 07:45:00 +0000",
       "endTimeUTC": "2026/11/04 10:05:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel11.m3u8?",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.55/hls/FRFRFR.m3u8",
+        "key": null
+      },
+      {
+        "title": "SD SERVER+",
+        "type": "hls",
+        "url": "http://162.251.160.53:8089/1009/index.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5224,
