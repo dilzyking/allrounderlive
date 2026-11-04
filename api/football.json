@@ -416,46 +416,6 @@
     "dashStreams": []
   },
   {
-    "id": 5237,
-    "title": "AFC Champions League Two",
-    "slug": "arkadag-vs-gol-gohar",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "AFC Champions League Two",
-      "category": "Football",
-      "teamA": "Arkadag",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/469420/image",
-      "teamB": "Gol Gohar",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/275525/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/668/image/dark",
-      "startTimeIST": "2026-11-04 19:15:00 IST",
-      "endTimeIST": "2026-11-04 21:35:00 IST",
-      "startTimeUTC": "2026/11/04 13:45:00 +0000",
-      "endTimeUTC": "2026/11/04 16:05:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://162.251.160.53:8089/1236/index.m3u8",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/HHHHAAQAQQQ.m3u8",
-        "key": null
-      },
-      {
-        "title": "FAST SERVER+",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel18.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5238,
     "title": "UEFA Youth League",
     "slug": "leipzig-u19-vs-man-city-u19",
@@ -525,6 +485,48 @@
     },
     "dashStreams": [
       {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/1uqnvcbphd/out/v1/410903aa7e1845c3b6e8f50b615d6861/cenc.mpd",
+        "key": "f04e6956155f0e9924d1380d022cb19d:d502ff24af315dc45a277934a3f0565e"
+      },
+      {
+        "title": "TNT SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
+        "key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
+      },
+      {
+        "title": "VIX Español FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lky9xgjk0f/out/v1/b55e36403f7042409bb6f5fcfcc160c4/cenc.mpd",
+        "key": "ad0238e45df5a88bc7e6de413340a1e7:8c0206f9a768bd3ac6c6073c78947577"
+      },
+      {
+        "title": "SKY MIX FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ttguqv2dus/out/v1/10e708fa029549e8807c7a35f4740adf/cenc.mpd",
+        "key": "fa23a7c0d9c82f0c7b113506e202af8c:a883237ef30932b731f71aa59a0805c0"
+      },
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4630649.m3u8?txSecret=8bdfeb69ea7b46177f5652a32c3974f2&txTime=6AEB5EC0",
+        "key": null
+      },
+      {
+        "title": "SonyLiv (Asia)",
+        "type": "hls",
+        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120299/footlive0411/ENG/std_lrh-800300010.m3u8",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?",
+        "key": null
+      },
+      {
         "title": "SD SERVER",
         "type": "hls",
         "url": "http://193.47.62.55/hls/AYYYYQQQQAAA.m3u8",
@@ -572,7 +574,20 @@
       "startTimeUTC": "2026/11/04 16:00:00 +0000",
       "endTimeUTC": "2026/11/04 18:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel19.m3u8?",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.50/hls/zzzzAAA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5242,
@@ -1064,6 +1079,46 @@
         "title": "SonyLiv (HIN)",
         "type": "hls",
         "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2022316/footlive0111/HIN/std_lrh-800300010.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5237,
+    "title": "AFC Champions League Two",
+    "slug": "arkadag-vs-gol-gohar",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "AFC Champions League Two",
+      "category": "Football",
+      "teamA": "Arkadag",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/469420/image",
+      "teamB": "Gol Gohar",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/275525/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/668/image/dark",
+      "startTimeIST": "2026-11-04 19:15:00 IST",
+      "endTimeIST": "2026-11-04 21:35:00 IST",
+      "startTimeUTC": "2026/11/04 13:45:00 +0000",
+      "endTimeUTC": "2026/11/04 16:05:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://162.251.160.53:8089/1236/index.m3u8",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/HHHHAAQAQQQ.m3u8",
+        "key": null
+      },
+      {
+        "title": "FAST SERVER+",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel18.m3u8",
         "key": null
       }
     ]
@@ -2582,46 +2637,6 @@
         "title": "SD SERVER",
         "type": "hls",
         "url": "http://193.47.62.41/hls/DAAAQQQ.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5189,
-    "title": "AFC Champions League Two",
-    "slug": "east-bengal-vs-al-seeb",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "AFC Champions League Two",
-      "category": "Football",
-      "teamA": "East Bengal",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/40655/image",
-      "teamB": "Al Seeb",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/71044/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/668/image/dark",
-      "startTimeIST": "2026-11-03 19:15:00 IST",
-      "endTimeIST": "2026-11-03 21:35:00 IST",
-      "startTimeUTC": "2026/11/03 13:45:00 +0000",
-      "endTimeUTC": "2026/11/03 16:05:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel18.m3u8?",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.41/hls/DAAA.m3u8",
-        "key": null
-      },
-      {
-        "title": "SD SERVER+",
-        "type": "hls",
-        "url": "http://162.251.160.53:8089/344/index.m3u8",
         "key": null
       }
     ]
