@@ -374,27 +374,6 @@
     ]
   },
   {
-    "id": 5197,
-    "title": "UEFA Youth League",
-    "slug": "galatasaray-u19-vs-stuttgart-u19",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "UEFA Youth League",
-      "category": "Football",
-      "teamA": "Galatasaray U19",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/120868/image",
-      "teamB": "Stuttgart U19",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/43732/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2132/image/dark",
-      "startTimeIST": "2026-11-03 16:30:00 IST",
-      "endTimeIST": "2026-11-03 18:50:00 IST",
-      "startTimeUTC": "2026/11/03 11:00:00 +0000",
-      "endTimeUTC": "2026/11/03 13:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 5207,
     "title": "Copa del Rey",
     "slug": "pamplona-vs-eibar",
