@@ -420,6 +420,165 @@
     ]
   },
   {
+    "id": 5259,
+    "title": "Campeonato Brasileiro Série A",
+    "slug": "flamengo-vs-gremio",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Campeonato Brasileiro Série A",
+      "category": "Football",
+      "teamA": "Flamengo",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/5981/image",
+      "teamB": "Grêmio",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/5926/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
+      "startTimeIST": "2026-11-05 04:00:00 IST",
+      "endTimeIST": "2026-11-05 06:20:00 IST",
+      "startTimeUTC": "2026/11/04 22:30:00 +0000",
+      "endTimeUTC": "2026/11/05 00:50:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "PREMIERE BR FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
+        "key": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
+      }
+    ]
+  },
+  {
+    "id": 5261,
+    "title": "Campeonato Brasileiro Série A",
+    "slug": "athletico-vs-vasco",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Campeonato Brasileiro Série A",
+      "category": "Football",
+      "teamA": "Athletico",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1967/image",
+      "teamB": "Vasco",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1974/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
+      "startTimeIST": "2026-11-05 04:00:00 IST",
+      "endTimeIST": "2026-11-05 06:20:00 IST",
+      "startTimeUTC": "2026/11/04 22:30:00 +0000",
+      "endTimeUTC": "2026/11/05 00:50:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "PREMIERE BR FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/1obktrybht/out/v1/08265453c8f64d9fbeb3cf43764403a8/cenc.mpd",
+        "key": "332f62eb3cae824e98a4124da29a7d31:d1698cda3d040f9051125a61745b596b"
+      }
+    ]
+  },
+  {
+    "id": 5258,
+    "title": "Campeonato Brasileiro Série A",
+    "slug": "sao-paulo-vs-corinthians",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Campeonato Brasileiro Série A",
+      "category": "Football",
+      "teamA": "São Paulo",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1981/image",
+      "teamB": "Corinthians",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1957/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
+      "startTimeIST": "2026-11-05 06:00:00 IST",
+      "endTimeIST": "2026-11-05 08:20:00 IST",
+      "startTimeUTC": "2026/11/05 00:30:00 +0000",
+      "endTimeUTC": "2026/11/05 02:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5260,
+    "title": "Campeonato Brasileiro Série A",
+    "slug": "botafogo-vs-atletico-mg",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Campeonato Brasileiro Série A",
+      "category": "Football",
+      "teamA": "Botafogo",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1958/image",
+      "teamB": "Atlético-MG",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1977/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
+      "startTimeIST": "2026-11-05 06:00:00 IST",
+      "endTimeIST": "2026-11-05 08:20:00 IST",
+      "startTimeUTC": "2026/11/05 00:30:00 +0000",
+      "endTimeUTC": "2026/11/05 02:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5257,
+    "title": "SAFF Championship",
+    "slug": "pakistan-vs-india",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "SAFF Championship",
+      "category": "Football",
+      "teamA": "Pakistan",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/6081/image",
+      "teamB": "India",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4828/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2354/image/dark",
+      "startTimeIST": "2026-11-05 15:00:00 IST",
+      "endTimeIST": "2026-11-05 17:20:00 IST",
+      "startTimeUTC": "2026/11/05 09:30:00 +0000",
+      "endTimeUTC": "2026/11/05 11:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 4454,
+    "title": "Indian Super League",
+    "slug": "isl-vs-isl",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Indian Super League",
+      "category": "Football",
+      "teamA": "ISL",
+      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/1900/image",
+      "teamB": "ISL",
+      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/1900/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1900/image",
+      "startTimeIST": "2026-11-05 17:00:00 IST",
+      "endTimeIST": "2026-11-05 22:00:00 IST",
+      "startTimeUTC": "2026/11/05 11:30:00 +0000",
+      "endTimeUTC": "2026/11/05 16:30:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "PRIME VIDEO FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ebirnvewph/out/v1/2e1afb64f23b48a5acac9886327c2b8c/cenc.mpd",
+        "key": "c57fbe97649816539cf25b0c95d37d9d:ddf4da52ec2358bdf08a6fc60c4d1bc3"
+      },
+      {
+        "title": "SonyLiv (ENG)",
+        "type": "hls",
+        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2018458/footlive0111/ENG/std_lrh-800300010.m3u8",
+        "key": null
+      },
+      {
+        "title": "SonyLiv (HIN)",
+        "type": "hls",
+        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2022316/footlive0111/HIN/std_lrh-800300010.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
     "id": 5249,
     "title": "UEFA Champions League",
     "slug": "dortmund-vs-real-betis",
@@ -993,165 +1152,6 @@
         "title": "LOW QUALITY",
         "type": "hls",
         "url": "http://193.47.62.50/hls/tiiiAAAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5259,
-    "title": "Campeonato Brasileiro Série A",
-    "slug": "flamengo-vs-gremio",
-    "cat": "Live Events",
-    "status": "upcoming",
-    "event": {
-      "name": "Campeonato Brasileiro Série A",
-      "category": "Football",
-      "teamA": "Flamengo",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/5981/image",
-      "teamB": "Grêmio",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/5926/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
-      "startTimeIST": "2026-11-05 04:00:00 IST",
-      "endTimeIST": "2026-11-05 06:20:00 IST",
-      "startTimeUTC": "2026/11/04 22:30:00 +0000",
-      "endTimeUTC": "2026/11/05 00:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PREMIERE BR FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
-        "key": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
-      }
-    ]
-  },
-  {
-    "id": 5261,
-    "title": "Campeonato Brasileiro Série A",
-    "slug": "athletico-vs-vasco",
-    "cat": "Live Events",
-    "status": "upcoming",
-    "event": {
-      "name": "Campeonato Brasileiro Série A",
-      "category": "Football",
-      "teamA": "Athletico",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1967/image",
-      "teamB": "Vasco",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1974/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
-      "startTimeIST": "2026-11-05 04:00:00 IST",
-      "endTimeIST": "2026-11-05 06:20:00 IST",
-      "startTimeUTC": "2026/11/04 22:30:00 +0000",
-      "endTimeUTC": "2026/11/05 00:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PREMIERE BR FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/1obktrybht/out/v1/08265453c8f64d9fbeb3cf43764403a8/cenc.mpd",
-        "key": "332f62eb3cae824e98a4124da29a7d31:d1698cda3d040f9051125a61745b596b"
-      }
-    ]
-  },
-  {
-    "id": 5258,
-    "title": "Campeonato Brasileiro Série A",
-    "slug": "sao-paulo-vs-corinthians",
-    "cat": "Live Events",
-    "status": "upcoming",
-    "event": {
-      "name": "Campeonato Brasileiro Série A",
-      "category": "Football",
-      "teamA": "São Paulo",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1981/image",
-      "teamB": "Corinthians",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1957/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
-      "startTimeIST": "2026-11-05 06:00:00 IST",
-      "endTimeIST": "2026-11-05 08:20:00 IST",
-      "startTimeUTC": "2026/11/05 00:30:00 +0000",
-      "endTimeUTC": "2026/11/05 02:50:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5260,
-    "title": "Campeonato Brasileiro Série A",
-    "slug": "botafogo-vs-atletico-mg",
-    "cat": "Live Events",
-    "status": "upcoming",
-    "event": {
-      "name": "Campeonato Brasileiro Série A",
-      "category": "Football",
-      "teamA": "Botafogo",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1958/image",
-      "teamB": "Atlético-MG",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1977/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
-      "startTimeIST": "2026-11-05 06:00:00 IST",
-      "endTimeIST": "2026-11-05 08:20:00 IST",
-      "startTimeUTC": "2026/11/05 00:30:00 +0000",
-      "endTimeUTC": "2026/11/05 02:50:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5257,
-    "title": "SAFF Championship",
-    "slug": "pakistan-vs-india",
-    "cat": "Live Events",
-    "status": "upcoming",
-    "event": {
-      "name": "SAFF Championship",
-      "category": "Football",
-      "teamA": "Pakistan",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/6081/image",
-      "teamB": "India",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4828/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2354/image/dark",
-      "startTimeIST": "2026-11-05 15:00:00 IST",
-      "endTimeIST": "2026-11-05 17:20:00 IST",
-      "startTimeUTC": "2026/11/05 09:30:00 +0000",
-      "endTimeUTC": "2026/11/05 11:50:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 4454,
-    "title": "Indian Super League",
-    "slug": "isl-vs-isl",
-    "cat": "Live Events",
-    "status": "upcoming",
-    "event": {
-      "name": "Indian Super League",
-      "category": "Football",
-      "teamA": "ISL",
-      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/1900/image",
-      "teamB": "ISL",
-      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/1900/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1900/image",
-      "startTimeIST": "2026-11-05 17:00:00 IST",
-      "endTimeIST": "2026-11-05 22:00:00 IST",
-      "startTimeUTC": "2026/11/05 11:30:00 +0000",
-      "endTimeUTC": "2026/11/05 16:30:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PRIME VIDEO FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ebirnvewph/out/v1/2e1afb64f23b48a5acac9886327c2b8c/cenc.mpd",
-        "key": "c57fbe97649816539cf25b0c95d37d9d:ddf4da52ec2358bdf08a6fc60c4d1bc3"
-      },
-      {
-        "title": "SonyLiv (ENG)",
-        "type": "hls",
-        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2018458/footlive0111/ENG/std_lrh-800300010.m3u8",
-        "key": null
-      },
-      {
-        "title": "SonyLiv (HIN)",
-        "type": "hls",
-        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2022316/footlive0111/HIN/std_lrh-800300010.m3u8",
         "key": null
       }
     ]
