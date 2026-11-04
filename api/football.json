@@ -416,46 +416,6 @@
     "dashStreams": []
   },
   {
-    "id": 5262,
-    "title": "AFC Champions League Elite",
-    "slug": "buriram-vs-kashima",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "AFC Champions League Elite",
-      "category": "Football",
-      "teamA": "Buriram",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/34218/image",
-      "teamB": "Kashima",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/3134/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/463/image/dark",
-      "startTimeIST": "2026-11-04 17:45:00 IST",
-      "endTimeIST": "2026-11-04 20:05:00 IST",
-      "startTimeUTC": "2026/11/04 12:15:00 +0000",
-      "endTimeUTC": "2026/11/04 14:35:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://www.rtmpcdn.com/live/c424d5cb-c4c5-4cd7-9ac1-8e1d12743536.m3u8",
-        "key": null
-      },
-      {
-        "title": "HD SERVER+",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel2.m3u8?",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/HHHHAAQA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5263,
     "title": "UEFA Youth League",
     "slug": "lens-u19-vs-como-u20",
@@ -1097,6 +1057,46 @@
         "title": "SonyLiv (HIN)",
         "type": "hls",
         "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2022316/footlive0111/HIN/std_lrh-800300010.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5262,
+    "title": "AFC Champions League Elite",
+    "slug": "buriram-vs-kashima",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "AFC Champions League Elite",
+      "category": "Football",
+      "teamA": "Buriram",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/34218/image",
+      "teamB": "Kashima",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/3134/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/463/image/dark",
+      "startTimeIST": "2026-11-04 17:45:00 IST",
+      "endTimeIST": "2026-11-04 20:05:00 IST",
+      "startTimeUTC": "2026/11/04 12:15:00 +0000",
+      "endTimeUTC": "2026/11/04 14:35:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/c424d5cb-c4c5-4cd7-9ac1-8e1d12743536.m3u8",
+        "key": null
+      },
+      {
+        "title": "HD SERVER+",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel2.m3u8?",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/HHHHAAQA.m3u8",
         "key": null
       }
     ]
