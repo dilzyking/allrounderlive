@@ -424,7 +424,7 @@
     "title": "Championship",
     "slug": "wrexham-vs-middlesbrough",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Championship",
       "category": "Football",
@@ -470,7 +470,7 @@
     "title": "Championship",
     "slug": "cardiff-vs-west-ham",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Championship",
       "category": "Football",
@@ -2754,208 +2754,6 @@
         "title": "LOW QUALITY",
         "type": "hls",
         "url": "http://193.47.62.41/hls/X7UUUAAAAQQAAQ.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5210,
-    "title": "Championship",
-    "slug": "charlton-vs-bolton",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "Charlton",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/47/image",
-      "teamB": "Bolton",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/5/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-11-04 01:15:00 IST",
-      "endTimeIST": "2026-11-04 03:35:00 IST",
-      "startTimeUTC": "2026/11/03 19:45:00 +0000",
-      "endTimeUTC": "2026/11/03 22:05:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.41/hls/X7UUUA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5211,
-    "title": "Championship",
-    "slug": "watford-vs-lincoln",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "Watford",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/24/image",
-      "teamB": "Lincoln",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/92/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-11-04 01:15:00 IST",
-      "endTimeIST": "2026-11-04 03:35:00 IST",
-      "startTimeUTC": "2026/11/03 19:45:00 +0000",
-      "endTimeUTC": "2026/11/03 22:05:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.41/hls/X7UUUAAAAQQ.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5212,
-    "title": "Championship",
-    "slug": "preston-vs-sheffield-utd",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "Preston",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/21/image",
-      "teamB": "Sheffield Utd",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/15/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-11-04 01:15:00 IST",
-      "endTimeIST": "2026-11-04 03:35:00 IST",
-      "startTimeUTC": "2026/11/03 19:45:00 +0000",
-      "endTimeUTC": "2026/11/03 22:05:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.41/hls/X7UUUAAAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5213,
-    "title": "Championship",
-    "slug": "qpr-vs-burnley",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "QPR",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1/image",
-      "teamB": "Burnley",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/6/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-11-04 01:15:00 IST",
-      "endTimeIST": "2026-11-04 03:35:00 IST",
-      "startTimeUTC": "2026/11/03 19:45:00 +0000",
-      "endTimeUTC": "2026/11/03 22:05:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/onettscsr6/out/v1/ede01716668e47c9b535c30736781a1d/cenc.mpd",
-        "key": "a750109c8ebfdedbee825a182e87cea4:e2af3c63f879a1b9b5e74d89ca68065d"
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.41/hls/X7UUUAAAAQ.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5214,
-    "title": "Championship",
-    "slug": "derby-vs-norwich",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "Derby",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/27/image",
-      "teamB": "Norwich",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/263/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-11-04 01:15:00 IST",
-      "endTimeIST": "2026-11-04 03:35:00 IST",
-      "startTimeUTC": "2026/11/03 19:45:00 +0000",
-      "endTimeUTC": "2026/11/03 22:05:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.41/hls/X7UUUAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5215,
-    "title": "Championship",
-    "slug": "portsmouth-vs-swansea",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "Portsmouth",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2/image",
-      "teamB": "Swansea",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/74/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-11-04 01:15:00 IST",
-      "endTimeIST": "2026-11-04 03:35:00 IST",
-      "startTimeUTC": "2026/11/03 19:45:00 +0000",
-      "endTimeUTC": "2026/11/03 22:05:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.41/hls/X7UUUAAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5216,
-    "title": "Championship",
-    "slug": "blackburn-vs-stoke",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "Blackburn",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/46/image",
-      "teamB": "Stoke",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/29/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-11-04 01:15:00 IST",
-      "endTimeIST": "2026-11-04 03:35:00 IST",
-      "startTimeUTC": "2026/11/03 19:45:00 +0000",
-      "endTimeUTC": "2026/11/03 22:05:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.41/hls/X7UUU.m3u8",
         "key": null
       }
     ]
