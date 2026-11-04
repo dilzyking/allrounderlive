@@ -424,7 +424,7 @@
     "title": "AFC Champions League Two",
     "slug": "al-taawoun-vs-al-faisaly",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "AFC Champions League Two",
       "category": "Football",
@@ -445,7 +445,7 @@
     "title": "AFC Champions League Two",
     "slug": "muharraq-vs-al-jazira",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "AFC Champions League Two",
       "category": "Football",
@@ -805,6 +805,18 @@
         "key": "4f7fd79e857cefefb63370d487dc6777:417f1bd8e20424493509e566e6f3657c"
       },
       {
+        "title": "LIVE SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4628422.m3u8?txSecret=eb10490c56c03d3c4f264b387091a4c1&txTime=6AEBA5CD",
+        "key": null
+      },
+      {
+        "title": "PARAMOUNT+ HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59247/load-playlist.m3u8",
+        "key": null
+      },
+      {
         "title": "SONYLIV [ASIA]",
         "type": "hls",
         "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120304/footlive0411/ENG/std_lrh-800300010.m3u8",
@@ -857,6 +869,42 @@
         "key": "e6b846f1025ac88b970d2ee03c85ad14:15167e2a38eb3ab78eea15100425f9cc"
       },
       {
+        "title": "HBO MAX BRAZIL",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gwhjevq6ar/out/v1/bf0c281f2dba46cb87434d45ed13003f/cenc.mpd",
+        "key": "83a4bc2c011e2c72b35b7b5f2d35560d:01bd0115c83d3493449181ba68998ab1"
+      },
+      {
+        "title": "PARAMOUNT+ HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59248/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "LIVE SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4628499.m3u8?txSecret=9ab591417e0da16ac6d1e83b1db88d0d&txTime=6AEBA5F8",
+        "key": null
+      },
+      {
+        "title": "beIN ARABIC FHD",
+        "type": "hls",
+        "url": "https://live-cdn.ryazanslah3.space/hls/bein4.m3u8?",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/990ea245-4240-40ac-8317-de658fae890b.m3u8",
+        "key": null
+      },
+      {
+        "title": "LOW SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.41/hls/JMMMAAA.m3u8",
+        "key": null
+      },
+      {
         "title": "SONYLIV [ASIA]",
         "type": "hls",
         "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2022320/footlive0411/ENG/std_lrh-800300010.m3u8",
@@ -907,6 +955,12 @@
         "type": "dash",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lphpuuizz5/out/v1/d1b411fc45e84dbebb331ce387733d67/cenc.mpd",
         "key": "9e4b09f3c59b42b79e6dc16c1691052e:f798767c242f008883e5a3207c98e8da"
+      },
+      {
+        "title": "LIVE SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4628447.m3u8?txSecret=3b7c26d8ac342446434134415edbfc15&txTime=6AEBA74C",
+        "key": null
       },
       {
         "title": "SONYLIV [ASIA]",
@@ -1017,6 +1071,12 @@
         "type": "dash",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/pcfkzhzk0s/out/v1/374e618bd90e4c64845f11bd7f56832f/cenc.mpd",
         "key": "e60b8609a832e0e89e24e20360799b32:4372ab7df1035676ca2664e982eaad11"
+      },
+      {
+        "title": "PRIME VIDEO FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bolpzl4bhy/out/v1/4a628200c43b4392ae4c229f9681c6be/cenc.mpd",
+        "key": "6f9db4767fc068998e97bb0b81a472af:69eed2a1450edfea00df23eb206688e9"
       },
       {
         "title": "VIX Español FHD",
@@ -2896,40 +2956,6 @@
         "title": "LOW QUALITY",
         "type": "hls",
         "url": "http://193.47.62.41/hls/X7UUU.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5209,
-    "title": "AFC Champions League Elite",
-    "slug": "al-hilal-vs-shabab-al-ahli",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "AFC Champions League Elite",
-      "category": "Football",
-      "teamA": "Al-Hilal",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/21895/image",
-      "teamB": "Shabab Al-Ahli",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/264111/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/463/image/dark",
-      "startTimeIST": "2026-11-03 23:45:00 IST",
-      "endTimeIST": "2026-11-04 02:05:00 IST",
-      "startTimeUTC": "2026/11/03 18:15:00 +0000",
-      "endTimeUTC": "2026/11/03 20:35:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD QUALITY",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel20.m3u8?",
-        "key": null
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.41/hls/AA111AA.m3u8",
         "key": null
       }
     ]
