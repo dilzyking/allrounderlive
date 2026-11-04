@@ -420,7 +420,7 @@
     "title": "UEFA Youth League",
     "slug": "lens-u19-vs-como-u20",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "UEFA Youth League",
       "category": "Football",
@@ -2622,68 +2622,6 @@
         "title": "SD SERVER+",
         "type": "hls",
         "url": "http://162.251.160.53:8089/344/index.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5200,
-    "title": "UEFA Youth League",
-    "slug": "feyenoord-u19-vs-inter-u20",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "UEFA Youth League",
-      "category": "Football",
-      "teamA": "Feyenoord U19",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/197177/image",
-      "teamB": "Inter U20",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/826804/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2132/image/dark",
-      "startTimeIST": "2026-11-03 18:30:00 IST",
-      "endTimeIST": "2026-11-03 20:50:00 IST",
-      "startTimeUTC": "2026/11/03 13:00:00 +0000",
-      "endTimeUTC": "2026/11/03 15:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.41/hls/ELLL.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5203,
-    "title": "UEFA Youth League",
-    "slug": "man-united-u19-vs-roma-u20",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "UEFA Youth League",
-      "category": "Football",
-      "teamA": "Man. United U19",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/120848/image",
-      "teamB": "Roma U20",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/826818/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2132/image/dark",
-      "startTimeIST": "2026-11-03 18:30:00 IST",
-      "endTimeIST": "2026-11-03 20:50:00 IST",
-      "startTimeUTC": "2026/11/03 13:00:00 +0000",
-      "endTimeUTC": "2026/11/03 15:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "TNT SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
-        "key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.41/hls/ELLLAAAAA.m3u8",
         "key": null
       }
     ]
