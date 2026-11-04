@@ -562,6 +562,12 @@
         "key": "3513dd3c560190e3d442208dd4dca9dd:108531e39fdc0a80f2f990776e7037f3"
       },
       {
+        "title": "PRIME VIDEO FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/mdwszwnwl8/out/v1/7dae84dc172a435798fab72a8cd99828/cenc.mpd",
+        "key": "e9aa556dbdf0cba2f898cbcc26e2ae0e:e5e197eabb61007501d905521fa620d0"
+      },
+      {
         "title": "VIX Español FHD",
         "type": "dash",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bvddkqdcbo/out/v1/d2f281563daa4c8da8e2fd168552b757/cenc.mpd",
@@ -578,6 +584,24 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd",
         "key": "cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca"
+      },
+      {
+        "title": "HBO MAX BR FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gwhjevq6ar/out/v1/bf0c281f2dba46cb87434d45ed13003f/cenc.mpd",
+        "key": "83a4bc2c011e2c72b35b7b5f2d35560d:01bd0115c83d3493449181ba68998ab1"
+      },
+      {
+        "title": "DAZN SPORTS HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59240/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "PARAMOUNT+ HD",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4628355.m3u8?txSecret=3dcd0c201d18a153b6e2d1e96e238ed8&txTime=6AEB829A",
+        "key": null
       },
       {
         "title": "SONYLIV [ENG]",
