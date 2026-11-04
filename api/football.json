@@ -374,48 +374,6 @@
     ]
   },
   {
-    "id": 5207,
-    "title": "Copa del Rey",
-    "slug": "pamplona-vs-eibar",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Copa del Rey",
-      "category": "Football",
-      "teamA": "Pamplona",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/263528/image",
-      "teamB": "Eibar",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2839/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/329/image/dark",
-      "startTimeIST": "2026-11-03 23:30:00 IST",
-      "endTimeIST": "2026-11-04 01:50:00 IST",
-      "startTimeUTC": "2026/11/03 18:00:00 +0000",
-      "endTimeUTC": "2026/11/03 20:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5208,
-    "title": "Copa del Rey",
-    "slug": "anaitasuna-vs-alaves",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Copa del Rey",
-      "category": "Football",
-      "teamA": "Anaitasuna",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/263773/image",
-      "teamB": "Alavés",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2885/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/329/image/dark",
-      "startTimeIST": "2026-11-03 23:30:00 IST",
-      "endTimeIST": "2026-11-04 01:50:00 IST",
-      "startTimeUTC": "2026/11/03 18:00:00 +0000",
-      "endTimeUTC": "2026/11/03 20:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 5243,
     "title": "UEFA Champions League",
     "slug": "aek-vs-real-madrid",
@@ -723,7 +681,32 @@
       "startTimeUTC": "2026/11/04 19:45:00 +0000",
       "endTimeUTC": "2026/11/04 22:05:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n1lhb2ffmr/out/v1/fd2157164ff14b08aee352dd0f295309/cenc.mpd",
+        "key": "1c6a422a997d250d93eba4656ca35ee0:280cb26b9073a5175e88992f85291699"
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4563671.m3u8?txSecret=04a5941dd1c02e31cdfcf49b079330e2&txTime=6AEB9B63",
+        "key": null
+      },
+      {
+        "title": "HD QUALITY",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel10.m3u8?",
+        "key": null
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.50/hls/tiiiAAA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5248,
