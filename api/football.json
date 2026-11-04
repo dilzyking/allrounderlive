@@ -587,16 +587,34 @@
         "key": "58434b280dc5da2a0c2a0dd1ea4f48c1:0367f18e8b0ea8fede8ee6cb3b82d33a"
       },
       {
-        "title": "TNT SPORTS FHD",
+        "title": "PRIME VIDEO FHD",
         "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
-        "key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0vx98ay1lb/out/v1/d07d82c064f64707a06a346cf0a68aec/cenc.mpd",
+        "key": "5179ee0d1758a6d33f607816ed0859a3:629388cbf031a99953425a8db5e157ab"
       },
       {
         "title": "DAZN DE FHD",
         "type": "dash",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/p9e7ygthvj/out/v1/c6e578e510f340b29c16febf3c470572/cenc.mpd",
         "key": "874b7df0e3c0b86b0e056c8398d64f66:674ce96dacc3b24d099c9e0dfe179c70"
+      },
+      {
+        "title": "VIX Español FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qacdpbrjpj/out/v1/c8dfa6294cb34255a3a6ba81fbf286f7/cenc.mpd",
+        "key": "770497afe3f251ba88eda041403d9acc:8f251ded5d35388c6afc98ef9882fb40"
+      },
+      {
+        "title": "TNT SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
+        "key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
+      },
+      {
+        "title": "HBO MAX BR FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/m0dk7evbbv/out/v1/2280611214d549bab3108a7ec929c99a/cenc.mpd",
+        "key": "09a695c21528e0853371b882814c3aac:805bb374cfeebf82408b6850ecda7d14"
       },
       {
         "title": "SONYLIV [ASIA]",
@@ -631,6 +649,12 @@
         "type": "dash",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/8voca0kgn8/out/v1/eaeb2407695a4e38aab2ec1bd9603dd9/cenc.mpd",
         "key": "1860d02f5859d73845201900268d231c:700f2448ab0999bd2bc233a04c561d46"
+      },
+      {
+        "title": "PRIME VIDEO FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bkksxyoatu/out/v1/3a200f1388e64601810e77d248d539bc/cenc.mpd",
+        "key": "70b527424e2853177f33a7e23a404998:c25b49129a1dd6b14b3ab94ca070b72e"
       },
       {
         "title": "TNT SPORTS FHD",
@@ -673,6 +697,18 @@
         "type": "hls",
         "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120308/footlive0411/KAN/std_lrh-800300010.m3u8",
         "key": null
+      },
+      {
+        "title": "HD QUALITY",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/a8ae5806-b901-41a1-b0db-6b94f385378c.m3u8",
+        "key": null
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/JMMMAA.m3u8",
+        "key": null
       }
     ]
   },
@@ -701,6 +737,18 @@
         "type": "dash",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/hp8rapp5tf/out/v1/27de1189595849a98cce002e679063ba/cenc.mpd",
         "key": "55d6c128b456acb1d0acd5e17f4c0ae7:7cc673c958ec7bbacbfe242ebce8ceaa"
+      },
+      {
+        "title": "PRIME VIDEO FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/dbaurfydof/out/v1/4b729bd9c7bf4f538326b9096f71dc35/cenc.mpd",
+        "key": "605cec5d4d0c9b9adc5b1da537582b4f:e8687e2457e5ce2060fc52d5b39efa04"
+      },
+      {
+        "title": "VIX Español FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ofniszbiz0/out/v1/8ccf7b91d6c3409b991d48150e65c0e4/cenc.mpd",
+        "key": "5b30e453507e0b2080bad89fea8cb27f:158fb33a914c7a3e02d017f5dec52c03"
       },
       {
         "title": "DAZN DE FHD",
@@ -795,6 +843,18 @@
         "key": "c609b1f56b17276d3526bc297ba8dd10:390c9205242b5132df2bc9d1fb7f38e1"
       },
       {
+        "title": "PRIME VIDEO FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ndc5q7xrdi/out/v1/0eaae29490a342ab9f98fb5a773a02e2/cenc.mpd",
+        "key": "5d745d9fa3b4e61a2d000528b30d6936:4eda3c78f484d4efe408baee3afa19fa"
+      },
+      {
+        "title": "VIX Español FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/sjwfufyzxv/out/v1/aef31af53940433bb1b5a1d1eaa6ed5d/cenc.mpd",
+        "key": "0971a5f78e9033d86be231fef3ddcbf6:b6edfceb7d6df0b02b7923a92e62a171"
+      },
+      {
         "title": "DAZN DE FHD",
         "type": "dash",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lphpuuizz5/out/v1/d1b411fc45e84dbebb331ce387733d67/cenc.mpd",
@@ -804,6 +864,18 @@
         "title": "SONYLIV [ASIA]",
         "type": "hls",
         "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2094587/Footlive0411/ENG/std_lrh-800300010.m3u8",
+        "key": null
+      },
+      {
+        "title": "HD QUALITY",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/8ac2fd58-4da4-4fc6-b43e-9e779e53d4d9.m3u8",
+        "key": null
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.50/hls/z777A.m3u8",
         "key": null
       }
     ]
@@ -835,6 +907,18 @@
         "key": "fb49bd892b824f28fad679dd7ad71e8c:cd9842c07299c799b409629ba7ac0a98"
       },
       {
+        "title": "PRIME VIDEO FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/y3th6vjorn/out/v1/7a9ccc6d6f1e4fc3abe851fac45936a2/cenc.mpd",
+        "key": "334c272e7990a300f968c6842e0b31aa:17f15f267b0d4773dc441eb88fb10636"
+      },
+      {
+        "title": "VIX Español FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/r9udn69u5v/out/v1/7257a9e3af1e4c9e8867c97998030233/cenc.mpd",
+        "key": "c912a6919c685ebd52c139fe14542a93:d49e2a62049ae3b71b79ebb9db44510b"
+      },
+      {
         "title": "DAZN DE FHD",
         "type": "dash",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/k0a1eycdh3/out/v1/ed168d6fa20248819a7748ec0057e615/cenc.mpd",
@@ -844,6 +928,18 @@
         "title": "SONYLIV [ASIA]",
         "type": "hls",
         "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2022317/footlive0411/ENG/std_lrh-800300010.m3u8",
+        "key": null
+      },
+      {
+        "title": "HD QUALITY",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/7b9a2bbe-a88f-4ae5-8237-8e23b030d3a5.m3u8",
+        "key": null
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.50/hls/z777AA.m3u8",
         "key": null
       }
     ]
