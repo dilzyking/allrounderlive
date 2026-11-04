@@ -617,6 +617,30 @@
         "key": "09a695c21528e0853371b882814c3aac:805bb374cfeebf82408b6850ecda7d14"
       },
       {
+        "title": "PARAMOUNT+ HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59245/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "LIVE SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4628417.m3u8?txSecret=cbba77e215e7054b7a70b8bc15f26896&txTime=6AEBA4A9",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/9cb44401-d33c-4e18-badb-0a3ed23fab19.m3u8",
+        "key": null
+      },
+      {
+        "title": "LOW SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/JMMM.m3u8",
+        "key": null
+      },
+      {
         "title": "SONYLIV [ASIA]",
         "type": "hls",
         "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120303/footlive0411/ENG/std_lrh-800300010.m3u8",
@@ -667,6 +691,30 @@
         "type": "dash",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ncceucfcrw/out/v1/979b060296954c2b8d173b04481fd767/cenc.mpd",
         "key": "5d3f3429e47c011b33c90469366ed19e:22aeb1655c535fa117a2645d66959922"
+      },
+      {
+        "title": "LIVE SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4628476.m3u8?txSecret=454703574f61561e5eaa8a83255a28f6&txTime=6AEBA3E8",
+        "key": null
+      },
+      {
+        "title": "beIN ARABIC FHD",
+        "type": "hls",
+        "url": "https://live-cdn.ryazanslah3.space/hls/bein3.m3u8?",
+        "key": null
+      },
+      {
+        "title": "PARAMOUNT+ HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59246/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "TNT SPORTS HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59249/load-playlist.m3u8",
+        "key": null
       },
       {
         "title": "SONYLIV [ENG]",
