@@ -437,40 +437,6 @@
     "dashStreams": []
   },
   {
-    "id": 3255,
-    "title": "UEFA Champions League",
-    "slug": "the-golazo-show-vs-the-golazo-show",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "UEFA Champions League",
-      "category": "Football",
-      "teamA": "The Golazo Show",
-      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "teamB": "The Golazo Show",
-      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "startTimeIST": "2026-11-04 01:30:00 IST",
-      "endTimeIST": "2026-11-04 06:30:00 IST",
-      "startTimeUTC": "2026/11/03 20:00:00 +0000",
-      "endTimeUTC": "2026/11/04 01:00:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xkheeec2xv/out/v1/0ba456ea055847d4ac3288f8784d4518/cenc.mpd",
-        "key": "260b37ce733c1b217d443e1be601b3c5:ab79e014ce4ed784b63743c084bb6cb5"
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.41/hls/eoooX.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5226,
     "title": "Campeonato Brasileiro Série A",
     "slug": "internacional-vs-coritiba",
@@ -668,6 +634,40 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/oy6rp0jwmf/out/v1/580ecf12bad24979baf8dd993dce053e/cenc.mpd",
         "key": "9dc40460c93087aea84d6315f08ecb64:f69c8d4624fddff4ca89bd0b31bdc4a7"
+      }
+    ]
+  },
+  {
+    "id": 3255,
+    "title": "UEFA Champions League",
+    "slug": "the-golazo-show-vs-the-golazo-show",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "UEFA Champions League",
+      "category": "Football",
+      "teamA": "The Golazo Show",
+      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
+      "teamB": "The Golazo Show",
+      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
+      "startTimeIST": "2026-11-04 01:30:00 IST",
+      "endTimeIST": "2026-11-04 06:30:00 IST",
+      "startTimeUTC": "2026/11/03 20:00:00 +0000",
+      "endTimeUTC": "2026/11/04 01:00:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xkheeec2xv/out/v1/0ba456ea055847d4ac3288f8784d4518/cenc.mpd",
+        "key": "260b37ce733c1b217d443e1be601b3c5:ab79e014ce4ed784b63743c084bb6cb5"
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.41/hls/eoooX.m3u8",
+        "key": null
       }
     ]
   },
