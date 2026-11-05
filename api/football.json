@@ -416,58 +416,6 @@
     "dashStreams": []
   },
   {
-    "id": 5257,
-    "title": "SAFF Championship",
-    "slug": "pakistan-vs-india",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "SAFF Championship",
-      "category": "Football",
-      "teamA": "Pakistan",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/6081/image",
-      "teamB": "India",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4828/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2354/image/dark",
-      "startTimeIST": "2026-11-05 15:00:00 IST",
-      "endTimeIST": "2026-11-05 17:20:00 IST",
-      "startTimeUTC": "2026/11/05 09:30:00 +0000",
-      "endTimeUTC": "2026/11/05 11:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "MYCO FHD",
-        "type": "hls",
-        "url": "https://ml-pull-rtmp-pk1.myco.io/SAFF2026/hls/26113.m3u8",
-        "key": null
-      },
-      {
-        "title": "BTV LIVE FHD",
-        "type": "hls",
-        "url": "https://live.btvlive.gov.bd/live/1084043f-90ba-4ee9-8651-f47747716c9f/BD/355ba051-9a60-48aa-adcf-5a6c64da8c5c/index.m3u8",
-        "key": null
-      },
-      {
-        "title": "LIVE FHD",
-        "type": "hls",
-        "url": "https://kick.com/api/v2/channels/34ak472",
-        "key": null
-      },
-      {
-        "title": "T SPORTS HD",
-        "type": "hls",
-        "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8",
-        "key": null
-      },
-      {
-        "title": "HD SERVER+",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel12.m3u8?",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5279,
     "title": "AFC Champions League Two",
     "slug": "kitchee-vs-ppcfc",
@@ -1640,6 +1588,58 @@
       "endTimeUTC": "2026/11/06 02:50:00 +0000"
     },
     "dashStreams": []
+  },
+  {
+    "id": 5257,
+    "title": "SAFF Championship",
+    "slug": "pakistan-vs-india",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "SAFF Championship",
+      "category": "Football",
+      "teamA": "Pakistan",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/6081/image",
+      "teamB": "India",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4828/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2354/image/dark",
+      "startTimeIST": "2026-11-05 15:00:00 IST",
+      "endTimeIST": "2026-11-05 17:20:00 IST",
+      "startTimeUTC": "2026/11/05 09:30:00 +0000",
+      "endTimeUTC": "2026/11/05 11:50:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "MYCO FHD",
+        "type": "hls",
+        "url": "https://ml-pull-rtmp-pk1.myco.io/SAFF2026/hls/26113.m3u8",
+        "key": null
+      },
+      {
+        "title": "BTV LIVE FHD",
+        "type": "hls",
+        "url": "https://live.btvlive.gov.bd/live/1084043f-90ba-4ee9-8651-f47747716c9f/BD/355ba051-9a60-48aa-adcf-5a6c64da8c5c/index.m3u8",
+        "key": null
+      },
+      {
+        "title": "LIVE FHD",
+        "type": "hls",
+        "url": "https://kick.com/api/v2/channels/34ak472",
+        "key": null
+      },
+      {
+        "title": "T SPORTS HD",
+        "type": "hls",
+        "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8",
+        "key": null
+      },
+      {
+        "title": "HD SERVER+",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel12.m3u8?",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5259,
