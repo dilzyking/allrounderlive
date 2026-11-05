@@ -158,6 +158,12 @@
         "type": "dash",
         "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/vnbdbmfdnk/out/v1/b3a014fa36bb47e2a7d8edffa6bccc1c/cenc.mpd",
         "key": "4a4c70f4416d322e37111794d0a396b6:d23a4f2e632c458e7e1981d3fe41d852"
+      },
+      {
+        "title": "FANCODE (IND)",
+        "type": "hls",
+        "url": "https://dai-fancode.pages.dev/mumbai/4249772_english_hls_ea87fdf83410465_1ta-di_h264/index.m3u8",
+        "key": null
       }
     ]
   },
