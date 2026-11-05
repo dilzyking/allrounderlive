@@ -104,76 +104,6 @@
     ]
   },
   {
-    "id": 4963,
-    "title": "Women's Big Bash League",
-    "slug": "wbbl-vs-wbbl",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Women's Big Bash League",
-      "category": "Cricket",
-      "teamA": "WBBL",
-      "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH9OS4ikdL0U1wBewY6aIs6YK6KHWTHm7aa9O7wGaw4w&s=10",
-      "teamB": "WBBL",
-      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH9OS4ikdL0U1wBewY6aIs6YK6KHWTHm7aa9O7wGaw4w&s=10",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH9OS4ikdL0U1wBewY6aIs6YK6KHWTHm7aa9O7wGaw4w&s=10",
-      "startTimeIST": "2026-11-05 10:00:00 IST",
-      "endTimeIST": "2026-11-05 18:20:00 IST",
-      "startTimeUTC": "2026/11/05 04:30:00 +0000",
-      "endTimeUTC": "2026/11/05 12:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "WILLOW FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ubdi2yucnd/out/v1/8ef7e7dc1a994f058e795e429ae797e6/cenc.mpd",
-        "key": "755296074254464e7c3aaee0f9189f0a:ed96b2f0b70c789daa69b64c1195ff3a"
-      },
-      {
-        "title": "FANCODE FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
-      },
-      {
-        "title": "SKY CRICKET FHD",
-        "type": "hls",
-        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
-        "key": null
-      },
-      {
-        "title": "WILLOW ALT",
-        "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/ubdi2yucnd/out/v1/8ef7e7dc1a994f058e795e429ae797e6/cenc.mpd",
-        "key": "755296074254464e7c3aaee0f9189f0a:ed96b2f0b70c789daa69b64c1195ff3a"
-      },
-      {
-        "title": "TAPMAD FHD",
-        "type": "hls",
-        "url": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8",
-        "key": null
-      },
-      {
-        "title": "WILLOW SD",
-        "type": "hls",
-        "url": "http://51.77.217.114:8089/Wbbl52/index.m3u8",
-        "key": null
-      },
-      {
-        "title": "EUROSPORTS FHD",
-        "type": "dash",
-        "url": "https://wbd.skandha.tv/EuroSport_HD/EuroSport_HD.isml/.mpd",
-        "key": "12ed56d780abcfebcd23aa27e4ac5015:6784567890abcfebcd23aa27e4ac2814"
-      },
-      {
-        "title": "FANCODE (IND)",
-        "type": "hls",
-        "url": "https://dai-fancode.pages.dev/mumbai/4250396_english_hls_76e8908eb666766_1ta-di_h264/index.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5183,
     "title": "Test Series",
     "slug": "afg-vs-zim",
@@ -301,6 +231,76 @@
         "title": "SonyLiv (Asia)",
         "type": "hls",
         "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2037140/criclive0511/ENG/std_lrh-800300010.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 4963,
+    "title": "Women's Big Bash League",
+    "slug": "wbbl-vs-wbbl",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Women's Big Bash League",
+      "category": "Cricket",
+      "teamA": "WBBL",
+      "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH9OS4ikdL0U1wBewY6aIs6YK6KHWTHm7aa9O7wGaw4w&s=10",
+      "teamB": "WBBL",
+      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH9OS4ikdL0U1wBewY6aIs6YK6KHWTHm7aa9O7wGaw4w&s=10",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH9OS4ikdL0U1wBewY6aIs6YK6KHWTHm7aa9O7wGaw4w&s=10",
+      "startTimeIST": "2026-11-05 13:40:00 IST",
+      "endTimeIST": "2026-11-05 18:20:00 IST",
+      "startTimeUTC": "2026/11/05 08:10:00 +0000",
+      "endTimeUTC": "2026/11/05 12:50:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "WILLOW FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/xptc0wds5g/out/v1/7288073cee484be68b23d5d99042b8a4/cenc.mpd",
+        "key": "edbd9d6a45038d8031f8acda793333db:837f1272ecc58bd183c3adbbd64bf2ab"
+      },
+      {
+        "title": "FANCODE FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+      },
+      {
+        "title": "SKY CRICKET FHD",
+        "type": "hls",
+        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
+        "key": null
+      },
+      {
+        "title": "WILLOW ALT",
+        "type": "dash",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/xptc0wds5g/out/v1/7288073cee484be68b23d5d99042b8a4/cenc.mpd",
+        "key": "edbd9d6a45038d8031f8acda793333db:837f1272ecc58bd183c3adbbd64bf2ab"
+      },
+      {
+        "title": "TAPMAD FHD",
+        "type": "hls",
+        "url": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8",
+        "key": null
+      },
+      {
+        "title": "WILLOW HD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+        "key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
+      },
+      {
+        "title": "WILLOW SD",
+        "type": "hls",
+        "url": "http://51.77.217.114:8089/Wbbl52/index.m3u8",
+        "key": null
+      },
+      {
+        "title": "FANCODE (IND)",
+        "type": "hls",
+        "url": "https://dai-fancode.pages.dev/mumbai/4250396_english_hls_76e8908eb666766_1ta-di_h264/index.m3u8",
         "key": null
       }
     ]
