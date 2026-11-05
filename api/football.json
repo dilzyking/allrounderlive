@@ -378,7 +378,7 @@
     "title": "Campeonato Brasileiro Série A",
     "slug": "sao-paulo-vs-corinthians",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Campeonato Brasileiro Série A",
       "category": "Football",
@@ -399,7 +399,7 @@
     "title": "Campeonato Brasileiro Série A",
     "slug": "botafogo-vs-atletico-mg",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Campeonato Brasileiro Série A",
       "category": "Football",
@@ -2075,34 +2075,6 @@
         "type": "hls",
         "url": "http://162.251.160.53:8089/1009/index.m3u8",
         "key": null
-      }
-    ]
-  },
-  {
-    "id": 5226,
-    "title": "Campeonato Brasileiro Série A",
-    "slug": "internacional-vs-coritiba",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Campeonato Brasileiro Série A",
-      "category": "Football",
-      "teamA": "Internacional",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1966/image",
-      "teamB": "Coritiba",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1982/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/325/image/dark",
-      "startTimeIST": "2026-11-04 06:00:00 IST",
-      "endTimeIST": "2026-11-04 08:20:00 IST",
-      "startTimeUTC": "2026/11/04 00:30:00 +0000",
-      "endTimeUTC": "2026/11/04 02:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PREMIERE FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
-        "key": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
       }
     ]
   },
