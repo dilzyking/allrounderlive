@@ -438,19 +438,37 @@
       {
         "title": "PRIME VIDEO FHD",
         "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/jcgi1p1cip/out/v1/ba8c64b8009848af820813e215842743/cenc.mpd",
-        "key": "695d15cbde11cb7493656822f071cf0d:80094f09d12c9946bd55c23f4609c475"
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bzxlubr5do/out/v1/5e11cf9c4c574bdead34d2fd73b2bc91/cenc.mpd",
+        "key": "0018708b148a535ce471118814221bf8:9b44705ad89f7b3e91ccaa9b2f2a2b0f"
       },
       {
         "title": "SonyLiv (ENG)",
         "type": "hls",
-        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2018458/footlive0111/ENG/std_lrh-800300010.m3u8",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2094590/Footlive0511/ENG/std_lrh-800300010.m3u8?hdnea=exp=1793930328~acl=/*~id=33587064428619536097058701325001~hmac=f2dfc022216d4e87d7a8996fd9d8e77f1a5c9a31aa6c9e85d5d71daeecc9876a",
         "key": null
       },
       {
         "title": "SonyLiv (HIN)",
         "type": "hls",
-        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2022316/footlive0111/HIN/std_lrh-800300010.m3u8",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2105079/Footlive0511/HIN/std_lrh-800300010.m3u8?hdnea=exp=1793930328~acl=/*~id=33587064428619536097058701325001~hmac=f2dfc022216d4e87d7a8996fd9d8e77f1a5c9a31aa6c9e85d5d71daeecc9876a",
+        "key": null
+      },
+      {
+        "title": "SONYLIV [BEN]",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2105080/Footlive0511/BEN/std_lrh-800300010.m3u8?hdnea=exp=1793930328~acl=/*~id=33587064428619536097058701325001~hmac=f2dfc022216d4e87d7a8996fd9d8e77f1a5c9a31aa6c9e85d5d71daeecc9876a",
+        "key": null
+      },
+      {
+        "title": "HD QUALITY",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?",
+        "key": null
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.55/hls/RHHHAAAAAQ.m3u8",
         "key": null
       }
     ]
@@ -3068,34 +3086,6 @@
         "title": "SD SERVER",
         "type": "hls",
         "url": "http://193.47.62.44/hls/HHHHAAQA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5264,
-    "title": "UEFA Youth League",
-    "slug": "porto-u19-vs-napoli-u19",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "UEFA Youth League",
-      "category": "Football",
-      "teamA": "Porto U19",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/78117/image",
-      "teamB": "Napoli U19",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/829592/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2132/image/dark",
-      "startTimeIST": "2026-11-04 17:30:00 IST",
-      "endTimeIST": "2026-11-04 19:50:00 IST",
-      "startTimeUTC": "2026/11/04 12:00:00 +0000",
-      "endTimeUTC": "2026/11/04 14:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "Link 1",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/HHHHAA.m3u8",
         "key": null
       }
     ]
