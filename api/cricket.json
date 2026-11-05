@@ -52,76 +52,6 @@
     ]
   },
   {
-    "id": 4728,
-    "title": "ICC World Test Championship",
-    "slug": "ban-vs-wi",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "ICC World Test Championship",
-      "category": "Cricket",
-      "teamA": "BAN",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/187744/image",
-      "teamB": "WI",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/187760/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18833/image/dark",
-      "startTimeIST": "2026-11-05 09:00:00 IST",
-      "endTimeIST": "2026-11-05 17:30:00 IST",
-      "startTimeUTC": "2026/11/05 03:30:00 +0000",
-      "endTimeUTC": "2026/11/05 12:00:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "FANCODE FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
-        "key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
-      },
-      {
-        "title": "TAPMAD FHD",
-        "type": "hls",
-        "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a14abbcff31ea540a81c2b41b760/01a14abc06421567ee931e109fa577/main.m3u8",
-        "key": null
-      },
-      {
-        "title": "FANCODE SD",
-        "type": "dash",
-        "url": "https://live-pv-ta.amazon.fastly-edge.com/bom-nitro/live/clients/dash-sd/enc/eayjamsonn/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd",
-        "key": "5318e462b9e0677487cb87837f0bbdb1:4fa0fb973b95738306005f2e8591bf8e"
-      },
-      {
-        "title": "ROBBITHOLE FHD",
-        "type": "hls",
-        "url": "https://hpc5-nmc-mnc.mydex.tv/_tkn_st=1793849106~exp=1793877966~acl=/bpk-tv/202/default/*~eti=ec6f90c3bb4e2adc840061f03b9e10fc~sid=27774d63525ecb4a~imax=2~hmac=5f85510854d2be9c155c395e0011573f36d7dbb697aa44cc3ccf956a18025bd9/bpk-tv/202/default/index.m3u8",
-        "key": null
-      },
-      {
-        "title": "T SPORTS HD",
-        "type": "hls",
-        "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8",
-        "key": null
-      },
-      {
-        "title": "TAPMAD 2 HD",
-        "type": "hls",
-        "url": "https://tencent-cdn.tapmad.com/v1/01a14abbcff31ea540a81c2b41b760/01a14abc06421567ee931e109fa577/main.m3u8",
-        "key": null
-      },
-      {
-        "title": "T SPORTS SD",
-        "type": "hls",
-        "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
-        "key": null
-      },
-      {
-        "title": "FANCODE - IN",
-        "type": "hls",
-        "url": "https://dai-fancode.pages.dev/mumbai/4250527_english_hls_370c6945842186_1ta-di_h264/index.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5183,
     "title": "Test Series",
     "slug": "afg-vs-zim",
@@ -449,6 +379,76 @@
         "title": "SonyLiv (KAN)",
         "type": "hls",
         "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119782/cricodi_0311/KAN/std_lrh-800300010.m3u8?hdnea=exp=1793796155~acl=/*~id=9330fc4a2255cbf324394d7b5b191e90-1793752955164~hmac=1fd83137467b58c5eab840c4d951510eddecacd341e747518010c8de4e5e5aed",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 4728,
+    "title": "ICC World Test Championship",
+    "slug": "ban-vs-wi",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "ICC World Test Championship",
+      "category": "Cricket",
+      "teamA": "BAN",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/187744/image",
+      "teamB": "WI",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/187760/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18833/image/dark",
+      "startTimeIST": "2026-11-05 09:00:00 IST",
+      "endTimeIST": "2026-11-05 17:30:00 IST",
+      "startTimeUTC": "2026/11/05 03:30:00 +0000",
+      "endTimeUTC": "2026/11/05 12:00:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "FANCODE FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+        "key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
+      },
+      {
+        "title": "TAPMAD FHD",
+        "type": "hls",
+        "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a14abbcff31ea540a81c2b41b760/01a14abc06421567ee931e109fa577/main.m3u8",
+        "key": null
+      },
+      {
+        "title": "FANCODE SD",
+        "type": "dash",
+        "url": "https://live-pv-ta.amazon.fastly-edge.com/bom-nitro/live/clients/dash-sd/enc/eayjamsonn/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd",
+        "key": "5318e462b9e0677487cb87837f0bbdb1:4fa0fb973b95738306005f2e8591bf8e"
+      },
+      {
+        "title": "ROBBITHOLE FHD",
+        "type": "hls",
+        "url": "https://hpc5-nmc-mnc.mydex.tv/_tkn_st=1793849106~exp=1793877966~acl=/bpk-tv/202/default/*~eti=ec6f90c3bb4e2adc840061f03b9e10fc~sid=27774d63525ecb4a~imax=2~hmac=5f85510854d2be9c155c395e0011573f36d7dbb697aa44cc3ccf956a18025bd9/bpk-tv/202/default/index.m3u8",
+        "key": null
+      },
+      {
+        "title": "T SPORTS HD",
+        "type": "hls",
+        "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8",
+        "key": null
+      },
+      {
+        "title": "TAPMAD 2 HD",
+        "type": "hls",
+        "url": "https://tencent-cdn.tapmad.com/v1/01a14abbcff31ea540a81c2b41b760/01a14abc06421567ee931e109fa577/main.m3u8",
+        "key": null
+      },
+      {
+        "title": "T SPORTS SD",
+        "type": "hls",
+        "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
+        "key": null
+      },
+      {
+        "title": "FANCODE - IN",
+        "type": "hls",
+        "url": "https://dai-fancode.pages.dev/mumbai/4250527_english_hls_370c6945842186_1ta-di_h264/index.m3u8",
         "key": null
       }
     ]
