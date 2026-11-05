@@ -492,35 +492,29 @@
       "teamB": "The Golazo Show",
       "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/679/image/dark",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/679/image/dark",
-      "startTimeIST": "2026-11-05 23:10:00 IST",
-      "endTimeIST": "2026-11-06 04:30:00 IST",
-      "startTimeUTC": "2026/11/05 17:40:00 +0000",
-      "endTimeUTC": "2026/11/05 23:00:00 +0000"
+      "startTimeIST": "2026-11-05 23:15:00 IST",
+      "endTimeIST": "2026-11-06 03:30:00 IST",
+      "startTimeUTC": "2026/11/05 17:45:00 +0000",
+      "endTimeUTC": "2026/11/05 22:00:00 +0000"
     },
     "dashStreams": [
       {
         "title": "PARAMOUNT+ FHD",
         "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/htqkbztz1l/out/v1/87095d82ecbf4de7ad3f5ad789f1f060/cenc.mpd",
-        "key": "d470693cba80fbeec8e909f80ed70edc:8f436dc5b928988a18d011a3b99a58b5"
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ql07y2x0fs/out/v1/0ca1c0e93a214892bdf485039946da27/cenc.mpd",
+        "key": "d5c1a0585bc5519e61aff334810f2290:e6ccaf87453280fa6acd60fd1d9da0db"
+      },
+      {
+        "title": "HD QUALITY",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel5.m3u8?",
+        "key": null
       },
       {
         "title": "LOW QUALITY",
         "type": "hls",
-        "url": "http://193.47.62.50/hls/z777AAA.m3u8",
+        "url": "http://193.47.62.55/hls/RLLLAAQQQA.m3u8",
         "key": null
-      },
-      {
-        "title": "DAZN DE FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/x5mu0qhmrk/out/v1/b8bac9a22bfe401bacf4298b49b7997c/cenc.mpd",
-        "key": "e8f2965188ef1f045729a67c40260a74:fba28d2fe6e68d6945457167c9c80b1b"
-      },
-      {
-        "title": "DAZN DE ALT",
-        "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/x5mu0qhmrk/out/v1/b8bac9a22bfe401bacf4298b49b7997c/cenc.mpd",
-        "key": "e8f2965188ef1f045729a67c40260a74:fba28d2fe6e68d6945457167c9c80b1b"
       }
     ]
   },
@@ -529,7 +523,7 @@
     "title": "UEFA Europa League",
     "slug": "sparta-praha-vs-bournemouth",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Europa League",
       "category": "Football",
@@ -550,7 +544,7 @@
     "title": "UEFA Europa League",
     "slug": "crystal-palace-vs-hoffenheim",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Europa League",
       "category": "Football",
@@ -571,7 +565,7 @@
     "title": "UEFA Europa League",
     "slug": "real-sociedad-vs-lyon",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Europa League",
       "category": "Football",
@@ -592,7 +586,7 @@
     "title": "UEFA Europa League",
     "slug": "milan-vs-ferencvaros",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Europa League",
       "category": "Football",
@@ -606,14 +600,45 @@
       "startTimeUTC": "2026/11/05 17:45:00 +0000",
       "endTimeUTC": "2026/11/05 20:05:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gjwox7cwln/out/v1/5fba5e319b6145be89f1aeed9809da67/cenc.mpd",
+        "key": "32f0e8f183ded0094d5604e0ace91c7d:5a7b1b43bc5f22a0b6cebfbb37061d0d"
+      },
+      {
+        "title": "VIX Español FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tkzhoqblsr/out/v1/d2f281563daa4c8da8e2fd168552b757/cenc.mpd",
+        "key": "0edb8672085f6eebca8d9ad0bc6c0ae2:fbfb8f246782de88232996ccc0661f35"
+      },
+      {
+        "title": "TNT SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
+        "key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel15.m3u8?",
+        "key": null
+      },
+      {
+        "title": "SONYLIV [ASIA]",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120299/Footlive0511/ENG/std_lrh-800300010.m3u8?hdnea=exp=1793943099~acl=/*~id=11851455675667223153211153093920~hmac=567ba224b4eb2b86d7ddbe67eeabac2927cbde6404d31b4850cbddb6178df264",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5292,
     "title": "UEFA Europa League",
     "slug": "levski-sofia-vs-jagiellonia",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Europa League",
       "category": "Football",
@@ -634,7 +659,7 @@
     "title": "UEFA Europa League",
     "slug": "lillestr-m-vs-viktoria-plzen",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Europa League",
       "category": "Football",
@@ -648,14 +673,21 @@
       "startTimeUTC": "2026/11/05 17:45:00 +0000",
       "endTimeUTC": "2026/11/05 20:05:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/aqysg9efuv/out/v1/c7821fafb039407590a94494094c163c/cenc.mpd",
+        "key": "5f01136d9beda63e5c2bc998e0706890:0ac25eb618b72f40780815898bffa4dc"
+      }
+    ]
   },
   {
     "id": 5296,
     "title": "UEFA Europa League",
     "slug": "anderlecht-vs-rb-salzburg",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Europa League",
       "category": "Football",
@@ -676,7 +708,7 @@
     "title": "UEFA Europa League",
     "slug": "nec-vs-omonia",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Europa League",
       "category": "Football",
@@ -697,7 +729,7 @@
     "title": "UEFA Conference League",
     "slug": "agf-vs-braga",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Conference League",
       "category": "Football",
@@ -718,7 +750,7 @@
     "title": "UEFA Conference League",
     "slug": "atalanta-vs-kairat",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Conference League",
       "category": "Football",
@@ -739,7 +771,7 @@
     "title": "UEFA Conference League",
     "slug": "trabzonspor-vs-freiburg",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Conference League",
       "category": "Football",
@@ -760,7 +792,7 @@
     "title": "UEFA Conference League",
     "slug": "midtjylland-vs-ajax",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Conference League",
       "category": "Football",
@@ -781,7 +813,7 @@
     "title": "UEFA Conference League",
     "slug": "thun-vs-hearts",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Conference League",
       "category": "Football",
@@ -802,7 +834,7 @@
     "title": "UEFA Conference League",
     "slug": "mjallby-vs-borac",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Conference League",
       "category": "Football",
@@ -823,7 +855,7 @@
     "title": "UEFA Conference League",
     "slug": "kups-vs-gent",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Conference League",
       "category": "Football",
@@ -844,7 +876,7 @@
     "title": "UEFA Conference League",
     "slug": "crvena-zvezda-vs-inter",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Conference League",
       "category": "Football",
@@ -865,7 +897,7 @@
     "title": "UEFA Conference League",
     "slug": "lincoln-ri-vs-hajduk",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Conference League",
       "category": "Football",
