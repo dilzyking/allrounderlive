@@ -3101,40 +3101,6 @@
     ]
   },
   {
-    "id": 5232,
-    "title": "UEFA Youth League",
-    "slug": "fenerbahce-u19-vs-liverpool-u19",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "UEFA Youth League",
-      "category": "Football",
-      "teamA": "Fenerbahçe U19",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/243800/image",
-      "teamB": "Liverpool U19",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/90134/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2132/image/dark",
-      "startTimeIST": "2026-11-04 16:30:00 IST",
-      "endTimeIST": "2026-11-04 18:50:00 IST",
-      "startTimeUTC": "2026/11/04 11:00:00 +0000",
-      "endTimeUTC": "2026/11/04 13:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.59/hls/ETTT.m3u8",
-        "key": null
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel7.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 3926,
     "title": "NFL REDZONE",
     "slug": "nfl-vs-nfl",
