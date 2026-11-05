@@ -832,6 +832,45 @@
       drawer.addEventListener('pointerup',()=>endDrag(false));
       drawer.addEventListener('pointercancel',()=>endDrag(true));
     })();
+    
+
+
+(function () {
+  'use strict';
+
+  const originalOpen = window.open;
+  const WHATSAPP_URL =
+    'https://whatsapp.com/channel/0029Vb99cQ95K3zXgZsecR29';
+
+  let popupAdCount = 0;
+  const MAX_POPUP_ADS = 1;
+
+  window.open = function (...args) {
+    const overlay = document.getElementById('waOverlay');
+
+    const popupVisible =
+      overlay && overlay.classList.contains('show');
+
+    const url = String(args[0] || '');
+
+    // Always allow the official WhatsApp channel link.
+    const isWhatsApp = url === WHATSAPP_URL;
+
+    // Limit popunders only while WhatsApp popup is visible.
+    if (popupVisible && !isWhatsApp) {
+      if (popupAdCount >= MAX_POPUP_ADS) {
+        return null;
+      }
+
+      popupAdCount++;
+    }
+
+    // Normal popunder behavior after popup dismissal.
+    return originalOpen.apply(window, args);
+  };
+})();
+
+
   </script>
 
   <script>(function(s){s.dataset.zone='11514537',s.src='https://llvpn.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
