@@ -416,90 +416,6 @@
     "dashStreams": []
   },
   {
-    "id": 5279,
-    "title": "AFC Champions League Two",
-    "slug": "kitchee-vs-ppcfc",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "AFC Champions League Two",
-      "category": "Football",
-      "teamA": "Kitchee",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/42199/image",
-      "teamB": "PPCFC",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/35605/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/668/image/dark",
-      "startTimeIST": "2026-11-05 15:30:00 IST",
-      "endTimeIST": "2026-11-05 17:50:00 IST",
-      "startTimeUTC": "2026/11/05 10:00:00 +0000",
-      "endTimeUTC": "2026/11/05 12:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel11.m3u8?",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5280,
-    "title": "AFC Champions League Two",
-    "slug": "machida-vs-shenhua",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "AFC Champions League Two",
-      "category": "Football",
-      "teamA": "Machida",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/44409/image",
-      "teamB": "Shenhua",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/3373/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/668/image/dark",
-      "startTimeIST": "2026-11-05 15:30:00 IST",
-      "endTimeIST": "2026-11-05 17:50:00 IST",
-      "startTimeUTC": "2026/11/05 10:00:00 +0000",
-      "endTimeUTC": "2026/11/05 12:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel15.m3u8?",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5281,
-    "title": "AFC Champions League Two",
-    "slug": "lion-city-sailors-vs-adelaide-united",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "AFC Champions League Two",
-      "category": "Football",
-      "teamA": "Lion City Sailors",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/3041/image",
-      "teamB": "Adelaide United",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2946/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/668/image/dark",
-      "startTimeIST": "2026-11-05 15:30:00 IST",
-      "endTimeIST": "2026-11-05 17:50:00 IST",
-      "startTimeUTC": "2026/11/05 10:00:00 +0000",
-      "endTimeUTC": "2026/11/05 12:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel5.m3u8?",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 4454,
     "title": "Indian Super League",
     "slug": "isl-vs-isl",
@@ -1588,6 +1504,90 @@
       "endTimeUTC": "2026/11/06 02:50:00 +0000"
     },
     "dashStreams": []
+  },
+  {
+    "id": 5279,
+    "title": "AFC Champions League Two",
+    "slug": "kitchee-vs-ppcfc",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "AFC Champions League Two",
+      "category": "Football",
+      "teamA": "Kitchee",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/42199/image",
+      "teamB": "PPCFC",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/35605/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/668/image/dark",
+      "startTimeIST": "2026-11-05 15:30:00 IST",
+      "endTimeIST": "2026-11-05 17:50:00 IST",
+      "startTimeUTC": "2026/11/05 10:00:00 +0000",
+      "endTimeUTC": "2026/11/05 12:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel11.m3u8?",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5280,
+    "title": "AFC Champions League Two",
+    "slug": "machida-vs-shenhua",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "AFC Champions League Two",
+      "category": "Football",
+      "teamA": "Machida",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/44409/image",
+      "teamB": "Shenhua",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/3373/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/668/image/dark",
+      "startTimeIST": "2026-11-05 15:30:00 IST",
+      "endTimeIST": "2026-11-05 17:50:00 IST",
+      "startTimeUTC": "2026/11/05 10:00:00 +0000",
+      "endTimeUTC": "2026/11/05 12:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel15.m3u8?",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5281,
+    "title": "AFC Champions League Two",
+    "slug": "lion-city-sailors-vs-adelaide-united",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "AFC Champions League Two",
+      "category": "Football",
+      "teamA": "Lion City Sailors",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/3041/image",
+      "teamB": "Adelaide United",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2946/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/668/image/dark",
+      "startTimeIST": "2026-11-05 15:30:00 IST",
+      "endTimeIST": "2026-11-05 17:50:00 IST",
+      "startTimeUTC": "2026/11/05 10:00:00 +0000",
+      "endTimeUTC": "2026/11/05 12:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel5.m3u8?",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5257,
@@ -3073,126 +3073,6 @@
         "title": "HD SERVER",
         "type": "hls",
         "url": "https://live2.jorvakstreamcache.com/live/channel7.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5224,
-    "title": "AFC Champions League Two",
-    "slug": "fc-seoul-vs-viettel",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "AFC Champions League Two",
-      "category": "Football",
-      "teamA": "FC Seoul",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/7646/image",
-      "teamB": "Viettel",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/231270/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/668/image/dark",
-      "startTimeIST": "2026-11-04 15:30:00 IST",
-      "endTimeIST": "2026-11-04 17:50:00 IST",
-      "startTimeUTC": "2026/11/04 10:00:00 +0000",
-      "endTimeUTC": "2026/11/04 12:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "FAST SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4621350.m3u8?txSecret=c36e19116a245a274b03d6bc38afb05a&txTime=6AEB0EB6",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://162.251.160.53:8089/1236/index.m3u8",
-        "key": null
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live2.domaincdn.cc/livecdn/channel-24.m3u8?auth_key=3000001793785392-0-0-da18d27271023ba64c3c21fde0ba85fb",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5227,
-    "title": "UEFA Youth League",
-    "slug": "aek-u19-vs-real-madrid-u19",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "UEFA Youth League",
-      "category": "Football",
-      "teamA": "AEK U19",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/297065/image",
-      "teamB": "Real Madrid U19",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/120854/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2132/image/dark",
-      "startTimeIST": "2026-11-04 15:30:00 IST",
-      "endTimeIST": "2026-11-04 17:50:00 IST",
-      "startTimeUTC": "2026/11/04 10:00:00 +0000",
-      "endTimeUTC": "2026/11/04 12:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "REAL MADRID TV - ENG",
-        "type": "hls",
-        "url": "https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/master.m3u8",
-        "key": null
-      },
-      {
-        "title": "REAL MADRID TV - ES",
-        "type": "hls",
-        "url": "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.55/hls/rrrrA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5228,
-    "title": "AFC Champions League Elite",
-    "slug": "pohang-steelers-vs-gamba-osaka",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "AFC Champions League Elite",
-      "category": "Football",
-      "teamA": "Pohang Steelers",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/7650/image",
-      "teamB": "Gamba Osaka",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/3138/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/463/image/dark",
-      "startTimeIST": "2026-11-04 15:30:00 IST",
-      "endTimeIST": "2026-11-04 17:50:00 IST",
-      "startTimeUTC": "2026/11/04 10:00:00 +0000",
-      "endTimeUTC": "2026/11/04 12:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "FAST SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4621506.m3u8?txSecret=1a268250d7b49117021c378d986e778d&txTime=6AEB0B2B",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://162.251.160.53:8089/1009/index.m3u8",
-        "key": null
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?",
         "key": null
       }
     ]
