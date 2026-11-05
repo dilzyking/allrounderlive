@@ -436,6 +436,12 @@
     },
     "dashStreams": [
       {
+        "title": "LIVE FHD",
+        "type": "hls",
+        "url": "https://kick.com/api/v2/channels/34ak472",
+        "key": null
+      },
+      {
         "title": "HD SERVER+",
         "type": "hls",
         "url": "https://live2.jorvakstreamcache.com/live/channel12.m3u8?",
