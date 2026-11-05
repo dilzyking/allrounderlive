@@ -523,7 +523,7 @@
     "title": "UEFA Europa League",
     "slug": "sparta-praha-vs-bournemouth",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "UEFA Europa League",
       "category": "Football",
@@ -581,7 +581,7 @@
     "title": "UEFA Europa League",
     "slug": "crystal-palace-vs-hoffenheim",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "UEFA Europa League",
       "category": "Football",
@@ -651,7 +651,7 @@
     "title": "UEFA Europa League",
     "slug": "real-sociedad-vs-lyon",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "UEFA Europa League",
       "category": "Football",
@@ -709,7 +709,7 @@
     "title": "UEFA Europa League",
     "slug": "milan-vs-ferencvaros",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "UEFA Europa League",
       "category": "Football",
@@ -779,7 +779,7 @@
     "title": "UEFA Europa League",
     "slug": "levski-sofia-vs-jagiellonia",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "UEFA Europa League",
       "category": "Football",
@@ -831,7 +831,7 @@
     "title": "UEFA Europa League",
     "slug": "lillestr-m-vs-viktoria-plzen",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "UEFA Europa League",
       "category": "Football",
@@ -877,7 +877,7 @@
     "title": "UEFA Europa League",
     "slug": "anderlecht-vs-rb-salzburg",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "UEFA Europa League",
       "category": "Football",
@@ -911,7 +911,7 @@
     "title": "UEFA Europa League",
     "slug": "nec-vs-omonia",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "UEFA Europa League",
       "category": "Football",
@@ -963,7 +963,7 @@
     "title": "UEFA Conference League",
     "slug": "agf-vs-braga",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "UEFA Conference League",
       "category": "Football",
@@ -1003,7 +1003,7 @@
     "title": "UEFA Conference League",
     "slug": "atalanta-vs-kairat",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "UEFA Conference League",
       "category": "Football",
@@ -1037,7 +1037,7 @@
     "title": "UEFA Conference League",
     "slug": "trabzonspor-vs-freiburg",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "UEFA Conference League",
       "category": "Football",
@@ -1089,7 +1089,7 @@
     "title": "UEFA Conference League",
     "slug": "midtjylland-vs-ajax",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "UEFA Conference League",
       "category": "Football",
@@ -1123,7 +1123,7 @@
     "title": "UEFA Conference League",
     "slug": "thun-vs-hearts",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "UEFA Conference League",
       "category": "Football",
@@ -1163,7 +1163,7 @@
     "title": "UEFA Conference League",
     "slug": "mjallby-vs-borac",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "UEFA Conference League",
       "category": "Football",
@@ -1197,7 +1197,7 @@
     "title": "UEFA Conference League",
     "slug": "kups-vs-gent",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "UEFA Conference League",
       "category": "Football",
@@ -1231,7 +1231,7 @@
     "title": "UEFA Conference League",
     "slug": "crvena-zvezda-vs-inter",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "UEFA Conference League",
       "category": "Football",
@@ -1259,7 +1259,7 @@
     "title": "UEFA Conference League",
     "slug": "lincoln-ri-vs-hajduk",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "UEFA Conference League",
       "category": "Football",
@@ -2978,212 +2978,6 @@
         "title": "SD SERVER",
         "type": "hls",
         "url": "https://live.cds78y11d.org/live/hd-en-6Mxj4TBjdMRhaJu8Va.m3u8?txSecret=dd18924248b9855a96c99228203d20f3&txTime=6AEC21B8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5243,
-    "title": "UEFA Champions League",
-    "slug": "aek-vs-real-madrid",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "UEFA Champions League",
-      "category": "Football",
-      "teamA": "AEK",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/3250/image",
-      "teamB": "Real Madrid",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2829/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "startTimeIST": "2026-11-04 23:15:00 IST",
-      "endTimeIST": "2026-11-05 01:35:00 IST",
-      "startTimeUTC": "2026/11/04 17:45:00 +0000",
-      "endTimeUTC": "2026/11/04 20:05:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/failbdta50/out/v1/41a2b450ebe846d08a00e84663f9b324/cenc.mpd",
-        "key": "3513dd3c560190e3d442208dd4dca9dd:108531e39fdc0a80f2f990776e7037f3"
-      },
-      {
-        "title": "PRIME VIDEO FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/mdwszwnwl8/out/v1/7dae84dc172a435798fab72a8cd99828/cenc.mpd",
-        "key": "e9aa556dbdf0cba2f898cbcc26e2ae0e:e5e197eabb61007501d905521fa620d0"
-      },
-      {
-        "title": "VIX Español FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bvddkqdcbo/out/v1/d2f281563daa4c8da8e2fd168552b757/cenc.mpd",
-        "key": "8423baa4631c12837510e853dcad96d6:1032cc040f378fdcec68c45ccbdb7215"
-      },
-      {
-        "title": "DAZN DE FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/sgxlaurrkw/out/v1/c3f667057bc84a78b2df646b097fb1eb/cenc.mpd",
-        "key": "104827754710be1bfac19b2433cf6846:9f57ccbf41f5cb5fdcf0deb2b41509b0"
-      },
-      {
-        "title": "TNT SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd",
-        "key": "cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca"
-      },
-      {
-        "title": "HBO MAX BR FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gwhjevq6ar/out/v1/bf0c281f2dba46cb87434d45ed13003f/cenc.mpd",
-        "key": "83a4bc2c011e2c72b35b7b5f2d35560d:01bd0115c83d3493449181ba68998ab1"
-      },
-      {
-        "title": "DAZN SPORTS HD",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59240/load-playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "beIN SPORTS FHD",
-        "type": "hls",
-        "url": "https://live-cdn.ryazanslah3.space/hls/bein1.m3u8?",
-        "key": null
-      },
-      {
-        "title": "PARAMOUNT+ HD",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4628355.m3u8?txSecret=3dcd0c201d18a153b6e2d1e96e238ed8&txTime=6AEB829A",
-        "key": null
-      },
-      {
-        "title": "SONYLIV [ENG]",
-        "type": "hls",
-        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120305/Footlive0411/ENG/std_lrh-800300010.m3u8",
-        "key": null
-      },
-      {
-        "title": "SONYLIV [HIN]",
-        "type": "hls",
-        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120306/Footlive0411/HIN/std_lrh-800300010.m3u8",
-        "key": null
-      },
-      {
-        "title": "SONYLIV [TAM]",
-        "type": "hls",
-        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120302/Footlive0411/TAM/std_lrh-800300010.m3u8",
-        "key": null
-      },
-      {
-        "title": "SONYLIV [TEL]",
-        "type": "hls",
-        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120300/Footlive0411/TEL/std_lrh-800300010.m3u8",
-        "key": null
-      },
-      {
-        "title": "SONYLIV [KAN]",
-        "type": "hls",
-        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120307/Footlive0411/KAN/std_lrh-800300010.m3u8",
-        "key": null
-      },
-      {
-        "title": "HD QUALITY",
-        "type": "hls",
-        "url": "https://www.rtmpcdn.com/live/ab49663e-0171-4576-bfe0-f3ef3215b513.m3u8",
-        "key": null
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.55/hls/FAFAFA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5244,
-    "title": "UEFA Champions League",
-    "slug": "fenerbahce-vs-liverpool",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "UEFA Champions League",
-      "category": "Football",
-      "teamA": "Fenerbahçe",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/3052/image",
-      "teamB": "Liverpool",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/44/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "startTimeIST": "2026-11-04 23:15:00 IST",
-      "endTimeIST": "2026-11-05 01:35:00 IST",
-      "startTimeUTC": "2026/11/04 17:45:00 +0000",
-      "endTimeUTC": "2026/11/04 20:05:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/finodo98vw/out/v1/0bba03d3a8594cd6bfe409ec5ecf1114/cenc.mpd",
-        "key": "368bdc08268c3e679d53a4b94964a911:a88f47b574b27e32d186ce686b45f9a5"
-      },
-      {
-        "title": "PRIME VIDEO FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/hve6te3gra/out/v1/c852d0c20b0c4009a6320557da063330/cenc.mpd",
-        "key": "196d7adbb90349cc7b8fa41a4205a287:56e77fe45183734a76ab51d67efefa96"
-      },
-      {
-        "title": "VIX Español FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lho2ni3olb/out/v1/d7683dec68ba4f86bfa5ddf4bd842020/cenc.mpd",
-        "key": "2453950127dfcbf10a57b540a2691b1e:4eb4220aeb59cb8ca47c0bbd3cac9e6e"
-      },
-      {
-        "title": "DAZN DE FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/m4hzilar79/out/v1/89daf1d02da540d79fad24952ec7a8df/cenc.mpd",
-        "key": "d8102ff81175e6be48e14f62803ba7d5:7933876f7d2d1bcb66f43030e1ad926c"
-      },
-      {
-        "title": "TNT SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
-        "key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
-      },
-      {
-        "title": "HBO MAX BR FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/m0dk7evbbv/out/v1/2280611214d549bab3108a7ec929c99a/cenc.mpd",
-        "key": "09a695c21528e0853371b882814c3aac:805bb374cfeebf82408b6850ecda7d14"
-      },
-      {
-        "title": "PARAMOUNT+ HD",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59241/load-playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "HD QUALITY",
-        "type": "hls",
-        "url": "https://www.rtmpcdn.com/live/e7ccc407-251f-432b-a8c4-c5e352c045a1.m3u8",
-        "key": null
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/FAFAFAa.m3u8",
-        "key": null
-      },
-      {
-        "title": "SONYLIV [ASIA]",
-        "type": "hls",
-        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2022316/Footlive0411/ENG/std_lrh-800300010.m3u8",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4628424.m3u8?txSecret=2a4f45736a005bef6796b7fd6aae6ccd&txTime=6AEB82CD",
         "key": null
       }
     ]
