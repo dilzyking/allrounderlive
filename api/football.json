@@ -478,7 +478,7 @@
     "title": "AFC Champions League Two",
     "slug": "kuching-vs-gangwon",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "AFC Champions League Two",
       "category": "Football",
@@ -518,7 +518,7 @@
     "title": "AFC Champions League Two",
     "slug": "svay-rieng-vs-tampines-rovers",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "AFC Champions League Two",
       "category": "Football",
@@ -558,7 +558,7 @@
     "title": "AFC Champions League Two",
     "slug": "pathum-utd-vs-tai-po",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "AFC Champions League Two",
       "category": "Football",
@@ -633,7 +633,38 @@
       "startTimeUTC": "2026/11/05 14:00:00 +0000",
       "endTimeUTC": "2026/11/05 16:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "MyCO TV FHD",
+        "type": "hls",
+        "url": "https://ml-pull-rtmp-pk1.myco.io/SAFF2026/hls/26113.m3u8",
+        "key": null
+      },
+      {
+        "title": "T SPORTS HD",
+        "type": "hls",
+        "url": "https://playztv-apps.pages.dev/ptv-sports/index.m3u8",
+        "key": null
+      },
+      {
+        "title": "HD QUALITY",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel7.m3u8?",
+        "key": null
+      },
+      {
+        "title": "BACKUP HD",
+        "type": "hls",
+        "url": "https://pull.niues.live/live/stream-9912131_lhd.m3u8?auth_key=1793890435-0-0-cfa8e67b7f53e252d7d0f5887fccec2a",
+        "key": null
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.55/hls/RHHHAAAAAQQ.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5321,
@@ -3046,46 +3077,6 @@
         "title": "SD SERVER",
         "type": "hls",
         "url": "http://193.47.62.44/hls/HHHHAAQAQ.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5262,
-    "title": "AFC Champions League Elite",
-    "slug": "buriram-vs-kashima",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "AFC Champions League Elite",
-      "category": "Football",
-      "teamA": "Buriram",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/34218/image",
-      "teamB": "Kashima",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/3134/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/463/image/dark",
-      "startTimeIST": "2026-11-04 17:45:00 IST",
-      "endTimeIST": "2026-11-04 20:05:00 IST",
-      "startTimeUTC": "2026/11/04 12:15:00 +0000",
-      "endTimeUTC": "2026/11/04 14:35:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://www.rtmpcdn.com/live/c424d5cb-c4c5-4cd7-9ac1-8e1d12743536.m3u8",
-        "key": null
-      },
-      {
-        "title": "HD SERVER+",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel2.m3u8?",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/HHHHAAQA.m3u8",
         "key": null
       }
     ]
