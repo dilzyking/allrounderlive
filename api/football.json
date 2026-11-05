@@ -441,7 +441,7 @@
     "title": "Saudi Pro League",
     "slug": "al-ahli-vs-al-taawoun",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Saudi Pro League",
       "category": "Football",
@@ -555,6 +555,24 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
         "key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/b9c7ed20-328f-4c84-9d41-c208deebd2f5.m3u8",
+        "key": null
+      },
+      {
+        "title": "HD QUALITY",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel1.m3u8?",
+        "key": null
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.50/hls/RLLLAAQQQ.m3u8",
+        "key": null
       }
     ]
   },
@@ -603,6 +621,24 @@
         "key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
       },
       {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/63991f4c-9f14-4936-9010-8ad2ede82d10.m3u8",
+        "key": null
+      },
+      {
+        "title": "HD QUALITY",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel5.m3u8?",
+        "key": null
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.59/hls/RLLL.m3u8",
+        "key": null
+      },
+      {
         "title": "SONYLIV [ASIA]",
         "type": "hls",
         "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120300/Footlive0511/ENG/std_lrh-800300010.m3u8?hdnea=exp=1793943099~acl=/*~id=11851455675667223153211153093920~hmac=567ba224b4eb2b86d7ddbe67eeabac2927cbde6404d31b4850cbddb6178df264",
@@ -647,6 +683,24 @@
         "type": "dash",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/1kw2e0yi13/out/v1/575f67f6b552422dba30742c7f965bcb/cenc.mpd",
         "key": "8cd50695fb14e27dfd8908637f1da467:2bbe80619ec5e303ef1b79781bf3b757"
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/2e9731f5-b797-4c02-9177-c8cf26c15cd2.m3u8",
+        "key": null
+      },
+      {
+        "title": "HD QUALITY",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?",
+        "key": null
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.50/hls/RLLLAAQQ.m3u8",
+        "key": null
       }
     ]
   },
@@ -695,15 +749,27 @@
         "key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
       },
       {
-        "title": "HD SERVER",
+        "title": "LIVE SERVER",
         "type": "hls",
         "url": "https://live2.jorvakstreamcache.com/live/channel15.m3u8?",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/b2758d10-161b-4dd8-b0b5-ccefdb8ccaec.m3u8",
         "key": null
       },
       {
         "title": "SONYLIV [ASIA]",
         "type": "hls",
         "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120299/Footlive0511/ENG/std_lrh-800300010.m3u8?hdnea=exp=1793943099~acl=/*~id=11851455675667223153211153093920~hmac=567ba224b4eb2b86d7ddbe67eeabac2927cbde6404d31b4850cbddb6178df264",
+        "key": null
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/KVVVAA.m3u8",
         "key": null
       }
     ]
@@ -739,6 +805,24 @@
         "type": "dash",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/dr4dxkulxa/out/v1/4df741b740c1401a93dd7f933bdde012/cenc.mpd",
         "key": "67f1c0a3d1074db27d284b623d7ecfdc:e3defc5aead3b7ab0a459b5837d8a688"
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/805d5b8f-e7ef-4f95-9bc8-adec7ac48072.m3u8",
+        "key": null
+      },
+      {
+        "title": "HD QUALITY",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel19.m3u8?",
+        "key": null
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.59/hls/RLLLA.m3u8",
+        "key": null
       }
     ]
   },
@@ -773,6 +857,18 @@
         "type": "dash",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/irsm7kfc9k/out/v1/d7683dec68ba4f86bfa5ddf4bd842020/cenc.mpd",
         "key": "a7ed87c718ce47b65761f77720bf08eb:4c46fd4f60010a4dc00fd0f3e5639058"
+      },
+      {
+        "title": "HD QUALITY",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/7fbfb024-aa53-420d-9626-7b9853bf3911.m3u8",
+        "key": null
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.59/hls/RLLLAA.m3u8",
+        "key": null
       }
     ]
   },
@@ -841,6 +937,24 @@
         "type": "dash",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yavtegkrz3/out/v1/7257a9e3af1e4c9e8867c97998030233/cenc.mpd",
         "key": "38c1a7f780d779298b330be7d48995ad:fd0e972cb971b89a23170ec6441de461"
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/6b9ffa95-7235-4406-9cf8-b69c93ed118c.m3u8",
+        "key": null
+      },
+      {
+        "title": "HD QUALITY",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel2.m3u8?",
+        "key": null
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.50/hls/RLLLAAQ.m3u8",
+        "key": null
       }
     ]
   },
@@ -875,6 +989,12 @@
         "type": "dash",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yf7vjelijs/out/v1/593517bf2cb344cc903c51ee2dc43588/cenc.mpd",
         "key": "fc611f9ec57e408fc71417bba8789b14:563e846942218398f60e843629a1f546"
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.41/hls/KUUU.m3u8",
+        "key": null
       }
     ]
   },
@@ -949,6 +1069,18 @@
         "type": "dash",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5w8luhh9cb/out/v1/296c2486b8c3411fa2c2084e7ff878bc/cenc.mpd",
         "key": "2484b44f054879fa17565257cc5b1d62:0b81cdb3a7ebcf87fee0e5909a11cb36"
+      },
+      {
+        "title": "HD QUALITY",
+        "type": "hls",
+        "url": "https://live1.quickscoreboardz.com/live/channel24/playlist.m3u8?wsSecret=78eb8709b6ce0f8bb9c8de3a1557547d&wsABSTime=1793943208",
+        "key": null
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/KVVVA.m3u8",
+        "key": null
       }
     ]
   },
