@@ -478,7 +478,7 @@
     "title": "SAFF Championship",
     "slug": "bhutan-vs-bangladesh",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "SAFF Championship",
       "category": "Football",
@@ -2991,27 +2991,6 @@
         "key": null
       }
     ]
-  },
-  {
-    "id": 5238,
-    "title": "UEFA Youth League",
-    "slug": "leipzig-u19-vs-man-city-u19",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "UEFA Youth League",
-      "category": "Football",
-      "teamA": "Leipzig U19",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/136294/image",
-      "teamB": "Man City U19",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/120856/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2132/image/dark",
-      "startTimeIST": "2026-11-04 19:30:00 IST",
-      "endTimeIST": "2026-11-04 21:50:00 IST",
-      "startTimeUTC": "2026/11/04 14:00:00 +0000",
-      "endTimeUTC": "2026/11/04 16:20:00 +0000"
-    },
-    "dashStreams": []
   },
   {
     "id": 3926,
