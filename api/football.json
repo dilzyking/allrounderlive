@@ -591,6 +591,12 @@
         "key": "1bd501f2fad8ab5c614dfcebca9e38ee:7d2d82c02caf3363bb127a2a615b7fd6"
       },
       {
+        "title": "SKY SPORT FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ecaigwgyua/out/v1/2ee814e65dda404693ce51fb41bd53a8/cenc.mpd",
+        "key": "6143636ed31683e00c86c4e1db64fcbf:bf6b251177b6b056366150d2ee8e40ad"
+      },
+      {
         "title": "TNT SPORTS FHD",
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
@@ -677,6 +683,12 @@
         "key": "0edb8672085f6eebca8d9ad0bc6c0ae2:fbfb8f246782de88232996ccc0661f35"
       },
       {
+        "title": "SKY GERMAN FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/cckuiwhetl/out/v1/f1ada3a4d6464aa986a0167121f4ebc6/cenc.mpd",
+        "key": "adcea552d3c8a4b0b0dbdca678515855:2e31fe3f9a810b2d2ad67e6b5bca051e"
+      },
+      {
         "title": "TNT SPORTS FHD",
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
@@ -755,6 +767,12 @@
         "type": "dash",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/aqysg9efuv/out/v1/c7821fafb039407590a94494094c163c/cenc.mpd",
         "key": "5f01136d9beda63e5c2bc998e0706890:0ac25eb618b72f40780815898bffa4dc"
+      },
+      {
+        "title": "VIX Español FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/irsm7kfc9k/out/v1/d7683dec68ba4f86bfa5ddf4bd842020/cenc.mpd",
+        "key": "a7ed87c718ce47b65761f77720bf08eb:4c46fd4f60010a4dc00fd0f3e5639058"
       }
     ]
   },
@@ -1061,7 +1079,20 @@
       "startTimeUTC": "2026/11/05 17:45:00 +0000",
       "endTimeUTC": "2026/11/05 20:05:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lpeympxnxi/out/v1/c48033b199ce48a38a8f92b7d5ef3fa3/cenc.mpd",
+        "key": "0c1105c2fabfaad95e12e39229aa838f:77d3a215cc2fc84f3ee999e92e178a96"
+      },
+      {
+        "title": "VIX Español FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/3u04kmrbdu/out/v1/3bb7be9163524e72bc8ec72519235803/cenc.mpd",
+        "key": "3556da62840a4e6accfbcfb006a8e04f:f993d00d27ab85213f9b3dc53d73ca63"
+      }
+    ]
   },
   {
     "id": 5315,
@@ -1110,7 +1141,20 @@
       "startTimeUTC": "2026/11/05 17:45:00 +0000",
       "endTimeUTC": "2026/11/05 20:05:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/jl1ut4wo0c/out/v1/957d3147b67c487c8c2c50f676dc81fc/cenc.mpd",
+        "key": "59a4c8d8546cb98fbdf6223dba813df0:48b1618847af706f56c9b838ad1e4438"
+      },
+      {
+        "title": "VIX Español FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/pajilfmd7w/out/v1/ef78b780f5b04dbaa3301bc9be53b8c1/cenc.mpd",
+        "key": "052986e3b0d9c9297295745b76c9dcf0:23990a58668df6da329b0dad3952d4c1"
+      }
+    ]
   },
   {
     "id": 5318,
