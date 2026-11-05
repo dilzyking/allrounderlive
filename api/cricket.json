@@ -144,52 +144,6 @@
     ]
   },
   {
-    "id": 5235,
-    "title": "U19 Asia Cup",
-    "slug": "sl-u19-vs-mas-u19",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "U19 Asia Cup",
-      "category": "Cricket",
-      "teamA": "SL-U19",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/213106/image",
-      "teamB": "MAS-U19",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/505670/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11486/image/dark",
-      "startTimeIST": "2026-11-05 10:30:00 IST",
-      "endTimeIST": "2026-11-05 20:30:00 IST",
-      "startTimeUTC": "2026/11/05 05:00:00 +0000",
-      "endTimeUTC": "2026/11/05 15:00:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "WILLOW FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/u37d1f9bgv/out/v1/a1941624205347d4a54b57c43d6beab1/cenc.mpd",
-        "key": "c0e32a565b4d079ce824ba8820ccb885:44d48862571d9efe14c24921e1d390c2"
-      },
-      {
-        "title": "SonyLiv PRIME FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ybvks9dssu/out/v1/bfadec4c32a1431ba4155ad869de2b2a/cenc.mpd",
-        "key": "5cd681d10936d933856b49b576c4b625:7bda25b95f83caf6ee993441b484ace5"
-      },
-      {
-        "title": "WILLOW ALT",
-        "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/u37d1f9bgv/out/v1/a1941624205347d4a54b57c43d6beab1/cenc.mpd",
-        "key": "c0e32a565b4d079ce824ba8820ccb885:44d48862571d9efe14c24921e1d390c2"
-      },
-      {
-        "title": "SonyLiv (Asia)",
-        "type": "hls",
-        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2037139/criclive0511/ENG/std_lrh-800300010.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5236,
     "title": "U19 Asia Cup",
     "slug": "ban-u19-vs-afg-u19",
@@ -231,6 +185,52 @@
         "title": "SonyLiv (Asia)",
         "type": "hls",
         "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2037140/criclive0511/ENG/std_lrh-800300010.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5235,
+    "title": "U19 Asia Cup",
+    "slug": "sl-u19-vs-mas-u19",
+    "cat": "Live Events",
+    "status": "live",
+    "event": {
+      "name": "U19 Asia Cup",
+      "category": "Cricket",
+      "teamA": "SL-U19",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/213106/image",
+      "teamB": "MAS-U19",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/505670/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11486/image/dark",
+      "startTimeIST": "2026-11-05 10:30:00 IST",
+      "endTimeIST": "2026-11-05 20:30:00 IST",
+      "startTimeUTC": "2026/11/05 05:00:00 +0000",
+      "endTimeUTC": "2026/11/05 15:00:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "WILLOW FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/u37d1f9bgv/out/v1/a1941624205347d4a54b57c43d6beab1/cenc.mpd",
+        "key": "c0e32a565b4d079ce824ba8820ccb885:44d48862571d9efe14c24921e1d390c2"
+      },
+      {
+        "title": "SonyLiv PRIME FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ybvks9dssu/out/v1/bfadec4c32a1431ba4155ad869de2b2a/cenc.mpd",
+        "key": "5cd681d10936d933856b49b576c4b625:7bda25b95f83caf6ee993441b484ace5"
+      },
+      {
+        "title": "WILLOW ALT",
+        "type": "dash",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/u37d1f9bgv/out/v1/a1941624205347d4a54b57c43d6beab1/cenc.mpd",
+        "key": "c0e32a565b4d079ce824ba8820ccb885:44d48862571d9efe14c24921e1d390c2"
+      },
+      {
+        "title": "SonyLiv (Asia)",
+        "type": "hls",
+        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2037139/criclive0511/ENG/std_lrh-800300010.m3u8",
         "key": null
       }
     ]
