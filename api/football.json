@@ -472,7 +472,7 @@
     "title": "AFC Champions League Two",
     "slug": "kitchee-vs-ppcfc",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "AFC Champions League Two",
       "category": "Football",
@@ -500,7 +500,7 @@
     "title": "AFC Champions League Two",
     "slug": "machida-vs-shenhua",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "AFC Champions League Two",
       "category": "Football",
@@ -514,14 +514,21 @@
       "startTimeUTC": "2026/11/05 10:00:00 +0000",
       "endTimeUTC": "2026/11/05 12:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel15.m3u8?",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5281,
     "title": "AFC Champions League Two",
     "slug": "lion-city-sailors-vs-adelaide-united",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "AFC Champions League Two",
       "category": "Football",
