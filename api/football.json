@@ -479,6 +479,52 @@
     "dashStreams": []
   },
   {
+    "id": 3255,
+    "title": "UEFA Europa League Simulcast",
+    "slug": "the-golazo-show-vs-the-golazo-show",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Europa League Simulcast",
+      "category": "Football",
+      "teamA": "The Golazo Show",
+      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/679/image/dark",
+      "teamB": "The Golazo Show",
+      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/679/image/dark",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/679/image/dark",
+      "startTimeIST": "2026-11-05 23:10:00 IST",
+      "endTimeIST": "2026-11-06 04:30:00 IST",
+      "startTimeUTC": "2026/11/05 17:40:00 +0000",
+      "endTimeUTC": "2026/11/05 23:00:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/htqkbztz1l/out/v1/87095d82ecbf4de7ad3f5ad789f1f060/cenc.mpd",
+        "key": "d470693cba80fbeec8e909f80ed70edc:8f436dc5b928988a18d011a3b99a58b5"
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.50/hls/z777AAA.m3u8",
+        "key": null
+      },
+      {
+        "title": "DAZN DE FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/x5mu0qhmrk/out/v1/b8bac9a22bfe401bacf4298b49b7997c/cenc.mpd",
+        "key": "e8f2965188ef1f045729a67c40260a74:fba28d2fe6e68d6945457167c9c80b1b"
+      },
+      {
+        "title": "DAZN DE ALT",
+        "type": "dash",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/x5mu0qhmrk/out/v1/b8bac9a22bfe401bacf4298b49b7997c/cenc.mpd",
+        "key": "e8f2965188ef1f045729a67c40260a74:fba28d2fe6e68d6945457167c9c80b1b"
+      }
+    ]
+  },
+  {
     "id": 5282,
     "title": "UEFA Europa League",
     "slug": "sparta-praha-vs-bournemouth",
@@ -2519,52 +2565,6 @@
         "type": "hls",
         "url": "https://live.cds78y11d.org/live/hd-en-6Mxj4TBjdMRhaJu8Va.m3u8?txSecret=dd18924248b9855a96c99228203d20f3&txTime=6AEC21B8",
         "key": null
-      }
-    ]
-  },
-  {
-    "id": 3255,
-    "title": "UEFA Champions League",
-    "slug": "the-golazo-show-vs-the-golazo-show",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "UEFA Champions League",
-      "category": "Football",
-      "teamA": "The Golazo Show",
-      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "teamB": "The Golazo Show",
-      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "startTimeIST": "2026-11-04 23:16:00 IST",
-      "endTimeIST": "2026-11-05 04:30:00 IST",
-      "startTimeUTC": "2026/11/04 17:46:00 +0000",
-      "endTimeUTC": "2026/11/04 23:00:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/htqkbztz1l/out/v1/87095d82ecbf4de7ad3f5ad789f1f060/cenc.mpd",
-        "key": "d470693cba80fbeec8e909f80ed70edc:8f436dc5b928988a18d011a3b99a58b5"
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.50/hls/z777AAA.m3u8",
-        "key": null
-      },
-      {
-        "title": "DAZN DE FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/x5mu0qhmrk/out/v1/b8bac9a22bfe401bacf4298b49b7997c/cenc.mpd",
-        "key": "e8f2965188ef1f045729a67c40260a74:fba28d2fe6e68d6945457167c9c80b1b"
-      },
-      {
-        "title": "DAZN DE ALT",
-        "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/x5mu0qhmrk/out/v1/b8bac9a22bfe401bacf4298b49b7997c/cenc.mpd",
-        "key": "e8f2965188ef1f045729a67c40260a74:fba28d2fe6e68d6945457167c9c80b1b"
       }
     ]
   },
