@@ -374,40 +374,6 @@
     ]
   },
   {
-    "id": 5241,
-    "title": "Liga Profesional de Fútbol",
-    "slug": "barracas-vs-racing",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Liga Profesional de Fútbol",
-      "category": "Football",
-      "teamA": "Barracas",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/65668/image",
-      "teamB": "Racing",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/3215/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/155/image/dark",
-      "startTimeIST": "2026-11-06 23:30:00 IST",
-      "endTimeIST": "2026-11-07 01:50:00 IST",
-      "startTimeUTC": "2026/11/06 18:00:00 +0000",
-      "endTimeUTC": "2026/11/06 20:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "FOX DEPORTES",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
-        "key": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811"
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "https://live.cds78y11d.org/live/sd-6MwdLb711yBWe9BQ84.m3u8?txSecret=1178ce313361c77d4e818f493d025171&txTime=6AEEC4B9",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5242,
     "title": "Ligue 2",
     "slug": "montpellier-vs-metz",
@@ -953,6 +919,40 @@
       "endTimeUTC": "2026/11/07 11:00:00 +0000"
     },
     "dashStreams": []
+  },
+  {
+    "id": 5241,
+    "title": "Liga Profesional de Fútbol",
+    "slug": "barracas-vs-racing",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Liga Profesional de Fútbol",
+      "category": "Football",
+      "teamA": "Barracas",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/65668/image",
+      "teamB": "Racing",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/3215/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/155/image/dark",
+      "startTimeIST": "2026-11-06 23:30:00 IST",
+      "endTimeIST": "2026-11-07 01:50:00 IST",
+      "startTimeUTC": "2026/11/06 18:00:00 +0000",
+      "endTimeUTC": "2026/11/06 20:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "FOX DEPORTES",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
+        "key": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811"
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "https://live.cds78y11d.org/live/sd-6MwdLb711yBWe9BQ84.m3u8?txSecret=1178ce313361c77d4e818f493d025171&txTime=6AEEC4B9",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5236,
