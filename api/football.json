@@ -1172,130 +1172,6 @@
     ]
   },
   {
-    "id": 5236,
-    "title": "2. Bundesliga",
-    "slug": "braunschweig-vs-cottbus",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "2. Bundesliga",
-      "category": "Football",
-      "teamA": "Braunschweig",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2557/image",
-      "teamB": "Cottbus",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2532/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
-      "startTimeIST": "2026-11-06 23:00:00 IST",
-      "endTimeIST": "2026-11-07 01:20:00 IST",
-      "startTimeUTC": "2026/11/06 17:30:00 +0000",
-      "endTimeUTC": "2026/11/06 19:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "beIN ENGLISH FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-        "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/RIIIAAQQA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5237,
-    "title": "2. Bundesliga",
-    "slug": "dresden-vs-furth",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "2. Bundesliga",
-      "category": "Football",
-      "teamA": "Dresden",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2595/image",
-      "teamB": "Fürth",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2551/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
-      "startTimeIST": "2026-11-06 23:00:00 IST",
-      "endTimeIST": "2026-11-07 01:20:00 IST",
-      "startTimeUTC": "2026/11/06 17:30:00 +0000",
-      "endTimeUTC": "2026/11/06 19:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "beIN ENGLISH FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
-        "key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/RIIIAAQQQQQA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5239,
-    "title": "Frauen-Bundesliga",
-    "slug": "bayern-vs-werder",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Frauen-Bundesliga",
-      "category": "Football",
-      "teamA": "Bayern",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/5543/image",
-      "teamB": "Werder",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/36656/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/232/image/dark",
-      "startTimeIST": "2026-11-06 23:00:00 IST",
-      "endTimeIST": "2026-11-07 01:20:00 IST",
-      "startTimeUTC": "2026/11/06 17:30:00 +0000",
-      "endTimeUTC": "2026/11/06 19:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/RIIIAAQQQA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5240,
-    "title": "Frauen-Bundesliga",
-    "slug": "frankfurt-vs-wolfsburg",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Frauen-Bundesliga",
-      "category": "Football",
-      "teamA": "Frankfurt",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/108685/image",
-      "teamB": "Wolfsburg",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/5556/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/232/image/dark",
-      "startTimeIST": "2026-11-06 23:00:00 IST",
-      "endTimeIST": "2026-11-07 01:20:00 IST",
-      "startTimeUTC": "2026/11/06 17:30:00 +0000",
-      "endTimeUTC": "2026/11/06 19:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/RIIIAAQQQQA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5241,
     "title": "Liga Profesional de Fútbol",
     "slug": "barracas-vs-racing",
@@ -1751,6 +1627,130 @@
       "endTimeUTC": "2026/11/07 11:00:00 +0000"
     },
     "dashStreams": []
+  },
+  {
+    "id": 5236,
+    "title": "2. Bundesliga",
+    "slug": "braunschweig-vs-cottbus",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "2. Bundesliga",
+      "category": "Football",
+      "teamA": "Braunschweig",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2557/image",
+      "teamB": "Cottbus",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2532/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
+      "startTimeIST": "2026-11-06 23:00:00 IST",
+      "endTimeIST": "2026-11-07 01:20:00 IST",
+      "startTimeUTC": "2026/11/06 17:30:00 +0000",
+      "endTimeUTC": "2026/11/06 19:50:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "beIN ENGLISH FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+        "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/RIIIAAQQA.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5237,
+    "title": "2. Bundesliga",
+    "slug": "dresden-vs-furth",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "2. Bundesliga",
+      "category": "Football",
+      "teamA": "Dresden",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2595/image",
+      "teamB": "Fürth",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2551/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
+      "startTimeIST": "2026-11-06 23:00:00 IST",
+      "endTimeIST": "2026-11-07 01:20:00 IST",
+      "startTimeUTC": "2026/11/06 17:30:00 +0000",
+      "endTimeUTC": "2026/11/06 19:50:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "beIN ENGLISH FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
+        "key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/RIIIAAQQQQQA.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5239,
+    "title": "Frauen-Bundesliga",
+    "slug": "bayern-vs-werder",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Frauen-Bundesliga",
+      "category": "Football",
+      "teamA": "Bayern",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/5543/image",
+      "teamB": "Werder",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/36656/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/232/image/dark",
+      "startTimeIST": "2026-11-06 23:00:00 IST",
+      "endTimeIST": "2026-11-07 01:20:00 IST",
+      "startTimeUTC": "2026/11/06 17:30:00 +0000",
+      "endTimeUTC": "2026/11/06 19:50:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/RIIIAAQQQA.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5240,
+    "title": "Frauen-Bundesliga",
+    "slug": "frankfurt-vs-wolfsburg",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Frauen-Bundesliga",
+      "category": "Football",
+      "teamA": "Frankfurt",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/108685/image",
+      "teamB": "Wolfsburg",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/5556/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/232/image/dark",
+      "startTimeIST": "2026-11-06 23:00:00 IST",
+      "endTimeIST": "2026-11-07 01:20:00 IST",
+      "startTimeUTC": "2026/11/06 17:30:00 +0000",
+      "endTimeUTC": "2026/11/06 19:50:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/RIIIAAQQQQA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5235,
