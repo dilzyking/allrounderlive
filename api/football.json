@@ -374,27 +374,6 @@
     ]
   },
   {
-    "id": 5321,
-    "title": "Saudi Pro League",
-    "slug": "abha-vs-al-shabab",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Saudi Pro League",
-      "category": "Football",
-      "teamA": "Abha",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/168090/image",
-      "teamB": "Al-Shabab",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/34313/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/955/image/dark",
-      "startTimeIST": "2026-11-05 20:40:00 IST",
-      "endTimeIST": "2026-11-05 23:00:00 IST",
-      "startTimeUTC": "2026/11/05 15:10:00 +0000",
-      "endTimeUTC": "2026/11/05 17:30:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 5320,
     "title": "Saudi Pro League",
     "slug": "al-ahli-vs-al-taawoun",
