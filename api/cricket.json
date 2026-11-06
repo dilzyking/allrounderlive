@@ -116,52 +116,6 @@
     ]
   },
   {
-    "id": 5183,
-    "title": "Test Series",
-    "slug": "afg-vs-zim",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Test Series",
-      "category": "Cricket",
-      "teamA": "AFG",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/187575/image",
-      "teamB": "ZIM",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/187745/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11189/image/dark",
-      "startTimeIST": "2026-11-06 23:20:00 IST",
-      "endTimeIST": "2026-11-06 19:30:00 IST",
-      "startTimeUTC": "2026/11/06 17:50:00 +0000",
-      "endTimeUTC": "2026/11/06 14:00:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "WILLOW FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/luldqqjdgc/out/v1/819f4b259e5248c089feb5934af92890/cenc.mpd",
-        "key": "cf6092dc6444b182d9ef6fde4152ff7d:2a868d1944e597930dde32f183a0c6bf"
-      },
-      {
-        "title": "WILLOW ALT",
-        "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/luldqqjdgc/out/v1/819f4b259e5248c089feb5934af92890/cenc.mpd",
-        "key": "cf6092dc6444b182d9ef6fde4152ff7d:2a868d1944e597930dde32f183a0c6bf"
-      },
-      {
-        "title": "A SPORTS HD",
-        "type": "hls",
-        "url": "https://live.msnetworks.net/a-sports/master.m3u8",
-        "key": null
-      },
-      {
-        "title": "FANCODE (IND)",
-        "type": "hls",
-        "url": "https://dai-fancode.pages.dev/mumbai/4249772_english_hls_ea87fdf83410465_1ta-di_h264/index.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 4726,
     "title": "One Day International",
     "slug": "nz-vs-ind",
@@ -381,6 +335,52 @@
       "endTimeUTC": "2026/11/07 19:00:00 +0000"
     },
     "dashStreams": []
+  },
+  {
+    "id": 5183,
+    "title": "Test Series",
+    "slug": "afg-vs-zim",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Test Series",
+      "category": "Cricket",
+      "teamA": "AFG",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/187575/image",
+      "teamB": "ZIM",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/187745/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11189/image/dark",
+      "startTimeIST": "2026-11-06 23:20:00 IST",
+      "endTimeIST": "2026-11-06 19:30:00 IST",
+      "startTimeUTC": "2026/11/06 17:50:00 +0000",
+      "endTimeUTC": "2026/11/06 14:00:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "WILLOW FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/luldqqjdgc/out/v1/819f4b259e5248c089feb5934af92890/cenc.mpd",
+        "key": "cf6092dc6444b182d9ef6fde4152ff7d:2a868d1944e597930dde32f183a0c6bf"
+      },
+      {
+        "title": "WILLOW ALT",
+        "type": "dash",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/luldqqjdgc/out/v1/819f4b259e5248c089feb5934af92890/cenc.mpd",
+        "key": "cf6092dc6444b182d9ef6fde4152ff7d:2a868d1944e597930dde32f183a0c6bf"
+      },
+      {
+        "title": "A SPORTS HD",
+        "type": "hls",
+        "url": "https://live.msnetworks.net/a-sports/master.m3u8",
+        "key": null
+      },
+      {
+        "title": "FANCODE (IND)",
+        "type": "hls",
+        "url": "https://dai-fancode.pages.dev/mumbai/4249772_english_hls_ea87fdf83410465_1ta-di_h264/index.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 4963,
