@@ -1278,31 +1278,25 @@
       {
         "title": "PRIME VIDEO FHD",
         "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bzxlubr5do/out/v1/5e11cf9c4c574bdead34d2fd73b2bc91/cenc.mpd",
-        "key": "0018708b148a535ce471118814221bf8:9b44705ad89f7b3e91ccaa9b2f2a2b0f"
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/sxig280kfu/out/v1/1d42bf15f0d74aa68535deefc79f9086/cenc.mpd",
+        "key": "1cf4f357d5b189fc905c8c256e4ca8c6:de885c6da99744114d0b9569e8d37343"
       },
       {
         "title": "SonyLiv (ENG)",
         "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2094590/Footlive0511/ENG/std_lrh-800300010.m3u8?hdnea=exp=1793930328~acl=/*~id=33587064428619536097058701325001~hmac=f2dfc022216d4e87d7a8996fd9d8e77f1a5c9a31aa6c9e85d5d71daeecc9876a",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120301/footlive0611/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794015370~acl=/*~id=63239560851756008134643733974673~hmac=097084a19a875dbcb1d5f9b3533cb7aec644c40f0ae4d7a01059692041e72c8b",
         "key": null
       },
       {
         "title": "SonyLiv (HIN)",
         "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2105079/Footlive0511/HIN/std_lrh-800300010.m3u8?hdnea=exp=1793930328~acl=/*~id=33587064428619536097058701325001~hmac=f2dfc022216d4e87d7a8996fd9d8e77f1a5c9a31aa6c9e85d5d71daeecc9876a",
-        "key": null
-      },
-      {
-        "title": "SONYLIV [BEN]",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2105080/Footlive0511/BEN/std_lrh-800300010.m3u8?hdnea=exp=1793930328~acl=/*~id=33587064428619536097058701325001~hmac=f2dfc022216d4e87d7a8996fd9d8e77f1a5c9a31aa6c9e85d5d71daeecc9876a",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120303/footlive0611/HIN/std_lrh-800300010.m3u8?hdnea=exp=1794015370~acl=/*~id=63239560851756008134643733974673~hmac=097084a19a875dbcb1d5f9b3533cb7aec644c40f0ae4d7a01059692041e72c8b",
         "key": null
       },
       {
         "title": "HD QUALITY",
         "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?",
+        "url": "https://live2.jorvakstreamcache.com/live/channel7.m3u8?",
         "key": null
       },
       {
