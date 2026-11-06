@@ -1,5 +1,57 @@
 [
   {
+    "id": 4896,
+    "title": "Nepal Premier League",
+    "slug": "npl-vs-npl",
+    "cat": "Live Events",
+    "status": "live",
+    "event": {
+      "name": "Nepal Premier League",
+      "category": "Cricket",
+      "teamA": "NPL",
+      "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAV3dcOxi7602i_xcqoTE6eoiGVCPJFo6uZwtDkDK-g&s=10",
+      "teamB": "NPL",
+      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAV3dcOxi7602i_xcqoTE6eoiGVCPJFo6uZwtDkDK-g&s=10",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAV3dcOxi7602i_xcqoTE6eoiGVCPJFo6uZwtDkDK-g&s=10",
+      "startTimeIST": "2026-11-06 12:10:00 IST",
+      "endTimeIST": "2026-11-06 21:20:00 IST",
+      "startTimeUTC": "2026/11/06 06:40:00 +0000",
+      "endTimeUTC": "2026/11/06 15:50:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "NPL LIVE FHD",
+        "type": "hls",
+        "url": "https://kick.com/api/v2/channels/huyt788",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://162.251.160.53:8089/NPLT20/index.m3u8",
+        "key": null
+      },
+      {
+        "title": "STAR SPORTS HD",
+        "type": "hls",
+        "url": "http://line.tivi-ott.net/play/live.php?mac=00:1B:79:F9:2A:14&stream=373201&extension=m3u8",
+        "key": null
+      },
+      {
+        "title": "FANCODE (IND)",
+        "type": "hls",
+        "url": "https://dai-fancode.pages.dev/mumbai/4250368_english_hls_7ea136c62c30127_1ta-di_h264/index.m3u8",
+        "key": null
+      },
+      {
+        "title": "FANCODE SD",
+        "type": "hls",
+        "url": "https://sp-original.pages.dev/liveop2.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
     "id": 4728,
     "title": "ICC World Test Championship",
     "slug": "ban-vs-wi",
@@ -227,58 +279,6 @@
         "title": "FANCODE (IND)",
         "type": "hls",
         "url": "https://dai-fancode.pages.dev/mumbai/4249772_english_hls_ea87fdf83410465_1ta-di_h264/index.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 4896,
-    "title": "Nepal Premier League",
-    "slug": "npl-vs-npl",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Nepal Premier League",
-      "category": "Cricket",
-      "teamA": "NPL",
-      "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAV3dcOxi7602i_xcqoTE6eoiGVCPJFo6uZwtDkDK-g&s=10",
-      "teamB": "NPL",
-      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAV3dcOxi7602i_xcqoTE6eoiGVCPJFo6uZwtDkDK-g&s=10",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAV3dcOxi7602i_xcqoTE6eoiGVCPJFo6uZwtDkDK-g&s=10",
-      "startTimeIST": "2026-11-06 12:10:00 IST",
-      "endTimeIST": "2026-11-06 21:20:00 IST",
-      "startTimeUTC": "2026/11/06 06:40:00 +0000",
-      "endTimeUTC": "2026/11/06 15:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "NPL LIVE FHD",
-        "type": "hls",
-        "url": "https://kick.com/api/v2/channels/huyt788",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://162.251.160.53:8089/NPLT20/index.m3u8",
-        "key": null
-      },
-      {
-        "title": "STAR SPORTS HD",
-        "type": "hls",
-        "url": "http://line.tivi-ott.net/play/live.php?mac=00:1B:79:F9:2A:14&stream=373201&extension=m3u8",
-        "key": null
-      },
-      {
-        "title": "FANCODE (IND)",
-        "type": "hls",
-        "url": "https://dai-fancode.pages.dev/mumbai/4250368_english_hls_7ea136c62c30127_1ta-di_h264/index.m3u8",
-        "key": null
-      },
-      {
-        "title": "FANCODE SD",
-        "type": "hls",
-        "url": "https://sp-original.pages.dev/liveop2.m3u8",
         "key": null
       }
     ]
