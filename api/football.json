@@ -374,34 +374,6 @@
     ]
   },
   {
-    "id": 5242,
-    "title": "Ligue 2",
-    "slug": "montpellier-vs-metz",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Ligue 2",
-      "category": "Football",
-      "teamA": "Montpellier",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1642/image",
-      "teamB": "Metz",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1651/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/182/image/dark",
-      "startTimeIST": "2026-11-07 00:30:00 IST",
-      "endTimeIST": "2026-11-07 02:50:00 IST",
-      "startTimeUTC": "2026/11/06 19:00:00 +0000",
-      "endTimeUTC": "2026/11/06 21:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live.cds78y11d.org/live/sd-6MwdpnpPp1fWfX38vQ.m3u8?txSecret=193fa2b23580e6c2711a92a26d8df96e&txTime=6AEECC75",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5243,
     "title": "Bundesliga",
     "slug": "hsv-vs-m-gladbach",
@@ -919,6 +891,34 @@
       "endTimeUTC": "2026/11/07 11:00:00 +0000"
     },
     "dashStreams": []
+  },
+  {
+    "id": 5242,
+    "title": "Ligue 2",
+    "slug": "montpellier-vs-metz",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Ligue 2",
+      "category": "Football",
+      "teamA": "Montpellier",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1642/image",
+      "teamB": "Metz",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1651/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/182/image/dark",
+      "startTimeIST": "2026-11-07 00:30:00 IST",
+      "endTimeIST": "2026-11-07 02:50:00 IST",
+      "startTimeUTC": "2026/11/06 19:00:00 +0000",
+      "endTimeUTC": "2026/11/06 21:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live.cds78y11d.org/live/sd-6MwdpnpPp1fWfX38vQ.m3u8?txSecret=193fa2b23580e6c2711a92a26d8df96e&txTime=6AEECC75",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5241,
