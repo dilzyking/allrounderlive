@@ -214,64 +214,6 @@
     ]
   },
   {
-    "id": 4963,
-    "title": "Women's Big Bash League",
-    "slug": "wbbl-vs-wbbl",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Women's Big Bash League",
-      "category": "Cricket",
-      "teamA": "WBBL",
-      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/11163/image",
-      "teamB": "WBBL",
-      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/11163/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/11163/image",
-      "startTimeIST": "2026-11-06 13:40:00 IST",
-      "endTimeIST": "2026-11-06 18:20:00 IST",
-      "startTimeUTC": "2026/11/06 08:10:00 +0000",
-      "endTimeUTC": "2026/11/06 12:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "WILLOW FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vyjgbcddti/out/v1/afd9c25f5179456fb3caf61ccbde2652/cenc.mpd",
-        "key": "2fcc4db0b53bea0a25def717c67cfe57:71ba2e8f5ea6cd6ad995206b300f051a"
-      },
-      {
-        "title": "SKY CRICKET FHD",
-        "type": "hls",
-        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
-        "key": null
-      },
-      {
-        "title": "WILLOW HD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
-        "key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
-      },
-      {
-        "title": "WILLOW ALT",
-        "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/vyjgbcddti/out/v1/afd9c25f5179456fb3caf61ccbde2652/cenc.mpd",
-        "key": "2fcc4db0b53bea0a25def717c67cfe57:71ba2e8f5ea6cd6ad995206b300f051a"
-      },
-      {
-        "title": "TAPMAD FHD",
-        "type": "hls",
-        "url": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8",
-        "key": null
-      },
-      {
-        "title": "WILLOW SD",
-        "type": "hls",
-        "url": "http://51.77.217.114:8089/Wbbl52/index.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 4726,
     "title": "One Day International",
     "slug": "nz-vs-ind",
@@ -491,6 +433,64 @@
       "endTimeUTC": "2026/11/07 19:00:00 +0000"
     },
     "dashStreams": []
+  },
+  {
+    "id": 4963,
+    "title": "Women's Big Bash League",
+    "slug": "wbbl-vs-wbbl",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Women's Big Bash League",
+      "category": "Cricket",
+      "teamA": "WBBL",
+      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/11163/image",
+      "teamB": "WBBL",
+      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/11163/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/11163/image",
+      "startTimeIST": "2026-11-06 13:40:00 IST",
+      "endTimeIST": "2026-11-06 18:20:00 IST",
+      "startTimeUTC": "2026/11/06 08:10:00 +0000",
+      "endTimeUTC": "2026/11/06 12:50:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "WILLOW FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vyjgbcddti/out/v1/afd9c25f5179456fb3caf61ccbde2652/cenc.mpd",
+        "key": "2fcc4db0b53bea0a25def717c67cfe57:71ba2e8f5ea6cd6ad995206b300f051a"
+      },
+      {
+        "title": "SKY CRICKET FHD",
+        "type": "hls",
+        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
+        "key": null
+      },
+      {
+        "title": "WILLOW HD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+        "key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
+      },
+      {
+        "title": "WILLOW ALT",
+        "type": "dash",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/vyjgbcddti/out/v1/afd9c25f5179456fb3caf61ccbde2652/cenc.mpd",
+        "key": "2fcc4db0b53bea0a25def717c67cfe57:71ba2e8f5ea6cd6ad995206b300f051a"
+      },
+      {
+        "title": "TAPMAD FHD",
+        "type": "hls",
+        "url": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8",
+        "key": null
+      },
+      {
+        "title": "WILLOW SD",
+        "type": "hls",
+        "url": "http://51.77.217.114:8089/Wbbl52/index.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 984,
