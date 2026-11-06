@@ -1,178 +1,453 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Sony Sports Ten 3 - Live</title>
-  <meta name="referrer" content="no-referrer">
+<script>(function(s){s.dataset.zone='10689310',s.src='https://al5sm.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="referrer" content="no-referrer">
+<title>@allinonereborn Player</title>
 
-  <!-- Shaka Player 4.7.11 -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.11/shaka-player.ui.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.11/controls.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.11/shaka-player.ui.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.11/controls.min.css">
 
-  <style>
-    *{margin:0;padding:0;box-sizing:border-box}
-    html,body{width:100%;height:100%;background:#000;overflow:hidden;font-family:'Segoe UI', Roboto, Helvetica, Arial, sans-serif}
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
 
-    .shaka-video-container{
-      position:fixed;
-      inset:0;
-      background:#000;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-    }
+html,body{
+  background:#000;
+  width:100%;
+  height:100%;
+  min-width:100vw;
+  min-height:100dvh;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  font-family:system-ui,sans-serif;
+}
 
-    video{
-      width:100%;
-      height:100%;
-      object-fit:contain;
-      background:#000;
-    }
+body{
+  width:100vw;
+  height:100vh;
+  height:100dvh;
+}
 
-    /* Optional watermark */
-    .custom-watermark{
-      position:absolute;
-      z-index:40;
-      pointer-events:none;
-      top:65%;
-      left:6%;
-      transform: translateY(-50%);
-      font-size:11px;
-      font-weight:600;
-      color: rgba(255, 255, 255, 0.12);
-    }
+.shaka-video-container{
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100vw;
+  height:100vh;
+  height:100dvh;
+  min-width:100vw;
+  min-height:100vh;
+  min-height:100dvh;
+  background:#000;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden !important;
+}
 
-    @media(max-width:700px){
-      .custom-watermark{ font-size:9px; top:60%; left:16%; }
-    }
-  </style>
+video{
+  position:absolute !important;
+  inset:0 !important;
+  display:block !important;
+  width:100vw !important;
+  height:100vh !important;
+  height:100dvh !important;
+  max-width:none !important;
+  max-height:none !important;
+  min-width:100% !important;
+  min-height:100% !important;
+  object-fit:contain !important;
+  object-position:center center !important;
+  background:#000;
+}
+
+/* Real fullscreen: force the player to occupy the entire fullscreen viewport,
+   including the area that is otherwise reserved around a camera cutout/notch. */
+#player-container:fullscreen,
+#player-container:-webkit-full-screen{
+  position:fixed !important;
+  top:0 !important;
+  left:0 !important;
+  right:0 !important;
+  bottom:0 !important;
+  width:100vw !important;
+  height:100vh !important;
+  height:100dvh !important;
+  min-width:100vw !important;
+  min-height:100vh !important;
+  min-height:100dvh !important;
+  padding:0 !important;
+  margin:0 !important;
+  overflow:hidden !important;
+  background:#000 !important;
+}
+
+#player-container:fullscreen video,
+#player-container:-webkit-full-screen video{
+  width:100vw !important;
+  height:100vh !important;
+  height:100dvh !important;
+  min-width:100vw !important;
+  min-height:100vh !important;
+  max-width:none !important;
+  max-height:none !important;
+}
+
+/* Channel info overlay (top bar) - REMOVED channel name and logo, keeping only background but hidden */
+.channel-info{
+  position:absolute;
+  top:0;left:0;right:0;
+  padding:12px 15px;
+  background:linear-gradient(to bottom,rgba(0,0,0,.75),transparent);
+  display:flex;
+  align-items:center;
+  z-index:10;
+  pointer-events:none;
+  display:none; /* Hides the entire top bar */
+}
+
+.channel-logo{
+  width:38px;
+  height:38px;
+  border-radius:8px;
+  margin-right:10px;
+  object-fit:contain;
+  background:#111;
+}
+
+.channel-name{
+  color:#fff;
+  font-size:17px;
+  font-weight:600;
+}
+
+/* Status / debug bar - FULLY REMOVED */
+#status{
+  display:none;
+}
+
+
+/* ── VIDEO FIT / STRETCH MODES ── */
+.video-fit-btn{
+  position:absolute;
+  top:calc(10px + env(safe-area-inset-top));
+  right:calc(10px + env(safe-area-inset-right));
+  z-index:1000;
+  border:1px solid rgba(255,255,255,.28);
+  background:rgba(0,0,0,.62);
+  color:#fff;
+  backdrop-filter:blur(8px);
+  -webkit-backdrop-filter:blur(8px);
+  border-radius:10px;
+  padding:9px 12px;
+  min-width:105px;
+  font-size:12px;
+  font-weight:700;
+  letter-spacing:.3px;
+  cursor:pointer;
+  user-select:none;
+  -webkit-tap-highlight-color:transparent;
+}
+.video-fit-btn:active{transform:scale(.96)}
+.video-fit-btn.controls-hidden{
+  opacity:0 !important;
+  visibility:hidden !important;
+  pointer-events:none !important;
+}
+
+#video{
+  object-position:center center !important;
+  transform:none !important;
+  transition:object-fit .15s ease;
+}
+
+/* ── FIT MODE CLASSES ── */
+.fit-contain{ object-fit: contain !important; }
+.fit-cover{   object-fit: cover   !important; }
+.fit-stretch{ object-fit: fill    !important; }
+</style>
 </head>
 <body>
 
-  <div class="shaka-video-container" id="player-container">
-    <video id="video" autoplay playsinline preload="metadata"></video>
-    <div class="custom-watermark"></div>
-  </div>
+<div id="player-container">
+  <video id="video" playsinline></video>
+  <button id="videoFitBtn" class="video-fit-btn" type="button" aria-label="Toggle fit mode">
+    FIT: CONTAIN
+  </button>
+</div>
 
-  <script>
-    // ---------------------------------------------------------------
-    // CONFIG — Sony Sports Ten 3 (Hindi HD), 5 DRM keys, manual cookie
-    // ---------------------------------------------------------------
-    const CONFIG = {
-      // Sony Sports Ten 3 Hindi HD – MPD
-      streamUrl: "https://jiotvpllive.cdn.jio.com/bpk-tv/SonySportsTen3HinHDSTB_BTS/WDVLive/index.mpd",
+<script>
+/* ── CONFIG — Sony Sports Ten 3 (Hindi HD), 5 DRM keys, manual cookie ── */
+const CONFIG = {
+  streamUrl: "https://jiotvpllive.cdn.jio.com/bpk-tv/SonySportsTen3HinHDSTB_BTS/WDVLive/index.mpd",
 
-      // All 5 clear keys (KID : KEY)
-      drmKeys: [
-        "c20ba4e9d0635bab9f17b177f0d91039:fcb4a266539ac7b03ef02c5600c5598d",
-        "c592c427c0d35e9a8ad88cdcb76a16c1:8ecb737e4015c22451d6c14fe37e9e15",
-        "10f4930166fa5b6ab5d71a4a978bdfac:9dfa22aa4d6a3d820101f59013de0236",
-        "140edf90fa0b5c99864f2442df4df535:991b51ed2e690c96163a31ae4a6f6452",
-        "e392571e46bd5461854986ae9e58083d:1167c024aa8bbad2c1beaf218cfeec11"
-      ],
+  drmKeys: [
+    "c20ba4e9d0635bab9f17b177f0d91039:fcb4a266539ac7b03ef02c5600c5598d",
+    "c592c427c0d35e9a8ad88cdcb76a16c1:8ecb737e4015c22451d6c14fe37e9e15",
+    "10f4930166fa5b6ab5d71a4a978bdfac:9dfa22aa4d6a3d820101f59013de0236",
+    "140edf90fa0b5c99864f2442df4df535:991b51ed2e690c96163a31ae4a6f6452",
+    "e392571e46bd5461854986ae9e58083d:1167c024aa8bbad2c1beaf218cfeec11"
+  ],
 
-      // Manual cookie (from your message)
-      manualCookie: "__hdnea__=st=1793941348~exp=1793962948~acl=/bpk-tv/SonySportsTen3HinHDSTB_BTS/WDVLive/*~hmac=5a8f1849b01b5a8b90a1ba22b8959ece49e84da0d5656227cc43b507e3695a2e"
-    };
+  manualCookie: "__hdnea__=st=1793941348~exp=1793962948~acl=/bpk-tv/SonySportsTen3HinHDSTB_BTS/WDVLive/*~hmac=5a8f1849b01b5a8b90a1ba22b8959ece49e84da0d5656227cc43b507e3695a2e"
+};
 
-    // ---------------------------------------------------------------
-    // Helper: build clearKeys object from "kid:key" strings
-    // ---------------------------------------------------------------
-    function buildClearKeys(keyArray) {
-      const clearKeys = {};
-      if (!Array.isArray(keyArray)) return clearKeys;
-      keyArray.forEach(function (pair) {
-        if (!pair || typeof pair !== "string") return;
-        const idx = pair.indexOf(":");
-        if (idx === -1) return;
-        const kid = pair.slice(0, idx).trim();
-        const key = pair.slice(idx + 1).trim();
-        if (kid && key) clearKeys[kid] = key;
-      });
-      return clearKeys;
+/* ── Build clearKeys object from "kid:key" strings ── */
+function buildClearKeys(keyArray) {
+  const clearKeys = {};
+  if (!Array.isArray(keyArray)) return clearKeys;
+  keyArray.forEach(function (pair) {
+    if (!pair || typeof pair !== "string") return;
+    const idx = pair.indexOf(":");
+    if (idx === -1) return;
+    const kid = pair.slice(0, idx).trim();
+    const key = pair.slice(idx + 1).trim();
+    if (kid && key) clearKeys[kid] = key;
+  });
+  return clearKeys;
+}
+
+/* ── showPopup (defined for Brave/Adblock warnings) ── */
+function showPopup(msg){
+  const d = document.createElement('div');
+  d.textContent = msg;
+  d.style.cssText = 'position:fixed;top:20px;left:50%;transform:translateX(-50%);'
+    + 'background:#c00;color:#fff;padding:12px 20px;border-radius:8px;z-index:9999;'
+    + 'font-family:system-ui;font-size:14px;';
+  document.body.appendChild(d);
+}
+
+/* ── Brave / Adblock detection ── */
+async function detectBraveShields(){
+  try {
+    const res = await fetch("https://al5sm.com/tag.min.js", { mode: "no-cors", cache: "no-store" });
+    if (res.type === "opaque") {
+      try {
+        const buf = await res.clone().arrayBuffer();
+        return buf.byteLength >= 100; // true = shields ON
+      } catch (e) {
+        return true;
+      }
+    }
+    return true;
+  } catch (e) {
+    return true;
+  }
+}
+
+async function detectAdblock(){
+  try{
+    await fetch("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+      { method:"HEAD", mode:"no-cors", cache:"no-store" });
+    return false;
+  }catch(e){
+    return true;
+  }
+}
+
+/* ── MAIN ── */
+document.addEventListener("DOMContentLoaded", async () => {
+
+  shaka.polyfill.installAll();
+  if(!shaka.Player.isBrowserSupported()){
+    console.error("Shaka Player is not supported in this browser.");
+    return;
+  }
+
+  const videoEl   = document.getElementById("video");
+  const container = document.getElementById("player-container");
+
+/* ── VIDEO FIT / FULLSCREEN CONTROL ── */
+  const videoFitBtn = document.getElementById("videoFitBtn");
+  const fitModes = [
+    { key: "contain", label: "FIT: CONTAIN", hint: "Original / no crop" },
+    { key: "cover",   label: "FULL: COVER",  hint: "Fill the entire screen / crop edges" },
+    { key: "stretch", label: "FULL: STRETCH", hint: "Fill the entire screen / no black bars" }
+  ];
+  let fitModeIndex = 0;
+
+  async function enterPlayerFullscreen(){
+    try{
+      if(!document.fullscreenElement &&
+         !document.webkitFullscreenElement){
+        if(container.requestFullscreen){
+          await container.requestFullscreen({navigationUI:"hide"});
+        }else if(container.webkitRequestFullscreen){
+          container.webkitRequestFullscreen();
+        }else if(videoEl.webkitEnterFullscreen){
+          videoEl.webkitEnterFullscreen();
+        }
+      }
+    }catch(e){
+      // Some browsers deny programmatic fullscreen; keep the selected fit mode.
     }
 
-    // ---------------------------------------------------------------
-    // Initialise player
-    // ---------------------------------------------------------------
-    document.addEventListener('DOMContentLoaded', async () => {
-
-      shaka.polyfill.installAll();
-      if (!shaka.Player.isBrowserSupported()) {
-        console.error('Shaka Player is not supported in this browser.');
-        return;
+    try{
+      if(screen.orientation && screen.orientation.lock){
+        await screen.orientation.lock("landscape").catch(()=>{});
       }
+    }catch(e){}
+  }
 
-      const videoEl   = document.getElementById('video');
-      const container = document.getElementById('player-container');
-
-      // ---- Create player & UI overlay ---------------------------------
-      const player = new shaka.Player();
-      await player.attach(videoEl);
-
-      const ui = new shaka.ui.Overlay(player, container, videoEl);
-
-      ui.configure({
-        controlPanelElements: [
-          'play_pause',
-          'time_and_duration',
-          'spacer',
-          'language',
-          'captions',
-          'picture_in_picture',
-          'quality',
-          'fullscreen'
-        ],
-        seekBarColors: { base: 'white', buffered: 'red', played: 'green' }
-      });
-
-      // ---- Player configuration (DRM + streaming) --------------------
-      const clearKeys = buildClearKeys(CONFIG.drmKeys);
-
-      player.configure({
-        drm: {
-          clearKeys: clearKeys
-        },
-        manifest: { defaultPresentationDelay: 5 },
-        streaming: {
-          safeSeekOffset: 5,
-          bufferingGoal: 10,
-          rebufferingGoal: 2,
-          lowLatencyMode: true
-        }
-      });
-
-      // ---- Request filter: Referer, User-Agent, Cookie, __hdnea__ ----
-      player.getNetworkingEngine().registerRequestFilter((type, request) => {
-
-        request.headers['Referer']    = 'https://www.jiotv.com/';
-        request.headers['User-Agent'] = 'plaYtv/7.1.5 (Linux;Android 13) ExoPlayerLib/2.11.6';
-
-        if (CONFIG.manualCookie) {
-          // Always attach cookie header
-          request.headers['Cookie'] = CONFIG.manualCookie;
-
-          // Append __hdnea__ token to manifest / segment URLs if missing
-          if (
-            (type === shaka.net.NetworkingEngine.RequestType.MANIFEST ||
-             type === shaka.net.NetworkingEngine.RequestType.SEGMENT) &&
-            !request.uris[0].includes('__hdnea__')
-          ) {
-            const sep = request.uris[0].includes('?') ? '&' : '?';
-            request.uris[0] += sep + CONFIG.manualCookie;
-          }
-        }
-      });
-
-      // ---- Load the stream -------------------------------------------
-      try {
-        await player.load(CONFIG.streamUrl);
-        videoEl.play().catch(() => {});
-      } catch (e) {
-        console.error('Stream Load Error:', e);
+  function leavePlayerFullscreen(){
+    try{
+      if(document.fullscreenElement && document.exitFullscreen){
+        document.exitFullscreen();
+      }else if(document.webkitFullscreenElement && document.webkitExitFullscreen){
+        document.webkitExitFullscreen();
       }
-    });
-  </script>
+    }catch(e){}
+  }
+
+  function applyFitMode(index, enterFullscreen = false){
+    fitModeIndex = (index + fitModes.length) % fitModes.length;
+    const mode = fitModes[fitModeIndex];
+
+    videoEl.classList.remove("fit-contain", "fit-cover", "fit-stretch");
+    container.classList.remove("full-cover", "full-stretch");
+    videoEl.classList.add("fit-" + mode.key);
+
+    if(mode.key === "cover") container.classList.add("full-cover");
+    if(mode.key === "stretch") container.classList.add("full-stretch");
+
+    videoFitBtn.textContent = mode.label;
+    videoFitBtn.title = mode.hint;
+    videoFitBtn.setAttribute("aria-label", mode.hint);
+
+    void videoEl.offsetWidth;
+
+    if(enterFullscreen && mode.key !== "contain") {
+      enterPlayerFullscreen();
+    }
+  }
+
+  videoFitBtn.addEventListener("click", (ev) => {
+    ev.preventDefault();
+    ev.stopPropagation();
+
+    const nextIndex = fitModeIndex + 1;
+    const nextMode = fitModes[(nextIndex + fitModes.length) % fitModes.length];
+
+    applyFitMode(nextIndex, nextMode.key !== "contain");
+  });
+
+  /* ── FIT-BUTTON AUTO-HIDE ── */
+  const FIT_BUTTON_HIDE_DELAY = 3000;
+  let fitButtonHideTimer = null;
+  let fitButtonStarted = false;
+
+  function showFitButton(){
+    videoFitBtn.classList.remove('controls-hidden');
+
+    clearTimeout(fitButtonHideTimer);
+    fitButtonHideTimer = setTimeout(() => {
+      videoFitBtn.classList.add('controls-hidden');
+    }, FIT_BUTTON_HIDE_DELAY);
+  }
+
+  function showFitButtonUntilTimeout(){
+    showFitButton();
+  }
+
+  function startFitButtonAutoHide(){
+    if(fitButtonStarted) return;
+    fitButtonStarted = true;
+    showFitButtonUntilTimeout();
+  }
+
+  container.addEventListener('pointerdown', () => {
+    showFitButtonUntilTimeout();
+  }, {passive:true});
+
+  startFitButtonAutoHide();
+
+  /* ── INIT SHAKA PLAYER ── */
+  const player = new shaka.Player();
+  await player.attach(videoEl);
+
+  const ui = new shaka.ui.Overlay(player, container, videoEl);
+
+  ui.configure({
+    controlPanelElements: [
+      'play_pause',
+      'time_and_duration',
+      'spacer',
+      'language',
+      'captions',
+      'picture_in_picture',
+      'quality',
+      'fullscreen'
+    ],
+    seekBarColors: { base: 'white', buffered: 'red', played: 'green' }
+  });
+
+  /* ── DRM + streaming config (Sony Sports Ten 3 keys) ── */
+  const clearKeys = buildClearKeys(CONFIG.drmKeys);
+
+  player.configure({
+    drm: {
+      clearKeys: clearKeys
+    },
+    manifest: { defaultPresentationDelay: 5 },
+    streaming: {
+      safeSeekOffset: 5,
+      bufferingGoal: 10,
+      rebufferingGoal: 2,
+      lowLatencyMode: true
+    }
+  });
+
+  /* ── Request filter: Referer, User-Agent, Cookie, __hdnea__ ── */
+  player.getNetworkingEngine().registerRequestFilter((type, request) => {
+
+    request.headers['Referer']    = 'https://www.jiotv.com/';
+    request.headers['User-Agent'] = 'plaYtv/7.1.5 (Linux;Android 13) ExoPlayerLib/2.11.6';
+
+    if (CONFIG.manualCookie) {
+      request.headers['Cookie'] = CONFIG.manualCookie;
+
+      if (
+        (type === shaka.net.NetworkingEngine.RequestType.MANIFEST ||
+         type === shaka.net.NetworkingEngine.RequestType.SEGMENT) &&
+        !request.uris[0].includes('__hdnea__')
+      ) {
+        const sep = request.uris[0].includes('?') ? '&' : '?';
+        request.uris[0] += sep + CONFIG.manualCookie;
+      }
+    }
+  });
+
+  player.addEventListener('error', (e) => console.error("Shaka error:", e.detail));
+
+  /* ── Load the Sony Sports Ten 3 stream ── */
+  try {
+    await player.load(CONFIG.streamUrl);
+    videoEl.play().catch(() => {});
+  } catch (e) {
+    console.error('Stream Load Error:', e);
+  }
+
+});
+
+/* ── Brave / Adblock check ── */
+window.addEventListener("load", async () => {
+  const shieldsOn = await detectBraveShields();
+  if (shieldsOn) {
+    showPopup("Brave Shields Detected");
+    return;
+  }
+
+  const adblocker = await detectAdblock();
+  if (adblocker) {
+    showPopup("Adblock Detected");
+  }
+});
+</script>
+
 </body>
 </html>
