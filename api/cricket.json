@@ -364,7 +364,7 @@
     "title": "ICC World Test Championship",
     "slug": "ban-vs-wi",
     "cat": "Live Events",
-    "status": "ended",
+    "status": "upcoming",
     "event": {
       "name": "ICC World Test Championship",
       "category": "Cricket",
@@ -373,10 +373,10 @@
       "teamB": "WI",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/187760/image",
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/18833/image/dark",
-      "startTimeIST": "2026-11-06 09:00:00 IST",
-      "endTimeIST": "2026-11-06 17:30:00 IST",
-      "startTimeUTC": "2026/11/06 03:30:00 +0000",
-      "endTimeUTC": "2026/11/06 12:00:00 +0000"
+      "startTimeIST": "2026-11-07 09:00:00 IST",
+      "endTimeIST": "2026-11-07 17:30:00 IST",
+      "startTimeUTC": "2026/11/07 03:30:00 +0000",
+      "endTimeUTC": "2026/11/07 12:00:00 +0000"
     },
     "dashStreams": [
       {
@@ -428,6 +428,69 @@
         "key": null
       }
     ]
+  },
+  {
+    "id": 5260,
+    "title": "U19 Asia Cup",
+    "slug": "afg-u19-vs-mas-u19",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "U19 Asia Cup",
+      "category": "Cricket",
+      "teamA": "AFG-U19",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/213103/image",
+      "teamB": "MAS-U19",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/505670/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11486/image/dark",
+      "startTimeIST": "2026-11-07 10:30:00 IST",
+      "endTimeIST": "2026-11-07 15:00:00 IST",
+      "startTimeUTC": "2026/11/07 05:00:00 +0000",
+      "endTimeUTC": "2026/11/07 09:30:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5261,
+    "title": "U19 Asia Cup",
+    "slug": "sl-u19-vs-ban-u19",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "U19 Asia Cup",
+      "category": "Cricket",
+      "teamA": "SL-U19",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/213106/image",
+      "teamB": "BAN-U19",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/213099/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11486/image/dark",
+      "startTimeIST": "2026-11-07 10:30:00 IST",
+      "endTimeIST": "2026-11-07 15:00:00 IST",
+      "startTimeUTC": "2026/11/07 05:00:00 +0000",
+      "endTimeUTC": "2026/11/07 09:30:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5259,
+    "title": "Abu Dhabi T10 League",
+    "slug": "t10-league-vs-t10-league",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Abu Dhabi T10 League",
+      "category": "Cricket",
+      "teamA": "T10 LEAGUE",
+      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
+      "teamB": "T10 LEAGUE",
+      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
+      "startTimeIST": "2026-11-07 16:40:00 IST",
+      "endTimeIST": "2026-11-08 00:30:00 IST",
+      "startTimeUTC": "2026/11/07 11:10:00 +0000",
+      "endTimeUTC": "2026/11/07 19:00:00 +0000"
+    },
+    "dashStreams": []
   },
   {
     "id": 984,
