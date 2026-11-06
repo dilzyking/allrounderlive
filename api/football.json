@@ -789,6 +789,18 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
         "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4563675.m3u8?txSecret=e0bc0930a50439d4c5d7c3060ba98037&txTime=6AEE44EA",
+        "key": null
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.59/hls/BGBGBGAAA.m3u8",
+        "key": null
       }
     ]
   },
