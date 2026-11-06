@@ -374,138 +374,6 @@
     ]
   },
   {
-    "id": 5246,
-    "title": "Ligue 1",
-    "slug": "toulouse-vs-strasbourg",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Ligue 1",
-      "category": "Football",
-      "teamA": "Toulouse",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1681/image",
-      "teamB": "Strasbourg",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1659/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
-      "startTimeIST": "2026-11-07 01:15:00 IST",
-      "endTimeIST": "2026-11-07 03:35:00 IST",
-      "startTimeUTC": "2026/11/06 19:45:00 +0000",
-      "endTimeUTC": "2026/11/06 22:05:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "beIN ENGLISH FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n7hbpksb18/out/v1/be5403be4a674a7da8b3c81b1fe79692/cenc.mpd",
-        "key": "4fce30c060b7b0464ab765e24fee5ecc:65d612238736eec3794c7e75a6fd362c"
-      },
-      {
-        "title": "CazéTV FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ui54qo0g6h/out/v1/620e1448188d4bbe9a28d0dd52f45bb7/cenc.mpd",
-        "key": "ba6aca5a550163c38d06646bb50f04e7:516c3b471fce48a5b7a2e5ee7dd505f2"
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4550930.m3u8?txSecret=c0671a44002b36cb834c478b7bf5d51a&txTime=6AEE41F9",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5247,
-    "title": "Serie A",
-    "slug": "venezia-vs-udinese",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Serie A",
-      "category": "Football",
-      "teamA": "Venezia",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2688/image",
-      "teamB": "Udinese",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2695/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "startTimeIST": "2026-11-07 01:15:00 IST",
-      "endTimeIST": "2026-11-07 03:35:00 IST",
-      "startTimeUTC": "2026/11/06 19:45:00 +0000",
-      "endTimeUTC": "2026/11/06 22:05:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "beIN ENGLISH FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
-        "key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
-      },
-      {
-        "title": "SPORT 1 CZ FHD",
-        "type": "dash",
-        "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-        "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-      },
-      {
-        "title": "PARAMOUNT+ HD",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59372/load-playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4549051.m3u8?txSecret=6e55d6631ac9eba3639b92f8edcfef98&txTime=6AEE410A",
-        "key": null
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.41/hls/zoooAAAAAAQQ.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5249,
-    "title": "FA Cup",
-    "slug": "oxford-vs-leicester",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "FA Cup",
-      "category": "Football",
-      "teamA": "Oxford",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/25939/image",
-      "teamB": "Leicester",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/31/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/19/image/dark",
-      "startTimeIST": "2026-11-07 01:15:00 IST",
-      "endTimeIST": "2026-11-07 03:35:00 IST",
-      "startTimeUTC": "2026/11/06 19:45:00 +0000",
-      "endTimeUTC": "2026/11/06 22:05:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "TNT SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
-        "key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/sd-1-4660323.m3u8?txSecret=041a022dc32a4a4ba0a49ce8348db5b1&txTime=6AEE4221",
-        "key": null
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/SYYY.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5248,
     "title": "Premier League",
     "slug": "everton-vs-coventry",
@@ -815,6 +683,138 @@
       "endTimeUTC": "2026/11/07 11:00:00 +0000"
     },
     "dashStreams": []
+  },
+  {
+    "id": 5246,
+    "title": "Ligue 1",
+    "slug": "toulouse-vs-strasbourg",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Ligue 1",
+      "category": "Football",
+      "teamA": "Toulouse",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1681/image",
+      "teamB": "Strasbourg",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1659/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
+      "startTimeIST": "2026-11-07 01:15:00 IST",
+      "endTimeIST": "2026-11-07 03:35:00 IST",
+      "startTimeUTC": "2026/11/06 19:45:00 +0000",
+      "endTimeUTC": "2026/11/06 22:05:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "beIN ENGLISH FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n7hbpksb18/out/v1/be5403be4a674a7da8b3c81b1fe79692/cenc.mpd",
+        "key": "4fce30c060b7b0464ab765e24fee5ecc:65d612238736eec3794c7e75a6fd362c"
+      },
+      {
+        "title": "CazéTV FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ui54qo0g6h/out/v1/620e1448188d4bbe9a28d0dd52f45bb7/cenc.mpd",
+        "key": "ba6aca5a550163c38d06646bb50f04e7:516c3b471fce48a5b7a2e5ee7dd505f2"
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4550930.m3u8?txSecret=c0671a44002b36cb834c478b7bf5d51a&txTime=6AEE41F9",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5247,
+    "title": "Serie A",
+    "slug": "venezia-vs-udinese",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Serie A",
+      "category": "Football",
+      "teamA": "Venezia",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2688/image",
+      "teamB": "Udinese",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2695/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
+      "startTimeIST": "2026-11-07 01:15:00 IST",
+      "endTimeIST": "2026-11-07 03:35:00 IST",
+      "startTimeUTC": "2026/11/06 19:45:00 +0000",
+      "endTimeUTC": "2026/11/06 22:05:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "beIN ENGLISH FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
+        "key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
+      },
+      {
+        "title": "SPORT 1 CZ FHD",
+        "type": "dash",
+        "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+        "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+      },
+      {
+        "title": "PARAMOUNT+ HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59372/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4549051.m3u8?txSecret=6e55d6631ac9eba3639b92f8edcfef98&txTime=6AEE410A",
+        "key": null
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.41/hls/zoooAAAAAAQQ.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5249,
+    "title": "FA Cup",
+    "slug": "oxford-vs-leicester",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "FA Cup",
+      "category": "Football",
+      "teamA": "Oxford",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/25939/image",
+      "teamB": "Leicester",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/31/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/19/image/dark",
+      "startTimeIST": "2026-11-07 01:15:00 IST",
+      "endTimeIST": "2026-11-07 03:35:00 IST",
+      "startTimeUTC": "2026/11/06 19:45:00 +0000",
+      "endTimeUTC": "2026/11/06 22:05:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "TNT SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+        "key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4660323.m3u8?txSecret=041a022dc32a4a4ba0a49ce8348db5b1&txTime=6AEE4221",
+        "key": null
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/SYYY.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5243,
