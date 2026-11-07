@@ -378,7 +378,7 @@
     "title": "LaLiga",
     "slug": "valencia-vs-real-madrid",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "LaLiga",
       "category": "Football",
@@ -436,7 +436,7 @@
     "title": "LaLiga 2",
     "slug": "granada-vs-tenerife",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "LaLiga 2",
       "category": "Football",
@@ -457,7 +457,7 @@
     "title": "Scottish Premiership",
     "slug": "st-mirren-vs-rangers",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Scottish Premiership",
       "category": "Football",
@@ -497,7 +497,7 @@
     "title": "VriendenLoterij Eredivisie",
     "slug": "excelsior-vs-ga-eagles",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "VriendenLoterij Eredivisie",
       "category": "Football",
@@ -525,7 +525,7 @@
     "title": "FA Cup",
     "slug": "peterborough-utd-vs-reading",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "FA Cup",
       "category": "Football",
@@ -3700,144 +3700,6 @@
         "title": "LOW QUALITY",
         "type": "hls",
         "url": "http://193.47.62.59/hls/BGBGBGAAAAQQQ.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5248,
-    "title": "Premier League",
-    "slug": "everton-vs-coventry",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Premier League",
-      "category": "Football",
-      "teamA": "Everton",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/48/image",
-      "teamB": "Coventry",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/11/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
-      "startTimeIST": "2026-11-07 01:30:00 IST",
-      "endTimeIST": "2026-11-07 03:50:00 IST",
-      "startTimeUTC": "2026/11/06 20:00:00 +0000",
-      "endTimeUTC": "2026/11/06 22:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SKY SPORT PL - AQ",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qdbhkwig26/out/v1/c3a69dfec0434abea00756cd73e749ff/cenc.mpd",
-        "key": "1106fb025da5b31657618344099c6c14:788284538616a73b56214e90196a6e0f"
-      },
-      {
-        "title": "FUBO SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd",
-        "key": "42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1"
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4558708.m3u8?txSecret=5a8043cb58d1ca84da85e62be9f5a614&txTime=6AEE4484",
-        "key": null
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.50/hls/KGGG.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5250,
-    "title": "LaLiga",
-    "slug": "sevilla-vs-alaves",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "LaLiga",
-      "category": "Football",
-      "teamA": "Sevilla",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2833/image",
-      "teamB": "Alavés",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2885/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
-      "startTimeIST": "2026-11-07 01:30:00 IST",
-      "endTimeIST": "2026-11-07 03:50:00 IST",
-      "startTimeUTC": "2026/11/06 20:00:00 +0000",
-      "endTimeUTC": "2026/11/06 22:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PREMIER SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
-        "key": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f"
-      },
-      {
-        "title": "FANCODE FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
-      },
-      {
-        "title": "CazéTV FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
-        "key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4565575.m3u8?txSecret=4a435355060547078b75c45226fbf76d&txTime=6AEE44B7",
-        "key": null
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/SYYYAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5256,
-    "title": "Championship",
-    "slug": "derby-vs-bolton",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "Derby",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/27/image",
-      "teamB": "Bolton",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/5/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-11-07 01:30:00 IST",
-      "endTimeIST": "2026-11-07 03:50:00 IST",
-      "startTimeUTC": "2026/11/06 20:00:00 +0000",
-      "endTimeUTC": "2026/11/06 22:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "beIN ENGLISH FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-        "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/sd-1-4563675.m3u8?txSecret=e0bc0930a50439d4c5d7c3060ba98037&txTime=6AEE44EA",
-        "key": null
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.59/hls/BGBGBGAAA.m3u8",
         "key": null
       }
     ]
