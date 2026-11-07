@@ -384,27 +384,6 @@
     ]
   },
   {
-    "id": 5260,
-    "title": "U19 Asia Cup",
-    "slug": "afg-u19-vs-mas-u19",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "U19 Asia Cup",
-      "category": "Cricket",
-      "teamA": "AFG-U19",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/213103/image",
-      "teamB": "MAS-U19",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/505670/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11486/image/dark",
-      "startTimeIST": "2026-11-07 10:30:00 IST",
-      "endTimeIST": "2026-11-07 15:00:00 IST",
-      "startTimeUTC": "2026/11/07 05:00:00 +0000",
-      "endTimeUTC": "2026/11/07 09:30:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 4963,
     "title": "Women's Big Bash League",
     "slug": "wbbl-vs-wbbl",
