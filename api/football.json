@@ -833,9 +833,9 @@
     },
     "dashStreams": [
       {
-        "title": "Ivan-FluX",
+        "title": "HD SERVER",
         "type": "hls",
-        "url": "https://fallback-video.ivan-fluxo.workers.dev/video/index.m3u8",
+        "url": "https://pull.fmp.live/sla/1-6acfa027daf8f9c59c92ec51.m3u8?auth_key=1794105661-0-0-4b300da776af9556174ecbc2a1074cfd",
         "key": null
       }
     ]
@@ -861,9 +861,15 @@
     },
     "dashStreams": [
       {
-        "title": "Ivan-FluX",
+        "title": "HD SERVER",
         "type": "hls",
-        "url": "https://fallback-video.ivan-fluxo.workers.dev/video/index.m3u8",
+        "url": "https://pull.fmp.live/sla/1-6acfa027daf8f9c59c92ec4a.m3u8?auth_key=1794105661-0-0-15843db50637191ae33e527cfaf40d01",
+        "key": null
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "https://messi.damitv.st/live-hls/channel/mls/2026-11-07/phi-tor/playlist.m3u8?tk=0B7h8yRoa1NRcG7f8JWDGw&e=1794127307",
         "key": null
       }
     ]
@@ -889,9 +895,9 @@
     },
     "dashStreams": [
       {
-        "title": "Ivan-FluX",
+        "title": "HD SERVER",
         "type": "hls",
-        "url": "https://fallback-video.ivan-fluxo.workers.dev/video/index.m3u8",
+        "url": "https://pull.fmp.live/sla/1-6acfa027daf8f9c59c92ec4d.m3u8?auth_key=1794105661-0-0-af1996f402ea233ce2789d146ee1ec2b",
         "key": null
       }
     ]
@@ -4008,34 +4014,6 @@
       "endTimeUTC": "2026/11/06 21:50:00 +0000"
     },
     "dashStreams": []
-  },
-  {
-    "id": 5242,
-    "title": "Ligue 2",
-    "slug": "montpellier-vs-metz",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Ligue 2",
-      "category": "Football",
-      "teamA": "Montpellier",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1642/image",
-      "teamB": "Metz",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1651/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/182/image/dark",
-      "startTimeIST": "2026-11-07 00:30:00 IST",
-      "endTimeIST": "2026-11-07 02:50:00 IST",
-      "startTimeUTC": "2026/11/06 19:00:00 +0000",
-      "endTimeUTC": "2026/11/06 21:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live.cds78y11d.org/live/sd-6MwdpnpPp1fWfX38vQ.m3u8?txSecret=193fa2b23580e6c2711a92a26d8df96e&txTime=6AEECC75",
-        "key": null
-      }
-    ]
   },
   {
     "id": 3255,
