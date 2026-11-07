@@ -378,7 +378,7 @@
     "title": "2. Bundesliga",
     "slug": "hertha-vs-wolfsburg",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "2. Bundesliga",
       "category": "Football",
@@ -3973,101 +3973,6 @@
         "key": null
       }
     ]
-  },
-  {
-    "id": 5243,
-    "title": "Bundesliga",
-    "slug": "hsv-vs-m-gladbach",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Bundesliga",
-      "category": "Football",
-      "teamA": "HSV",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2676/image",
-      "teamB": "M'gladbach",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2527/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/35/image/dark",
-      "startTimeIST": "2026-11-07 01:00:00 IST",
-      "endTimeIST": "2026-11-07 03:20:00 IST",
-      "startTimeUTC": "2026/11/06 19:30:00 +0000",
-      "endTimeUTC": "2026/11/06 21:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SKY TOP EVENT FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gjsukewpxp/out/v1/ef14aacf858248839b9867eec5caf563/cenc.mpd",
-        "key": "368bd4ebe301406897324bc777650411:69d27c2c2b7de927d67aacc973259901"
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4566395.m3u8?txSecret=1127228d9fa6ff3fd378e6caea98d960&txTime=6AEE3F78",
-        "key": null
-      },
-      {
-        "title": "HD QUALITY",
-        "type": "hls",
-        "url": "https://www.rtmpcdn.com/live/f02e1559-96a7-48c6-abe7-cc2a6abca702.m3u8",
-        "key": null
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.41/hls/zooo.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5244,
-    "title": "LaLiga 2",
-    "slug": "castellon-vs-eibar",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "LaLiga 2",
-      "category": "Football",
-      "teamA": "Castellón",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/5067/image",
-      "teamB": "Eibar",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2839/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "startTimeIST": "2026-11-07 01:00:00 IST",
-      "endTimeIST": "2026-11-07 03:20:00 IST",
-      "startTimeUTC": "2026/11/06 19:30:00 +0000",
-      "endTimeUTC": "2026/11/06 21:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "LaLiga Hypermotion",
-        "type": "dash",
-        "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-        "key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-      }
-    ]
-  },
-  {
-    "id": 5245,
-    "title": "FA Cup",
-    "slug": "bristol-rovers-vs-cambridge",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "FA Cup",
-      "category": "Football",
-      "teamA": "Bristol Rovers",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/76/image",
-      "teamB": "Cambridge",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/63/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/19/image/dark",
-      "startTimeIST": "2026-11-07 01:00:00 IST",
-      "endTimeIST": "2026-11-07 03:20:00 IST",
-      "startTimeUTC": "2026/11/06 19:30:00 +0000",
-      "endTimeUTC": "2026/11/06 21:50:00 +0000"
-    },
-    "dashStreams": []
   },
   {
     "id": 3255,
