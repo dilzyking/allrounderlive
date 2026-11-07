@@ -530,6 +530,24 @@
     },
     "dashStreams": [
       {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/goikeune5k/out/v1/a0c12026e2684d55b4d6f2222f433973/cenc.mpd",
+        "key": "c382483f8a379efb35b6277b17c6c347:f1942ce8cee7e5818800955ccb94aaca"
+      },
+      {
+        "title": "FUBO SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vahohrwe3w/out/v1/9a01afb3983444c9b0ebd5d4df2e47e2/cenc.mpd",
+        "key": "a6a9c2de87b36eeb9d16ecc1eb953faa:110c81b088f7b40cf67b4bb17de7b89a"
+      },
+      {
+        "title": "DAZN DE FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/8vgigtbr2m/out/v1/5bcac64e2a9341a790a0299366963139/cenc.mpd",
+        "key": "cd6ac6ee6298e4bb0da75673d2171bca:0c5e1f01ffb1a4134a1f2050d3e5be4f"
+      },
+      {
         "title": "CBS SPORTS FHD",
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
@@ -540,6 +558,12 @@
         "type": "dash",
         "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
         "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.55/hls/BWWWAAAA.m3u8",
+        "key": null
       }
     ]
   },
@@ -548,7 +572,7 @@
     "title": "LaLiga",
     "slug": "valencia-vs-real-madrid",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "LaLiga",
       "category": "Football",
@@ -563,6 +587,18 @@
       "endTimeUTC": "2026/11/07 22:20:00 +0000"
     },
     "dashStreams": [
+      {
+        "title": "DAZN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/zpn1sed45s/out/v1/edd9b843e4a34cc7b7ca75d46d80d660/cenc.mpd",
+        "key": "ebf29c45364a6e0a96100d2cd468ef88:79973ca1a11804467602e38543ac6b1c"
+      },
+      {
+        "title": "FANCODE FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+      },
       {
         "title": "beIN ENGLISH FHD",
         "type": "dash",
@@ -580,6 +616,12 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
         "key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.50/hls/TRTRTRAA.m3u8",
+        "key": null
       }
     ]
   },
@@ -588,7 +630,7 @@
     "title": "LaLiga 2",
     "slug": "granada-vs-tenerife",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "LaLiga 2",
       "category": "Football",
@@ -609,7 +651,7 @@
     "title": "Scottish Premiership",
     "slug": "st-mirren-vs-rangers",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Scottish Premiership",
       "category": "Football",
@@ -637,7 +679,7 @@
     "title": "VriendenLoterij Eredivisie",
     "slug": "excelsior-vs-ga-eagles",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "VriendenLoterij Eredivisie",
       "category": "Football",
@@ -651,7 +693,14 @@
       "startTimeUTC": "2026/11/07 20:00:00 +0000",
       "endTimeUTC": "2026/11/07 22:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.55/hls/hsssAAA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5314,
