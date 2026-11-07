@@ -931,6 +931,12 @@
     },
     "dashStreams": [
       {
+        "title": "APPLE TV+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/j3p4fupe9t/out/v1/bfc6902b7b2f4370933faaba5491cb00/cenc.mpd",
+        "key": "2da4839cd87680f56b4833657bd45aab:3ba1723b68dd461497a2adcd598b6bc3"
+      },
+      {
         "title": "HD SERVER",
         "type": "hls",
         "url": "https://pull.fmp.live/sla/1-6acfa027daf8f9c59c92ec4d.m3u8?auth_key=1794105661-0-0-af1996f402ea233ce2789d146ee1ec2b",
@@ -959,10 +965,10 @@
     },
     "dashStreams": [
       {
-        "title": "Ivan-FluX",
-        "type": "hls",
-        "url": "https://fallback-video.ivan-fluxo.workers.dev/video/index.m3u8",
-        "key": null
+        "title": "APPLE TV+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/jjvnm9xvvx/out/v1/a415cf9adc414427af195c6a9a1f08d1/cenc.mpd",
+        "key": "a5845b0b9b9dc261560a036bd296ac96:a90c5b64b4e90e7030c8885805dde087"
       }
     ]
   },
@@ -986,6 +992,12 @@
       "endTimeUTC": "2026/11/07 23:20:00 +0000"
     },
     "dashStreams": [
+      {
+        "title": "APPLE TV+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lfaz1qflsj/out/v1/53896a32366142baa5121a4b355e25b4/cenc.mpd",
+        "key": "3608ee1b8fef4a72d9246a65f9f47283:65138a41d5c97a7a591fc9bf9f7adeff"
+      },
       {
         "title": "HD SERVER",
         "type": "hls",
