@@ -374,40 +374,6 @@
     ]
   },
   {
-    "id": 5355,
-    "title": "VriendenLoterij Eredivisie",
-    "slug": "ado-vs-sparta",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "VriendenLoterij Eredivisie",
-      "category": "Football",
-      "teamA": "ADO",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2966/image",
-      "teamB": "Sparta",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2960/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
-      "startTimeIST": "2026-11-07 23:15:00 IST",
-      "endTimeIST": "2026-11-08 01:35:00 IST",
-      "startTimeUTC": "2026/11/07 17:45:00 +0000",
-      "endTimeUTC": "2026/11/07 20:05:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://www.rtmpcdn.com/live/8cecddae-9047-4381-acd4-1206e884623b.m3u8",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.55/hls/LOOOAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5313,
     "title": "Ligue 1",
     "slug": "auxerre-vs-paris",
@@ -667,10 +633,22 @@
     },
     "dashStreams": [
       {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/2n29cqt0qu/out/v1/f369a2dfa6c041318999b5a1818f96fe/cenc.mpd",
+        "key": "cf8536a5ef304fa5fef99807f39842f0:abf629b8ed0b284748c7ceedcfc59f23"
+      },
+      {
         "title": "beIN ENGLISH FHD",
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
         "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.50/hls/TRTRTRA.m3u8",
+        "key": null
       }
     ]
   },
@@ -703,11 +681,51 @@
     ]
   },
   {
+    "id": 5356,
+    "title": "FA Cup",
+    "slug": "peterborough-utd-vs-reading",
+    "cat": "Live Events",
+    "status": "live",
+    "event": {
+      "name": "FA Cup",
+      "category": "Football",
+      "teamA": "Peterborough Utd",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/54/image",
+      "teamB": "Reading",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/28/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/19/image/dark",
+      "startTimeIST": "2026-11-08 01:30:00 IST",
+      "endTimeIST": "2026-11-08 03:50:00 IST",
+      "startTimeUTC": "2026/11/07 20:00:00 +0000",
+      "endTimeUTC": "2026/11/07 22:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "DAZN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/nkuu6ozuac/out/v1/cd118a04b60140f5ac1622426d1b3446/cenc.mpd",
+        "key": "739a330a202e66f05371df3762966138:27c882c1f7e97303a7f891d59f75a940"
+      },
+      {
+        "title": "TNT SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+        "key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.55/hls/BWWWAAAAA.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
     "id": 5314,
     "title": "Ligue 1",
     "slug": "psg-vs-troyes",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Ligue 1",
       "category": "Football",
@@ -722,6 +740,12 @@
       "endTimeUTC": "2026/11/07 22:25:00 +0000"
     },
     "dashStreams": [
+      {
+        "title": "DAZN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/99c1spmqf4/out/v1/6df8df24c10e4f5babaad97b0e9b2624/cenc.mpd",
+        "key": "4a4ff5eedffeb58b538053b556578b9c:ade1a30a4508fb94fec2c6e19dacb069"
+      },
       {
         "title": "beIN ENGLISH FHD",
         "type": "dash",
@@ -798,6 +822,174 @@
     "dashStreams": []
   },
   {
+    "id": 5358,
+    "title": "MLS",
+    "slug": "ny-red-bulls-vs-atlanta",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "MLS",
+      "category": "Football",
+      "teamA": "NY Red Bulls",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2506/image",
+      "teamB": "Atlanta",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/243211/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/242/image/dark",
+      "startTimeIST": "2026-11-08 02:30:00 IST",
+      "endTimeIST": "2026-11-08 04:50:00 IST",
+      "startTimeUTC": "2026/11/07 21:00:00 +0000",
+      "endTimeUTC": "2026/11/07 23:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "Ivan-FluX",
+        "type": "hls",
+        "url": "https://fallback-video.ivan-fluxo.workers.dev/video/index.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5361,
+    "title": "MLS",
+    "slug": "chicago-vs-columbus",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "MLS",
+      "category": "Football",
+      "teamA": "Chicago",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2505/image",
+      "teamB": "Columbus",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2504/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/242/image/dark",
+      "startTimeIST": "2026-11-08 02:30:00 IST",
+      "endTimeIST": "2026-11-08 04:50:00 IST",
+      "startTimeUTC": "2026/11/07 21:00:00 +0000",
+      "endTimeUTC": "2026/11/07 23:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "Ivan-FluX",
+        "type": "hls",
+        "url": "https://fallback-video.ivan-fluxo.workers.dev/video/index.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5364,
+    "title": "MLS",
+    "slug": "philadelphia-vs-toronto",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "MLS",
+      "category": "Football",
+      "teamA": "Philadelphia",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/39833/image",
+      "teamB": "Toronto",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/7080/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/242/image/dark",
+      "startTimeIST": "2026-11-08 02:30:00 IST",
+      "endTimeIST": "2026-11-08 04:50:00 IST",
+      "startTimeUTC": "2026/11/07 21:00:00 +0000",
+      "endTimeUTC": "2026/11/07 23:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "Ivan-FluX",
+        "type": "hls",
+        "url": "https://fallback-video.ivan-fluxo.workers.dev/video/index.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5366,
+    "title": "MLS",
+    "slug": "montreal-vs-vancouver",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "MLS",
+      "category": "Football",
+      "teamA": "Montréal",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/22006/image",
+      "teamB": "Vancouver",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/22010/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/242/image/dark",
+      "startTimeIST": "2026-11-08 02:30:00 IST",
+      "endTimeIST": "2026-11-08 04:50:00 IST",
+      "startTimeUTC": "2026/11/07 21:00:00 +0000",
+      "endTimeUTC": "2026/11/07 23:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "Ivan-FluX",
+        "type": "hls",
+        "url": "https://fallback-video.ivan-fluxo.workers.dev/video/index.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5367,
+    "title": "MLS",
+    "slug": "cincinnati-vs-nashville",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "MLS",
+      "category": "Football",
+      "teamA": "Cincinnati",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/215167/image",
+      "teamB": "Nashville",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/337612/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/242/image/dark",
+      "startTimeIST": "2026-11-08 02:30:00 IST",
+      "endTimeIST": "2026-11-08 04:50:00 IST",
+      "startTimeUTC": "2026/11/07 21:00:00 +0000",
+      "endTimeUTC": "2026/11/07 23:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "Ivan-FluX",
+        "type": "hls",
+        "url": "https://fallback-video.ivan-fluxo.workers.dev/video/index.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5368,
+    "title": "MLS",
+    "slug": "dc-united-vs-ny-city",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "MLS",
+      "category": "Football",
+      "teamA": "DC United",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2502/image",
+      "teamB": "NY City",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/187643/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/242/image/dark",
+      "startTimeIST": "2026-11-08 02:30:00 IST",
+      "endTimeIST": "2026-11-08 04:50:00 IST",
+      "startTimeUTC": "2026/11/07 21:00:00 +0000",
+      "endTimeUTC": "2026/11/07 23:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "Ivan-FluX",
+        "type": "hls",
+        "url": "https://fallback-video.ivan-fluxo.workers.dev/video/index.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
     "id": 5347,
     "title": "Liga MX, Apertura",
     "slug": "atlas-vs-pachuca",
@@ -817,6 +1009,174 @@
       "endTimeUTC": "2026/11/08 01:20:00 +0000"
     },
     "dashStreams": []
+  },
+  {
+    "id": 5357,
+    "title": "MLS",
+    "slug": "dallas-vs-colorado",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "MLS",
+      "category": "Football",
+      "teamA": "Dallas",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2512/image",
+      "teamB": "Colorado",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2510/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/242/image/dark",
+      "startTimeIST": "2026-11-08 05:30:00 IST",
+      "endTimeIST": "2026-11-08 07:50:00 IST",
+      "startTimeUTC": "2026/11/08 00:00:00 +0000",
+      "endTimeUTC": "2026/11/08 02:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "Ivan-FluX",
+        "type": "hls",
+        "url": "https://fallback-video.ivan-fluxo.workers.dev/video/index.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5359,
+    "title": "MLS",
+    "slug": "san-diego-vs-kansas-city",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "MLS",
+      "category": "Football",
+      "teamA": "San Diego",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1043961/image",
+      "teamB": "Kansas City",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2509/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/242/image/dark",
+      "startTimeIST": "2026-11-08 05:30:00 IST",
+      "endTimeIST": "2026-11-08 07:50:00 IST",
+      "startTimeUTC": "2026/11/08 00:00:00 +0000",
+      "endTimeUTC": "2026/11/08 02:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "Ivan-FluX",
+        "type": "hls",
+        "url": "https://fallback-video.ivan-fluxo.workers.dev/video/index.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5360,
+    "title": "MLS",
+    "slug": "seattle-vs-los-angeles",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "MLS",
+      "category": "Football",
+      "teamA": "Seattle",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/22009/image",
+      "teamB": "Los Angeles",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/274650/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/242/image/dark",
+      "startTimeIST": "2026-11-08 05:30:00 IST",
+      "endTimeIST": "2026-11-08 07:50:00 IST",
+      "startTimeUTC": "2026/11/08 00:00:00 +0000",
+      "endTimeUTC": "2026/11/08 02:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "Ivan-FluX",
+        "type": "hls",
+        "url": "https://fallback-video.ivan-fluxo.workers.dev/video/index.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5362,
+    "title": "MLS",
+    "slug": "minnesota-vs-san-jose",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "MLS",
+      "category": "Football",
+      "teamA": "Minnesota",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/41618/image",
+      "teamB": "San Jose",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/21825/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/242/image/dark",
+      "startTimeIST": "2026-11-08 05:30:00 IST",
+      "endTimeIST": "2026-11-08 07:50:00 IST",
+      "startTimeUTC": "2026/11/08 00:00:00 +0000",
+      "endTimeUTC": "2026/11/08 02:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "Ivan-FluX",
+        "type": "hls",
+        "url": "https://fallback-video.ivan-fluxo.workers.dev/video/index.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5363,
+    "title": "MLS",
+    "slug": "salt-lake-vs-la-galaxy",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "MLS",
+      "category": "Football",
+      "teamA": "Salt Lake",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/5133/image",
+      "teamB": "LA Galaxy",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2513/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/242/image/dark",
+      "startTimeIST": "2026-11-08 05:30:00 IST",
+      "endTimeIST": "2026-11-08 07:50:00 IST",
+      "startTimeUTC": "2026/11/08 00:00:00 +0000",
+      "endTimeUTC": "2026/11/08 02:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "Ivan-FluX",
+        "type": "hls",
+        "url": "https://fallback-video.ivan-fluxo.workers.dev/video/index.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5365,
+    "title": "MLS",
+    "slug": "austin-vs-portland",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "MLS",
+      "category": "Football",
+      "teamA": "Austin",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/377973/image",
+      "teamB": "Portland",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/22007/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/242/image/dark",
+      "startTimeIST": "2026-11-08 05:30:00 IST",
+      "endTimeIST": "2026-11-08 07:50:00 IST",
+      "startTimeUTC": "2026/11/08 00:00:00 +0000",
+      "endTimeUTC": "2026/11/08 02:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "Ivan-FluX",
+        "type": "hls",
+        "url": "https://fallback-video.ivan-fluxo.workers.dev/video/index.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5349,
@@ -1153,6 +1513,40 @@
       "endTimeUTC": "2026/11/08 15:20:00 +0000"
     },
     "dashStreams": []
+  },
+  {
+    "id": 5355,
+    "title": "VriendenLoterij Eredivisie",
+    "slug": "ado-vs-sparta",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "VriendenLoterij Eredivisie",
+      "category": "Football",
+      "teamA": "ADO",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2966/image",
+      "teamB": "Sparta",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2960/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
+      "startTimeIST": "2026-11-07 23:15:00 IST",
+      "endTimeIST": "2026-11-08 01:35:00 IST",
+      "startTimeUTC": "2026/11/07 17:45:00 +0000",
+      "endTimeUTC": "2026/11/07 20:05:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/8cecddae-9047-4381-acd4-1206e884623b.m3u8",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.55/hls/LOOOAA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5277,
