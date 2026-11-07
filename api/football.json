@@ -378,7 +378,7 @@
     "title": "Ligue 1",
     "slug": "auxerre-vs-paris",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Ligue 1",
       "category": "Football",
@@ -418,7 +418,7 @@
     "title": "Liga Portugal Betclic",
     "slug": "alverca-vs-casa-pia",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Liga Portugal Betclic",
       "category": "Football",
@@ -4002,40 +4002,6 @@
         "title": "HD SERVER",
         "type": "hls",
         "url": "https://live.cds78y11d.org/live/sd-6MwdpnpPp1fWfX38vQ.m3u8?txSecret=193fa2b23580e6c2711a92a26d8df96e&txTime=6AEECC75",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5241,
-    "title": "Liga Profesional de Fútbol",
-    "slug": "barracas-vs-racing",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Liga Profesional de Fútbol",
-      "category": "Football",
-      "teamA": "Barracas",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/65668/image",
-      "teamB": "Racing",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/3215/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/155/image/dark",
-      "startTimeIST": "2026-11-06 23:30:00 IST",
-      "endTimeIST": "2026-11-07 01:50:00 IST",
-      "startTimeUTC": "2026/11/06 18:00:00 +0000",
-      "endTimeUTC": "2026/11/06 20:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "FOX DEPORTES",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
-        "key": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811"
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "https://live.cds78y11d.org/live/sd-6MwdLb711yBWe9BQ84.m3u8?txSecret=1178ce313361c77d4e818f493d025171&txTime=6AEEC4B9",
         "key": null
       }
     ]
