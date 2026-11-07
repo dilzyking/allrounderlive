@@ -374,40 +374,6 @@
     ]
   },
   {
-    "id": 5328,
-    "title": "Liga Portugal Betclic",
-    "slug": "sporting-vs-moreirense",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Liga Portugal Betclic",
-      "category": "Football",
-      "teamA": "Sporting",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/3001/image",
-      "teamB": "Moreirense",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/3014/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/238/image/dark",
-      "startTimeIST": "2026-11-08 02:00:00 IST",
-      "endTimeIST": "2026-11-08 04:20:00 IST",
-      "startTimeUTC": "2026/11/07 20:30:00 +0000",
-      "endTimeUTC": "2026/11/07 22:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SportDigital Fussball",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?",
-        "key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
-      },
-      {
-        "title": "D SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd",
-        "key": "f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
-      }
-    ]
-  },
-  {
     "id": 5329,
     "title": "MLS",
     "slug": "inter-miami-vs-charlotte",
@@ -1211,6 +1177,40 @@
       "endTimeUTC": "2026/11/08 15:20:00 +0000"
     },
     "dashStreams": []
+  },
+  {
+    "id": 5328,
+    "title": "Liga Portugal Betclic",
+    "slug": "sporting-vs-moreirense",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Liga Portugal Betclic",
+      "category": "Football",
+      "teamA": "Sporting",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/3001/image",
+      "teamB": "Moreirense",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/3014/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/238/image/dark",
+      "startTimeIST": "2026-11-08 02:00:00 IST",
+      "endTimeIST": "2026-11-08 04:20:00 IST",
+      "startTimeUTC": "2026/11/07 20:30:00 +0000",
+      "endTimeUTC": "2026/11/07 22:50:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "SportDigital Fussball",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?",
+        "key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
+      },
+      {
+        "title": "D SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd",
+        "key": "f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
+      }
+    ]
   },
   {
     "id": 5314,
