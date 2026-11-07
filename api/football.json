@@ -683,6 +683,40 @@
     ]
   },
   {
+    "id": 5355,
+    "title": "VriendenLoterij Eredivisie",
+    "slug": "ado-vs-sparta",
+    "cat": "Live Events",
+    "status": "live",
+    "event": {
+      "name": "VriendenLoterij Eredivisie",
+      "category": "Football",
+      "teamA": "ADO",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2966/image",
+      "teamB": "Sparta",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2960/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
+      "startTimeIST": "2026-11-07 23:15:00 IST",
+      "endTimeIST": "2026-11-08 01:35:00 IST",
+      "startTimeUTC": "2026/11/07 17:45:00 +0000",
+      "endTimeUTC": "2026/11/07 20:05:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/8cecddae-9047-4381-acd4-1206e884623b.m3u8",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.55/hls/LOOOAA.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
     "id": 5313,
     "title": "Ligue 1",
     "slug": "auxerre-vs-paris",
@@ -848,6 +882,27 @@
       "teamB": "Rangers",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/2351/image",
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/36/image/dark",
+      "startTimeIST": "2026-11-08 01:30:00 IST",
+      "endTimeIST": "2026-11-08 03:50:00 IST",
+      "startTimeUTC": "2026/11/07 20:00:00 +0000",
+      "endTimeUTC": "2026/11/07 22:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5354,
+    "title": "VriendenLoterij Eredivisie",
+    "slug": "excelsior-vs-ga-eagles",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "VriendenLoterij Eredivisie",
+      "category": "Football",
+      "teamA": "Excelsior",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2967/image",
+      "teamB": "GA Eagles",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2979/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
       "startTimeIST": "2026-11-08 01:30:00 IST",
       "endTimeIST": "2026-11-08 03:50:00 IST",
       "startTimeUTC": "2026/11/07 20:00:00 +0000",
