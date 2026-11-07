@@ -378,7 +378,7 @@
     "title": "Serie A",
     "slug": "parma-vs-bologna",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Serie A",
       "category": "Football",
@@ -430,7 +430,7 @@
     "title": "Serie A Women",
     "slug": "juventus-vs-sassuolo",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Serie A Women",
       "category": "Football",
@@ -3633,46 +3633,6 @@
         "title": "SD SERVER",
         "type": "hls",
         "url": "http://193.47.62.44/hls/RIIIAAQQQQA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5235,
-    "title": "Trendyol Süper Lig",
-    "slug": "gaziantep-vs-kas-mpasa",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Trendyol Süper Lig",
-      "category": "Football",
-      "teamA": "Gaziantep",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/5138/image",
-      "teamB": "Kasımpaşa",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/6063/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
-      "startTimeIST": "2026-11-06 22:30:00 IST",
-      "endTimeIST": "2026-11-07 00:50:00 IST",
-      "startTimeUTC": "2026/11/06 17:00:00 +0000",
-      "endTimeUTC": "2026/11/06 19:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel2.m3u8?",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/RIII.m3u8",
-        "key": null
-      },
-      {
-        "title": "SD SERVER+",
-        "type": "hls",
-        "url": "http://162.251.160.53:8089/146/index.m3u8",
         "key": null
       }
     ]
