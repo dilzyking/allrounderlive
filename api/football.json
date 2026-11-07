@@ -374,40 +374,6 @@
     ]
   },
   {
-    "id": 5310,
-    "title": "2. Bundesliga",
-    "slug": "hertha-vs-wolfsburg",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "2. Bundesliga",
-      "category": "Football",
-      "teamA": "Hertha",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2528/image",
-      "teamB": "Wolfsburg",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2524/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
-      "startTimeIST": "2026-11-08 01:00:00 IST",
-      "endTimeIST": "2026-11-08 03:20:00 IST",
-      "startTimeUTC": "2026/11/07 19:30:00 +0000",
-      "endTimeUTC": "2026/11/07 21:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SKY BUNDESLIGA FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/hrejffyflm/out/v1/ad9a8d717bfc45d095f23a92925d7b1f/cenc.mpd",
-        "key": "5e0ee93e86d783f011561f18ff8f34e6:b570eceee332c7e50f87fca1f51e0966"
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.55/hls/BWWWA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5296,
     "title": "Serie A",
     "slug": "roma-vs-sassuolo",
@@ -1536,6 +1502,40 @@
       "endTimeUTC": "2026/11/08 15:20:00 +0000"
     },
     "dashStreams": []
+  },
+  {
+    "id": 5310,
+    "title": "2. Bundesliga",
+    "slug": "hertha-vs-wolfsburg",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "2. Bundesliga",
+      "category": "Football",
+      "teamA": "Hertha",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2528/image",
+      "teamB": "Wolfsburg",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2524/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
+      "startTimeIST": "2026-11-08 01:00:00 IST",
+      "endTimeIST": "2026-11-08 03:20:00 IST",
+      "startTimeUTC": "2026/11/07 19:30:00 +0000",
+      "endTimeUTC": "2026/11/07 21:50:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "SKY BUNDESLIGA FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/hrejffyflm/out/v1/ad9a8d717bfc45d095f23a92925d7b1f/cenc.mpd",
+        "key": "5e0ee93e86d783f011561f18ff8f34e6:b570eceee332c7e50f87fca1f51e0966"
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.55/hls/BWWWA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5313,
