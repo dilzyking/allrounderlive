@@ -378,7 +378,7 @@
     "title": "MLS",
     "slug": "inter-miami-vs-charlotte",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "MLS",
       "category": "Football",
@@ -418,7 +418,7 @@
     "title": "MLS",
     "slug": "ny-red-bulls-vs-atlanta",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "MLS",
       "category": "Football",
@@ -470,7 +470,7 @@
     "title": "MLS",
     "slug": "chicago-vs-columbus",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "MLS",
       "category": "Football",
@@ -516,7 +516,7 @@
     "title": "MLS",
     "slug": "philadelphia-vs-toronto",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "MLS",
       "category": "Football",
@@ -556,7 +556,7 @@
     "title": "MLS",
     "slug": "montreal-vs-vancouver",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "MLS",
       "category": "Football",
@@ -590,7 +590,7 @@
     "title": "MLS",
     "slug": "cincinnati-vs-nashville",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "MLS",
       "category": "Football",
@@ -618,7 +618,7 @@
     "title": "MLS",
     "slug": "dc-united-vs-ny-city",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "MLS",
       "category": "Football",
@@ -3593,48 +3593,6 @@
         "key": null
       }
     ]
-  },
-  {
-    "id": 5253,
-    "title": "Liga MX, Apertura",
-    "slug": "necaxa-vs-tijuana",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Liga MX, Apertura",
-      "category": "Football",
-      "teamA": "Necaxa",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1944/image",
-      "teamB": "Tijuana",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/36525/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11621/image/dark",
-      "startTimeIST": "2026-11-07 06:30:00 IST",
-      "endTimeIST": "2026-11-07 08:50:00 IST",
-      "startTimeUTC": "2026/11/07 01:00:00 +0000",
-      "endTimeUTC": "2026/11/07 03:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5254,
-    "title": "Liga MX, Apertura",
-    "slug": "san-luis-vs-juarez",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Liga MX, Apertura",
-      "category": "Football",
-      "teamA": "San Luis",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1950/image",
-      "teamB": "Juárez",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/201624/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11621/image/dark",
-      "startTimeIST": "2026-11-07 06:30:00 IST",
-      "endTimeIST": "2026-11-07 08:50:00 IST",
-      "startTimeUTC": "2026/11/07 01:00:00 +0000",
-      "endTimeUTC": "2026/11/07 03:20:00 +0000"
-    },
-    "dashStreams": []
   },
   {
     "id": 5257,
