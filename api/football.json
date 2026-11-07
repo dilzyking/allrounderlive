@@ -709,10 +709,16 @@
         "key": "74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c"
       },
       {
-        "title": "CazéTV FHD",
+        "title": "beIN ENGLISH FHD",
         "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
-        "key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/axtvmoxwxq/out/v1/7763c905a97d486ea1e9c36deb017e25/cenc.mpd?",
+        "key": "27759a440e8ad821b800b3de00cd5851:1b8743adee559f27845f55e8b4d639fe"
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.50/hls/HJHJHJ.m3u8",
+        "key": null
       }
     ]
   },
@@ -735,7 +741,14 @@
       "startTimeUTC": "2026/11/07 18:00:00 +0000",
       "endTimeUTC": "2026/11/07 20:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "Link 1",
+        "type": "hls",
+        "url": "http://193.47.62.50/hls/HJHJHJAAAA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5310,
