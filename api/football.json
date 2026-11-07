@@ -374,74 +374,6 @@
     ]
   },
   {
-    "id": 5343,
-    "title": "Trendyol Süper Lig",
-    "slug": "galatasaray-vs-amedspor",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Trendyol Süper Lig",
-      "category": "Football",
-      "teamA": "Galatasaray",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/3061/image",
-      "teamB": "Amedspor",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/207011/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
-      "startTimeIST": "2026-11-07 21:30:00 IST",
-      "endTimeIST": "2026-11-07 23:50:00 IST",
-      "startTimeUTC": "2026/11/07 16:00:00 +0000",
-      "endTimeUTC": "2026/11/07 18:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "beIN SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd",
-        "key": "74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c"
-      },
-      {
-        "title": "beIN ENGLISH FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?",
-        "key": "27759a440e8ad821b800b3de00cd5851:1b8743adee559f27845f55e8b4d639fe"
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.50/hls/zazazaAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5344,
-    "title": "Trendyol Süper Lig",
-    "slug": "goztepe-vs-basaksehir",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Trendyol Süper Lig",
-      "category": "Football",
-      "teamA": "Göztepe",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/3054/image",
-      "teamB": "Başakşehir",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/3086/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
-      "startTimeIST": "2026-11-07 21:30:00 IST",
-      "endTimeIST": "2026-11-07 23:50:00 IST",
-      "startTimeUTC": "2026/11/07 16:00:00 +0000",
-      "endTimeUTC": "2026/11/07 18:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.50/hls/zazazaAAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5338,
     "title": "Liga F Moeve",
     "slug": "eibar-vs-r-sociedad",
@@ -1350,6 +1282,74 @@
       "endTimeUTC": "2026/11/08 15:20:00 +0000"
     },
     "dashStreams": []
+  },
+  {
+    "id": 5343,
+    "title": "Trendyol Süper Lig",
+    "slug": "galatasaray-vs-amedspor",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Trendyol Süper Lig",
+      "category": "Football",
+      "teamA": "Galatasaray",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/3061/image",
+      "teamB": "Amedspor",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/207011/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
+      "startTimeIST": "2026-11-07 21:30:00 IST",
+      "endTimeIST": "2026-11-07 23:50:00 IST",
+      "startTimeUTC": "2026/11/07 16:00:00 +0000",
+      "endTimeUTC": "2026/11/07 18:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "beIN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd",
+        "key": "74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c"
+      },
+      {
+        "title": "beIN ENGLISH FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?",
+        "key": "27759a440e8ad821b800b3de00cd5851:1b8743adee559f27845f55e8b4d639fe"
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.50/hls/zazazaAA.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5344,
+    "title": "Trendyol Süper Lig",
+    "slug": "goztepe-vs-basaksehir",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Trendyol Süper Lig",
+      "category": "Football",
+      "teamA": "Göztepe",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/3054/image",
+      "teamB": "Başakşehir",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/3086/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
+      "startTimeIST": "2026-11-07 21:30:00 IST",
+      "endTimeIST": "2026-11-07 23:50:00 IST",
+      "startTimeUTC": "2026/11/07 16:00:00 +0000",
+      "endTimeUTC": "2026/11/07 18:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.50/hls/zazazaAAA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5326,
