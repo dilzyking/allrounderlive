@@ -1468,7 +1468,20 @@
       "startTimeUTC": "2026/11/08 18:00:00 +0000",
       "endTimeUTC": "2026/11/08 21:00:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "NFL HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59606/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "NFL LIVE",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59607/load-playlist.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5467,
