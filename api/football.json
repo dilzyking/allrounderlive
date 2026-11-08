@@ -1227,7 +1227,20 @@
       "startTimeUTC": "2026/11/08 21:25:00 +0000",
       "endTimeUTC": "2026/11/09 00:25:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "SporTV BR FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd",
+        "key": "9009b7189e3e68cc09d17811f2beb55a:dd3f96a94c909da48ff40c92aabf8cf3"
+      },
+      {
+        "title": "NOVA SPORT FHD",
+        "type": "dash",
+        "url": "https://dash2.antik.sk/stream/nvidia_nova_sport2/playlist_cenc.mpd",
+        "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+      }
+    ]
   },
   {
     "id": 5433,
@@ -1276,7 +1289,20 @@
       "startTimeUTC": "2026/11/09 01:20:00 +0000",
       "endTimeUTC": "2026/11/09 04:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "TSN 1 FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
+        "key": "14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d"
+      },
+      {
+        "title": "TSN 3 FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd",
+        "key": "d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37"
+      }
+    ]
   },
   {
     "id": 5434,
