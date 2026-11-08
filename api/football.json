@@ -395,40 +395,6 @@
     "dashStreams": []
   },
   {
-    "id": 5419,
-    "title": "VriendenLoterij Eredivisie",
-    "slug": "twente-vs-ajax",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "VriendenLoterij Eredivisie",
-      "category": "Football",
-      "teamA": "Twente",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2955/image",
-      "teamB": "Ajax",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2953/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
-      "startTimeIST": "2026-11-08 19:00:00 IST",
-      "endTimeIST": "2026-11-08 21:20:00 IST",
-      "startTimeUTC": "2026/11/08 13:30:00 +0000",
-      "endTimeUTC": "2026/11/08 15:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SportDigital Fussball",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?",
-        "key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://www.rtmpcdn.com/live/dd4556fd-8216-47eb-a684-3d72cdccc086.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5475,
     "title": "Goal Rush: Matchweek 10",
     "slug": "epl-goal-rush-vs-epl-goal-rush",
@@ -1427,6 +1393,12 @@
     },
     "dashStreams": [
       {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4578246.m3u8?txSecret=23aedc529904ab7509b547cb6374cd81&txTime=6AF0A803",
+        "key": null
+      },
+      {
         "title": "SD SERVER",
         "type": "hls",
         "url": "http://193.47.62.44/hls/S666AAA.m3u8",
@@ -2355,6 +2327,40 @@
         "title": "SonyLiv (BEN)",
         "type": "hls",
         "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120304/Footlive0711/BEN/std_lrh-800300010.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5419,
+    "title": "VriendenLoterij Eredivisie",
+    "slug": "twente-vs-ajax",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "VriendenLoterij Eredivisie",
+      "category": "Football",
+      "teamA": "Twente",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2955/image",
+      "teamB": "Ajax",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2953/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
+      "startTimeIST": "2026-11-08 19:00:00 IST",
+      "endTimeIST": "2026-11-08 21:20:00 IST",
+      "startTimeUTC": "2026/11/08 13:30:00 +0000",
+      "endTimeUTC": "2026/11/08 15:50:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "SportDigital Fussball",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?",
+        "key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/dd4556fd-8216-47eb-a684-3d72cdccc086.m3u8",
         "key": null
       }
     ]
