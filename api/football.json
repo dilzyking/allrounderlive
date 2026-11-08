@@ -399,7 +399,7 @@
     "title": "Women's Super League",
     "slug": "liverpool-vs-arsenal",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Women's Super League",
       "category": "Football",
@@ -433,7 +433,7 @@
     "title": "Women's Super League",
     "slug": "aston-villa-vs-man-utd",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Women's Super League",
       "category": "Football",
@@ -467,7 +467,7 @@
     "title": "FA Cup",
     "slug": "stafford-vs-grimsby",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "FA Cup",
       "category": "Football",
@@ -495,48 +495,6 @@
         "key": null
       }
     ]
-  },
-  {
-    "id": 5334,
-    "title": "Women's Super League",
-    "slug": "aston-villa-vs-man-utd",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Women's Super League",
-      "category": "Football",
-      "teamA": "Aston Villa",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/266375/image",
-      "teamB": "Man Utd",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/301455/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/1044/image/dark",
-      "startTimeIST": "2026-11-08 17:30:00 IST",
-      "endTimeIST": "2026-11-08 19:50:00 IST",
-      "startTimeUTC": "2026/11/08 12:00:00 +0000",
-      "endTimeUTC": "2026/11/08 14:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5336,
-    "title": "Women's Super League",
-    "slug": "liverpool-vs-arsenal",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Women's Super League",
-      "category": "Football",
-      "teamA": "Liverpool",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/66774/image",
-      "teamB": "Arsenal",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/26243/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/1044/image/dark",
-      "startTimeIST": "2026-11-08 17:30:00 IST",
-      "endTimeIST": "2026-11-08 19:50:00 IST",
-      "startTimeUTC": "2026/11/08 12:00:00 +0000",
-      "endTimeUTC": "2026/11/08 14:20:00 +0000"
-    },
-    "dashStreams": []
   },
   {
     "id": 5435,
@@ -901,6 +859,12 @@
     },
     "dashStreams": [
       {
+        "title": "FUBO SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/2m8jgddrr9/out/v1/4379e830995b4993a974c6cd682b8b54/cenc.mpd",
+        "key": "f53e95350f79e7cf780e4409ef996399:a5cbb7650616359dbc0de252f254c472"
+      },
+      {
         "title": "SKY SPORT MIX FHD",
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ttguqv2dus/out/v1/10e708fa029549e8807c7a35f4740adf/cenc.mpd?",
@@ -1005,6 +969,12 @@
     },
     "dashStreams": [
       {
+        "title": "PEACOCK ENG FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/t0zwjh8duv/out/v1/152ff1e739c94c87aaa4068dd6213fe6/cenc.mpd",
+        "key": "a744ae1196026646c33e5a96894c81eb:66bf0de18f4f42ebb891bdd301be34ff"
+      },
+      {
         "title": "FUBO SPORTS FHD",
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/mibl1kagx8/out/v1/38d1a6a0ee4e4ff2aa8b760d07cabb9e/cenc.mpd",
@@ -1044,6 +1014,12 @@
       "endTimeUTC": "2026/11/08 16:20:00 +0000"
     },
     "dashStreams": [
+      {
+        "title": "PEACOCK ENG FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/hctkanzbw5/out/v1/ac0f81a504c94bcb85defaf7717cd292/cenc.mpd",
+        "key": "adf54925862f35dc2ffbfe0695c10f42:7b8779de614969add43c33532e625d32"
+      },
       {
         "title": "FUBO SPORTS FHD",
         "type": "dash",
@@ -1207,6 +1183,12 @@
     },
     "dashStreams": [
       {
+        "title": "DAZN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/1hlq3jbwjj/out/v1/854ccaa16ba846e2bfe783bd58a9b2b1/cenc.mpd",
+        "key": "8d88d98b19a395092831e8339f251d72:28b12e8ecf00c3a641869adc452b69bd"
+      },
+      {
         "title": "beIN ESPANOL FHD",
         "type": "dash",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd?",
@@ -1259,10 +1241,10 @@
     },
     "dashStreams": [
       {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://www.rtmpcdn.com/live/b04f0f05-426c-44c3-a941-67517aa7201d.m3u8",
-        "key": null
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ikug19q0wd/out/v1/38435962c66749cfbafbb45a6d01eb1c/cenc.mpd",
+        "key": "92511df54a1f2bbfc01118244c8415f0:5ca4062852ea4d4c63b76cb2aca4cdc7"
       },
       {
         "title": "SD SERVER",
@@ -1298,6 +1280,12 @@
       "endTimeUTC": "2026/11/08 16:20:00 +0000"
     },
     "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5ctt05tezx/out/v1/39d95b2d53304ee3865ae311d17e2699/cenc.mpd",
+        "key": "814cc839efcd647698b42c2b50e50782:bc6543896a009d084ed0cddea32335ff"
+      },
       {
         "title": "SD SERVER",
         "type": "hls",
@@ -2442,6 +2430,48 @@
         "key": null
       }
     ]
+  },
+  {
+    "id": 5334,
+    "title": "Women's Super League",
+    "slug": "aston-villa-vs-man-utd",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Women's Super League",
+      "category": "Football",
+      "teamA": "Aston Villa",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/266375/image",
+      "teamB": "Man Utd",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/301455/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/1044/image/dark",
+      "startTimeIST": "2026-11-08 17:30:00 IST",
+      "endTimeIST": "2026-11-08 19:50:00 IST",
+      "startTimeUTC": "2026/11/08 12:00:00 +0000",
+      "endTimeUTC": "2026/11/08 14:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5336,
+    "title": "Women's Super League",
+    "slug": "liverpool-vs-arsenal",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Women's Super League",
+      "category": "Football",
+      "teamA": "Liverpool",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/66774/image",
+      "teamB": "Arsenal",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/26243/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/1044/image/dark",
+      "startTimeIST": "2026-11-08 17:30:00 IST",
+      "endTimeIST": "2026-11-08 19:50:00 IST",
+      "startTimeUTC": "2026/11/08 12:00:00 +0000",
+      "endTimeUTC": "2026/11/08 14:20:00 +0000"
+    },
+    "dashStreams": []
   },
   {
     "id": 5397,
@@ -5388,126 +5418,6 @@
         "title": "SD SERVER",
         "type": "hls",
         "url": "http://193.47.62.44/hls/YOOO.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5306,
-    "title": "2. Bundesliga",
-    "slug": "kiel-vs-bielefeld",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "2. Bundesliga",
-      "category": "Football",
-      "teamA": "Kiel",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2573/image",
-      "teamB": "Bielefeld",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2540/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
-      "startTimeIST": "2026-11-07 17:30:00 IST",
-      "endTimeIST": "2026-11-07 19:50:00 IST",
-      "startTimeUTC": "2026/11/07 12:00:00 +0000",
-      "endTimeUTC": "2026/11/07 14:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "FAST SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/sd-1-4566636.m3u8?txSecret=ba400a0475606e3b22886d85198e515b&txTime=6AEF2728",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/E333.m3u8",
-        "key": null
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel16.m3u8?",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5308,
-    "title": "2. Bundesliga",
-    "slug": "nurnberg-vs-darmstadt",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "2. Bundesliga",
-      "category": "Football",
-      "teamA": "Nürnberg",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2523/image",
-      "teamB": "Darmstadt",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2576/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
-      "startTimeIST": "2026-11-07 17:30:00 IST",
-      "endTimeIST": "2026-11-07 19:50:00 IST",
-      "startTimeUTC": "2026/11/07 12:00:00 +0000",
-      "endTimeUTC": "2026/11/07 14:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "FAST SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/sd-1-4566530.m3u8?txSecret=a6695903af9717ff87b1d66fccc5929a&txTime=6AEF2708",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/E333A.m3u8",
-        "key": null
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel18.m3u8?",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5312,
-    "title": "2. Bundesliga",
-    "slug": "osnabruck-vs-kaiserslautern",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "2. Bundesliga",
-      "category": "Football",
-      "teamA": "Osnabrück",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2581/image",
-      "teamB": "Kaiserslautern",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2675/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
-      "startTimeIST": "2026-11-07 17:30:00 IST",
-      "endTimeIST": "2026-11-07 19:50:00 IST",
-      "startTimeUTC": "2026/11/07 12:00:00 +0000",
-      "endTimeUTC": "2026/11/07 14:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "FAST SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/sd-1-4566610.m3u8?txSecret=9aff3c0f4976de22c7b4f894f9b120eb&txTime=6AEF2739",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/E333AA.m3u8",
-        "key": null
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel12.m3u8?",
         "key": null
       }
     ]
