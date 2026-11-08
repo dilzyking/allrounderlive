@@ -457,7 +457,7 @@
     "title": "Liga Portugal Betclic",
     "slug": "vitoria-vs-porto",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Liga Portugal Betclic",
       "category": "Football",
@@ -497,7 +497,7 @@
     "title": "Trendyol Süper Lig",
     "slug": "besiktas-vs-genclerbirligi",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Trendyol Süper Lig",
       "category": "Football",
@@ -1067,14 +1067,20 @@
       {
         "title": "CAZE TV FHD",
         "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/vzeco5ty0v/out/v1/44c6b8f31a2544e3b2a9bb41ed5e241e/cenc.mpd?",
-        "key": "ac7abaa9c9481aacfbdac64fc3ec3312:c0c504a2ed2e70b879a650b8770a38c6"
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
+        "key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
       },
       {
         "title": "FANCODE SD",
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
         "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+      },
+      {
+        "title": "beIN ARABIC FHD",
+        "type": "hls",
+        "url": "https://live-cdn.ryazanslah3.space/hls/bein6.m3u8?",
+        "key": null
       },
       {
         "title": "LOW QUALITY",
@@ -4887,74 +4893,6 @@
         "title": "LOW QUALITY",
         "type": "hls",
         "url": "http://193.47.62.55/hls/BWWWA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5313,
-    "title": "Ligue 1",
-    "slug": "auxerre-vs-paris",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Ligue 1",
-      "category": "Football",
-      "teamA": "Auxerre",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1646/image",
-      "teamB": "Paris",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/6070/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
-      "startTimeIST": "2026-11-07 23:30:00 IST",
-      "endTimeIST": "2026-11-08 01:50:00 IST",
-      "startTimeUTC": "2026/11/07 18:00:00 +0000",
-      "endTimeUTC": "2026/11/07 20:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "beIN ENGLISH FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd?",
-        "key": "74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c"
-      },
-      {
-        "title": "beIN ENGLISH FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/axtvmoxwxq/out/v1/7763c905a97d486ea1e9c36deb017e25/cenc.mpd?",
-        "key": "27759a440e8ad821b800b3de00cd5851:1b8743adee559f27845f55e8b4d639fe"
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.50/hls/HJHJHJ.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5327,
-    "title": "Liga Portugal Betclic",
-    "slug": "alverca-vs-casa-pia",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Liga Portugal Betclic",
-      "category": "Football",
-      "teamA": "Alverca",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/190328/image",
-      "teamB": "Casa Pia",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/36365/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/238/image/dark",
-      "startTimeIST": "2026-11-07 23:30:00 IST",
-      "endTimeIST": "2026-11-08 01:50:00 IST",
-      "startTimeUTC": "2026/11/07 18:00:00 +0000",
-      "endTimeUTC": "2026/11/07 20:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "Link 1",
-        "type": "hls",
-        "url": "http://193.47.62.50/hls/HJHJHJAAAA.m3u8",
         "key": null
       }
     ]
