@@ -374,48 +374,6 @@
     ]
   },
   {
-    "id": 5349,
-    "title": "Liga MX, Apertura",
-    "slug": "tigres-vs-cruz-azul",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Liga MX, Apertura",
-      "category": "Football",
-      "teamA": "Tigres",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1940/image",
-      "teamB": "Cruz Azul",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1947/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11621/image/dark",
-      "startTimeIST": "2026-11-08 06:30:00 IST",
-      "endTimeIST": "2026-11-08 08:50:00 IST",
-      "startTimeUTC": "2026/11/08 01:00:00 +0000",
-      "endTimeUTC": "2026/11/08 03:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5350,
-    "title": "Liga MX, Apertura",
-    "slug": "toluca-vs-monterrey",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Liga MX, Apertura",
-      "category": "Football",
-      "teamA": "Toluca",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1931/image",
-      "teamB": "Monterrey",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1932/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11621/image/dark",
-      "startTimeIST": "2026-11-08 06:30:00 IST",
-      "endTimeIST": "2026-11-08 08:50:00 IST",
-      "startTimeUTC": "2026/11/08 01:00:00 +0000",
-      "endTimeUTC": "2026/11/08 03:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 5348,
     "title": "Liga MX, Apertura",
     "slug": "pumas-vs-america",
@@ -434,7 +392,20 @@
       "startTimeUTC": "2026/11/08 03:10:00 +0000",
       "endTimeUTC": "2026/11/08 05:30:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "CANAL5 FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ntkdl68eob/out/v1/bd5dfb7676994383881bc6e71877d29d/cenc.mpd",
+        "key": "d695093ea3e66d75a4d213a3e2cbf360:01be3f645e89a067d2786c295f68dde4"
+      },
+      {
+        "title": "CBS NETWORK",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
+        "key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+      }
+    ]
   },
   {
     "id": 5331,
@@ -706,6 +677,48 @@
       "endTimeIST": "2026-11-08 20:50:00 IST",
       "startTimeUTC": "2026/11/08 13:00:00 +0000",
       "endTimeUTC": "2026/11/08 15:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5349,
+    "title": "Liga MX, Apertura",
+    "slug": "tigres-vs-cruz-azul",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Liga MX, Apertura",
+      "category": "Football",
+      "teamA": "Tigres",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1940/image",
+      "teamB": "Cruz Azul",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1947/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11621/image/dark",
+      "startTimeIST": "2026-11-08 06:30:00 IST",
+      "endTimeIST": "2026-11-08 08:50:00 IST",
+      "startTimeUTC": "2026/11/08 01:00:00 +0000",
+      "endTimeUTC": "2026/11/08 03:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5350,
+    "title": "Liga MX, Apertura",
+    "slug": "toluca-vs-monterrey",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Liga MX, Apertura",
+      "category": "Football",
+      "teamA": "Toluca",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1931/image",
+      "teamB": "Monterrey",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1932/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11621/image/dark",
+      "startTimeIST": "2026-11-08 06:30:00 IST",
+      "endTimeIST": "2026-11-08 08:50:00 IST",
+      "startTimeUTC": "2026/11/08 01:00:00 +0000",
+      "endTimeUTC": "2026/11/08 03:20:00 +0000"
     },
     "dashStreams": []
   },
