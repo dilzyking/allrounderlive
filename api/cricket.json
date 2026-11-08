@@ -128,46 +128,6 @@
     ]
   },
   {
-    "id": 5259,
-    "title": "Abu Dhabi T10 League",
-    "slug": "t10-league-vs-t10-league",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Abu Dhabi T10 League",
-      "category": "Cricket",
-      "teamA": "T10 LEAGUE",
-      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
-      "teamB": "T10 LEAGUE",
-      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
-      "startTimeIST": "2026-11-08 17:00:00 IST",
-      "endTimeIST": "2026-11-09 00:30:00 IST",
-      "startTimeUTC": "2026/11/08 11:30:00 +0000",
-      "endTimeUTC": "2026/11/08 19:00:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "WILLOW FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/02gukgvdze/out/v1/2d5390acafa74401a327061967e19558/cenc.mpd?",
-        "key": "2b64d396af9a77e84f76a5bd66b9c901:7715f79f8c4e798959bf61e0885f364d"
-      },
-      {
-        "title": "WILLOW ALT",
-        "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/02gukgvdze/out/v1/2d5390acafa74401a327061967e19558/cenc.mpd",
-        "key": "2b64d396af9a77e84f76a5bd66b9c901:7715f79f8c4e798959bf61e0885f364d"
-      },
-      {
-        "title": "A SPORTS HD",
-        "type": "hls",
-        "url": "https://live.msnetworks.net/a-sports/master.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 4728,
     "title": "ICC World Test Championship",
     "slug": "ban-vs-wi",
@@ -523,6 +483,46 @@
         "type": "dash",
         "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/lhdal9buc7/out/v1/8bc185a9052e4f0b911f5a26bf2e907d/cenc.mpd",
         "key": "41b0e855ff51711a08ab8e4ccf1d0ba1:e849d0113e5fe023ff48664f3dc76b02"
+      }
+    ]
+  },
+  {
+    "id": 5259,
+    "title": "Abu Dhabi T10 League",
+    "slug": "t10-league-vs-t10-league",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Abu Dhabi T10 League",
+      "category": "Cricket",
+      "teamA": "T10 LEAGUE",
+      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
+      "teamB": "T10 LEAGUE",
+      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
+      "startTimeIST": "2026-11-08 17:00:00 IST",
+      "endTimeIST": "2026-11-09 00:30:00 IST",
+      "startTimeUTC": "2026/11/08 11:30:00 +0000",
+      "endTimeUTC": "2026/11/08 19:00:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "WILLOW FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/02gukgvdze/out/v1/2d5390acafa74401a327061967e19558/cenc.mpd?",
+        "key": "2b64d396af9a77e84f76a5bd66b9c901:7715f79f8c4e798959bf61e0885f364d"
+      },
+      {
+        "title": "WILLOW ALT",
+        "type": "dash",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/02gukgvdze/out/v1/2d5390acafa74401a327061967e19558/cenc.mpd",
+        "key": "2b64d396af9a77e84f76a5bd66b9c901:7715f79f8c4e798959bf61e0885f364d"
+      },
+      {
+        "title": "A SPORTS HD",
+        "type": "hls",
+        "url": "https://live.msnetworks.net/a-sports/master.m3u8",
+        "key": null
       }
     ]
   },
