@@ -399,7 +399,7 @@
     "title": "Ligue 1",
     "slug": "le-havre-vs-lorient",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Ligue 1",
       "category": "Football",
@@ -445,7 +445,7 @@
     "title": "Ligue 1",
     "slug": "le-mans-vs-monaco",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Ligue 1",
       "category": "Football",
@@ -497,7 +497,7 @@
     "title": "Ligue 1",
     "slug": "brest-vs-lyon",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Ligue 1",
       "category": "Football",
@@ -555,7 +555,7 @@
     "title": "Ligue 1",
     "slug": "angers-vs-nice",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Ligue 1",
       "category": "Football",
@@ -1421,7 +1421,20 @@
       "startTimeUTC": "2026/11/08 18:30:00 +0000",
       "endTimeUTC": "2026/11/08 20:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel13.m3u8",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/CVCVCVQQQ.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5417,
@@ -5159,27 +5172,6 @@
       "endTimeIST": "2026-11-08 00:50:00 IST",
       "startTimeUTC": "2026/11/07 17:00:00 +0000",
       "endTimeUTC": "2026/11/07 19:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5338,
-    "title": "Liga F Moeve",
-    "slug": "eibar-vs-r-sociedad",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Liga F Moeve",
-      "category": "Football",
-      "teamA": "Eibar",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/362904/image",
-      "teamB": "R. Sociedad",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/77897/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/1127/image/dark",
-      "startTimeIST": "2026-11-07 21:45:00 IST",
-      "endTimeIST": "2026-11-08 00:05:00 IST",
-      "startTimeUTC": "2026/11/07 16:15:00 +0000",
-      "endTimeUTC": "2026/11/07 18:35:00 +0000"
     },
     "dashStreams": []
   },
