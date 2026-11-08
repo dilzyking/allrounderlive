@@ -399,7 +399,7 @@
     "title": "2. Bundesliga",
     "slug": "bochum-vs-karlsruhe",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "2. Bundesliga",
       "category": "Football",
@@ -433,7 +433,7 @@
     "title": "2. Bundesliga",
     "slug": "magdeburg-vs-st-pauli",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "2. Bundesliga",
       "category": "Football",
@@ -467,7 +467,7 @@
     "title": "2. Bundesliga",
     "slug": "heidenheim-vs-hannover",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "2. Bundesliga",
       "category": "Football",
@@ -495,69 +495,6 @@
         "key": null
       }
     ]
-  },
-  {
-    "id": 5307,
-    "title": "2. Bundesliga",
-    "slug": "bochum-vs-karlsruhe",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "2. Bundesliga",
-      "category": "Football",
-      "teamA": "Bochum",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2542/image",
-      "teamB": "Karlsruhe",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2553/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
-      "startTimeIST": "2026-11-08 18:00:00 IST",
-      "endTimeIST": "2026-11-08 20:20:00 IST",
-      "startTimeUTC": "2026/11/08 12:30:00 +0000",
-      "endTimeUTC": "2026/11/08 14:50:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5309,
-    "title": "2. Bundesliga",
-    "slug": "heidenheim-vs-hannover",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "2. Bundesliga",
-      "category": "Football",
-      "teamA": "Heidenheim",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/5885/image",
-      "teamB": "Hannover",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2541/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
-      "startTimeIST": "2026-11-08 18:00:00 IST",
-      "endTimeIST": "2026-11-08 20:20:00 IST",
-      "startTimeUTC": "2026/11/08 12:30:00 +0000",
-      "endTimeUTC": "2026/11/08 14:50:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5311,
-    "title": "2. Bundesliga",
-    "slug": "magdeburg-vs-st-pauli",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "2. Bundesliga",
-      "category": "Football",
-      "teamA": "Magdeburg",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2591/image",
-      "teamB": "St. Pauli",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2526/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
-      "startTimeIST": "2026-11-08 18:00:00 IST",
-      "endTimeIST": "2026-11-08 20:20:00 IST",
-      "startTimeUTC": "2026/11/08 12:30:00 +0000",
-      "endTimeUTC": "2026/11/08 14:50:00 +0000"
-    },
-    "dashStreams": []
   },
   {
     "id": 5393,
@@ -1372,6 +1309,18 @@
     },
     "dashStreams": [
       {
+        "title": "DAZN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z4yk0bhh36/out/v1/2a23af58f77247849688edac3ce07022/cenc.mpd",
+        "key": "a4f80bd1af6f690babee33ca904a6963:1c266b79d9282476ee6cd7bffa209571"
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/be3d7e2d-95ae-4b01-b745-dfc853dfae96.m3u8",
+        "key": null
+      },
+      {
         "title": "SD SERVER",
         "type": "hls",
         "url": "http://193.47.62.44/hls/G555.m3u8",
@@ -1439,6 +1388,42 @@
       "endTimeUTC": "2026/11/08 17:30:00 +0000"
     },
     "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/jq7xtmrld4/out/v1/95dfdfa733784f1fb1800a060fad4e96/cenc.mpd",
+        "key": "42a3946f97dd9304eccf00b769261c8e:947067e7d5f233542225a236a10f422d"
+      },
+      {
+        "title": "SporTV BR FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd?",
+        "key": "9009b7189e3e68cc09d17811f2beb55a:dd3f96a94c909da48ff40c92aabf8cf3"
+      },
+      {
+        "title": "NFL HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59580/load-playlist?&.m3u8",
+        "key": null
+      },
+      {
+        "title": "NFL LIVE",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59591/load-playlist?&.m3u8",
+        "key": null
+      },
+      {
+        "title": "SERVER 3",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59581/load-playlist?&.m3u8",
+        "key": null
+      },
+      {
+        "title": "SERVER",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59582/load-playlist?&.m3u8",
+        "key": null
+      },
       {
         "title": "SD SERVER",
         "type": "hls",
@@ -2469,6 +2454,69 @@
         "key": null
       }
     ]
+  },
+  {
+    "id": 5307,
+    "title": "2. Bundesliga",
+    "slug": "bochum-vs-karlsruhe",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "2. Bundesliga",
+      "category": "Football",
+      "teamA": "Bochum",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2542/image",
+      "teamB": "Karlsruhe",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2553/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
+      "startTimeIST": "2026-11-08 18:00:00 IST",
+      "endTimeIST": "2026-11-08 20:20:00 IST",
+      "startTimeUTC": "2026/11/08 12:30:00 +0000",
+      "endTimeUTC": "2026/11/08 14:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5309,
+    "title": "2. Bundesliga",
+    "slug": "heidenheim-vs-hannover",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "2. Bundesliga",
+      "category": "Football",
+      "teamA": "Heidenheim",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/5885/image",
+      "teamB": "Hannover",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2541/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
+      "startTimeIST": "2026-11-08 18:00:00 IST",
+      "endTimeIST": "2026-11-08 20:20:00 IST",
+      "startTimeUTC": "2026/11/08 12:30:00 +0000",
+      "endTimeUTC": "2026/11/08 14:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5311,
+    "title": "2. Bundesliga",
+    "slug": "magdeburg-vs-st-pauli",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "2. Bundesliga",
+      "category": "Football",
+      "teamA": "Magdeburg",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2591/image",
+      "teamB": "St. Pauli",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2526/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
+      "startTimeIST": "2026-11-08 18:00:00 IST",
+      "endTimeIST": "2026-11-08 20:20:00 IST",
+      "startTimeUTC": "2026/11/08 12:30:00 +0000",
+      "endTimeUTC": "2026/11/08 14:50:00 +0000"
+    },
+    "dashStreams": []
   },
   {
     "id": 5423,
@@ -5369,196 +5417,6 @@
         "title": "SD SERVER",
         "type": "hls",
         "url": "http://193.47.62.44/hls/YOOOAAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5279,
-    "title": "Premier League",
-    "slug": "leeds-vs-tottenham",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Premier League",
-      "category": "Football",
-      "teamA": "Leeds",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/34/image",
-      "teamB": "Tottenham",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/33/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
-      "startTimeIST": "2026-11-07 18:00:00 IST",
-      "endTimeIST": "2026-11-07 20:20:00 IST",
-      "startTimeUTC": "2026/11/07 12:30:00 +0000",
-      "endTimeUTC": "2026/11/07 14:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "TNT SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
-        "key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
-      },
-      {
-        "title": "FUBO SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd",
-        "key": "42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1"
-      },
-      {
-        "title": "SKY SPORT PL FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qdbhkwig26/out/v1/c3a69dfec0434abea00756cd73e749ff/cenc.mpd",
-        "key": "1106fb025da5b31657618344099c6c14:788284538616a73b56214e90196a6e0f"
-      },
-      {
-        "title": "USA NETWORK HD",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59439/load-playlist-multi?&.m3u8",
-        "key": null
-      },
-      {
-        "title": "SKY SPORTS EPL",
-        "type": "hls",
-        "url": "https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=Dxx13S3dlOjavbRFqRtQ6g&e=2075285630&scheme=",
-        "key": null
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://www.rtmpcdn.com/live/fd2cf07a-b56c-4aad-8d75-07ddea9cd48e.m3u8",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.59/hls/R999.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5315,
-    "title": "Championship",
-    "slug": "wrexham-vs-wolves",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "Wrexham",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/64/image",
-      "teamB": "Wolves",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/3/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-11-07 18:00:00 IST",
-      "endTimeIST": "2026-11-07 20:20:00 IST",
-      "startTimeUTC": "2026/11/07 12:30:00 +0000",
-      "endTimeUTC": "2026/11/07 14:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gwy1zsrxmm/out/v1/5298cdb40c7d4201b527a35d8139a09a/cenc.mpd",
-        "key": "edbd40fc65cbd3cab4bc9181599a38d0:e527aa01a172073a5c40680dec5a48b3"
-      },
-      {
-        "title": "beIN ENGLISH FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-        "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-      },
-      {
-        "title": "FAST SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/sd-1-4563683.m3u8?txSecret=5a7830bd191bbccafca70f4c5206a82a&txTime=6AEF2830",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/YOOOAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5319,
-    "title": "Championship",
-    "slug": "portsmouth-vs-stoke",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "Portsmouth",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2/image",
-      "teamB": "Stoke",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/29/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-11-07 18:00:00 IST",
-      "endTimeIST": "2026-11-07 20:20:00 IST",
-      "startTimeUTC": "2026/11/07 12:30:00 +0000",
-      "endTimeUTC": "2026/11/07 14:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/mti4pjwnix/out/v1/993cad2eeed7415f913cdc08c5d1e1ee/cenc.mpd",
-        "key": "3ab0bd140d441b03a5ecb8a62bf5117f:d55a031a7ad0deeb0460ef6874602c7f"
-      },
-      {
-        "title": "FAST SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/sd-1-4563676.m3u8?txSecret=2de6c750e649f8dabc89f7985ea924ad&txTime=6AEF2855",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/YOOOA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5324,
-    "title": "Championship",
-    "slug": "bristol-city-vs-norwich",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "Bristol City",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/58/image",
-      "teamB": "Norwich",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/263/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-11-07 18:00:00 IST",
-      "endTimeIST": "2026-11-07 20:20:00 IST",
-      "startTimeUTC": "2026/11/07 12:30:00 +0000",
-      "endTimeUTC": "2026/11/07 14:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fg4qk0uxik/out/v1/317961806c5a4618b4dd609903d95c7f/cenc.mpd",
-        "key": "5db90f05de9d72e6fff79fba94f76c7c:c0b4106d03a9f1182ccffb96b4427805"
-      },
-      {
-        "title": "FAST SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/sd-1-4563673.m3u8?txSecret=36ccf1fb88c98d6dc13bef7dc72443c6&txTime=6AEF2811",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/YOOO.m3u8",
         "key": null
       }
     ]
