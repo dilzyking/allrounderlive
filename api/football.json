@@ -433,7 +433,7 @@
     "title": "Premier League",
     "slug": "sunderland-vs-chelsea",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Premier League",
       "category": "Football",
@@ -491,7 +491,7 @@
     "title": "Premier League",
     "slug": "crystal-palace-vs-liverpool",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Premier League",
       "category": "Football",
@@ -555,7 +555,7 @@
     "title": "Premier League",
     "slug": "ipswich-vs-bournemouth",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Premier League",
       "category": "Football",
@@ -601,7 +601,7 @@
     "title": "Premier League",
     "slug": "brighton-vs-brentford",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Premier League",
       "category": "Football",
@@ -653,7 +653,7 @@
     "title": "Serie A",
     "slug": "monza-vs-atalanta",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Serie A",
       "category": "Football",
@@ -705,7 +705,7 @@
     "title": "Serie A",
     "slug": "genoa-vs-milan",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Serie A",
       "category": "Football",
@@ -781,7 +781,7 @@
     "title": "Ligue 1",
     "slug": "rennes-vs-lille",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Ligue 1",
       "category": "Football",
@@ -839,7 +839,7 @@
     "title": "Women's Super League",
     "slug": "tottenham-vs-brighton",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Women's Super League",
       "category": "Football",
@@ -879,7 +879,7 @@
     "title": "Women's Super League",
     "slug": "crystal-palace-vs-charlton",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Women's Super League",
       "category": "Football",
@@ -919,7 +919,7 @@
     "title": "Serie A Women",
     "slug": "ternana-vs-fiorentina",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Serie A Women",
       "category": "Football",
@@ -940,7 +940,7 @@
     "title": "SAFF Championship",
     "slug": "sri-lanka-vs-bhutan",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "SAFF Championship",
       "category": "Football",
@@ -1543,7 +1543,13 @@
       {
         "title": "HD SERVER",
         "type": "hls",
-        "url": "https://live1.quickscoreboardz.com/live/channel7.flv?wsSecret=a9e1b54d10dba4b6e61da7867ffbbd92&wsABSTime=1794196383",
+        "url": "https://www.rtmpcdn.com/live/ffa420ba-688c-43b8-bd21-6692af45a6d8.m3u8",
+        "key": null
+      },
+      {
+        "title": "HD SERVER+",
+        "type": "hls",
+        "url": "https://live1.quickscoreboardz.com/live/channel7.m3u8?wsSecret=a9e1b54d10dba4b6e61da7867ffbbd92&wsABSTime=1794196383",
         "key": null
       },
       {
@@ -1946,6 +1952,82 @@
     "dashStreams": []
   },
   {
+    "id": 3926,
+    "title": "NFL REDZONE",
+    "slug": "nfl-vs-nfl",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "NFL REDZONE",
+      "category": "Football",
+      "teamA": "NFL",
+      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/9464/image",
+      "teamB": "NFL",
+      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/9464/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/9464/image",
+      "startTimeIST": "2026-11-08 23:25:00 IST",
+      "endTimeIST": "2026-11-09 03:30:00 IST",
+      "startTimeUTC": "2026/11/08 17:55:00 +0000",
+      "endTimeUTC": "2026/11/08 22:00:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "REDZONE FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/dash/enc/tppdoitn9n/out/v1/9828b56372fb434fafdcf88c72052d01/cenc.mpd",
+        "key": "85f340146e46533b39d1415d90746352:448aafcc613ddfd448f14d9275eda19b"
+      },
+      {
+        "title": "NFL RedZone HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/58646/load-playlist?&.m3u8",
+        "key": null
+      },
+      {
+        "title": "SERVER 1 HD [USA]",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/58621/load-playlist?&.m3u8",
+        "key": null
+      },
+      {
+        "title": "NFL REDZONE HD",
+        "type": "hls",
+        "url": "https://edgestream4.pro/hls/wnbcnxbcs42.m3u8?",
+        "key": null
+      },
+      {
+        "title": "SERVER 2 HD [USA]",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/58619/load-playlist?&.m3u8",
+        "key": null
+      },
+      {
+        "title": "SERVER 3 HD [USA]",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/58620/load-playlist?&.m3u8",
+        "key": null
+      },
+      {
+        "title": "NFL NETWORK HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/54923/load-playlist?&.m3u8",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.50/hls/hmmmAAAAAAA.m3u8",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "https://play.aurasportsplayer.cfd/nfl/1939?source=0",
+        "key": null
+      }
+    ]
+  },
+  {
     "id": 5408,
     "title": "Liga Portugal Betclic",
     "slug": "vitoria-vs-porto",
@@ -1964,7 +2046,20 @@
       "startTimeUTC": "2026/11/08 18:00:00 +0000",
       "endTimeUTC": "2026/11/08 20:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "D SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd?",
+        "key": "03f12d6a3dbfd3a6fa7dd7f6417e0c11:ea07b87acdf2e45be824cde4a1cf3504"
+      },
+      {
+        "title": "SD SERVER+",
+        "type": "hls",
+        "url": "http://162.251.160.53:8089/prime_us_b0hntfz2r6/index.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5429,
@@ -1985,7 +2080,14 @@
       "startTimeUTC": "2026/11/08 18:00:00 +0000",
       "endTimeUTC": "2026/11/08 20:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "beIN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n7hbpksb18/out/v1/be5403be4a674a7da8b3c81b1fe79692/cenc.mpd?",
+        "key": "4fce30c060b7b0464ab765e24fee5ecc:65d612238736eec3794c7e75a6fd362c"
+      }
+    ]
   },
   {
     "id": 5460,
@@ -5406,132 +5508,6 @@
     ]
   },
   {
-    "id": 5292,
-    "title": "Serie A",
-    "slug": "torino-vs-lecce",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Serie A",
-      "category": "Football",
-      "teamA": "Torino",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2696/image",
-      "teamB": "Lecce",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2689/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "startTimeIST": "2026-11-07 19:30:00 IST",
-      "endTimeIST": "2026-11-07 21:50:00 IST",
-      "startTimeUTC": "2026/11/07 14:00:00 +0000",
-      "endTimeUTC": "2026/11/07 16:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lk35uqe5hp/out/v1/8e3bc19493fa48969d3632289611d484/cenc.mpd",
-        "key": "2586c0d06d8887a499f9998f65d3654a:942cd5a24bd02c1c2ab9e0986f74cf2f"
-      },
-      {
-        "title": "PEACOCK FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5uaduhh4kl/out/v1/978d2369e73e41a5ad2d88126242fe72/cenc.mpd",
-        "key": "2586c0d06d8887a499f9998f65d3654a:942cd5a24bd02c1c2ab9e0986f74cf2f"
-      },
-      {
-        "title": "DAZN DE FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/v0yibu8wb3/out/v1/0a825c67fdcb4a0eb7c2fd772cd7b82c/cenc.mpd",
-        "key": "ee8f6f1474b95d8bdcd3dcd855794e68:faf92aa5129c0216167e36c865927b50"
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/VVVVAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5295,
-    "title": "Serie A",
-    "slug": "cagliari-vs-frosinone",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Serie A",
-      "category": "Football",
-      "teamA": "Cagliari",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2719/image",
-      "teamB": "Frosinone",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2801/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "startTimeIST": "2026-11-07 19:30:00 IST",
-      "endTimeIST": "2026-11-07 21:50:00 IST",
-      "startTimeUTC": "2026/11/07 14:00:00 +0000",
-      "endTimeUTC": "2026/11/07 16:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bdcgyalvay/out/v1/c81e08a081824b08b9d9ea680e494b53/cenc.mpd",
-        "key": "9644dcd60302e7261e76e6f4bd052782:6fd8de55b1f4ff98ce540b08bea9b403"
-      },
-      {
-        "title": "PEACOCK FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/jgr1ktffa3/out/v1/49844b8b8ebe4e3da711236747246598/cenc.mpd",
-        "key": "9644dcd60302e7261e76e6f4bd052782:6fd8de55b1f4ff98ce540b08bea9b403"
-      },
-      {
-        "title": "DAZN DE FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xdgimhxuss/out/v1/ab2788c43b084dd98efd6b2d44f341b2/cenc.mpd",
-        "key": "dbe5961afc25dca3045d284329a2d49a:323aa34081722a599096a63a61828cae"
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/TTTT.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5298,
-    "title": "Serie A Women",
-    "slug": "milan-vs-inter",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Serie A Women",
-      "category": "Football",
-      "teamA": "Milan",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/298858/image",
-      "teamB": "Inter",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/325685/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/10640/image/dark",
-      "startTimeIST": "2026-11-07 19:30:00 IST",
-      "endTimeIST": "2026-11-07 21:50:00 IST",
-      "startTimeUTC": "2026/11/07 14:00:00 +0000",
-      "endTimeUTC": "2026/11/07 16:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live.cds78y11d.org/live/sd-6MwarY7oDUc6QVyH2k.m3u8?txSecret=dbbcd6b61ba58b089333a58fe6842602&txTime=6AEFD7A6",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/GYYYAQQAQ.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 3255,
     "title": "UEFA Europa League Simulcast",
     "slug": "the-golazo-show-vs-the-golazo-show",
@@ -5567,82 +5543,6 @@
         "title": "LOW QUALITY",
         "type": "hls",
         "url": "http://193.47.62.55/hls/RLLLAAQQQA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 3926,
-    "title": "NFL REDZONE",
-    "slug": "nfl-vs-nfl",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "NFL REDZONE",
-      "category": "Football",
-      "teamA": "NFL",
-      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/9464/image",
-      "teamB": "NFL",
-      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/9464/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/9464/image",
-      "startTimeIST": "2026-11-01 23:25:00 IST",
-      "endTimeIST": "2026-11-02 23:25:00 IST",
-      "startTimeUTC": "2026/11/01 17:55:00 +0000",
-      "endTimeUTC": "2026/11/02 17:55:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "REDZONE FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/dash/enc/tppdoitn9n/out/v1/9828b56372fb434fafdcf88c72052d01/cenc.mpd",
-        "key": "85f340146e46533b39d1415d90746352:448aafcc613ddfd448f14d9275eda19b"
-      },
-      {
-        "title": "NFL RedZone HD",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/58646/load-playlist?&.m3u8",
-        "key": null
-      },
-      {
-        "title": "SERVER 1 HD [USA]",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/58621/load-playlist?&.m3u8",
-        "key": null
-      },
-      {
-        "title": "NFL REDZONE HD",
-        "type": "hls",
-        "url": "https://edgestream4.pro/hls/wnbcnxbcs42.m3u8?",
-        "key": null
-      },
-      {
-        "title": "SERVER 2 HD [USA]",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/58619/load-playlist?&.m3u8",
-        "key": null
-      },
-      {
-        "title": "SERVER 3 HD [USA]",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/58620/load-playlist?&.m3u8",
-        "key": null
-      },
-      {
-        "title": "NFL NETWORK HD",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/54923/load-playlist?&.m3u8",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.50/hls/hmmmAAAAAAA.m3u8",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "https://play.aurasportsplayer.cfd/nfl/1939?source=0",
         "key": null
       }
     ]
