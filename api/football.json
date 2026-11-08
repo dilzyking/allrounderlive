@@ -395,80 +395,6 @@
     "dashStreams": []
   },
   {
-    "id": 5391,
-    "title": "LaLiga",
-    "slug": "real-sociedad-vs-rayo-vallecano",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "LaLiga",
-      "category": "Football",
-      "teamA": "Real Sociedad",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2824/image",
-      "teamB": "Rayo Vallecano",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2818/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
-      "startTimeIST": "2026-11-08 20:45:00 IST",
-      "endTimeIST": "2026-11-08 23:05:00 IST",
-      "startTimeUTC": "2026/11/08 15:15:00 +0000",
-      "endTimeUTC": "2026/11/08 17:35:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "DAZN SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yeljykgcvm/out/v1/52114609883c4e1fabe313de0a1434b9/cenc.mpd",
-        "key": "fed7261e588286f63bab48798998067d:0cfd675affcaf88e265b6ba7a8c8c8bf"
-      },
-      {
-        "title": "PREMIER SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
-        "key": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f"
-      },
-      {
-        "title": "beIN ENGLISH FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
-        "key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
-      },
-      {
-        "title": "CazéTV FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
-        "key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
-      }
-    ]
-  },
-  {
-    "id": 5478,
-    "title": "LaLiga 2",
-    "slug": "girona-vs-almeria",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "LaLiga 2",
-      "category": "Football",
-      "teamA": "Girona",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/24264/image",
-      "teamB": "Almería",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2858/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "startTimeIST": "2026-11-08 20:45:00 IST",
-      "endTimeIST": "2026-11-08 23:05:00 IST",
-      "startTimeUTC": "2026/11/08 15:15:00 +0000",
-      "endTimeUTC": "2026/11/08 17:35:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "LaLiga Hypermotion",
-        "type": "dash",
-        "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-        "key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-      }
-    ]
-  },
-  {
     "id": 5409,
     "title": "Liga Portugal Betclic",
     "slug": "nacional-vs-academico-viseu",
@@ -1984,6 +1910,80 @@
         "type": "hls",
         "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120304/Footlive0711/BEN/std_lrh-800300010.m3u8",
         "key": null
+      }
+    ]
+  },
+  {
+    "id": 5391,
+    "title": "LaLiga",
+    "slug": "real-sociedad-vs-rayo-vallecano",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "LaLiga",
+      "category": "Football",
+      "teamA": "Real Sociedad",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2824/image",
+      "teamB": "Rayo Vallecano",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2818/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+      "startTimeIST": "2026-11-08 20:45:00 IST",
+      "endTimeIST": "2026-11-08 23:05:00 IST",
+      "startTimeUTC": "2026/11/08 15:15:00 +0000",
+      "endTimeUTC": "2026/11/08 17:35:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "DAZN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yeljykgcvm/out/v1/52114609883c4e1fabe313de0a1434b9/cenc.mpd",
+        "key": "fed7261e588286f63bab48798998067d:0cfd675affcaf88e265b6ba7a8c8c8bf"
+      },
+      {
+        "title": "PREMIER SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
+        "key": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f"
+      },
+      {
+        "title": "beIN ENGLISH FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
+        "key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
+      },
+      {
+        "title": "CazéTV FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
+        "key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
+      }
+    ]
+  },
+  {
+    "id": 5478,
+    "title": "LaLiga 2",
+    "slug": "girona-vs-almeria",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "LaLiga 2",
+      "category": "Football",
+      "teamA": "Girona",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/24264/image",
+      "teamB": "Almería",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2858/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
+      "startTimeIST": "2026-11-08 20:45:00 IST",
+      "endTimeIST": "2026-11-08 23:05:00 IST",
+      "startTimeUTC": "2026/11/08 15:15:00 +0000",
+      "endTimeUTC": "2026/11/08 17:35:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "LaLiga Hypermotion",
+        "type": "dash",
+        "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
+        "key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
       }
     ]
   },
@@ -5102,98 +5102,6 @@
         "title": "LOW QUALITY",
         "type": "hls",
         "url": "http://193.47.62.44/hls/HYYYAAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5282,
-    "title": "LaLiga",
-    "slug": "espanyol-vs-deportivo",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "LaLiga",
-      "category": "Football",
-      "teamA": "Espanyol",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2814/image",
-      "teamB": "Deportivo",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2832/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
-      "startTimeIST": "2026-11-07 20:45:00 IST",
-      "endTimeIST": "2026-11-07 23:05:00 IST",
-      "startTimeUTC": "2026/11/07 15:15:00 +0000",
-      "endTimeUTC": "2026/11/07 17:35:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "DAZN SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/4z7q1lwrby/out/v1/00524dd3cabf40e286e7cee4efac26a1/cenc.mpd",
-        "key": "75bd9f8b4f59099e267457961fd3108f:ec3f44beaceabcc0fc81640ceaa3407a"
-      },
-      {
-        "title": "beIN ENGLISH FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
-        "key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
-      },
-      {
-        "title": "D SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd",
-        "key": "f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
-      },
-      {
-        "title": "CazéTV FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
-        "key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
-      },
-      {
-        "title": "ESPN DEPORTES HD",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59446/load-playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/Z444AAAAAAQQQQ.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5290,
-    "title": "LaLiga 2",
-    "slug": "cadiz-vs-oviedo",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "LaLiga 2",
-      "category": "Football",
-      "teamA": "Cádiz",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/4488/image",
-      "teamB": "Oviedo",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2851/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "startTimeIST": "2026-11-07 20:45:00 IST",
-      "endTimeIST": "2026-11-07 23:05:00 IST",
-      "startTimeUTC": "2026/11/07 15:15:00 +0000",
-      "endTimeUTC": "2026/11/07 17:35:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "LaLiga Hypermotion",
-        "type": "dash",
-        "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-        "key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/Z444AA.m3u8",
         "key": null
       }
     ]
