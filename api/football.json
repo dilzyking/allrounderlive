@@ -1467,6 +1467,12 @@
     },
     "dashStreams": [
       {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/da8c3255-4e7c-4ff9-86b6-7a65dedd74df.m3u8",
+        "key": null
+      },
+      {
         "title": "SD SERVER",
         "type": "hls",
         "url": "http://193.47.62.44/hls/JJJJAAAA.m3u8",
@@ -1501,6 +1507,12 @@
         "key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
       },
       {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/2ca2fd03-15c0-450d-994a-283a893a2dd0.m3u8",
+        "key": null
+      },
+      {
         "title": "SD SERVER",
         "type": "hls",
         "url": "http://193.47.62.44/hls/JJJJAAAAA.m3u8",
@@ -1513,7 +1525,7 @@
     "title": "Scottish Premiership",
     "slug": "celtic-vs-kilmarnock",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Scottish Premiership",
       "category": "Football",
@@ -1527,7 +1539,20 @@
       "startTimeUTC": "2026/11/08 16:00:00 +0000",
       "endTimeUTC": "2026/11/08 18:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live1.quickscoreboardz.com/live/channel7.flv?wsSecret=a9e1b54d10dba4b6e61da7867ffbbd92&wsABSTime=1794196383",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.55/hls/ffffna.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5402,
