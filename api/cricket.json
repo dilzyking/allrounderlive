@@ -527,6 +527,48 @@
     ]
   },
   {
+    "id": 5480,
+    "title": "One Day International",
+    "slug": "aus-vs-eng",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "One Day International",
+      "category": "Cricket",
+      "teamA": "AUS",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/187746/image",
+      "teamB": "ENG",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/187757/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11190/image/dark",
+      "startTimeIST": "2026-11-13 09:00:00 IST",
+      "endTimeIST": "2026-11-13 13:30:00 IST",
+      "startTimeUTC": "2026/11/13 03:30:00 +0000",
+      "endTimeUTC": "2026/11/13 08:00:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5481,
+    "title": "ICC World Test Championship",
+    "slug": "sa-vs-ban",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "ICC World Test Championship",
+      "category": "Cricket",
+      "teamA": "SA",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/187747/image",
+      "teamB": "BAN",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/187744/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18833/image/dark",
+      "startTimeIST": "2026-11-15 13:30:00 IST",
+      "endTimeIST": "2000-01-01 05:30:00 IST",
+      "startTimeUTC": "2026/11/15 08:00:00 +0000",
+      "endTimeUTC": "2000/01/01 00:00:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
     "id": 984,
     "title": "ENG vs NZ",
     "slug": "eng-vs-nz",
