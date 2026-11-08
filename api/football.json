@@ -395,86 +395,6 @@
     "dashStreams": []
   },
   {
-    "id": 5400,
-    "title": "Bundesliga",
-    "slug": "koln-vs-leverkusen",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Bundesliga",
-      "category": "Football",
-      "teamA": "Köln",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2671/image",
-      "teamB": "Leverkusen",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2681/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/35/image/dark",
-      "startTimeIST": "2026-11-08 20:00:00 IST",
-      "endTimeIST": "2026-11-08 22:20:00 IST",
-      "startTimeUTC": "2026/11/08 14:30:00 +0000",
-      "endTimeUTC": "2026/11/08 16:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "DAZN SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z4yk0bhh36/out/v1/2a23af58f77247849688edac3ce07022/cenc.mpd",
-        "key": "a4f80bd1af6f690babee33ca904a6963:1c266b79d9282476ee6cd7bffa209571"
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://www.rtmpcdn.com/live/be3d7e2d-95ae-4b01-b745-dfc853dfae96.m3u8",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/G555.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5420,
-    "title": "Women's Super League",
-    "slug": "london-city-vs-birmingham",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Women's Super League",
-      "category": "Football",
-      "teamA": "London City",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/326573/image",
-      "teamB": "Birmingham",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/66766/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/1044/image/dark",
-      "startTimeIST": "2026-11-08 20:00:00 IST",
-      "endTimeIST": "2026-11-08 22:20:00 IST",
-      "startTimeUTC": "2026/11/08 14:30:00 +0000",
-      "endTimeUTC": "2026/11/08 16:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rmaqbycjaz/out/v1/8e4d39e0864a4899ab5300c81c2906e7/cenc.mpd",
-        "key": "c431b5083383d7bcccc5ddd930c03822:94858b6ff42bc2a902dfb62af1c8da3d"
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/SYYYAAAQQQQ.m3u8",
-        "key": null
-      },
-      {
-        "title": "SD SERVER+",
-        "type": "hls",
-        "url": "http://162.251.160.53:8089/prime_us_b0hlvnvs53/index.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5466,
     "title": "NFL",
     "slug": "falcons-vs-bengals",
@@ -2083,6 +2003,86 @@
         "title": "SonyLiv (BEN)",
         "type": "hls",
         "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120304/Footlive0711/BEN/std_lrh-800300010.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5400,
+    "title": "Bundesliga",
+    "slug": "koln-vs-leverkusen",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Bundesliga",
+      "category": "Football",
+      "teamA": "Köln",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2671/image",
+      "teamB": "Leverkusen",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2681/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/35/image/dark",
+      "startTimeIST": "2026-11-08 20:00:00 IST",
+      "endTimeIST": "2026-11-08 22:20:00 IST",
+      "startTimeUTC": "2026/11/08 14:30:00 +0000",
+      "endTimeUTC": "2026/11/08 16:50:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "DAZN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z4yk0bhh36/out/v1/2a23af58f77247849688edac3ce07022/cenc.mpd",
+        "key": "a4f80bd1af6f690babee33ca904a6963:1c266b79d9282476ee6cd7bffa209571"
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/be3d7e2d-95ae-4b01-b745-dfc853dfae96.m3u8",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/G555.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5420,
+    "title": "Women's Super League",
+    "slug": "london-city-vs-birmingham",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Women's Super League",
+      "category": "Football",
+      "teamA": "London City",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/326573/image",
+      "teamB": "Birmingham",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/66766/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/1044/image/dark",
+      "startTimeIST": "2026-11-08 20:00:00 IST",
+      "endTimeIST": "2026-11-08 22:20:00 IST",
+      "startTimeUTC": "2026/11/08 14:30:00 +0000",
+      "endTimeUTC": "2026/11/08 16:50:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rmaqbycjaz/out/v1/8e4d39e0864a4899ab5300c81c2906e7/cenc.mpd",
+        "key": "c431b5083383d7bcccc5ddd930c03822:94858b6ff42bc2a902dfb62af1c8da3d"
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/SYYYAAAQQQQ.m3u8",
+        "key": null
+      },
+      {
+        "title": "SD SERVER+",
+        "type": "hls",
+        "url": "http://162.251.160.53:8089/prime_us_b0hlvnvs53/index.m3u8",
         "key": null
       }
     ]
