@@ -1573,7 +1573,14 @@
       "startTimeUTC": "2026/11/08 16:15:00 +0000",
       "endTimeUTC": "2026/11/08 18:35:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "SD SERVER+",
+        "type": "hls",
+        "url": "http://162.251.160.53:8089/1155/index.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5403,
@@ -1594,7 +1601,14 @@
       "startTimeUTC": "2026/11/08 16:15:00 +0000",
       "endTimeUTC": "2026/11/08 18:35:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "beIN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?",
+        "key": "27759a440e8ad821b800b3de00cd5851:1b8743adee559f27845f55e8b4d639fe"
+      }
+    ]
   },
   {
     "id": 5404,
@@ -1615,7 +1629,20 @@
       "startTimeUTC": "2026/11/08 16:15:00 +0000",
       "endTimeUTC": "2026/11/08 18:35:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "beIN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd?",
+        "key": "74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c"
+      },
+      {
+        "title": "SD SERVER+",
+        "type": "hls",
+        "url": "http://162.251.160.53:8089/prime_us_b0hp7r7l9p/index.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5406,
@@ -1636,7 +1663,14 @@
       "startTimeUTC": "2026/11/08 16:15:00 +0000",
       "endTimeUTC": "2026/11/08 18:35:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "SD SERVER+",
+        "type": "hls",
+        "url": "http://162.251.160.53:8089/prime_us_b0hlxb9ycm/index.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5384,
@@ -1657,7 +1691,26 @@
       "startTimeUTC": "2026/11/08 16:30:00 +0000",
       "endTimeUTC": "2026/11/08 18:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "FUBO SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd",
+        "key": "42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1"
+      },
+      {
+        "title": "SKY SPORTS PL FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qdbhkwig26/out/v1/c3a69dfec0434abea00756cd73e749ff/cenc.mpd?",
+        "key": "1106fb025da5b31657618344099c6c14:788284538616a73b56214e90196a6e0f"
+      },
+      {
+        "title": "SKY SPORTS EPL",
+        "type": "hls",
+        "url": "https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=Dxx13S3dlOjavbRFqRtQ6g&e=2075285630&scheme=",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5401,
@@ -1678,7 +1731,14 @@
       "startTimeUTC": "2026/11/08 16:30:00 +0000",
       "endTimeUTC": "2026/11/08 18:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "SporTV BR FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd",
+        "key": "51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
+      }
+    ]
   },
   {
     "id": 5394,
