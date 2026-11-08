@@ -399,7 +399,7 @@
     "title": "Premier League",
     "slug": "man-utd-vs-aston-villa",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Premier League",
       "category": "Football",
@@ -469,7 +469,7 @@
     "title": "Bundesliga",
     "slug": "freiburg-vs-union-berlin",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Bundesliga",
       "category": "Football",
@@ -1437,6 +1437,12 @@
       "endTimeUTC": "2026/11/08 22:50:00 +0000"
     },
     "dashStreams": [
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel14.m3u8",
+        "key": null
+      },
       {
         "title": "SD SERVER+",
         "type": "hls",
