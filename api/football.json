@@ -453,80 +453,6 @@
     ]
   },
   {
-    "id": 5408,
-    "title": "Liga Portugal Betclic",
-    "slug": "vitoria-vs-porto",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Liga Portugal Betclic",
-      "category": "Football",
-      "teamA": "Vitória",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/3009/image",
-      "teamB": "Porto",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/3002/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/238/image/dark",
-      "startTimeIST": "2026-11-08 23:30:00 IST",
-      "endTimeIST": "2026-11-09 01:50:00 IST",
-      "startTimeUTC": "2026/11/08 18:00:00 +0000",
-      "endTimeUTC": "2026/11/08 20:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "D SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd?",
-        "key": "03f12d6a3dbfd3a6fa7dd7f6417e0c11:ea07b87acdf2e45be824cde4a1cf3504"
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/U555.m3u8",
-        "key": null
-      },
-      {
-        "title": "SD SERVER+",
-        "type": "hls",
-        "url": "http://162.251.160.53:8089/prime_us_b0hntfz2r6/index.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5429,
-    "title": "Trendyol Süper Lig",
-    "slug": "besiktas-vs-genclerbirligi",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Trendyol Süper Lig",
-      "category": "Football",
-      "teamA": "Beşiktaş",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/3050/image",
-      "teamB": "Gençlerbirliği",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/7802/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
-      "startTimeIST": "2026-11-08 23:30:00 IST",
-      "endTimeIST": "2026-11-09 01:50:00 IST",
-      "startTimeUTC": "2026/11/08 18:00:00 +0000",
-      "endTimeUTC": "2026/11/08 20:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "beIN SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n7hbpksb18/out/v1/be5403be4a674a7da8b3c81b1fe79692/cenc.mpd?",
-        "key": "4fce30c060b7b0464ab765e24fee5ecc:65d612238736eec3794c7e75a6fd362c"
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/U555A.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5460,
     "title": "NFL",
     "slug": "chiefs-vs-jets",
@@ -1211,7 +1137,14 @@
       "startTimeUTC": "2026/11/08 21:05:00 +0000",
       "endTimeUTC": "2026/11/09 00:05:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "NFL HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59659/load-playlist.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5462,
@@ -1232,7 +1165,20 @@
       "startTimeUTC": "2026/11/08 21:25:00 +0000",
       "endTimeUTC": "2026/11/09 00:25:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "NFL HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59662/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "NFL LIVE",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59661/load-playlist.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5470,
@@ -1395,6 +1341,80 @@
         "title": "SonyLiv (BEN)",
         "type": "hls",
         "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120304/Footlive0711/BEN/std_lrh-800300010.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5408,
+    "title": "Liga Portugal Betclic",
+    "slug": "vitoria-vs-porto",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Liga Portugal Betclic",
+      "category": "Football",
+      "teamA": "Vitória",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/3009/image",
+      "teamB": "Porto",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/3002/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/238/image/dark",
+      "startTimeIST": "2026-11-08 23:30:00 IST",
+      "endTimeIST": "2026-11-09 01:50:00 IST",
+      "startTimeUTC": "2026/11/08 18:00:00 +0000",
+      "endTimeUTC": "2026/11/08 20:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "D SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd?",
+        "key": "03f12d6a3dbfd3a6fa7dd7f6417e0c11:ea07b87acdf2e45be824cde4a1cf3504"
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/U555.m3u8",
+        "key": null
+      },
+      {
+        "title": "SD SERVER+",
+        "type": "hls",
+        "url": "http://162.251.160.53:8089/prime_us_b0hntfz2r6/index.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5429,
+    "title": "Trendyol Süper Lig",
+    "slug": "besiktas-vs-genclerbirligi",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Trendyol Süper Lig",
+      "category": "Football",
+      "teamA": "Beşiktaş",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/3050/image",
+      "teamB": "Gençlerbirliği",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/7802/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
+      "startTimeIST": "2026-11-08 23:30:00 IST",
+      "endTimeIST": "2026-11-09 01:50:00 IST",
+      "startTimeUTC": "2026/11/08 18:00:00 +0000",
+      "endTimeUTC": "2026/11/08 20:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "beIN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n7hbpksb18/out/v1/be5403be4a674a7da8b3c81b1fe79692/cenc.mpd?",
+        "key": "4fce30c060b7b0464ab765e24fee5ecc:65d612238736eec3794c7e75a6fd362c"
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/U555A.m3u8",
         "key": null
       }
     ]
