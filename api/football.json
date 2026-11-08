@@ -1161,7 +1161,7 @@
     "title": "Liga Portugal Betclic",
     "slug": "vitoria-vs-porto",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Liga Portugal Betclic",
       "category": "Football",
@@ -1201,7 +1201,7 @@
     "title": "Trendyol Süper Lig",
     "slug": "besiktas-vs-genclerbirligi",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Trendyol Süper Lig",
       "category": "Football",
@@ -1235,7 +1235,7 @@
     "title": "NFL",
     "slug": "chiefs-vs-jets",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "NFL",
       "category": "Football",
@@ -1261,6 +1261,12 @@
         "type": "hls",
         "url": "https://chatgpt.hereisman.net/playlist/59603/load-playlist.m3u8",
         "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.55/hls/E666A.m3u8",
+        "key": null
       }
     ]
   },
@@ -1269,7 +1275,7 @@
     "title": "NFL",
     "slug": "saints-vs-browns",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "NFL",
       "category": "Football",
@@ -1295,6 +1301,12 @@
         "type": "hls",
         "url": "https://chatgpt.hereisman.net/playlist/59608/load-playlist.m3u8",
         "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.55/hls/E666AA.m3u8",
+        "key": null
       }
     ]
   },
@@ -1303,7 +1315,7 @@
     "title": "NFL",
     "slug": "dolphins-vs-lions",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "NFL",
       "category": "Football",
@@ -1335,6 +1347,12 @@
         "type": "hls",
         "url": "https://chatgpt.hereisman.net/playlist/59618/load-playlist.m3u8",
         "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.41/hls/E888A.m3u8",
+        "key": null
       }
     ]
   },
@@ -1343,7 +1361,7 @@
     "title": "NFL",
     "slug": "commanders-vs-rams",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "NFL",
       "category": "Football",
@@ -1383,7 +1401,7 @@
     "title": "NFL",
     "slug": "eagles-vs-giants",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "NFL",
       "category": "Football",
@@ -1405,6 +1423,12 @@
         "key": null
       },
       {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.41/hls/E888AA.m3u8",
+        "key": null
+      },
+      {
         "title": "NFL LIVE",
         "type": "hls",
         "url": "https://chatgpt.hereisman.net/playlist/59604/load-playlist.m3u8",
@@ -1417,7 +1441,7 @@
     "title": "NFL",
     "slug": "panthers-vs-broncos",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "NFL",
       "category": "Football",
@@ -1443,6 +1467,12 @@
         "type": "hls",
         "url": "https://chatgpt.hereisman.net/playlist/59612/load-playlist.m3u8",
         "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.50/hls/E666.m3u8",
+        "key": null
       }
     ]
   },
@@ -1451,7 +1481,7 @@
     "title": "NFL",
     "slug": "colts-vs-cowboys",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "NFL",
       "category": "Football",
@@ -1476,6 +1506,12 @@
         "title": "NFL LIVE",
         "type": "hls",
         "url": "https://chatgpt.hereisman.net/playlist/59611/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.59/hls/E888.m3u8",
         "key": null
       }
     ]
