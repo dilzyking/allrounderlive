@@ -978,6 +978,12 @@
         "key": "c504219cda4cf4b01b7d4361b94ce057:ec3d999f9df5060e7c2e575ea91fbfe6"
       },
       {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/a2d69222-0ff6-4f6f-bc35-8c7aac6e1ed5.m3u8",
+        "key": null
+      },
+      {
         "title": "SD SERVER",
         "type": "hls",
         "url": "http://193.47.62.44/hls/O777AAAA.m3u8",
@@ -1030,6 +1036,12 @@
         "key": null
       },
       {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/b12a7e35-be3e-450b-950a-e778b26f9fe2.m3u8",
+        "key": null
+      },
+      {
         "title": "SD SERVER",
         "type": "hls",
         "url": "http://193.47.62.44/hls/O777AAAAA.m3u8",
@@ -1073,6 +1085,12 @@
         "title": "FAST SERVER",
         "type": "hls",
         "url": "https://live.vivo155.com/live/hd-en-1-4550925.m3u8?txSecret=d841f5337200672b02a43c57aad38d79&txTime=6AF0B4A2",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/c567014f-4dc8-46f3-815d-2ca28b2dd56c.m3u8",
         "key": null
       },
       {
@@ -1214,10 +1232,28 @@
     },
     "dashStreams": [
       {
+        "title": "DAZN ENGLISH FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/7zd8uemujv/out/v1/7cb02f7f84f3457b9124219ae3dcc112/cenc.mpd",
+        "key": "c4dd0db0b72637863e1d5c3e2c5bf2cd:7643ae2a8c5319261c513e2887f7350d"
+      },
+      {
+        "title": "DAZN DE FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/co8ff7jxfh/out/v1/3acaab61e726485ca35f8ada51c46555/cenc.mpd",
+        "key": "4ef679ef8a265c7c3f45f0f2fa337e88:14441c42a217b3b915ba80c1dd93b975"
+      },
+      {
         "title": "SporTV BR FHD",
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd",
         "key": "51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/O777AAAAAQQQQQQ.m3u8",
+        "key": null
       }
     ]
   },
