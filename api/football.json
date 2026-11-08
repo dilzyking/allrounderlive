@@ -423,6 +423,48 @@
     "dashStreams": []
   },
   {
+    "id": 5414,
+    "title": "VriendenLoterij Eredivisie",
+    "slug": "heerenveen-vs-feyenoord",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "VriendenLoterij Eredivisie",
+      "category": "Football",
+      "teamA": "Heerenveen",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2964/image",
+      "teamB": "Feyenoord",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2959/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
+      "startTimeIST": "2026-11-08 16:45:00 IST",
+      "endTimeIST": "2026-11-08 19:05:00 IST",
+      "startTimeUTC": "2026/11/08 11:15:00 +0000",
+      "endTimeUTC": "2026/11/08 13:35:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5397,
+    "title": "Serie A",
+    "slug": "napoli-vs-lazio",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Serie A",
+      "category": "Football",
+      "teamA": "Napoli",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2714/image",
+      "teamB": "Lazio",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2699/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
+      "startTimeIST": "2026-11-08 17:00:00 IST",
+      "endTimeIST": "2026-11-08 19:20:00 IST",
+      "startTimeUTC": "2026/11/08 11:30:00 +0000",
+      "endTimeUTC": "2026/11/08 13:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
     "id": 5293,
     "title": "Serie A",
     "slug": "napoli-vs-lazio",
@@ -570,6 +612,27 @@
     "dashStreams": []
   },
   {
+    "id": 5393,
+    "title": "LaLiga",
+    "slug": "elche-vs-real-betis",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "LaLiga",
+      "category": "Football",
+      "teamA": "Elche",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2846/image",
+      "teamB": "Real Betis",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2816/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+      "startTimeIST": "2026-11-08 18:30:00 IST",
+      "endTimeIST": "2026-11-08 20:50:00 IST",
+      "startTimeUTC": "2026/11/08 13:00:00 +0000",
+      "endTimeUTC": "2026/11/08 15:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
     "id": 5284,
     "title": "LaLiga",
     "slug": "elche-vs-real-betis",
@@ -629,6 +692,678 @@
       "endTimeIST": "2026-11-08 20:50:00 IST",
       "startTimeUTC": "2026/11/08 13:00:00 +0000",
       "endTimeUTC": "2026/11/08 15:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5419,
+    "title": "VriendenLoterij Eredivisie",
+    "slug": "twente-vs-ajax",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "VriendenLoterij Eredivisie",
+      "category": "Football",
+      "teamA": "Twente",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2955/image",
+      "teamB": "Ajax",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2953/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
+      "startTimeIST": "2026-11-08 19:00:00 IST",
+      "endTimeIST": "2026-11-08 21:20:00 IST",
+      "startTimeUTC": "2026/11/08 13:30:00 +0000",
+      "endTimeUTC": "2026/11/08 15:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5385,
+    "title": "Premier League",
+    "slug": "sunderland-vs-chelsea",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Premier League",
+      "category": "Football",
+      "teamA": "Sunderland",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/41/image",
+      "teamB": "Chelsea",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/38/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
+      "startTimeIST": "2026-11-08 19:30:00 IST",
+      "endTimeIST": "2026-11-08 21:50:00 IST",
+      "startTimeUTC": "2026/11/08 14:00:00 +0000",
+      "endTimeUTC": "2026/11/08 16:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5386,
+    "title": "Premier League",
+    "slug": "crystal-palace-vs-liverpool",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Premier League",
+      "category": "Football",
+      "teamA": "Crystal Palace",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/7/image",
+      "teamB": "Liverpool",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/44/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
+      "startTimeIST": "2026-11-08 19:30:00 IST",
+      "endTimeIST": "2026-11-08 21:50:00 IST",
+      "startTimeUTC": "2026/11/08 14:00:00 +0000",
+      "endTimeUTC": "2026/11/08 16:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5387,
+    "title": "Premier League",
+    "slug": "ipswich-vs-bournemouth",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Premier League",
+      "category": "Football",
+      "teamA": "Ipswich",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/32/image",
+      "teamB": "Bournemouth",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/60/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
+      "startTimeIST": "2026-11-08 19:30:00 IST",
+      "endTimeIST": "2026-11-08 21:50:00 IST",
+      "startTimeUTC": "2026/11/08 14:00:00 +0000",
+      "endTimeUTC": "2026/11/08 16:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5388,
+    "title": "Premier League",
+    "slug": "brighton-vs-brentford",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Premier League",
+      "category": "Football",
+      "teamA": "Brighton",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/30/image",
+      "teamB": "Brentford",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/50/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
+      "startTimeIST": "2026-11-08 19:30:00 IST",
+      "endTimeIST": "2026-11-08 21:50:00 IST",
+      "startTimeUTC": "2026/11/08 14:00:00 +0000",
+      "endTimeUTC": "2026/11/08 16:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5396,
+    "title": "Serie A",
+    "slug": "monza-vs-atalanta",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Serie A",
+      "category": "Football",
+      "teamA": "Monza",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2729/image",
+      "teamB": "Atalanta",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2686/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
+      "startTimeIST": "2026-11-08 19:30:00 IST",
+      "endTimeIST": "2026-11-08 21:50:00 IST",
+      "startTimeUTC": "2026/11/08 14:00:00 +0000",
+      "endTimeUTC": "2026/11/08 16:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5398,
+    "title": "Serie A",
+    "slug": "genoa-vs-milan",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Serie A",
+      "category": "Football",
+      "teamA": "Genoa",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2713/image",
+      "teamB": "Milan",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2692/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
+      "startTimeIST": "2026-11-08 19:30:00 IST",
+      "endTimeIST": "2026-11-08 21:50:00 IST",
+      "startTimeUTC": "2026/11/08 14:00:00 +0000",
+      "endTimeUTC": "2026/11/08 16:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5405,
+    "title": "Ligue 1",
+    "slug": "rennes-vs-lille",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Ligue 1",
+      "category": "Football",
+      "teamA": "Rennes",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1658/image",
+      "teamB": "Lille",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1643/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
+      "startTimeIST": "2026-11-08 19:30:00 IST",
+      "endTimeIST": "2026-11-08 21:50:00 IST",
+      "startTimeUTC": "2026/11/08 14:00:00 +0000",
+      "endTimeUTC": "2026/11/08 16:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5400,
+    "title": "Bundesliga",
+    "slug": "koln-vs-leverkusen",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Bundesliga",
+      "category": "Football",
+      "teamA": "Köln",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2671/image",
+      "teamB": "Leverkusen",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2681/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/35/image/dark",
+      "startTimeIST": "2026-11-08 20:00:00 IST",
+      "endTimeIST": "2026-11-08 22:20:00 IST",
+      "startTimeUTC": "2026/11/08 14:30:00 +0000",
+      "endTimeUTC": "2026/11/08 16:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5391,
+    "title": "LaLiga",
+    "slug": "real-sociedad-vs-rayo-vallecano",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "LaLiga",
+      "category": "Football",
+      "teamA": "Real Sociedad",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2824/image",
+      "teamB": "Rayo Vallecano",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2818/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+      "startTimeIST": "2026-11-08 20:45:00 IST",
+      "endTimeIST": "2026-11-08 23:05:00 IST",
+      "startTimeUTC": "2026/11/08 15:15:00 +0000",
+      "endTimeUTC": "2026/11/08 17:35:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5409,
+    "title": "Liga Portugal Betclic",
+    "slug": "nacional-vs-academico-viseu",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Liga Portugal Betclic",
+      "category": "Football",
+      "teamA": "Nacional",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/3013/image",
+      "teamB": "Académico Viseu",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/3022/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/238/image/dark",
+      "startTimeIST": "2026-11-08 21:00:00 IST",
+      "endTimeIST": "2026-11-08 23:20:00 IST",
+      "startTimeUTC": "2026/11/08 15:30:00 +0000",
+      "endTimeUTC": "2026/11/08 17:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5410,
+    "title": "Liga Portugal Betclic",
+    "slug": "estoril-vs-maritimo",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Liga Portugal Betclic",
+      "category": "Football",
+      "teamA": "Estoril",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4500/image",
+      "teamB": "Marítimo",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/3007/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/238/image/dark",
+      "startTimeIST": "2026-11-08 21:00:00 IST",
+      "endTimeIST": "2026-11-08 23:20:00 IST",
+      "startTimeUTC": "2026/11/08 15:30:00 +0000",
+      "endTimeUTC": "2026/11/08 17:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5412,
+    "title": "Liga Portugal Betclic",
+    "slug": "santa-clara-vs-gil-vicente",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Liga Portugal Betclic",
+      "category": "Football",
+      "teamA": "Santa Clara",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/3011/image",
+      "teamB": "Gil Vicente",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/3010/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/238/image/dark",
+      "startTimeIST": "2026-11-08 21:00:00 IST",
+      "endTimeIST": "2026-11-08 23:20:00 IST",
+      "startTimeUTC": "2026/11/08 15:30:00 +0000",
+      "endTimeUTC": "2026/11/08 17:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5416,
+    "title": "VriendenLoterij Eredivisie",
+    "slug": "az-vs-groningen",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "VriendenLoterij Eredivisie",
+      "category": "Football",
+      "teamA": "AZ",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2950/image",
+      "teamB": "Groningen",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2951/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
+      "startTimeIST": "2026-11-08 21:15:00 IST",
+      "endTimeIST": "2026-11-08 23:35:00 IST",
+      "startTimeUTC": "2026/11/08 15:45:00 +0000",
+      "endTimeUTC": "2026/11/08 18:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5418,
+    "title": "VriendenLoterij Eredivisie",
+    "slug": "cambuur-vs-psv",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "VriendenLoterij Eredivisie",
+      "category": "Football",
+      "teamA": "Cambuur",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2970/image",
+      "teamB": "PSV",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2952/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
+      "startTimeIST": "2026-11-08 21:15:00 IST",
+      "endTimeIST": "2026-11-08 23:35:00 IST",
+      "startTimeUTC": "2026/11/08 15:45:00 +0000",
+      "endTimeUTC": "2026/11/08 18:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5402,
+    "title": "Ligue 1",
+    "slug": "le-havre-vs-lorient",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Ligue 1",
+      "category": "Football",
+      "teamA": "Le Havre",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1662/image",
+      "teamB": "Lorient",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1656/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
+      "startTimeIST": "2026-11-08 21:45:00 IST",
+      "endTimeIST": "2026-11-09 00:05:00 IST",
+      "startTimeUTC": "2026/11/08 16:15:00 +0000",
+      "endTimeUTC": "2026/11/08 18:35:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5403,
+    "title": "Ligue 1",
+    "slug": "le-mans-vs-monaco",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Ligue 1",
+      "category": "Football",
+      "teamA": "Le Mans",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1672/image",
+      "teamB": "Monaco",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1653/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
+      "startTimeIST": "2026-11-08 21:45:00 IST",
+      "endTimeIST": "2026-11-09 00:05:00 IST",
+      "startTimeUTC": "2026/11/08 16:15:00 +0000",
+      "endTimeUTC": "2026/11/08 18:35:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5404,
+    "title": "Ligue 1",
+    "slug": "brest-vs-lyon",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Ligue 1",
+      "category": "Football",
+      "teamA": "Brest",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1715/image",
+      "teamB": "Lyon",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1649/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
+      "startTimeIST": "2026-11-08 21:45:00 IST",
+      "endTimeIST": "2026-11-09 00:05:00 IST",
+      "startTimeUTC": "2026/11/08 16:15:00 +0000",
+      "endTimeUTC": "2026/11/08 18:35:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5406,
+    "title": "Ligue 1",
+    "slug": "angers-vs-nice",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Ligue 1",
+      "category": "Football",
+      "teamA": "Angers",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1684/image",
+      "teamB": "Nice",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1661/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
+      "startTimeIST": "2026-11-08 21:45:00 IST",
+      "endTimeIST": "2026-11-09 00:05:00 IST",
+      "startTimeUTC": "2026/11/08 16:15:00 +0000",
+      "endTimeUTC": "2026/11/08 18:35:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5384,
+    "title": "Premier League",
+    "slug": "man-utd-vs-aston-villa",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Premier League",
+      "category": "Football",
+      "teamA": "Man Utd",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/35/image",
+      "teamB": "Aston Villa",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/40/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/17/image/dark",
+      "startTimeIST": "2026-11-08 22:00:00 IST",
+      "endTimeIST": "2026-11-09 00:20:00 IST",
+      "startTimeUTC": "2026/11/08 16:30:00 +0000",
+      "endTimeUTC": "2026/11/08 18:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5401,
+    "title": "Bundesliga",
+    "slug": "freiburg-vs-union-berlin",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Bundesliga",
+      "category": "Football",
+      "teamA": "Freiburg",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2538/image",
+      "teamB": "Union Berlin",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2547/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/35/image/dark",
+      "startTimeIST": "2026-11-08 22:00:00 IST",
+      "endTimeIST": "2026-11-09 00:20:00 IST",
+      "startTimeUTC": "2026/11/08 16:30:00 +0000",
+      "endTimeUTC": "2026/11/08 18:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5394,
+    "title": "Serie A",
+    "slug": "inter-vs-como",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Serie A",
+      "category": "Football",
+      "teamA": "Inter",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2697/image",
+      "teamB": "Como",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2704/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
+      "startTimeIST": "2026-11-08 22:30:00 IST",
+      "endTimeIST": "2026-11-09 00:50:00 IST",
+      "startTimeUTC": "2026/11/08 17:00:00 +0000",
+      "endTimeUTC": "2026/11/08 19:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5389,
+    "title": "LaLiga",
+    "slug": "villarreal-vs-getafe",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "LaLiga",
+      "category": "Football",
+      "teamA": "Villarreal",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2819/image",
+      "teamB": "Getafe",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2859/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+      "startTimeIST": "2026-11-08 23:00:00 IST",
+      "endTimeIST": "2026-11-09 01:20:00 IST",
+      "startTimeUTC": "2026/11/08 17:30:00 +0000",
+      "endTimeUTC": "2026/11/08 19:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5392,
+    "title": "LaLiga",
+    "slug": "celta-vs-levante",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "LaLiga",
+      "category": "Football",
+      "teamA": "Celta",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2821/image",
+      "teamB": "Levante",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2849/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+      "startTimeIST": "2026-11-08 23:00:00 IST",
+      "endTimeIST": "2026-11-09 01:20:00 IST",
+      "startTimeUTC": "2026/11/08 17:30:00 +0000",
+      "endTimeUTC": "2026/11/08 19:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5408,
+    "title": "Liga Portugal Betclic",
+    "slug": "vitoria-vs-porto",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Liga Portugal Betclic",
+      "category": "Football",
+      "teamA": "Vitória",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/3009/image",
+      "teamB": "Porto",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/3002/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/238/image/dark",
+      "startTimeIST": "2026-11-08 23:30:00 IST",
+      "endTimeIST": "2026-11-09 01:50:00 IST",
+      "startTimeUTC": "2026/11/08 18:00:00 +0000",
+      "endTimeUTC": "2026/11/08 20:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5399,
+    "title": "Bundesliga",
+    "slug": "hoffenheim-vs-schalke",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Bundesliga",
+      "category": "Football",
+      "teamA": "Hoffenheim",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2569/image",
+      "teamB": "Schalke",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2530/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/35/image/dark",
+      "startTimeIST": "2026-11-09 00:00:00 IST",
+      "endTimeIST": "2026-11-09 02:20:00 IST",
+      "startTimeUTC": "2026/11/08 18:30:00 +0000",
+      "endTimeUTC": "2026/11/08 20:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5417,
+    "title": "VriendenLoterij Eredivisie",
+    "slug": "utrecht-vs-nec",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "VriendenLoterij Eredivisie",
+      "category": "Football",
+      "teamA": "Utrecht",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2948/image",
+      "teamB": "NEC",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2962/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
+      "startTimeIST": "2026-11-09 00:30:00 IST",
+      "endTimeIST": "2026-11-09 02:50:00 IST",
+      "startTimeUTC": "2026/11/08 19:00:00 +0000",
+      "endTimeUTC": "2026/11/08 21:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5395,
+    "title": "Serie A",
+    "slug": "fiorentina-vs-juventus",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Serie A",
+      "category": "Football",
+      "teamA": "Fiorentina",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2693/image",
+      "teamB": "Juventus",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2687/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
+      "startTimeIST": "2026-11-09 01:15:00 IST",
+      "endTimeIST": "2026-11-09 03:35:00 IST",
+      "startTimeUTC": "2026/11/08 19:45:00 +0000",
+      "endTimeUTC": "2026/11/08 22:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5407,
+    "title": "Ligue 1",
+    "slug": "lens-vs-marseille",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Ligue 1",
+      "category": "Football",
+      "teamA": "Lens",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1648/image",
+      "teamB": "Marseille",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1641/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
+      "startTimeIST": "2026-11-09 01:15:00 IST",
+      "endTimeIST": "2026-11-09 03:35:00 IST",
+      "startTimeUTC": "2026/11/08 19:45:00 +0000",
+      "endTimeUTC": "2026/11/08 22:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5390,
+    "title": "LaLiga",
+    "slug": "atletico-madrid-vs-barcelona",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "LaLiga",
+      "category": "Football",
+      "teamA": "Atlético Madrid",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2836/image",
+      "teamB": "Barcelona",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2817/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+      "startTimeIST": "2026-11-09 01:30:00 IST",
+      "endTimeIST": "2026-11-09 03:50:00 IST",
+      "startTimeUTC": "2026/11/08 20:00:00 +0000",
+      "endTimeUTC": "2026/11/08 22:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5411,
+    "title": "Liga Portugal Betclic",
+    "slug": "rio-ave-vs-braga",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Liga Portugal Betclic",
+      "category": "Football",
+      "teamA": "Rio Ave",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/3036/image",
+      "teamB": "Braga",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2999/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/238/image/dark",
+      "startTimeIST": "2026-11-09 02:00:00 IST",
+      "endTimeIST": "2026-11-09 04:20:00 IST",
+      "startTimeUTC": "2026/11/08 20:30:00 +0000",
+      "endTimeUTC": "2026/11/08 22:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5413,
+    "title": "Liga Portugal Betclic",
+    "slug": "estrela-amadora-vs-benfica",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Liga Portugal Betclic",
+      "category": "Football",
+      "teamA": "Estrela Amadora",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/3035/image",
+      "teamB": "Benfica",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/3006/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/238/image/dark",
+      "startTimeIST": "2026-11-09 02:00:00 IST",
+      "endTimeIST": "2026-11-09 04:20:00 IST",
+      "startTimeUTC": "2026/11/08 20:30:00 +0000",
+      "endTimeUTC": "2026/11/08 22:50:00 +0000"
     },
     "dashStreams": []
   },
@@ -1330,6 +2065,27 @@
         "key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
       }
     ]
+  },
+  {
+    "id": 5415,
+    "title": "VriendenLoterij Eredivisie",
+    "slug": "excelsior-vs-ga-eagles",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "VriendenLoterij Eredivisie",
+      "category": "Football",
+      "teamA": "Excelsior",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2967/image",
+      "teamB": "GA Eagles",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2979/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
+      "startTimeIST": "2026-11-08 01:30:00 IST",
+      "endTimeIST": "2026-11-08 03:50:00 IST",
+      "startTimeUTC": "2026/11/07 20:00:00 +0000",
+      "endTimeUTC": "2026/11/07 22:20:00 +0000"
+    },
+    "dashStreams": []
   },
   {
     "id": 5285,
