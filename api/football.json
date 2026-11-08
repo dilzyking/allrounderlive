@@ -374,27 +374,6 @@
     ]
   },
   {
-    "id": 5347,
-    "title": "Liga MX, Apertura",
-    "slug": "atlas-vs-pachuca",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Liga MX, Apertura",
-      "category": "Football",
-      "teamA": "Atlas",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1949/image",
-      "teamB": "Pachuca",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1936/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11621/image/dark",
-      "startTimeIST": "2026-11-08 04:30:00 IST",
-      "endTimeIST": "2026-11-08 06:50:00 IST",
-      "startTimeUTC": "2026/11/07 23:00:00 +0000",
-      "endTimeUTC": "2026/11/08 01:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 5357,
     "title": "MLS",
     "slug": "dallas-vs-colorado",
@@ -895,6 +874,27 @@
       "endTimeIST": "2026-11-08 20:50:00 IST",
       "startTimeUTC": "2026/11/08 13:00:00 +0000",
       "endTimeUTC": "2026/11/08 15:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5347,
+    "title": "Liga MX, Apertura",
+    "slug": "atlas-vs-pachuca",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Liga MX, Apertura",
+      "category": "Football",
+      "teamA": "Atlas",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1949/image",
+      "teamB": "Pachuca",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1936/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11621/image/dark",
+      "startTimeIST": "2026-11-08 04:30:00 IST",
+      "endTimeIST": "2026-11-08 06:50:00 IST",
+      "startTimeUTC": "2026/11/07 23:00:00 +0000",
+      "endTimeUTC": "2026/11/08 01:20:00 +0000"
     },
     "dashStreams": []
   },
