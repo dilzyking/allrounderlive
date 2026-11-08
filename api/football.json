@@ -1232,6 +1232,12 @@
         "type": "hls",
         "url": "https://live.vivo155.com/live/hd-en-1-4549074.m3u8?txSecret=26a8a6838e48264895b467198c87c3ad&txTime=6AF0BDF6",
         "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/Q344AAAAAA.m3u8",
+        "key": null
       }
     ]
   },
