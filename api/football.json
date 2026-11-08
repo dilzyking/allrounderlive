@@ -1759,7 +1759,32 @@
       "startTimeUTC": "2026/11/08 17:00:00 +0000",
       "endTimeUTC": "2026/11/08 19:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "TNT SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
+        "key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
+      },
+      {
+        "title": "beIN ENGLISH FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+        "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+      },
+      {
+        "title": "CBS NETWORK FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
+        "key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+      },
+      {
+        "title": "SPORT 1 CZ",
+        "type": "dash",
+        "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+        "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+      }
+    ]
   },
   {
     "id": 5439,
@@ -1801,7 +1826,14 @@
       "startTimeUTC": "2026/11/08 17:15:00 +0000",
       "endTimeUTC": "2026/11/08 19:35:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "TNT SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+        "key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+      }
+    ]
   },
   {
     "id": 5389,
@@ -1822,7 +1854,26 @@
       "startTimeUTC": "2026/11/08 17:30:00 +0000",
       "endTimeUTC": "2026/11/08 19:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PREMIER SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
+        "key": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f"
+      },
+      {
+        "title": "beIN ENGLISH FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
+        "key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
+      },
+      {
+        "title": "D SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd",
+        "key": "f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
+      }
+    ]
   },
   {
     "id": 5392,
@@ -1843,7 +1894,14 @@
       "startTimeUTC": "2026/11/08 17:30:00 +0000",
       "endTimeUTC": "2026/11/08 19:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "CAZE TV FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
+        "key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
+      }
+    ]
   },
   {
     "id": 5476,
