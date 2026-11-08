@@ -477,40 +477,6 @@
     ]
   },
   {
-    "id": 5479,
-    "title": "Copa do Brasil",
-    "slug": "vasco-vs-palmeiras",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Copa do Brasil",
-      "category": "Football",
-      "teamA": "Vasco",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1974/image",
-      "teamB": "Palmeiras",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1963/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/373/image/dark",
-      "startTimeIST": "2026-11-09 01:30:00 IST",
-      "endTimeIST": "2026-11-09 03:50:00 IST",
-      "startTimeUTC": "2026/11/08 20:00:00 +0000",
-      "endTimeUTC": "2026/11/08 22:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SporTV BR",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd?",
-        "key": "51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/ZMMMAAAAQQ.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5411,
     "title": "Liga Portugal Betclic",
     "slug": "rio-ave-vs-braga",
@@ -827,6 +793,40 @@
         "title": "SonyLiv (BEN)",
         "type": "hls",
         "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120304/Footlive0711/BEN/std_lrh-800300010.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5479,
+    "title": "Copa do Brasil",
+    "slug": "vasco-vs-palmeiras",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Copa do Brasil",
+      "category": "Football",
+      "teamA": "Vasco",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1974/image",
+      "teamB": "Palmeiras",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1963/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/373/image/dark",
+      "startTimeIST": "2026-11-09 01:30:00 IST",
+      "endTimeIST": "2026-11-09 03:50:00 IST",
+      "startTimeUTC": "2026/11/08 20:00:00 +0000",
+      "endTimeUTC": "2026/11/08 22:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "SporTV BR",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd?",
+        "key": "51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/ZMMMAAAAQQ.m3u8",
         "key": null
       }
     ]
@@ -4600,52 +4600,6 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd",
         "key": "f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
-      }
-    ]
-  },
-  {
-    "id": 5314,
-    "title": "Ligue 1",
-    "slug": "psg-vs-troyes",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Ligue 1",
-      "category": "Football",
-      "teamA": "PSG",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1644/image",
-      "teamB": "Troyes",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1652/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
-      "startTimeIST": "2026-11-08 01:35:00 IST",
-      "endTimeIST": "2026-11-08 03:55:00 IST",
-      "startTimeUTC": "2026/11/07 20:05:00 +0000",
-      "endTimeUTC": "2026/11/07 22:25:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "DAZN SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/99c1spmqf4/out/v1/6df8df24c10e4f5babaad97b0e9b2624/cenc.mpd",
-        "key": "4a4ff5eedffeb58b538053b556578b9c:ade1a30a4508fb94fec2c6e19dacb069"
-      },
-      {
-        "title": "beIN ENGLISH FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?",
-        "key": "27759a440e8ad821b800b3de00cd5851:1b8743adee559f27845f55e8b4d639fe"
-      },
-      {
-        "title": "beIN Español FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd?",
-        "key": "74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c"
-      },
-      {
-        "title": "CazéTV FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
-        "key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
       }
     ]
   },
