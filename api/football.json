@@ -453,298 +453,6 @@
     ]
   },
   {
-    "id": 5460,
-    "title": "NFL",
-    "slug": "chiefs-vs-jets",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "NFL",
-      "category": "Football",
-      "teamA": "Chiefs",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/4422/image",
-      "teamB": "Jets",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4427/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
-      "startTimeIST": "2026-11-08 23:30:00 IST",
-      "endTimeIST": "2026-11-09 02:30:00 IST",
-      "startTimeUTC": "2026/11/08 18:00:00 +0000",
-      "endTimeUTC": "2026/11/08 21:00:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "NFL LIVE FHD",
-        "type": "dash",
-        "url": "https://dash2.antik.sk/stream/nvidia_nova_sport2/playlist_cenc.mpd",
-        "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-      },
-      {
-        "title": "NFL HD",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59602/load-playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "NFL LIVE",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59603/load-playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.55/hls/E666A.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5463,
-    "title": "NFL",
-    "slug": "saints-vs-browns",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "NFL",
-      "category": "Football",
-      "teamA": "Saints",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/4425/image",
-      "teamB": "Browns",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4417/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
-      "startTimeIST": "2026-11-08 23:30:00 IST",
-      "endTimeIST": "2026-11-09 02:30:00 IST",
-      "startTimeUTC": "2026/11/08 18:00:00 +0000",
-      "endTimeUTC": "2026/11/08 21:00:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "NFL HD",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59609/load-playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "NFL LIVE",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59608/load-playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.55/hls/E666AA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5464,
-    "title": "NFL",
-    "slug": "dolphins-vs-lions",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "NFL",
-      "category": "Football",
-      "teamA": "Dolphins",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/4287/image",
-      "teamB": "Lions",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4419/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
-      "startTimeIST": "2026-11-08 23:30:00 IST",
-      "endTimeIST": "2026-11-09 02:30:00 IST",
-      "startTimeUTC": "2026/11/08 18:00:00 +0000",
-      "endTimeUTC": "2026/11/08 21:00:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "TSN SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd?",
-        "key": "14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d"
-      },
-      {
-        "title": "NFL HD",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59617/load-playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "NFL LIVE",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59618/load-playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.41/hls/E888A.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5465,
-    "title": "NFL",
-    "slug": "commanders-vs-rams",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "NFL",
-      "category": "Football",
-      "teamA": "Commanders",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/4432/image",
-      "teamB": "Rams",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4387/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
-      "startTimeIST": "2026-11-08 23:30:00 IST",
-      "endTimeIST": "2026-11-09 02:30:00 IST",
-      "startTimeUTC": "2026/11/08 18:00:00 +0000",
-      "endTimeUTC": "2026/11/08 21:00:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "NFL HD",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59606/load-playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "NFL LIVE",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59607/load-playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.55/hls/E666AAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5467,
-    "title": "NFL",
-    "slug": "eagles-vs-giants",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "NFL",
-      "category": "Football",
-      "teamA": "Eagles",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/4428/image",
-      "teamB": "Giants",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4426/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
-      "startTimeIST": "2026-11-08 23:30:00 IST",
-      "endTimeIST": "2026-11-09 02:30:00 IST",
-      "startTimeUTC": "2026/11/08 18:00:00 +0000",
-      "endTimeUTC": "2026/11/08 21:00:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "NFL HD",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59605/load-playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.41/hls/E888AA.m3u8",
-        "key": null
-      },
-      {
-        "title": "NFL LIVE",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59604/load-playlist.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5468,
-    "title": "NFL",
-    "slug": "panthers-vs-broncos",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "NFL",
-      "category": "Football",
-      "teamA": "Panthers",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/4415/image",
-      "teamB": "Broncos",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4418/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
-      "startTimeIST": "2026-11-08 23:30:00 IST",
-      "endTimeIST": "2026-11-09 02:30:00 IST",
-      "startTimeUTC": "2026/11/08 18:00:00 +0000",
-      "endTimeUTC": "2026/11/08 21:00:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "NFL HD",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59613/load-playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "NFL LIVE",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59612/load-playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.50/hls/E666.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5472,
-    "title": "NFL",
-    "slug": "colts-vs-cowboys",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "NFL",
-      "category": "Football",
-      "teamA": "Colts",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/4421/image",
-      "teamB": "Cowboys",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4392/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
-      "startTimeIST": "2026-11-08 23:30:00 IST",
-      "endTimeIST": "2026-11-09 02:30:00 IST",
-      "startTimeUTC": "2026/11/08 18:00:00 +0000",
-      "endTimeUTC": "2026/11/08 21:00:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "NFL HD",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59610/load-playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "NFL LIVE",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59611/load-playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.59/hls/E888.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5417,
     "title": "VriendenLoterij Eredivisie",
     "slug": "utrecht-vs-nec",
@@ -1447,6 +1155,298 @@
         "title": "SD SERVER",
         "type": "hls",
         "url": "http://193.47.62.44/hls/U555A.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5460,
+    "title": "NFL",
+    "slug": "chiefs-vs-jets",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "NFL",
+      "category": "Football",
+      "teamA": "Chiefs",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4422/image",
+      "teamB": "Jets",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4427/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "startTimeIST": "2026-11-08 23:30:00 IST",
+      "endTimeIST": "2026-11-09 02:30:00 IST",
+      "startTimeUTC": "2026/11/08 18:00:00 +0000",
+      "endTimeUTC": "2026/11/08 21:00:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "NFL LIVE FHD",
+        "type": "dash",
+        "url": "https://dash2.antik.sk/stream/nvidia_nova_sport2/playlist_cenc.mpd",
+        "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+      },
+      {
+        "title": "NFL HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59602/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "NFL LIVE",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59603/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.55/hls/E666A.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5463,
+    "title": "NFL",
+    "slug": "saints-vs-browns",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "NFL",
+      "category": "Football",
+      "teamA": "Saints",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4425/image",
+      "teamB": "Browns",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4417/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "startTimeIST": "2026-11-08 23:30:00 IST",
+      "endTimeIST": "2026-11-09 02:30:00 IST",
+      "startTimeUTC": "2026/11/08 18:00:00 +0000",
+      "endTimeUTC": "2026/11/08 21:00:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "NFL HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59609/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "NFL LIVE",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59608/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.55/hls/E666AA.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5464,
+    "title": "NFL",
+    "slug": "dolphins-vs-lions",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "NFL",
+      "category": "Football",
+      "teamA": "Dolphins",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4287/image",
+      "teamB": "Lions",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4419/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "startTimeIST": "2026-11-08 23:30:00 IST",
+      "endTimeIST": "2026-11-09 02:30:00 IST",
+      "startTimeUTC": "2026/11/08 18:00:00 +0000",
+      "endTimeUTC": "2026/11/08 21:00:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "TSN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd?",
+        "key": "14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d"
+      },
+      {
+        "title": "NFL HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59617/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "NFL LIVE",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59618/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.41/hls/E888A.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5465,
+    "title": "NFL",
+    "slug": "commanders-vs-rams",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "NFL",
+      "category": "Football",
+      "teamA": "Commanders",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4432/image",
+      "teamB": "Rams",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4387/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "startTimeIST": "2026-11-08 23:30:00 IST",
+      "endTimeIST": "2026-11-09 02:30:00 IST",
+      "startTimeUTC": "2026/11/08 18:00:00 +0000",
+      "endTimeUTC": "2026/11/08 21:00:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "NFL HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59606/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "NFL LIVE",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59607/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.55/hls/E666AAA.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5467,
+    "title": "NFL",
+    "slug": "eagles-vs-giants",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "NFL",
+      "category": "Football",
+      "teamA": "Eagles",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4428/image",
+      "teamB": "Giants",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4426/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "startTimeIST": "2026-11-08 23:30:00 IST",
+      "endTimeIST": "2026-11-09 02:30:00 IST",
+      "startTimeUTC": "2026/11/08 18:00:00 +0000",
+      "endTimeUTC": "2026/11/08 21:00:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "NFL HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59605/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.41/hls/E888AA.m3u8",
+        "key": null
+      },
+      {
+        "title": "NFL LIVE",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59604/load-playlist.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5468,
+    "title": "NFL",
+    "slug": "panthers-vs-broncos",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "NFL",
+      "category": "Football",
+      "teamA": "Panthers",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4415/image",
+      "teamB": "Broncos",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4418/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "startTimeIST": "2026-11-08 23:30:00 IST",
+      "endTimeIST": "2026-11-09 02:30:00 IST",
+      "startTimeUTC": "2026/11/08 18:00:00 +0000",
+      "endTimeUTC": "2026/11/08 21:00:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "NFL HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59613/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "NFL LIVE",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59612/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.50/hls/E666.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5472,
+    "title": "NFL",
+    "slug": "colts-vs-cowboys",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "NFL",
+      "category": "Football",
+      "teamA": "Colts",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4421/image",
+      "teamB": "Cowboys",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4392/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "startTimeIST": "2026-11-08 23:30:00 IST",
+      "endTimeIST": "2026-11-09 02:30:00 IST",
+      "startTimeUTC": "2026/11/08 18:00:00 +0000",
+      "endTimeUTC": "2026/11/08 21:00:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "NFL HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59610/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "NFL LIVE",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59611/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.59/hls/E888.m3u8",
         "key": null
       }
     ]
