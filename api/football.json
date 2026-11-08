@@ -745,52 +745,6 @@
     ]
   },
   {
-    "id": 5399,
-    "title": "Bundesliga",
-    "slug": "hoffenheim-vs-schalke",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Bundesliga",
-      "category": "Football",
-      "teamA": "Hoffenheim",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2569/image",
-      "teamB": "Schalke",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2530/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/35/image/dark",
-      "startTimeIST": "2026-11-09 00:00:00 IST",
-      "endTimeIST": "2026-11-09 02:20:00 IST",
-      "startTimeUTC": "2026/11/08 18:30:00 +0000",
-      "endTimeUTC": "2026/11/08 20:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "DAZN SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vuzaaxxem1/out/v1/e94aa80abc75481084c80546b0f77980/cenc.mpd?",
-        "key": "e25d10551883acc40dcb71e47eebd489:892509ea654a668fd71a04f54c30efec"
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://www.rtmpcdn.com/live/7b47343e-775e-4f18-ad38-259a6f8abc54.m3u8",
-        "key": null
-      },
-      {
-        "title": "HD SERVER+",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel13.m3u8",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/CVCVCVQQQ.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5417,
     "title": "VriendenLoterij Eredivisie",
     "slug": "utrecht-vs-nec",
@@ -1373,6 +1327,52 @@
         "title": "SonyLiv (BEN)",
         "type": "hls",
         "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120304/Footlive0711/BEN/std_lrh-800300010.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5399,
+    "title": "Bundesliga",
+    "slug": "hoffenheim-vs-schalke",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Bundesliga",
+      "category": "Football",
+      "teamA": "Hoffenheim",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2569/image",
+      "teamB": "Schalke",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2530/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/35/image/dark",
+      "startTimeIST": "2026-11-09 00:00:00 IST",
+      "endTimeIST": "2026-11-09 02:20:00 IST",
+      "startTimeUTC": "2026/11/08 18:30:00 +0000",
+      "endTimeUTC": "2026/11/08 20:50:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "DAZN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vuzaaxxem1/out/v1/e94aa80abc75481084c80546b0f77980/cenc.mpd?",
+        "key": "e25d10551883acc40dcb71e47eebd489:892509ea654a668fd71a04f54c30efec"
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/7b47343e-775e-4f18-ad38-259a6f8abc54.m3u8",
+        "key": null
+      },
+      {
+        "title": "HD SERVER+",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel13.m3u8",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/CVCVCVQQQ.m3u8",
         "key": null
       }
     ]
