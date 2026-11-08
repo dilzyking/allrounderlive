@@ -1230,6 +1230,12 @@
     },
     "dashStreams": [
       {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/fda24c34-8256-4679-b379-a339494c2f8a.m3u8",
+        "key": null
+      },
+      {
         "title": "SD SERVER",
         "type": "hls",
         "url": "http://193.47.62.44/hls/G555A.m3u8",
@@ -1292,6 +1298,12 @@
     },
     "dashStreams": [
       {
+        "title": "DAZN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yeljykgcvm/out/v1/52114609883c4e1fabe313de0a1434b9/cenc.mpd",
+        "key": "fed7261e588286f63bab48798998067d:0cfd675affcaf88e265b6ba7a8c8c8bf"
+      },
+      {
         "title": "PREMIER SPORTS FHD",
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
@@ -1302,12 +1314,6 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
         "key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
-      },
-      {
-        "title": "FANCODE FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd?",
-        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
       },
       {
         "title": "CazéTV FHD",
@@ -1350,7 +1356,7 @@
     "title": "Liga Portugal Betclic",
     "slug": "nacional-vs-academico-viseu",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Liga Portugal Betclic",
       "category": "Football",
@@ -1364,14 +1370,27 @@
       "startTimeUTC": "2026/11/08 15:30:00 +0000",
       "endTimeUTC": "2026/11/08 17:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live1.quickscoreboardz.com/live/channel36/playlist.m3u8?wsSecret=b2e26a85efaedc26ebb228b1ec893271&wsABSTime=1794192908",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/S666AA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5410,
     "title": "Liga Portugal Betclic",
     "slug": "estoril-vs-maritimo",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Liga Portugal Betclic",
       "category": "Football",
@@ -1392,7 +1411,7 @@
     "title": "Liga Portugal Betclic",
     "slug": "santa-clara-vs-gil-vicente",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Liga Portugal Betclic",
       "category": "Football",
@@ -1406,14 +1425,27 @@
       "startTimeUTC": "2026/11/08 15:30:00 +0000",
       "endTimeUTC": "2026/11/08 17:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/S666AAA.m3u8",
+        "key": null
+      },
+      {
+        "title": "SD SERVER+",
+        "type": "hls",
+        "url": "http://162.251.160.53:8089/1441/index.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5430,
     "title": "Trendyol Süper Lig",
     "slug": "alanyaspor-vs-trabzonspor",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Trendyol Süper Lig",
       "category": "Football",
@@ -1427,7 +1459,20 @@
       "startTimeUTC": "2026/11/08 15:30:00 +0000",
       "endTimeUTC": "2026/11/08 17:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "beIN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n7hbpksb18/out/v1/be5403be4a674a7da8b3c81b1fe79692/cenc.mpd?",
+        "key": "4fce30c060b7b0464ab765e24fee5ecc:65d612238736eec3794c7e75a6fd362c"
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/K777F.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5416,
@@ -1448,7 +1493,14 @@
       "startTimeUTC": "2026/11/08 15:45:00 +0000",
       "endTimeUTC": "2026/11/08 18:05:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/JJJJAAAA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5418,
@@ -1469,7 +1521,20 @@
       "startTimeUTC": "2026/11/08 15:45:00 +0000",
       "endTimeUTC": "2026/11/08 18:05:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "SportDigital Fussball",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?",
+        "key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/JJJJAAAAA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5431,
