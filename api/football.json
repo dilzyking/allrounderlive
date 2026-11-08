@@ -1029,10 +1029,28 @@
     },
     "dashStreams": [
       {
+        "title": "DAZN SPORTS [ MULTI COMMENTRY]",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/2he6yoxvnk/out/v1/03bbc4458f904566867b3d9edf4562e0/cenc.mpd",
+        "key": "b1a43935c991dc8e6a035706a908e6f4:34d67267e116671a6216be066093a3b2"
+      },
+      {
         "title": "beIN ENGLISH FHD",
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
         "key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
+      },
+      {
+        "title": "PREMIER SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
+        "key": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f"
+      },
+      {
+        "title": "TSN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd",
+        "key": "d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37"
       },
       {
         "title": "DAZN SPORTS [GER]",
@@ -1047,18 +1065,6 @@
         "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
       },
       {
-        "title": "TSN SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd",
-        "key": "d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37"
-      },
-      {
-        "title": "PREMIER SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
-        "key": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f"
-      },
-      {
         "title": "CAZE TV FHD",
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/vzeco5ty0v/out/v1/44c6b8f31a2544e3b2a9bb41ed5e241e/cenc.mpd?",
@@ -1069,6 +1075,12 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
         "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.41/hls/8888A.m3u8",
+        "key": null
       }
     ]
   },
@@ -1133,9 +1145,9 @@
         "key": null
       },
       {
-        "title": "SD SERVER+",
+        "title": "LOW QUALITY",
         "type": "hls",
-        "url": "http://162.251.160.53:8089/1509/index.m3u8",
+        "url": "http://193.47.62.44/hls/FYYYQQ.m3u8",
         "key": null
       }
     ]
