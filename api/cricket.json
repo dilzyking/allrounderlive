@@ -4,7 +4,7 @@
     "title": "U19 Asia Cup",
     "slug": "ind-u19-vs-pak-u19",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "U19 Asia Cup",
       "category": "Cricket",
@@ -523,46 +523,6 @@
         "type": "dash",
         "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/lhdal9buc7/out/v1/8bc185a9052e4f0b911f5a26bf2e907d/cenc.mpd",
         "key": "41b0e855ff51711a08ab8e4ccf1d0ba1:e849d0113e5fe023ff48664f3dc76b02"
-      }
-    ]
-  },
-  {
-    "id": 5261,
-    "title": "U19 Asia Cup",
-    "slug": "sl-u19-vs-ban-u19",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "U19 Asia Cup",
-      "category": "Cricket",
-      "teamA": "SL-U19",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/213106/image",
-      "teamB": "BAN-U19",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/213099/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11486/image/dark",
-      "startTimeIST": "2026-11-07 10:30:00 IST",
-      "endTimeIST": "2026-11-07 20:00:00 IST",
-      "startTimeUTC": "2026/11/07 05:00:00 +0000",
-      "endTimeUTC": "2026/11/07 14:30:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "WILLOW FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/dtmozm83d5/out/v1/f352036cb781432697950dff0519cec8/cenc.mpd",
-        "key": "0fba170e6a8f0a48ce0f79ace5f8fae1:153c8d4dfd85e4b19738eaf8b21494ca"
-      },
-      {
-        "title": "WILLOW ALT",
-        "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/dtmozm83d5/out/v1/f352036cb781432697950dff0519cec8/cenc.mpd",
-        "key": "0fba170e6a8f0a48ce0f79ace5f8fae1:153c8d4dfd85e4b19738eaf8b21494ca"
-      },
-      {
-        "title": "SonyLiv (ENG)",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120307/Criclive0711/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794070001~acl=/*~id=27007709439190034209396402533319~hmac=0995167dbfd9462dae7c5b1964ee670b4f73d510e63ae82f104d88d63656033b",
-        "key": null
       }
     ]
   },
