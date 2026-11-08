@@ -885,7 +885,7 @@
     "title": "Premier League",
     "slug": "sunderland-vs-chelsea",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Premier League",
       "category": "Football",
@@ -913,6 +913,12 @@
         "key": null
       },
       {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4558726.m3u8?txSecret=c5a04c6b0bc9ebc4a0067f5d17d3aa10&txTime=6AF09298",
+        "key": null
+      },
+      {
         "title": "SD SERVER",
         "type": "hls",
         "url": "http://193.47.62.41/hls/K444AAAA.m3u8",
@@ -925,7 +931,7 @@
     "title": "Premier League",
     "slug": "crystal-palace-vs-liverpool",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Premier League",
       "category": "Football",
@@ -945,6 +951,18 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qdbhkwig26/out/v1/c3a69dfec0434abea00756cd73e749ff/cenc.mpd?",
         "key": "1106fb025da5b31657618344099c6c14:788284538616a73b56214e90196a6e0f"
+      },
+      {
+        "title": "SKY MAIN EVENT",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59589/load-playlist-multi?&.m3u8",
+        "key": null
+      },
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4558705.m3u8?txSecret=a0206baf36b0df99fb85981b3dbccfc7&txTime=6AF092C1",
+        "key": null
       }
     ]
   },
@@ -953,7 +971,7 @@
     "title": "Premier League",
     "slug": "ipswich-vs-bournemouth",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Premier League",
       "category": "Football",
@@ -969,6 +987,12 @@
     },
     "dashStreams": [
       {
+        "title": "FUBO SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/mibl1kagx8/out/v1/38d1a6a0ee4e4ff2aa8b760d07cabb9e/cenc.mpd",
+        "key": "e09a0900100e5ac77d4adb45a602a86b:7da511a38053d3e150d38f47ac7d8298"
+      },
+      {
         "title": "SD SERVER",
         "type": "hls",
         "url": "http://193.47.62.41/hls/K444A.m3u8",
@@ -981,7 +1005,7 @@
     "title": "Premier League",
     "slug": "brighton-vs-brentford",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Premier League",
       "category": "Football",
@@ -996,6 +1020,12 @@
       "endTimeUTC": "2026/11/08 16:20:00 +0000"
     },
     "dashStreams": [
+      {
+        "title": "FUBO SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qxwd61llso/out/v1/00d2828855a944ffbbdc15232c4157a9/cenc.mpd",
+        "key": "cd26f115435d0177c6c5a9864e360b08:2d0c9efb55b5c72a0644fa12a1d52ed1"
+      },
       {
         "title": "SD SERVER",
         "type": "hls",
@@ -1015,7 +1045,7 @@
     "title": "Serie A",
     "slug": "monza-vs-atalanta",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Serie A",
       "category": "Football",
@@ -1043,7 +1073,7 @@
     "title": "Serie A",
     "slug": "genoa-vs-milan",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Serie A",
       "category": "Football",
@@ -1089,7 +1119,7 @@
     "title": "Ligue 1",
     "slug": "rennes-vs-lille",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Ligue 1",
       "category": "Football",
@@ -1129,7 +1159,7 @@
     "title": "Women's Super League",
     "slug": "tottenham-vs-brighton",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Women's Super League",
       "category": "Football",
@@ -1163,7 +1193,7 @@
     "title": "Women's Super League",
     "slug": "crystal-palace-vs-charlton",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Women's Super League",
       "category": "Football",
@@ -1197,7 +1227,7 @@
     "title": "Serie A Women",
     "slug": "ternana-vs-fiorentina",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Serie A Women",
       "category": "Football",
@@ -1218,7 +1248,7 @@
     "title": "SAFF Championship",
     "slug": "sri-lanka-vs-bhutan",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "SAFF Championship",
       "category": "Football",
