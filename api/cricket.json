@@ -130,9 +130,33 @@
         "key": null
       },
       {
-        "title": "SonyLiv (Asia)",
+        "title": "SonyLiv (ENG)",
         "type": "hls",
-        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2037140/criclive0511/ENG/std_lrh-800300010.m3u8",
+        "url": "https://sonymtmnew-akamaized.pages.dev/out/v1/2119931/cricodi_0811/ENG/std_lrh-800300010.m3u8",
+        "key": null
+      },
+      {
+        "title": "SonyLiv (HIN)",
+        "type": "hls",
+        "url": "https://sonymtmnew-akamaized.pages.dev/out/v1/mpchgp431f/mpche169/cricodi_0811-hin-1-ts-hls/std-lrh-800300010.m3u8",
+        "key": null
+      },
+      {
+        "title": "SonyLiv (TAM)",
+        "type": "hls",
+        "url": "https://sonymtmnew-akamaized.pages.dev/out/v1/mpchgp431f/mpchc857/cricodi_0811-tam-1-ts-hls/std-lrh-800300010.m3u8",
+        "key": null
+      },
+      {
+        "title": "SonyLiv (TEL)",
+        "type": "hls",
+        "url": "https://sonymtmnew-akamaized.pages.dev/out/v1/mpchgp431f/mpch8872/cricodi_0811-tel-1-ts-hls/std-lrh-800300010.m3u8",
+        "key": null
+      },
+      {
+        "title": "SonyLiv (KAN)",
+        "type": "hls",
+        "url": "https://sonymtmnew-akamaized.pages.dev/out/v1/mpchgp431f/mpcha075/cricodi_0811-kan-1-ts-hls/std-lrh-800300010.m3u8",
         "key": null
       }
     ]
@@ -170,9 +194,15 @@
         "key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
       },
       {
+        "title": "SonyLiv PRIME FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/pklmckneea/out/v1/0f99435eda984497aa21d65b9f5410e1/cenc.mpd",
+        "key": "08bb45494843dfb2a89da2899fe3999f:4571346ca311bca08a61fe9e76779029"
+      },
+      {
         "title": "SonyLiv (Asia)",
         "type": "hls",
-        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2037140/criclive0511/ENG/std_lrh-800300010.m3u8",
+        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2018458/Criclive0811/ENG/std_lrh-800300010.m3u8",
         "key": null
       }
     ]
