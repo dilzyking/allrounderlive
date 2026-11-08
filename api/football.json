@@ -399,7 +399,7 @@
     "title": "Serie A",
     "slug": "inter-vs-como",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Serie A",
       "category": "Football",
@@ -469,7 +469,7 @@
     "title": "Serie A Women",
     "slug": "lazio-vs-napoli",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Serie A Women",
       "category": "Football",
@@ -5140,79 +5140,6 @@
         "key": null
       }
     ]
-  },
-  {
-    "id": 5294,
-    "title": "Serie A",
-    "slug": "parma-vs-bologna",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Serie A",
-      "category": "Football",
-      "teamA": "Parma",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2690/image",
-      "teamB": "Bologna",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2685/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "startTimeIST": "2026-11-07 22:30:00 IST",
-      "endTimeIST": "2026-11-08 00:50:00 IST",
-      "startTimeUTC": "2026/11/07 17:00:00 +0000",
-      "endTimeUTC": "2026/11/07 19:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vj8fod7wtf/out/v1/820c64e1fa1040ab9457f5f8c6eef049/cenc.mpd",
-        "key": "78890ec65ba32c44c950c9b2983e98e0:1c075b2f4f26c1ee85502e3caebd8830"
-      },
-      {
-        "title": "DAZN ITALIA FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/chgemku7j2/out/v1/01a941d9b4544c85843d4fd046193a07/cenc.mpd",
-        "key": "3cab879732fb4ba028c83b3be8816638:81919805a79e04b19094931bcc7c6b18"
-      },
-      {
-        "title": "CBS SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-        "key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-      },
-      {
-        "title": "SPORT 1 CZ FHD",
-        "type": "dash",
-        "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-        "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.50/hls/ZHHHAAQAQA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5300,
-    "title": "Serie A Women",
-    "slug": "juventus-vs-sassuolo",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Serie A Women",
-      "category": "Football",
-      "teamA": "Juventus",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/269824/image",
-      "teamB": "Sassuolo",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/269819/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/10640/image/dark",
-      "startTimeIST": "2026-11-07 22:30:00 IST",
-      "endTimeIST": "2026-11-08 00:50:00 IST",
-      "startTimeUTC": "2026/11/07 17:00:00 +0000",
-      "endTimeUTC": "2026/11/07 19:20:00 +0000"
-    },
-    "dashStreams": []
   },
   {
     "id": 3255,
