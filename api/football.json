@@ -395,69 +395,11 @@
     "dashStreams": []
   },
   {
-    "id": 3926,
-    "title": "NFL REDZONE",
-    "slug": "nfl-vs-nfl",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "NFL REDZONE",
-      "category": "Football",
-      "teamA": "NFL",
-      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/9464/image",
-      "teamB": "NFL",
-      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/9464/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/9464/image",
-      "startTimeIST": "2026-11-08 23:25:00 IST",
-      "endTimeIST": "2026-11-09 03:30:00 IST",
-      "startTimeUTC": "2026/11/08 17:55:00 +0000",
-      "endTimeUTC": "2026/11/08 22:00:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "REDZONE FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/dash/enc/tppdoitn9n/out/v1/9828b56372fb434fafdcf88c72052d01/cenc.mpd",
-        "key": "85f340146e46533b39d1415d90746352:448aafcc613ddfd448f14d9275eda19b"
-      },
-      {
-        "title": "NFL REDZONE HD",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59596/load-playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "NFL REDZONE (USA)",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59597/load-playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "NFL REDZONE (USA)",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59598/load-playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "NFL REDZONE (USA)",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59601/load-playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.41/hls/E888AAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5395,
     "title": "Serie A",
     "slug": "fiorentina-vs-juventus",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Serie A",
       "category": "Football",
@@ -527,7 +469,7 @@
     "title": "Ligue 1",
     "slug": "lens-vs-marseille",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Ligue 1",
       "category": "Football",
@@ -1447,6 +1389,64 @@
         "title": "SD SERVER",
         "type": "hls",
         "url": "http://193.47.62.59/hls/E888.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 3926,
+    "title": "NFL REDZONE",
+    "slug": "nfl-vs-nfl",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "NFL REDZONE",
+      "category": "Football",
+      "teamA": "NFL",
+      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/9464/image",
+      "teamB": "NFL",
+      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/9464/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/9464/image",
+      "startTimeIST": "2026-11-08 23:25:00 IST",
+      "endTimeIST": "2026-11-09 03:30:00 IST",
+      "startTimeUTC": "2026/11/08 17:55:00 +0000",
+      "endTimeUTC": "2026/11/08 22:00:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "REDZONE FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/dash/enc/tppdoitn9n/out/v1/9828b56372fb434fafdcf88c72052d01/cenc.mpd",
+        "key": "85f340146e46533b39d1415d90746352:448aafcc613ddfd448f14d9275eda19b"
+      },
+      {
+        "title": "NFL REDZONE HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59596/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "NFL REDZONE (USA)",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59597/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "NFL REDZONE (USA)",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59598/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "NFL REDZONE (USA)",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59601/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.41/hls/E888AAA.m3u8",
         "key": null
       }
     ]
@@ -4853,64 +4853,6 @@
         "title": "LOW QUALITY",
         "type": "hls",
         "url": "http://193.47.62.55/hls/BWWWAAAAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5296,
-    "title": "Serie A",
-    "slug": "roma-vs-sassuolo",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Serie A",
-      "category": "Football",
-      "teamA": "Roma",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2702/image",
-      "teamB": "Sassuolo",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2793/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "startTimeIST": "2026-11-08 01:15:00 IST",
-      "endTimeIST": "2026-11-08 03:35:00 IST",
-      "startTimeUTC": "2026/11/07 19:45:00 +0000",
-      "endTimeUTC": "2026/11/07 22:05:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/goikeune5k/out/v1/a0c12026e2684d55b4d6f2222f433973/cenc.mpd",
-        "key": "c382483f8a379efb35b6277b17c6c347:f1942ce8cee7e5818800955ccb94aaca"
-      },
-      {
-        "title": "FUBO SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vahohrwe3w/out/v1/9a01afb3983444c9b0ebd5d4df2e47e2/cenc.mpd",
-        "key": "a6a9c2de87b36eeb9d16ecc1eb953faa:110c81b088f7b40cf67b4bb17de7b89a"
-      },
-      {
-        "title": "DAZN DE FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/8vgigtbr2m/out/v1/5bcac64e2a9341a790a0299366963139/cenc.mpd",
-        "key": "cd6ac6ee6298e4bb0da75673d2171bca:0c5e1f01ffb1a4134a1f2050d3e5be4f"
-      },
-      {
-        "title": "CBS SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-        "key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-      },
-      {
-        "title": "SPORT 1 CZ FHD",
-        "type": "dash",
-        "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-        "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.55/hls/BWWWAAAA.m3u8",
         "key": null
       }
     ]
