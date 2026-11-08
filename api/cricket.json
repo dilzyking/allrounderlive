@@ -30,18 +30,6 @@
         "type": "hls",
         "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
         "key": null
-      },
-      {
-        "title": "TAPMAD FHD",
-        "type": "hls",
-        "url": "https://tencent-cdn.tapmad.com/v1/01a14a80166b1ea557841e1612cf55/01a14a8047211ea557841e1612cf58/main.m3u8?",
-        "key": null
-      },
-      {
-        "title": "WILLOW SD",
-        "type": "hls",
-        "url": "http://51.77.217.114:8089/Wbbl52/index.m3u8",
-        "key": null
       }
     ]
   },
@@ -72,12 +60,6 @@
         "key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
       },
       {
-        "title": "TAPMAD FHD",
-        "type": "hls",
-        "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a14abbcff31ea540a81c2b41b760/01a14abc06421567ee931e109fa577/main.m3u8",
-        "key": null
-      },
-      {
         "title": "FANCODE SD",
         "type": "dash",
         "url": "https://live-pv-ta.amazon.fastly-edge.com/bom-nitro/live/clients/dash-sd/enc/eayjamsonn/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd",
@@ -90,27 +72,9 @@
         "key": null
       },
       {
-        "title": "TAPMAD 2 HD",
+        "title": "T SPORTS HD",
         "type": "hls",
-        "url": "https://tencent-cdn.tapmad.com/v1/01a14abbcff31ea540a81c2b41b760/01a14abc06421567ee931e109fa577/main.m3u8",
-        "key": null
-      },
-      {
-        "title": "T SPORTS SD",
-        "type": "hls",
-        "url": "https://s1.itcnbd.live/T-Sports-HD/tracks-v1a1/mono.m3u8",
-        "key": null
-      },
-      {
-        "title": "ROBBITHOLE FHD",
-        "type": "hls",
-        "url": "https://hpc5-nmc-mnc.mydex.tv/_tkn_st=1793849106~exp=1793877966~acl=/bpk-tv/202/default/*~eti=ec6f90c3bb4e2adc840061f03b9e10fc~sid=27774d63525ecb4a~imax=2~hmac=5f85510854d2be9c155c395e0011573f36d7dbb697aa44cc3ccf956a18025bd9/bpk-tv/202/default/index.m3u8",
-        "key": null
-      },
-      {
-        "title": "FANCODE - IN",
-        "type": "hls",
-        "url": "https://dai-fancode.pages.dev/mumbai/4250527_english_hls_370c6945842186_1ta-di_h264/index.m3u8",
+        "url": "http://103.16.24.4:8083/14.m3u8",
         "key": null
       }
     ]
@@ -154,6 +118,27 @@
       "endTimeIST": "2026-11-08 15:00:00 IST",
       "startTimeUTC": "2026/11/08 05:00:00 +0000",
       "endTimeUTC": "2026/11/08 09:30:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5383,
+    "title": "ICC World Test Championship",
+    "slug": "pak-vs-sl",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "ICC World Test Championship",
+      "category": "Cricket",
+      "teamA": "PAK",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/187754/image",
+      "teamB": "SL",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/187756/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18833/image/dark",
+      "startTimeIST": "2026-11-09 10:00:00 IST",
+      "endTimeIST": "2026-11-08 19:00:00 IST",
+      "startTimeUTC": "2026/11/09 04:30:00 +0000",
+      "endTimeUTC": "2026/11/08 13:30:00 +0000"
     },
     "dashStreams": []
   },
