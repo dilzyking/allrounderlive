@@ -374,174 +374,6 @@
     ]
   },
   {
-    "id": 5357,
-    "title": "MLS",
-    "slug": "dallas-vs-colorado",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "MLS",
-      "category": "Football",
-      "teamA": "Dallas",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2512/image",
-      "teamB": "Colorado",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2510/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/242/image/dark",
-      "startTimeIST": "2026-11-08 05:30:00 IST",
-      "endTimeIST": "2026-11-08 07:50:00 IST",
-      "startTimeUTC": "2026/11/08 00:00:00 +0000",
-      "endTimeUTC": "2026/11/08 02:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "Ivan-FluX",
-        "type": "hls",
-        "url": "https://fallback-video.ivan-fluxo.workers.dev/video/index.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5359,
-    "title": "MLS",
-    "slug": "san-diego-vs-kansas-city",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "MLS",
-      "category": "Football",
-      "teamA": "San Diego",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1043961/image",
-      "teamB": "Kansas City",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2509/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/242/image/dark",
-      "startTimeIST": "2026-11-08 05:30:00 IST",
-      "endTimeIST": "2026-11-08 07:50:00 IST",
-      "startTimeUTC": "2026/11/08 00:00:00 +0000",
-      "endTimeUTC": "2026/11/08 02:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "https://messi.damitv.st/live-hls/channel/mls/2026-11-07/sd-skc/playlist.m3u8?tk=c6ZmN3OQ9yiM4GDyNiyWlw&e=1794127317",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5360,
-    "title": "MLS",
-    "slug": "seattle-vs-los-angeles",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "MLS",
-      "category": "Football",
-      "teamA": "Seattle",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/22009/image",
-      "teamB": "Los Angeles",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/274650/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/242/image/dark",
-      "startTimeIST": "2026-11-08 05:30:00 IST",
-      "endTimeIST": "2026-11-08 07:50:00 IST",
-      "startTimeUTC": "2026/11/08 00:00:00 +0000",
-      "endTimeUTC": "2026/11/08 02:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://tedesco.formaturamaxi.com.br/nhl3.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5362,
-    "title": "MLS",
-    "slug": "minnesota-vs-san-jose",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "MLS",
-      "category": "Football",
-      "teamA": "Minnesota",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/41618/image",
-      "teamB": "San Jose",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/21825/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/242/image/dark",
-      "startTimeIST": "2026-11-08 05:30:00 IST",
-      "endTimeIST": "2026-11-08 07:50:00 IST",
-      "startTimeUTC": "2026/11/08 00:00:00 +0000",
-      "endTimeUTC": "2026/11/08 02:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "Ivan-FluX",
-        "type": "hls",
-        "url": "https://fallback-video.ivan-fluxo.workers.dev/video/index.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5363,
-    "title": "MLS",
-    "slug": "salt-lake-vs-la-galaxy",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "MLS",
-      "category": "Football",
-      "teamA": "Salt Lake",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/5133/image",
-      "teamB": "LA Galaxy",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2513/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/242/image/dark",
-      "startTimeIST": "2026-11-08 05:30:00 IST",
-      "endTimeIST": "2026-11-08 07:50:00 IST",
-      "startTimeUTC": "2026/11/08 00:00:00 +0000",
-      "endTimeUTC": "2026/11/08 02:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "Ivan-FluX",
-        "type": "hls",
-        "url": "https://fallback-video.ivan-fluxo.workers.dev/video/index.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5365,
-    "title": "MLS",
-    "slug": "austin-vs-portland",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "MLS",
-      "category": "Football",
-      "teamA": "Austin",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/377973/image",
-      "teamB": "Portland",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/22007/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/242/image/dark",
-      "startTimeIST": "2026-11-08 05:30:00 IST",
-      "endTimeIST": "2026-11-08 07:50:00 IST",
-      "startTimeUTC": "2026/11/08 00:00:00 +0000",
-      "endTimeUTC": "2026/11/08 02:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "Ivan-FluX",
-        "type": "hls",
-        "url": "https://fallback-video.ivan-fluxo.workers.dev/video/index.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5349,
     "title": "Liga MX, Apertura",
     "slug": "tigres-vs-cruz-azul",
@@ -876,6 +708,174 @@
       "endTimeUTC": "2026/11/08 15:20:00 +0000"
     },
     "dashStreams": []
+  },
+  {
+    "id": 5357,
+    "title": "MLS",
+    "slug": "dallas-vs-colorado",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "MLS",
+      "category": "Football",
+      "teamA": "Dallas",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2512/image",
+      "teamB": "Colorado",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2510/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/242/image/dark",
+      "startTimeIST": "2026-11-08 05:30:00 IST",
+      "endTimeIST": "2026-11-08 07:50:00 IST",
+      "startTimeUTC": "2026/11/08 00:00:00 +0000",
+      "endTimeUTC": "2026/11/08 02:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "Ivan-FluX",
+        "type": "hls",
+        "url": "https://fallback-video.ivan-fluxo.workers.dev/video/index.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5359,
+    "title": "MLS",
+    "slug": "san-diego-vs-kansas-city",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "MLS",
+      "category": "Football",
+      "teamA": "San Diego",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1043961/image",
+      "teamB": "Kansas City",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2509/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/242/image/dark",
+      "startTimeIST": "2026-11-08 05:30:00 IST",
+      "endTimeIST": "2026-11-08 07:50:00 IST",
+      "startTimeUTC": "2026/11/08 00:00:00 +0000",
+      "endTimeUTC": "2026/11/08 02:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "https://messi.damitv.st/live-hls/channel/mls/2026-11-07/sd-skc/playlist.m3u8?tk=c6ZmN3OQ9yiM4GDyNiyWlw&e=1794127317",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5360,
+    "title": "MLS",
+    "slug": "seattle-vs-los-angeles",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "MLS",
+      "category": "Football",
+      "teamA": "Seattle",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/22009/image",
+      "teamB": "Los Angeles",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/274650/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/242/image/dark",
+      "startTimeIST": "2026-11-08 05:30:00 IST",
+      "endTimeIST": "2026-11-08 07:50:00 IST",
+      "startTimeUTC": "2026/11/08 00:00:00 +0000",
+      "endTimeUTC": "2026/11/08 02:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://tedesco.formaturamaxi.com.br/nhl3.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5362,
+    "title": "MLS",
+    "slug": "minnesota-vs-san-jose",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "MLS",
+      "category": "Football",
+      "teamA": "Minnesota",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/41618/image",
+      "teamB": "San Jose",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/21825/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/242/image/dark",
+      "startTimeIST": "2026-11-08 05:30:00 IST",
+      "endTimeIST": "2026-11-08 07:50:00 IST",
+      "startTimeUTC": "2026/11/08 00:00:00 +0000",
+      "endTimeUTC": "2026/11/08 02:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "Ivan-FluX",
+        "type": "hls",
+        "url": "https://fallback-video.ivan-fluxo.workers.dev/video/index.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5363,
+    "title": "MLS",
+    "slug": "salt-lake-vs-la-galaxy",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "MLS",
+      "category": "Football",
+      "teamA": "Salt Lake",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/5133/image",
+      "teamB": "LA Galaxy",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2513/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/242/image/dark",
+      "startTimeIST": "2026-11-08 05:30:00 IST",
+      "endTimeIST": "2026-11-08 07:50:00 IST",
+      "startTimeUTC": "2026/11/08 00:00:00 +0000",
+      "endTimeUTC": "2026/11/08 02:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "Ivan-FluX",
+        "type": "hls",
+        "url": "https://fallback-video.ivan-fluxo.workers.dev/video/index.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5365,
+    "title": "MLS",
+    "slug": "austin-vs-portland",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "MLS",
+      "category": "Football",
+      "teamA": "Austin",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/377973/image",
+      "teamB": "Portland",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/22007/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/242/image/dark",
+      "startTimeIST": "2026-11-08 05:30:00 IST",
+      "endTimeIST": "2026-11-08 07:50:00 IST",
+      "startTimeUTC": "2026/11/08 00:00:00 +0000",
+      "endTimeUTC": "2026/11/08 02:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "Ivan-FluX",
+        "type": "hls",
+        "url": "https://fallback-video.ivan-fluxo.workers.dev/video/index.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5347,
