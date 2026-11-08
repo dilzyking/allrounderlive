@@ -395,40 +395,6 @@
     "dashStreams": []
   },
   {
-    "id": 5475,
-    "title": "Goal Rush: Matchweek 10",
-    "slug": "epl-goal-rush-vs-epl-goal-rush",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Goal Rush: Matchweek 10",
-      "category": "Football",
-      "teamA": "EPL GOAL RUSH",
-      "teamAFlag": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBQuK9f83R-ZR8UuTd9cAuDw0iRlnsA6BktkcSzGtkUarFGjxrwrz87NJ6TgcU5c6uDEYC1rGahGofzkMFFfABHpeLggTOmsG3xQDknM3OjWLgdPBfdDFm0dIEXNUp5tYg_wfLREEuE92_3wUz7Kd-kuJtX8aohww70b_xJA0eGKVVPdPUkdXPTUC-xUA/s1600/1000027519.png",
-      "teamB": "EPL GOAL RUSH",
-      "teamBFlag": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBQuK9f83R-ZR8UuTd9cAuDw0iRlnsA6BktkcSzGtkUarFGjxrwrz87NJ6TgcU5c6uDEYC1rGahGofzkMFFfABHpeLggTOmsG3xQDknM3OjWLgdPBfdDFm0dIEXNUp5tYg_wfLREEuE92_3wUz7Kd-kuJtX8aohww70b_xJA0eGKVVPdPUkdXPTUC-xUA/s1600/1000027519.png",
-      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBQuK9f83R-ZR8UuTd9cAuDw0iRlnsA6BktkcSzGtkUarFGjxrwrz87NJ6TgcU5c6uDEYC1rGahGofzkMFFfABHpeLggTOmsG3xQDknM3OjWLgdPBfdDFm0dIEXNUp5tYg_wfLREEuE92_3wUz7Kd-kuJtX8aohww70b_xJA0eGKVVPdPUkdXPTUC-xUA/s1600/1000027519.png",
-      "startTimeIST": "2026-11-08 19:20:00 IST",
-      "endTimeIST": "2026-11-08 22:00:00 IST",
-      "startTimeUTC": "2026/11/08 13:50:00 +0000",
-      "endTimeUTC": "2026/11/08 16:30:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PEACOCK FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/13ywhzn7pg/out/v1/79983d5e2c0e40d186b40684827ffe9c/cenc.mpd",
-        "key": "777a59fc87058b03c8528616e716c62e:e375242a8bd1ffa44eb7f83ada3db1aa"
-      },
-      {
-        "title": "PEACOCK ALT",
-        "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/13ywhzn7pg/out/v1/79983d5e2c0e40d186b40684827ffe9c/cenc.mpd",
-        "key": "777a59fc87058b03c8528616e716c62e:e375242a8bd1ffa44eb7f83ada3db1aa"
-      }
-    ]
-  },
-  {
     "id": 5446,
     "title": "FA Cup",
     "slug": "cray-vs-stockport-county",
@@ -1196,7 +1162,7 @@
     "title": "Premier League",
     "slug": "man-utd-vs-aston-villa",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Premier League",
       "category": "Football",
@@ -1230,9 +1196,15 @@
         "key": null
       },
       {
-        "title": "HD SERVER",
+        "title": "USA NETWORK FHD",
         "type": "hls",
         "url": "https://chatgpt.hereisman.net/playlist/59599/load-playlist?&.m3u8",
+        "key": null
+      },
+      {
+        "title": "FAST SERVER",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4558721.m3u8?txSecret=b3a9b851fc77cd7b99cc463c389a9741&txTime=6AF0B4F2",
         "key": null
       }
     ]
@@ -1242,7 +1214,7 @@
     "title": "Bundesliga",
     "slug": "freiburg-vs-union-berlin",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Bundesliga",
       "category": "Football",
@@ -2633,6 +2605,40 @@
         "type": "hls",
         "url": "http://193.47.62.44/hls/SYYY.m3u8",
         "key": null
+      }
+    ]
+  },
+  {
+    "id": 5475,
+    "title": "Goal Rush: Matchweek 10",
+    "slug": "epl-goal-rush-vs-epl-goal-rush",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Goal Rush: Matchweek 10",
+      "category": "Football",
+      "teamA": "EPL GOAL RUSH",
+      "teamAFlag": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBQuK9f83R-ZR8UuTd9cAuDw0iRlnsA6BktkcSzGtkUarFGjxrwrz87NJ6TgcU5c6uDEYC1rGahGofzkMFFfABHpeLggTOmsG3xQDknM3OjWLgdPBfdDFm0dIEXNUp5tYg_wfLREEuE92_3wUz7Kd-kuJtX8aohww70b_xJA0eGKVVPdPUkdXPTUC-xUA/s1600/1000027519.png",
+      "teamB": "EPL GOAL RUSH",
+      "teamBFlag": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBQuK9f83R-ZR8UuTd9cAuDw0iRlnsA6BktkcSzGtkUarFGjxrwrz87NJ6TgcU5c6uDEYC1rGahGofzkMFFfABHpeLggTOmsG3xQDknM3OjWLgdPBfdDFm0dIEXNUp5tYg_wfLREEuE92_3wUz7Kd-kuJtX8aohww70b_xJA0eGKVVPdPUkdXPTUC-xUA/s1600/1000027519.png",
+      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBQuK9f83R-ZR8UuTd9cAuDw0iRlnsA6BktkcSzGtkUarFGjxrwrz87NJ6TgcU5c6uDEYC1rGahGofzkMFFfABHpeLggTOmsG3xQDknM3OjWLgdPBfdDFm0dIEXNUp5tYg_wfLREEuE92_3wUz7Kd-kuJtX8aohww70b_xJA0eGKVVPdPUkdXPTUC-xUA/s1600/1000027519.png",
+      "startTimeIST": "2026-11-08 19:20:00 IST",
+      "endTimeIST": "2026-11-08 22:00:00 IST",
+      "startTimeUTC": "2026/11/08 13:50:00 +0000",
+      "endTimeUTC": "2026/11/08 16:30:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "PEACOCK FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/13ywhzn7pg/out/v1/79983d5e2c0e40d186b40684827ffe9c/cenc.mpd",
+        "key": "777a59fc87058b03c8528616e716c62e:e375242a8bd1ffa44eb7f83ada3db1aa"
+      },
+      {
+        "title": "PEACOCK ALT",
+        "type": "dash",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/13ywhzn7pg/out/v1/79983d5e2c0e40d186b40684827ffe9c/cenc.mpd",
+        "key": "777a59fc87058b03c8528616e716c62e:e375242a8bd1ffa44eb7f83ada3db1aa"
       }
     ]
   },
