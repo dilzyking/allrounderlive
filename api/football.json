@@ -395,70 +395,6 @@
     "dashStreams": []
   },
   {
-    "id": 5466,
-    "title": "NFL",
-    "slug": "falcons-vs-bengals",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "NFL",
-      "category": "Football",
-      "teamA": "Falcons",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/4393/image",
-      "teamB": "Bengals",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4416/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
-      "startTimeIST": "2026-11-08 20:00:00 IST",
-      "endTimeIST": "2026-11-08 23:00:00 IST",
-      "startTimeUTC": "2026/11/08 14:30:00 +0000",
-      "endTimeUTC": "2026/11/08 17:30:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/jq7xtmrld4/out/v1/95dfdfa733784f1fb1800a060fad4e96/cenc.mpd",
-        "key": "42a3946f97dd9304eccf00b769261c8e:947067e7d5f233542225a236a10f422d"
-      },
-      {
-        "title": "SporTV BR FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd?",
-        "key": "9009b7189e3e68cc09d17811f2beb55a:dd3f96a94c909da48ff40c92aabf8cf3"
-      },
-      {
-        "title": "NFL HD",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59580/load-playlist?&.m3u8",
-        "key": null
-      },
-      {
-        "title": "NFL LIVE",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59591/load-playlist?&.m3u8",
-        "key": null
-      },
-      {
-        "title": "SERVER 3",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59581/load-playlist?&.m3u8",
-        "key": null
-      },
-      {
-        "title": "SERVER",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59582/load-playlist?&.m3u8",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.50/hls/TTTT.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5391,
     "title": "LaLiga",
     "slug": "real-sociedad-vs-rayo-vallecano",
@@ -1138,6 +1074,12 @@
         "key": null
       },
       {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/487aeb2a-7ac2-486d-9e42-0d62c0328e63.m3u8",
+        "key": null
+      },
+      {
         "title": "SD SERVER",
         "type": "hls",
         "url": "http://193.47.62.44/hls/Q344AAAAAA.m3u8",
@@ -1199,7 +1141,7 @@
     "title": "LaLiga",
     "slug": "villarreal-vs-getafe",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "LaLiga",
       "category": "Football",
@@ -1239,7 +1181,7 @@
     "title": "LaLiga",
     "slug": "celta-vs-levante",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "LaLiga",
       "category": "Football",
@@ -1259,6 +1201,12 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
         "key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
+      },
+      {
+        "title": "FANCODE FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd?",
+        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
       }
     ]
   },
@@ -1267,7 +1215,7 @@
     "title": "LaLiga 2",
     "slug": "las-palmas-vs-eldense",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "LaLiga 2",
       "category": "Football",
@@ -1288,7 +1236,7 @@
     "title": "LaLiga 2",
     "slug": "sporting-vs-valladolid",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "LaLiga 2",
       "category": "Football",
@@ -1302,7 +1250,14 @@
       "startTimeUTC": "2026/11/08 17:30:00 +0000",
       "endTimeUTC": "2026/11/08 19:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "LaLiga Hypermotion ES",
+        "type": "dash",
+        "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
+        "key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
+      }
+    ]
   },
   {
     "id": 3926,
@@ -1461,7 +1416,20 @@
       "startTimeUTC": "2026/11/08 18:00:00 +0000",
       "endTimeUTC": "2026/11/08 21:00:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "NFL HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59602/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "NFL LIVE",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59603/load-playlist.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5463,
@@ -1482,7 +1450,20 @@
       "startTimeUTC": "2026/11/08 18:00:00 +0000",
       "endTimeUTC": "2026/11/08 21:00:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "NFL HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59609/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "NFL LIVE",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59608/load-playlist.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5464,
@@ -1503,7 +1484,26 @@
       "startTimeUTC": "2026/11/08 18:00:00 +0000",
       "endTimeUTC": "2026/11/08 21:00:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "TSN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd?",
+        "key": "14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d"
+      },
+      {
+        "title": "NFL HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59617/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "NFL LIVE",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59618/load-playlist.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5465,
@@ -1545,7 +1545,20 @@
       "startTimeUTC": "2026/11/08 18:00:00 +0000",
       "endTimeUTC": "2026/11/08 21:00:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "NFL HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59605/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "NFL LIVE",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59604/load-playlist.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5468,
@@ -1566,7 +1579,20 @@
       "startTimeUTC": "2026/11/08 18:00:00 +0000",
       "endTimeUTC": "2026/11/08 21:00:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "NFL HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59613/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "NFL LIVE",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59612/load-playlist.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5472,
@@ -1587,7 +1613,20 @@
       "startTimeUTC": "2026/11/08 18:00:00 +0000",
       "endTimeUTC": "2026/11/08 21:00:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "NFL HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59610/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "NFL LIVE",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59611/load-playlist.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5399,
@@ -1671,7 +1710,26 @@
       "startTimeUTC": "2026/11/08 19:45:00 +0000",
       "endTimeUTC": "2026/11/08 22:05:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "beIN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?",
+        "key": "27759a440e8ad821b800b3de00cd5851:1b8743adee559f27845f55e8b4d639fe"
+      },
+      {
+        "title": "beIN ESPANOL FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd?",
+        "key": "74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c"
+      },
+      {
+        "title": "CAZE TV FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ui54qo0g6h/out/v1/620e1448188d4bbe9a28d0dd52f45bb7/cenc.mpd?",
+        "key": "ba6aca5a550163c38d06646bb50f04e7:516c3b471fce48a5b7a2e5ee7dd505f2"
+      }
+    ]
   },
   {
     "id": 5390,
@@ -2101,6 +2159,70 @@
         "title": "SD SERVER+",
         "type": "hls",
         "url": "http://162.251.160.53:8089/prime_us_b0hlvnvs53/index.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5466,
+    "title": "NFL",
+    "slug": "falcons-vs-bengals",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "NFL",
+      "category": "Football",
+      "teamA": "Falcons",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4393/image",
+      "teamB": "Bengals",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4416/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "startTimeIST": "2026-11-08 20:00:00 IST",
+      "endTimeIST": "2026-11-08 23:00:00 IST",
+      "startTimeUTC": "2026/11/08 14:30:00 +0000",
+      "endTimeUTC": "2026/11/08 17:30:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/jq7xtmrld4/out/v1/95dfdfa733784f1fb1800a060fad4e96/cenc.mpd",
+        "key": "42a3946f97dd9304eccf00b769261c8e:947067e7d5f233542225a236a10f422d"
+      },
+      {
+        "title": "SporTV BR FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd?",
+        "key": "9009b7189e3e68cc09d17811f2beb55a:dd3f96a94c909da48ff40c92aabf8cf3"
+      },
+      {
+        "title": "NFL HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59580/load-playlist?&.m3u8",
+        "key": null
+      },
+      {
+        "title": "NFL LIVE",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59591/load-playlist?&.m3u8",
+        "key": null
+      },
+      {
+        "title": "SERVER 3",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59581/load-playlist?&.m3u8",
+        "key": null
+      },
+      {
+        "title": "SERVER",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59582/load-playlist?&.m3u8",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.50/hls/TTTT.m3u8",
         "key": null
       }
     ]
