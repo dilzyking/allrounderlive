@@ -395,156 +395,6 @@
     "dashStreams": []
   },
   {
-    "id": 5390,
-    "title": "LaLiga",
-    "slug": "atletico-madrid-vs-barcelona",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "LaLiga",
-      "category": "Football",
-      "teamA": "Atlético Madrid",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2836/image",
-      "teamB": "Barcelona",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2817/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
-      "startTimeIST": "2026-11-09 01:30:00 IST",
-      "endTimeIST": "2026-11-09 04:20:00 IST",
-      "startTimeUTC": "2026/11/08 20:00:00 +0000",
-      "endTimeUTC": "2026/11/08 22:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "DAZN SPORTS [ MULTI COMMENTRY]",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/2he6yoxvnk/out/v1/03bbc4458f904566867b3d9edf4562e0/cenc.mpd",
-        "key": "b1a43935c991dc8e6a035706a908e6f4:34d67267e116671a6216be066093a3b2"
-      },
-      {
-        "title": "beIN ENGLISH FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
-        "key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
-      },
-      {
-        "title": "PREMIER SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
-        "key": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f"
-      },
-      {
-        "title": "TSN SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd",
-        "key": "d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37"
-      },
-      {
-        "title": "DAZN SPORTS [GER]",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/diw10svamz/out/v1/632e30dd88a84b74a430d0903b256245/cenc.mpd",
-        "key": "b24c292436ae84178eea604e6e3578c6:6c88f1be55496b455f217372c717ac0f"
-      },
-      {
-        "title": "FANCODE FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd?",
-        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
-      },
-      {
-        "title": "CAZE TV FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
-        "key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
-      },
-      {
-        "title": "FANCODE SD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
-      },
-      {
-        "title": "beIN ARABIC FHD",
-        "type": "hls",
-        "url": "https://live-cdn.ryazanslah3.space/hls/bein6.m3u8?",
-        "key": null
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.41/hls/8888A.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5411,
-    "title": "Liga Portugal Betclic",
-    "slug": "rio-ave-vs-braga",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Liga Portugal Betclic",
-      "category": "Football",
-      "teamA": "Rio Ave",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/3036/image",
-      "teamB": "Braga",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2999/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/238/image/dark",
-      "startTimeIST": "2026-11-09 02:00:00 IST",
-      "endTimeIST": "2026-11-09 04:20:00 IST",
-      "startTimeUTC": "2026/11/08 20:30:00 +0000",
-      "endTimeUTC": "2026/11/08 22:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel14.m3u8",
-        "key": null
-      },
-      {
-        "title": "LOW QUALITY",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/FYYYQQ.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5413,
-    "title": "Liga Portugal Betclic",
-    "slug": "estrela-amadora-vs-benfica",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Liga Portugal Betclic",
-      "category": "Football",
-      "teamA": "Estrela Amadora",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/3035/image",
-      "teamB": "Benfica",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/3006/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/238/image/dark",
-      "startTimeIST": "2026-11-09 02:00:00 IST",
-      "endTimeIST": "2026-11-09 04:20:00 IST",
-      "startTimeUTC": "2026/11/08 20:30:00 +0000",
-      "endTimeUTC": "2026/11/08 22:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SportDigital Fussball",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?",
-        "key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
-      },
-      {
-        "title": "D SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd?",
-        "key": "03f12d6a3dbfd3a6fa7dd7f6417e0c11:ea07b87acdf2e45be824cde4a1cf3504"
-      }
-    ]
-  },
-  {
     "id": 5469,
     "title": "NFL",
     "slug": "chargers-vs-texans",
@@ -793,6 +643,156 @@
         "title": "SonyLiv (BEN)",
         "type": "hls",
         "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120304/Footlive0711/BEN/std_lrh-800300010.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5411,
+    "title": "Liga Portugal Betclic",
+    "slug": "rio-ave-vs-braga",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Liga Portugal Betclic",
+      "category": "Football",
+      "teamA": "Rio Ave",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/3036/image",
+      "teamB": "Braga",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2999/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/238/image/dark",
+      "startTimeIST": "2026-11-09 02:00:00 IST",
+      "endTimeIST": "2026-11-09 04:20:00 IST",
+      "startTimeUTC": "2026/11/08 20:30:00 +0000",
+      "endTimeUTC": "2026/11/08 22:50:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel14.m3u8",
+        "key": null
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/FYYYQQ.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5413,
+    "title": "Liga Portugal Betclic",
+    "slug": "estrela-amadora-vs-benfica",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Liga Portugal Betclic",
+      "category": "Football",
+      "teamA": "Estrela Amadora",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/3035/image",
+      "teamB": "Benfica",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/3006/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/238/image/dark",
+      "startTimeIST": "2026-11-09 02:00:00 IST",
+      "endTimeIST": "2026-11-09 04:20:00 IST",
+      "startTimeUTC": "2026/11/08 20:30:00 +0000",
+      "endTimeUTC": "2026/11/08 22:50:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "SportDigital Fussball",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?",
+        "key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
+      },
+      {
+        "title": "D SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd?",
+        "key": "03f12d6a3dbfd3a6fa7dd7f6417e0c11:ea07b87acdf2e45be824cde4a1cf3504"
+      }
+    ]
+  },
+  {
+    "id": 5390,
+    "title": "LaLiga",
+    "slug": "atletico-madrid-vs-barcelona",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "LaLiga",
+      "category": "Football",
+      "teamA": "Atlético Madrid",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2836/image",
+      "teamB": "Barcelona",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2817/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
+      "startTimeIST": "2026-11-09 01:30:00 IST",
+      "endTimeIST": "2026-11-09 04:20:00 IST",
+      "startTimeUTC": "2026/11/08 20:00:00 +0000",
+      "endTimeUTC": "2026/11/08 22:50:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "DAZN SPORTS [ MULTI COMMENTRY]",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/2he6yoxvnk/out/v1/03bbc4458f904566867b3d9edf4562e0/cenc.mpd",
+        "key": "b1a43935c991dc8e6a035706a908e6f4:34d67267e116671a6216be066093a3b2"
+      },
+      {
+        "title": "beIN ENGLISH FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
+        "key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
+      },
+      {
+        "title": "PREMIER SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
+        "key": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f"
+      },
+      {
+        "title": "TSN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd",
+        "key": "d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37"
+      },
+      {
+        "title": "DAZN SPORTS [GER]",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/diw10svamz/out/v1/632e30dd88a84b74a430d0903b256245/cenc.mpd",
+        "key": "b24c292436ae84178eea604e6e3578c6:6c88f1be55496b455f217372c717ac0f"
+      },
+      {
+        "title": "FANCODE FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd?",
+        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+      },
+      {
+        "title": "CAZE TV FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
+        "key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
+      },
+      {
+        "title": "FANCODE SD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+      },
+      {
+        "title": "beIN ARABIC FHD",
+        "type": "hls",
+        "url": "https://live-cdn.ryazanslah3.space/hls/bein6.m3u8?",
+        "key": null
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.41/hls/8888A.m3u8",
         "key": null
       }
     ]
