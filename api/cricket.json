@@ -246,9 +246,9 @@
       "teamBFlag": "https://img.sofascore.com/api/v1/team/505670/image",
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/11486/image/dark",
       "startTimeIST": "2026-11-09 10:30:00 IST",
-      "endTimeIST": "2026-11-09 15:00:00 IST",
+      "endTimeIST": "2026-11-09 19:30:00 IST",
       "startTimeUTC": "2026/11/09 05:00:00 +0000",
-      "endTimeUTC": "2026/11/09 09:30:00 +0000"
+      "endTimeUTC": "2026/11/09 14:00:00 +0000"
     },
     "dashStreams": [
       {
@@ -292,9 +292,9 @@
       "teamBFlag": "https://img.sofascore.com/api/v1/team/213103/image",
       "logo": "http://api.sofascore.com/api/v1/unique-tournament/11486/image/dark",
       "startTimeIST": "2026-11-09 10:30:00 IST",
-      "endTimeIST": "2026-11-09 15:00:00 IST",
+      "endTimeIST": "2026-11-09 19:30:00 IST",
       "startTimeUTC": "2026/11/09 05:00:00 +0000",
-      "endTimeUTC": "2026/11/09 09:30:00 +0000"
+      "endTimeUTC": "2026/11/09 14:00:00 +0000"
     },
     "dashStreams": [
       {
@@ -352,14 +352,14 @@
       {
         "title": "WILLOW FHD",
         "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0anti1gqwp/out/v1/318c6b0fc3184ab3aced919fccc017f9/cenc.mpd",
-        "key": "7f6cef23a9b2d9b21e04cd96753f7d01:3f260e0025a8b3273ece982cff0562e0"
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tfcrrqefcx/out/v1/67d930d3a40e495f969711b734f22660/cenc.mpd?",
+        "key": "d006e8b41e37c259818c8d491904d3e7:2f7eceaab743d906957b9958152c8972"
       },
       {
         "title": "WILLOW ALT",
         "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0anti1gqwp/out/v1/318c6b0fc3184ab3aced919fccc017f9/cenc.mpd",
-        "key": "7f6cef23a9b2d9b21e04cd96753f7d01:3f260e0025a8b3273ece982cff0562e0"
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/tfcrrqefcx/out/v1/67d930d3a40e495f969711b734f22660/cenc.mpd",
+        "key": "d006e8b41e37c259818c8d491904d3e7:2f7eceaab743d906957b9958152c8972"
       },
       {
         "title": "A SPORTS HD",
