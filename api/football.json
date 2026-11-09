@@ -4308,40 +4308,6 @@
     ]
   },
   {
-    "id": 5414,
-    "title": "VriendenLoterij Eredivisie",
-    "slug": "heerenveen-vs-feyenoord",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "VriendenLoterij Eredivisie",
-      "category": "Football",
-      "teamA": "Heerenveen",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2964/image",
-      "teamB": "Feyenoord",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2959/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
-      "startTimeIST": "2026-11-08 16:45:00 IST",
-      "endTimeIST": "2026-11-08 19:05:00 IST",
-      "startTimeUTC": "2026/11/08 11:15:00 +0000",
-      "endTimeUTC": "2026/11/08 13:35:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SportDigital Fussball",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?",
-        "key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/BKKKAAAAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 3255,
     "title": "UEFA Europa League Simulcast",
     "slug": "the-golazo-show-vs-the-golazo-show",
