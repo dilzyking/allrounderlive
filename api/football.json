@@ -3935,40 +3935,6 @@
     ]
   },
   {
-    "id": 5419,
-    "title": "VriendenLoterij Eredivisie",
-    "slug": "twente-vs-ajax",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "VriendenLoterij Eredivisie",
-      "category": "Football",
-      "teamA": "Twente",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2955/image",
-      "teamB": "Ajax",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2953/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/37/image/dark",
-      "startTimeIST": "2026-11-08 19:00:00 IST",
-      "endTimeIST": "2026-11-08 21:20:00 IST",
-      "startTimeUTC": "2026/11/08 13:30:00 +0000",
-      "endTimeUTC": "2026/11/08 15:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SportDigital Fussball",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?",
-        "key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://www.rtmpcdn.com/live/dd4556fd-8216-47eb-a684-3d72cdccc086.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 3255,
     "title": "UEFA Europa League Simulcast",
     "slug": "the-golazo-show-vs-the-golazo-show",
