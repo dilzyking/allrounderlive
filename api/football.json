@@ -395,102 +395,6 @@
     "dashStreams": []
   },
   {
-    "id": 5462,
-    "title": "NFL",
-    "slug": "seahawks-vs-cardinals",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "NFL",
-      "category": "Football",
-      "teamA": "Seahawks",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/4430/image",
-      "teamB": "Cardinals",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4412/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
-      "startTimeIST": "2026-11-09 02:55:00 IST",
-      "endTimeIST": "2026-11-09 05:55:00 IST",
-      "startTimeUTC": "2026/11/08 21:25:00 +0000",
-      "endTimeUTC": "2026/11/09 00:25:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "NFL HD",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59662/load-playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "NFL LIVE",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59661/load-playlist.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5470,
-    "title": "NFL",
-    "slug": "49ers-vs-raiders",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "NFL",
-      "category": "Football",
-      "teamA": "49ers",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/4389/image",
-      "teamB": "Raiders",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4390/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
-      "startTimeIST": "2026-11-09 02:55:00 IST",
-      "endTimeIST": "2026-11-09 05:55:00 IST",
-      "startTimeUTC": "2026/11/08 21:25:00 +0000",
-      "endTimeUTC": "2026/11/09 00:25:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "TSN SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd?",
-        "key": "14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d"
-      }
-    ]
-  },
-  {
-    "id": 5471,
-    "title": "NFL",
-    "slug": "patriots-vs-packers",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "NFL",
-      "category": "Football",
-      "teamA": "Patriots",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/4424/image",
-      "teamB": "Packers",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4420/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
-      "startTimeIST": "2026-11-09 02:55:00 IST",
-      "endTimeIST": "2026-11-09 05:55:00 IST",
-      "startTimeUTC": "2026/11/08 21:25:00 +0000",
-      "endTimeUTC": "2026/11/09 00:25:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SporTV BR FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd",
-        "key": "9009b7189e3e68cc09d17811f2beb55a:dd3f96a94c909da48ff40c92aabf8cf3"
-      },
-      {
-        "title": "NOVA SPORT FHD",
-        "type": "dash",
-        "url": "https://dash2.antik.sk/stream/nvidia_nova_sport2/playlist_cenc.mpd",
-        "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-      }
-    ]
-  },
-  {
     "id": 5433,
     "title": "Liga MX, Apertura",
     "slug": "queretaro-vs-puebla",
@@ -616,6 +520,102 @@
         "type": "hls",
         "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120304/Footlive0711/BEN/std_lrh-800300010.m3u8",
         "key": null
+      }
+    ]
+  },
+  {
+    "id": 5462,
+    "title": "NFL",
+    "slug": "seahawks-vs-cardinals",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "NFL",
+      "category": "Football",
+      "teamA": "Seahawks",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4430/image",
+      "teamB": "Cardinals",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4412/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "startTimeIST": "2026-11-09 02:55:00 IST",
+      "endTimeIST": "2026-11-09 05:55:00 IST",
+      "startTimeUTC": "2026/11/08 21:25:00 +0000",
+      "endTimeUTC": "2026/11/09 00:25:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "NFL HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59662/load-playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "NFL LIVE",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59661/load-playlist.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5470,
+    "title": "NFL",
+    "slug": "49ers-vs-raiders",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "NFL",
+      "category": "Football",
+      "teamA": "49ers",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4389/image",
+      "teamB": "Raiders",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4390/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "startTimeIST": "2026-11-09 02:55:00 IST",
+      "endTimeIST": "2026-11-09 05:55:00 IST",
+      "startTimeUTC": "2026/11/08 21:25:00 +0000",
+      "endTimeUTC": "2026/11/09 00:25:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "TSN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd?",
+        "key": "14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d"
+      }
+    ]
+  },
+  {
+    "id": 5471,
+    "title": "NFL",
+    "slug": "patriots-vs-packers",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "NFL",
+      "category": "Football",
+      "teamA": "Patriots",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4424/image",
+      "teamB": "Packers",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4420/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "startTimeIST": "2026-11-09 02:55:00 IST",
+      "endTimeIST": "2026-11-09 05:55:00 IST",
+      "startTimeUTC": "2026/11/08 21:25:00 +0000",
+      "endTimeUTC": "2026/11/09 00:25:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "SporTV BR FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd",
+        "key": "9009b7189e3e68cc09d17811f2beb55a:dd3f96a94c909da48ff40c92aabf8cf3"
+      },
+      {
+        "title": "NOVA SPORT FHD",
+        "type": "dash",
+        "url": "https://dash2.antik.sk/stream/nvidia_nova_sport2/playlist_cenc.mpd",
+        "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
       }
     ]
   },
