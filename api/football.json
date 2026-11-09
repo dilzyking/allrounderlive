@@ -395,34 +395,6 @@
     "dashStreams": []
   },
   {
-    "id": 5434,
-    "title": "Liga MX, Apertura",
-    "slug": "leon-vs-guadalajara",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Liga MX, Apertura",
-      "category": "Football",
-      "teamA": "León",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/36534/image",
-      "teamB": "Guadalajara",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1938/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11621/image/dark",
-      "startTimeIST": "2026-11-09 07:40:00 IST",
-      "endTimeIST": "2026-11-09 10:00:00 IST",
-      "startTimeUTC": "2026/11/09 02:10:00 +0000",
-      "endTimeUTC": "2026/11/09 04:30:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/NTTTAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 4454,
     "title": "Indian Super League",
     "slug": "isl-vs-isl",
@@ -464,6 +436,34 @@
         "title": "SonyLiv (BEN)",
         "type": "hls",
         "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120304/Footlive0711/BEN/std_lrh-800300010.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5434,
+    "title": "Liga MX, Apertura",
+    "slug": "leon-vs-guadalajara",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Liga MX, Apertura",
+      "category": "Football",
+      "teamA": "León",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/36534/image",
+      "teamB": "Guadalajara",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1938/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11621/image/dark",
+      "startTimeIST": "2026-11-09 07:40:00 IST",
+      "endTimeIST": "2026-11-09 10:00:00 IST",
+      "startTimeUTC": "2026/11/09 02:10:00 +0000",
+      "endTimeUTC": "2026/11/09 04:30:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/NTTTAA.m3u8",
         "key": null
       }
     ]
