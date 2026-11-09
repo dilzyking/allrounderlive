@@ -1,39 +1,5 @@
 [
   {
-    "id": 4896,
-    "title": "Nepal Premier League",
-    "slug": "npl-vs-npl",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Nepal Premier League",
-      "category": "Cricket",
-      "teamA": "NPL",
-      "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAV3dcOxi7602i_xcqoTE6eoiGVCPJFo6uZwtDkDK-g&s=10",
-      "teamB": "NPL",
-      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAV3dcOxi7602i_xcqoTE6eoiGVCPJFo6uZwtDkDK-g&s=10",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAV3dcOxi7602i_xcqoTE6eoiGVCPJFo6uZwtDkDK-g&s=10",
-      "startTimeIST": "2026-11-09 12:10:00 IST",
-      "endTimeIST": "2026-11-09 21:20:00 IST",
-      "startTimeUTC": "2026/11/09 06:40:00 +0000",
-      "endTimeUTC": "2026/11/09 15:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "NPL LIVE FHD",
-        "type": "hls",
-        "url": "https://kick.com/api/v2/channels/anyiahsp",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://162.251.160.53:8089/NPLT20/index.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5473,
     "title": "U19 Asia Cup",
     "slug": "ban-u19-vs-mas-u19",
@@ -196,7 +162,7 @@
       "teamAFlag": "https://img.sofascore.com/api/v1/team/187755/image",
       "teamB": "IND",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/187765/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11190/image/dark",
+      "logo": "http://img.sofascore.com/api/v1/unique-tournament/11190/image",
       "startTimeIST": "2026-11-10 07:30:00 IST",
       "endTimeIST": "2026-11-10 17:30:00 IST",
       "startTimeUTC": "2026/11/10 02:00:00 +0000",
@@ -290,7 +256,7 @@
       "teamAFlag": "https://img.sofascore.com/api/v1/team/187754/image",
       "teamB": "SL",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/187756/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18833/image/dark",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18833/image",
       "startTimeIST": "2026-11-10 09:50:00 IST",
       "endTimeIST": "2026-11-10 18:30:00 IST",
       "startTimeUTC": "2026/11/10 04:20:00 +0000",
@@ -516,6 +482,40 @@
       "endTimeUTC": "2000/01/01 00:00:00 +0000"
     },
     "dashStreams": []
+  },
+  {
+    "id": 4896,
+    "title": "Nepal Premier League",
+    "slug": "npl-vs-npl",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Nepal Premier League",
+      "category": "Cricket",
+      "teamA": "NPL",
+      "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAV3dcOxi7602i_xcqoTE6eoiGVCPJFo6uZwtDkDK-g&s=10",
+      "teamB": "NPL",
+      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAV3dcOxi7602i_xcqoTE6eoiGVCPJFo6uZwtDkDK-g&s=10",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQAV3dcOxi7602i_xcqoTE6eoiGVCPJFo6uZwtDkDK-g&s=10",
+      "startTimeIST": "2026-11-09 12:10:00 IST",
+      "endTimeIST": "2026-11-09 21:20:00 IST",
+      "startTimeUTC": "2026/11/09 06:40:00 +0000",
+      "endTimeUTC": "2026/11/09 15:50:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "NPL LIVE FHD",
+        "type": "hls",
+        "url": "https://kick.com/api/v2/channels/anyiahsp",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://162.251.160.53:8089/NPLT20/index.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 4728,
