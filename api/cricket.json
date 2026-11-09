@@ -162,52 +162,6 @@
     ]
   },
   {
-    "id": 4728,
-    "title": "ICC World Test Championship",
-    "slug": "ban-vs-wi",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "ICC World Test Championship",
-      "category": "Cricket",
-      "teamA": "BAN",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/187744/image",
-      "teamB": "WI",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/187760/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18833/image/dark",
-      "startTimeIST": "2026-11-09 09:00:00 IST",
-      "endTimeIST": "2026-11-09 17:30:00 IST",
-      "startTimeUTC": "2026/11/09 03:30:00 +0000",
-      "endTimeUTC": "2026/11/09 12:00:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "FANCODE FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
-        "key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
-      },
-      {
-        "title": "FANCODE SD",
-        "type": "dash",
-        "url": "https://live-pv-ta.amazon.fastly-edge.com/bom-nitro/live/clients/dash-sd/enc/eayjamsonn/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd",
-        "key": "5318e462b9e0677487cb87837f0bbdb1:4fa0fb973b95738306005f2e8591bf8e"
-      },
-      {
-        "title": "T SPORTS HD",
-        "type": "hls",
-        "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8",
-        "key": null
-      },
-      {
-        "title": "T SPORTS HD",
-        "type": "hls",
-        "url": "http://103.16.24.4:8083/14.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5473,
     "title": "U19 Asia Cup",
     "slug": "ban-u19-vs-mas-u19",
@@ -636,6 +590,52 @@
       "endTimeUTC": "2000/01/01 00:00:00 +0000"
     },
     "dashStreams": []
+  },
+  {
+    "id": 4728,
+    "title": "ICC World Test Championship",
+    "slug": "ban-vs-wi",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "ICC World Test Championship",
+      "category": "Cricket",
+      "teamA": "BAN",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/187744/image",
+      "teamB": "WI",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/187760/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/18833/image/dark",
+      "startTimeIST": "2026-11-09 09:00:00 IST",
+      "endTimeIST": "2026-11-09 17:30:00 IST",
+      "startTimeUTC": "2026/11/09 03:30:00 +0000",
+      "endTimeUTC": "2026/11/09 12:00:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "FANCODE FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+        "key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
+      },
+      {
+        "title": "FANCODE SD",
+        "type": "dash",
+        "url": "https://live-pv-ta.amazon.fastly-edge.com/bom-nitro/live/clients/dash-sd/enc/eayjamsonn/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd",
+        "key": "5318e462b9e0677487cb87837f0bbdb1:4fa0fb973b95738306005f2e8591bf8e"
+      },
+      {
+        "title": "T SPORTS HD",
+        "type": "hls",
+        "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8",
+        "key": null
+      },
+      {
+        "title": "T SPORTS HD",
+        "type": "hls",
+        "url": "http://103.16.24.4:8083/14.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 984,
