@@ -3807,40 +3807,6 @@
     ]
   },
   {
-    "id": 5348,
-    "title": "Liga MX, Apertura",
-    "slug": "pumas-vs-america",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Liga MX, Apertura",
-      "category": "Football",
-      "teamA": "Pumas",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1933/image",
-      "teamB": "América",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1939/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11621/image/dark",
-      "startTimeIST": "2026-11-08 08:40:00 IST",
-      "endTimeIST": "2026-11-08 11:00:00 IST",
-      "startTimeUTC": "2026/11/08 03:10:00 +0000",
-      "endTimeUTC": "2026/11/08 05:30:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "CANAL5 FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ntkdl68eob/out/v1/bd5dfb7676994383881bc6e71877d29d/cenc.mpd",
-        "key": "d695093ea3e66d75a4d213a3e2cbf360:01be3f645e89a067d2786c295f68dde4"
-      },
-      {
-        "title": "CBS NETWORK",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-        "key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-      }
-    ]
-  },
-  {
     "id": 3255,
     "title": "UEFA Europa League Simulcast",
     "slug": "the-golazo-show-vs-the-golazo-show",
