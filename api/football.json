@@ -3779,34 +3779,6 @@
     ]
   },
   {
-    "id": 5331,
-    "title": "A-League Men",
-    "slug": "macarthur-vs-brisbane-roar",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "A-League Men",
-      "category": "Football",
-      "teamA": "Macarthur",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/371682/image",
-      "teamB": "Brisbane Roar",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/5968/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/136/image/dark",
-      "startTimeIST": "2026-11-08 09:30:00 IST",
-      "endTimeIST": "2026-11-08 11:50:00 IST",
-      "startTimeUTC": "2026/11/08 04:00:00 +0000",
-      "endTimeUTC": "2026/11/08 06:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "TNT SPORTS 2",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
-        "key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
-      }
-    ]
-  },
-  {
     "id": 3255,
     "title": "UEFA Europa League Simulcast",
     "slug": "the-golazo-show-vs-the-golazo-show",
