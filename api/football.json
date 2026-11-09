@@ -378,7 +378,7 @@
     "title": "Frauen-Bundesliga",
     "slug": "koln-vs-leipzig",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Frauen-Bundesliga",
       "category": "Football",
@@ -2414,97 +2414,6 @@
         "key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
       }
     ]
-  },
-  {
-    "id": 5394,
-    "title": "Serie A",
-    "slug": "inter-vs-como",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Serie A",
-      "category": "Football",
-      "teamA": "Inter",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2697/image",
-      "teamB": "Como",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2704/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "startTimeIST": "2026-11-08 22:30:00 IST",
-      "endTimeIST": "2026-11-09 00:50:00 IST",
-      "startTimeUTC": "2026/11/08 17:00:00 +0000",
-      "endTimeUTC": "2026/11/08 19:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+ FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/7vxha8ilkr/out/v1/1a5a110bbe1246eeb1af95456bc7e77e/cenc.mpd?",
-        "key": "38df13df2c20d1fdac35938a37d0b40e:0e6856b2387be00dc6cda8bbfb6db614"
-      },
-      {
-        "title": "TNT SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
-        "key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
-      },
-      {
-        "title": "beIN ENGLISH FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-        "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-      },
-      {
-        "title": "CBS NETWORK FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-        "key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-      },
-      {
-        "title": "SPORT 1 CZ",
-        "type": "dash",
-        "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-        "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-      },
-      {
-        "title": "FAST SERVER",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4549074.m3u8?txSecret=26a8a6838e48264895b467198c87c3ad&txTime=6AF0BDF6",
-        "key": null
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://www.rtmpcdn.com/live/487aeb2a-7ac2-486d-9e42-0d62c0328e63.m3u8",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/Q344AAAAAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5439,
-    "title": "Serie A Women",
-    "slug": "lazio-vs-napoli",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Serie A Women",
-      "category": "Football",
-      "teamA": "Lazio",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/389322/image",
-      "teamB": "Napoli",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/354947/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/10640/image/dark",
-      "startTimeIST": "2026-11-08 22:30:00 IST",
-      "endTimeIST": "2026-11-09 00:50:00 IST",
-      "startTimeUTC": "2026/11/08 17:00:00 +0000",
-      "endTimeUTC": "2026/11/08 19:20:00 +0000"
-    },
-    "dashStreams": []
   },
   {
     "id": 5475,
