@@ -3341,69 +3341,6 @@
     ]
   },
   {
-    "id": 5284,
-    "title": "LaLiga",
-    "slug": "elche-vs-real-betis",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "LaLiga",
-      "category": "Football",
-      "teamA": "Elche",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2846/image",
-      "teamB": "Real Betis",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2816/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/8/image/dark",
-      "startTimeIST": "2026-11-08 18:30:00 IST",
-      "endTimeIST": "2026-11-08 20:50:00 IST",
-      "startTimeUTC": "2026/11/08 13:00:00 +0000",
-      "endTimeUTC": "2026/11/08 15:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5286,
-    "title": "LaLiga 2",
-    "slug": "andorra-vs-mallorca",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "LaLiga 2",
-      "category": "Football",
-      "teamA": "Andorra",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/324871/image",
-      "teamB": "Mallorca",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2826/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "startTimeIST": "2026-11-08 18:30:00 IST",
-      "endTimeIST": "2026-11-08 20:50:00 IST",
-      "startTimeUTC": "2026/11/08 13:00:00 +0000",
-      "endTimeUTC": "2026/11/08 15:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5345,
-    "title": "Trendyol Süper Lig",
-    "slug": "corum-vs-fenerbahce",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Trendyol Süper Lig",
-      "category": "Football",
-      "teamA": "Çorum",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/77629/image",
-      "teamB": "Fenerbahçe",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/3052/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
-      "startTimeIST": "2026-11-08 18:30:00 IST",
-      "endTimeIST": "2026-11-08 20:50:00 IST",
-      "startTimeUTC": "2026/11/08 13:00:00 +0000",
-      "endTimeUTC": "2026/11/08 15:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 5435,
     "title": "2. Bundesliga",
     "slug": "bochum-vs-karlsruhe",
@@ -3504,69 +3441,6 @@
         "key": null
       }
     ]
-  },
-  {
-    "id": 5307,
-    "title": "2. Bundesliga",
-    "slug": "bochum-vs-karlsruhe",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "2. Bundesliga",
-      "category": "Football",
-      "teamA": "Bochum",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2542/image",
-      "teamB": "Karlsruhe",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2553/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
-      "startTimeIST": "2026-11-08 18:00:00 IST",
-      "endTimeIST": "2026-11-08 20:20:00 IST",
-      "startTimeUTC": "2026/11/08 12:30:00 +0000",
-      "endTimeUTC": "2026/11/08 14:50:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5309,
-    "title": "2. Bundesliga",
-    "slug": "heidenheim-vs-hannover",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "2. Bundesliga",
-      "category": "Football",
-      "teamA": "Heidenheim",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/5885/image",
-      "teamB": "Hannover",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2541/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
-      "startTimeIST": "2026-11-08 18:00:00 IST",
-      "endTimeIST": "2026-11-08 20:20:00 IST",
-      "startTimeUTC": "2026/11/08 12:30:00 +0000",
-      "endTimeUTC": "2026/11/08 14:50:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5311,
-    "title": "2. Bundesliga",
-    "slug": "magdeburg-vs-st-pauli",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "2. Bundesliga",
-      "category": "Football",
-      "teamA": "Magdeburg",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2591/image",
-      "teamB": "St. Pauli",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2526/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/44/image/dark",
-      "startTimeIST": "2026-11-08 18:00:00 IST",
-      "endTimeIST": "2026-11-08 20:20:00 IST",
-      "startTimeUTC": "2026/11/08 12:30:00 +0000",
-      "endTimeUTC": "2026/11/08 14:50:00 +0000"
-    },
-    "dashStreams": []
   },
   {
     "id": 5423,
@@ -3671,48 +3545,6 @@
     ]
   },
   {
-    "id": 5334,
-    "title": "Women's Super League",
-    "slug": "aston-villa-vs-man-utd",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Women's Super League",
-      "category": "Football",
-      "teamA": "Aston Villa",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/266375/image",
-      "teamB": "Man Utd",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/301455/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/1044/image/dark",
-      "startTimeIST": "2026-11-08 17:30:00 IST",
-      "endTimeIST": "2026-11-08 19:50:00 IST",
-      "startTimeUTC": "2026/11/08 12:00:00 +0000",
-      "endTimeUTC": "2026/11/08 14:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5336,
-    "title": "Women's Super League",
-    "slug": "liverpool-vs-arsenal",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Women's Super League",
-      "category": "Football",
-      "teamA": "Liverpool",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/66774/image",
-      "teamB": "Arsenal",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/26243/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/1044/image/dark",
-      "startTimeIST": "2026-11-08 17:30:00 IST",
-      "endTimeIST": "2026-11-08 19:50:00 IST",
-      "startTimeUTC": "2026/11/08 12:00:00 +0000",
-      "endTimeUTC": "2026/11/08 14:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 5397,
     "title": "Serie A",
     "slug": "napoli-vs-lazio",
@@ -3781,48 +3613,6 @@
         "key": null
       }
     ]
-  },
-  {
-    "id": 5293,
-    "title": "Serie A",
-    "slug": "napoli-vs-lazio",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Serie A",
-      "category": "Football",
-      "teamA": "Napoli",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2714/image",
-      "teamB": "Lazio",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2699/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "startTimeIST": "2026-11-08 17:00:00 IST",
-      "endTimeIST": "2026-11-08 19:20:00 IST",
-      "startTimeUTC": "2026/11/08 11:30:00 +0000",
-      "endTimeUTC": "2026/11/08 13:50:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5299,
-    "title": "Serie A Women",
-    "slug": "parma-vs-fc-como",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Serie A Women",
-      "category": "Football",
-      "teamA": "Parma",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/424787/image",
-      "teamB": "FC Como",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/404899/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/10640/image/dark",
-      "startTimeIST": "2026-11-08 17:00:00 IST",
-      "endTimeIST": "2026-11-08 19:20:00 IST",
-      "startTimeUTC": "2026/11/08 11:30:00 +0000",
-      "endTimeUTC": "2026/11/08 13:50:00 +0000"
-    },
-    "dashStreams": []
   },
   {
     "id": 5414,
@@ -3913,27 +3703,6 @@
         "key": null
       }
     ]
-  },
-  {
-    "id": 5340,
-    "title": "Trendyol Süper Lig",
-    "slug": "rizespor-vs-erzurumspor",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Trendyol Süper Lig",
-      "category": "Football",
-      "teamA": "Rizespor",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/3064/image",
-      "teamB": "Erzurumspor",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/55603/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/52/image/dark",
-      "startTimeIST": "2026-11-08 16:00:00 IST",
-      "endTimeIST": "2026-11-08 18:20:00 IST",
-      "startTimeUTC": "2026/11/08 10:30:00 +0000",
-      "endTimeUTC": "2026/11/08 12:50:00 +0000"
-    },
-    "dashStreams": []
   },
   {
     "id": 5442,
