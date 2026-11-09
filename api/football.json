@@ -453,7 +453,14 @@
       "startTimeUTC": "2026/11/09 02:10:00 +0000",
       "endTimeUTC": "2026/11/09 04:30:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/NTTTAA.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 4454,
