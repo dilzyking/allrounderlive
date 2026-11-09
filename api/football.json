@@ -2813,46 +2813,6 @@
     ]
   },
   {
-    "id": 5431,
-    "title": "Scottish Premiership",
-    "slug": "celtic-vs-kilmarnock",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Scottish Premiership",
-      "category": "Football",
-      "teamA": "Celtic",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2352/image",
-      "teamB": "Kilmarnock",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2347/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/36/image/dark",
-      "startTimeIST": "2026-11-08 21:30:00 IST",
-      "endTimeIST": "2026-11-08 23:50:00 IST",
-      "startTimeUTC": "2026/11/08 16:00:00 +0000",
-      "endTimeUTC": "2026/11/08 18:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://www.rtmpcdn.com/live/ffa420ba-688c-43b8-bd21-6692af45a6d8.m3u8",
-        "key": null
-      },
-      {
-        "title": "HD SERVER+",
-        "type": "hls",
-        "url": "https://live1.quickscoreboardz.com/live/channel7.m3u8?wsSecret=a9e1b54d10dba4b6e61da7867ffbbd92&wsABSTime=1794196383",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.55/hls/ffffna.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5475,
     "title": "Goal Rush: Matchweek 10",
     "slug": "epl-goal-rush-vs-epl-goal-rush",
