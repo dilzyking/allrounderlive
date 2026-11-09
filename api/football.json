@@ -395,34 +395,6 @@
     "dashStreams": []
   },
   {
-    "id": 5469,
-    "title": "NFL",
-    "slug": "chargers-vs-texans",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "NFL",
-      "category": "Football",
-      "teamA": "Chargers",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/4429/image",
-      "teamB": "Texans",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4324/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
-      "startTimeIST": "2026-11-09 02:35:00 IST",
-      "endTimeIST": "2026-11-09 05:35:00 IST",
-      "startTimeUTC": "2026/11/08 21:05:00 +0000",
-      "endTimeUTC": "2026/11/09 00:05:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "NFL HD",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59659/load-playlist.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5462,
     "title": "NFL",
     "slug": "seahawks-vs-cardinals",
@@ -643,6 +615,34 @@
         "title": "SonyLiv (BEN)",
         "type": "hls",
         "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120304/Footlive0711/BEN/std_lrh-800300010.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5469,
+    "title": "NFL",
+    "slug": "chargers-vs-texans",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "NFL",
+      "category": "Football",
+      "teamA": "Chargers",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4429/image",
+      "teamB": "Texans",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4324/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/9464/image/dark",
+      "startTimeIST": "2026-11-09 02:35:00 IST",
+      "endTimeIST": "2026-11-09 05:35:00 IST",
+      "startTimeUTC": "2026/11/08 21:05:00 +0000",
+      "endTimeUTC": "2026/11/09 00:05:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "NFL HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59659/load-playlist.m3u8",
         "key": null
       }
     ]
