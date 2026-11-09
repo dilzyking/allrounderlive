@@ -1582,6 +1582,156 @@
     ]
   },
   {
+    "id": 5479,
+    "title": "Copa do Brasil",
+    "slug": "vasco-vs-palmeiras",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Copa do Brasil",
+      "category": "Football",
+      "teamA": "Vasco",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1974/image",
+      "teamB": "Palmeiras",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1963/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/373/image/dark",
+      "startTimeIST": "2026-11-09 01:30:00 IST",
+      "endTimeIST": "2026-11-09 03:50:00 IST",
+      "startTimeUTC": "2026/11/08 20:00:00 +0000",
+      "endTimeUTC": "2026/11/08 22:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "SporTV BR",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd?",
+        "key": "51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/ZMMMAAAAQQ.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5395,
+    "title": "Serie A",
+    "slug": "fiorentina-vs-juventus",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Serie A",
+      "category": "Football",
+      "teamA": "Fiorentina",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2693/image",
+      "teamB": "Juventus",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2687/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/23/image/dark",
+      "startTimeIST": "2026-11-09 01:15:00 IST",
+      "endTimeIST": "2026-11-09 03:35:00 IST",
+      "startTimeUTC": "2026/11/08 19:45:00 +0000",
+      "endTimeUTC": "2026/11/08 22:05:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "DAZN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/r88d2pdp9j/out/v1/d2747fb3865c40e5aa159dac4dabc099/cenc.mpd",
+        "key": "623cf27873ec1d0e07641e517358b49f:386dfdaa9e9824908ff8c5938abfef75"
+      },
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/nzmf5zluhh/out/v1/094afe7ad5a84d4cac4199f30aa43215/cenc.mpd",
+        "key": "1d6e7dcdee376d426fbebc296618b49b:15674716de0a81eb5a09ae362eba9640"
+      },
+      {
+        "title": "FUBO SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/4e3ds5dcr9/out/v1/65981ddb85a7494ca4d49accea19fcdd/cenc.mpd",
+        "key": "589001796b4413ba7a0f777726394262:4357a8663574f5e9fa3aca6ff28ca3ad"
+      },
+      {
+        "title": "TNT SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd?",
+        "key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
+      },
+      {
+        "title": "beIN ENGLISH FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd?",
+        "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+      },
+      {
+        "title": "CBS NETWORK FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd?",
+        "key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+      },
+      {
+        "title": "SPORT 1 CZ FHD",
+        "type": "dash",
+        "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+        "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/ZMMMA.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5407,
+    "title": "Ligue 1",
+    "slug": "lens-vs-marseille",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Ligue 1",
+      "category": "Football",
+      "teamA": "Lens",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1648/image",
+      "teamB": "Marseille",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1641/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/34/image/dark",
+      "startTimeIST": "2026-11-09 01:15:00 IST",
+      "endTimeIST": "2026-11-09 03:35:00 IST",
+      "startTimeUTC": "2026/11/08 19:45:00 +0000",
+      "endTimeUTC": "2026/11/08 22:05:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "DAZN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/3hhqflz9jw/out/v1/98648640c82541bd9dd175bc61c3c1b7/cenc.mpd",
+        "key": "a6ebb55a865d1939e0e7778351299ba0:218e2ecbd170cd9521d3838749156f24"
+      },
+      {
+        "title": "beIN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?",
+        "key": "27759a440e8ad821b800b3de00cd5851:1b8743adee559f27845f55e8b4d639fe"
+      },
+      {
+        "title": "beIN ESPANOL FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd?",
+        "key": "74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c"
+      },
+      {
+        "title": "LOW QUALITY",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/ZMMM.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
     "id": 3926,
     "title": "NFL REDZONE",
     "slug": "nfl-vs-nfl",
