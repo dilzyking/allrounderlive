@@ -1582,40 +1582,6 @@
     ]
   },
   {
-    "id": 5479,
-    "title": "Copa do Brasil",
-    "slug": "vasco-vs-palmeiras",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Copa do Brasil",
-      "category": "Football",
-      "teamA": "Vasco",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1974/image",
-      "teamB": "Palmeiras",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1963/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/373/image/dark",
-      "startTimeIST": "2026-11-09 01:30:00 IST",
-      "endTimeIST": "2026-11-09 03:50:00 IST",
-      "startTimeUTC": "2026/11/08 20:00:00 +0000",
-      "endTimeUTC": "2026/11/08 22:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SporTV BR",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd?",
-        "key": "51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/ZMMMAAAAQQ.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 3926,
     "title": "NFL REDZONE",
     "slug": "nfl-vs-nfl",
