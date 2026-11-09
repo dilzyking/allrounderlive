@@ -22,31 +22,13 @@
       {
         "title": "NPL LIVE FHD",
         "type": "hls",
-        "url": "https://kick.com/api/v2/channels/huyt788",
+        "url": "https://kick.com/api/v2/channels/anyiahsp",
         "key": null
       },
       {
         "title": "SD SERVER",
         "type": "hls",
         "url": "http://162.251.160.53:8089/NPLT20/index.m3u8",
-        "key": null
-      },
-      {
-        "title": "STAR SPORTS HD",
-        "type": "hls",
-        "url": "http://line.tivi-ott.net/play/live.php?mac=00:1B:79:F9:2A:14&stream=373201&extension=m3u8",
-        "key": null
-      },
-      {
-        "title": "FANCODE (IND)",
-        "type": "hls",
-        "url": "https://dai-fancode.pages.dev/mumbai/4250368_english_hls_7ea136c62c30127_1ta-di_h264/index.m3u8",
-        "key": null
-      },
-      {
-        "title": "FANCODE SD",
-        "type": "hls",
-        "url": "https://sp-original.pages.dev/liveop2.m3u8",
         "key": null
       }
     ]
