@@ -4363,34 +4363,6 @@
     ]
   },
   {
-    "id": 5426,
-    "title": "Liga F Moeve",
-    "slug": "logrono-vs-sevilla-fc",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Liga F Moeve",
-      "category": "Football",
-      "teamA": "Logroño",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/861598/image",
-      "teamB": "Sevilla FC",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/77903/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/1127/image/dark",
-      "startTimeIST": "2026-11-08 16:30:00 IST",
-      "endTimeIST": "2026-11-08 18:50:00 IST",
-      "startTimeUTC": "2026/11/08 11:00:00 +0000",
-      "endTimeUTC": "2026/11/08 13:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.41/hls/GTGTGTAAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 3255,
     "title": "UEFA Europa League Simulcast",
     "slug": "the-golazo-show-vs-the-golazo-show",
