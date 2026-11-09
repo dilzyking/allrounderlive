@@ -374,96 +374,6 @@
     ]
   },
   {
-    "id": 5484,
-    "title": "FA Cup",
-    "slug": "parkway-vs-berkhamsted",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "FA Cup",
-      "category": "Football",
-      "teamA": "Parkway",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/80011/image",
-      "teamB": "Berkhamsted",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/231/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/19/image/dark",
-      "startTimeIST": "2026-11-10 01:00:00 IST",
-      "endTimeIST": "2026-11-10 03:20:00 IST",
-      "startTimeUTC": "2026/11/09 19:30:00 +0000",
-      "endTimeUTC": "2026/11/09 21:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "TNT SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
-        "key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
-      }
-    ]
-  },
-  {
-    "id": 5486,
-    "title": "LaLiga 2",
-    "slug": "las-palmas-vs-eldense",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "LaLiga 2",
-      "category": "Football",
-      "teamA": "Las Palmas",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/6577/image",
-      "teamB": "Eldense",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/47321/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "startTimeIST": "2026-11-10 01:00:00 IST",
-      "endTimeIST": "2026-11-10 03:20:00 IST",
-      "startTimeUTC": "2026/11/09 19:30:00 +0000",
-      "endTimeUTC": "2026/11/09 21:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "https://pull.fmp.live/sla/1-6ad0f194a107db0e2ef7ac16.m3u8?auth_key=1794274862-0-0-17db0c1792964a82688492a9c1960acc",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 5487,
-    "title": "LaLiga 2",
-    "slug": "sabadell-vs-real-sociedad-b",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "LaLiga 2",
-      "category": "Football",
-      "teamA": "Sabadell",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/24335/image",
-      "teamB": "Real Sociedad B",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/24360/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "startTimeIST": "2026-11-10 01:00:00 IST",
-      "endTimeIST": "2026-11-10 03:20:00 IST",
-      "startTimeUTC": "2026/11/09 19:30:00 +0000",
-      "endTimeUTC": "2026/11/09 21:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "DAZN SPORTS",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/iqzrazro8m/out/v1/82394c94cf844ff7a8fe3319bed93568/cenc.mpd",
-        "key": "b98b17ff9c64c00a415398df3d64b394:7e23e6f8bf9da5a73781dda53e4661ba"
-      },
-      {
-        "title": "Laliga Hypermotion ES",
-        "type": "dash",
-        "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-        "key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-      }
-    ]
-  },
-  {
     "id": 5526,
     "title": "NFL",
     "slug": "vikings-vs-bills",
@@ -1140,6 +1050,96 @@
         "type": "hls",
         "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120304/Footlive0711/BEN/std_lrh-800300010.m3u8",
         "key": null
+      }
+    ]
+  },
+  {
+    "id": 5484,
+    "title": "FA Cup",
+    "slug": "parkway-vs-berkhamsted",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "FA Cup",
+      "category": "Football",
+      "teamA": "Parkway",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/80011/image",
+      "teamB": "Berkhamsted",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/231/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/19/image/dark",
+      "startTimeIST": "2026-11-10 01:00:00 IST",
+      "endTimeIST": "2026-11-10 03:20:00 IST",
+      "startTimeUTC": "2026/11/09 19:30:00 +0000",
+      "endTimeUTC": "2026/11/09 21:50:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "TNT SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+        "key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+      }
+    ]
+  },
+  {
+    "id": 5486,
+    "title": "LaLiga 2",
+    "slug": "las-palmas-vs-eldense",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "LaLiga 2",
+      "category": "Football",
+      "teamA": "Las Palmas",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/6577/image",
+      "teamB": "Eldense",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/47321/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/54/image/dark",
+      "startTimeIST": "2026-11-10 01:00:00 IST",
+      "endTimeIST": "2026-11-10 03:20:00 IST",
+      "startTimeUTC": "2026/11/09 19:30:00 +0000",
+      "endTimeUTC": "2026/11/09 21:50:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "https://pull.fmp.live/sla/1-6ad0f194a107db0e2ef7ac16.m3u8?auth_key=1794274862-0-0-17db0c1792964a82688492a9c1960acc",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5487,
+    "title": "LaLiga 2",
+    "slug": "sabadell-vs-real-sociedad-b",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "LaLiga 2",
+      "category": "Football",
+      "teamA": "Sabadell",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/24335/image",
+      "teamB": "Real Sociedad B",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/24360/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/54/image/dark",
+      "startTimeIST": "2026-11-10 01:00:00 IST",
+      "endTimeIST": "2026-11-10 03:20:00 IST",
+      "startTimeUTC": "2026/11/09 19:30:00 +0000",
+      "endTimeUTC": "2026/11/09 21:50:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "DAZN SPORTS",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/iqzrazro8m/out/v1/82394c94cf844ff7a8fe3319bed93568/cenc.mpd",
+        "key": "b98b17ff9c64c00a415398df3d64b394:7e23e6f8bf9da5a73781dda53e4661ba"
+      },
+      {
+        "title": "Laliga Hypermotion ES",
+        "type": "dash",
+        "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
+        "key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
       }
     ]
   },
