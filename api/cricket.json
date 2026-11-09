@@ -200,6 +200,18 @@
         "key": "71de63b5c5236b41d3289458a0d3612e:91e5a59da86b054fef6a06ab6da82935"
       },
       {
+        "title": "TAPMAD FHD",
+        "type": "hls",
+        "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8",
+        "key": null
+      },
+      {
+        "title": "WILLOW HD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+        "key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
+      },
+      {
         "title": "WILLOW ALT",
         "type": "dash",
         "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/6gtll9ffbu/out/v1/7519ba45d0cf43b09f4cfd42e76fc50c/cenc.mpd",
@@ -215,12 +227,6 @@
         "title": "SD SERVER",
         "type": "hls",
         "url": "http://193.47.62.41/hls/D222.m3u8",
-        "key": null
-      },
-      {
-        "title": "TAPMAD FHD",
-        "type": "hls",
-        "url": "https://d8j84o343a5m2.cloudfront.net/live/testtapmad3/master.m3u8",
         "key": null
       }
     ]
