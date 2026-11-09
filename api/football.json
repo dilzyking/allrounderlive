@@ -395,34 +395,6 @@
     "dashStreams": []
   },
   {
-    "id": 5433,
-    "title": "Liga MX, Apertura",
-    "slug": "queretaro-vs-puebla",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Liga MX, Apertura",
-      "category": "Football",
-      "teamA": "Querétaro",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1951/image",
-      "teamB": "Puebla",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1941/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11621/image/dark",
-      "startTimeIST": "2026-11-09 05:30:00 IST",
-      "endTimeIST": "2026-11-09 07:50:00 IST",
-      "startTimeUTC": "2026/11/09 00:00:00 +0000",
-      "endTimeUTC": "2026/11/09 02:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel4.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5461,
     "title": "NFL",
     "slug": "bears-vs-buccaneers",
@@ -519,6 +491,34 @@
         "title": "SonyLiv (BEN)",
         "type": "hls",
         "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120304/Footlive0711/BEN/std_lrh-800300010.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5433,
+    "title": "Liga MX, Apertura",
+    "slug": "queretaro-vs-puebla",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Liga MX, Apertura",
+      "category": "Football",
+      "teamA": "Querétaro",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1951/image",
+      "teamB": "Puebla",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1941/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11621/image/dark",
+      "startTimeIST": "2026-11-09 05:30:00 IST",
+      "endTimeIST": "2026-11-09 07:50:00 IST",
+      "startTimeUTC": "2026/11/09 00:00:00 +0000",
+      "endTimeUTC": "2026/11/09 02:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel4.m3u8",
         "key": null
       }
     ]
