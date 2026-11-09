@@ -477,6 +477,12 @@
     },
     "dashStreams": [
       {
+        "title": "DAZN SPORTS",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/iqzrazro8m/out/v1/82394c94cf844ff7a8fe3319bed93568/cenc.mpd",
+        "key": "b98b17ff9c64c00a415398df3d64b394:7e23e6f8bf9da5a73781dda53e4661ba"
+      },
+      {
         "title": "Laliga Hypermotion ES",
         "type": "dash",
         "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
