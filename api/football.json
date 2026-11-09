@@ -374,40 +374,6 @@
     ]
   },
   {
-    "id": 5527,
-    "title": "Frauen-Bundesliga",
-    "slug": "koln-vs-leipzig",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Frauen-Bundesliga",
-      "category": "Football",
-      "teamA": "Köln",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/229794/image",
-      "teamB": "Leipzig",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/322623/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/232/image/dark",
-      "startTimeIST": "2026-11-09 22:30:00 IST",
-      "endTimeIST": "2026-11-10 00:50:00 IST",
-      "startTimeUTC": "2026/11/09 17:00:00 +0000",
-      "endTimeUTC": "2026/11/09 19:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live1.quickscoreboardz.com/live/channel10.flv?wsSecret=6b581adae9a8bff591293d4dc419b9d3&wsABSTime=1794286369",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/SYYYYAAA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5485,
     "title": "Liga F Moeve",
     "slug": "atletico-de-madrid-vs-fc-badalona-women",
@@ -1194,6 +1160,40 @@
         "title": "SonyLiv (BEN)",
         "type": "hls",
         "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120304/Footlive0711/BEN/std_lrh-800300010.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5527,
+    "title": "Frauen-Bundesliga",
+    "slug": "koln-vs-leipzig",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Frauen-Bundesliga",
+      "category": "Football",
+      "teamA": "Köln",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/229794/image",
+      "teamB": "Leipzig",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/322623/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/232/image/dark",
+      "startTimeIST": "2026-11-09 22:30:00 IST",
+      "endTimeIST": "2026-11-10 00:50:00 IST",
+      "startTimeUTC": "2026/11/09 17:00:00 +0000",
+      "endTimeUTC": "2026/11/09 19:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live1.quickscoreboardz.com/live/channel10.flv?wsSecret=6b581adae9a8bff591293d4dc419b9d3&wsABSTime=1794286369",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/SYYYYAAA.m3u8",
         "key": null
       }
     ]
