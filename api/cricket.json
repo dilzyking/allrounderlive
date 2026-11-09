@@ -98,58 +98,6 @@
     ]
   },
   {
-    "id": 5259,
-    "title": "Abu Dhabi T10 League",
-    "slug": "t10-league-vs-t10-league",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Abu Dhabi T10 League",
-      "category": "Cricket",
-      "teamA": "T10 LEAGUE",
-      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
-      "teamB": "T10 LEAGUE",
-      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
-      "startTimeIST": "2026-11-09 19:10:00 IST",
-      "endTimeIST": "2026-11-10 00:30:00 IST",
-      "startTimeUTC": "2026/11/09 13:40:00 +0000",
-      "endTimeUTC": "2026/11/09 19:00:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "WILLOW FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/btoft58fvs/out/v1/665cb25d54e54ff69bf8efe449bde83d/cenc.mpd?",
-        "key": "249a1aca16a6dc9b08ad07a0582f22f9:441fa718f92163b4907364d00170ebda"
-      },
-      {
-        "title": "PREMIER SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
-        "key": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19"
-      },
-      {
-        "title": "WILLOW ALT",
-        "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/btoft58fvs/out/v1/665cb25d54e54ff69bf8efe449bde83d/cenc.mpd",
-        "key": "249a1aca16a6dc9b08ad07a0582f22f9:441fa718f92163b4907364d00170ebda"
-      },
-      {
-        "title": "MYCO LIVE HD",
-        "type": "hls",
-        "url": "https://ml-pull-rtmp-pk1.myco.io/SRT/hls/index.m3u8",
-        "key": null
-      },
-      {
-        "title": "A SPORTS HD",
-        "type": "hls",
-        "url": "https://live.msnetworks.net/a-sports/master.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 4726,
     "title": "One Day International",
     "slug": "nz-vs-ind",
@@ -482,6 +430,58 @@
       "endTimeUTC": "2000/01/01 00:00:00 +0000"
     },
     "dashStreams": []
+  },
+  {
+    "id": 5259,
+    "title": "Abu Dhabi T10 League",
+    "slug": "t10-league-vs-t10-league",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Abu Dhabi T10 League",
+      "category": "Cricket",
+      "teamA": "T10 LEAGUE",
+      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
+      "teamB": "T10 LEAGUE",
+      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
+      "startTimeIST": "2026-11-09 19:10:00 IST",
+      "endTimeIST": "2026-11-10 00:30:00 IST",
+      "startTimeUTC": "2026/11/09 13:40:00 +0000",
+      "endTimeUTC": "2026/11/09 19:00:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "WILLOW FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/btoft58fvs/out/v1/665cb25d54e54ff69bf8efe449bde83d/cenc.mpd?",
+        "key": "249a1aca16a6dc9b08ad07a0582f22f9:441fa718f92163b4907364d00170ebda"
+      },
+      {
+        "title": "PREMIER SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
+        "key": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19"
+      },
+      {
+        "title": "WILLOW ALT",
+        "type": "dash",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/btoft58fvs/out/v1/665cb25d54e54ff69bf8efe449bde83d/cenc.mpd",
+        "key": "249a1aca16a6dc9b08ad07a0582f22f9:441fa718f92163b4907364d00170ebda"
+      },
+      {
+        "title": "MYCO LIVE HD",
+        "type": "hls",
+        "url": "https://ml-pull-rtmp-pk1.myco.io/SRT/hls/index.m3u8",
+        "key": null
+      },
+      {
+        "title": "A SPORTS HD",
+        "type": "hls",
+        "url": "https://live.msnetworks.net/a-sports/master.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 4896,
