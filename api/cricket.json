@@ -154,14 +154,26 @@
       {
         "title": "WILLOW FHD",
         "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/02gukgvdze/out/v1/2d5390acafa74401a327061967e19558/cenc.mpd?",
-        "key": "2b64d396af9a77e84f76a5bd66b9c901:7715f79f8c4e798959bf61e0885f364d"
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ymnsbghnwg/out/v1/9ee55e82c17947c39d0c37c70257beab/cenc.mpd",
+        "key": "2fc13592451a4ca8b509946c6f908829:eee1b57fd228c32939c764657b04ab65"
+      },
+      {
+        "title": "PREMIER SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
+        "key": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19"
       },
       {
         "title": "WILLOW ALT",
         "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/02gukgvdze/out/v1/2d5390acafa74401a327061967e19558/cenc.mpd",
-        "key": "2b64d396af9a77e84f76a5bd66b9c901:7715f79f8c4e798959bf61e0885f364d"
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/ymnsbghnwg/out/v1/9ee55e82c17947c39d0c37c70257beab/cenc.mpd",
+        "key": "2fc13592451a4ca8b509946c6f908829:eee1b57fd228c32939c764657b04ab65"
+      },
+      {
+        "title": "MYCO LIVE HD",
+        "type": "hls",
+        "url": "https://ml-pull-rtmp-pk1.myco.io/SRT/hls/index.m3u8",
+        "key": null
       },
       {
         "title": "A SPORTS HD",
