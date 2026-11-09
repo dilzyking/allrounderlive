@@ -194,6 +194,12 @@
     },
     "dashStreams": [
       {
+        "title": "PTV SPORTS HD",
+        "type": "hls",
+        "url": "https://live.msnetworks.net/ptv-sports/master.m3u8",
+        "key": null
+      },
+      {
         "title": "SD SERVER",
         "type": "hls",
         "url": "http://193.47.62.41/hls/D222.m3u8",
