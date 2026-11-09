@@ -374,28 +374,7 @@
     ]
   },
   {
-    "id": 5486,
-    "title": "Frauen-Bundesliga",
-    "slug": "koln-vs-leipzig",
-    "cat": "Live Events",
-    "status": "upcoming",
-    "event": {
-      "name": "Frauen-Bundesliga",
-      "category": "Football",
-      "teamA": "Köln",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/229794/image",
-      "teamB": "Leipzig",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/322623/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/232/image/dark",
-      "startTimeIST": "2026-11-09 22:30:00 IST",
-      "endTimeIST": "2026-11-10 00:50:00 IST",
-      "startTimeUTC": "2026/11/09 17:00:00 +0000",
-      "endTimeUTC": "2026/11/09 19:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5484,
+    "id": 5485,
     "title": "Liga F Moeve",
     "slug": "atletico-de-madrid-vs-fc-badalona-women",
     "cat": "Live Events",
@@ -407,7 +386,7 @@
       "teamAFlag": "https://img.sofascore.com/api/v1/team/77879/image",
       "teamB": "FC Badalona Women",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/77893/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/1127/image/dark",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1127/image/dark",
       "startTimeIST": "2026-11-09 23:30:00 IST",
       "endTimeIST": "2026-11-10 01:50:00 IST",
       "startTimeUTC": "2026/11/09 18:00:00 +0000",
@@ -416,49 +395,7 @@
     "dashStreams": []
   },
   {
-    "id": 5483,
-    "title": "LaLiga 2",
-    "slug": "sabadell-vs-real-sociedad-b",
-    "cat": "Live Events",
-    "status": "upcoming",
-    "event": {
-      "name": "LaLiga 2",
-      "category": "Football",
-      "teamA": "Sabadell",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/24335/image",
-      "teamB": "Real Sociedad B",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/24360/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "startTimeIST": "2026-11-10 01:00:00 IST",
-      "endTimeIST": "2026-11-10 03:20:00 IST",
-      "startTimeUTC": "2026/11/09 19:30:00 +0000",
-      "endTimeUTC": "2026/11/09 21:50:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5485,
-    "title": "LaLiga 2",
-    "slug": "las-palmas-vs-eldense",
-    "cat": "Live Events",
-    "status": "upcoming",
-    "event": {
-      "name": "LaLiga 2",
-      "category": "Football",
-      "teamA": "Las Palmas",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/6577/image",
-      "teamB": "Eldense",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/47321/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "startTimeIST": "2026-11-10 01:00:00 IST",
-      "endTimeIST": "2026-11-10 03:20:00 IST",
-      "startTimeUTC": "2026/11/09 19:30:00 +0000",
-      "endTimeUTC": "2026/11/09 21:50:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5487,
+    "id": 5484,
     "title": "FA Cup",
     "slug": "parkway-vs-berkhamsted",
     "cat": "Live Events",
@@ -470,7 +407,7 @@
       "teamAFlag": "https://img.sofascore.com/api/v1/team/80011/image",
       "teamB": "Berkhamsted",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/231/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/19/image/dark",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/19/image/dark",
       "startTimeIST": "2026-11-10 01:00:00 IST",
       "endTimeIST": "2026-11-10 03:20:00 IST",
       "startTimeUTC": "2026/11/09 19:30:00 +0000",
@@ -479,23 +416,44 @@
     "dashStreams": []
   },
   {
-    "id": 5482,
-    "title": "Liga F Moeve",
-    "slug": "deportivo-vs-valencia",
+    "id": 5486,
+    "title": "LaLiga 2",
+    "slug": "las-palmas-vs-eldense",
     "cat": "Live Events",
     "status": "upcoming",
     "event": {
-      "name": "Liga F Moeve",
+      "name": "LaLiga 2",
       "category": "Football",
-      "teamA": "Deportivo",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/262253/image",
-      "teamB": "Valencia",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/77909/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/1127/image/dark",
-      "startTimeIST": "2026-11-10 01:30:00 IST",
-      "endTimeIST": "2026-11-10 03:50:00 IST",
-      "startTimeUTC": "2026/11/09 20:00:00 +0000",
-      "endTimeUTC": "2026/11/09 22:20:00 +0000"
+      "teamA": "Las Palmas",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/6577/image",
+      "teamB": "Eldense",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/47321/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/54/image/dark",
+      "startTimeIST": "2026-11-10 01:00:00 IST",
+      "endTimeIST": "2026-11-10 03:20:00 IST",
+      "startTimeUTC": "2026/11/09 19:30:00 +0000",
+      "endTimeUTC": "2026/11/09 21:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5487,
+    "title": "LaLiga 2",
+    "slug": "sabadell-vs-real-sociedad-b",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "LaLiga 2",
+      "category": "Football",
+      "teamA": "Sabadell",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/24335/image",
+      "teamB": "Real Sociedad B",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/24360/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/54/image/dark",
+      "startTimeIST": "2026-11-10 01:00:00 IST",
+      "endTimeIST": "2026-11-10 03:20:00 IST",
+      "startTimeUTC": "2026/11/09 19:30:00 +0000",
+      "endTimeUTC": "2026/11/09 21:50:00 +0000"
     },
     "dashStreams": []
   },
