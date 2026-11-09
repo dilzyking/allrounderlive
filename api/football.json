@@ -2388,34 +2388,6 @@
     ]
   },
   {
-    "id": 5445,
-    "title": "FA Cup",
-    "slug": "oldham-vs-sheffield-wed",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "FA Cup",
-      "category": "Football",
-      "teamA": "Oldham",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/65/image",
-      "teamB": "Sheffield Wed",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/12/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/19/image/dark",
-      "startTimeIST": "2026-11-08 22:45:00 IST",
-      "endTimeIST": "2026-11-09 01:05:00 IST",
-      "startTimeUTC": "2026/11/08 17:15:00 +0000",
-      "endTimeUTC": "2026/11/08 19:35:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "TNT SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
-        "key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
-      }
-    ]
-  },
-  {
     "id": 5475,
     "title": "Goal Rush: Matchweek 10",
     "slug": "epl-goal-rush-vs-epl-goal-rush",
