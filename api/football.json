@@ -374,40 +374,6 @@
     ]
   },
   {
-    "id": 5485,
-    "title": "Liga F Moeve",
-    "slug": "atletico-de-madrid-vs-fc-badalona-women",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Liga F Moeve",
-      "category": "Football",
-      "teamA": "Atlético de Madrid",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/77879/image",
-      "teamB": "FC Badalona Women",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/77893/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1127/image/dark",
-      "startTimeIST": "2026-11-09 23:30:00 IST",
-      "endTimeIST": "2026-11-10 01:50:00 IST",
-      "startTimeUTC": "2026/11/09 18:00:00 +0000",
-      "endTimeUTC": "2026/11/09 20:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel8.m3u8",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/R777AA.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5484,
     "title": "FA Cup",
     "slug": "parkway-vs-berkhamsted",
@@ -1166,6 +1132,40 @@
         "title": "SonyLiv (BEN)",
         "type": "hls",
         "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120304/Footlive0711/BEN/std_lrh-800300010.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 5485,
+    "title": "Liga F Moeve",
+    "slug": "atletico-de-madrid-vs-fc-badalona-women",
+    "cat": "Live Events",
+    "status": "ended",
+    "event": {
+      "name": "Liga F Moeve",
+      "category": "Football",
+      "teamA": "Atlético de Madrid",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/77879/image",
+      "teamB": "FC Badalona Women",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/77893/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1127/image/dark",
+      "startTimeIST": "2026-11-09 23:30:00 IST",
+      "endTimeIST": "2026-11-10 01:50:00 IST",
+      "startTimeUTC": "2026/11/09 18:00:00 +0000",
+      "endTimeUTC": "2026/11/09 20:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel8.m3u8",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/R777AA.m3u8",
         "key": null
       }
     ]
