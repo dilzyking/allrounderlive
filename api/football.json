@@ -4419,52 +4419,6 @@
     ]
   },
   {
-    "id": 5442,
-    "title": "SAFF Championship",
-    "slug": "maldives-vs-pakistan",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "SAFF Championship",
-      "category": "Football",
-      "teamA": "Maldives",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/6911/image",
-      "teamB": "Pakistan",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/6081/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/2354/image/dark",
-      "startTimeIST": "2026-11-08 15:00:00 IST",
-      "endTimeIST": "2026-11-08 17:20:00 IST",
-      "startTimeUTC": "2026/11/08 09:30:00 +0000",
-      "endTimeUTC": "2026/11/08 11:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "LIVE FHD",
-        "type": "hls",
-        "url": "https://kick.com/api/v2/channels/ir4398",
-        "key": null
-      },
-      {
-        "title": "MYCO FHD",
-        "type": "hls",
-        "url": "https://ml-pull-rtmp-pk1.myco.io/SAFF2026/hls/26113.m3u8",
-        "key": null
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel7.m3u8",
-        "key": null
-      },
-      {
-        "title": "FAST SERVER",
-        "type": "hls",
-        "url": "https://pull.niues.live/live/stream-9912131_lhd.m3u8?auth_key=1793890435-0-0-cfa8e67b7f53e252d7d0f5887fccec2a",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 3255,
     "title": "UEFA Europa League Simulcast",
     "slug": "the-golazo-show-vs-the-golazo-show",
