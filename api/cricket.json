@@ -260,52 +260,6 @@
     ]
   },
   {
-    "id": 5183,
-    "title": "Test Series",
-    "slug": "afg-vs-zim",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Test Series",
-      "category": "Cricket",
-      "teamA": "AFG",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/187575/image",
-      "teamB": "ZIM",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/187745/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11189/image/dark",
-      "startTimeIST": "2026-11-09 11:30:00 IST",
-      "endTimeIST": "2026-11-09 19:45:00 IST",
-      "startTimeUTC": "2026/11/09 06:00:00 +0000",
-      "endTimeUTC": "2026/11/09 14:15:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "WILLOW FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tfcrrqefcx/out/v1/67d930d3a40e495f969711b734f22660/cenc.mpd?",
-        "key": "d006e8b41e37c259818c8d491904d3e7:2f7eceaab743d906957b9958152c8972"
-      },
-      {
-        "title": "WILLOW ALT",
-        "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/tfcrrqefcx/out/v1/67d930d3a40e495f969711b734f22660/cenc.mpd",
-        "key": "d006e8b41e37c259818c8d491904d3e7:2f7eceaab743d906957b9958152c8972"
-      },
-      {
-        "title": "A SPORTS HD",
-        "type": "hls",
-        "url": "https://live.msnetworks.net/a-sports/master.m3u8",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/D222A.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5259,
     "title": "Abu Dhabi T10 League",
     "slug": "t10-league-vs-t10-league",
@@ -498,6 +452,48 @@
     ]
   },
   {
+    "id": 5516,
+    "title": "U19 Asia Cup",
+    "slug": "ind-u19-vs-uae-u19",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "U19 Asia Cup",
+      "category": "Cricket",
+      "teamA": "IND-U19",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/213112/image",
+      "teamB": "UAE-U19",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/300266/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11486/image/dark",
+      "startTimeIST": "2026-11-10 10:30:00 IST",
+      "endTimeIST": "2026-11-10 15:00:00 IST",
+      "startTimeUTC": "2026/11/10 05:00:00 +0000",
+      "endTimeUTC": "2026/11/10 09:30:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 5517,
+    "title": "U19 Asia Cup",
+    "slug": "pak-u19-vs-nep-u19",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "U19 Asia Cup",
+      "category": "Cricket",
+      "teamA": "PAK-U19",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/213104/image",
+      "teamB": "NEP-U19",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/213113/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11486/image/dark",
+      "startTimeIST": "2026-11-10 10:30:00 IST",
+      "endTimeIST": "2026-11-10 15:00:00 IST",
+      "startTimeUTC": "2026/11/10 05:00:00 +0000",
+      "endTimeUTC": "2026/11/10 09:30:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
     "id": 4963,
     "title": "Women's Big Bash League",
     "slug": "wbbl-vs-wbbl",
@@ -569,6 +565,52 @@
       "endTimeUTC": "2026/11/13 08:00:00 +0000"
     },
     "dashStreams": []
+  },
+  {
+    "id": 5183,
+    "title": "Test Series",
+    "slug": "afg-vs-zim",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Test Series",
+      "category": "Cricket",
+      "teamA": "AFG",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/187575/image",
+      "teamB": "ZIM",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/187745/image",
+      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11189/image/dark",
+      "startTimeIST": "2026-11-13 10:30:00 IST",
+      "endTimeIST": "2026-11-13 19:30:00 IST",
+      "startTimeUTC": "2026/11/13 05:00:00 +0000",
+      "endTimeUTC": "2026/11/13 14:00:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "WILLOW FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tfcrrqefcx/out/v1/67d930d3a40e495f969711b734f22660/cenc.mpd?",
+        "key": "d006e8b41e37c259818c8d491904d3e7:2f7eceaab743d906957b9958152c8972"
+      },
+      {
+        "title": "WILLOW ALT",
+        "type": "dash",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/tfcrrqefcx/out/v1/67d930d3a40e495f969711b734f22660/cenc.mpd",
+        "key": "d006e8b41e37c259818c8d491904d3e7:2f7eceaab743d906957b9958152c8972"
+      },
+      {
+        "title": "A SPORTS HD",
+        "type": "hls",
+        "url": "https://live.msnetworks.net/a-sports/master.m3u8",
+        "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "http://193.47.62.44/hls/D222A.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 5481,
