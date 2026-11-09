@@ -3284,40 +3284,6 @@
     ]
   },
   {
-    "id": 5446,
-    "title": "FA Cup",
-    "slug": "cray-vs-stockport-county",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "FA Cup",
-      "category": "Football",
-      "teamA": "Cray",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/45006/image",
-      "teamB": "Stockport County",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/10/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/19/image/dark",
-      "startTimeIST": "2026-11-08 19:45:00 IST",
-      "endTimeIST": "2026-11-08 22:05:00 IST",
-      "startTimeUTC": "2026/11/08 14:15:00 +0000",
-      "endTimeUTC": "2026/11/08 16:35:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "TNT SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd",
-        "key": "cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca"
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "http://193.47.62.44/hls/SYYYAAAQ.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 5475,
     "title": "Goal Rush: Matchweek 10",
     "slug": "epl-goal-rush-vs-epl-goal-rush",
