@@ -374,27 +374,6 @@
     ]
   },
   {
-    "id": 5438,
-    "title": "Serie A Women",
-    "slug": "parma-vs-fc-como",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Serie A Women",
-      "category": "Football",
-      "teamA": "Parma",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/424787/image",
-      "teamB": "FC Como",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/404899/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/10640/image/dark",
-      "startTimeIST": "2026-11-08 17:00:00 IST",
-      "endTimeIST": "2026-11-08 19:20:00 IST",
-      "startTimeUTC": "2026/11/08 11:30:00 +0000",
-      "endTimeUTC": "2026/11/08 13:50:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 5486,
     "title": "Frauen-Bundesliga",
     "slug": "koln-vs-leipzig",
