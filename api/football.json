@@ -4059,48 +4059,6 @@
     ]
   },
   {
-    "id": 5349,
-    "title": "Liga MX, Apertura",
-    "slug": "tigres-vs-cruz-azul",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Liga MX, Apertura",
-      "category": "Football",
-      "teamA": "Tigres",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1940/image",
-      "teamB": "Cruz Azul",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1947/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11621/image/dark",
-      "startTimeIST": "2026-11-08 06:30:00 IST",
-      "endTimeIST": "2026-11-08 08:50:00 IST",
-      "startTimeUTC": "2026/11/08 01:00:00 +0000",
-      "endTimeUTC": "2026/11/08 03:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 5350,
-    "title": "Liga MX, Apertura",
-    "slug": "toluca-vs-monterrey",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Liga MX, Apertura",
-      "category": "Football",
-      "teamA": "Toluca",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1931/image",
-      "teamB": "Monterrey",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1932/image",
-      "logo": "http://api.sofascore.com/api/v1/unique-tournament/11621/image/dark",
-      "startTimeIST": "2026-11-08 06:30:00 IST",
-      "endTimeIST": "2026-11-08 08:50:00 IST",
-      "startTimeUTC": "2026/11/08 01:00:00 +0000",
-      "endTimeUTC": "2026/11/08 03:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 5415,
     "title": "VriendenLoterij Eredivisie",
     "slug": "excelsior-vs-ga-eagles",
