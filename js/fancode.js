@@ -20,7 +20,7 @@
   // ---------- CONFIG ----------
 
   const API_URL =
-    'https://raw.githubusercontent.com/drmlive/fancode-live-events/aa3142e1d8ca48d705a3463989e3230a38b8a823/fancode.json';
+    'https://raw.githubusercontent.com/drmlive/fancode-live-events/refs/heads/main/fancode.json';
 
   const SKELETON_COUNT = 6;
   const REFRESH_INTERVAL = 60000;
