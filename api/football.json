@@ -1,735 +1,714 @@
-{
-  "last_updated": "13/11/2026, 1:50:26 am",
-  "events": [
-    {
-      "id": "14876",
-      "title": "Benin vs Central African Republic",
-      "slug": "benin-vs-central-african-republic",
-      "cat": "Live Events",
-      "status": "live",
-      "event": {
-        "name": "Football",
-        "category": "Football",
-        "type": "Africa Cup of Nations Qual.",
-        "logo": "https://img.sofascore.com/api/v1/unique-tournament/1848/image/dark",
-        "teamA": "Benin",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/4744/image",
-        "teamB": "Central African Republic",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/23470/image",
-        "startTimeIST": "2026-11-13 00:30:00 IST",
-        "endTimeIST": "2026-11-13 02:50:00 IST"
-      },
-      "streams": [
-        {
-          "id": 1,
-          "title": "beIN SPORTS - AQ",
-          "type": "7",
-          "link": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n7hbpksb18/out/v1/be5403be4a674a7da8b3c81b1fe79692/cenc.mpd",
-          "api": "4fce30c060b7b0464ab765e24fee5ecc:65d612238736eec3794c7e75a6fd362c"
-        },
-        {
-          "id": 2,
-          "title": "HD SERVER ",
-          "type": "0",
-          "link": "https://live2.jorvakstreamcache.com/live/channel23.m3u8?",
-          "api": ""
-        }
-      ]
+[
+  {
+    "id": 14876,
+    "title": "Benin vs Central African Republic",
+    "slug": "benin-vs-central-african-republic",
+    "cat": "Live Events",
+    "status": "live",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Benin",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4744/image",
+      "teamB": "Central African Republic",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/23470/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1848/image/dark",
+      "startTimeIST": "2026-11-13 00:30:00 IST",
+      "endTimeIST": "2026-11-13 02:50:00 IST",
+      "startTimeUTC": "2026/11/12 19:00:00 +0000",
+      "endTimeUTC": "2026/11/12 21:20:00 +0000"
     },
-    {
-      "id": "14877",
-      "title": "Cameroon vs Namibia",
-      "slug": "cameroon-vs-namibia",
-      "cat": "Live Events",
-      "status": "live",
-      "event": {
-        "name": "Football",
-        "category": "Football",
-        "type": "Africa Cup of Nations Qual.",
-        "logo": "https://img.sofascore.com/api/v1/unique-tournament/1848/image/dark",
-        "teamA": "Cameroon",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/4751/image",
-        "teamB": "Namibia",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/4832/image",
-        "startTimeIST": "2026-11-13 00:30:00 IST",
-        "endTimeIST": "2026-11-13 02:50:00 IST"
+    "dashStreams": [
+      {
+        "title": "beIN SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n7hbpksb18/out/v1/be5403be4a674a7da8b3c81b1fe79692/cenc.mpd",
+        "key": "4fce30c060b7b0464ab765e24fee5ecc:65d612238736eec3794c7e75a6fd362c"
       },
-      "streams": [
-        {
-          "id": 1,
-          "title": "beIN SPORTS HD",
-          "type": "0",
-          "link": "https://bl.rutube.ru/livestream/05550e441b09aeec53e60de66b6c47bf/index.m3u8?s=jJ8GHzeJIzYZUoWBKmzdFw&e=2094509894&scheme=https",
-          "api": ""
-        },
-        {
-          "id": 2,
-          "title": "CRICFy LIVE ",
-          "type": "0",
-          "link": "https://live.vivo155.com/live/sd-1-4642734.m3u8?txSecret=5bb62af7123df454b5b8ee1c25011a58&txTime=6AF62217",
-          "api": ""
-        },
-        {
-          "id": 3,
-          "title": "HD SERVER ",
-          "type": "0",
-          "link": "https://live2.jorvakstreamcache.com/live/channel7.m3u8?",
-          "api": ""
-        }
-      ]
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel23.m3u8?",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 14877,
+    "title": "Cameroon vs Namibia",
+    "slug": "cameroon-vs-namibia",
+    "cat": "Live Events",
+    "status": "live",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Cameroon",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4751/image",
+      "teamB": "Namibia",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4832/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1848/image/dark",
+      "startTimeIST": "2026-11-13 00:30:00 IST",
+      "endTimeIST": "2026-11-13 02:50:00 IST",
+      "startTimeUTC": "2026/11/12 19:00:00 +0000",
+      "endTimeUTC": "2026/11/12 21:20:00 +0000"
     },
-    {
-      "id": "14878",
-      "title": "Cote dIvoire vs Gambia",
-      "slug": "cote-divoire-vs-gambia",
-      "cat": "Live Events",
-      "status": "live",
-      "event": {
-        "name": "Football",
-        "category": "Football",
-        "type": "Africa Cup of Nations Qual.",
-        "logo": "https://img.sofascore.com/api/v1/unique-tournament/1848/image/dark",
-        "teamA": "Côte d'Ivoire",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/4768/image",
-        "teamB": "Gambia",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/4762/image",
-        "startTimeIST": "2026-11-13 00:30:00 IST",
-        "endTimeIST": "2026-11-13 02:50:00 IST"
+    "dashStreams": [
+      {
+        "title": "beIN SPORTS HD",
+        "type": "hls",
+        "url": "https://bl.rutube.ru/livestream/05550e441b09aeec53e60de66b6c47bf/index.m3u8?s=jJ8GHzeJIzYZUoWBKmzdFw&e=2094509894&scheme=https",
+        "key": null
       },
-      "streams": [
-        {
-          "id": 1,
-          "title": "beIN SPORTS - AQ",
-          "type": "7",
-          "link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd?",
-          "api": "74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c"
-        },
-        {
-          "id": 2,
-          "title": "CRICFy LIVE ",
-          "type": "0",
-          "link": "https://live.vivo155.com/live/sd-1-4642721.m3u8?txSecret=b84e257c746659b30e113c4011d3eb27&txTime=6AF6223F",
-          "api": ""
-        },
-        {
-          "id": 3,
-          "title": "HD SERVER ",
-          "type": "0",
-          "link": "https://live2.jorvakstreamcache.com/live/channel20.m3u8?",
-          "api": ""
-        }
-      ]
+      {
+        "title": "CRICFy LIVE",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4642734.m3u8?txSecret=5bb62af7123df454b5b8ee1c25011a58&txTime=6AF62217",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel7.m3u8?",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 14878,
+    "title": "Cote dIvoire vs Gambia",
+    "slug": "cote-divoire-vs-gambia",
+    "cat": "Live Events",
+    "status": "live",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Côte d'Ivoire",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4768/image",
+      "teamB": "Gambia",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4762/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1848/image/dark",
+      "startTimeIST": "2026-11-13 00:30:00 IST",
+      "endTimeIST": "2026-11-13 02:50:00 IST",
+      "startTimeUTC": "2026/11/12 19:00:00 +0000",
+      "endTimeUTC": "2026/11/12 21:20:00 +0000"
     },
-    {
-      "id": "14879",
-      "title": "Senegal vs Sudan",
-      "slug": "senegal-vs-sudan",
-      "cat": "Live Events",
-      "status": "live",
-      "event": {
-        "name": "Football",
-        "category": "Football",
-        "type": "Africa Cup of Nations Qual.",
-        "logo": "https://img.sofascore.com/api/v1/unique-tournament/1848/image/dark",
-        "teamA": "Senegal",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/4739/image",
-        "teamB": "Sudan",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/4734/image",
-        "startTimeIST": "2026-11-13 00:30:00 IST",
-        "endTimeIST": "2026-11-13 02:50:00 IST"
+    "dashStreams": [
+      {
+        "title": "beIN SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd?",
+        "key": "74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c"
       },
-      "streams": [
-        {
-          "id": 1,
-          "title": "beIN SPORTS - AQ",
-          "type": "7",
-          "link": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?",
-          "api": "27759a440e8ad821b800b3de00cd5851:1b8743adee559f27845f55e8b4d639fe"
-        },
-        {
-          "id": 2,
-          "title": "CRICFy LIVE ",
-          "type": "0",
-          "link": "https://live.vivo155.com/live/sd-1-4642732.m3u8?txSecret=8b82d7e6f069cf478f97be0eef7203a1&txTime=6AF6226D",
-          "api": ""
-        },
-        {
-          "id": 3,
-          "title": "HD SERVER ",
-          "type": "0",
-          "link": "https://live2.jorvakstreamcache.com/live/channel10.m3u8?",
-          "api": ""
-        }
-      ]
+      {
+        "title": "CRICFy LIVE",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4642721.m3u8?txSecret=b84e257c746659b30e113c4011d3eb27&txTime=6AF6223F",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel20.m3u8?",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 14879,
+    "title": "Senegal vs Sudan",
+    "slug": "senegal-vs-sudan",
+    "cat": "Live Events",
+    "status": "live",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Senegal",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4739/image",
+      "teamB": "Sudan",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4734/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1848/image/dark",
+      "startTimeIST": "2026-11-13 00:30:00 IST",
+      "endTimeIST": "2026-11-13 02:50:00 IST",
+      "startTimeUTC": "2026/11/12 19:00:00 +0000",
+      "endTimeUTC": "2026/11/12 21:20:00 +0000"
     },
-    {
-      "id": "14837",
-      "title": "Czechia vs Spain",
-      "slug": "czechia-vs-spain",
-      "cat": "Live Events",
-      "status": "live",
-      "event": {
-        "name": "Football",
-        "category": "Football",
-        "type": "UEFA Nations League",
-        "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
-        "teamA": "Czechia",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/4714/image",
-        "teamB": "Spain",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/4698/image",
-        "startTimeIST": "2026-11-13 01:15:00 IST",
-        "endTimeIST": "2026-11-13 03:35:00 IST"
+    "dashStreams": [
+      {
+        "title": "beIN SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?",
+        "key": "27759a440e8ad821b800b3de00cd5851:1b8743adee559f27845f55e8b4d639fe"
       },
-      "streams": [
-        {
-          "id": 1,
-          "title": "TVE La 1 - AQ",
-          "type": "7",
-          "link": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/c7di7zkdor/out/v1/f7d5b356e048494a8325563e8916d50b/cenc.mpd",
-          "api": "745cd6ec34a58f2f7ac2af35dc3da6d2:ae008f1e47e6567fe4201a6ff8f1ae54"
-        },
-        {
-          "id": 2,
-          "title": "FOX SOCCER+ HD",
-          "type": "0",
-          "link": "https://chatgpt.hereisman.net/playlist/59885/load-playlist-multi?",
-          "api": ""
-        },
-        {
-          "id": 3,
-          "title": "CRICFy LIVE ",
-          "type": "0",
-          "link": "https://live.vivo155.com/live/hd-en-1-4518079.m3u8?txSecret=9e533885a330a1e317772f2b3842168e&txTime=6AF62AE5",
-          "api": ""
-        },
-        {
-          "id": 4,
-          "title": "SonyLiv ",
-          "type": "0",
-          "link": "https://sonyeventsglobal.akamaized.net/hls/live/2120304/Footlive1211/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794554959~acl=/*~id=09933563448685875209432911659816~hmac=2b90f27117ccdd8654ff06c7de4eb30b0cd4e71a01e5e9db074151e78bebc014",
-          "api": ""
-        },
-        {
-          "id": 5,
-          "title": "HD SERVER ",
-          "type": "0",
-          "link": "https://www.rtmpcdn.com/live/4d6b1628-9a18-4c59-b149-17048ce4f7f4.m3u8",
-          "api": ""
-        }
-      ]
+      {
+        "title": "CRICFy LIVE",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4642732.m3u8?txSecret=8b82d7e6f069cf478f97be0eef7203a1&txTime=6AF6226D",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel10.m3u8?",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 14837,
+    "title": "Czechia vs Spain",
+    "slug": "czechia-vs-spain",
+    "cat": "Live Events",
+    "status": "live",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Czechia",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4714/image",
+      "teamB": "Spain",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4698/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-13 01:15:00 IST",
+      "endTimeIST": "2026-11-13 03:35:00 IST",
+      "startTimeUTC": "2026/11/12 19:45:00 +0000",
+      "endTimeUTC": "2026/11/12 22:05:00 +0000"
     },
-    {
-      "id": "14838",
-      "title": "England vs Croatia",
-      "slug": "england-vs-croatia",
-      "cat": "Live Events",
-      "status": "live",
-      "event": {
-        "name": "Football",
-        "category": "Football",
-        "type": "UEFA Nations League",
-        "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
-        "teamA": "England",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/4713/image",
-        "teamB": "Croatia",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/4715/image",
-        "startTimeIST": "2026-11-13 01:15:00 IST",
-        "endTimeIST": "2026-11-13 03:35:00 IST"
+    "dashStreams": [
+      {
+        "title": "TVE La 1 - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/c7di7zkdor/out/v1/f7d5b356e048494a8325563e8916d50b/cenc.mpd",
+        "key": "745cd6ec34a58f2f7ac2af35dc3da6d2:ae008f1e47e6567fe4201a6ff8f1ae54"
       },
-      "streams": [
-        {
-          "id": 1,
-          "title": "beIN ENGLISH - AQ",
-          "type": "7",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
-          "api": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
-        },
-        {
-          "id": 2,
-          "title": "SPORT 1 CZ - AQ",
-          "type": "7",
-          "link": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-          "api": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-        },
-        {
-          "id": 3,
-          "title": "ITV SPORTS HD",
-          "type": "0",
-          "link": "https://chatgpt.hereisman.net/playlist/59879/load-playlist-multi?",
-          "api": ""
-        },
-        {
-          "id": 4,
-          "title": "CRICFy LIVE ",
-          "type": "0",
-          "link": "https://live.vivo155.com/live/hd-en-1-4518080.m3u8?txSecret=5a99ae96f0dd08588c674dccb3922af6&txTime=6AF62AAA",
-          "api": ""
-        },
-        {
-          "id": 5,
-          "title": "HD SERVER ",
-          "type": "0",
-          "link": "https://www.rtmpcdn.com/live/e2fefd1f-0c53-461c-9e8b-8780f63f0874.m3u8",
-          "api": ""
-        },
-        {
-          "id": 6,
-          "title": "SonyLiv ",
-          "type": "0",
-          "link": "https://sonyeventsglobal.akamaized.net/hls/live/2120307/Footlive1211/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794554959~acl=/*~id=09933563448685875209432911659816~hmac=2b90f27117ccdd8654ff06c7de4eb30b0cd4e71a01e5e9db074151e78bebc014",
-          "api": ""
-        }
-      ]
+      {
+        "title": "FOX SOCCER+ HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59885/load-playlist-multi?",
+        "key": null
+      },
+      {
+        "title": "CRICFy LIVE",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4518079.m3u8?txSecret=9e533885a330a1e317772f2b3842168e&txTime=6AF62AE5",
+        "key": null
+      },
+      {
+        "title": "SonyLiv",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120304/Footlive1211/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794554959~acl=/*~id=09933563448685875209432911659816~hmac=2b90f27117ccdd8654ff06c7de4eb30b0cd4e71a01e5e9db074151e78bebc014",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/4d6b1628-9a18-4c59-b149-17048ce4f7f4.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 14838,
+    "title": "England vs Croatia",
+    "slug": "england-vs-croatia",
+    "cat": "Live Events",
+    "status": "live",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "England",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4713/image",
+      "teamB": "Croatia",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4715/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-13 01:15:00 IST",
+      "endTimeIST": "2026-11-13 03:35:00 IST",
+      "startTimeUTC": "2026/11/12 19:45:00 +0000",
+      "endTimeUTC": "2026/11/12 22:05:00 +0000"
     },
-    {
-      "id": "14839",
-      "title": "Italy vs France",
-      "slug": "italy-vs-france",
-      "cat": "Live Events",
-      "status": "live",
-      "event": {
-        "name": "Football",
-        "category": "Football",
-        "type": "UEFA Nations League",
-        "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
-        "teamA": "Italy",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/4707/image",
-        "teamB": "France",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/4481/image",
-        "startTimeIST": "2026-11-13 01:15:00 IST",
-        "endTimeIST": "2026-11-13 03:35:00 IST"
+    "dashStreams": [
+      {
+        "title": "beIN ENGLISH - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
+        "key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
       },
-      "streams": [
-        {
-          "id": 1,
-          "title": "FOX SPORTS - AQ",
-          "type": "7",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd",
-          "api": "5466ebd70704bdeb657f0abf3c5ca4ef:bdd79b72d8e48ed483aa623cc38a8a16"
-        },
-        {
-          "id": 2,
-          "title": "beIN ENGLISH - AQ",
-          "type": "7",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-          "api": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-        },
-        {
-          "id": 3,
-          "title": "SPORT 2 CZ - AQ",
-          "type": "7",
-          "link": "https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd",
-          "api": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-        },
-        {
-          "id": 4,
-          "title": "FOX SPORTS HD",
-          "type": "0",
-          "link": "https://chatgpt.hereisman.net/playlist/59882/load-playlist-multi?",
-          "api": ""
-        },
-        {
-          "id": 5,
-          "title": "CRICFy LIVE ",
-          "type": "0",
-          "link": "https://live.vivo155.com/live/hd-en-1-4518078.m3u8?txSecret=cd989d368e45542bb36885c5245e1528&txTime=6AF62ACD",
-          "api": ""
-        },
-        {
-          "id": 6,
-          "title": "SonyLiv ",
-          "type": "0",
-          "link": "https://sonyeventsglobal.akamaized.net/hls/live/2120306/Footlive1211/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794554959~acl=/*~id=09933563448685875209432911659816~hmac=2b90f27117ccdd8654ff06c7de4eb30b0cd4e71a01e5e9db074151e78bebc014",
-          "api": ""
-        },
-        {
-          "id": 7,
-          "title": "HD SERVER ",
-          "type": "0",
-          "link": "https://live01-cn-ali.xqnbu.com/live/99429832_tsc.m3u8",
-          "api": ""
-        }
-      ]
+      {
+        "title": "SPORT 1 CZ - AQ",
+        "type": "dash",
+        "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+        "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+      },
+      {
+        "title": "ITV SPORTS HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59879/load-playlist-multi?",
+        "key": null
+      },
+      {
+        "title": "CRICFy LIVE",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4518080.m3u8?txSecret=5a99ae96f0dd08588c674dccb3922af6&txTime=6AF62AAA",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/e2fefd1f-0c53-461c-9e8b-8780f63f0874.m3u8",
+        "key": null
+      },
+      {
+        "title": "SonyLiv",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120307/Footlive1211/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794554959~acl=/*~id=09933563448685875209432911659816~hmac=2b90f27117ccdd8654ff06c7de4eb30b0cd4e71a01e5e9db074151e78bebc014",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 14839,
+    "title": "Italy vs France",
+    "slug": "italy-vs-france",
+    "cat": "Live Events",
+    "status": "live",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Italy",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4707/image",
+      "teamB": "France",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4481/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-13 01:15:00 IST",
+      "endTimeIST": "2026-11-13 03:35:00 IST",
+      "startTimeUTC": "2026/11/12 19:45:00 +0000",
+      "endTimeUTC": "2026/11/12 22:05:00 +0000"
     },
-    {
-      "id": "14841",
-      "title": "Albania vs Finland",
-      "slug": "albania-vs-finland",
-      "cat": "Live Events",
-      "status": "live",
-      "event": {
-        "name": "Football",
-        "category": "Football",
-        "type": "UEFA Nations League",
-        "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
-        "teamA": "Albania",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/4690/image",
-        "teamB": "Finland",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/4712/image",
-        "startTimeIST": "2026-11-13 01:15:00 IST",
-        "endTimeIST": "2026-11-13 03:35:00 IST"
+    "dashStreams": [
+      {
+        "title": "FOX SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd",
+        "key": "5466ebd70704bdeb657f0abf3c5ca4ef:bdd79b72d8e48ed483aa623cc38a8a16"
       },
-      "streams": [
-        {
-          "id": 1,
-          "title": "FUBO NETWORK FHD",
-          "type": "7",
-          "link": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/xtkswns2yn/out/v1/9c348c1bc962495a9420f01ac0964a86/cenc.mpd",
-          "api": "fa5e8db5359fc7d1f15207d5de2a3ac4:78a6c0a41972dfdba2145ae0ad4bd681"
-        },
-        {
-          "id": 2,
-          "title": "CRICFy LIVE ",
-          "type": "0",
-          "link": "https://live.vivo155.com/live/hd-en-1-4518081.m3u8?txSecret=4dc860409fc2161f391db8d795912cc9&txTime=6AF62B06",
-          "api": ""
-        },
-        {
-          "id": 3,
-          "title": "SonyLiv ",
-          "type": "0",
-          "link": "https://sonyeventsglobal.akamaized.net/hls/live/2120308/Footlive1211/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794554959~acl=/*~id=09933563448685875209432911659816~hmac=2b90f27117ccdd8654ff06c7de4eb30b0cd4e71a01e5e9db074151e78bebc014",
-          "api": ""
-        }
-      ]
+      {
+        "title": "beIN ENGLISH - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+        "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+      },
+      {
+        "title": "SPORT 2 CZ - AQ",
+        "type": "dash",
+        "url": "https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd",
+        "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+      },
+      {
+        "title": "FOX SPORTS HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59882/load-playlist-multi?",
+        "key": null
+      },
+      {
+        "title": "CRICFy LIVE",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4518078.m3u8?txSecret=cd989d368e45542bb36885c5245e1528&txTime=6AF62ACD",
+        "key": null
+      },
+      {
+        "title": "SonyLiv",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120306/Footlive1211/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794554959~acl=/*~id=09933563448685875209432911659816~hmac=2b90f27117ccdd8654ff06c7de4eb30b0cd4e71a01e5e9db074151e78bebc014",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live01-cn-ali.xqnbu.com/live/99429832_tsc.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 14841,
+    "title": "Albania vs Finland",
+    "slug": "albania-vs-finland",
+    "cat": "Live Events",
+    "status": "live",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Albania",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4690/image",
+      "teamB": "Finland",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4712/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-13 01:15:00 IST",
+      "endTimeIST": "2026-11-13 03:35:00 IST",
+      "startTimeUTC": "2026/11/12 19:45:00 +0000",
+      "endTimeUTC": "2026/11/12 22:05:00 +0000"
     },
-    {
-      "id": "14842",
-      "title": "San Marino vs Belarus",
-      "slug": "san-marino-vs-belarus",
-      "cat": "Live Events",
-      "status": "live",
-      "event": {
-        "name": "Football",
-        "category": "Football",
-        "type": "UEFA Nations League",
-        "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
-        "teamA": "San Marino",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/4833/image",
-        "teamB": "Belarus",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/4743/image",
-        "startTimeIST": "2026-11-13 01:15:00 IST",
-        "endTimeIST": "2026-11-13 03:35:00 IST"
+    "dashStreams": [
+      {
+        "title": "FUBO NETWORK FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/xtkswns2yn/out/v1/9c348c1bc962495a9420f01ac0964a86/cenc.mpd",
+        "key": "fa5e8db5359fc7d1f15207d5de2a3ac4:78a6c0a41972dfdba2145ae0ad4bd681"
       },
-      "streams": [
-        {
-          "id": 1,
-          "title": "DAZN SPORTS HD",
-          "type": "0",
-          "link": "https://chatgpt.hereisman.net/playlist/59878/load-playlist-multi?",
-          "api": ""
-        },
-        {
-          "id": 2,
-          "title": "CRICFy LIVE ",
-          "type": "0",
-          "link": "https://live.vivo155.com/live/hd-en-1-4518082.m3u8?txSecret=6177b27e7e01b44821193da3d7cac20d&txTime=6AF62CE7",
-          "api": ""
-        },
-        {
-          "id": 3,
-          "title": "HD SERVER ",
-          "type": "0",
-          "link": "https://live2.jorvakstreamcache.com/live/channel19.m3u8?",
-          "api": ""
-        },
-        {
-          "id": 4,
-          "title": "SonyLiv ",
-          "type": "0",
-          "link": "https://sonyeventsglobal.akamaized.net/hls/live/2005444/Footlive1211/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794554959~acl=/*~id=09933563448685875209432911659816~hmac=2b90f27117ccdd8654ff06c7de4eb30b0cd4e71a01e5e9db074151e78bebc014",
-          "api": ""
-        }
-      ]
+      {
+        "title": "CRICFy LIVE",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4518081.m3u8?txSecret=4dc860409fc2161f391db8d795912cc9&txTime=6AF62B06",
+        "key": null
+      },
+      {
+        "title": "SonyLiv",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120308/Footlive1211/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794554959~acl=/*~id=09933563448685875209432911659816~hmac=2b90f27117ccdd8654ff06c7de4eb30b0cd4e71a01e5e9db074151e78bebc014",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 14842,
+    "title": "San Marino vs Belarus",
+    "slug": "san-marino-vs-belarus",
+    "cat": "Live Events",
+    "status": "live",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "San Marino",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4833/image",
+      "teamB": "Belarus",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4743/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-13 01:15:00 IST",
+      "endTimeIST": "2026-11-13 03:35:00 IST",
+      "startTimeUTC": "2026/11/12 19:45:00 +0000",
+      "endTimeUTC": "2026/11/12 22:05:00 +0000"
     },
-    {
-      "id": "14843",
-      "title": "Montenegro vs Latvia",
-      "slug": "montenegro-vs-latvia",
-      "cat": "Live Events",
-      "status": "live",
-      "event": {
-        "name": "Football",
-        "category": "Football",
-        "type": "UEFA Nations League",
-        "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
-        "teamA": "Montenegro",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/7139/image",
-        "teamB": "Latvia",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/4706/image",
-        "startTimeIST": "2026-11-13 01:15:00 IST",
-        "endTimeIST": "2026-11-13 03:35:00 IST"
+    "dashStreams": [
+      {
+        "title": "DAZN SPORTS HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59878/load-playlist-multi?",
+        "key": null
       },
-      "streams": [
-        {
-          "id": 1,
-          "title": "DAZN SPORTS HD",
-          "type": "0",
-          "link": "https://chatgpt.hereisman.net/playlist/59884/load-playlist-multi?",
-          "api": ""
-        },
-        {
-          "id": 2,
-          "title": "CRICFy LIVE ",
-          "type": "0",
-          "link": "https://live.vivo155.com/live/hd-en-1-4518084.m3u8?txSecret=be146b16b8d490d372b168aed0c36584&txTime=6AF62D1A",
-          "api": ""
-        },
-        {
-          "id": 3,
-          "title": "HD SERVER ",
-          "type": "0",
-          "link": "https://live2.jorvakstreamcache.com/live/channel18.m3u8?",
-          "api": ""
-        },
-        {
-          "id": 4,
-          "title": "SonyLiv ",
-          "type": "0",
-          "link": "https://sonyeventsglobal.akamaized.net/hls/live/2120305/Footlive1211/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794554959~acl=/*~id=09933563448685875209432911659816~hmac=2b90f27117ccdd8654ff06c7de4eb30b0cd4e71a01e5e9db074151e78bebc014",
-          "api": ""
-        }
-      ]
+      {
+        "title": "CRICFy LIVE",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4518082.m3u8?txSecret=6177b27e7e01b44821193da3d7cac20d&txTime=6AF62CE7",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel19.m3u8?",
+        "key": null
+      },
+      {
+        "title": "SonyLiv",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2005444/Footlive1211/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794554959~acl=/*~id=09933563448685875209432911659816~hmac=2b90f27117ccdd8654ff06c7de4eb30b0cd4e71a01e5e9db074151e78bebc014",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 14843,
+    "title": "Montenegro vs Latvia",
+    "slug": "montenegro-vs-latvia",
+    "cat": "Live Events",
+    "status": "live",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Montenegro",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/7139/image",
+      "teamB": "Latvia",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4706/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-13 01:15:00 IST",
+      "endTimeIST": "2026-11-13 03:35:00 IST",
+      "startTimeUTC": "2026/11/12 19:45:00 +0000",
+      "endTimeUTC": "2026/11/12 22:05:00 +0000"
     },
-    {
-      "id": "14900",
-      "title": "Moldova vs Kazakhstan",
-      "slug": "moldova-vs-kazakhstan",
-      "cat": "Live Events",
-      "status": "upcoming",
-      "event": {
-        "name": "Football",
-        "category": "Football",
-        "type": "UEFA Nations League",
-        "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
-        "teamA": "Moldova",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/4782/image",
-        "teamB": "Kazakhstan",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/4772/image",
-        "startTimeIST": "2026-11-13 22:30:00 IST",
-        "endTimeIST": "2026-11-14 00:50:00 IST"
+    "dashStreams": [
+      {
+        "title": "DAZN SPORTS HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59884/load-playlist-multi?",
+        "key": null
       },
-      "streams": []
+      {
+        "title": "CRICFy LIVE",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4518084.m3u8?txSecret=be146b16b8d490d372b168aed0c36584&txTime=6AF62D1A",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel18.m3u8?",
+        "key": null
+      },
+      {
+        "title": "SonyLiv",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120305/Footlive1211/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794554959~acl=/*~id=09933563448685875209432911659816~hmac=2b90f27117ccdd8654ff06c7de4eb30b0cd4e71a01e5e9db074151e78bebc014",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 14900,
+    "title": "Moldova vs Kazakhstan",
+    "slug": "moldova-vs-kazakhstan",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Moldova",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4782/image",
+      "teamB": "Kazakhstan",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4772/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-13 22:30:00 IST",
+      "endTimeIST": "2026-11-14 00:50:00 IST",
+      "startTimeUTC": "2026/11/13 17:00:00 +0000",
+      "endTimeUTC": "2026/11/13 19:20:00 +0000"
     },
-    {
-      "id": "14894",
-      "title": "Andorra vs Gibraltar",
-      "slug": "andorra-vs-gibraltar",
-      "cat": "Live Events",
-      "status": "upcoming",
-      "event": {
-        "name": "Football",
-        "category": "Football",
-        "type": "UEFA Nations League",
-        "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
-        "teamA": "Andorra",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/4818/image",
-        "teamB": "Gibraltar",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/129264/image",
-        "startTimeIST": "2026-11-14 01:15:00 IST",
-        "endTimeIST": "2026-11-14 03:35:00 IST"
-      },
-      "streams": []
+    "dashStreams": []
+  },
+  {
+    "id": 14894,
+    "title": "Andorra vs Gibraltar",
+    "slug": "andorra-vs-gibraltar",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Andorra",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4818/image",
+      "teamB": "Gibraltar",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/129264/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-14 01:15:00 IST",
+      "endTimeIST": "2026-11-14 03:35:00 IST",
+      "startTimeUTC": "2026/11/13 19:45:00 +0000",
+      "endTimeUTC": "2026/11/13 22:05:00 +0000"
     },
-    {
-      "id": "14895",
-      "title": "Liechtenstein vs Azerbaijan",
-      "slug": "liechtenstein-vs-azerbaijan",
-      "cat": "Live Events",
-      "status": "upcoming",
-      "event": {
-        "name": "Football",
-        "category": "Football",
-        "type": "UEFA Nations League",
-        "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
-        "teamA": "Liechtenstein",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/4830/image",
-        "teamB": "Azerbaijan",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/4742/image",
-        "startTimeIST": "2026-11-14 01:15:00 IST",
-        "endTimeIST": "2026-11-14 03:35:00 IST"
-      },
-      "streams": []
+    "dashStreams": []
+  },
+  {
+    "id": 14895,
+    "title": "Liechtenstein vs Azerbaijan",
+    "slug": "liechtenstein-vs-azerbaijan",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Liechtenstein",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4830/image",
+      "teamB": "Azerbaijan",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4742/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-14 01:15:00 IST",
+      "endTimeIST": "2026-11-14 03:35:00 IST",
+      "startTimeUTC": "2026/11/13 19:45:00 +0000",
+      "endTimeUTC": "2026/11/13 22:05:00 +0000"
     },
-    {
-      "id": "14896",
-      "title": "Netherlands vs Greece",
-      "slug": "netherlands-vs-greece",
-      "cat": "Live Events",
-      "status": "upcoming",
-      "event": {
-        "name": "Football",
-        "category": "Football",
-        "type": "UEFA Nations League",
-        "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
-        "teamA": "Netherlands",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/4705/image",
-        "teamB": "Greece",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/4710/image",
-        "startTimeIST": "2026-11-14 01:15:00 IST",
-        "endTimeIST": "2026-11-14 03:35:00 IST"
-      },
-      "streams": []
+    "dashStreams": []
+  },
+  {
+    "id": 14896,
+    "title": "Netherlands vs Greece",
+    "slug": "netherlands-vs-greece",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Netherlands",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4705/image",
+      "teamB": "Greece",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4710/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-14 01:15:00 IST",
+      "endTimeIST": "2026-11-14 03:35:00 IST",
+      "startTimeUTC": "2026/11/13 19:45:00 +0000",
+      "endTimeUTC": "2026/11/13 22:05:00 +0000"
     },
-    {
-      "id": "14897",
-      "title": "Serbia vs Germany",
-      "slug": "serbia-vs-germany",
-      "cat": "Live Events",
-      "status": "upcoming",
-      "event": {
-        "name": "Football",
-        "category": "Football",
-        "type": "UEFA Nations League",
-        "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
-        "teamA": "Serbia",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/6355/image",
-        "teamB": "Germany",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/4711/image",
-        "startTimeIST": "2026-11-14 01:15:00 IST",
-        "endTimeIST": "2026-11-14 03:35:00 IST"
-      },
-      "streams": []
+    "dashStreams": []
+  },
+  {
+    "id": 14897,
+    "title": "Serbia vs Germany",
+    "slug": "serbia-vs-germany",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Serbia",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/6355/image",
+      "teamB": "Germany",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4711/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-14 01:15:00 IST",
+      "endTimeIST": "2026-11-14 03:35:00 IST",
+      "startTimeUTC": "2026/11/13 19:45:00 +0000",
+      "endTimeUTC": "2026/11/13 22:05:00 +0000"
     },
-    {
-      "id": "14898",
-      "title": "Scotland vs North Macedonia",
-      "slug": "scotland-vs-north-macedonia",
-      "cat": "Live Events",
-      "status": "upcoming",
-      "event": {
-        "name": "Football",
-        "category": "Football",
-        "type": "UEFA Nations League",
-        "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
-        "teamA": "Scotland",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/4695/image",
-        "teamB": "North Macedonia",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/4777/image",
-        "startTimeIST": "2026-11-14 01:15:00 IST",
-        "endTimeIST": "2026-11-14 03:35:00 IST"
-      },
-      "streams": []
+    "dashStreams": []
+  },
+  {
+    "id": 14898,
+    "title": "Scotland vs North Macedonia",
+    "slug": "scotland-vs-north-macedonia",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Scotland",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4695/image",
+      "teamB": "North Macedonia",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4777/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-14 01:15:00 IST",
+      "endTimeIST": "2026-11-14 03:35:00 IST",
+      "startTimeUTC": "2026/11/13 19:45:00 +0000",
+      "endTimeUTC": "2026/11/13 22:05:00 +0000"
     },
-    {
-      "id": "14899",
-      "title": "Slovenia vs Switzerland",
-      "slug": "slovenia-vs-switzerland",
-      "cat": "Live Events",
-      "status": "upcoming",
-      "event": {
-        "name": "Football",
-        "category": "Football",
-        "type": "UEFA Nations League",
-        "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
-        "teamA": "Slovenia",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/4484/image",
-        "teamB": "Switzerland",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/4699/image",
-        "startTimeIST": "2026-11-14 01:15:00 IST",
-        "endTimeIST": "2026-11-14 03:35:00 IST"
-      },
-      "streams": []
+    "dashStreams": []
+  },
+  {
+    "id": 14899,
+    "title": "Slovenia vs Switzerland",
+    "slug": "slovenia-vs-switzerland",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Slovenia",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4484/image",
+      "teamB": "Switzerland",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4699/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-14 01:15:00 IST",
+      "endTimeIST": "2026-11-14 03:35:00 IST",
+      "startTimeUTC": "2026/11/13 19:45:00 +0000",
+      "endTimeUTC": "2026/11/13 22:05:00 +0000"
     },
-    {
-      "id": "14901",
-      "title": "Bulgaria vs Iceland",
-      "slug": "bulgaria-vs-iceland",
-      "cat": "Live Events",
-      "status": "upcoming",
-      "event": {
-        "name": "Football",
-        "category": "Football",
-        "type": "UEFA Nations League",
-        "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
-        "teamA": "Bulgaria",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/4716/image",
-        "teamB": "Iceland",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/4708/image",
-        "startTimeIST": "2026-11-14 01:15:00 IST",
-        "endTimeIST": "2026-11-14 03:35:00 IST"
-      },
-      "streams": []
+    "dashStreams": []
+  },
+  {
+    "id": 14901,
+    "title": "Bulgaria vs Iceland",
+    "slug": "bulgaria-vs-iceland",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Bulgaria",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4716/image",
+      "teamB": "Iceland",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4708/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-14 01:15:00 IST",
+      "endTimeIST": "2026-11-14 03:35:00 IST",
+      "startTimeUTC": "2026/11/13 19:45:00 +0000",
+      "endTimeUTC": "2026/11/13 22:05:00 +0000"
     },
-    {
-      "id": "14902",
-      "title": "Luxembourg vs Estonia",
-      "slug": "luxembourg-vs-estonia",
-      "cat": "Live Events",
-      "status": "upcoming",
-      "event": {
-        "name": "Football",
-        "category": "Football",
-        "type": "UEFA Nations League",
-        "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
-        "teamA": "Luxembourg",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/4478/image",
-        "teamB": "Estonia",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/4759/image",
-        "startTimeIST": "2026-11-14 01:15:00 IST",
-        "endTimeIST": "2026-11-14 03:35:00 IST"
-      },
-      "streams": []
+    "dashStreams": []
+  },
+  {
+    "id": 14902,
+    "title": "Luxembourg vs Estonia",
+    "slug": "luxembourg-vs-estonia",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Luxembourg",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4478/image",
+      "teamB": "Estonia",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4759/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-14 01:15:00 IST",
+      "endTimeIST": "2026-11-14 03:35:00 IST",
+      "startTimeUTC": "2026/11/13 19:45:00 +0000",
+      "endTimeUTC": "2026/11/13 22:05:00 +0000"
     },
-    {
-      "id": "14903",
-      "title": "Slovakia vs Faroe Islands",
-      "slug": "slovakia-vs-faroe-islands",
-      "cat": "Live Events",
-      "status": "upcoming",
-      "event": {
-        "name": "Football",
-        "category": "Football",
-        "type": "UEFA Nations League",
-        "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
-        "teamA": "Slovakia",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/4697/image",
-        "teamB": "Faroe Islands",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/4760/image",
-        "startTimeIST": "2026-11-14 01:15:00 IST",
-        "endTimeIST": "2026-11-14 03:35:00 IST"
-      },
-      "streams": []
+    "dashStreams": []
+  },
+  {
+    "id": 14903,
+    "title": "Slovakia vs Faroe Islands",
+    "slug": "slovakia-vs-faroe-islands",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Slovakia",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4697/image",
+      "teamB": "Faroe Islands",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4760/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-14 01:15:00 IST",
+      "endTimeIST": "2026-11-14 03:35:00 IST",
+      "startTimeUTC": "2026/11/13 19:45:00 +0000",
+      "endTimeUTC": "2026/11/13 22:05:00 +0000"
     },
-    {
-      "id": "14845",
-      "title": "Argentina vs Uruguay",
-      "slug": "argentina-vs-uruguay",
-      "cat": "Live Events",
-      "status": "upcoming",
-      "event": {
-        "name": "Football",
-        "category": "Football",
-        "type": "International Friendly Games",
-        "logo": "https://img.sofascore.com/api/v1/unique-tournament/851/image/dark",
-        "teamA": "Argentina",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/4819/image",
-        "teamB": "Uruguay",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/4725/image",
-        "startTimeIST": "2026-11-14 04:30:00 IST",
-        "endTimeIST": "2026-11-14 06:50:00 IST"
-      },
-      "streams": []
+    "dashStreams": []
+  },
+  {
+    "id": 14845,
+    "title": "Argentina vs Uruguay",
+    "slug": "argentina-vs-uruguay",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Argentina",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4819/image",
+      "teamB": "Uruguay",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4725/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/851/image/dark",
+      "startTimeIST": "2026-11-14 04:30:00 IST",
+      "endTimeIST": "2026-11-14 06:50:00 IST",
+      "startTimeUTC": "2026/11/13 23:00:00 +0000",
+      "endTimeUTC": "2026/11/14 01:20:00 +0000"
     },
-    {
-      "id": "14844",
-      "title": "Japan vs Brazil",
-      "slug": "japan-vs-brazil",
-      "cat": "Live Events",
-      "status": "upcoming",
-      "event": {
-        "name": "Football",
-        "category": "Football",
-        "type": "International Friendly Games",
-        "logo": "https://img.sofascore.com/api/v1/unique-tournament/851/image/dark",
-        "teamA": "Japan",
-        "teamAFlag": "https://img.sofascore.com/api/v1/team/4770/image",
-        "teamB": "Brazil",
-        "teamBFlag": "https://img.sofascore.com/api/v1/team/4748/image",
-        "startTimeIST": "2026-11-14 15:45:00 IST",
-        "endTimeIST": "2026-11-14 18:05:00 IST"
-      },
-      "streams": []
-    }
-  ]
-}
+    "dashStreams": []
+  },
+  {
+    "id": 14844,
+    "title": "Japan vs Brazil",
+    "slug": "japan-vs-brazil",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Japan",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4770/image",
+      "teamB": "Brazil",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4748/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/851/image/dark",
+      "startTimeIST": "2026-11-14 15:45:00 IST",
+      "endTimeIST": "2026-11-14 18:05:00 IST",
+      "startTimeUTC": "2026/11/14 10:15:00 +0000",
+      "endTimeUTC": "2026/11/14 12:35:00 +0000"
+    },
+    "dashStreams": []
+  }
+]
