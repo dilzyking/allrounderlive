@@ -1950,6 +1950,141 @@
   -webkit-font-smoothing: antialiased;
   font-synthesis: none;
 }
+
+      
+/* ==========================================
+   MATCHDEKHO — PREMIUM OTT DESKTOP RAILS
+   Desktop only. Mobile remains unchanged.
+   ========================================== */
+
+@media (min-width: 1200px) {
+
+  .live {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+
+  .live-rail {
+    position: relative;
+    width: 100%;
+    min-width: 0;
+  }
+
+  .live-rail > .rail {
+    --ott-columns: 4;
+    --ott-gap: 16px;
+
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    gap: var(--ott-gap) !important;
+
+    width: 100% !important;
+    min-width: 0;
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    scroll-padding-inline: 0;
+
+    overscroll-behavior-x: contain;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .live-rail > .rail::-webkit-scrollbar {
+    display: none;
+  }
+
+  .live-rail > .rail > * {
+    flex: 0 0 calc(
+      (100% - (var(--ott-columns) - 1)
+      * var(--ott-gap)) / var(--ott-columns)
+    ) !important;
+
+    width: calc(
+      (100% - (var(--ott-columns) - 1)
+      * var(--ott-gap)) / var(--ott-columns)
+    ) !important;
+
+    min-width: 0 !important;
+    max-width: none !important;
+    box-sizing: border-box;
+    scroll-snap-align: start;
+    scroll-snap-stop: normal;
+  }
+
+  .live-rail .thumb,
+  .live-rail .allsports-thumb {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+  }
+
+  .live-rail .thumb img,
+  .live-rail .allsports-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  /* Desktop OTT hover animation */
+  .live-rail .rail > a,
+  .live-rail .rail > .card {
+    transition:
+      transform 250ms ease,
+      border-color 250ms ease,
+      box-shadow 250ms ease;
+  }
+
+  .live-rail .rail > a:hover,
+  .live-rail .rail > .card:hover {
+    transform: translateY(-4px);
+    z-index: 2;
+  }
+
+  /* Center arrows against the posters */
+  .live-rail > .arrow {
+    top: calc(
+      (100vw * .92 - 3 * 16px)
+      / 4 * 9 / 32 - 24px
+    );
+  }
+
+  #football .live-rail > .arrow {
+    top: calc(
+      (100vw * .92 - 3 * 16px)
+      / 4 * 9 / 32 - 24px
+    );
+  }
+}
+
+/* Large desktop — 5 cards */
+@media (min-width: 1440px) {
+  .live-rail > .rail {
+    --ott-columns: 5;
+  }
+}
+
+/* Ultra-wide desktop — 6 cards */
+@media (min-width: 1920px) {
+  .live-rail > .rail {
+    --ott-columns: 6;
+    --ott-gap: 18px;
+  }
+}
+
+/* Reduced motion accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .live-rail > .rail {
+    scroll-behavior: auto;
+  }
+}
+
     </style></head
   ><body
     ><div class="ambient" aria-hidden="true"
