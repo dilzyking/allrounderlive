@@ -509,7 +509,7 @@
   <main>
     <!-- LIVE PLAYER: starts with Hindi server -->
     <section class="player-wrapper" aria-label="India vs New Zealand live player">
-      <iframe id="matchPlayer" src="https://allrounder3-0.pages.dev/eng" allowfullscreen allow="encrypted-media; fullscreen; autoplay" loading="eager" title="India vs New Zealand Live Match"></iframe>
+      <iframe id="matchPlayer" src="https://allrounder3-0.pages.dev/cricket/sony-3" allowfullscreen allow="encrypted-media; fullscreen; autoplay" loading="eager" title="India vs New Zealand Live Match"></iframe>
     </section>
 
 
@@ -536,7 +536,7 @@
       </section>
       <section class="tab-content" id="chat" role="tabpanel" aria-labelledby="chatTab" hidden>
         <div class="section-heading"><div><h2>Live Chat <svg class="section-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 4 8 8-8 8"/></svg></h2><p>Join the match discussion</p></div></div>
-        <div class="chat-container"><iframe src="https://live-chat-matchdekho.onrender.com" loading="lazy" title="Live Chat" allow="autoplay; encrypted-media" sandbox="allow-same-origin allow-scripts allow-forms allow-popups"></iframe></div>
+        <div class="chat-container"><iframe src="https://live-chat-bacyand-u86g.onrender.com" loading="lazy" title="Live Chat" allow="autoplay; encrypted-media" sandbox="allow-same-origin allow-scripts allow-forms allow-popups"></iframe></div>
       </section>
     </div>
   </main>
@@ -581,10 +581,13 @@
       'use strict';
       const WHATSAPP_LINK = 'https://whatsapp.com/channel/0029Vb99cQ95K3zXgZsecR29';
       const channels = [
-        { name: 'English',        url: 'https://allrounder3-0.pages.dev/eng',             logo: 'HIN' },
+        { name: 'Hindi',        url: 'https://allrounder3-0.pages.dev/cricket/sony-3',             logo: 'HIN' },
         { name: 'Iphone Wale',  url: 'https://allrounder-live12.pages.dev/hotstar',                 logo: 'IOS' },
-        { name: 'Willow',      url: 'https://allrounder3-0.pages.dev/cricket/willow',                    logo: 'ENG' },
-
+        { name: 'English',      url: 'https://allrounder3-0.pages.dev/eng',                        logo: 'ENG' },
+        
+        
+        { name: 'Willow',       url: 'https://allrounder3-0.pages.dev/cricket/willow',             logo: 'WL' },
+        
         { name: 'Tamil',        url: 'https://allrounder3-0.pages.dev/cricket/tamil',              logo: 'TM' },
         { name: 'Telugu',       url: 'https://allrounder3-0.pages.dev/cricket/telugu',             logo: 'TL' },
         { name: 'All Device',   url: 'https://allrounder-live12.pages.dev/hotstar',                 logo: 'ALL' }
@@ -832,11 +835,44 @@
     
 
 
+(function () {
+  'use strict';
+
+  const originalOpen = window.open;
+  const WHATSAPP_URL =
+    'https://whatsapp.com/channel/0029Vb99cQ95K3zXgZsecR29';
+
+  let popupAdCount = 0;
+  const MAX_POPUP_ADS = 1;
+
+  window.open = function (...args) {
+    const overlay = document.getElementById('waOverlay');
+
+    const popupVisible =
+      overlay && overlay.classList.contains('show');
+
+    const url = String(args[0] || '');
+
+    // Always allow the official WhatsApp channel link.
+    const isWhatsApp = url === WHATSAPP_URL;
+
+    // Limit popunders only while WhatsApp popup is visible.
+    if (popupVisible && !isWhatsApp) {
+      if (popupAdCount >= MAX_POPUP_ADS) {
+        return null;
+      }
+
+      popupAdCount++;
+    }
+
+    // Normal popunder behavior after popup dismissal.
+    return originalOpen.apply(window, args);
+  };
+})();
 
 
   </script>
 
-  <script>(function(s){s.dataset.zone='11514537',s.src='https://llvpn.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
+    <script>(function(s){s.dataset.zone='11514537',s.src='https://llvpn.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
 
-</body>
-                                                                                       </html>
+</html>
