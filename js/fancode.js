@@ -1,4 +1,3 @@
-
 /* =====================================================
    FANCODE LIVE — MATCHDEKHO
    1080P ONLY
@@ -21,39 +20,26 @@
   // ---------- CONFIG ----------
 
   const API_URL =
-    'https://sportlink-fancode10.pages.dev/fan.json';
+    'https://raw.githubusercontent.com/drmlive/fancode-live-events/aa3142e1d8ca48d705a3463989e3230a38b8a823/fancode.json';
 
   const SKELETON_COUNT = 6;
   const REFRESH_INTERVAL = 60000;
 
   // ---------- ELEMENTS ----------
 
-  const track = document.getElementById(
-    'fancodeTrack'
-  );
+  const track = document.getElementById('fancodeTrack');
 
-  if (
-    !track ||
-    track.dataset.initialized === 'true'
-  ) {
+  if (!track || track.dataset.initialized === 'true') {
     return;
   }
 
   track.dataset.initialized = 'true';
 
-  const section = document.getElementById(
-    'fancodeSection'
-  );
-
+  const section = document.getElementById('fancodeSection');
   const rail = track.closest('.live-rail');
 
-  const prevBtn = document.getElementById(
-    'fancodeArrowLeft'
-  );
-
-  const nextBtn = document.getElementById(
-    'fancodeArrowRight'
-  );
+  const prevBtn = document.getElementById('fancodeArrowLeft');
+  const nextBtn = document.getElementById('fancodeArrowRight');
 
   const reduced = matchMedia(
     '(prefers-reduced-motion: reduce)'
@@ -88,10 +74,9 @@
     try {
       const url = new URL(value);
 
-      return ['http:', 'https:'].includes(
-        url.protocol
-      ) ? url.href : '';
-
+      return ['http:', 'https:'].includes(url.protocol)
+        ? url.href
+        : '';
     } catch {
       return '';
     }
@@ -100,9 +85,7 @@
   function getBaseMatchId(value) {
     if (value == null) return '';
 
-    return String(value)
-      .split('_')[0]
-      .trim();
+    return String(value).split('_')[0].trim();
   }
 
   function extractMatches(data) {
@@ -150,23 +133,18 @@
     }
 
     const title = String(
-      match.title || 'Live Match'
+      match.match_name ||
+      match.title ||
+      'Live Match'
     ).trim();
 
-    // Prefer the match-up segment of the title,
-    // rather than a tournament prefix.
-
-    const segments = title.split(
-      /\s+[-–—|]\s+/
-    );
+    const segments = title.split(/\s+[-–—|]\s+/);
 
     const matchup = segments.find(
       part => /\s+(?:vs?\.?|versus)\s+/i.test(part)
     );
 
-    const cleaned = matchup || title;
-
-    return cleaned.replace(
+    return (matchup || title).replace(
       /\s+(?:vs?\.?|versus)\s+/i,
       ' VS '
     );
@@ -176,37 +154,27 @@
 
   function getSeriesCaption(match) {
     const candidates = [
+      match.event_name,
       match.series,
       match.tournament,
       match.category,
       match.league,
-      match.sport
+      match.sport,
+      match.event_category
     ];
 
     for (const value of candidates) {
-      if (
-        typeof value === 'string' &&
-        value.trim()
-      ) {
+      if (typeof value === 'string' && value.trim()) {
         return value.trim();
       }
     }
 
-    // Check whether title contains a
-    // tournament prefix.
-
-    const title = String(
-      match.title || ''
-    );
-
-    const parts = title.split(
-      /\s+[-–—|]\s+/
-    );
+    const title = String(match.title || '');
+    const parts = title.split(/\s+[-–—|]\s+/);
 
     if (parts.length > 1) {
       const prefix = parts.find(
-        part =>
-          !/\s+(?:vs?\.?|versus)\s+/i.test(part)
+        part => !/\s+(?:vs?\.?|versus)\s+/i.test(part)
       );
 
       if (prefix) {
@@ -217,116 +185,84 @@
     return 'Live Sports';
   }
 
-  // ---------- STREAM LANGUAGE ----------
-
-  function getLanguageStreams(match) {
-    const autoStreams = match.auto_streams;
-
-    if (
-      !autoStreams ||
-      typeof autoStreams !== 'object'
-    ) {
-      return null;
-    }
-
-    const languages = Object.keys(
-      autoStreams
-    );
-
-    if (!languages.length) {
-      return null;
-    }
-
-    const preferred = String(
-      match.language || 'ENGLISH'
-    ).toUpperCase();
-
-    let selected = languages.find(
-      lang => lang.toUpperCase() === preferred
-    );
-
-    if (!selected) {
-      selected = languages.find(
-        lang => lang.toUpperCase() === 'ENGLISH'
-      );
-    }
-
-    if (!selected) {
-      selected = languages[0];
-    }
-
-    return autoStreams[selected] || null;
-  }
-
   // ---------- STRICT 1080P ----------
+  // New API provides direct URLs instead of auto_streams.
 
   function get1080pStream(match) {
-    const language = getLanguageStreams(
-      match
-    );
+    const candidates = [
+      match.adfree_url,
+      match.dai_url
+    ];
 
-    if (!language?.streams) {
-      return '';
-    }
-
-    const streamUrl = language.streams['1080p'];
-
-    if (
-      typeof streamUrl !== 'string' ||
-      !streamUrl
-    ) {
-      return '';
-    }
-
-    const validUrl = safeUrl(streamUrl);
-
-    if (!validUrl) {
-      return '';
-    }
-
-    try {
-      const url = new URL(validUrl);
-
-      if (
-        !url.pathname
-          .toLowerCase()
-          .endsWith('.m3u8')
-      ) {
-        return '';
+    for (const value of candidates) {
+      if (typeof value !== 'string' || !value.trim()) {
+        continue;
       }
 
-      return validUrl;
+      const validUrl = safeUrl(value.trim());
 
-    } catch {
-      return '';
+      if (!validUrl) continue;
+
+      try {
+        const url = new URL(validUrl);
+
+        if (/\/1080p\.m3u8$/i.test(url.pathname)) {
+          return validUrl;
+        }
+      } catch (_) {}
     }
+
+    return '';
   }
 
   // ---------- EXPIRY CHECK ----------
+  // Example: hdntl=Expires=1794551600~...
 
   function isExpired(match) {
-    const language = getLanguageStreams(
-      match
-    );
+    const streamUrl = get1080pStream(match);
 
-    const value = language?.expires;
+    if (!streamUrl) return false;
 
-    if (!value) return false;
+    try {
+      const url = new URL(streamUrl);
+      let expiry = null;
 
-    const expiry = Number(value);
+      for (const [name, value] of url.searchParams) {
+        if (/^(?:exp|expires)$/i.test(name)) {
+          const numeric = Number(value);
 
-    if (
-      !Number.isFinite(expiry) ||
-      expiry <= 0
-    ) {
+          if (Number.isFinite(numeric) && numeric > 0) {
+            expiry = numeric;
+            break;
+          }
+        }
+
+        const tokenExpiry = value.match(
+          /(?:^|~)(?:exp|expires)=(\d+)(?:~|$)/i
+        );
+
+        if (tokenExpiry) {
+          expiry = Number(tokenExpiry[1]);
+          break;
+        }
+      }
+
+      if (
+        expiry == null ||
+        !Number.isFinite(expiry) ||
+        expiry <= 0
+      ) {
+        return false;
+      }
+
+      const expiryMs = expiry > 1e12
+        ? expiry
+        : expiry * 1000;
+
+      return Date.now() >= expiryMs;
+    } catch {
       return false;
     }
-
-    const expiryMs = expiry > 1e12
-      ? expiry
-      : expiry * 1000;
-
-    return Date.now() >= expiryMs;
   }
 
   // ---------- IMAGE ----------
@@ -376,18 +312,13 @@
   // ---------- RENDER CARD ----------
 
   function renderCard(match) {
-    const matchId = getBaseMatchId(
-      match.match_id
-    );
+    // Preserve language suffix internally to select the exact entry.
+    const matchId = String(match.match_id ?? '').trim();
 
-    const title = String(
-      match.title || 'Live Match'
-    );
-
+    const title = String(match.title || 'Live Match');
     const teams = getTeamCaption(match);
     const series = getSeriesCaption(match);
     const status = getStatus(match);
-
     const posters = getPosters(match);
 
     const posterHTML = posters.length
@@ -421,7 +352,6 @@
         </div>
 
         <div class="caption">
-
           <span
             class="fc-match-title"
             title="${esc(teams)}"
@@ -435,7 +365,6 @@
           >
             ${esc(series)}
           </span>
-
         </div>
       </button>
     `;
@@ -480,13 +409,8 @@
 
         if (priority) return priority;
 
-        const aTime = Date.parse(
-          a.startTime
-        );
-
-        const bTime = Date.parse(
-          b.startTime
-        );
+        const aTime = Date.parse(a.startTime);
+        const bTime = Date.parse(b.startTime);
 
         if (
           Number.isFinite(aTime) &&
@@ -502,15 +426,9 @@
   // ---------- ARROW POSITION ----------
 
   function updateArrows() {
-    const thumb = track.querySelector(
-      '.thumb'
-    );
+    const thumb = track.querySelector('.thumb');
 
-    if (
-      !thumb ||
-      !prevBtn ||
-      !rail
-    ) {
+    if (!thumb || !prevBtn || !rail) {
       return;
     }
 
@@ -527,12 +445,10 @@
   function scheduleArrows() {
     if (arrowFrame) return;
 
-    arrowFrame = requestAnimationFrame(
-      () => {
-        arrowFrame = 0;
-        updateArrows();
-      }
-    );
+    arrowFrame = requestAnimationFrame(() => {
+      arrowFrame = 0;
+      updateArrows();
+    });
   }
 
   // ---------- FETCH ----------
@@ -555,21 +471,16 @@
     );
 
     try {
-      const response = await fetch(
-        API_URL,
-        {
-          cache: 'no-store',
-          signal: controller.signal,
-          headers: {
-            Accept: 'application/json'
-          }
+      const response = await fetch(API_URL, {
+        cache: 'no-store',
+        signal: controller.signal,
+        headers: {
+          Accept: 'application/json'
         }
-      );
+      });
 
       if (!response.ok) {
-        throw new Error(
-          'HTTP ' + response.status
-        );
+        throw new Error('HTTP ' + response.status);
       }
 
       const data = await response.json();
@@ -586,8 +497,6 @@
           </div>
         `;
 
-      // Avoid rebuilding unchanged cards.
-
       if (nextCards !== renderedCards) {
         const oldScroll = track.scrollLeft;
 
@@ -599,12 +508,8 @@
       }
 
       loaded = true;
-
     } catch (error) {
-      console.error(
-        '[FanCodeLive]',
-        error
-      );
+      console.error('[FanCodeLive]', error);
 
       if (!loaded) {
         track.innerHTML = `
@@ -620,7 +525,6 @@
           </div>
         `;
       }
-
     } finally {
       clearTimeout(timeout);
 
@@ -642,33 +546,30 @@
     opening = true;
 
     const controller = new AbortController();
+
     const timeout = setTimeout(
       () => controller.abort(),
       15000
     );
 
     try {
-      // Fetch a fresh URL on every click.
+      // Fetch the API again on every click.
 
-      const response = await fetch(
-        API_URL,
-        {
-          cache: 'no-store',
-          signal: controller.signal
-        }
-      );
+      const response = await fetch(API_URL, {
+        cache: 'no-store',
+        signal: controller.signal
+      });
 
       if (!response.ok) {
-        throw new Error(
-          'HTTP ' + response.status
-        );
+        throw new Error('HTTP ' + response.status);
       }
 
       const data = await response.json();
       const allMatches = extractMatches(data);
 
-      const match = allMatches.find(item =>
-        getBaseMatchId(item?.match_id) === matchId
+      const match = allMatches.find(
+        item =>
+          String(item?.match_id ?? '').trim() === matchId
       );
 
       if (!match) {
@@ -676,9 +577,7 @@
         return;
       }
 
-      const streamUrl = get1080pStream(
-        match
-      );
+      const streamUrl = get1080pStream(match);
 
       if (!streamUrl) {
         alert(
@@ -697,24 +596,19 @@
       const params = new URLSearchParams({
         url: streamUrl,
         title: title || match.title || 'Live Match',
-        match_id: matchId
+        match_id: getBaseMatchId(match.match_id)
       });
 
-      // Keep your original player route.
+      // Same original player route and parameters.
 
       window.location.href =
         'fc-play?' + params.toString();
-
     } catch (error) {
-      console.error(
-        '[FanCodePlayback]',
-        error
-      );
+      console.error('[FanCodePlayback]', error);
 
       alert(
         'Failed to load 1080p stream. Please try again.'
       );
-
     } finally {
       clearTimeout(timeout);
       opening = false;
@@ -724,24 +618,16 @@
   // ---------- ARROW SCROLL ----------
 
   function scrollByCard(direction) {
-    const card = track.querySelector(
-      '.card'
-    );
+    const card = track.querySelector('.card');
 
     if (!card) return;
 
     const gap =
-      parseFloat(
-        getComputedStyle(track).columnGap
-      ) || 0;
+      parseFloat(getComputedStyle(track).columnGap) || 0;
 
     track.scrollBy({
-      left: direction * (
-        card.offsetWidth + gap
-      ),
-      behavior: reduced.matches
-        ? 'auto'
-        : 'smooth'
+      left: direction * (card.offsetWidth + gap),
+      behavior: reduced.matches ? 'auto' : 'smooth'
     });
   }
 
@@ -757,28 +643,23 @@
 
   // ---------- CLICK ----------
 
-  track.addEventListener(
-    'click',
-    event => {
-      if (
-        event.target.closest('.fc-retry')
-      ) {
-        fetchFancodeData();
-        return;
-      }
-
-      const card = event.target.closest(
-        '.fancode-live-card'
-      );
-
-      if (!card) return;
-
-      playMatch(
-        card.dataset.matchId,
-        card.dataset.title
-      );
+  track.addEventListener('click', event => {
+    if (event.target.closest('.fc-retry')) {
+      fetchFancodeData();
+      return;
     }
-  );
+
+    const card = event.target.closest(
+      '.fancode-live-card'
+    );
+
+    if (!card) return;
+
+    playMatch(
+      card.dataset.matchId,
+      card.dataset.title
+    );
+  });
 
   // ---------- IMAGE FALLBACK ----------
 
@@ -809,9 +690,7 @@
         img.dataset.index = String(next);
         img.src = posters[next];
       } else {
-        const fallback = document.createElement(
-          'span'
-        );
+        const fallback = document.createElement('span');
 
         fallback.className = 'fc-no-poster';
         fallback.textContent = 'Poster unavailable';
@@ -830,19 +709,12 @@
   }
 
   function startRefresh() {
-    if (
-      refreshTimer ||
-      !visible ||
-      document.hidden
-    ) {
+    if (refreshTimer || !visible || document.hidden) {
       return;
     }
 
     refreshTimer = setInterval(() => {
-      if (
-        visible &&
-        !document.hidden
-      ) {
+      if (visible && !document.hidden) {
         fetchFancodeData();
       }
     }, REFRESH_INTERVAL);
@@ -851,17 +723,13 @@
   function handleVisibility(isVisible) {
     visible = isVisible;
 
-    if (
-      visible &&
-      !document.hidden
-    ) {
+    if (visible && !document.hidden) {
       if (!loaded) {
         fetchFancodeData();
       }
 
       startRefresh();
       scheduleArrows();
-
     } else {
       stopRefresh();
     }
@@ -870,9 +738,7 @@
   // ---------- RESIZE ----------
 
   if ('ResizeObserver' in window) {
-    new ResizeObserver(
-      scheduleArrows
-    ).observe(track);
+    new ResizeObserver(scheduleArrows).observe(track);
   }
 
   window.addEventListener(
@@ -883,15 +749,10 @@
 
   // ---------- LAZY LOADING ----------
 
-  if (
-    'IntersectionObserver' in window &&
-    section
-  ) {
+  if ('IntersectionObserver' in window && section) {
     const observer = new IntersectionObserver(
       entries => {
-        handleVisibility(
-          entries[0].isIntersecting
-        );
+        handleVisibility(entries[0].isIntersecting);
       },
       {
         rootMargin: '300px 0px',
@@ -900,24 +761,20 @@
     );
 
     observer.observe(section);
-
   } else {
     handleVisibility(true);
   }
 
   // ---------- VISIBILITY ----------
 
-  document.addEventListener(
-    'visibilitychange',
-    () => {
-      if (document.hidden) {
-        stopRefresh();
-      } else if (visible) {
-        fetchFancodeData();
-        startRefresh();
-      }
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden) {
+      stopRefresh();
+    } else if (visible) {
+      fetchFancodeData();
+      startRefresh();
     }
-  );
+  });
 
   // ---------- PUBLIC HELPER ----------
 
