@@ -4,7 +4,7 @@
     "title": "New Zealand vs India",
     "slug": "new-zealand-vs-india",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Cricket",
       "category": "Cricket",
@@ -77,6 +77,30 @@
         "title": "SonyLiv - KAN",
         "type": "hls",
         "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119782/cricodi_1211/KAN/master.m3u8?hdnea=exp=1794573596~acl=/*~id=44345d3f28b0710f8ac67b5f7a254851-1794530395621~hmac=d0589a612cc90b2e61388a2000dac6f50a4872e6917e1a76167d31d3c4fc95b5",
+        "key": null
+      },
+      {
+        "title": "SONY TEN 1 - IN",
+        "type": "hls",
+        "url": "https://sony247channels.akamaized.net/hls/live/2011747/TEN1HD/hdntl=exp=1794599360~acl=%2f*~id=604ae0099f5c31fa16beacf7fc54ca00-1794512959613~data=hdntl~hmac=5e50939d3a3c88a2fe492f884252c6a6b488cfdafee0aa37946249f73ae60228/master_3500.m3u8",
+        "key": null
+      },
+      {
+        "title": "SONY TEN 2 - IN",
+        "type": "hls",
+        "url": "https://sony247channels.akamaized.net/hls/live/2020434/TEN2HD/hdntl=exp=1794599360~acl=%2f*~id=604ae0099f5c31fa16beacf7fc54ca00-1794512959613~data=hdntl~hmac=5e50939d3a3c88a2fe492f884252c6a6b488cfdafee0aa37946249f73ae60228/master_3500.m3u8",
+        "key": null
+      },
+      {
+        "title": "SONY TEN 3 - IN",
+        "type": "hls",
+        "url": "https://sony247channels.akamaized.net/hls/live/2020591/TEN3HD/hdntl=exp=1794599360~acl=%2f*~id=604ae0099f5c31fa16beacf7fc54ca00-1794512959613~data=hdntl~hmac=5e50939d3a3c88a2fe492f884252c6a6b488cfdafee0aa37946249f73ae60228/master_3500.m3u8",
+        "key": null
+      },
+      {
+        "title": "SONY TEN 4 - IN",
+        "type": "hls",
+        "url": "https://sony247channels.akamaized.net/hls/live/2020589/ten4kannada/hdntl=exp=1794599360~acl=%2f*~id=604ae0099f5c31fa16beacf7fc54ca00-1794512959613~data=hdntl~hmac=5e50939d3a3c88a2fe492f884252c6a6b488cfdafee0aa37946249f73ae60228/master_3500.m3u8",
         "key": null
       }
     ]
