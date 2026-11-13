@@ -1,39 +1,5 @@
 [
   {
-    "id": 14261,
-    "title": "NPL Nepal Premier League",
-    "slug": "npl-nepal-premier-league",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Cricket",
-      "category": "Cricket",
-      "teamA": "NPL",
-      "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s",
-      "teamB": "NPL",
-      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s",
-      "startTimeIST": "2026-11-13 16:45:41 IST",
-      "endTimeIST": "2026-11-13 20:45:12 IST",
-      "startTimeUTC": "2026/11/13 11:15:41 +0000",
-      "endTimeUTC": "2026/11/13 15:15:12 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "FANCODE - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
-      },
-      {
-        "title": "FANCODE - IN",
-        "type": "hls",
-        "url": "https://in-mc-flive.fancode.com/mumbai/4250376_english_hls_06f8df790c25388_1ta-di_h264/1080p.m3u8?hdntl=Expires=1794551600~_GO=Generated~acl=/mumbai/4250376_english_hls_06f8df790c25388_1ta-di_h264/*~SessionID=20fde653298ae09b1231e2c94877ae9f_playbox_845100cd-5fdc-46~Signature=AbO9BjgfyL-FpZ7spkiG2wk2QQTC6UB2OHU7ZKlNcQy4HU3FoWFjTUucHLaPgIbX7QFpbRGK2lYv32eBx3NUFzpDLlIG",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 14622,
     "title": "Abu Dhabi T10 League",
     "slug": "abu-dhabi-t10-league",
@@ -169,6 +135,40 @@
         "title": "FANCODE - IN",
         "type": "hls",
         "url": "https://dai-fancode.pages.dev/mumbai/4249772_english_hls_ea87fdf83461346_1ta-di_h264/index.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 14261,
+    "title": "NPL Nepal Premier League",
+    "slug": "npl-nepal-premier-league",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Cricket",
+      "category": "Cricket",
+      "teamA": "NPL",
+      "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s",
+      "teamB": "NPL",
+      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s",
+      "startTimeIST": "2026-11-14 16:45:49 IST",
+      "endTimeIST": "2026-11-14 20:45:53 IST",
+      "startTimeUTC": "2026/11/14 11:15:49 +0000",
+      "endTimeUTC": "2026/11/14 15:15:53 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "FANCODE - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+      },
+      {
+        "title": "FANCODE - IN",
+        "type": "hls",
+        "url": "https://in-mc-flive.fancode.com/mumbai/4250376_english_hls_06f8df790c25388_1ta-di_h264/1080p.m3u8?hdntl=Expires=1794551600~_GO=Generated~acl=/mumbai/4250376_english_hls_06f8df790c25388_1ta-di_h264/*~SessionID=20fde653298ae09b1231e2c94877ae9f_playbox_845100cd-5fdc-46~Signature=AbO9BjgfyL-FpZ7spkiG2wk2QQTC6UB2OHU7ZKlNcQy4HU3FoWFjTUucHLaPgIbX7QFpbRGK2lYv32eBx3NUFzpDLlIG",
         "key": null
       }
     ]
