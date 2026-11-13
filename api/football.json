@@ -146,7 +146,7 @@
     "title": "United Arab Emirates vs Honduras",
     "slug": "united-arab-emirates-vs-honduras",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Football",
       "category": "Football",
@@ -165,34 +165,6 @@
         "title": "HD SERVER",
         "type": "hls",
         "url": "https://live2.jorvakstreamcache.com/live/channel7.m3u8?",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 14906,
-    "title": "Saudi Arabia vs South Korea",
-    "slug": "saudi-arabia-vs-south-korea",
-    "cat": "Live Events",
-    "status": "upcoming",
-    "event": {
-      "name": "Football",
-      "category": "Football",
-      "teamA": "Saudi Arabia",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/4834/image",
-      "teamB": "South Korea",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4735/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/851/image/dark",
-      "startTimeIST": "2026-11-13 20:00:00 IST",
-      "endTimeIST": "2026-11-13 22:20:00 IST",
-      "startTimeUTC": "2026/11/13 14:30:00 +0000",
-      "endTimeUTC": "2026/11/13 16:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "CRICFy LIVE",
-        "type": "hls",
-        "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
         "key": null
       }
     ]
