@@ -56,6 +56,62 @@
     ]
   },
   {
+    "id": 14918,
+    "title": "Cabo Verde vs Liberia",
+    "slug": "cabo-verde-vs-liberia",
+    "cat": "Live Events",
+    "status": "live",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Cabo Verde",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4753/image",
+      "teamB": "Liberia",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/8034/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1848/image/dark",
+      "startTimeIST": "2026-11-13 21:30:00 IST",
+      "endTimeIST": "2026-11-13 23:50:00 IST",
+      "startTimeUTC": "2026/11/13 16:00:00 +0000",
+      "endTimeUTC": "2026/11/13 18:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 14919,
+    "title": "Gabon vs Lesotho",
+    "slug": "gabon-vs-lesotho",
+    "cat": "Live Events",
+    "status": "live",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Gabon",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4761/image",
+      "teamB": "Lesotho",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/8033/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1848/image/dark",
+      "startTimeIST": "2026-11-13 21:30:00 IST",
+      "endTimeIST": "2026-11-13 23:50:00 IST",
+      "startTimeUTC": "2026/11/13 16:00:00 +0000",
+      "endTimeUTC": "2026/11/13 18:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel11.m3u8?",
+        "key": null
+      }
+    ]
+  },
+  {
     "id": 14920,
     "title": "Nigeria vs Tanzania",
     "slug": "nigeria-vs-tanzania",
@@ -146,6 +202,34 @@
     ]
   },
   {
+    "id": 14910,
+    "title": "Kuwait vs Syria",
+    "slug": "kuwait-vs-syria",
+    "cat": "Live Events",
+    "status": "live",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Kuwait",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/5368/image",
+      "teamB": "Syria",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4731/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/851/image/dark",
+      "startTimeIST": "2026-11-13 22:00:05 IST",
+      "endTimeIST": "2026-11-14 00:00:10 IST",
+      "startTimeUTC": "2026/11/13 16:30:05 +0000",
+      "endTimeUTC": "2026/11/13 18:30:10 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel23.m3u8?",
+        "key": null
+      }
+    ]
+  },
+  {
     "id": 14900,
     "title": "Moldova vs Kazakhstan",
     "slug": "moldova-vs-kazakhstan",
@@ -172,12 +256,6 @@
         "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
       },
       {
-        "title": "SPORT 1 CZ - AQ",
-        "type": "dash",
-        "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-        "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-      },
-      {
         "title": "FOX SOCCER+ HD",
         "type": "hls",
         "url": "https://chatgpt.hereisman.net/playlist/59938/load-playlist-multi?",
@@ -187,6 +265,12 @@
         "title": "SonyLiv",
         "type": "hls",
         "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120299/Footlive1311/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794631572~acl=/*~id=47260986229254277328438290907585~hmac=a579be06592098bfaa39a315c2265f55ef1ffc30cd9b01e513354ab4eb39d154",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/d351739b-0801-4292-a255-8e0d3d82a701.m3u8",
         "key": null
       }
     ]
