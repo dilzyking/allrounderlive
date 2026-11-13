@@ -184,9 +184,9 @@
     },
     "dashStreams": [
       {
-        "title": "CRICFy LIVE",
+        "title": "HD SERVER",
         "type": "hls",
-        "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+        "url": "https://live2.jorvakstreamcache.com/live/channel24.m3u8?",
         "key": null
       }
     ]
