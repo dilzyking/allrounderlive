@@ -142,6 +142,34 @@
     ]
   },
   {
+    "id": 14909,
+    "title": "United Arab Emirates vs Honduras",
+    "slug": "united-arab-emirates-vs-honduras",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "United Arab Emirates",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4727/image",
+      "teamB": "Honduras",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4827/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/851/image/dark",
+      "startTimeIST": "2026-11-13 19:40:00 IST",
+      "endTimeIST": "2026-11-13 22:00:00 IST",
+      "startTimeUTC": "2026/11/13 14:10:00 +0000",
+      "endTimeUTC": "2026/11/13 16:30:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel7.m3u8?",
+        "key": null
+      }
+    ]
+  },
+  {
     "id": 14906,
     "title": "Saudi Arabia vs South Korea",
     "slug": "saudi-arabia-vs-south-korea",
