@@ -1,51 +1,5 @@
 [
   {
-    "id": 14900,
-    "title": "Moldova vs Kazakhstan",
-    "slug": "moldova-vs-kazakhstan",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Football",
-      "category": "Football",
-      "teamA": "Moldova",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/4782/image",
-      "teamB": "Kazakhstan",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4772/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
-      "startTimeIST": "2026-11-13 22:30:00 IST",
-      "endTimeIST": "2026-11-14 00:50:00 IST",
-      "startTimeUTC": "2026/11/13 17:00:00 +0000",
-      "endTimeUTC": "2026/11/13 19:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "beIN ENGLISH - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-        "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-      },
-      {
-        "title": "FOX SOCCER+ HD",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/59938/load-playlist-multi?",
-        "key": null
-      },
-      {
-        "title": "SonyLiv",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120299/Footlive1311/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794631572~acl=/*~id=47260986229254277328438290907585~hmac=a579be06592098bfaa39a315c2265f55ef1ffc30cd9b01e513354ab4eb39d154",
-        "key": null
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://www.rtmpcdn.com/live/d351739b-0801-4292-a255-8e0d3d82a701.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 14923,
     "title": "Egypt vs Malawi",
     "slug": "egypt-vs-malawi",
@@ -572,6 +526,48 @@
     "dashStreams": []
   },
   {
+    "id": 14948,
+    "title": "Real Valladolid vs CD Castellon",
+    "slug": "real-valladolid-vs-cd-castellon",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Real Valladolid",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2831/image",
+      "teamB": "CD Castellón",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/5067/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/54/image/dark",
+      "startTimeIST": "2026-11-14 18:30:00 IST",
+      "endTimeIST": "2026-11-14 20:50:00 IST",
+      "startTimeUTC": "2026/11/14 13:00:00 +0000",
+      "endTimeUTC": "2026/11/14 15:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 14937,
+    "title": "Kosovo vs Israel",
+    "slug": "kosovo-vs-israel",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Kosovo",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/154426/image",
+      "teamB": "Israel",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4480/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-14 19:30:00 IST",
+      "endTimeIST": "2026-11-14 21:50:00 IST",
+      "startTimeUTC": "2026/11/14 14:00:00 +0000",
+      "endTimeUTC": "2026/11/14 16:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
     "id": 14928,
     "title": "Bangladesh vs Pakistan",
     "slug": "bangladesh-vs-pakistan",
@@ -589,6 +585,405 @@
       "endTimeIST": "2026-11-14 22:20:00 IST",
       "startTimeUTC": "2026/11/14 14:30:00 +0000",
       "endTimeUTC": "2026/11/14 16:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 14943,
+    "title": "Swindon Town vs Grimsby Town",
+    "slug": "swindon-town-vs-grimsby-town",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Swindon Town",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/53/image",
+      "teamB": "Grimsby Town",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/18/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/25/image/dark",
+      "startTimeIST": "2026-11-14 20:30:00 IST",
+      "endTimeIST": "2026-11-14 22:50:00 IST",
+      "startTimeUTC": "2026/11/14 15:00:00 +0000",
+      "endTimeUTC": "2026/11/14 17:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 14944,
+    "title": "Milton Keynes Dons vs Burton Albion",
+    "slug": "milton-keynes-dons-vs-burton-albion",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Milton Keynes Dons",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4/image",
+      "teamB": "Burton Albion",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/134/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/24/image/dark",
+      "startTimeIST": "2026-11-14 20:30:00 IST",
+      "endTimeIST": "2026-11-14 22:50:00 IST",
+      "startTimeUTC": "2026/11/14 15:00:00 +0000",
+      "endTimeUTC": "2026/11/14 17:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 14945,
+    "title": "Sheffield Wednesday vs Plymouth Argyle",
+    "slug": "sheffield-wednesday-vs-plymouth-argyle",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Sheffield Wednesday",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/12/image",
+      "teamB": "Plymouth Argyle",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/71/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/24/image/dark",
+      "startTimeIST": "2026-11-14 20:30:00 IST",
+      "endTimeIST": "2026-11-14 22:50:00 IST",
+      "startTimeUTC": "2026/11/14 15:00:00 +0000",
+      "endTimeUTC": "2026/11/14 17:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 14946,
+    "title": "Stockport County vs Reading",
+    "slug": "stockport-county-vs-reading",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Stockport County",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/10/image",
+      "teamB": "Reading",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/28/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/24/image/dark",
+      "startTimeIST": "2026-11-14 20:30:00 IST",
+      "endTimeIST": "2026-11-14 22:50:00 IST",
+      "startTimeUTC": "2026/11/14 15:00:00 +0000",
+      "endTimeUTC": "2026/11/14 17:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 14947,
+    "title": "Wigan Athletic vs Barnsley",
+    "slug": "wigan-athletic-vs-barnsley",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Wigan Athletic",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/49/image",
+      "teamB": "Barnsley",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/23/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/24/image/dark",
+      "startTimeIST": "2026-11-14 20:30:00 IST",
+      "endTimeIST": "2026-11-14 22:50:00 IST",
+      "startTimeUTC": "2026/11/14 15:00:00 +0000",
+      "endTimeUTC": "2026/11/14 17:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 14949,
+    "title": "Real Sociedad B vs Sporting Gijon",
+    "slug": "real-sociedad-b-vs-sporting-gijon",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Real Sociedad B",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/24360/image",
+      "teamB": "Sporting Gijón",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2852/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/54/image/dark",
+      "startTimeIST": "2026-11-14 20:45:00 IST",
+      "endTimeIST": "2026-11-14 23:05:00 IST",
+      "startTimeUTC": "2026/11/14 15:15:00 +0000",
+      "endTimeUTC": "2026/11/14 17:35:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 14953,
+    "title": "Uganda vs Botswana",
+    "slug": "uganda-vs-botswana",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Uganda",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4726/image",
+      "teamB": "Botswana",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4747/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1848/image/dark",
+      "startTimeIST": "2026-11-14 21:30:00 IST",
+      "endTimeIST": "2026-11-14 23:50:00 IST",
+      "startTimeUTC": "2026/11/14 16:00:00 +0000",
+      "endTimeUTC": "2026/11/14 18:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 14935,
+    "title": "Norway vs Wales",
+    "slug": "norway-vs-wales",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Norway",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4475/image",
+      "teamB": "Wales",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4702/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-14 22:30:00 IST",
+      "endTimeIST": "2026-11-15 00:50:00 IST",
+      "startTimeUTC": "2026/11/14 17:00:00 +0000",
+      "endTimeUTC": "2026/11/14 19:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 14938,
+    "title": "Georgia vs Hungary",
+    "slug": "georgia-vs-hungary",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Georgia",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4763/image",
+      "teamB": "Hungary",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4709/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-14 22:30:00 IST",
+      "endTimeIST": "2026-11-15 00:50:00 IST",
+      "startTimeUTC": "2026/11/14 17:00:00 +0000",
+      "endTimeUTC": "2026/11/14 19:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 14950,
+    "title": "Almeria vs FC Andorra",
+    "slug": "almeria-vs-fc-andorra",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Almería",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2858/image",
+      "teamB": "FC Andorra",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/324871/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/54/image/dark",
+      "startTimeIST": "2026-11-14 23:00:00 IST",
+      "endTimeIST": "2026-11-15 01:20:00 IST",
+      "startTimeUTC": "2026/11/14 17:30:00 +0000",
+      "endTimeUTC": "2026/11/14 19:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 14951,
+    "title": "Mallorca vs Cordoba",
+    "slug": "mallorca-vs-cordoba",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Mallorca",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2826/image",
+      "teamB": "Córdoba",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2850/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/54/image/dark",
+      "startTimeIST": "2026-11-14 23:00:00 IST",
+      "endTimeIST": "2026-11-15 01:20:00 IST",
+      "startTimeUTC": "2026/11/14 17:30:00 +0000",
+      "endTimeUTC": "2026/11/14 19:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 14954,
+    "title": "Algeria vs Togo",
+    "slug": "algeria-vs-togo",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Algeria",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4691/image",
+      "teamB": "Togo",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4836/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1848/image/dark",
+      "startTimeIST": "2026-11-15 00:30:00 IST",
+      "endTimeIST": "2026-11-15 02:50:00 IST",
+      "startTimeUTC": "2026/11/14 19:00:00 +0000",
+      "endTimeUTC": "2026/11/14 21:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 14955,
+    "title": "Angola vs South Sudan",
+    "slug": "angola-vs-south-sudan",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Angola",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4692/image",
+      "teamB": "South Sudan",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/88508/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1848/image/dark",
+      "startTimeIST": "2026-11-15 00:30:00 IST",
+      "endTimeIST": "2026-11-15 02:50:00 IST",
+      "startTimeUTC": "2026/11/14 19:00:00 +0000",
+      "endTimeUTC": "2026/11/14 21:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 14936,
+    "title": "Portugal vs Denmark",
+    "slug": "portugal-vs-denmark",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Portugal",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4704/image",
+      "teamB": "Denmark",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4476/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-15 01:15:00 IST",
+      "endTimeIST": "2026-11-15 03:35:00 IST",
+      "startTimeUTC": "2026/11/14 19:45:00 +0000",
+      "endTimeUTC": "2026/11/14 22:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 14939,
+    "title": "Austria vs Ireland",
+    "slug": "austria-vs-ireland",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Austria",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4718/image",
+      "teamB": "Ireland",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4693/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-15 01:15:00 IST",
+      "endTimeIST": "2026-11-15 03:35:00 IST",
+      "startTimeUTC": "2026/11/14 19:45:00 +0000",
+      "endTimeUTC": "2026/11/14 22:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 14940,
+    "title": "Northern Ireland vs Ukraine",
+    "slug": "northern-ireland-vs-ukraine",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Northern Ireland",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4786/image",
+      "teamB": "Ukraine",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4701/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-15 01:15:00 IST",
+      "endTimeIST": "2026-11-15 03:35:00 IST",
+      "startTimeUTC": "2026/11/14 19:45:00 +0000",
+      "endTimeUTC": "2026/11/14 22:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 14941,
+    "title": "Romania vs Poland",
+    "slug": "romania-vs-poland",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Romania",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4477/image",
+      "teamB": "Poland",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4703/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-15 01:15:00 IST",
+      "endTimeIST": "2026-11-15 03:35:00 IST",
+      "startTimeUTC": "2026/11/14 19:45:00 +0000",
+      "endTimeUTC": "2026/11/14 22:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 14942,
+    "title": "Sweden vs Bosnia Herzegovina",
+    "slug": "sweden-vs-bosnia-herzegovina",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Sweden",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4688/image",
+      "teamB": "Bosnia & Herzegovina",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4479/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-15 01:15:00 IST",
+      "endTimeIST": "2026-11-15 03:35:00 IST",
+      "startTimeUTC": "2026/11/14 19:45:00 +0000",
+      "endTimeUTC": "2026/11/14 22:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 14952,
+    "title": "Real Oviedo vs Girona FC",
+    "slug": "real-oviedo-vs-girona-fc",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Real Oviedo",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2851/image",
+      "teamB": "Girona FC",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/24264/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/54/image/dark",
+      "startTimeIST": "2026-11-15 01:30:00 IST",
+      "endTimeIST": "2026-11-15 03:50:00 IST",
+      "startTimeUTC": "2026/11/14 20:00:00 +0000",
+      "endTimeUTC": "2026/11/14 22:20:00 +0000"
     },
     "dashStreams": []
   }
