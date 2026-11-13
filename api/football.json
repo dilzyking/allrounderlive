@@ -1,38 +1,10 @@
 [
   {
-    "id": 14909,
-    "title": "United Arab Emirates vs Honduras",
-    "slug": "united-arab-emirates-vs-honduras",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Football",
-      "category": "Football",
-      "teamA": "United Arab Emirates",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/4727/image",
-      "teamB": "Honduras",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4827/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/851/image/dark",
-      "startTimeIST": "2026-11-13 19:40:00 IST",
-      "endTimeIST": "2026-11-13 22:00:00 IST",
-      "startTimeUTC": "2026/11/13 14:10:00 +0000",
-      "endTimeUTC": "2026/11/13 16:30:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel7.m3u8?",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 14906,
     "title": "Saudi Arabia vs South Korea",
     "slug": "saudi-arabia-vs-south-korea",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Football",
       "category": "Football",
@@ -51,34 +23,6 @@
         "title": "HD SERVER",
         "type": "hls",
         "url": "https://live2.jorvakstreamcache.com/live/channel1.m3u8?",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 14907,
-    "title": "Qatar vs Australia",
-    "slug": "qatar-vs-australia",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Football",
-      "category": "Football",
-      "teamA": "Qatar",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/4792/image",
-      "teamB": "Australia",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4741/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/851/image/dark",
-      "startTimeIST": "2026-11-13 20:15:00 IST",
-      "endTimeIST": "2026-11-13 22:35:00 IST",
-      "startTimeUTC": "2026/11/13 14:45:00 +0000",
-      "endTimeUTC": "2026/11/13 17:05:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel24.m3u8?",
         "key": null
       }
     ]
@@ -206,7 +150,7 @@
     "title": "Moldova vs Kazakhstan",
     "slug": "moldova-vs-kazakhstan",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Football",
       "category": "Football",
@@ -226,6 +170,24 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
         "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+      },
+      {
+        "title": "SPORT 1 CZ - AQ",
+        "type": "dash",
+        "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+        "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+      },
+      {
+        "title": "FOX SOCCER+ HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59938/load-playlist-multi?",
+        "key": null
+      },
+      {
+        "title": "SonyLiv",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120299/Footlive1311/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794631572~acl=/*~id=47260986229254277328438290907585~hmac=a579be06592098bfaa39a315c2265f55ef1ffc30cd9b01e513354ab4eb39d154",
+        "key": null
       }
     ]
   },
