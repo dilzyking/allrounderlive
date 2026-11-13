@@ -38,7 +38,7 @@
     "title": "Mozambique vs Ethiopia",
     "slug": "mozambique-vs-ethiopia",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Football",
       "category": "Football",
@@ -66,7 +66,7 @@
     "title": "Comoros vs Congo Republic",
     "slug": "comoros-vs-congo-republic",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Football",
       "category": "Football",
@@ -100,7 +100,7 @@
     "title": "Zambia vs Burundi",
     "slug": "zambia-vs-burundi",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Football",
       "category": "Football",
@@ -160,7 +160,14 @@
       "startTimeUTC": "2026/11/13 14:00:00 +0000",
       "endTimeUTC": "2026/11/13 16:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "CRICFy LIVE",
+        "type": "hls",
+        "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 14909,
