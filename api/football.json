@@ -142,34 +142,6 @@
     ]
   },
   {
-    "id": 14910,
-    "title": "Kuwait vs Syria",
-    "slug": "kuwait-vs-syria",
-    "cat": "Live Events",
-    "status": "upcoming",
-    "event": {
-      "name": "Football",
-      "category": "Football",
-      "teamA": "Kuwait",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/5368/image",
-      "teamB": "Syria",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4731/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/851/image/dark",
-      "startTimeIST": "2026-11-13 19:30:00 IST",
-      "endTimeIST": "2026-11-13 21:50:00 IST",
-      "startTimeUTC": "2026/11/13 14:00:00 +0000",
-      "endTimeUTC": "2026/11/13 16:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "CRICFy LIVE",
-        "type": "hls",
-        "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 14906,
     "title": "Saudi Arabia vs South Korea",
     "slug": "saudi-arabia-vs-south-korea",
@@ -371,6 +343,34 @@
       "endTimeUTC": "2026/11/13 18:20:00 +0000"
     },
     "dashStreams": []
+  },
+  {
+    "id": 14910,
+    "title": "Kuwait vs Syria",
+    "slug": "kuwait-vs-syria",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Kuwait",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/5368/image",
+      "teamB": "Syria",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4731/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/851/image/dark",
+      "startTimeIST": "2026-11-13 22:00:05 IST",
+      "endTimeIST": "2026-11-14 00:00:10 IST",
+      "startTimeUTC": "2026/11/13 16:30:05 +0000",
+      "endTimeUTC": "2026/11/13 18:30:10 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "CRICFy LIVE",
+        "type": "hls",
+        "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 14900,
