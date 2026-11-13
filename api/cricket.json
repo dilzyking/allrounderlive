@@ -98,40 +98,6 @@
     ]
   },
   {
-    "id": 14261,
-    "title": "NPL Nepal Premier League",
-    "slug": "npl-nepal-premier-league",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Cricket",
-      "category": "Cricket",
-      "teamA": "NPL",
-      "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s",
-      "teamB": "NPL",
-      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s",
-      "startTimeIST": "2026-11-13 12:15:19 IST",
-      "endTimeIST": "2026-11-13 20:45:12 IST",
-      "startTimeUTC": "2026/11/13 06:45:19 +0000",
-      "endTimeUTC": "2026/11/13 15:15:12 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "FANCODE - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
-      },
-      {
-        "title": "FANCODE - IN",
-        "type": "hls",
-        "url": "https://in-mc-flive.fancode.com/mumbai/4250376_english_hls_06f8df790c25388_1ta-di_h264/1080p.m3u8?hdntl=Expires=1794551600~_GO=Generated~acl=/mumbai/4250376_english_hls_06f8df790c25388_1ta-di_h264/*~SessionID=20fde653298ae09b1231e2c94877ae9f_playbox_845100cd-5fdc-46~Signature=AbO9BjgfyL-FpZ7spkiG2wk2QQTC6UB2OHU7ZKlNcQy4HU3FoWFjTUucHLaPgIbX7QFpbRGK2lYv32eBx3NUFzpDLlIG",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 14891,
     "title": "Zimbabwe Women vs Bangladesh Women",
     "slug": "zimbabwe-women-vs-bangladesh-women",
@@ -218,6 +184,40 @@
     ]
   },
   {
+    "id": 14261,
+    "title": "NPL Nepal Premier League",
+    "slug": "npl-nepal-premier-league",
+    "cat": "Live Events",
+    "status": "live",
+    "event": {
+      "name": "Cricket",
+      "category": "Cricket",
+      "teamA": "NPL",
+      "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s",
+      "teamB": "NPL",
+      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo0kwOfn0swttbdChYr5KGVFVY-XuUO6nrYQ&s",
+      "startTimeIST": "2026-11-13 16:45:41 IST",
+      "endTimeIST": "2026-11-13 20:45:12 IST",
+      "startTimeUTC": "2026/11/13 11:15:41 +0000",
+      "endTimeUTC": "2026/11/13 15:15:12 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "FANCODE - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+      },
+      {
+        "title": "FANCODE - IN",
+        "type": "hls",
+        "url": "https://in-mc-flive.fancode.com/mumbai/4250376_english_hls_06f8df790c25388_1ta-di_h264/1080p.m3u8?hdntl=Expires=1794551600~_GO=Generated~acl=/mumbai/4250376_english_hls_06f8df790c25388_1ta-di_h264/*~SessionID=20fde653298ae09b1231e2c94877ae9f_playbox_845100cd-5fdc-46~Signature=AbO9BjgfyL-FpZ7spkiG2wk2QQTC6UB2OHU7ZKlNcQy4HU3FoWFjTUucHLaPgIbX7QFpbRGK2lYv32eBx3NUFzpDLlIG",
+        "key": null
+      }
+    ]
+  },
+  {
     "id": 14622,
     "title": "Abu Dhabi T10 League",
     "slug": "abu-dhabi-t10-league",
@@ -240,8 +240,8 @@
       {
         "title": "WILLOW - AQ",
         "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/q6p7ehxwmc/out/v1/64ff7b94fefb4ec4b838bc86e9b32bda/cenc.mpd",
-        "key": "1e9def1e0c216818e8edc06ce10d25c9:4743d779da68303948a6e7e18fc77056"
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/7abe0qpjti/out/v1/fe7054b659bf4f30becc49b4f7586440/cenc.mpd",
+        "key": "04afa3786bfbdb25de7c3ea3f5090f4c:f368f03d7c9c82af023ffcd99e533998"
       },
       {
         "title": "PREMIER SPORTS - AQ",
@@ -252,8 +252,8 @@
       {
         "title": "WILLOW - ALT",
         "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/q6p7ehxwmc/out/v1/64ff7b94fefb4ec4b838bc86e9b32bda/cenc.mpd",
-        "key": "1e9def1e0c216818e8edc06ce10d25c9:4743d779da68303948a6e7e18fc77056"
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/7abe0qpjti/out/v1/fe7054b659bf4f30becc49b4f7586440/cenc.mpd",
+        "key": "04afa3786bfbdb25de7c3ea3f5090f4c:f368f03d7c9c82af023ffcd99e533998"
       },
       {
         "title": "A SPORTS HD",
