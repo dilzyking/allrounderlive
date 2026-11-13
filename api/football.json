@@ -126,6 +126,12 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
         "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+      },
+      {
+        "title": "SonyLiv",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120304/Footlive1311/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794640658~acl=/*~id=69614981546485791552404768307414~hmac=8bc08c2bdde07bdf17877111b5da374d7257622b3c38e5b32450f1179b71d7d3",
+        "key": null
       }
     ]
   },
@@ -172,6 +178,96 @@
         "type": "dash",
         "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
         "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+      },
+      {
+        "title": "SonyLiv",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120308/Footlive1311/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794640658~acl=/*~id=69614981546485791552404768307414~hmac=8bc08c2bdde07bdf17877111b5da374d7257622b3c38e5b32450f1179b71d7d3",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 14898,
+    "title": "Scotland vs North Macedonia",
+    "slug": "scotland-vs-north-macedonia",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Scotland",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4695/image",
+      "teamB": "North Macedonia",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4777/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-14 01:15:00 IST",
+      "endTimeIST": "2026-11-14 03:35:00 IST",
+      "startTimeUTC": "2026/11/13 19:45:00 +0000",
+      "endTimeUTC": "2026/11/13 22:05:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "SonyLiv",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120307/Footlive1311/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794640658~acl=/*~id=69614981546485791552404768307414~hmac=8bc08c2bdde07bdf17877111b5da374d7257622b3c38e5b32450f1179b71d7d3",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 14899,
+    "title": "Slovenia vs Switzerland",
+    "slug": "slovenia-vs-switzerland",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Slovenia",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4484/image",
+      "teamB": "Switzerland",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4699/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-14 01:15:00 IST",
+      "endTimeIST": "2026-11-14 03:35:00 IST",
+      "startTimeUTC": "2026/11/13 19:45:00 +0000",
+      "endTimeUTC": "2026/11/13 22:05:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "SonyLiv",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120306/Footlive1311/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794640658~acl=/*~id=69614981546485791552404768307414~hmac=8bc08c2bdde07bdf17877111b5da374d7257622b3c38e5b32450f1179b71d7d3",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 14903,
+    "title": "Slovakia vs Faroe Islands",
+    "slug": "slovakia-vs-faroe-islands",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Slovakia",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4697/image",
+      "teamB": "Faroe Islands",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4760/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-14 01:15:00 IST",
+      "endTimeIST": "2026-11-14 03:35:00 IST",
+      "startTimeUTC": "2026/11/13 19:45:00 +0000",
+      "endTimeUTC": "2026/11/13 22:05:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "SonyLiv",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120300/Footlive1311/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794640658~acl=/*~id=69614981546485791552404768307414~hmac=8bc08c2bdde07bdf17877111b5da374d7257622b3c38e5b32450f1179b71d7d3",
+        "key": null
       }
     ]
   },
