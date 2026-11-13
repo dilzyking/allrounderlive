@@ -20,10 +20,16 @@
     },
     "dashStreams": [
       {
-        "title": "CRICFy LIVE",
+        "title": "VIX SPANISH - AQ",
         "type": "dash",
-        "url": "https://primevideo.com.playfytvboss.online/ottb/live/vix/B0HNYXBJMF.mpd",
-        "key": null
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/68nwxm1dcd/out/v1/bdab973002a441e59ec79082d0492fb6/cenc.mpd",
+        "key": "fbf28c5103107048189c3be8a70f0aae:2a41a5a7c58965342252f4ef522fc18b"
+      },
+      {
+        "title": "VIX SPANISH - ALT",
+        "type": "dash",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/68nwxm1dcd/out/v1/bdab973002a441e59ec79082d0492fb6/cenc.mpd",
+        "key": "fbf28c5103107048189c3be8a70f0aae:2a41a5a7c58965342252f4ef522fc18b"
       }
     ]
   },
