@@ -40,13 +40,13 @@
       {
         "title": "HD SERVER",
         "type": "hls",
-        "url": "https://www.rtmpcdn.com/live/2a7d96a7-0e36-445c-9383-9da583b5f7ef.m3u8",
+        "url": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?",
         "key": null
       },
       {
         "title": "CRICFy FAST",
         "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?",
+        "url": "https://www.rtmpcdn.com/live/2a7d96a7-0e36-445c-9383-9da583b5f7ef.m3u8",
         "key": null
       }
     ]
@@ -72,10 +72,10 @@
     },
     "dashStreams": [
       {
-        "title": "CRICFy LIVE",
-        "type": "hls",
-        "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-        "key": null
+        "title": "D SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd",
+        "key": "f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
       }
     ]
   },
@@ -100,9 +100,9 @@
     },
     "dashStreams": [
       {
-        "title": "CRICFy LIVE",
+        "title": "HD SERVER",
         "type": "hls",
-        "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+        "url": "https://live2.jorvakstreamcache.com/live/channel22.m3u8?",
         "key": null
       }
     ]
