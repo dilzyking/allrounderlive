@@ -544,7 +544,7 @@
     "title": "Morocco vs Niger",
     "slug": "morocco-vs-niger",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Football",
       "category": "Football",
@@ -564,6 +564,12 @@
         "type": "dash",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd?",
         "key": "74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c"
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel22.m3u8?",
+        "key": null
       }
     ]
   },
