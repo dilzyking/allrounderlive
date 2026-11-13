@@ -72,7 +72,7 @@
     "title": "Leganes vs Burgos Club de Futbol",
     "slug": "leganes-vs-burgos-club-de-futbol",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Football",
       "category": "Football",
@@ -92,6 +92,62 @@
         "type": "dash",
         "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
         "key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
+      }
+    ]
+  },
+  {
+    "id": 14894,
+    "title": "Andorra vs Gibraltar",
+    "slug": "andorra-vs-gibraltar",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Andorra",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4818/image",
+      "teamB": "Gibraltar",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/129264/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-14 01:15:00 IST",
+      "endTimeIST": "2026-11-14 03:35:00 IST",
+      "startTimeUTC": "2026/11/13 19:45:00 +0000",
+      "endTimeUTC": "2026/11/13 22:05:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "SonyLiv",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120303/Footlive1311/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794640658~acl=/*~id=69614981546485791552404768307414~hmac=8bc08c2bdde07bdf17877111b5da374d7257622b3c38e5b32450f1179b71d7d3",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 14895,
+    "title": "Liechtenstein vs Azerbaijan",
+    "slug": "liechtenstein-vs-azerbaijan",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Liechtenstein",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4830/image",
+      "teamB": "Azerbaijan",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4742/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-14 01:15:00 IST",
+      "endTimeIST": "2026-11-14 03:35:00 IST",
+      "startTimeUTC": "2026/11/13 19:45:00 +0000",
+      "endTimeUTC": "2026/11/13 22:05:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "SonyLiv",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120305/Footlive1311/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794640658~acl=/*~id=69614981546485791552404768307414~hmac=8bc08c2bdde07bdf17877111b5da374d7257622b3c38e5b32450f1179b71d7d3",
+        "key": null
       }
     ]
   },
@@ -239,6 +295,62 @@
         "title": "SonyLiv",
         "type": "hls",
         "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120306/Footlive1311/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794640658~acl=/*~id=69614981546485791552404768307414~hmac=8bc08c2bdde07bdf17877111b5da374d7257622b3c38e5b32450f1179b71d7d3",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 14901,
+    "title": "Bulgaria vs Iceland",
+    "slug": "bulgaria-vs-iceland",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Bulgaria",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4716/image",
+      "teamB": "Iceland",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4708/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-14 01:15:00 IST",
+      "endTimeIST": "2026-11-14 03:35:00 IST",
+      "startTimeUTC": "2026/11/13 19:45:00 +0000",
+      "endTimeUTC": "2026/11/13 22:05:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "SonyLiv",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120302/Footlive1311/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794640658~acl=/*~id=69614981546485791552404768307414~hmac=8bc08c2bdde07bdf17877111b5da374d7257622b3c38e5b32450f1179b71d7d3",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 14902,
+    "title": "Luxembourg vs Estonia",
+    "slug": "luxembourg-vs-estonia",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Luxembourg",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4478/image",
+      "teamB": "Estonia",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4759/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-14 01:15:00 IST",
+      "endTimeIST": "2026-11-14 03:35:00 IST",
+      "startTimeUTC": "2026/11/13 19:45:00 +0000",
+      "endTimeUTC": "2026/11/13 22:05:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "SonyLiv",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120301/Footlive1311/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794640658~acl=/*~id=69614981546485791552404768307414~hmac=8bc08c2bdde07bdf17877111b5da374d7257622b3c38e5b32450f1179b71d7d3",
         "key": null
       }
     ]
