@@ -244,7 +244,14 @@
       "startTimeUTC": "2026/11/13 15:00:00 +0000",
       "endTimeUTC": "2026/11/13 17:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "CRICFy LIVE",
+        "type": "hls",
+        "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 14916,
