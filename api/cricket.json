@@ -46,92 +46,6 @@
     ]
   },
   {
-    "id": 14891,
-    "title": "Zimbabwe Women vs Bangladesh Women",
-    "slug": "zimbabwe-women-vs-bangladesh-women",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Cricket",
-      "category": "Cricket",
-      "teamA": "Zimbabwe Women",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/417062/image",
-      "teamB": "Bangladesh Women",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/187809/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/30714/image/dark",
-      "startTimeIST": "2026-11-13 14:45:00 IST",
-      "endTimeIST": "2026-11-13 18:45:00 IST",
-      "startTimeUTC": "2026/11/13 09:15:00 +0000",
-      "endTimeUTC": "2026/11/13 13:15:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "ICC TV - AQ",
-        "type": "dash",
-        "url": "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-07)/hdntl=exp=1794589384~acl=*%2fchannel(vcg-01-ch-hd-07)%2f*~id=df636eee-0529-4299-91da-e8ce8c8790f0~data=hdntl,QjtNWCxDUixTVixHVCxITixOSSxQQSxBUixCTyxCUixDTCxDTyxFQyxQWSxQRSxVWSxWRSxDVSxETyxIVCxDQSxVUyxJTixQSyxMSyxBTyxCSixCVyxCRixCSSxDVixDTSxDRixURCxLTSxDRyxDRCxDSSxESixHUSxFUixFVCxHQSxHTSxHSCxHTixHVyxLRSxMUyxMUixNRyxNVyxNVSxNUixNWixOQSxORSxORyxSVyxTVCxTTixTQyxTTCxTTyxaQSxTUyxTRCxUWixURyxVRyxaTSxaVyxTWixNTA%3d%3d~hmac=6e9b89ed3891607678596995263356104ae07d9b14fb763adbcfd44a98763925/manifest.mpd?vcfilter=64cee3c3-d133-4603-8993-f9108a5f90cb",
-        "key": "39bd302cdeed3710a89fb004d232ab67:9869f804ba18d7e508cbff781829221c"
-      },
-      {
-        "title": "ICC TV - ALT",
-        "type": "dash",
-        "url": "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-07)/hdntl=exp=1794589384~acl=*%2fchannel(vcg-01-ch-hd-07)%2f*~id=df636eee-0529-4299-91da-e8ce8c8790f0~data=hdntl,QjtNWCxDUixTVixHVCxITixOSSxQQSxBUixCTyxCUixDTCxDTyxFQyxQWSxQRSxVWSxWRSxDVSxETyxIVCxDQSxVUyxJTixQSyxMSyxBTyxCSixCVyxCRixCSSxDVixDTSxDRixURCxLTSxDRyxDRCxDSSxESixHUSxFUixFVCxHQSxHTSxHSCxHTixHVyxLRSxMUyxMUixNRyxNVyxNVSxNUixNWixOQSxORSxORyxSVyxTVCxTTixTQyxTTCxTTyxaQSxTUyxTRCxUWixURyxVRyxaTSxaVyxTWixNTA%3d%3d~hmac=6e9b89ed3891607678596995263356104ae07d9b14fb763adbcfd44a98763925/manifest.mpd?vcfilter=64cee3c3-d133-4603-8993-f9108a5f90cb",
-        "key": "39bd302cdeed3710a89fb004d232ab67:9869f804ba18d7e508cbff781829221c"
-      },
-      {
-        "title": "MyCO - AQ",
-        "type": "hls",
-        "url": "https://ml-pull-rtmp-pk1.myco.io/Feed2/hls/index.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 14930,
-    "title": "Thailand Women vs Pakistan Women",
-    "slug": "thailand-women-vs-pakistan-women",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Cricket",
-      "category": "Cricket",
-      "teamA": "Thailand Women",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/446070/image",
-      "teamB": "Pakistan Women",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/187808/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/30714/image/dark",
-      "startTimeIST": "2026-11-13 14:45:00 IST",
-      "endTimeIST": "2026-11-13 18:45:00 IST",
-      "startTimeUTC": "2026/11/13 09:15:00 +0000",
-      "endTimeUTC": "2026/11/13 13:15:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "ICC TV - AQ",
-        "type": "dash",
-        "url": "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-06)/hdntl=exp=1794589451~acl=*%2fchannel(vcg-01-ch-hd-06)%2f*~id=df636eee-0529-4299-91da-e8ce8c8790f0~data=hdntl,QjtNWCxDUixTVixHVCxITixOSSxQQSxBUixCTyxCUixDTCxDTyxFQyxQWSxQRSxVWSxWRSxDVSxETyxIVCxDQSxVUyxJTixQSyxMSyxBTyxCSixCVyxCRixCSSxDVixDTSxDRixURCxLTSxDRyxDRCxDSSxESixHUSxFUixFVCxHQSxHTSxHSCxHTixHVyxLRSxMUyxMUixNRyxNVyxNVSxNUixNWixOQSxORSxORyxSVyxTVCxTTixTQyxTTCxTTyxaQSxTUyxTRCxUWixURyxVRyxaTSxaVyxTWixNTA%3d%3d~hmac=57a51c091cbec36963af2eb166712d9178c81abbbb7f6d1af9f5d7c044562088/manifest.mpd?vcfilter=1b53d98b-6b74-4ebf-aab9-b5a80542c7ae",
-        "key": "39bd302cdeed3710a89fb004d232ab67:9869f804ba18d7e508cbff781829221c"
-      },
-      {
-        "title": "ICC TV - AQ",
-        "type": "dash",
-        "url": "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-06)/hdntl=exp=1794589451~acl=*%2fchannel(vcg-01-ch-hd-06)%2f*~id=df636eee-0529-4299-91da-e8ce8c8790f0~data=hdntl,QjtNWCxDUixTVixHVCxITixOSSxQQSxBUixCTyxCUixDTCxDTyxFQyxQWSxQRSxVWSxWRSxDVSxETyxIVCxDQSxVUyxJTixQSyxMSyxBTyxCSixCVyxCRixCSSxDVixDTSxDRixURCxLTSxDRyxDRCxDSSxESixHUSxFUixFVCxHQSxHTSxHSCxHTixHVyxLRSxMUyxMUixNRyxNVyxNVSxNUixNWixOQSxORSxORyxSVyxTVCxTTixTQyxTTCxTTyxaQSxTUyxTRCxUWixURyxVRyxaTSxaVyxTWixNTA%3d%3d~hmac=57a51c091cbec36963af2eb166712d9178c81abbbb7f6d1af9f5d7c044562088/manifest.mpd?vcfilter=1b53d98b-6b74-4ebf-aab9-b5a80542c7ae",
-        "key": "39bd302cdeed3710a89fb004d232ab67:9869f804ba18d7e508cbff781829221c"
-      },
-      {
-        "title": "MyCO - AQ",
-        "type": "hls",
-        "url": "https://ml-pull-rtmp-pk1.myco.io/Feed1/hls/index.m3u8",
-        "key": null
-      },
-      {
-        "title": "TAMASHA - AQ",
-        "type": "hls",
-        "url": "https://cdn01lhr-n.tamashaweb.com:8087/appcast/ICC-women-NT2026-svod-B-abr/playlist.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 14261,
     "title": "NPL Nepal Premier League",
     "slug": "npl-nepal-premier-league",
@@ -302,6 +216,48 @@
     "dashStreams": []
   },
   {
+    "id": 14931,
+    "title": "Pakistan Women vs Netherlands Women",
+    "slug": "pakistan-women-vs-netherlands-women",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Cricket",
+      "category": "Cricket",
+      "teamA": "Pakistan Women",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/187808/image",
+      "teamB": "Netherlands Women",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/417753/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/30714/image/dark",
+      "startTimeIST": "2026-11-15 10:30:00 IST",
+      "endTimeIST": "2026-11-15 14:30:00 IST",
+      "startTimeUTC": "2026/11/15 05:00:00 +0000",
+      "endTimeUTC": "2026/11/15 09:00:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 14932,
+    "title": "Thailand Women vs Zimbabwe Women",
+    "slug": "thailand-women-vs-zimbabwe-women",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Cricket",
+      "category": "Cricket",
+      "teamA": "Thailand Women",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/446070/image",
+      "teamB": "Zimbabwe Women",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/417062/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/30714/image/dark",
+      "startTimeIST": "2026-11-15 10:30:00 IST",
+      "endTimeIST": "2026-11-15 14:30:00 IST",
+      "startTimeUTC": "2026/11/15 05:00:00 +0000",
+      "endTimeUTC": "2026/11/15 09:00:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
     "id": 14851,
     "title": "South Africa vs Bangladesh",
     "slug": "south-africa-vs-bangladesh",
@@ -319,6 +275,48 @@
       "endTimeIST": "2026-11-15 21:30:43 IST",
       "startTimeUTC": "2026/11/15 08:00:00 +0000",
       "endTimeUTC": "2026/11/15 16:00:43 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 14933,
+    "title": "Scotland Women vs United Arab Emirates Women",
+    "slug": "scotland-women-vs-united-arab-emirates-women",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Cricket",
+      "category": "Cricket",
+      "teamA": "Scotland Women",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/453162/image",
+      "teamB": "United Arab Emirates Women",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/291494/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/30714/image/dark",
+      "startTimeIST": "2026-11-15 14:45:00 IST",
+      "endTimeIST": "2026-11-15 18:45:00 IST",
+      "startTimeUTC": "2026/11/15 09:15:00 +0000",
+      "endTimeUTC": "2026/11/15 13:15:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 14934,
+    "title": "Sri Lanka Women vs Papua New Guinea Women",
+    "slug": "sri-lanka-women-vs-papua-new-guinea-women",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Cricket",
+      "category": "Cricket",
+      "teamA": "Sri Lanka Women",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/187806/image",
+      "teamB": "Papua New Guinea Women",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/453165/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/30714/image/dark",
+      "startTimeIST": "2026-11-15 14:45:00 IST",
+      "endTimeIST": "2026-11-15 18:45:00 IST",
+      "startTimeUTC": "2026/11/15 09:15:00 +0000",
+      "endTimeUTC": "2026/11/15 13:15:00 +0000"
     },
     "dashStreams": []
   },
