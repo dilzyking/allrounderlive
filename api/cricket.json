@@ -1,75 +1,5 @@
 [
   {
-    "id": 14822,
-    "title": "Australia vs England",
-    "slug": "australia-vs-england",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Cricket",
-      "category": "Cricket",
-      "teamA": "Australia",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/187746/image",
-      "teamB": "England",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/187757/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/11190/image/dark",
-      "startTimeIST": "2026-11-13 09:00:00 IST",
-      "endTimeIST": "2026-11-13 17:30:35 IST",
-      "startTimeUTC": "2026/11/13 03:30:00 +0000",
-      "endTimeUTC": "2026/11/13 12:00:35 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "WILLOW - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/zvm8yfmf1x/out/v1/5996ed4075494e359d7a1b5e66cc0547/cenc.mpd",
-        "key": "134ce834d4de77fd458c8b131c9e3986:f68411936eaaba7ffc6a0111c75292bb"
-      },
-      {
-        "title": "FANCODE - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
-      },
-      {
-        "title": "WILLOW - ALT",
-        "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/zvm8yfmf1x/out/v1/5996ed4075494e359d7a1b5e66cc0547/cenc.mpd",
-        "key": "134ce834d4de77fd458c8b131c9e3986:f68411936eaaba7ffc6a0111c75292bb"
-      },
-      {
-        "title": "EUROSPORT - AQ",
-        "type": "dash",
-        "url": "https://wbd.skandha.tv/EuroSport_HD/EuroSport_HD.isml/.mpd",
-        "key": "12ed56d780abcfebcd23aa27e4ac5015:6784567890abcfebcd23aa27e4ac2814"
-      },
-      {
-        "title": "TAPMAD - AQ",
-        "type": "hls",
-        "url": "https://tencent-cdn.tapmad.com/v1/01a14a9fb90c15fc60e91e1786b061/01a14a9feb881ea540a81c2b41b75e/main.m3u8?",
-        "key": null
-      },
-      {
-        "title": "TEN SPORTS HD",
-        "type": "hls",
-        "url": "https://live.msnetworks.net/ten-sports/master.m3u8",
-        "key": null
-      },
-      {
-        "title": "WILLOW HD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
-        "key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
-      },
-      {
-        "title": "FANCODE - IN",
-        "type": "hls",
-        "url": "https://in-mc-flive.fancode.com/mumbai/4250640_english_hls_531bf4661e7063_1ta-di_h264/1080p.m3u8?hdntl=Expires=1794628546~_GO=Generated~acl=/mumbai/4250640_english_hls_531bf4661e7063_1ta-di_h264/*~SessionID=330387595_fc-web_e17f533d-0cb8-4f~Signature=AbO9BjhOYLd1GmMfhOhHHklnPOfhTKBOpq8RY94K5cvEs32zsfobefwN_2FtsFC-VmxLp67-63kmnIeMKq08MmKZpgcO",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 14559,
     "title": "Pakistan vs Sri Lanka",
     "slug": "pakistan-vs-sri-lanka",
@@ -425,6 +355,76 @@
         "title": "SONY TEN 4 - IN",
         "type": "hls",
         "url": "https://sony247channels.akamaized.net/hls/live/2020589/ten4kannada/hdntl=exp=1794599360~acl=%2f*~id=604ae0099f5c31fa16beacf7fc54ca00-1794512959613~data=hdntl~hmac=5e50939d3a3c88a2fe492f884252c6a6b488cfdafee0aa37946249f73ae60228/master_3500.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 14822,
+    "title": "Australia vs England",
+    "slug": "australia-vs-england",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Cricket",
+      "category": "Cricket",
+      "teamA": "Australia",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/187746/image",
+      "teamB": "England",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/187757/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/11190/image/dark",
+      "startTimeIST": "2026-11-15 09:00:50 IST",
+      "endTimeIST": "2026-11-15 17:30:56 IST",
+      "startTimeUTC": "2026/11/15 03:30:50 +0000",
+      "endTimeUTC": "2026/11/15 12:00:56 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "WILLOW - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/zvm8yfmf1x/out/v1/5996ed4075494e359d7a1b5e66cc0547/cenc.mpd",
+        "key": "134ce834d4de77fd458c8b131c9e3986:f68411936eaaba7ffc6a0111c75292bb"
+      },
+      {
+        "title": "FANCODE - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+      },
+      {
+        "title": "WILLOW - ALT",
+        "type": "dash",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/zvm8yfmf1x/out/v1/5996ed4075494e359d7a1b5e66cc0547/cenc.mpd",
+        "key": "134ce834d4de77fd458c8b131c9e3986:f68411936eaaba7ffc6a0111c75292bb"
+      },
+      {
+        "title": "EUROSPORT - AQ",
+        "type": "dash",
+        "url": "https://wbd.skandha.tv/EuroSport_HD/EuroSport_HD.isml/.mpd",
+        "key": "12ed56d780abcfebcd23aa27e4ac5015:6784567890abcfebcd23aa27e4ac2814"
+      },
+      {
+        "title": "TAPMAD - AQ",
+        "type": "hls",
+        "url": "https://tencent-cdn.tapmad.com/v1/01a14a9fb90c15fc60e91e1786b061/01a14a9feb881ea540a81c2b41b75e/main.m3u8?",
+        "key": null
+      },
+      {
+        "title": "TEN SPORTS HD",
+        "type": "hls",
+        "url": "https://live.msnetworks.net/ten-sports/master.m3u8",
+        "key": null
+      },
+      {
+        "title": "WILLOW HD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+        "key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
+      },
+      {
+        "title": "FANCODE - IN",
+        "type": "hls",
+        "url": "https://in-mc-flive.fancode.com/mumbai/4250640_english_hls_531bf4661e7063_1ta-di_h264/1080p.m3u8?hdntl=Expires=1794628546~_GO=Generated~acl=/mumbai/4250640_english_hls_531bf4661e7063_1ta-di_h264/*~SessionID=330387595_fc-web_e17f533d-0cb8-4f~Signature=AbO9BjhOYLd1GmMfhOhHHklnPOfhTKBOpq8RY94K5cvEs32zsfobefwN_2FtsFC-VmxLp67-63kmnIeMKq08MmKZpgcO",
         "key": null
       }
     ]
