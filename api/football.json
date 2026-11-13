@@ -1,39 +1,5 @@
 [
   {
-    "id": 14925,
-    "title": "Morocco vs Niger",
-    "slug": "morocco-vs-niger",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Football",
-      "category": "Football",
-      "teamA": "Morocco",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/4778/image",
-      "teamB": "Niger",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/8031/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1848/image/dark",
-      "startTimeIST": "2026-11-14 01:30:00 IST",
-      "endTimeIST": "2026-11-14 03:50:00 IST",
-      "startTimeUTC": "2026/11/13 20:00:00 +0000",
-      "endTimeUTC": "2026/11/13 22:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "beIN SPORTS - AQ",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd?",
-        "key": "74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c"
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel22.m3u8?",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 14845,
     "title": "Argentina vs Uruguay",
     "slug": "argentina-vs-uruguay",
