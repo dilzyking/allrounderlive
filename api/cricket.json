@@ -236,38 +236,7 @@
       "startTimeUTC": "2026/11/14 04:40:07 +0000",
       "endTimeUTC": "2026/11/14 12:00:17 +0000"
     },
-    "dashStreams": [
-      {
-        "title": "WILLOW - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/u4j10cfyp1/out/v1/ca19243e974e4cb099314f26276b2991/cenc.mpd",
-        "key": "636a1180048a50dcdcb44283999a7a9b:fd4f90a2703266be6aea6b6d01274a07"
-      },
-      {
-        "title": "SKY CRICKET - AQ",
-        "type": "hls",
-        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
-        "key": null
-      },
-      {
-        "title": "WILLOW - ALT",
-        "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/u4j10cfyp1/out/v1/ca19243e974e4cb099314f26276b2991/cenc.mpd",
-        "key": "636a1180048a50dcdcb44283999a7a9b:fd4f90a2703266be6aea6b6d01274a07"
-      },
-      {
-        "title": "TAPMAD - AQ",
-        "type": "hls",
-        "url": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8?",
-        "key": null
-      },
-      {
-        "title": "WILLOW HD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
-        "key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
-      }
-    ]
+    "dashStreams": []
   },
   {
     "id": 14892,
@@ -309,92 +278,7 @@
       "startTimeUTC": "2026/11/15 02:00:07 +0000",
       "endTimeUTC": "2026/11/15 11:00:14 +0000"
     },
-    "dashStreams": [
-      {
-        "title": "PRIME ENG - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/dcu7rpwyvi/out/v1/05f98d7430fd4ceeb3317fe61cc536b0/cenc.mpd",
-        "key": "2a074c6c1178670701cbfeca48c0abe5:d7d84ab8144591ba0a49e443c571bf10"
-      },
-      {
-        "title": "WILLOW - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/6learkrmkk/out/v1/ea7695de219f46d1bf645bd975854712/cenc.mpd",
-        "key": "9daab9f2057ca46ae108997a0886b434:220b4c0284b9a045c49c8cf1ddbb49a8"
-      },
-      {
-        "title": "PRIME HINDI - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/x9rbps3nff/out/v1/737eb86856de4824b26f7af699a34b56/cenc.mpd",
-        "key": "4ccabc091fc06e2c983228d547530c5d:0dad1a9082f3e94f66b3b38864ff0f08"
-      },
-      {
-        "title": "TNT SPORTS - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
-        "key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
-      },
-      {
-        "title": "WILLOW - ALT",
-        "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/6learkrmkk/out/v1/ea7695de219f46d1bf645bd975854712/cenc.mpd",
-        "key": "9daab9f2057ca46ae108997a0886b434:220b4c0284b9a045c49c8cf1ddbb49a8"
-      },
-      {
-        "title": "SonyLiv - ENG",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2022321/DAI17-INDNZ/master.m3u8?hdnea=exp=1794577851~acl=/*~id=96293672809354845535538746530706~hmac=8bbbc88d5f85682228d9b734d907fd897180f44db2af882b15a81b06ec12c5fa",
-        "key": null
-      },
-      {
-        "title": "SonyLiv - HIN",
-        "type": "hls",
-        "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119921/cricodi_1211/HIN/master.m3u8?hdnea=exp=1794573596~acl=/*~id=44345d3f28b0710f8ac67b5f7a254851-1794530395621~hmac=d0589a612cc90b2e61388a2000dac6f50a4872e6917e1a76167d31d3c4fc95b5",
-        "key": null
-      },
-      {
-        "title": "SonyLiv - TAM",
-        "type": "hls",
-        "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119951/cricodi_1211/TAM/master.m3u8?hdnea=exp=1794573596~acl=/*~id=44345d3f28b0710f8ac67b5f7a254851-1794530395621~hmac=d0589a612cc90b2e61388a2000dac6f50a4872e6917e1a76167d31d3c4fc95b5",
-        "key": null
-      },
-      {
-        "title": "SonyLiv - TEL",
-        "type": "hls",
-        "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119941/cricodi_1211/TEL/master.m3u8?hdnea=exp=1794573596~acl=/*~id=44345d3f28b0710f8ac67b5f7a254851-1794530395621~hmac=d0589a612cc90b2e61388a2000dac6f50a4872e6917e1a76167d31d3c4fc95b5",
-        "key": null
-      },
-      {
-        "title": "SonyLiv - KAN",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/7vhf8r60nl/out/v1/5d0ce0e49c454459a1f6c58562ce4884/cenc.mpd",
-        "key": "2848e6ec50f63a4a5ed5e0c0bb94c870:c6d49139023938d6a73f6a3141b2ff5e"
-      },
-      {
-        "title": "SONY TEN 1 - IN",
-        "type": "hls",
-        "url": "https://sony247channels.akamaized.net/hls/live/2011747/TEN1HD/hdntl=exp=1794599360~acl=%2f*~id=604ae0099f5c31fa16beacf7fc54ca00-1794512959613~data=hdntl~hmac=5e50939d3a3c88a2fe492f884252c6a6b488cfdafee0aa37946249f73ae60228/master_3500.m3u8",
-        "key": null
-      },
-      {
-        "title": "SONY TEN 2 - IN",
-        "type": "hls",
-        "url": "https://sony247channels.akamaized.net/hls/live/2020434/TEN2HD/hdntl=exp=1794599360~acl=%2f*~id=604ae0099f5c31fa16beacf7fc54ca00-1794512959613~data=hdntl~hmac=5e50939d3a3c88a2fe492f884252c6a6b488cfdafee0aa37946249f73ae60228/master_3500.m3u8",
-        "key": null
-      },
-      {
-        "title": "SONY TEN 3 - IN",
-        "type": "hls",
-        "url": "https://sony247channels.akamaized.net/hls/live/2020591/TEN3HD/hdntl=exp=1794599360~acl=%2f*~id=604ae0099f5c31fa16beacf7fc54ca00-1794512959613~data=hdntl~hmac=5e50939d3a3c88a2fe492f884252c6a6b488cfdafee0aa37946249f73ae60228/master_3500.m3u8",
-        "key": null
-      },
-      {
-        "title": "SONY TEN 4 - IN",
-        "type": "hls",
-        "url": "https://sony247channels.akamaized.net/hls/live/2020589/ten4kannada/hdntl=exp=1794599360~acl=%2f*~id=604ae0099f5c31fa16beacf7fc54ca00-1794512959613~data=hdntl~hmac=5e50939d3a3c88a2fe492f884252c6a6b488cfdafee0aa37946249f73ae60228/master_3500.m3u8",
-        "key": null
-      }
-    ]
+    "dashStreams": []
   },
   {
     "id": 14822,
@@ -415,56 +299,7 @@
       "startTimeUTC": "2026/11/15 03:30:50 +0000",
       "endTimeUTC": "2026/11/15 12:00:56 +0000"
     },
-    "dashStreams": [
-      {
-        "title": "WILLOW - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/zvm8yfmf1x/out/v1/5996ed4075494e359d7a1b5e66cc0547/cenc.mpd",
-        "key": "134ce834d4de77fd458c8b131c9e3986:f68411936eaaba7ffc6a0111c75292bb"
-      },
-      {
-        "title": "FANCODE - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
-      },
-      {
-        "title": "WILLOW - ALT",
-        "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/zvm8yfmf1x/out/v1/5996ed4075494e359d7a1b5e66cc0547/cenc.mpd",
-        "key": "134ce834d4de77fd458c8b131c9e3986:f68411936eaaba7ffc6a0111c75292bb"
-      },
-      {
-        "title": "EUROSPORT - AQ",
-        "type": "dash",
-        "url": "https://wbd.skandha.tv/EuroSport_HD/EuroSport_HD.isml/.mpd",
-        "key": "12ed56d780abcfebcd23aa27e4ac5015:6784567890abcfebcd23aa27e4ac2814"
-      },
-      {
-        "title": "TAPMAD - AQ",
-        "type": "hls",
-        "url": "https://tencent-cdn.tapmad.com/v1/01a14a9fb90c15fc60e91e1786b061/01a14a9feb881ea540a81c2b41b75e/main.m3u8?",
-        "key": null
-      },
-      {
-        "title": "TEN SPORTS HD",
-        "type": "hls",
-        "url": "https://live.msnetworks.net/ten-sports/master.m3u8",
-        "key": null
-      },
-      {
-        "title": "WILLOW HD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
-        "key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
-      },
-      {
-        "title": "FANCODE - IN",
-        "type": "hls",
-        "url": "https://in-mc-flive.fancode.com/mumbai/4250640_english_hls_531bf4661e7063_1ta-di_h264/1080p.m3u8?hdntl=Expires=1794628546~_GO=Generated~acl=/mumbai/4250640_english_hls_531bf4661e7063_1ta-di_h264/*~SessionID=330387595_fc-web_e17f533d-0cb8-4f~Signature=AbO9BjhOYLd1GmMfhOhHHklnPOfhTKBOpq8RY94K5cvEs32zsfobefwN_2FtsFC-VmxLp67-63kmnIeMKq08MmKZpgcO",
-        "key": null
-      }
-    ]
+    "dashStreams": []
   },
   {
     "id": 14851,
@@ -506,37 +341,6 @@
       "startTimeUTC": "2026/11/17 04:30:53 +0000",
       "endTimeUTC": "2026/11/17 13:00:58 +0000"
     },
-    "dashStreams": [
-      {
-        "title": "WILLOW - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/mg8j8enrjm/out/v1/709854ce369042edb21bbc912f26c2e3/cenc.mpd",
-        "key": "5e8ebd9181946fbaa6e3dbf57be1e08c:7ac65a50bd9833f40eb8d383a5bf2beb"
-      },
-      {
-        "title": "WILLOW - ALT",
-        "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/mg8j8enrjm/out/v1/709854ce369042edb21bbc912f26c2e3/cenc.mpd",
-        "key": "5e8ebd9181946fbaa6e3dbf57be1e08c:7ac65a50bd9833f40eb8d383a5bf2beb"
-      },
-      {
-        "title": "TAPMAD - AQ",
-        "type": "hls",
-        "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8",
-        "key": null
-      },
-      {
-        "title": "PTV SPORTS HD",
-        "type": "hls",
-        "url": "https://live.msnetworks.net/ptv-sports/master.m3u8",
-        "key": null
-      },
-      {
-        "title": "TAPMAD HD",
-        "type": "hls",
-        "url": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8",
-        "key": null
-      }
-    ]
+    "dashStreams": []
   }
 ]
