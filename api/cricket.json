@@ -1,57 +1,5 @@
 [
   {
-    "id": 14622,
-    "title": "Abu Dhabi T10 League",
-    "slug": "abu-dhabi-t10-league",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Cricket",
-      "category": "Cricket",
-      "teamA": "Abu Dhabi T10",
-      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
-      "teamB": "Abu Dhabi T10",
-      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
-      "startTimeIST": "2026-11-13 21:30:35 IST",
-      "endTimeIST": "2026-11-13 23:25:28 IST",
-      "startTimeUTC": "2026/11/13 16:00:35 +0000",
-      "endTimeUTC": "2026/11/13 17:55:28 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "WILLOW - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/delyeuco8c/out/v1/1f09875985524291b4fc55f67ababfb5/cenc.mpd",
-        "key": "8f5dd13b8a8e3359a73e223b88369060:876bbda3e69865498248ea092dce4c9e"
-      },
-      {
-        "title": "PREMIER SPORTS - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
-        "key": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19"
-      },
-      {
-        "title": "WILLOW - ALT",
-        "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/delyeuco8c/out/v1/1f09875985524291b4fc55f67ababfb5/cenc.mpd",
-        "key": "8f5dd13b8a8e3359a73e223b88369060:876bbda3e69865498248ea092dce4c9e"
-      },
-      {
-        "title": "A SPORTS HD",
-        "type": "hls",
-        "url": "https://live.msnetworks.net/a-sports/master.m3u8",
-        "key": null
-      },
-      {
-        "title": "MYCO HD",
-        "type": "hls",
-        "url": "https://ml-pull-rtmp-pk1.myco.io/SRT/hls/index.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 14882,
     "title": "WBBL Women Big Bash League",
     "slug": "bbl-women-big-bash-league",
