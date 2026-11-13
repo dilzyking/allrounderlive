@@ -136,7 +136,7 @@
     "title": "Zimbabwe Women vs Bangladesh Women",
     "slug": "zimbabwe-women-vs-bangladesh-women",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Cricket",
       "category": "Cricket",
@@ -166,7 +166,7 @@
       {
         "title": "MyCO - AQ",
         "type": "hls",
-        "url": "https://ml-pull-rtmp-pk1.myco.io/Feed1/hls/index.m3u8",
+        "url": "https://ml-pull-rtmp-pk1.myco.io/Feed2/hls/index.m3u8",
         "key": null
       }
     ]
@@ -176,7 +176,7 @@
     "title": "Thailand Women vs Pakistan Women",
     "slug": "thailand-women-vs-pakistan-women",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Cricket",
       "category": "Cricket",
@@ -191,6 +191,12 @@
       "endTimeUTC": "2026/11/13 13:15:00 +0000"
     },
     "dashStreams": [
+      {
+        "title": "ICC TV - AQ",
+        "type": "dash",
+        "url": "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-06)/hdntl=exp=1794589451~acl=*%2fchannel(vcg-01-ch-hd-06)%2f*~id=df636eee-0529-4299-91da-e8ce8c8790f0~data=hdntl,QjtNWCxDUixTVixHVCxITixOSSxQQSxBUixCTyxCUixDTCxDTyxFQyxQWSxQRSxVWSxWRSxDVSxETyxIVCxDQSxVUyxJTixQSyxMSyxBTyxCSixCVyxCRixCSSxDVixDTSxDRixURCxLTSxDRyxDRCxDSSxESixHUSxFUixFVCxHQSxHTSxHSCxHTixHVyxLRSxMUyxMUixNRyxNVyxNVSxNUixNWixOQSxORSxORyxSVyxTVCxTTixTQyxTTCxTTyxaQSxTUyxTRCxUWixURyxVRyxaTSxaVyxTWixNTA%3d%3d~hmac=57a51c091cbec36963af2eb166712d9178c81abbbb7f6d1af9f5d7c044562088/manifest.mpd?vcfilter=1b53d98b-6b74-4ebf-aab9-b5a80542c7ae",
+        "key": "39bd302cdeed3710a89fb004d232ab67:9869f804ba18d7e508cbff781829221c"
+      },
       {
         "title": "ICC TV - AQ",
         "type": "dash",
