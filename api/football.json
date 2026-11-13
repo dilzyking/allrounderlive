@@ -24,6 +24,40 @@
         "type": "hls",
         "url": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?",
         "key": null
+      },
+      {
+        "title": "SD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/3301dc12-b310-4708-971d-2cef8a7fd82f.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 14914,
+    "title": "Mozambique vs Ethiopia",
+    "slug": "mozambique-vs-ethiopia",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Mozambique",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4783/image",
+      "teamB": "Ethiopia",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/8036/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1848/image/dark",
+      "startTimeIST": "2026-11-13 18:30:00 IST",
+      "endTimeIST": "2026-11-13 20:50:00 IST",
+      "startTimeUTC": "2026/11/13 13:00:00 +0000",
+      "endTimeUTC": "2026/11/13 15:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel14.m3u8?",
+        "key": null
       }
     ]
   },
@@ -52,6 +86,12 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
         "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel12.m3u8?",
+        "key": null
       }
     ]
   },
@@ -92,6 +132,12 @@
         "type": "dash",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd?",
         "key": "74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c"
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel10.m3u8?",
+        "key": null
       }
     ]
   },
