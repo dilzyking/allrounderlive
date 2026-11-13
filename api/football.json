@@ -100,7 +100,7 @@
     "title": "Andorra vs Gibraltar",
     "slug": "andorra-vs-gibraltar",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Football",
       "category": "Football",
@@ -128,7 +128,7 @@
     "title": "Liechtenstein vs Azerbaijan",
     "slug": "liechtenstein-vs-azerbaijan",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Football",
       "category": "Football",
@@ -168,7 +168,7 @@
     "title": "Netherlands vs Greece",
     "slug": "netherlands-vs-greece",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Football",
       "category": "Football",
@@ -196,9 +196,21 @@
         "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
       },
       {
+        "title": "NATIONS LEAGUE HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/59949/load-playlist-multi?",
+        "key": null
+      },
+      {
         "title": "SonyLiv",
         "type": "hls",
         "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120304/Footlive1311/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794640658~acl=/*~id=69614981546485791552404768307414~hmac=8bc08c2bdde07bdf17877111b5da374d7257622b3c38e5b32450f1179b71d7d3",
+        "key": null
+      },
+      {
+        "title": "CRICFy LIVE",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4518085.m3u8?txSecret=1e1e95f4f21a2eec07afa68facb7d00d&txTime=6AF77D8B",
         "key": null
       }
     ]
@@ -208,7 +220,7 @@
     "title": "Serbia vs Germany",
     "slug": "serbia-vs-germany",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Football",
       "category": "Football",
@@ -270,6 +282,12 @@
         "type": "hls",
         "url": "https://live2.jorvakstreamcache.com/live/channel1.m3u8?",
         "key": null
+      },
+      {
+        "title": "CRICFy FAST",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/caa9e852-e8ce-4d77-8f62-a864ea03d07e.m3u8",
+        "key": null
       }
     ]
   },
@@ -278,7 +296,7 @@
     "title": "Scotland vs North Macedonia",
     "slug": "scotland-vs-north-macedonia",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Football",
       "category": "Football",
@@ -324,7 +342,7 @@
     "title": "Slovenia vs Switzerland",
     "slug": "slovenia-vs-switzerland",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Football",
       "category": "Football",
@@ -340,9 +358,21 @@
     },
     "dashStreams": [
       {
+        "title": "CRICFy LIVE",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4518088.m3u8?txSecret=ed005e20a031f2b1b96e4533b3e5cb06&txTime=6AF77DCB",
+        "key": null
+      },
+      {
         "title": "SonyLiv",
         "type": "hls",
         "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120306/Footlive1311/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794640658~acl=/*~id=69614981546485791552404768307414~hmac=8bc08c2bdde07bdf17877111b5da374d7257622b3c38e5b32450f1179b71d7d3",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/55d92ae5-ee77-41e8-b617-bf15beee8c11.m3u8",
         "key": null
       }
     ]
@@ -352,7 +382,7 @@
     "title": "Bulgaria vs Iceland",
     "slug": "bulgaria-vs-iceland",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Football",
       "category": "Football",
@@ -392,7 +422,7 @@
     "title": "Luxembourg vs Estonia",
     "slug": "luxembourg-vs-estonia",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Football",
       "category": "Football",
@@ -420,7 +450,7 @@
     "title": "Slovakia vs Faroe Islands",
     "slug": "slovakia-vs-faroe-islands",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Football",
       "category": "Football",
