@@ -1,39 +1,5 @@
 [
   {
-    "id": 14905,
-    "title": "Singapore vs Paraguay",
-    "slug": "singapore-vs-paraguay",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Football",
-      "category": "Football",
-      "teamA": "Singapore",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/4738/image",
-      "teamB": "Paraguay",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4789/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/851/image/dark",
-      "startTimeIST": "2026-11-13 17:30:00 IST",
-      "endTimeIST": "2026-11-13 19:50:00 IST",
-      "startTimeUTC": "2026/11/13 12:00:00 +0000",
-      "endTimeUTC": "2026/11/13 14:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?",
-        "key": null
-      },
-      {
-        "title": "SD SERVER",
-        "type": "hls",
-        "url": "https://www.rtmpcdn.com/live/3301dc12-b310-4708-971d-2cef8a7fd82f.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 14914,
     "title": "Mozambique vs Ethiopia",
     "slug": "mozambique-vs-ethiopia",
@@ -165,6 +131,34 @@
         "title": "HD SERVER",
         "type": "hls",
         "url": "https://live2.jorvakstreamcache.com/live/channel7.m3u8?",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 14906,
+    "title": "Saudi Arabia vs South Korea",
+    "slug": "saudi-arabia-vs-south-korea",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Saudi Arabia",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4834/image",
+      "teamB": "South Korea",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4735/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/851/image/dark",
+      "startTimeIST": "2026-11-13 20:00:00 IST",
+      "endTimeIST": "2026-11-13 22:20:00 IST",
+      "startTimeUTC": "2026/11/13 14:30:00 +0000",
+      "endTimeUTC": "2026/11/13 16:50:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel1.m3u8?",
         "key": null
       }
     ]
