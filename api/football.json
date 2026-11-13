@@ -116,9 +116,21 @@
     },
     "dashStreams": [
       {
+        "title": "CRICFy LIVE",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4518094.m3u8?txSecret=2d862ca9383cf7adbe0aa0aff1d0dac3&txTime=6AF77E34",
+        "key": null
+      },
+      {
         "title": "SonyLiv",
         "type": "hls",
         "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120303/Footlive1311/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794640658~acl=/*~id=69614981546485791552404768307414~hmac=8bc08c2bdde07bdf17877111b5da374d7257622b3c38e5b32450f1179b71d7d3",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/abcbd7ae-6fe7-42c6-8c82-c9ba83c0189d.m3u8",
         "key": null
       }
     ]
@@ -153,6 +165,12 @@
         "title": "SonyLiv",
         "type": "hls",
         "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120305/Footlive1311/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794640658~acl=/*~id=69614981546485791552404768307414~hmac=8bc08c2bdde07bdf17877111b5da374d7257622b3c38e5b32450f1179b71d7d3",
+        "key": null
+      },
+      {
+        "title": "CRICFy FAST",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/555c237e-9d66-44d2-9f97-071f98c57b1a.m3u8",
         "key": null
       },
       {
