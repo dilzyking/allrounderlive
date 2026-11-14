@@ -1,33 +1,5 @@
 [
   {
-    "id": 14943,
-    "title": "Swindon Town vs Grimsby Town",
-    "slug": "swindon-town-vs-grimsby-town",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Football",
-      "category": "Football",
-      "teamA": "Swindon Town",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/53/image",
-      "teamB": "Grimsby Town",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/18/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/25/image/dark",
-      "startTimeIST": "2026-11-14 20:30:00 IST",
-      "endTimeIST": "2026-11-14 22:50:00 IST",
-      "startTimeUTC": "2026/11/14 15:00:00 +0000",
-      "endTimeUTC": "2026/11/14 17:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "CRICFy LIVE",
-        "type": "hls",
-        "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 14953,
     "title": "Uganda vs Botswana",
     "slug": "uganda-vs-botswana",
