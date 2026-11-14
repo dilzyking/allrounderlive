@@ -88,6 +88,12 @@
         "key": "cfab83b37d9e89b83d504ab50397103c:7abc65ffb90e7c3b24871538aa52dfcb"
       },
       {
+        "title": "PRIME VIDEO - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/zpvxatoc2m/out/v1/eed6cc74cc254398a542207048d15842/cenc.mpd",
+        "key": "4a88874b4229bf46765aaa98ece15a06:7711a8c170f08184d7ea89788fb53caa"
+      },
+      {
         "title": "FOX SPORTS - AQ",
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
@@ -158,6 +164,12 @@
         "key": "7aea10fa1e028a72ae2475feac5a9b73:8ecf359f2a9436db1291eaaaaf1ae2b2"
       },
       {
+        "title": "PRIME VIDEO - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/uwbwpwwlve/out/v1/b4fbb2cb4361442fb5a84d33506430da/cenc.mpd",
+        "key": "5f94a557e0cc1bd599e90cd9f0f92fec:a9160405a496a3b89a3b87e8a9af2274"
+      },
+      {
         "title": "CRICFy LIVE",
         "type": "hls",
         "url": "https://chatgpt.hereisman.net/playlist/60028/load-playlist-multi?",
@@ -202,6 +214,12 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/12gtj56m2g/out/v1/ffeb221c989d4a7a9f6d86d47fcbf4f2/cenc.mpd",
         "key": "0cb5f89ea0e48185a920e5520d16a471:4b9f7810a5969eac231aef27ddd98415"
+      },
+      {
+        "title": "PRIME VIDEO - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/cb1dosmn79/out/v1/9085a6c5febe4a8393facefa44b74ba0/cenc.mpd",
+        "key": "5ba8ca6fa9a9b07167aa3f16e2a16cda:0df72ec739cef395e48ba3a31f319514"
       },
       {
         "title": "CRICFy LIVE",
@@ -250,6 +268,12 @@
         "key": "12ea667488c4fc55bfa882f6246b2f2c:513935f6327604765c783c24a033f335"
       },
       {
+        "title": "PRIME VIDEO - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tryvdw6bar/out/v1/92a1ecd872634f30ab2f1cf7710d5108/cenc.mpd",
+        "key": "14f9adfd027763080b3895dc4c8763a5:11b6a84ba7ff8269d7b2938f573dc147"
+      },
+      {
         "title": "FUBO SPORTS - AQ",
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/xtkswns2yn/out/v1/9c348c1bc962495a9420f01ac0964a86/cenc.mpd",
@@ -295,6 +319,18 @@
       "endTimeUTC": "2026/11/14 22:05:00 +0000"
     },
     "dashStreams": [
+      {
+        "title": "DAZN SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/4vrizaujol/out/v1/c1663485fad44bb68ba6059ab77ed9f4/cenc.mpd",
+        "key": "4a0049901dd26e7757d3204577c9fa92:6dee31e1e48c1964e9b94e7f2b84a0f2"
+      },
+      {
+        "title": "PRIME VIDEO - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/u6b0x5vjtk/out/v1/9cbd94546b9e412db4890325de040e9d/cenc.mpd",
+        "key": "3455d3cf988d7b42a58f9bcc27a0cfc8:8813dd97264d6dcc855973fe329c3394"
+      },
       {
         "title": "beIN ENGLISH - AQ",
         "type": "dash",
