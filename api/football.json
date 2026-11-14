@@ -4,7 +4,7 @@
     "title": "Norway vs Wales",
     "slug": "norway-vs-wales",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Football",
       "category": "Football",
@@ -56,7 +56,7 @@
     "title": "Georgia vs Hungary",
     "slug": "georgia-vs-hungary",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Football",
       "category": "Football",
@@ -391,6 +391,258 @@
       "endTimeIST": "2026-11-15 10:50:00 IST",
       "startTimeUTC": "2026/11/15 03:00:00 +0000",
       "endTimeUTC": "2026/11/15 05:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 14968,
+    "title": "CD Tenerife vs AD Ceuta",
+    "slug": "cd-tenerife-vs-ad-ceuta",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "CD Tenerife",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2822/image",
+      "teamB": "AD Ceuta",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2869/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/54/image/dark",
+      "startTimeIST": "2026-11-15 18:30:00 IST",
+      "endTimeIST": "2026-11-15 20:50:00 IST",
+      "startTimeUTC": "2026/11/15 13:00:00 +0000",
+      "endTimeUTC": "2026/11/15 15:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 14960,
+    "title": "Cyprus vs Montenegro",
+    "slug": "cyprus-vs-montenegro",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Cyprus",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4482/image",
+      "teamB": "Montenegro",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/7139/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-15 19:30:00 IST",
+      "endTimeIST": "2026-11-15 21:50:00 IST",
+      "startTimeUTC": "2026/11/15 14:00:00 +0000",
+      "endTimeUTC": "2026/11/15 16:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 14961,
+    "title": "Latvia vs Armenia",
+    "slug": "latvia-vs-armenia",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Latvia",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4706/image",
+      "teamB": "Armenia",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4740/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-15 19:30:00 IST",
+      "endTimeIST": "2026-11-15 21:50:00 IST",
+      "startTimeUTC": "2026/11/15 14:00:00 +0000",
+      "endTimeUTC": "2026/11/15 16:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 14969,
+    "title": "Granada vs UD Las Palmas",
+    "slug": "granada-vs-ud-las-palmas",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Granada",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/33779/image",
+      "teamB": "UD Las Palmas",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/6577/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/54/image/dark",
+      "startTimeIST": "2026-11-15 20:45:00 IST",
+      "endTimeIST": "2026-11-15 23:05:00 IST",
+      "startTimeUTC": "2026/11/15 15:15:00 +0000",
+      "endTimeUTC": "2026/11/15 17:35:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 14962,
+    "title": "Belarus vs Albania",
+    "slug": "belarus-vs-albania",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Belarus",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4743/image",
+      "teamB": "Albania",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4690/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-15 22:30:00 IST",
+      "endTimeIST": "2026-11-16 00:50:00 IST",
+      "startTimeUTC": "2026/11/15 17:00:00 +0000",
+      "endTimeUTC": "2026/11/15 19:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 14963,
+    "title": "Finland vs San Marino",
+    "slug": "finland-vs-san-marino",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Finland",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4712/image",
+      "teamB": "San Marino",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4833/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-15 22:30:00 IST",
+      "endTimeIST": "2026-11-16 00:50:00 IST",
+      "startTimeUTC": "2026/11/15 17:00:00 +0000",
+      "endTimeUTC": "2026/11/15 19:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 14970,
+    "title": "Eibar vs Cadiz",
+    "slug": "eibar-vs-cadiz",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Eibar",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2839/image",
+      "teamB": "Cádiz",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4488/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/54/image/dark",
+      "startTimeIST": "2026-11-15 23:00:00 IST",
+      "endTimeIST": "2026-11-16 01:20:00 IST",
+      "startTimeUTC": "2026/11/15 17:30:00 +0000",
+      "endTimeUTC": "2026/11/15 19:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 14971,
+    "title": "CD Eldense vs CE Sabadell",
+    "slug": "cd-eldense-vs-ce-sabadell",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "CD Eldense",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/47321/image",
+      "teamB": "CE Sabadell",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/24335/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/54/image/dark",
+      "startTimeIST": "2026-11-15 23:00:00 IST",
+      "endTimeIST": "2026-11-16 01:20:00 IST",
+      "startTimeUTC": "2026/11/15 17:30:00 +0000",
+      "endTimeUTC": "2026/11/15 19:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 14964,
+    "title": "Belgium vs Italy",
+    "slug": "belgium-vs-italy",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Belgium",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4717/image",
+      "teamB": "Italy",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4707/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-16 01:15:00 IST",
+      "endTimeIST": "2026-11-16 03:35:00 IST",
+      "startTimeUTC": "2026/11/15 19:45:00 +0000",
+      "endTimeUTC": "2026/11/15 22:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 14965,
+    "title": "Croatia vs Czechia",
+    "slug": "croatia-vs-czechia",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Croatia",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4715/image",
+      "teamB": "Czechia",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4714/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-16 01:15:00 IST",
+      "endTimeIST": "2026-11-16 03:35:00 IST",
+      "startTimeUTC": "2026/11/15 19:45:00 +0000",
+      "endTimeUTC": "2026/11/15 22:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 14966,
+    "title": "France vs Turkiye",
+    "slug": "france-vs-turkiye",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "France",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4481/image",
+      "teamB": "Türkiye",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4700/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-16 01:15:00 IST",
+      "endTimeIST": "2026-11-16 03:35:00 IST",
+      "startTimeUTC": "2026/11/15 19:45:00 +0000",
+      "endTimeUTC": "2026/11/15 22:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 14967,
+    "title": "Spain vs England",
+    "slug": "spain-vs-england",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Spain",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4698/image",
+      "teamB": "England",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4713/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-16 01:15:00 IST",
+      "endTimeIST": "2026-11-16 03:35:00 IST",
+      "startTimeUTC": "2026/11/15 19:45:00 +0000",
+      "endTimeUTC": "2026/11/15 22:05:00 +0000"
     },
     "dashStreams": []
   }
