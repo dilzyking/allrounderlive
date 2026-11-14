@@ -94,7 +94,7 @@
     "title": "Norway vs Wales",
     "slug": "norway-vs-wales",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Football",
       "category": "Football",
@@ -132,6 +132,12 @@
         "type": "hls",
         "url": "https://sonyeventsglobal.akamaized.net/hls/live/2094587/Footlive1411/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794716695~acl=/*~id=35791475960521283251077626354604~hmac=cda46c5a1c06aac1ea6b264d1ae58ba79a7b34b04417c62775fc8130e79d2cc9",
         "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/p-d8baf4c5767d492d943102db9d02b7ca.m3u8",
+        "key": null
       }
     ]
   },
@@ -140,7 +146,7 @@
     "title": "Georgia vs Hungary",
     "slug": "georgia-vs-hungary",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Football",
       "category": "Football",
@@ -171,6 +177,12 @@
         "title": "SonyLiv",
         "type": "hls",
         "url": "https://sonyeventsglobal.akamaized.net/hls/live/2018457/Footlive1411/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794716695~acl=/*~id=35791475960521283251077626354604~hmac=cda46c5a1c06aac1ea6b264d1ae58ba79a7b34b04417c62775fc8130e79d2cc9",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/p-fec29b5ecce748a0a9260937bde1530f.m3u8",
         "key": null
       }
     ]
