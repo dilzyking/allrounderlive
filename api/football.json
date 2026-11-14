@@ -212,6 +212,62 @@
     ]
   },
   {
+    "id": 14939,
+    "title": "Austria vs Ireland",
+    "slug": "austria-vs-ireland",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Austria",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4718/image",
+      "teamB": "Ireland",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4693/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-15 01:15:00 IST",
+      "endTimeIST": "2026-11-15 03:35:00 IST",
+      "startTimeUTC": "2026/11/14 19:45:00 +0000",
+      "endTimeUTC": "2026/11/14 22:05:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "CRICFy LIVE",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/60028/load-playlist-multi?",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 14940,
+    "title": "Northern Ireland vs Ukraine",
+    "slug": "northern-ireland-vs-ukraine",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Northern Ireland",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4786/image",
+      "teamB": "Ukraine",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4701/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "startTimeIST": "2026-11-15 01:15:00 IST",
+      "endTimeIST": "2026-11-15 03:35:00 IST",
+      "startTimeUTC": "2026/11/14 19:45:00 +0000",
+      "endTimeUTC": "2026/11/14 22:05:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "CRICFy LIVE",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/60027/load-playlist-multi?",
+        "key": null
+      }
+    ]
+  },
+  {
     "id": 14941,
     "title": "Romania vs Poland",
     "slug": "romania-vs-poland",
@@ -236,6 +292,12 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/xtkswns2yn/out/v1/9c348c1bc962495a9420f01ac0964a86/cenc.mpd",
         "key": "fa5e8db5359fc7d1f15207d5de2a3ac4:78a6c0a41972dfdba2145ae0ad4bd681"
+      },
+      {
+        "title": "CRICFy LIVE",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/60026/load-playlist-multi?",
+        "key": null
       }
     ]
   },
@@ -264,6 +326,12 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
         "key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
+      },
+      {
+        "title": "CRICFy LIVE",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/60024/load-playlist-multi?",
+        "key": null
       }
     ]
   },
