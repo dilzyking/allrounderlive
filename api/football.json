@@ -92,6 +92,12 @@
         "type": "hls",
         "url": "https://sonyeventsglobal.akamaized.net/hls/live/2094588/Footlive1411/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794707604~acl=/*~id=40416883930794749896787547691928~hmac=eabd9c97d1bc99a44e6450644df33d661c737d580092dc8a5dabdb3f6bae61f4",
         "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/p-0e9196792b97416bb74cc911cf1e9e85.m3u8",
+        "key": null
       }
     ]
   },
