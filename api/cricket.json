@@ -186,7 +186,20 @@
       "startTimeUTC": "2026/11/14 11:15:49 +0000",
       "endTimeUTC": "2026/11/14 15:15:53 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "FANCODE - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+      },
+      {
+        "title": "FANCODE - IN",
+        "type": "hls",
+        "url": "https://in-mc-flive.fancode.com/mumbai/4250376_english_hls_06f8df790c25388_1ta-di_h264/1080p.m3u8?hdntl=Expires=1794551600~_GO=Generated~acl=/mumbai/4250376_english_hls_06f8df790c25388_1ta-di_h264/*~SessionID=20fde653298ae09b1231e2c94877ae9f_playbox_845100cd-5fdc-46~Signature=AbO9BjgfyL-FpZ7spkiG2wk2QQTC6UB2OHU7ZKlNcQy4HU3FoWFjTUucHLaPgIbX7QFpbRGK2lYv32eBx3NUFzpDLlIG",
+        "key": null
+      }
+    ]
   },
   {
     "id": 14622,
