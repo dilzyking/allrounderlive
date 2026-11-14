@@ -122,9 +122,15 @@
     },
     "dashStreams": [
       {
-        "title": "CRICFy LIVE",
+        "title": "BTV BD - AQ",
         "type": "hls",
-        "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+        "url": "https://nkafmbewiff.gpcdn.net/tile_2/master.m3u8",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel19.m3u8?",
         "key": null
       }
     ]
