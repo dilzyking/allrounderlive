@@ -28,34 +28,6 @@
     ]
   },
   {
-    "id": 14949,
-    "title": "Real Sociedad B vs Sporting Gijon",
-    "slug": "real-sociedad-b-vs-sporting-gijon",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Football",
-      "category": "Football",
-      "teamA": "Real Sociedad B",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/24360/image",
-      "teamB": "Sporting Gijón",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2852/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "startTimeIST": "2026-11-14 20:45:00 IST",
-      "endTimeIST": "2026-11-14 23:05:00 IST",
-      "startTimeUTC": "2026/11/14 15:15:00 +0000",
-      "endTimeUTC": "2026/11/14 17:35:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "LaLiga Hypermotion",
-        "type": "dash",
-        "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-        "key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-      }
-    ]
-  },
-  {
     "id": 14953,
     "title": "Uganda vs Botswana",
     "slug": "uganda-vs-botswana",
@@ -86,6 +58,12 @@
         "type": "dash",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd?",
         "key": "74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c"
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/p-d63c89d1469d40618905a319561b159e.m3u8",
+        "key": null
       }
     ]
   },
