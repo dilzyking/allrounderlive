@@ -188,34 +188,6 @@
     ]
   },
   {
-    "id": 14950,
-    "title": "Almeria vs FC Andorra",
-    "slug": "almeria-vs-fc-andorra",
-    "cat": "Live Events",
-    "status": "upcoming",
-    "event": {
-      "name": "Football",
-      "category": "Football",
-      "teamA": "Almería",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2858/image",
-      "teamB": "FC Andorra",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/324871/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "startTimeIST": "2026-11-14 23:00:00 IST",
-      "endTimeIST": "2026-11-15 01:20:00 IST",
-      "startTimeUTC": "2026/11/14 17:30:00 +0000",
-      "endTimeUTC": "2026/11/14 19:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "CRICFy LIVE",
-        "type": "hls",
-        "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 14951,
     "title": "Mallorca vs Cordoba",
     "slug": "mallorca-vs-cordoba",
