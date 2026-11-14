@@ -98,6 +98,30 @@
         "type": "hls",
         "url": "https://live2.jorvakstreamcache.com/live/channel19.m3u8?",
         "key": null
+      },
+      {
+        "title": "T SPORTS HD",
+        "type": "hls",
+        "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8",
+        "key": null
+      },
+      {
+        "title": "BACKUP HD",
+        "type": "hls",
+        "url": "https://pull.niur.live/live/stream-9912132_lhd.m3u8?txSecret=56c20834d52717b7eab6af5fe033b236&txTime=6af8c3a6",
+        "key": null
+      },
+      {
+        "title": "MYCO - PAK",
+        "type": "hls",
+        "url": "https://ml-pull-rtmp-pk1.myco.io/SAFF2026/hls/26113.m3u8",
+        "key": null
+      },
+      {
+        "title": "VETO TV - IN",
+        "type": "hls",
+        "url": "https://vetointv.akamaized.net/Dreamboat-CH01/master.m3u8",
+        "key": null
       }
     ]
   },
