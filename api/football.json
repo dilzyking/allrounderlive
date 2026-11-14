@@ -24,6 +24,30 @@
         "type": "hls",
         "url": "https://live2.jorvakstreamcache.com/live/channel7.m3u8?",
         "key": null
+      },
+      {
+        "title": "MyCO - AQ",
+        "type": "hls",
+        "url": "https://ml-pull-rtmp-pk1.myco.io/SAFF2026/hls/26113.m3u8",
+        "key": null
+      },
+      {
+        "title": "VETO TV - IN",
+        "type": "hls",
+        "url": "https://vetointv.akamaized.net/Dreamboat-CH01/master.m3u8",
+        "key": null
+      },
+      {
+        "title": "T SPORTS HD",
+        "type": "hls",
+        "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8",
+        "key": null
+      },
+      {
+        "title": "BTV BD HD",
+        "type": "hls",
+        "url": "https://nkafmbewiff.gpcdn.net/tile_2/master.m3u8",
+        "key": null
       }
     ]
   },
