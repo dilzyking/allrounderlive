@@ -50,7 +50,7 @@
   const prev = section.querySelector('.mt-prev');
   const next = section.querySelector('.mt-next');
 
-  const API = section.dataset.api || 'api/main-tour.json';
+  const API = section.dataset.api || '/api/main-tour.json';
 
   const PLAYER_PAGE =
     section.dataset.player || 'main-tour-player.html';
