@@ -1,39 +1,5 @@
 [
   {
-    "id": 14959,
-    "title": "Exeter City vs Cheltenham Town",
-    "slug": "exeter-city-vs-cheltenham-town",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Football",
-      "category": "Football",
-      "teamA": "Exeter City",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/86/image",
-      "teamB": "Cheltenham Town",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/69/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/25/image/dark",
-      "startTimeIST": "2026-11-14 18:00:00 IST",
-      "endTimeIST": "2026-11-14 20:20:00 IST",
-      "startTimeUTC": "2026/11/14 12:30:00 +0000",
-      "endTimeUTC": "2026/11/14 14:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "beIN ENGLISH - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
-        "key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
-      },
-      {
-        "title": "CRICFy LIVE",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/sd-1-4563114.m3u8?txSecret=8e448431acfe5acc651ed9ddb55f6f13&txTime=6AF86985",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 14948,
     "title": "Real Valladolid vs CD Castellon",
     "slug": "real-valladolid-vs-cd-castellon",
