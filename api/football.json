@@ -1,45 +1,5 @@
 [
   {
-    "id": 14953,
-    "title": "Uganda vs Botswana",
-    "slug": "uganda-vs-botswana",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Football",
-      "category": "Football",
-      "teamA": "Uganda",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/4726/image",
-      "teamB": "Botswana",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4747/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1848/image/dark",
-      "startTimeIST": "2026-11-14 21:30:00 IST",
-      "endTimeIST": "2026-11-14 23:50:00 IST",
-      "startTimeUTC": "2026/11/14 16:00:00 +0000",
-      "endTimeUTC": "2026/11/14 18:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "beIN SPORTS - AQ",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?",
-        "key": "27759a440e8ad821b800b3de00cd5851:1b8743adee559f27845f55e8b4d639fe"
-      },
-      {
-        "title": "beIN SPANISH - AQ",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd?",
-        "key": "74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c"
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://www.rtmpcdn.com/live/p-d63c89d1469d40618905a319561b159e.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 14935,
     "title": "Norway vs Wales",
     "slug": "norway-vs-wales",
