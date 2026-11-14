@@ -100,6 +100,12 @@
         "key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
       },
       {
+        "title": "VIX SPANISH - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ihi0mufrnr/out/v1/aef31af53940433bb1b5a1d1eaa6ed5d/cenc.mpd",
+        "key": "2dedfcde92d45b2e842c0ad6e232da99:6f6dde86cfc7b38536f63a9cb8ec4fb4"
+      },
+      {
         "title": "beIN ENGLISH - AQ",
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
@@ -170,6 +176,12 @@
         "key": "5f94a557e0cc1bd599e90cd9f0f92fec:a9160405a496a3b89a3b87e8a9af2274"
       },
       {
+        "title": "VIX SPANISH - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/cmhyxne8me/out/v1/4ee96f7b64494c1aa1dc327b3f9b07ed/cenc.mpd",
+        "key": "741b7304774045850a3640271f354a81:39e05711c81f3ec2dc253889cf5d5a97"
+      },
+      {
         "title": "CRICFy LIVE",
         "type": "hls",
         "url": "https://chatgpt.hereisman.net/playlist/60028/load-playlist-multi?",
@@ -222,6 +234,12 @@
         "key": "5ba8ca6fa9a9b07167aa3f16e2a16cda:0df72ec739cef395e48ba3a31f319514"
       },
       {
+        "title": "VIX SPANISH - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xesjnvup8h/out/v1/7257a9e3af1e4c9e8867c97998030233/cenc.mpd",
+        "key": "f7d3189fba603eb389dc11af552a4a4e:d5354e7f18a5de2d94803526c2b64402"
+      },
+      {
         "title": "CRICFy LIVE",
         "type": "hls",
         "url": "https://chatgpt.hereisman.net/playlist/60027/load-playlist-multi?",
@@ -272,6 +290,12 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tryvdw6bar/out/v1/92a1ecd872634f30ab2f1cf7710d5108/cenc.mpd",
         "key": "14f9adfd027763080b3895dc4c8763a5:11b6a84ba7ff8269d7b2938f573dc147"
+      },
+      {
+        "title": "VIX SPANISH - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/skjmkvw3ut/out/v1/4df741b740c1401a93dd7f933bdde012/cenc.mpd",
+        "key": "eecbc3e625a89d65f8631f13821aca10:ed8bc669eb49b29dd072f39ad45e2f4e"
       },
       {
         "title": "FUBO SPORTS - AQ",
@@ -332,6 +356,12 @@
         "key": "3455d3cf988d7b42a58f9bcc27a0cfc8:8813dd97264d6dcc855973fe329c3394"
       },
       {
+        "title": "VIX SPANISH - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/c0sod0bue5/out/v1/b853456a96d8434cb6cea6ade4feddd3/cenc.mpd",
+        "key": "da59a1c79bab88136d6f932f82a37083:54c9b659302a67fd07cf6694c8604283"
+      },
+      {
         "title": "beIN ENGLISH - AQ",
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
@@ -356,7 +386,7 @@
     "title": "Real Oviedo vs Girona FC",
     "slug": "real-oviedo-vs-girona-fc",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Football",
       "category": "Football",
