@@ -20,6 +20,12 @@
     },
     "dashStreams": [
       {
+        "title": "BTV BD - AQ",
+        "type": "hls",
+        "url": "https://nkafmbewiff.gpcdn.net/tile_2/master.m3u8",
+        "key": null
+      },
+      {
         "title": "HD SERVER",
         "type": "hls",
         "url": "https://live2.jorvakstreamcache.com/live/channel7.m3u8?",
@@ -41,12 +47,6 @@
         "title": "T SPORTS HD",
         "type": "hls",
         "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8",
-        "key": null
-      },
-      {
-        "title": "BTV BD HD",
-        "type": "hls",
-        "url": "https://nkafmbewiff.gpcdn.net/tile_2/master.m3u8",
         "key": null
       }
     ]
