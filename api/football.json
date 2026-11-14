@@ -1,33 +1,5 @@
 [
   {
-    "id": 14913,
-    "title": "Peru vs Bolivia",
-    "slug": "peru-vs-bolivia",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Football",
-      "category": "Football",
-      "teamA": "Peru",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/4790/image",
-      "teamB": "Bolivia",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4746/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/851/image/dark",
-      "startTimeIST": "2026-11-14 06:30:00 IST",
-      "endTimeIST": "2026-11-14 08:50:00 IST",
-      "startTimeUTC": "2026/11/14 01:00:00 +0000",
-      "endTimeUTC": "2026/11/14 03:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel7.m3u8?",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 14929,
     "title": "India vs Bhutan",
     "slug": "india-vs-bhutan",
