@@ -1,57 +1,5 @@
 [
   {
-    "id": 14844,
-    "title": "Japan vs Brazil",
-    "slug": "japan-vs-brazil",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Football",
-      "category": "Football",
-      "teamA": "Japan",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/4770/image",
-      "teamB": "Brazil",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4748/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/851/image/dark",
-      "startTimeIST": "2026-11-14 15:45:00 IST",
-      "endTimeIST": "2026-11-14 18:05:00 IST",
-      "startTimeUTC": "2026/11/14 10:15:00 +0000",
-      "endTimeUTC": "2026/11/14 12:35:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SporTV BR - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd",
-        "key": "51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
-      },
-      {
-        "title": "CRICFy LIVE",
-        "type": "hls",
-        "url": "https://live.uu1pp.com/sport/202_5842847_1.m3u8?txSecret=7e9c44b23595cc80efd99cf4a70c4433&txTime=6AF88772",
-        "key": null
-      },
-      {
-        "title": "CRICFy FAST",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/sd-1-4650133.m3u8?txSecret=db34d925c087279a184f9f45bfef895b&txTime=6AF85BB1",
-        "key": null
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel11.m3u8?",
-        "key": null
-      },
-      {
-        "title": "CRICFy HD",
-        "type": "hls",
-        "url": "https://pull.niur.live/live/stream-9912122_lhd.m3u8?txSecret=662f4f482c0df681cb028743b216c0f1&txTime=6af88820",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 14956,
     "title": "China vs Malaysia",
     "slug": "china-vs-malaysia",
@@ -103,6 +51,34 @@
         "title": "HD SERVER",
         "type": "hls",
         "url": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 14959,
+    "title": "Exeter City vs Cheltenham Town",
+    "slug": "exeter-city-vs-cheltenham-town",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Exeter City",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/86/image",
+      "teamB": "Cheltenham Town",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/69/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/25/image/dark",
+      "startTimeIST": "2026-11-14 18:00:00 IST",
+      "endTimeIST": "2026-11-14 20:20:00 IST",
+      "startTimeUTC": "2026/11/14 12:30:00 +0000",
+      "endTimeUTC": "2026/11/14 14:50:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "CRICFy LIVE",
+        "type": "hls",
+        "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
         "key": null
       }
     ]
