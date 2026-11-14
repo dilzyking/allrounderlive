@@ -38,15 +38,15 @@
         "key": null
       },
       {
-        "title": "VETO TV - IN",
-        "type": "hls",
-        "url": "https://vetointv.akamaized.net/Dreamboat-CH01/master.m3u8",
-        "key": null
-      },
-      {
         "title": "T SPORTS HD",
         "type": "hls",
         "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8",
+        "key": null
+      },
+      {
+        "title": "VETO TV - IN",
+        "type": "hls",
+        "url": "https://vetointv.akamaized.net/Dreamboat-CH01/master.m3u8",
         "key": null
       }
     ]
