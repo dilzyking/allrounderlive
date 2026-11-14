@@ -164,7 +164,7 @@
     "title": "Portugal vs Denmark",
     "slug": "portugal-vs-denmark",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Football",
       "category": "Football",
@@ -228,7 +228,7 @@
     "title": "Austria vs Ireland",
     "slug": "austria-vs-ireland",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Football",
       "category": "Football",
@@ -254,6 +254,12 @@
         "type": "hls",
         "url": "https://dai.google.com/linear/hls/event/rikP86wPSUWKbP8ICtyRRg/master.m3u8",
         "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/p-3bba53661bb04bddacdc167afca2e272.m3u8",
+        "key": null
       }
     ]
   },
@@ -262,7 +268,7 @@
     "title": "Northern Ireland vs Ukraine",
     "slug": "northern-ireland-vs-ukraine",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Football",
       "category": "Football",
@@ -302,7 +308,7 @@
     "title": "Romania vs Poland",
     "slug": "romania-vs-poland",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Football",
       "category": "Football",
@@ -348,7 +354,7 @@
     "title": "Sweden vs Bosnia Herzegovina",
     "slug": "sweden-vs-bosnia-herzegovina",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Football",
       "category": "Football",
@@ -410,6 +416,69 @@
         "key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
       }
     ]
+  },
+  {
+    "id": 14972,
+    "title": "Mirassol vs Atletico Mineiro",
+    "slug": "mirassol-vs-atletico-mineiro",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Mirassol",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/21982/image",
+      "teamB": "Atlético Mineiro",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1977/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/325/image/dark",
+      "startTimeIST": "2026-11-15 03:00:00 IST",
+      "endTimeIST": "2026-11-15 05:20:00 IST",
+      "startTimeUTC": "2026/11/14 21:30:00 +0000",
+      "endTimeUTC": "2026/11/14 23:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 14974,
+    "title": "Haiti vs USA",
+    "slug": "haiti-vs-usa",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Haiti",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/7229/image",
+      "teamB": "USA",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4724/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/14100/image/dark",
+      "startTimeIST": "2026-11-15 03:00:00 IST",
+      "endTimeIST": "2026-11-15 05:20:00 IST",
+      "startTimeUTC": "2026/11/14 21:30:00 +0000",
+      "endTimeUTC": "2026/11/14 23:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 14973,
+    "title": "Chapecoense vs Vasco da Gama",
+    "slug": "chapecoense-vs-vasco-da-gama",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Chapecoense",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/21845/image",
+      "teamB": "Vasco da Gama",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1974/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/325/image/dark",
+      "startTimeIST": "2026-11-15 05:00:00 IST",
+      "endTimeIST": "2026-11-15 07:20:00 IST",
+      "startTimeUTC": "2026/11/14 23:30:00 +0000",
+      "endTimeUTC": "2026/11/15 01:50:00 +0000"
+    },
+    "dashStreams": []
   },
   {
     "id": 14958,
