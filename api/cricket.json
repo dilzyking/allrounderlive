@@ -66,15 +66,51 @@
       "teamBFlag": "https://img.sofascore.com/api/v1/team/213112/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/11486/image/dark",
       "startTimeIST": "2026-11-14 10:30:00 IST",
-      "endTimeIST": "2026-11-14 14:30:00 IST",
+      "endTimeIST": "2026-11-14 19:30:40 IST",
       "startTimeUTC": "2026/11/14 05:00:00 +0000",
-      "endTimeUTC": "2026/11/14 09:00:00 +0000"
+      "endTimeUTC": "2026/11/14 14:00:40 +0000"
     },
     "dashStreams": [
       {
-        "title": "CRICFy LIVE",
+        "title": "WILLOW - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/jqiewsbcdo/out/v1/c61fbf5480da4d94a2cd238d8be4b227/cenc.mpd",
+        "key": "6d9898b922c715df238b810032f99e04:24ce2fd66d77c73540f129ae83c967d7"
+      },
+      {
+        "title": "WILLOW - ALT",
+        "type": "dash",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/jqiewsbcdo/out/v1/c61fbf5480da4d94a2cd238d8be4b227/cenc.mpd",
+        "key": "6d9898b922c715df238b810032f99e04:24ce2fd66d77c73540f129ae83c967d7"
+      },
+      {
+        "title": "SonyLiv - ENG",
         "type": "hls",
-        "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+        "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119931/cricodi_1411/ENG/master.m3u8?hdnea=exp=1794673149~acl=/*~id=e6958b3fa9c6adb54b9b7c7165114305-1794629947688~hmac=8be2c871aef155e1da992eb579fa793449bc6ada3cfe46494bed3469bf79e598",
+        "key": null
+      },
+      {
+        "title": "SonyLiv - HIN",
+        "type": "hls",
+        "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119921/cricodi_1411/HIN/master.m3u8?hdnea=exp=1794673149~acl=/*~id=e6958b3fa9c6adb54b9b7c7165114305-1794629947688~hmac=8be2c871aef155e1da992eb579fa793449bc6ada3cfe46494bed3469bf79e598",
+        "key": null
+      },
+      {
+        "title": "SonyLiv - TAM",
+        "type": "hls",
+        "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119951/cricodi_1411/TAM/master.m3u8?hdnea=exp=1794673149~acl=/*~id=e6958b3fa9c6adb54b9b7c7165114305-1794629947688~hmac=8be2c871aef155e1da992eb579fa793449bc6ada3cfe46494bed3469bf79e598",
+        "key": null
+      },
+      {
+        "title": "SonyLiv - TEL",
+        "type": "hls",
+        "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119941/cricodi_1411/TEL/master.m3u8?hdnea=exp=1794673149~acl=/*~id=e6958b3fa9c6adb54b9b7c7165114305-1794629947688~hmac=8be2c871aef155e1da992eb579fa793449bc6ada3cfe46494bed3469bf79e598",
+        "key": null
+      },
+      {
+        "title": "SonyLiv - KAN",
+        "type": "hls",
+        "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119782/cricodi_1411/KAN/master.m3u8?hdnea=exp=1794673149~acl=/*~id=e6958b3fa9c6adb54b9b7c7165114305-1794629947688~hmac=8be2c871aef155e1da992eb579fa793449bc6ada3cfe46494bed3469bf79e598",
         "key": null
       }
     ]
