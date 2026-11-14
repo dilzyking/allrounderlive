@@ -1,57 +1,5 @@
 [
   {
-    "id": 14929,
-    "title": "India vs Bhutan",
-    "slug": "india-vs-bhutan",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Football",
-      "category": "Football",
-      "teamA": "India",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/4828/image",
-      "teamB": "Bhutan",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/191564/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/2354/image/dark",
-      "startTimeIST": "2026-11-14 14:30:00 IST",
-      "endTimeIST": "2026-11-14 16:50:00 IST",
-      "startTimeUTC": "2026/11/14 09:00:00 +0000",
-      "endTimeUTC": "2026/11/14 11:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "BTV BD - AQ",
-        "type": "hls",
-        "url": "https://nkafmbewiff.gpcdn.net/tile_2/master.m3u8",
-        "key": null
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel7.m3u8?",
-        "key": null
-      },
-      {
-        "title": "MyCO - AQ",
-        "type": "hls",
-        "url": "https://ml-pull-rtmp-pk1.myco.io/SAFF2026/hls/26113.m3u8",
-        "key": null
-      },
-      {
-        "title": "T SPORTS HD",
-        "type": "hls",
-        "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8",
-        "key": null
-      },
-      {
-        "title": "VETO TV - IN",
-        "type": "hls",
-        "url": "https://vetointv.akamaized.net/Dreamboat-CH01/master.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 14844,
     "title": "Japan vs Brazil",
     "slug": "japan-vs-brazil",
@@ -80,13 +28,13 @@
       {
         "title": "CRICFy LIVE",
         "type": "hls",
-        "url": "https://live.vivo155.com/live/sd-1-4650133.m3u8?txSecret=db34d925c087279a184f9f45bfef895b&txTime=6AF85BB1",
+        "url": "https://live.uu1pp.com/sport/202_5842847_1.m3u8?txSecret=7e9c44b23595cc80efd99cf4a70c4433&txTime=6AF88772",
         "key": null
       },
       {
         "title": "CRICFy FAST",
         "type": "hls",
-        "url": "https://live.uu1pp.com/sport/202_5842847_1.m3u8?txSecret=7e9c44b23595cc80efd99cf4a70c4433&txTime=6AF88772",
+        "url": "https://live.vivo155.com/live/sd-1-4650133.m3u8?txSecret=db34d925c087279a184f9f45bfef895b&txTime=6AF85BB1",
         "key": null
       },
       {
@@ -99,6 +47,62 @@
         "title": "CRICFy HD",
         "type": "hls",
         "url": "https://pull.niur.live/live/stream-9912122_lhd.m3u8?txSecret=662f4f482c0df681cb028743b216c0f1&txTime=6af88820",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 14956,
+    "title": "China vs Malaysia",
+    "slug": "china-vs-malaysia",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "China",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4755/image",
+      "teamB": "Malaysia",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/6912/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/851/image/dark",
+      "startTimeIST": "2026-11-14 17:30:00 IST",
+      "endTimeIST": "2026-11-14 19:50:00 IST",
+      "startTimeUTC": "2026/11/14 12:00:00 +0000",
+      "endTimeUTC": "2026/11/14 14:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 14957,
+    "title": "Chinese Taipei vs Kyrgyzstan",
+    "slug": "chinese-taipei-vs-kyrgyzstan",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Football",
+      "category": "Football",
+      "teamA": "Chinese Taipei",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/5937/image",
+      "teamB": "Kyrgyzstan",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/7930/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/851/image/dark",
+      "startTimeIST": "2026-11-14 17:30:00 IST",
+      "endTimeIST": "2026-11-14 19:50:00 IST",
+      "startTimeUTC": "2026/11/14 12:00:00 +0000",
+      "endTimeUTC": "2026/11/14 14:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?",
         "key": null
       }
     ]
