@@ -1,45 +1,5 @@
 [
   {
-    "id": 14937,
-    "title": "Kosovo vs Israel",
-    "slug": "kosovo-vs-israel",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Football",
-      "category": "Football",
-      "teamA": "Kosovo",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/154426/image",
-      "teamB": "Israel",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4480/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
-      "startTimeIST": "2026-11-14 19:30:00 IST",
-      "endTimeIST": "2026-11-14 21:50:00 IST",
-      "startTimeUTC": "2026/11/14 14:00:00 +0000",
-      "endTimeUTC": "2026/11/14 16:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "beIN ENGLISH - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-        "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-      },
-      {
-        "title": "SonyLiv",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2094588/Footlive1411/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794707604~acl=/*~id=40416883930794749896787547691928~hmac=eabd9c97d1bc99a44e6450644df33d661c737d580092dc8a5dabdb3f6bae61f4",
-        "key": null
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://www.rtmpcdn.com/live/p-0e9196792b97416bb74cc911cf1e9e85.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 14928,
     "title": "Bangladesh vs Pakistan",
     "slug": "bangladesh-vs-pakistan",
