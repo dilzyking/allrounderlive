@@ -48,6 +48,12 @@
     },
     "dashStreams": [
       {
+        "title": "DAZN SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/wefdfonlnc/out/v1/4bd2d041433b4b58861d63df0b1677c6/cenc.mpd",
+        "key": "a431dd45ed2508b47290213500617f23:b6363b41b5807dcb1f568f4f64718691"
+      },
+      {
         "title": "FOX SPORTS - AQ",
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
