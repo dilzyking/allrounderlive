@@ -70,7 +70,92 @@
       "startTimeUTC": "2026/11/15 02:00:07 +0000",
       "endTimeUTC": "2026/11/15 11:00:14 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PRIME ENG - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/dcu7rpwyvi/out/v1/05f98d7430fd4ceeb3317fe61cc536b0/cenc.mpd",
+        "key": "2a074c6c1178670701cbfeca48c0abe5:d7d84ab8144591ba0a49e443c571bf10"
+      },
+      {
+        "title": "WILLOW - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/6learkrmkk/out/v1/ea7695de219f46d1bf645bd975854712/cenc.mpd",
+        "key": "9daab9f2057ca46ae108997a0886b434:220b4c0284b9a045c49c8cf1ddbb49a8"
+      },
+      {
+        "title": "PRIME HINDI - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/x9rbps3nff/out/v1/737eb86856de4824b26f7af699a34b56/cenc.mpd",
+        "key": "4ccabc091fc06e2c983228d547530c5d:0dad1a9082f3e94f66b3b38864ff0f08"
+      },
+      {
+        "title": "TNT SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
+        "key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
+      },
+      {
+        "title": "WILLOW - ALT",
+        "type": "dash",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/6learkrmkk/out/v1/ea7695de219f46d1bf645bd975854712/cenc.mpd",
+        "key": "9daab9f2057ca46ae108997a0886b434:220b4c0284b9a045c49c8cf1ddbb49a8"
+      },
+      {
+        "title": "SonyLiv - ENG",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2022321/DAI17-INDNZ/master.m3u8?hdnea=exp=1794577851~acl=/*~id=96293672809354845535538746530706~hmac=8bbbc88d5f85682228d9b734d907fd897180f44db2af882b15a81b06ec12c5fa",
+        "key": null
+      },
+      {
+        "title": "SonyLiv - HIN",
+        "type": "hls",
+        "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119921/cricodi_1211/HIN/master.m3u8?hdnea=exp=1794573596~acl=/*~id=44345d3f28b0710f8ac67b5f7a254851-1794530395621~hmac=d0589a612cc90b2e61388a2000dac6f50a4872e6917e1a76167d31d3c4fc95b5",
+        "key": null
+      },
+      {
+        "title": "SonyLiv - TAM",
+        "type": "hls",
+        "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119951/cricodi_1211/TAM/master.m3u8?hdnea=exp=1794573596~acl=/*~id=44345d3f28b0710f8ac67b5f7a254851-1794530395621~hmac=d0589a612cc90b2e61388a2000dac6f50a4872e6917e1a76167d31d3c4fc95b5",
+        "key": null
+      },
+      {
+        "title": "SonyLiv - TEL",
+        "type": "hls",
+        "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119941/cricodi_1211/TEL/master.m3u8?hdnea=exp=1794573596~acl=/*~id=44345d3f28b0710f8ac67b5f7a254851-1794530395621~hmac=d0589a612cc90b2e61388a2000dac6f50a4872e6917e1a76167d31d3c4fc95b5",
+        "key": null
+      },
+      {
+        "title": "SonyLiv - KAN",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/7vhf8r60nl/out/v1/5d0ce0e49c454459a1f6c58562ce4884/cenc.mpd",
+        "key": "2848e6ec50f63a4a5ed5e0c0bb94c870:c6d49139023938d6a73f6a3141b2ff5e"
+      },
+      {
+        "title": "SONY TEN 1 - IN",
+        "type": "hls",
+        "url": "https://sony247channels.akamaized.net/hls/live/2011747/TEN1HD/hdntl=exp=1794599360~acl=%2f*~id=604ae0099f5c31fa16beacf7fc54ca00-1794512959613~data=hdntl~hmac=5e50939d3a3c88a2fe492f884252c6a6b488cfdafee0aa37946249f73ae60228/master_3500.m3u8",
+        "key": null
+      },
+      {
+        "title": "SONY TEN 2 - IN",
+        "type": "hls",
+        "url": "https://sony247channels.akamaized.net/hls/live/2020434/TEN2HD/hdntl=exp=1794599360~acl=%2f*~id=604ae0099f5c31fa16beacf7fc54ca00-1794512959613~data=hdntl~hmac=5e50939d3a3c88a2fe492f884252c6a6b488cfdafee0aa37946249f73ae60228/master_3500.m3u8",
+        "key": null
+      },
+      {
+        "title": "SONY TEN 3 - IN",
+        "type": "hls",
+        "url": "https://sony247channels.akamaized.net/hls/live/2020591/TEN3HD/hdntl=exp=1794599360~acl=%2f*~id=604ae0099f5c31fa16beacf7fc54ca00-1794512959613~data=hdntl~hmac=5e50939d3a3c88a2fe492f884252c6a6b488cfdafee0aa37946249f73ae60228/master_3500.m3u8",
+        "key": null
+      },
+      {
+        "title": "SONY TEN 4 - IN",
+        "type": "hls",
+        "url": "https://sony247channels.akamaized.net/hls/live/2020589/ten4kannada/hdntl=exp=1794599360~acl=%2f*~id=604ae0099f5c31fa16beacf7fc54ca00-1794512959613~data=hdntl~hmac=5e50939d3a3c88a2fe492f884252c6a6b488cfdafee0aa37946249f73ae60228/master_3500.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 14822,
