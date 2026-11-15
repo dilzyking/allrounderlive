@@ -1,61 +1,10 @@
 {
-  "timestamp": "2026-11-15T16:37:59.550847",
-  "total_matches": 3,
-  "live_count": 3,
+  "timestamp": "2026-11-15T21:12:53.543150",
+  "total_matches": 1,
+  "live_count": 1,
   "upcoming_count": 0,
   "completed_count": 0,
   "matches": [
-    {
-      "match_id": "1322",
-      "title": "Australia vs England",
-      "teams": "Australia vs England",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1794471319540x302.jpg",
-      "league": "England Tour of Australia 2026",
-      "viewers": "77",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1322",
-      "match_url": "live/australia-vs-england-1322",
-      "stream_url": "https://live.talkoraai.com/match/hls?t=NObDNi9EEvDLJj4kWUUixxbVGw9VGjnP_t_9ponzSsJhXeDUFcaSZlsYAavVFBllxBAM1XM9GuCrnkKB7hAaqhyzXvgDRBETx6JEAPS3wXw6vJ6fF9YUSYGoR45yxqXkvzqQuUW3HV9lAPKyLQ6k5b53xVdSDjHEEiBJOlFPPWphVJNUAM9xBUgbEl_DG-4OY1bqJL9bmkQKs-vlM1Y2JlcWx2TzfZf5jTA5kx-AfkTv99t-BZ4KgyA8lG_gKOxBFiOAGott2KN-51ngJLAx3UHYLCVLC8Rwl3cxav-gaxl7eE_H-5qFGI-pEP_2ot9JnHjH4eM_s1qC",
-      "server_count": 2,
-      "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=NObDNi9EEvDLJj4kWUUixxbVGw9VGjnP_t_9ponzSsJhXeDUFcaSZlsYAavVFBllxBAM1XM9GuCrnkKB7hAaqhyzXvgDRBETx6JEAPS3wXw6vJ6fF9YUSYGoR45yxqXkvzqQuUW3HV9lAPKyLQ6k5b53xVdSDjHEEiBJOlFPPWphVJNUAM9xBUgbEl_DG-4OY1bqJL9bmkQKs-vlM1Y2JlcWx2TzfZf5jTA5kx-AfkTv99t-BZ4KgyA8lG_gKOxBFiOAGott2KN-51ngJLAx3UHYLCVLC8Rwl3cxav-gaxl7eE_H-5qFGI-pEP_2ot9JnHjH4eM_s1qC",
-        "https://live.talkoraai.com/match/hls?t=QkhvLJFe_zGkkqlLsqNIGMII8zeB6KBvwB9A5FN_kwypDdeISS6v87QXPFMlrGiKvNysXBAvoYIUGrfCiwZRLNHvepmXJ0zJaT3BvWUyq190F5fzm27LedWl8n51_ngkjl7-SuItqnKLx3F9PEnDc6-6fdqHvJS9u32q5CCK_srMyLUCU8w5IMJqoL-P89v9nqazsNmn997_jEOCjeVBYgKlYb77hQHr8rtKf4dFoRS8WKnseWtnRmMsOMrz-zD0pCfqjrV77IBw3dHy8AMR10lWFlUZMZRgHNNOCFs8lKtJBmigiuy7kHIrVjqaaYLETMfyRr_SXs0P"
-      ],
-      "last_updated": "2026-11-15T09:53:03.175299"
-    },
-    {
-      "match_id": "1324",
-      "title": "New Zealand vs India 5th ODI",
-      "teams": "New Zealand vs India 5th ODI",
-      "sport": "cricket",
-      "sport_display": "Cricket",
-      "status": "live",
-      "status_display": "LIVE",
-      "runtime": "00h 00m 00s",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1793786958540x302.jpg",
-      "league": "Inida Tour of New Zealand 2026",
-      "viewers": "62",
-      "viewers_type": "Watching",
-      "date": null,
-      "time": null,
-      "servers": null,
-      "page_url": "/world-sports/player.html?id=1324",
-      "match_url": "live/new-zealand-vs-india-5th-odi-1324",
-      "stream_url": "https://alixbd.com/proxy/proxy.php?id=33ef6de2401cd38cc4785af67c12f2ef03b3",
-      "server_count": 1,
-      "server_urls": [
-        "https://alixbd.com/proxy/proxy.php?id=33ef6de2401cd38cc4785af67c12f2ef03b3"
-      ],
-      "last_updated": "2026-11-15T09:53:03.750242"
-    },
     {
       "match_id": "1323",
       "title": "Afghanistan vs Zimbabwe",
@@ -67,7 +16,7 @@
       "runtime": "00h 00m 00s",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1793865704540x302.jpg",
       "league": "Afghanistan vs Zimbabwe 2026 TEST",
-      "viewers": "57",
+      "viewers": "246",
       "viewers_type": "Watching",
       "date": null,
       "time": null,
@@ -79,7 +28,7 @@
       "server_urls": [
         "https://live.talkoraai.com/match/hls?t=-eSKHxr4RfV4iWRAsG8B3B8xDqqq5UzsMH-xEX8NX0OfYeQ13a68q_Jd9nqNA5De6LuHtzACx3n2kV-AZ9iLcbmPiIWLOAhg0J8nim2EBephMyWZHFrmQN5phqd9p7HBp7Yi9wJxtKaF84RUS27_83-nMLfucfRdNjro-gCztGmFSGcHcdGUeeTVGulpGzJK7BJaaR7v7eWccKu70tNRrj3GlrMDIcJ2QzSQezPPtN7qWACROhdVYLWMgK1I2Umfx-FszFpxSMHn1pSp-z-35LM6b1nXffPj6_zq6AFBz4dOOzkCYZRjhyaOy_Gxts3GoT2RPqhAVy_DkZrMb0z8fQKIDA76Z5Lg6Mjy7oll2jw"
       ],
-      "last_updated": "2026-11-15T09:53:04.071142"
+      "last_updated": "2026-11-15T16:38:57.816056"
     }
   ]
 }
