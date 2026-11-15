@@ -32,7 +32,7 @@
     "title": "Belarus vs Albania",
     "slug": "belarus-vs-albania",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Football",
       "category": "Football",
@@ -76,6 +76,18 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/cvusmtfnts/out/v1/d34e2f7debf04808b460c6e853780a2d/cenc.mpd",
         "key": "4123c9f31da2605b28c7f3c50d2c5518:a86f9977c842c527c31e93214f0e1645"
+      },
+      {
+        "title": "CRICFy LIVE",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/60171/load-playlist-multi?",
+        "key": null
+      },
+      {
+        "title": "SonyLiv",
+        "type": "hls",
+        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120304/Footlive1511/ENG/std_lrh-800300010.m3u8",
+        "key": null
       }
     ]
   },
@@ -84,7 +96,7 @@
     "title": "Finland vs San Marino",
     "slug": "finland-vs-san-marino",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Football",
       "category": "Football",
@@ -134,6 +146,18 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd",
         "key": "51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
+      },
+      {
+        "title": "CRICFy LIVE",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/60170/load-playlist-multi?",
+        "key": null
+      },
+      {
+        "title": "SonyLiv",
+        "type": "hls",
+        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120305/Footlive1511/ENG/std_lrh-800300010.m3u8",
+        "key": null
       }
     ]
   },
