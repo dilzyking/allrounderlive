@@ -4,7 +4,7 @@
     "title": "Eibar vs Cadiz",
     "slug": "eibar-vs-cadiz",
     "cat": "Live Events",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Football",
       "category": "Football",
@@ -127,6 +127,18 @@
         "title": "FOX SOCCER+ HD",
         "type": "hls",
         "url": "https://chatgpt.hereisman.net/playlist/60198/load-playlist-multi?",
+        "key": null
+      },
+      {
+        "title": "SonyLiv",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120308/footlive1511/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794814006~acl=/*~id=07514221053824178331303229736808~hmac=d2310991a04209950c69429ad0fdc6b86242ba3c5559ca1b3296c55cc8aca651",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/17b041bb-0e08-418c-af9a-26cc42a84050.m3u8",
         "key": null
       }
     ]
