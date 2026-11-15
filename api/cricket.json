@@ -320,10 +320,16 @@
     },
     "dashStreams": [
       {
-        "title": "CRICFy LIVE",
-        "type": "hls",
-        "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-        "key": null
+        "title": "WILLOW - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vmsojksiyc/out/v1/5d915e7f388946c09ed9d07fd40f9f96/cenc.mpd",
+        "key": "3d872367d3ff927c4abf0198dfeb01d2:47945393588cf479b728df327f3bef53"
+      },
+      {
+        "title": "WILLOW - ALT",
+        "type": "dash",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/vmsojksiyc/out/v1/5d915e7f388946c09ed9d07fd40f9f96/cenc.mpd",
+        "key": "3d872367d3ff927c4abf0198dfeb01d2:47945393588cf479b728df327f3bef53"
       }
     ]
   },
