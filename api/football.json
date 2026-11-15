@@ -190,34 +190,6 @@
     ]
   },
   {
-    "id": 14971,
-    "title": "CD Eldense vs CE Sabadell",
-    "slug": "cd-eldense-vs-ce-sabadell",
-    "cat": "Live Events",
-    "status": "upcoming",
-    "event": {
-      "name": "Football",
-      "category": "Football",
-      "teamA": "CD Eldense",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/47321/image",
-      "teamB": "CE Sabadell",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/24335/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "startTimeIST": "2026-11-15 23:00:00 IST",
-      "endTimeIST": "2026-11-16 01:20:00 IST",
-      "startTimeUTC": "2026/11/15 17:30:00 +0000",
-      "endTimeUTC": "2026/11/15 19:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "CRICFy LIVE",
-        "type": "hls",
-        "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 14964,
     "title": "Belgium vs Italy",
     "slug": "belgium-vs-italy",
