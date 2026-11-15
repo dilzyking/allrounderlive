@@ -4,7 +4,7 @@
     "title": "CD Tenerife vs AD Ceuta",
     "slug": "cd-tenerife-vs-ad-ceuta",
     "cat": "Live Events",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Football",
       "category": "Football",
@@ -46,7 +46,20 @@
       "startTimeUTC": "2026/11/15 14:00:00 +0000",
       "endTimeUTC": "2026/11/15 16:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "FOX SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+        "key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
+      },
+      {
+        "title": "beIN ENGLISH - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+        "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+      }
+    ]
   },
   {
     "id": 14961,
@@ -67,7 +80,14 @@
       "startTimeUTC": "2026/11/15 14:00:00 +0000",
       "endTimeUTC": "2026/11/15 16:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "beIN ENGLISH - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
+        "key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
+      }
+    ]
   },
   {
     "id": 14969,
