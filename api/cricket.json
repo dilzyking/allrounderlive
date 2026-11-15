@@ -1,51 +1,5 @@
 [
   {
-    "id": 14072,
-    "title": "Afghanistan vs Zimbabwe",
-    "slug": "afghanistan-vs-zimbabwe",
-    "cat": "Live Events",
-    "status": "live",
-    "event": {
-      "name": "Cricket",
-      "category": "Cricket",
-      "teamA": "Afghanistan",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/187575/image",
-      "teamB": "Zimbabwe",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/187745/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/11190/image",
-      "startTimeIST": "2026-11-15 11:30:52 IST",
-      "endTimeIST": "2026-11-15 19:30:55 IST",
-      "startTimeUTC": "2026/11/15 06:00:52 +0000",
-      "endTimeUTC": "2026/11/15 14:00:55 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "WILLOW - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/6yweffzpen/out/v1/197dbda9339c436c95282a80d109cbd6/cenc.mpd",
-        "key": "5c58e89e55b6ca6b7155cc78c8e2300d:949c2c45b7bbfab1d09f7c9bb96e2e4c"
-      },
-      {
-        "title": "WILLOW - ALT",
-        "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/6yweffzpen/out/v1/197dbda9339c436c95282a80d109cbd6/cenc.mpd",
-        "key": "5c58e89e55b6ca6b7155cc78c8e2300d:949c2c45b7bbfab1d09f7c9bb96e2e4c"
-      },
-      {
-        "title": "A SPORTS HD",
-        "type": "hls",
-        "url": "https://live.msnetworks.net/a-sports/master.m3u8",
-        "key": null
-      },
-      {
-        "title": "FANCODE - IN",
-        "type": "hls",
-        "url": "https://dai-fancode.pages.dev/mumbai/4249772_english_hls_ea87fdf83461346_1ta-di_h264/index.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 14851,
     "title": "South Africa vs Bangladesh",
     "slug": "south-africa-vs-bangladesh",
@@ -142,7 +96,7 @@
     "title": "Abu Dhabi T10 League",
     "slug": "abu-dhabi-t10-league",
     "cat": "Live Events",
-    "status": "live",
+    "status": "upcoming",
     "event": {
       "name": "Cricket",
       "category": "Cricket",
@@ -151,9 +105,9 @@
       "teamB": "Abu Dhabi T10",
       "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
-      "startTimeIST": "2026-11-15 17:00:45 IST",
+      "startTimeIST": "2026-11-15 19:15:30 IST",
       "endTimeIST": "2026-11-15 23:25:49 IST",
-      "startTimeUTC": "2026/11/15 11:30:45 +0000",
+      "startTimeUTC": "2026/11/15 13:45:30 +0000",
       "endTimeUTC": "2026/11/15 17:55:49 +0000"
     },
     "dashStreams": [
@@ -185,6 +139,52 @@
         "title": "MYCO HD",
         "type": "hls",
         "url": "https://ml-pull-rtmp-pk1.myco.io/SRT/hls/index.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 14072,
+    "title": "Afghanistan vs Zimbabwe",
+    "slug": "afghanistan-vs-zimbabwe",
+    "cat": "Live Events",
+    "status": "upcoming",
+    "event": {
+      "name": "Cricket",
+      "category": "Cricket",
+      "teamA": "Afghanistan",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/187575/image",
+      "teamB": "Zimbabwe",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/187745/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/11190/image",
+      "startTimeIST": "2026-11-16 11:30:57 IST",
+      "endTimeIST": "2026-11-16 19:30:01 IST",
+      "startTimeUTC": "2026/11/16 06:00:57 +0000",
+      "endTimeUTC": "2026/11/16 14:00:01 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "WILLOW - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/6yweffzpen/out/v1/197dbda9339c436c95282a80d109cbd6/cenc.mpd",
+        "key": "5c58e89e55b6ca6b7155cc78c8e2300d:949c2c45b7bbfab1d09f7c9bb96e2e4c"
+      },
+      {
+        "title": "WILLOW - ALT",
+        "type": "dash",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/6yweffzpen/out/v1/197dbda9339c436c95282a80d109cbd6/cenc.mpd",
+        "key": "5c58e89e55b6ca6b7155cc78c8e2300d:949c2c45b7bbfab1d09f7c9bb96e2e4c"
+      },
+      {
+        "title": "A SPORTS HD",
+        "type": "hls",
+        "url": "https://live.msnetworks.net/a-sports/master.m3u8",
+        "key": null
+      },
+      {
+        "title": "FANCODE - IN",
+        "type": "hls",
+        "url": "https://dai-fancode.pages.dev/mumbai/4249772_english_hls_ea87fdf83461346_1ta-di_h264/index.m3u8",
         "key": null
       }
     ]
