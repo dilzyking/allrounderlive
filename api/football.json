@@ -1,33 +1,5 @@
 [
   {
-    "id": 14958,
-    "title": "New Zealand vs India Football",
-    "slug": "new-zealand-vs-india-football",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Football",
-      "category": "Football",
-      "teamA": "New Zealand",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/4784/image",
-      "teamB": "India",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4828/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/851/image/dark",
-      "startTimeIST": "2026-11-15 08:30:00 IST",
-      "endTimeIST": "2026-11-15 10:50:00 IST",
-      "startTimeUTC": "2026/11/15 03:00:00 +0000",
-      "endTimeUTC": "2026/11/15 05:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel7.m3u8?",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 14968,
     "title": "CD Tenerife vs AD Ceuta",
     "slug": "cd-tenerife-vs-ad-ceuta",
