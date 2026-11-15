@@ -1,33 +1,5 @@
 [
   {
-    "id": 14969,
-    "title": "Granada vs UD Las Palmas",
-    "slug": "granada-vs-ud-las-palmas",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Football",
-      "category": "Football",
-      "teamA": "Granada",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/33779/image",
-      "teamB": "UD Las Palmas",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/6577/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "startTimeIST": "2026-11-15 20:45:00 IST",
-      "endTimeIST": "2026-11-15 23:05:00 IST",
-      "startTimeUTC": "2026/11/15 15:15:00 +0000",
-      "endTimeUTC": "2026/11/15 17:35:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "LaLiga Hypermotion",
-        "type": "dash",
-        "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-        "key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-      }
-    ]
-  },
-  {
     "id": 14962,
     "title": "Belarus vs Albania",
     "slug": "belarus-vs-albania",
