@@ -78,6 +78,24 @@
         "type": "hls",
         "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119782/cricodi_1411/KAN/std_lrh-800300010.m3u8?hdnea=exp=1794747596~acl=/*~id=96519495444179254654194417123549~hmac=5eb0fb6944aec6acc464198628e5289a2fb267ea5711b80b77e7d134030f47bb",
         "key": null
+      },
+      {
+        "title": "TAPMAD BD - AQ",
+        "type": "hls",
+        "url": "https://serieAleague.akamaized.net/hls/live/2107107/tap-BK-PSL-D1-E/master.m3u8",
+        "key": null
+      },
+      {
+        "title": "SONYLIV BD - AQ",
+        "type": "hls",
+        "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119931/cricodi_1411/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794747596~acl=/*~id=96519495444179254654194417123549~hmac=5eb0fb6944aec6acc464198628e5289a2fb267ea5711b80b77e7d134030f47bb",
+        "key": null
+      },
+      {
+        "title": "SONY GLOBAL",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2022321/DAI17-INDNZ/master.m3u8?hdnea=exp=1794750655~acl=/*~id=45577059795063177253236564546996~hmac=b42a889d2ecc0257653da73fdff76e700727ea5be1aa165a20877b8e09094342",
+        "key": null
       }
     ]
   },
