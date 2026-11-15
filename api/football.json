@@ -1,33 +1,5 @@
 [
   {
-    "id": 14968,
-    "title": "CD Tenerife vs AD Ceuta",
-    "slug": "cd-tenerife-vs-ad-ceuta",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Football",
-      "category": "Football",
-      "teamA": "CD Tenerife",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2822/image",
-      "teamB": "AD Ceuta",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2869/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "startTimeIST": "2026-11-15 18:30:00 IST",
-      "endTimeIST": "2026-11-15 20:50:00 IST",
-      "startTimeUTC": "2026/11/15 13:00:00 +0000",
-      "endTimeUTC": "2026/11/15 15:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "LaLiga Hypermotion",
-        "type": "dash",
-        "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-        "key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-      }
-    ]
-  },
-  {
     "id": 14960,
     "title": "Cyprus vs Montenegro",
     "slug": "cyprus-vs-montenegro",
