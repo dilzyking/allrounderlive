@@ -30,6 +30,24 @@
         "type": "dash",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd?",
         "key": "74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c"
+      },
+      {
+        "title": "CRICFy LIVE",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4642753.m3u8?txSecret=00b587ac33c841d2722a2386a8c4797d&txTime=6AFB0F38",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://pulltx.cqsycw.com/live/sd-6MxjZAMSg74BfakUkv.m3u8?txSecret=b2a4f7f1f89b139fc80b137e85f9b1ce&txTime=6AFB02C4&sid=0Jli-uEPe4n1ebmY4AcQiOi4X6ovPV-g11VLSs_q9Ca0fLEXiLhmb08tCZO8CP7F",
+        "key": null
+      },
+      {
+        "title": "CRICFy FAST",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/3687a186-2d01-489c-8886-91214acf5d08.m3u8",
+        "key": null
       }
     ]
   },
@@ -92,6 +110,18 @@
         "type": "dash",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n7hbpksb18/out/v1/be5403be4a674a7da8b3c81b1fe79692/cenc.mpd?",
         "key": "4fce30c060b7b0464ab765e24fee5ecc:65d612238736eec3794c7e75a6fd362c"
+      },
+      {
+        "title": "CRICFy LIVE",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4642764.m3u8?txSecret=504fd65c5964a252965887e5696c5aee&txTime=6AFB0F59",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/7006e7e6-d7d5-4606-919e-5eac410b4fd1.m3u8",
+        "key": null
       }
     ]
   },
