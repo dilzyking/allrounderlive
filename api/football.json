@@ -194,7 +194,13 @@
       {
         "title": "CRICFy LIVE",
         "type": "hls",
-        "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+        "url": "https://chatgpt.hereisman.net/playlist/60250/load-playlist-multi?",
+        "key": null
+      },
+      {
+        "title": "SonyLiv",
+        "type": "hls",
+        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120299/footlive1611/ENG/std_lrh-800300010.m3u8",
         "key": null
       }
     ]
@@ -220,9 +226,15 @@
     },
     "dashStreams": [
       {
-        "title": "CRICFy LIVE",
+        "title": "FOX SPORTS HD",
         "type": "hls",
-        "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+        "url": "https://chatgpt.hereisman.net/playlist/60251/load-playlist-multi?",
+        "key": null
+      },
+      {
+        "title": "SonyLiv",
+        "type": "hls",
+        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120301/Footlive1611/ENG/std_lrh-800300010.m3u8",
         "key": null
       }
     ]
