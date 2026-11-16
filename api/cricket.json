@@ -26,10 +26,16 @@
         "key": "39bd302cdeed3710a89fb004d232ab67:9869f804ba18d7e508cbff781829221c"
       },
       {
-        "title": "ICC TV - ALT",
-        "type": "dash",
-        "url": "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-06)/hdntl=exp=1793826930~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~data=hdntl~hmac=86bb4dab4965edbb17cf9c68e7ec9c4968aa12755d013277de1be6a272599bff/manifest.mpd",
-        "key": "39bd302cdeed3710a89fb004d232ab67:9869f804ba18d7e508cbff781829221c"
+        "title": "MYCO - AQ",
+        "type": "hls",
+        "url": "https://ml-pull-rtmp-pk1.myco.io/Feed1/hls/index.m3u8",
+        "key": null
+      },
+      {
+        "title": "TAMASHA - AQ",
+        "type": "hls",
+        "url": "https://cdn01lhr-n.tamashaweb.com:8087/appcast/ICC-women-NT2026-svod-B-abr/playlist.m3u8",
+        "key": null
       }
     ]
   },
@@ -60,10 +66,16 @@
         "key": "39bd302cdeed3710a89fb004d232ab67:9869f804ba18d7e508cbff781829221c"
       },
       {
-        "title": "ICC TV - ALT",
-        "type": "dash",
-        "url": "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-07)/hdntl=exp=1793826930~acl=%2fvariant%2fv1blackout%2fvcg-01-d%2f*~data=hdntl~hmac=86bb4dab4965edbb17cf9c68e7ec9c4968aa12755d013277de1be6a272599bff/manifest.mpd",
-        "key": "39bd302cdeed3710a89fb004d232ab67:9869f804ba18d7e508cbff781829221c"
+        "title": "TAMASHA - AQ",
+        "type": "hls",
+        "url": "https://cdn01lhr-n.tamashaweb.com:8087/appcast/ICC-women-NT2026-svod-abr/playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "MYCO - AQ",
+        "type": "hls",
+        "url": "https://ml-pull-rtmp-pk1.myco.io/Feed2/hls/index.m3u8",
+        "key": null
       }
     ]
   },
