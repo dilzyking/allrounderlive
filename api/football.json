@@ -168,6 +168,12 @@
         "type": "dash",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?",
         "key": "27759a440e8ad821b800b3de00cd5851:1b8743adee559f27845f55e8b4d639fe"
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/e1730e93-10ba-4cd5-a2ef-df10b2c8d746.m3u8",
+        "key": null
       }
     ]
   },
@@ -202,6 +208,12 @@
         "type": "hls",
         "url": "https://sonymtmnew.akamaized.net/v1/master/0085f7057986fc2f8467089bb19b8b7e4f1bf8d7/mediaT37d2prod-PlaybackConfig/2120299/footlive1611/ENG/master.m3u8?hdnea=exp=1794882051~acl=/*~id=89600579731469522688731707985924~hmac=7535615b0b8bb37777aeb212c3e64fea36931cb5090cdc84e51e606be877f5e7",
         "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/9b18ae86-ec93-4bec-a114-f1640a6add80.m3u8",
+        "key": null
       }
     ]
   },
@@ -235,6 +247,12 @@
         "title": "SonyLiv",
         "type": "hls",
         "url": "https://sonymtmnew.akamaized.net/v1/master/0085f7057986fc2f8467089bb19b8b7e4f1bf8d7/mediaTe0ffprod-PlaybackConfig/2120301/Footlive1611/ENG/master.m3u8?hdnea=exp=1794882051~acl=/*~id=89600579731469522688731707985924~hmac=7535615b0b8bb37777aeb212c3e64fea36931cb5090cdc84e51e606be877f5e7",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/a5f22229-2144-4036-b355-d6b8242daa33.m3u8",
         "key": null
       }
     ]
