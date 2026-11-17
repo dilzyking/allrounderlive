@@ -1,33 +1,5 @@
 [
   {
-    "id": 15004,
-    "title": "Singapore vs Brazil",
-    "slug": "singapore-vs-brazil",
-    "cat": "Live Events",
-    "status": "ended",
-    "event": {
-      "name": "Football",
-      "category": "Football",
-      "teamA": "Singapore",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/4738/image",
-      "teamB": "Brazil",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4748/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/851/image/dark",
-      "startTimeIST": "2026-11-17 15:30:00 IST",
-      "endTimeIST": "2026-11-17 17:50:00 IST",
-      "startTimeUTC": "2026/11/17 10:00:00 +0000",
-      "endTimeUTC": "2026/11/17 12:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "CRICFy LIVE",
-        "type": "hls",
-        "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 15005,
     "title": "Argentina vs Costa Rica",
     "slug": "argentina-vs-costa-rica",
