@@ -2,7 +2,7 @@
   {
     "id": 1211,
     "title": "Australia vs England",
-    "slug": "One Day International-Australia-vs-England1794944435742",
+    "slug": "Australia-vs-England",
     "cat": "Cricket",
     "status": "live",
     "event": {
@@ -60,7 +60,7 @@
   {
     "id": 1214,
     "title": "Pakistan vs Sri Lanka",
-    "slug": "ICC World Test Championship-Pakistan-vs-Sri Lanka1794569251409",
+    "slug": "Pakistan-vs-Sri-Lanka",
     "cat": "Cricket",
     "status": "live",
     "event": {
@@ -116,37 +116,9 @@
     ]
   },
   {
-    "id": 1215,
-    "title": "Ireland Women vs Scotland Women",
-    "slug": "Womens Emerging Nations Trophy-Ireland Women-vs-Scotland Women1794890972664",
-    "cat": "Cricket",
-    "status": "live",
-    "event": {
-      "name": "Womens Emerging Nations Trophy",
-      "category": "Cricket",
-      "teamA": "Ireland Women",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/213116/image",
-      "teamB": "Scotland Women",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/453162/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/30714/image/dark",
-      "startTimeIST": "2026-11-18 10:30:00 IST",
-      "endTimeIST": null,
-      "startTimeUTC": "2026/11/18 05:00:00 +0000",
-      "endTimeUTC": null
-    },
-    "dashStreams": [
-      {
-        "title": "ICC TV FHD",
-        "type": "dash",
-        "url": "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-07)/hdntl=exp=1795006966~acl=*%2Fchannel(vcg-01-ch-hd-07)%2F*~id=96bc7139-3edd-47ca-8f83-cfabcae165c5~data=hdntl,QjtNWCxDUixTVixHVCxITixOSSxQQSxBUixCTyxCUixDTCxDTyxFQyxQWSxQRSxVWSxWRSxDVSxETyxIVCxDQSxVUyxJTixQSyxMSyxBTyxCSixCVyxCRixCSSxDVixDTSxDRixURCxLTSxDRyxDRCxDSSxESixHUSxFUixFVCxHQSxHTSxHSCxHTixHVyxLRSxMUyxMUixNRyxNVyxNVSxNUixNWixOQSxORSxORyxSVyxTVCxTTixTQyxTTCxTTyxaQSxTUyxTRCxUWixURyxVRyxaTSxaVyxTWixNTA%3D%3D~hmac=a442e7513aa54b4dff0acf0a6d2bbfb5469d09d595f36b01e8d2ad02265beafd/manifest.mpd?vcfilter=f4e483dc-fc25-46c7-a270-0a28978bfe20&",
-        "key": "39bd302cdeed3710a89fb004d232ab67:9869f804ba18d7e508cbff781829221c"
-      }
-    ]
-  },
-  {
     "id": 1218,
     "title": "South Africa vs Bangladesh",
-    "slug": "ICC World Test Championship-South Africa-vs-Bangladesh1794177341266",
+    "slug": "South-Africa-vs-Bangladesh",
     "cat": "Cricket",
     "status": "live",
     "event": {
@@ -204,7 +176,7 @@
   {
     "id": 1220,
     "title": "Bangladesh Women vs Thailand Women",
-    "slug": "Womens Emerging Nations Trophy-Bangladesh Women-vs-Thailand Women1794890972663",
+    "slug": "Bangladesh-Women-vs-Thailand-Women",
     "cat": "Cricket",
     "status": "live",
     "event": {
@@ -244,7 +216,7 @@
   {
     "id": 1219,
     "title": "Netherlands Women vs Zimbabwe Women",
-    "slug": "Womens Emerging Nations Trophy-Netherlands Women-vs-Zimbabwe Women1794890972664",
+    "slug": "Netherlands-Women-vs-Zimbabwe-Women",
     "cat": "Cricket",
     "status": "live",
     "event": {
@@ -284,7 +256,7 @@
   {
     "id": 1217,
     "title": "Nepal Premier League",
-    "slug": "Nepal Premier League -NPL-vs-NPL1792992662505",
+    "slug": "Nepal-Premier-League",
     "cat": "Cricket",
     "status": "upcoming",
     "event": {
@@ -312,7 +284,7 @@
   {
     "id": 1221,
     "title": "Abu Dhabi T10 League",
-    "slug": "Abu Dhabi T10 League-UAE Bulls-vs-Yas Lions1793858810503",
+    "slug": "UAE-Bulls-vs-Yas-Lions",
     "cat": "Cricket",
     "status": "upcoming",
     "event": {
@@ -333,7 +305,7 @@
   {
     "id": 1236,
     "title": "New Zealand vs India",
-    "slug": "ICC World Test Championship-New Zealand-vs-India1794827605939",
+    "slug": "New-Zealand-vs-India",
     "cat": "Cricket",
     "status": "upcoming",
     "event": {
