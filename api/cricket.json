@@ -322,5 +322,47 @@
       "endTimeUTC": null
     },
     "dashStreams": []
+  },
+  {
+    "id": 1275,
+    "title": "Hobart Hurricanes Women vs Perth Scorchers Women",
+    "slug": "Hobart-Hurricanes-Women-vs-Perth-Scorchers-Women",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "Women's Big Bash League",
+      "category": "Cricket",
+      "teamA": "Hobart Hurricanes Women",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/274885/image",
+      "teamB": "Perth Scorchers Women",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/274890/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/11163/image/dark",
+      "startTimeIST": "2026-11-19 10:10:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/19 04:40:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 1276,
+    "title": "Brisbane Heat Women vs Sydney Thunder Women",
+    "slug": "Brisbane-Heat-Women-vs-Sydney-Thunder-Women",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "Women's Big Bash League",
+      "category": "Cricket",
+      "teamA": "Brisbane Heat Women",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/274884/image",
+      "teamB": "Sydney Thunder Women",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/274889/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/11163/image/dark",
+      "startTimeIST": "2026-11-19 13:40:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/19 08:10:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": []
   }
 ]
