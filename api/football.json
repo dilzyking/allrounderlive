@@ -104,27 +104,6 @@
     "dashStreams": []
   },
   {
-    "id": 1229,
-    "title": "CD Alcoyano vs Mallorca",
-    "slug": "CD-Alcoyano-vs-Mallorca",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "Copa del Rey",
-      "category": "Football",
-      "teamA": "CD Alcoyano",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/6585/image",
-      "teamB": "Mallorca",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2826/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/329/image/dark",
-      "startTimeIST": "2026-11-19 00:30:00 IST",
-      "endTimeIST": "2026-11-19 02:50:00 IST",
-      "startTimeUTC": "2026/11/18 19:00:00 +0000",
-      "endTimeUTC": "2026/11/18 21:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 1231,
     "title": "Deportiva Minera vs FC Cartagena",
     "slug": "Deportiva-Minera-vs-FC-Cartagena",
@@ -187,10 +166,22 @@
     },
     "dashStreams": [
       {
+        "title": "FANCODE FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+      },
+      {
         "title": "CBS SPORTS - AQ",
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rbem8rorcw/out/v1/5318821e2c3c44c2a439681b9aa86e9b/cenc.mpd",
         "key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+      },
+      {
+        "title": "PlayZ TV Live",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4646543.m3u8?txSecret=82a56e649ca8c48ed293f95c2231abc6&txTime=6AFE1369",
+        "key": null
       }
     ]
   },
@@ -215,9 +206,21 @@
     },
     "dashStreams": [
       {
+        "title": "FANCODE FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+        "key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
+      },
+      {
         "title": "CBS SPORTS",
         "type": "hls",
         "url": "https://live2.jorvakstreamcache.com/live/channel11.m3u8?",
+        "key": null
+      },
+      {
+        "title": "PlayZ TV Live",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4646544.m3u8?txSecret=82a29280eaca9b985e606f0b5495226c&txTime=6AFE139D",
         "key": null
       }
     ]
