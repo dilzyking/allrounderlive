@@ -2,7 +2,7 @@
   {
     "id": 1211,
     "title": "Australia vs England",
-    "slug": "T25lIERheSBJbnRlcm5hdGlvbmFsLUF1c3RyYWxpYS12cy1FbmdsYW5kMTc5NDk0NDQzNTc0Mg",
+    "slug": "One Day International-Australia-vs-England1794944435742",
     "cat": "Cricket",
     "status": "live",
     "event": {
@@ -60,7 +60,7 @@
   {
     "id": 1214,
     "title": "Pakistan vs Sri Lanka",
-    "slug": "SUNDIFdvcmxkIFRlc3QgQ2hhbXBpb25zaGlwLVBha2lzdGFuLXZzLVNyaSBMYW5rYTE3OTQ1NjkyNTE0MDk",
+    "slug": "ICC World Test Championship-Pakistan-vs-Sri Lanka1794569251409",
     "cat": "Cricket",
     "status": "live",
     "event": {
@@ -118,7 +118,7 @@
   {
     "id": 1215,
     "title": "Ireland Women vs Scotland Women",
-    "slug": "V29tZW5zIEVtZXJnaW5nIE5hdGlvbnMgVHJvcGh5LUlyZWxhbmQgV29tZW4tdnMtU2NvdGxhbmQgV29tZW4xNzk0ODkwOTcyNjY0",
+    "slug": "Womens Emerging Nations Trophy-Ireland Women-vs-Scotland Women1794890972664",
     "cat": "Cricket",
     "status": "live",
     "event": {
@@ -146,7 +146,7 @@
   {
     "id": 1216,
     "title": "Papua New Guinea Women vs United Arab Emirates Women",
-    "slug": "V29tZW5zIEVtZXJnaW5nIE5hdGlvbnMgVHJvcGh5LVBhcHVhIE5ldyBHdWluZWEgV29tZW4tdnMtVW5pdGVkIEFyYWIgRW1pcmF0ZXMgV29tZW4xNzk0ODkwOTcyNjY0",
+    "slug": "Womens Emerging Nations Trophy-Papua New Guinea Women-vs-United Arab Emirates Women1794890972664",
     "cat": "Cricket",
     "status": "live",
     "event": {
@@ -174,7 +174,7 @@
   {
     "id": 1218,
     "title": "South Africa vs Bangladesh",
-    "slug": "SUNDIFdvcmxkIFRlc3QgQ2hhbXBpb25zaGlwLVNvdXRoIEFmcmljYS12cy1CYW5nbGFkZXNoMTc5NDE3NzM0MTI2Ng",
+    "slug": "ICC World Test Championship-South Africa-vs-Bangladesh1794177341266",
     "cat": "Cricket",
     "status": "upcoming",
     "event": {
@@ -230,30 +230,9 @@
     ]
   },
   {
-    "id": 1219,
-    "title": "Netherlands Women vs Zimbabwe Women",
-    "slug": "V29tZW5zIEVtZXJnaW5nIE5hdGlvbnMgVHJvcGh5LU5ldGhlcmxhbmRzIFdvbWVuLXZzLVppbWJhYndlIFdvbWVuMTc5NDg5MDk3MjY2NA",
-    "cat": "Cricket",
-    "status": "upcoming",
-    "event": {
-      "name": "Womens Emerging Nations Trophy",
-      "category": "Cricket",
-      "teamA": "Netherlands Women",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/417753/image",
-      "teamB": "Zimbabwe Women",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/417062/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/30714/image/dark",
-      "startTimeIST": "2026-11-18 14:45:00 IST",
-      "endTimeIST": null,
-      "startTimeUTC": "2026/11/18 09:15:00 +0000",
-      "endTimeUTC": null
-    },
-    "dashStreams": []
-  },
-  {
     "id": 1220,
     "title": "Bangladesh Women vs Thailand Women",
-    "slug": "V29tZW5zIEVtZXJnaW5nIE5hdGlvbnMgVHJvcGh5LUJhbmdsYWRlc2ggV29tZW4tdnMtVGhhaWxhbmQgV29tZW4xNzk0ODkwOTcyNjYz",
+    "slug": "Womens Emerging Nations Trophy-Bangladesh Women-vs-Thailand Women1794890972663",
     "cat": "Cricket",
     "status": "upcoming",
     "event": {
@@ -272,9 +251,30 @@
     "dashStreams": []
   },
   {
+    "id": 1219,
+    "title": "Netherlands Women vs Zimbabwe Women",
+    "slug": "Womens Emerging Nations Trophy-Netherlands Women-vs-Zimbabwe Women1794890972664",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "Womens Emerging Nations Trophy",
+      "category": "Cricket",
+      "teamA": "Netherlands Women",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/417753/image",
+      "teamB": "Zimbabwe Women",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/417062/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/30714/image/dark",
+      "startTimeIST": "2026-11-18 14:45:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/18 09:15:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": []
+  },
+  {
     "id": 1217,
     "title": "Nepal Premier League",
-    "slug": "TmVwYWwgUHJlbWllciBMZWFndWUgLU5QTC12cy1OUEwxNzkyOTkyNjYyNTA1",
+    "slug": "Nepal Premier League -NPL-vs-NPL1792992662505",
     "cat": "Cricket",
     "status": "upcoming",
     "event": {
@@ -302,7 +302,7 @@
   {
     "id": 1221,
     "title": "Abu Dhabi T10 League",
-    "slug": "QWJ1IERoYWJpIFQxMCBMZWFndWUtVUFFIEJ1bGxzLXZzLVlhcyBMaW9uczE3OTM4NTg4MTA1MDM",
+    "slug": "Abu Dhabi T10 League-UAE Bulls-vs-Yas Lions1793858810503",
     "cat": "Cricket",
     "status": "upcoming",
     "event": {
@@ -323,7 +323,7 @@
   {
     "id": 1236,
     "title": "New Zealand vs India",
-    "slug": "SUNDIFdvcmxkIFRlc3QgQ2hhbXBpb25zaGlwLU5ldyBaZWFsYW5kLXZzLUluZGlhMTc5NDgyNzYwNTkzOQ",
+    "slug": "ICC World Test Championship-New Zealand-vs-India1794827605939",
     "cat": "Cricket",
     "status": "upcoming",
     "event": {
