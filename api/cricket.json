@@ -1,33 +1,5 @@
 [
   {
-    "id": 1217,
-    "title": "Nepal Premier League",
-    "slug": "Nepal-Premier-League",
-    "cat": "Cricket",
-    "status": "ended",
-    "event": {
-      "name": "Nepal Premier League",
-      "category": "Cricket",
-      "teamA": "NPL",
-      "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4kb18PjjNzQILyDESk2XOhaXZ6mIZ9tsTkyKwzjpoIw&s=10",
-      "teamB": "NPL",
-      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4kb18PjjNzQILyDESk2XOhaXZ6mIZ9tsTkyKwzjpoIw&s=10",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4kb18PjjNzQILyDESk2XOhaXZ6mIZ9tsTkyKwzjpoIw&s=10",
-      "startTimeIST": "2026-11-18 16:45:00 IST",
-      "endTimeIST": "2026-11-18 22:36:00 IST",
-      "startTimeUTC": "2026/11/18 11:15:00 +0000",
-      "endTimeUTC": "2026/11/18 17:06:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "FANCODE - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
-        "key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
-      }
-    ]
-  },
-  {
     "id": 1221,
     "title": "Abu Dhabi T10 League",
     "slug": "UAE-Bulls-vs-Yas-Lions",
