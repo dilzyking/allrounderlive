@@ -1,6 +1,27 @@
 [
   {
-    "id": "VUVGQSBXb21lbidzIENoYW1waW9ucyBMZWFndWUtQksgSMOkY2tlbiBGRi12cy1NYW5jaGVzdGVyIENpdHkxNzk0OTQ3NTEzMjky",
+    "id": 1208,
+    "title": "Nicaragua vs Montserrat",
+    "slug": "Q09OQ0FDQUYgTmF0aW9ucyBMZWFndWUtTmljYXJhZ3VhLXZzLU1vbnRzZXJyYXQxNzk0ODkwODYzNzUz",
+    "cat": "Football",
+    "status": "live",
+    "event": {
+      "name": "CONCACAF Nations League",
+      "category": "Football",
+      "teamA": "Nicaragua",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/21817/image",
+      "teamB": "Montserrat",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/21815/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/14100/image/dark",
+      "startTimeIST": "2026-11-18 08:30:00 IST",
+      "endTimeIST": "2026-11-18 10:50:00 IST",
+      "startTimeUTC": "2026/11/18 03:00:00 +0000",
+      "endTimeUTC": "2026/11/18 05:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 1222,
     "title": "BK Häcken FF vs Manchester City",
     "slug": "VUVGQSBXb21lbidzIENoYW1waW9ucyBMZWFndWUtQksgSMOkY2tlbiBGRi12cy1NYW5jaGVzdGVyIENpdHkxNzk0OTQ3NTEzMjky",
     "cat": "Football",
@@ -13,15 +34,15 @@
       "teamB": "Manchester City",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/142658/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/696/image/dark",
-      "startTimeIST": "2026-11-18 17:45:00 IST",
-      "endTimeIST": "2026-11-18 20:05:00 IST",
-      "startTimeUTC": "2026/11/18 12:15:00 +0000",
-      "endTimeUTC": "2026/11/18 14:35:00 +0000"
+      "startTimeIST": "2026-11-18 23:15:00 IST",
+      "endTimeIST": "2026-11-19 01:35:00 IST",
+      "startTimeUTC": "2026/11/18 17:45:00 +0000",
+      "endTimeUTC": "2026/11/18 20:05:00 +0000"
     },
     "dashStreams": []
   },
   {
-    "id": "VUVGQSBXb21lbidzIENoYW1waW9ucyBMZWFndWUtUmVhbCBNYWRyaWQtdnMtSW50ZXIxNzk0OTQ3NTEzMjkx",
+    "id": 1223,
     "title": "Real Madrid vs Inter",
     "slug": "VUVGQSBXb21lbidzIENoYW1waW9ucyBMZWFndWUtUmVhbCBNYWRyaWQtdnMtSW50ZXIxNzk0OTQ3NTEzMjkx",
     "cat": "Football",
@@ -34,15 +55,15 @@
       "teamB": "Inter",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/325685/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/696/image/dark",
-      "startTimeIST": "2026-11-18 17:45:00 IST",
-      "endTimeIST": "2026-11-18 20:05:00 IST",
-      "startTimeUTC": "2026/11/18 12:15:00 +0000",
-      "endTimeUTC": "2026/11/18 14:35:00 +0000"
+      "startTimeIST": "2026-11-18 23:15:00 IST",
+      "endTimeIST": "2026-11-19 01:35:00 IST",
+      "startTimeUTC": "2026/11/18 17:45:00 +0000",
+      "endTimeUTC": "2026/11/18 20:05:00 +0000"
     },
     "dashStreams": []
   },
   {
-    "id": "Q29wYSBkZWwgUmV5LUNsdWIgUG9ydHVnYWxldGUtdnMtUmVhbCBVbmnDs24gQ2x1YjE3OTQ5NDc1MTMyOTM",
+    "id": 1224,
     "title": "Club Portugalete vs Real Unión Club",
     "slug": "Q29wYSBkZWwgUmV5LUNsdWIgUG9ydHVnYWxldGUtdnMtUmVhbCBVbmnDs24gQ2x1YjE3OTQ5NDc1MTMyOTM",
     "cat": "Football",
@@ -55,15 +76,15 @@
       "teamB": "Real Unión Club",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/2881/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/329/image/dark",
-      "startTimeIST": "2026-11-18 18:00:00 IST",
-      "endTimeIST": "2026-11-18 20:20:00 IST",
-      "startTimeUTC": "2026/11/18 12:30:00 +0000",
-      "endTimeUTC": "2026/11/18 14:50:00 +0000"
+      "startTimeIST": "2026-11-18 23:30:00 IST",
+      "endTimeIST": "2026-11-19 01:50:00 IST",
+      "startTimeUTC": "2026/11/18 18:00:00 +0000",
+      "endTimeUTC": "2026/11/18 20:20:00 +0000"
     },
     "dashStreams": []
   },
   {
-    "id": "Q29wYSBkZWwgUmV5LVV0ZWJvIEZDLXZzLUNFIFNhYmFkZWxsMTc5NDk0NzU4Mjg1Ng",
+    "id": 1225,
     "title": "Utebo FC vs CE Sabadell",
     "slug": "Q29wYSBkZWwgUmV5LVV0ZWJvIEZDLXZzLUNFIFNhYmFkZWxsMTc5NDk0NzU4Mjg1Ng",
     "cat": "Football",
@@ -76,15 +97,15 @@
       "teamB": "CE Sabadell",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/24335/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/329/image/dark",
-      "startTimeIST": "2026-11-18 18:00:00 IST",
-      "endTimeIST": "2026-11-18 20:20:00 IST",
-      "startTimeUTC": "2026/11/18 12:30:00 +0000",
-      "endTimeUTC": "2026/11/18 14:50:00 +0000"
+      "startTimeIST": "2026-11-18 23:30:00 IST",
+      "endTimeIST": "2026-11-19 01:50:00 IST",
+      "startTimeUTC": "2026/11/18 18:00:00 +0000",
+      "endTimeUTC": "2026/11/18 20:20:00 +0000"
     },
     "dashStreams": []
   },
   {
-    "id": "Q29wYSBkZWwgUmV5LVV0ZWJvIEZDLXZzLUNFIFNhYmFkZWxsMTc5NDk0NzUxMzI5Mg",
+    "id": 1226,
     "title": "Utebo FC vs CE Sabadell",
     "slug": "Q29wYSBkZWwgUmV5LVV0ZWJvIEZDLXZzLUNFIFNhYmFkZWxsMTc5NDk0NzUxMzI5Mg",
     "cat": "Football",
@@ -97,15 +118,15 @@
       "teamB": "CE Sabadell",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/24335/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/329/image/dark",
-      "startTimeIST": "2026-11-18 18:00:00 IST",
-      "endTimeIST": "2026-11-18 20:20:00 IST",
-      "startTimeUTC": "2026/11/18 12:30:00 +0000",
-      "endTimeUTC": "2026/11/18 14:50:00 +0000"
+      "startTimeIST": "2026-11-18 23:30:00 IST",
+      "endTimeIST": "2026-11-19 01:50:00 IST",
+      "startTimeUTC": "2026/11/18 18:00:00 +0000",
+      "endTimeUTC": "2026/11/18 20:20:00 +0000"
     },
     "dashStreams": []
   },
   {
-    "id": "Q2FtcGVvbmF0byBDYXJpb2NhIEZlbWluaW5vLUJvdGFmb2dvLXZzLVZhc2NvIGRhIEdhbWExNzk0OTQ3NTEzMjkw",
+    "id": 1227,
     "title": "Botafogo vs Vasco da Gama",
     "slug": "Q2FtcGVvbmF0byBDYXJpb2NhIEZlbWluaW5vLUJvdGFmb2dvLXZzLVZhc2NvIGRhIEdhbWExNzk0OTQ3NTEzMjkw",
     "cat": "Football",
@@ -118,15 +139,15 @@
       "teamB": "Vasco da Gama",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/312835/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/18897/image/dark",
-      "startTimeIST": "2026-11-18 18:00:00 IST",
-      "endTimeIST": "2026-11-18 20:20:00 IST",
-      "startTimeUTC": "2026/11/18 12:30:00 +0000",
-      "endTimeUTC": "2026/11/18 14:50:00 +0000"
+      "startTimeIST": "2026-11-18 23:30:00 IST",
+      "endTimeIST": "2026-11-19 01:50:00 IST",
+      "startTimeUTC": "2026/11/18 18:00:00 +0000",
+      "endTimeUTC": "2026/11/18 20:20:00 +0000"
     },
     "dashStreams": []
   },
   {
-    "id": "Q2FtcGVvbmF0byBDYXJpb2NhIEZlbWluaW5vLUZsYW1lbmdvLXZzLUZsdW1pbmVuc2UxNzk0OTQ3NTEzMjkw",
+    "id": 1228,
     "title": "Flamengo vs Fluminense",
     "slug": "Q2FtcGVvbmF0byBDYXJpb2NhIEZlbWluaW5vLUZsYW1lbmdvLXZzLUZsdW1pbmVuc2UxNzk0OTQ3NTEzMjkw",
     "cat": "Football",
@@ -139,15 +160,15 @@
       "teamB": "Fluminense",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/312739/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/18897/image/dark",
-      "startTimeIST": "2026-11-18 18:00:00 IST",
-      "endTimeIST": "2026-11-18 20:20:00 IST",
-      "startTimeUTC": "2026/11/18 12:30:00 +0000",
-      "endTimeUTC": "2026/11/18 14:50:00 +0000"
+      "startTimeIST": "2026-11-18 23:30:00 IST",
+      "endTimeIST": "2026-11-19 01:50:00 IST",
+      "startTimeUTC": "2026/11/18 18:00:00 +0000",
+      "endTimeUTC": "2026/11/18 20:20:00 +0000"
     },
     "dashStreams": []
   },
   {
-    "id": "Q29wYSBkZWwgUmV5LUNEIEFsY295YW5vLXZzLU1hbGxvcmNhMTc5NDk0NzU4Mjg1Nw",
+    "id": 1229,
     "title": "CD Alcoyano vs Mallorca",
     "slug": "Q29wYSBkZWwgUmV5LUNEIEFsY295YW5vLXZzLU1hbGxvcmNhMTc5NDk0NzU4Mjg1Nw",
     "cat": "Football",
@@ -160,15 +181,15 @@
       "teamB": "Mallorca",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/2826/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/329/image/dark",
-      "startTimeIST": "2026-11-18 19:00:00 IST",
-      "endTimeIST": "2026-11-18 21:20:00 IST",
-      "startTimeUTC": "2026/11/18 13:30:00 +0000",
-      "endTimeUTC": "2026/11/18 15:50:00 +0000"
+      "startTimeIST": "2026-11-19 00:30:00 IST",
+      "endTimeIST": "2026-11-19 02:50:00 IST",
+      "startTimeUTC": "2026/11/18 19:00:00 +0000",
+      "endTimeUTC": "2026/11/18 21:20:00 +0000"
     },
     "dashStreams": []
   },
   {
-    "id": "Q2FtcGVvbmF0byBDYXJpb2NhIEZlbWluaW5vLUZsYW1lbmdvLXZzLUJvdGFmb2dvMTc5NDk0NzUxMzI5MQ",
+    "id": 1230,
     "title": "Flamengo vs Botafogo",
     "slug": "Q2FtcGVvbmF0byBDYXJpb2NhIEZlbWluaW5vLUZsYW1lbmdvLXZzLUJvdGFmb2dvMTc5NDk0NzUxMzI5MQ",
     "cat": "Football",
@@ -181,15 +202,15 @@
       "teamB": "Botafogo",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/312884/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/18897/image/dark",
-      "startTimeIST": "2026-11-18 19:00:00 IST",
-      "endTimeIST": "2026-11-18 21:20:00 IST",
-      "startTimeUTC": "2026/11/18 13:30:00 +0000",
-      "endTimeUTC": "2026/11/18 15:50:00 +0000"
+      "startTimeIST": "2026-11-19 00:30:00 IST",
+      "endTimeIST": "2026-11-19 02:50:00 IST",
+      "startTimeUTC": "2026/11/18 19:00:00 +0000",
+      "endTimeUTC": "2026/11/18 21:20:00 +0000"
     },
     "dashStreams": []
   },
   {
-    "id": "Q29wYSBkZWwgUmV5LURlcG9ydGl2YSBNaW5lcmEtdnMtRkMgQ2FydGFnZW5hMTc5NDk0NzUxMzI5Mw",
+    "id": 1231,
     "title": "Deportiva Minera vs FC Cartagena",
     "slug": "Q29wYSBkZWwgUmV5LURlcG9ydGl2YSBNaW5lcmEtdnMtRkMgQ2FydGFnZW5hMTc5NDk0NzUxMzI5Mw",
     "cat": "Football",
@@ -202,15 +223,15 @@
       "teamB": "FC Cartagena",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/24329/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/329/image/dark",
-      "startTimeIST": "2026-11-18 19:30:00 IST",
-      "endTimeIST": "2026-11-18 21:50:00 IST",
-      "startTimeUTC": "2026/11/18 14:00:00 +0000",
-      "endTimeUTC": "2026/11/18 16:20:00 +0000"
+      "startTimeIST": "2026-11-19 01:00:00 IST",
+      "endTimeIST": "2026-11-19 03:20:00 IST",
+      "startTimeUTC": "2026/11/18 19:30:00 +0000",
+      "endTimeUTC": "2026/11/18 21:50:00 +0000"
     },
     "dashStreams": []
   },
   {
-    "id": "Q29wYSBkZWwgUmV5LVJldXMgRkMgUmVkZGlzLXZzLUJhcmFrYWxkbyBDRjE3OTQ5NDc1MTMyOTQ",
+    "id": 1232,
     "title": "Reus FC Reddis vs Barakaldo CF",
     "slug": "Q29wYSBkZWwgUmV5LVJldXMgRkMgUmVkZGlzLXZzLUJhcmFrYWxkbyBDRjE3OTQ5NDc1MTMyOTQ",
     "cat": "Football",
@@ -223,15 +244,15 @@
       "teamB": "Barakaldo CF",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/2879/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/329/image/dark",
-      "startTimeIST": "2026-11-18 19:30:00 IST",
-      "endTimeIST": "2026-11-18 21:50:00 IST",
-      "startTimeUTC": "2026/11/18 14:00:00 +0000",
-      "endTimeUTC": "2026/11/18 16:20:00 +0000"
+      "startTimeIST": "2026-11-19 01:00:00 IST",
+      "endTimeIST": "2026-11-19 03:20:00 IST",
+      "startTimeUTC": "2026/11/18 19:30:00 +0000",
+      "endTimeUTC": "2026/11/18 21:50:00 +0000"
     },
     "dashStreams": []
   },
   {
-    "id": "Q29wYSBkZWwgUmV5LVJldXMgRkMgUmVkZGlzLXZzLUJhcmFrYWxkbyBDRjE3OTQ5NDc1ODU4MTk",
+    "id": 1233,
     "title": "Reus FC Reddis vs Barakaldo CF",
     "slug": "Q29wYSBkZWwgUmV5LVJldXMgRkMgUmVkZGlzLXZzLUJhcmFrYWxkbyBDRjE3OTQ5NDc1ODU4MTk",
     "cat": "Football",
@@ -244,15 +265,15 @@
       "teamB": "Barakaldo CF",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/2879/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/329/image/dark",
-      "startTimeIST": "2026-11-18 19:30:00 IST",
-      "endTimeIST": "2026-11-18 21:50:00 IST",
-      "startTimeUTC": "2026/11/18 14:00:00 +0000",
-      "endTimeUTC": "2026/11/18 16:20:00 +0000"
+      "startTimeIST": "2026-11-19 01:00:00 IST",
+      "endTimeIST": "2026-11-19 03:20:00 IST",
+      "startTimeUTC": "2026/11/18 19:30:00 +0000",
+      "endTimeUTC": "2026/11/18 21:50:00 +0000"
     },
     "dashStreams": []
   },
   {
-    "id": "VUVGQSBXb21lbidzIENoYW1waW9ucyBMZWFndWUtQ2hlbHNlYSBGQy12cy1QYXJpcyBTYWludC1HZXJtYWluMTc5NDk0NzUxMzI5MQ",
+    "id": 1234,
     "title": "Chelsea FC vs Paris Saint-Germain",
     "slug": "VUVGQSBXb21lbidzIENoYW1waW9ucyBMZWFndWUtQ2hlbHNlYSBGQy12cy1QYXJpcyBTYWludC1HZXJtYWluMTc5NDk0NzUxMzI5MQ",
     "cat": "Football",
@@ -265,15 +286,15 @@
       "teamB": "Paris Saint-Germain",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/55505/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/696/image/dark",
-      "startTimeIST": "2026-11-18 20:00:00 IST",
-      "endTimeIST": "2026-11-18 22:20:00 IST",
-      "startTimeUTC": "2026/11/18 14:30:00 +0000",
-      "endTimeUTC": "2026/11/18 16:50:00 +0000"
+      "startTimeIST": "2026-11-19 01:30:00 IST",
+      "endTimeIST": "2026-11-19 03:50:00 IST",
+      "startTimeUTC": "2026/11/18 20:00:00 +0000",
+      "endTimeUTC": "2026/11/18 22:20:00 +0000"
     },
     "dashStreams": []
   },
   {
-    "id": "VUVGQSBXb21lbidzIENoYW1waW9ucyBMZWFndWUtSnV2ZW50dXMtdnMtT3VkLUhldmVybGVlIExldXZlbjE3OTQ5NDc1MTMyODk",
+    "id": 1235,
     "title": "Juventus vs Oud-Heverlee Leuven",
     "slug": "VUVGQSBXb21lbidzIENoYW1waW9ucyBMZWFndWUtSnV2ZW50dXMtdnMtT3VkLUhldmVybGVlIExldXZlbjE3OTQ5NDc1MTMyODk",
     "cat": "Football",
@@ -286,15 +307,15 @@
       "teamB": "Oud-Heverlee Leuven",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/178246/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/696/image/dark",
-      "startTimeIST": "2026-11-18 20:00:00 IST",
-      "endTimeIST": "2026-11-18 22:20:00 IST",
-      "startTimeUTC": "2026/11/18 14:30:00 +0000",
-      "endTimeUTC": "2026/11/18 16:50:00 +0000"
+      "startTimeIST": "2026-11-19 01:30:00 IST",
+      "endTimeIST": "2026-11-19 03:50:00 IST",
+      "startTimeUTC": "2026/11/18 20:00:00 +0000",
+      "endTimeUTC": "2026/11/18 22:20:00 +0000"
     },
     "dashStreams": []
   },
   {
-    "id": "Q2FtcGVvbmF0byBCcmFzaWxlaXJvIFPDqXJpZSBBLUNvcml0aWJhLXZzLVNhbnRvczE3OTQ5NDc1MTMyOTA",
+    "id": 1237,
     "title": "Coritiba vs Santos",
     "slug": "Q2FtcGVvbmF0byBCcmFzaWxlaXJvIFPDqXJpZSBBLUNvcml0aWJhLXZzLVNhbnRvczE3OTQ5NDc1MTMyOTA",
     "cat": "Football",
@@ -307,15 +328,15 @@
       "teamB": "Santos",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/1968/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/325/image/dark",
-      "startTimeIST": "2026-11-18 22:30:00 IST",
-      "endTimeIST": "2026-11-19 00:50:00 IST",
-      "startTimeUTC": "2026/11/18 17:00:00 +0000",
-      "endTimeUTC": "2026/11/18 19:20:00 +0000"
+      "startTimeIST": "2026-11-19 04:00:00 IST",
+      "endTimeIST": "2026-11-19 06:20:00 IST",
+      "startTimeUTC": "2026/11/18 22:30:00 +0000",
+      "endTimeUTC": "2026/11/19 00:50:00 +0000"
     },
     "dashStreams": []
   },
   {
-    "id": "Q2FtcGVvbmF0byBCcmFzaWxlaXJvIFPDqXJpZSBBLVJlbW8tdnMtQ2hhcGVjb2Vuc2UxNzk0OTQ3NTEzMjkz",
+    "id": 1238,
     "title": "Remo vs Chapecoense",
     "slug": "Q2FtcGVvbmF0byBCcmFzaWxlaXJvIFPDqXJpZSBBLVJlbW8tdnMtQ2hhcGVjb2Vuc2UxNzk0OTQ3NTEzMjkz",
     "cat": "Football",
@@ -328,15 +349,15 @@
       "teamB": "Chapecoense",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/21845/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/325/image/dark",
-      "startTimeIST": "2026-11-18 23:00:00 IST",
-      "endTimeIST": "2026-11-19 01:20:00 IST",
-      "startTimeUTC": "2026/11/18 17:30:00 +0000",
-      "endTimeUTC": "2026/11/18 19:50:00 +0000"
+      "startTimeIST": "2026-11-19 04:30:00 IST",
+      "endTimeIST": "2026-11-19 06:50:00 IST",
+      "startTimeUTC": "2026/11/18 23:00:00 +0000",
+      "endTimeUTC": "2026/11/19 01:20:00 +0000"
     },
     "dashStreams": []
   },
   {
-    "id": "Q2FtcGVvbmF0byBCcmFzaWxlaXJvIFPDqXJpZSBBLUNydXplaXJvLXZzLVBhbG1laXJhczE3OTQ5NDc1MTMyOTM",
+    "id": 1239,
     "title": "Cruzeiro vs Palmeiras",
     "slug": "Q2FtcGVvbmF0byBCcmFzaWxlaXJvIFPDqXJpZSBBLUNydXplaXJvLXZzLVBhbG1laXJhczE3OTQ5NDc1MTMyOTM",
     "cat": "Football",
@@ -349,15 +370,15 @@
       "teamB": "Palmeiras",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/1963/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/325/image/dark",
-      "startTimeIST": "2026-11-18 23:30:00 IST",
-      "endTimeIST": "2026-11-19 01:50:00 IST",
-      "startTimeUTC": "2026/11/18 18:00:00 +0000",
-      "endTimeUTC": "2026/11/18 20:20:00 +0000"
+      "startTimeIST": "2026-11-19 05:00:00 IST",
+      "endTimeIST": "2026-11-19 07:20:00 IST",
+      "startTimeUTC": "2026/11/18 23:30:00 +0000",
+      "endTimeUTC": "2026/11/19 01:50:00 +0000"
     },
     "dashStreams": []
   },
   {
-    "id": "Q2FtcGVvbmF0byBCcmFzaWxlaXJvIFPDqXJpZSBBLUZsYW1lbmdvLXZzLUF0aGxldGljbzE3OTQ5NDc1MTMyOTI",
+    "id": 1240,
     "title": "Flamengo vs Athletico",
     "slug": "Q2FtcGVvbmF0byBCcmFzaWxlaXJvIFPDqXJpZSBBLUZsYW1lbmdvLXZzLUF0aGxldGljbzE3OTQ5NDc1MTMyOTI",
     "cat": "Football",
@@ -370,15 +391,15 @@
       "teamB": "Athletico",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/1967/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/325/image/dark",
-      "startTimeIST": "2026-11-18 23:30:00 IST",
-      "endTimeIST": "2026-11-19 01:50:00 IST",
-      "startTimeUTC": "2026/11/18 18:00:00 +0000",
-      "endTimeUTC": "2026/11/18 20:20:00 +0000"
+      "startTimeIST": "2026-11-19 05:00:00 IST",
+      "endTimeIST": "2026-11-19 07:20:00 IST",
+      "startTimeUTC": "2026/11/18 23:30:00 +0000",
+      "endTimeUTC": "2026/11/19 01:50:00 +0000"
     },
     "dashStreams": []
   },
   {
-    "id": "Q2FtcGVvbmF0byBCcmFzaWxlaXJvIFPDqXJpZSBBLUdyw6ptaW8tdnMtQmFoaWExNzk0OTQ3NTEzMjky",
+    "id": 1242,
     "title": "Grêmio vs Bahia",
     "slug": "Q2FtcGVvbmF0byBCcmFzaWxlaXJvIFPDqXJpZSBBLUdyw6ptaW8tdnMtQmFoaWExNzk0OTQ3NTEzMjky",
     "cat": "Football",
@@ -391,15 +412,15 @@
       "teamB": "Bahia",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/1955/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/325/image/dark",
-      "startTimeIST": "2026-11-19 00:30:00 IST",
-      "endTimeIST": "2026-11-19 02:50:00 IST",
-      "startTimeUTC": "2026/11/18 19:00:00 +0000",
-      "endTimeUTC": "2026/11/18 21:20:00 +0000"
+      "startTimeIST": "2026-11-19 06:00:00 IST",
+      "endTimeIST": "2026-11-19 08:20:00 IST",
+      "startTimeUTC": "2026/11/19 00:30:00 +0000",
+      "endTimeUTC": "2026/11/19 02:50:00 +0000"
     },
     "dashStreams": []
   },
   {
-    "id": "Q2FtcGVvbmF0byBCcmFzaWxlaXJvIFPDqXJpZSBBLUNvcmludGhpYW5zLXZzLUJvdGFmb2dvMTc5NDk0NzUxMzI5MQ",
+    "id": 1243,
     "title": "Corinthians vs Botafogo",
     "slug": "Q2FtcGVvbmF0byBCcmFzaWxlaXJvIFPDqXJpZSBBLUNvcmludGhpYW5zLXZzLUJvdGFmb2dvMTc5NDk0NzUxMzI5MQ",
     "cat": "Football",
@@ -412,10 +433,10 @@
       "teamB": "Botafogo",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/1958/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/325/image/dark",
-      "startTimeIST": "2026-11-19 00:30:00 IST",
-      "endTimeIST": "2026-11-19 02:50:00 IST",
-      "startTimeUTC": "2026/11/18 19:00:00 +0000",
-      "endTimeUTC": "2026/11/18 21:20:00 +0000"
+      "startTimeIST": "2026-11-19 06:00:00 IST",
+      "endTimeIST": "2026-11-19 08:20:00 IST",
+      "startTimeUTC": "2026/11/19 00:30:00 +0000",
+      "endTimeUTC": "2026/11/19 02:50:00 +0000"
     },
     "dashStreams": []
   }
