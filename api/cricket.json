@@ -134,7 +134,14 @@
       "startTimeUTC": "2026/11/18 05:00:00 +0000",
       "endTimeUTC": null
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "ICC TV FHD",
+        "type": "dash",
+        "url": "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-07)/hdntl=exp=1795006966~acl=*%2Fchannel(vcg-01-ch-hd-07)%2F*~id=96bc7139-3edd-47ca-8f83-cfabcae165c5~data=hdntl,QjtNWCxDUixTVixHVCxITixOSSxQQSxBUixCTyxCUixDTCxDTyxFQyxQWSxQRSxVWSxWRSxDVSxETyxIVCxDQSxVUyxJTixQSyxMSyxBTyxCSixCVyxCRixCSSxDVixDTSxDRixURCxLTSxDRyxDRCxDSSxESixHUSxFUixFVCxHQSxHTSxHSCxHTixHVyxLRSxMUyxMUixNRyxNVyxNVSxNUixNWixOQSxORSxORyxSVyxTVCxTTixTQyxTTCxTTyxaQSxTUyxTRCxUWixURyxVRyxaTSxaVyxTWixNTA%3D%3D~hmac=a442e7513aa54b4dff0acf0a6d2bbfb5469d09d595f36b01e8d2ad02265beafd/manifest.mpd?vcfilter=f4e483dc-fc25-46c7-a270-0a28978bfe20&",
+        "key": "39bd302cdeed3710a89fb004d232ab67:9869f804ba18d7e508cbff781829221c"
+      }
+    ]
   },
   {
     "id": 1216,
@@ -155,7 +162,14 @@
       "startTimeUTC": "2026/11/18 05:00:00 +0000",
       "endTimeUTC": null
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "ICC TV FHD",
+        "type": "dash",
+        "url": "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-06)/hdntl=exp=1795007101~acl=*%2Fchannel(vcg-01-ch-hd-06)%2F*~id=96bc7139-3edd-47ca-8f83-cfabcae165c5~data=hdntl,QjtNWCxDUixTVixHVCxITixOSSxQQSxBUixCTyxCUixDTCxDTyxFQyxQWSxQRSxVWSxWRSxDVSxETyxIVCxDQSxVUyxJTixQSyxMSyxBTyxCSixCVyxCRixCSSxDVixDTSxDRixURCxLTSxDRyxDRCxDSSxESixHUSxFUixFVCxHQSxHTSxHSCxHTixHVyxLRSxMUyxMUixNRyxNVyxNVSxNUixNWixOQSxORSxORyxSVyxTVCxTTixTQyxTTCxTTyxaQSxTUyxTRCxUWixURyxVRyxaTSxaVyxTWixNTA%3D%3D~hmac=07d42f192cbbd28389764b0a0c06d73fdb85be19dff53148af65f1979844c691/manifest.mpd?vcfilter=268c69c2-f531-4ad0-8022-ae44ad8a66ef&",
+        "key": "39bd302cdeed3710a89fb004d232ab67:9869f804ba18d7e508cbff781829221c"
+      }
+    ]
   },
   {
     "id": 1217,
