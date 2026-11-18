@@ -172,34 +172,6 @@
     ]
   },
   {
-    "id": 1217,
-    "title": "Nepal Premier League",
-    "slug": "TmVwYWwgUHJlbWllciBMZWFndWUgLU5QTC12cy1OUEwxNzkyOTkyNjYyNTA1",
-    "cat": "Cricket",
-    "status": "upcoming",
-    "event": {
-      "name": "Nepal Premier League",
-      "category": "Cricket",
-      "teamA": "NPL",
-      "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4kb18PjjNzQILyDESk2XOhaXZ6mIZ9tsTkyKwzjpoIw&s=10",
-      "teamB": "NPL",
-      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4kb18PjjNzQILyDESk2XOhaXZ6mIZ9tsTkyKwzjpoIw&s=10",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4kb18PjjNzQILyDESk2XOhaXZ6mIZ9tsTkyKwzjpoIw&s=10",
-      "startTimeIST": "2026-11-18 12:15:00 IST",
-      "endTimeIST": null,
-      "startTimeUTC": "2026/11/18 06:45:00 +0000",
-      "endTimeUTC": null
-    },
-    "dashStreams": [
-      {
-        "title": "FANCODE - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
-        "key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
-      }
-    ]
-  },
-  {
     "id": 1218,
     "title": "South Africa vs Bangladesh",
     "slug": "SUNDIFdvcmxkIFRlc3QgQ2hhbXBpb25zaGlwLVNvdXRoIEFmcmljYS12cy1CYW5nbGFkZXNoMTc5NDE3NzM0MTI2Ng",
@@ -298,6 +270,34 @@
       "endTimeUTC": null
     },
     "dashStreams": []
+  },
+  {
+    "id": 1217,
+    "title": "Nepal Premier League",
+    "slug": "TmVwYWwgUHJlbWllciBMZWFndWUgLU5QTC12cy1OUEwxNzkyOTkyNjYyNTA1",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "Nepal Premier League",
+      "category": "Cricket",
+      "teamA": "NPL",
+      "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4kb18PjjNzQILyDESk2XOhaXZ6mIZ9tsTkyKwzjpoIw&s=10",
+      "teamB": "NPL",
+      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4kb18PjjNzQILyDESk2XOhaXZ6mIZ9tsTkyKwzjpoIw&s=10",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4kb18PjjNzQILyDESk2XOhaXZ6mIZ9tsTkyKwzjpoIw&s=10",
+      "startTimeIST": "2026-11-18 16:45:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/18 11:15:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": [
+      {
+        "title": "FANCODE - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+        "key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
+      }
+    ]
   },
   {
     "id": 1221,
