@@ -1,160 +1,136 @@
 [
   {
-    "id": 14822,
-    "title": "Australia vs England",
-    "slug": "australia-vs-england",
-    "cat": "Live Events",
+    "id": "TmVwYWwgUHJlbWllciBMZWFndWUgLU5QTC12cy1OUEwxNzkyOTkyNjYyNTA1",
+    "title": "Nepal Premier League",
+    "slug": "TmVwYWwgUHJlbWllciBMZWFndWUgLU5QTC12cy1OUEwxNzkyOTkyNjYyNTA1",
+    "cat": "Cricket",
     "status": "live",
     "event": {
-      "name": "Cricket",
+      "name": "Nepal Premier League",
       "category": "Cricket",
-      "teamA": "Australia",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/187746/image",
-      "teamB": "England",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/187757/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/11190/image/dark",
-      "startTimeIST": "2026-11-18 09:00:10 IST",
-      "endTimeIST": "2026-11-18 17:30:15 IST",
-      "startTimeUTC": "2026/11/18 03:30:10 +0000",
-      "endTimeUTC": "2026/11/18 12:00:15 +0000"
+      "teamA": "NPL",
+      "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4kb18PjjNzQILyDESk2XOhaXZ6mIZ9tsTkyKwzjpoIw&s=10",
+      "teamB": "NPL",
+      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4kb18PjjNzQILyDESk2XOhaXZ6mIZ9tsTkyKwzjpoIw&s=10",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4kb18PjjNzQILyDESk2XOhaXZ6mIZ9tsTkyKwzjpoIw&s=10",
+      "startTimeIST": "2026-11-18 06:45:00 IST",
+      "endTimeIST": "2026-11-18 10:45:00 IST",
+      "startTimeUTC": "2026/11/18 01:15:00 +0000",
+      "endTimeUTC": "2026/11/18 05:15:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "FANCODE - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+        "key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
+      },
+      {
+        "title": "NPL LIVE FHD",
+        "type": "dash",
+        "url": "https://ott-edge-mtdc04.nettv.com.np/npl/live_match3/index.mpd",
+        "key": "b4d7fc89103597185058cc4c81a1800d:17062472ba2a3f1db709d3bb7761c936"
+      }
+    ]
+  },
+  {
+    "id": "SUNDIFdvcmxkIFRlc3QgQ2hhbXBpb25zaGlwLVNvdXRoIEFmcmljYS12cy1CYW5nbGFkZXNoMTc5NDE3NzM0MTI2Ng",
+    "title": "South Africa vs Bangladesh",
+    "slug": "SUNDIFdvcmxkIFRlc3QgQ2hhbXBpb25zaGlwLVNvdXRoIEFmcmljYS12cy1CYW5nbGFkZXNoMTc5NDE3NzM0MTI2Ng",
+    "cat": "Cricket",
+    "status": "live",
+    "event": {
+      "name": "ICC World Test Championship",
+      "category": "Cricket",
+      "teamA": "South Africa",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/187747/image",
+      "teamB": "Bangladesh",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/187744/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18833/image/dark",
+      "startTimeIST": "2026-11-18 08:00:00 IST",
+      "endTimeIST": "2026-11-18 12:00:00 IST",
+      "startTimeUTC": "2026/11/18 02:30:00 +0000",
+      "endTimeUTC": "2026/11/18 06:30:00 +0000"
     },
     "dashStreams": [
       {
         "title": "WILLOW - AQ",
         "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/cs4bb976aa/out/v1/18bfdac2326c4055b5be76a41172ff9c/cenc.mpd",
-        "key": "ec7e146b29b33caca854620c0fb05bea:e895d427078bb109a0f6b8fd690dd105"
+        "url": "https://ss-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/hprkqhtdlv/out/v1/7aa42b34cf6d4ec1b3fa841404c162d6/cenc.mpd",
+        "key": "6edfcab8821c7437717ab9c94300a8a0:1dc141c8ac131a68bd1c445acfdc673c"
       },
       {
-        "title": "FANCODE - AQ",
+        "title": "FANCODE FHD",
         "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+        "key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
       },
       {
-        "title": "WILLOW - ALT",
-        "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/cs4bb976aa/out/v1/18bfdac2326c4055b5be76a41172ff9c/cenc.mpd",
-        "key": "ec7e146b29b33caca854620c0fb05bea:e895d427078bb109a0f6b8fd690dd105"
-      },
-      {
-        "title": "TAPMAD - AQ",
+        "title": "SKY SPORTS CRICKET",
         "type": "hls",
-        "url": "https://tencent-cdn.tapmad.com/v1/01a14a9fb90c15fc60e91e1786b061/01a14a9feb881ea540a81c2b41b75e/main.m3u8?",
+        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
         "key": null
       },
       {
-        "title": "TEN SPORTS HD",
-        "type": "hls",
-        "url": "https://live.msnetworks.net/ten-sports/master.m3u8",
-        "key": null
+        "title": "WILLOW S2 - AQ",
+        "type": "dash",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/hprkqhtdlv/out/v1/7aa42b34cf6d4ec1b3fa841404c162d6/cenc.mpd",
+        "key": "6edfcab8821c7437717ab9c94300a8a0:1dc141c8ac131a68bd1c445acfdc673c"
       },
       {
-        "title": "FANCODE - IN",
+        "title": "FANCODE - SD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash-sd/enc/eayjamsonn/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd?",
+        "key": "5318e462b9e0677487cb87837f0bbdb1:4fa0fb973b95738306005f2e8591bf8e"
+      },
+      {
+        "title": "T Sports HD",
         "type": "hls",
-        "url": "https://in-mc-flive.fancode.com/mumbai/4250640_english_hls_531bf4661e7063_1ta-di_h264/1080p.m3u8?hdntl=Expires=1794628546~_GO=Generated~acl=/mumbai/4250640_english_hls_531bf4661e7063_1ta-di_h264/*~SessionID=330387595_fc-web_e17f533d-0cb8-4f~Signature=AbO9BjhOYLd1GmMfhOhHHklnPOfhTKBOpq8RY94K5cvEs32zsfobefwN_2FtsFC-VmxLp67-63kmnIeMKq08MmKZpgcO",
+        "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8",
         "key": null
       }
     ]
   },
   {
-    "id": 14888,
-    "title": "New Zealand vs India",
-    "slug": "new-zealand-vs-india",
-    "cat": "Live Events",
+    "id": "QWJ1IERoYWJpIFQxMCBMZWFndWUtVUFFIEJ1bGxzLXZzLVlhcyBMaW9uczE3OTM4NTg4MTA1MDM",
+    "title": "Abu Dhabi T10 League",
+    "slug": "QWJ1IERoYWJpIFQxMCBMZWFndWUtVUFFIEJ1bGxzLXZzLVlhcyBMaW9uczE3OTM4NTg4MTA1MDM",
+    "cat": "Cricket",
     "status": "upcoming",
     "event": {
-      "name": "Cricket",
+      "name": "Abu Dhabi T10 League",
+      "category": "Cricket",
+      "teamA": "Abu Dhabi T10",
+      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
+      "teamB": "Abu Dhabi T10",
+      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
+      "startTimeIST": "2026-11-18 13:45:00 IST",
+      "endTimeIST": "2026-11-18 17:45:00 IST",
+      "startTimeUTC": "2026/11/18 08:15:00 +0000",
+      "endTimeUTC": "2026/11/18 12:15:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": "SUNDIFdvcmxkIFRlc3QgQ2hhbXBpb25zaGlwLU5ldyBaZWFsYW5kLXZzLUluZGlhMTc5NDgyNzYwNTkzOQ",
+    "title": "New Zealand vs India",
+    "slug": "SUNDIFdvcmxkIFRlc3QgQ2hhbXBpb25zaGlwLU5ldyBaZWFsYW5kLXZzLUluZGlhMTc5NDgyNzYwNTkzOQ",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "ICC World Test Championship",
       "category": "Cricket",
       "teamA": "New Zealand",
       "teamAFlag": "https://img.sofascore.com/api/v1/team/187755/image",
       "teamB": "India",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/187765/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/11190/image/dark",
-      "startTimeIST": "2026-11-19 03:30:35 IST",
-      "endTimeIST": "2026-11-19 11:30:41 IST",
-      "startTimeUTC": "2026/11/18 22:00:35 +0000",
-      "endTimeUTC": "2026/11/19 06:00:41 +0000"
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18833/image/dark",
+      "startTimeIST": "2026-11-18 22:00:00 IST",
+      "endTimeIST": "2026-11-19 02:00:00 IST",
+      "startTimeUTC": "2026/11/18 16:30:00 +0000",
+      "endTimeUTC": "2026/11/18 20:30:00 +0000"
     },
-    "dashStreams": [
-      {
-        "title": "PRIME ENG - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yqqst5pqux/out/v1/073a062a7b0847ce932d5eadcebc0ac4/cenc.mpd",
-        "key": "d2cc5711d3688fa4b639af9c7d0f11f1:dfd6faef548d25c8e4e8bd0c81e10cae"
-      },
-      {
-        "title": "WILLOW - AQ",
-        "type": "dash",
-        "url": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/kun3tuq8ds/out/v1/2888a4861ca042d1a01fc66e65c44981/cenc.mpd",
-        "key": "1f64db3174349a969b3f9686b28fa2ec:9a24a60537b3628ce17fc07404520d16"
-      },
-      {
-        "title": "PRIME HINDI - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/urcccugwau/out/v1/a9db6d34fd7c475892f37f566feb5d14/cenc.mpd?",
-        "key": "be1f10aeaca62da127a95ce24f9ca1c8:19afcfb83c9fbac9b3b6717776474356"
-      },
-      {
-        "title": "TNT SPORTS - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd",
-        "key": "cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca"
-      },
-      {
-        "title": "WILLOW - ALT",
-        "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/azerlw3rnq/out/v1/d8655060ec4447548120f9322101963b/cenc.mpd",
-        "key": "3a4e1c0452e8620aa47a64c82b81f90d:f11223850b04db47d8815871e6b77d05"
-      },
-      {
-        "title": "SonyLiv - ENG",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119931/cricodi_1411/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794747596~acl=/*~id=96519495444179254654194417123549~hmac=5eb0fb6944aec6acc464198628e5289a2fb267ea5711b80b77e7d134030f47bb",
-        "key": null
-      },
-      {
-        "title": "SonyLiv - HIN",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119921/cricodi_1411/HIN/std_lrh-800300010.m3u8?hdnea=exp=1794747596~acl=/*~id=96519495444179254654194417123549~hmac=5eb0fb6944aec6acc464198628e5289a2fb267ea5711b80b77e7d134030f47bb",
-        "key": null
-      },
-      {
-        "title": "SonyLiv - TAM",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119951/cricodi_1411/TAM/std_lrh-800300010.m3u8?hdnea=exp=1794747596~acl=/*~id=96519495444179254654194417123549~hmac=5eb0fb6944aec6acc464198628e5289a2fb267ea5711b80b77e7d134030f47bb",
-        "key": null
-      },
-      {
-        "title": "SonyLiv - TEL",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119941/cricodi_1411/TEL/std_lrh-800300010.m3u8?hdnea=exp=1794747596~acl=/*~id=96519495444179254654194417123549~hmac=5eb0fb6944aec6acc464198628e5289a2fb267ea5711b80b77e7d134030f47bb",
-        "key": null
-      },
-      {
-        "title": "SonyLiv - KAN",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119782/cricodi_1411/KAN/std_lrh-800300010.m3u8?hdnea=exp=1794747596~acl=/*~id=96519495444179254654194417123549~hmac=5eb0fb6944aec6acc464198628e5289a2fb267ea5711b80b77e7d134030f47bb",
-        "key": null
-      },
-      {
-        "title": "TAPMAD BD - AQ",
-        "type": "hls",
-        "url": "https://serieAleague.akamaized.net/hls/live/2107107/tap-BK-PSL-D1-E/master.m3u8",
-        "key": null
-      },
-      {
-        "title": "SONYLIV BD - AQ",
-        "type": "hls",
-        "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119931/cricodi_1411/ENG/std_lrh-800300010.m3u8?hdnea=exp=1794747596~acl=/*~id=96519495444179254654194417123549~hmac=5eb0fb6944aec6acc464198628e5289a2fb267ea5711b80b77e7d134030f47bb",
-        "key": null
-      },
-      {
-        "title": "SONY GLOBAL",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2022321/DAI17-INDNZ/master.m3u8?hdnea=exp=1794750655~acl=/*~id=45577059795063177253236564546996~hmac=b42a889d2ecc0257653da73fdff76e700727ea5be1aa165a20877b8e09094342",
-        "key": null
-      }
-    ]
+    "dashStreams": []
   }
 ]
