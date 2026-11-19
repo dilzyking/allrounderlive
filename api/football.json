@@ -336,27 +336,6 @@
     "dashStreams": []
   },
   {
-    "id": 1369,
-    "title": "FC Bayern München vs 1. FC Köln",
-    "slug": "FC-Bayern-München-vs-1.-FC-Köln",
-    "cat": "Football",
-    "status": "upcoming",
-    "event": {
-      "name": "Bundesliga",
-      "category": "Football",
-      "teamA": "FC Bayern München",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2672/image",
-      "teamB": "1. FC Köln",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2671/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/35/image/dark",
-      "startTimeIST": "2026-11-21 01:00:00 IST",
-      "endTimeIST": "2026-11-21 03:20:00 IST",
-      "startTimeUTC": "2026/11/20 19:30:00 +0000",
-      "endTimeUTC": "2026/11/20 21:50:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 1379,
     "title": "FC Bayern München vs 1. FC Köln",
     "slug": "FC-Bayern-München-vs-1.-FC-Köln",
@@ -378,7 +357,28 @@
     "dashStreams": []
   },
   {
-    "id": 1370,
+    "id": 1382,
+    "title": "FC Bayern München vs 1. FC Köln",
+    "slug": "FC-Bayern-München-vs-1.-FC-Köln",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Bundesliga",
+      "category": "Football",
+      "teamA": "FC Bayern München",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2672/image",
+      "teamB": "1. FC Köln",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2671/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/35/image/dark",
+      "startTimeIST": "2026-11-21 01:00:00 IST",
+      "endTimeIST": "2026-11-21 03:20:00 IST",
+      "startTimeUTC": "2026/11/20 19:30:00 +0000",
+      "endTimeUTC": "2026/11/20 21:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 1380,
     "title": "Troyes vs Le Havre",
     "slug": "Troyes-vs-Le-Havre",
     "cat": "Football",
@@ -399,7 +399,7 @@
     "dashStreams": []
   },
   {
-    "id": 1380,
+    "id": 1383,
     "title": "Troyes vs Le Havre",
     "slug": "Troyes-vs-Le-Havre",
     "cat": "Football",
@@ -516,27 +516,6 @@
       "teamAFlag": "https://img.sofascore.com/api/v1/team/2541/image",
       "teamB": "SpVgg Greuther Fürth",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/2551/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/44/image/dark",
-      "startTimeIST": "2026-11-21 17:30:00 IST",
-      "endTimeIST": "2026-11-21 19:50:00 IST",
-      "startTimeUTC": "2026/11/21 12:00:00 +0000",
-      "endTimeUTC": "2026/11/21 14:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 1371,
-    "title": "VfL Wolfsburg vs Holstein Kiel",
-    "slug": "VfL-Wolfsburg-vs-Holstein-Kiel",
-    "cat": "Football",
-    "status": "upcoming",
-    "event": {
-      "name": "2. Bundesliga",
-      "category": "Football",
-      "teamA": "VfL Wolfsburg",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2524/image",
-      "teamB": "Holstein Kiel",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2573/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/44/image/dark",
       "startTimeIST": "2026-11-21 17:30:00 IST",
       "endTimeIST": "2026-11-21 19:50:00 IST",
