@@ -1955,6 +1955,16 @@
   -webkit-font-smoothing: antialiased;
   font-synthesis: none;
 }
+
+      @media (min-width: 768px) {
+  .viewport {
+    aspect-ratio: auto !important;
+    /* 16:9 on tall screens, but never taller than (screen height - 190px) */
+    height: min(56.25vw, calc(100vh - 190px));
+    height: min(56.25vw, calc(100svh - 190px));
+    min-height: 360px;
+  }
+}
     </style></head
   ><body
     ><div class="ambient" aria-hidden="true"
