@@ -98,6 +98,34 @@
     ]
   },
   {
+    "id": 1280,
+    "title": "Bangladesh A vs hong Kong",
+    "slug": "Bangladesh-A-vs-hong-Kong",
+    "cat": "Cricket",
+    "status": "live",
+    "event": {
+      "name": "Asia Cup Rising Stars",
+      "category": "Cricket",
+      "teamA": "Bangladesh A",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/187809/image",
+      "teamB": "hong Kong",
+      "teamBFlag": "v",
+      "logo": "no",
+      "startTimeIST": "2026-11-19 11:30:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/19 06:00:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": [
+      {
+        "title": "PlayZ TV",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120300/criclive1911/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795114026~acl=/*~id=10808243896974239339858440856298~hmac=0e269393db83e30434825b2d94e4ac4a931cc0931315644cddc6956dec48089e",
+        "key": null
+      }
+    ]
+  },
+  {
     "id": 1218,
     "title": "South Africa vs Bangladesh",
     "slug": "South-Africa-vs-Bangladesh",
