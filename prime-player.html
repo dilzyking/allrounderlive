@@ -160,7 +160,7 @@
     .section-heading h2 .section-chevron { width: 18px; height: 18px; stroke: #e7e9ed; stroke-width: 2.4; fill: none; }
     .section-heading p { margin: 7px 0 0; color: #9096a4; font-size: 12px; line-height: 1.5; }
 
-    /* Language selector row (appears when multiple languages) */
+    /* Language selector row */
     .lang-row {
       display: flex; flex-wrap: wrap; align-items: center; gap: 8px;
       margin: 4px 0 14px;
@@ -398,7 +398,6 @@
       .waBtn { transition: none !important; }
     }
 
-    /* Player styling — identical to Willow */
     .player-wrapper { background:#000; }
     #videoContainer { position:absolute; inset:0; width:100%; height:100%; background:#000; }
     #videoContainer.shaka-video-container { position:absolute; inset:0; }
@@ -568,7 +567,7 @@
       let player = null;
       let ui = null;
       let currentGroup = null;
-      let currentMatch = null;   // currently selected language variant (raw entry)
+      let currentMatch = null;
       let streams = [];
       let activeIndex = -1;
       let loading = false;
@@ -605,7 +604,7 @@
         stateTag.textContent = s;
       }
 
-      // ---------- STREAM / DRM EXTRACTION ----------
+      // ---------- PLAYBACK HELPERS ----------
 
       function getPlaybackUrl(match) {
         const urls = match?.playback_details?.playback_url;
@@ -615,6 +614,21 @@
           if (url) return url;
         }
         return '';
+      }
+
+      function hasPlayback(match) {
+        return !!getPlaybackUrl(match);
+      }
+
+      function playbackScore(m) {
+        if (!m) return -1;
+        const p = m.playback_details || {};
+        let score = 0;
+        if (hasPlayback(m)) score += 100;
+        if (Array.isArray(p.clearkey_pairs) && p.clearkey_pairs.length) score += 50;
+        if (p.jwk_keys) score += 10;
+        if (!/broadcast/i.test(m.title || '')) score += 5;
+        return score;
       }
 
       function getClearKeys(match) {
@@ -654,13 +668,25 @@
               images: m.catalogMetadata?.images || {},
               venue: m.liveSchedule?.venue || '',
               streams: {},
+              allEntries: [],
               languages: [],
             });
           }
           const g = groups.get(key);
-          if (lang) g.streams[lang] = m;
+          g.allEntries.push(m);
+
+          // Keep the entry with the richest playback data per language.
+          const existing = g.streams[lang];
+          if (!existing || playbackScore(m) > playbackScore(existing)) {
+            g.streams[lang] = m;
+          }
           if (lang && !g.languages.includes(lang)) g.languages.push(lang);
           if (m.liveSchedule?.venue) g.venue = m.liveSchedule.venue;
+
+          // Prefer real fixture title over broadcast label.
+          if (/broadcast/i.test(g.title) && !/broadcast/i.test(cat.title || '')) {
+            g.title = cat.title || cat.eventTitle || g.title;
+          }
         }
         return [...groups.values()];
       }
@@ -672,6 +698,7 @@
           group.images.coverImage ||
           group.images.heroImage ||
           group.images.boxartImage ||
+          group.allEntries.find(m => m.images?.coverImageFragments?.mediaCentralUrl)?.images?.coverImageFragments?.mediaCentralUrl ||
           ''
         );
       }
@@ -842,16 +869,52 @@
         } finally { if (token === loadingToken) loading = false; }
       }
 
-      function buildStreamsFor(match) {
-        const url = getPlaybackUrl(match);
+      /**
+       * Build the streams array for a match.
+       * Tries the chosen entry first; if it has no playback URL, falls back
+       * to any entry in the group (same language preferred, then any).
+       */
+      function buildStreamsFor(match, group) {
+        let url = getPlaybackUrl(match);
+        let src = match;
+
+        if (!url && group) {
+          const lang =
+            match?.catalogMetadata?.catalog?.originalLanguages?.[0] ||
+            match?.catalogMetadata?.catalog?.primarySpokenLanguages?.[0];
+
+          // Prefer same-language entry with a URL
+          const sameLang = group.allEntries.find(m => {
+            if (!getPlaybackUrl(m)) return false;
+            const l =
+              m.catalogMetadata?.catalog?.originalLanguages?.[0] ||
+              m.catalogMetadata?.catalog?.primarySpokenLanguages?.[0];
+            return lang && l === lang;
+          });
+          if (sameLang) {
+            src = sameLang;
+            url = getPlaybackUrl(sameLang);
+          } else {
+            // Fall back to any entry with a URL
+            const any = group.allEntries.find(m => getPlaybackUrl(m));
+            if (any) {
+              src = any;
+              url = getPlaybackUrl(any);
+            }
+          }
+        }
+
         if (!url) return [];
-        const lang = match?.catalogMetadata?.catalog?.originalLanguages?.[0]
-          || match?.catalogMetadata?.catalog?.primarySpokenLanguages?.[0]
-          || 'Stream';
+
+        const langName =
+          src?.catalogMetadata?.catalog?.originalLanguages?.[0] ||
+          src?.catalogMetadata?.catalog?.primarySpokenLanguages?.[0] ||
+          'Stream';
+
         return [{
-          name: lang,
+          name: langName,
           url,
-          clearKeys: getClearKeys(match)
+          clearKeys: getClearKeys(src),
         }];
       }
 
@@ -872,7 +935,7 @@
         const match = currentGroup.streams[lang];
         if (!match) return;
         currentMatch = match;
-        streams = buildStreamsFor(match);
+        streams = buildStreamsFor(match, currentGroup);   // ← pass group
         if (!streams.length) {
           showError('No stream for this language', `No playback URL is available for ${lang}.`, false);
           return;
@@ -921,7 +984,7 @@
             return;
           }
           currentMatch = group.streams[preferred];
-          streams = buildStreamsFor(currentMatch);
+          streams = buildStreamsFor(currentMatch, group);   // ← pass group
           renderLanguageRow(group, preferred);
 
           if (!streams.length) {
@@ -1163,4 +1226,4 @@
     })();
   </script>
 </body>
-  </html>
+</html>
