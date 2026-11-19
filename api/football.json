@@ -357,7 +357,28 @@
     "dashStreams": []
   },
   {
-    "id": 1345,
+    "id": 1369,
+    "title": "FC Bayern München vs 1. FC Köln",
+    "slug": "FC-Bayern-München-vs-1.-FC-Köln",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Bundesliga",
+      "category": "Football",
+      "teamA": "FC Bayern München",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2672/image",
+      "teamB": "1. FC Köln",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2671/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/35/image/dark",
+      "startTimeIST": "2026-11-21 01:00:00 IST",
+      "endTimeIST": "2026-11-21 03:20:00 IST",
+      "startTimeUTC": "2026/11/20 19:30:00 +0000",
+      "endTimeUTC": "2026/11/20 21:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 1368,
     "title": "Troyes vs Le Havre",
     "slug": "Troyes-vs-Le-Havre",
     "cat": "Football",
@@ -378,7 +399,7 @@
     "dashStreams": []
   },
   {
-    "id": 1368,
+    "id": 1370,
     "title": "Troyes vs Le Havre",
     "slug": "Troyes-vs-Le-Havre",
     "cat": "Football",
@@ -525,6 +546,27 @@
     "dashStreams": []
   },
   {
+    "id": 1371,
+    "title": "VfL Wolfsburg vs Holstein Kiel",
+    "slug": "VfL-Wolfsburg-vs-Holstein-Kiel",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "2. Bundesliga",
+      "category": "Football",
+      "teamA": "VfL Wolfsburg",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2524/image",
+      "teamB": "Holstein Kiel",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2573/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/44/image/dark",
+      "startTimeIST": "2026-11-21 17:30:00 IST",
+      "endTimeIST": "2026-11-21 19:50:00 IST",
+      "startTimeUTC": "2026/11/21 12:00:00 +0000",
+      "endTimeUTC": "2026/11/21 14:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
     "id": 1325,
     "title": "Manchester City vs Fulham",
     "slug": "Manchester-City-vs-Fulham",
@@ -584,6 +626,48 @@
       "endTimeIST": "2026-11-21 21:50:00 IST",
       "startTimeUTC": "2026/11/21 14:00:00 +0000",
       "endTimeUTC": "2026/11/21 16:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 1372,
+    "title": "Bayer 04 Leverkusen vs SC Paderborn 07",
+    "slug": "Bayer-04-Leverkusen-vs-SC-Paderborn-07",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Bundesliga",
+      "category": "Football",
+      "teamA": "Bayer 04 Leverkusen",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2681/image",
+      "teamB": "SC Paderborn 07",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2561/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/35/image/dark",
+      "startTimeIST": "2026-11-21 20:00:00 IST",
+      "endTimeIST": "2026-11-21 22:20:00 IST",
+      "startTimeUTC": "2026/11/21 14:30:00 +0000",
+      "endTimeUTC": "2026/11/21 16:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 1373,
+    "title": "SV 07 Elversberg vs SC Freiburg",
+    "slug": "SV-07-Elversberg-vs-SC-Freiburg",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Bundesliga",
+      "category": "Football",
+      "teamA": "SV 07 Elversberg",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2598/image",
+      "teamB": "SC Freiburg",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2538/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/35/image/dark",
+      "startTimeIST": "2026-11-21 20:00:00 IST",
+      "endTimeIST": "2026-11-21 22:20:00 IST",
+      "startTimeUTC": "2026/11/21 14:30:00 +0000",
+      "endTimeUTC": "2026/11/21 16:50:00 +0000"
     },
     "dashStreams": []
   },
@@ -840,6 +924,48 @@
     "dashStreams": []
   },
   {
+    "id": 1374,
+    "title": "New England Revolution vs Philadelphia Union",
+    "slug": "New-England-Revolution-vs-Philadelphia-Union",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "MLS",
+      "category": "Football",
+      "teamA": "New England Revolution",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2511/image",
+      "teamB": "Philadelphia Union",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/39833/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/242/image/dark",
+      "startTimeIST": "2026-11-22 00:30:00 IST",
+      "endTimeIST": "2026-11-22 02:50:00 IST",
+      "startTimeUTC": "2026/11/21 19:00:00 +0000",
+      "endTimeUTC": "2026/11/21 21:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 1375,
+    "title": "FC St. Pauli vs VfL Bochum 1848",
+    "slug": "FC-St.-Pauli-vs-VfL-Bochum-1848",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "2. Bundesliga",
+      "category": "Football",
+      "teamA": "FC St. Pauli",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2526/image",
+      "teamB": "VfL Bochum 1848",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2542/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/44/image/dark",
+      "startTimeIST": "2026-11-22 01:00:00 IST",
+      "endTimeIST": "2026-11-22 03:20:00 IST",
+      "startTimeUTC": "2026/11/21 19:30:00 +0000",
+      "endTimeUTC": "2026/11/21 21:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
     "id": 1358,
     "title": "AS Monaco vs AJ Auxerre",
     "slug": "AS-Monaco-vs-AJ-Auxerre",
@@ -987,6 +1113,48 @@
     "dashStreams": []
   },
   {
+    "id": 1376,
+    "title": "FC Dallas vs Portland Timbers",
+    "slug": "FC-Dallas-vs-Portland-Timbers",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "MLS",
+      "category": "Football",
+      "teamA": "FC Dallas",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2512/image",
+      "teamB": "Portland Timbers",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/22007/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/242/image/dark",
+      "startTimeIST": "2026-11-22 02:30:00 IST",
+      "endTimeIST": "2026-11-22 04:50:00 IST",
+      "startTimeUTC": "2026/11/21 21:00:00 +0000",
+      "endTimeUTC": "2026/11/21 23:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 1377,
+    "title": "Inter Vice City vs Columbus Crew",
+    "slug": "Inter-Vice-City-vs-Columbus-Crew",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "MLS",
+      "category": "Football",
+      "teamA": "Inter Vice City",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/337602/image",
+      "teamB": "Columbus Crew",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2504/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/242/image/dark",
+      "startTimeIST": "2026-11-22 04:30:00 IST",
+      "endTimeIST": "2026-11-22 06:50:00 IST",
+      "startTimeUTC": "2026/11/21 23:00:00 +0000",
+      "endTimeUTC": "2026/11/22 01:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
     "id": 1365,
     "title": "Juventus vs Venezia",
     "slug": "Juventus-vs-Venezia",
@@ -1004,6 +1172,27 @@
       "endTimeIST": "2026-11-22 19:20:00 IST",
       "startTimeUTC": "2026/11/22 11:30:00 +0000",
       "endTimeUTC": "2026/11/22 13:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 1378,
+    "title": "1. FC Kaiserslautern vs SG Dynamo Dresden",
+    "slug": "1.-FC-Kaiserslautern-vs-SG-Dynamo-Dresden",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "2. Bundesliga",
+      "category": "Football",
+      "teamA": "1. FC Kaiserslautern",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2675/image",
+      "teamB": "SG Dynamo Dresden",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2595/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/44/image/dark",
+      "startTimeIST": "2026-11-22 18:00:00 IST",
+      "endTimeIST": "2026-11-22 20:20:00 IST",
+      "startTimeUTC": "2026/11/22 12:30:00 +0000",
+      "endTimeUTC": "2026/11/22 14:50:00 +0000"
     },
     "dashStreams": []
   },
