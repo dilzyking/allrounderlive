@@ -220,7 +220,20 @@
       "startTimeUTC": "2026/11/19 10:00:00 +0000",
       "endTimeUTC": null
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "WILLOW - AQ",
+        "type": "dash",
+        "url": "https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/cix65j0fhp/out/v1/40e83e3831354f46aa6c4f7f33b22606/cenc.mpd",
+        "key": "964c4b09d34aec26004af58468df3f63:33241077e9b7604e876d6b23c1fcf8ac"
+      },
+      {
+        "title": "SONYLIV ENG - AQ",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120301/criclive1911/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795124926~acl=/*~id=84117785468934185076631080120857~hmac=5c6ce4f7b8eb18e33439171995937341f4af30e5b366d33d7268e4bb95e34ed8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 1221,
