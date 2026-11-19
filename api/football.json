@@ -4,7 +4,7 @@
     "title": "FK Austria Wien vs FC Bayern München",
     "slug": "FK-Austria-Wien-vs-FC-Bayern-München",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Women's Champions League",
       "category": "Football",
@@ -18,14 +18,21 @@
       "startTimeUTC": "2026/11/19 17:45:00 +0000",
       "endTimeUTC": "2026/11/19 20:05:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PlayZ TV",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel1.m3u8?",
+        "key": null
+      }
+    ]
   },
   {
     "id": 1283,
     "title": "Paris FC vs HB Køge",
     "slug": "Paris-FC-vs-HB-Køge",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Women's Champions League",
       "category": "Football",
@@ -343,27 +350,6 @@
     "dashStreams": []
   },
   {
-    "id": 1517,
-    "title": "FC Bayern München vs 1. FC Köln",
-    "slug": "FC-Bayern-München-vs-1.-FC-Köln",
-    "cat": "Football",
-    "status": "upcoming",
-    "event": {
-      "name": "Bundesliga",
-      "category": "Football",
-      "teamA": "FC Bayern München",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2672/image",
-      "teamB": "1. FC Köln",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2671/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/35/image/dark",
-      "startTimeIST": "2026-11-21 01:00:00 IST",
-      "endTimeIST": "2026-11-21 03:20:00 IST",
-      "startTimeUTC": "2026/11/20 19:30:00 +0000",
-      "endTimeUTC": "2026/11/20 21:50:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 1519,
     "title": "FC Bayern München vs 1. FC Köln",
     "slug": "FC-Bayern-München-vs-1.-FC-Köln",
@@ -385,7 +371,28 @@
     "dashStreams": []
   },
   {
-    "id": 1518,
+    "id": 1521,
+    "title": "FC Bayern München vs 1. FC Köln",
+    "slug": "FC-Bayern-München-vs-1.-FC-Köln",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Bundesliga",
+      "category": "Football",
+      "teamA": "FC Bayern München",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2672/image",
+      "teamB": "1. FC Köln",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2671/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/35/image/dark",
+      "startTimeIST": "2026-11-21 01:00:00 IST",
+      "endTimeIST": "2026-11-21 03:20:00 IST",
+      "startTimeUTC": "2026/11/20 19:30:00 +0000",
+      "endTimeUTC": "2026/11/20 21:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 1520,
     "title": "Troyes vs Le Havre",
     "slug": "Troyes-vs-Le-Havre",
     "cat": "Football",
@@ -406,7 +413,7 @@
     "dashStreams": []
   },
   {
-    "id": 1520,
+    "id": 1522,
     "title": "Troyes vs Le Havre",
     "slug": "Troyes-vs-Le-Havre",
     "cat": "Football",
