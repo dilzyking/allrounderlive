@@ -1,0 +1,216 @@
+/* =========================================================
+   PRIME VIDEO LIVE — same card layout as Willow / Cricket.
+   No live counter badge.
+   ========================================================= */
+
+#primevideo .prime-live-card {
+  display: block;
+  padding: 0;
+  text-align: left;
+  border-radius: 0;
+  font: inherit;
+}
+
+#primevideo button.prime-live-card {
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: default;
+}
+
+#primevideo .prime-live-thumb {
+  background: #121620;
+}
+
+#primevideo .prime-live-thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+#primevideo .wl-no-poster {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: #8b90a0;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* Play overlay for playable LIVE matches. */
+
+#primevideo .wl-play {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 42px;
+  height: 42px;
+  transform: translate(-50%, -50%);
+  display: grid;
+  place-items: center;
+  border: 1px solid #ffffff65;
+  border-radius: 50%;
+  background: #08090d85;
+  color: #fff;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity .22s ease;
+  pointer-events: none;
+}
+
+#primevideo .wl-play svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+#primevideo a.prime-live-card:hover .wl-play,
+#primevideo a.prime-live-card:focus-visible .wl-play {
+  opacity: 1;
+}
+
+/* Upcoming bell, same placement as Cricket / Willow. */
+
+#primevideo .wl-upcoming-icon {
+  position: absolute;
+  bottom: 7px;
+  left: 8px;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 27px;
+  height: 25px;
+  padding: 4px;
+  border-radius: 2px;
+  background: #f1f0ec;
+  color: #222935;
+}
+
+#primevideo .wl-upcoming-icon svg {
+  display: block;
+  width: 17px;
+  height: 17px;
+  fill: currentColor;
+}
+
+/* Exactly two caption lines. */
+
+#primevideo .caption > span {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#primevideo .wl-meta {
+  font-size: inherit;
+}
+
+/* Focus states. */
+
+#primevideo .prime-live-card:focus-visible,
+#primevideo .arrow:focus-visible,
+#primevideo .wl-retry:focus-visible {
+  outline: 2px solid #f55505;
+  outline-offset: -2px;
+}
+
+/* Empty and error states. */
+
+#primevideo .wl-empty {
+  padding: 24px 0;
+  color: #93969f;
+}
+
+#primevideo .wl-retry {
+  margin-left: 8px;
+  padding: 5px 10px;
+  border: 1px solid #ffffff30;
+  border-radius: 4px;
+  background: #ffffff0d;
+  color: inherit;
+}
+
+/* Skeleton loader. */
+
+#primevideo .wl-skeleton-thumb {
+  background: linear-gradient(
+    100deg,
+    #121620 25%,
+    #222938 50%,
+    #121620 75%
+  );
+  background-size: 200% 100%;
+  animation: pv-loading 1.6s ease-in-out infinite;
+}
+
+#primevideo .wl-skeleton-line {
+  height: 10px;
+  width: 80%;
+  margin: 5px 0;
+  background: #ffffff12;
+}
+
+#primevideo .wl-skeleton-line:last-child {
+  width: 55%;
+}
+
+@keyframes pv-loading {
+  to {
+    background-position: -200% 0;
+  }
+}
+
+/* Independent Prime Video arrow controls. */
+
+#primevideo .live-rail > .arrow {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 5;
+  width: 48px;
+  height: 48px;
+  top: var(--pv-arrow-top, 70px);
+  padding: 0;
+  border: 0;
+  background: none;
+  color: #fff;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  filter: drop-shadow(0 1px 5px #000c);
+}
+
+#primevideo .live-rail > .prev { left: 0; }
+#primevideo .live-rail > .next { right: 0; }
+#primevideo .live-rail > .arrow svg { width: 26px; height: 26px; }
+
+/* Hide arrows on portrait phones only. */
+
+@media (max-width: 767px) and (orientation: portrait) {
+  #primevideo .live-rail > .arrow {
+    display: none !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #primevideo .wl-skeleton-thumb { animation: none; }
+  #primevideo .wl-play,
+  #primevideo .live-rail > .arrow { transition: none; }
+}
+
+/* Team / title names — same as FanCode / Willow */
+
+#primevideo .caption > span:first-child {
+  color: #e2e3e8;
+  font-weight: 600;
+}
+
+#primevideo .caption .wl-meta {
+  color: #93969f;
+  font-weight: 400;
+}
