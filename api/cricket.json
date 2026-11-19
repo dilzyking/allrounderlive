@@ -1,57 +1,5 @@
 [
   {
-    "id": 1214,
-    "title": "Pakistan vs Sri Lanka",
-    "slug": "Pakistan-vs-Sri-Lanka",
-    "cat": "Cricket",
-    "status": "live",
-    "event": {
-      "name": "ICC World Test Championship",
-      "category": "Cricket",
-      "teamA": "Pakistan",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/187754/image",
-      "teamB": "Sri Lanka",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/187756/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18833/image/dark",
-      "startTimeIST": "2026-11-19 10:00:00 IST",
-      "endTimeIST": null,
-      "startTimeUTC": "2026/11/19 04:30:00 +0000",
-      "endTimeUTC": null
-    },
-    "dashStreams": [
-      {
-        "title": "WILLOW - AQ",
-        "type": "dash",
-        "url": "https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/i4j35tc3ub/out/v1/3bf2e223260f4d74ad57635eb14fd068/cenc.mpd",
-        "key": "15bb136e7ac737c7f35172fe6703b695:8fa933ee92c1e8d1f5d2855152d784f2"
-      },
-      {
-        "title": "TAPMAD - AQ",
-        "type": "hls",
-        "url": "https://tencent-cdn.tapmad.com/v1/01a14a9fb90c15fc60e91e1786b061/01a14a9feb881ea540a81c2b41b75e/main.m3u8?",
-        "key": null
-      },
-      {
-        "title": "TAMASHA PRO AQ",
-        "type": "hls",
-        "url": "https://cdn03khi-n.tamashaweb.com:8087/appcast/SL-vs-PAK-2026-SVOD-abr/playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "VITO AQ (IND)",
-        "type": "hls",
-        "url": "https://mbgthz-veto.akamaized.net/f98c8ae68a354ab59a4e28e3dd700d4f/playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "PTV SPORTS HD",
-        "type": "hls",
-        "url": "https://live.msnetworks.net/ptv-sports/master.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 1280,
     "title": "Bangladesh A vs hong Kong",
     "slug": "Bangladesh-A-vs-hong-Kong",
@@ -108,7 +56,7 @@
     "title": "Brisbane Heat Women vs Sydney Thunder Women",
     "slug": "Brisbane-Heat-Women-vs-Sydney-Thunder-Women",
     "cat": "Cricket",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Women's Big Bash League",
       "category": "Cricket",
@@ -118,9 +66,9 @@
       "teamBFlag": "https://img.sofascore.com/api/v1/team/274889/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/11163/image/dark",
       "startTimeIST": "2026-11-19 13:40:00 IST",
-      "endTimeIST": null,
+      "endTimeIST": "2026-11-19 17:23:00 IST",
       "startTimeUTC": "2026/11/19 08:10:00 +0000",
-      "endTimeUTC": null
+      "endTimeUTC": "2026/11/19 11:53:00 +0000"
     },
     "dashStreams": [
       {
@@ -367,6 +315,58 @@
         "title": "TAPMAD S2 - AQ",
         "type": "hls",
         "url": "https://tencent-cdn.tapmad.com/v1/01a14abbcff31ea540a81c2b41b760/01a14abc06421567ee931e109fa577/main.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 1214,
+    "title": "Pakistan vs Sri Lanka",
+    "slug": "Pakistan-vs-Sri-Lanka",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "ICC World Test Championship",
+      "category": "Cricket",
+      "teamA": "Pakistan",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/187754/image",
+      "teamB": "Sri Lanka",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/187756/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18833/image/dark",
+      "startTimeIST": "2026-11-20 10:00:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/20 04:30:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": [
+      {
+        "title": "WILLOW - AQ",
+        "type": "dash",
+        "url": "https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/i4j35tc3ub/out/v1/3bf2e223260f4d74ad57635eb14fd068/cenc.mpd",
+        "key": "15bb136e7ac737c7f35172fe6703b695:8fa933ee92c1e8d1f5d2855152d784f2"
+      },
+      {
+        "title": "TAPMAD - AQ",
+        "type": "hls",
+        "url": "https://tencent-cdn.tapmad.com/v1/01a14a9fb90c15fc60e91e1786b061/01a14a9feb881ea540a81c2b41b75e/main.m3u8?",
+        "key": null
+      },
+      {
+        "title": "TAMASHA PRO AQ",
+        "type": "hls",
+        "url": "https://cdn03khi-n.tamashaweb.com:8087/appcast/SL-vs-PAK-2026-SVOD-abr/playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "VITO AQ (IND)",
+        "type": "hls",
+        "url": "https://mbgthz-veto.akamaized.net/f98c8ae68a354ab59a4e28e3dd700d4f/playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "PTV SPORTS HD",
+        "type": "hls",
+        "url": "https://live.msnetworks.net/ptv-sports/master.m3u8",
         "key": null
       }
     ]
