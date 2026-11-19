@@ -98,64 +98,6 @@
     ]
   },
   {
-    "id": 1218,
-    "title": "South Africa vs Bangladesh",
-    "slug": "South-Africa-vs-Bangladesh",
-    "cat": "Cricket",
-    "status": "live",
-    "event": {
-      "name": "ICC World Test Championship",
-      "category": "Cricket",
-      "teamA": "South Africa",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/187747/image",
-      "teamB": "Bangladesh",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/187744/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18833/image/dark",
-      "startTimeIST": "2026-11-19 13:30:00 IST",
-      "endTimeIST": null,
-      "startTimeUTC": "2026/11/19 08:00:00 +0000",
-      "endTimeUTC": null
-    },
-    "dashStreams": [
-      {
-        "title": "WILLOW - AQ",
-        "type": "dash",
-        "url": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/sibenka6zx/out/v1/a813485385a34d57a9d1b60430370533/cenc.mpd",
-        "key": "ade0d3679d401d18ec4c96eb65344148:a7a659a01bf2ec21e1c406ae96dc5298"
-      },
-      {
-        "title": "FANCODE FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
-        "key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
-      },
-      {
-        "title": "SKY SPORTS CRICKET",
-        "type": "hls",
-        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
-        "key": null
-      },
-      {
-        "title": "WILLOW S2 - AQ",
-        "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/sibenka6zx/out/v1/a813485385a34d57a9d1b60430370533/cenc.mpd",
-        "key": "ade0d3679d401d18ec4c96eb65344148:a7a659a01bf2ec21e1c406ae96dc5298"
-      },
-      {
-        "title": "FANCODE - SD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash-sd/enc/eayjamsonn/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd?",
-        "key": "5318e462b9e0677487cb87837f0bbdb1:4fa0fb973b95738306005f2e8591bf8e"
-      },
-      {
-        "title": "T Sports HD",
-        "type": "hls",
-        "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 1276,
     "title": "Brisbane Heat Women vs Sydney Thunder Women",
     "slug": "Brisbane-Heat-Women-vs-Sydney-Thunder-Women",
@@ -447,6 +389,64 @@
         "title": "TAPMAD - AQ",
         "type": "hls",
         "url": "https://serieAleague.akamaized.net/hls/live/2107107/A1@25853-tapmad/master.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 1218,
+    "title": "South Africa vs Bangladesh",
+    "slug": "South-Africa-vs-Bangladesh",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "ICC World Test Championship",
+      "category": "Cricket",
+      "teamA": "South Africa",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/187747/image",
+      "teamB": "Bangladesh",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/187744/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18833/image/dark",
+      "startTimeIST": "2026-11-23 13:30:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/23 08:00:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": [
+      {
+        "title": "WILLOW - AQ",
+        "type": "dash",
+        "url": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/sibenka6zx/out/v1/a813485385a34d57a9d1b60430370533/cenc.mpd",
+        "key": "ade0d3679d401d18ec4c96eb65344148:a7a659a01bf2ec21e1c406ae96dc5298"
+      },
+      {
+        "title": "FANCODE FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+        "key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
+      },
+      {
+        "title": "SKY SPORTS CRICKET",
+        "type": "hls",
+        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
+        "key": null
+      },
+      {
+        "title": "WILLOW S2 - AQ",
+        "type": "dash",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/sibenka6zx/out/v1/a813485385a34d57a9d1b60430370533/cenc.mpd",
+        "key": "ade0d3679d401d18ec4c96eb65344148:a7a659a01bf2ec21e1c406ae96dc5298"
+      },
+      {
+        "title": "FANCODE - SD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash-sd/enc/eayjamsonn/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd?",
+        "key": "5318e462b9e0677487cb87837f0bbdb1:4fa0fb973b95738306005f2e8591bf8e"
+      },
+      {
+        "title": "T Sports HD",
+        "type": "hls",
+        "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8",
         "key": null
       }
     ]
