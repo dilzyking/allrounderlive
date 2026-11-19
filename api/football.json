@@ -4,7 +4,7 @@
     "title": "Arsenal vs OL Lyonnes",
     "slug": "Arsenal-vs-OL-Lyonnes",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Women's Champions League",
       "category": "Football",
@@ -20,9 +20,27 @@
     },
     "dashStreams": [
       {
+        "title": "FANCODE - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+        "key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
+      },
+      {
+        "title": "CBS NETWORK FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
+        "key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+      },
+      {
         "title": "HD STREAM",
         "type": "hls",
         "url": "https://live2.jorvakstreamcache.com/live/channel6.m3u8",
+        "key": null
+      },
+      {
+        "title": "PlayZ TV Live",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4646547.m3u8?txSecret=d4fbe4a566bec8f396eea490cb1d5285&txTime=6AFF65EF",
         "key": null
       }
     ]
@@ -32,7 +50,7 @@
     "title": "Benfica vs AS Roma",
     "slug": "Benfica-vs-AS-Roma",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Women's Champions League",
       "category": "Football",
@@ -60,7 +78,7 @@
     "title": "Fútbol Club Barcelona vs Servette FC Chênois Féminin",
     "slug": "Fútbol-Club-Barcelona-vs-Servette-FC-Chênois-Féminin",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Women's Champions League",
       "category": "Football",
@@ -86,6 +104,12 @@
         "type": "dash",
         "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash-sd/enc/v8g0dlo4z8/out/v1/946019f85dc64ae99ff9ce64a9727a62/cenc-sd.mpd",
         "key": "5689304538fa9f3bb3da99c939a2ad4f:6907c88ed8ebdd35a2fa80b9684715e1"
+      },
+      {
+        "title": "PlayZ TV Live",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4646548.m3u8?txSecret=9a374acb09e460a132379c28818023ac&txTime=6AFF65CF",
+        "key": null
       },
       {
         "title": "HD STREAM",
@@ -327,27 +351,6 @@
     "dashStreams": []
   },
   {
-    "id": 1572,
-    "title": "FC Bayern München vs 1. FC Köln",
-    "slug": "FC-Bayern-München-vs-1.-FC-Köln",
-    "cat": "Football",
-    "status": "upcoming",
-    "event": {
-      "name": "Bundesliga",
-      "category": "Football",
-      "teamA": "FC Bayern München",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2672/image",
-      "teamB": "1. FC Köln",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2671/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/35/image/dark",
-      "startTimeIST": "2026-11-21 01:00:00 IST",
-      "endTimeIST": "2026-11-21 03:20:00 IST",
-      "startTimeUTC": "2026/11/20 19:30:00 +0000",
-      "endTimeUTC": "2026/11/20 21:50:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 1574,
     "title": "FC Bayern München vs 1. FC Köln",
     "slug": "FC-Bayern-München-vs-1.-FC-Köln",
@@ -369,7 +372,28 @@
     "dashStreams": []
   },
   {
-    "id": 1573,
+    "id": 1576,
+    "title": "FC Bayern München vs 1. FC Köln",
+    "slug": "FC-Bayern-München-vs-1.-FC-Köln",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Bundesliga",
+      "category": "Football",
+      "teamA": "FC Bayern München",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2672/image",
+      "teamB": "1. FC Köln",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2671/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/35/image/dark",
+      "startTimeIST": "2026-11-21 01:00:00 IST",
+      "endTimeIST": "2026-11-21 03:20:00 IST",
+      "startTimeUTC": "2026/11/20 19:30:00 +0000",
+      "endTimeUTC": "2026/11/20 21:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 1575,
     "title": "Troyes vs Le Havre",
     "slug": "Troyes-vs-Le-Havre",
     "cat": "Football",
@@ -390,7 +414,7 @@
     "dashStreams": []
   },
   {
-    "id": 1575,
+    "id": 1577,
     "title": "Troyes vs Le Havre",
     "slug": "Troyes-vs-Le-Havre",
     "cat": "Football",
