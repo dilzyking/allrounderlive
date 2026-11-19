@@ -20,33 +20,9 @@
     },
     "dashStreams": [
       {
-        "title": "PRIME VIDEO",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/m6re2sw5cd/out/v1/8e8f93ec4fe2435c885a283151852080/cenc.mpd",
-        "key": "6300bd600d0c9e459bd1a3d023e2270d:edf53fad044c43f8aae91ad2576cccfd"
-      },
-      {
         "title": "TAMASHA AQ",
         "type": "hls",
         "url": "https://cdn06khi-n.tamashaweb.com:8087/appcast/ACC-men-AC26-abr/playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "SONYLIV (Asia)",
-        "type": "hls",
-        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120300/criclive1911/ENG/std_lrh-800300010.m3u8",
-        "key": null
-      },
-      {
-        "title": "HD QUALITY",
-        "type": "hls",
-        "url": "https://dai.google.com/linear/hls/event/7cIN-VbvRemT_Gc-OWNing/master.m3u8",
-        "key": null
-      },
-      {
-        "title": "SONY",
-        "type": "hls",
-        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120300/criclive1911/ENG/std_lrh-800300010.m3u8",
         "key": null
       }
     ]
