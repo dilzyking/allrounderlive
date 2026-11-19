@@ -128,25 +128,19 @@
       {
         "title": "WILLOW - AQ",
         "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/w6dgdlcx03/out/v1/04ed50f3a2eb429b87ed5d70b737dd46/cenc.mpd",
-        "key": "a368bc0596cc6975605701aa79d01f3c:d514a032036589c2a3e4ea2d958793a3"
+        "url": "https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/i4j35tc3ub/out/v1/3bf2e223260f4d74ad57635eb14fd068/cenc.mpd",
+        "key": "15bb136e7ac737c7f35172fe6703b695:8fa933ee92c1e8d1f5d2855152d784f2"
       },
       {
         "title": "TAPMAD - AQ",
         "type": "hls",
-        "url": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8",
+        "url": "https://tencent-cdn.tapmad.com/v1/01a14a9fb90c15fc60e91e1786b061/01a14a9feb881ea540a81c2b41b75e/main.m3u8?",
         "key": null
       },
       {
         "title": "TAMASHA PRO AQ",
         "type": "hls",
         "url": "https://cdn03khi-n.tamashaweb.com:8087/appcast/SL-vs-PAK-2026-SVOD-abr/playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "TAPMAD HD",
-        "type": "hls",
-        "url": "https://tencent-cdn.tapmad.com/v1/01a14abbcff31ea540a81c2b41b760/01a14abc06421567ee931e109fa577/main.m3u8",
         "key": null
       },
       {
