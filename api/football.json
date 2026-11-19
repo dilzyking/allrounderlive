@@ -138,7 +138,26 @@
       "startTimeUTC": "2026/11/19 22:30:00 +0000",
       "endTimeUTC": "2026/11/20 00:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PREMIERER BR",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
+        "key": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
+      },
+      {
+        "title": "SporTV BR FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd",
+        "key": "51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
+      },
+      {
+        "title": "SportDigital Fussball",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?",
+        "key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
+      }
+    ]
   },
   {
     "id": 1288,
@@ -159,7 +178,14 @@
       "startTimeUTC": "2026/11/19 22:30:00 +0000",
       "endTimeUTC": "2026/11/20 00:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PREMIERER BR",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/6onrfniyry/out/v1/f23069c61dbf4e00890a40b705a84079/cenc.mpd",
+        "key": "d23f7433798a652a7d4f6791d9e1036c:4942eebd598b5727c5cc484cc62b52e8"
+      }
+    ]
   },
   {
     "id": 1295,
@@ -351,27 +377,6 @@
     "dashStreams": []
   },
   {
-    "id": 1618,
-    "title": "FC Bayern München vs 1. FC Köln",
-    "slug": "FC-Bayern-München-vs-1.-FC-Köln",
-    "cat": "Football",
-    "status": "upcoming",
-    "event": {
-      "name": "Bundesliga",
-      "category": "Football",
-      "teamA": "FC Bayern München",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2672/image",
-      "teamB": "1. FC Köln",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2671/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/35/image/dark",
-      "startTimeIST": "2026-11-21 01:00:00 IST",
-      "endTimeIST": "2026-11-21 03:20:00 IST",
-      "startTimeUTC": "2026/11/20 19:30:00 +0000",
-      "endTimeUTC": "2026/11/20 21:50:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 1620,
     "title": "FC Bayern München vs 1. FC Köln",
     "slug": "FC-Bayern-München-vs-1.-FC-Köln",
@@ -393,7 +398,28 @@
     "dashStreams": []
   },
   {
-    "id": 1619,
+    "id": 1622,
+    "title": "FC Bayern München vs 1. FC Köln",
+    "slug": "FC-Bayern-München-vs-1.-FC-Köln",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Bundesliga",
+      "category": "Football",
+      "teamA": "FC Bayern München",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2672/image",
+      "teamB": "1. FC Köln",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2671/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/35/image/dark",
+      "startTimeIST": "2026-11-21 01:00:00 IST",
+      "endTimeIST": "2026-11-21 03:20:00 IST",
+      "startTimeUTC": "2026/11/20 19:30:00 +0000",
+      "endTimeUTC": "2026/11/20 21:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 1621,
     "title": "Troyes vs Le Havre",
     "slug": "Troyes-vs-Le-Havre",
     "cat": "Football",
@@ -414,7 +440,7 @@
     "dashStreams": []
   },
   {
-    "id": 1621,
+    "id": 1623,
     "title": "Troyes vs Le Havre",
     "slug": "Troyes-vs-Le-Havre",
     "cat": "Football",
