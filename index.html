@@ -1956,20 +1956,81 @@
   font-synthesis: none;
 }
 
-      @media (min-width: 768px) {
+    /* ===== FANCODE-STYLE DESKTOP HERO ===== */
+
+/* Tablet (768–1279): 1600/740 */
+@media (min-width: 768px) {
   .viewport {
-    aspect-ratio: auto !important;
-    /* 16:9 on tall screens, but never taller than (screen height - 190px) */
-    height: min(56.25vw, calc(100vh - 190px));
-    height: min(56.25vw, calc(100svh - 190px));
-    min-height: 360px;
+    aspect-ratio: 1600 / 740 !important;
+    height: auto !important;
+    min-height: 0 !important;
   }
-}
-      @media (min-width: 768px) {
+
+  /* poster anchored to top, bottom gets cropped */
   .slide .poster,
   .slide.wide .poster {
     object-position: center top !important;
   }
+
+  /* same gradient as FanCode */
+  .slide .shade,
+  .slide.wide .shade {
+    background:
+      radial-gradient(circle at bottom left, #07090d, #0000, #0000),
+      linear-gradient(180deg, #0000, #0000, #07090d) !important;
+  }
+
+  /* header gradient */
+  header { background: linear-gradient(180deg, #07090d 0%, #0000 100%); }
+
+  /* text block */
+  .info {
+    width: 36%;
+    bottom: 20px;            /* dots bottom 4 + dot 4 + gap 12 */
+  }
+  .watch {
+    width: 236px;
+    border-radius: 4px;
+  }
+
+  /* dots: small circles, active = pill, below the button */
+  .dots {
+    left: 4%;
+    bottom: 4px;
+    gap: 4px;
+  }
+  .dot { width: 4px; height: 4px; border-radius: 999px; background: #ffffff3d; }
+  .dot.active { width: 16px; height: 4px; }
+  .dot .bar,
+  .dot[data-t] .bar { background: #ffffffd9; }
+
+  /* next section starts right after hero */
+  .hero + .live { margin-top: 2rem; padding-top: 0; }
+}
+
+/* Small desktop (1280–1599): 1600/680 */
+@media (min-width: 1280px) {
+  .viewport { aspect-ratio: 1600 / 680 !important; }
+
+  .info { bottom: 90px; }          /* 64 + 6 + 20 */
+  .watch { width: 340px; }
+
+  .dots { bottom: 64px; }
+  .dot { width: 6px; height: 6px; }
+  .dot.active { width: 24px; height: 6px; }
+
+  .hero + .live { margin-top: 0; }
+}
+
+/* Large desktop (1600+) */
+@media (min-width: 1600px) {
+  .info { bottom: 92px; }          /* 64 + 8 + 20 */
+  .watch { width: 404px; }
+
+  .dot { width: 8px; height: 8px; }
+  .dot.active { width: 32px; height: 8px; }
+
+  .hero + .live { margin-top: 2.5rem; }
 }
     </style></head
   ><body
