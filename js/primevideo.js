@@ -1,7 +1,7 @@
 /* =========================================================
    PRIME VIDEO LIVE
    API: https://raw.githubusercontent.com/doctor-8trange/tekzya9/refs/heads/main/data/primevideoindia.json
-   Player: prime-player.html?id=...&lang=...
+   Player: prime-player.html?id=...
    Same card layout as Willow. Poster images only.
    Lazy load when section is within 300px of viewport.
    Refresh every 5 minutes while near viewport and tab active.
@@ -63,19 +63,66 @@
     return 'UPCOMING';
   }
 
-  // ---------- NORMALISE (dedupe languages) ----------
+  // ---------- PLAYBACK CHECK ----------
+
+  function hasPlayback(m) {
+    const urls = m?.playback_details?.playback_url;
+    return Array.isArray(urls) && urls.some((e) => safeUrl(e?.url));
+  }
 
   /**
-   * Prime API returns one entry per language for the same event.
-   * Group by eventId so each match appears once, but keep the
-   * per-language streamIds so the player can pick a language.
+   * Higher score = better candidate to keep when two entries share the
+   * same language in a group.
+   * Prevents "FanCode 1 broadcast" (empty playback_details) from
+   * overriding "Bangladesh A vs Hong Kong" (has playback URL + keys).
    */
+  function playbackScore(m) {
+    if (!m) return -1;
+    const p = m.playback_details || {};
+    let score = 0;
+    if (hasPlayback(m)) score += 100;
+    if (Array.isArray(p.clearkey_pairs) && p.clearkey_pairs.length) score += 50;
+    if (p.jwk_keys) score += 10;
+    if (!/broadcast/i.test(m.title || '')) score += 5;
+    return score;
+  }
+
+  // ---------- TITLE CLEANING ----------
+
+  const BROADCAST_PREFIX =
+    /^(?:FanCode\s*\d*\s*[:·-]\s*|Lakers\s+Broadcast\s*[:·-]?\s*|U\.?S\.?\s+Broadcast\s*[:·-]?\s*|Kings\s+Broadcast\s*[:·-]?\s*|NBA\s*TV\s*International\s*[:·-]\s*|HD\s*[:·-]\s*|LIVE\s*[:·-]\s*)/i;
+
+  function cleanTitle(raw) {
+    return String(raw || '')
+      .replace(BROADCAST_PREFIX, '')
+      .replace(/\s+-\s+\d{1,2}\s+\w+\s+\d{4}$/i, '')
+      .replace(/\s+[–—]\s+\d{1,2}\s+\w+\s+\d{4}$/i, '')
+      .trim();
+  }
+
+  function looksLikeMatch(text) {
+    return /\s+(?:vs?\.?|versus)\s+/i.test(text);
+  }
+
+  function pickMatchTitle(candidates) {
+    for (const raw of candidates) {
+      const cleaned = cleanTitle(raw);
+      if (!cleaned) continue;
+      if (looksLikeMatch(cleaned)) return cleaned;
+    }
+    for (const raw of candidates) {
+      const cleaned = cleanTitle(raw);
+      if (cleaned && !/broadcast$/i.test(cleaned)) return cleaned;
+    }
+    return cleanTitle(candidates[0]) || 'Live Match';
+  }
+
+  // ---------- NORMALISE (group languages + pick best stream per lang) ----------
+
   function normalise(data) {
     const live = Array.isArray(data?.live) ? data.live : [];
     const upcoming = Array.isArray(data?.upcoming) ? data.upcoming : [];
-    const all = [...live, ...upcoming].filter(
-      (m) => m && typeof m === 'object'
-    );
+    const all = [...live, ...upcoming].filter((m) => m && typeof m === 'object');
 
     const groups = new Map();
 
@@ -96,10 +143,16 @@
       const status = getStatus(m);
 
       if (!groups.has(key)) {
+        const title = pickMatchTitle([
+          cat.title,
+          cat.eventTitle,
+          m.title,
+          m.eventTitle,
+        ]);
         groups.set(key, {
           key,
           status,
-          title: cat.eventTitle || cat.title || m.title || 'Live Match',
+          title,
           series:
             m.providerLogoInfo?.name ||
             (m.entityClassifications || []).join(', ') ||
@@ -108,18 +161,32 @@
             m.catalogMetadata?.liveEventDateTime?.startTimeIST || '',
           startTimeMillis:
             m.catalogMetadata?.liveEventDateTime?.startTimeMillis || 0,
-          images:
-            m.catalogMetadata?.images || {},
+          images: m.catalogMetadata?.images || {},
           languages: [],
-          streams: {}, // lang -> full raw match object
+          streams: {},
+          allEntries: [],
           venue: m.liveSchedule?.venue || '',
         });
       }
 
       const g = groups.get(key);
-      if (lang && !g.languages.includes(lang)) g.languages.push(lang);
-      if (lang) g.streams[lang] = m;
+      g.allEntries.push(m);
+
+      // Keep the entry with the richest playback data per language.
+      if (lang) {
+        const existing = g.streams[lang];
+        if (!existing || playbackScore(m) > playbackScore(existing)) {
+          g.streams[lang] = m;
+        }
+        if (!g.languages.includes(lang)) g.languages.push(lang);
+      }
+
       if (m.liveSchedule?.venue) g.venue = m.liveSchedule.venue;
+
+      // Prefer a real fixture title over a broadcast label.
+      if (/broadcast/i.test(g.title) && !/broadcast/i.test(cat.title || '')) {
+        g.title = pickMatchTitle([cat.title, cat.eventTitle, g.title]);
+      }
     }
 
     return [...groups.values()];
@@ -132,7 +199,7 @@
       group.images.coverImage,
       group.images.boxartImage,
       group.images.heroImage,
-      ...Object.values(group.streams).flatMap((m) => [
+      ...group.allEntries.flatMap((m) => [
         m.images?.coverImageFragments?.mediaCentralUrl,
         m.images?.boxArtImageFragments?.mediaCentralUrl,
         m.images?.heroImageFragments?.mediaCentralUrl,
@@ -189,15 +256,10 @@
       .filter(Boolean)
       .join(' · ');
 
-    // LIVE with at least one playable stream -> link to player.
-    // Others -> button with message.
+    // Playable if any entry in the group has a real playback URL.
     const playable =
       isLive &&
-      Object.values(group.streams).some(
-        (m) =>
-          m?.playback_details?.playback_url?.length ||
-          m?.playback_details?.clearkey_pairs?.length
-      );
+      group.allEntries.some((m) => hasPlayback(m));
 
     const open = playable
       ? `<a class="card prime-live-card"
