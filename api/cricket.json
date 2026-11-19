@@ -118,9 +118,27 @@
     },
     "dashStreams": [
       {
-        "title": "PlayZ TV",
+        "title": "PRIME VIDEO",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/m6re2sw5cd/out/v1/8e8f93ec4fe2435c885a283151852080/cenc.mpd",
+        "key": "6300bd600d0c9e459bd1a3d023e2270d:edf53fad044c43f8aae91ad2576cccfd"
+      },
+      {
+        "title": "SONYLIV (Asia)",
         "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120300/criclive1911/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795114026~acl=/*~id=10808243896974239339858440856298~hmac=0e269393db83e30434825b2d94e4ac4a931cc0931315644cddc6956dec48089e",
+        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120300/criclive1911/ENG/std_lrh-800300010.m3u8",
+        "key": null
+      },
+      {
+        "title": "HD QUALITY",
+        "type": "hls",
+        "url": "https://dai.google.com/linear/hls/event/7cIN-VbvRemT_Gc-OWNing/master.m3u8",
+        "key": null
+      },
+      {
+        "title": "SONY",
+        "type": "hls",
+        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2120300/criclive1911/ENG/std_lrh-800300010.m3u8",
         "key": null
       }
     ]
