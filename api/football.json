@@ -21,27 +21,6 @@
     "dashStreams": []
   },
   {
-    "id": 1848,
-    "title": "Belgium U17 vs Vietnam U17",
-    "slug": "Belgium-U17-vs-Vietnam-U17",
-    "cat": "Football",
-    "status": "upcoming",
-    "event": {
-      "name": "U17 World Championship",
-      "category": "Football",
-      "teamA": "Belgium U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/22583/image",
-      "teamB": "Vietnam U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/468404/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
-      "startTimeIST": "2026-11-20 18:30:00 IST",
-      "endTimeIST": "2026-11-20 20:50:00 IST",
-      "startTimeUTC": "2026/11/20 13:00:00 +0000",
-      "endTimeUTC": "2026/11/20 15:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 1849,
     "title": "Belgium U17 vs Vietnam U17",
     "slug": "Belgium-U17-vs-Vietnam-U17",
@@ -63,18 +42,18 @@
     "dashStreams": []
   },
   {
-    "id": 1850,
-    "title": "Cuba U17 vs Tajikistan U17",
-    "slug": "Cuba-U17-vs-Tajikistan-U17",
+    "id": 1872,
+    "title": "Belgium U17 vs Vietnam U17",
+    "slug": "Belgium-U17-vs-Vietnam-U17",
     "cat": "Football",
     "status": "upcoming",
     "event": {
       "name": "U17 World Championship",
       "category": "Football",
-      "teamA": "Cuba U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/190704/image",
-      "teamB": "Tajikistan U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/229664/image",
+      "teamA": "Belgium U17",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/22583/image",
+      "teamB": "Vietnam U17",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/468404/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
       "startTimeIST": "2026-11-20 18:30:00 IST",
       "endTimeIST": "2026-11-20 20:50:00 IST",
@@ -105,7 +84,28 @@
     "dashStreams": []
   },
   {
-    "id": 1852,
+    "id": 1873,
+    "title": "Cuba U17 vs Tajikistan U17",
+    "slug": "Cuba-U17-vs-Tajikistan-U17",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "U17 World Championship",
+      "category": "Football",
+      "teamA": "Cuba U17",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/190704/image",
+      "teamB": "Tajikistan U17",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/229664/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
+      "startTimeIST": "2026-11-20 18:30:00 IST",
+      "endTimeIST": "2026-11-20 20:50:00 IST",
+      "startTimeUTC": "2026/11/20 13:00:00 +0000",
+      "endTimeUTC": "2026/11/20 15:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 1853,
     "title": "Mali U17 vs New Zealand U17",
     "slug": "Mali-U17-vs-New-Zealand-U17",
     "cat": "Football",
@@ -126,7 +126,7 @@
     "dashStreams": []
   },
   {
-    "id": 1853,
+    "id": 1874,
     "title": "Mali U17 vs New Zealand U17",
     "slug": "Mali-U17-vs-New-Zealand-U17",
     "cat": "Football",
@@ -168,48 +168,6 @@
     "dashStreams": []
   },
   {
-    "id": 1854,
-    "title": "Spain U17 vs China U17",
-    "slug": "Spain-U17-vs-China-U17",
-    "cat": "Football",
-    "status": "upcoming",
-    "event": {
-      "name": "U17 World Championship",
-      "category": "Football",
-      "teamA": "Spain U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/22479/image",
-      "teamB": "China U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/468402/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
-      "startTimeIST": "2026-11-20 19:30:00 IST",
-      "endTimeIST": "2026-11-20 21:50:00 IST",
-      "startTimeUTC": "2026/11/20 14:00:00 +0000",
-      "endTimeUTC": "2026/11/20 16:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 1855,
-    "title": "Spain U17 vs China U17",
-    "slug": "Spain-U17-vs-China-U17",
-    "cat": "Football",
-    "status": "upcoming",
-    "event": {
-      "name": "U17 World Championship",
-      "category": "Football",
-      "teamA": "Spain U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/22479/image",
-      "teamB": "China U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/468402/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
-      "startTimeIST": "2026-11-20 19:30:00 IST",
-      "endTimeIST": "2026-11-20 21:50:00 IST",
-      "startTimeUTC": "2026/11/20 14:00:00 +0000",
-      "endTimeUTC": "2026/11/20 16:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 1856,
     "title": "Spain U17 vs China U17",
     "slug": "Spain-U17-vs-China-U17",
@@ -231,44 +189,44 @@
     "dashStreams": []
   },
   {
-    "id": 1857,
-    "title": "Italy U17 vs Jamaica U17",
-    "slug": "Italy-U17-vs-Jamaica-U17",
+    "id": 1875,
+    "title": "Spain U17 vs China U17",
+    "slug": "Spain-U17-vs-China-U17",
     "cat": "Football",
     "status": "upcoming",
     "event": {
       "name": "U17 World Championship",
       "category": "Football",
-      "teamA": "Italy U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/22616/image",
-      "teamB": "Jamaica U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/22617/image",
+      "teamA": "Spain U17",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/22479/image",
+      "teamB": "China U17",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/468402/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
-      "startTimeIST": "2026-11-20 20:30:00 IST",
-      "endTimeIST": "2026-11-20 22:50:00 IST",
-      "startTimeUTC": "2026/11/20 15:00:00 +0000",
-      "endTimeUTC": "2026/11/20 17:20:00 +0000"
+      "startTimeIST": "2026-11-20 19:30:00 IST",
+      "endTimeIST": "2026-11-20 21:50:00 IST",
+      "startTimeUTC": "2026/11/20 14:00:00 +0000",
+      "endTimeUTC": "2026/11/20 16:20:00 +0000"
     },
     "dashStreams": []
   },
   {
-    "id": 1858,
-    "title": "Italy U17 vs Jamaica U17",
-    "slug": "Italy-U17-vs-Jamaica-U17",
+    "id": 1876,
+    "title": "Spain U17 vs China U17",
+    "slug": "Spain-U17-vs-China-U17",
     "cat": "Football",
     "status": "upcoming",
     "event": {
       "name": "U17 World Championship",
       "category": "Football",
-      "teamA": "Italy U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/22616/image",
-      "teamB": "Jamaica U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/22617/image",
+      "teamA": "Spain U17",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/22479/image",
+      "teamB": "China U17",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/468402/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
-      "startTimeIST": "2026-11-20 20:30:00 IST",
-      "endTimeIST": "2026-11-20 22:50:00 IST",
-      "startTimeUTC": "2026/11/20 15:00:00 +0000",
-      "endTimeUTC": "2026/11/20 17:20:00 +0000"
+      "startTimeIST": "2026-11-20 19:30:00 IST",
+      "endTimeIST": "2026-11-20 21:50:00 IST",
+      "startTimeUTC": "2026/11/20 14:00:00 +0000",
+      "endTimeUTC": "2026/11/20 16:20:00 +0000"
     },
     "dashStreams": []
   },
@@ -294,23 +252,44 @@
     "dashStreams": []
   },
   {
-    "id": 1860,
-    "title": "Senegal U17 vs Croatia U17",
-    "slug": "Senegal-U17-vs-Croatia-U17",
+    "id": 1877,
+    "title": "Italy U17 vs Jamaica U17",
+    "slug": "Italy-U17-vs-Jamaica-U17",
     "cat": "Football",
     "status": "upcoming",
     "event": {
       "name": "U17 World Championship",
       "category": "Football",
-      "teamA": "Senegal U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/323076/image",
-      "teamB": "Croatia U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/22594/image",
+      "teamA": "Italy U17",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/22616/image",
+      "teamB": "Jamaica U17",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/22617/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
-      "startTimeIST": "2026-11-20 21:00:00 IST",
-      "endTimeIST": "2026-11-20 23:20:00 IST",
-      "startTimeUTC": "2026/11/20 15:30:00 +0000",
-      "endTimeUTC": "2026/11/20 17:50:00 +0000"
+      "startTimeIST": "2026-11-20 20:30:00 IST",
+      "endTimeIST": "2026-11-20 22:50:00 IST",
+      "startTimeUTC": "2026/11/20 15:00:00 +0000",
+      "endTimeUTC": "2026/11/20 17:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 1878,
+    "title": "Italy U17 vs Jamaica U17",
+    "slug": "Italy-U17-vs-Jamaica-U17",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "U17 World Championship",
+      "category": "Football",
+      "teamA": "Italy U17",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/22616/image",
+      "teamB": "Jamaica U17",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/22617/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
+      "startTimeIST": "2026-11-20 20:30:00 IST",
+      "endTimeIST": "2026-11-20 22:50:00 IST",
+      "startTimeUTC": "2026/11/20 15:00:00 +0000",
+      "endTimeUTC": "2026/11/20 17:20:00 +0000"
     },
     "dashStreams": []
   },
@@ -336,44 +315,23 @@
     "dashStreams": []
   },
   {
-    "id": 1862,
-    "title": "Côte d'Ivoire U17 vs Uzbekistan U17",
-    "slug": "Côte-d'Ivoire-U17-vs-Uzbekistan-U17",
+    "id": 1879,
+    "title": "Senegal U17 vs Croatia U17",
+    "slug": "Senegal-U17-vs-Croatia-U17",
     "cat": "Football",
     "status": "upcoming",
     "event": {
       "name": "U17 World Championship",
       "category": "Football",
-      "teamA": "Côte d'Ivoire U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/48857/image",
-      "teamB": "Uzbekistan U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/22662/image",
+      "teamA": "Senegal U17",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/323076/image",
+      "teamB": "Croatia U17",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/22594/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
-      "startTimeIST": "2026-11-20 21:30:00 IST",
-      "endTimeIST": "2026-11-20 23:50:00 IST",
-      "startTimeUTC": "2026/11/20 16:00:00 +0000",
-      "endTimeUTC": "2026/11/20 18:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 1863,
-    "title": "Côte d'Ivoire U17 vs Uzbekistan U17",
-    "slug": "Côte-d'Ivoire-U17-vs-Uzbekistan-U17",
-    "cat": "Football",
-    "status": "upcoming",
-    "event": {
-      "name": "U17 World Championship",
-      "category": "Football",
-      "teamA": "Côte d'Ivoire U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/48857/image",
-      "teamB": "Uzbekistan U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/22662/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
-      "startTimeIST": "2026-11-20 21:30:00 IST",
-      "endTimeIST": "2026-11-20 23:50:00 IST",
-      "startTimeUTC": "2026/11/20 16:00:00 +0000",
-      "endTimeUTC": "2026/11/20 18:20:00 +0000"
+      "startTimeIST": "2026-11-20 21:00:00 IST",
+      "endTimeIST": "2026-11-20 23:20:00 IST",
+      "startTimeUTC": "2026/11/20 15:30:00 +0000",
+      "endTimeUTC": "2026/11/20 17:50:00 +0000"
     },
     "dashStreams": []
   },
@@ -399,18 +357,18 @@
     "dashStreams": []
   },
   {
-    "id": 1865,
-    "title": "Fiji U17 vs Morocco U17",
-    "slug": "Fiji-U17-vs-Morocco-U17",
+    "id": 1880,
+    "title": "Côte d'Ivoire U17 vs Uzbekistan U17",
+    "slug": "Côte-d'Ivoire-U17-vs-Uzbekistan-U17",
     "cat": "Football",
     "status": "upcoming",
     "event": {
       "name": "U17 World Championship",
       "category": "Football",
-      "teamA": "Fiji U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1096685/image",
-      "teamB": "Morocco U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/48862/image",
+      "teamA": "Côte d'Ivoire U17",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/48857/image",
+      "teamB": "Uzbekistan U17",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/22662/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
       "startTimeIST": "2026-11-20 21:30:00 IST",
       "endTimeIST": "2026-11-20 23:50:00 IST",
@@ -420,18 +378,18 @@
     "dashStreams": []
   },
   {
-    "id": 1866,
-    "title": "Fiji U17 vs Morocco U17",
-    "slug": "Fiji-U17-vs-Morocco-U17",
+    "id": 1881,
+    "title": "Côte d'Ivoire U17 vs Uzbekistan U17",
+    "slug": "Côte-d'Ivoire-U17-vs-Uzbekistan-U17",
     "cat": "Football",
     "status": "upcoming",
     "event": {
       "name": "U17 World Championship",
       "category": "Football",
-      "teamA": "Fiji U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1096685/image",
-      "teamB": "Morocco U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/48862/image",
+      "teamA": "Côte d'Ivoire U17",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/48857/image",
+      "teamB": "Uzbekistan U17",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/22662/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
       "startTimeIST": "2026-11-20 21:30:00 IST",
       "endTimeIST": "2026-11-20 23:50:00 IST",
@@ -442,6 +400,48 @@
   },
   {
     "id": 1867,
+    "title": "Fiji U17 vs Morocco U17",
+    "slug": "Fiji-U17-vs-Morocco-U17",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "U17 World Championship",
+      "category": "Football",
+      "teamA": "Fiji U17",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1096685/image",
+      "teamB": "Morocco U17",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/48862/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
+      "startTimeIST": "2026-11-20 21:30:00 IST",
+      "endTimeIST": "2026-11-20 23:50:00 IST",
+      "startTimeUTC": "2026/11/20 16:00:00 +0000",
+      "endTimeUTC": "2026/11/20 18:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 1882,
+    "title": "Fiji U17 vs Morocco U17",
+    "slug": "Fiji-U17-vs-Morocco-U17",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "U17 World Championship",
+      "category": "Football",
+      "teamA": "Fiji U17",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1096685/image",
+      "teamB": "Morocco U17",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/48862/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
+      "startTimeIST": "2026-11-20 21:30:00 IST",
+      "endTimeIST": "2026-11-20 23:50:00 IST",
+      "startTimeUTC": "2026/11/20 16:00:00 +0000",
+      "endTimeUTC": "2026/11/20 18:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 1883,
     "title": "Fiji U17 vs Morocco U17",
     "slug": "Fiji-U17-vs-Morocco-U17",
     "cat": "Football",
