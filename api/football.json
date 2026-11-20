@@ -1,5 +1,33 @@
 [
   {
+    "id": 1981,
+    "title": "UEFA Nations League - Play Off Draw",
+    "slug": "UEFA-Nations-League-Play-Off-Draw",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Nations League - Play Off Draw",
+      "category": "Football",
+      "teamA": "UEFA Nations League",
+      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/10783/image",
+      "teamB": "UEFA Nations League",
+      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/10783/image/dark",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/10783/image",
+      "startTimeIST": "2026-11-20 16:30:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/20 11:00:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": [
+      {
+        "title": "FOX SPORTS",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd",
+        "key": "5466ebd70704bdeb657f0abf3c5ca4ef:bdd79b72d8e48ed483aa623cc38a8a16"
+      }
+    ]
+  },
+  {
     "id": 1310,
     "title": "East Bengal FC vs Sporting Delhi",
     "slug": "East-Bengal-FC-vs-Sporting-Delhi",
