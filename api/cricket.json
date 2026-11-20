@@ -24,6 +24,18 @@
         "type": "dash",
         "url": "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-06)/hdntl=exp=1795179747~acl=*%2Fchannel(vcg-01-ch-hd-06)%2F*~id=96bc7139-3edd-47ca-8f83-cfabcae165c5~data=hdntl,QjtNWCxDUixTVixHVCxITixOSSxQQSxBUixCTyxCUixDTCxDTyxFQyxQWSxQRSxVWSxWRSxDVSxETyxIVCxDQSxVUyxJTixQSyxMSyxBTyxCSixCVyxCRixCSSxDVixDTSxDRixURCxLTSxDRyxDRCxDSSxESixHUSxFUixFVCxHQSxHTSxHSCxHTixHVyxLRSxMUyxMUixNRyxNVyxNVSxNUixNWixOQSxORSxORyxSVyxTVCxTTixTQyxTTCxTTyxaQSxTUyxTRCxUWixURyxVRyxaTSxaVyxTWixNTA%3D%3D~hmac=d3115607dc1eefa9e2b3d749eb0abe6d1b41c3a4dabb8005fcc3b25801ed829c/manifest.mpd?vcfilter=3e8be581-7b72-4ef9-9dae-3a66cbe009b0&",
         "key": "39bd302cdeed3710a89fb004d232ab67:9869f804ba18d7e508cbff781829221c"
+      },
+      {
+        "title": "MYCO AQ PK",
+        "type": "hls",
+        "url": "https://ml-pull-rtmp-pk1.myco.io/Feed1/hls/index.m3u8",
+        "key": null
+      },
+      {
+        "title": "TAMASHA PRO AQ",
+        "type": "hls",
+        "url": "https://cdn01lhr-n.tamashaweb.com:8087/appcast/ICC-women-NT2026-svod-abr/playlist.m3u8",
+        "key": null
       }
     ]
   },
@@ -412,6 +424,27 @@
         "key": null
       }
     ]
+  },
+  {
+    "id": 1871,
+    "title": "Nepal Premier League",
+    "slug": "Nepal-Premier-League",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "Nepal Premier League",
+      "category": "Cricket",
+      "teamA": "NPL",
+      "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4kb18PjjNzQILyDESk2XOhaXZ6mIZ9tsTkyKwzjpoIw&s=10",
+      "teamB": "NPL",
+      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4kb18PjjNzQILyDESk2XOhaXZ6mIZ9tsTkyKwzjpoIw&s=10",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4kb18PjjNzQILyDESk2XOhaXZ6mIZ9tsTkyKwzjpoIw&s=10",
+      "startTimeIST": "2026-11-21 16:45:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/21 11:15:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": []
   },
   {
     "id": 1221,
