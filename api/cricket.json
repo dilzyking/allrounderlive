@@ -499,6 +499,27 @@
     ]
   },
   {
+    "id": 1884,
+    "title": "International League T20",
+    "slug": "ILT-T20-vs-ILT-T",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "International League T20",
+      "category": "Cricket",
+      "teamA": "ILT T20",
+      "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUodDcab2i0hnbMKS735CKCYkAzspLZD6PjE6dIB1g9Q&s",
+      "teamB": "ILT T20",
+      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUodDcab2i0hnbMKS735CKCYkAzspLZD6PjE6dIB1g9Q&s",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUodDcab2i0hnbMKS735CKCYkAzspLZD6PjE6dIB1g9Q&s",
+      "startTimeIST": "2026-11-21 20:00:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/21 14:30:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": []
+  },
+  {
     "id": 1218,
     "title": "South Africa vs Bangladesh",
     "slug": "South-Africa-vs-Bangladesh",
