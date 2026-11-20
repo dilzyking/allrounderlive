@@ -1,57 +1,5 @@
 [
   {
-    "id": 1214,
-    "title": "Pakistan vs Sri Lanka",
-    "slug": "Pakistan-vs-Sri-Lanka",
-    "cat": "Cricket",
-    "status": "ended",
-    "event": {
-      "name": "ICC World Test Championship",
-      "category": "Cricket",
-      "teamA": "Pakistan",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/187754/image",
-      "teamB": "Sri Lanka",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/187756/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18833/image/dark",
-      "startTimeIST": "2026-11-20 10:00:00 IST",
-      "endTimeIST": "2026-11-20 12:54:00 IST",
-      "startTimeUTC": "2026/11/20 04:30:00 +0000",
-      "endTimeUTC": "2026/11/20 07:24:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "WILLOW - AQ",
-        "type": "dash",
-        "url": "https://ss-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/pd55oxz1mc/out/v1/c546a7bbf34a4a5d8f10c9718ef5ea15/cenc.mpd",
-        "key": "d129d1272d5a71f72a74839d021c46a6:b357d476f2f374c66dff8fa650df717b"
-      },
-      {
-        "title": "TAPMAD - AQ",
-        "type": "hls",
-        "url": "https://serieAleague.akamaized.net/hls/live/2107107/A1@25853-tapmad/master.m3u8",
-        "key": null
-      },
-      {
-        "title": "TAMASHA PRO AQ",
-        "type": "hls",
-        "url": "https://cdn03khi-n.tamashaweb.com:8087/appcast/SL-vs-PAK-2026-SVOD-abr/playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "VITO AQ (IND)",
-        "type": "hls",
-        "url": "https://mbgthz-veto.akamaized.net/f98c8ae68a354ab59a4e28e3dd700d4f/playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "PTV SPORTS HD",
-        "type": "hls",
-        "url": "https://live.msnetworks.net/ptv-sports/master.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 1837,
     "title": "Scotland Women vs Netherlands Women",
     "slug": "Scotland-Women-vs-Netherlands-Women",
@@ -136,8 +84,8 @@
       {
         "title": "PRIME VIDEO FHD",
         "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/x0igehpu1l/out/v1/a22fcedcc6fd47e19b5ae642a935c1d0/cenc.mpd",
-        "key": "a483403980e885c7c448950500139b07:181c08c0de1ef25e8f893a81909304c1"
+        "url": "https://abn7ylpaaaaaaaame77ehqq2geew7.ta.bia-cf.live.pv-cdn.net/bom-nitro/live/clients/dash/enc/w38waynbjz/out/v1/c8d5a418fc14440eb143b6add6b0af66/cenc.mpd",
+        "key": "2ca5224cf3b5604c216670133f47b34c:9c0cf6c1c33edbcb63508c4b237b7e79"
       },
       {
         "title": "STARZPLAY FHD",
