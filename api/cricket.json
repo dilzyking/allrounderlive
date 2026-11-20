@@ -20,6 +20,12 @@
     },
     "dashStreams": [
       {
+        "title": "PRIME VIDEO - AQ",
+        "type": "dash",
+        "url": "https://abn7ylpaaaaaaaame77ehqq2geew7.ta.bia-cf.live.pv-cdn.net/bom-nitro/live/clients/dash/enc/mebvsdzu7s/out/v1/563c92c11fff4290a160e365f6996c34/cenc.mpd",
+        "key": "fda7a391d6346eb3176d0379fdc094d0:1ee285d5bec7f6855d51e3e5f630ad1f"
+      },
+      {
         "title": "WILLOW - AQ [Ad Free]",
         "type": "dash",
         "url": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/roxefgx3by/out/v1/626d780fa151471cab6d83b9fcb731e8/cenc.mpd",
