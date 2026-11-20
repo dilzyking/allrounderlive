@@ -46,7 +46,26 @@
       "startTimeUTC": "2026/11/20 11:30:00 +0000",
       "endTimeUTC": "2026/11/20 13:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "SONYLIV ENG - AQ",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120303/Footlive2011/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795216650~acl=/*~id=32116311024737107652264609695631~hmac=0a2bae1e3a3637e36361e6fc9c5f43509006d01aa542e741099d68f28f8a2edc",
+        "key": null
+      },
+      {
+        "title": "SONYLIV HIN - AQ",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120302/Footlive2011/HIN/std_lrh-800300010.m3u8?hdnea=exp=1795216650~acl=/*~id=32116311024737107652264609695631~hmac=0a2bae1e3a3637e36361e6fc9c5f43509006d01aa542e741099d68f28f8a2edc",
+        "key": null
+      },
+      {
+        "title": "SONYLIV BEN - AQ",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120299/Footlive2011/BEN/std_lrh-800300010.m3u8?hdnea=exp=1795216650~acl=/*~id=32116311024737107652264609695631~hmac=0a2bae1e3a3637e36361e6fc9c5f43509006d01aa542e741099d68f28f8a2edc",
+        "key": null
+      }
+    ]
   },
   {
     "id": 1969,
