@@ -90,6 +90,24 @@
         "type": "hls",
         "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119931/cricodi_2011/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795253149~acl=/*~id=51003257100776422741635385242824~hmac=dda1b63279f359c8aa67d45e3bccfe8ed2c3e9c032636b2bdec9c78d9446e06f",
         "key": null
+      },
+      {
+        "title": "TNT SPORTSS2 - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
+        "key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
+      },
+      {
+        "title": "TEN SPORTS HD",
+        "type": "hls",
+        "url": "https://live.msnetworks.net/ten-sports/master.m3u8",
+        "key": null
+      },
+      {
+        "title": "CRICBUZZ - IN",
+        "type": "hls",
+        "url": "https://dai.google.com/linear/hls/event/HVE4ffO0R5CLFalgAF7QtQ/master.m3u8",
+        "key": null
       }
     ]
   },
