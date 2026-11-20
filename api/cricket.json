@@ -226,6 +226,58 @@
     ]
   },
   {
+    "id": 1221,
+    "title": "Abu Dhabi T10 League",
+    "slug": "UAE-Bulls-vs-Yas-Lions",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "Abu Dhabi T10 League",
+      "category": "Cricket",
+      "teamA": "Abu Dhabi T10",
+      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
+      "teamB": "Abu Dhabi T10",
+      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
+      "startTimeIST": "2026-11-20 19:00:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/20 13:30:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": [
+      {
+        "title": "WILLOW - AQ",
+        "type": "dash",
+        "url": "https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/31bn2pivmp/out/v1/08c3aa15efe64750912c5fd5f87392aa/cenc.mpd",
+        "key": "1e1eb151be522900a4bcbce463f764d4:49b4c6df12c9459d6d7641341270d890"
+      },
+      {
+        "title": "PREMIERE SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
+        "key": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19"
+      },
+      {
+        "title": "TAMASHA PRO AQ",
+        "type": "hls",
+        "url": "https://cdn04khi-n.tamashaweb.com:8087/appcast/abudhabi-t10-adfree-2026-abr/playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "MYCO AQ",
+        "type": "hls",
+        "url": "https://ml-pull-rtmp-pk1.myco.io/SRT/hls/index.m3u8",
+        "key": null
+      },
+      {
+        "title": "A SPORTS HD",
+        "type": "hls",
+        "url": "https://live.msnetworks.net/a-sports/master.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
     "id": 1236,
     "title": "New Zealand vs India",
     "slug": "New-Zealand-vs-India",
@@ -445,58 +497,6 @@
       "endTimeUTC": null
     },
     "dashStreams": []
-  },
-  {
-    "id": 1221,
-    "title": "Abu Dhabi T10 League",
-    "slug": "UAE-Bulls-vs-Yas-Lions",
-    "cat": "Cricket",
-    "status": "upcoming",
-    "event": {
-      "name": "Abu Dhabi T10 League",
-      "category": "Cricket",
-      "teamA": "Abu Dhabi T10",
-      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
-      "teamB": "Abu Dhabi T10",
-      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18292/image/dark",
-      "startTimeIST": "2026-11-21 19:00:00 IST",
-      "endTimeIST": null,
-      "startTimeUTC": "2026/11/21 13:30:00 +0000",
-      "endTimeUTC": null
-    },
-    "dashStreams": [
-      {
-        "title": "WILLOW - AQ",
-        "type": "dash",
-        "url": "https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/31bn2pivmp/out/v1/08c3aa15efe64750912c5fd5f87392aa/cenc.mpd",
-        "key": "1e1eb151be522900a4bcbce463f764d4:49b4c6df12c9459d6d7641341270d890"
-      },
-      {
-        "title": "PREMIERE SPORTS - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
-        "key": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19"
-      },
-      {
-        "title": "TAMASHA PRO AQ",
-        "type": "hls",
-        "url": "https://cdn04khi-n.tamashaweb.com:8087/appcast/abudhabi-t10-adfree-2026-abr/playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "MYCO AQ",
-        "type": "hls",
-        "url": "https://ml-pull-rtmp-pk1.myco.io/SRT/hls/index.m3u8",
-        "key": null
-      },
-      {
-        "title": "A SPORTS HD",
-        "type": "hls",
-        "url": "https://live.msnetworks.net/a-sports/master.m3u8",
-        "key": null
-      }
-    ]
   },
   {
     "id": 1884,
