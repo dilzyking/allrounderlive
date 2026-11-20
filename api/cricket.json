@@ -70,52 +70,6 @@
     ]
   },
   {
-    "id": 1839,
-    "title": "Adelaide Strikers Women vs Melbourne Renegades Women",
-    "slug": "Adelaide-Strikers-Women-vs-Melbourne-Renegades-Women",
-    "cat": "Cricket",
-    "status": "live",
-    "event": {
-      "name": "Women's Big Bash League",
-      "category": "Cricket",
-      "teamA": "Adelaide Strikers Women",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/274888/image",
-      "teamB": "Melbourne Renegades Women",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/274887/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/11163/image/dark",
-      "startTimeIST": "2026-11-20 13:40:00 IST",
-      "endTimeIST": null,
-      "startTimeUTC": "2026/11/20 08:10:00 +0000",
-      "endTimeUTC": null
-    },
-    "dashStreams": [
-      {
-        "title": "WILLOW - AQ",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/7swiykissa/out/v1/c2fd1d13622f41d89738e5e52fa874df/cenc.mpd",
-        "key": "4db2612086ed985ae029fe71a3b56439:a7e45930ba4fbcf51cb12522ac433ca1"
-      },
-      {
-        "title": "SKY CRICKET - AQ",
-        "type": "hls",
-        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
-        "key": null
-      },
-      {
-        "title": "WILLOW HD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
-        "key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
-      },
-      {
-        "title": "TAPMAD - AQ",
-        "type": "hls",
-        "url": "https://tencent-cdn.tapmad.com/v1/01a14a80166b1ea557841e1612cf55/01a14a8047211ea557841e1612cf58/main.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 1840,
     "title": "Pakistan Women vs Ireland Women",
     "slug": "Pakistan-Women-vs-Ireland-Women",
