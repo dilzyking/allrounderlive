@@ -70,46 +70,6 @@
     ]
   },
   {
-    "id": 1840,
-    "title": "Pakistan Women vs Ireland Women",
-    "slug": "Pakistan-Women-vs-Ireland-Women",
-    "cat": "Cricket",
-    "status": "live",
-    "event": {
-      "name": "Womens Emerging Nations Trophy",
-      "category": "Cricket",
-      "teamA": "Pakistan Women",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/187808/image",
-      "teamB": "Ireland Women",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/213116/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/30714/image/dark",
-      "startTimeIST": "2026-11-20 14:45:00 IST",
-      "endTimeIST": null,
-      "startTimeUTC": "2026/11/20 09:15:00 +0000",
-      "endTimeUTC": null
-    },
-    "dashStreams": [
-      {
-        "title": "PlayZ TV - AQ",
-        "type": "dash",
-        "url": "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-06)/hdntl=exp=1795194269~acl=*%2fchannel(vcg-01-ch-hd-06)%2f*~id=df636eee-0529-4299-91da-e8ce8c8790f0~data=hdntl,QjtNWCxDUixTVixHVCxITixOSSxQQSxBUixCTyxCUixDTCxDTyxFQyxQWSxQRSxVWSxWRSxDVSxETyxIVCxDQSxVUyxJTixQSyxMSyxBTyxCSixCVyxCRixCSSxDVixDTSxDRixURCxLTSxDRyxDRCxDSSxESixHUSxFUixFVCxHQSxHTSxHSCxHTixHVyxLRSxMUyxMUixNRyxNVyxNVSxNUixNWixOQSxORSxORyxSVyxTVCxTTixTQyxTTCxTTyxaQSxTUyxTRCxUWixURyxVRyxaTSxaVyxTWixNTA%3d%3d~hmac=8a09f276a52b1b4c1900b2719108ee47fc3a372e06127794243ca1885d8d61cb/manifest.mpd?vcfilter=18115d2a-7fc5-4b98-bb0a-d3ca394fa2c8",
-        "key": "39bd302cdeed3710a89fb004d232ab67:9869f804ba18d7e508cbff781829221c"
-      },
-      {
-        "title": "MYCO [PK] - AQ",
-        "type": "hls",
-        "url": "https://ml-pull-rtmp-pk1.myco.io/Feed1/hls/index.m3u8",
-        "key": null
-      },
-      {
-        "title": "TAMASHA - AQ [PK]",
-        "type": "hls",
-        "url": "https://cdn01lhr-n.tamashaweb.com:8087/appcast/ICC-women-NT2026-svod-abr/playlist.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 1434,
     "title": "India A vs Nepal",
     "slug": "India-A-vs-Nepal",
