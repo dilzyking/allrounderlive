@@ -140,6 +140,34 @@
     ]
   },
   {
+    "id": 1997,
+    "title": "Italia T10 2026",
+    "slug": "Italia-T10-vs-Italia-T",
+    "cat": "Cricket",
+    "status": "live",
+    "event": {
+      "name": "Italia T10 2026",
+      "category": "Cricket",
+      "teamA": "Italia T10",
+      "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBTK9sfDCFhv5T2jEH3nkh9cPngwVXMaQFV9uNCn66zg&s=10",
+      "teamB": "Italia T10",
+      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBTK9sfDCFhv5T2jEH3nkh9cPngwVXMaQFV9uNCn66zg&s=10",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBTK9sfDCFhv5T2jEH3nkh9cPngwVXMaQFV9uNCn66zg&s=10",
+      "startTimeIST": "2026-11-20 18:30:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/20 13:00:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": [
+      {
+        "title": "PlayZ TV",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
+        "key": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f"
+      }
+    ]
+  },
+  {
     "id": 1221,
     "title": "Abu Dhabi T10 League",
     "slug": "UAE-Bulls-vs-Yas-Lions",
