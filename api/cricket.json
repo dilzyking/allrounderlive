@@ -1,10 +1,251 @@
 [
   {
+    "id": 1214,
+    "title": "Pakistan vs Sri Lanka",
+    "slug": "Pakistan-vs-Sri-Lanka",
+    "cat": "Cricket",
+    "status": "live",
+    "event": {
+      "name": "ICC World Test Championship",
+      "category": "Cricket",
+      "teamA": "Pakistan",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/187754/image",
+      "teamB": "Sri Lanka",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/187756/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18833/image/dark",
+      "startTimeIST": "2026-11-20 10:00:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/20 04:30:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": [
+      {
+        "title": "WILLOW - AQ",
+        "type": "dash",
+        "url": "https://ss-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/pd55oxz1mc/out/v1/c546a7bbf34a4a5d8f10c9718ef5ea15/cenc.mpd",
+        "key": "d129d1272d5a71f72a74839d021c46a6:b357d476f2f374c66dff8fa650df717b"
+      },
+      {
+        "title": "TAPMAD - AQ",
+        "type": "hls",
+        "url": "https://serieAleague.akamaized.net/hls/live/2107107/A1@25853-tapmad/master.m3u8",
+        "key": null
+      },
+      {
+        "title": "TAMASHA PRO AQ",
+        "type": "hls",
+        "url": "https://cdn03khi-n.tamashaweb.com:8087/appcast/SL-vs-PAK-2026-SVOD-abr/playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "VITO AQ (IND)",
+        "type": "hls",
+        "url": "https://mbgthz-veto.akamaized.net/f98c8ae68a354ab59a4e28e3dd700d4f/playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "PTV SPORTS HD",
+        "type": "hls",
+        "url": "https://live.msnetworks.net/ptv-sports/master.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 1837,
+    "title": "Scotland Women vs Netherlands Women",
+    "slug": "Scotland-Women-vs-Netherlands-Women",
+    "cat": "Cricket",
+    "status": "live",
+    "event": {
+      "name": "Womens Emerging Nations Trophy",
+      "category": "Cricket",
+      "teamA": "Scotland Women",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/453162/image",
+      "teamB": "Netherlands Women",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/417753/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/30714/image/dark",
+      "startTimeIST": "2026-11-20 10:30:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/20 05:00:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": [
+      {
+        "title": "PlayZ TV Live",
+        "type": "dash",
+        "url": "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-06)/hdntl=exp=1795179747~acl=*%2Fchannel(vcg-01-ch-hd-06)%2F*~id=96bc7139-3edd-47ca-8f83-cfabcae165c5~data=hdntl,QjtNWCxDUixTVixHVCxITixOSSxQQSxBUixCTyxCUixDTCxDTyxFQyxQWSxQRSxVWSxWRSxDVSxETyxIVCxDQSxVUyxJTixQSyxMSyxBTyxCSixCVyxCRixCSSxDVixDTSxDRixURCxLTSxDRyxDRCxDSSxESixHUSxFUixFVCxHQSxHTSxHSCxHTixHVyxLRSxMUyxMUixNRyxNVyxNVSxNUixNWixOQSxORSxORyxSVyxTVCxTTixTQyxTTCxTTyxaQSxTUyxTRCxUWixURyxVRyxaTSxaVyxTWixNTA%3D%3D~hmac=d3115607dc1eefa9e2b3d749eb0abe6d1b41c3a4dabb8005fcc3b25801ed829c/manifest.mpd?vcfilter=3e8be581-7b72-4ef9-9dae-3a66cbe009b0&",
+        "key": "39bd302cdeed3710a89fb004d232ab67:9869f804ba18d7e508cbff781829221c"
+      }
+    ]
+  },
+  {
+    "id": 1838,
+    "title": "Sri Lanka Women vs Zimbabwe Women",
+    "slug": "Sri-Lanka-Women-vs-Zimbabwe-Women",
+    "cat": "Cricket",
+    "status": "live",
+    "event": {
+      "name": "Womens Emerging Nations Trophy",
+      "category": "Cricket",
+      "teamA": "Sri Lanka Women",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/187806/image",
+      "teamB": "Zimbabwe Women",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/417062/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/30714/image/dark",
+      "startTimeIST": "2026-11-20 10:30:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/20 05:00:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": [
+      {
+        "title": "PlayZ TV Live",
+        "type": "dash",
+        "url": "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-07)/hdntl=exp=1795179669~acl=*%2Fchannel(vcg-01-ch-hd-07)%2F*~id=96bc7139-3edd-47ca-8f83-cfabcae165c5~data=hdntl,QjtNWCxDUixTVixHVCxITixOSSxQQSxBUixCTyxCUixDTCxDTyxFQyxQWSxQRSxVWSxWRSxDVSxETyxIVCxDQSxVUyxJTixQSyxMSyxBTyxCSixCVyxCRixCSSxDVixDTSxDRixURCxLTSxDRyxDRCxDSSxESixHUSxFUixFVCxHQSxHTSxHSCxHTixHVyxLRSxMUyxMUixNRyxNVyxNVSxNUixNWixOQSxORSxORyxSVyxTVCxTTixTQyxTTCxTTyxaQSxTUyxTRCxUWixURyxVRyxaTSxaVyxTWixNTA%3D%3D~hmac=ba9520c664f7cd76491a88e5d3b6b845716602a0e0cdb36b85de94ec05e58ff3/manifest.mpd?vcfilter=67846ab5-0df3-4b71-8f09-9c2f89b9ae12&",
+        "key": "39bd302cdeed3710a89fb004d232ab67:9869f804ba18d7e508cbff781829221c"
+      }
+    ]
+  },
+  {
+    "id": 1433,
+    "title": "Pakistan A vs UAE",
+    "slug": "Pakistan-A-vs-UAE",
+    "cat": "Cricket",
+    "status": "live",
+    "event": {
+      "name": "Asia Cup Rising Stars",
+      "category": "Cricket",
+      "teamA": "Pakistan A",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/213104/image",
+      "teamB": "UAE",
+      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-f8WXHBnZ_I--KDLmDvYm3nSTtxI9z9hepaQhpPg_RQ&s=10",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn2rCtrI68Agu71aIWID9YxzlqXN-3c88k4cwPQQhwEA&s=10",
+      "startTimeIST": "2026-11-20 11:30:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/20 06:00:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": [
+      {
+        "title": "WILLOW - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yiibkf8ifo/out/v1/4f2e6d2fb906490e910c22a4dfbfbd82/cenc.mpd",
+        "key": "c180edac009ec2b3ddc9822f3ae814c3:b94d327fd81dd7a5a43a0a7bd737dd8a"
+      },
+      {
+        "title": "PRIME VIDEO FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/x0igehpu1l/out/v1/a22fcedcc6fd47e19b5ae642a935c1d0/cenc.mpd",
+        "key": "a483403980e885c7c448950500139b07:181c08c0de1ef25e8f893a81909304c1"
+      },
+      {
+        "title": "STARZPLAY FHD",
+        "type": "dash",
+        "url": "https://d1ifzl5cnhi7bu.cloudfront.net/out/v1/45ba30e075ad455a8767d3f33e67ea3d/index.mpd",
+        "key": "0ae4f162eec3e6f2b580a5bf0f4a64d4:03483335db81cba5bbcf51b6d31196d9"
+      },
+      {
+        "title": "WILLOW ALT",
+        "type": "dash",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/abgihi0eu1/out/v1/aecf943a889740d190b355d7bc80b51a/cenc.mpd",
+        "key": "c180edac009ec2b3ddc9822f3ae814c3:b94d327fd81dd7a5a43a0a7bd737dd8a"
+      },
+      {
+        "title": "TAMASHA AQ",
+        "type": "hls",
+        "url": "https://cdn06khi-n.tamashaweb.com:8087/appcast/ACC-men-AC26-abr/playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "SONYLIV (Asia)",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120306/Criclive2011/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795195986~acl=/*~id=32385250455894596018551937938511~hmac=ef41163e4f8a27bafd051dcb0026e1fca2e8145200b1c4c636a0a88c142c75ec",
+        "key": null
+      },
+      {
+        "title": "TEN SPORTS HD",
+        "type": "hls",
+        "url": "https://live.msnetworks.net/ten-sports/master.m3u8",
+        "key": null
+      },
+      {
+        "title": "SONY TEN HD",
+        "type": "hls",
+        "url": "https://toffee.aliflaila.live/channel/3.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 1839,
+    "title": "Adelaide Strikers Women vs Melbourne Renegades Women",
+    "slug": "Adelaide-Strikers-Women-vs-Melbourne-Renegades-Women",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "Women's Big Bash League",
+      "category": "Cricket",
+      "teamA": "Adelaide Strikers Women",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/274888/image",
+      "teamB": "Melbourne Renegades Women",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/274887/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/11163/image/dark",
+      "startTimeIST": "2026-11-20 13:40:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/20 08:10:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 1840,
+    "title": "Pakistan Women vs Ireland Women",
+    "slug": "Pakistan-Women-vs-Ireland-Women",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "Womens Emerging Nations Trophy",
+      "category": "Cricket",
+      "teamA": "Pakistan Women",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/187808/image",
+      "teamB": "Ireland Women",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/213116/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/30714/image/dark",
+      "startTimeIST": "2026-11-20 14:45:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/20 09:15:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 1434,
+    "title": "India A vs Nepal",
+    "slug": "India-A-vs-Nepal",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "Men's Asia Cup Rising Stars",
+      "category": "Cricket",
+      "teamA": "India A",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/187765/image",
+      "teamB": "Nepal",
+      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsQBkn_ivaBSXmyE1lnMzIkvPX7BMXMj-BuVRGJQPqYA&s=10",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn2rCtrI68Agu71aIWID9YxzlqXN-3c88k4cwPQQhwEA&s=10",
+      "startTimeIST": "2026-11-20 15:30:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/20 10:00:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": []
+  },
+  {
     "id": 1236,
     "title": "New Zealand vs India",
     "slug": "New-Zealand-vs-India",
     "cat": "Cricket",
-    "status": "live",
+    "status": "upcoming",
     "event": {
       "name": "ICC World Test Championship",
       "category": "Cricket",
@@ -13,9 +254,9 @@
       "teamB": "India",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/187765/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/18833/image/dark",
-      "startTimeIST": "2026-11-20 03:30:00 IST",
+      "startTimeIST": "2026-11-21 03:30:00 IST",
       "endTimeIST": null,
-      "startTimeUTC": "2026/11/19 22:00:00 +0000",
+      "startTimeUTC": "2026/11/20 22:00:00 +0000",
       "endTimeUTC": null
     },
     "dashStreams": [
@@ -100,144 +341,43 @@
     ]
   },
   {
-    "id": 1214,
-    "title": "Pakistan vs Sri Lanka",
-    "slug": "Pakistan-vs-Sri-Lanka",
-    "cat": "Cricket",
-    "status": "live",
-    "event": {
-      "name": "ICC World Test Championship",
-      "category": "Cricket",
-      "teamA": "Pakistan",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/187754/image",
-      "teamB": "Sri Lanka",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/187756/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18833/image/dark",
-      "startTimeIST": "2026-11-20 10:00:00 IST",
-      "endTimeIST": null,
-      "startTimeUTC": "2026/11/20 04:30:00 +0000",
-      "endTimeUTC": null
-    },
-    "dashStreams": [
-      {
-        "title": "WILLOW - AQ",
-        "type": "dash",
-        "url": "https://ss-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/pd55oxz1mc/out/v1/c546a7bbf34a4a5d8f10c9718ef5ea15/cenc.mpd",
-        "key": "d129d1272d5a71f72a74839d021c46a6:b357d476f2f374c66dff8fa650df717b"
-      },
-      {
-        "title": "TAPMAD - AQ",
-        "type": "hls",
-        "url": "https://serieAleague.akamaized.net/hls/live/2107107/A1@25853-tapmad/master.m3u8",
-        "key": null
-      },
-      {
-        "title": "TAMASHA PRO AQ",
-        "type": "hls",
-        "url": "https://cdn03khi-n.tamashaweb.com:8087/appcast/SL-vs-PAK-2026-SVOD-abr/playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "VITO AQ (IND)",
-        "type": "hls",
-        "url": "https://mbgthz-veto.akamaized.net/f98c8ae68a354ab59a4e28e3dd700d4f/playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "PTV SPORTS HD",
-        "type": "hls",
-        "url": "https://live.msnetworks.net/ptv-sports/master.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 1433,
-    "title": "Pakistan A vs UAE",
-    "slug": "Pakistan-A-vs-UAE",
-    "cat": "Cricket",
-    "status": "live",
-    "event": {
-      "name": "Asia Cup Rising Stars",
-      "category": "Cricket",
-      "teamA": "Pakistan A",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/213104/image",
-      "teamB": "UAE",
-      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-f8WXHBnZ_I--KDLmDvYm3nSTtxI9z9hepaQhpPg_RQ&s=10",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn2rCtrI68Agu71aIWID9YxzlqXN-3c88k4cwPQQhwEA&s=10",
-      "startTimeIST": "2026-11-20 11:30:00 IST",
-      "endTimeIST": null,
-      "startTimeUTC": "2026/11/20 06:00:00 +0000",
-      "endTimeUTC": null
-    },
-    "dashStreams": [
-      {
-        "title": "WILLOW - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yiibkf8ifo/out/v1/4f2e6d2fb906490e910c22a4dfbfbd82/cenc.mpd",
-        "key": "c180edac009ec2b3ddc9822f3ae814c3:b94d327fd81dd7a5a43a0a7bd737dd8a"
-      },
-      {
-        "title": "PRIME VIDEO FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/x0igehpu1l/out/v1/a22fcedcc6fd47e19b5ae642a935c1d0/cenc.mpd",
-        "key": "a483403980e885c7c448950500139b07:181c08c0de1ef25e8f893a81909304c1"
-      },
-      {
-        "title": "STARZPLAY FHD",
-        "type": "dash",
-        "url": "https://d1ifzl5cnhi7bu.cloudfront.net/out/v1/45ba30e075ad455a8767d3f33e67ea3d/index.mpd",
-        "key": "0ae4f162eec3e6f2b580a5bf0f4a64d4:03483335db81cba5bbcf51b6d31196d9"
-      },
-      {
-        "title": "WILLOW ALT",
-        "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/abgihi0eu1/out/v1/aecf943a889740d190b355d7bc80b51a/cenc.mpd",
-        "key": "c180edac009ec2b3ddc9822f3ae814c3:b94d327fd81dd7a5a43a0a7bd737dd8a"
-      },
-      {
-        "title": "TAMASHA AQ",
-        "type": "hls",
-        "url": "https://cdn06khi-n.tamashaweb.com:8087/appcast/ACC-men-AC26-abr/playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "SONYLIV (Asia)",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120306/Criclive2011/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795195986~acl=/*~id=32385250455894596018551937938511~hmac=ef41163e4f8a27bafd051dcb0026e1fca2e8145200b1c4c636a0a88c142c75ec",
-        "key": null
-      },
-      {
-        "title": "TEN SPORTS HD",
-        "type": "hls",
-        "url": "https://live.msnetworks.net/ten-sports/master.m3u8",
-        "key": null
-      },
-      {
-        "title": "SONY TEN HD",
-        "type": "hls",
-        "url": "https://toffee.aliflaila.live/channel/3.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 1434,
-    "title": "India A vs Nepal",
-    "slug": "India-A-vs-Nepal",
+    "id": 1842,
+    "title": "Hobart Hurricanes Women vs Sydney Thunder Women",
+    "slug": "Hobart-Hurricanes-Women-vs-Sydney-Thunder-Women",
     "cat": "Cricket",
     "status": "upcoming",
     "event": {
-      "name": "Men's Asia Cup Rising Stars",
+      "name": "Women's Big Bash League",
       "category": "Cricket",
-      "teamA": "India A",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/187765/image",
-      "teamB": "Nepal",
-      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsQBkn_ivaBSXmyE1lnMzIkvPX7BMXMj-BuVRGJQPqYA&s=10",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn2rCtrI68Agu71aIWID9YxzlqXN-3c88k4cwPQQhwEA&s=10",
-      "startTimeIST": "2026-11-20 15:30:00 IST",
+      "teamA": "Hobart Hurricanes Women",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/274885/image",
+      "teamB": "Sydney Thunder Women",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/274889/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/11163/image/dark",
+      "startTimeIST": "2026-11-21 06:30:00 IST",
       "endTimeIST": null,
-      "startTimeUTC": "2026/11/20 10:00:00 +0000",
+      "startTimeUTC": "2026/11/21 01:00:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 1843,
+    "title": "Sydney Sixers Women vs Perth Scorchers Women",
+    "slug": "Sydney-Sixers-Women-vs-Perth-Scorchers-Women",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "Women's Big Bash League",
+      "category": "Cricket",
+      "teamA": "Sydney Sixers Women",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/274883/image",
+      "teamB": "Perth Scorchers Women",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/274890/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/11163/image/dark",
+      "startTimeIST": "2026-11-21 10:00:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/21 04:30:00 +0000",
       "endTimeUTC": null
     },
     "dashStreams": []
