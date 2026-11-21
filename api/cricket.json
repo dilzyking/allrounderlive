@@ -94,6 +94,18 @@
         "type": "hls",
         "url": "https://live.msnetworks.net/ten-sports/master.m3u8",
         "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://dai.google.com/linear/hls/event/yaROyE-bScOVYZWWXQoBdQ/master.m3u8",
+        "key": null
+      },
+      {
+        "title": "CRICBUZZ - IN",
+        "type": "hls",
+        "url": "https://dai.google.com/linear/hls/event/k2gxF4_aQw-gqVnpnhFr6w/master.m3u8",
+        "key": null
       }
     ]
   },
