@@ -21,163 +21,6 @@
     "dashStreams": []
   },
   {
-    "id": 2027,
-    "title": "Japan U17 vs Colombia U17",
-    "slug": "Japan-U17-vs-Colombia-U17",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "U17 World Championship",
-      "category": "Football",
-      "teamA": "Japan U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/22618/image",
-      "teamB": "Colombia U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/22592/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
-      "startTimeIST": "2026-11-21 18:00:00 IST",
-      "endTimeIST": "2026-11-21 20:20:00 IST",
-      "startTimeUTC": "2026/11/21 12:30:00 +0000",
-      "endTimeUTC": "2026/11/21 14:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "FOX SPORTS",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
-        "key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel28.m3u8?",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 2028,
-    "title": "Millwall vs Queens Park Rangers",
-    "slug": "Millwall-vs-Queens-Park-Rangers",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "Millwall",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/25/image",
-      "teamB": "Queens Park Rangers",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-11-21 18:00:00 IST",
-      "endTimeIST": "2026-11-21 20:20:00 IST",
-      "startTimeUTC": "2026/11/21 12:30:00 +0000",
-      "endTimeUTC": "2026/11/21 14:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "beIN SPORTS - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-        "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-      },
-      {
-        "title": "HD QUALITY",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 2029,
-    "title": "Norwich City vs Cardiff City",
-    "slug": "Norwich-City-vs-Cardiff-City",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "Norwich City",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/263/image",
-      "teamB": "Cardiff City",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/61/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-11-21 18:00:00 IST",
-      "endTimeIST": "2026-11-21 20:20:00 IST",
-      "startTimeUTC": "2026/11/21 12:30:00 +0000",
-      "endTimeUTC": "2026/11/21 14:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PlayZ TV Live",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/sd-1-4563694.m3u8?txSecret=0e52e9ba02bb86af93ebdbb677089fa8&txTime=6B01A2C5",
-        "key": null
-      },
-      {
-        "title": "HD QUALITY",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel11.m3u8?",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 2030,
-    "title": "Serbia U17 vs Honduras U17",
-    "slug": "Serbia-U17-vs-Honduras-U17",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "U17 World Championship",
-      "category": "Football",
-      "teamA": "Serbia U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/22478/image",
-      "teamB": "Honduras U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/7764/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
-      "startTimeIST": "2026-11-21 18:00:00 IST",
-      "endTimeIST": "2026-11-21 20:20:00 IST",
-      "startTimeUTC": "2026/11/21 12:30:00 +0000",
-      "endTimeUTC": "2026/11/21 14:50:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 2031,
-    "title": "Southampton vs Derby County",
-    "slug": "Southampton-vs-Derby-County",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "Southampton",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/45/image",
-      "teamB": "Derby County",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/27/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-11-21 18:00:00 IST",
-      "endTimeIST": "2026-11-21 20:20:00 IST",
-      "startTimeUTC": "2026/11/21 12:30:00 +0000",
-      "endTimeUTC": "2026/11/21 14:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PlayZ TV Live",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/sd-1-4563689.m3u8?txSecret=e9017120f45d1d0f281a9d82e9fae255&txTime=6B01A2A7",
-        "key": null
-      },
-      {
-        "title": "HD QUALITY",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel16.m3u8?",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 2016,
     "title": "CE Sabadell vs Granada",
     "slug": "CE-Sabadell-vs-Granada",
@@ -290,27 +133,6 @@
         "key": null
       }
     ]
-  },
-  {
-    "id": 2032,
-    "title": "Tanzania U17 vs Costa Rica U17",
-    "slug": "Tanzania-U17-vs-Costa-Rica-U17",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "U17 World Championship",
-      "category": "Football",
-      "teamA": "Tanzania U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1231931/image",
-      "teamB": "Costa Rica U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/22593/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
-      "startTimeIST": "2026-11-21 18:30:00 IST",
-      "endTimeIST": "2026-11-21 20:50:00 IST",
-      "startTimeUTC": "2026/11/21 13:00:00 +0000",
-      "endTimeUTC": "2026/11/21 15:20:00 +0000"
-    },
-    "dashStreams": []
   },
   {
     "id": 2033,
@@ -473,7 +295,14 @@
       "startTimeUTC": "2026/11/21 14:30:00 +0000",
       "endTimeUTC": "2026/11/21 16:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PlayZ TV HD",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4566409.m3u8?txSecret=ffa99c544fc5ed93ec871a545479bb3c&txTime=6B01B7E9",
+        "key": null
+      }
+    ]
   },
   {
     "id": 1372,
@@ -494,7 +323,14 @@
       "startTimeUTC": "2026/11/21 14:30:00 +0000",
       "endTimeUTC": "2026/11/21 16:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PlayZ TV HD",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4566402.m3u8?txSecret=0cab6466c4e908e707fcc85037917e62&txTime=6B01B73C",
+        "key": null
+      }
+    ]
   },
   {
     "id": 2018,
@@ -515,7 +351,14 @@
       "startTimeUTC": "2026/11/21 14:30:00 +0000",
       "endTimeUTC": "2026/11/21 16:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PlayZ TV HD",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4566411.m3u8?txSecret=32fdb9b5598b831629a9d30030fb5743&txTime=6B01B7BB",
+        "key": null
+      }
+    ]
   },
   {
     "id": 2034,
@@ -557,7 +400,14 @@
       "startTimeUTC": "2026/11/21 14:30:00 +0000",
       "endTimeUTC": "2026/11/21 16:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PlayZ TV HD",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4566405.m3u8?txSecret=ee441f837a69173e9927d0db7aa5455e&txTime=6B01B7D4",
+        "key": null
+      }
+    ]
   },
   {
     "id": 1373,
@@ -578,7 +428,14 @@
       "startTimeUTC": "2026/11/21 14:30:00 +0000",
       "endTimeUTC": "2026/11/21 16:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PlayZ TV TV HD",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4566523.m3u8?txSecret=0ee1753c0b31ded541af2cb3eb69512a&txTime=6B01B766",
+        "key": null
+      }
+    ]
   },
   {
     "id": 1348,
