@@ -400,7 +400,7 @@
     "title": "Aston Villa vs Sunderland",
     "slug": "Aston-Villa-vs-Sunderland",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Premier League",
       "category": "Football",
@@ -421,7 +421,7 @@
     "title": "Bolton Wanderers vs Portsmouth",
     "slug": "Bolton-Wanderers-vs-Portsmouth",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Championship",
       "category": "Football",
@@ -442,7 +442,7 @@
     "title": "Bournemouth vs Nottingham Forest",
     "slug": "Bournemouth-vs-Nottingham-Forest",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Premier League",
       "category": "Football",
@@ -463,7 +463,7 @@
     "title": "Brazil U17 vs Ireland U17",
     "slug": "Brazil-U17-vs-Ireland-U17",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "U17 World Championship",
       "category": "Football",
@@ -484,7 +484,7 @@
     "title": "Celtic vs St. Mirren",
     "slug": "Celtic-vs-St.-Mirren",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Scottish Premiership",
       "category": "Football",
@@ -505,7 +505,7 @@
     "title": "Chelsea vs Leeds United",
     "slug": "Chelsea-vs-Leeds-United",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Premier League",
       "category": "Football",
@@ -526,7 +526,7 @@
     "title": "Coventry City vs Crystal Palace",
     "slug": "Coventry-City-vs-Crystal-Palace",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Premier League",
       "category": "Football",
@@ -547,7 +547,7 @@
     "title": "Lincoln City vs Wrexham",
     "slug": "Lincoln-City-vs-Wrexham",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Championship",
       "category": "Football",
@@ -568,7 +568,7 @@
     "title": "Middlesbrough vs Bristol City",
     "slug": "Middlesbrough-vs-Bristol-City",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Championship",
       "category": "Football",
@@ -589,7 +589,7 @@
     "title": "Sheffield United vs Watford",
     "slug": "Sheffield-United-vs-Watford",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Championship",
       "category": "Football",
@@ -610,7 +610,7 @@
     "title": "Stoke City vs Birmingham City",
     "slug": "Stoke-City-vs-Birmingham-City",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Championship",
       "category": "Football",
@@ -631,7 +631,7 @@
     "title": "Swansea City vs West Bromwich Albion",
     "slug": "Swansea-City-vs-West-Bromwich-Albion",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Championship",
       "category": "Football",
@@ -652,7 +652,7 @@
     "title": "Tottenham Hotspur vs Ipswich Town",
     "slug": "Tottenham-Hotspur-vs-Ipswich-Town",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Premier League",
       "category": "Football",
@@ -673,7 +673,7 @@
     "title": "West Ham United vs Preston North End",
     "slug": "West-Ham-United-vs-Preston-North-End",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Championship",
       "category": "Football",
@@ -694,7 +694,7 @@
     "title": "Wolverhampton vs Charlton Athletic",
     "slug": "Wolverhampton-vs-Charlton-Athletic",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Championship",
       "category": "Football",
@@ -787,6 +787,27 @@
       "teamB": "Romania U17",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/22645/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
+      "startTimeIST": "2026-11-21 21:00:00 IST",
+      "endTimeIST": "2026-11-21 23:20:00 IST",
+      "startTimeUTC": "2026/11/21 15:30:00 +0000",
+      "endTimeUTC": "2026/11/21 17:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2079,
+    "title": "NEC Nijmegen vs PSV Eindhoven",
+    "slug": "NEC-Nijmegen-vs-PSV-Eindhoven",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "VriendenLoterij Eredivisie",
+      "category": "Football",
+      "teamA": "NEC Nijmegen",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2962/image",
+      "teamB": "PSV Eindhoven",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2952/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/37/image/dark",
       "startTimeIST": "2026-11-21 21:00:00 IST",
       "endTimeIST": "2026-11-21 23:20:00 IST",
       "startTimeUTC": "2026/11/21 15:30:00 +0000",
