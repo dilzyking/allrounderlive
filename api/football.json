@@ -1,44 +1,10 @@
 [
   {
-    "id": 1374,
-    "title": "New England Revolution vs Philadelphia Union",
-    "slug": "New-England-Revolution-vs-Philadelphia-Union",
-    "cat": "Football",
-    "status": "ended",
-    "event": {
-      "name": "MLS",
-      "category": "Football",
-      "teamA": "New England Revolution",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2511/image",
-      "teamB": "Philadelphia Union",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/39833/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/242/image/dark",
-      "startTimeIST": "2026-11-22 00:30:00 IST",
-      "endTimeIST": "2026-11-22 02:50:00 IST",
-      "startTimeUTC": "2026/11/21 19:00:00 +0000",
-      "endTimeUTC": "2026/11/21 21:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PLAYZ TV LIVE",
-        "type": "hls",
-        "url": "https://chatgpt.hereisman.net/playlist/60643/load-playlist-multi?&.m3u8",
-        "key": null
-      },
-      {
-        "title": "HD STREAM",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel28.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 1375,
     "title": "FC St. Pauli vs VfL Bochum 1848",
     "slug": "FC-St.-Pauli-vs-VfL-Bochum-1848",
     "cat": "Football",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "2. Bundesliga",
       "category": "Football",
@@ -66,7 +32,7 @@
     "title": "Palmeiras vs Flamengo",
     "slug": "Palmeiras-vs-Flamengo",
     "cat": "Football",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Campeonato Brasileiro Série A",
       "category": "Football",
@@ -838,7 +804,7 @@
     "dashStreams": []
   },
   {
-    "id": 2266,
+    "id": 2267,
     "title": "Córdoba vs Real Oviedo",
     "slug": "Córdoba-vs-Real-Oviedo",
     "cat": "Football",
@@ -859,7 +825,7 @@
     "dashStreams": []
   },
   {
-    "id": 2267,
+    "id": 2268,
     "title": "Córdoba vs Real Oviedo",
     "slug": "Córdoba-vs-Real-Oviedo",
     "cat": "Football",
