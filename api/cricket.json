@@ -112,27 +112,6 @@
     ]
   },
   {
-    "id": 2242,
-    "title": "Brisbane Heat Women vs Adelaide Strikers Women",
-    "slug": "Brisbane-Heat-Women-vs-Adelaide-Strikers-Women",
-    "cat": "Cricket",
-    "status": "upcoming",
-    "event": {
-      "name": "Women's Big Bash League",
-      "category": "Cricket",
-      "teamA": "Brisbane Heat Women",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/274884/image",
-      "teamB": "Adelaide Strikers Women",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/274888/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/11163/image/dark",
-      "startTimeIST": "2026-11-22 10:10:00 IST",
-      "endTimeIST": null,
-      "startTimeUTC": "2026/11/22 04:40:00 +0000",
-      "endTimeUTC": null
-    },
-    "dashStreams": []
-  },
-  {
     "id": 2247,
     "title": "Brisbane Heat Women vs Adelaide Strikers Women",
     "slug": "Brisbane-Heat-Women-vs-Adelaide-Strikers-Women",
@@ -212,27 +191,6 @@
       "startTimeIST": "2026-11-22 11:30:00 IST",
       "endTimeIST": null,
       "startTimeUTC": "2026/11/22 06:00:00 +0000",
-      "endTimeUTC": null
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 2243,
-    "title": "Melbourne Stars Women vs Melbourne Renegades Women",
-    "slug": "Melbourne-Stars-Women-vs-Melbourne-Renegades-Women",
-    "cat": "Cricket",
-    "status": "upcoming",
-    "event": {
-      "name": "Women's Big Bash League",
-      "category": "Cricket",
-      "teamA": "Melbourne Stars Women",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/274886/image",
-      "teamB": "Melbourne Renegades Women",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/274887/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/11163/image/dark",
-      "startTimeIST": "2026-11-22 13:40:00 IST",
-      "endTimeIST": null,
-      "startTimeUTC": "2026/11/22 08:10:00 +0000",
       "endTimeUTC": null
     },
     "dashStreams": []
