@@ -219,6 +219,12 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
         "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+      },
+      {
+        "title": "HD QUALITY",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel4.m3u8?",
+        "key": null
       }
     ]
   },
@@ -241,7 +247,20 @@
       "startTimeUTC": "2026/11/21 12:30:00 +0000",
       "endTimeUTC": "2026/11/21 14:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PlayZ TV Live",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4563694.m3u8?txSecret=0e52e9ba02bb86af93ebdbb677089fa8&txTime=6B01A2C5",
+        "key": null
+      },
+      {
+        "title": "HD QUALITY",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel11.m3u8?",
+        "key": null
+      }
+    ]
   },
   {
     "id": 2030,
@@ -283,7 +302,20 @@
       "startTimeUTC": "2026/11/21 12:30:00 +0000",
       "endTimeUTC": "2026/11/21 14:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PlayZ TV Live",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4563689.m3u8?txSecret=e9017120f45d1d0f281a9d82e9fae255&txTime=6B01A2A7",
+        "key": null
+      },
+      {
+        "title": "HD QUALITY",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel16.m3u8?",
+        "key": null
+      }
+    ]
   },
   {
     "id": 2016,
