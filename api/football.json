@@ -1,26 +1,5 @@
 [
   {
-    "id": 1376,
-    "title": "FC Dallas vs Portland Timbers",
-    "slug": "FC-Dallas-vs-Portland-Timbers",
-    "cat": "Football",
-    "status": "ended",
-    "event": {
-      "name": "MLS",
-      "category": "Football",
-      "teamA": "FC Dallas",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2512/image",
-      "teamB": "Portland Timbers",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/22007/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/242/image/dark",
-      "startTimeIST": "2026-11-22 02:30:00 IST",
-      "endTimeIST": "2026-11-22 04:50:00 IST",
-      "startTimeUTC": "2026/11/21 21:00:00 +0000",
-      "endTimeUTC": "2026/11/21 23:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 2058,
     "title": "Atlético Mineiro vs Boca Juniors",
     "slug": "Atlético-Mineiro-vs-Boca-Juniors",
@@ -249,7 +228,7 @@
     "dashStreams": []
   },
   {
-    "id": 2289,
+    "id": 2290,
     "title": "Córdoba vs Real Oviedo",
     "slug": "Córdoba-vs-Real-Oviedo",
     "cat": "Football",
@@ -270,7 +249,7 @@
     "dashStreams": []
   },
   {
-    "id": 2290,
+    "id": 2291,
     "title": "Córdoba vs Real Oviedo",
     "slug": "Córdoba-vs-Real-Oviedo",
     "cat": "Football",
