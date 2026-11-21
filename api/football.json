@@ -1,50 +1,10 @@
 [
   {
-    "id": 1320,
-    "title": "Chennaiyin FC vs Punjab FC",
-    "slug": "Chennaiyin-FC-vs-Punjab-FC",
-    "cat": "Football",
-    "status": "ended",
-    "event": {
-      "name": "Indian Super League",
-      "category": "Football",
-      "teamA": "Chennaiyin FC",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/174590/image",
-      "teamB": "Punjab FC",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/230661/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1900/image/dark",
-      "startTimeIST": "2026-11-21 17:00:00 IST",
-      "endTimeIST": "2026-11-21 19:20:00 IST",
-      "startTimeUTC": "2026/11/21 11:30:00 +0000",
-      "endTimeUTC": "2026/11/21 13:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SONYLIV ENG - AQ",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120301/Footlive2111/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795302946~acl=/*~id=46114367580473181498541421739547~hmac=9637822c1179bcd86258900f13e07b115a1239b743b628c0c48b35e14333b300",
-        "key": null
-      },
-      {
-        "title": "SONYLIV HIN - AQ",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120301/Footlive2111/HIN/std_lrh-800300010.m3u8?hdnea=exp=1795302946~acl=/*~id=46114367580473181498541421739547~hmac=9637822c1179bcd86258900f13e07b115a1239b743b628c0c48b35e14333b300",
-        "key": null
-      },
-      {
-        "title": "SONYLIV - AQ",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120301/Footlive2111/TAM/std_lrh-800300010.m3u8?hdnea=exp=1795302946~acl=/*~id=46114367580473181498541421739547~hmac=9637822c1179bcd86258900f13e07b115a1239b743b628c0c48b35e14333b300",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 1322,
     "title": "Hannover 96 vs SpVgg Greuther Fürth",
     "slug": "Hannover-96-vs-SpVgg-Greuther-Fürth",
     "cat": "Football",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "2. Bundesliga",
       "category": "Football",
@@ -451,7 +411,32 @@
       "startTimeUTC": "2026/11/21 14:00:00 +0000",
       "endTimeUTC": "2026/11/21 16:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/y0e3cmoce8/out/v1/d404acdf0ee642b6afc34cb2e5518309/cenc.mpd",
+        "key": "e600ac1bc9a80cc70eb71e13117760ba:58845ef2c2226ed83ab789bda7daec15"
+      },
+      {
+        "title": "beIN SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
+        "key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
+      },
+      {
+        "title": "SPORT 1 CZ AQ",
+        "type": "dash",
+        "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+        "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+      },
+      {
+        "title": "PlayZ TV TV+ HD",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4549125.m3u8?txSecret=ff934b404e6569353ff4856b2d8e8011&txTime=6B01B6AE",
+        "key": null
+      }
+    ]
   },
   {
     "id": 2024,
