@@ -207,7 +207,7 @@
     "title": "CD Castellón vs CD Eldense",
     "slug": "CD-Castellón-vs-CD-Eldense",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "LaLiga 2",
       "category": "Football",
@@ -235,7 +235,7 @@
     "title": "FC Schalke 04 vs VfB Stuttgart",
     "slug": "FC-Schalke-04-vs-VfB-Stuttgart",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Bundesliga",
       "category": "Football",
@@ -249,14 +249,21 @@
       "startTimeUTC": "2026/11/21 17:30:00 +0000",
       "endTimeUTC": "2026/11/21 19:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "SKY TOP EVENT FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gjsukewpxp/out/v1/ef14aacf858248839b9867eec5caf563/cenc.mpd",
+        "key": "368bd4ebe301406897324bc777650411:69d27c2c2b7de927d67aacc973259901"
+      }
+    ]
   },
   {
     "id": 1356,
     "title": "Newcastle United vs Arsenal",
     "slug": "Newcastle-United-vs-Arsenal",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Premier League",
       "category": "Football",
@@ -270,14 +277,33 @@
       "startTimeUTC": "2026/11/21 17:30:00 +0000",
       "endTimeUTC": "2026/11/21 19:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "FUBO SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd",
+        "key": "42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1"
+      },
+      {
+        "title": "SKY SPORTS EPL",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qdbhkwig26/out/v1/c3a69dfec0434abea00756cd73e749ff/cenc.mpd?",
+        "key": "1106fb025da5b31657618344099c6c14:788284538616a73b56214e90196a6e0f"
+      },
+      {
+        "title": "SKY SPORTS HD",
+        "type": "hls",
+        "url": "https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=eXsDq9RXXLqUQkamaHEreA&e=2075749056&scheme=https",
+        "key": null
+      }
+    ]
   },
   {
     "id": 1357,
     "title": "Sevilla vs Real Betis",
     "slug": "Sevilla-vs-Real-Betis",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "LaLiga",
       "category": "Football",
@@ -315,6 +341,12 @@
         "type": "dash",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd",
         "key": "03f12d6a3dbfd3a6fa7dd7f6417e0c11:ea07b87acdf2e45be824cde4a1cf3504"
+      },
+      {
+        "title": "ESPN DEPORTES HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/60627/load-playlist-multi?&.m3u8",
+        "key": null
       }
     ]
   },
