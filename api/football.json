@@ -1,78 +1,10 @@
 [
   {
-    "id": 2006,
-    "title": "Bahia vs Coritiba",
-    "slug": "Bahia-vs-Coritiba",
-    "cat": "Football",
-    "status": "ended",
-    "event": {
-      "name": "Campeonato Brasileiro Série A",
-      "category": "Football",
-      "teamA": "Bahia",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1955/image",
-      "teamB": "Coritiba",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1982/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/325/image/dark",
-      "startTimeIST": "2026-11-22 02:00:00 IST",
-      "endTimeIST": "2026-11-22 04:20:00 IST",
-      "startTimeUTC": "2026/11/21 20:30:00 +0000",
-      "endTimeUTC": "2026/11/21 22:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PREMIERER BR",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
-        "key": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
-      },
-      {
-        "title": "SporTV BR FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd",
-        "key": "51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
-      },
-      {
-        "title": "SportDigital Fussball",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?",
-        "key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
-      }
-    ]
-  },
-  {
-    "id": 2057,
-    "title": "Vitória SC vs Sporting Braga",
-    "slug": "Vitória-SC-vs-Sporting-Braga",
-    "cat": "Football",
-    "status": "ended",
-    "event": {
-      "name": "Taça de Portugal",
-      "category": "Football",
-      "teamA": "Vitória SC",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/3009/image",
-      "teamB": "Sporting Braga",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2999/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/336/image/dark",
-      "startTimeIST": "2026-11-22 02:00:00 IST",
-      "endTimeIST": "2026-11-22 04:20:00 IST",
-      "startTimeUTC": "2026/11/21 20:30:00 +0000",
-      "endTimeUTC": "2026/11/21 22:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PlayZ TV Live",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel13.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 1376,
     "title": "FC Dallas vs Portland Timbers",
     "slug": "FC-Dallas-vs-Portland-Timbers",
     "cat": "Football",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "MLS",
       "category": "Football",
@@ -317,7 +249,7 @@
     "dashStreams": []
   },
   {
-    "id": 2283,
+    "id": 2284,
     "title": "Córdoba vs Real Oviedo",
     "slug": "Córdoba-vs-Real-Oviedo",
     "cat": "Football",
@@ -338,7 +270,7 @@
     "dashStreams": []
   },
   {
-    "id": 2284,
+    "id": 2285,
     "title": "Córdoba vs Real Oviedo",
     "slug": "Córdoba-vs-Real-Oviedo",
     "cat": "Football",
