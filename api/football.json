@@ -555,6 +555,27 @@
     "dashStreams": []
   },
   {
+    "id": 2080,
+    "title": "EPL | Premier League Goals Rush",
+    "slug": "EPL-|-Premier-League-Goals-Rush",
+    "cat": "Football",
+    "status": "live",
+    "event": {
+      "name": "EPL | Premier League Goals Rush",
+      "category": "Football",
+      "teamA": "EPL Goals Rush",
+      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/17/image",
+      "teamB": "EPL Goals Rush",
+      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/17/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/17/image",
+      "startTimeIST": "2026-11-21 20:30:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/21 15:00:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": []
+  },
+  {
     "id": 2037,
     "title": "Lincoln City vs Wrexham",
     "slug": "Lincoln-City-vs-Wrexham",
@@ -727,7 +748,7 @@
     "title": "Rayo Vallecano vs Valencia",
     "slug": "Rayo-Vallecano-vs-Valencia",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "LaLiga",
       "category": "Football",
@@ -748,7 +769,7 @@
     "title": "Real Sociedad B vs Cádiz",
     "slug": "Real-Sociedad-B-vs-Cádiz",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "LaLiga 2",
       "category": "Football",
