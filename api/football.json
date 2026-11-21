@@ -107,7 +107,7 @@
     "title": "Japan U17 vs Colombia U17",
     "slug": "Japan-U17-vs-Colombia-U17",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "U17 World Championship",
       "category": "Football",
@@ -127,6 +127,12 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
         "key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel28.m3u8?",
+        "key": null
       }
     ]
   },
@@ -135,7 +141,7 @@
     "title": "Manchester City vs Fulham",
     "slug": "Manchester-City-vs-Fulham",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Premier League",
       "category": "Football",
@@ -150,6 +156,12 @@
       "endTimeUTC": "2026/11/21 14:50:00 +0000"
     },
     "dashStreams": [
+      {
+        "title": "FUBO SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/4zomejgnew/out/v1/aaaab12c95924d80a77f87f7c745782a/cenc.mpd",
+        "key": "65f9ed4580a4af3c117a339c44cdfe3b:3e7d40c4b2ca331fe48bd65acae439d7"
+      },
       {
         "title": "TNT SPORTS - AQ",
         "type": "dash",
@@ -173,6 +185,12 @@
         "type": "hls",
         "url": "https://live-cdn.ryazanslah3.space/hls/bein1.m3u8?",
         "key": null
+      },
+      {
+        "title": "PLAYZ TV LIVE",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4558489.m3u8?txSecret=4b178d5136886b00aeb93effe05b134c&txTime=6B01A1F1",
+        "key": null
       }
     ]
   },
@@ -181,7 +199,7 @@
     "title": "Millwall vs Queens Park Rangers",
     "slug": "Millwall-vs-Queens-Park-Rangers",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Championship",
       "category": "Football",
@@ -195,14 +213,21 @@
       "startTimeUTC": "2026/11/21 12:30:00 +0000",
       "endTimeUTC": "2026/11/21 14:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "beIN SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+        "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+      }
+    ]
   },
   {
     "id": 2029,
     "title": "Norwich City vs Cardiff City",
     "slug": "Norwich-City-vs-Cardiff-City",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Championship",
       "category": "Football",
@@ -223,7 +248,7 @@
     "title": "Serbia U17 vs Honduras U17",
     "slug": "Serbia-U17-vs-Honduras-U17",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "U17 World Championship",
       "category": "Football",
@@ -244,7 +269,7 @@
     "title": "Southampton vs Derby County",
     "slug": "Southampton-vs-Derby-County",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Championship",
       "category": "Football",
