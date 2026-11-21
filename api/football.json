@@ -105,6 +105,27 @@
     "dashStreams": []
   },
   {
+    "id": 2016,
+    "title": "CE Sabadell vs Granada",
+    "slug": "CE-Sabadell-vs-Granada",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "LaLiga 2",
+      "category": "Football",
+      "teamA": "CE Sabadell",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/24335/image",
+      "teamB": "Granada",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/33779/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/54/image/dark",
+      "startTimeIST": "2026-11-21 18:30:00 IST",
+      "endTimeIST": "2026-11-21 20:50:00 IST",
+      "startTimeUTC": "2026/11/21 13:00:00 +0000",
+      "endTimeUTC": "2026/11/21 15:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
     "id": 1346,
     "title": "Como vs Cagliari",
     "slug": "Como-vs-Cagliari",
@@ -147,6 +168,27 @@
     "dashStreams": []
   },
   {
+    "id": 2017,
+    "title": "1. FC Union Berlin vs RB Leipzig",
+    "slug": "1.-FC-Union-Berlin-vs-RB-Leipzig",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Bundesliga",
+      "category": "Football",
+      "teamA": "1. FC Union Berlin",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2547/image",
+      "teamB": "RB Leipzig",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/36360/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/35/image/dark",
+      "startTimeIST": "2026-11-21 20:00:00 IST",
+      "endTimeIST": "2026-11-21 22:20:00 IST",
+      "startTimeUTC": "2026/11/21 14:30:00 +0000",
+      "endTimeUTC": "2026/11/21 16:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
     "id": 1372,
     "title": "Bayer 04 Leverkusen vs SC Paderborn 07",
     "slug": "Bayer-04-Leverkusen-vs-SC-Paderborn-07",
@@ -159,6 +201,48 @@
       "teamAFlag": "https://img.sofascore.com/api/v1/team/2681/image",
       "teamB": "SC Paderborn 07",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/2561/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/35/image/dark",
+      "startTimeIST": "2026-11-21 20:00:00 IST",
+      "endTimeIST": "2026-11-21 22:20:00 IST",
+      "startTimeUTC": "2026/11/21 14:30:00 +0000",
+      "endTimeUTC": "2026/11/21 16:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2018,
+    "title": "Borussia M'gladbach vs Borussia Dortmund",
+    "slug": "Borussia-M'gladbach-vs-Borussia-Dortmund",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Bundesliga",
+      "category": "Football",
+      "teamA": "Borussia M'gladbach",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2527/image",
+      "teamB": "Borussia Dortmund",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2673/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/35/image/dark",
+      "startTimeIST": "2026-11-21 20:00:00 IST",
+      "endTimeIST": "2026-11-21 22:20:00 IST",
+      "startTimeUTC": "2026/11/21 14:30:00 +0000",
+      "endTimeUTC": "2026/11/21 16:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2019,
+    "title": "Eintracht Frankfurt vs TSG Hoffenheim",
+    "slug": "Eintracht-Frankfurt-vs-TSG-Hoffenheim",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Bundesliga",
+      "category": "Football",
+      "teamA": "Eintracht Frankfurt",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2674/image",
+      "teamB": "TSG Hoffenheim",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2569/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/35/image/dark",
       "startTimeIST": "2026-11-21 20:00:00 IST",
       "endTimeIST": "2026-11-21 22:20:00 IST",
@@ -399,6 +483,27 @@
     "dashStreams": []
   },
   {
+    "id": 2020,
+    "title": "FC Schalke 04 vs VfB Stuttgart",
+    "slug": "FC-Schalke-04-vs-VfB-Stuttgart",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Bundesliga",
+      "category": "Football",
+      "teamA": "FC Schalke 04",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2530/image",
+      "teamB": "VfB Stuttgart",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2677/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/35/image/dark",
+      "startTimeIST": "2026-11-21 23:00:00 IST",
+      "endTimeIST": "2026-11-22 01:20:00 IST",
+      "startTimeUTC": "2026/11/21 17:30:00 +0000",
+      "endTimeUTC": "2026/11/21 19:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
     "id": 1356,
     "title": "Newcastle United vs Arsenal",
     "slug": "Newcastle-United-vs-Arsenal",
@@ -630,6 +735,27 @@
     "dashStreams": []
   },
   {
+    "id": 2021,
+    "title": "FC Groningen vs SC Heerenveen",
+    "slug": "FC-Groningen-vs-SC-Heerenveen",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "VriendenLoterij Eredivisie",
+      "category": "Football",
+      "teamA": "FC Groningen",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2951/image",
+      "teamB": "SC Heerenveen",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2964/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/37/image/dark",
+      "startTimeIST": "2026-11-22 01:30:00 IST",
+      "endTimeIST": "2026-11-22 03:50:00 IST",
+      "startTimeUTC": "2026/11/21 20:00:00 +0000",
+      "endTimeUTC": "2026/11/21 22:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
     "id": 1364,
     "title": "Real Madrid vs Celta Vigo",
     "slug": "Real-Madrid-vs-Celta-Vigo",
@@ -643,6 +769,27 @@
       "teamB": "Celta Vigo",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/2821/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/8/image/dark",
+      "startTimeIST": "2026-11-22 01:30:00 IST",
+      "endTimeIST": "2026-11-22 03:50:00 IST",
+      "startTimeUTC": "2026/11/21 20:00:00 +0000",
+      "endTimeUTC": "2026/11/21 22:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2022,
+    "title": "SC Telstar vs PEC Zwolle",
+    "slug": "SC-Telstar-vs-PEC-Zwolle",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "VriendenLoterij Eredivisie",
+      "category": "Football",
+      "teamA": "SC Telstar",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2972/image",
+      "teamB": "PEC Zwolle",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2971/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/37/image/dark",
       "startTimeIST": "2026-11-22 01:30:00 IST",
       "endTimeIST": "2026-11-22 03:50:00 IST",
       "startTimeUTC": "2026/11/21 20:00:00 +0000",
