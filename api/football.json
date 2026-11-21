@@ -4,7 +4,7 @@
     "title": "Deportivo Alavés vs Deportivo de A Coruña",
     "slug": "Deportivo-Alavés-vs-Deportivo-de-A-Coruña",
     "cat": "Football",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "LaLiga",
       "category": "Football",
@@ -50,7 +50,7 @@
     "title": "Galatasaray vs Samsunspor",
     "slug": "Galatasaray-vs-Samsunspor",
     "cat": "Football",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Trendyol Süper Lig",
       "category": "Football",
@@ -248,6 +248,12 @@
     },
     "dashStreams": [
       {
+        "title": "SHAHID EN/AR - AQ",
+        "type": "dash",
+        "url": "https://shahid-sports-4-enc.edgenextcdn.net/out/v1/f813ab47644d4c41a99285513f6c7409/index.mpd",
+        "key": "6477160076644679af1028534f03f67e:1267f99705113a62c7782c4d5281a7eb"
+      },
+      {
         "title": "PlayZ TV HD",
         "type": "hls",
         "url": "https://live.vivo155.com/live/hd-en-1-4566409.m3u8?txSecret=ffa99c544fc5ed93ec871a545479bb3c&txTime=6B01B7E9",
@@ -365,6 +371,12 @@
       "endTimeUTC": "2026/11/21 16:50:00 +0000"
     },
     "dashStreams": [
+      {
+        "title": "SHAHID EN/AR - AQ",
+        "type": "dash",
+        "url": "https://shahid-sports-3-enc.edgenextcdn.net/out/v1/2658c96bbfa54f339e357fe36361587e/index.mpd",
+        "key": "2b6f6b340aa8467785e4e82f9320fb5a:8889701d704078c4d910ed1409413d9b"
+      },
       {
         "title": "PlayZ TV HD",
         "type": "hls",
@@ -552,7 +564,14 @@
       "startTimeUTC": "2026/11/21 15:00:00 +0000",
       "endTimeUTC": "2026/11/21 17:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PlayZ TV Live",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4558513.m3u8?txSecret=e20a57db07f81d105bb36719cb0988ed&txTime=6B01C421",
+        "key": null
+      }
+    ]
   },
   {
     "id": 2080,
@@ -573,7 +592,14 @@
       "startTimeUTC": "2026/11/21 15:00:00 +0000",
       "endTimeUTC": null
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "SKY SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qdbhkwig26/out/v1/c3a69dfec0434abea00756cd73e749ff/cenc.mpd?",
+        "key": "1106fb025da5b31657618344099c6c14:788284538616a73b56214e90196a6e0f"
+      }
+    ]
   },
   {
     "id": 2037,
