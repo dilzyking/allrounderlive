@@ -452,6 +452,12 @@
     },
     "dashStreams": [
       {
+        "title": "Sportdigital FUSSBALL 2",
+        "type": "hls",
+        "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/77693/77693_264_live.m3u8",
+        "key": null
+      },
+      {
         "title": "HD",
         "type": "hls",
         "url": "https://chatgpt.hereisman.net/playlist/60590/load-playlist-multi?&.m3u8",
@@ -525,6 +531,18 @@
         "title": "beIN ARABIC FHD",
         "type": "hls",
         "url": "https://live-cdn.ryazanslah3.space/hls/Aren1.m3u8?",
+        "key": null
+      },
+      {
+        "title": "FHD STREAM",
+        "type": "hls",
+        "url": "https://live01-cn-ali.xqnbu.com/live/19780545_tsc.m3u8",
+        "key": null
+      },
+      {
+        "title": "HD STREAM",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/8e80e3e4-436c-4bac-a3a2-ada7266334cb.m3u8",
         "key": null
       },
       {
@@ -723,27 +741,6 @@
     "dashStreams": []
   },
   {
-    "id": 2218,
-    "title": "Juventus vs Venezia",
-    "slug": "Juventus-vs-Venezia",
-    "cat": "Football",
-    "status": "upcoming",
-    "event": {
-      "name": "Serie A",
-      "category": "Football",
-      "teamA": "Juventus",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2687/image",
-      "teamB": "Venezia",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2688/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "startTimeIST": "2026-11-22 17:00:00 IST",
-      "endTimeIST": "2026-11-22 19:20:00 IST",
-      "startTimeUTC": "2026/11/22 11:30:00 +0000",
-      "endTimeUTC": "2026/11/22 13:50:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 2233,
     "title": "Juventus vs Venezia",
     "slug": "Juventus-vs-Venezia",
@@ -765,7 +762,28 @@
     "dashStreams": []
   },
   {
-    "id": 2219,
+    "id": 2239,
+    "title": "Juventus vs Venezia",
+    "slug": "Juventus-vs-Venezia",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Serie A",
+      "category": "Football",
+      "teamA": "Juventus",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2687/image",
+      "teamB": "Venezia",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2688/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/23/image/dark",
+      "startTimeIST": "2026-11-22 17:00:00 IST",
+      "endTimeIST": "2026-11-22 19:20:00 IST",
+      "startTimeUTC": "2026/11/22 11:30:00 +0000",
+      "endTimeUTC": "2026/11/22 13:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2234,
     "title": "Burnley vs Blackburn Rovers",
     "slug": "Burnley-vs-Blackburn-Rovers",
     "cat": "Football",
@@ -786,7 +804,7 @@
     "dashStreams": []
   },
   {
-    "id": 2234,
+    "id": 2240,
     "title": "Burnley vs Blackburn Rovers",
     "slug": "Burnley-vs-Blackburn-Rovers",
     "cat": "Football",
@@ -870,7 +888,7 @@
     "dashStreams": []
   },
   {
-    "id": 2220,
+    "id": 2235,
     "title": "Córdoba vs Real Oviedo",
     "slug": "Córdoba-vs-Real-Oviedo",
     "cat": "Football",
@@ -891,7 +909,7 @@
     "dashStreams": []
   },
   {
-    "id": 2235,
+    "id": 2241,
     "title": "Córdoba vs Real Oviedo",
     "slug": "Córdoba-vs-Real-Oviedo",
     "cat": "Football",
