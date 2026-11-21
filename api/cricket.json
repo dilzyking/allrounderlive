@@ -138,40 +138,6 @@
     ]
   },
   {
-    "id": 1871,
-    "title": "Nepal Premier League",
-    "slug": "Nepal-Premier-League",
-    "cat": "Cricket",
-    "status": "live",
-    "event": {
-      "name": "Nepal Premier League",
-      "category": "Cricket",
-      "teamA": "NPL",
-      "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4kb18PjjNzQILyDESk2XOhaXZ6mIZ9tsTkyKwzjpoIw&s=10",
-      "teamB": "NPL",
-      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4kb18PjjNzQILyDESk2XOhaXZ6mIZ9tsTkyKwzjpoIw&s=10",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4kb18PjjNzQILyDESk2XOhaXZ6mIZ9tsTkyKwzjpoIw&s=10",
-      "startTimeIST": "2026-11-21 16:45:00 IST",
-      "endTimeIST": null,
-      "startTimeUTC": "2026/11/21 11:15:00 +0000",
-      "endTimeUTC": null
-    },
-    "dashStreams": [
-      {
-        "title": "NPL LIVE FHD",
-        "type": "dash",
-        "url": "https://ott-edge-mtdc.nettv.com.np/npl/live_match3/index.mpd?",
-        "key": "b4d7fc89103597185058cc4c81a1800d:17062472ba2a3f1db709d3bb7761c936"
-      },
-      {
-        "title": "FANCODE - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
-        "key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
-      }
-    ]
-  },
-  {
     "id": 1884,
     "title": "International League T20",
     "slug": "ILT-T20-vs-ILT-T",
