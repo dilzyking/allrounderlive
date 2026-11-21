@@ -339,6 +339,27 @@
     "dashStreams": []
   },
   {
+    "id": 2064,
+    "title": "Deportivo Alavés vs Deportivo de A Coruña",
+    "slug": "Deportivo-Alavés-vs-Deportivo-de-A-Coruña",
+    "cat": "Football",
+    "status": "live",
+    "event": {
+      "name": "LaLiga",
+      "category": "Football",
+      "teamA": "Deportivo Alavés",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2885/image",
+      "teamB": "Deportivo de A Coruña",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2832/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/8/image/dark",
+      "startTimeIST": "2026-11-21 18:30:00 IST",
+      "endTimeIST": "2026-11-21 20:50:00 IST",
+      "startTimeUTC": "2026/11/21 13:00:00 +0000",
+      "endTimeUTC": "2026/11/21 15:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
     "id": 2032,
     "title": "Tanzania U17 vs Costa Rica U17",
     "slug": "Tanzania-U17-vs-Costa-Rica-U17",
