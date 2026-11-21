@@ -297,7 +297,14 @@
       "startTimeUTC": "2026/11/21 17:45:00 +0000",
       "endTimeUTC": "2026/11/21 20:05:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "HD STREAM",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/773547fd-d5c7-46aa-9669-cd95d02a1e53.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 2052,
