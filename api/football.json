@@ -128,7 +128,7 @@
     "title": "AS Monaco vs AJ Auxerre",
     "slug": "AS-Monaco-vs-AJ-Auxerre",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Ligue 1",
       "category": "Football",
@@ -142,14 +142,27 @@
       "startTimeUTC": "2026/11/21 19:45:00 +0000",
       "endTimeUTC": "2026/11/21 22:05:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "beIN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?",
+        "key": "27759a440e8ad821b800b3de00cd5851:1b8743adee559f27845f55e8b4d639fe"
+      },
+      {
+        "title": "Ligue1+ HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/60648/load-playlist-multi?&.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 1359,
     "title": "LOSC Lille vs Olympique Lyonnais",
     "slug": "LOSC-Lille-vs-Olympique-Lyonnais",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Ligue 1",
       "category": "Football",
@@ -163,14 +176,21 @@
       "startTimeUTC": "2026/11/21 19:45:00 +0000",
       "endTimeUTC": "2026/11/21 22:05:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "beIN ESPNAOL FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd?",
+        "key": "74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c"
+      }
+    ]
   },
   {
     "id": 1360,
     "title": "RC Lens vs Toulouse",
     "slug": "RC-Lens-vs-Toulouse",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Ligue 1",
       "category": "Football",
@@ -186,6 +206,12 @@
     },
     "dashStreams": [
       {
+        "title": "beIN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/n7hbpksb18/out/v1/be5403be4a674a7da8b3c81b1fe79692/cenc.mpd",
+        "key": "4fce30c060b7b0464ab765e24fee5ecc:65d612238736eec3794c7e75a6fd362c"
+      },
+      {
         "title": "BeIN XTRA - AQ",
         "type": "hls",
         "url": "https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8",
@@ -198,7 +224,7 @@
     "title": "RC Strasbourg vs Stade Brestois",
     "slug": "RC-Strasbourg-vs-Stade-Brestois",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Ligue 1",
       "category": "Football",
@@ -219,7 +245,7 @@
     "title": "SSC Napoli vs Torino",
     "slug": "SSC-Napoli-vs-Torino",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Serie A",
       "category": "Football",
@@ -245,6 +271,12 @@
         "type": "dash",
         "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
         "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+      },
+      {
+        "title": "PARAMOUNT+ HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/60647/load-playlist-multi?&.m3u8",
+        "key": null
       }
     ]
   },
@@ -529,27 +561,6 @@
     "dashStreams": []
   },
   {
-    "id": 2188,
-    "title": "Juventus vs Venezia",
-    "slug": "Juventus-vs-Venezia",
-    "cat": "Football",
-    "status": "upcoming",
-    "event": {
-      "name": "Serie A",
-      "category": "Football",
-      "teamA": "Juventus",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2687/image",
-      "teamB": "Venezia",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2688/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "startTimeIST": "2026-11-22 17:00:00 IST",
-      "endTimeIST": "2026-11-22 19:20:00 IST",
-      "startTimeUTC": "2026/11/22 11:30:00 +0000",
-      "endTimeUTC": "2026/11/22 13:50:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 2193,
     "title": "Juventus vs Venezia",
     "slug": "Juventus-vs-Venezia",
@@ -571,7 +582,28 @@
     "dashStreams": []
   },
   {
-    "id": 2189,
+    "id": 2198,
+    "title": "Juventus vs Venezia",
+    "slug": "Juventus-vs-Venezia",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Serie A",
+      "category": "Football",
+      "teamA": "Juventus",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2687/image",
+      "teamB": "Venezia",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2688/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/23/image/dark",
+      "startTimeIST": "2026-11-22 17:00:00 IST",
+      "endTimeIST": "2026-11-22 19:20:00 IST",
+      "startTimeUTC": "2026/11/22 11:30:00 +0000",
+      "endTimeUTC": "2026/11/22 13:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2194,
     "title": "Burnley vs Blackburn Rovers",
     "slug": "Burnley-vs-Blackburn-Rovers",
     "cat": "Football",
@@ -592,7 +624,7 @@
     "dashStreams": []
   },
   {
-    "id": 2194,
+    "id": 2199,
     "title": "Burnley vs Blackburn Rovers",
     "slug": "Burnley-vs-Blackburn-Rovers",
     "cat": "Football",
@@ -676,7 +708,7 @@
     "dashStreams": []
   },
   {
-    "id": 2190,
+    "id": 2195,
     "title": "Córdoba vs Real Oviedo",
     "slug": "Córdoba-vs-Real-Oviedo",
     "cat": "Football",
@@ -697,7 +729,7 @@
     "dashStreams": []
   },
   {
-    "id": 2195,
+    "id": 2200,
     "title": "Córdoba vs Real Oviedo",
     "slug": "Córdoba-vs-Real-Oviedo",
     "cat": "Football",
