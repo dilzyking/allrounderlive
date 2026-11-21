@@ -186,7 +186,56 @@
       "startTimeUTC": "2026/11/21 10:00:00 +0000",
       "endTimeUTC": null
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "WILLOW - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yiibkf8ifo/out/v1/4f2e6d2fb906490e910c22a4dfbfbd82/cenc.mpd",
+        "key": "c180edac009ec2b3ddc9822f3ae814c3:b94d327fd81dd7a5a43a0a7bd737dd8a"
+      },
+      {
+        "title": "PRIME VIDEO FHD",
+        "type": "dash",
+        "url": "https://abn7ylpaaaaaaaame77ehqq2geew7.ta.bia-cf.live.pv-cdn.net/bom-nitro/live/clients/dash/enc/w38waynbjz/out/v1/c8d5a418fc14440eb143b6add6b0af66/cenc.mpd",
+        "key": "2ca5224cf3b5604c216670133f47b34c:9c0cf6c1c33edbcb63508c4b237b7e79"
+      },
+      {
+        "title": "STARZPLAY FHD",
+        "type": "dash",
+        "url": "https://d1ifzl5cnhi7bu.cloudfront.net/out/v1/45ba30e075ad455a8767d3f33e67ea3d/index.mpd",
+        "key": "0ae4f162eec3e6f2b580a5bf0f4a64d4:03483335db81cba5bbcf51b6d31196d9"
+      },
+      {
+        "title": "WILLOW ALT",
+        "type": "dash",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/abgihi0eu1/out/v1/aecf943a889740d190b355d7bc80b51a/cenc.mpd",
+        "key": "c180edac009ec2b3ddc9822f3ae814c3:b94d327fd81dd7a5a43a0a7bd737dd8a"
+      },
+      {
+        "title": "TAMASHA AQ",
+        "type": "hls",
+        "url": "https://cdn06khi-n.tamashaweb.com:8087/appcast/ACC-men-AC26-abr/playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "SONYLIV (Asia)",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120306/Criclive2011/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795195986~acl=/*~id=32385250455894596018551937938511~hmac=ef41163e4f8a27bafd051dcb0026e1fca2e8145200b1c4c636a0a88c142c75ec",
+        "key": null
+      },
+      {
+        "title": "TEN SPORTS HD",
+        "type": "hls",
+        "url": "https://live.msnetworks.net/ten-sports/master.m3u8",
+        "key": null
+      },
+      {
+        "title": "SONY TEN HD",
+        "type": "hls",
+        "url": "https://toffee.aliflaila.live/channel/3.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 1997,
