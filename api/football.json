@@ -778,27 +778,6 @@
     "dashStreams": []
   },
   {
-    "id": 2162,
-    "title": "Juventus vs Venezia",
-    "slug": "Juventus-vs-Venezia",
-    "cat": "Football",
-    "status": "upcoming",
-    "event": {
-      "name": "Serie A",
-      "category": "Football",
-      "teamA": "Juventus",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2687/image",
-      "teamB": "Venezia",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2688/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "startTimeIST": "2026-11-22 17:00:00 IST",
-      "endTimeIST": "2026-11-22 19:20:00 IST",
-      "startTimeUTC": "2026/11/22 11:30:00 +0000",
-      "endTimeUTC": "2026/11/22 13:50:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 2167,
     "title": "Juventus vs Venezia",
     "slug": "Juventus-vs-Venezia",
@@ -820,7 +799,28 @@
     "dashStreams": []
   },
   {
-    "id": 2163,
+    "id": 2172,
+    "title": "Juventus vs Venezia",
+    "slug": "Juventus-vs-Venezia",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Serie A",
+      "category": "Football",
+      "teamA": "Juventus",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2687/image",
+      "teamB": "Venezia",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2688/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/23/image/dark",
+      "startTimeIST": "2026-11-22 17:00:00 IST",
+      "endTimeIST": "2026-11-22 19:20:00 IST",
+      "startTimeUTC": "2026/11/22 11:30:00 +0000",
+      "endTimeUTC": "2026/11/22 13:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2168,
     "title": "Burnley vs Blackburn Rovers",
     "slug": "Burnley-vs-Blackburn-Rovers",
     "cat": "Football",
@@ -841,7 +841,7 @@
     "dashStreams": []
   },
   {
-    "id": 2168,
+    "id": 2173,
     "title": "Burnley vs Blackburn Rovers",
     "slug": "Burnley-vs-Blackburn-Rovers",
     "cat": "Football",
@@ -925,7 +925,7 @@
     "dashStreams": []
   },
   {
-    "id": 2164,
+    "id": 2169,
     "title": "Córdoba vs Real Oviedo",
     "slug": "Córdoba-vs-Real-Oviedo",
     "cat": "Football",
@@ -946,7 +946,7 @@
     "dashStreams": []
   },
   {
-    "id": 2169,
+    "id": 2174,
     "title": "Córdoba vs Real Oviedo",
     "slug": "Córdoba-vs-Real-Oviedo",
     "cat": "Football",
