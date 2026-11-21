@@ -34,27 +34,6 @@
     ]
   },
   {
-    "id": 2035,
-    "title": "Bolton Wanderers vs Portsmouth",
-    "slug": "Bolton-Wanderers-vs-Portsmouth",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "Bolton Wanderers",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/5/image",
-      "teamB": "Portsmouth",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-11-21 20:30:00 IST",
-      "endTimeIST": "2026-11-21 22:50:00 IST",
-      "startTimeUTC": "2026/11/21 15:00:00 +0000",
-      "endTimeUTC": "2026/11/21 17:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 1349,
     "title": "Bournemouth vs Nottingham Forest",
     "slug": "Bournemouth-vs-Nottingham-Forest",
@@ -81,55 +60,6 @@
         "key": null
       }
     ]
-  },
-  {
-    "id": 2036,
-    "title": "Brazil U17 vs Ireland U17",
-    "slug": "Brazil-U17-vs-Ireland-U17",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "U17 World Championship",
-      "category": "Football",
-      "teamA": "Brazil U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/22586/image",
-      "teamB": "Ireland U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/22476/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
-      "startTimeIST": "2026-11-21 20:30:00 IST",
-      "endTimeIST": "2026-11-21 22:50:00 IST",
-      "startTimeUTC": "2026/11/21 15:00:00 +0000",
-      "endTimeUTC": "2026/11/21 17:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SporTV BR FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd",
-        "key": "51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
-      }
-    ]
-  },
-  {
-    "id": 2047,
-    "title": "Celtic vs St. Mirren",
-    "slug": "Celtic-vs-St.-Mirren",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "Scottish Premiership",
-      "category": "Football",
-      "teamA": "Celtic",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2352/image",
-      "teamB": "St. Mirren",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2359/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/36/image/dark",
-      "startTimeIST": "2026-11-21 20:30:00 IST",
-      "endTimeIST": "2026-11-21 22:50:00 IST",
-      "startTimeUTC": "2026/11/21 15:00:00 +0000",
-      "endTimeUTC": "2026/11/21 17:20:00 +0000"
-    },
-    "dashStreams": []
   },
   {
     "id": 1350,
@@ -234,118 +164,6 @@
     ]
   },
   {
-    "id": 2037,
-    "title": "Lincoln City vs Wrexham",
-    "slug": "Lincoln-City-vs-Wrexham",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "Lincoln City",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/92/image",
-      "teamB": "Wrexham",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/64/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-11-21 20:30:00 IST",
-      "endTimeIST": "2026-11-21 22:50:00 IST",
-      "startTimeUTC": "2026/11/21 15:00:00 +0000",
-      "endTimeUTC": "2026/11/21 17:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 2038,
-    "title": "Middlesbrough vs Bristol City",
-    "slug": "Middlesbrough-vs-Bristol-City",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "Middlesbrough",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/36/image",
-      "teamB": "Bristol City",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/58/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-11-21 20:30:00 IST",
-      "endTimeIST": "2026-11-21 22:50:00 IST",
-      "startTimeUTC": "2026/11/21 15:00:00 +0000",
-      "endTimeUTC": "2026/11/21 17:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 2039,
-    "title": "Sheffield United vs Watford",
-    "slug": "Sheffield-United-vs-Watford",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "Sheffield United",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/15/image",
-      "teamB": "Watford",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/24/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-11-21 20:30:00 IST",
-      "endTimeIST": "2026-11-21 22:50:00 IST",
-      "startTimeUTC": "2026/11/21 15:00:00 +0000",
-      "endTimeUTC": "2026/11/21 17:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD STREAM",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel25.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 2040,
-    "title": "Stoke City vs Birmingham City",
-    "slug": "Stoke-City-vs-Birmingham-City",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "Stoke City",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/29/image",
-      "teamB": "Birmingham City",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/9/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-11-21 20:30:00 IST",
-      "endTimeIST": "2026-11-21 22:50:00 IST",
-      "startTimeUTC": "2026/11/21 15:00:00 +0000",
-      "endTimeUTC": "2026/11/21 17:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 2041,
-    "title": "Swansea City vs West Bromwich Albion",
-    "slug": "Swansea-City-vs-West-Bromwich-Albion",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "Swansea City",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/74/image",
-      "teamB": "West Bromwich Albion",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/8/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-11-21 20:30:00 IST",
-      "endTimeIST": "2026-11-21 22:50:00 IST",
-      "startTimeUTC": "2026/11/21 15:00:00 +0000",
-      "endTimeUTC": "2026/11/21 17:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 1352,
     "title": "Tottenham Hotspur vs Ipswich Town",
     "slug": "Tottenham-Hotspur-vs-Ipswich-Town",
@@ -380,48 +198,6 @@
     ]
   },
   {
-    "id": 2042,
-    "title": "West Ham United vs Preston North End",
-    "slug": "West-Ham-United-vs-Preston-North-End",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "West Ham United",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/37/image",
-      "teamB": "Preston North End",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/21/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-11-21 20:30:00 IST",
-      "endTimeIST": "2026-11-21 22:50:00 IST",
-      "startTimeUTC": "2026/11/21 15:00:00 +0000",
-      "endTimeUTC": "2026/11/21 17:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 2043,
-    "title": "Wolverhampton vs Charlton Athletic",
-    "slug": "Wolverhampton-vs-Charlton-Athletic",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "Wolverhampton",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/3/image",
-      "teamB": "Charlton Athletic",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/47/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-11-21 20:30:00 IST",
-      "endTimeIST": "2026-11-21 22:50:00 IST",
-      "startTimeUTC": "2026/11/21 15:00:00 +0000",
-      "endTimeUTC": "2026/11/21 17:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 1353,
     "title": "Rayo Vallecano vs Valencia",
     "slug": "Rayo-Vallecano-vs-Valencia",
@@ -440,7 +216,20 @@
       "startTimeUTC": "2026/11/21 15:15:00 +0000",
       "endTimeUTC": "2026/11/21 17:35:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "D Sports FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd",
+        "key": "03f12d6a3dbfd3a6fa7dd7f6417e0c11:ea07b87acdf2e45be824cde4a1cf3504"
+      },
+      {
+        "title": "PlayZ TV Live",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4565613.m3u8?txSecret=3d270397d15764124456f144e0b34457&txTime=6B01C995",
+        "key": null
+      }
+    ]
   },
   {
     "id": 1340,
@@ -461,7 +250,14 @@
       "startTimeUTC": "2026/11/21 15:15:00 +0000",
       "endTimeUTC": "2026/11/21 17:35:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "LALIGA HYPEMOTION ES - AQ",
+        "type": "dash",
+        "url": "https://cache4.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
+        "key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
+      }
+    ]
   },
   {
     "id": 2044,
@@ -482,7 +278,14 @@
       "startTimeUTC": "2026/11/21 15:30:00 +0000",
       "endTimeUTC": "2026/11/21 17:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "D SPORTS+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ud6bnhthpj/out/v1/2639a2f4480f4269953de466d5f46463/cenc.mpd",
+        "key": "83f81c4cc1443991543de4e22eea7586:ddfd7ca653d6f35543d8edb3c688e20f"
+      }
+    ]
   },
   {
     "id": 2045,
@@ -503,7 +306,14 @@
       "startTimeUTC": "2026/11/21 15:30:00 +0000",
       "endTimeUTC": "2026/11/21 17:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PREMIER SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/o2vy4aahsh/out/v1/e293c932745a44dcaf897573dfc53532/cenc.mpd",
+        "key": "763ce1ebcaf23502c8cf357c6ef423e1:0c5e6c0820a1ea28753721db00272411"
+      }
+    ]
   },
   {
     "id": 2079,
@@ -524,7 +334,14 @@
       "startTimeUTC": "2026/11/21 15:30:00 +0000",
       "endTimeUTC": "2026/11/21 17:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "SportDigital Fussball",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?",
+        "key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
+      }
+    ]
   },
   {
     "id": 2055,
