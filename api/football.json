@@ -360,7 +360,20 @@
       "startTimeUTC": "2026/11/21 20:00:00 +0000",
       "endTimeUTC": "2026/11/21 22:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "TSN SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
+        "key": "abc5b2883121012850ebda05b528c5ec:e5250924f4b738905f7163a0134587a7"
+      },
+      {
+        "title": "TSN SPORTS S2 - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd",
+        "key": "d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37"
+      }
+    ]
   },
   {
     "id": 1363,
@@ -409,7 +422,14 @@
       "startTimeUTC": "2026/11/21 20:00:00 +0000",
       "endTimeUTC": "2026/11/21 22:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PlayZ TV Live",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4552258.m3u8?txSecret=37bfea3abf52b84727fea8b487b91441&txTime=6B020A7A",
+        "key": null
+      }
+    ]
   },
   {
     "id": 2054,
@@ -430,7 +450,20 @@
       "startTimeUTC": "2026/11/21 20:00:00 +0000",
       "endTimeUTC": "2026/11/21 22:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "HD",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/60590/load-playlist-multi?&.m3u8",
+        "key": null
+      },
+      {
+        "title": "PlayZ TV Live",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4557637.m3u8?txSecret=a0dcc8db274a2fbdc05ed7cc231d7bc8&txTime=6B020AB9",
+        "key": null
+      }
+    ]
   },
   {
     "id": 1364,
@@ -453,7 +486,7 @@
     },
     "dashStreams": [
       {
-        "title": "DAZN (Multi Audio)",
+        "title": "DAZN [MULTI AUDIO]",
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tdz8ybetqz/out/v1/3a083821fa7a4627b33d08184a5ac239/cenc.mpd?",
         "key": "1a46f72c07e31297e1af73e4ebe79f9b:8e83464feebbff9477b4e79f29487fe1"
@@ -473,8 +506,8 @@
       {
         "title": "CAZE TV BR - AQ",
         "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ui54qo0g6h/out/v1/620e1448188d4bbe9a28d0dd52f45bb7/cenc.mpd",
-        "key": "ba6aca5a550163c38d06646bb50f04e7:516c3b471fce48a5b7a2e5ee7dd505f2"
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?",
+        "key": "34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4"
       },
       {
         "title": "ESPN DEPORTES HD",
@@ -489,6 +522,12 @@
         "key": null
       },
       {
+        "title": "beIN ARABIC FHD",
+        "type": "hls",
+        "url": "https://live-cdn.ryazanslah3.space/hls/Aren1.m3u8?",
+        "key": null
+      },
+      {
         "title": "BeIN ARABIC HD",
         "type": "hls",
         "url": "https://yll7.akbarnews.store/cdn/native/live1/index-timed.m3u8",
@@ -498,6 +537,12 @@
         "title": "BeIN ARABIC SD",
         "type": "hls",
         "url": "https://ec.koooracity.press/youz1.m3u8",
+        "key": null
+      },
+      {
+        "title": "BeIN AR FHD",
+        "type": "hls",
+        "url": "https://yll7.akbarnews.store/cdn/master.m3u8",
         "key": null
       }
     ]
@@ -521,7 +566,14 @@
       "startTimeUTC": "2026/11/21 20:00:00 +0000",
       "endTimeUTC": "2026/11/21 22:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PlayZ TV Live",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4552261.m3u8?txSecret=f7907285127215c05ec687ea2ee2a4f6&txTime=6B020A9E",
+        "key": null
+      }
+    ]
   },
   {
     "id": 2006,
@@ -671,27 +723,6 @@
     "dashStreams": []
   },
   {
-    "id": 2208,
-    "title": "Juventus vs Venezia",
-    "slug": "Juventus-vs-Venezia",
-    "cat": "Football",
-    "status": "upcoming",
-    "event": {
-      "name": "Serie A",
-      "category": "Football",
-      "teamA": "Juventus",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2687/image",
-      "teamB": "Venezia",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2688/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "startTimeIST": "2026-11-22 17:00:00 IST",
-      "endTimeIST": "2026-11-22 19:20:00 IST",
-      "startTimeUTC": "2026/11/22 11:30:00 +0000",
-      "endTimeUTC": "2026/11/22 13:50:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 2213,
     "title": "Juventus vs Venezia",
     "slug": "Juventus-vs-Venezia",
@@ -713,7 +744,28 @@
     "dashStreams": []
   },
   {
-    "id": 2209,
+    "id": 2218,
+    "title": "Juventus vs Venezia",
+    "slug": "Juventus-vs-Venezia",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Serie A",
+      "category": "Football",
+      "teamA": "Juventus",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2687/image",
+      "teamB": "Venezia",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2688/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/23/image/dark",
+      "startTimeIST": "2026-11-22 17:00:00 IST",
+      "endTimeIST": "2026-11-22 19:20:00 IST",
+      "startTimeUTC": "2026/11/22 11:30:00 +0000",
+      "endTimeUTC": "2026/11/22 13:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2214,
     "title": "Burnley vs Blackburn Rovers",
     "slug": "Burnley-vs-Blackburn-Rovers",
     "cat": "Football",
@@ -734,7 +786,7 @@
     "dashStreams": []
   },
   {
-    "id": 2214,
+    "id": 2219,
     "title": "Burnley vs Blackburn Rovers",
     "slug": "Burnley-vs-Blackburn-Rovers",
     "cat": "Football",
@@ -818,7 +870,7 @@
     "dashStreams": []
   },
   {
-    "id": 2210,
+    "id": 2215,
     "title": "Córdoba vs Real Oviedo",
     "slug": "Córdoba-vs-Real-Oviedo",
     "cat": "Football",
@@ -839,7 +891,7 @@
     "dashStreams": []
   },
   {
-    "id": 2215,
+    "id": 2220,
     "title": "Córdoba vs Real Oviedo",
     "slug": "Córdoba-vs-Real-Oviedo",
     "cat": "Football",
