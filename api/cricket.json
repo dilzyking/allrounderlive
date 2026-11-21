@@ -116,7 +116,7 @@
     "title": "Hobart Hurricanes Women vs Sydney Thunder Women",
     "slug": "Hobart-Hurricanes-Women-vs-Sydney-Thunder-Women",
     "cat": "Cricket",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Women's Big Bash League",
       "category": "Cricket",
@@ -126,9 +126,9 @@
       "teamBFlag": "https://img.sofascore.com/api/v1/team/274889/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/11163/image/dark",
       "startTimeIST": "2026-11-21 06:30:00 IST",
-      "endTimeIST": null,
+      "endTimeIST": "2026-11-21 10:04:00 IST",
       "startTimeUTC": "2026/11/21 01:00:00 +0000",
-      "endTimeUTC": null
+      "endTimeUTC": "2026/11/21 04:34:00 +0000"
     },
     "dashStreams": [
       {
@@ -183,6 +183,12 @@
       "endTimeUTC": null
     },
     "dashStreams": [
+      {
+        "title": "WILLOW AQ",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xzhvi2grfc/out/v1/0c7ba1d749ea465c8caac7e84fc34891/cenc.mpd",
+        "key": "6012ce4af4cad526b730a7dc830bb35d:80280163cc6aad3985a22ebf2f082e76"
+      },
       {
         "title": "SKY CRICKET FHD",
         "type": "hls",
