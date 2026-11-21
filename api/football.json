@@ -168,6 +168,27 @@
     "dashStreams": []
   },
   {
+    "id": 2024,
+    "title": "NorthEast United FC vs FC Goa",
+    "slug": "NorthEast-United-FC-vs-FC-Goa",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Indian Super League",
+      "category": "Football",
+      "teamA": "NorthEast United FC",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/174602/image",
+      "teamB": "FC Goa",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/174594/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1900/image/dark",
+      "startTimeIST": "2026-11-21 19:30:00 IST",
+      "endTimeIST": "2026-11-21 21:50:00 IST",
+      "startTimeUTC": "2026/11/21 14:00:00 +0000",
+      "endTimeUTC": "2026/11/21 16:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
     "id": 2017,
     "title": "1. FC Union Berlin vs RB Leipzig",
     "slug": "1.-FC-Union-Berlin-vs-RB-Leipzig",
