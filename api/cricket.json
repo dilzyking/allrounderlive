@@ -1,51 +1,5 @@
 [
   {
-    "id": 2001,
-    "title": "Bangladesh A vs Afghanistan A",
-    "slug": "Bangladesh-A-vs-Afghanistan-A",
-    "cat": "Cricket",
-    "status": "ended",
-    "event": {
-      "name": "Asia Cup Rising Stars",
-      "category": "Cricket",
-      "teamA": "Bangladesh A",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/187809/image",
-      "teamB": "Afghanistan A",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/187575/image",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn2rCtrI68Agu71aIWID9YxzlqXN-3c88k4cwPQQhwEA&s=10",
-      "startTimeIST": "2026-11-21 15:30:00 IST",
-      "endTimeIST": "2026-11-21 23:48:00 IST",
-      "startTimeUTC": "2026/11/21 10:00:00 +0000",
-      "endTimeUTC": "2026/11/21 18:18:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "WILLOW - AQ",
-        "type": "dash",
-        "url": "https://ss-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/fceyqwjpo4/out/v1/3d62c2d3722b4801b8c7dce78217ff87/cenc.mpd",
-        "key": "46bbf645122de0df0cd0b19d4487e2ce:45e84957268ce56d53ae6d0fadec5964"
-      },
-      {
-        "title": "SONYLIV ENG - AQ",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120303/criclive2111/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795298705~acl=/*~id=58960934573632640226853258998970~hmac=e8d92b8745000a7e6f59cce0ff84d6dadb46b224096720200205f1d50ed2401f",
-        "key": null
-      },
-      {
-        "title": "WILLOW S2 - AQ",
-        "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fceyqwjpo4/out/v1/3d62c2d3722b4801b8c7dce78217ff87/cenc.mpd",
-        "key": "46bbf645122de0df0cd0b19d4487e2ce:45e84957268ce56d53ae6d0fadec5964"
-      },
-      {
-        "title": "TAMASHA AQ",
-        "type": "hls",
-        "url": "https://cdn06khi-n.tamashaweb.com:8087/appcast/ACC-men-AC26-b-abr/playlist.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 1884,
     "title": "International League T20",
     "slug": "ILT-T20-vs-ILT-T",
@@ -198,7 +152,7 @@
     ]
   },
   {
-    "id": 2135,
+    "id": 2140,
     "title": "Brisbane Heat Women vs Adelaide Strikers Women",
     "slug": "Brisbane-Heat-Women-vs-Adelaide-Strikers-Women",
     "cat": "Cricket",
@@ -219,7 +173,7 @@
     "dashStreams": []
   },
   {
-    "id": 2140,
+    "id": 2145,
     "title": "Brisbane Heat Women vs Adelaide Strikers Women",
     "slug": "Brisbane-Heat-Women-vs-Adelaide-Strikers-Women",
     "cat": "Cricket",
@@ -303,7 +257,7 @@
     "dashStreams": []
   },
   {
-    "id": 2136,
+    "id": 2141,
     "title": "Melbourne Stars Women vs Melbourne Renegades Women",
     "slug": "Melbourne-Stars-Women-vs-Melbourne-Renegades-Women",
     "cat": "Cricket",
@@ -324,7 +278,7 @@
     "dashStreams": []
   },
   {
-    "id": 2141,
+    "id": 2146,
     "title": "Melbourne Stars Women vs Melbourne Renegades Women",
     "slug": "Melbourne-Stars-Women-vs-Melbourne-Renegades-Women",
     "cat": "Cricket",
