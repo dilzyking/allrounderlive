@@ -178,6 +178,12 @@
     },
     "dashStreams": [
       {
+        "title": "DAZN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/glplwvtpjd/out/v1/3053bf6ead1941efbf0899ec31db8909/cenc.mpd",
+        "key": "c475f3ab920f2dae14f5249ef15d6fbb:a5718875f4271ce91e9e766880383efe"
+      },
+      {
         "title": "beIN ESPNAOL FHD",
         "type": "dash",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd?",
@@ -205,6 +211,12 @@
       "endTimeUTC": "2026/11/21 22:05:00 +0000"
     },
     "dashStreams": [
+      {
+        "title": "DAZN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/o2cneoufx4/out/v1/09dd9597d3c54acdbae86cacf59502c9/cenc.mpd",
+        "key": "0a761732df703365a5d0258b44ad1894:a2e838f43b0cee0830ef5fe641d55361"
+      },
       {
         "title": "beIN SPORTS FHD",
         "type": "dash",
@@ -238,7 +250,14 @@
       "startTimeUTC": "2026/11/21 19:45:00 +0000",
       "endTimeUTC": "2026/11/21 22:05:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "DAZN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oerbkn0tok/out/v1/eb00c2b15ef14fc7b9ff0bce51444730/cenc.mpd",
+        "key": "99ca0c50b50665df756c6a7914dd1372:74e059086af754143cd293db918a6072"
+      }
+    ]
   },
   {
     "id": 1362,
@@ -260,6 +279,30 @@
       "endTimeUTC": "2026/11/21 22:05:00 +0000"
     },
     "dashStreams": [
+      {
+        "title": "DAZN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/k0htndw4gg/out/v1/7a55fff9057a43c1bf6f0321891ebf33/cenc.mpd",
+        "key": "c351d227f7b7593ed063d963ba7e5198:fcebd03613e889d9a93e73b9179daea2"
+      },
+      {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/v8low1gvld/out/v1/15e82e92b0104e468a37ab86400b272f/cenc.mpd",
+        "key": "525541be55e5583610bea04c73d9d176:90089172b16d6b7a81606f658ec1bbd0"
+      },
+      {
+        "title": "FUBO SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/8qrpfzdtql/out/v1/9a5e5a9e5cef4b169a965a19a925f135/cenc.mpd",
+        "key": "fabf521bb61b883f21ec1b16d886782f:9d3324b56eaeb651e889f485d3ffcc69"
+      },
+      {
+        "title": "PEACOCK FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/40nvdm1fb1/out/v1/aa2c58c9bac7416c8b76a0407b2ddae2/cenc.mpd",
+        "key": "525541be55e5583610bea04c73d9d176:90089172b16d6b7a81606f658ec1bbd0"
+      },
       {
         "title": "beIN SPORTS - AQ",
         "type": "dash",
@@ -561,27 +604,6 @@
     "dashStreams": []
   },
   {
-    "id": 2193,
-    "title": "Juventus vs Venezia",
-    "slug": "Juventus-vs-Venezia",
-    "cat": "Football",
-    "status": "upcoming",
-    "event": {
-      "name": "Serie A",
-      "category": "Football",
-      "teamA": "Juventus",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2687/image",
-      "teamB": "Venezia",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2688/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "startTimeIST": "2026-11-22 17:00:00 IST",
-      "endTimeIST": "2026-11-22 19:20:00 IST",
-      "startTimeUTC": "2026/11/22 11:30:00 +0000",
-      "endTimeUTC": "2026/11/22 13:50:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 2198,
     "title": "Juventus vs Venezia",
     "slug": "Juventus-vs-Venezia",
@@ -603,7 +625,28 @@
     "dashStreams": []
   },
   {
-    "id": 2194,
+    "id": 2203,
+    "title": "Juventus vs Venezia",
+    "slug": "Juventus-vs-Venezia",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Serie A",
+      "category": "Football",
+      "teamA": "Juventus",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2687/image",
+      "teamB": "Venezia",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2688/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/23/image/dark",
+      "startTimeIST": "2026-11-22 17:00:00 IST",
+      "endTimeIST": "2026-11-22 19:20:00 IST",
+      "startTimeUTC": "2026/11/22 11:30:00 +0000",
+      "endTimeUTC": "2026/11/22 13:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2199,
     "title": "Burnley vs Blackburn Rovers",
     "slug": "Burnley-vs-Blackburn-Rovers",
     "cat": "Football",
@@ -624,7 +667,7 @@
     "dashStreams": []
   },
   {
-    "id": 2199,
+    "id": 2204,
     "title": "Burnley vs Blackburn Rovers",
     "slug": "Burnley-vs-Blackburn-Rovers",
     "cat": "Football",
@@ -708,7 +751,7 @@
     "dashStreams": []
   },
   {
-    "id": 2195,
+    "id": 2200,
     "title": "Córdoba vs Real Oviedo",
     "slug": "Córdoba-vs-Real-Oviedo",
     "cat": "Football",
@@ -729,7 +772,7 @@
     "dashStreams": []
   },
   {
-    "id": 2200,
+    "id": 2205,
     "title": "Córdoba vs Real Oviedo",
     "slug": "Córdoba-vs-Real-Oviedo",
     "cat": "Football",
