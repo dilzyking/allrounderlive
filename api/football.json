@@ -558,7 +558,7 @@
         "key": null
       },
       {
-        "title": "BeIN AR FHD",
+        "title": "BeIN AR HD",
         "type": "hls",
         "url": "https://yll7.akbarnews.store/cdn/master.m3u8",
         "key": null
@@ -598,7 +598,7 @@
     "title": "Bahia vs Coritiba",
     "slug": "Bahia-vs-Coritiba",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Campeonato Brasileiro Série A",
       "category": "Football",
@@ -612,14 +612,33 @@
       "startTimeUTC": "2026/11/21 20:30:00 +0000",
       "endTimeUTC": "2026/11/21 22:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PREMIERER BR",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
+        "key": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
+      },
+      {
+        "title": "SporTV BR FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd",
+        "key": "51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
+      },
+      {
+        "title": "SportDigital Fussball",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?",
+        "key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
+      }
+    ]
   },
   {
     "id": 2057,
     "title": "Vitória SC vs Sporting Braga",
     "slug": "Vitória-SC-vs-Sporting-Braga",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Taça de Portugal",
       "category": "Football",
@@ -741,27 +760,6 @@
     "dashStreams": []
   },
   {
-    "id": 2244,
-    "title": "Juventus vs Venezia",
-    "slug": "Juventus-vs-Venezia",
-    "cat": "Football",
-    "status": "upcoming",
-    "event": {
-      "name": "Serie A",
-      "category": "Football",
-      "teamA": "Juventus",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2687/image",
-      "teamB": "Venezia",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2688/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "startTimeIST": "2026-11-22 17:00:00 IST",
-      "endTimeIST": "2026-11-22 19:20:00 IST",
-      "startTimeUTC": "2026/11/22 11:30:00 +0000",
-      "endTimeUTC": "2026/11/22 13:50:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 2249,
     "title": "Juventus vs Venezia",
     "slug": "Juventus-vs-Venezia",
@@ -779,27 +777,6 @@
       "endTimeIST": "2026-11-22 19:20:00 IST",
       "startTimeUTC": "2026/11/22 11:30:00 +0000",
       "endTimeUTC": "2026/11/22 13:50:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 2245,
-    "title": "Burnley vs Blackburn Rovers",
-    "slug": "Burnley-vs-Blackburn-Rovers",
-    "cat": "Football",
-    "status": "upcoming",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "Burnley",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/6/image",
-      "teamB": "Blackburn Rovers",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/46/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-11-22 17:30:00 IST",
-      "endTimeIST": "2026-11-22 19:50:00 IST",
-      "startTimeUTC": "2026/11/22 12:00:00 +0000",
-      "endTimeUTC": "2026/11/22 14:20:00 +0000"
     },
     "dashStreams": []
   },
@@ -888,7 +865,7 @@
     "dashStreams": []
   },
   {
-    "id": 2246,
+    "id": 2251,
     "title": "Córdoba vs Real Oviedo",
     "slug": "Córdoba-vs-Real-Oviedo",
     "cat": "Football",
@@ -909,7 +886,7 @@
     "dashStreams": []
   },
   {
-    "id": 2251,
+    "id": 2252,
     "title": "Córdoba vs Real Oviedo",
     "slug": "Córdoba-vs-Real-Oviedo",
     "cat": "Football",
