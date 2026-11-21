@@ -346,7 +346,7 @@
     "title": "Cavalry FC vs Atlético Ottawa",
     "slug": "Cavalry-FC-vs-Atlético-Ottawa",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Canadian Premier League",
       "category": "Football",
@@ -367,7 +367,7 @@
     "title": "CD Tenerife vs Mallorca",
     "slug": "CD-Tenerife-vs-Mallorca",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "LaLiga 2",
       "category": "Football",
@@ -395,7 +395,7 @@
     "title": "FC Groningen vs SC Heerenveen",
     "slug": "FC-Groningen-vs-SC-Heerenveen",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "VriendenLoterij Eredivisie",
       "category": "Football",
@@ -416,7 +416,7 @@
     "title": "Motherwell vs Rangers",
     "slug": "Motherwell-vs-Rangers",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Scottish Premiership",
       "category": "Football",
@@ -437,7 +437,7 @@
     "title": "Real Madrid vs Celta Vigo",
     "slug": "Real-Madrid-vs-Celta-Vigo",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "LaLiga",
       "category": "Football",
@@ -507,7 +507,7 @@
     "title": "SC Telstar vs PEC Zwolle",
     "slug": "SC-Telstar-vs-PEC-Zwolle",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "VriendenLoterij Eredivisie",
       "category": "Football",
@@ -671,27 +671,6 @@
     "dashStreams": []
   },
   {
-    "id": 2203,
-    "title": "Juventus vs Venezia",
-    "slug": "Juventus-vs-Venezia",
-    "cat": "Football",
-    "status": "upcoming",
-    "event": {
-      "name": "Serie A",
-      "category": "Football",
-      "teamA": "Juventus",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2687/image",
-      "teamB": "Venezia",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2688/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "startTimeIST": "2026-11-22 17:00:00 IST",
-      "endTimeIST": "2026-11-22 19:20:00 IST",
-      "startTimeUTC": "2026/11/22 11:30:00 +0000",
-      "endTimeUTC": "2026/11/22 13:50:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 2208,
     "title": "Juventus vs Venezia",
     "slug": "Juventus-vs-Venezia",
@@ -713,7 +692,28 @@
     "dashStreams": []
   },
   {
-    "id": 2204,
+    "id": 2213,
+    "title": "Juventus vs Venezia",
+    "slug": "Juventus-vs-Venezia",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Serie A",
+      "category": "Football",
+      "teamA": "Juventus",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2687/image",
+      "teamB": "Venezia",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2688/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/23/image/dark",
+      "startTimeIST": "2026-11-22 17:00:00 IST",
+      "endTimeIST": "2026-11-22 19:20:00 IST",
+      "startTimeUTC": "2026/11/22 11:30:00 +0000",
+      "endTimeUTC": "2026/11/22 13:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2209,
     "title": "Burnley vs Blackburn Rovers",
     "slug": "Burnley-vs-Blackburn-Rovers",
     "cat": "Football",
@@ -734,7 +734,7 @@
     "dashStreams": []
   },
   {
-    "id": 2209,
+    "id": 2214,
     "title": "Burnley vs Blackburn Rovers",
     "slug": "Burnley-vs-Blackburn-Rovers",
     "cat": "Football",
@@ -818,7 +818,7 @@
     "dashStreams": []
   },
   {
-    "id": 2205,
+    "id": 2210,
     "title": "Córdoba vs Real Oviedo",
     "slug": "Córdoba-vs-Real-Oviedo",
     "cat": "Football",
@@ -839,7 +839,7 @@
     "dashStreams": []
   },
   {
-    "id": 2210,
+    "id": 2215,
     "title": "Córdoba vs Real Oviedo",
     "slug": "Córdoba-vs-Real-Oviedo",
     "cat": "Football",
