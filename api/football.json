@@ -1,61 +1,5 @@
 [
   {
-    "id": 1375,
-    "title": "FC St. Pauli vs VfL Bochum 1848",
-    "slug": "FC-St.-Pauli-vs-VfL-Bochum-1848",
-    "cat": "Football",
-    "status": "ended",
-    "event": {
-      "name": "2. Bundesliga",
-      "category": "Football",
-      "teamA": "FC St. Pauli",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2526/image",
-      "teamB": "VfL Bochum 1848",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2542/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/44/image/dark",
-      "startTimeIST": "2026-11-22 01:00:00 IST",
-      "endTimeIST": "2026-11-22 03:20:00 IST",
-      "startTimeUTC": "2026/11/21 19:30:00 +0000",
-      "endTimeUTC": "2026/11/21 21:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SKY TOP EVENT",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gjsukewpxp/out/v1/ef14aacf858248839b9867eec5caf563/cenc.mpd",
-        "key": "368bd4ebe301406897324bc777650411:69d27c2c2b7de927d67aacc973259901"
-      }
-    ]
-  },
-  {
-    "id": 2005,
-    "title": "Palmeiras vs Flamengo",
-    "slug": "Palmeiras-vs-Flamengo",
-    "cat": "Football",
-    "status": "ended",
-    "event": {
-      "name": "Campeonato Brasileiro Série A",
-      "category": "Football",
-      "teamA": "Palmeiras",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1963/image",
-      "teamB": "Flamengo",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/5981/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/325/image/dark",
-      "startTimeIST": "2026-11-22 01:00:00 IST",
-      "endTimeIST": "2026-11-22 03:20:00 IST",
-      "startTimeUTC": "2026/11/21 19:30:00 +0000",
-      "endTimeUTC": "2026/11/21 21:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PREMIER SPORTS",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
-        "key": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19"
-      }
-    ]
-  },
-  {
     "id": 1358,
     "title": "AS Monaco vs AJ Auxerre",
     "slug": "AS-Monaco-vs-AJ-Auxerre",
@@ -278,7 +222,7 @@
     "title": "Cavalry FC vs Atlético Ottawa",
     "slug": "Cavalry-FC-vs-Atlético-Ottawa",
     "cat": "Football",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Canadian Premier League",
       "category": "Football",
@@ -312,7 +256,7 @@
     "title": "CD Tenerife vs Mallorca",
     "slug": "CD-Tenerife-vs-Mallorca",
     "cat": "Football",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "LaLiga 2",
       "category": "Football",
@@ -340,7 +284,7 @@
     "title": "FC Groningen vs SC Heerenveen",
     "slug": "FC-Groningen-vs-SC-Heerenveen",
     "cat": "Football",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "VriendenLoterij Eredivisie",
       "category": "Football",
@@ -368,7 +312,7 @@
     "title": "Motherwell vs Rangers",
     "slug": "Motherwell-vs-Rangers",
     "cat": "Football",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Scottish Premiership",
       "category": "Football",
@@ -408,7 +352,7 @@
     "title": "SC Telstar vs PEC Zwolle",
     "slug": "SC-Telstar-vs-PEC-Zwolle",
     "cat": "Football",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "VriendenLoterij Eredivisie",
       "category": "Football",
@@ -539,7 +483,32 @@
       "startTimeUTC": "2026/11/21 22:30:00 +0000",
       "endTimeUTC": "2026/11/22 00:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "beIN ESPNAOL FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd?",
+        "key": "74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c"
+      },
+      {
+        "title": "PLAYZ TV LIVE",
+        "type": "hls",
+        "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/76321/76321_264_live.m3u8",
+        "key": null
+      },
+      {
+        "title": "beIN SPORTS EN",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+        "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+      },
+      {
+        "title": "beIN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?",
+        "key": null
+      }
+    ]
   },
   {
     "id": 2081,
@@ -560,7 +529,14 @@
       "startTimeUTC": "2026/11/21 23:00:00 +0000",
       "endTimeUTC": "2026/11/22 01:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "HD STREAM",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel12.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 2008,
@@ -710,7 +686,7 @@
     "dashStreams": []
   },
   {
-    "id": 2272,
+    "id": 2273,
     "title": "Córdoba vs Real Oviedo",
     "slug": "Córdoba-vs-Real-Oviedo",
     "cat": "Football",
@@ -731,7 +707,7 @@
     "dashStreams": []
   },
   {
-    "id": 2273,
+    "id": 2274,
     "title": "Córdoba vs Real Oviedo",
     "slug": "Córdoba-vs-Real-Oviedo",
     "cat": "Football",
