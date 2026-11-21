@@ -1,33 +1,5 @@
 [
   {
-    "id": 2080,
-    "title": "EPL | Premier League Goals Rush",
-    "slug": "EPL-|-Premier-League-Goals-Rush",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "EPL | Premier League Goals Rush",
-      "category": "Football",
-      "teamA": "EPL Goals Rush",
-      "teamAFlag": "https://img.sofascore.com/api/v1/unique-tournament/17/image",
-      "teamB": "EPL Goals Rush",
-      "teamBFlag": "https://img.sofascore.com/api/v1/unique-tournament/17/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/17/image",
-      "startTimeIST": "2026-11-21 20:30:00 IST",
-      "endTimeIST": null,
-      "startTimeUTC": "2026/11/21 15:00:00 +0000",
-      "endTimeUTC": null
-    },
-    "dashStreams": [
-      {
-        "title": "SKY SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qdbhkwig26/out/v1/c3a69dfec0434abea00756cd73e749ff/cenc.mpd?",
-        "key": "1106fb025da5b31657618344099c6c14:788284538616a73b56214e90196a6e0f"
-      }
-    ]
-  },
-  {
     "id": 2044,
     "title": "Chile U17 vs Algeria U17",
     "slug": "Chile-U17-vs-Algeria-U17",
@@ -187,6 +159,12 @@
         "type": "hls",
         "url": "https://fcunejinzctyqd.yallashoooootlive.online/hls/ch2/live/index.m3u8",
         "key": null
+      },
+      {
+        "title": "TAPMAD - AQ",
+        "type": "hls",
+        "url": "https://tencent-cdn.tapmad.com/v1/01a145b15ce115fc600b1e3e9683db/01a145b24db11ea557841e1612cf4c/main.m3u8",
+        "key": null
       }
     ]
   },
@@ -313,7 +291,32 @@
       "startTimeUTC": "2026/11/21 17:30:00 +0000",
       "endTimeUTC": "2026/11/21 19:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "beIN SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+        "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+      },
+      {
+        "title": "PREMIER SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
+        "key": "1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19"
+      },
+      {
+        "title": "FANCODE FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+      },
+      {
+        "title": "D Sports FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd",
+        "key": "03f12d6a3dbfd3a6fa7dd7f6417e0c11:ea07b87acdf2e45be824cde4a1cf3504"
+      }
+    ]
   },
   {
     "id": 2051,
