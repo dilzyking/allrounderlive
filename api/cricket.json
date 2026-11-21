@@ -52,70 +52,6 @@
     ]
   },
   {
-    "id": 1211,
-    "title": "Australia vs England",
-    "slug": "Australia-vs-England",
-    "cat": "Cricket",
-    "status": "live",
-    "event": {
-      "name": "T20 International",
-      "category": "Cricket",
-      "teamA": "Australia",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/187746/image",
-      "teamB": "England",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/187757/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/11190/image/dark",
-      "startTimeIST": "2026-11-21 13:45:00 IST",
-      "endTimeIST": null,
-      "startTimeUTC": "2026/11/21 08:15:00 +0000",
-      "endTimeUTC": null
-    },
-    "dashStreams": [
-      {
-        "title": "WILLOW - AQ",
-        "type": "dash",
-        "url": "https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/1m5p4laylw/out/v1/d06dee18492d4734b4a35dfa108e3a33/cenc.mpd",
-        "key": "ae2b2cc0d4a4ca729178fa33c76c333f:a2cef8a0f497874cedd1c23d13d7cf63"
-      },
-      {
-        "title": "TNT SPORTS - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
-        "key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
-      },
-      {
-        "title": "FANCODE - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
-        "key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
-      },
-      {
-        "title": "EURO SPORTS - AQ",
-        "type": "dash",
-        "url": "https://wbd.skandha.tv/EuroSport_HD/EuroSport_HD.isml/.mpd",
-        "key": "12ed56d780abcfebcd23aa27e4ac5015:6784567890abcfebcd23aa27e4ac2814"
-      },
-      {
-        "title": "WILLOW HD",
-        "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
-        "key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
-      },
-      {
-        "title": "TAPMAD - AQ",
-        "type": "hls",
-        "url": "https://serieAleague.akamaized.net/hls/live/2107107/tap-BK-PSL-D1-E/master.m3u8",
-        "key": null
-      },
-      {
-        "title": "TNT SPORTS S2 - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd?",
-        "key": "cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca"
-      }
-    ]
-  },
-  {
     "id": 2001,
     "title": "Bangladesh A vs Afghanistan A",
     "slug": "Bangladesh-A-vs-Afghanistan-A",
@@ -465,6 +401,70 @@
         "type": "hls",
         "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8",
         "key": null
+      }
+    ]
+  },
+  {
+    "id": 1211,
+    "title": "Australia vs England",
+    "slug": "Australia-vs-England",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "T20 International",
+      "category": "Cricket",
+      "teamA": "Australia",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/187746/image",
+      "teamB": "England",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/187757/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/11190/image/dark",
+      "startTimeIST": "2026-11-24 13:45:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/24 08:15:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": [
+      {
+        "title": "WILLOW - AQ",
+        "type": "dash",
+        "url": "https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/1m5p4laylw/out/v1/d06dee18492d4734b4a35dfa108e3a33/cenc.mpd",
+        "key": "ae2b2cc0d4a4ca729178fa33c76c333f:a2cef8a0f497874cedd1c23d13d7cf63"
+      },
+      {
+        "title": "TNT SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+        "key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+      },
+      {
+        "title": "FANCODE - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+        "key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
+      },
+      {
+        "title": "EURO SPORTS - AQ",
+        "type": "dash",
+        "url": "https://wbd.skandha.tv/EuroSport_HD/EuroSport_HD.isml/.mpd",
+        "key": "12ed56d780abcfebcd23aa27e4ac5015:6784567890abcfebcd23aa27e4ac2814"
+      },
+      {
+        "title": "WILLOW HD",
+        "type": "dash",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
+        "key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
+      },
+      {
+        "title": "TAPMAD - AQ",
+        "type": "hls",
+        "url": "https://serieAleague.akamaized.net/hls/live/2107107/tap-BK-PSL-D1-E/master.m3u8",
+        "key": null
+      },
+      {
+        "title": "TNT SPORTS S2 - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd?",
+        "key": "cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca"
       }
     ]
   }
