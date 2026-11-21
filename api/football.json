@@ -114,198 +114,6 @@
     ]
   },
   {
-    "id": 2017,
-    "title": "1. FC Union Berlin vs RB Leipzig",
-    "slug": "1.-FC-Union-Berlin-vs-RB-Leipzig",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "Bundesliga",
-      "category": "Football",
-      "teamA": "1. FC Union Berlin",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2547/image",
-      "teamB": "RB Leipzig",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/36360/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/35/image/dark",
-      "startTimeIST": "2026-11-21 20:00:00 IST",
-      "endTimeIST": "2026-11-21 22:20:00 IST",
-      "startTimeUTC": "2026/11/21 14:30:00 +0000",
-      "endTimeUTC": "2026/11/21 16:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SHAHID EN/AR - AQ",
-        "type": "dash",
-        "url": "https://shahid-sports-4-enc.edgenextcdn.net/out/v1/f813ab47644d4c41a99285513f6c7409/index.mpd",
-        "key": "6477160076644679af1028534f03f67e:1267f99705113a62c7782c4d5281a7eb"
-      },
-      {
-        "title": "PlayZ TV HD",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4566409.m3u8?txSecret=ffa99c544fc5ed93ec871a545479bb3c&txTime=6B01B7E9",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 1372,
-    "title": "Bayer 04 Leverkusen vs SC Paderborn 07",
-    "slug": "Bayer-04-Leverkusen-vs-SC-Paderborn-07",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "Bundesliga",
-      "category": "Football",
-      "teamA": "Bayer 04 Leverkusen",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2681/image",
-      "teamB": "SC Paderborn 07",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2561/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/35/image/dark",
-      "startTimeIST": "2026-11-21 20:00:00 IST",
-      "endTimeIST": "2026-11-21 22:20:00 IST",
-      "startTimeUTC": "2026/11/21 14:30:00 +0000",
-      "endTimeUTC": "2026/11/21 16:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PlayZ TV HD",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4566402.m3u8?txSecret=0cab6466c4e908e707fcc85037917e62&txTime=6B01B73C",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 2018,
-    "title": "Borussia M'gladbach vs Borussia Dortmund",
-    "slug": "Borussia-M'gladbach-vs-Borussia-Dortmund",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "Bundesliga",
-      "category": "Football",
-      "teamA": "Borussia M'gladbach",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2527/image",
-      "teamB": "Borussia Dortmund",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2673/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/35/image/dark",
-      "startTimeIST": "2026-11-21 20:00:00 IST",
-      "endTimeIST": "2026-11-21 22:20:00 IST",
-      "startTimeUTC": "2026/11/21 14:30:00 +0000",
-      "endTimeUTC": "2026/11/21 16:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SKY TOP EVENT FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gjsukewpxp/out/v1/ef14aacf858248839b9867eec5caf563/cenc.mpd",
-        "key": "368bd4ebe301406897324bc777650411:69d27c2c2b7de927d67aacc973259901"
-      },
-      {
-        "title": "PlayZ TV HD",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4566411.m3u8?txSecret=32fdb9b5598b831629a9d30030fb5743&txTime=6B01B7BB",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 2034,
-    "title": "Dominican Republic U17 vs Montenegro U17",
-    "slug": "Dominican-Republic-U17-vs-Montenegro-U17",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "U17 World Championship",
-      "category": "Football",
-      "teamA": "Dominican Republic U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/316489/image",
-      "teamB": "Montenegro U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/22631/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
-      "startTimeIST": "2026-11-21 20:00:00 IST",
-      "endTimeIST": "2026-11-21 22:20:00 IST",
-      "startTimeUTC": "2026/11/21 14:30:00 +0000",
-      "endTimeUTC": "2026/11/21 16:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "FOX SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
-        "key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
-      }
-    ]
-  },
-  {
-    "id": 2019,
-    "title": "Eintracht Frankfurt vs TSG Hoffenheim",
-    "slug": "Eintracht-Frankfurt-vs-TSG-Hoffenheim",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "Bundesliga",
-      "category": "Football",
-      "teamA": "Eintracht Frankfurt",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2674/image",
-      "teamB": "TSG Hoffenheim",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2569/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/35/image/dark",
-      "startTimeIST": "2026-11-21 20:00:00 IST",
-      "endTimeIST": "2026-11-21 22:20:00 IST",
-      "startTimeUTC": "2026/11/21 14:30:00 +0000",
-      "endTimeUTC": "2026/11/21 16:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SHAHID EN/AR - AQ",
-        "type": "dash",
-        "url": "https://shahid-sports-3-enc.edgenextcdn.net/out/v1/2658c96bbfa54f339e357fe36361587e/index.mpd",
-        "key": "2b6f6b340aa8467785e4e82f9320fb5a:8889701d704078c4d910ed1409413d9b"
-      },
-      {
-        "title": "PlayZ TV HD",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4566405.m3u8?txSecret=ee441f837a69173e9927d0db7aa5455e&txTime=6B01B7D4",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 1373,
-    "title": "SV 07 Elversberg vs SC Freiburg",
-    "slug": "SV-07-Elversberg-vs-SC-Freiburg",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "Bundesliga",
-      "category": "Football",
-      "teamA": "SV 07 Elversberg",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2598/image",
-      "teamB": "SC Freiburg",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2538/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/35/image/dark",
-      "startTimeIST": "2026-11-21 20:00:00 IST",
-      "endTimeIST": "2026-11-21 22:20:00 IST",
-      "startTimeUTC": "2026/11/21 14:30:00 +0000",
-      "endTimeUTC": "2026/11/21 16:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "BUNDESALIGA 2",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/hrejffyflm/out/v1/ad9a8d717bfc45d095f23a92925d7b1f/cenc.mpd",
-        "key": "5e0ee93e86d783f011561f18ff8f34e6:b570eceee332c7e50f87fca1f51e0966"
-      },
-      {
-        "title": "PlayZ TV TV HD",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4566523.m3u8?txSecret=0ee1753c0b31ded541af2cb3eb69512a&txTime=6B01B766",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 1348,
     "title": "Aston Villa vs Sunderland",
     "slug": "Aston-Villa-vs-Sunderland",
@@ -407,7 +215,14 @@
       "startTimeUTC": "2026/11/21 15:00:00 +0000",
       "endTimeUTC": "2026/11/21 17:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "SporTV BR FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd",
+        "key": "51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
+      }
+    ]
   },
   {
     "id": 2047,
@@ -593,7 +408,14 @@
       "startTimeUTC": "2026/11/21 15:00:00 +0000",
       "endTimeUTC": "2026/11/21 17:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "HD STREAM",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel25.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 2040,
