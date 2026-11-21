@@ -392,7 +392,7 @@
     "title": "New England Revolution vs Philadelphia Union",
     "slug": "New-England-Revolution-vs-Philadelphia-Union",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "MLS",
       "category": "Football",
@@ -406,7 +406,20 @@
       "startTimeUTC": "2026/11/21 19:00:00 +0000",
       "endTimeUTC": "2026/11/21 21:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PLAYZ TV LIVE",
+        "type": "hls",
+        "url": "https://chatgpt.hereisman.net/playlist/60643/load-playlist-multi?&.m3u8",
+        "key": null
+      },
+      {
+        "title": "HD STREAM",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel28.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 1375,
@@ -829,27 +842,6 @@
     "dashStreams": []
   },
   {
-    "id": 2152,
-    "title": "Juventus vs Venezia",
-    "slug": "Juventus-vs-Venezia",
-    "cat": "Football",
-    "status": "upcoming",
-    "event": {
-      "name": "Serie A",
-      "category": "Football",
-      "teamA": "Juventus",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2687/image",
-      "teamB": "Venezia",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2688/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "startTimeIST": "2026-11-22 17:00:00 IST",
-      "endTimeIST": "2026-11-22 19:20:00 IST",
-      "startTimeUTC": "2026/11/22 11:30:00 +0000",
-      "endTimeUTC": "2026/11/22 13:50:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 2157,
     "title": "Juventus vs Venezia",
     "slug": "Juventus-vs-Venezia",
@@ -871,7 +863,28 @@
     "dashStreams": []
   },
   {
-    "id": 2153,
+    "id": 2162,
+    "title": "Juventus vs Venezia",
+    "slug": "Juventus-vs-Venezia",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Serie A",
+      "category": "Football",
+      "teamA": "Juventus",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2687/image",
+      "teamB": "Venezia",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2688/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/23/image/dark",
+      "startTimeIST": "2026-11-22 17:00:00 IST",
+      "endTimeIST": "2026-11-22 19:20:00 IST",
+      "startTimeUTC": "2026/11/22 11:30:00 +0000",
+      "endTimeUTC": "2026/11/22 13:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2158,
     "title": "Burnley vs Blackburn Rovers",
     "slug": "Burnley-vs-Blackburn-Rovers",
     "cat": "Football",
@@ -892,7 +905,7 @@
     "dashStreams": []
   },
   {
-    "id": 2158,
+    "id": 2163,
     "title": "Burnley vs Blackburn Rovers",
     "slug": "Burnley-vs-Blackburn-Rovers",
     "cat": "Football",
@@ -976,7 +989,7 @@
     "dashStreams": []
   },
   {
-    "id": 2154,
+    "id": 2159,
     "title": "Córdoba vs Real Oviedo",
     "slug": "Córdoba-vs-Real-Oviedo",
     "cat": "Football",
@@ -997,7 +1010,7 @@
     "dashStreams": []
   },
   {
-    "id": 2159,
+    "id": 2164,
     "title": "Córdoba vs Real Oviedo",
     "slug": "Córdoba-vs-Real-Oviedo",
     "cat": "Football",
