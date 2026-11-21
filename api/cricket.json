@@ -1,117 +1,5 @@
 [
   {
-    "id": 1236,
-    "title": "New Zealand vs India",
-    "slug": "New-Zealand-vs-India",
-    "cat": "Cricket",
-    "status": "live",
-    "event": {
-      "name": "ICC World Test Championship",
-      "category": "Cricket",
-      "teamA": "New Zealand",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/187755/image",
-      "teamB": "India",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/187765/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18833/image/dark",
-      "startTimeIST": "2026-11-21 03:30:00 IST",
-      "endTimeIST": null,
-      "startTimeUTC": "2026/11/20 22:00:00 +0000",
-      "endTimeUTC": null
-    },
-    "dashStreams": [
-      {
-        "title": "PRIME VIDEO - AQ",
-        "type": "dash",
-        "url": "https://abn7ylpaaaaaaaame77ehqq2geew7.ta.bia-cf.live.pv-cdn.net/bom-nitro/live/clients/dash/enc/mebvsdzu7s/out/v1/563c92c11fff4290a160e365f6996c34/cenc.mpd",
-        "key": "fda7a391d6346eb3176d0379fdc094d0:1ee285d5bec7f6855d51e3e5f630ad1f"
-      },
-      {
-        "title": "PRIME HINDI - AQ",
-        "type": "dash",
-        "url": "https://abn7nivaaaaaaaamlzr65eai5t3fs.ta.bia-cf.live.pv-cdn.net/sin-nitro/live/clients/dash/enc/szeafaauqf/out/v1/6b31170c3b5749928bff04fc71f02b06/cenc.mpd",
-        "key": "424a04fa4464fdb9d5f3d61ddf48776a:85a5da47db9f57cdccdbac01c980aece"
-      },
-      {
-        "title": "WILLOW - AQ [Ad Free]",
-        "type": "dash",
-        "url": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/roxefgx3by/out/v1/626d780fa151471cab6d83b9fcb731e8/cenc.mpd",
-        "key": "a478f5af8b826d44778571031c84e257:ceabaa285b51b50a60cf5240715a6f28"
-      },
-      {
-        "title": "TNT SPORTS - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
-        "key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
-      },
-      {
-        "title": "TAPMAD - AQ",
-        "type": "hls",
-        "url": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8",
-        "key": null
-      },
-      {
-        "title": "WILLOW S2 - AQ",
-        "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/roxefgx3by/out/v1/626d780fa151471cab6d83b9fcb731e8/cenc.mpd",
-        "key": "a478f5af8b826d44778571031c84e257:ceabaa285b51b50a60cf5240715a6f28"
-      },
-      {
-        "title": "SONYLIV ENG - AQ",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119931/cricodi_2011/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795253149~acl=/*~id=51003257100776422741635385242824~hmac=dda1b63279f359c8aa67d45e3bccfe8ed2c3e9c032636b2bdec9c78d9446e06f",
-        "key": null
-      },
-      {
-        "title": "SONYLIV HIN - AQ",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119921/cricodi_2011/HIN/std_lrh-800300010.m3u8?hdnea=exp=1795253149~acl=/*~id=51003257100776422741635385242824~hmac=dda1b63279f359c8aa67d45e3bccfe8ed2c3e9c032636b2bdec9c78d9446e06f",
-        "key": null
-      },
-      {
-        "title": "SONYLIV TAM - AQ",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119951/cricodi_2011/TAM/std_lrh-800300010.m3u8?hdnea=exp=1795253149~acl=/*~id=51003257100776422741635385242824~hmac=dda1b63279f359c8aa67d45e3bccfe8ed2c3e9c032636b2bdec9c78d9446e06f",
-        "key": null
-      },
-      {
-        "title": "SONYLIV TEL - AQ",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119941/cricodi_2011/TEL/std_lrh-800300010.m3u8?hdnea=exp=1795253149~acl=/*~id=51003257100776422741635385242824~hmac=dda1b63279f359c8aa67d45e3bccfe8ed2c3e9c032636b2bdec9c78d9446e06f",
-        "key": null
-      },
-      {
-        "title": "SONYLIV KAN - AQ",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119782/cricodi_2011/KAN/std_lrh-800300010.m3u8?hdnea=exp=1795253149~acl=/*~id=51003257100776422741635385242824~hmac=dda1b63279f359c8aa67d45e3bccfe8ed2c3e9c032636b2bdec9c78d9446e06f",
-        "key": null
-      },
-      {
-        "title": "SONYLIV BD - AQ",
-        "type": "hls",
-        "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119931/cricodi_2011/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795253149~acl=/*~id=51003257100776422741635385242824~hmac=dda1b63279f359c8aa67d45e3bccfe8ed2c3e9c032636b2bdec9c78d9446e06f",
-        "key": null
-      },
-      {
-        "title": "TNT SPORTSS2 - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
-        "key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
-      },
-      {
-        "title": "TEN SPORTS HD",
-        "type": "hls",
-        "url": "https://live.msnetworks.net/ten-sports/master.m3u8",
-        "key": null
-      },
-      {
-        "title": "CRICBUZZ - IN",
-        "type": "hls",
-        "url": "https://dai.google.com/linear/hls/event/HVE4ffO0R5CLFalgAF7QtQ/master.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 1843,
     "title": "Sydney Sixers Women vs Perth Scorchers Women",
     "slug": "Sydney-Sixers-Women-vs-Perth-Scorchers-Women",
@@ -375,6 +263,118 @@
       "endTimeUTC": null
     },
     "dashStreams": []
+  },
+  {
+    "id": 1236,
+    "title": "New Zealand vs India",
+    "slug": "New-Zealand-vs-India",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "ICC World Test Championship",
+      "category": "Cricket",
+      "teamA": "New Zealand",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/187755/image",
+      "teamB": "India",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/187765/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18833/image/dark",
+      "startTimeIST": "2026-11-22 03:30:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/21 22:00:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": [
+      {
+        "title": "PRIME VIDEO - AQ",
+        "type": "dash",
+        "url": "https://abn7ylpaaaaaaaame77ehqq2geew7.ta.bia-cf.live.pv-cdn.net/bom-nitro/live/clients/dash/enc/mebvsdzu7s/out/v1/563c92c11fff4290a160e365f6996c34/cenc.mpd",
+        "key": "fda7a391d6346eb3176d0379fdc094d0:1ee285d5bec7f6855d51e3e5f630ad1f"
+      },
+      {
+        "title": "PRIME HINDI - AQ",
+        "type": "dash",
+        "url": "https://abn7nivaaaaaaaamlzr65eai5t3fs.ta.bia-cf.live.pv-cdn.net/sin-nitro/live/clients/dash/enc/szeafaauqf/out/v1/6b31170c3b5749928bff04fc71f02b06/cenc.mpd",
+        "key": "424a04fa4464fdb9d5f3d61ddf48776a:85a5da47db9f57cdccdbac01c980aece"
+      },
+      {
+        "title": "WILLOW - AQ [Ad Free]",
+        "type": "dash",
+        "url": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/roxefgx3by/out/v1/626d780fa151471cab6d83b9fcb731e8/cenc.mpd",
+        "key": "a478f5af8b826d44778571031c84e257:ceabaa285b51b50a60cf5240715a6f28"
+      },
+      {
+        "title": "TNT SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+        "key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+      },
+      {
+        "title": "TAPMAD - AQ",
+        "type": "hls",
+        "url": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8",
+        "key": null
+      },
+      {
+        "title": "WILLOW S2 - AQ",
+        "type": "dash",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/roxefgx3by/out/v1/626d780fa151471cab6d83b9fcb731e8/cenc.mpd",
+        "key": "a478f5af8b826d44778571031c84e257:ceabaa285b51b50a60cf5240715a6f28"
+      },
+      {
+        "title": "SONYLIV ENG - AQ",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119931/cricodi_2011/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795253149~acl=/*~id=51003257100776422741635385242824~hmac=dda1b63279f359c8aa67d45e3bccfe8ed2c3e9c032636b2bdec9c78d9446e06f",
+        "key": null
+      },
+      {
+        "title": "SONYLIV HIN - AQ",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119921/cricodi_2011/HIN/std_lrh-800300010.m3u8?hdnea=exp=1795253149~acl=/*~id=51003257100776422741635385242824~hmac=dda1b63279f359c8aa67d45e3bccfe8ed2c3e9c032636b2bdec9c78d9446e06f",
+        "key": null
+      },
+      {
+        "title": "SONYLIV TAM - AQ",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119951/cricodi_2011/TAM/std_lrh-800300010.m3u8?hdnea=exp=1795253149~acl=/*~id=51003257100776422741635385242824~hmac=dda1b63279f359c8aa67d45e3bccfe8ed2c3e9c032636b2bdec9c78d9446e06f",
+        "key": null
+      },
+      {
+        "title": "SONYLIV TEL - AQ",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119941/cricodi_2011/TEL/std_lrh-800300010.m3u8?hdnea=exp=1795253149~acl=/*~id=51003257100776422741635385242824~hmac=dda1b63279f359c8aa67d45e3bccfe8ed2c3e9c032636b2bdec9c78d9446e06f",
+        "key": null
+      },
+      {
+        "title": "SONYLIV KAN - AQ",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119782/cricodi_2011/KAN/std_lrh-800300010.m3u8?hdnea=exp=1795253149~acl=/*~id=51003257100776422741635385242824~hmac=dda1b63279f359c8aa67d45e3bccfe8ed2c3e9c032636b2bdec9c78d9446e06f",
+        "key": null
+      },
+      {
+        "title": "SONYLIV BD - AQ",
+        "type": "hls",
+        "url": "https://liveakmt-p-md.slivcdn.com/hls/live/2119931/cricodi_2011/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795253149~acl=/*~id=51003257100776422741635385242824~hmac=dda1b63279f359c8aa67d45e3bccfe8ed2c3e9c032636b2bdec9c78d9446e06f",
+        "key": null
+      },
+      {
+        "title": "TNT SPORTSS2 - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
+        "key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
+      },
+      {
+        "title": "TEN SPORTS HD",
+        "type": "hls",
+        "url": "https://live.msnetworks.net/ten-sports/master.m3u8",
+        "key": null
+      },
+      {
+        "title": "CRICBUZZ - IN",
+        "type": "hls",
+        "url": "https://dai.google.com/linear/hls/event/HVE4ffO0R5CLFalgAF7QtQ/master.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 1218,
