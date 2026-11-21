@@ -1603,6 +1603,27 @@
     "dashStreams": []
   },
   {
+    "id": 2060,
+    "title": "Wellington Phoenix vs Macarthur FC",
+    "slug": "Wellington-Phoenix-vs-Macarthur-FC",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "A-League Men",
+      "category": "Football",
+      "teamA": "Wellington Phoenix",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/7568/image",
+      "teamB": "Macarthur FC",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/371682/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/136/image/dark",
+      "startTimeIST": "2026-11-22 07:30:00 IST",
+      "endTimeIST": "2026-11-22 09:50:00 IST",
+      "startTimeUTC": "2026/11/22 02:00:00 +0000",
+      "endTimeUTC": "2026/11/22 04:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
     "id": 1365,
     "title": "Juventus vs Venezia",
     "slug": "Juventus-vs-Venezia",
