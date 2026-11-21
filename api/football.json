@@ -1,39 +1,5 @@
 [
   {
-    "id": 2056,
-    "title": "Sporting CP vs União Desportiva da Serra",
-    "slug": "Sporting-CP-vs-União-Desportiva-da-Serra",
-    "cat": "Football",
-    "status": "ended",
-    "event": {
-      "name": "Taça de Portugal",
-      "category": "Football",
-      "teamA": "Sporting CP",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/3001/image",
-      "teamB": "União Desportiva da Serra",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/371617/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/336/image/dark",
-      "startTimeIST": "2026-11-21 23:30:00 IST",
-      "endTimeIST": "2026-11-22 01:50:00 IST",
-      "startTimeUTC": "2026/11/21 18:00:00 +0000",
-      "endTimeUTC": "2026/11/21 20:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PlayZ TV Live",
-        "type": "hls",
-        "url": "https://live2.jorvakstreamcache.com/live/channel20.m3u8",
-        "key": null
-      },
-      {
-        "title": "SBS SPORTS AQ",
-        "type": "hls",
-        "url": "https://thebest.selina2.workers.dev/https://sbs-live-prod-01.akamaized.net/Content/HLS_AES_TS/live/geo/channel(adhoc1)/master.m3u8?hdnea=st%3D1795283425~exp%3D1795301425~acl%3D%2FContent%2FHLS_AES_TS%2Flive%2Fgeo%2Fchannel%28adhoc1%29%2F%2A~hmac%3D3368164a9209109c2e58c261272c28d3a03c83f6c12f20eefd8e793df14a1a92",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 1374,
     "title": "New England Revolution vs Philadelphia Union",
     "slug": "New-England-Revolution-vs-Philadelphia-Union",
@@ -865,7 +831,7 @@
     "dashStreams": []
   },
   {
-    "id": 2254,
+    "id": 2255,
     "title": "Córdoba vs Real Oviedo",
     "slug": "Córdoba-vs-Real-Oviedo",
     "cat": "Football",
@@ -886,7 +852,7 @@
     "dashStreams": []
   },
   {
-    "id": 2255,
+    "id": 2256,
     "title": "Córdoba vs Real Oviedo",
     "slug": "Córdoba-vs-Real-Oviedo",
     "cat": "Football",
