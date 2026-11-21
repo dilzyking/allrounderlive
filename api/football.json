@@ -394,6 +394,12 @@
     },
     "dashStreams": [
       {
+        "title": "BUNDESALIGA 2",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/hrejffyflm/out/v1/ad9a8d717bfc45d095f23a92925d7b1f/cenc.mpd",
+        "key": "5e0ee93e86d783f011561f18ff8f34e6:b570eceee332c7e50f87fca1f51e0966"
+      },
+      {
         "title": "PlayZ TV TV HD",
         "type": "hls",
         "url": "https://live.vivo155.com/live/hd-en-1-4566523.m3u8?txSecret=0ee1753c0b31ded541af2cb3eb69512a&txTime=6B01B766",
