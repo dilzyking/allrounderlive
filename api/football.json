@@ -1,38 +1,10 @@
 [
   {
-    "id": 2033,
-    "title": "Cameroon U17 vs Venezuela U17",
-    "slug": "Cameroon-U17-vs-Venezuela-U17",
-    "cat": "Football",
-    "status": "ended",
-    "event": {
-      "name": "U17 World Championship",
-      "category": "Football",
-      "teamA": "Cameroon U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/313112/image",
-      "teamB": "Venezuela U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/48841/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
-      "startTimeIST": "2026-11-21 19:00:00 IST",
-      "endTimeIST": "2026-11-21 21:20:00 IST",
-      "startTimeUTC": "2026/11/21 13:30:00 +0000",
-      "endTimeUTC": "2026/11/21 15:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "D SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ud6bnhthpj/out/v1/2639a2f4480f4269953de466d5f46463/cenc.mpd",
-        "key": "83f81c4cc1443991543de4e22eea7586:ddfd7ca653d6f35543d8edb3c688e20f"
-      }
-    ]
-  },
-  {
     "id": 1346,
     "title": "Como vs Cagliari",
     "slug": "Como-vs-Cagliari",
     "cat": "Football",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Serie A",
       "category": "Football",
@@ -66,7 +38,7 @@
     "title": "Lazio vs Lecce",
     "slug": "Lazio-vs-Lecce",
     "cat": "Football",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Serie A",
       "category": "Football",
@@ -112,7 +84,7 @@
     "title": "NorthEast United FC vs FC Goa",
     "slug": "NorthEast-United-FC-vs-FC-Goa",
     "cat": "Football",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Indian Super League",
       "category": "Football",
@@ -407,7 +379,14 @@
       "startTimeUTC": "2026/11/21 15:00:00 +0000",
       "endTimeUTC": "2026/11/21 17:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PlayZ TV Live",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4558466.m3u8?txSecret=757ba12d237938d258da3327620cb799&txTime=6B01C437",
+        "key": null
+      }
+    ]
   },
   {
     "id": 2036,
@@ -470,7 +449,32 @@
       "startTimeUTC": "2026/11/21 15:00:00 +0000",
       "endTimeUTC": "2026/11/21 17:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "FUBO SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/2vymmad2st/out/v1/9a01afb3983444c9b0ebd5d4df2e47e2/cenc.mpd",
+        "key": "1790bcaba3ab56be928ab458f11bac7e:6c2b33413d2847d4e1408639b44558cf"
+      },
+      {
+        "title": "SKY EPL DE",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qdbhkwig26/out/v1/c3a69dfec0434abea00756cd73e749ff/cenc.mpd",
+        "key": "1106fb025da5b31657618344099c6c14:788284538616a73b56214e90196a6e0f"
+      },
+      {
+        "title": "HD QUALITY",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/9f2c9d62-3470-458d-bf28-846f387cef9e.m3u8",
+        "key": null
+      },
+      {
+        "title": "HD QUALITY",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/9f2c9d62-3470-458d-bf28-846f387cef9e.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 1351,
@@ -652,7 +656,20 @@
       "startTimeUTC": "2026/11/21 15:00:00 +0000",
       "endTimeUTC": "2026/11/21 17:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PlayZ TV Live",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4558500.m3u8?txSecret=7ba81a2345fdeb6aff973457ddaea997&txTime=6B01C47F",
+        "key": null
+      },
+      {
+        "title": "HD QUALITY",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/bb53c010-aa9e-4eaf-8c8d-d93f39f33707.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 2042,
