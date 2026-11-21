@@ -1,57 +1,5 @@
 [
   {
-    "id": 1843,
-    "title": "Sydney Sixers Women vs Perth Scorchers Women",
-    "slug": "Sydney-Sixers-Women-vs-Perth-Scorchers-Women",
-    "cat": "Cricket",
-    "status": "live",
-    "event": {
-      "name": "Women's Big Bash League",
-      "category": "Cricket",
-      "teamA": "Sydney Sixers Women",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/274883/image",
-      "teamB": "Perth Scorchers Women",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/274890/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/11163/image/dark",
-      "startTimeIST": "2026-11-21 10:00:00 IST",
-      "endTimeIST": null,
-      "startTimeUTC": "2026/11/21 04:30:00 +0000",
-      "endTimeUTC": null
-    },
-    "dashStreams": [
-      {
-        "title": "WILLOW AQ",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xzhvi2grfc/out/v1/0c7ba1d749ea465c8caac7e84fc34891/cenc.mpd",
-        "key": "6012ce4af4cad526b730a7dc830bb35d:80280163cc6aad3985a22ebf2f082e76"
-      },
-      {
-        "title": "SKY CRICKET FHD",
-        "type": "hls",
-        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
-        "key": null
-      },
-      {
-        "title": "TAPMAD FHD",
-        "type": "hls",
-        "url": "https://serieAleague.akamaized.net/hls/live/2107107/A1@25853-tapmad/master.m3u8",
-        "key": null
-      },
-      {
-        "title": "WILLOW HD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
-        "key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
-      },
-      {
-        "title": "TAPMAD HD",
-        "type": "hls",
-        "url": "https://tencent-cdn.tapmad.com/v1/01a14a80166b1ea557841e1612cf55/01a14a8047211ea557841e1612cf58/main.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 1999,
     "title": "hong Kong vs Sri Lanka A",
     "slug": "hong-Kong-vs-Sri-Lanka-A",
@@ -437,6 +385,48 @@
         "key": null
       }
     ]
+  },
+  {
+    "id": 2061,
+    "title": "Brisbane Heat Women vs Adelaide Strikers Women",
+    "slug": "Brisbane-Heat-Women-vs-Adelaide-Strikers-Women",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "Women's Big Bash League",
+      "category": "Cricket",
+      "teamA": "Brisbane Heat Women",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/274884/image",
+      "teamB": "Adelaide Strikers Women",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/274888/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/11163/image/dark",
+      "startTimeIST": "2026-11-22 10:10:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/22 04:40:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2062,
+    "title": "Melbourne Stars Women vs Melbourne Renegades Women",
+    "slug": "Melbourne-Stars-Women-vs-Melbourne-Renegades-Women",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "Women's Big Bash League",
+      "category": "Cricket",
+      "teamA": "Melbourne Stars Women",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/274886/image",
+      "teamB": "Melbourne Renegades Women",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/274887/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/11163/image/dark",
+      "startTimeIST": "2026-11-22 13:40:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/22 08:10:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": []
   },
   {
     "id": 1218,
