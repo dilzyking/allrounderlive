@@ -219,6 +219,69 @@
     "dashStreams": []
   },
   {
+    "id": 2082,
+    "title": "Brisbane Heat Women vs Adelaide Strikers Women",
+    "slug": "Brisbane-Heat-Women-vs-Adelaide-Strikers-Women",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "Women's Big Bash League",
+      "category": "Cricket",
+      "teamA": "Brisbane Heat Women",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/274884/image",
+      "teamB": "Adelaide Strikers Women",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/274888/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/11163/image/dark",
+      "startTimeIST": "2026-11-22 10:10:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/22 04:40:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2083,
+    "title": "Netherlands Women vs Sri Lanka Women",
+    "slug": "Netherlands-Women-vs-Sri-Lanka-Women",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "Womens Emerging Nations Trophy",
+      "category": "Cricket",
+      "teamA": "Netherlands Women",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/417753/image",
+      "teamB": "Sri Lanka Women",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/187806/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/30714/image/dark",
+      "startTimeIST": "2026-11-22 10:30:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/22 05:00:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2084,
+    "title": "Pakistan Women vs Scotland Women",
+    "slug": "Pakistan-Women-vs-Scotland-Women",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "Womens Emerging Nations Trophy",
+      "category": "Cricket",
+      "teamA": "Pakistan Women",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/187808/image",
+      "teamB": "Scotland Women",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/453162/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/30714/image/dark",
+      "startTimeIST": "2026-11-22 10:30:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/22 05:00:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": []
+  },
+  {
     "id": 2077,
     "title": "UAE vs Nepal",
     "slug": "UAE-vs-Nepal",
@@ -256,6 +319,69 @@
       "startTimeIST": "2026-11-22 13:40:00 IST",
       "endTimeIST": null,
       "startTimeUTC": "2026/11/22 08:10:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2085,
+    "title": "Melbourne Stars Women vs Melbourne Renegades Women",
+    "slug": "Melbourne-Stars-Women-vs-Melbourne-Renegades-Women",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "Women's Big Bash League",
+      "category": "Cricket",
+      "teamA": "Melbourne Stars Women",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/274886/image",
+      "teamB": "Melbourne Renegades Women",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/274887/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/11163/image/dark",
+      "startTimeIST": "2026-11-22 13:40:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/22 08:10:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2086,
+    "title": "Ireland Women vs Zimbabwe Women",
+    "slug": "Ireland-Women-vs-Zimbabwe-Women",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "Womens Emerging Nations Trophy",
+      "category": "Cricket",
+      "teamA": "Ireland Women",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/213116/image",
+      "teamB": "Zimbabwe Women",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/417062/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/30714/image/dark",
+      "startTimeIST": "2026-11-22 14:45:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/22 09:15:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2087,
+    "title": "India A vs Pakistan A",
+    "slug": "India-A-vs-Pakistan-A",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "Men's Asia Cup Rising Stars",
+      "category": "Cricket",
+      "teamA": "India A",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/187765/image",
+      "teamB": "Pakistan A",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/213104/image",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn2rCtrI68Agu71aIWID9YxzlqXN-3c88k4cwPQQhwEA&s=10",
+      "startTimeIST": "2026-11-22 15:30:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/22 10:00:00 +0000",
       "endTimeUTC": null
     },
     "dashStreams": []
@@ -299,6 +425,27 @@
         "key": null
       }
     ]
+  },
+  {
+    "id": 2088,
+    "title": "Sri Lanka Women vs Pakistan Women",
+    "slug": "Sri-Lanka-Women-vs-Pakistan-Women",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "Womens Emerging Nations Trophy",
+      "category": "Cricket",
+      "teamA": "Sri Lanka Women",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/187806/image",
+      "teamB": "Pakistan Women",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/187808/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/30714/image/dark",
+      "startTimeIST": "2026-11-23 10:30:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/23 05:00:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": []
   },
   {
     "id": 1218,
@@ -357,6 +504,48 @@
         "key": null
       }
     ]
+  },
+  {
+    "id": 2089,
+    "title": "Ireland Women vs Netherlands Women",
+    "slug": "Ireland-Women-vs-Netherlands-Women",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "Womens Emerging Nations Trophy",
+      "category": "Cricket",
+      "teamA": "Ireland Women",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/213116/image",
+      "teamB": "Netherlands Women",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/417753/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/30714/image/dark",
+      "startTimeIST": "2026-11-23 14:45:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/23 09:15:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2090,
+    "title": "Zimbabwe Women vs Scotland Women",
+    "slug": "Zimbabwe-Women-vs-Scotland-Women",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "Womens Emerging Nations Trophy",
+      "category": "Cricket",
+      "teamA": "Zimbabwe Women",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/417062/image",
+      "teamB": "Scotland Women",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/453162/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/30714/image/dark",
+      "startTimeIST": "2026-11-23 14:45:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/23 09:15:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": []
   },
   {
     "id": 1211,
