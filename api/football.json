@@ -336,7 +336,14 @@
       "startTimeUTC": "2026/11/21 13:00:00 +0000",
       "endTimeUTC": "2026/11/21 15:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "Laliga Hypermotion ES",
+        "type": "dash",
+        "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
+        "key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
+      }
+    ]
   },
   {
     "id": 2064,
@@ -385,7 +392,7 @@
     "title": "Cameroon U17 vs Venezuela U17",
     "slug": "Cameroon-U17-vs-Venezuela-U17",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "U17 World Championship",
       "category": "Football",
