@@ -4,7 +4,7 @@
     "title": "New England Revolution vs Philadelphia Union",
     "slug": "New-England-Revolution-vs-Philadelphia-Union",
     "cat": "Football",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "MLS",
       "category": "Football",
@@ -618,7 +618,14 @@
       "startTimeUTC": "2026/11/21 20:30:00 +0000",
       "endTimeUTC": "2026/11/21 22:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PlayZ TV Live",
+        "type": "hls",
+        "url": "https://live2.jorvakstreamcache.com/live/channel13.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 1376,
@@ -831,7 +838,7 @@
     "dashStreams": []
   },
   {
-    "id": 2260,
+    "id": 2261,
     "title": "Córdoba vs Real Oviedo",
     "slug": "Córdoba-vs-Real-Oviedo",
     "cat": "Football",
@@ -852,7 +859,7 @@
     "dashStreams": []
   },
   {
-    "id": 2261,
+    "id": 2262,
     "title": "Córdoba vs Real Oviedo",
     "slug": "Córdoba-vs-Real-Oviedo",
     "cat": "Football",
