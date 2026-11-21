@@ -1,33 +1,5 @@
 [
   {
-    "id": 2044,
-    "title": "Chile U17 vs Algeria U17",
-    "slug": "Chile-U17-vs-Algeria-U17",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "U17 World Championship",
-      "category": "Football",
-      "teamA": "Chile U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/48830/image",
-      "teamB": "Algeria U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/37321/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
-      "startTimeIST": "2026-11-21 21:00:00 IST",
-      "endTimeIST": "2026-11-21 23:20:00 IST",
-      "startTimeUTC": "2026/11/21 15:30:00 +0000",
-      "endTimeUTC": "2026/11/21 17:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "D SPORTS+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ud6bnhthpj/out/v1/2639a2f4480f4269953de466d5f46463/cenc.mpd",
-        "key": "83f81c4cc1443991543de4e22eea7586:ddfd7ca653d6f35543d8edb3c688e20f"
-      }
-    ]
-  },
-  {
     "id": 2079,
     "title": "NEC Nijmegen vs PSV Eindhoven",
     "slug": "NEC-Nijmegen-vs-PSV-Eindhoven",
@@ -263,9 +235,21 @@
         "key": "1106fb025da5b31657618344099c6c14:788284538616a73b56214e90196a6e0f"
       },
       {
+        "title": "CAZE TV FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ui54qo0g6h/out/v1/620e1448188d4bbe9a28d0dd52f45bb7/cenc.mpd",
+        "key": "ba6aca5a550163c38d06646bb50f04e7:516c3b471fce48a5b7a2e5ee7dd505f2"
+      },
+      {
         "title": "SKY SPORTS HD",
         "type": "hls",
         "url": "https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=eXsDq9RXXLqUQkamaHEreA&e=2075749056&scheme=https",
+        "key": null
+      },
+      {
+        "title": "HD STREAM",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/0a80573d-0eab-44e1-b4f2-2cc2f5e6b1b2.m3u8",
         "key": null
       }
     ]
@@ -327,7 +311,7 @@
     "title": "Dundee FC vs Heart of Midlothian",
     "slug": "Dundee-FC-vs-Heart-of-Midlothian",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Scottish Premiership",
       "category": "Football",
@@ -348,7 +332,7 @@
     "title": "FC Utrecht vs SC Cambuur",
     "slug": "FC-Utrecht-vs-SC-Cambuur",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "VriendenLoterij Eredivisie",
       "category": "Football",
@@ -362,14 +346,21 @@
       "startTimeUTC": "2026/11/21 17:45:00 +0000",
       "endTimeUTC": "2026/11/21 20:05:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PlayZ TV Live",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/sd-1-4552263.m3u8?txSecret=8777ae2f1af178919b0e05051a3d95f0&txTime=6B01EC45",
+        "key": null
+      }
+    ]
   },
   {
     "id": 2053,
     "title": "Feyenoord vs Excelsior",
     "slug": "Feyenoord-vs-Excelsior",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "VriendenLoterij Eredivisie",
       "category": "Football",
@@ -383,7 +374,14 @@
       "startTimeUTC": "2026/11/21 17:45:00 +0000",
       "endTimeUTC": "2026/11/21 20:05:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "SportDigital Fussball",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd?",
+        "key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
+      }
+    ]
   },
   {
     "id": 2056,
