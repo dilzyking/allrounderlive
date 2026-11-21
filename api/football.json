@@ -1,69 +1,5 @@
 [
   {
-    "id": 1354,
-    "title": "OGC Nice vs Paris Saint-Germain",
-    "slug": "OGC-Nice-vs-Paris-Saint-Germain",
-    "cat": "Football",
-    "status": "ended",
-    "event": {
-      "name": "Ligue 1",
-      "category": "Football",
-      "teamA": "OGC Nice",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1661/image",
-      "teamB": "Paris Saint-Germain",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1644/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/34/image/dark",
-      "startTimeIST": "2026-11-21 21:45:00 IST",
-      "endTimeIST": "2026-11-22 00:05:00 IST",
-      "startTimeUTC": "2026/11/21 16:15:00 +0000",
-      "endTimeUTC": "2026/11/21 18:35:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "beIN SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?",
-        "key": "27759a440e8ad821b800b3de00cd5851:1b8743adee559f27845f55e8b4d639fe"
-      },
-      {
-        "title": "beIN ESPNAOL FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd?",
-        "key": "74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c"
-      },
-      {
-        "title": "PlayZ TV Live",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4550937.m3u8?txSecret=fa15295e7a2f20ca4c71c293eb5401ba&txTime=6B01CBB8",
-        "key": null
-      },
-      {
-        "title": "FHD STREAM",
-        "type": "hls",
-        "url": "https://justpasstheball.online/live/next-nice-vs-psg-all-21-11-2026-16-55-gmt-8k-exclusive-de-soccer-ppv-52.m3u8",
-        "key": null
-      },
-      {
-        "title": "BeIN ARABIA HD",
-        "type": "hls",
-        "url": "https://m.yalla4live.live/romp2.m3u8",
-        "key": null
-      },
-      {
-        "title": "BeIN ARABIA SD",
-        "type": "hls",
-        "url": "https://fcunejinzctyqd.yallashoooootlive.online/hls/ch2/live/index.m3u8",
-        "key": null
-      },
-      {
-        "title": "TAPMAD - AQ",
-        "type": "hls",
-        "url": "https://tencent-cdn.tapmad.com/v1/01a145b15ce115fc600b1e3e9683db/01a145b24db11ea557841e1612cf4c/main.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 1342,
     "title": "Parma vs AS Roma",
     "slug": "Parma-vs-AS-Roma",
@@ -842,27 +778,6 @@
     "dashStreams": []
   },
   {
-    "id": 2157,
-    "title": "Juventus vs Venezia",
-    "slug": "Juventus-vs-Venezia",
-    "cat": "Football",
-    "status": "upcoming",
-    "event": {
-      "name": "Serie A",
-      "category": "Football",
-      "teamA": "Juventus",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2687/image",
-      "teamB": "Venezia",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2688/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "startTimeIST": "2026-11-22 17:00:00 IST",
-      "endTimeIST": "2026-11-22 19:20:00 IST",
-      "startTimeUTC": "2026/11/22 11:30:00 +0000",
-      "endTimeUTC": "2026/11/22 13:50:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 2162,
     "title": "Juventus vs Venezia",
     "slug": "Juventus-vs-Venezia",
@@ -884,7 +799,28 @@
     "dashStreams": []
   },
   {
-    "id": 2158,
+    "id": 2167,
+    "title": "Juventus vs Venezia",
+    "slug": "Juventus-vs-Venezia",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Serie A",
+      "category": "Football",
+      "teamA": "Juventus",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2687/image",
+      "teamB": "Venezia",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2688/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/23/image/dark",
+      "startTimeIST": "2026-11-22 17:00:00 IST",
+      "endTimeIST": "2026-11-22 19:20:00 IST",
+      "startTimeUTC": "2026/11/22 11:30:00 +0000",
+      "endTimeUTC": "2026/11/22 13:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2163,
     "title": "Burnley vs Blackburn Rovers",
     "slug": "Burnley-vs-Blackburn-Rovers",
     "cat": "Football",
@@ -905,7 +841,7 @@
     "dashStreams": []
   },
   {
-    "id": 2163,
+    "id": 2168,
     "title": "Burnley vs Blackburn Rovers",
     "slug": "Burnley-vs-Blackburn-Rovers",
     "cat": "Football",
@@ -989,7 +925,7 @@
     "dashStreams": []
   },
   {
-    "id": 2159,
+    "id": 2164,
     "title": "Córdoba vs Real Oviedo",
     "slug": "Córdoba-vs-Real-Oviedo",
     "cat": "Football",
@@ -1010,7 +946,7 @@
     "dashStreams": []
   },
   {
-    "id": 2164,
+    "id": 2169,
     "title": "Córdoba vs Real Oviedo",
     "slug": "Córdoba-vs-Real-Oviedo",
     "cat": "Football",
