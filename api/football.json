@@ -21,34 +21,6 @@
     "dashStreams": []
   },
   {
-    "id": 2016,
-    "title": "CE Sabadell vs Granada",
-    "slug": "CE-Sabadell-vs-Granada",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "LaLiga 2",
-      "category": "Football",
-      "teamA": "CE Sabadell",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/24335/image",
-      "teamB": "Granada",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/33779/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "startTimeIST": "2026-11-21 18:30:00 IST",
-      "endTimeIST": "2026-11-21 20:50:00 IST",
-      "startTimeUTC": "2026/11/21 13:00:00 +0000",
-      "endTimeUTC": "2026/11/21 15:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "Laliga Hypermotion ES",
-        "type": "dash",
-        "url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-        "key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-      }
-    ]
-  },
-  {
     "id": 2064,
     "title": "Deportivo Alavés vs Deportivo de A Coruña",
     "slug": "Deportivo-Alavés-vs-Deportivo-de-A-Coruña",
@@ -379,7 +351,14 @@
       "startTimeUTC": "2026/11/21 14:30:00 +0000",
       "endTimeUTC": "2026/11/21 16:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "FOX SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+        "key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
+      }
+    ]
   },
   {
     "id": 2019,
@@ -577,69 +556,6 @@
       "teamB": "Crystal Palace",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/7/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/17/image/dark",
-      "startTimeIST": "2026-11-21 20:30:00 IST",
-      "endTimeIST": "2026-11-21 22:50:00 IST",
-      "startTimeUTC": "2026/11/21 15:00:00 +0000",
-      "endTimeUTC": "2026/11/21 17:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 2048,
-    "title": "Falkirk FC vs St. Johnstone",
-    "slug": "Falkirk-FC-vs-St.-Johnstone",
-    "cat": "Football",
-    "status": "upcoming",
-    "event": {
-      "name": "Scottish Premiership",
-      "category": "Football",
-      "teamA": "Falkirk FC",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2363/image",
-      "teamB": "St. Johnstone",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2348/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/36/image/dark",
-      "startTimeIST": "2026-11-21 20:30:00 IST",
-      "endTimeIST": "2026-11-21 22:50:00 IST",
-      "startTimeUTC": "2026/11/21 15:00:00 +0000",
-      "endTimeUTC": "2026/11/21 17:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 2049,
-    "title": "Hibernian vs Dundee United",
-    "slug": "Hibernian-vs-Dundee-United",
-    "cat": "Football",
-    "status": "upcoming",
-    "event": {
-      "name": "Scottish Premiership",
-      "category": "Football",
-      "teamA": "Hibernian",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2354/image",
-      "teamB": "Dundee United",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2349/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/36/image/dark",
-      "startTimeIST": "2026-11-21 20:30:00 IST",
-      "endTimeIST": "2026-11-21 22:50:00 IST",
-      "startTimeUTC": "2026/11/21 15:00:00 +0000",
-      "endTimeUTC": "2026/11/21 17:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 2050,
-    "title": "Kilmarnock vs Aberdeen",
-    "slug": "Kilmarnock-vs-Aberdeen",
-    "cat": "Football",
-    "status": "upcoming",
-    "event": {
-      "name": "Scottish Premiership",
-      "category": "Football",
-      "teamA": "Kilmarnock",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2347/image",
-      "teamB": "Aberdeen",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2355/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/36/image/dark",
       "startTimeIST": "2026-11-21 20:30:00 IST",
       "endTimeIST": "2026-11-21 22:50:00 IST",
       "startTimeUTC": "2026/11/21 15:00:00 +0000",
