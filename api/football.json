@@ -118,6 +118,12 @@
     },
     "dashStreams": [
       {
+        "title": "PARAMOUNT+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/nrs7oyyigv/out/v1/d6418c6bbdef45f6a2eeb9bc2026755a/cenc.mpd",
+        "key": "b4ac5abd2b6d8622d1157bd86a3d6cf6:4e8b55d53eb1298c6b55a96c193deac5"
+      },
+      {
         "title": "beIN SPORTS - AQ",
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
@@ -174,6 +180,12 @@
     },
     "dashStreams": [
       {
+        "title": "SKY BUNDESLIGA",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/3rm596wqdw/out/v1/9ba0ea722ef141b782c21d021ba45786/cenc.mpd",
+        "key": "42650c79c7a241e79d18488fef3d75da:42c319fd698c3914b7bfbaa38d08e41e"
+      },
+      {
         "title": "HD",
         "type": "hls",
         "url": "https://live2.tanrixstreamorigin.com/live/channel13.m3u8",
@@ -202,6 +214,12 @@
     },
     "dashStreams": [
       {
+        "title": "FOX SPORTS",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+        "key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
+      },
+      {
         "title": "HD",
         "type": "hls",
         "url": "https://live1.quickscoreboardz.com/live/channel29/playlist.m3u8?wsSecret=d99d182de6a1e817c23b838189c7f103&wsABSTime=1795393689",
@@ -229,6 +247,12 @@
       "endTimeUTC": "2026/11/22 14:50:00 +0000"
     },
     "dashStreams": [
+      {
+        "title": "SKY BUNDESLIGA",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/w1ad3vckry/out/v1/33ce68a8d21949da84e49f2695e51980/cenc.mpd",
+        "key": "5e0ee93e86d783f011561f18ff8f34e6:b570eceee332c7e50f87fca1f51e0966"
+      },
       {
         "title": "HD",
         "type": "hls",
@@ -285,6 +309,12 @@
       "endTimeUTC": "2026/11/22 14:50:00 +0000"
     },
     "dashStreams": [
+      {
+        "title": "SKY BUNDESLIGA",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/pq38ujseug/out/v1/84544ed7c3b04cf08fe395708cfcedc6/cenc.mpd",
+        "key": "f38ce843871b3e5aa97b8461a093a424:b51d62eeec9c136513c12ea7ec291f6f"
+      },
       {
         "title": "HD",
         "type": "hls",
