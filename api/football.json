@@ -34,6 +34,27 @@
     ]
   },
   {
+    "id": 2449,
+    "title": "Birmingham City W.F.C. vs Manchester United",
+    "slug": "Birmingham-City-W.F.C.-vs-Manchester-United",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Women's Super League",
+      "category": "Football",
+      "teamA": "Birmingham City W.F.C.",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/66766/image",
+      "teamB": "Manchester United",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/301455/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1044/image/dark",
+      "startTimeIST": "2026-11-22 17:30:00 IST",
+      "endTimeIST": "2026-11-22 19:50:00 IST",
+      "startTimeUTC": "2026/11/22 12:00:00 +0000",
+      "endTimeUTC": "2026/11/22 14:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
     "id": 2250,
     "title": "Burnley vs Blackburn Rovers",
     "slug": "Burnley-vs-Blackburn-Rovers",
@@ -47,6 +68,27 @@
       "teamB": "Blackburn Rovers",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/46/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/18/image/dark",
+      "startTimeIST": "2026-11-22 17:30:00 IST",
+      "endTimeIST": "2026-11-22 19:50:00 IST",
+      "startTimeUTC": "2026/11/22 12:00:00 +0000",
+      "endTimeUTC": "2026/11/22 14:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2450,
+    "title": "Manchester City vs Tottenham FC",
+    "slug": "Manchester-City-vs-Tottenham-FC",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Women's Super League",
+      "category": "Football",
+      "teamA": "Manchester City",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/142658/image",
+      "teamB": "Tottenham FC",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/273547/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1044/image/dark",
       "startTimeIST": "2026-11-22 17:30:00 IST",
       "endTimeIST": "2026-11-22 19:50:00 IST",
       "startTimeUTC": "2026/11/22 12:00:00 +0000",
@@ -110,6 +152,27 @@
       "teamB": "Panama U17",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/48866/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
+      "startTimeIST": "2026-11-22 18:00:00 IST",
+      "endTimeIST": "2026-11-22 20:20:00 IST",
+      "startTimeUTC": "2026/11/22 12:30:00 +0000",
+      "endTimeUTC": "2026/11/22 14:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2451,
+    "title": "SK Beveren vs KAA Gent",
+    "slug": "SK-Beveren-vs-KAA-Gent",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Pro League",
+      "category": "Football",
+      "teamA": "SK Beveren",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4859/image",
+      "teamB": "KAA Gent",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2903/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/38/image/dark",
       "startTimeIST": "2026-11-22 18:00:00 IST",
       "endTimeIST": "2026-11-22 20:20:00 IST",
       "startTimeUTC": "2026/11/22 12:30:00 +0000",
@@ -265,6 +328,69 @@
     "dashStreams": []
   },
   {
+    "id": 2452,
+    "title": "Charlton Athletic WFC vs Aston Villa",
+    "slug": "Charlton-Athletic-WFC-vs-Aston-Villa",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Women's Super League",
+      "category": "Football",
+      "teamA": "Charlton Athletic WFC",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/234203/image",
+      "teamB": "Aston Villa",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/266375/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1044/image/dark",
+      "startTimeIST": "2026-11-22 19:30:00 IST",
+      "endTimeIST": "2026-11-22 21:50:00 IST",
+      "startTimeUTC": "2026/11/22 14:00:00 +0000",
+      "endTimeUTC": "2026/11/22 16:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2453,
+    "title": "Churchill Brothers SC vs Mohun Bagan Super Giant",
+    "slug": "Churchill-Brothers-SC-vs-Mohun-Bagan-Super-Giant",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Indian Super League",
+      "category": "Football",
+      "teamA": "Churchill Brothers SC",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/40078/image",
+      "teamB": "Mohun Bagan Super Giant",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/370834/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1900/image/dark",
+      "startTimeIST": "2026-11-22 19:30:00 IST",
+      "endTimeIST": "2026-11-22 21:50:00 IST",
+      "startTimeUTC": "2026/11/22 14:00:00 +0000",
+      "endTimeUTC": "2026/11/22 16:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2454,
+    "title": "Everton vs Brighton",
+    "slug": "Everton-vs-Brighton",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Women's Super League",
+      "category": "Football",
+      "teamA": "Everton",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/36704/image",
+      "teamB": "Brighton",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/266376/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1044/image/dark",
+      "startTimeIST": "2026-11-22 19:30:00 IST",
+      "endTimeIST": "2026-11-22 21:50:00 IST",
+      "startTimeUTC": "2026/11/22 14:00:00 +0000",
+      "endTimeUTC": "2026/11/22 16:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
     "id": 2114,
     "title": "Hull City vs Brighton & Hove Albion",
     "slug": "Hull-City-vs-Brighton-&-Hove-Albion",
@@ -328,6 +454,48 @@
     "dashStreams": []
   },
   {
+    "id": 2455,
+    "title": "SC Vianense vs Rio Ave",
+    "slug": "SC-Vianense-vs-Rio-Ave",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Taça de Portugal",
+      "category": "Football",
+      "teamA": "SC Vianense",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/207137/image",
+      "teamB": "Rio Ave",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/3036/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/336/image/dark",
+      "startTimeIST": "2026-11-22 19:30:00 IST",
+      "endTimeIST": "2026-11-22 21:50:00 IST",
+      "startTimeUTC": "2026/11/22 14:00:00 +0000",
+      "endTimeUTC": "2026/11/22 16:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2456,
+    "title": "Arsenal vs West Ham",
+    "slug": "Arsenal-vs-West-Ham",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Women's Super League",
+      "category": "Football",
+      "teamA": "Arsenal",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/26243/image",
+      "teamB": "West Ham",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/297802/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1044/image/dark",
+      "startTimeIST": "2026-11-22 20:00:00 IST",
+      "endTimeIST": "2026-11-22 22:20:00 IST",
+      "startTimeUTC": "2026/11/22 14:30:00 +0000",
+      "endTimeUTC": "2026/11/22 16:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
     "id": 2117,
     "title": "FC Augsburg vs 1. FSV Mainz 05",
     "slug": "FC-Augsburg-vs-1.-FSV-Mainz-05",
@@ -366,6 +534,48 @@
       "endTimeIST": "2026-11-22 22:20:00 IST",
       "startTimeUTC": "2026/11/22 14:30:00 +0000",
       "endTimeUTC": "2026/11/22 16:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2457,
+    "title": "Huachipato vs Deportes Concepción",
+    "slug": "Huachipato-vs-Deportes-Concepción",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Liga de Primera",
+      "category": "Football",
+      "teamA": "Huachipato",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/3164/image",
+      "teamB": "Deportes Concepción",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/3160/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/11653/image/dark",
+      "startTimeIST": "2026-11-22 20:30:00 IST",
+      "endTimeIST": "2026-11-22 22:50:00 IST",
+      "startTimeUTC": "2026/11/22 15:00:00 +0000",
+      "endTimeUTC": "2026/11/22 17:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2458,
+    "title": "KV Kortrijk vs Royale Union Saint-Gilloise",
+    "slug": "KV-Kortrijk-vs-Royale-Union-Saint-Gilloise",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Pro League",
+      "category": "Football",
+      "teamA": "KV Kortrijk",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/4858/image",
+      "teamB": "Royale Union Saint-Gilloise",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/4860/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/38/image/dark",
+      "startTimeIST": "2026-11-22 20:30:00 IST",
+      "endTimeIST": "2026-11-22 22:50:00 IST",
+      "startTimeUTC": "2026/11/22 15:00:00 +0000",
+      "endTimeUTC": "2026/11/22 17:20:00 +0000"
     },
     "dashStreams": []
   },
@@ -471,6 +681,48 @@
       "endTimeIST": "2026-11-22 23:20:00 IST",
       "startTimeUTC": "2026/11/22 15:30:00 +0000",
       "endTimeUTC": "2026/11/22 17:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2459,
+    "title": "KFUM Oslo vs SK Brann",
+    "slug": "KFUM-Oslo-vs-SK-Brann",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Eliteserien",
+      "category": "Football",
+      "teamA": "KFUM Oslo",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/786/image",
+      "teamB": "SK Brann",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1159/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/20/image/dark",
+      "startTimeIST": "2026-11-22 21:30:00 IST",
+      "endTimeIST": "2026-11-22 23:50:00 IST",
+      "startTimeUTC": "2026/11/22 16:00:00 +0000",
+      "endTimeUTC": "2026/11/22 18:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2460,
+    "title": "Trabzonspor vs Eyüpspor",
+    "slug": "Trabzonspor-vs-Eyüpspor",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Trendyol Süper Lig",
+      "category": "Football",
+      "teamA": "Trabzonspor",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/3051/image",
+      "teamB": "Eyüpspor",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/7040/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/52/image/dark",
+      "startTimeIST": "2026-11-22 21:30:00 IST",
+      "endTimeIST": "2026-11-22 23:50:00 IST",
+      "startTimeUTC": "2026/11/22 16:00:00 +0000",
+      "endTimeUTC": "2026/11/22 18:20:00 +0000"
     },
     "dashStreams": []
   },
@@ -622,6 +874,132 @@
     "dashStreams": []
   },
   {
+    "id": 2461,
+    "title": "RSC Anderlecht vs Oud-Heverlee Leuven",
+    "slug": "RSC-Anderlecht-vs-Oud-Heverlee-Leuven",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Pro League",
+      "category": "Football",
+      "teamA": "RSC Anderlecht",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2900/image",
+      "teamB": "Oud-Heverlee Leuven",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2918/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/38/image/dark",
+      "startTimeIST": "2026-11-22 23:00:00 IST",
+      "endTimeIST": "2026-11-23 01:20:00 IST",
+      "startTimeUTC": "2026/11/22 17:30:00 +0000",
+      "endTimeUTC": "2026/11/22 19:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2462,
+    "title": "CF Estrela Amadora vs Portimonense SAD",
+    "slug": "CF-Estrela-Amadora-vs-Portimonense-SAD",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Taça de Portugal",
+      "category": "Football",
+      "teamA": "CF Estrela Amadora",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/3035/image",
+      "teamB": "Portimonense SAD",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/3026/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/336/image/dark",
+      "startTimeIST": "2026-11-22 23:30:00 IST",
+      "endTimeIST": "2026-11-23 01:50:00 IST",
+      "startTimeUTC": "2026/11/22 18:00:00 +0000",
+      "endTimeUTC": "2026/11/22 20:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2463,
+    "title": "Lommel SK vs Standard Liège",
+    "slug": "Lommel-SK-vs-Standard-Liège",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Pro League",
+      "category": "Football",
+      "teamA": "Lommel SK",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/5046/image",
+      "teamB": "Standard Liège",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2901/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/38/image/dark",
+      "startTimeIST": "2026-11-22 23:45:00 IST",
+      "endTimeIST": "2026-11-23 02:05:00 IST",
+      "startTimeUTC": "2026/11/22 18:15:00 +0000",
+      "endTimeUTC": "2026/11/22 20:35:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2464,
+    "title": "Sarpsborg 08 vs Lillestrøm SK",
+    "slug": "Sarpsborg-08-vs-Lillestrøm-SK",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Eliteserien",
+      "category": "Football",
+      "teamA": "Sarpsborg 08",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/822/image",
+      "teamB": "Lillestrøm SK",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/664/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/20/image/dark",
+      "startTimeIST": "2026-11-22 23:45:00 IST",
+      "endTimeIST": "2026-11-23 02:05:00 IST",
+      "startTimeUTC": "2026/11/22 18:15:00 +0000",
+      "endTimeUTC": "2026/11/22 20:35:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2465,
+    "title": "Athletico vs Remo",
+    "slug": "Athletico-vs-Remo",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Campeonato Brasileiro Série A",
+      "category": "Football",
+      "teamA": "Athletico",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1967/image",
+      "teamB": "Remo",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2012/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/325/image/dark",
+      "startTimeIST": "2026-11-23 00:30:00 IST",
+      "endTimeIST": "2026-11-23 02:50:00 IST",
+      "startTimeUTC": "2026/11/22 19:00:00 +0000",
+      "endTimeUTC": "2026/11/22 21:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2466,
+    "title": "União de Leiria vs Leça FC",
+    "slug": "União-de-Leiria-vs-Leça-FC",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Taça de Portugal",
+      "category": "Football",
+      "teamA": "União de Leiria",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/3000/image",
+      "teamB": "Leça FC",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/3024/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/336/image/dark",
+      "startTimeIST": "2026-11-23 01:00:00 IST",
+      "endTimeIST": "2026-11-23 03:20:00 IST",
+      "startTimeUTC": "2026/11/22 19:30:00 +0000",
+      "endTimeUTC": "2026/11/22 21:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
     "id": 2131,
     "title": "Atalanta vs Inter",
     "slug": "Atalanta-vs-Inter",
@@ -706,6 +1084,48 @@
     "dashStreams": []
   },
   {
+    "id": 2467,
+    "title": "Torreense vs Benfica",
+    "slug": "Torreense-vs-Benfica",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Taça de Portugal",
+      "category": "Football",
+      "teamA": "Torreense",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/25787/image",
+      "teamB": "Benfica",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/3006/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/336/image/dark",
+      "startTimeIST": "2026-11-23 02:15:00 IST",
+      "endTimeIST": "2026-11-23 04:35:00 IST",
+      "startTimeUTC": "2026/11/22 20:45:00 +0000",
+      "endTimeUTC": "2026/11/22 23:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2468,
+    "title": "Colo-Colo vs Universidad Católica",
+    "slug": "Colo-Colo-vs-Universidad-Católica",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Liga de Primera",
+      "category": "Football",
+      "teamA": "Colo-Colo",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/3155/image",
+      "teamB": "Universidad Católica",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/3151/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/11653/image/dark",
+      "startTimeIST": "2026-11-23 02:30:00 IST",
+      "endTimeIST": "2026-11-23 04:50:00 IST",
+      "startTimeUTC": "2026/11/22 21:00:00 +0000",
+      "endTimeUTC": "2026/11/22 23:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
     "id": 2446,
     "title": "Nashville SC vs FC Cincinnati",
     "slug": "Nashville-SC-vs-FC-Cincinnati",
@@ -727,6 +1147,69 @@
     "dashStreams": []
   },
   {
+    "id": 2469,
+    "title": "Fluminense vs Mirassol",
+    "slug": "Fluminense-vs-Mirassol",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Campeonato Brasileiro Série A",
+      "category": "Football",
+      "teamA": "Fluminense",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1961/image",
+      "teamB": "Mirassol",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/21982/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/325/image/dark",
+      "startTimeIST": "2026-11-23 03:00:00 IST",
+      "endTimeIST": "2026-11-23 05:20:00 IST",
+      "startTimeUTC": "2026/11/22 21:30:00 +0000",
+      "endTimeUTC": "2026/11/22 23:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2470,
+    "title": "Red Bull Bragantino vs Vasco da Gama",
+    "slug": "Red-Bull-Bragantino-vs-Vasco-da-Gama",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Campeonato Brasileiro Série A",
+      "category": "Football",
+      "teamA": "Red Bull Bragantino",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1999/image",
+      "teamB": "Vasco da Gama",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1974/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/325/image/dark",
+      "startTimeIST": "2026-11-23 04:00:00 IST",
+      "endTimeIST": "2026-11-23 06:20:00 IST",
+      "startTimeUTC": "2026/11/22 22:30:00 +0000",
+      "endTimeUTC": "2026/11/23 00:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2471,
+    "title": "CD Guadalajara vs Cruz Azul",
+    "slug": "CD-Guadalajara-vs-Cruz-Azul",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Liga MX, Apertura",
+      "category": "Football",
+      "teamA": "CD Guadalajara",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1938/image",
+      "teamB": "Cruz Azul",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1947/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/11621/image/dark",
+      "startTimeIST": "2026-11-23 04:37:00 IST",
+      "endTimeIST": "2026-11-23 06:57:00 IST",
+      "startTimeUTC": "2026/11/22 23:07:00 +0000",
+      "endTimeUTC": "2026/11/23 01:27:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
     "id": 2447,
     "title": "Chicago Fire vs Charlotte FC",
     "slug": "Chicago-Fire-vs-Charlotte-FC",
@@ -744,6 +1227,48 @@
       "endTimeIST": "2026-11-23 07:20:00 IST",
       "startTimeUTC": "2026/11/22 23:30:00 +0000",
       "endTimeUTC": "2026/11/23 01:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2472,
+    "title": "Deportes Limache vs Deportes La Serena",
+    "slug": "Deportes-Limache-vs-Deportes-La-Serena",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Liga de Primera",
+      "category": "Football",
+      "teamA": "Deportes Limache",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/331131/image",
+      "teamB": "Deportes La Serena",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/5031/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/11653/image/dark",
+      "startTimeIST": "2026-11-23 05:00:00 IST",
+      "endTimeIST": "2026-11-23 07:20:00 IST",
+      "startTimeUTC": "2026/11/22 23:30:00 +0000",
+      "endTimeUTC": "2026/11/23 01:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2473,
+    "title": "Querétaro FC vs Club Necaxa",
+    "slug": "Querétaro-FC-vs-Club-Necaxa",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Liga MX, Apertura",
+      "category": "Football",
+      "teamA": "Querétaro FC",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1951/image",
+      "teamB": "Club Necaxa",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1944/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/11621/image/dark",
+      "startTimeIST": "2026-11-23 06:40:00 IST",
+      "endTimeIST": "2026-11-23 09:00:00 IST",
+      "startTimeUTC": "2026/11/23 01:10:00 +0000",
+      "endTimeUTC": "2026/11/23 03:30:00 +0000"
     },
     "dashStreams": []
   },
