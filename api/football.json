@@ -1,33 +1,5 @@
 [
   {
-    "id": 2420,
-    "title": "Córdoba vs Real Oviedo",
-    "slug": "Córdoba-vs-Real-Oviedo",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "LaLiga 2",
-      "category": "Football",
-      "teamA": "Córdoba",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2850/image",
-      "teamB": "Real Oviedo",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2851/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "startTimeIST": "2026-11-22 18:30:00 IST",
-      "endTimeIST": "2026-11-22 20:50:00 IST",
-      "startTimeUTC": "2026/11/22 13:00:00 +0000",
-      "endTimeUTC": "2026/11/22 15:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "LALIGA HYPEMOTION ES - AQ",
-        "type": "dash",
-        "url": "https://cache4.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-        "key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-      }
-    ]
-  },
-  {
     "id": 2111,
     "title": "Ecuador U17 vs Uganda U17",
     "slug": "Ecuador-U17-vs-Uganda-U17",
@@ -211,7 +183,26 @@
       "startTimeUTC": "2026/11/22 14:00:00 +0000",
       "endTimeUTC": "2026/11/22 16:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "SONYLIV ENG - AQ",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120300/Footlive2211/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795396490~acl=/*~id=84008719720900886374021047807799~hmac=3c531bbd1f6234890d76a396bf19711fcdac1149179555874a63d4199c5bcefc",
+        "key": null
+      },
+      {
+        "title": "SONYLIV HIN - AQ",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120307/Footlive2211/HIN/std_lrh-800300010.m3u8?hdnea=exp=1795396490~acl=/*~id=84008719720900886374021047807799~hmac=3c531bbd1f6234890d76a396bf19711fcdac1149179555874a63d4199c5bcefc",
+        "key": null
+      },
+      {
+        "title": "SONYLIV BEN - AQ",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120301/Footlive2211/BEN/std_lrh-800300010.m3u8?hdnea=exp=1795396490~acl=/*~id=84008719720900886374021047807799~hmac=3c531bbd1f6234890d76a396bf19711fcdac1149179555874a63d4199c5bcefc",
+        "key": null
+      }
+    ]
   },
   {
     "id": 2454,
@@ -504,7 +495,7 @@
     "title": "Real Racing Club vs Real Sociedad",
     "slug": "Real-Racing-Club-vs-Real-Sociedad",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "LaLiga",
       "category": "Football",
@@ -525,7 +516,7 @@
     "title": "Sporting Gijón vs UD Las Palmas",
     "slug": "Sporting-Gijón-vs-UD-Las-Palmas",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "LaLiga 2",
       "category": "Football",
