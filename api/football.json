@@ -82,6 +82,12 @@
     },
     "dashStreams": [
       {
+        "title": "CBS SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rbem8rorcw/out/v1/5318821e2c3c44c2a439681b9aa86e9b/cenc.mpd",
+        "key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+      },
+      {
         "title": "PlayZ TV Live",
         "type": "hls",
         "url": "https://live2.tanrixstreamorigin.com/live/channel23.m3u8",
