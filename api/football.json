@@ -84,7 +84,7 @@
     "title": "Burgos Club de Fútbol vs Albacete Balompié",
     "slug": "Burgos-Club-de-Fútbol-vs-Albacete-Balompié",
     "cat": "Football",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "LaLiga 2",
       "category": "Football",
@@ -112,7 +112,7 @@
     "title": "Getafe vs Atlético Madrid",
     "slug": "Getafe-vs-Atlético-Madrid",
     "cat": "Football",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "LaLiga",
       "category": "Football",
@@ -283,7 +283,14 @@
       "startTimeUTC": "2026/11/22 22:30:00 +0000",
       "endTimeUTC": "2026/11/23 00:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PREMIER BR",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
+        "key": "56b79c1782b30e6b6fc973b0e8fd4104:fa38aaa865a57eda7c77444697ba8ed3"
+      }
+    ]
   },
   {
     "id": 2471,
@@ -723,6 +730,195 @@
       "endTimeIST": "2026-11-24 08:50:00 IST",
       "startTimeUTC": "2026/11/24 01:00:00 +0000",
       "endTimeUTC": "2026/11/24 03:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2512,
+    "title": "Bodø/Glimt vs LASK",
+    "slug": "Bodø-Glimt-vs-LASK",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Champions League",
+      "category": "Football",
+      "teamA": "Bodø/Glimt",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/656/image",
+      "teamB": "LASK",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2058/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
+      "startTimeIST": "2026-11-24 23:15:00 IST",
+      "endTimeIST": "2026-11-25 01:35:00 IST",
+      "startTimeUTC": "2026/11/24 17:45:00 +0000",
+      "endTimeUTC": "2026/11/24 20:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2513,
+    "title": "Galatasaray vs Aston Villa",
+    "slug": "Galatasaray-vs-Aston-Villa",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Champions League",
+      "category": "Football",
+      "teamA": "Galatasaray",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/3061/image",
+      "teamB": "Aston Villa",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/40/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
+      "startTimeIST": "2026-11-24 23:15:00 IST",
+      "endTimeIST": "2026-11-25 01:35:00 IST",
+      "startTimeUTC": "2026/11/24 17:45:00 +0000",
+      "endTimeUTC": "2026/11/24 20:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2514,
+    "title": "Arsenal vs Borussia Dortmund",
+    "slug": "Arsenal-vs-Borussia-Dortmund",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Champions League",
+      "category": "Football",
+      "teamA": "Arsenal",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/42/image",
+      "teamB": "Borussia Dortmund",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2673/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
+      "startTimeIST": "2026-11-25 01:30:00 IST",
+      "endTimeIST": "2026-11-25 03:50:00 IST",
+      "startTimeUTC": "2026/11/24 20:00:00 +0000",
+      "endTimeUTC": "2026/11/24 22:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2515,
+    "title": "Como vs AEK Athens",
+    "slug": "Como-vs-AEK-Athens",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Champions League",
+      "category": "Football",
+      "teamA": "Como",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2704/image",
+      "teamB": "AEK Athens",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/3250/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
+      "startTimeIST": "2026-11-25 01:30:00 IST",
+      "endTimeIST": "2026-11-25 03:50:00 IST",
+      "startTimeUTC": "2026/11/24 20:00:00 +0000",
+      "endTimeUTC": "2026/11/24 22:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2516,
+    "title": "Feyenoord vs FC Porto",
+    "slug": "Feyenoord-vs-FC-Porto",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Champions League",
+      "category": "Football",
+      "teamA": "Feyenoord",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2959/image",
+      "teamB": "FC Porto",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/3002/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
+      "startTimeIST": "2026-11-25 01:30:00 IST",
+      "endTimeIST": "2026-11-25 03:50:00 IST",
+      "startTimeUTC": "2026/11/24 20:00:00 +0000",
+      "endTimeUTC": "2026/11/24 22:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2517,
+    "title": "Manchester City vs SSC Napoli",
+    "slug": "Manchester-City-vs-SSC-Napoli",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Champions League",
+      "category": "Football",
+      "teamA": "Manchester City",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/17/image",
+      "teamB": "SSC Napoli",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2714/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
+      "startTimeIST": "2026-11-25 01:30:00 IST",
+      "endTimeIST": "2026-11-25 03:50:00 IST",
+      "startTimeUTC": "2026/11/24 20:00:00 +0000",
+      "endTimeUTC": "2026/11/24 22:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2518,
+    "title": "RB Leipzig vs RC Lens",
+    "slug": "RB-Leipzig-vs-RC-Lens",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Champions League",
+      "category": "Football",
+      "teamA": "RB Leipzig",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/36360/image",
+      "teamB": "RC Lens",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1648/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
+      "startTimeIST": "2026-11-25 01:30:00 IST",
+      "endTimeIST": "2026-11-25 03:50:00 IST",
+      "startTimeUTC": "2026/11/24 20:00:00 +0000",
+      "endTimeUTC": "2026/11/24 22:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2519,
+    "title": "Real Madrid vs PSV Eindhoven",
+    "slug": "Real-Madrid-vs-PSV-Eindhoven",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Champions League",
+      "category": "Football",
+      "teamA": "Real Madrid",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2829/image",
+      "teamB": "PSV Eindhoven",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2952/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
+      "startTimeIST": "2026-11-25 01:30:00 IST",
+      "endTimeIST": "2026-11-25 03:50:00 IST",
+      "startTimeUTC": "2026/11/24 20:00:00 +0000",
+      "endTimeUTC": "2026/11/24 22:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2520,
+    "title": "ŠK Slovan Bratislava vs Real Betis",
+    "slug": "ŠK-Slovan-Bratislava-vs-Real-Betis",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Champions League",
+      "category": "Football",
+      "teamA": "ŠK Slovan Bratislava",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2404/image",
+      "teamB": "Real Betis",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2816/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
+      "startTimeIST": "2026-11-25 01:30:00 IST",
+      "endTimeIST": "2026-11-25 03:50:00 IST",
+      "startTimeUTC": "2026/11/24 20:00:00 +0000",
+      "endTimeUTC": "2026/11/24 22:20:00 +0000"
     },
     "dashStreams": []
   }
