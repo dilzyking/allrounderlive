@@ -158,7 +158,7 @@
     "title": "1. FC Kaiserslautern vs SG Dynamo Dresden",
     "slug": "1.-FC-Kaiserslautern-vs-SG-Dynamo-Dresden",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "2. Bundesliga",
       "category": "Football",
@@ -186,7 +186,7 @@
     "title": "Denmark U17 vs Australia U17",
     "slug": "Denmark-U17-vs-Australia-U17",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "U17 World Championship",
       "category": "Football",
@@ -200,14 +200,21 @@
       "startTimeUTC": "2026/11/22 12:30:00 +0000",
       "endTimeUTC": "2026/11/22 14:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "HD",
+        "type": "hls",
+        "url": "https://live1.quickscoreboardz.com/live/channel29/playlist.m3u8?wsSecret=d99d182de6a1e817c23b838189c7f103&wsABSTime=1795393689",
+        "key": null
+      }
+    ]
   },
   {
     "id": 2474,
     "title": "Energie Cottbus vs Hertha BSC",
     "slug": "Energie-Cottbus-vs-Hertha-BSC",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "2. Bundesliga",
       "category": "Football",
@@ -221,14 +228,21 @@
       "startTimeUTC": "2026/11/22 12:30:00 +0000",
       "endTimeUTC": "2026/11/22 14:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "HD",
+        "type": "hls",
+        "url": "https://live2.tanrixstreamorigin.com/live/channel9.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 2109,
     "title": "Greece U17 vs Panama U17",
     "slug": "Greece-U17-vs-Panama-U17",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "U17 World Championship",
       "category": "Football",
@@ -242,14 +256,21 @@
       "startTimeUTC": "2026/11/22 12:30:00 +0000",
       "endTimeUTC": "2026/11/22 14:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "HD",
+        "type": "hls",
+        "url": "https://live1.quickscoreboardz.com/live/channel30/playlist.m3u8?wsSecret=461c931ae3abdab0d36386c7bc1e6eaf&wsABSTime=1795393831",
+        "key": null
+      }
+    ]
   },
   {
     "id": 2475,
     "title": "Karlsruher SC vs VfL Osnabrück",
     "slug": "Karlsruher-SC-vs-VfL-Osnabrück",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "2. Bundesliga",
       "category": "Football",
@@ -277,7 +298,7 @@
     "title": "SK Beveren vs KAA Gent",
     "slug": "SK-Beveren-vs-KAA-Gent",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Pro League",
       "category": "Football",
