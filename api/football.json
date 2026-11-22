@@ -1,169 +1,5 @@
 [
   {
-    "id": 1378,
-    "title": "1. FC Kaiserslautern vs SG Dynamo Dresden",
-    "slug": "1.-FC-Kaiserslautern-vs-SG-Dynamo-Dresden",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "2. Bundesliga",
-      "category": "Football",
-      "teamA": "1. FC Kaiserslautern",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2675/image",
-      "teamB": "SG Dynamo Dresden",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2595/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/44/image/dark",
-      "startTimeIST": "2026-11-22 18:00:00 IST",
-      "endTimeIST": "2026-11-22 20:20:00 IST",
-      "startTimeUTC": "2026/11/22 12:30:00 +0000",
-      "endTimeUTC": "2026/11/22 14:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SKY BUNDESLIGA",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/3rm596wqdw/out/v1/9ba0ea722ef141b782c21d021ba45786/cenc.mpd",
-        "key": "42650c79c7a241e79d18488fef3d75da:42c319fd698c3914b7bfbaa38d08e41e"
-      },
-      {
-        "title": "HD",
-        "type": "hls",
-        "url": "https://live2.tanrixstreamorigin.com/live/channel13.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 2108,
-    "title": "Denmark U17 vs Australia U17",
-    "slug": "Denmark-U17-vs-Australia-U17",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "U17 World Championship",
-      "category": "Football",
-      "teamA": "Denmark U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/22597/image",
-      "teamB": "Australia U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/22578/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
-      "startTimeIST": "2026-11-22 18:00:00 IST",
-      "endTimeIST": "2026-11-22 20:20:00 IST",
-      "startTimeUTC": "2026/11/22 12:30:00 +0000",
-      "endTimeUTC": "2026/11/22 14:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "FOX SPORTS",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
-        "key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
-      },
-      {
-        "title": "HD",
-        "type": "hls",
-        "url": "https://live1.quickscoreboardz.com/live/channel29/playlist.m3u8?wsSecret=d99d182de6a1e817c23b838189c7f103&wsABSTime=1795393689",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 2474,
-    "title": "Energie Cottbus vs Hertha BSC",
-    "slug": "Energie-Cottbus-vs-Hertha-BSC",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "2. Bundesliga",
-      "category": "Football",
-      "teamA": "Energie Cottbus",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2532/image",
-      "teamB": "Hertha BSC",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2528/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/44/image/dark",
-      "startTimeIST": "2026-11-22 18:00:00 IST",
-      "endTimeIST": "2026-11-22 20:20:00 IST",
-      "startTimeUTC": "2026/11/22 12:30:00 +0000",
-      "endTimeUTC": "2026/11/22 14:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SKY BUNDESLIGA",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/w1ad3vckry/out/v1/33ce68a8d21949da84e49f2695e51980/cenc.mpd",
-        "key": "5e0ee93e86d783f011561f18ff8f34e6:b570eceee332c7e50f87fca1f51e0966"
-      },
-      {
-        "title": "HD",
-        "type": "hls",
-        "url": "https://live2.tanrixstreamorigin.com/live/channel9.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 2109,
-    "title": "Greece U17 vs Panama U17",
-    "slug": "Greece-U17-vs-Panama-U17",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "U17 World Championship",
-      "category": "Football",
-      "teamA": "Greece U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/22607/image",
-      "teamB": "Panama U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/48866/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
-      "startTimeIST": "2026-11-22 18:00:00 IST",
-      "endTimeIST": "2026-11-22 20:20:00 IST",
-      "startTimeUTC": "2026/11/22 12:30:00 +0000",
-      "endTimeUTC": "2026/11/22 14:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD",
-        "type": "hls",
-        "url": "https://live1.quickscoreboardz.com/live/channel30/playlist.m3u8?wsSecret=461c931ae3abdab0d36386c7bc1e6eaf&wsABSTime=1795393831",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 2475,
-    "title": "Karlsruher SC vs VfL Osnabrück",
-    "slug": "Karlsruher-SC-vs-VfL-Osnabrück",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "2. Bundesliga",
-      "category": "Football",
-      "teamA": "Karlsruher SC",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2553/image",
-      "teamB": "VfL Osnabrück",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2581/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/44/image/dark",
-      "startTimeIST": "2026-11-22 18:00:00 IST",
-      "endTimeIST": "2026-11-22 20:20:00 IST",
-      "startTimeUTC": "2026/11/22 12:30:00 +0000",
-      "endTimeUTC": "2026/11/22 14:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SKY BUNDESLIGA",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/pq38ujseug/out/v1/84544ed7c3b04cf08fe395708cfcedc6/cenc.mpd",
-        "key": "f38ce843871b3e5aa97b8461a093a424:b51d62eeec9c136513c12ea7ec291f6f"
-      },
-      {
-        "title": "HD",
-        "type": "hls",
-        "url": "https://live2.tanrixstreamorigin.com/live/channel24.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 2420,
     "title": "Córdoba vs Real Oviedo",
     "slug": "Córdoba-vs-Real-Oviedo",
@@ -402,7 +238,32 @@
       "startTimeUTC": "2026/11/22 14:00:00 +0000",
       "endTimeUTC": "2026/11/22 16:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "FUBO SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/potbuhlawn/out/v1/00d2828855a944ffbbdc15232c4157a9/cenc.mpd",
+        "key": "fcd4a3d9f5fe24e9c3eb323458680c59:2b21cb04e30e401ebd07bf64dfeb066e"
+      },
+      {
+        "title": "DAZN ITALIA - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/opusseeono/out/v1/6fecb0e242fa414487a3a2103a171cf1/cenc.mpd",
+        "key": "a40dac702f4fa560f92dee486609b84a:f17ad4671c9a0922c70c0287f55d4d18"
+      },
+      {
+        "title": "beIN ENGLISH - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
+        "key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
+      },
+      {
+        "title": "SPORT 1 CZ - AQ",
+        "type": "dash",
+        "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+        "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+      }
+    ]
   },
   {
     "id": 2452,
@@ -526,7 +387,32 @@
       "startTimeUTC": "2026/11/22 14:00:00 +0000",
       "endTimeUTC": "2026/11/22 16:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "beIN SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?",
+        "key": "27759a440e8ad821b800b3de00cd5851:1b8743adee559f27845f55e8b4d639fe"
+      },
+      {
+        "title": "beIN SPANISH - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd?",
+        "key": "74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c"
+      },
+      {
+        "title": "HD STREAM",
+        "type": "hls",
+        "url": "https://live2.tanrixstreamorigin.com/live/channel16.m3u8",
+        "key": null
+      },
+      {
+        "title": "TAPMAD - AQ",
+        "type": "hls",
+        "url": "https://tencent-cdn.tapmad.com/v1/01a145b15ce115fc600b1e3e9683db/01a145b24db11ea557841e1612cf4c/main.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 2116,
@@ -547,7 +433,32 @@
       "startTimeUTC": "2026/11/22 14:00:00 +0000",
       "endTimeUTC": "2026/11/22 16:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/utp0jaxcpq/out/v1/8846b7e7b68b437d9a06647cafb901c8/cenc.mpd",
+        "key": "a727e03a101df463348104481170974b:9fa7a8421ef51fc71568c47b7adba99c"
+      },
+      {
+        "title": "FUBO SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/abhcvjycnc/out/v1/ee234bf8b2854366834b938725860805/cenc.mpd",
+        "key": "3080a1d03f04e372d158546582b0be02:fc33d5bbe9ddec8d0d6ac827f05baff1"
+      },
+      {
+        "title": "DAZN ITALIA - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rio6tigoty/out/v1/3c7d11bd69944e609356b0aaa40e7e40/cenc.mpd",
+        "key": "c245bc06e9aaa08f200d755d96c0c830:2a79e43dd90b60b74fdddb5c8cd206c6"
+      },
+      {
+        "title": "HD STREAM",
+        "type": "hls",
+        "url": "https://live2.tanrixstreamorigin.com/live/channel6.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 2455,
