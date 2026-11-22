@@ -276,7 +276,7 @@
     "title": "Italia T10 2026",
     "slug": "Italia-T10-vs-Italia-T",
     "cat": "Cricket",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Italia T10 2026",
       "category": "Cricket",
@@ -292,6 +292,12 @@
     },
     "dashStreams": [
       {
+        "title": "PLAYZ TV LIVE",
+        "type": "hls",
+        "url": "https://amssandbrix.sandbrix.live/sandbrix/streams/mk139q1Mi9bHznBA775016895861.m3u8",
+        "key": null
+      },
+      {
         "title": "UNBEATEN FHD",
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
@@ -302,12 +308,6 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
         "key": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f"
-      },
-      {
-        "title": "PLAYZ TV LIVE",
-        "type": "hls",
-        "url": "https://amssandbrix.sandbrix.live/sandbrix/streams/mk139q1Mi9bHznBA775016895861.m3u8",
-        "key": null
       }
     ]
   },
