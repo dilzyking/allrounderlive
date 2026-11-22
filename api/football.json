@@ -288,95 +288,6 @@
     ]
   },
   {
-    "id": 2456,
-    "title": "Arsenal vs West Ham",
-    "slug": "Arsenal-vs-West-Ham",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "Women's Super League",
-      "category": "Football",
-      "teamA": "Arsenal",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/26243/image",
-      "teamB": "West Ham",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/297802/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1044/image/dark",
-      "startTimeIST": "2026-11-22 20:00:00 IST",
-      "endTimeIST": "2026-11-22 22:20:00 IST",
-      "startTimeUTC": "2026/11/22 14:30:00 +0000",
-      "endTimeUTC": "2026/11/22 16:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "CBS SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-        "key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-      },
-      {
-        "title": "Sportdigital 1+",
-        "type": "hls",
-        "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/102539/102539_264_live.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 2117,
-    "title": "FC Augsburg vs 1. FSV Mainz 05",
-    "slug": "FC-Augsburg-vs-1.-FSV-Mainz-05",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "Bundesliga",
-      "category": "Football",
-      "teamA": "FC Augsburg",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2600/image",
-      "teamB": "1. FSV Mainz 05",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2556/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/35/image/dark",
-      "startTimeIST": "2026-11-22 20:00:00 IST",
-      "endTimeIST": "2026-11-22 22:20:00 IST",
-      "startTimeUTC": "2026/11/22 14:30:00 +0000",
-      "endTimeUTC": "2026/11/22 16:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PEACOCK ES - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/so7lluhsj7/out/v1/f912950b3bac41afbc1f7a73e7505a77/cenc.mpd",
-        "key": "bb2ec4f8284af42054a53b6866602904:1b690d7a8f93757f32273dfd14ff44c7"
-      },
-      {
-        "title": "DAZN DE - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/v6kda6u1j5/out/v1/68192f286df44105a49ac8effb9ee9c3/cenc.mpd",
-        "key": "c218e76a0722e3d206b8130fdd433406:3bbeed52573d04bc4e58499d0c463a38"
-      }
-    ]
-  },
-  {
-    "id": 2118,
-    "title": "South Korea U17 vs New Caledonia U17",
-    "slug": "South-Korea-U17-vs-New-Caledonia-U17",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "U17 World Championship",
-      "category": "Football",
-      "teamA": "South Korea U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/22652/image",
-      "teamB": "New Caledonia U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/265146/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
-      "startTimeIST": "2026-11-22 20:00:00 IST",
-      "endTimeIST": "2026-11-22 22:20:00 IST",
-      "startTimeUTC": "2026/11/22 14:30:00 +0000",
-      "endTimeUTC": "2026/11/22 16:50:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 2458,
     "title": "KV Kortrijk vs Royale Union Saint-Gilloise",
     "slug": "KV-Kortrijk-vs-Royale-Union-Saint-Gilloise",
@@ -609,6 +520,24 @@
     },
     "dashStreams": [
       {
+        "title": "DAZN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/miwbmarb3l/out/v1/007d286b3b0f4079af90e3dd97299866/cenc.mpd",
+        "key": "e6f9f8bbfebd72b59c574c0a41eb3428:8474301f577a6d96bef1d0948e15f93c"
+      },
+      {
+        "title": "beIN SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?",
+        "key": "27759a440e8ad821b800b3de00cd5851:1b8743adee559f27845f55e8b4d639fe"
+      },
+      {
+        "title": "beIN ESPNAOL FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd?",
+        "key": "74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c"
+      },
+      {
         "title": "HD STREAM",
         "type": "hls",
         "url": "https://www.rtmpcdn.com/live/28537120-a70c-4aa0-8049-22788a9235df.m3u8",
@@ -702,7 +631,20 @@
       "startTimeUTC": "2026/11/22 17:00:00 +0000",
       "endTimeUTC": "2026/11/22 19:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "beIN ENGLISH - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
+        "key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
+      },
+      {
+        "title": "SPORT 1 CZ - AQ",
+        "type": "dash",
+        "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+        "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+      }
+    ]
   },
   {
     "id": 2128,
