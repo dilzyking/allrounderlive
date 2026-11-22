@@ -104,7 +104,7 @@
     "title": "Brisbane Heat Women vs Adelaide Strikers Women",
     "slug": "Brisbane-Heat-Women-vs-Adelaide-Strikers-Women",
     "cat": "Cricket",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Women's Big Bash League",
       "category": "Cricket",
@@ -120,10 +120,10 @@
     },
     "dashStreams": [
       {
-        "title": "WILLOW AQ",
+        "title": "WILLOW - AQ",
         "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xzhvi2grfc/out/v1/0c7ba1d749ea465c8caac7e84fc34891/cenc.mpd",
-        "key": "6012ce4af4cad526b730a7dc830bb35d:80280163cc6aad3985a22ebf2f082e76"
+        "url": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/ilhybzuiyi/out/v1/04f4624f561f4dd69467e1e219f03568/cenc.mpd",
+        "key": "f91b8bf06f3e791e41238b4190311c9e:eff5b8fafef1f8b3d988be38ff7e539e"
       },
       {
         "title": "SKY CRICKET FHD",
