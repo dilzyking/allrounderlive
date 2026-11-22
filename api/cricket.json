@@ -1,93 +1,5 @@
 [
   {
-    "id": 1236,
-    "title": "New Zealand vs India",
-    "slug": "New-Zealand-vs-India",
-    "cat": "Cricket",
-    "status": "live",
-    "event": {
-      "name": "ICC World Test Championship",
-      "category": "Cricket",
-      "teamA": "New Zealand",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/187755/image",
-      "teamB": "India",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/187765/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18833/image/dark",
-      "startTimeIST": "2026-11-22 03:30:00 IST",
-      "endTimeIST": null,
-      "startTimeUTC": "2026/11/21 22:00:00 +0000",
-      "endTimeUTC": null
-    },
-    "dashStreams": [
-      {
-        "title": "WILLOW - AQ [Ad Free]",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fkipghexfw/out/v1/b9c7bdeeb3324a67829355fbadde5f64/cenc.mpd",
-        "key": "9a79865ad099bcc92fc555a1014310a6:0f79fed08b0fa0db9c08989d40f7ba73"
-      },
-      {
-        "title": "TNT SPORTS - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
-        "key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
-      },
-      {
-        "title": "TAPMAD - AQ",
-        "type": "hls",
-        "url": "https://serieAleague.akamaized.net/hls/live/2107107/A1@25853-tapmad/master.m3u8",
-        "key": null
-      },
-      {
-        "title": "WILLOW S2 - AQ",
-        "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/xhvkr4qrty/out/v1/488d3bc4cfcb4dd593a3114ff78f2298/cenc.mpd",
-        "key": "e2026793de4d32b74ab50d192d21e812:5b019d29e099327378d606b8c29adb4f"
-      },
-      {
-        "title": "TEN SPORTS HD",
-        "type": "hls",
-        "url": "https://live.msnetworks.net/ten-sports/master.m3u8",
-        "key": null
-      },
-      {
-        "title": "SONYLIV ENG - AQ",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119931/cricodi_2111/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795339937~acl=/*~id=57033487110644542361717385028134~hmac=54ff19a9d17d906df5df2800bde8edc997de61602f2235ea7e0d5ae08d4728bc",
-        "key": null
-      },
-      {
-        "title": "SONYLIV HIN - AQ",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119921/cricodi_2111/HIN/std_lrh-800300010.m3u8?hdnea=exp=1795339937~acl=/*~id=57033487110644542361717385028134~hmac=54ff19a9d17d906df5df2800bde8edc997de61602f2235ea7e0d5ae08d4728bc",
-        "key": null
-      },
-      {
-        "title": "SONYLIV TEL - AQ",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119951/cricodi_2111/TAM/std_lrh-800300010.m3u8?hdnea=exp=1795339937~acl=/*~id=57033487110644542361717385028134~hmac=54ff19a9d17d906df5df2800bde8edc997de61602f2235ea7e0d5ae08d4728bc",
-        "key": null
-      },
-      {
-        "title": "SONYLIV TEL - AQ",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119941/cricodi_2111/TEL/std_lrh-800300010.m3u8?hdnea=exp=1795339937~acl=/*~id=57033487110644542361717385028134~hmac=54ff19a9d17d906df5df2800bde8edc997de61602f2235ea7e0d5ae08d4728bc",
-        "key": null
-      },
-      {
-        "title": "SONYLIV KAN - AQ",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119782/cricodi_2111/KAN/std_lrh-800300010.m3u8?hdnea=exp=1795339937~acl=/*~id=57033487110644542361717385028134~hmac=54ff19a9d17d906df5df2800bde8edc997de61602f2235ea7e0d5ae08d4728bc",
-        "key": null
-      },
-      {
-        "title": "CRICBUZZ [IND]",
-        "type": "hls",
-        "url": "https://dai.google.com/linear/hls/event/cNE9Z_P5TsuAQ5jxVJ1ADg/master.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 2247,
     "title": "Brisbane Heat Women vs Adelaide Strikers Women",
     "slug": "Brisbane-Heat-Women-vs-Adelaide-Strikers-Women",
@@ -410,6 +322,94 @@
         "title": "PLAYZ TV LIVE",
         "type": "hls",
         "url": "https://amssandbrix.sandbrix.live/sandbrix/streams/mk139q1Mi9bHznBA775016895861.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 1236,
+    "title": "New Zealand vs India",
+    "slug": "New-Zealand-vs-India",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "ICC World Test Championship",
+      "category": "Cricket",
+      "teamA": "New Zealand",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/187755/image",
+      "teamB": "India",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/187765/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18833/image/dark",
+      "startTimeIST": "2026-11-23 03:30:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/22 22:00:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": [
+      {
+        "title": "WILLOW - AQ [Ad Free]",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fkipghexfw/out/v1/b9c7bdeeb3324a67829355fbadde5f64/cenc.mpd",
+        "key": "9a79865ad099bcc92fc555a1014310a6:0f79fed08b0fa0db9c08989d40f7ba73"
+      },
+      {
+        "title": "TNT SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+        "key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+      },
+      {
+        "title": "TAPMAD - AQ",
+        "type": "hls",
+        "url": "https://serieAleague.akamaized.net/hls/live/2107107/A1@25853-tapmad/master.m3u8",
+        "key": null
+      },
+      {
+        "title": "WILLOW S2 - AQ",
+        "type": "dash",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/xhvkr4qrty/out/v1/488d3bc4cfcb4dd593a3114ff78f2298/cenc.mpd",
+        "key": "e2026793de4d32b74ab50d192d21e812:5b019d29e099327378d606b8c29adb4f"
+      },
+      {
+        "title": "TEN SPORTS HD",
+        "type": "hls",
+        "url": "https://live.msnetworks.net/ten-sports/master.m3u8",
+        "key": null
+      },
+      {
+        "title": "SONYLIV ENG - AQ",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119931/cricodi_2111/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795339937~acl=/*~id=57033487110644542361717385028134~hmac=54ff19a9d17d906df5df2800bde8edc997de61602f2235ea7e0d5ae08d4728bc",
+        "key": null
+      },
+      {
+        "title": "SONYLIV HIN - AQ",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119921/cricodi_2111/HIN/std_lrh-800300010.m3u8?hdnea=exp=1795339937~acl=/*~id=57033487110644542361717385028134~hmac=54ff19a9d17d906df5df2800bde8edc997de61602f2235ea7e0d5ae08d4728bc",
+        "key": null
+      },
+      {
+        "title": "SONYLIV TEL - AQ",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119951/cricodi_2111/TAM/std_lrh-800300010.m3u8?hdnea=exp=1795339937~acl=/*~id=57033487110644542361717385028134~hmac=54ff19a9d17d906df5df2800bde8edc997de61602f2235ea7e0d5ae08d4728bc",
+        "key": null
+      },
+      {
+        "title": "SONYLIV TEL - AQ",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119941/cricodi_2111/TEL/std_lrh-800300010.m3u8?hdnea=exp=1795339937~acl=/*~id=57033487110644542361717385028134~hmac=54ff19a9d17d906df5df2800bde8edc997de61602f2235ea7e0d5ae08d4728bc",
+        "key": null
+      },
+      {
+        "title": "SONYLIV KAN - AQ",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119782/cricodi_2111/KAN/std_lrh-800300010.m3u8?hdnea=exp=1795339937~acl=/*~id=57033487110644542361717385028134~hmac=54ff19a9d17d906df5df2800bde8edc997de61602f2235ea7e0d5ae08d4728bc",
+        "key": null
+      },
+      {
+        "title": "CRICBUZZ [IND]",
+        "type": "hls",
+        "url": "https://dai.google.com/linear/hls/event/cNE9Z_P5TsuAQ5jxVJ1ADg/master.m3u8",
         "key": null
       }
     ]
