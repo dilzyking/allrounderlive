@@ -122,7 +122,7 @@
       {
         "title": "TAPMAD FHD",
         "type": "hls",
-        "url": "https://serieAleague.akamaized.net/hls/live/2107107/A1@25853-tapmad/master.m3u8",
+        "url": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8",
         "key": null
       },
       {
@@ -169,6 +169,12 @@
         "title": "TAMASHA - AQ [PK]",
         "type": "hls",
         "url": "https://cdn01lhr-n.tamashaweb.com:8087/appcast/ICC-women-NT2026-svod-B-abr/playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "MYCO AQ (PK)",
+        "type": "hls",
+        "url": "https://ml-pull-rtmp-pk1.myco.io/Feed1/hls/index.m3u8",
         "key": null
       }
     ]
