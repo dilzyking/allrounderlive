@@ -1,54 +1,5 @@
 [
   {
-    "id": 2458,
-    "title": "KV Kortrijk vs Royale Union Saint-Gilloise",
-    "slug": "KV-Kortrijk-vs-Royale-Union-Saint-Gilloise",
-    "cat": "Football",
-    "status": "ended",
-    "event": {
-      "name": "Pro League",
-      "category": "Football",
-      "teamA": "KV Kortrijk",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/4858/image",
-      "teamB": "Royale Union Saint-Gilloise",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/4860/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/38/image/dark",
-      "startTimeIST": "2026-11-22 20:30:00 IST",
-      "endTimeIST": "2026-11-22 22:50:00 IST",
-      "startTimeUTC": "2026/11/22 15:00:00 +0000",
-      "endTimeUTC": "2026/11/22 17:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 2119,
-    "title": "Qatar U17 vs Egypt U17",
-    "slug": "Qatar-U17-vs-Egypt-U17",
-    "cat": "Football",
-    "status": "ended",
-    "event": {
-      "name": "U17 World Championship",
-      "category": "Football",
-      "teamA": "Qatar U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/468401/image",
-      "teamB": "Egypt U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/216077/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
-      "startTimeIST": "2026-11-22 20:30:00 IST",
-      "endTimeIST": "2026-11-22 22:50:00 IST",
-      "startTimeUTC": "2026/11/22 15:00:00 +0000",
-      "endTimeUTC": "2026/11/22 17:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD STREAM",
-        "type": "hls",
-        "url": "https://live2.tanrixstreamorigin.com/live/channel13.m3u8?",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 2120,
     "title": "Real Racing Club vs Real Sociedad",
     "slug": "Real-Racing-Club-vs-Real-Sociedad",
@@ -133,7 +84,7 @@
     "title": "Argentina U17 vs Mozambique U17",
     "slug": "Argentina-U17-vs-Mozambique-U17",
     "cat": "Football",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "U17 World Championship",
       "category": "Football",
@@ -167,7 +118,7 @@
     "title": "Uruguay U17 vs Haiti U17",
     "slug": "Uruguay-U17-vs-Haiti-U17",
     "cat": "Football",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "U17 World Championship",
       "category": "Football",
