@@ -425,6 +425,12 @@
         "key": "335dad778109954503dcbb21dc92015f:24bfd75d436cbf73168a2a2dccd40281"
       },
       {
+        "title": "DAZN DE - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/u8ummoryxo/out/v1/34c6b6d4f2e340fcb56e3eb5a0d9726c/cenc.mpd",
+        "key": "010dc235ab05b5db4436db71e6b118e5:91a2d52f1e744d5b45f8000b379303d6"
+      },
+      {
         "title": "PREMIER SPORTS - AQ",
         "type": "dash",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
@@ -455,9 +461,21 @@
         "key": null
       },
       {
+        "title": "BeIN ARABIC HD",
+        "type": "hls",
+        "url": "https://ylp.akhbarnewscdn.store/cdn/master.m3u8",
+        "key": null
+      },
+      {
         "title": "TAPMAD - AQ",
         "type": "hls",
         "url": "https://t-prod-bd.tapmad.com/v1/01a145abfb3a1ea540a81c2b41b751/01a145ae0ac115fc600b1e3e9683da/main.m3u8",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/8b610bde-4b1e-4242-b997-274b9e6c7943.m3u8",
         "key": null
       }
     ]
