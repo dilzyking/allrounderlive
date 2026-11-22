@@ -133,7 +133,7 @@
     "dashStreams": []
   },
   {
-    "id": 2351,
+    "id": 2352,
     "title": "Córdoba vs Real Oviedo",
     "slug": "Córdoba-vs-Real-Oviedo",
     "cat": "Football",
@@ -154,7 +154,7 @@
     "dashStreams": []
   },
   {
-    "id": 2352,
+    "id": 2353,
     "title": "Córdoba vs Real Oviedo",
     "slug": "Córdoba-vs-Real-Oviedo",
     "cat": "Football",
@@ -217,6 +217,27 @@
     "dashStreams": []
   },
   {
+    "id": 2354,
+    "title": "AFC Ajax vs ADO Den Haag",
+    "slug": "AFC-Ajax-vs-ADO-Den-Haag",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "VriendenLoterij Eredivisie",
+      "category": "Football",
+      "teamA": "AFC Ajax",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2953/image",
+      "teamB": "ADO Den Haag",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2966/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/37/image/dark",
+      "startTimeIST": "2026-11-22 19:00:00 IST",
+      "endTimeIST": "2026-11-22 21:20:00 IST",
+      "startTimeUTC": "2026/11/22 13:30:00 +0000",
+      "endTimeUTC": "2026/11/22 15:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
     "id": 2112,
     "title": "France U17 vs Saudi Arabia U17",
     "slug": "France-U17-vs-Saudi-Arabia-U17",
@@ -230,6 +251,27 @@
       "teamB": "Saudi Arabia U17",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/468403/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
+      "startTimeIST": "2026-11-22 19:00:00 IST",
+      "endTimeIST": "2026-11-22 21:20:00 IST",
+      "startTimeUTC": "2026/11/22 13:30:00 +0000",
+      "endTimeUTC": "2026/11/22 15:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 2355,
+    "title": "Sparta Rotterdam vs AZ Alkmaar",
+    "slug": "Sparta-Rotterdam-vs-AZ-Alkmaar",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "VriendenLoterij Eredivisie",
+      "category": "Football",
+      "teamA": "Sparta Rotterdam",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2960/image",
+      "teamB": "AZ Alkmaar",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2950/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/37/image/dark",
       "startTimeIST": "2026-11-22 19:00:00 IST",
       "endTimeIST": "2026-11-22 21:20:00 IST",
       "startTimeUTC": "2026/11/22 13:30:00 +0000",
