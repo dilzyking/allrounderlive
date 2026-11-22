@@ -34,40 +34,6 @@
     ]
   },
   {
-    "id": 2450,
-    "title": "Manchester City vs Tottenham FC",
-    "slug": "Manchester-City-vs-Tottenham-FC",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "Women's Super League",
-      "category": "Football",
-      "teamA": "Manchester City",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/142658/image",
-      "teamB": "Tottenham FC",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/273547/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1044/image/dark",
-      "startTimeIST": "2026-11-22 17:30:00 IST",
-      "endTimeIST": "2026-11-22 19:50:00 IST",
-      "startTimeUTC": "2026/11/22 12:00:00 +0000",
-      "endTimeUTC": "2026/11/22 14:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "CBS SPORTS - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rbem8rorcw/out/v1/5318821e2c3c44c2a439681b9aa86e9b/cenc.mpd",
-        "key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-      },
-      {
-        "title": "PlayZ TV Live",
-        "type": "hls",
-        "url": "https://live2.tanrixstreamorigin.com/live/channel23.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 1378,
     "title": "1. FC Kaiserslautern vs SG Dynamo Dresden",
     "slug": "1.-FC-Kaiserslautern-vs-SG-Dynamo-Dresden",
