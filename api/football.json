@@ -1,33 +1,5 @@
 [
   {
-    "id": 2128,
-    "title": "Celta Fortuna vs Real Valladolid",
-    "slug": "Celta-Fortuna-vs-Real-Valladolid",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "LaLiga 2",
-      "category": "Football",
-      "teamA": "Celta Fortuna",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/24336/image",
-      "teamB": "Real Valladolid",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2831/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/54/image/dark",
-      "startTimeIST": "2026-11-22 23:00:00 IST",
-      "endTimeIST": "2026-11-23 01:20:00 IST",
-      "startTimeUTC": "2026/11/22 17:30:00 +0000",
-      "endTimeUTC": "2026/11/22 19:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "LALIGA HYPEMOTION ES - AQ",
-        "type": "dash",
-        "url": "https://cache4.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
-        "key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-      }
-    ]
-  },
-  {
     "id": 2130,
     "title": "Osasuna vs Málaga CF",
     "slug": "Osasuna-vs-Málaga-CF",
