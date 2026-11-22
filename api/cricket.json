@@ -4,7 +4,7 @@
     "title": "Brisbane Heat Women vs Adelaide Strikers Women",
     "slug": "Brisbane-Heat-Women-vs-Adelaide-Strikers-Women",
     "cat": "Cricket",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Women's Big Bash League",
       "category": "Cricket",
@@ -14,9 +14,9 @@
       "teamBFlag": "https://img.sofascore.com/api/v1/team/274888/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/11163/image/dark",
       "startTimeIST": "2026-11-22 10:10:00 IST",
-      "endTimeIST": null,
+      "endTimeIST": "2026-11-22 13:46:00 IST",
       "startTimeUTC": "2026/11/22 04:40:00 +0000",
-      "endTimeUTC": null
+      "endTimeUTC": "2026/11/22 08:16:00 +0000"
     },
     "dashStreams": [
       {
@@ -56,7 +56,7 @@
     "title": "Netherlands Women vs Sri Lanka Women",
     "slug": "Netherlands-Women-vs-Sri-Lanka-Women",
     "cat": "Cricket",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Womens Emerging Nations Trophy",
       "category": "Cricket",
@@ -66,9 +66,9 @@
       "teamBFlag": "https://img.sofascore.com/api/v1/team/187806/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/30714/image/dark",
       "startTimeIST": "2026-11-22 10:30:00 IST",
-      "endTimeIST": null,
+      "endTimeIST": "2026-11-22 13:48:00 IST",
       "startTimeUTC": "2026/11/22 05:00:00 +0000",
-      "endTimeUTC": null
+      "endTimeUTC": "2026/11/22 08:18:00 +0000"
     },
     "dashStreams": [
       {
@@ -96,7 +96,7 @@
     "title": "Pakistan Women vs Scotland Women",
     "slug": "Pakistan-Women-vs-Scotland-Women",
     "cat": "Cricket",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Womens Emerging Nations Trophy",
       "category": "Cricket",
@@ -106,9 +106,9 @@
       "teamBFlag": "https://img.sofascore.com/api/v1/team/453162/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/30714/image/dark",
       "startTimeIST": "2026-11-22 10:30:00 IST",
-      "endTimeIST": null,
+      "endTimeIST": "2026-11-22 13:48:00 IST",
       "startTimeUTC": "2026/11/22 05:00:00 +0000",
-      "endTimeUTC": null
+      "endTimeUTC": "2026/11/22 08:18:00 +0000"
     },
     "dashStreams": [
       {
@@ -236,7 +236,7 @@
       {
         "title": "TAPMAD HD",
         "type": "hls",
-        "url": "https://tencent-cdn.tapmad.com/v1/01a14a80166b1ea557841e1612cf55/01a14a8047211ea557841e1612cf58/main.m3u8",
+        "url": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8",
         "key": null
       }
     ]
