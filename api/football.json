@@ -1,39 +1,5 @@
 [
   {
-    "id": 2250,
-    "title": "Burnley vs Blackburn Rovers",
-    "slug": "Burnley-vs-Blackburn-Rovers",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "Championship",
-      "category": "Football",
-      "teamA": "Burnley",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/6/image",
-      "teamB": "Blackburn Rovers",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/46/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18/image/dark",
-      "startTimeIST": "2026-11-22 17:30:00 IST",
-      "endTimeIST": "2026-11-22 19:50:00 IST",
-      "startTimeUTC": "2026/11/22 12:00:00 +0000",
-      "endTimeUTC": "2026/11/22 14:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/nrs7oyyigv/out/v1/d6418c6bbdef45f6a2eeb9bc2026755a/cenc.mpd",
-        "key": "b4ac5abd2b6d8622d1157bd86a3d6cf6:4e8b55d53eb1298c6b55a96c193deac5"
-      },
-      {
-        "title": "beIN SPORTS - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
-        "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-      }
-    ]
-  },
-  {
     "id": 1378,
     "title": "1. FC Kaiserslautern vs SG Dynamo Dresden",
     "slug": "1.-FC-Kaiserslautern-vs-SG-Dynamo-Dresden",
@@ -520,7 +486,26 @@
       "startTimeUTC": "2026/11/22 14:00:00 +0000",
       "endTimeUTC": "2026/11/22 16:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "FUBO SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/mibl1kagx8/out/v1/38d1a6a0ee4e4ff2aa8b760d07cabb9e/cenc.mpd",
+        "key": "e09a0900100e5ac77d4adb45a602a86b:7da511a38053d3e150d38f47ac7d8298"
+      },
+      {
+        "title": "SKY SPORTS EPL FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qdbhkwig26/out/v1/c3a69dfec0434abea00756cd73e749ff/cenc.mpd",
+        "key": "1106fb025da5b31657618344099c6c14:788284538616a73b56214e90196a6e0f"
+      },
+      {
+        "title": "SKY SPORTS EPL",
+        "type": "hls",
+        "url": "https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=Dxx13S3dlOjavbRFqRtQ6g&e=2075285630&scheme=",
+        "key": null
+      }
+    ]
   },
   {
     "id": 2115,
