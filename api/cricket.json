@@ -144,7 +144,7 @@
     "title": "Netherlands Women vs Sri Lanka Women",
     "slug": "Netherlands-Women-vs-Sri-Lanka-Women",
     "cat": "Cricket",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Womens Emerging Nations Trophy",
       "category": "Cricket",
@@ -158,14 +158,27 @@
       "startTimeUTC": "2026/11/22 05:00:00 +0000",
       "endTimeUTC": null
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PlayZ TV Live",
+        "type": "dash",
+        "url": "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-06)/hdntl=exp=1795352061~acl=*%2fchannel(vcg-01-ch-hd-06)%2f*~id=df636eee-0529-4299-91da-e8ce8c8790f0~data=hdntl,QjtNWCxDUixTVixHVCxITixOSSxQQSxBUixCTyxCUixDTCxDTyxFQyxQWSxQRSxVWSxWRSxDVSxETyxIVCxDQSxVUyxJTixQSyxMSyxBTyxCSixCVyxCRixCSSxDVixDTSxDRixURCxLTSxDRyxDRCxDSSxESixHUSxFUixFVCxHQSxHTSxHSCxHTixHVyxLRSxMUyxMUixNRyxNVyxNVSxNUixNWixOQSxORSxORyxSVyxTVCxTTixTQyxTTCxTTyxaQSxTUyxTRCxUWixURyxVRyxaTSxaVyxTWixNTA%3d%3d~hmac=ee99b7976ad338f649b416ef5debe9d7b8f799fc63b7d93396749ecd145c4f6a/manifest.mpd?vcfilter=b9ee83ad-6fd6-4d0d-aee5-44376958030f",
+        "key": "39bd302cdeed3710a89fb004d232ab67:9869f804ba18d7e508cbff781829221c"
+      },
+      {
+        "title": "TAMASHA - AQ [PK]",
+        "type": "hls",
+        "url": "https://cdn01lhr-n.tamashaweb.com:8087/appcast/ICC-women-NT2026-svod-B-abr/playlist.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 2084,
     "title": "Pakistan Women vs Scotland Women",
     "slug": "Pakistan-Women-vs-Scotland-Women",
     "cat": "Cricket",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Womens Emerging Nations Trophy",
       "category": "Cricket",
@@ -195,7 +208,7 @@
       {
         "title": "TAMASHA - AQ [PK]",
         "type": "hls",
-        "url": "https://cdn01lhr-n.tamashaweb.com:8087/appcast/ICC-women-NT2026-svod-B-abr/playlist.m3u8",
+        "url": "https://cdn01lhr-n.tamashaweb.com:8087/appcast/ICC-women-NT2026-svod-abr/playlist.m3u8",
         "key": null
       }
     ]
@@ -219,7 +232,38 @@
       "startTimeUTC": "2026/11/22 06:00:00 +0000",
       "endTimeUTC": null
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "STARZPLAY FHD",
+        "type": "dash",
+        "url": "https://d1ifzl5cnhi7bu.cloudfront.net/out/v1/45ba30e075ad455a8767d3f33e67ea3d/index.mpd",
+        "key": "0ae4f162eec3e6f2b580a5bf0f4a64d4:03483335db81cba5bbcf51b6d31196d9"
+      },
+      {
+        "title": "SONYLIV ENG - AQ",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120299/criclive2111/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795282335~acl=/*~id=62149777860658370208685505764532~hmac=f1208fc027d34823a2ecb8f71321e8d9418978f4c0bcbbe5552e47232aac243a",
+        "key": null
+      },
+      {
+        "title": "TAMASHA AQ",
+        "type": "hls",
+        "url": "https://cdn06khi-n.tamashaweb.com:8087/appcast/ACC-men-AC26-abr/playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "TEN SPORTS HD",
+        "type": "hls",
+        "url": "https://live.msnetworks.net/ten-sports/master.m3u8",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://dai.google.com/linear/hls/event/yaROyE-bScOVYZWWXQoBdQ/master.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 2248,
