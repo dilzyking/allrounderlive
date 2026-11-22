@@ -1,45 +1,5 @@
 [
   {
-    "id": 2126,
-    "title": "SV Werder Bremen vs Hamburger SV",
-    "slug": "SV-Werder-Bremen-vs-Hamburger-SV",
-    "cat": "Football",
-    "status": "ended",
-    "event": {
-      "name": "Bundesliga",
-      "category": "Football",
-      "teamA": "SV Werder Bremen",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2534/image",
-      "teamB": "Hamburger SV",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2676/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/35/image/dark",
-      "startTimeIST": "2026-11-22 22:00:00 IST",
-      "endTimeIST": "2026-11-23 00:20:00 IST",
-      "startTimeUTC": "2026/11/22 16:30:00 +0000",
-      "endTimeUTC": "2026/11/22 18:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "DAZN SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/puuhoopgwu/out/v1/6a0fb0a7b29f4ef7851e90c140342bae/cenc.mpd",
-        "key": "b8c395aaeb59affca7383e7e5b9af2af:28c98b32e70043d5906f403332756117"
-      },
-      {
-        "title": "PEACOCK ES - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/q9nfns9xj4/out/v1/32f4ea3ea65a4e0389d95b5876e0c47a/cenc.mpd",
-        "key": "ba55e0bd939246e8a2d8225b16a5c484:29a2bb0e29a65943a7a81b4eaf33b0c8"
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://www.rtmpcdn.com/live/2e7292fd-9c50-4fa9-b810-fb3875f439c2.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 2128,
     "title": "Celta Fortuna vs Real Valladolid",
     "slug": "Celta-Fortuna-vs-Real-Valladolid",
