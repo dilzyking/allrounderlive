@@ -1,22 +1,22 @@
 [
   {
-    "id": 2060,
-    "title": "Wellington Phoenix vs Macarthur FC",
-    "slug": "Wellington-Phoenix-vs-Macarthur-FC",
+    "id": 2348,
+    "title": "Melbourne Victory vs Perth Glory",
+    "slug": "Melbourne-Victory-vs-Perth-Glory",
     "cat": "Football",
-    "status": "ended",
+    "status": "live",
     "event": {
-      "name": "A-League Men",
+      "name": "A-League Women",
       "category": "Football",
-      "teamA": "Wellington Phoenix",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/7568/image",
-      "teamB": "Macarthur FC",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/371682/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/136/image/dark",
-      "startTimeIST": "2026-11-22 07:30:00 IST",
-      "endTimeIST": "2026-11-22 09:50:00 IST",
-      "startTimeUTC": "2026/11/22 02:00:00 +0000",
-      "endTimeUTC": "2026/11/22 04:20:00 +0000"
+      "teamA": "Melbourne Victory",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/174100/image",
+      "teamB": "Perth Glory",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/174104/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1894/image/dark",
+      "startTimeIST": "2026-11-22 09:30:00 IST",
+      "endTimeIST": "2026-11-22 11:50:00 IST",
+      "startTimeUTC": "2026/11/22 04:00:00 +0000",
+      "endTimeUTC": "2026/11/22 06:20:00 +0000"
     },
     "dashStreams": []
   },
@@ -126,7 +126,7 @@
     "dashStreams": []
   },
   {
-    "id": 2346,
+    "id": 2347,
     "title": "Córdoba vs Real Oviedo",
     "slug": "Córdoba-vs-Real-Oviedo",
     "cat": "Football",
@@ -147,7 +147,7 @@
     "dashStreams": []
   },
   {
-    "id": 2347,
+    "id": 2349,
     "title": "Córdoba vs Real Oviedo",
     "slug": "Córdoba-vs-Real-Oviedo",
     "cat": "Football",
