@@ -1,33 +1,5 @@
 [
   {
-    "id": 2348,
-    "title": "Melbourne Victory vs Perth Glory",
-    "slug": "Melbourne-Victory-vs-Perth-Glory",
-    "cat": "Football",
-    "status": "ended",
-    "event": {
-      "name": "A-League Women",
-      "category": "Football",
-      "teamA": "Melbourne Victory",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/174100/image",
-      "teamB": "Perth Glory",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/174104/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1894/image/dark",
-      "startTimeIST": "2026-11-22 09:30:00 IST",
-      "endTimeIST": "2026-11-22 11:50:00 IST",
-      "startTimeUTC": "2026/11/22 04:00:00 +0000",
-      "endTimeUTC": "2026/11/22 06:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "TNT SPORTS - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd?",
-        "key": "cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca"
-      }
-    ]
-  },
-  {
     "id": 2249,
     "title": "Juventus vs Venezia",
     "slug": "Juventus-vs-Venezia",
@@ -133,7 +105,7 @@
     "dashStreams": []
   },
   {
-    "id": 2377,
+    "id": 2378,
     "title": "Córdoba vs Real Oviedo",
     "slug": "Córdoba-vs-Real-Oviedo",
     "cat": "Football",
@@ -154,7 +126,7 @@
     "dashStreams": []
   },
   {
-    "id": 2378,
+    "id": 2379,
     "title": "Córdoba vs Real Oviedo",
     "slug": "Córdoba-vs-Real-Oviedo",
     "cat": "Football",
