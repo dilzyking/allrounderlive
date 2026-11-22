@@ -40,64 +40,6 @@
     ]
   },
   {
-    "id": 2127,
-    "title": "AC Milan vs Frosinone",
-    "slug": "AC-Milan-vs-Frosinone",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "Serie A",
-      "category": "Football",
-      "teamA": "AC Milan",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2692/image",
-      "teamB": "Frosinone",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2801/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "startTimeIST": "2026-11-22 22:30:00 IST",
-      "endTimeIST": "2026-11-23 00:50:00 IST",
-      "startTimeUTC": "2026/11/22 17:00:00 +0000",
-      "endTimeUTC": "2026/11/22 19:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "DAZN SPORTS",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/kfmw2kcxgt/out/v1/79d59ef3086e4610a6a0871ec48825d7/cenc.mpd",
-        "key": "80440b0a632cd8c73b11efabdcb01791:485ab6a69a2127fbbc1471228f8a2971"
-      },
-      {
-        "title": "PARAMOUNT+",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yc9uf0buja/out/v1/3d9aaa12ac704db3a7d99ea17ffc61cc/cenc.mpd",
-        "key": "292aaebdcf02a56bbce24488c316cd0f:3d1e46962393a2c83f2b2aff44531587"
-      },
-      {
-        "title": "PEACOCK ES",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lnzqyet9qp/out/v1/a19f7306c3164e2da1aaebf1765a8297/cenc.mpd",
-        "key": "6ff0d50c84e94950f9798b755ceae62b:b37de38ea09f13397d55186589b519c7"
-      },
-      {
-        "title": "FUBO SPORTS",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0iznjnpj5d/out/v1/4da9b7d2b1414cb28afd976da2c3b840/cenc.mpd",
-        "key": "fdc96cbff6fb945389b2667491dabe7f:cb63a6882b2d7482910bf9e4eda27afa"
-      },
-      {
-        "title": "beIN ENGLISH - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?",
-        "key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
-      },
-      {
-        "title": "SPORT 1 CZ - AQ",
-        "type": "dash",
-        "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-        "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-      }
-    ]
-  },
-  {
     "id": 2128,
     "title": "Celta Fortuna vs Real Valladolid",
     "slug": "Celta-Fortuna-vs-Real-Valladolid",
