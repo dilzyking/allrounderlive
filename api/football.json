@@ -56,83 +56,6 @@
     ]
   },
   {
-    "id": 2522,
-    "title": "Al-Ain vs Esteghlal FC",
-    "slug": "Al-Ain-vs-Esteghlal-FC",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "AFC Champions League Elite",
-      "category": "Football",
-      "teamA": "Al-Ain",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/37082/image",
-      "teamB": "Esteghlal FC",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/34316/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/463/image/dark",
-      "startTimeIST": "2026-11-23 21:30:00 IST",
-      "endTimeIST": "2026-11-23 23:50:00 IST",
-      "startTimeUTC": "2026/11/23 16:00:00 +0000",
-      "endTimeUTC": "2026/11/23 18:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 2523,
-    "title": "Al Shamal SC vs Al-Ahli",
-    "slug": "Al-Shamal-SC-vs-Al-Ahli",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "AFC Champions League Elite",
-      "category": "Football",
-      "teamA": "Al Shamal SC",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/170366/image",
-      "teamB": "Al-Ahli",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/34469/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/463/image/dark",
-      "startTimeIST": "2026-11-23 21:30:00 IST",
-      "endTimeIST": "2026-11-23 23:50:00 IST",
-      "startTimeUTC": "2026/11/23 16:00:00 +0000",
-      "endTimeUTC": "2026/11/23 18:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "TAPMAD - AQ",
-        "type": "hls",
-        "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a1548c4faf15fc600b1e3e968408/01a1548c7fde1ea557841e1612cf76/main.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 2524,
-    "title": "Tractor FC vs Al Wasl",
-    "slug": "Tractor-FC-vs-Al-Wasl",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "AFC Champions League Elite",
-      "category": "Football",
-      "teamA": "Tractor FC",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/53715/image",
-      "teamB": "Al Wasl",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/47674/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/463/image/dark",
-      "startTimeIST": "2026-11-23 21:30:00 IST",
-      "endTimeIST": "2026-11-23 23:50:00 IST",
-      "startTimeUTC": "2026/11/23 16:00:00 +0000",
-      "endTimeUTC": "2026/11/23 18:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "TAPMAD - AQ",
-        "type": "hls",
-        "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a154a641d51567ee931e109fa59f/01a154a676281ea557841e1612cf77/main.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 2525,
     "title": "Al-Ittihad vs Pakhtakor Tashkent",
     "slug": "Al-Ittihad-vs-Pakhtakor-Tashkent",
@@ -151,7 +74,14 @@
       "startTimeUTC": "2026/11/23 18:15:00 +0000",
       "endTimeUTC": "2026/11/23 20:35:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PlayZ TV LIVE",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/afad44a4-2104-43aa-a43f-f8a734e4688f.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 2526,
@@ -172,7 +102,14 @@
       "startTimeUTC": "2026/11/23 18:15:00 +0000",
       "endTimeUTC": "2026/11/23 20:35:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PLAYZ TV LIVE",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/10be2c5a-d134-4e2c-a90a-85886362055f.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 2544,
@@ -742,27 +679,6 @@
     "dashStreams": []
   },
   {
-    "id": 3188,
-    "title": "Manchester City vs SSC Napoli",
-    "slug": "Manchester-City-vs-SSC-Napoli",
-    "cat": "Football",
-    "status": "upcoming",
-    "event": {
-      "name": "UEFA Champions League",
-      "category": "Football",
-      "teamA": "Manchester City",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/17/image",
-      "teamB": "SSC Napoli",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2714/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "startTimeIST": "2026-11-25 01:30:00 IST",
-      "endTimeIST": "2026-11-25 03:50:00 IST",
-      "startTimeUTC": "2026/11/24 20:00:00 +0000",
-      "endTimeUTC": "2026/11/24 22:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 3192,
     "title": "Manchester City vs SSC Napoli",
     "slug": "Manchester-City-vs-SSC-Napoli",
@@ -784,18 +700,18 @@
     "dashStreams": []
   },
   {
-    "id": 3189,
-    "title": "RB Leipzig vs RC Lens",
-    "slug": "RB-Leipzig-vs-RC-Lens",
+    "id": 3196,
+    "title": "Manchester City vs SSC Napoli",
+    "slug": "Manchester-City-vs-SSC-Napoli",
     "cat": "Football",
     "status": "upcoming",
     "event": {
       "name": "UEFA Champions League",
       "category": "Football",
-      "teamA": "RB Leipzig",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/36360/image",
-      "teamB": "RC Lens",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1648/image",
+      "teamA": "Manchester City",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/17/image",
+      "teamB": "SSC Napoli",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2714/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
       "startTimeIST": "2026-11-25 01:30:00 IST",
       "endTimeIST": "2026-11-25 03:50:00 IST",
@@ -826,18 +742,18 @@
     "dashStreams": []
   },
   {
-    "id": 3190,
-    "title": "Real Madrid vs PSV Eindhoven",
-    "slug": "Real-Madrid-vs-PSV-Eindhoven",
+    "id": 3197,
+    "title": "RB Leipzig vs RC Lens",
+    "slug": "RB-Leipzig-vs-RC-Lens",
     "cat": "Football",
     "status": "upcoming",
     "event": {
       "name": "UEFA Champions League",
       "category": "Football",
-      "teamA": "Real Madrid",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2829/image",
-      "teamB": "PSV Eindhoven",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2952/image",
+      "teamA": "RB Leipzig",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/36360/image",
+      "teamB": "RC Lens",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1648/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
       "startTimeIST": "2026-11-25 01:30:00 IST",
       "endTimeIST": "2026-11-25 03:50:00 IST",
@@ -868,7 +784,28 @@
     "dashStreams": []
   },
   {
-    "id": 3191,
+    "id": 3198,
+    "title": "Real Madrid vs PSV Eindhoven",
+    "slug": "Real-Madrid-vs-PSV-Eindhoven",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Champions League",
+      "category": "Football",
+      "teamA": "Real Madrid",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2829/image",
+      "teamB": "PSV Eindhoven",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2952/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
+      "startTimeIST": "2026-11-25 01:30:00 IST",
+      "endTimeIST": "2026-11-25 03:50:00 IST",
+      "startTimeUTC": "2026/11/24 20:00:00 +0000",
+      "endTimeUTC": "2026/11/24 22:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 3195,
     "title": "ŠK Slovan Bratislava vs Real Betis",
     "slug": "ŠK-Slovan-Bratislava-vs-Real-Betis",
     "cat": "Football",
@@ -889,7 +826,7 @@
     "dashStreams": []
   },
   {
-    "id": 3195,
+    "id": 3199,
     "title": "ŠK Slovan Bratislava vs Real Betis",
     "slug": "ŠK-Slovan-Bratislava-vs-Real-Betis",
     "cat": "Football",
