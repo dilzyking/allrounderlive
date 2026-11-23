@@ -1,78 +1,10 @@
 [
   {
-    "id": 2476,
-    "title": "Spain U17 vs Fiji U17",
-    "slug": "Spain-U17-vs-Fiji-U17",
-    "cat": "Football",
-    "status": "ended",
-    "event": {
-      "name": "U17 World Championship",
-      "category": "Football",
-      "teamA": "Spain U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/22479/image",
-      "teamB": "Fiji U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1096685/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
-      "startTimeIST": "2026-11-23 18:00:00 IST",
-      "endTimeIST": "2026-11-23 20:20:00 IST",
-      "startTimeUTC": "2026/11/23 12:30:00 +0000",
-      "endTimeUTC": "2026/11/23 14:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "FOX SPORTS - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
-        "key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
-      },
-      {
-        "title": "D SPORTS ES - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd",
-        "key": "f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
-      },
-      {
-        "title": "TUDN MEXICO FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/o2vy4aahsh/out/v1/e293c932745a44dcaf897573dfc53532/cenc.mpd",
-        "key": "763ce1ebcaf23502c8cf357c6ef423e1:0c5e6c0820a1ea28753721db00272411"
-      }
-    ]
-  },
-  {
-    "id": 2477,
-    "title": "Tajikistan U17 vs Croatia U17",
-    "slug": "Tajikistan-U17-vs-Croatia-U17",
-    "cat": "Football",
-    "status": "ended",
-    "event": {
-      "name": "U17 World Championship",
-      "category": "Football",
-      "teamA": "Tajikistan U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/229664/image",
-      "teamB": "Croatia U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/22594/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
-      "startTimeIST": "2026-11-23 18:00:00 IST",
-      "endTimeIST": "2026-11-23 20:20:00 IST",
-      "startTimeUTC": "2026/11/23 12:30:00 +0000",
-      "endTimeUTC": "2026/11/23 14:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD STREAM",
-        "type": "hls",
-        "url": "https://live200.kravonstreamdelivery.com/live/channel11.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 2478,
     "title": "Uzbekistan U17 vs Jamaica U17",
     "slug": "Uzbekistan-U17-vs-Jamaica-U17",
     "cat": "Football",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "U17 World Championship",
       "category": "Football",
@@ -941,27 +873,6 @@
     "dashStreams": []
   },
   {
-    "id": 3087,
-    "title": "Manchester City vs SSC Napoli",
-    "slug": "Manchester-City-vs-SSC-Napoli",
-    "cat": "Football",
-    "status": "upcoming",
-    "event": {
-      "name": "UEFA Champions League",
-      "category": "Football",
-      "teamA": "Manchester City",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/17/image",
-      "teamB": "SSC Napoli",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2714/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "startTimeIST": "2026-11-25 01:30:00 IST",
-      "endTimeIST": "2026-11-25 03:50:00 IST",
-      "startTimeUTC": "2026/11/24 20:00:00 +0000",
-      "endTimeUTC": "2026/11/24 22:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 3091,
     "title": "Manchester City vs SSC Napoli",
     "slug": "Manchester-City-vs-SSC-Napoli",
@@ -983,18 +894,18 @@
     "dashStreams": []
   },
   {
-    "id": 3088,
-    "title": "RB Leipzig vs RC Lens",
-    "slug": "RB-Leipzig-vs-RC-Lens",
+    "id": 3095,
+    "title": "Manchester City vs SSC Napoli",
+    "slug": "Manchester-City-vs-SSC-Napoli",
     "cat": "Football",
     "status": "upcoming",
     "event": {
       "name": "UEFA Champions League",
       "category": "Football",
-      "teamA": "RB Leipzig",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/36360/image",
-      "teamB": "RC Lens",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1648/image",
+      "teamA": "Manchester City",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/17/image",
+      "teamB": "SSC Napoli",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2714/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
       "startTimeIST": "2026-11-25 01:30:00 IST",
       "endTimeIST": "2026-11-25 03:50:00 IST",
@@ -1025,18 +936,18 @@
     "dashStreams": []
   },
   {
-    "id": 3089,
-    "title": "Real Madrid vs PSV Eindhoven",
-    "slug": "Real-Madrid-vs-PSV-Eindhoven",
+    "id": 3096,
+    "title": "RB Leipzig vs RC Lens",
+    "slug": "RB-Leipzig-vs-RC-Lens",
     "cat": "Football",
     "status": "upcoming",
     "event": {
       "name": "UEFA Champions League",
       "category": "Football",
-      "teamA": "Real Madrid",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2829/image",
-      "teamB": "PSV Eindhoven",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2952/image",
+      "teamA": "RB Leipzig",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/36360/image",
+      "teamB": "RC Lens",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1648/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
       "startTimeIST": "2026-11-25 01:30:00 IST",
       "endTimeIST": "2026-11-25 03:50:00 IST",
@@ -1067,7 +978,28 @@
     "dashStreams": []
   },
   {
-    "id": 3090,
+    "id": 3097,
+    "title": "Real Madrid vs PSV Eindhoven",
+    "slug": "Real-Madrid-vs-PSV-Eindhoven",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Champions League",
+      "category": "Football",
+      "teamA": "Real Madrid",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2829/image",
+      "teamB": "PSV Eindhoven",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2952/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
+      "startTimeIST": "2026-11-25 01:30:00 IST",
+      "endTimeIST": "2026-11-25 03:50:00 IST",
+      "startTimeUTC": "2026/11/24 20:00:00 +0000",
+      "endTimeUTC": "2026/11/24 22:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 3094,
     "title": "ŠK Slovan Bratislava vs Real Betis",
     "slug": "ŠK-Slovan-Bratislava-vs-Real-Betis",
     "cat": "Football",
@@ -1088,7 +1020,7 @@
     "dashStreams": []
   },
   {
-    "id": 3094,
+    "id": 3098,
     "title": "ŠK Slovan Bratislava vs Real Betis",
     "slug": "ŠK-Slovan-Bratislava-vs-Real-Betis",
     "cat": "Football",
