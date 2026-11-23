@@ -58,58 +58,6 @@
     ]
   },
   {
-    "id": 2475,
-    "title": "Bangladesh A vs Sri Lanka A",
-    "slug": "Bangladesh-A-vs-Sri-Lanka-A",
-    "cat": "Cricket",
-    "status": "live",
-    "event": {
-      "name": "Asia Cup Rising Stars",
-      "category": "Cricket",
-      "teamA": "Bangladesh A",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/187809/image",
-      "teamB": "Sri Lanka A",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/187756/image",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn2rCtrI68Agu71aIWID9YxzlqXN-3c88k4cwPQQhwEA&s=10",
-      "startTimeIST": "2026-11-23 15:30:00 IST",
-      "endTimeIST": null,
-      "startTimeUTC": "2026/11/23 10:00:00 +0000",
-      "endTimeUTC": null
-    },
-    "dashStreams": [
-      {
-        "title": "WILLOW - AQ",
-        "type": "dash",
-        "url": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/6mhsahjkto/out/v1/29e8b344082d4ab6b7c0bb838956ea02/cenc.mpd",
-        "key": "1f5fcb1ee0ebcdf807d4807767ee66a0:dac7ee8c999b9516a04f0c0bdd3aef34"
-      },
-      {
-        "title": "PRIME VIDEO AQ",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/y9w1vhkmod/out/v1/db4038c42a2c4ab4acc3642f1f7435dd/cenc.mpd",
-        "key": "88c543d8b2d0fb9736930d9f7115d02c:474298fb05d7bbc6d4605b99ec7013be"
-      },
-      {
-        "title": "SONYLIV ENG - AQ",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120303/criclive2111/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795298705~acl=/*~id=58960934573632640226853258998970~hmac=e8d92b8745000a7e6f59cce0ff84d6dadb46b224096720200205f1d50ed2401f",
-        "key": null
-      },
-      {
-        "title": "WILLOW S2 - AQ",
-        "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/6mhsahjkto/out/v1/29e8b344082d4ab6b7c0bb838956ea02/cenc.mpd",
-        "key": "1f5fcb1ee0ebcdf807d4807767ee66a0:dac7ee8c999b9516a04f0c0bdd3aef34"
-      },
-      {
-        "title": "TAMASHA AQ",
-        "type": "hls",
-        "url": "https://cdn06khi-n.tamashaweb.com:8087/appcast/ACC-men-AC26-b-abr/playlist.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 1997,
     "title": "Italia T10 2026",
     "slug": "Italia-T10-vs-Italia-T",
@@ -273,6 +221,27 @@
         "key": "cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca"
       }
     ]
+  },
+  {
+    "id": 3103,
+    "title": "Pakistan A vs Nepal",
+    "slug": "Pakistan-A-vs-Nepal",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "Asia Cup Rising Stars",
+      "category": "Cricket",
+      "teamA": "Pakistan A",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/213104/image",
+      "teamB": "Nepal",
+      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsQBkn_ivaBSXmyE1lnMzIkvPX7BMXMj-BuVRGJQPqYA&s=10",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn2rCtrI68Agu71aIWID9YxzlqXN-3c88k4cwPQQhwEA&s=10",
+      "startTimeIST": "2026-11-24 15:30:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/24 10:00:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": []
   },
   {
     "id": 1236,
