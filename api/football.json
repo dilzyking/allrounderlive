@@ -1,61 +1,5 @@
 [
   {
-    "id": 2482,
-    "title": "Mali U17 vs Belgium U17",
-    "slug": "Mali-U17-vs-Belgium-U17",
-    "cat": "Football",
-    "status": "ended",
-    "event": {
-      "name": "U17 World Championship",
-      "category": "Football",
-      "teamA": "Mali U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/203876/image",
-      "teamB": "Belgium U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/22583/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
-      "startTimeIST": "2026-11-23 21:00:00 IST",
-      "endTimeIST": "2026-11-23 23:20:00 IST",
-      "startTimeUTC": "2026/11/23 15:30:00 +0000",
-      "endTimeUTC": "2026/11/23 17:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD",
-        "type": "hls",
-        "url": "https://live200.kravonstreamdelivery.com/live/channel19.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 2483,
-    "title": "Vietnam U17 vs New Zealand U17",
-    "slug": "Vietnam-U17-vs-New-Zealand-U17",
-    "cat": "Football",
-    "status": "ended",
-    "event": {
-      "name": "U17 World Championship",
-      "category": "Football",
-      "teamA": "Vietnam U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/468404/image",
-      "teamB": "New Zealand U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/22634/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
-      "startTimeIST": "2026-11-23 21:00:00 IST",
-      "endTimeIST": "2026-11-23 23:20:00 IST",
-      "startTimeUTC": "2026/11/23 15:30:00 +0000",
-      "endTimeUTC": "2026/11/23 17:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD",
-        "type": "hls",
-        "url": "https://live200.kravonstreamdelivery.com/live/channel2.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 2525,
     "title": "Al-Ittihad vs Pakhtakor Tashkent",
     "slug": "Al-Ittihad-vs-Pakhtakor-Tashkent",
@@ -679,27 +623,6 @@
     "dashStreams": []
   },
   {
-    "id": 3200,
-    "title": "Manchester City vs SSC Napoli",
-    "slug": "Manchester-City-vs-SSC-Napoli",
-    "cat": "Football",
-    "status": "upcoming",
-    "event": {
-      "name": "UEFA Champions League",
-      "category": "Football",
-      "teamA": "Manchester City",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/17/image",
-      "teamB": "SSC Napoli",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2714/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "startTimeIST": "2026-11-25 01:30:00 IST",
-      "endTimeIST": "2026-11-25 03:50:00 IST",
-      "startTimeUTC": "2026/11/24 20:00:00 +0000",
-      "endTimeUTC": "2026/11/24 22:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 3204,
     "title": "Manchester City vs SSC Napoli",
     "slug": "Manchester-City-vs-SSC-Napoli",
@@ -721,18 +644,18 @@
     "dashStreams": []
   },
   {
-    "id": 3201,
-    "title": "RB Leipzig vs RC Lens",
-    "slug": "RB-Leipzig-vs-RC-Lens",
+    "id": 3208,
+    "title": "Manchester City vs SSC Napoli",
+    "slug": "Manchester-City-vs-SSC-Napoli",
     "cat": "Football",
     "status": "upcoming",
     "event": {
       "name": "UEFA Champions League",
       "category": "Football",
-      "teamA": "RB Leipzig",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/36360/image",
-      "teamB": "RC Lens",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1648/image",
+      "teamA": "Manchester City",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/17/image",
+      "teamB": "SSC Napoli",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2714/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
       "startTimeIST": "2026-11-25 01:30:00 IST",
       "endTimeIST": "2026-11-25 03:50:00 IST",
@@ -763,18 +686,18 @@
     "dashStreams": []
   },
   {
-    "id": 3202,
-    "title": "Real Madrid vs PSV Eindhoven",
-    "slug": "Real-Madrid-vs-PSV-Eindhoven",
+    "id": 3209,
+    "title": "RB Leipzig vs RC Lens",
+    "slug": "RB-Leipzig-vs-RC-Lens",
     "cat": "Football",
     "status": "upcoming",
     "event": {
       "name": "UEFA Champions League",
       "category": "Football",
-      "teamA": "Real Madrid",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2829/image",
-      "teamB": "PSV Eindhoven",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2952/image",
+      "teamA": "RB Leipzig",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/36360/image",
+      "teamB": "RC Lens",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1648/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
       "startTimeIST": "2026-11-25 01:30:00 IST",
       "endTimeIST": "2026-11-25 03:50:00 IST",
@@ -805,7 +728,28 @@
     "dashStreams": []
   },
   {
-    "id": 3203,
+    "id": 3210,
+    "title": "Real Madrid vs PSV Eindhoven",
+    "slug": "Real-Madrid-vs-PSV-Eindhoven",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Champions League",
+      "category": "Football",
+      "teamA": "Real Madrid",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2829/image",
+      "teamB": "PSV Eindhoven",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2952/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
+      "startTimeIST": "2026-11-25 01:30:00 IST",
+      "endTimeIST": "2026-11-25 03:50:00 IST",
+      "startTimeUTC": "2026/11/24 20:00:00 +0000",
+      "endTimeUTC": "2026/11/24 22:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 3207,
     "title": "ŠK Slovan Bratislava vs Real Betis",
     "slug": "ŠK-Slovan-Bratislava-vs-Real-Betis",
     "cat": "Football",
@@ -826,7 +770,7 @@
     "dashStreams": []
   },
   {
-    "id": 3207,
+    "id": 3211,
     "title": "ŠK Slovan Bratislava vs Real Betis",
     "slug": "ŠK-Slovan-Bratislava-vs-Real-Betis",
     "cat": "Football",
