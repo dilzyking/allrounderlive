@@ -58,34 +58,6 @@
     ]
   },
   {
-    "id": 2090,
-    "title": "Zimbabwe Women vs Scotland Women",
-    "slug": "Zimbabwe-Women-vs-Scotland-Women",
-    "cat": "Cricket",
-    "status": "live",
-    "event": {
-      "name": "Womens Emerging Nations Trophy",
-      "category": "Cricket",
-      "teamA": "Zimbabwe Women",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/417062/image",
-      "teamB": "Scotland Women",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/453162/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/30714/image/dark",
-      "startTimeIST": "2026-11-23 14:45:00 IST",
-      "endTimeIST": null,
-      "startTimeUTC": "2026/11/23 09:15:00 +0000",
-      "endTimeUTC": null
-    },
-    "dashStreams": [
-      {
-        "title": "PlayZ TV Live",
-        "type": "dash",
-        "url": "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-06)/hdntl=exp=1795454550~acl=*%2fchannel(vcg-01-ch-hd-06)%2f*~id=a826bf36-d614-40db-9aa8-6387bdd2ef3b~data=hdntl,QjtNWCxDUixTVixHVCxITixOSSxQQSxBUixCTyxCUixDTCxDTyxFQyxQWSxQRSxVWSxWRSxDVSxETyxIVCxDQSxVUyxJTixQSyxMSyxBTyxCSixCVyxCRixCSSxDVixDTSxDRixURCxLTSxDRyxDRCxDSSxESixHUSxFUixFVCxHQSxHTSxHSCxHTixHVyxLRSxMUyxMUixNRyxNVyxNVSxNUixNWixOQSxORSxORyxSVyxTVCxTTixTQyxTTCxTTyxaQSxTUyxTRCxUWixURyxVRyxaTSxaVyxTWixNTA%3d%3d~hmac=1185bd7c20d1ba8da7a9dc02602aec0c74d62862f5b3b03e34a74f4ec1f9dffb/manifest.mpd?vcfilter=4c0219a1-2573-495e-bcc0-c2a2401f33d2",
-        "key": "39bd302cdeed3710a89fb004d232ab67:9869f804ba18d7e508cbff781829221c"
-      }
-    ]
-  },
-  {
     "id": 2475,
     "title": "Bangladesh A vs Sri Lanka A",
     "slug": "Bangladesh-A-vs-Sri-Lanka-A",
@@ -158,22 +130,16 @@
     },
     "dashStreams": [
       {
+        "title": "PLAYZ TV LIVE",
+        "type": "hls",
+        "url": "https://amssandbrix.sandbrix.live/sandbrix/streams/JoLpoIfXtZdMMVVJ791008995728.m3u8",
+        "key": null
+      },
+      {
         "title": "UNBEATEN FHD",
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
         "key": "5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b"
-      },
-      {
-        "title": "PLAYZ TV LIVE",
-        "type": "hls",
-        "url": "https://amssandbrix.sandbrix.live/sandbrix/streams/mk139q1Mi9bHznBA775016895861.m3u8",
-        "key": null
-      },
-      {
-        "title": "PREMIER SPORTS",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
-        "key": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f"
       }
     ]
   },
