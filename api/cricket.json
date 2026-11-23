@@ -44,7 +44,7 @@
     "title": "Afghanistan A vs hong Kong",
     "slug": "Afghanistan-A-vs-hong-Kong",
     "cat": "Cricket",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Men's Asia Cup Rising Stars",
       "category": "Cricket",
@@ -62,8 +62,8 @@
       {
         "title": "WILLOW - AQ",
         "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/wnogcwzjio/out/v1/0b50a750ac204322913af280029aa602/cenc.mpd",
-        "key": "437b26c171c8c2b7d3da296992ec0498:76e472aecda315ee5649fabf54b6a905"
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/pyotzmjtwf/out/v1/2b816c787d7f4b22b821549ac3789814/cenc.mpd",
+        "key": "3968540132a25dff11a7aa9d1d25b82c:df967625371e49195245672740e152d8"
       },
       {
         "title": "STARZPLAY FHD",
@@ -72,16 +72,16 @@
         "key": "0ae4f162eec3e6f2b580a5bf0f4a64d4:03483335db81cba5bbcf51b6d31196d9"
       },
       {
+        "title": "WILLOW S2 - AQ",
+        "type": "dash",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/pyotzmjtwf/out/v1/2b816c787d7f4b22b821549ac3789814/cenc.mpd",
+        "key": "3968540132a25dff11a7aa9d1d25b82c:df967625371e49195245672740e152d8"
+      },
+      {
         "title": "SONYLIV ENG - AQ",
         "type": "hls",
         "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120299/criclive2311/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795454934~acl=/*~id=76755225779277299177814812002485~hmac=01f44d32c7a132290a9fb1b19b65b7c4c9f0a76cff1c28f48fb9084734211cbd",
         "key": null
-      },
-      {
-        "title": "WILLOW S2 - AQ",
-        "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/wnogcwzjio/out/v1/0b50a750ac204322913af280029aa602/cenc.mpd",
-        "key": "437b26c171c8c2b7d3da296992ec0498:76e472aecda315ee5649fabf54b6a905"
       },
       {
         "title": "TAMASHA AQ",
