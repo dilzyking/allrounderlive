@@ -1,45 +1,5 @@
 [
   {
-    "id": 2447,
-    "title": "Chicago Fire vs Charlotte FC",
-    "slug": "Chicago-Fire-vs-Charlotte-FC",
-    "cat": "Football",
-    "status": "ended",
-    "event": {
-      "name": "MLS",
-      "category": "Football",
-      "teamA": "Chicago Fire",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2505/image",
-      "teamB": "Charlotte FC",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/404108/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/242/image/dark",
-      "startTimeIST": "2026-11-23 05:00:00 IST",
-      "endTimeIST": "2026-11-23 07:20:00 IST",
-      "startTimeUTC": "2026/11/22 23:30:00 +0000",
-      "endTimeUTC": "2026/11/23 01:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "TSN SPORTS - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cjglydxghe/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd",
-        "key": "85b277daf5aae05833fe43a68f587968:d52d7e9bc0bcd98787efd547ac91eca0"
-      },
-      {
-        "title": "FOX DESPORTS",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
-        "key": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811"
-      },
-      {
-        "title": "FOX SPORTS 1",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd",
-        "key": "f6564ec2aee819046328a0e153be574d:ff46a8a1031eb27ef22576a077c98ab7"
-      }
-    ]
-  },
-  {
     "id": 2473,
     "title": "Querétaro FC vs Club Necaxa",
     "slug": "Querétaro-FC-vs-Club-Necaxa",
