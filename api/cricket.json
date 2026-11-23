@@ -78,6 +78,12 @@
         "type": "hls",
         "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119782/cricodi_2211/KAN/std_lrh-800300010.m3u8?hdnea=exp=1795426927~acl=/*~id=84219570040938269250347123670804~hmac=6603ecc577564305dccf422ccdd48bfd57a48dbf28a6d8b3639adfb22b653070",
         "key": null
+      },
+      {
+        "title": "CRICBUZZ (IND)",
+        "type": "hls",
+        "url": "https://dai.google.com/linear/hls/event/bS5bRXLITKKz7UK_serxVw/master.m3u8",
+        "key": null
       }
     ]
   },
