@@ -1,93 +1,5 @@
 [
   {
-    "id": 1236,
-    "title": "New Zealand vs India",
-    "slug": "New-Zealand-vs-India",
-    "cat": "Cricket",
-    "status": "live",
-    "event": {
-      "name": "ICC World Test Championship",
-      "category": "Cricket",
-      "teamA": "New Zealand",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/187755/image",
-      "teamB": "India",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/187765/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18833/image/dark",
-      "startTimeIST": "2026-11-23 03:30:00 IST",
-      "endTimeIST": null,
-      "startTimeUTC": "2026/11/22 22:00:00 +0000",
-      "endTimeUTC": null
-    },
-    "dashStreams": [
-      {
-        "title": "WILLOW - AQ [Ad Free]",
-        "type": "dash",
-        "url": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/3yznekgktt/out/v1/858249b12acb46b99a95fbfab5887011/cenc.mpd",
-        "key": "a993ba0f7bf4b83d0ccb44a591e2a51c:2bd5e352dd929f561daa14de1fc1a7a1"
-      },
-      {
-        "title": "TNT SPORTS - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
-        "key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
-      },
-      {
-        "title": "TAPMAD - AQ",
-        "type": "hls",
-        "url": "https://serieAleague.akamaized.net/hls/live/2107107/A1@25853-tapmad/master.m3u8",
-        "key": null
-      },
-      {
-        "title": "WILLOW S2 - AQ",
-        "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/3yznekgktt/out/v1/858249b12acb46b99a95fbfab5887011/cenc.mpd",
-        "key": "a993ba0f7bf4b83d0ccb44a591e2a51c:2bd5e352dd929f561daa14de1fc1a7a1"
-      },
-      {
-        "title": "TEN SPORTS HD",
-        "type": "hls",
-        "url": "https://live.msnetworks.net/ten-sports/master.m3u8",
-        "key": null
-      },
-      {
-        "title": "SONYLIV ENG - AQ",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119931/cricodi_2211/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795426927~acl=/*~id=84219570040938269250347123670804~hmac=6603ecc577564305dccf422ccdd48bfd57a48dbf28a6d8b3639adfb22b653070",
-        "key": null
-      },
-      {
-        "title": "SONYLIV HIN - AQ",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119921/cricodi_2211/HIN/std_lrh-800300010.m3u8?hdnea=exp=1795426927~acl=/*~id=84219570040938269250347123670804~hmac=6603ecc577564305dccf422ccdd48bfd57a48dbf28a6d8b3639adfb22b653070",
-        "key": null
-      },
-      {
-        "title": "SONYLIV TAM - AQ",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119951/cricodi_2211/TAM/std_lrh-800300010.m3u8?hdnea=exp=1795426927~acl=/*~id=84219570040938269250347123670804~hmac=6603ecc577564305dccf422ccdd48bfd57a48dbf28a6d8b3639adfb22b653070",
-        "key": null
-      },
-      {
-        "title": "SONYLIV TEL - AQ",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119941/cricodi_2211/TEL/std_lrh-800300010.m3u8?hdnea=exp=1795426927~acl=/*~id=84219570040938269250347123670804~hmac=6603ecc577564305dccf422ccdd48bfd57a48dbf28a6d8b3639adfb22b653070",
-        "key": null
-      },
-      {
-        "title": "SONYLIV KAN - AQ",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119782/cricodi_2211/KAN/std_lrh-800300010.m3u8?hdnea=exp=1795426927~acl=/*~id=84219570040938269250347123670804~hmac=6603ecc577564305dccf422ccdd48bfd57a48dbf28a6d8b3639adfb22b653070",
-        "key": null
-      },
-      {
-        "title": "CRICBUZZ (IND)",
-        "type": "hls",
-        "url": "https://dai.google.com/linear/hls/event/bS5bRXLITKKz7UK_serxVw/master.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 2088,
     "title": "Sri Lanka Women vs Pakistan Women",
     "slug": "Sri-Lanka-Women-vs-Pakistan-Women",
@@ -110,7 +22,7 @@
       {
         "title": "PLAYZ TV LIVE",
         "type": "dash",
-        "url": "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-06)/hdntl=exp=1795021612~acl=*%2fchannel(vcg-01-ch-hd-06)%2f*~id=df636eee-0529-4299-91da-e8ce8c8790f0~data=hdntl,QjtNWCxDUixTVixHVCxITixOSSxQQSxBUixCTyxCUixDTCxDTyxFQyxQWSxQRSxVWSxWRSxDVSxETyxIVCxDQSxVUyxJTixQSyxMSyxBTyxCSixCVyxCRixCSSxDVixDTSxDRixURCxLTSxDRyxDRCxDSSxESixHUSxFUixFVCxHQSxHTSxHSCxHTixHVyxLRSxMUyxMUixNRyxNVyxNVSxNUixNWixOQSxORSxORyxSVyxTVCxTTixTQyxTTCxTTyxaQSxTUyxTRCxUWixURyxVRyxaTSxaVyxTWixNTA%3d%3d~hmac=f35348c7fbb05d1aad3da10e0fd7a946e123b0a4ad8a992c4fdb2c38506d5d5d/manifest.mpd?vcfilter=6fcd44d2-69c5-43bd-880b-4e7bda3b8711",
+        "url": "https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-06)/hdntl=exp=1795437799~acl=*%2fchannel(vcg-01-ch-hd-06)%2f*~id=df636eee-0529-4299-91da-e8ce8c8790f0~data=hdntl,QjtNWCxDUixTVixHVCxITixOSSxQQSxBUixCTyxCUixDTCxDTyxFQyxQWSxQRSxVWSxWRSxDVSxETyxIVCxDQSxVUyxJTixQSyxMSyxBTyxCSixCVyxCRixCSSxDVixDTSxDRixURCxLTSxDRyxDRCxDSSxESixHUSxFUixFVCxHQSxHTSxHSCxHTixHVyxLRSxMUyxMUixNRyxNVyxNVSxNUixNWixOQSxORSxORyxSVyxTVCxTTixTQyxTTCxTTyxaQSxTUyxTRCxUWixURyxVRyxaTSxaVyxTWixNTA%3d%3d~hmac=669789417348eeb6c9583c57d2dcc77d7e316f9abe732040e98c0c5bac066bdb/manifest.mpd?vcfilter=6165f622-8733-4196-86f9-a6ca0b07e050",
         "key": "39bd302cdeed3710a89fb004d232ab67:9869f804ba18d7e508cbff781829221c"
       },
       {
@@ -428,6 +340,94 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd?",
         "key": "cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca"
+      }
+    ]
+  },
+  {
+    "id": 1236,
+    "title": "New Zealand vs India",
+    "slug": "New-Zealand-vs-India",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "ICC World Test Championship",
+      "category": "Cricket",
+      "teamA": "New Zealand",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/187755/image",
+      "teamB": "India",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/187765/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18833/image/dark",
+      "startTimeIST": "2026-11-27 03:30:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/26 22:00:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": [
+      {
+        "title": "WILLOW - AQ [Ad Free]",
+        "type": "dash",
+        "url": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/3yznekgktt/out/v1/858249b12acb46b99a95fbfab5887011/cenc.mpd",
+        "key": "a993ba0f7bf4b83d0ccb44a591e2a51c:2bd5e352dd929f561daa14de1fc1a7a1"
+      },
+      {
+        "title": "TNT SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
+        "key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+      },
+      {
+        "title": "TAPMAD - AQ",
+        "type": "hls",
+        "url": "https://serieAleague.akamaized.net/hls/live/2107107/A1@25853-tapmad/master.m3u8",
+        "key": null
+      },
+      {
+        "title": "WILLOW S2 - AQ",
+        "type": "dash",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/3yznekgktt/out/v1/858249b12acb46b99a95fbfab5887011/cenc.mpd",
+        "key": "a993ba0f7bf4b83d0ccb44a591e2a51c:2bd5e352dd929f561daa14de1fc1a7a1"
+      },
+      {
+        "title": "TEN SPORTS HD",
+        "type": "hls",
+        "url": "https://live.msnetworks.net/ten-sports/master.m3u8",
+        "key": null
+      },
+      {
+        "title": "SONYLIV ENG - AQ",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119931/cricodi_2211/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795426927~acl=/*~id=84219570040938269250347123670804~hmac=6603ecc577564305dccf422ccdd48bfd57a48dbf28a6d8b3639adfb22b653070",
+        "key": null
+      },
+      {
+        "title": "SONYLIV HIN - AQ",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119921/cricodi_2211/HIN/std_lrh-800300010.m3u8?hdnea=exp=1795426927~acl=/*~id=84219570040938269250347123670804~hmac=6603ecc577564305dccf422ccdd48bfd57a48dbf28a6d8b3639adfb22b653070",
+        "key": null
+      },
+      {
+        "title": "SONYLIV TAM - AQ",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119951/cricodi_2211/TAM/std_lrh-800300010.m3u8?hdnea=exp=1795426927~acl=/*~id=84219570040938269250347123670804~hmac=6603ecc577564305dccf422ccdd48bfd57a48dbf28a6d8b3639adfb22b653070",
+        "key": null
+      },
+      {
+        "title": "SONYLIV TEL - AQ",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119941/cricodi_2211/TEL/std_lrh-800300010.m3u8?hdnea=exp=1795426927~acl=/*~id=84219570040938269250347123670804~hmac=6603ecc577564305dccf422ccdd48bfd57a48dbf28a6d8b3639adfb22b653070",
+        "key": null
+      },
+      {
+        "title": "SONYLIV KAN - AQ",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119782/cricodi_2211/KAN/std_lrh-800300010.m3u8?hdnea=exp=1795426927~acl=/*~id=84219570040938269250347123670804~hmac=6603ecc577564305dccf422ccdd48bfd57a48dbf28a6d8b3639adfb22b653070",
+        "key": null
+      },
+      {
+        "title": "CRICBUZZ (IND)",
+        "type": "hls",
+        "url": "https://dai.google.com/linear/hls/event/bS5bRXLITKKz7UK_serxVw/master.m3u8",
+        "key": null
       }
     ]
   }
