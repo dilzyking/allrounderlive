@@ -60,6 +60,12 @@
     },
     "dashStreams": [
       {
+        "title": "TUDN MEXICO FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/o2vy4aahsh/out/v1/e293c932745a44dcaf897573dfc53532/cenc.mpd",
+        "key": "763ce1ebcaf23502c8cf357c6ef423e1:0c5e6c0820a1ea28753721db00272411"
+      },
+      {
         "title": "HD",
         "type": "hls",
         "url": "https://live200.kravonstreamdelivery.com/live/channel16.m3u8",
@@ -810,27 +816,6 @@
     "dashStreams": []
   },
   {
-    "id": 3128,
-    "title": "Manchester City vs SSC Napoli",
-    "slug": "Manchester-City-vs-SSC-Napoli",
-    "cat": "Football",
-    "status": "upcoming",
-    "event": {
-      "name": "UEFA Champions League",
-      "category": "Football",
-      "teamA": "Manchester City",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/17/image",
-      "teamB": "SSC Napoli",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2714/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "startTimeIST": "2026-11-25 01:30:00 IST",
-      "endTimeIST": "2026-11-25 03:50:00 IST",
-      "startTimeUTC": "2026/11/24 20:00:00 +0000",
-      "endTimeUTC": "2026/11/24 22:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 3132,
     "title": "Manchester City vs SSC Napoli",
     "slug": "Manchester-City-vs-SSC-Napoli",
@@ -852,18 +837,18 @@
     "dashStreams": []
   },
   {
-    "id": 3129,
-    "title": "RB Leipzig vs RC Lens",
-    "slug": "RB-Leipzig-vs-RC-Lens",
+    "id": 3136,
+    "title": "Manchester City vs SSC Napoli",
+    "slug": "Manchester-City-vs-SSC-Napoli",
     "cat": "Football",
     "status": "upcoming",
     "event": {
       "name": "UEFA Champions League",
       "category": "Football",
-      "teamA": "RB Leipzig",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/36360/image",
-      "teamB": "RC Lens",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1648/image",
+      "teamA": "Manchester City",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/17/image",
+      "teamB": "SSC Napoli",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2714/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
       "startTimeIST": "2026-11-25 01:30:00 IST",
       "endTimeIST": "2026-11-25 03:50:00 IST",
@@ -894,18 +879,18 @@
     "dashStreams": []
   },
   {
-    "id": 3130,
-    "title": "Real Madrid vs PSV Eindhoven",
-    "slug": "Real-Madrid-vs-PSV-Eindhoven",
+    "id": 3137,
+    "title": "RB Leipzig vs RC Lens",
+    "slug": "RB-Leipzig-vs-RC-Lens",
     "cat": "Football",
     "status": "upcoming",
     "event": {
       "name": "UEFA Champions League",
       "category": "Football",
-      "teamA": "Real Madrid",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2829/image",
-      "teamB": "PSV Eindhoven",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2952/image",
+      "teamA": "RB Leipzig",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/36360/image",
+      "teamB": "RC Lens",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1648/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
       "startTimeIST": "2026-11-25 01:30:00 IST",
       "endTimeIST": "2026-11-25 03:50:00 IST",
@@ -936,7 +921,28 @@
     "dashStreams": []
   },
   {
-    "id": 3131,
+    "id": 3138,
+    "title": "Real Madrid vs PSV Eindhoven",
+    "slug": "Real-Madrid-vs-PSV-Eindhoven",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Champions League",
+      "category": "Football",
+      "teamA": "Real Madrid",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2829/image",
+      "teamB": "PSV Eindhoven",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2952/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
+      "startTimeIST": "2026-11-25 01:30:00 IST",
+      "endTimeIST": "2026-11-25 03:50:00 IST",
+      "startTimeUTC": "2026/11/24 20:00:00 +0000",
+      "endTimeUTC": "2026/11/24 22:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 3135,
     "title": "ŠK Slovan Bratislava vs Real Betis",
     "slug": "ŠK-Slovan-Bratislava-vs-Real-Betis",
     "cat": "Football",
@@ -957,7 +963,7 @@
     "dashStreams": []
   },
   {
-    "id": 3135,
+    "id": 3139,
     "title": "ŠK Slovan Bratislava vs Real Betis",
     "slug": "ŠK-Slovan-Bratislava-vs-Real-Betis",
     "cat": "Football",
