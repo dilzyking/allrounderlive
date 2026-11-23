@@ -66,9 +66,15 @@
         "key": "437b26c171c8c2b7d3da296992ec0498:76e472aecda315ee5649fabf54b6a905"
       },
       {
+        "title": "STARZPLAY FHD",
+        "type": "dash",
+        "url": "https://d1ifzl5cnhi7bu.cloudfront.net/out/v1/45ba30e075ad455a8767d3f33e67ea3d/index.mpd",
+        "key": "0ae4f162eec3e6f2b580a5bf0f4a64d4:03483335db81cba5bbcf51b6d31196d9"
+      },
+      {
         "title": "SONYLIV ENG - AQ",
         "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119931/cricodi_2211/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795381891~acl=/*~id=18716087647869343740419066739704~hmac=e8c0cbd005358f1a7896c53e1ffc902ab3e54133fc6344c072422c8360602242",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120299/criclive2311/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795454934~acl=/*~id=76755225779277299177814812002485~hmac=01f44d32c7a132290a9fb1b19b65b7c4c9f0a76cff1c28f48fb9084734211cbd",
         "key": null
       },
       {
@@ -78,33 +84,9 @@
         "key": "437b26c171c8c2b7d3da296992ec0498:76e472aecda315ee5649fabf54b6a905"
       },
       {
-        "title": "SONYLIV HIN - AQ",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119921/cricodi_2211/HIN/std_lrh-800300010.m3u8?hdnea=exp=1795381891~acl=/*~id=18716087647869343740419066739704~hmac=e8c0cbd005358f1a7896c53e1ffc902ab3e54133fc6344c072422c8360602242",
-        "key": null
-      },
-      {
         "title": "TAMASHA AQ",
         "type": "hls",
         "url": "https://cdn06khi-n.tamashaweb.com:8087/appcast/ACC-men-AC26-abr/playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "SONYLIV TAM - AQ",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119951/cricodi_2211/TAM/std_lrh-800300010.m3u8?hdnea=exp=1795381891~acl=/*~id=18716087647869343740419066739704~hmac=e8c0cbd005358f1a7896c53e1ffc902ab3e54133fc6344c072422c8360602242",
-        "key": null
-      },
-      {
-        "title": "SONYLIV TEL - AQ",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119941/cricodi_2211/TEL/std_lrh-800300010.m3u8?hdnea=exp=1795381891~acl=/*~id=18716087647869343740419066739704~hmac=e8c0cbd005358f1a7896c53e1ffc902ab3e54133fc6344c072422c8360602242",
-        "key": null
-      },
-      {
-        "title": "SONYLIV KAN - AQ",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119782/cricodi_2211/KAN/std_lrh-800300010.m3u8?hdnea=exp=1795381891~acl=/*~id=18716087647869343740419066739704~hmac=e8c0cbd005358f1a7896c53e1ffc902ab3e54133fc6344c072422c8360602242",
         "key": null
       },
       {
