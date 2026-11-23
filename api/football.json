@@ -1,75 +1,5 @@
 [
   {
-    "id": 2485,
-    "title": "Monza vs Fiorentina",
-    "slug": "Monza-vs-Fiorentina",
-    "cat": "Football",
-    "status": "ended",
-    "event": {
-      "name": "Serie A",
-      "category": "Football",
-      "teamA": "Monza",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2729/image",
-      "teamB": "Fiorentina",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2693/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "startTimeIST": "2026-11-24 01:15:00 IST",
-      "endTimeIST": "2026-11-24 03:35:00 IST",
-      "startTimeUTC": "2026/11/23 19:45:00 +0000",
-      "endTimeUTC": "2026/11/23 22:05:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+ - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/dina2endsv/out/v1/c0e50a60762f4b4c97cbc141be03c2d4/cenc.mpd",
-        "key": "5f54028f552898274b71de6fd7e44b9c:d3192b0a697c69e5fb12113a126111db"
-      },
-      {
-        "title": "DAZN SPORTS - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/sfhecxh3gc/out/v1/7378683cb9954e77925d82278eeefba1/cenc.mpd",
-        "key": "5f2bff944808a10a27ea5891c163e460:13458c0031c5cbc3060dce05fdded94c"
-      },
-      {
-        "title": "DAZN ITALIA - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lgkluprww4/out/v1/99095397275747e18db64d4ac6af7a6a/cenc.mpd",
-        "key": "370dbd5f4250d9e73735e3614665e853:6db2fabd222a86c84e6c6f155562f0af"
-      },
-      {
-        "title": "FUBO SPORTS - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yukpgzjukf/out/v1/e9584c6de0d145a9ac1b36ddf7795081/cenc.mpd",
-        "key": "e09a0900100e5ac77d4adb45a602a86b:7da511a38053d3e150d38f47ac7d8298"
-      },
-      {
-        "title": "PEACOCK ES - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/mr6hejyz5c/out/v1/fe167bf8a23846d1a0edd457337308e2/cenc.mpd",
-        "key": "a4ef041c879308a4026c21cd2c497d50:d098e98b7fa54844b7895f8558a44c7a"
-      },
-      {
-        "title": "beIN SPORTS - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
-        "key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
-      },
-      {
-        "title": "CBS SPORTS - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-        "key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-      },
-      {
-        "title": "SPORT 1 CZ - AQ",
-        "type": "dash",
-        "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-        "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-      }
-    ]
-  },
-  {
     "id": 2489,
     "title": "Levante UD vs Elche",
     "slug": "Levante-UD-vs-Elche",
@@ -534,27 +464,6 @@
     "dashStreams": []
   },
   {
-    "id": 3394,
-    "title": "Manchester City vs SSC Napoli",
-    "slug": "Manchester-City-vs-SSC-Napoli",
-    "cat": "Football",
-    "status": "upcoming",
-    "event": {
-      "name": "UEFA Champions League",
-      "category": "Football",
-      "teamA": "Manchester City",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/17/image",
-      "teamB": "SSC Napoli",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2714/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "startTimeIST": "2026-11-25 01:30:00 IST",
-      "endTimeIST": "2026-11-25 03:50:00 IST",
-      "startTimeUTC": "2026/11/24 20:00:00 +0000",
-      "endTimeUTC": "2026/11/24 22:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 3398,
     "title": "Manchester City vs SSC Napoli",
     "slug": "Manchester-City-vs-SSC-Napoli",
@@ -576,18 +485,18 @@
     "dashStreams": []
   },
   {
-    "id": 3395,
-    "title": "RB Leipzig vs RC Lens",
-    "slug": "RB-Leipzig-vs-RC-Lens",
+    "id": 3402,
+    "title": "Manchester City vs SSC Napoli",
+    "slug": "Manchester-City-vs-SSC-Napoli",
     "cat": "Football",
     "status": "upcoming",
     "event": {
       "name": "UEFA Champions League",
       "category": "Football",
-      "teamA": "RB Leipzig",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/36360/image",
-      "teamB": "RC Lens",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1648/image",
+      "teamA": "Manchester City",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/17/image",
+      "teamB": "SSC Napoli",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2714/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
       "startTimeIST": "2026-11-25 01:30:00 IST",
       "endTimeIST": "2026-11-25 03:50:00 IST",
@@ -618,18 +527,18 @@
     "dashStreams": []
   },
   {
-    "id": 3396,
-    "title": "Real Madrid vs PSV Eindhoven",
-    "slug": "Real-Madrid-vs-PSV-Eindhoven",
+    "id": 3403,
+    "title": "RB Leipzig vs RC Lens",
+    "slug": "RB-Leipzig-vs-RC-Lens",
     "cat": "Football",
     "status": "upcoming",
     "event": {
       "name": "UEFA Champions League",
       "category": "Football",
-      "teamA": "Real Madrid",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2829/image",
-      "teamB": "PSV Eindhoven",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2952/image",
+      "teamA": "RB Leipzig",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/36360/image",
+      "teamB": "RC Lens",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1648/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
       "startTimeIST": "2026-11-25 01:30:00 IST",
       "endTimeIST": "2026-11-25 03:50:00 IST",
@@ -660,7 +569,28 @@
     "dashStreams": []
   },
   {
-    "id": 3397,
+    "id": 3404,
+    "title": "Real Madrid vs PSV Eindhoven",
+    "slug": "Real-Madrid-vs-PSV-Eindhoven",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Champions League",
+      "category": "Football",
+      "teamA": "Real Madrid",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2829/image",
+      "teamB": "PSV Eindhoven",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2952/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
+      "startTimeIST": "2026-11-25 01:30:00 IST",
+      "endTimeIST": "2026-11-25 03:50:00 IST",
+      "startTimeUTC": "2026/11/24 20:00:00 +0000",
+      "endTimeUTC": "2026/11/24 22:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 3401,
     "title": "ŠK Slovan Bratislava vs Real Betis",
     "slug": "ŠK-Slovan-Bratislava-vs-Real-Betis",
     "cat": "Football",
@@ -681,7 +611,7 @@
     "dashStreams": []
   },
   {
-    "id": 3401,
+    "id": 3405,
     "title": "ŠK Slovan Bratislava vs Real Betis",
     "slug": "ŠK-Slovan-Bratislava-vs-Real-Betis",
     "cat": "Football",
