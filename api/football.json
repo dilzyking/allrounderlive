@@ -292,10 +292,22 @@
     },
     "dashStreams": [
       {
+        "title": "DAZN SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/nc636ertqy/out/v1/69c15ba2668b43dd98059c1d9f087e27/cenc.mpd",
+        "key": "524ba85cd2d0f1f90cfd55cb47cd0eba:045574cc7b81cae59696ff11724e3116"
+      },
+      {
         "title": "PARAMOUNT - AQ",
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/satfzppioj/out/v1/0f131da8301f40799224957d3aab93b2/cenc.mpd",
         "key": "db2208392e1d6b734f5a7bf03fbaf76c:f93c84a1a679a01b4b3afafef416a637"
+      },
+      {
+        "title": "VIX SPANISH - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/h095losor7/out/v1/d7683dec68ba4f86bfa5ddf4bd842020/cenc.mpd",
+        "key": "76e09043399185f50fff14339d3a191b:6660c3d94ca5461aabe9d60f302aa317"
       },
       {
         "title": "PlayZ TV HD",
@@ -537,6 +549,12 @@
     },
     "dashStreams": [
       {
+        "title": "DAZN SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/caoenres0r/out/v1/a599fe0abd74438e85a3e02f58ef0580/cenc.mpd",
+        "key": "0958c135d276e5172aae3abcee8ac59e:8ad286875e71daa285f25b9096d78bd5"
+      },
+      {
         "title": "PARAMOUNT - AQ",
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/utnlozpa8j/out/v1/8dad26189bd94b24bc5bd631eb2da3b0/cenc.mpd",
@@ -547,6 +565,12 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
         "key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
+      },
+      {
+        "title": "VIX SPANISH - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/phtt5mrfi5/out/v1/5edd423d949e412c98bf34042cb95d4e/cenc.mpd",
+        "key": "0ddfb373646c342db2b98ce7a49d809f:f6cc546957d8c96fb5c041b3b3ff4a3a"
       },
       {
         "title": "SONYLIV ENG - AQ",
