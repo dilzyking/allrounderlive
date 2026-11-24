@@ -895,6 +895,27 @@
     "dashStreams": []
   },
   {
+    "id": 3870,
+    "title": "SK Slavia Praha vs Villarreal",
+    "slug": "SK-Slavia-Praha-vs-Villarreal",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Champions League",
+      "category": "Football",
+      "teamA": "SK Slavia Praha",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2216/image",
+      "teamB": "Villarreal",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2819/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
+      "startTimeIST": "2026-11-25 23:15:00 IST",
+      "endTimeIST": "2026-11-26 01:35:00 IST",
+      "startTimeUTC": "2026/11/25 17:45:00 +0000",
+      "endTimeUTC": "2026/11/25 20:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
     "id": 2552,
     "title": "Atlético Madrid vs Viking FK",
     "slug": "Atlético-Madrid-vs-Viking-FK",
