@@ -244,7 +244,14 @@
       "startTimeUTC": "2026/11/24 15:30:00 +0000",
       "endTimeUTC": "2026/11/24 17:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "HD STREAM",
+        "type": "hls",
+        "url": "https://live200.kravonstreamdelivery.com/live/channel18.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 3745,
