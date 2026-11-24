@@ -52,7 +52,14 @@
       "startTimeUTC": "2026/11/24 12:15:00 +0000",
       "endTimeUTC": "2026/11/24 14:35:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "TAPMAD - AQ",
+        "type": "hls",
+        "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a14a4cd93615fc600b1e3e9683e8/01a14a5761541567ee931e109fa576/main.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 2531,
@@ -101,14 +108,21 @@
       "startTimeUTC": "2026/11/24 12:15:00 +0000",
       "endTimeUTC": "2026/11/24 14:35:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "TAPMAD - AQ",
+        "type": "hls",
+        "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a154de56151ea540a81c2b41b77a/01a154de85c41567ee931e109fa5a5/main.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 3738,
     "title": "Costa Rica U17 vs Ireland U17",
     "slug": "Costa-Rica-U17-vs-Ireland-U17",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "U17 World Championship",
       "category": "Football",
@@ -171,7 +185,20 @@
       "startTimeUTC": "2026/11/24 13:30:00 +0000",
       "endTimeUTC": "2026/11/24 15:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "FOX - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+        "key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
+      },
+      {
+        "title": "VIX",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/o2vy4aahsh/out/v1/e293c932745a44dcaf897573dfc53532/cenc.mpd",
+        "key": "763ce1ebcaf23502c8cf357c6ef423e1:0c5e6c0820a1ea28753721db00272411"
+      }
+    ]
   },
   {
     "id": 2533,
