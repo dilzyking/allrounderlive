@@ -214,34 +214,6 @@
     ]
   },
   {
-    "id": 3876,
-    "title": "The - Golazo Show",
-    "slug": "The-Golazo-Show",
-    "cat": "Football",
-    "status": "ended",
-    "event": {
-      "name": "The - Golazo Show",
-      "category": "Football",
-      "teamA": "Golazo Show",
-      "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf0OgZU9w1HJQZAizR01jaXii00guX9UNv-QR5cveBhQ&s=10",
-      "teamB": "Golazo Show",
-      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf0OgZU9w1HJQZAizR01jaXii00guX9UNv-QR5cveBhQ&s=10",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf0OgZU9w1HJQZAizR01jaXii00guX9UNv-QR5cveBhQ&s=10",
-      "startTimeIST": "2026-11-25 01:25:00 IST",
-      "endTimeIST": "2026-11-25 02:59:00 IST",
-      "startTimeUTC": "2026/11/24 19:55:00 +0000",
-      "endTimeUTC": "2026/11/24 21:29:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/wk97erm4yh/out/v1/e60d5427e5f34cae8c7e347db9fd5b05/cenc.mpd",
-        "key": "acf65afa1e6e1c2fb808dc3e9e737659:ae35255a282fa1645f25e8e9e92d2ae2"
-      }
-    ]
-  },
-  {
     "id": 2514,
     "title": "Arsenal vs Borussia Dortmund",
     "slug": "Arsenal-vs-Borussia-Dortmund",
