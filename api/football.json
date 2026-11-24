@@ -1,63 +1,5 @@
 [
   {
-    "id": 2536,
-    "title": "Al-Nassr vs Al-Sadd",
-    "slug": "Al-Nassr-vs-Al-Sadd",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "AFC Champions League Elite",
-      "category": "Football",
-      "teamA": "Al-Nassr",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/23400/image",
-      "teamB": "Al-Sadd",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/39733/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/463/image/dark",
-      "startTimeIST": "2026-11-24 23:45:00 IST",
-      "endTimeIST": "2026-11-25 02:05:00 IST",
-      "startTimeUTC": "2026/11/24 18:15:00 +0000",
-      "endTimeUTC": "2026/11/24 20:35:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SPORTDIGITAL AQ",
-        "type": "hls",
-        "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/102539/102539_264_live.m3u8",
-        "key": null
-      },
-      {
-        "title": "TAPMAD - AQ",
-        "type": "hls",
-        "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a1548c4faf15fc600b1e3e968408/01a1548c7fde1ea557841e1612cf76/main.m3u8",
-        "key": null
-      },
-      {
-        "title": "BeIN ARABIC",
-        "type": "hls",
-        "url": "https://2cdn.syria-player.info/hls1/bein2.m3u8",
-        "key": null
-      },
-      {
-        "title": "PlayZ Tv Live",
-        "type": "hls",
-        "url": "https://live.vivo155.com/live/hd-en-1-4621429.m3u8?txSecret=3b5a68bda640a3d02427d1db00a33036&txTime=6B05E601",
-        "key": null
-      },
-      {
-        "title": "ARABIC HD",
-        "type": "hls",
-        "url": "https://k3.baranewssumsel.online/hls/kora2/index.m3u8",
-        "key": null
-      },
-      {
-        "title": "HD STREAM",
-        "type": "hls",
-        "url": "https://live1.quickscoreboardz.com/live/channel12/playlist.m3u8?wsSecret=7e327b46e2e106f13e4a248d72c88119&wsABSTime=1795586819?",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 3747,
     "title": "Bristol City vs Wrexham",
     "slug": "Bristol-City-vs-Wrexham",
@@ -484,6 +426,12 @@
     },
     "dashStreams": [
       {
+        "title": "DAZN SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/kwax9fntuf/out/v1/13eca91be84e425fb0fe4a851517d48f/cenc.mpd",
+        "key": "c00a5c069e65855b18ff448e999b060c:5f54db4469ec32a6f763e28a40cafbe4"
+      },
+      {
         "title": "PARAMOUNT - AQ",
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/koswrmkzbq/out/v1/f164a09f30cc44b4bea0e9e51506f45c/cenc.mpd",
@@ -494,6 +442,12 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
         "key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+      },
+      {
+        "title": "DAZN DE - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/it9ikb4exs/out/v1/b07577554793419f866c71d91ce97cf4/cenc.mpd",
+        "key": "ae7faefca18f698ecc71bab6e22d49fb:f214e8c7d0a9a10e51c87fe4a4882cc0"
       },
       {
         "title": "SONYLIV ENG - AQ",
@@ -545,10 +499,22 @@
     },
     "dashStreams": [
       {
+        "title": "DAZN SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ewntw4zduo/out/v1/106b6c08a85a47cd82cd6db508616662/cenc.mpd",
+        "key": "aaf954648ab632b6fdf36f5a8d7d4dc4:7b6a930b0cbc16cabc5fb62952a93a3b"
+      },
+      {
         "title": "PARAMOUNT - AQ",
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/r0o5qdrime/out/v1/eebefcb8ea104058a81977aeac28f648/cenc.mpd",
         "key": "af171bbe1d7a94dc2a0baba3ae0ae1ec:1f225f6c8e183813e4975ee8d44878ff"
+      },
+      {
+        "title": "VIX SPANISH - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/s6kgv80npk/out/v1/7257a9e3af1e4c9e8867c97998030233/cenc.mpd",
+        "key": "471bf26e769aea44e5c6ec47f83ed436:a7e14a33491101a789e10474f073d3f8"
       },
       {
         "title": "HD STREAM",
@@ -711,7 +677,14 @@
       "startTimeUTC": "2026/11/24 20:00:00 +0000",
       "endTimeUTC": "2026/11/24 22:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "beIN SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
+        "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+      }
+    ]
   },
   {
     "id": 3775,
