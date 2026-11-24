@@ -20,15 +20,15 @@
     },
     "dashStreams": [
       {
-        "title": "TAPMAD - AQ",
-        "type": "hls",
-        "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a154a641d51567ee931e109fa59f/01a154a676281ea557841e1612cf77/main.m3u8",
-        "key": null
-      },
-      {
         "title": "HD SERVER",
         "type": "hls",
         "url": "https://www.rtmpcdn.com/live/35c6ffd01084704cbafb61109dc23778a0b9f43a519f6ffe8ab77bf8e0b0cb57.m3u8",
+        "key": null
+      },
+      {
+        "title": "TAPMAD - AQ",
+        "type": "hls",
+        "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a154a641d51567ee931e109fa59f/01a154a676281ea557841e1612cf77/main.m3u8",
         "key": null
       }
     ]
@@ -60,7 +60,7 @@
         "key": null
       },
       {
-        "title": "HD SERVER",
+        "title": "PLAYZ TV LIVE",
         "type": "hls",
         "url": "https://www.rtmpcdn.com/live/236806a923eca1f04e0dbbc31fefe770fbdf8a4d2dc60fe773ecf715090f47e3.m3u8",
         "key": null
