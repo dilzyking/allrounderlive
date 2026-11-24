@@ -276,7 +276,7 @@
     "title": "Arsenal vs Borussia Dortmund",
     "slug": "Arsenal-vs-Borussia-Dortmund",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Champions League",
       "category": "Football",
@@ -340,7 +340,7 @@
     "title": "Como vs AEK Athens",
     "slug": "Como-vs-AEK-Athens",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Champions League",
       "category": "Football",
@@ -366,6 +366,12 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd",
         "key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
+      },
+      {
+        "title": "TAPMAD - AQ",
+        "type": "hls",
+        "url": "https://tencent-cdn.tapmad.com/v1/01a14a80166b1ea557841e1612cf55/01a14a8047211ea557841e1612cf58/main.m3u8",
+        "key": null
       }
     ]
   },
@@ -374,7 +380,7 @@
     "title": "Feyenoord vs FC Porto",
     "slug": "Feyenoord-vs-FC-Porto",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Champions League",
       "category": "Football",
@@ -414,7 +420,7 @@
     "title": "Manchester City vs SSC Napoli",
     "slug": "Manchester-City-vs-SSC-Napoli",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Champions League",
       "category": "Football",
@@ -454,7 +460,7 @@
     "title": "Rangers vs Aberdeen",
     "slug": "Rangers-vs-Aberdeen",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Scottish Premiership",
       "category": "Football",
@@ -475,7 +481,7 @@
     "title": "RB Leipzig vs RC Lens",
     "slug": "RB-Leipzig-vs-RC-Lens",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Champions League",
       "category": "Football",
@@ -515,7 +521,7 @@
     "title": "Real Madrid vs PSV Eindhoven",
     "slug": "Real-Madrid-vs-PSV-Eindhoven",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Champions League",
       "category": "Football",
@@ -549,9 +555,21 @@
         "key": null
       },
       {
+        "title": "TAPMAD - AQ",
+        "type": "hls",
+        "url": "https://tencent-cdn.tapmad.com/v1/01a145b15ce115fc600b1e3e9683db/01a145b24db11ea557841e1612cf4c/main.m3u8",
+        "key": null
+      },
+      {
         "title": "HD STREAM",
         "type": "hls",
         "url": "https://live200.kravonstreamdelivery.com/live/channel15.m3u8",
+        "key": null
+      },
+      {
+        "title": "BeIN Arabic HD",
+        "type": "hls",
+        "url": "https://ec.koooracity.press/venta1.m3u8",
         "key": null
       }
     ]
@@ -561,7 +579,7 @@
     "title": "ŠK Slovan Bratislava vs Real Betis",
     "slug": "ŠK-Slovan-Bratislava-vs-Real-Betis",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Champions League",
       "category": "Football",
@@ -579,7 +597,7 @@
       {
         "title": "PARAMOUNT - AQ",
         "type": "dash",
-        "url": "https://ABBIQEXAAAAAAAAMJF7UUP3DFNXKU.ta-enf.emt-cf.live.pv-cdn.net/$T$2D3RhEOhAQWhBFgkYzQ1OWU1YmItZDgxMS00NGM2LTgwYzQtNTNkZDc3NTIwODk5WIymAWpwcmltZXZpZGVvBBprGaLgBhprBdxgA2pjbG91ZGZyb250AngoZmlkOjAxYTIwZWU0LWQ3YzEtNzM0MS04NTYxLTBmMzUzN2VjYTI1MRkBOKEFoQJ4My81YXZrdG16bDQyL291dC92MS81NjJlZTJlOTc4ZjI0YmRjOWE4Y2U1ZjhiZTQyMmRhZVggOEke4zXdkPECoGB0Sdj6T12MMvOLE74Wi7cn2k-StlY/IAD/da8a6885c3a04f208697487e16064ad4/v1/dash/746463508834/paramount_aha_amzn1_dv_live_csid_d163b723-f6f6-4956-9d90-8ecd8e1e6c7a_us-east-1_iad_dash_h264_none_stereo/startover/clients/dash/manipulated-manifest-iad-prod/enc/5avktmzl42/out/v1/562ee2e978f24bdc9a8ce5f8be422dae/764bc46b-0105-4756-b35b-ce22d1d6e7db-cenc.mpd?aws.sessionId=7971dee0-dd35-4c37-be0b-e1f649f817bf",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/hojjlmvlou/out/v1/6540c7701ea94286b4045a7417a32775/cenc.mpd",
         "key": "c4dbf5356b8e894e8a26a331a95471cc:4e22ee930b1895e79d4bbd5217ab423e"
       },
       {
@@ -601,7 +619,7 @@
     "title": "Wolverhampton vs Derby County",
     "slug": "Wolverhampton-vs-Derby-County",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Championship",
       "category": "Football",
