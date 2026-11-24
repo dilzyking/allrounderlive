@@ -160,6 +160,18 @@
         "type": "hls",
         "url": "https://2cdn.syria-player.info/hls1/bein3.m3u8",
         "key": null
+      },
+      {
+        "title": "beIN ARABIC SD",
+        "type": "hls",
+        "url": "https://mov.kooraciity.net/erona2.m3u8",
+        "key": null
+      },
+      {
+        "title": "beIN ARABIC HD",
+        "type": "hls",
+        "url": "https://ylp.akhbarnewscdn.store/cdn/master.m3u8",
+        "key": null
       }
     ]
   },
@@ -528,6 +540,27 @@
         "key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
       }
     ]
+  },
+  {
+    "id": 3875,
+    "title": "Rangers vs Aberdeen",
+    "slug": "Rangers-vs-Aberdeen",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Scottish Premiership",
+      "category": "Football",
+      "teamA": "Rangers",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2351/image",
+      "teamB": "Aberdeen",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2355/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/36/image/dark",
+      "startTimeIST": "2026-11-25 01:30:00 IST",
+      "endTimeIST": "2026-11-25 03:50:00 IST",
+      "startTimeUTC": "2026/11/24 20:00:00 +0000",
+      "endTimeUTC": "2026/11/24 22:20:00 +0000"
+    },
+    "dashStreams": []
   },
   {
     "id": 3867,
