@@ -228,6 +228,12 @@
         "type": "hls",
         "url": "https://www.rtmpcdn.com/live/4a9995714e1c7ef93cd4a02232017997b9f71e6acb6f743c8632dbc70fc62f82.m3u8",
         "key": null
+      },
+      {
+        "title": "BeIN ARABIC HD",
+        "type": "hls",
+        "url": "https://2cdn.syria-player.info/hls1/bein3.m3u8",
+        "key": null
       }
     ]
   },
@@ -266,7 +272,7 @@
       {
         "title": "ARABIC HD",
         "type": "hls",
-        "url": "https://k3.baranewssumsel.online/hls/kora2/480p/index.m3u8",
+        "url": "https://k3.baranewssumsel.online/hls/kora2/index.m3u8",
         "key": null
       }
     ]
