@@ -1,38 +1,10 @@
 [
   {
-    "id": 3743,
-    "title": "Brazil U17 vs Tanzania U17",
-    "slug": "Brazil-U17-vs-Tanzania-U17",
-    "cat": "Football",
-    "status": "ended",
-    "event": {
-      "name": "U17 World Championship",
-      "category": "Football",
-      "teamA": "Brazil U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/22586/image",
-      "teamB": "Tanzania U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1231931/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
-      "startTimeIST": "2026-11-24 20:30:00 IST",
-      "endTimeIST": "2026-11-24 22:50:00 IST",
-      "startTimeUTC": "2026/11/24 15:00:00 +0000",
-      "endTimeUTC": "2026/11/24 17:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SPORTV BR - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/dsa3hwuhd1/out/v1/631b48c8d9ea437e8309d1a4b55acef5/cenc.mpd",
-        "key": "3de028eafb3b2caffec03be1c1c818b3:8fbdd8a9ae6748696bb13e547bb093fc"
-      }
-    ]
-  },
-  {
     "id": 3744,
     "title": "Algeria U17 vs Montenegro U17",
     "slug": "Algeria-U17-vs-Montenegro-U17",
     "cat": "Football",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "U17 World Championship",
       "category": "Football",
@@ -60,7 +32,7 @@
     "title": "Honduras U17 vs Colombia U17",
     "slug": "Honduras-U17-vs-Colombia-U17",
     "cat": "Football",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "U17 World Championship",
       "category": "Football",
@@ -91,80 +63,6 @@
         "title": "SERVER HD",
         "type": "hls",
         "url": "https://live200.kravonstreamdelivery.com/live/channel24.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 2534,
-    "title": "Al Seeb SC vs Al-Shorta",
-    "slug": "Al-Seeb-SC-vs-Al-Shorta",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "AFC Champions League Two",
-      "category": "Football",
-      "teamA": "Al Seeb SC",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/71044/image",
-      "teamB": "Al-Shorta",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/61532/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/668/image/dark",
-      "startTimeIST": "2026-11-24 21:30:00 IST",
-      "endTimeIST": "2026-11-24 23:50:00 IST",
-      "startTimeUTC": "2026/11/24 16:00:00 +0000",
-      "endTimeUTC": "2026/11/24 18:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "TAPMAD - AQ",
-        "type": "hls",
-        "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a154a641d51567ee931e109fa59f/01a154a676281ea557841e1612cf77/main.m3u8",
-        "key": null
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://www.rtmpcdn.com/live/33db50d815f1f08e1e2f0e8b9c51c0ceb356d6da28f2b55b6b774e3d6564b25c.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 2535,
-    "title": "Shabab Al-Ahli Dubai vs Al-Qadsiah",
-    "slug": "Shabab-Al-Ahli-Dubai-vs-Al-Qadsiah",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "AFC Champions League Elite",
-      "category": "Football",
-      "teamA": "Shabab Al-Ahli Dubai",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/264111/image",
-      "teamB": "Al-Qadsiah",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/56027/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/463/image/dark",
-      "startTimeIST": "2026-11-24 21:30:00 IST",
-      "endTimeIST": "2026-11-24 23:50:00 IST",
-      "startTimeUTC": "2026/11/24 16:00:00 +0000",
-      "endTimeUTC": "2026/11/24 18:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SPORTDIGITAL AQ",
-        "type": "hls",
-        "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/102539/102539_264_live.m3u8",
-        "key": null
-      },
-      {
-        "title": "TAPMAD - AQ",
-        "type": "hls",
-        "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a154de56151ea540a81c2b41b77a/01a154de85c41567ee931e109fa5a5/main.m3u8",
-        "key": null
-      },
-      {
-        "title": "HD STREAM",
-        "type": "hls",
-        "url": "https://www.rtmpcdn.com/live/4d226857-eada-418b-8c71-327f041abc9c.m3u8",
         "key": null
       }
     ]
@@ -230,6 +128,12 @@
         "type": "dash",
         "url": "https://live-emt-pv-ta-enf.amazon.fastly-edge.com/$T$2D3RhEOhAQWhBFgkOWE2NWFkMDQtYzk4NS00OTZhLWE4NzQtYTkwMzY2M2FiNzFlWIimAWpwcmltZXZpZGVvBBprGZCsBhprBcosA2ZmYXN0bHkCeChmaWQ6MDFhMjBlOWQtYmVlMi03Mjk2LThkZGQtNTVlOTUyMGI4MTE0GQE4oQWhAngzL2t1NDNhZXUyN3gvb3V0L3YxLzFhNGRkZmFhOWJjYjRlYzM5ODJmODVmOTNmYTBlNGNjWCBhIT8vbyxYHF7wI3AMlIui0U118Pwx0TH-1f4X4_FR0A/CMH/08c1316cb639415bb0e828c5415277ce/v1/dash/746463508834/paramount_aha_amzn1_dv_live_csid_3fc3f65f-f975-4f94-a2a0-27da89d9a265_us-east-1_cmh_dash_h264_none_stereo/startover/clients/dash/manipulated-manifest-iad-prod/enc/ku43aeu27x/out/v1/1a4ddfaa9bcb4ec3982f85f93fa0e4cc/a6a376d4-bd65-44b7-97f7-50802ff8ce4b-cenc.mpd?aws.sessionId=1d3659ca-d66f-4dd7-938a-81cb2d18f434",
         "key": "9bdf862e91a97ad01525565a357e3258:5178f39d3fa0c2fa19163136b171c515"
+      },
+      {
+        "title": "TAPMAD AQ",
+        "type": "hls",
+        "url": "https://tencent-cdn.tapmad.com/v1/01a1456f124d15fc600b1e3e9683d7/01a145990eba15fc60e91e1786b054/main.m3u8",
+        "key": null
       },
       {
         "title": "SONYLIV ENG - AQ",
@@ -306,6 +210,12 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vpng0vu98t/out/v1/93c2ab57454d4e03b185817166955043/cenc.mpd",
         "key": "b7e261c5e3d6b4ce5ff9a7f51faebcfb:7794d2b05c99697cc0c8dd1fb19596bb"
+      },
+      {
+        "title": "TAPMAD AQ",
+        "type": "hls",
+        "url": "https://tencent-cdn.tapmad.com/v1/01a145abfb3a1ea540a81c2b41b751/01a145ae0ac115fc600b1e3e9683da/main.m3u8",
+        "key": null
       },
       {
         "title": "SONYLIV ENG - AQ",
