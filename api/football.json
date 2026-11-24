@@ -68,40 +68,6 @@
     ]
   },
   {
-    "id": 3861,
-    "title": "NorthEast United FC vs Sporting Delhi",
-    "slug": "NorthEast-United-FC-vs-Sporting-Delhi",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "Indian Super League",
-      "category": "Football",
-      "teamA": "NorthEast United FC",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/174602/image",
-      "teamB": "Sporting Delhi",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/331840/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1900/image/dark",
-      "startTimeIST": "2026-11-24 19:30:00 IST",
-      "endTimeIST": "2026-11-24 21:50:00 IST",
-      "startTimeUTC": "2026/11/24 14:00:00 +0000",
-      "endTimeUTC": "2026/11/24 16:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SONYLIV ENG - AQ",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120304/Footlive2411/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795571385~acl=/*~id=49669595105722055198488941089756~hmac=26caaa198563d3e869ae3d2003101952ca99707e3fe43016b26ea0ee53a09387",
-        "key": null
-      },
-      {
-        "title": "SONYLIV HIN - AQ",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120303/Footlive2411/HIN/std_lrh-800300010.m3u8?hdnea=exp=1795571385~acl=/*~id=49669595105722055198488941089756~hmac=26caaa198563d3e869ae3d2003101952ca99707e3fe43016b26ea0ee53a09387",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 3742,
     "title": "Dominican Republic U17 vs Chile U17",
     "slug": "Dominican-Republic-U17-vs-Chile-U17",
@@ -250,7 +216,20 @@
       "startTimeUTC": "2026/11/24 16:00:00 +0000",
       "endTimeUTC": "2026/11/24 18:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "TAPMAD - AQ",
+        "type": "hls",
+        "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a154a641d51567ee931e109fa59f/01a154a676281ea557841e1612cf77/main.m3u8",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/33db50d815f1f08e1e2f0e8b9c51c0ceb356d6da28f2b55b6b774e3d6564b25c.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 2535,
