@@ -170,64 +170,6 @@
     ]
   },
   {
-    "id": 1211,
-    "title": "Australia vs England",
-    "slug": "Australia-vs-England",
-    "cat": "Cricket",
-    "status": "live",
-    "event": {
-      "name": "T20 International",
-      "category": "Cricket",
-      "teamA": "Australia",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/187746/image",
-      "teamB": "England",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/187757/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/11190/image/dark",
-      "startTimeIST": "2026-11-24 13:45:00 IST",
-      "endTimeIST": null,
-      "startTimeUTC": "2026/11/24 08:15:00 +0000",
-      "endTimeUTC": null
-    },
-    "dashStreams": [
-      {
-        "title": "WILLOW - AQ",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gmkdqjrm0v/out/v1/f18ae7e0b6aa4945be780be08819f37f/cenc.mpd",
-        "key": "5884f024392a0ac512db400c4978db37:a99a15ba3e7e0494e8544b1cd08d9a73"
-      },
-      {
-        "title": "TNT SPORTS - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
-        "key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
-      },
-      {
-        "title": "FANCODE - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
-      },
-      {
-        "title": "AUSTRALIA TV AQ",
-        "type": "hls",
-        "url": "https://host-64-235-250-101.contentfabric.io/qlibs/ilibBFVVnZD2HsyW1Rmi5atMjddq2NQ/q/hq__28fW1t6v3h4xWa2vtTDBxoEXLgcieBVThodN1ZZRYcW37UUxyGHKn7p8yop8TKMowZpieMuipEqL/rep/playout/default/hls-aes128/playlist.m3u8?authorization=acssjc2jSG55vSsBYBZ8GWmQzr4tMzCk9kjdKtbQTbgbVFCk9xwfK4zgmVEKm68wfQBNDFgLpPewj9rjXJR22xdom791SFZSjD6Mo9TTrLkkWNuw4S5AgPY8h1Tf94A6wLHc8WcLvvF2LZ3392VLhcdddiM4RCByf5rRccfC8a2cgb76w48hobPTmJpYzhx23yyvTGxFw2jyPZUQJ8cbKurovsNFiEwkdaRzkPhPEGFVTJj4na5MnPPSg39FAUT65my1AWhxenHx2Fj3zYLUgCwrXtxMsE8Xw4XKLJy3hpBB6snFFTv9EUGhm5s1MeXDfLxRyahg3pzUsM3Wt7T7ggTY3NyuCCutmvWGaNQeib5Wu6dsQ1FSeKbgM6hSGP53Ru956hvLUNX7xfuFGeZmRJixNHpmXUeKHwW5CuNBLukXugN3JHBrzcsk2HQ6RAikWJBVmM5REkqB5g9PWoWny3XMYKzaqfLV4LcGewYLphEE9z3epvnBJEdYJeJ8ZMSorf1rJ8Bbph6sNP24w5HmpXmk1nRWnGV9dVWM4MCkPGxVC2q1bL7y5hbZbjstu9a6X7pfnK5skwRxcyk37YjQiejH2UZqUN5W6pwP4KzSWYNi&player_profile=hls-js",
-        "key": null
-      },
-      {
-        "title": "TAPMAD - AQ",
-        "type": "hls",
-        "url": "https://serieAleague.akamaized.net/hls/live/2107107/A1@25853-tapmad/master.m3u8",
-        "key": null
-      },
-      {
-        "title": "TEN SPORTS HD",
-        "type": "hls",
-        "url": "https://live.msnetworks.net/ten-sports/master.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 3103,
     "title": "Pakistan A vs Nepal",
     "slug": "Pakistan-A-vs-Nepal",
