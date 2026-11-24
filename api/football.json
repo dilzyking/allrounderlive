@@ -370,6 +370,12 @@
         "type": "hls",
         "url": "https://live1.quickscoreboardz.com/live/channel29/playlist.m3u8?wsSecret=bb81fb63bd0813590a3a6dd71784fed4&wsABSTime=1795589796",
         "key": null
+      },
+      {
+        "title": "PlayZ TV HD",
+        "type": "hls",
+        "url": "https://admin2.formaturamaxi.com.br/norwich.m3u8",
+        "key": null
       }
     ]
   },
@@ -398,6 +404,12 @@
         "type": "hls",
         "url": "https://live200.kravonstreamdelivery.com/live/channel13.m3u8",
         "key": null
+      },
+      {
+        "title": "PlayZ TV HD",
+        "type": "hls",
+        "url": "https://admin2.formaturamaxi.com.br/west.m3u8",
+        "key": null
       }
     ]
   },
@@ -425,6 +437,12 @@
         "title": "HD STREAM",
         "type": "hls",
         "url": "https://live200.kravonstreamdelivery.com/live/channel10.m3u8",
+        "key": null
+      },
+      {
+        "title": "PlayZ TV HD",
+        "type": "hls",
+        "url": "https://admin2.formaturamaxi.com.br/south.m3u8",
         "key": null
       }
     ]
