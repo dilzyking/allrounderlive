@@ -126,6 +126,12 @@
         "key": null
       },
       {
+        "title": "TAMASHA PRO AQ",
+        "type": "hls",
+        "url": "https://cdn03lhr-n.tamashaweb.com:8090/appcast/BANvsSAF-SVOD-abr/playlist.m3u8",
+        "key": null
+      },
+      {
         "title": "EURO SPORTS - AQ",
         "type": "dash",
         "url": "https://wbd.skandha.tv/EuroSport_HD/EuroSport_HD.isml/.mpd",
@@ -252,6 +258,12 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
         "key": "5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b"
+      },
+      {
+        "title": "TAMASHA PRO AQ",
+        "type": "hls",
+        "url": "https://cdn03lhr-n.tamashaweb.com:8090/appcast/t10-italia-SVOD-abr/playlist.m3u8",
+        "key": null
       }
     ]
   },
