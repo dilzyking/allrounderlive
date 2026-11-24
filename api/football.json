@@ -242,7 +242,7 @@
     "title": "Al-Nassr vs Al-Sadd",
     "slug": "Al-Nassr-vs-Al-Sadd",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "AFC Champions League Elite",
       "category": "Football",
@@ -270,9 +270,27 @@
         "key": null
       },
       {
+        "title": "BeIN ARABIC",
+        "type": "hls",
+        "url": "https://2cdn.syria-player.info/hls1/bein2.m3u8",
+        "key": null
+      },
+      {
+        "title": "PlayZ Tv Live",
+        "type": "hls",
+        "url": "https://live.vivo155.com/live/hd-en-1-4621429.m3u8?txSecret=3b5a68bda640a3d02427d1db00a33036&txTime=6B05E601",
+        "key": null
+      },
+      {
         "title": "ARABIC HD",
         "type": "hls",
         "url": "https://k3.baranewssumsel.online/hls/kora2/index.m3u8",
+        "key": null
+      },
+      {
+        "title": "HD STREAM",
+        "type": "hls",
+        "url": "https://live1.quickscoreboardz.com/live/channel12/playlist.m3u8?wsSecret=7e327b46e2e106f13e4a248d72c88119&wsABSTime=1795586819?",
         "key": null
       }
     ]
