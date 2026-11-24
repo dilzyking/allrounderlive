@@ -4,7 +4,7 @@
     "title": "India A vs UAE",
     "slug": "India-A-vs-UAE",
     "cat": "Cricket",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Men's Asia Cup Rising Stars",
       "category": "Cricket",
@@ -22,8 +22,14 @@
       {
         "title": "WILLOW - AQ",
         "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/pyotzmjtwf/out/v1/2b816c787d7f4b22b821549ac3789814/cenc.mpd",
-        "key": "3968540132a25dff11a7aa9d1d25b82c:df967625371e49195245672740e152d8"
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/po7s7fvgjq/out/v1/5c412831b960410cb880428166b74dee/cenc.mpd",
+        "key": "531497de47944ade5410fe5852905698:574547fdae92793f4630b65dade01761"
+      },
+      {
+        "title": "PRIME MULTI AUDIO",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/zenfbe10ry/out/v1/b0b56246975f46b9aec8db7586e25a61/cenc.mpd",
+        "key": "04fada1ca01dd6c5f607f8fe0888a692:9f3089dd8bedd300f801277ce8510bc8"
       },
       {
         "title": "STARZPLAY FHD",
@@ -38,21 +44,21 @@
         "key": null
       },
       {
+        "title": "TAMASHA AQ",
+        "type": "hls",
+        "url": "https://cdn06khi-n.tamashaweb.com:8087/appcast/ACC-men-AC26-b-abr/playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "WILLOW S2 - AQ",
+        "type": "dash",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/po7s7fvgjq/out/v1/5c412831b960410cb880428166b74dee/cenc.mpd",
+        "key": "531497de47944ade5410fe5852905698:574547fdae92793f4630b65dade01761"
+      },
+      {
         "title": "SONYLIV HIN - AQ",
         "type": "hls",
         "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119921/cricodi_2411/HIN/std_lrh-800300010.m3u8?hdnea=exp=1795540931~acl=/*~id=42533442359826935436253248685876~hmac=87ea8943906f9a403a1ee7d1dd9ff17f83fd0eb43341967a8f9707fc56d22b8b",
-        "key": null
-      },
-      {
-        "title": "TAMASHA AQ",
-        "type": "hls",
-        "url": "https://cdn06khi-n.tamashaweb.com:8087/appcast/ACC-men-AC26-abr/playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "TEN SPORTS HD",
-        "type": "hls",
-        "url": "https://live.msnetworks.net/ten-sports/master.m3u8",
         "key": null
       },
       {
@@ -72,6 +78,12 @@
         "type": "hls",
         "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119782/cricodi_2411/KAN/std_lrh-800300010.m3u8?hdnea=exp=1795540931~acl=/*~id=42533442359826935436253248685876~hmac=87ea8943906f9a403a1ee7d1dd9ff17f83fd0eb43341967a8f9707fc56d22b8b",
         "key": null
+      },
+      {
+        "title": "PTV SPORTS HD",
+        "type": "hls",
+        "url": "https://live.msnetworks.net/ptv-sports/master.m3u8",
+        "key": null
       }
     ]
   },
@@ -80,7 +92,7 @@
     "title": "South Africa vs Bangladesh",
     "slug": "South-Africa-vs-Bangladesh",
     "cat": "Cricket",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "ICC World Test Championship",
       "category": "Cricket",
@@ -98,17 +110,29 @@
       {
         "title": "WILLOW - AQ",
         "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/uhw2zj4lre/out/v1/b28f140503c54c0b8c863d2a2d190f7f/cenc.mpd",
-        "key": "ef575f9bbbc7bd252eb629553c04b572:036c3c66e6cb484e0c57d37763f65bca"
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/faxkswwplm/out/v1/6360aca9a29e49108a0d7c44fce32af7/cenc.mpd",
+        "key": "2c0a5ca2bcc67426156a65d85d53f5ae:02b0a91443f3b8682dd08912875eeb61"
       },
       {
-        "title": "FANCODE FHD",
+        "title": "FANCODE - AQ",
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
         "key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
       },
       {
-        "title": "SKY SPORTS CRICKET",
+        "title": "TAPMAD - AQ",
+        "type": "hls",
+        "url": "https://serieAleague.akamaized.net/hls/live/2107107/tap-BK-PSL-D1-E/master.m3u8",
+        "key": null
+      },
+      {
+        "title": "EURO SPORTS - AQ",
+        "type": "dash",
+        "url": "https://wbd.skandha.tv/EuroSport_HD/EuroSport_HD.isml/.mpd",
+        "key": "12ed56d780abcfebcd23aa27e4ac5015:6784567890abcfebcd23aa27e4ac2814"
+      },
+      {
+        "title": "SKY CRICKET - AQ",
         "type": "hls",
         "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
         "key": null
@@ -116,8 +140,8 @@
       {
         "title": "WILLOW S2 - AQ",
         "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/uhw2zj4lre/out/v1/b28f140503c54c0b8c863d2a2d190f7f/cenc.mpd",
-        "key": "ef575f9bbbc7bd252eb629553c04b572:036c3c66e6cb484e0c57d37763f65bca"
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/faxkswwplm/out/v1/6360aca9a29e49108a0d7c44fce32af7/cenc.mpd",
+        "key": "2c0a5ca2bcc67426156a65d85d53f5ae:02b0a91443f3b8682dd08912875eeb61"
       },
       {
         "title": "FANCODE - SD",
@@ -126,10 +150,22 @@
         "key": "5318e462b9e0677487cb87837f0bbdb1:4fa0fb973b95738306005f2e8591bf8e"
       },
       {
-        "title": "WILLOW SPORTS",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
-        "key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
+        "title": "A SPORTS - AQ",
+        "type": "hls",
+        "url": "https://live.msnetworks.net/a-sports/master.m3u8",
+        "key": null
+      },
+      {
+        "title": "A SPORTS HD",
+        "type": "hls",
+        "url": "https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8",
+        "key": null
+      },
+      {
+        "title": "T SPORTS HD",
+        "type": "hls",
+        "url": "https://playztv-apps.pages.dev/ptv-sports/index.m3u8",
+        "key": null
       }
     ]
   },
@@ -138,7 +174,7 @@
     "title": "Australia vs England",
     "slug": "Australia-vs-England",
     "cat": "Cricket",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "T20 International",
       "category": "Cricket",
@@ -156,8 +192,8 @@
       {
         "title": "WILLOW - AQ",
         "type": "dash",
-        "url": "https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/1m5p4laylw/out/v1/d06dee18492d4734b4a35dfa108e3a33/cenc.mpd",
-        "key": "ae2b2cc0d4a4ca729178fa33c76c333f:a2cef8a0f497874cedd1c23d13d7cf63"
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gmkdqjrm0v/out/v1/f18ae7e0b6aa4945be780be08819f37f/cenc.mpd",
+        "key": "5884f024392a0ac512db400c4978db37:a99a15ba3e7e0494e8544b1cd08d9a73"
       },
       {
         "title": "TNT SPORTS - AQ",
@@ -168,32 +204,20 @@
       {
         "title": "FANCODE - AQ",
         "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
-        "key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
-      },
-      {
-        "title": "EURO SPORTS - AQ",
-        "type": "dash",
-        "url": "https://wbd.skandha.tv/EuroSport_HD/EuroSport_HD.isml/.mpd",
-        "key": "12ed56d780abcfebcd23aa27e4ac5015:6784567890abcfebcd23aa27e4ac2814"
-      },
-      {
-        "title": "WILLOW HD",
-        "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
-        "key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
       },
       {
         "title": "TAPMAD - AQ",
         "type": "hls",
-        "url": "https://serieAleague.akamaized.net/hls/live/2107107/tap-BK-PSL-D1-E/master.m3u8",
+        "url": "https://serieAleague.akamaized.net/hls/live/2107107/A1@25853-tapmad/master.m3u8",
         "key": null
       },
       {
-        "title": "TNT SPORTS S2 - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd?",
-        "key": "cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca"
+        "title": "TEN SPORTS HD",
+        "type": "hls",
+        "url": "https://live.msnetworks.net/ten-sports/master.m3u8",
+        "key": null
       }
     ]
   },
@@ -303,6 +327,27 @@
         "key": "d5859726f4804398b37aa6eb9d571a4f:11c43967054ad1765d919f854889912f"
       }
     ]
+  },
+  {
+    "id": 3777,
+    "title": "Melbourne Renegades Women vs Brisbane Heat Women",
+    "slug": "Melbourne-Renegades-Women-vs-Brisbane-Heat-Women",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "Women's Big Bash League",
+      "category": "Cricket",
+      "teamA": "Melbourne Renegades Women",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/274887/image",
+      "teamB": "Brisbane Heat Women",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/274884/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/11163/image/dark",
+      "startTimeIST": "2026-11-25 13:40:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/25 08:10:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": []
   },
   {
     "id": 1236,
