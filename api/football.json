@@ -198,12 +198,6 @@
         "type": "hls",
         "url": "https://live200.kravonstreamdelivery.com/live/channel22.m3u8",
         "key": null
-      },
-      {
-        "title": "VIX TN",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/o2vy4aahsh/out/v1/e293c932745a44dcaf897573dfc53532/cenc.mpd",
-        "key": "763ce1ebcaf23502c8cf357c6ef423e1:0c5e6c0820a1ea28753721db00272411"
       }
     ]
   },
@@ -329,6 +323,12 @@
       "endTimeUTC": "2026/11/24 16:50:00 +0000"
     },
     "dashStreams": [
+      {
+        "title": "D SPORTS+ ES",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ud6bnhthpj/out/v1/2639a2f4480f4269953de466d5f46463/cenc.mpd",
+        "key": "83f81c4cc1443991543de4e22eea7586:ddfd7ca653d6f35543d8edb3c688e20f"
+      },
       {
         "title": "HD STREAM",
         "type": "hls",
