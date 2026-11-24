@@ -236,7 +236,7 @@
     "title": "Al Seeb SC vs Al-Shorta",
     "slug": "Al-Seeb-SC-vs-Al-Shorta",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "AFC Champions League Two",
       "category": "Football",
@@ -257,7 +257,7 @@
     "title": "Shabab Al-Ahli Dubai vs Al-Qadsiah",
     "slug": "Shabab-Al-Ahli-Dubai-vs-Al-Qadsiah",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "AFC Champions League Elite",
       "category": "Football",
@@ -271,7 +271,20 @@
       "startTimeUTC": "2026/11/24 16:00:00 +0000",
       "endTimeUTC": "2026/11/24 18:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "TAPMAD - AQ",
+        "type": "hls",
+        "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a154de56151ea540a81c2b41b77a/01a154de85c41567ee931e109fa5a5/main.m3u8",
+        "key": null
+      },
+      {
+        "title": "HD STREAM",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/4d226857-eada-418b-8c71-327f041abc9c.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 2512,
