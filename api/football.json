@@ -1,39 +1,5 @@
 [
   {
-    "id": 3741,
-    "title": "Mexico U17 vs Cameroon U17",
-    "slug": "Mexico-U17-vs-Cameroon-U17",
-    "cat": "Football",
-    "status": "ended",
-    "event": {
-      "name": "U17 World Championship",
-      "category": "Football",
-      "teamA": "Mexico U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/22629/image",
-      "teamB": "Cameroon U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/313112/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
-      "startTimeIST": "2026-11-24 19:00:00 IST",
-      "endTimeIST": "2026-11-24 21:20:00 IST",
-      "startTimeUTC": "2026/11/24 13:30:00 +0000",
-      "endTimeUTC": "2026/11/24 15:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "FOX - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
-        "key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
-      },
-      {
-        "title": "VIX Mexico",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/o2vy4aahsh/out/v1/e293c932745a44dcaf897573dfc53532/cenc.mpd",
-        "key": "763ce1ebcaf23502c8cf357c6ef423e1:0c5e6c0820a1ea28753721db00272411"
-      }
-    ]
-  },
-  {
     "id": 2533,
     "title": "East Bengal FC vs Al-Hussein Irbid",
     "slug": "East-Bengal-FC-vs-Al-Hussein-Irbid",
