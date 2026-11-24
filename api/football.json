@@ -144,7 +144,7 @@
     "title": "Arsenal U19 vs Borussia Dortmund U19",
     "slug": "Arsenal-U19-vs-Borussia-Dortmund-U19",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Youth League",
       "category": "Football",
@@ -158,14 +158,21 @@
       "startTimeUTC": "2026/11/24 13:00:00 +0000",
       "endTimeUTC": "2026/11/24 15:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "TNT SPORTS AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
+        "key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
+      }
+    ]
   },
   {
     "id": 3740,
     "title": "Japan U17 vs Serbia U17",
     "slug": "Japan-U17-vs-Serbia-U17",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "U17 World Championship",
       "category": "Football",
@@ -180,6 +187,12 @@
       "endTimeUTC": "2026/11/24 15:20:00 +0000"
     },
     "dashStreams": [
+      {
+        "title": "TSN SPORTS AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd",
+        "key": "d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37"
+      },
       {
         "title": "HD STREAM",
         "type": "hls",
