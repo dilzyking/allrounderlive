@@ -4,7 +4,7 @@
     "title": "Newcastle Jets vs Kashiwa Reysol",
     "slug": "Newcastle-Jets-vs-Kashiwa-Reysol",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "AFC Champions League Elite",
       "category": "Football",
@@ -18,7 +18,26 @@
       "startTimeUTC": "2026/11/24 07:45:00 +0000",
       "endTimeUTC": "2026/11/24 10:05:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "TAPMAD - AQ",
+        "type": "hls",
+        "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a1548c4faf15fc600b1e3e968408/01a1548c7fde1ea557841e1612cf76/main.m3u8",
+        "key": null
+      },
+      {
+        "title": "HD STREAM",
+        "type": "hls",
+        "url": "https://live200.kravonstreamdelivery.com/live/channel5.m3u8",
+        "key": null
+      },
+      {
+        "title": "SD STREAM",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/573a52ae88e2dc0d538ebb7f1fb13c44fead290769efd0dda927462594a842ac.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 2528,
@@ -227,6 +246,48 @@
       "endTimeIST": "2026-11-24 21:35:00 IST",
       "startTimeUTC": "2026/11/24 13:45:00 +0000",
       "endTimeUTC": "2026/11/24 16:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 3769,
+    "title": "NorthEast United FC vs Sporting Delhi",
+    "slug": "NorthEast-United-FC-vs-Sporting-Delhi",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Indian Super League",
+      "category": "Football",
+      "teamA": "NorthEast United FC",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/174602/image",
+      "teamB": "Sporting Delhi",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/331840/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1900/image/dark",
+      "startTimeIST": "2026-11-24 19:30:00 IST",
+      "endTimeIST": "2026-11-24 21:50:00 IST",
+      "startTimeUTC": "2026/11/24 14:00:00 +0000",
+      "endTimeUTC": "2026/11/24 16:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 3770,
+    "title": "NorthEast United FC vs Sporting Delhi",
+    "slug": "NorthEast-United-FC-vs-Sporting-Delhi",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Indian Super League",
+      "category": "Football",
+      "teamA": "NorthEast United FC",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/174602/image",
+      "teamB": "Sporting Delhi",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/331840/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1900/image/dark",
+      "startTimeIST": "2026-11-24 19:30:00 IST",
+      "endTimeIST": "2026-11-24 21:50:00 IST",
+      "startTimeUTC": "2026/11/24 14:00:00 +0000",
+      "endTimeUTC": "2026/11/24 16:20:00 +0000"
     },
     "dashStreams": []
   },
@@ -630,27 +691,6 @@
     "dashStreams": []
   },
   {
-    "id": 3754,
-    "title": "Manchester City vs SSC Napoli",
-    "slug": "Manchester-City-vs-SSC-Napoli",
-    "cat": "Football",
-    "status": "upcoming",
-    "event": {
-      "name": "UEFA Champions League",
-      "category": "Football",
-      "teamA": "Manchester City",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/17/image",
-      "teamB": "SSC Napoli",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2714/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
-      "startTimeIST": "2026-11-25 01:30:00 IST",
-      "endTimeIST": "2026-11-25 03:50:00 IST",
-      "startTimeUTC": "2026/11/24 20:00:00 +0000",
-      "endTimeUTC": "2026/11/24 22:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 3765,
     "title": "Manchester City vs SSC Napoli",
     "slug": "Manchester-City-vs-SSC-Napoli",
@@ -672,18 +712,18 @@
     "dashStreams": []
   },
   {
-    "id": 3755,
-    "title": "RB Leipzig vs RC Lens",
-    "slug": "RB-Leipzig-vs-RC-Lens",
+    "id": 3771,
+    "title": "Manchester City vs SSC Napoli",
+    "slug": "Manchester-City-vs-SSC-Napoli",
     "cat": "Football",
     "status": "upcoming",
     "event": {
       "name": "UEFA Champions League",
       "category": "Football",
-      "teamA": "RB Leipzig",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/36360/image",
-      "teamB": "RC Lens",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1648/image",
+      "teamA": "Manchester City",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/17/image",
+      "teamB": "SSC Napoli",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2714/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
       "startTimeIST": "2026-11-25 01:30:00 IST",
       "endTimeIST": "2026-11-25 03:50:00 IST",
@@ -714,18 +754,18 @@
     "dashStreams": []
   },
   {
-    "id": 3756,
-    "title": "Real Madrid vs PSV Eindhoven",
-    "slug": "Real-Madrid-vs-PSV-Eindhoven",
+    "id": 3772,
+    "title": "RB Leipzig vs RC Lens",
+    "slug": "RB-Leipzig-vs-RC-Lens",
     "cat": "Football",
     "status": "upcoming",
     "event": {
       "name": "UEFA Champions League",
       "category": "Football",
-      "teamA": "Real Madrid",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2829/image",
-      "teamB": "PSV Eindhoven",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2952/image",
+      "teamA": "RB Leipzig",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/36360/image",
+      "teamB": "RC Lens",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1648/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
       "startTimeIST": "2026-11-25 01:30:00 IST",
       "endTimeIST": "2026-11-25 03:50:00 IST",
@@ -756,7 +796,28 @@
     "dashStreams": []
   },
   {
-    "id": 3757,
+    "id": 3773,
+    "title": "Real Madrid vs PSV Eindhoven",
+    "slug": "Real-Madrid-vs-PSV-Eindhoven",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "UEFA Champions League",
+      "category": "Football",
+      "teamA": "Real Madrid",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2829/image",
+      "teamB": "PSV Eindhoven",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2952/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
+      "startTimeIST": "2026-11-25 01:30:00 IST",
+      "endTimeIST": "2026-11-25 03:50:00 IST",
+      "startTimeUTC": "2026/11/24 20:00:00 +0000",
+      "endTimeUTC": "2026/11/24 22:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 3768,
     "title": "ŠK Slovan Bratislava vs Real Betis",
     "slug": "ŠK-Slovan-Bratislava-vs-Real-Betis",
     "cat": "Football",
@@ -777,7 +838,7 @@
     "dashStreams": []
   },
   {
-    "id": 3768,
+    "id": 3774,
     "title": "ŠK Slovan Bratislava vs Real Betis",
     "slug": "ŠK-Slovan-Bratislava-vs-Real-Betis",
     "cat": "Football",
@@ -815,6 +876,48 @@
       "endTimeIST": "2026-11-25 03:50:00 IST",
       "startTimeUTC": "2026/11/24 20:00:00 +0000",
       "endTimeUTC": "2026/11/24 22:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 3775,
+    "title": "Chapecoense vs Palmeiras",
+    "slug": "Chapecoense-vs-Palmeiras",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Campeonato Brasileiro Série A",
+      "category": "Football",
+      "teamA": "Chapecoense",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/21845/image",
+      "teamB": "Palmeiras",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1963/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/325/image/dark",
+      "startTimeIST": "2026-11-25 02:30:00 IST",
+      "endTimeIST": "2026-11-25 04:50:00 IST",
+      "startTimeUTC": "2026/11/24 21:00:00 +0000",
+      "endTimeUTC": "2026/11/24 23:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 3776,
+    "title": "San Jose Earthquakes vs Houston Dynamo",
+    "slug": "San-Jose-Earthquakes-vs-Houston-Dynamo",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "MLS",
+      "category": "Football",
+      "teamA": "San Jose Earthquakes",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/21825/image",
+      "teamB": "Houston Dynamo",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2508/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/242/image/dark",
+      "startTimeIST": "2026-11-25 08:30:00 IST",
+      "endTimeIST": "2026-11-25 10:50:00 IST",
+      "startTimeUTC": "2026/11/25 03:00:00 +0000",
+      "endTimeUTC": "2026/11/25 05:20:00 +0000"
     },
     "dashStreams": []
   },
