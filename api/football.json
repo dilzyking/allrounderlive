@@ -240,7 +240,14 @@
       "startTimeUTC": "2026/11/24 19:45:00 +0000",
       "endTimeUTC": "2026/11/24 22:05:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "HD STREAM",
+        "type": "hls",
+        "url": "https://live1.quickscoreboardz.com/live/channel25/playlist.m3u8?wsSecret=8d9de27ee906f7774c2c8284f74da08e&wsABSTime=1795589767",
+        "key": null
+      }
+    ]
   },
   {
     "id": 3748,
@@ -289,7 +296,14 @@
       "startTimeUTC": "2026/11/24 19:45:00 +0000",
       "endTimeUTC": "2026/11/24 22:05:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "HD STREAM",
+        "type": "hls",
+        "url": "https://live1.quickscoreboardz.com/live/channel26/playlist.m3u8?wsSecret=d82d1dbb4ab6f8447c0bf5ad2e0aa458&wsABSTime=1795589770",
+        "key": null
+      }
+    ]
   },
   {
     "id": 3750,
