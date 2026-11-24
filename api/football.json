@@ -256,6 +256,18 @@
         "type": "hls",
         "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/102539/102539_264_live.m3u8",
         "key": null
+      },
+      {
+        "title": "TAPMAD - AQ",
+        "type": "hls",
+        "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a1548c4faf15fc600b1e3e968408/01a1548c7fde1ea557841e1612cf76/main.m3u8",
+        "key": null
+      },
+      {
+        "title": "ARABIC HD",
+        "type": "hls",
+        "url": "https://k3.baranewssumsel.online/hls/kora2/480p/index.m3u8",
+        "key": null
       }
     ]
   },
