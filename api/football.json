@@ -1,39 +1,5 @@
 [
   {
-    "id": 2529,
-    "title": "Kyoto Sanga FC vs Pohang Steelers",
-    "slug": "Kyoto-Sanga-FC-vs-Pohang-Steelers",
-    "cat": "Football",
-    "status": "ended",
-    "event": {
-      "name": "AFC Champions League Elite",
-      "category": "Football",
-      "teamA": "Kyoto Sanga FC",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/3149/image",
-      "teamB": "Pohang Steelers",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/7650/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/463/image/dark",
-      "startTimeIST": "2026-11-24 15:30:00 IST",
-      "endTimeIST": "2026-11-24 17:50:00 IST",
-      "startTimeUTC": "2026/11/24 10:00:00 +0000",
-      "endTimeUTC": "2026/11/24 12:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "TAPMAD - AQ",
-        "type": "hls",
-        "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a1548c4faf15fc600b1e3e968408/01a1548c7fde1ea557841e1612cf76/main.m3u8",
-        "key": null
-      },
-      {
-        "title": "PLAYZ TV LIVE",
-        "type": "hls",
-        "url": "https://www.rtmpcdn.com/live/236806a923eca1f04e0dbbc31fefe770fbdf8a4d2dc60fe773ecf715090f47e3.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 2530,
     "title": "Công An Hà Nội vs Vissel Kobe",
     "slug": "Công-An-Hà-Nội-vs-Vissel-Kobe",
