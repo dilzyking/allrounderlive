@@ -64,6 +64,48 @@
     ]
   },
   {
+    "id": 3928,
+    "title": "South Australia vs Victoria",
+    "slug": "South-Australia-vs-Victoria",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "Sheffield Shield",
+      "category": "Cricket",
+      "teamA": "South Australia",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/187750/image",
+      "teamB": "Victoria",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/187749/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/11160/image/dark",
+      "startTimeIST": "2026-11-26 05:30:00 IST",
+      "endTimeIST": "2026-11-26 12:30:00 IST",
+      "startTimeUTC": "2026/11/26 00:00:00 +0000",
+      "endTimeUTC": "2026/11/26 07:00:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 3929,
+    "title": "Western Australia vs Tasmania",
+    "slug": "Western-Australia-vs-Tasmania",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "Sheffield Shield",
+      "category": "Cricket",
+      "teamA": "Western Australia",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/187752/image",
+      "teamB": "Tasmania",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/187748/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/11160/image/dark",
+      "startTimeIST": "2026-11-26 08:00:00 IST",
+      "endTimeIST": "2026-11-26 15:00:00 IST",
+      "startTimeUTC": "2026/11/26 02:30:00 +0000",
+      "endTimeUTC": "2026/11/26 09:30:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
     "id": 3872,
     "title": "India A vs Sri Lanka A",
     "slug": "India-A-vs-Sri-Lanka-A",
