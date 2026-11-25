@@ -216,7 +216,14 @@
       "startTimeUTC": "2026/11/25 14:30:00 +0000",
       "endTimeUTC": "2026/11/25 16:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PlayZ TV Live",
+        "type": "hls",
+        "url": "https://live3979.zundrixmediapipeline.com/live/channel13.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 3884,
@@ -237,7 +244,14 @@
       "startTimeUTC": "2026/11/25 14:30:00 +0000",
       "endTimeUTC": "2026/11/25 16:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PlayZ TV Live",
+        "type": "hls",
+        "url": "https://live3979.zundrixmediapipeline.com/live/channel20.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 3885,
