@@ -112,7 +112,7 @@
     "title": "Ecuador U17 vs South Korea U17",
     "slug": "Ecuador-U17-vs-South-Korea-U17",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "U17 World Championship",
       "category": "Football",
@@ -128,6 +128,12 @@
     },
     "dashStreams": [
       {
+        "title": "D SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd",
+        "key": "03f12d6a3dbfd3a6fa7dd7f6417e0c11:ea07b87acdf2e45be824cde4a1cf3504"
+      },
+      {
         "title": "HD STREAM",
         "type": "hls",
         "url": "https://live3979.zundrixmediapipeline.com/live/channel11.m3u8",
@@ -140,7 +146,7 @@
     "title": "Uganda U17 vs New Caledonia U17",
     "slug": "Uganda-U17-vs-New-Caledonia-U17",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "U17 World Championship",
       "category": "Football",
@@ -158,7 +164,7 @@
       {
         "title": "HD STREAM",
         "type": "hls",
-        "url": "https://live3979.zundrixmediapipeline.com/live/channel11.m3u8",
+        "url": "https://live3979.zundrixmediapipeline.com/live/channel7.m3u8",
         "key": null
       }
     ]
