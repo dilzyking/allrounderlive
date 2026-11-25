@@ -1,5 +1,26 @@
 [
   {
+    "id": 3889,
+    "title": "South Australia vs Victoria",
+    "slug": "South-Australia-vs-Victoria",
+    "cat": "Cricket",
+    "status": "live",
+    "event": {
+      "name": "Sheffield Shield",
+      "category": "Cricket",
+      "teamA": "South Australia",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/187750/image",
+      "teamB": "Victoria",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/187749/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/11160/image/dark",
+      "startTimeIST": "2026-11-24 05:30:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/24 00:00:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": []
+  },
+  {
     "id": 1218,
     "title": "South Africa vs Bangladesh",
     "slug": "South-Africa-vs-Bangladesh",
