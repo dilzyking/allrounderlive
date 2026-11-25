@@ -26,6 +26,12 @@
         "key": null
       },
       {
+        "title": "PLAYZ TV LIVE",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/d5a0f31e-a95a-42ea-9b08-6ad508bc3d50.m3u8",
+        "key": null
+      },
+      {
         "title": "FANCODE [IND]",
         "type": "hls",
         "url": "https://in-mc-vod.fancode.com/mumbai/4249025_english_hls_1a5ecea1e44694_1ta-di_h264/index.m3u8",
@@ -93,6 +99,48 @@
       "endTimeIST": "2026-11-25 20:05:00 IST",
       "startTimeUTC": "2026/11/25 12:15:00 +0000",
       "endTimeUTC": "2026/11/25 14:35:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 3897,
+    "title": "Ecuador U17 vs South Korea U17",
+    "slug": "Ecuador-U17-vs-South-Korea-U17",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "U17 World Championship",
+      "category": "Football",
+      "teamA": "Ecuador U17",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/48835/image",
+      "teamB": "South Korea U17",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/22652/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
+      "startTimeIST": "2026-11-25 18:00:00 IST",
+      "endTimeIST": "2026-11-25 20:20:00 IST",
+      "startTimeUTC": "2026/11/25 12:30:00 +0000",
+      "endTimeUTC": "2026/11/25 14:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 3898,
+    "title": "Uganda U17 vs New Caledonia U17",
+    "slug": "Uganda-U17-vs-New-Caledonia-U17",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "U17 World Championship",
+      "category": "Football",
+      "teamA": "Uganda U17",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1077159/image",
+      "teamB": "New Caledonia U17",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/265146/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
+      "startTimeIST": "2026-11-25 18:00:00 IST",
+      "endTimeIST": "2026-11-25 20:20:00 IST",
+      "startTimeUTC": "2026/11/25 12:30:00 +0000",
+      "endTimeUTC": "2026/11/25 14:50:00 +0000"
     },
     "dashStreams": []
   },
@@ -433,6 +481,69 @@
     "dashStreams": []
   },
   {
+    "id": 3899,
+    "title": "Bolton Wanderers vs West Bromwich Albion",
+    "slug": "Bolton-Wanderers-vs-West-Bromwich-Albion",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Championship",
+      "category": "Football",
+      "teamA": "Bolton Wanderers",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/5/image",
+      "teamB": "West Bromwich Albion",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/8/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18/image/dark",
+      "startTimeIST": "2026-11-26 01:15:00 IST",
+      "endTimeIST": "2026-11-26 03:35:00 IST",
+      "startTimeUTC": "2026/11/25 19:45:00 +0000",
+      "endTimeUTC": "2026/11/25 22:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 3900,
+    "title": "Burnley vs Birmingham City",
+    "slug": "Burnley-vs-Birmingham-City",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Championship",
+      "category": "Football",
+      "teamA": "Burnley",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/6/image",
+      "teamB": "Birmingham City",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/9/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18/image/dark",
+      "startTimeIST": "2026-11-26 01:15:00 IST",
+      "endTimeIST": "2026-11-26 03:35:00 IST",
+      "startTimeUTC": "2026/11/25 19:45:00 +0000",
+      "endTimeUTC": "2026/11/25 22:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 3901,
+    "title": "Watford vs Blackburn Rovers",
+    "slug": "Watford-vs-Blackburn-Rovers",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Championship",
+      "category": "Football",
+      "teamA": "Watford",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/24/image",
+      "teamB": "Blackburn Rovers",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/46/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18/image/dark",
+      "startTimeIST": "2026-11-26 01:15:00 IST",
+      "endTimeIST": "2026-11-26 03:35:00 IST",
+      "startTimeUTC": "2026/11/25 19:45:00 +0000",
+      "endTimeUTC": "2026/11/25 22:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
     "id": 2552,
     "title": "Atlético Madrid vs Viking FK",
     "slug": "Atlético-Madrid-vs-Viking-FK",
@@ -572,6 +683,27 @@
       "teamB": "Manchester United",
       "teamBFlag": "https://img.sofascore.com/api/v1/team/35/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/7/image/dark",
+      "startTimeIST": "2026-11-26 01:30:00 IST",
+      "endTimeIST": "2026-11-26 03:50:00 IST",
+      "startTimeUTC": "2026/11/25 20:00:00 +0000",
+      "endTimeUTC": "2026/11/25 22:20:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 3902,
+    "title": "Stoke City vs Millwall",
+    "slug": "Stoke-City-vs-Millwall",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Championship",
+      "category": "Football",
+      "teamA": "Stoke City",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/29/image",
+      "teamB": "Millwall",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/25/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/18/image/dark",
       "startTimeIST": "2026-11-26 01:30:00 IST",
       "endTimeIST": "2026-11-26 03:50:00 IST",
       "startTimeUTC": "2026/11/25 20:00:00 +0000",
