@@ -96,8 +96,8 @@
       {
         "title": "WILLOW - AQ",
         "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/faxkswwplm/out/v1/6360aca9a29e49108a0d7c44fce32af7/cenc.mpd",
-        "key": "2c0a5ca2bcc67426156a65d85d53f5ae:02b0a91443f3b8682dd08912875eeb61"
+        "url": "https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/fhmmqyl8ck/out/v1/34dd0d9326ac481e816ff0573f59be3b/cenc.mpd",
+        "key": "1b2d04c3583cb8cd35fdf091453a9927:9584b37353992c00415eac1ae42cb3df"
       },
       {
         "title": "FANCODE - AQ",
@@ -132,8 +132,8 @@
       {
         "title": "WILLOW S2 - AQ",
         "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/faxkswwplm/out/v1/6360aca9a29e49108a0d7c44fce32af7/cenc.mpd",
-        "key": "2c0a5ca2bcc67426156a65d85d53f5ae:02b0a91443f3b8682dd08912875eeb61"
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fhmmqyl8ck/out/v1/34dd0d9326ac481e816ff0573f59be3b/cenc.mpd",
+        "key": "1b2d04c3583cb8cd35fdf091453a9927:9584b37353992c00415eac1ae42cb3df"
       },
       {
         "title": "FANCODE - SD",
@@ -172,7 +172,7 @@
     "title": "Melbourne Renegades Women vs Brisbane Heat Women",
     "slug": "Melbourne-Renegades-Women-vs-Brisbane-Heat-Women",
     "cat": "Cricket",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Women's Big Bash League",
       "category": "Cricket",
@@ -188,10 +188,10 @@
     },
     "dashStreams": [
       {
-        "title": "WILLOW AQ",
+        "title": "WILLOW - AQ",
         "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/onfb54mf87/out/v1/b762565df6804407b8238a706b9106de/cenc.mpd",
-        "key": "e929ffbf0190098c52fa2c689dd2311e:b499ea7a1c854eaddbf3021a7b3d40bc"
+        "url": "https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/8s0mwls1j6/out/v1/3af3f6a860de4f43b2867101e5a26cce/cenc.mpd",
+        "key": "26c4fabdcc5a260a6e451538cfb05b78:92f785e2cf78b827cc1505bce8326fac"
       },
       {
         "title": "SKY CRICKET FHD",
@@ -221,6 +221,12 @@
         "title": "CRICKET AU AQ",
         "type": "hls",
         "url": "https://host-64-235-250-99.contentfabric.io/qlibs/ilibBFVVnZD2HsyW1Rmi5atMjddq2NQ/q/hq__2HZf1c4uBg6Tcge46xGoTKmLKvC7RQ5KC9L96kuLbF3cwhm5vYSp6TYtQ2LGJ13UsJm2jAV3qQks/rep/playout/default/hls-aes128/playlist.m3u8?authorization=acssjc2qBiLSsNzyssA23pyejpKFDTjB4g33F8Rqu9L5V2DaCZzchisiRB4daZXrKjudPUvyiupPRQX94daqqMJskJspCfMUg7BGCSdoxBnZdNDeBbh4cnWWeS1Y1vLbsHBCYQ1PzcdWhEFRmCtduUG8ZQYjSsg4Lrp3xtHKrGpR4e3WLaPRWVtW5a6XKSYofidm6sWaGt1aUggBbMEiUfuNzxUB3pgbZ5SN7Pmob4J3uhyR87HtHSJC9LwWAF3M29KgtVqoJhdHqL1qFuuMEhbHLrgxocXjREFt4NQ96hndJqoT5EZM8oeYsHBcgEc2ybZQq1qE7fthkKqNdPFss3cGbcN5pWXbghE7uQPJddUwwArxGTAa7dbqHMXuRZaAmqb7eGjwN7EYUAkUyxVC2xR551bkJNPc8YWkERsJLqC9mZRjTkKBDGBh8Ko63nv6ez5okKYZ9V21ez2vs6D3fkpj1gh6Jn95ZegMTbhGdmidFk7dWcDXWS9bCaimgUcTKJQnz7MVgMZmGLdqKSs419iGrp1zRaBXykqPue9quU28audCPfsF2FwWc96ih5r41WN8yXr256QKcLpsj4X3j75UFmdvo3imTJzAPdQswnANdYnX1UALd2S2",
+        "key": null
+      },
+      {
+        "title": "FANCODE [IND]",
+        "type": "hls",
+        "url": "https://in-mc-vod.fancode.com/mumbai/4250419_english_hls_ed10a05d9311864_1ta-di_h264/index.m3u8",
         "key": null
       }
     ]
