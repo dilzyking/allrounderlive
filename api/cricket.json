@@ -42,6 +42,27 @@
     "dashStreams": []
   },
   {
+    "id": 3930,
+    "title": "Sydney Sixers Women vs Melbourne Stars Women",
+    "slug": "Sydney-Sixers-Women-vs-Melbourne-Stars-Women",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "Women's Big Bash League",
+      "category": "Cricket",
+      "teamA": "Sydney Sixers Women",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/274883/image",
+      "teamB": "Melbourne Stars Women",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/274886/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/11163/image/dark",
+      "startTimeIST": "2026-11-26 13:40:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/26 08:10:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": []
+  },
+  {
     "id": 3872,
     "title": "India A vs Sri Lanka A",
     "slug": "India-A-vs-Sri-Lanka-A",
@@ -253,6 +274,27 @@
         "key": null
       }
     ]
+  },
+  {
+    "id": 3931,
+    "title": "Australia vs England",
+    "slug": "Australia-vs-England",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "T20 International",
+      "category": "Cricket",
+      "teamA": "Australia",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/187746/image",
+      "teamB": "England",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/187757/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/11191/image/dark",
+      "startTimeIST": "2026-11-27 13:45:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/27 08:15:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": []
   },
   {
     "id": 3892,
