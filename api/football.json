@@ -102,6 +102,12 @@
         "type": "hls",
         "url": "https://www.rtmpcdn.com/live/7ecadbda-bab9-44f6-b37e-58f5c51f77e7.m3u8",
         "key": null
+      },
+      {
+        "title": "BeIN Arabic SD",
+        "type": "hls",
+        "url": "https://ec.koooracity.press/mose1.m3u8",
+        "key": null
       }
     ]
   },
@@ -180,7 +186,7 @@
     "title": "Al-Taawoun vs Al Nahda SC",
     "slug": "Al-Taawoun-vs-Al-Nahda-SC",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "AFC Champions League Two",
       "category": "Football",
@@ -194,7 +200,14 @@
       "startTimeUTC": "2026/11/25 18:15:00 +0000",
       "endTimeUTC": "2026/11/25 20:35:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "FANCODE [IND]",
+        "type": "hls",
+        "url": "https://in-mc-vod.fancode.com/mumbai/4249022_english_hls_7969fe8d0114348_1ta-di_h264/index.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 3899,
