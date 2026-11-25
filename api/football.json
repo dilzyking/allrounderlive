@@ -1,39 +1,5 @@
 [
   {
-    "id": 3871,
-    "title": "Sporting U19 vs Manchester United U19",
-    "slug": "Sporting-U19-vs-Manchester-United-U19",
-    "cat": "Football",
-    "status": "ended",
-    "event": {
-      "name": "UEFA Youth League",
-      "category": "Football",
-      "teamA": "Sporting U19",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/78151/image",
-      "teamB": "Manchester United U19",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/120848/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/2132/image/dark",
-      "startTimeIST": "2026-11-25 18:30:00 IST",
-      "endTimeIST": "2026-11-25 20:50:00 IST",
-      "startTimeUTC": "2026/11/25 13:00:00 +0000",
-      "endTimeUTC": "2026/11/25 15:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "TNT SPORTS - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
-        "key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
-      },
-      {
-        "title": "SONYLIV ENG - AQ",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120303/footlive2511/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795656830~acl=/*~id=54580525332449956328218595756401~hmac=d35e2db7dbd01e3da0c733f4fca78c1f7c414b4d273da1b6dcecce5dd3173393",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 3883,
     "title": "Greece U17 vs Qatar U17",
     "slug": "Greece-U17-vs-Qatar-U17",
