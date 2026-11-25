@@ -1,26 +1,25 @@
+
 /* =====================================================
    FANCODE LIVE — MATCHDEKHO
-   1080P ONLY
-   Same card UI as Cricket / Willow.
-   Two caption lines: Teams, Series.
+   NEW DOCTOR_STRANGE JSON API
+   STRICT 1080P ONLY
+   Same Cricket / Willow card UI.
+   Two captions: Teams, Tournament.
+   Language-specific stream selection.
    ===================================================== */
 
 (function bootFancode() {
   'use strict';
 
   if (document.readyState === 'loading') {
-    document.addEventListener(
-      'DOMContentLoaded',
-      bootFancode,
-      { once: true }
-    );
+    document.addEventListener('DOMContentLoaded', bootFancode, { once: true });
     return;
   }
 
   // ---------- CONFIG ----------
 
   const API_URL =
-    'https://raw.githubusercontent.com/drmlive/fancode-live-events/refs/heads/main/fancode.json';
+    'https://raw.githubusercontent.com/doctor-8trange/zyphx8/refs/heads/main/data/fancode.json';
 
   const SKELETON_COUNT = 6;
   const REFRESH_INTERVAL = 60000;
@@ -29,9 +28,7 @@
 
   const track = document.getElementById('fancodeTrack');
 
-  if (!track || track.dataset.initialized === 'true') {
-    return;
-  }
+  if (!track || track.dataset.initialized === 'true') return;
 
   track.dataset.initialized = 'true';
 
@@ -41,9 +38,7 @@
   const prevBtn = document.getElementById('fancodeArrowLeft');
   const nextBtn = document.getElementById('fancodeArrowRight');
 
-  const reduced = matchMedia(
-    '(prefers-reduced-motion: reduce)'
-  );
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)');
 
   // ---------- STATE ----------
 
@@ -83,65 +78,71 @@
   }
 
   function getBaseMatchId(value) {
-    if (value == null) return '';
-
-    return String(value).split('_')[0].trim();
+    return String(value ?? '').split('_')[0].trim();
   }
 
   function extractMatches(data) {
-    if (Array.isArray(data)) {
-      return data;
-    }
-
-    if (Array.isArray(data?.matches)) {
-      return data.matches;
-    }
-
-    return [];
+    return Array.isArray(data?.matches)
+      ? data.matches
+      : [];
   }
 
   // ---------- STATUS ----------
 
   function getStatus(match) {
-    return String(
-      match.status || 'UPCOMING'
-    ).toUpperCase();
+    const status = String(match.status || '').toUpperCase();
+
+    if (status === 'LIVE' || status === 'STARTED') {
+      return 'LIVE';
+    }
+
+    if (
+      status === 'NOT_STARTED' ||
+      status === 'UPCOMING' ||
+      status === 'SCHEDULED'
+    ) {
+      return 'UPCOMING';
+    }
+
+    if (
+      status === 'COMPLETED' ||
+      status === 'ENDED' ||
+      status === 'FINISHED'
+    ) {
+      return 'ENDED';
+    }
+
+    return status || 'UPCOMING';
   }
 
   function getStatusPriority(status) {
     if (status === 'LIVE') return 0;
     if (status === 'UPCOMING') return 1;
-
     return 2;
   }
 
   // ---------- TEAM CAPTION ----------
 
   function getTeamCaption(match) {
-    const teamA =
-      match.team_1 ||
-      match.team1 ||
-      match.teamA;
+    const teams = Array.isArray(match.team)
+      ? match.team
+      : [];
 
-    const teamB =
-      match.team_2 ||
-      match.team2 ||
-      match.teamB;
+    const teamA = teams[0]?.name;
+    const teamB = teams[1]?.name;
 
     if (teamA && teamB) {
       return `${teamA} VS ${teamB}`;
     }
 
     const title = String(
-      match.match_name ||
-      match.title ||
-      'Live Match'
+      match.title || 'Live Match'
     ).trim();
 
     const segments = title.split(/\s+[-–—|]\s+/);
 
-    const matchup = segments.find(
-      part => /\s+(?:vs?\.?|versus)\s+/i.test(part)
+    const matchup = segments.find(part =>
+      /\s+(?:vs?\.?|versus)\s+/i.test(part)
     );
 
     return (matchup || title).replace(
@@ -150,17 +151,13 @@
     );
   }
 
-  // ---------- SECOND CAPTION ----------
+  // ---------- TOURNAMENT CAPTION ----------
 
   function getSeriesCaption(match) {
     const candidates = [
-      match.event_name,
-      match.series,
       match.tournament,
       match.category,
-      match.league,
-      match.sport,
-      match.event_category
+      match.short_name
     ];
 
     for (const value of candidates) {
@@ -169,62 +166,71 @@
       }
     }
 
-    const title = String(match.title || '');
-    const parts = title.split(/\s+[-–—|]\s+/);
-
-    if (parts.length > 1) {
-      const prefix = parts.find(
-        part => !/\s+(?:vs?\.?|versus)\s+/i.test(part)
-      );
-
-      if (prefix) {
-        return prefix.trim();
-      }
-    }
-
     return 'Live Sports';
   }
 
-  // ---------- STRICT 1080P ----------
-  // New API provides direct URLs instead of auto_streams.
+  // ---------- STRICT 1080P STREAM ----------
+
+  // New API:
+  // auto_streams: [
+  //   {
+  //     auto: "#EXTM3U ... 1080p.m3u8 ..."
+  //   }
+  // ]
 
   function get1080pStream(match) {
-    const candidates = [
-      match.adfree_url,
-      match.dai_url
-    ];
+    const streams = Array.isArray(match.auto_streams)
+      ? match.auto_streams
+      : [];
 
-    for (const value of candidates) {
-      if (typeof value !== 'string' || !value.trim()) {
-        continue;
+    for (const stream of streams) {
+      const playlist = String(stream?.auto || '');
+
+      if (!playlist) continue;
+
+      // Find the direct 1080p playlist URL.
+      const lines = playlist.split(/\r?\n/);
+
+      for (const line of lines) {
+        const value = line.trim();
+
+        if (!value || value.startsWith('#')) continue;
+
+        if (!/\/1080p\.m3u8(?:\?|$)/i.test(value)) {
+          continue;
+        }
+
+        const validUrl = safeUrl(value);
+
+        if (validUrl) return validUrl;
       }
 
-      const validUrl = safeUrl(value.trim());
+      // Support an API entry containing a direct 1080p URL.
+      const directMatch = playlist.match(
+        /https?:\/\/[^\s"'<>]+\/1080p\.m3u8(?:\?[^\s"'<>]*)?/i
+      );
 
-      if (!validUrl) continue;
+      if (directMatch) {
+        const validUrl = safeUrl(directMatch[0]);
 
-      try {
-        const url = new URL(validUrl);
-
-        if (/\/1080p\.m3u8$/i.test(url.pathname)) {
-          return validUrl;
-        }
-      } catch (_) {}
+        if (validUrl) return validUrl;
+      }
     }
 
     return '';
   }
 
   // ---------- EXPIRY CHECK ----------
-  // Example: hdntl=Expires=1794551600~...
 
-  function isExpired(match) {
-    const streamUrl = get1080pStream(match);
+  // Example:
+  // ?hdntl=Expires=1788511866~_GO=Generated~...
 
+  function isExpired(streamUrl) {
     if (!streamUrl) return false;
 
     try {
       const url = new URL(streamUrl);
+
       let expiry = null;
 
       for (const [name, value] of url.searchParams) {
@@ -260,25 +266,36 @@
         : expiry * 1000;
 
       return Date.now() >= expiryMs;
+
     } catch {
       return false;
     }
   }
 
-  // ---------- IMAGE ----------
+  // ---------- POSTER ----------
 
   function getPosters(match) {
+    const cdn = match.image_cdn || {};
+
     return [...new Set(
       [
+        cdn.TATAPLAY,
         match.image,
-        match.src,
-        match.poster,
-        match.cover_image,
-        match.thumbnail
+        cdn.APP,
+        cdn.BG_IMAGE,
+        cdn.CLOUDFARE
       ]
         .map(safeUrl)
         .filter(Boolean)
     )];
+  }
+
+  // ---------- LANGUAGE ----------
+
+  function getLanguage(match) {
+    return String(match.language || 'DEFAULT')
+      .trim()
+      .toUpperCase();
   }
 
   // ---------- STATUS BADGE ----------
@@ -296,10 +313,7 @@
           aria-label="Upcoming match"
           title="Upcoming match"
         >
-          <svg
-            viewBox="0 0 24 24"
-            aria-hidden="true"
-          >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
             <path d="M12 22a2.5 2.5 0 0 0 2.5-2.5h-5A2.5 2.5 0 0 0 12 22zm7-6V11a7 7 0 0 0-5-6.7V3a2 2 0 0 0-4 0v1.3A7 7 0 0 0 5 11v5l-2 2v1h18v-1z"/>
           </svg>
         </span>
@@ -312,8 +326,8 @@
   // ---------- RENDER CARD ----------
 
   function renderCard(match) {
-    // Preserve language suffix internally to select the exact entry.
     const matchId = String(match.match_id ?? '').trim();
+    const language = getLanguage(match);
 
     const title = String(match.title || 'Live Match');
     const teams = getTeamCaption(match);
@@ -343,8 +357,9 @@
         type="button"
         class="card fancode-live-card"
         data-match-id="${esc(matchId)}"
+        data-language="${esc(language)}"
         data-title="${esc(title)}"
-        aria-label="${esc(teams + ' — ' + series)}"
+        aria-label="${esc(teams + ' — ' + series + ' — ' + language)}"
       >
         <div class="thumb fancode-thumb">
           ${posterHTML}
@@ -376,10 +391,7 @@
     track.innerHTML = Array.from(
       { length: SKELETON_COUNT },
       () => `
-        <div
-          class="card fc-skeleton-card"
-          aria-hidden="true"
-        >
+        <div class="card fc-skeleton-card" aria-hidden="true">
           <div class="thumb fc-skeleton-thumb"></div>
 
           <div class="caption">
@@ -400,7 +412,7 @@
       .filter(match =>
         match &&
         match.match_id != null &&
-        (match.title || match.team_1)
+        (match.title || match.team?.[0]?.name)
       )
       .sort((a, b) => {
         const priority =
@@ -428,9 +440,7 @@
   function updateArrows() {
     const thumb = track.querySelector('.thumb');
 
-    if (!thumb || !prevBtn || !rail) {
-      return;
-    }
+    if (!thumb || !prevBtn || !rail) return;
 
     const top =
       thumb.getBoundingClientRect().height / 2 -
@@ -459,9 +469,7 @@
     loading = true;
     track.setAttribute('aria-busy', 'true');
 
-    if (!loaded) {
-      showSkeleton();
-    }
+    if (!loaded) showSkeleton();
 
     const controller = new AbortController();
 
@@ -508,6 +516,7 @@
       }
 
       loaded = true;
+
     } catch (error) {
       console.error('[FanCodeLive]', error);
 
@@ -516,15 +525,13 @@
           <div class="fc-empty">
             Unable to load FanCode matches.
 
-            <button
-              type="button"
-              class="fc-retry"
-            >
+            <button type="button" class="fc-retry">
               Retry
             </button>
           </div>
         `;
       }
+
     } finally {
       clearTimeout(timeout);
 
@@ -535,7 +542,7 @@
 
   // ---------- PLAY 1080P ----------
 
-  async function playMatch(matchId, title) {
+  async function playMatch(matchId, language, title) {
     if (opening) return;
 
     if (!matchId) {
@@ -553,11 +560,14 @@
     );
 
     try {
-      // Fetch the API again on every click.
+      // Fetch fresh API data on every click.
 
       const response = await fetch(API_URL, {
         cache: 'no-store',
-        signal: controller.signal
+        signal: controller.signal,
+        headers: {
+          Accept: 'application/json'
+        }
       });
 
       if (!response.ok) {
@@ -565,11 +575,15 @@
       }
 
       const data = await response.json();
+
       const allMatches = extractMatches(data);
 
-      const match = allMatches.find(
-        item =>
-          String(item?.match_id ?? '').trim() === matchId
+      // Match both ID and language.
+      // This prevents selecting the wrong language entry.
+
+      const match = allMatches.find(item =>
+        String(item?.match_id ?? '').trim() === matchId &&
+        getLanguage(item) === language
       );
 
       if (!match) {
@@ -586,7 +600,7 @@
         return;
       }
 
-      if (isExpired(match)) {
+      if (isExpired(streamUrl)) {
         alert(
           'Stream link expired. Please try again later.'
         );
@@ -599,16 +613,18 @@
         match_id: getBaseMatchId(match.match_id)
       });
 
-      // Same original player route and parameters.
+      // Preserve original player route and parameters.
 
       window.location.href =
         'fc-play?' + params.toString();
+
     } catch (error) {
       console.error('[FanCodePlayback]', error);
 
       alert(
         'Failed to load 1080p stream. Please try again.'
       );
+
     } finally {
       clearTimeout(timeout);
       opening = false;
@@ -657,6 +673,7 @@
 
     playMatch(
       card.dataset.matchId,
+      card.dataset.language,
       card.dataset.title
     );
   });
@@ -724,9 +741,7 @@
     visible = isVisible;
 
     if (visible && !document.hidden) {
-      if (!loaded) {
-        fetchFancodeData();
-      }
+      if (!loaded) fetchFancodeData();
 
       startRefresh();
       scheduleArrows();
@@ -761,6 +776,7 @@
     );
 
     observer.observe(section);
+
   } else {
     handleVisibility(true);
   }
