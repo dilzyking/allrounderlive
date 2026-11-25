@@ -1,45 +1,5 @@
 [
   {
-    "id": 2540,
-    "title": "Persib Bandung vs FC Seoul",
-    "slug": "Persib-Bandung-vs-FC-Seoul",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "AFC Champions League Two",
-      "category": "Football",
-      "teamA": "Persib Bandung",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/64289/image",
-      "teamB": "FC Seoul",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/7646/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/668/image/dark",
-      "startTimeIST": "2026-11-25 17:45:00 IST",
-      "endTimeIST": "2026-11-25 20:05:00 IST",
-      "startTimeUTC": "2026/11/25 12:15:00 +0000",
-      "endTimeUTC": "2026/11/25 14:35:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SPORTDIGITAL FUSSBALL AQ",
-        "type": "hls",
-        "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/77693/77693_264_live.m3u8",
-        "key": null
-      },
-      {
-        "title": "TAPMAD - AQ",
-        "type": "hls",
-        "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a1548c4faf15fc600b1e3e968408/01a1548c7fde1ea557841e1612cf76/main.m3u8",
-        "key": null
-      },
-      {
-        "title": "FANCODE [IND]",
-        "type": "hls",
-        "url": "https://in-mc-vod.fancode.com/mumbai/4249026_english_hls_3445d7439d80501_1ta-di_h264/index.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 3897,
     "title": "Ecuador U17 vs South Korea U17",
     "slug": "Ecuador-U17-vs-South-Korea-U17",
@@ -242,7 +202,7 @@
     "title": "Greece U17 vs Qatar U17",
     "slug": "Greece-U17-vs-Qatar-U17",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "U17 World Championship",
       "category": "Football",
@@ -263,7 +223,7 @@
     "title": "Panama U17 vs Egypt U17",
     "slug": "Panama-U17-vs-Egypt-U17",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "U17 World Championship",
       "category": "Football",
@@ -284,7 +244,7 @@
     "title": "Primeiro de Agosto vs Kabuscorp SCP",
     "slug": "Primeiro-de-Agosto-vs-Kabuscorp-SCP",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Girabola",
       "category": "Football",
@@ -340,7 +300,20 @@
       "startTimeUTC": "2026/11/25 15:30:00 +0000",
       "endTimeUTC": "2026/11/25 17:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "FOX SPORTS FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+        "key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
+      },
+      {
+        "title": "D SPORTS+ FHD",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ud6bnhthpj/out/v1/2639a2f4480f4269953de466d5f46463/cenc.mpd",
+        "key": "83f81c4cc1443991543de4e22eea7586:ddfd7ca653d6f35543d8edb3c688e20f"
+      }
+    ]
   },
   {
     "id": 3876,
