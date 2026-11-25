@@ -92,7 +92,20 @@
       "startTimeUTC": "2026/11/25 12:15:00 +0000",
       "endTimeUTC": "2026/11/25 14:35:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "TAPMAD - AQ",
+        "type": "hls",
+        "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a1548c4faf15fc600b1e3e968408/01a1548c7fde1ea557841e1612cf76/main.m3u8",
+        "key": null
+      },
+      {
+        "title": "FANCODE [IND]",
+        "type": "hls",
+        "url": "https://in-mc-vod.fancode.com/mumbai/4249026_english_hls_3445d7439d80501_1ta-di_h264/index.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 3897,
@@ -113,7 +126,14 @@
       "startTimeUTC": "2026/11/25 12:30:00 +0000",
       "endTimeUTC": "2026/11/25 14:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "HD STREAM",
+        "type": "hls",
+        "url": "https://live3979.zundrixmediapipeline.com/live/channel11.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 3898,
@@ -134,7 +154,14 @@
       "startTimeUTC": "2026/11/25 12:30:00 +0000",
       "endTimeUTC": "2026/11/25 14:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "HD STREAM",
+        "type": "hls",
+        "url": "https://live3979.zundrixmediapipeline.com/live/channel11.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 3871,
