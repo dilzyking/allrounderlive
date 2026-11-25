@@ -1,79 +1,5 @@
 [
   {
-    "id": 2538,
-    "title": "Gamba Osaka vs Port FC",
-    "slug": "Gamba-Osaka-vs-Port-FC",
-    "cat": "Football",
-    "status": "ended",
-    "event": {
-      "name": "AFC Champions League Elite",
-      "category": "Football",
-      "teamA": "Gamba Osaka",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/3138/image",
-      "teamB": "Port FC",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/40661/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/463/image/dark",
-      "startTimeIST": "2026-11-25 15:30:00 IST",
-      "endTimeIST": "2026-11-25 17:50:00 IST",
-      "startTimeUTC": "2026/11/25 10:00:00 +0000",
-      "endTimeUTC": "2026/11/25 12:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "TAPMAD - AQ",
-        "type": "hls",
-        "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a154de56151ea540a81c2b41b77a/01a154de85c41567ee931e109fa5a5/main.m3u8",
-        "key": null
-      },
-      {
-        "title": "FANCODE AQ (IND)",
-        "type": "hls",
-        "url": "https://in-mc-vod.fancode.com/mumbai/4248759_english_hls_8e543051a454617_1ta-di_h264/index.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 2539,
-    "title": "Kashima Antlers vs Jeonbuk Hyundai Motors",
-    "slug": "Kashima-Antlers-vs-Jeonbuk-Hyundai-Motors",
-    "cat": "Football",
-    "status": "ended",
-    "event": {
-      "name": "AFC Champions League Elite",
-      "category": "Football",
-      "teamA": "Kashima Antlers",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/3134/image",
-      "teamB": "Jeonbuk Hyundai Motors",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/6908/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/463/image/dark",
-      "startTimeIST": "2026-11-25 15:30:00 IST",
-      "endTimeIST": "2026-11-25 17:50:00 IST",
-      "startTimeUTC": "2026/11/25 10:00:00 +0000",
-      "endTimeUTC": "2026/11/25 12:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SPORTDIGITAL AQ",
-        "type": "hls",
-        "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/102539/102539_264_live.m3u8",
-        "key": null
-      },
-      {
-        "title": "TAPMAD - AQ",
-        "type": "hls",
-        "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a154a641d51567ee931e109fa59f/01a154a676281ea557841e1612cf77/main.m3u8",
-        "key": null
-      },
-      {
-        "title": "FANCODE AQ (IND)",
-        "type": "hls",
-        "url": "https://in-mc-vod.fancode.com/mumbai/4248758_english_hls_df11de56b866843_1ta-di_h264/index.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 2540,
     "title": "Persib Bandung vs FC Seoul",
     "slug": "Persib-Bandung-vs-FC-Seoul",
@@ -93,6 +19,12 @@
       "endTimeUTC": "2026/11/25 14:35:00 +0000"
     },
     "dashStreams": [
+      {
+        "title": "SPORTDIGITAL FUSSBALL AQ",
+        "type": "hls",
+        "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/77693/77693_264_live.m3u8",
+        "key": null
+      },
       {
         "title": "TAPMAD - AQ",
         "type": "hls",
@@ -238,6 +170,12 @@
       "endTimeUTC": "2026/11/25 15:50:00 +0000"
     },
     "dashStreams": [
+      {
+        "title": "TSN SPORTS AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd",
+        "key": "385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8"
+      },
       {
         "title": "FOX - AQ",
         "type": "dash",
