@@ -202,6 +202,12 @@
     },
     "dashStreams": [
       {
+        "title": "TAPMAD - AQ",
+        "type": "hls",
+        "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a154a641d51567ee931e109fa59f/01a154a676281ea557841e1612cf77/main.m3u8",
+        "key": null
+      },
+      {
         "title": "FANCODE [IND]",
         "type": "hls",
         "url": "https://in-mc-vod.fancode.com/mumbai/4249022_english_hls_7969fe8d0114348_1ta-di_h264/index.m3u8",
