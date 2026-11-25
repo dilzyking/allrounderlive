@@ -4,7 +4,7 @@
     "title": "Sporting U19 vs Manchester United U19",
     "slug": "Sporting-U19-vs-Manchester-United-U19",
     "cat": "Football",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "UEFA Youth League",
       "category": "Football",
@@ -190,27 +190,6 @@
         "key": null
       }
     ]
-  },
-  {
-    "id": 3885,
-    "title": "Primeiro de Agosto vs Kabuscorp SCP",
-    "slug": "Primeiro-de-Agosto-vs-Kabuscorp-SCP",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "Girabola",
-      "category": "Football",
-      "teamA": "Primeiro de Agosto",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/134318/image",
-      "teamB": "Kabuscorp SCP",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/134310/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/2308/image/dark",
-      "startTimeIST": "2026-11-25 20:00:00 IST",
-      "endTimeIST": "2026-11-25 22:20:00 IST",
-      "startTimeUTC": "2026/11/25 14:30:00 +0000",
-      "endTimeUTC": "2026/11/25 16:50:00 +0000"
-    },
-    "dashStreams": []
   },
   {
     "id": 3886,
