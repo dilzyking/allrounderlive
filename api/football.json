@@ -1,156 +1,10 @@
 [
   {
-    "id": 3886,
-    "title": "Australia U17 vs Mozambique U17",
-    "slug": "Australia-U17-vs-Mozambique-U17",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "U17 World Championship",
-      "category": "Football",
-      "teamA": "Australia U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/22578/image",
-      "teamB": "Mozambique U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1126751/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
-      "startTimeIST": "2026-11-25 21:00:00 IST",
-      "endTimeIST": "2026-11-25 23:20:00 IST",
-      "startTimeUTC": "2026/11/25 15:30:00 +0000",
-      "endTimeUTC": "2026/11/25 17:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PlayZ TV Live",
-        "type": "hls",
-        "url": "https://live3979.zundrixmediapipeline.com/live/channel21.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 3887,
-    "title": "Denmark U17 vs Argentina U17",
-    "slug": "Denmark-U17-vs-Argentina-U17",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "U17 World Championship",
-      "category": "Football",
-      "teamA": "Denmark U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/22597/image",
-      "teamB": "Argentina U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/22576/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
-      "startTimeIST": "2026-11-25 21:00:00 IST",
-      "endTimeIST": "2026-11-25 23:20:00 IST",
-      "startTimeUTC": "2026/11/25 15:30:00 +0000",
-      "endTimeUTC": "2026/11/25 17:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "FOX SPORTS FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
-        "key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
-      },
-      {
-        "title": "D SPORTS+ FHD",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ud6bnhthpj/out/v1/2639a2f4480f4269953de466d5f46463/cenc.mpd",
-        "key": "83f81c4cc1443991543de4e22eea7586:ddfd7ca653d6f35543d8edb3c688e20f"
-      }
-    ]
-  },
-  {
-    "id": 3876,
-    "title": "Al Faisaly SC vs Al-Rayyan",
-    "slug": "Al-Faisaly-SC-vs-Al-Rayyan",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "AFC Champions League Two",
-      "category": "Football",
-      "teamA": "Al Faisaly SC",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/47482/image",
-      "teamB": "Al-Rayyan",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/40660/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/668/image/dark",
-      "startTimeIST": "2026-11-25 21:30:00 IST",
-      "endTimeIST": "2026-11-25 23:50:00 IST",
-      "startTimeUTC": "2026/11/25 16:00:00 +0000",
-      "endTimeUTC": "2026/11/25 18:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 3877,
-    "title": "Al-Jazira vs Gol Gohar Sirjan",
-    "slug": "Al-Jazira-vs-Gol-Gohar-Sirjan",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "AFC Champions League Two",
-      "category": "Football",
-      "teamA": "Al-Jazira",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/8090/image",
-      "teamB": "Gol Gohar Sirjan",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/275525/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/668/image/dark",
-      "startTimeIST": "2026-11-25 21:30:00 IST",
-      "endTimeIST": "2026-11-25 23:50:00 IST",
-      "startTimeUTC": "2026/11/25 16:00:00 +0000",
-      "endTimeUTC": "2026/11/25 18:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 3878,
-    "title": "Al Kuwait SC vs Al-Wahda FC",
-    "slug": "Al-Kuwait-SC-vs-Al-Wahda-FC",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "AFC Champions League Two",
-      "category": "Football",
-      "teamA": "Al Kuwait SC",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/32525/image",
-      "teamB": "Al-Wahda FC",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/264115/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/668/image/dark",
-      "startTimeIST": "2026-11-25 21:30:00 IST",
-      "endTimeIST": "2026-11-25 23:50:00 IST",
-      "startTimeUTC": "2026/11/25 16:00:00 +0000",
-      "endTimeUTC": "2026/11/25 18:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
-    "id": 3879,
-    "title": "Al-Muharraq SC vs Arkadag FK",
-    "slug": "Al-Muharraq-SC-vs-Arkadag-FK",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "AFC Champions League Two",
-      "category": "Football",
-      "teamA": "Al-Muharraq SC",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/45474/image",
-      "teamB": "Arkadag FK",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/469420/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/668/image/dark",
-      "startTimeIST": "2026-11-25 21:30:00 IST",
-      "endTimeIST": "2026-11-25 23:50:00 IST",
-      "startTimeUTC": "2026/11/25 16:00:00 +0000",
-      "endTimeUTC": "2026/11/25 18:20:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 2550,
     "title": "Sabah FK vs FC Barcelona",
     "slug": "Sabah-FK-vs-FC-Barcelona",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Champions League",
       "category": "Football",
@@ -166,10 +20,82 @@
     },
     "dashStreams": [
       {
+        "title": "DAZN SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vm6obaulus/out/v1/6653f58dc54d4b2ca30baade63aacc60/cenc.mpd",
+        "key": "67e139dd505a71f2472b89a21061a068:a82a007cb3473ce7be8ad1557ba2910d"
+      },
+      {
+        "title": "PARAMOUNT+ - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/zh63cyh9r0/out/v1/e89877e6282243e4aae63c0d6aafa8f4/cenc.mpd",
+        "key": "f2c4e32c00492683db06bd35bf40f13c:46d854f0d6b8fcdfbfbc45e3951e5eed"
+      },
+      {
         "title": "TNT SPORTS - AQ",
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd?",
         "key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
+      },
+      {
+        "title": "VIX TUDN ES - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/zgivvqqv5x/out/v1/b853456a96d8434cb6cea6ade4feddd3/cenc.mpd",
+        "key": "9b331f76d1893b219f9dec596c2df5ff:c7938b9dba784355f138982cf956e8dd"
+      },
+      {
+        "title": "DAZN DE - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oqlkwalcm7/out/v1/26502b89dc59430c91779ef5223c2a50/cenc.mpd",
+        "key": "3f9ed4e17c6d6b98e10772c04193201b:3149fb721afa9ae7f76e84e0bdee6a92"
+      },
+      {
+        "title": "TNT BRASIL - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/gwhjevq6ar/out/v1/bf0c281f2dba46cb87434d45ed13003f/cenc.mpd",
+        "key": "83a4bc2c011e2c72b35b7b5f2d35560d:01bd0115c83d3493449181ba68998ab1"
+      },
+      {
+        "title": "SONYLIV ENG - AQ",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2037139/footlive2511/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795670807~acl=/*~id=06601972009501816237487700298060~hmac=93900a4bfbd92bbea9c65d8974d8e38ca7f6ef505c12e794731f7a2f58f7c53a",
+        "key": null
+      },
+      {
+        "title": "SONYLIV HIN - AQ",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2022322/footlive2511/HIN/std_lrh-800300010.m3u8?hdnea=exp=1795670807~acl=/*~id=06601972009501816237487700298060~hmac=93900a4bfbd92bbea9c65d8974d8e38ca7f6ef505c12e794731f7a2f58f7c53a",
+        "key": null
+      },
+      {
+        "title": "SONYLIV TAM - AQ",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2037140/footlive2511/TAM/std_lrh-800300010.m3u8?hdnea=exp=1795670807~acl=/*~id=06601972009501816237487700298060~hmac=93900a4bfbd92bbea9c65d8974d8e38ca7f6ef505c12e794731f7a2f58f7c53a",
+        "key": null
+      },
+      {
+        "title": "SONYLIV TEL - AQ",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2022317/footlive2511/TEL/std_lrh-800300010.m3u8?hdnea=exp=1795670807~acl=/*~id=06601972009501816237487700298060~hmac=93900a4bfbd92bbea9c65d8974d8e38ca7f6ef505c12e794731f7a2f58f7c53a",
+        "key": null
+      },
+      {
+        "title": "SONYLIV KAN - AQ",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2022320/footlive2511/KAN/std_lrh-800300010.m3u8?hdnea=exp=1795670807~acl=/*~id=06601972009501816237487700298060~hmac=93900a4bfbd92bbea9c65d8974d8e38ca7f6ef505c12e794731f7a2f58f7c53a",
+        "key": null
+      },
+      {
+        "title": "TAPMAD - AQ",
+        "type": "hls",
+        "url": "https://tencent-cdn.tapmad.com/v1/01a14abbcff31ea540a81c2b41b760/01a14abc06421567ee931e109fa577/main.m3u8",
+        "key": null
+      },
+      {
+        "title": "BeIN Arabic HD",
+        "type": "hls",
+        "url": "https://ylp.akhbarnewscdn.store/cdn/master.m3u8",
+        "key": null
       }
     ]
   },
@@ -178,7 +104,7 @@
     "title": "SK Slavia Praha vs Villarreal",
     "slug": "SK-Slavia-Praha-vs-Villarreal",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Champions League",
       "category": "Football",
@@ -192,7 +118,44 @@
       "startTimeUTC": "2026/11/25 17:45:00 +0000",
       "endTimeUTC": "2026/11/25 20:05:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "DAZN SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/mjos3kgej5/out/v1/538db54d1c4146c7b39f3db9bb76c35f/cenc.mpd",
+        "key": "606894735015d23d9d69bfd0037178e7:4748d804aec9906a991bff5225908f1c"
+      },
+      {
+        "title": "PARAMOUNT+ - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/woww8ppzgt/out/v1/bc97323e04cd4463b306bdc9d66ce603/cenc.mpd",
+        "key": "cd6ad5529543f1e46206da1bdc0a9698:66c070216a1cd71c1d88fc4509f4ed71"
+      },
+      {
+        "title": "VIX SPANISH - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/a6z36g01sa/out/v1/7c7d16e0b54848b0ba34ec2d68d0b638/cenc.mpd",
+        "key": "3c6c39d6c7b945651cd8a36029cea49d:60da32bfde8dac18d4d1344b3f68a2eb"
+      },
+      {
+        "title": "DAZN DE - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/to3jxmtgqe/out/v1/29c3e2d4f9dd436d80d9a2017f7501dc/cenc.mpd",
+        "key": "56cbd675ccdb2b4019cd370cb5972f27:fe9e827112a2f537b0f318b641cd9c1b"
+      },
+      {
+        "title": "SONYLIV ENG - AQ",
+        "type": "hls",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120301/footlive2511/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795671415~acl=/*~id=23438434031858107065006866488292~hmac=071b3c297cf7600ea304c0506deca16346c02a27dd769fd1511ec50530bd47bc",
+        "key": null
+      },
+      {
+        "title": "TAPMAD - AQ",
+        "type": "hls",
+        "url": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 3880,
