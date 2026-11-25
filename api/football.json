@@ -4,7 +4,7 @@
     "title": "Bolton Wanderers vs West Bromwich Albion",
     "slug": "Bolton-Wanderers-vs-West-Bromwich-Albion",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Championship",
       "category": "Football",
@@ -25,7 +25,7 @@
     "title": "Burnley vs Birmingham City",
     "slug": "Burnley-vs-Birmingham-City",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Championship",
       "category": "Football",
@@ -41,6 +41,12 @@
     },
     "dashStreams": [
       {
+        "title": "PARAMOUNT+ - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/4edtkjkxom/out/v1/557b1ebffddd42908b09cccbd24eca86/cenc.mpd",
+        "key": "41af318fd254b0297f50830d70c255ed:71e5e0b04a01fcd8f69bd54f3a023e4b"
+      },
+      {
         "title": "HD STREAM",
         "type": "hls",
         "url": "https://live3979.zundrixmediapipeline.com/live/channel10.m3u8",
@@ -53,7 +59,7 @@
     "title": "Watford vs Blackburn Rovers",
     "slug": "Watford-vs-Blackburn-Rovers",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Championship",
       "category": "Football",
@@ -95,7 +101,14 @@
       "startTimeUTC": "2026/11/25 20:00:00 +0000",
       "endTimeUTC": "2026/11/25 22:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/9lp9nk4w8u/out/v1/e6e42a79382f4401b90da0db90efa1e7/cenc.mpd",
+        "key": "49f5f90163d652763fcf3c386233c945:a48bdc10a063f0fb7902b6367011f83b"
+      }
+    ]
   },
   {
     "id": 2553,
@@ -118,22 +131,16 @@
     },
     "dashStreams": [
       {
+        "title": "PARAMOUNT+ - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/js6a6quvxr/out/v1/9f550ef229a8412b90a727d7fb9ff4b5/cenc.mpd",
+        "key": "bd53b68ea6d6c3f0607406eb9a60c6ca:bf1103bd2a674decf82ce34994f125fa"
+      },
+      {
         "title": "TNT SPORTS - AQ",
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
         "key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
-      },
-      {
-        "title": "CBS NETWORK FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-        "key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-      },
-      {
-        "title": "SPORT 1 CZ FHD",
-        "type": "dash",
-        "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
-        "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
       }
     ]
   },
@@ -156,7 +163,20 @@
       "startTimeUTC": "2026/11/25 20:00:00 +0000",
       "endTimeUTC": "2026/11/25 22:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vkbnqxsfse/out/v1/012daf531619414f9886e8bc32ae8cc7/cenc.mpd",
+        "key": "602ddb9b9e321eb969200431103a235f:9d419bcb7e44df0d64b23fd9907445c9"
+      },
+      {
+        "title": "CBS SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
+        "key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
+      }
+    ]
   },
   {
     "id": 2555,
