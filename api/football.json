@@ -56,6 +56,12 @@
         "key": "83a4bc2c011e2c72b35b7b5f2d35560d:01bd0115c83d3493449181ba68998ab1"
       },
       {
+        "title": "BeIN Arabic HD",
+        "type": "hls",
+        "url": "https://ylp.akhbarnewscdn.store/cdn/master.m3u8",
+        "key": null
+      },
+      {
         "title": "SONYLIV ENG - AQ",
         "type": "hls",
         "url": "https://sonyeventsglobal.akamaized.net/hls/live/2037139/footlive2511/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795670807~acl=/*~id=06601972009501816237487700298060~hmac=93900a4bfbd92bbea9c65d8974d8e38ca7f6ef505c12e794731f7a2f58f7c53a",
@@ -92,9 +98,9 @@
         "key": null
       },
       {
-        "title": "BeIN Arabic HD",
+        "title": "HD SERVER",
         "type": "hls",
-        "url": "https://ylp.akhbarnewscdn.store/cdn/master.m3u8",
+        "url": "https://www.rtmpcdn.com/live/7ecadbda-bab9-44f6-b37e-58f5c51f77e7.m3u8",
         "key": null
       }
     ]
@@ -153,6 +159,12 @@
         "title": "TAPMAD - AQ",
         "type": "hls",
         "url": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8",
+        "key": null
+      },
+      {
+        "title": "BeIN ARABIC HD",
+        "type": "hls",
+        "url": "https://apwibbb.yallashootcup.com/hls/ch2/live/index.m3u8",
         "key": null
       }
     ]
