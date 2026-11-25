@@ -28,52 +28,6 @@
     ]
   },
   {
-    "id": 3891,
-    "title": "Sri Lanka Women vs Ireland Women",
-    "slug": "Sri-Lanka-Women-vs-Ireland-Women",
-    "cat": "Cricket",
-    "status": "ended",
-    "event": {
-      "name": "Womens Emerging Nations Trophy",
-      "category": "Cricket",
-      "teamA": "Sri Lanka Women",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/187806/image",
-      "teamB": "Ireland Women",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/213116/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/30714/image/dark",
-      "startTimeIST": "2026-11-25 10:30:00 IST",
-      "endTimeIST": "2026-11-25 13:30:00 IST",
-      "startTimeUTC": "2026/11/25 05:00:00 +0000",
-      "endTimeUTC": "2026/11/25 08:00:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PLAYZ TV LIVE",
-        "type": "dash",
-        "url": "https://prb2.prbw.workers.dev/proxy/https://live-d-01-icc-we.akamaized.net/variant/v1blackout/vcg-01-d/DASH_DASH/Live/channel(vcg-01-ch-hd-06)/hdntl=exp=1795610969~acl=*%2fchannel(vcg-01-ch-hd-06)%2f*~id=2ac03f6e-df86-481e-a05f-ec1015c944ac~data=hdntl,QjtNWCxDUixTVixHVCxITixOSSxQQSxBUixCTyxCUixDTCxDTyxFQyxQWSxQRSxVWSxWRSxDVSxETyxIVCxDQSxVUyxJTixQSyxMSyxBTyxCSixCVyxCRixCSSxDVixDTSxDRixURCxLTSxDRyxDRCxDSSxESixHUSxFUixFVCxHQSxHTSxHSCxHTixHVyxLRSxMUyxMUixNRyxNVyxNVSxNUixNWixOQSxORSxORyxSVyxTVCxTTixTQyxTTCxTTyxaQSxTUyxTRCxUWixURyxVRyxaTSxaVyxTWixHQixJRSxNTA%3d%3d~hmac=477a7a43f563dd728866718e7c98b423ad723952af71b2fb46b3ed2295dcb766/manifest.mpd?vcfilter=f4fc6796-0bc7-4b43-b9a6-db875faeaa76",
-        "key": "39bd302cdeed3710a89fb004d232ab67:9869f804ba18d7e508cbff781829221c"
-      },
-      {
-        "title": "MYCO - AQ [PK]",
-        "type": "hls",
-        "url": "https://ml-pull-rtmp-pk1.myco.io/Feed1/hls/index.m3u8",
-        "key": null
-      },
-      {
-        "title": "TAMASHA - AQ [PK]",
-        "type": "hls",
-        "url": "https://cdn01lhr-n.tamashaweb.com:8087/appcast/ICC-women-NT2026-svod-abr/playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "FANCODE AQ [ind]",
-        "type": "hls",
-        "url": "https://in-mc-vod.fancode.com/mumbai/4250688_english_hls_6c02a53fb925699_1ta-di_h264/index.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 1218,
     "title": "South Africa vs Bangladesh",
     "slug": "South-Africa-vs-Bangladesh",
