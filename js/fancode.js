@@ -1,8 +1,6 @@
-
 /* =====================================================
    FANCODE LIVE — MATCHDEKHO
-   1080P ONLY
-   Same card UI as Cricket / Willow.
+   New JSON structure (streams.primary / CDN fallbacks)
    Two caption lines: Teams, Series.
    ===================================================== */
 
@@ -153,9 +151,6 @@
       match.title || 'Live Match'
     ).trim();
 
-    // Prefer the match-up segment of the title,
-    // rather than a tournament prefix.
-
     const segments = title.split(
       /\s+[-–—|]\s+/
     );
@@ -192,9 +187,6 @@
       }
     }
 
-    // Check whether title contains a
-    // tournament prefix.
-
     const title = String(
       match.title || ''
     );
@@ -217,25 +209,72 @@
     return 'Live Sports';
   }
 
-  // ---------- STREAM LANGUAGE ----------
+  // ---------- STREAM RESOLUTION (NEW SCHEMA) ----------
+  // New JSON: match.streams = { primary, fancode_cdn,
+  // fancode_bd_cdn, ... , backup: {} }
+  // Falls back to legacy auto_streams shape if present.
 
-  function getLanguageStreams(match) {
+  function getStreamUrl(match) {
+    const streams = match.streams;
+
+    if (streams && typeof streams === 'object') {
+      // Prefer primary, then any populated CDN field.
+      const orderedKeys = [
+        'primary',
+        'fancode_cdn',
+        'fancode_bd_cdn',
+        'fancode_np_cdn',
+        'fancode_lk_cdn'
+      ];
+
+      for (const key of orderedKeys) {
+        const value = streams[key];
+
+        if (
+          typeof value === 'string' &&
+          value
+        ) {
+          const valid = safeUrl(value);
+
+          if (valid) return valid;
+        }
+      }
+
+      // Any other string value in streams (except backup)
+      for (const [key, value] of Object.entries(streams)) {
+        if (
+          key === 'backup' ||
+          typeof value !== 'string' ||
+          !value
+        ) continue;
+
+        const valid = safeUrl(value);
+
+        if (valid) return valid;
+      }
+    }
+
+    // Legacy fallback: auto_streams[LANG].streams["1080p"]
+    const legacy = getLegacyStream(match);
+
+    if (legacy) return legacy;
+
+    return '';
+  }
+
+  function getLegacyStream(match) {
     const autoStreams = match.auto_streams;
 
     if (
       !autoStreams ||
       typeof autoStreams !== 'object'
     ) {
-      return null;
+      return '';
     }
 
-    const languages = Object.keys(
-      autoStreams
-    );
+    const languages = Object.keys(autoStreams);
 
-    if (!languages.length) {
-      return null;
-    }
+    if (!languages.length) return '';
 
     const preferred = String(
       match.language || 'ENGLISH'
@@ -251,82 +290,64 @@
       );
     }
 
-    if (!selected) {
-      selected = languages[0];
-    }
+    if (!selected) selected = languages[0];
 
-    return autoStreams[selected] || null;
+    const bucket = autoStreams[selected];
+
+    if (!bucket?.streams) return '';
+
+    const url = bucket.streams['1080p'];
+
+    return typeof url === 'string' && safeUrl(url)
+      ? safeUrl(url)
+      : '';
   }
 
-  // ---------- STRICT 1080P ----------
-
-  function get1080pStream(match) {
-    const language = getLanguageStreams(
-      match
-    );
-
-    if (!language?.streams) {
-      return '';
-    }
-
-    const streamUrl = language.streams['1080p'];
-
-    if (
-      typeof streamUrl !== 'string' ||
-      !streamUrl
-    ) {
-      return '';
-    }
-
-    const validUrl = safeUrl(streamUrl);
-
-    if (!validUrl) {
-      return '';
-    }
-
-    try {
-      const url = new URL(validUrl);
-
-      if (
-        !url.pathname
-          .toLowerCase()
-          .endsWith('.m3u8')
-      ) {
-        return '';
-      }
-
-      return validUrl;
-
-    } catch {
-      return '';
-    }
-  }
-
-  // ---------- EXPIRY CHECK ----------
+  // ---------- EXPIRY CHECK (NEW SCHEMA) ----------
 
   function isExpired(match) {
-    const language = getLanguageStreams(
-      match
-    );
+    // Legacy expiry
+    const autoStreams = match.auto_streams;
 
-    const value = language?.expires;
+    if (autoStreams && typeof autoStreams === 'object') {
+      const languages = Object.keys(autoStreams);
 
-    if (!value) return false;
+      for (const lang of languages) {
+        const value = autoStreams[lang]?.expires;
 
-    const expiry = Number(value);
+        if (!value) continue;
 
-    if (
-      !Number.isFinite(expiry) ||
-      expiry <= 0
-    ) {
-      return false;
+        const expiry = Number(value);
+
+        if (
+          !Number.isFinite(expiry) ||
+          expiry <= 0
+        ) continue;
+
+        const expiryMs = expiry > 1e12
+          ? expiry
+          : expiry * 1000;
+
+        if (Date.now() >= expiryMs) return true;
+      }
     }
 
-    const expiryMs = expiry > 1e12
-      ? expiry
-      : expiry * 1000;
+    // New schema (if an `expires` field is ever added)
+    const direct = match.expires;
 
-    return Date.now() >= expiryMs;
+    if (direct) {
+      const expiry = Number(direct);
+
+      if (Number.isFinite(expiry) && expiry > 0) {
+        const expiryMs = expiry > 1e12
+          ? expiry
+          : expiry * 1000;
+
+        if (Date.now() >= expiryMs) return true;
+      }
+    }
+
+    return false;
   }
 
   // ---------- IMAGE ----------
@@ -586,8 +607,6 @@
           </div>
         `;
 
-      // Avoid rebuilding unchanged cards.
-
       if (nextCards !== renderedCards) {
         const oldScroll = track.scrollLeft;
 
@@ -629,7 +648,7 @@
     }
   }
 
-  // ---------- PLAY 1080P ----------
+  // ---------- PLAY ----------
 
   async function playMatch(matchId, title) {
     if (opening) return;
@@ -676,13 +695,11 @@
         return;
       }
 
-      const streamUrl = get1080pStream(
-        match
-      );
+      const streamUrl = getStreamUrl(match);
 
       if (!streamUrl) {
         alert(
-          '1080p stream is not available for this match.'
+          'Stream is not available for this match.'
         );
         return;
       }
@@ -694,13 +711,14 @@
         return;
       }
 
+      // Only pass 1080p through if URL actually is m3u8
+      // (new schema doesn't expose quality — use primary).
+
       const params = new URLSearchParams({
         url: streamUrl,
         title: title || match.title || 'Live Match',
         match_id: matchId
       });
-
-      // Keep your original player route.
 
       window.location.href =
         'fc-play?' + params.toString();
@@ -712,7 +730,7 @@
       );
 
       alert(
-        'Failed to load 1080p stream. Please try again.'
+        'Failed to load stream. Please try again.'
       );
 
     } finally {
