@@ -44,7 +44,7 @@
     "title": "Gamba Osaka vs Port FC",
     "slug": "Gamba-Osaka-vs-Port-FC",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "AFC Champions League Elite",
       "category": "Football",
@@ -58,14 +58,21 @@
       "startTimeUTC": "2026/11/25 10:00:00 +0000",
       "endTimeUTC": "2026/11/25 12:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "FANCODE AQ (IND)",
+        "type": "hls",
+        "url": "https://in-mc-vod.fancode.com/mumbai/4248759_english_hls_8e543051a454617_1ta-di_h264/index.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 2539,
     "title": "Kashima Antlers vs Jeonbuk Hyundai Motors",
     "slug": "Kashima-Antlers-vs-Jeonbuk-Hyundai-Motors",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "AFC Champions League Elite",
       "category": "Football",
@@ -84,6 +91,12 @@
         "title": "SPORTDIGITAL AQ",
         "type": "hls",
         "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/102539/102539_264_live.m3u8",
+        "key": null
+      },
+      {
+        "title": "FANCODE AQ (IND)",
+        "type": "hls",
+        "url": "https://in-mc-vod.fancode.com/mumbai/4248758_english_hls_df11de56b866843_1ta-di_h264/index.m3u8",
         "key": null
       }
     ]
