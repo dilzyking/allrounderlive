@@ -34,108 +34,6 @@
     ]
   },
   {
-    "id": 3881,
-    "title": "Haiti U17 vs Saudi Arabia U17",
-    "slug": "Haiti-U17-vs-Saudi-Arabia-U17",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "U17 World Championship",
-      "category": "Football",
-      "teamA": "Haiti U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/190706/image",
-      "teamB": "Saudi Arabia U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/468403/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
-      "startTimeIST": "2026-11-25 19:00:00 IST",
-      "endTimeIST": "2026-11-25 21:20:00 IST",
-      "startTimeUTC": "2026/11/25 13:30:00 +0000",
-      "endTimeUTC": "2026/11/25 15:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PlayZ TV Live",
-        "type": "hls",
-        "url": "https://live3979.zundrixmediapipeline.com/live/channel10.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 3882,
-    "title": "Uruguay U17 vs France U17",
-    "slug": "Uruguay-U17-vs-France-U17",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "U17 World Championship",
-      "category": "Football",
-      "teamA": "Uruguay U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/37322/image",
-      "teamB": "France U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/22474/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
-      "startTimeIST": "2026-11-25 19:00:00 IST",
-      "endTimeIST": "2026-11-25 21:20:00 IST",
-      "startTimeUTC": "2026/11/25 13:30:00 +0000",
-      "endTimeUTC": "2026/11/25 15:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "TSN SPORTS AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd",
-        "key": "385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8"
-      },
-      {
-        "title": "FOX - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
-        "key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
-      },
-      {
-        "title": "D SPORTS ES - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd",
-        "key": "f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
-      }
-    ]
-  },
-  {
-    "id": 2541,
-    "title": "Nasaf Qarshi vs Al Khaldiya",
-    "slug": "Nasaf-Qarshi-vs-Al-Khaldiya",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "AFC Champions League Two",
-      "category": "Football",
-      "teamA": "Nasaf Qarshi",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/34017/image",
-      "teamB": "Al Khaldiya",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/371631/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/668/image/dark",
-      "startTimeIST": "2026-11-25 19:15:00 IST",
-      "endTimeIST": "2026-11-25 21:35:00 IST",
-      "startTimeUTC": "2026/11/25 13:45:00 +0000",
-      "endTimeUTC": "2026/11/25 16:05:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "TAPMAD - AQ",
-        "type": "hls",
-        "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a154a641d51567ee931e109fa59f/01a154a676281ea557841e1612cf77/main.m3u8",
-        "key": null
-      },
-      {
-        "title": "FANCODE [IND]",
-        "type": "hls",
-        "url": "https://in-mc-vod.fancode.com/mumbai/4249017_english_hls_842772da4880049_1ta-di_h264/index.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 3883,
     "title": "Greece U17 vs Qatar U17",
     "slug": "Greece-U17-vs-Qatar-U17",
@@ -196,7 +94,7 @@
     "title": "Australia U17 vs Mozambique U17",
     "slug": "Australia-U17-vs-Mozambique-U17",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "U17 World Championship",
       "category": "Football",
@@ -224,7 +122,7 @@
     "title": "Denmark U17 vs Argentina U17",
     "slug": "Denmark-U17-vs-Argentina-U17",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "U17 World Championship",
       "category": "Football",
