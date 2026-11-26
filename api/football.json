@@ -1,107 +1,5 @@
 [
   {
-    "id": 3936,
-    "title": "BG Pathum United vs Lion City Sailors",
-    "slug": "BG-Pathum-United-vs-Lion-City-Sailors",
-    "cat": "Football",
-    "status": "ended",
-    "event": {
-      "name": "AFC Champions League Two",
-      "category": "Football",
-      "teamA": "BG Pathum United",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/35607/image",
-      "teamB": "Lion City Sailors",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/3041/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/668/image/dark",
-      "startTimeIST": "2026-11-26 17:45:00 IST",
-      "endTimeIST": "2026-11-26 20:05:00 IST",
-      "startTimeUTC": "2026/11/26 12:15:00 +0000",
-      "endTimeUTC": "2026/11/26 14:35:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "TAPMAD - AQ",
-        "type": "hls",
-        "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a154a641d51567ee931e109fa59f/01a154a676281ea557841e1612cf77/main.m3u8",
-        "key": null
-      },
-      {
-        "title": "FANCODE [IND]",
-        "type": "hls",
-        "url": "https://in-mc-vod.fancode.com/mumbai/4249027_english_hls_18036fa1e376406_1ta-di_h264/index.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 3937,
-    "title": "Preah Khan Reach Svay Rieng FC vs Machida Zelvia",
-    "slug": "Preah-Khan-Reach-Svay-Rieng-FC-vs-Machida-Zelvia",
-    "cat": "Football",
-    "status": "ended",
-    "event": {
-      "name": "AFC Champions League Two",
-      "category": "Football",
-      "teamA": "Preah Khan Reach Svay Rieng FC",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/153474/image",
-      "teamB": "Machida Zelvia",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/44409/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/668/image/dark",
-      "startTimeIST": "2026-11-26 17:45:00 IST",
-      "endTimeIST": "2026-11-26 20:05:00 IST",
-      "startTimeUTC": "2026/11/26 12:15:00 +0000",
-      "endTimeUTC": "2026/11/26 14:35:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "FANCODE [IND]",
-        "type": "hls",
-        "url": "https://in-mc-vod.fancode.com/mumbai/4249030_english_hls_21a64821f080481_1ta-di_h264/index.m3u8",
-        "key": null
-      },
-      {
-        "title": "TAPMAD - AQ",
-        "type": "hls",
-        "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a1548c4faf15fc600b1e3e968408/01a1548c7fde1ea557841e1612cf76/main.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 3938,
-    "title": "Tai Po vs Adelaide United",
-    "slug": "Tai-Po-vs-Adelaide-United",
-    "cat": "Football",
-    "status": "ended",
-    "event": {
-      "name": "AFC Champions League Two",
-      "category": "Football",
-      "teamA": "Tai Po",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/40662/image",
-      "teamB": "Adelaide United",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2946/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/668/image/dark",
-      "startTimeIST": "2026-11-26 17:45:00 IST",
-      "endTimeIST": "2026-11-26 20:05:00 IST",
-      "startTimeUTC": "2026/11/26 12:15:00 +0000",
-      "endTimeUTC": "2026/11/26 14:35:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "TAPMAD - AQ",
-        "type": "hls",
-        "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a154de56151ea540a81c2b41b77a/01a154de85c41567ee931e109fa5a5/main.m3u8",
-        "key": null
-      },
-      {
-        "title": "FANCODE [IND]",
-        "type": "hls",
-        "url": "https://in-mc-vod.fancode.com/mumbai/4249028_english_hls_0cb4703b5963817_1ta-di_h264/index.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 3939,
     "title": "New Zealand U17 vs Belgium U17",
     "slug": "New-Zealand-U17-vs-Belgium-U17",
@@ -319,7 +217,7 @@
     "title": "Abha vs Al-Shabab",
     "slug": "Abha-vs-Al-Shabab",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Saudi Pro League",
       "category": "Football",
