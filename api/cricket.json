@@ -4,7 +4,7 @@
     "title": "New Zealand vs India",
     "slug": "New-Zealand-vs-India",
     "cat": "Cricket",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "ICC World Test Championship",
       "category": "Cricket",
@@ -20,10 +20,10 @@
     },
     "dashStreams": [
       {
-        "title": "WILLOW - AQ [Ad Free]",
+        "title": "WILLOW - AQ",
         "type": "dash",
-        "url": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/3yznekgktt/out/v1/858249b12acb46b99a95fbfab5887011/cenc.mpd",
-        "key": "a993ba0f7bf4b83d0ccb44a591e2a51c:2bd5e352dd929f561daa14de1fc1a7a1"
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vqt4ppweqx/out/v1/79d9629326f74edb996f3b3d75d3fc49/cenc.mpd",
+        "key": "bd35d5c78d37fe5adcfd88e314d1dd3c:673c68197d7960c4b1db2bb83f195171"
       },
       {
         "title": "TNT SPORTS - AQ",
@@ -40,8 +40,8 @@
       {
         "title": "WILLOW S2 - AQ",
         "type": "dash",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/3yznekgktt/out/v1/858249b12acb46b99a95fbfab5887011/cenc.mpd",
-        "key": "a993ba0f7bf4b83d0ccb44a591e2a51c:2bd5e352dd929f561daa14de1fc1a7a1"
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/vqt4ppweqx/out/v1/79d9629326f74edb996f3b3d75d3fc49/cenc.mpd",
+        "key": "bd35d5c78d37fe5adcfd88e314d1dd3c:673c68197d7960c4b1db2bb83f195171"
       },
       {
         "title": "TEN SPORTS HD",
@@ -52,37 +52,31 @@
       {
         "title": "SONYLIV ENG - AQ",
         "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119931/cricodi_2211/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795426927~acl=/*~id=84219570040938269250347123670804~hmac=6603ecc577564305dccf422ccdd48bfd57a48dbf28a6d8b3639adfb22b653070",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119931/cricodi_2611/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795771631~acl=/*~id=58959264401822565893771367052567~hmac=58cf06e57abb32c61bc9184e84304a61fbbc6115497d57c17e862faa7f907c05",
         "key": null
       },
       {
         "title": "SONYLIV HIN - AQ",
         "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119921/cricodi_2211/HIN/std_lrh-800300010.m3u8?hdnea=exp=1795426927~acl=/*~id=84219570040938269250347123670804~hmac=6603ecc577564305dccf422ccdd48bfd57a48dbf28a6d8b3639adfb22b653070",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119921/cricodi_2611/HIN/std_lrh-800300010.m3u8?hdnea=exp=1795771631~acl=/*~id=58959264401822565893771367052567~hmac=58cf06e57abb32c61bc9184e84304a61fbbc6115497d57c17e862faa7f907c05",
         "key": null
       },
       {
         "title": "SONYLIV TAM - AQ",
         "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119951/cricodi_2211/TAM/std_lrh-800300010.m3u8?hdnea=exp=1795426927~acl=/*~id=84219570040938269250347123670804~hmac=6603ecc577564305dccf422ccdd48bfd57a48dbf28a6d8b3639adfb22b653070",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119951/cricodi_2611/TAM/std_lrh-800300010.m3u8?hdnea=exp=1795771631~acl=/*~id=58959264401822565893771367052567~hmac=58cf06e57abb32c61bc9184e84304a61fbbc6115497d57c17e862faa7f907c05",
         "key": null
       },
       {
         "title": "SONYLIV TEL - AQ",
         "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119941/cricodi_2211/TEL/std_lrh-800300010.m3u8?hdnea=exp=1795426927~acl=/*~id=84219570040938269250347123670804~hmac=6603ecc577564305dccf422ccdd48bfd57a48dbf28a6d8b3639adfb22b653070",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119941/cricodi_2611/TEL/std_lrh-800300010.m3u8?hdnea=exp=1795771631~acl=/*~id=58959264401822565893771367052567~hmac=58cf06e57abb32c61bc9184e84304a61fbbc6115497d57c17e862faa7f907c05",
         "key": null
       },
       {
         "title": "SONYLIV KAN - AQ",
         "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119782/cricodi_2211/KAN/std_lrh-800300010.m3u8?hdnea=exp=1795426927~acl=/*~id=84219570040938269250347123670804~hmac=6603ecc577564305dccf422ccdd48bfd57a48dbf28a6d8b3639adfb22b653070",
-        "key": null
-      },
-      {
-        "title": "CRICBUZZ (IND)",
-        "type": "hls",
-        "url": "https://dai.google.com/linear/hls/event/bS5bRXLITKKz7UK_serxVw/master.m3u8",
+        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2119782/cricodi_2611/KAN/std_lrh-800300010.m3u8?hdnea=exp=1795771631~acl=/*~id=58959264401822565893771367052567~hmac=58cf06e57abb32c61bc9184e84304a61fbbc6115497d57c17e862faa7f907c05",
         "key": null
       }
     ]
