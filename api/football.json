@@ -4,7 +4,7 @@
     "title": "Gangwon FC vs Kitchee SC",
     "slug": "Gangwon-FC-vs-Kitchee-SC",
     "cat": "Football",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "AFC Champions League Two",
       "category": "Football",
@@ -38,7 +38,7 @@
     "title": "Kuching City vs Phnom Penh Crown",
     "slug": "Kuching-City-vs-Phnom-Penh-Crown",
     "cat": "Football",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "AFC Champions League Two",
       "category": "Football",
@@ -72,7 +72,7 @@
     "title": "Tampines Rovers vs Shanghai Shenhua",
     "slug": "Tampines-Rovers-vs-Shanghai-Shenhua",
     "cat": "Football",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "AFC Champions League Two",
       "category": "Football",
@@ -114,7 +114,20 @@
       "startTimeUTC": "2026/11/26 12:15:00 +0000",
       "endTimeUTC": "2026/11/26 14:35:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "TAPMAD - AQ",
+        "type": "hls",
+        "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a154a641d51567ee931e109fa59f/01a154a676281ea557841e1612cf77/main.m3u8",
+        "key": null
+      },
+      {
+        "title": "FANCODE [IND]",
+        "type": "hls",
+        "url": "https://in-mc-vod.fancode.com/mumbai/4249027_english_hls_18036fa1e376406_1ta-di_h264/index.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 3937,
@@ -135,7 +148,20 @@
       "startTimeUTC": "2026/11/26 12:15:00 +0000",
       "endTimeUTC": "2026/11/26 14:35:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "FANCODE [IND]",
+        "type": "hls",
+        "url": "https://in-mc-vod.fancode.com/mumbai/4249030_english_hls_21a64821f080481_1ta-di_h264/index.m3u8",
+        "key": null
+      },
+      {
+        "title": "TAPMAD - AQ",
+        "type": "hls",
+        "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a1548c4faf15fc600b1e3e968408/01a1548c7fde1ea557841e1612cf76/main.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 3938,
@@ -158,10 +184,16 @@
     },
     "dashStreams": [
       {
-        "title": "SPORTDIGITAL FUSSBALL - AQ",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/bom-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
-        "key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
+        "title": "TAPMAD - AQ",
+        "type": "hls",
+        "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a154de56151ea540a81c2b41b77a/01a154de85c41567ee931e109fa5a5/main.m3u8",
+        "key": null
+      },
+      {
+        "title": "FANCODE [IND]",
+        "type": "hls",
+        "url": "https://in-mc-vod.fancode.com/mumbai/4249028_english_hls_0cb4703b5963817_1ta-di_h264/index.m3u8",
+        "key": null
       }
     ]
   },
