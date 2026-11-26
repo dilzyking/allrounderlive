@@ -118,46 +118,6 @@
     ]
   },
   {
-    "id": 1997,
-    "title": "Italia T10 2026",
-    "slug": "Italia-T10-vs-Italia-T",
-    "cat": "Cricket",
-    "status": "live",
-    "event": {
-      "name": "Italia T10 2026",
-      "category": "Cricket",
-      "teamA": "Italia T10",
-      "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBTK9sfDCFhv5T2jEH3nkh9cPngwVXMaQFV9uNCn66zg&s=10",
-      "teamB": "Italia T10",
-      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBTK9sfDCFhv5T2jEH3nkh9cPngwVXMaQFV9uNCn66zg&s=10",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBTK9sfDCFhv5T2jEH3nkh9cPngwVXMaQFV9uNCn66zg&s=10",
-      "startTimeIST": "2026-11-26 16:30:00 IST",
-      "endTimeIST": null,
-      "startTimeUTC": "2026/11/26 11:00:00 +0000",
-      "endTimeUTC": null
-    },
-    "dashStreams": [
-      {
-        "title": "UNBEATEN FHD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
-        "key": "5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b"
-      },
-      {
-        "title": "PLAYZ TV LIVE",
-        "type": "hls",
-        "url": "https://amssandbrix.sandbrix.live/sandbrix/streams/mk139q1Mi9bHznBA775016895861.m3u8",
-        "key": null
-      },
-      {
-        "title": "TAMASHA PRO AQ",
-        "type": "hls",
-        "url": "https://cdn03lhr-n.tamashaweb.com:8087/appcast/t10-italia-SVOD-abr/playlist.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 1884,
     "title": "International League T20",
     "slug": "ILT-T20-vs-ILT-T",
@@ -350,5 +310,45 @@
       "endTimeUTC": null
     },
     "dashStreams": []
+  },
+  {
+    "id": 1997,
+    "title": "Italia T10 2026",
+    "slug": "Italia-T10-vs-Italia-T",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "Italia T10 2026",
+      "category": "Cricket",
+      "teamA": "Italia T10",
+      "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBTK9sfDCFhv5T2jEH3nkh9cPngwVXMaQFV9uNCn66zg&s=10",
+      "teamB": "Italia T10",
+      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBTK9sfDCFhv5T2jEH3nkh9cPngwVXMaQFV9uNCn66zg&s=10",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBTK9sfDCFhv5T2jEH3nkh9cPngwVXMaQFV9uNCn66zg&s=10",
+      "startTimeIST": "2026-11-27 16:30:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/27 11:00:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": [
+      {
+        "title": "UNBEATEN FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
+        "key": "5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b"
+      },
+      {
+        "title": "PLAYZ TV LIVE",
+        "type": "hls",
+        "url": "https://amssandbrix.sandbrix.live/sandbrix/streams/mk139q1Mi9bHznBA775016895861.m3u8",
+        "key": null
+      },
+      {
+        "title": "TAMASHA PRO AQ",
+        "type": "hls",
+        "url": "https://cdn03lhr-n.tamashaweb.com:8087/appcast/t10-italia-SVOD-abr/playlist.m3u8",
+        "key": null
+      }
+    ]
   }
 ]
