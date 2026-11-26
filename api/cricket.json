@@ -4,7 +4,7 @@
     "title": "India A vs Sri Lanka A",
     "slug": "India-A-vs-Sri-Lanka-A",
     "cat": "Cricket",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Men's Asia Cup Rising Stars",
       "category": "Cricket",
@@ -14,9 +14,9 @@
       "teamBFlag": "https://img.sofascore.com/api/v1/team/187756/image",
       "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn2rCtrI68Agu71aIWID9YxzlqXN-3c88k4cwPQQhwEA&s=10",
       "startTimeIST": "2026-11-26 15:30:00 IST",
-      "endTimeIST": null,
+      "endTimeIST": "2026-11-27 00:43:00 IST",
       "startTimeUTC": "2026/11/26 10:00:00 +0000",
-      "endTimeUTC": null
+      "endTimeUTC": "2026/11/26 19:13:00 +0000"
     },
     "dashStreams": [
       {
@@ -113,70 +113,6 @@
         "title": "TAMASHA AQ",
         "type": "hls",
         "url": "https://cdn06khi-n.tamashaweb.com:8087/appcast/ACC-men-AC26-b-abr/playlist.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 1884,
-    "title": "International League T20",
-    "slug": "ILT-T20-vs-ILT-T",
-    "cat": "Cricket",
-    "status": "live",
-    "event": {
-      "name": "International League T20",
-      "category": "Cricket",
-      "teamA": "ILT T20",
-      "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLPb2DPj3zNmfruRqU6BXsmrMIYosxxZA0efvdkBZ_4Q&s=10",
-      "teamB": "ILT T20",
-      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLPb2DPj3zNmfruRqU6BXsmrMIYosxxZA0efvdkBZ_4Q&s=10",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLPb2DPj3zNmfruRqU6BXsmrMIYosxxZA0efvdkBZ_4Q&s=10",
-      "startTimeIST": "2026-11-26 20:00:00 IST",
-      "endTimeIST": null,
-      "startTimeUTC": "2026/11/26 14:30:00 +0000",
-      "endTimeUTC": null
-    },
-    "dashStreams": [
-      {
-        "title": "WILLOW - AQ",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/nkhxmu8uyd/out/v1/55d2a00aa7234f7aa9910b17ff528780/cenc.mpd",
-        "key": "d36396587a3e395dd49822bfb8876a30:85bfdc16276e3c741b94203dc14cf744"
-      },
-      {
-        "title": "FANCODE - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
-        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
-      },
-      {
-        "title": "TNT SPORTS - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd?",
-        "key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
-      },
-      {
-        "title": "TAMASHA PRO AQ",
-        "type": "hls",
-        "url": "https://cdn03lhr-n.tamashaweb.com:8087/appcast/ILT-S05-SVOD-abr/playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "ZEE ZEST IN",
-        "type": "dash",
-        "url": "https://d1iwj24qiokrul.cloudfront.net/live/media/Zee_Zest_SD/dash/Zee_Zest_SD.mpd",
-        "key": "ffa2f9e64ca542f9a13f6ebc11292468:ac0b546c754884618e5b2c2c986e4735"
-      },
-      {
-        "title": "UNITE8 SPORTS IN",
-        "type": "dash",
-        "url": "https://d1iwj24qiokrul.cloudfront.net/live/media/Unite8_Sports_1_HD/dash/Unite8_Sports_1_HD.mpd",
-        "key": "d5859726f4804398b37aa6eb9d571a4f:11c43967054ad1765d919f854889912f"
-      },
-      {
-        "title": "FANCODE [IND]",
-        "type": "hls",
-        "url": "https://in-mc-vod.fancode.com/mumbai/4251055_english_hls_b4b255f9cb46377_1ta-di_h264/index.m3u8",
         "key": null
       }
     ]
@@ -347,6 +283,70 @@
         "title": "TAMASHA PRO AQ",
         "type": "hls",
         "url": "https://cdn03lhr-n.tamashaweb.com:8087/appcast/t10-italia-SVOD-abr/playlist.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 1884,
+    "title": "International League T20",
+    "slug": "ILT-T20-vs-ILT-T",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "International League T20",
+      "category": "Cricket",
+      "teamA": "ILT T20",
+      "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLPb2DPj3zNmfruRqU6BXsmrMIYosxxZA0efvdkBZ_4Q&s=10",
+      "teamB": "ILT T20",
+      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLPb2DPj3zNmfruRqU6BXsmrMIYosxxZA0efvdkBZ_4Q&s=10",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLPb2DPj3zNmfruRqU6BXsmrMIYosxxZA0efvdkBZ_4Q&s=10",
+      "startTimeIST": "2026-11-27 20:00:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/27 14:30:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": [
+      {
+        "title": "WILLOW - AQ",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/nkhxmu8uyd/out/v1/55d2a00aa7234f7aa9910b17ff528780/cenc.mpd",
+        "key": "d36396587a3e395dd49822bfb8876a30:85bfdc16276e3c741b94203dc14cf744"
+      },
+      {
+        "title": "FANCODE - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd",
+        "key": "82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
+      },
+      {
+        "title": "TNT SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd?",
+        "key": "fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
+      },
+      {
+        "title": "TAMASHA PRO AQ",
+        "type": "hls",
+        "url": "https://cdn03lhr-n.tamashaweb.com:8087/appcast/ILT-S05-SVOD-abr/playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "ZEE ZEST IN",
+        "type": "dash",
+        "url": "https://d1iwj24qiokrul.cloudfront.net/live/media/Zee_Zest_SD/dash/Zee_Zest_SD.mpd",
+        "key": "ffa2f9e64ca542f9a13f6ebc11292468:ac0b546c754884618e5b2c2c986e4735"
+      },
+      {
+        "title": "UNITE8 SPORTS IN",
+        "type": "dash",
+        "url": "https://d1iwj24qiokrul.cloudfront.net/live/media/Unite8_Sports_1_HD/dash/Unite8_Sports_1_HD.mpd",
+        "key": "d5859726f4804398b37aa6eb9d571a4f:11c43967054ad1765d919f854889912f"
+      },
+      {
+        "title": "FANCODE [IND]",
+        "type": "hls",
+        "url": "https://in-mc-vod.fancode.com/mumbai/4251055_english_hls_b4b255f9cb46377_1ta-di_h264/index.m3u8",
         "key": null
       }
     ]
