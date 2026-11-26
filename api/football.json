@@ -40,34 +40,6 @@
     ]
   },
   {
-    "id": 3946,
-    "title": "Croatia U17 vs Cuba U17",
-    "slug": "Croatia-U17-vs-Cuba-U17",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "U17 World Championship",
-      "category": "Football",
-      "teamA": "Croatia U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/22594/image",
-      "teamB": "Cuba U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/190704/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
-      "startTimeIST": "2026-11-26 21:30:00 IST",
-      "endTimeIST": "2026-11-26 23:50:00 IST",
-      "startTimeUTC": "2026/11/26 16:00:00 +0000",
-      "endTimeUTC": "2026/11/26 18:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PlayZ TV LIVE",
-        "type": "hls",
-        "url": "https://live3979.zundrixmediapipeline.com/live/channel20.m3u8?",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 3955,
     "title": "Al Faisaly vs Diriyah",
     "slug": "Al-Faisaly-vs-Diriyah",
@@ -694,7 +666,38 @@
       "startTimeUTC": "2026/11/26 17:45:00 +0000",
       "endTimeUTC": "2026/11/26 20:05:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/doyaxpiwbe/out/v1/ddd22fa28ba242968746d12bb8c158e3/cenc.mpd",
+        "key": "0cb0c9c77a3bb7e09dd153a0637a5473:dd1a85d4abd117a18a75288a1ab1d224"
+      },
+      {
+        "title": "DAZN SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/knxo6yhcvy/out/v1/7a660a86a3e643598e8e95698765d19a/cenc.mpd",
+        "key": "bb09da9cfc2798f340ef93a20deac929:b8e770a0695d75e80a09771979e7e5e0"
+      },
+      {
+        "title": "AUVIO SPORTS AQ",
+        "type": "dash",
+        "url": "https://C9851Ec-rbm-hilv-fsly.cdn.redbee.live/L5/cd1fd9ab/a98ab478.isml/.mpd?t=2026-11-26T17:08:00.000",
+        "key": "aa0df8cefe114eaf844aab1b94d1c8bc:fa2bf4a801eb4eed612fc01ce206ab37"
+      },
+      {
+        "title": "TAPMAD - AQ",
+        "type": "hls",
+        "url": "https://tencent-cdn.tapmad.com/v1/01a145d823d515fc600b1e3e9683de/01a145dc15751ea540a81c2b41b754/main.m3u8",
+        "key": null
+      },
+      {
+        "title": "SD STREAM",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/54f3059a-9b74-468a-b354-67be1bd95d8a.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 3972,
