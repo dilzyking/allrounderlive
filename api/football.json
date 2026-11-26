@@ -28,6 +28,46 @@
     ]
   },
   {
+    "id": 3995,
+    "title": "Boca Juniors vs Independiente Rivadavia",
+    "slug": "Boca-Juniors-vs-Independiente-Rivadavia",
+    "cat": "Football",
+    "status": "live",
+    "event": {
+      "name": "Liga Profesional de Fútbol",
+      "category": "Football",
+      "teamA": "Boca Juniors",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/3202/image",
+      "teamB": "Independiente Rivadavia",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/36842/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/155/image/dark",
+      "startTimeIST": "2026-11-26 05:30:00 IST",
+      "endTimeIST": "2026-11-26 07:50:00 IST",
+      "startTimeUTC": "2026/11/26 00:00:00 +0000",
+      "endTimeUTC": "2026/11/26 02:20:00 +0000"
+    },
+    "dashStreams": [
+      {
+        "title": "FOX DEPORTES AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
+        "key": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811"
+      },
+      {
+        "title": "SPORTDIGITAL FUSSBALL AQ",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/bom-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd",
+        "key": "0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8"
+      },
+      {
+        "title": "SD STREAM",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/2653a6db-0dc0-4829-bd13-377e0dea9a8c.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
     "id": 3933,
     "title": "Gangwon FC vs Kitchee SC",
     "slug": "Gangwon-FC-vs-Kitchee-SC",
