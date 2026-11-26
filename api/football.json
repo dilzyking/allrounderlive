@@ -144,6 +144,12 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/asavfkqt6o/out/v1/b0e8e5d6c020477b89ecf7c641aff79b/cenc.mpd",
         "key": "02440318a34e369ac8582785b2197d43:3fafea25a33b970e32632919797f5162"
+      },
+      {
+        "title": "SD STREAM",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/943386b2-c3bf-4c5e-a1a3-3dbead0de0b6.m3u8",
+        "key": null
       }
     ]
   },
@@ -390,7 +396,14 @@
       "startTimeUTC": "2026/11/26 20:00:00 +0000",
       "endTimeUTC": "2026/11/26 22:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "VIX SPANISH - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yjt08fuqwm/out/v1/b5ef208fdea84ed8a2f0aefe7fdb86cf/cenc.mpd",
+        "key": "3d346573a7f8c45874f504316bc2ed7d:b80c34a49416b64e24e7929a8ce8e704"
+      }
+    ]
   },
   {
     "id": 3984,
@@ -478,6 +491,24 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ct9mx5npak/out/v1/206b509094744f4d99da3d82acc201a3/cenc.mpd",
         "key": "dd3c66bee767c44c347e01e245a499ed:278aafbfb1dd7a19125c1e10088b819d"
+      },
+      {
+        "title": "VIX SPANISH - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ikwiwip1gt/out/v1/59dc0639d2c44432bf89984131478749/cenc.mpd",
+        "key": "7612cc85dd8bf1d7487825c3bbdddbcd:0f02b76f2674548dc98773331ffc03aa"
+      },
+      {
+        "title": "TAPMAD - AQ",
+        "type": "hls",
+        "url": "https://tencent-cdn.tapmad.com/v1/01a14a9fb90c15fc60e91e1786b061/01a14a9feb881ea540a81c2b41b75e/main.m3u8",
+        "key": null
+      },
+      {
+        "title": "HD STREAM",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/79ab12de-b60c-4d93-92bf-103223420a80.m3u8",
+        "key": null
       }
     ]
   },
@@ -625,6 +656,18 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5xzu4ctvbh/out/v1/84b9ed4edde44d41b98b0b464dbe73e1/cenc.mpd",
         "key": "45fb300b7cd79cb8d36d8269ff8178f7:c64d1c608fd89a85042b528c1e763f8b"
+      },
+      {
+        "title": "VIX SPANISH - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/br5b9somea/out/v1/0243b44c809941c7a5e0132e783bab69/cenc.mpd",
+        "key": "bb08ace238c57af73556d628f2d05034:3e839c0fe2db5bb79b3c8f741a2d44f0"
+      },
+      {
+        "title": "HD STREAM",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/9d7c3aee-33df-4f56-9915-e7a49555f468.m3u8",
+        "key": null
       }
     ]
   },
