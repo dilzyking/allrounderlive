@@ -21,102 +21,6 @@
     "dashStreams": []
   },
   {
-    "id": 3943,
-    "title": "China U17 vs Fiji U17",
-    "slug": "China-U17-vs-Fiji-U17",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "U17 World Championship",
-      "category": "Football",
-      "teamA": "China U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/468402/image",
-      "teamB": "Fiji U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1096685/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
-      "startTimeIST": "2026-11-26 20:30:00 IST",
-      "endTimeIST": "2026-11-26 22:50:00 IST",
-      "startTimeUTC": "2026/11/26 15:00:00 +0000",
-      "endTimeUTC": "2026/11/26 17:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD STREAM",
-        "type": "hls",
-        "url": "https://live3979.zundrixmediapipeline.com/live/channel17.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 3944,
-    "title": "Morocco U17 vs Spain U17",
-    "slug": "Morocco-U17-vs-Spain-U17",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "U17 World Championship",
-      "category": "Football",
-      "teamA": "Morocco U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/48862/image",
-      "teamB": "Spain U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/22479/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
-      "startTimeIST": "2026-11-26 20:30:00 IST",
-      "endTimeIST": "2026-11-26 22:50:00 IST",
-      "startTimeUTC": "2026/11/26 15:00:00 +0000",
-      "endTimeUTC": "2026/11/26 17:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "TSN SPORTS - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd",
-        "key": "385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8"
-      },
-      {
-        "title": "D Sports ES - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd",
-        "key": "f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
-      },
-      {
-        "title": "FOX SPORTS - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
-        "key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
-      }
-    ]
-  },
-  {
-    "id": 4001,
-    "title": "Abha vs Al-Shabab",
-    "slug": "Abha-vs-Al-Shabab",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "Saudi Pro League",
-      "category": "Football",
-      "teamA": "Abha",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/168090/image",
-      "teamB": "Al-Shabab",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/34313/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/955/image/dark",
-      "startTimeIST": "2026-11-26 20:35:00 IST",
-      "endTimeIST": "2026-11-26 22:55:00 IST",
-      "startTimeUTC": "2026/11/26 15:05:00 +0000",
-      "endTimeUTC": "2026/11/26 17:25:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD STREAM",
-        "type": "hls",
-        "url": "https://live3979.zundrixmediapipeline.com/live/channel8.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 3945,
     "title": "FC Kairat Almaty vs Mjällby AIF",
     "slug": "FC-Kairat-Almaty-vs-Mjällby-AIF",
@@ -420,7 +324,14 @@
       "startTimeUTC": "2026/11/26 17:45:00 +0000",
       "endTimeUTC": "2026/11/26 20:05:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "Sky Top Event- AQ",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gjsukewpxp/out/v1/ef14aacf858248839b9867eec5caf563/cenc.mpd",
+        "key": "368bd4ebe301406897324bc777650411:69d27c2c2b7de927d67aacc973259901"
+      }
+    ]
   },
   {
     "id": 3965,
