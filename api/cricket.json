@@ -20,6 +20,12 @@
     },
     "dashStreams": [
       {
+        "title": "PRIME VIDEO (Multi-Audio)",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/sqn5t3keuo/out/v1/9d5e81f1ef7a4f39baa79cec0073d671/cenc.mpd?",
+        "key": "115086768751d95aac011169ff3547bd:3e3c4e34b782a6ffe98df710f8dc0a00"
+      },
+      {
         "title": "WILLOW - AQ",
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5vfqkoj2sc/out/v1/19699577f69c4ab899e135323a5de2ed/cenc.mpd",
