@@ -239,7 +239,20 @@
       "startTimeUTC": "2026/11/26 17:45:00 +0000",
       "endTimeUTC": "2026/11/26 20:05:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gcb5rbslm8/out/v1/70ac129125a04d14af8b1aec0e50f6af/cenc.mpd",
+        "key": "7269ae64ddfc36229be992d244b4b3bc:9d61ba9d2b7042608c09e744632ef62d"
+      },
+      {
+        "title": "VIX SPANISH - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qct42syoex/out/v1/c22699bcc6df411098d4969c11e9c388/cenc.mpd",
+        "key": "5aa0c86d77284f235e97c5d7e801f492:50cc7b4c45c75abc80d92753c44d2741"
+      }
+    ]
   },
   {
     "id": 3961,
@@ -260,7 +273,38 @@
       "startTimeUTC": "2026/11/26 17:45:00 +0000",
       "endTimeUTC": "2026/11/26 20:05:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "DAZN SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ey3gbdcbkm/out/v1/af69013f1318441ba995f620e39bfddb/cenc.mpd",
+        "key": "48eb36d8c4dcd2595c373c1898c7ec00:cf34598c5ff9fcf365100bdcad50dc75"
+      },
+      {
+        "title": "PARAMOUNT+ - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qzht6ofixj/out/v1/43c9ed6bc1734cae8de703e86e965561/cenc.mpd",
+        "key": "a9a9c367f230f52c8672bd967f6ff55f:62fad5d40618e35416328f8e81527d90"
+      },
+      {
+        "title": "VIX SPANISH - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/dcqxxnyvxx/out/v1/c36180058f2a49a9ac8e96607922aa95/cenc.mpd",
+        "key": "0a247b643241ff5ecaddf3b1c62e6033:75201ababa80fdb9a6458f0ebb673ae7"
+      },
+      {
+        "title": "TAPMAD - AQ",
+        "type": "hls",
+        "url": "https://tencent-cdn.tapmad.com/v1/01a145b15ce115fc600b1e3e9683db/01a145b24db11ea557841e1612cf4c/main.m3u8",
+        "key": null
+      },
+      {
+        "title": "HD STREAM",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/64b1c4b1-3b86-4584-9b22-e353322a186e.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 3962,
