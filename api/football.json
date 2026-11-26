@@ -4,7 +4,7 @@
     "title": "Gangwon FC vs Kitchee SC",
     "slug": "Gangwon-FC-vs-Kitchee-SC",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "AFC Champions League Two",
       "category": "Football",
@@ -18,14 +18,27 @@
       "startTimeUTC": "2026/11/26 10:00:00 +0000",
       "endTimeUTC": "2026/11/26 12:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "TAPMAD - AQ",
+        "type": "hls",
+        "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a1548c4faf15fc600b1e3e968408/01a1548c7fde1ea557841e1612cf76/main.m3u8",
+        "key": null
+      },
+      {
+        "title": "FANCODE [IND]",
+        "type": "hls",
+        "url": "https://in-mc-vod.fancode.com/mumbai/4249031_english_hls_eca20e0fdd32083_1ta-di_h264/index.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 3934,
     "title": "Kuching City vs Phnom Penh Crown",
     "slug": "Kuching-City-vs-Phnom-Penh-Crown",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "AFC Champions League Two",
       "category": "Football",
@@ -39,14 +52,27 @@
       "startTimeUTC": "2026/11/26 10:00:00 +0000",
       "endTimeUTC": "2026/11/26 12:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "TAPMAD - AQ",
+        "type": "hls",
+        "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a154a641d51567ee931e109fa59f/01a154a676281ea557841e1612cf77/main.m3u8",
+        "key": null
+      },
+      {
+        "title": "FANCODE [IND]",
+        "type": "hls",
+        "url": "https://in-mc-vod.fancode.com/mumbai/4249032_english_hls_a51be743a28523_1ta-di_h264/index.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 3935,
     "title": "Tampines Rovers vs Shanghai Shenhua",
     "slug": "Tampines-Rovers-vs-Shanghai-Shenhua",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "AFC Champions League Two",
       "category": "Football",
@@ -60,7 +86,14 @@
       "startTimeUTC": "2026/11/26 10:00:00 +0000",
       "endTimeUTC": "2026/11/26 12:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "TAPMAD - AQ",
+        "type": "hls",
+        "url": "https://multiregion-asia-cdn.tapmad.com/v1/01a154de56151ea540a81c2b41b77a/01a154de85c41567ee931e109fa5a5/main.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 3936,
