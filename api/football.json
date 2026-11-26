@@ -168,7 +168,14 @@
       "startTimeUTC": "2026/11/26 20:00:00 +0000",
       "endTimeUTC": "2026/11/26 22:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/d7xcz7rioe/out/v1/96e07a52601443afb0716f1f629cb125/cenc.mpd",
+        "key": "29cabc40079948889270672cdb4e8bda:18b4ecca3274892bb397388378d9c98d"
+      }
+    ]
   },
   {
     "id": 3978,
@@ -195,6 +202,12 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/s51xhb5ixx/out/v1/52f83b89e42640bba700c51db2cb65fe/cenc.mpd",
         "key": "2a13189e1cf415f4784d670ecf4c58e1:06e086f9e17f1150382a1ae106494807"
+      },
+      {
+        "title": "PARAMOUNT+ - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z1ztodpfsz/out/v1/8e34bf69a8374ced8eae2afb5912ec32/cenc.mpd",
+        "key": "dd0e0d3eaccde2b6f4bcd972f10089ed:9de35ccdc10b5cb474996c42f117c807"
       }
     ]
   },
@@ -245,7 +258,14 @@
       "startTimeUTC": "2026/11/26 20:00:00 +0000",
       "endTimeUTC": "2026/11/26 22:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b5pbwl1cne/out/v1/50c08b0c9e264918af62eeb3f268c2ba/cenc.mpd",
+        "key": "124fab59784417d9b78fe1369571712b:182610e03e1b1925385eb13fa90449f9"
+      }
+    ]
   },
   {
     "id": 3981,
@@ -431,6 +451,12 @@
         "type": "dash",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gjsukewpxp/out/v1/ef14aacf858248839b9867eec5caf563/cenc.mpd",
         "key": "368bd4ebe301406897324bc777650411:69d27c2c2b7de927d67aacc973259901"
+      },
+      {
+        "title": "PARAMOUNT+ - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/pgjktud12d/out/v1/2f7fd823b18747a6a9b490a7c5dd2c7d/cenc.mpd",
+        "key": "f8bf18a059f3797f0eab665948de7cf0:1437fbf59db0e00b9a1f240dca71bed2"
       }
     ]
   },
