@@ -120,6 +120,40 @@
         "type": "hls",
         "url": "https://live3979.zundrixmediapipeline.com/live/channel25.m3u8",
         "key": null
+      },
+      {
+        "title": "SD STREAM",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/e01b51ff-b04a-4f37-97aa-34105ee718dc.m3u8",
+        "key": null
+      }
+    ]
+  },
+  {
+    "id": 4001,
+    "title": "The - Golazo Show",
+    "slug": "The-Golazo-Show",
+    "cat": "Football",
+    "status": "live",
+    "event": {
+      "name": "The - Golazo Show",
+      "category": "Football",
+      "teamA": "Golazo Show",
+      "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf0OgZU9w1HJQZAizR01jaXii00guX9UNv-QR5cveBhQ&s=10",
+      "teamB": "Golazo Show",
+      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf0OgZU9w1HJQZAizR01jaXii00guX9UNv-QR5cveBhQ&s=10",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf0OgZU9w1HJQZAizR01jaXii00guX9UNv-QR5cveBhQ&s=10",
+      "startTimeIST": "2026-11-26 23:10:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/26 17:40:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/dfwewesw54/out/v1/522359f03dd5411fa96d4fb84375f0df/cenc.mpd",
+        "key": "629217a2952c541bed541053bebb6e79:78329d9e16fd79edd93ff9f7f9c758e8"
       }
     ]
   },
@@ -128,7 +162,7 @@
     "title": "AFC Ajax vs FC Thun",
     "slug": "AFC-Ajax-vs-FC-Thun",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Conference League",
       "category": "Football",
@@ -156,7 +190,7 @@
     "title": "Beşiktaş JK vs Hapoel Be'er Sheva",
     "slug": "Beşiktaş-JK-vs-Hapoel-Be'er-Sheva",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Europa League",
       "category": "Football",
@@ -184,7 +218,7 @@
     "title": "Brighton & Hove Albion vs Universitatea Craiova",
     "slug": "Brighton-&-Hove-Albion-vs-Universitatea-Craiova",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Conference League",
       "category": "Football",
@@ -205,7 +239,7 @@
     "title": "Celta Vigo vs Bournemouth",
     "slug": "Celta-Vigo-vs-Bournemouth",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Europa League",
       "category": "Football",
@@ -226,7 +260,7 @@
     "title": "FC Iberia 1999 vs Getafe",
     "slug": "FC-Iberia-1999-vs-Getafe",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Conference League",
       "category": "Football",
@@ -247,7 +281,7 @@
     "title": "FC Viktoria Plzeň vs Benfica",
     "slug": "FC-Viktoria-Plzeň-vs-Benfica",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Europa League",
       "category": "Football",
@@ -268,7 +302,7 @@
     "title": "FK Jablonec vs FC Lugano",
     "slug": "FK-Jablonec-vs-FC-Lugano",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Conference League",
       "category": "Football",
@@ -289,7 +323,7 @@
     "title": "FK Kauno Žalgiris vs Riga FC",
     "slug": "FK-Kauno-Žalgiris-vs-Riga-FC",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Conference League",
       "category": "Football",
@@ -317,7 +351,7 @@
     "title": "GNK Dinamo Zagreb vs Bayer 04 Leverkusen",
     "slug": "GNK-Dinamo-Zagreb-vs-Bayer-04-Leverkusen",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Europa League",
       "category": "Football",
@@ -351,7 +385,7 @@
     "title": "Heart of Midlothian vs AS Monaco",
     "slug": "Heart-of-Midlothian-vs-AS-Monaco",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Conference League",
       "category": "Football",
@@ -372,7 +406,7 @@
     "title": "KF Egnatia vs Lincoln Red Imps",
     "slug": "KF-Egnatia-vs-Lincoln-Red-Imps",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Conference League",
       "category": "Football",
@@ -400,7 +434,7 @@
     "title": "Olympiacos FC vs AC Milan",
     "slug": "Olympiacos-FC-vs-AC-Milan",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Europa League",
       "category": "Football",
@@ -440,7 +474,7 @@
     "title": "Olympique de Marseille vs Levski Sofia",
     "slug": "Olympique-de-Marseille-vs-Levski-Sofia",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Europa League",
       "category": "Football",
@@ -461,7 +495,7 @@
     "title": "Pafos FC vs FC Midtjylland",
     "slug": "Pafos-FC-vs-FC-Midtjylland",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Conference League",
       "category": "Football",
@@ -489,7 +523,7 @@
     "title": "Red Bull Salzburg vs FC Ararat-Armenia",
     "slug": "Red-Bull-Salzburg-vs-FC-Ararat-Armenia",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Europa League",
       "category": "Football",
@@ -517,7 +551,7 @@
     "title": "Royale Union Saint-Gilloise vs Lech Poznań",
     "slug": "Royale-Union-Saint-Gilloise-vs-Lech-Poznań",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Europa League",
       "category": "Football",
@@ -538,7 +572,7 @@
     "title": "SK Brann vs AGF",
     "slug": "SK-Brann-vs-AGF",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Conference League",
       "category": "Football",
