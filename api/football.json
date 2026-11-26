@@ -1,39 +1,5 @@
 [
   {
-    "id": 3955,
-    "title": "Al Faisaly vs Diriyah",
-    "slug": "Al-Faisaly-vs-Diriyah",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "Saudi Pro League",
-      "category": "Football",
-      "teamA": "Al Faisaly",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/56035/image",
-      "teamB": "Diriyah",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/853574/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/955/image/dark",
-      "startTimeIST": "2026-11-26 23:00:00 IST",
-      "endTimeIST": "2026-11-27 01:20:00 IST",
-      "startTimeUTC": "2026/11/26 17:30:00 +0000",
-      "endTimeUTC": "2026/11/26 19:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD STREAM",
-        "type": "hls",
-        "url": "https://live3979.zundrixmediapipeline.com/live/channel25.m3u8",
-        "key": null
-      },
-      {
-        "title": "SD STREAM",
-        "type": "hls",
-        "url": "https://www.rtmpcdn.com/live/e01b51ff-b04a-4f37-97aa-34105ee718dc.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 4001,
     "title": "The - Golazo Show",
     "slug": "The-Golazo-Show",
@@ -325,7 +291,26 @@
       "startTimeUTC": "2026/11/26 17:45:00 +0000",
       "endTimeUTC": "2026/11/26 20:05:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tyokwdrj7a/out/v1/9488b7a0b29f403bafff86c870565607/cenc.mpd",
+        "key": "d806c65296e8623f6fe26be9894b9a0a:fa30d6cd539ae5de6f3b2060e6bc6d84"
+      },
+      {
+        "title": "VIX SPANISH - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/u3wnlyctnn/out/v1/e97fce33fc064131b6dec095e0a0ab71/cenc.mpd",
+        "key": "e45d4841675035e24df02030b935a95c:17acede99bade461a89630bb86a084a6"
+      },
+      {
+        "title": "Sport CZ - AQ",
+        "type": "dash",
+        "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+        "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+      }
+    ]
   },
   {
     "id": 3963,
