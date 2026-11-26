@@ -68,34 +68,6 @@
     ]
   },
   {
-    "id": 3947,
-    "title": "Tajikistan U17 vs Senegal U17",
-    "slug": "Tajikistan-U17-vs-Senegal-U17",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "U17 World Championship",
-      "category": "Football",
-      "teamA": "Tajikistan U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/229664/image",
-      "teamB": "Senegal U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/323076/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
-      "startTimeIST": "2026-11-26 21:30:00 IST",
-      "endTimeIST": "2026-11-26 23:50:00 IST",
-      "startTimeUTC": "2026/11/26 16:00:00 +0000",
-      "endTimeUTC": "2026/11/26 18:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PlayZ TV LIVE",
-        "type": "hls",
-        "url": "https://live3979.zundrixmediapipeline.com/live/channel7.m3u8?",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 3955,
     "title": "Al Faisaly vs Diriyah",
     "slug": "Al-Faisaly-vs-Diriyah",
@@ -268,7 +240,32 @@
       "startTimeUTC": "2026/11/26 17:45:00 +0000",
       "endTimeUTC": "2026/11/26 20:05:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "DAZN SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qycrirlalb/out/v1/db7ad08f01264e2f950df87e016a98ce/cenc.mpd",
+        "key": "2b7d9db97af06830013ca2f6cdceff65:4d5bb464c3f2306b52f620ce89b854b4"
+      },
+      {
+        "title": "PARAMOUNT+ - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/df2fcpxsh6/out/v1/89d38bf488cb449483ffdeb27fc7cb9c/cenc.mpd",
+        "key": "9aa0ec2310e086cbb8d9366778754d9b:7671f4366e1830f5cf813b3743487235"
+      },
+      {
+        "title": "TNT SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd",
+        "key": "f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
+      },
+      {
+        "title": "VIX SPANISH - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/zdwmdb6lxx/out/v1/5c4455c571ae467ca76c6b6ca0ad80f1/cenc.mpd",
+        "key": "5660dbb05d107ec88dcb4a39c881b072:01e8fad169fe68a2ea4986befb802396"
+      }
+    ]
   },
   {
     "id": 3959,
