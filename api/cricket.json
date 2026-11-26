@@ -56,13 +56,13 @@
       {
         "title": "WILLOW - AQ",
         "type": "dash",
-        "url": "https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/v2yxukjfq7/out/v1/d093cf88ecf4409bb4826370dd3a6ae1/cenc.mpd",
-        "key": "3f5ea90db87fe08afdd98d45ed35b738:bb6170ee6b9e08576c32f534ee44c3e2"
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/teiohs2xmz/out/v1/3369f17367944191984b7d95012548e8/cenc.mpd",
+        "key": "41901192b980eddd911c8cd7e5c516df:fabf22ee583ee08d1638dc18578d5174"
       },
       {
         "title": "CRICKET AU AQ",
         "type": "hls",
-        "url": "https://host-64-235-250-99.contentfabric.io/qlibs/ilibBFVVnZD2HsyW1Rmi5atMjddq2NQ/q/hq__dVZgXBpQHUsLeZTQjSwnub4hdL3wREy9jdqbC7q3uSBsSFZYDiZvrMC8iX1kEHPsYAeWrJsXbLF/rep/playout/default/hls-aes128/playlist.m3u8?authorization=acssjc9GqKQhD4zgqPicqVYwswYaABaCB3jwPAVvkLx1EL32F2KP8DFeqn44MqnMRhyb3p6Wpqeusjeicq8xNzCTPcJ7BL1QnMsoqBMdBQQ2Rf5pqiKHyzRJXH7YqGAtwX5xUnwwkRXHzRnH5XGPPt754h4jDns8muXs4NJ8jNe7LrtbKsjbyqZrD4KBXZDdW8bd5snaakLojDTsTdN8bSFtRmptuLfjxcZnm6MeWtsooShecHSWN9gTEfftm9EpmSZoKg9ndKURd3nwe5eS6AvSJfEL6AyQQi9EcSTEoAYpfWFP8zt4VF9yLd7CrUoMyRvNRjeCUgYThtBdNjJuMHKhK66Y3sASuAYfxNC1dL7enmuk8pbWhJ5ZqvGjhcns48NfPqK485rCSiQyFMyRFJaoGABnJJzSYJnSZys4F1p4hvbQwF2SMoh5aRQJ9rcNF6R4HSrr1qVjesjFoGvcSV3reXYWao1J89yJ2hsZkvs6nQcCDrSVyEjHc4zsY4MDDsPYaB7tPFxVGZZmmojfu156r1pc8sjPb2yna1oMCexRoqyLxwWd8iytJ3jyBGrgxrxtz58NrDVaBWJik2a&sid=FFE63BD8137F",
+        "url": "https://host-64-235-250-99.contentfabric.io/qlibs/ilibBFVVnZD2HsyW1Rmi5atMjddq2NQ/q/hq__2GapTrGM8HC5WXnbA6bzAozHCCBMY52Y3TC69oRNUsW2vE2ZqcprUHApPAgvNRbeECYmKzYiConP/rep/playout/default/hls-aes128/playlist.m3u8?authorization=acssjc9GqKQhD4zgqPicqVYwswYaABaCB3jwPAVvkLx1EL32F2KP8DFeqn44MqnMRhyb3p6Wpqeusjeicq8xNzCTPcJ7BL1QnMsoqBMdBQQ2Rf5pqiKHyzRJXH7YqGAtwX5xUnwwkRXHzRnH5XGPPt754h4jDns8muXs4NJ8jNe7LrtbKsjbyqZrD4KBXZDdW8bd5snaakLojDTsTdN8bSFtRmptuLfjxcZnm6MeWtsooShecHSWN9gTEfftm9EpmSZoKg9ndKURd3nwe5eS6AvSJfEL6AyQQi9EcSTEoAYpfWFP8zt4VF9yLd7CrUoMyRvNRjeCUgYThtBdNjJuMHKhK66Y3sASuAYfxNC1dL7enmuk8pbWhJ5ZqvGjhcns48NfPqK485rCSiQyFMyRFJaoGABnJJzSYJnSZys4F1p4hvbQwF2SMoh5aRQJ9rcNF6R4HSrr1qVjesjFoGvcSV3reXYWao1J89yJ2hsZkvs6nQcCDrSVyEjHc4zsY4MDDsPYaB7tPFxVGZZmmojfu156r1pc8sjPb2yna1oMCexRoqyLxwWd8iytJ3jyBGrgxrxtz58NrDVaBWJik2a&sid=193794596381",
         "key": null
       },
       {
@@ -86,7 +86,7 @@
       {
         "title": "FANCODE [IND]",
         "type": "hls",
-        "url": "https://in-mc-vod.fancode.com/mumbai/4250420_english_hls_ac2784bf3e70568_1ta-di_h264/index.m3u8",
+        "url": "https://in-mc-vod.fancode.com/mumbai/4250421_english_hls_c58bc13b0511119_1ta-di_h264/index.m3u8",
         "key": null
       }
     ]
@@ -110,7 +110,38 @@
       "startTimeUTC": "2026/11/26 10:00:00 +0000",
       "endTimeUTC": null
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "WILLOW - AQ",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/po7s7fvgjq/out/v1/5c412831b960410cb880428166b74dee/cenc.mpd",
+        "key": "531497de47944ade5410fe5852905698:574547fdae92793f4630b65dade01761"
+      },
+      {
+        "title": "STARZPLAY FHD",
+        "type": "dash",
+        "url": "https://d1ifzl5cnhi7bu.cloudfront.net/out/v1/45ba30e075ad455a8767d3f33e67ea3d/index.mpd",
+        "key": "0ae4f162eec3e6f2b580a5bf0f4a64d4:03483335db81cba5bbcf51b6d31196d9"
+      },
+      {
+        "title": "TAMASHA AQ",
+        "type": "hls",
+        "url": "https://cdn06khi-n.tamashaweb.com:8087/appcast/ACC-men-AC26-b-abr/playlist.m3u8",
+        "key": null
+      },
+      {
+        "title": "WILLOW S2 - AQ",
+        "type": "dash",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/po7s7fvgjq/out/v1/5c412831b960410cb880428166b74dee/cenc.mpd",
+        "key": "531497de47944ade5410fe5852905698:574547fdae92793f4630b65dade01761"
+      },
+      {
+        "title": "PTV SPORTS HD",
+        "type": "hls",
+        "url": "https://live.msnetworks.net/ptv-sports/master.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 1997,
