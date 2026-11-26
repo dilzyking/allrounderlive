@@ -1,26 +1,5 @@
 [
   {
-    "id": 4000,
-    "title": "Al-Fateh vs Al-Riyadh",
-    "slug": "Al-Fateh-vs-Al-Riyadh",
-    "cat": "Football",
-    "status": "ended",
-    "event": {
-      "name": "Saudi Pro League",
-      "category": "Football",
-      "teamA": "Al-Fateh",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/56023/image",
-      "teamB": "Al-Riyadh",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/168088/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/955/image/dark",
-      "startTimeIST": "2026-11-26 19:55:00 IST",
-      "endTimeIST": "2026-11-26 22:15:00 IST",
-      "startTimeUTC": "2026/11/26 14:25:00 +0000",
-      "endTimeUTC": "2026/11/26 16:45:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 3945,
     "title": "FC Kairat Almaty vs Mjällby AIF",
     "slug": "FC-Kairat-Almaty-vs-Mjällby-AIF",
