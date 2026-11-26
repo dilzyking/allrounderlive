@@ -38,7 +38,7 @@
     "title": "AC Sparta Praha vs AZ Alkmaar",
     "slug": "AC-Sparta-Praha-vs-AZ-Alkmaar",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Europa League",
       "category": "Football",
@@ -52,14 +52,27 @@
       "startTimeUTC": "2026/11/26 20:00:00 +0000",
       "endTimeUTC": "2026/11/26 22:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "DAZN SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/l6sfgniifz/out/v1/df7f0a6ddae64fbdb93f255cbe9e8f82/cenc.mpd",
+        "key": "6e3517446dc9fd6446d36331b91851ed:f8da9d831839e2cdf9a4fe1ce732fe33"
+      },
+      {
+        "title": "Sport CZ - AQ",
+        "type": "dash",
+        "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
+        "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+      }
+    ]
   },
   {
     "id": 3974,
     "title": "Crystal Palace vs Real Sociedad",
     "slug": "Crystal-Palace-vs-Real-Sociedad",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Europa League",
       "category": "Football",
@@ -74,6 +87,12 @@
       "endTimeUTC": "2026/11/26 22:20:00 +0000"
     },
     "dashStreams": [
+      {
+        "title": "DAZN SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/nd1xuoz7ye/out/v1/b0eb56ea939c4889a2d173f513a396a6/cenc.mpd",
+        "key": "462b272590fa75e396098595295d7156:e2c8e4aae17e74cfe3db31b5d7fef5ff"
+      },
       {
         "title": "TNT SPORTS - AQ",
         "type": "dash",
@@ -93,7 +112,7 @@
     "title": "CSKA Sofia vs Trabzonspor",
     "slug": "CSKA-Sofia-vs-Trabzonspor",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Conference League",
       "category": "Football",
@@ -114,7 +133,7 @@
     "title": "Doncaster Rovers vs Huddersfield Town",
     "slug": "Doncaster-Rovers-vs-Huddersfield-Town",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "League One",
       "category": "Football",
@@ -135,7 +154,7 @@
     "title": "FC Nordsjælland vs Panathinaikos FC",
     "slug": "FC-Nordsjælland-vs-Panathinaikos-FC",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Conference League",
       "category": "Football",
@@ -156,7 +175,7 @@
     "title": "Ferencváros TC vs NK Celje",
     "slug": "Ferencváros-TC-vs-NK-Celje",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Europa League",
       "category": "Football",
@@ -170,14 +189,21 @@
       "startTimeUTC": "2026/11/26 20:00:00 +0000",
       "endTimeUTC": "2026/11/26 22:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "DAZN SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/s51xhb5ixx/out/v1/52f83b89e42640bba700c51db2cb65fe/cenc.mpd",
+        "key": "2a13189e1cf415f4784d670ecf4c58e1:06e086f9e17f1150382a1ae106494807"
+      }
+    ]
   },
   {
     "id": 3979,
     "title": "FK Borac Banja Luka vs Atalanta",
     "slug": "FK-Borac-Banja-Luka-vs-Atalanta",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Conference League",
       "category": "Football",
@@ -191,14 +217,21 @@
       "startTimeUTC": "2026/11/26 20:00:00 +0000",
       "endTimeUTC": "2026/11/26 22:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "DAZN SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5xc4hvmidl/out/v1/c4280d2204834ab89ea8061744b7557e/cenc.mpd",
+        "key": "80a9d11d288ef6b19064ceca49f16705:2c54da5bd4447419b50d27d8a69ad72c"
+      }
+    ]
   },
   {
     "id": 3980,
     "title": "HNK Hajduk Split vs Sint-Truidense VV",
     "slug": "HNK-Hajduk-Split-vs-Sint-Truidense-VV",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Conference League",
       "category": "Football",
@@ -219,7 +252,7 @@
     "title": "Inter Club d'Escaldes vs FC København",
     "slug": "Inter-Club-d'Escaldes-vs-FC-København",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Conference League",
       "category": "Football",
@@ -240,7 +273,7 @@
     "title": "Juventus vs Omonia Nicosia",
     "slug": "Juventus-vs-Omonia-Nicosia",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Europa League",
       "category": "Football",
@@ -274,7 +307,7 @@
     "title": "KAA Gent vs FK Crvena zvezda",
     "slug": "KAA-Gent-vs-FK-Crvena-zvezda",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Conference League",
       "category": "Football",
@@ -295,7 +328,7 @@
     "title": "NEC Nijmegen vs Stade Rennais",
     "slug": "NEC-Nijmegen-vs-Stade-Rennais",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Europa League",
       "category": "Football",
@@ -316,7 +349,7 @@
     "title": "OFI Crete vs RSC Anderlecht",
     "slug": "OFI-Crete-vs-RSC-Anderlecht",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Europa League",
       "category": "Football",
@@ -330,14 +363,21 @@
       "startTimeUTC": "2026/11/26 20:00:00 +0000",
       "endTimeUTC": "2026/11/26 22:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "DAZN SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ldaubazqbc/out/v1/71a959b551d342a89613f362dfaca109/cenc.mpd",
+        "key": "a1f2f5f9b9b7caf40763d6fe67dd3048:60ba52351ffc4c6b6ae3ee8966ddbe1c"
+      }
+    ]
   },
   {
     "id": 3986,
     "title": "Olympique Lyonnais vs Lillestrøm SK",
     "slug": "Olympique-Lyonnais-vs-Lillestrøm-SK",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Europa League",
       "category": "Football",
@@ -351,14 +391,21 @@
       "startTimeUTC": "2026/11/26 20:00:00 +0000",
       "endTimeUTC": "2026/11/26 22:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "DAZN SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/umlbuet7s5/out/v1/578a78f7ce8148dc8f14e6f9c4c4257c/cenc.mpd",
+        "key": "c2678fb72f3c7779d17492a9f7b0b138:04f68e9e61f1c8faa7fab0d9910dfea4"
+      }
+    ]
   },
   {
     "id": 3987,
     "title": "SC Freiburg vs FC Twente",
     "slug": "SC-Freiburg-vs-FC-Twente",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Conference League",
       "category": "Football",
@@ -372,14 +419,27 @@
       "startTimeUTC": "2026/11/26 20:00:00 +0000",
       "endTimeUTC": "2026/11/26 22:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "DAZN SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rxeswgsoq3/out/v1/5819e6e83e5446f9b824c6a0d724c7ec/cenc.mpd",
+        "key": "68624ac9b3773bf50172e715d7f82ff8:5c27cdaa83a530940953af8565215968"
+      },
+      {
+        "title": "Sky Top Event- AQ",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gjsukewpxp/out/v1/ef14aacf858248839b9867eec5caf563/cenc.mpd",
+        "key": "368bd4ebe301406897324bc777650411:69d27c2c2b7de927d67aacc973259901"
+      }
+    ]
   },
   {
     "id": 3988,
     "title": "Sporting Braga vs Kuopion Palloseura",
     "slug": "Sporting-Braga-vs-Kuopion-Palloseura",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Conference League",
       "category": "Football",
@@ -400,7 +460,7 @@
     "title": "Sunderland vs Jagiellonia Białystok",
     "slug": "Sunderland-vs-Jagiellonia-Białystok",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Europa League",
       "category": "Football",
@@ -421,7 +481,7 @@
     "title": "Torreense vs Celtic",
     "slug": "Torreense-vs-Celtic",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Europa League",
       "category": "Football",
@@ -437,6 +497,12 @@
     },
     "dashStreams": [
       {
+        "title": "DAZN SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/1r4rx5ln0v/out/v1/717557cc9ad24261ab77623a2158b0cf/cenc.mpd",
+        "key": "6f55f0e920eb85f020a3c819f527145d:ca4c07a3962dca63b823733aaa7b7d69"
+      },
+      {
         "title": "TNT SPORTS - AQ",
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd?",
@@ -449,7 +515,7 @@
     "title": "TSG Hoffenheim vs SK Sturm Graz",
     "slug": "TSG-Hoffenheim-vs-SK-Sturm-Graz",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "UEFA Europa League",
       "category": "Football",
