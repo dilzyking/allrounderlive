@@ -100,6 +100,18 @@
         "key": "69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
       },
       {
+        "title": "PARAMOUNT+ - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tvduxlb9ie/out/v1/e94e073cf7024656b262a6915cfde8c0/cenc.mpd",
+        "key": "902b14e19be832cf34a9889e2850f3f2:cde2d3366b8bc3ac411c4c315528ed54"
+      },
+      {
+        "title": "VIX SPANISH - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5dwyj38stk/out/v1/ba23558c95cf412bbd7c5e73ec9c23d2/cenc.mpd",
+        "key": "88df49a825acbf13c95710ddaaf22cdd:7ded23a5709b2ba057e601f68e078bf9"
+      },
+      {
         "title": "Sport CZ - AQ",
         "type": "dash",
         "url": "https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd",
@@ -126,7 +138,14 @@
       "startTimeUTC": "2026/11/26 20:00:00 +0000",
       "endTimeUTC": "2026/11/26 22:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/asavfkqt6o/out/v1/b0e8e5d6c020477b89ecf7c641aff79b/cenc.mpd",
+        "key": "02440318a34e369ac8582785b2197d43:3fafea25a33b970e32632919797f5162"
+      }
+    ]
   },
   {
     "id": 3976,
@@ -174,6 +193,12 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/d7xcz7rioe/out/v1/96e07a52601443afb0716f1f629cb125/cenc.mpd",
         "key": "29cabc40079948889270672cdb4e8bda:18b4ecca3274892bb397388378d9c98d"
+      },
+      {
+        "title": "VIX SPANISH - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/in1byv9kxb/out/v1/5b47785e66814ea59c06686245b2db19/cenc.mpd",
+        "key": "5aa0c86d77284f235e97c5d7e801f492:50cc7b4c45c75abc80d92753c44d2741"
       }
     ]
   },
@@ -236,6 +261,12 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5xc4hvmidl/out/v1/c4280d2204834ab89ea8061744b7557e/cenc.mpd",
         "key": "80a9d11d288ef6b19064ceca49f16705:2c54da5bd4447419b50d27d8a69ad72c"
+      },
+      {
+        "title": "VIX SPANISH - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qzohspxfio/out/v1/2ba8fd73df9048a1a02a44e78ef0d36c/cenc.mpd",
+        "key": "0bdc839e16c9cbf909b51b1c29c5ab68:4137e8a7e828b78935b6393df845f2ba"
       }
     ]
   },
@@ -264,6 +295,12 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b5pbwl1cne/out/v1/50c08b0c9e264918af62eeb3f268c2ba/cenc.mpd",
         "key": "124fab59784417d9b78fe1369571712b:182610e03e1b1925385eb13fa90449f9"
+      },
+      {
+        "title": "VIX SPANISH - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vdivyuprtt/out/v1/9d3fbdd64a7c46e6aaef568fd4e6b18b/cenc.mpd",
+        "key": "515d1e79ac40d29d322aaff7d72a38e3:eff3f71e227fd37ce120500794ac09cf"
       }
     ]
   },
@@ -308,6 +345,18 @@
       "endTimeUTC": "2026/11/26 22:20:00 +0000"
     },
     "dashStreams": [
+      {
+        "title": "DAZN SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qmdfsvbkhw/out/v1/9d9a5f06d3054765b3685131718c4c79/cenc.mpd",
+        "key": "e30f3a4b7ddf4c7464fce2d4d21febdb:eedc4de3e7c4c8a5b4b37eaf3f1079b2"
+      },
+      {
+        "title": "PARAMOUNT+ - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/pdkzc3mnvm/out/v1/945e01ccd3ae463ebfa583663557503b/cenc.mpd",
+        "key": "76bca7f24e675364248ba09479d69cb2:36a8e2b4dba47d62d2c91eab5320cc4d"
+      },
       {
         "title": "TNT SPORTS - AQ",
         "type": "dash",
@@ -389,6 +438,12 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ldaubazqbc/out/v1/71a959b551d342a89613f362dfaca109/cenc.mpd",
         "key": "a1f2f5f9b9b7caf40763d6fe67dd3048:60ba52351ffc4c6b6ae3ee8966ddbe1c"
+      },
+      {
+        "title": "PARAMOUNT+ - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yxovu0ikea/out/v1/942a4df6f8014b9ca76a7ae254e66fe3/cenc.mpd",
+        "key": "1e2df296fc484d87ba17a83d29ff90e4:9e1af717b5d201582ff00a5ed53f15cf"
       }
     ]
   },
@@ -417,6 +472,12 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/umlbuet7s5/out/v1/578a78f7ce8148dc8f14e6f9c4c4257c/cenc.mpd",
         "key": "c2678fb72f3c7779d17492a9f7b0b138:04f68e9e61f1c8faa7fab0d9910dfea4"
+      },
+      {
+        "title": "PARAMOUNT+ - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ct9mx5npak/out/v1/206b509094744f4d99da3d82acc201a3/cenc.mpd",
+        "key": "dd3c66bee767c44c347e01e245a499ed:278aafbfb1dd7a19125c1e10088b819d"
       }
     ]
   },
@@ -445,6 +506,12 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rxeswgsoq3/out/v1/5819e6e83e5446f9b824c6a0d724c7ec/cenc.mpd",
         "key": "68624ac9b3773bf50172e715d7f82ff8:5c27cdaa83a530940953af8565215968"
+      },
+      {
+        "title": "VIX SPANISH - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/zdwmdb6lxx/out/v1/5c4455c571ae467ca76c6b6ca0ad80f1/cenc.mpd",
+        "key": "5660dbb05d107ec88dcb4a39c881b072:01e8fad169fe68a2ea4986befb802396"
       },
       {
         "title": "Sky Top Event- AQ",
@@ -479,7 +546,26 @@
       "startTimeUTC": "2026/11/26 20:00:00 +0000",
       "endTimeUTC": "2026/11/26 22:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/6urbdoci3k/out/v1/a3c0af7f01ee43adb93a41b5b628270f/cenc.mpd",
+        "key": "4b28f616e925e9978a13e3feb08e57c8:4f9c5372dcef094324f67e0fab2c2817"
+      },
+      {
+        "title": "VIX SPANISH - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ljv91ssvaf/out/v1/83e94e1e8f76494f8173edb038f25837/cenc.mpd",
+        "key": "11489e74f183c6efde6937ade246d534:7f1a2054803b986ea67f7a687cb18b74"
+      },
+      {
+        "title": "HD STREAM",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/eaa7ecd3-f512-4d89-b2a3-dac88bfad48b.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 3989,
@@ -533,6 +619,12 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd?",
         "key": "cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca"
+      },
+      {
+        "title": "PARAMOUNT+ - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5xzu4ctvbh/out/v1/84b9ed4edde44d41b98b0b464dbe73e1/cenc.mpd",
+        "key": "45fb300b7cd79cb8d36d8269ff8178f7:c64d1c608fd89a85042b528c1e763f8b"
       }
     ]
   },
