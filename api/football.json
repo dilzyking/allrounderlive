@@ -4,7 +4,7 @@
     "title": "FC Kairat Almaty vs Mjällby AIF",
     "slug": "FC-Kairat-Almaty-vs-Mjällby-AIF",
     "cat": "Football",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "UEFA Conference League",
       "category": "Football",
@@ -154,6 +154,12 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/dfwewesw54/out/v1/522359f03dd5411fa96d4fb84375f0df/cenc.mpd",
         "key": "629217a2952c541bed541053bebb6e79:78329d9e16fd79edd93ff9f7f9c758e8"
+      },
+      {
+        "title": "CBS SPORTS GOLAZO AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
+        "key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
       }
     ]
   },
@@ -210,6 +216,24 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/cxta6wlwp1/out/v1/96c7261ded824ca39d451e33d3e6d875/cenc.mpd",
         "key": "a551b3d6acde3b8129a73c8959cba2c8:b34fa2c92050fc7fcdee926bb22f3e86"
+      },
+      {
+        "title": "DAZN SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0ffjvt1wlh/out/v1/69ed4fc09d9445a0b59979961006b728/cenc.mpd",
+        "key": "c21e9b8527df8aa55bc140393e1fad00:d7b34a0884b623956697da4d50bdd27d"
+      },
+      {
+        "title": "TAPMAD - AQ",
+        "type": "hls",
+        "url": "https://tencent-cdn.tapmad.com/v1/01a145abfb3a1ea540a81c2b41b751/01a145ae0ac115fc600b1e3e9683da/main.m3u8",
+        "key": null
+      },
+      {
+        "title": "SD STREAM",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/47973fb9-5fc7-4f7f-9e4d-d2bd31982fff.m3u8",
+        "key": null
       }
     ]
   },
@@ -343,6 +367,12 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/k1bwdg5kfu/out/v1/b7ac206b2fd246639d3217c94d0eed3e/cenc.mpd",
         "key": "ebae2f293e2e9fb2eb9ff014776597c2:148156a6fbb6fa0aa0b8c722938e27e5"
+      },
+      {
+        "title": "SD STREAM",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/krrrAAAA.m3u8",
+        "key": null
       }
     ]
   },
@@ -426,6 +456,12 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0keycyqndv/out/v1/d02098fcd05a4cb493d1ddfb43a7f740/cenc.mpd",
         "key": "814438d5703e3091ccaff67e2bdf9728:a6c682d526cbbf31cbbc337486502fb5"
+      },
+      {
+        "title": "VIX SPANISH - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/2qwwvg28xe/out/v1/35bf817a846f4b2ea8f985703c913924/cenc.mpd",
+        "key": "80857a9b5d637b797ba996406f8ac9b4:4c93e401414832bb8233892e1ec7c3bb"
       }
     ]
   },
@@ -515,6 +551,18 @@
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/pyfcv7ruof/out/v1/a6ea7f29aa204b159e9c517ae78762e7/cenc.mpd",
         "key": "2a68df24ec78920e6aece0d131aeaf75:b91bf889803ea4ed78ae40286e9c34e8"
+      },
+      {
+        "title": "DAZN SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/sml41rrgvv/out/v1/c1b7524c122d453985a73c7bb9b8f420/cenc.mpd",
+        "key": "d122f0e2658e24fa3deb4012780c9efb:c9bbe113dff17a5f5da35ab2d3aa28c2"
+      },
+      {
+        "title": "SD STREAM",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/674e9f65-cba5-4638-a401-500b0118d9bb.m3u8",
+        "key": null
       }
     ]
   },
