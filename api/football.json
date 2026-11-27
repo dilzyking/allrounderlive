@@ -4,7 +4,7 @@
     "title": "Macarthur FC vs Melbourne City",
     "slug": "Macarthur-FC-vs-Melbourne-City",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "A-League Men",
       "category": "Football",
@@ -38,27 +38,6 @@
         "key": "ec7ee27d83764e4b845c48cca31c8eef:9c0e4191203fccb0fde34ee29999129e"
       }
     ]
-  },
-  {
-    "id": 4015,
-    "title": "Apolonia Fier U17 vs Elite Youth Academy U17",
-    "slug": "Apolonia-Fier-U17-vs-Elite-Youth-Academy-U17",
-    "cat": "Football",
-    "status": "upcoming",
-    "event": {
-      "name": "U17 Abissnet Superiore",
-      "category": "Football",
-      "teamA": "Apolonia Fier U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1292380/image",
-      "teamB": "Elite Youth Academy U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1292387/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/38703/image/dark",
-      "startTimeIST": "2026-11-27 17:30:00 IST",
-      "endTimeIST": "2026-11-27 19:50:00 IST",
-      "startTimeUTC": "2026/11/27 12:00:00 +0000",
-      "endTimeUTC": "2026/11/27 14:20:00 +0000"
-    },
-    "dashStreams": []
   },
   {
     "id": 4016,
