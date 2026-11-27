@@ -69,6 +69,12 @@
     },
     "dashStreams": [
       {
+        "title": "D Sports ES - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd",
+        "key": "f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
+      },
+      {
         "title": "HD STREAM",
         "type": "hls",
         "url": "https://live3979.zundrixmediapipeline.com/live/channel19.m3u8",
