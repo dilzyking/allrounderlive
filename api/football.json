@@ -4,7 +4,7 @@
     "title": "Al-Kholood vs Al-Khaleej",
     "slug": "Al-Kholood-vs-Al-Khaleej",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Saudi Pro League",
       "category": "Football",
@@ -60,7 +60,14 @@
       "startTimeUTC": "2026/11/27 13:00:00 +0000",
       "endTimeUTC": "2026/11/27 15:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "HD STREAM",
+        "type": "hls",
+        "url": "https://live3979.zundrixmediapipeline.com/live/channel19.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 4018,
@@ -81,7 +88,14 @@
       "startTimeUTC": "2026/11/27 13:00:00 +0000",
       "endTimeUTC": "2026/11/27 15:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "HD STREAM",
+        "type": "hls",
+        "url": "https://live3979.zundrixmediapipeline.com/live/channel11.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 4019,
