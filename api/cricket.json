@@ -1,63 +1,5 @@
 [
   {
-    "id": 3892,
-    "title": "Bangladesh A vs Pakistan A",
-    "slug": "Bangladesh-A-vs-Pakistan-A",
-    "cat": "Cricket",
-    "status": "live",
-    "event": {
-      "name": "Asia Cup Rising Stars",
-      "category": "Cricket",
-      "teamA": "Bangladesh A",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/187809/image",
-      "teamB": "Pakistan A",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/213104/image",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn2rCtrI68Agu71aIWID9YxzlqXN-3c88k4cwPQQhwEA&s=10",
-      "startTimeIST": "2026-11-27 15:30:00 IST",
-      "endTimeIST": null,
-      "startTimeUTC": "2026/11/27 10:00:00 +0000",
-      "endTimeUTC": null
-    },
-    "dashStreams": [
-      {
-        "title": "WILLOW - AQ",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/7bkbqed1bj/out/v1/cc1b68d926844c0e9440675578e2a82b/cenc.mpd",
-        "key": "24dea51a9817383c884a175a7bc74549:86e7bd926119ff53f5eda7457afd8ee3"
-      },
-      {
-        "title": "WILLOW S2 - AQ",
-        "type": "dash",
-        "url": "https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/7bkbqed1bj/out/v1/cc1b68d926844c0e9440675578e2a82b/cenc.mpd",
-        "key": "24dea51a9817383c884a175a7bc74549:86e7bd926119ff53f5eda7457afd8ee3"
-      },
-      {
-        "title": "SONYLIV ENG - AQ",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120299/Criclive2711/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795816046~acl=/*~id=20723742361426238784894684349112~hmac=635a5fc7b20eed1f7db4301562129f810d88787d75931312144c184d500aa982",
-        "key": null
-      },
-      {
-        "title": "TAMASHA AQ",
-        "type": "hls",
-        "url": "https://cdn06khi-n.tamashaweb.com:8087/appcast/ACC-men-AC26-abr/playlist.m3u8",
-        "key": null
-      },
-      {
-        "title": "PTV SPORTS HD",
-        "type": "hls",
-        "url": "https://live.msnetworks.net/ptv-sports/master.m3u8",
-        "key": null
-      },
-      {
-        "title": "HD SERVER",
-        "type": "hls",
-        "url": "https://dai.google.com/linear/hls/event/yaROyE-bScOVYZWWXQoBdQ/master.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 1884,
     "title": "International League T20",
     "slug": "ILT-T20-vs-ILT-T",
@@ -350,5 +292,26 @@
         "key": null
       }
     ]
+  },
+  {
+    "id": 4408,
+    "title": "Sri Lanka A vs Pakistan A",
+    "slug": "Sri-Lanka-A-vs-Pakistan-A",
+    "cat": "Cricket",
+    "status": "upcoming",
+    "event": {
+      "name": "Asia Cup Rising Stars",
+      "category": "Cricket",
+      "teamA": "Sri Lanka A",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/187756/image",
+      "teamB": "Pakistan A",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/213104/image",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn2rCtrI68Agu71aIWID9YxzlqXN-3c88k4cwPQQhwEA&s=10",
+      "startTimeIST": "2026-11-29 15:30:00 IST",
+      "endTimeIST": null,
+      "startTimeUTC": "2026/11/29 10:00:00 +0000",
+      "endTimeUTC": null
+    },
+    "dashStreams": []
   }
 ]
