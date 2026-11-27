@@ -4,7 +4,7 @@
     "title": "Al-Ittihad vs Neom SC",
     "slug": "Al-Ittihad-vs-Neom-SC",
     "cat": "Football",
-    "status": "live",
+    "status": "ended",
     "event": {
       "name": "Saudi Pro League",
       "category": "Football",
@@ -69,10 +69,34 @@
     },
     "dashStreams": [
       {
+        "title": "SKY BUNDESLIGA - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lf6ajotsgb/out/v1/5cb3ebc857154f9a94ab114037adb683/cenc.mpd",
+        "key": "453f2209b8018ef19deb3d73862dab69:a1a6f566ced17173f4636f38e9be5970"
+      },
+      {
+        "title": "PEACOCK ES - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/maanoeqzs8/out/v1/38cc1e025cec427fa8cef5fa4983f6be/cenc.mpd",
+        "key": "85e4f481b44e70c30aded405b26c962d:f934839b98c7e6dbefc00a7fe8b63d53"
+      },
+      {
         "title": "Sky Top Event- AQ",
         "type": "dash",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gjsukewpxp/out/v1/ef14aacf858248839b9867eec5caf563/cenc.mpd",
         "key": "368bd4ebe301406897324bc777650411:69d27c2c2b7de927d67aacc973259901"
+      },
+      {
+        "title": "TAPMAD - AQ",
+        "type": "hls",
+        "url": "https://tencent-cdn.tapmad.com/v1/01a14abbcff31ea540a81c2b41b760/01a14abc06421567ee931e109fa577/main.m3u8",
+        "key": null
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/88fbc948-5f87-44b7-b376-f2f52765a58e.m3u8",
+        "key": null
       }
     ]
   },
@@ -97,6 +121,12 @@
     },
     "dashStreams": [
       {
+        "title": "DAZN SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rmn19s8wdd/out/v1/c6fff80daa1945ff8fdac0c199dea401/cenc.mpd",
+        "key": "d668737f16a0f76a7e3f57d1566697bf:68d3ed7004cbe4f6a6c569bc03f9db88"
+      },
+      {
         "title": "beIN SPORTS - AQ",
         "type": "dash",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/katdnhkzqv/out/v1/2469724fa7754a4da6861d8ba80de958/cenc.mpd?",
@@ -107,6 +137,12 @@
         "type": "dash",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/e3ozww2yny/out/v1/3a16d07c2cc0444bb8ea10d0483d1ced/cenc.mpd?",
         "key": "74cbe15488783fab07ff8c702fabafcd:bb607803a49c2d6104f845e7886c971c"
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/7b56e7fa-1a8c-49f6-9884-239228beb295.m3u8",
+        "key": null
       }
     ]
   },
@@ -131,16 +167,46 @@
     },
     "dashStreams": [
       {
+        "title": "DAZN SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/8k46ztto00/out/v1/447ebc03e794450c98f24d7591323b91/cenc.mpd",
+        "key": "0b6273c96d73dbe33a1c23d0cdafd0f5:02c9d302b52a335d5894b959c7163687"
+      },
+      {
+        "title": "PARAMOUNT+ - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gg0rmjihjl/out/v1/4ccddc4ece124dfea1218da02041c157/cenc.mpd",
+        "key": "e6e22985c29a0dfdecf528c4a7676460:fe1afefdbc44ca30d050c91a9bce398d"
+      },
+      {
         "title": "beIN SPORTS - AQ",
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd",
         "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
       },
       {
+        "title": "FUBO SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/yukpgzjukf/out/v1/e9584c6de0d145a9ac1b36ddf7795081/cenc.mpd",
+        "key": "e09a0900100e5ac77d4adb45a602a86b:7da511a38053d3e150d38f47ac7d8298"
+      },
+      {
+        "title": "DAZN ITALIA - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ustjfegyos/out/v1/b7211fed5c814088aa644380e13f0501/cenc.mpd",
+        "key": "98bd6fc54947d165d36e5a04de3f0581:db0a1eedf65951e5046fc9997eb4296a"
+      },
+      {
         "title": "Sport CZ - AQ",
         "type": "dash",
         "url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd",
         "key": "11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
+      },
+      {
+        "title": "HD SERVER",
+        "type": "hls",
+        "url": "https://www.rtmpcdn.com/live/4e2e7e1a-211e-42db-803f-e8c812dade15.m3u8",
+        "key": null
       }
     ]
   },
@@ -563,7 +629,7 @@
     "dashStreams": []
   },
   {
-    "id": 4512,
+    "id": 4516,
     "title": "Angers vs RC Lens",
     "slug": "Angers-vs-RC-Lens",
     "cat": "Football",
@@ -584,7 +650,7 @@
     "dashStreams": []
   },
   {
-    "id": 4516,
+    "id": 4520,
     "title": "Angers vs RC Lens",
     "slug": "Angers-vs-RC-Lens",
     "cat": "Football",
@@ -710,27 +776,6 @@
     "dashStreams": []
   },
   {
-    "id": 4513,
-    "title": "Le Mans vs LOSC Lille",
-    "slug": "Le-Mans-vs-LOSC-Lille",
-    "cat": "Football",
-    "status": "upcoming",
-    "event": {
-      "name": "Ligue 1",
-      "category": "Football",
-      "teamA": "Le Mans",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1672/image",
-      "teamB": "LOSC Lille",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1643/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/34/image/dark",
-      "startTimeIST": "2026-11-29 01:15:00 IST",
-      "endTimeIST": "2026-11-29 03:35:00 IST",
-      "startTimeUTC": "2026/11/28 19:45:00 +0000",
-      "endTimeUTC": "2026/11/28 22:05:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 4517,
     "title": "Le Mans vs LOSC Lille",
     "slug": "Le-Mans-vs-LOSC-Lille",
@@ -752,18 +797,18 @@
     "dashStreams": []
   },
   {
-    "id": 4514,
-    "title": "OGC Nice vs Troyes",
-    "slug": "OGC-Nice-vs-Troyes",
+    "id": 4521,
+    "title": "Le Mans vs LOSC Lille",
+    "slug": "Le-Mans-vs-LOSC-Lille",
     "cat": "Football",
     "status": "upcoming",
     "event": {
       "name": "Ligue 1",
       "category": "Football",
-      "teamA": "OGC Nice",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1661/image",
-      "teamB": "Troyes",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1652/image",
+      "teamA": "Le Mans",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1672/image",
+      "teamB": "LOSC Lille",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1643/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/34/image/dark",
       "startTimeIST": "2026-11-29 01:15:00 IST",
       "endTimeIST": "2026-11-29 03:35:00 IST",
@@ -794,7 +839,28 @@
     "dashStreams": []
   },
   {
-    "id": 4515,
+    "id": 4522,
+    "title": "OGC Nice vs Troyes",
+    "slug": "OGC-Nice-vs-Troyes",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Ligue 1",
+      "category": "Football",
+      "teamA": "OGC Nice",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1661/image",
+      "teamB": "Troyes",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1652/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/34/image/dark",
+      "startTimeIST": "2026-11-29 01:15:00 IST",
+      "endTimeIST": "2026-11-29 03:35:00 IST",
+      "startTimeUTC": "2026/11/28 19:45:00 +0000",
+      "endTimeUTC": "2026/11/28 22:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 4519,
     "title": "Paris Saint-Germain vs Lorient",
     "slug": "Paris-Saint-Germain-vs-Lorient",
     "cat": "Football",
@@ -815,7 +881,7 @@
     "dashStreams": []
   },
   {
-    "id": 4519,
+    "id": 4523,
     "title": "Paris Saint-Germain vs Lorient",
     "slug": "Paris-Saint-Germain-vs-Lorient",
     "cat": "Football",
