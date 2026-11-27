@@ -1,113 +1,5 @@
 [
   {
-    "id": 4019,
-    "title": "Costa Rica U17 vs Brazil U17",
-    "slug": "Costa-Rica-U17-vs-Brazil-U17",
-    "cat": "Football",
-    "status": "ended",
-    "event": {
-      "name": "U17 World Championship",
-      "category": "Football",
-      "teamA": "Costa Rica U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/22593/image",
-      "teamB": "Brazil U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/22586/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
-      "startTimeIST": "2026-11-27 19:30:00 IST",
-      "endTimeIST": "2026-11-27 21:50:00 IST",
-      "startTimeUTC": "2026/11/27 14:00:00 +0000",
-      "endTimeUTC": "2026/11/27 16:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "TSN SPORTS - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd",
-        "key": "385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8"
-      },
-      {
-        "title": "FOX SPORTS - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
-        "key": "09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
-      },
-      {
-        "title": "D Sports ES - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ud6bnhthpj/out/v1/2639a2f4480f4269953de466d5f46463/cenc.mpd",
-        "key": "83f81c4cc1443991543de4e22eea7586:ddfd7ca653d6f35543d8edb3c688e20f"
-      },
-      {
-        "title": "HD STREAM",
-        "type": "hls",
-        "url": "https://live3979.zundrixmediapipeline.com/live/channel18.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 4153,
-    "title": "Inter Kashi FC vs Churchill Brothers SC",
-    "slug": "Inter-Kashi-FC-vs-Churchill-Brothers-SC",
-    "cat": "Football",
-    "status": "ended",
-    "event": {
-      "name": "Indian Super League",
-      "category": "Football",
-      "teamA": "Inter Kashi FC",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/494686/image",
-      "teamB": "Churchill Brothers SC",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/40078/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/1900/image/dark",
-      "startTimeIST": "2026-11-27 19:30:00 IST",
-      "endTimeIST": "2026-11-27 21:50:00 IST",
-      "startTimeUTC": "2026/11/27 14:00:00 +0000",
-      "endTimeUTC": "2026/11/27 16:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SONYLIV ENG - AQ",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120301/Footlive2711/ENG/std_lrh-800300010.m3u8?hdnea=exp=1795829360~acl=/*~id=95429286744713212509089428602683~hmac=4702b5e5ae1b913d9c297563b82cc724ff8d2ee29092374d6f0092e99b324281",
-        "key": null
-      },
-      {
-        "title": "SONYLIV HIN - AQ",
-        "type": "hls",
-        "url": "https://sonyeventsglobal.akamaized.net/hls/live/2120301/Footlive2711/HIN/std_lrh-800300010.m3u8?hdnea=exp=1795829360~acl=/*~id=95429286744713212509089428602683~hmac=4702b5e5ae1b913d9c297563b82cc724ff8d2ee29092374d6f0092e99b324281",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 4020,
-    "title": "Ireland U17 vs Tanzania U17",
-    "slug": "Ireland-U17-vs-Tanzania-U17",
-    "cat": "Football",
-    "status": "ended",
-    "event": {
-      "name": "U17 World Championship",
-      "category": "Football",
-      "teamA": "Ireland U17",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/22476/image",
-      "teamB": "Tanzania U17",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1231931/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/279/image/dark",
-      "startTimeIST": "2026-11-27 19:30:00 IST",
-      "endTimeIST": "2026-11-27 21:50:00 IST",
-      "startTimeUTC": "2026/11/27 14:00:00 +0000",
-      "endTimeUTC": "2026/11/27 16:20:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "HD STREAM",
-        "type": "hls",
-        "url": "https://live3979.zundrixmediapipeline.com/live/channel4.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 4154,
     "title": "Al-Qadsiah vs Al-Fayha",
     "slug": "Al-Qadsiah-vs-Al-Fayha",
@@ -774,7 +666,7 @@
     "dashStreams": []
   },
   {
-    "id": 4343,
+    "id": 4347,
     "title": "Angers vs RC Lens",
     "slug": "Angers-vs-RC-Lens",
     "cat": "Football",
@@ -795,7 +687,7 @@
     "dashStreams": []
   },
   {
-    "id": 4347,
+    "id": 4351,
     "title": "Angers vs RC Lens",
     "slug": "Angers-vs-RC-Lens",
     "cat": "Football",
@@ -921,27 +813,6 @@
     "dashStreams": []
   },
   {
-    "id": 4344,
-    "title": "Le Mans vs LOSC Lille",
-    "slug": "Le-Mans-vs-LOSC-Lille",
-    "cat": "Football",
-    "status": "upcoming",
-    "event": {
-      "name": "Ligue 1",
-      "category": "Football",
-      "teamA": "Le Mans",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1672/image",
-      "teamB": "LOSC Lille",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1643/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/34/image/dark",
-      "startTimeIST": "2026-11-29 01:15:00 IST",
-      "endTimeIST": "2026-11-29 03:35:00 IST",
-      "startTimeUTC": "2026/11/28 19:45:00 +0000",
-      "endTimeUTC": "2026/11/28 22:05:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 4348,
     "title": "Le Mans vs LOSC Lille",
     "slug": "Le-Mans-vs-LOSC-Lille",
@@ -963,18 +834,18 @@
     "dashStreams": []
   },
   {
-    "id": 4345,
-    "title": "OGC Nice vs Troyes",
-    "slug": "OGC-Nice-vs-Troyes",
+    "id": 4352,
+    "title": "Le Mans vs LOSC Lille",
+    "slug": "Le-Mans-vs-LOSC-Lille",
     "cat": "Football",
     "status": "upcoming",
     "event": {
       "name": "Ligue 1",
       "category": "Football",
-      "teamA": "OGC Nice",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1661/image",
-      "teamB": "Troyes",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1652/image",
+      "teamA": "Le Mans",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1672/image",
+      "teamB": "LOSC Lille",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1643/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/34/image/dark",
       "startTimeIST": "2026-11-29 01:15:00 IST",
       "endTimeIST": "2026-11-29 03:35:00 IST",
@@ -1005,7 +876,28 @@
     "dashStreams": []
   },
   {
-    "id": 4346,
+    "id": 4353,
+    "title": "OGC Nice vs Troyes",
+    "slug": "OGC-Nice-vs-Troyes",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Ligue 1",
+      "category": "Football",
+      "teamA": "OGC Nice",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1661/image",
+      "teamB": "Troyes",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1652/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/34/image/dark",
+      "startTimeIST": "2026-11-29 01:15:00 IST",
+      "endTimeIST": "2026-11-29 03:35:00 IST",
+      "startTimeUTC": "2026/11/28 19:45:00 +0000",
+      "endTimeUTC": "2026/11/28 22:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 4350,
     "title": "Paris Saint-Germain vs Lorient",
     "slug": "Paris-Saint-Germain-vs-Lorient",
     "cat": "Football",
@@ -1026,7 +918,7 @@
     "dashStreams": []
   },
   {
-    "id": 4350,
+    "id": 4354,
     "title": "Paris Saint-Germain vs Lorient",
     "slug": "Paris-Saint-Germain-vs-Lorient",
     "cat": "Football",
