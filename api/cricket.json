@@ -66,6 +66,12 @@
         "key": null
       },
       {
+        "title": "FANCODE - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+        "key": "1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
+      },
+      {
         "title": "TNT SPORTS - AQ",
         "type": "dash",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd",
@@ -82,6 +88,12 @@
         "type": "dash",
         "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/u2edccnzno/out/v1/cd3ccce21dcf49b386b83b4ec4d4be78/cenc.mpd",
         "key": "74042336c8b0ea8aec8cfff587323e45:a0b6920e1735c7245036a2c53067fd49"
+      },
+      {
+        "title": "FANCODE SD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/eayjamsonn/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd",
+        "key": "5318e462b9e0677487cb87837f0bbdb1:4fa0fb973b95738306005f2e8591bf8e"
       },
       {
         "title": "TAPMAD HD",
