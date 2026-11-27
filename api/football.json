@@ -1057,7 +1057,7 @@
     "dashStreams": []
   },
   {
-    "id": 4634,
+    "id": 4659,
     "title": "Angers vs RC Lens",
     "slug": "Angers-vs-RC-Lens",
     "cat": "Football",
@@ -1078,7 +1078,7 @@
     "dashStreams": []
   },
   {
-    "id": 4659,
+    "id": 4686,
     "title": "Angers vs RC Lens",
     "slug": "Angers-vs-RC-Lens",
     "cat": "Football",
@@ -1330,27 +1330,6 @@
     "dashStreams": []
   },
   {
-    "id": 4635,
-    "title": "Le Mans vs LOSC Lille",
-    "slug": "Le-Mans-vs-LOSC-Lille",
-    "cat": "Football",
-    "status": "upcoming",
-    "event": {
-      "name": "Ligue 1",
-      "category": "Football",
-      "teamA": "Le Mans",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1672/image",
-      "teamB": "LOSC Lille",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1643/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/34/image/dark",
-      "startTimeIST": "2026-11-29 01:15:00 IST",
-      "endTimeIST": "2026-11-29 03:35:00 IST",
-      "startTimeUTC": "2026/11/28 19:45:00 +0000",
-      "endTimeUTC": "2026/11/28 22:05:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 4666,
     "title": "Le Mans vs LOSC Lille",
     "slug": "Le-Mans-vs-LOSC-Lille",
@@ -1372,18 +1351,18 @@
     "dashStreams": []
   },
   {
-    "id": 4636,
-    "title": "OGC Nice vs Troyes",
-    "slug": "OGC-Nice-vs-Troyes",
+    "id": 4687,
+    "title": "Le Mans vs LOSC Lille",
+    "slug": "Le-Mans-vs-LOSC-Lille",
     "cat": "Football",
     "status": "upcoming",
     "event": {
       "name": "Ligue 1",
       "category": "Football",
-      "teamA": "OGC Nice",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1661/image",
-      "teamB": "Troyes",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1652/image",
+      "teamA": "Le Mans",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1672/image",
+      "teamB": "LOSC Lille",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1643/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/34/image/dark",
       "startTimeIST": "2026-11-29 01:15:00 IST",
       "endTimeIST": "2026-11-29 03:35:00 IST",
@@ -1414,7 +1393,28 @@
     "dashStreams": []
   },
   {
-    "id": 4637,
+    "id": 4688,
+    "title": "OGC Nice vs Troyes",
+    "slug": "OGC-Nice-vs-Troyes",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Ligue 1",
+      "category": "Football",
+      "teamA": "OGC Nice",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1661/image",
+      "teamB": "Troyes",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1652/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/34/image/dark",
+      "startTimeIST": "2026-11-29 01:15:00 IST",
+      "endTimeIST": "2026-11-29 03:35:00 IST",
+      "startTimeUTC": "2026/11/28 19:45:00 +0000",
+      "endTimeUTC": "2026/11/28 22:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 4668,
     "title": "Paris Saint-Germain vs Lorient",
     "slug": "Paris-Saint-Germain-vs-Lorient",
     "cat": "Football",
@@ -1435,7 +1435,7 @@
     "dashStreams": []
   },
   {
-    "id": 4668,
+    "id": 4689,
     "title": "Paris Saint-Germain vs Lorient",
     "slug": "Paris-Saint-Germain-vs-Lorient",
     "cat": "Football",
@@ -1666,27 +1666,6 @@
     "dashStreams": []
   },
   {
-    "id": 4190,
-    "title": "Udinese vs Fiorentina",
-    "slug": "Udinese-vs-Fiorentina",
-    "cat": "Football",
-    "status": "upcoming",
-    "event": {
-      "name": "Serie A",
-      "category": "Football",
-      "teamA": "Udinese",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2695/image",
-      "teamB": "Fiorentina",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2693/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/23/image/dark",
-      "startTimeIST": "2026-11-29 17:00:00 IST",
-      "endTimeIST": "2026-11-29 19:20:00 IST",
-      "startTimeUTC": "2026/11/29 11:30:00 +0000",
-      "endTimeUTC": "2026/11/29 13:50:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 4678,
     "title": "Udinese vs Fiorentina",
     "slug": "Udinese-vs-Fiorentina",
@@ -1708,7 +1687,28 @@
     "dashStreams": []
   },
   {
-    "id": 4191,
+    "id": 4690,
+    "title": "Udinese vs Fiorentina",
+    "slug": "Udinese-vs-Fiorentina",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Serie A",
+      "category": "Football",
+      "teamA": "Udinese",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2695/image",
+      "teamB": "Fiorentina",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2693/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/23/image/dark",
+      "startTimeIST": "2026-11-29 17:00:00 IST",
+      "endTimeIST": "2026-11-29 19:20:00 IST",
+      "startTimeUTC": "2026/11/29 11:30:00 +0000",
+      "endTimeUTC": "2026/11/29 13:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 4679,
     "title": "Everton vs Liverpool FC",
     "slug": "Everton-vs-Liverpool-FC",
     "cat": "Football",
@@ -1729,7 +1729,7 @@
     "dashStreams": []
   },
   {
-    "id": 4679,
+    "id": 4691,
     "title": "Everton vs Liverpool FC",
     "slug": "Everton-vs-Liverpool-FC",
     "cat": "Football",
@@ -1771,27 +1771,6 @@
     "dashStreams": []
   },
   {
-    "id": 4205,
-    "title": "1. FC Magdeburg vs Energie Cottbus",
-    "slug": "1.-FC-Magdeburg-vs-Energie-Cottbus",
-    "cat": "Football",
-    "status": "upcoming",
-    "event": {
-      "name": "2. Bundesliga",
-      "category": "Football",
-      "teamA": "1. FC Magdeburg",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2591/image",
-      "teamB": "Energie Cottbus",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2532/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/44/image/dark",
-      "startTimeIST": "2026-11-29 18:00:00 IST",
-      "endTimeIST": "2026-11-29 20:20:00 IST",
-      "startTimeUTC": "2026/11/29 12:30:00 +0000",
-      "endTimeUTC": "2026/11/29 14:50:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 4681,
     "title": "1. FC Magdeburg vs Energie Cottbus",
     "slug": "1.-FC-Magdeburg-vs-Energie-Cottbus",
@@ -1813,7 +1792,28 @@
     "dashStreams": []
   },
   {
-    "id": 4206,
+    "id": 4692,
+    "title": "1. FC Magdeburg vs Energie Cottbus",
+    "slug": "1.-FC-Magdeburg-vs-Energie-Cottbus",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "2. Bundesliga",
+      "category": "Football",
+      "teamA": "1. FC Magdeburg",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/2591/image",
+      "teamB": "Energie Cottbus",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/2532/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/44/image/dark",
+      "startTimeIST": "2026-11-29 18:00:00 IST",
+      "endTimeIST": "2026-11-29 20:20:00 IST",
+      "startTimeUTC": "2026/11/29 12:30:00 +0000",
+      "endTimeUTC": "2026/11/29 14:50:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 4682,
     "title": "Eintracht Braunschweig vs VfL Wolfsburg",
     "slug": "Eintracht-Braunschweig-vs-VfL-Wolfsburg",
     "cat": "Football",
@@ -1834,7 +1834,7 @@
     "dashStreams": []
   },
   {
-    "id": 4682,
+    "id": 4693,
     "title": "Eintracht Braunschweig vs VfL Wolfsburg",
     "slug": "Eintracht-Braunschweig-vs-VfL-Wolfsburg",
     "cat": "Football",
@@ -1897,7 +1897,7 @@
     "dashStreams": []
   },
   {
-    "id": 4193,
+    "id": 4684,
     "title": "Valencia vs Osasuna",
     "slug": "Valencia-vs-Osasuna",
     "cat": "Football",
@@ -1918,7 +1918,7 @@
     "dashStreams": []
   },
   {
-    "id": 4684,
+    "id": 4694,
     "title": "Valencia vs Osasuna",
     "slug": "Valencia-vs-Osasuna",
     "cat": "Football",
