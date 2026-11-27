@@ -365,7 +365,7 @@
     "title": "CS Marítimo vs CD Nacional",
     "slug": "CS-Marítimo-vs-CD-Nacional",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Liga Portugal Betclic",
       "category": "Football",
@@ -683,7 +683,7 @@
     "dashStreams": []
   },
   {
-    "id": 4532,
+    "id": 4536,
     "title": "Angers vs RC Lens",
     "slug": "Angers-vs-RC-Lens",
     "cat": "Football",
@@ -704,7 +704,7 @@
     "dashStreams": []
   },
   {
-    "id": 4536,
+    "id": 4540,
     "title": "Angers vs RC Lens",
     "slug": "Angers-vs-RC-Lens",
     "cat": "Football",
@@ -830,27 +830,6 @@
     "dashStreams": []
   },
   {
-    "id": 4533,
-    "title": "Le Mans vs LOSC Lille",
-    "slug": "Le-Mans-vs-LOSC-Lille",
-    "cat": "Football",
-    "status": "upcoming",
-    "event": {
-      "name": "Ligue 1",
-      "category": "Football",
-      "teamA": "Le Mans",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1672/image",
-      "teamB": "LOSC Lille",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1643/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/34/image/dark",
-      "startTimeIST": "2026-11-29 01:15:00 IST",
-      "endTimeIST": "2026-11-29 03:35:00 IST",
-      "startTimeUTC": "2026/11/28 19:45:00 +0000",
-      "endTimeUTC": "2026/11/28 22:05:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 4537,
     "title": "Le Mans vs LOSC Lille",
     "slug": "Le-Mans-vs-LOSC-Lille",
@@ -872,18 +851,18 @@
     "dashStreams": []
   },
   {
-    "id": 4534,
-    "title": "OGC Nice vs Troyes",
-    "slug": "OGC-Nice-vs-Troyes",
+    "id": 4541,
+    "title": "Le Mans vs LOSC Lille",
+    "slug": "Le-Mans-vs-LOSC-Lille",
     "cat": "Football",
     "status": "upcoming",
     "event": {
       "name": "Ligue 1",
       "category": "Football",
-      "teamA": "OGC Nice",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1661/image",
-      "teamB": "Troyes",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1652/image",
+      "teamA": "Le Mans",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1672/image",
+      "teamB": "LOSC Lille",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1643/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/34/image/dark",
       "startTimeIST": "2026-11-29 01:15:00 IST",
       "endTimeIST": "2026-11-29 03:35:00 IST",
@@ -914,7 +893,28 @@
     "dashStreams": []
   },
   {
-    "id": 4535,
+    "id": 4542,
+    "title": "OGC Nice vs Troyes",
+    "slug": "OGC-Nice-vs-Troyes",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Ligue 1",
+      "category": "Football",
+      "teamA": "OGC Nice",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1661/image",
+      "teamB": "Troyes",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1652/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/34/image/dark",
+      "startTimeIST": "2026-11-29 01:15:00 IST",
+      "endTimeIST": "2026-11-29 03:35:00 IST",
+      "startTimeUTC": "2026/11/28 19:45:00 +0000",
+      "endTimeUTC": "2026/11/28 22:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 4539,
     "title": "Paris Saint-Germain vs Lorient",
     "slug": "Paris-Saint-Germain-vs-Lorient",
     "cat": "Football",
@@ -935,7 +935,7 @@
     "dashStreams": []
   },
   {
-    "id": 4539,
+    "id": 4543,
     "title": "Paris Saint-Germain vs Lorient",
     "slug": "Paris-Saint-Germain-vs-Lorient",
     "cat": "Football",
