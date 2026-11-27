@@ -150,10 +150,10 @@
     },
     "dashStreams": [
       {
-        "title": "SKY TOP EVENT - AQ",
+        "title": "beIN SPORTS - AQ",
         "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gjsukewpxp/out/v1/ef14aacf858248839b9867eec5caf563/cenc.mpd",
-        "key": "368bd4ebe301406897324bc777650411:69d27c2c2b7de927d67aacc973259901"
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
+        "key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
       }
     ]
   },
@@ -204,7 +204,14 @@
       "startTimeUTC": "2026/11/27 17:30:00 +0000",
       "endTimeUTC": "2026/11/27 19:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "BeIN SPORTS",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd?",
+        "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
+      }
+    ]
   },
   {
     "id": 4008,
@@ -648,7 +655,7 @@
     "dashStreams": []
   },
   {
-    "id": 4372,
+    "id": 4376,
     "title": "Angers vs RC Lens",
     "slug": "Angers-vs-RC-Lens",
     "cat": "Football",
@@ -669,7 +676,7 @@
     "dashStreams": []
   },
   {
-    "id": 4376,
+    "id": 4380,
     "title": "Angers vs RC Lens",
     "slug": "Angers-vs-RC-Lens",
     "cat": "Football",
@@ -795,27 +802,6 @@
     "dashStreams": []
   },
   {
-    "id": 4373,
-    "title": "Le Mans vs LOSC Lille",
-    "slug": "Le-Mans-vs-LOSC-Lille",
-    "cat": "Football",
-    "status": "upcoming",
-    "event": {
-      "name": "Ligue 1",
-      "category": "Football",
-      "teamA": "Le Mans",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1672/image",
-      "teamB": "LOSC Lille",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1643/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/34/image/dark",
-      "startTimeIST": "2026-11-29 01:15:00 IST",
-      "endTimeIST": "2026-11-29 03:35:00 IST",
-      "startTimeUTC": "2026/11/28 19:45:00 +0000",
-      "endTimeUTC": "2026/11/28 22:05:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 4377,
     "title": "Le Mans vs LOSC Lille",
     "slug": "Le-Mans-vs-LOSC-Lille",
@@ -837,18 +823,18 @@
     "dashStreams": []
   },
   {
-    "id": 4374,
-    "title": "OGC Nice vs Troyes",
-    "slug": "OGC-Nice-vs-Troyes",
+    "id": 4381,
+    "title": "Le Mans vs LOSC Lille",
+    "slug": "Le-Mans-vs-LOSC-Lille",
     "cat": "Football",
     "status": "upcoming",
     "event": {
       "name": "Ligue 1",
       "category": "Football",
-      "teamA": "OGC Nice",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1661/image",
-      "teamB": "Troyes",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1652/image",
+      "teamA": "Le Mans",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1672/image",
+      "teamB": "LOSC Lille",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1643/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/34/image/dark",
       "startTimeIST": "2026-11-29 01:15:00 IST",
       "endTimeIST": "2026-11-29 03:35:00 IST",
@@ -879,7 +865,28 @@
     "dashStreams": []
   },
   {
-    "id": 4375,
+    "id": 4382,
+    "title": "OGC Nice vs Troyes",
+    "slug": "OGC-Nice-vs-Troyes",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Ligue 1",
+      "category": "Football",
+      "teamA": "OGC Nice",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1661/image",
+      "teamB": "Troyes",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1652/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/34/image/dark",
+      "startTimeIST": "2026-11-29 01:15:00 IST",
+      "endTimeIST": "2026-11-29 03:35:00 IST",
+      "startTimeUTC": "2026/11/28 19:45:00 +0000",
+      "endTimeUTC": "2026/11/28 22:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 4379,
     "title": "Paris Saint-Germain vs Lorient",
     "slug": "Paris-Saint-Germain-vs-Lorient",
     "cat": "Football",
@@ -900,7 +907,7 @@
     "dashStreams": []
   },
   {
-    "id": 4379,
+    "id": 4383,
     "title": "Paris Saint-Germain vs Lorient",
     "slug": "Paris-Saint-Germain-vs-Lorient",
     "cat": "Football",
