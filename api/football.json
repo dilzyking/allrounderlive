@@ -1,39 +1,5 @@
 [
   {
-    "id": 4025,
-    "title": "1. FC Heidenheim vs 1. FC Nürnberg",
-    "slug": "1.-FC-Heidenheim-vs-1.-FC-Nürnberg",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "2. Bundesliga",
-      "category": "Football",
-      "teamA": "1. FC Heidenheim",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/5885/image",
-      "teamB": "1. FC Nürnberg",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2523/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/44/image/dark",
-      "startTimeIST": "2026-11-27 23:00:00 IST",
-      "endTimeIST": "2026-11-28 01:20:00 IST",
-      "startTimeUTC": "2026/11/27 17:30:00 +0000",
-      "endTimeUTC": "2026/11/27 19:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "SKY BUNDESLIGA - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oi4rnidcwc/out/v1/0e3c984eb7284664919152f18e7915b1/cenc.mpd",
-        "key": "42650c79c7a241e79d18488fef3d75da:42c319fd698c3914b7bfbaa38d08e41e"
-      },
-      {
-        "title": "beIN SPORTS - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
-        "key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
-      }
-    ]
-  },
-  {
     "id": 4026,
     "title": "Al-Ittihad vs Neom SC",
     "slug": "Al-Ittihad-vs-Neom-SC",
@@ -52,78 +18,7 @@
       "startTimeUTC": "2026/11/27 17:30:00 +0000",
       "endTimeUTC": "2026/11/27 19:50:00 +0000"
     },
-    "dashStreams": [
-      {
-        "title": "FOX DEPORTES - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
-        "key": "d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811"
-      },
-      {
-        "title": "SPORTDIGITAL FUSSBALL - AQ",
-        "type": "hls",
-        "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/77693/77693_264_live.m3u8",
-        "key": null
-      },
-      {
-        "title": "FANCODE [IND]",
-        "type": "hls",
-        "url": "https://in-mc-vod.fancode.com/mumbai/4250970_english_hls_5c8f2d6b0231805_1ta-di_h264/index.m3u8",
-        "key": null
-      },
-      {
-        "title": "TAPMAD - AQ",
-        "type": "hls",
-        "url": "https://tencent-cdn.tapmad.com/v1/01a14ab8af8915fc600b1e3e9683f0/01a14ab953dd1ea540a81c2b41b75f/main.m3u8",
-        "key": null
-      },
-      {
-        "title": "TAPMAD - AQ",
-        "type": "hls",
-        "url": "https://serieAleague.akamaized.net/hls/live/2107107/A1@25853-tapmad/master.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
-    "id": 4027,
-    "title": "VfL Bochum 1848 vs Darmstadt 98",
-    "slug": "VfL-Bochum-1848-vs-Darmstadt-98",
-    "cat": "Football",
-    "status": "live",
-    "event": {
-      "name": "2. Bundesliga",
-      "category": "Football",
-      "teamA": "VfL Bochum 1848",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/2542/image",
-      "teamB": "Darmstadt 98",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/2576/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/44/image/dark",
-      "startTimeIST": "2026-11-27 23:00:00 IST",
-      "endTimeIST": "2026-11-28 01:20:00 IST",
-      "startTimeUTC": "2026/11/27 17:30:00 +0000",
-      "endTimeUTC": "2026/11/27 19:50:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "BeIN SPORTS",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd?",
-        "key": "7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-      },
-      {
-        "title": "SKY BUNDESLIGA - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ubiowncrej/out/v1/def874d66d3b4dfa99c354ee7d0855c0/cenc.mpd",
-        "key": "f38ce843871b3e5aa97b8461a093a424:b51d62eeec9c136513c12ea7ec291f6f"
-      },
-      {
-        "title": "SKY TOP EVENT - AQ",
-        "type": "dash",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gjsukewpxp/out/v1/ef14aacf858248839b9867eec5caf563/cenc.mpd",
-        "key": "368bd4ebe301406897324bc777650411:69d27c2c2b7de927d67aacc973259901"
-      }
-    ]
+    "dashStreams": []
   },
   {
     "id": 4008,
@@ -298,10 +193,22 @@
     },
     "dashStreams": [
       {
-        "title": "SKY SPORTS PL - AQ",
+        "title": "FUBO SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/dub-nitro/live/clients/dash/enc/1wlv9dr4vx/out/v1/632322be5f1047acb2472f90f8857182/cenc.mpd",
+        "key": "42f72c025dd53039244adc13b7e31dad:a7bd941a19f6dd14f3004a623a6ad3a1"
+      },
+      {
+        "title": "SKY SPORTS EPL",
         "type": "hls",
-        "url": "https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=eXsDq9RXXLqUQkamaHEreA&e=2075749056&scheme=https",
+        "url": "https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=Dxx13S3dlOjavbRFqRtQ6g&e=2075285630&scheme=",
         "key": null
+      },
+      {
+        "title": "SKY SPORT PL - AQ",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qdbhkwig26/out/v1/c3a69dfec0434abea00756cd73e749ff/cenc.mpd",
+        "key": "1106fb025da5b31657618344099c6c14:788284538616a73b56214e90196a6e0f"
       }
     ]
   },
@@ -324,7 +231,14 @@
       "startTimeUTC": "2026/11/27 20:00:00 +0000",
       "endTimeUTC": "2026/11/27 22:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "beIN SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd",
+        "key": "0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
+      }
+    ]
   },
   {
     "id": 4409,
@@ -642,7 +556,7 @@
     "dashStreams": []
   },
   {
-    "id": 4500,
+    "id": 4504,
     "title": "Angers vs RC Lens",
     "slug": "Angers-vs-RC-Lens",
     "cat": "Football",
@@ -663,7 +577,7 @@
     "dashStreams": []
   },
   {
-    "id": 4504,
+    "id": 4508,
     "title": "Angers vs RC Lens",
     "slug": "Angers-vs-RC-Lens",
     "cat": "Football",
@@ -789,27 +703,6 @@
     "dashStreams": []
   },
   {
-    "id": 4501,
-    "title": "Le Mans vs LOSC Lille",
-    "slug": "Le-Mans-vs-LOSC-Lille",
-    "cat": "Football",
-    "status": "upcoming",
-    "event": {
-      "name": "Ligue 1",
-      "category": "Football",
-      "teamA": "Le Mans",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1672/image",
-      "teamB": "LOSC Lille",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1643/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/34/image/dark",
-      "startTimeIST": "2026-11-29 01:15:00 IST",
-      "endTimeIST": "2026-11-29 03:35:00 IST",
-      "startTimeUTC": "2026/11/28 19:45:00 +0000",
-      "endTimeUTC": "2026/11/28 22:05:00 +0000"
-    },
-    "dashStreams": []
-  },
-  {
     "id": 4505,
     "title": "Le Mans vs LOSC Lille",
     "slug": "Le-Mans-vs-LOSC-Lille",
@@ -831,18 +724,18 @@
     "dashStreams": []
   },
   {
-    "id": 4502,
-    "title": "OGC Nice vs Troyes",
-    "slug": "OGC-Nice-vs-Troyes",
+    "id": 4509,
+    "title": "Le Mans vs LOSC Lille",
+    "slug": "Le-Mans-vs-LOSC-Lille",
     "cat": "Football",
     "status": "upcoming",
     "event": {
       "name": "Ligue 1",
       "category": "Football",
-      "teamA": "OGC Nice",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/1661/image",
-      "teamB": "Troyes",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/1652/image",
+      "teamA": "Le Mans",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1672/image",
+      "teamB": "LOSC Lille",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1643/image",
       "logo": "https://img.sofascore.com/api/v1/unique-tournament/34/image/dark",
       "startTimeIST": "2026-11-29 01:15:00 IST",
       "endTimeIST": "2026-11-29 03:35:00 IST",
@@ -873,7 +766,28 @@
     "dashStreams": []
   },
   {
-    "id": 4503,
+    "id": 4510,
+    "title": "OGC Nice vs Troyes",
+    "slug": "OGC-Nice-vs-Troyes",
+    "cat": "Football",
+    "status": "upcoming",
+    "event": {
+      "name": "Ligue 1",
+      "category": "Football",
+      "teamA": "OGC Nice",
+      "teamAFlag": "https://img.sofascore.com/api/v1/team/1661/image",
+      "teamB": "Troyes",
+      "teamBFlag": "https://img.sofascore.com/api/v1/team/1652/image",
+      "logo": "https://img.sofascore.com/api/v1/unique-tournament/34/image/dark",
+      "startTimeIST": "2026-11-29 01:15:00 IST",
+      "endTimeIST": "2026-11-29 03:35:00 IST",
+      "startTimeUTC": "2026/11/28 19:45:00 +0000",
+      "endTimeUTC": "2026/11/28 22:05:00 +0000"
+    },
+    "dashStreams": []
+  },
+  {
+    "id": 4507,
     "title": "Paris Saint-Germain vs Lorient",
     "slug": "Paris-Saint-Germain-vs-Lorient",
     "cat": "Football",
@@ -894,7 +808,7 @@
     "dashStreams": []
   },
   {
-    "id": 4507,
+    "id": 4511,
     "title": "Paris Saint-Germain vs Lorient",
     "slug": "Paris-Saint-Germain-vs-Lorient",
     "cat": "Football",
