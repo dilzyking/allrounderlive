@@ -1,39 +1,5 @@
 [
   {
-    "id": 4001,
-    "title": "The - Golazo Show",
-    "slug": "The-Golazo-Show",
-    "cat": "Football",
-    "status": "ended",
-    "event": {
-      "name": "The - Golazo Show",
-      "category": "Football",
-      "teamA": "Golazo Show",
-      "teamAFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf0OgZU9w1HJQZAizR01jaXii00guX9UNv-QR5cveBhQ&s=10",
-      "teamB": "Golazo Show",
-      "teamBFlag": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf0OgZU9w1HJQZAizR01jaXii00guX9UNv-QR5cveBhQ&s=10",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf0OgZU9w1HJQZAizR01jaXii00guX9UNv-QR5cveBhQ&s=10",
-      "startTimeIST": "2026-11-26 23:10:00 IST",
-      "endTimeIST": "2026-11-27 09:27:00 IST",
-      "startTimeUTC": "2026/11/26 17:40:00 +0000",
-      "endTimeUTC": "2026/11/27 03:57:00 +0000"
-    },
-    "dashStreams": [
-      {
-        "title": "PARAMOUNT+",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/dfwewesw54/out/v1/522359f03dd5411fa96d4fb84375f0df/cenc.mpd",
-        "key": "629217a2952c541bed541053bebb6e79:78329d9e16fd79edd93ff9f7f9c758e8"
-      },
-      {
-        "title": "CBS SPORTS GOLAZO AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd",
-        "key": "d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-      }
-    ]
-  },
-  {
     "id": 3993,
     "title": "Macarthur FC vs Melbourne City",
     "slug": "Macarthur-FC-vs-Melbourne-City",
