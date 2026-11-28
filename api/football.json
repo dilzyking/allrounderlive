@@ -122,7 +122,7 @@
     "title": "Blackburn Rovers vs Charlton Athletic",
     "slug": "Blackburn-Rovers-vs-Charlton-Athletic",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Championship",
       "category": "Football",
@@ -143,7 +143,7 @@
     "title": "Lincoln City vs Wolverhampton",
     "slug": "Lincoln-City-vs-Wolverhampton",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Championship",
       "category": "Football",
@@ -164,7 +164,7 @@
     "title": "Preston North End vs Norwich City",
     "slug": "Preston-North-End-vs-Norwich-City",
     "cat": "Football",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "Championship",
       "category": "Football",
@@ -206,7 +206,14 @@
       "startTimeUTC": "2026/11/28 13:00:00 +0000",
       "endTimeUTC": "2026/11/28 15:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PREMIER SPORTS - AQ",
+        "type": "dash",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd",
+        "key": "1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f"
+      }
+    ]
   },
   {
     "id": 4232,
@@ -227,7 +234,14 @@
       "startTimeUTC": "2026/11/28 13:00:00 +0000",
       "endTimeUTC": "2026/11/28 15:20:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "LALIGA HYPEMOTION ES - AQ",
+        "type": "dash",
+        "url": "https://cache4.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd",
+        "key": "a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
+      }
+    ]
   },
   {
     "id": 4642,
@@ -713,7 +727,7 @@
     "dashStreams": []
   },
   {
-    "id": 6212,
+    "id": 6230,
     "title": "Angers vs RC Lens",
     "slug": "Angers-vs-RC-Lens",
     "cat": "Football",
@@ -734,7 +748,7 @@
     "dashStreams": []
   },
   {
-    "id": 6221,
+    "id": 6239,
     "title": "Angers vs RC Lens",
     "slug": "Angers-vs-RC-Lens",
     "cat": "Football",
@@ -986,7 +1000,7 @@
     "dashStreams": []
   },
   {
-    "id": 6213,
+    "id": 6231,
     "title": "Le Mans vs LOSC Lille",
     "slug": "Le-Mans-vs-LOSC-Lille",
     "cat": "Football",
@@ -1007,7 +1021,7 @@
     "dashStreams": []
   },
   {
-    "id": 6222,
+    "id": 6240,
     "title": "Le Mans vs LOSC Lille",
     "slug": "Le-Mans-vs-LOSC-Lille",
     "cat": "Football",
@@ -1028,7 +1042,7 @@
     "dashStreams": []
   },
   {
-    "id": 6214,
+    "id": 6232,
     "title": "OGC Nice vs Troyes",
     "slug": "OGC-Nice-vs-Troyes",
     "cat": "Football",
@@ -1049,7 +1063,7 @@
     "dashStreams": []
   },
   {
-    "id": 6223,
+    "id": 6241,
     "title": "OGC Nice vs Troyes",
     "slug": "OGC-Nice-vs-Troyes",
     "cat": "Football",
@@ -1070,7 +1084,7 @@
     "dashStreams": []
   },
   {
-    "id": 6215,
+    "id": 6233,
     "title": "Paris Saint-Germain vs Lorient",
     "slug": "Paris-Saint-Germain-vs-Lorient",
     "cat": "Football",
@@ -1091,7 +1105,7 @@
     "dashStreams": []
   },
   {
-    "id": 6224,
+    "id": 6242,
     "title": "Paris Saint-Germain vs Lorient",
     "slug": "Paris-Saint-Germain-vs-Lorient",
     "cat": "Football",
@@ -1343,7 +1357,7 @@
     "dashStreams": []
   },
   {
-    "id": 6216,
+    "id": 6234,
     "title": "Udinese vs Fiorentina",
     "slug": "Udinese-vs-Fiorentina",
     "cat": "Football",
@@ -1364,7 +1378,7 @@
     "dashStreams": []
   },
   {
-    "id": 6225,
+    "id": 6243,
     "title": "Udinese vs Fiorentina",
     "slug": "Udinese-vs-Fiorentina",
     "cat": "Football",
@@ -1385,7 +1399,7 @@
     "dashStreams": []
   },
   {
-    "id": 6217,
+    "id": 6235,
     "title": "Everton vs Liverpool FC",
     "slug": "Everton-vs-Liverpool-FC",
     "cat": "Football",
@@ -1406,7 +1420,7 @@
     "dashStreams": []
   },
   {
-    "id": 6226,
+    "id": 6244,
     "title": "Everton vs Liverpool FC",
     "slug": "Everton-vs-Liverpool-FC",
     "cat": "Football",
@@ -1448,7 +1462,7 @@
     "dashStreams": []
   },
   {
-    "id": 6218,
+    "id": 6236,
     "title": "1. FC Magdeburg vs Energie Cottbus",
     "slug": "1.-FC-Magdeburg-vs-Energie-Cottbus",
     "cat": "Football",
@@ -1469,7 +1483,7 @@
     "dashStreams": []
   },
   {
-    "id": 6227,
+    "id": 6245,
     "title": "1. FC Magdeburg vs Energie Cottbus",
     "slug": "1.-FC-Magdeburg-vs-Energie-Cottbus",
     "cat": "Football",
@@ -1490,7 +1504,7 @@
     "dashStreams": []
   },
   {
-    "id": 6219,
+    "id": 6237,
     "title": "Eintracht Braunschweig vs VfL Wolfsburg",
     "slug": "Eintracht-Braunschweig-vs-VfL-Wolfsburg",
     "cat": "Football",
@@ -1511,7 +1525,7 @@
     "dashStreams": []
   },
   {
-    "id": 6228,
+    "id": 6246,
     "title": "Eintracht Braunschweig vs VfL Wolfsburg",
     "slug": "Eintracht-Braunschweig-vs-VfL-Wolfsburg",
     "cat": "Football",
@@ -1574,7 +1588,7 @@
     "dashStreams": []
   },
   {
-    "id": 6220,
+    "id": 6238,
     "title": "Valencia vs Osasuna",
     "slug": "Valencia-vs-Osasuna",
     "cat": "Football",
@@ -1595,7 +1609,7 @@
     "dashStreams": []
   },
   {
-    "id": 6229,
+    "id": 6247,
     "title": "Valencia vs Osasuna",
     "slug": "Valencia-vs-Osasuna",
     "cat": "Football",
