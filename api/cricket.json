@@ -56,7 +56,7 @@
     "title": "International League T20",
     "slug": "ILT-T20-vs-ILT-T",
     "cat": "Cricket",
-    "status": "upcoming",
+    "status": "live",
     "event": {
       "name": "International League T20",
       "category": "Cricket",
@@ -128,7 +128,26 @@
       "startTimeUTC": "2026/11/28 11:00:00 +0000",
       "endTimeUTC": "2026/11/28 17:00:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "UNBEATEN FHD",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd",
+        "key": "5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b"
+      },
+      {
+        "title": "PLAYZ TV LIVE",
+        "type": "hls",
+        "url": "https://amssandbrix.sandbrix.live/sandbrix/streams/mk139q1Mi9bHznBA775016895861.m3u8",
+        "key": null
+      },
+      {
+        "title": "TAMASHA PRO AQ",
+        "type": "hls",
+        "url": "https://cdn03lhr-n.tamashaweb.com:8087/appcast/t10-italia-SVOD-abr/playlist.m3u8",
+        "key": null
+      }
+    ]
   },
   {
     "id": 1236,
