@@ -157,7 +157,14 @@
       "startTimeUTC": "2026/11/28 12:30:00 +0000",
       "endTimeUTC": "2026/11/28 14:50:00 +0000"
     },
-    "dashStreams": []
+    "dashStreams": [
+      {
+        "title": "PARAMOUNT+ - AQ",
+        "type": "dash",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/x6ginyunf7/out/v1/ed32e46a405247b7a8f07c9f8d4391fb/cenc.mpd",
+        "key": "64fcc9ada4b24f5f671f04b0599ac141:2207c97243479b71f98ff8a2eb778de8"
+      }
+    ]
   },
   {
     "id": 4641,
@@ -727,7 +734,7 @@
     "dashStreams": []
   },
   {
-    "id": 6230,
+    "id": 6248,
     "title": "Angers vs RC Lens",
     "slug": "Angers-vs-RC-Lens",
     "cat": "Football",
@@ -748,7 +755,7 @@
     "dashStreams": []
   },
   {
-    "id": 6239,
+    "id": 6257,
     "title": "Angers vs RC Lens",
     "slug": "Angers-vs-RC-Lens",
     "cat": "Football",
@@ -1000,7 +1007,7 @@
     "dashStreams": []
   },
   {
-    "id": 6231,
+    "id": 6249,
     "title": "Le Mans vs LOSC Lille",
     "slug": "Le-Mans-vs-LOSC-Lille",
     "cat": "Football",
@@ -1021,7 +1028,7 @@
     "dashStreams": []
   },
   {
-    "id": 6240,
+    "id": 6258,
     "title": "Le Mans vs LOSC Lille",
     "slug": "Le-Mans-vs-LOSC-Lille",
     "cat": "Football",
@@ -1042,7 +1049,7 @@
     "dashStreams": []
   },
   {
-    "id": 6232,
+    "id": 6250,
     "title": "OGC Nice vs Troyes",
     "slug": "OGC-Nice-vs-Troyes",
     "cat": "Football",
@@ -1063,7 +1070,7 @@
     "dashStreams": []
   },
   {
-    "id": 6241,
+    "id": 6259,
     "title": "OGC Nice vs Troyes",
     "slug": "OGC-Nice-vs-Troyes",
     "cat": "Football",
@@ -1084,7 +1091,7 @@
     "dashStreams": []
   },
   {
-    "id": 6233,
+    "id": 6251,
     "title": "Paris Saint-Germain vs Lorient",
     "slug": "Paris-Saint-Germain-vs-Lorient",
     "cat": "Football",
@@ -1105,7 +1112,7 @@
     "dashStreams": []
   },
   {
-    "id": 6242,
+    "id": 6260,
     "title": "Paris Saint-Germain vs Lorient",
     "slug": "Paris-Saint-Germain-vs-Lorient",
     "cat": "Football",
@@ -1357,7 +1364,7 @@
     "dashStreams": []
   },
   {
-    "id": 6234,
+    "id": 6252,
     "title": "Udinese vs Fiorentina",
     "slug": "Udinese-vs-Fiorentina",
     "cat": "Football",
@@ -1378,7 +1385,7 @@
     "dashStreams": []
   },
   {
-    "id": 6243,
+    "id": 6261,
     "title": "Udinese vs Fiorentina",
     "slug": "Udinese-vs-Fiorentina",
     "cat": "Football",
@@ -1399,7 +1406,7 @@
     "dashStreams": []
   },
   {
-    "id": 6235,
+    "id": 6253,
     "title": "Everton vs Liverpool FC",
     "slug": "Everton-vs-Liverpool-FC",
     "cat": "Football",
@@ -1420,7 +1427,7 @@
     "dashStreams": []
   },
   {
-    "id": 6244,
+    "id": 6262,
     "title": "Everton vs Liverpool FC",
     "slug": "Everton-vs-Liverpool-FC",
     "cat": "Football",
@@ -1462,7 +1469,7 @@
     "dashStreams": []
   },
   {
-    "id": 6236,
+    "id": 6254,
     "title": "1. FC Magdeburg vs Energie Cottbus",
     "slug": "1.-FC-Magdeburg-vs-Energie-Cottbus",
     "cat": "Football",
@@ -1483,7 +1490,7 @@
     "dashStreams": []
   },
   {
-    "id": 6245,
+    "id": 6263,
     "title": "1. FC Magdeburg vs Energie Cottbus",
     "slug": "1.-FC-Magdeburg-vs-Energie-Cottbus",
     "cat": "Football",
@@ -1504,7 +1511,7 @@
     "dashStreams": []
   },
   {
-    "id": 6237,
+    "id": 6255,
     "title": "Eintracht Braunschweig vs VfL Wolfsburg",
     "slug": "Eintracht-Braunschweig-vs-VfL-Wolfsburg",
     "cat": "Football",
@@ -1525,7 +1532,7 @@
     "dashStreams": []
   },
   {
-    "id": 6246,
+    "id": 6264,
     "title": "Eintracht Braunschweig vs VfL Wolfsburg",
     "slug": "Eintracht-Braunschweig-vs-VfL-Wolfsburg",
     "cat": "Football",
@@ -1588,7 +1595,7 @@
     "dashStreams": []
   },
   {
-    "id": 6238,
+    "id": 6256,
     "title": "Valencia vs Osasuna",
     "slug": "Valencia-vs-Osasuna",
     "cat": "Football",
@@ -1609,7 +1616,7 @@
     "dashStreams": []
   },
   {
-    "id": 6247,
+    "id": 6265,
     "title": "Valencia vs Osasuna",
     "slug": "Valencia-vs-Osasuna",
     "cat": "Football",
