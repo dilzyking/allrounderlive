@@ -1,57 +1,5 @@
 [
   {
-    "id": 4097,
-    "title": "Sydney Thunder Women vs Sydney Sixers Women",
-    "slug": "Sydney-Thunder-Women-vs-Sydney-Sixers-Women",
-    "cat": "Cricket",
-    "status": "live",
-    "event": {
-      "name": "Women's Big Bash League",
-      "category": "Cricket",
-      "teamA": "Sydney Thunder Women",
-      "teamAFlag": "https://img.sofascore.com/api/v1/team/274889/image",
-      "teamB": "Sydney Sixers Women",
-      "teamBFlag": "https://img.sofascore.com/api/v1/team/274883/image",
-      "logo": "https://img.sofascore.com/api/v1/unique-tournament/11163/image/dark",
-      "startTimeIST": "2026-11-28 13:40:00 IST",
-      "endTimeIST": null,
-      "startTimeUTC": "2026/11/28 08:10:00 +0000",
-      "endTimeUTC": null
-    },
-    "dashStreams": [
-      {
-        "title": "WILLOW - AQ",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vmx0zl2u76/out/v1/36c58b0cecc44790ac48987a20387786/cenc.mpd",
-        "key": "7e9184bb9fed0727a24a8954562d7eb6:54182ee50af7097cf46a8fa7c3cb7626"
-      },
-      {
-        "title": "SKY CRICKET - AQ",
-        "type": "hls",
-        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=7bnkGmSODWhSvD7xUkjZYw&e=2075749396&scheme=https",
-        "key": null
-      },
-      {
-        "title": "WILLOW HD",
-        "type": "dash",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd",
-        "key": "290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
-      },
-      {
-        "title": "TAPMAD - AQ",
-        "type": "hls",
-        "url": "https://tencent-cdn.tapmad.com/v1/01a14abbcff31ea540a81c2b41b760/01a14abc06421567ee931e109fa577/main.m3u8",
-        "key": null
-      },
-      {
-        "title": "FANCODE [IND]",
-        "type": "hls",
-        "url": "https://in-mc-vod.fancode.com/mumbai/4250424_english_hls_5f98ce686243433_1ta-di_h264/index.m3u8",
-        "key": null
-      }
-    ]
-  },
-  {
     "id": 1884,
     "title": "International League T20",
     "slug": "ILT-T20-vs-ILT-T",
